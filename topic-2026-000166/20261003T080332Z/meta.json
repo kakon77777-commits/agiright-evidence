@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000166",
+  "url": "https://www.justice.gov/opa/pr/civil-rights-division-secures-settlement-openai-discriminating-against-us-workers",
+  "capturedAt": "2026-10-03T08:03:32Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 92811,
+    "sha256": "4e0fd0cdcc98650244881dc3757635560e1a6a918ee9370cf45942bcff43a388",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "78436FB7260BDBCD9F92EBD5D0A51A03",
+      "status": 200,
+      "url": "https://www.justice.gov/opa/pr/civil-rights-division-secures-settlement-openai-discriminating-against-us-workers",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3721,
+      "afterScrollHeight": 3721,
+      "wantedHeight": 3721
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c30d2b814737d7bd6997b48fcfc4eb28dd52c8552911aaa6268934814b3cf94d",
+    "width": 1366,
+    "height": 3721,
+    "bytes": 518689,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3721,
+    "afterScrollHeight": 3721,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:03:32Z",
+    "url": "https://www.justice.gov/opa/pr/civil-rights-division-secures-settlement-openai-discriminating-against-us-workers",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 92811,
+      "sha256": "4e0fd0cdcc98650244881dc3757635560e1a6a918ee9370cf45942bcff43a388"
+    },
+    "finalUrl": "https://www.justice.gov/opa/pr/civil-rights-division-secures-settlement-openai-discriminating-against-us-workers",
+    "httpStatus": 200,
+    "title": "Office of Public Affairs | Civil Rights Division Secures Settlement with OpenAI for Discriminating Against U.S. Workers | United States Department of Justice",
+    "rendered": {
+      "textChars": 6275,
+      "textSha256": "9f07dc3f0de448a5bb01f858b67bee2325c778696e71ecdc8482e562dc02c6b5",
+      "htmlSha256": "3bf7d7230a0e6fcd188992c9e4bb10e8ed94e3989f341f68e00413706982998d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c30d2b814737d7bd6997b48fcfc4eb28dd52c8552911aaa6268934814b3cf94d",
+      "width": 1366,
+      "height": 3721,
+      "bytes": 518689,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260804161717",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260804161717/https://www.justice.gov/opa/pr/civil-rights-division-secures-settlement-openai-discriminating-against-us-workers"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260804161717/https://www.justice.gov/opa/pr/civil-rights-division-secures-settlement-openai-discriminating-against-us-workers",
+      "timestamp": "20260804161717",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

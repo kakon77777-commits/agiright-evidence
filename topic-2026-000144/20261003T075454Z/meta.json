@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000144",
+  "url": "https://arxiv.org/abs/2607.07405",
+  "capturedAt": "2026-10-03T07:54:54Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 44078,
+    "sha256": "c08a680309e2b617dd38f3c2e28bd7f8d4cac3a8420f8511de1881463c4a0e6e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "96A24A9C7B43AEC56127BAA4E6B0975A",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2607.07405",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1195,
+      "afterScrollHeight": 1195,
+      "wantedHeight": 1195
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "405af79c1ded415bde906aaf95c40af7e5999f5f5262dda126659859ffe61cf9",
+    "width": 1366,
+    "height": 1195,
+    "bytes": 152680,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1195,
+    "afterScrollHeight": 1195,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:54:54Z",
+    "url": "https://arxiv.org/abs/2607.07405",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 44078,
+      "sha256": "c08a680309e2b617dd38f3c2e28bd7f8d4cac3a8420f8511de1881463c4a0e6e"
+    },
+    "finalUrl": "https://arxiv.org/abs/2607.07405",
+    "httpStatus": 200,
+    "title": "[2607.07405] Reason Less, Verify More: Deterministic Gates Recover a Silent Policy-Violation Failure Mode in Tool-Using LLM Agents",
+    "rendered": {
+      "textChars": 3571,
+      "textSha256": "4617708895071935b2685d9b68c0e1ae14c042ec0d261bf9db2a6dbaca27b80f",
+      "htmlSha256": "39abbc1f702823effa5d96b9cd506c3253ae32c75e347bb6409051b7ec377c3c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "405af79c1ded415bde906aaf95c40af7e5999f5f5262dda126659859ffe61cf9",
+      "width": 1366,
+      "height": 1195,
+      "bytes": 152680,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

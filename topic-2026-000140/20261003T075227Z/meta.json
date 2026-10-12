@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000140",
+  "url": "https://www.courthousenews.com/online-streamers-sue-twitch-amazon-over-generative-ai-training/",
+  "capturedAt": "2026-10-03T07:52:27Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 4940,
+    "sha256": "e8ee43cf58b7a777c9f562e9d7451b8c4757e50cea1c8e137aba2cc64b93865a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E566E97AD0D64CB659FAB84B38689C39",
+      "status": 403,
+      "url": "https://www.courthousenews.com/online-streamers-sue-twitch-amazon-over-generative-ai-training/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1021,
+      "afterScrollHeight": 1021,
+      "wantedHeight": 1021
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d378193b929c5ed494460d82dfbe2b22bb1668615a3c0b166ec9ef3d383dc8b1",
+    "width": 1366,
+    "height": 1021,
+    "bytes": 57779,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1021,
+    "afterScrollHeight": 1021,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:52:27Z",
+    "url": "https://www.courthousenews.com/online-streamers-sue-twitch-amazon-over-generative-ai-training/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 4940,
+      "sha256": "e8ee43cf58b7a777c9f562e9d7451b8c4757e50cea1c8e137aba2cc64b93865a"
+    },
+    "finalUrl": "https://www.courthousenews.com/online-streamers-sue-twitch-amazon-over-generative-ai-training/",
+    "httpStatus": 403,
+    "title": "Attention Required! | Cloudflare",
+    "rendered": {
+      "textChars": 695,
+      "textSha256": "6f51dda1885cee9d03f17435cde44dc420dd439fb88ede07b00b13bc7847444b",
+      "htmlSha256": "f022ddf03344b143ef33b82b4e802391d2be0cf93d9aafc613de3cff6fc754ba"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d378193b929c5ed494460d82dfbe2b22bb1668615a3c0b166ec9ef3d383dc8b1",
+      "width": 1366,
+      "height": 1021,
+      "bytes": 57779,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260822002005",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260822002005/https://www.courthousenews.com/online-streamers-sue-twitch-amazon-over-generative-ai-training/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260822002005/https://www.courthousenews.com/online-streamers-sue-twitch-amazon-over-generative-ai-training/",
+      "timestamp": "20260822002005",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000133",
+  "url": "https://betanews.com/article/linux-foundation-openmdw-osi-license/",
+  "capturedAt": "2026-10-03T07:49:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5858,
+    "sha256": "6db46c85c9df28b6d74b44f9d9665050db1a2e499f67a3c402b1115670a6d57e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B8DE53D72E67B2BDC1867B6CD5584957",
+      "status": 403,
+      "url": "https://betanews.com/article/linux-foundation-openmdw-osi-license/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4548714e6eeaff2456096ec7cc0c386c92bb1b16b3443329ea3238368e06c85a",
+    "width": 1366,
+    "height": 900,
+    "bytes": 29442,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:49:59Z",
+    "url": "https://betanews.com/article/linux-foundation-openmdw-osi-license/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5858,
+      "sha256": "6db46c85c9df28b6d74b44f9d9665050db1a2e499f67a3c402b1115670a6d57e"
+    },
+    "finalUrl": "https://betanews.com/article/linux-foundation-openmdw-osi-license/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 260,
+      "textSha256": "bac37eb9547bfe38f9284beca0d2eabfda8c2e7f85f5f126c60088953a5b6ed1",
+      "htmlSha256": "2882d8ed5d1d7f750e4f0a286d55455eb3d0f345061513c806bf87f1bc3d6539"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "4548714e6eeaff2456096ec7cc0c386c92bb1b16b3443329ea3238368e06c85a",
+      "width": 1366,
+      "height": 900,
+      "bytes": 29442,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260826045032",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260826045032/https://betanews.com/article/linux-foundation-openmdw-osi-license/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260826045032/https://betanews.com/article/linux-foundation-openmdw-osi-license/",
+      "timestamp": "20260826045032",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

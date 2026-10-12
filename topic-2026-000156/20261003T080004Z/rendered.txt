@@ -1,0 +1,158 @@
+Skip to main content
+Advertisement
+CYBERSCOOP
+AISCOOP
+FEDSCOOP
+DEFENSESCOOP
+STATESCOOP
+EDSCOOP
+Advertise
+Search
+Topics
+Special Reports
+Events
+Podcasts
+Videos
+Insights
+FedScoop 50
+SUBSCRIBE
+
+Get our latest cybersecurity news first on Google.
+
+CLICK HERE!
+CLOSE
+AI
+Warner bill would create federally vetted list for secure, trustworthy AI agents
+The bill empowers the FTC to create a registry for sellers of AI agent software certifying their privacy and cybersecurity protections.
+
+BY
+DEREK B. JOHNSON
+
+JUNE 29, 2026
+
+Listen to this article
+4:03
+Learn more.
+U.S. Sen. Mark Warner (D-VA) leaves the U.S. Capitol on July 11. (Photo by Tierney L. Cross/Getty Images)
+
+Anew Senate draft bill would establish a list of AI agent software providers that people can use to establish human ownership and securely run agents on social media and other online platforms.
+
+The Artificial Intelligence Access, Gatekeeper Exchange, and Nondiscriminatory Transfer (AI AGENT) Act, led by Sen. Mark Warner, D-Va., would allow end users of large online platforms with more than 50 million customers or subscribers per month the right to choose at least one AI agent provider who complies with security and identity standards developed by the Federal Trade Commission.
+
+Such agents are increasingly making decisions on behalf of users, like shopping, posting content on social media, or changing account settings, sometimes without the user’s consent or knowledge.
+
+Under the bill, the FTC would certify independent bodies to vet AI agent vendors. These certification bodies would ensure products meet baseline protections for privacy, data security and acting in the user’s interest. The bill would also require providers to link each AI agent to its human operator’s identity and to include built-in controls that let users clearly grant or revoke permission for the agent to act on their behalf.
+
+Advertisement
+
+While the commission cannot bar platforms from using AI agent providers that fail to meet those standards, it can deregister violators from the FTC list.
+
+The bill is a discussion draft, and Warner said he was releasing it now to receive feedback before introducing a formal version for consideration in the Senate.
+
+“As agentic AI transforms how Americans interact with technology, consumers deserve a real choice in the marketplace – and AI agents must be accountable to the people they serve,” Warner said in a statement. “This discussion draft is a major step toward building a clear federal framework that promotes innovation, protects consumers, and ensures the United States continues to lead the world in emerging technology.”
+
+Last year, Morgan Stanley estimated that nearly one-in-four (23%) Americans made purchases using AI over a 30-day period, and that agentic shoppers could account for potentially hundreds of billions of dollars in online commerce by 2030.
+
+But AI agents can still be unreliable or erratic. They can make absurd purchases that a user would never knowingly approve, leak sensitive data or act contrary to a user’s interest.
+
+Advertisement
+
+As more agents flood the internet, it increases the likelihood of AI bots interacting with and buying from other AI bots – underscoring the need for safe or regulated user solutions that can verify accountable human identities behind AI activity and provide baseline security and privacy protections.
+
+The Trump administration is trying to find its own baseline for regulating frontier models. Earlier this month the Department of Commerce placed export controls on Anthropic’s Mythos 5 and Fable 5 models, and the two parties are attempting to negotiate a framework to provide government oversight of newer releases.
+
+An AI executive order released by the Trump administration set up a voluntary 30-day testing program for AI companies to submit certain frontier models for testing and evaluation, but the administration imposed the export controls days after Anthropic released Fable 5 publicly, reportedly citing concerns that the model could be jailbroken.
+
+Anthropic claims that extensive internal testing has identified no universal jailbreaks for Fable 5 and that third-party research released thus far hasn’t shown that their guardrails preventing access to the model’s enhanced cybersecurity or biological capabilities have been circumvented. Those are the capabilities that Anthropic cited when it held back its newest model, Mythos, from public release.
+
+Written by Derek B. Johnson
+Derek B. Johnson is a reporter at CyberScoop, where his beat includes cybersecurity, elections and the federal government. Prior to that, he has provided award-winning coverage of cybersecurity news across the public and private sectors for various publications since 2017. Derek has a bachelor’s degree in print journalism from Hofstra University in New York and a master’s degree in public policy from George Mason University in Virginia.
+In This Story
+LEGISLATION
+CONGRESS
+SOCIAL MEDIA
+MARK WARNER
+FEDERAL TRADE COMMISSION (FTC)
+ARTIFICIAL INTELLIGENCE (AI)
+AI CYBERSECURITY
+AI AGENTS
+SHARE
+Advertisement
+Advertisement
+More Like This
+The legal questions raised by agentic AI hacks
+BY DEREK B. JOHNSON
+National cyber director: Government-industry collaboration vital to managing AI risks, competition with nations
+BY TIM STARKS
+AI policy circles targeted in China-linked phishing operation
+BY GREG OTTO
+Advertisement
+Top Stories
+Authorities seize KillSec extortion group infrastructure, arrest 3 alleged members
+BY MATT KAPKO
+Advertisement
+More Scoops
+SAN FRANCISCO, CALIFORNIA – SEPTEMBER – 15: Nvidia CEO Jensen Huang speaks during the keynote address at Salesforce’s Dreamforce conference at the Moscone Center on September 15, 2026 in San Francisco, California. Dreamforce is an annual event that highlights the company’s technologies and encourages professional networking. (Photo by Benjamin Fanjoy/Getty Images)
+As AI world debates security, NVIDIA releases open source tools for agents
+One expert told CyberScoop that the announcement reflects industry recognition that after years of training models to behave safely or ethically, more outside controls are needed.
+BY
+DEREK B. JOHNSON
+Boston, MA – August 29: Senator Ed Markey addresses his supporters during a ‘Power to the People’ rally at the IBEW Local 103 facility on August 29, 2026. (Photo by Craig F. Walker/The Boston Globe via Getty Images)
+New bill would create federal investigative body for AI-driven hacks 
+BY
+DEREK B. JOHNSON
+In recent conversations, cybersecurity and national security professionals  raised questions about both the technical solutions OpenAI and Anthropic use to contain their models, as well as the glaring absence of federal oversight from federal regulators or truly independent third-party review. (Image via Getty)
+The AI hacking apocalypse is not inevitable
+BY
+DEREK B. JOHNSON
+The FTC wants to regulate AI for ideological bias 
+BY DEREK B. JOHNSON
+Why transparent AI agents matter more than you think
+BY CHRISTOPHE BRIGUET
+Dem senators criticize Trump administration decisionmaking on AI security risks
+BY TIM STARKS
+Senate set to debate package of bills on privacy, AI and kids safety 
+BY DEREK B. JOHNSON
+Latest Podcasts
+ What the Section 702 lapse means for cybersecurity
+ What AI alignment means for cybersecurity
+ Jailbreaks, sandboxes, and the limits of AI safeguards
+ ClickFix and the social engineering of routine
+Government
+US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says
+ShinyHunters trades financial extortion for a reckless war of ego with the FBI
+Supreme Court permits states to use SAVE database for citizenship checks
+House and Senate members propose legislation for CISA to step up cyber defenses for biotech
+Technology
+CISA outlines improvement plan for CVE program
+OpenAI, Ukraine partner on ‘Daybreak’ program to protect power grids and water systems 
+Citing China, President Trump doubles down on hands-off approach to AI regulation
+Researchers use AI to find widespread software decoder flaw 
+Threats
+WaterISAC reckons with range of threats after summer of cyberattacks
+Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected
+Russian hackers Star Blizzard expand targeting, change up tactics to reach Ukraine and beyond
+Alleged ShinyHunters leader arrested in the Netherlands
+Policy
+Bipartisan Senate leaders introduce bill to bolster telecom cybersecurity in response to Salt Typhoon hacks
+Watchdog finds most agencies failed to meet CISA cloud security orders, heightening risk of attack
+The president has called for AI leadership. Here’s the mission.
+After water attacks, Capitol Hill offers its own proposal for an AI-cyber test program
+Advertisement
+ABOUT US
+FEDSCOOP
+DEFENSESCOOP
+STATESCOOP
+EDSCOOP
+CYBERSCOOP
+AISCOOP
+NEWSLETTERS
+ADVERTISE WITH US
+AD SPECS
+(202) 887-8001
+HELLO@CYBERSCOOP.COM
+FB
+TW
+LINKEDIN
+IG
+YT

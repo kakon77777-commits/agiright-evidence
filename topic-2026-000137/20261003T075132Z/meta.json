@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000137",
+  "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+  "capturedAt": "2026-10-03T07:51:32Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 153688,
+    "sha256": "c41dd074d1b533291655201638d3265a8714f6a94c586d169ada32a647da6e98",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CCC4E4D10DE335F1BFE08B2D88CEFDD9",
+      "status": 200,
+      "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 13234,
+      "afterScrollHeight": 13234,
+      "wantedHeight": 13234
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "110651a3c5de6297d6ab2f0988bf72fea26451e5b9c0024840827a904db10297",
+    "width": 1366,
+    "height": 13234,
+    "bytes": 1727528,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 13234,
+    "afterScrollHeight": 13234,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:51:32Z",
+    "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 153688,
+      "sha256": "c41dd074d1b533291655201638d3265a8714f6a94c586d169ada32a647da6e98"
+    },
+    "finalUrl": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+    "httpStatus": 200,
+    "title": "Managing the cyber risk of agentic AI | National Cyber Security Centre",
+    "rendered": {
+      "textChars": 19613,
+      "textSha256": "841258d0138e429cafe3ed5b347ec3b5c8c45962f83d13534e9e3dacf3d635fd",
+      "htmlSha256": "75ff6a197648c2d6e2f8172accc84504187de7c076af421de0ed03127d9fbb39"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "110651a3c5de6297d6ab2f0988bf72fea26451e5b9c0024840827a904db10297",
+      "width": 1366,
+      "height": 13234,
+      "bytes": 1727528,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

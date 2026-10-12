@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000142",
+  "url": "https://hai.stanford.edu/news/designing-loyalty-ai-agents-and-conflicts-interest",
+  "capturedAt": "2026-10-03T07:53:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 77382,
+    "sha256": "15570ed193a218773cd873c3cac69b20a951004d76d21a857014053576102d75",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "629A8DFE70A06903716DCB85FAE497B8",
+      "status": 200,
+      "url": "https://hai.stanford.edu/news/designing-loyalty-ai-agents-and-conflicts-interest",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3816,
+      "afterScrollHeight": 3816,
+      "wantedHeight": 3816
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "65d1f9f486432071944253cf2a1722ef34436fbcbfb2f2cda64be5b9646b25c3",
+    "width": 1366,
+    "height": 3816,
+    "bytes": 1385705,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3816,
+    "afterScrollHeight": 3816,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:53:31Z",
+    "url": "https://hai.stanford.edu/news/designing-loyalty-ai-agents-and-conflicts-interest",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 77382,
+      "sha256": "15570ed193a218773cd873c3cac69b20a951004d76d21a857014053576102d75"
+    },
+    "finalUrl": "https://hai.stanford.edu/news",
+    "httpStatus": 200,
+    "title": "News | Stanford HAI",
+    "rendered": {
+      "textChars": 4191,
+      "textSha256": "c8d3d2ac2705f7f970853b53e4e259403100541fa0c517450746997506024acf",
+      "htmlSha256": "a037ea71d54d1e951472c982f14e9ad09e11ee8e6757d51c0e43a95341d15e11"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "65d1f9f486432071944253cf2a1722ef34436fbcbfb2f2cda64be5b9646b25c3",
+      "width": 1366,
+      "height": 3816,
+      "bytes": 1385705,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260902170029",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260902170029/https://hai.stanford.edu/news/designing-loyalty-ai-agents-and-conflicts-interest"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260902170029/https://hai.stanford.edu/news/designing-loyalty-ai-agents-and-conflicts-interest",
+      "timestamp": "20260902170029",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

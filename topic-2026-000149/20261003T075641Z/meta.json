@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000149",
+  "url": "https://www.musicbusinessworldwide.com/sony-music-files-new-lawsuit-against-ai-platform-udio-asserting-over-30000-sound-recordings-a-judge-barred-it-from-adding-to-its-original-case/",
+  "capturedAt": "2026-10-03T07:56:41Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 86630,
+    "sha256": "c6a10b5c8f852c97be7eee41fb8c3263aee6ccc5f6c60e2d8a398290be4eda2f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C691B81697877E0634BA267A2E8C3E12",
+      "status": 200,
+      "url": "https://www.musicbusinessworldwide.com/sony-music-files-new-lawsuit-against-ai-platform-udio-asserting-over-30000-sound-recordings-a-judge-barred-it-from-adding-to-its-original-case/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4434,
+      "afterScrollHeight": 4464,
+      "wantedHeight": 4464
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "cf3e7f3fef1d0aff58e34c2a9182f24b07e1282b3262a06f2c7b01020afe1c3b",
+    "width": 1366,
+    "height": 4464,
+    "bytes": 742783,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4434,
+    "afterScrollHeight": 4464,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:56:41Z",
+    "url": "https://www.musicbusinessworldwide.com/sony-music-files-new-lawsuit-against-ai-platform-udio-asserting-over-30000-sound-recordings-a-judge-barred-it-from-adding-to-its-original-case/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 86630,
+      "sha256": "c6a10b5c8f852c97be7eee41fb8c3263aee6ccc5f6c60e2d8a398290be4eda2f"
+    },
+    "finalUrl": "https://www.musicbusinessworldwide.com/sony-music-files-new-lawsuit-against-ai-platform-udio-asserting-over-30000-sound-recordings-a-judge-barred-it-from-adding-to-its-original-case/",
+    "httpStatus": 200,
+    "title": "Sony Music sues Udio again, asserting over 30,000 recordings a judge barred the major from adding to its original case - Music Business Worldwide",
+    "rendered": {
+      "textChars": 7311,
+      "textSha256": "9b9958d87f8205d1608481de4eabe8e16201730e4e3d05c767713f56b037a9b2",
+      "htmlSha256": "9b42dbb6e1f17a68169325a527285690c369a10a9ed6fd07790d79602797cc41"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "cf3e7f3fef1d0aff58e34c2a9182f24b07e1282b3262a06f2c7b01020afe1c3b",
+      "width": 1366,
+      "height": 4464,
+      "bytes": 742783,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260721084320",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260721084320/https://www.musicbusinessworldwide.com/sony-music-files-new-lawsuit-against-ai-platform-udio-asserting-over-30000-sound-recordings-a-judge-barred-it-from-adding-to-its-original-case/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260721084320/https://www.musicbusinessworldwide.com/sony-music-files-new-lawsuit-against-ai-platform-udio-asserting-over-30000-sound-recordings-a-judge-barred-it-from-adding-to-its-original-case/",
+      "timestamp": "20260721084320",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

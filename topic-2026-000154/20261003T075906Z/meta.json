@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000154",
+  "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+  "capturedAt": "2026-10-03T07:59:06Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 215692,
+    "sha256": "677ab97b1a7cb01eb2044ab81b2e6ae46cbe3d3a59ff2697a4b01e0f6c65f3c4",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B8EB8D533B6E0056F957BEA4D9ECEA45",
+      "status": 200,
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4528,
+      "afterScrollHeight": 4528,
+      "wantedHeight": 4528
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "0b965b5f52d8036a1843ab4d51d16890bbfb5c4216323b7725fa781957cfdf5b",
+    "width": 1366,
+    "height": 4528,
+    "bytes": 1653606,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4528,
+    "afterScrollHeight": 4528,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:59:06Z",
+    "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 215692,
+      "sha256": "677ab97b1a7cb01eb2044ab81b2e6ae46cbe3d3a59ff2697a4b01e0f6c65f3c4"
+    },
+    "finalUrl": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+    "httpStatus": 200,
+    "title": "Sony Music, Warner sue Anthropic, alleging a 'brazen campaign' of intellectual property theft | TechCrunch",
+    "rendered": {
+      "textChars": 4947,
+      "textSha256": "658d02b1b5178375656c339ec12c30969d960ecc5350ba56db1c449c2bba1ef0",
+      "htmlSha256": "822e9fc9d3d00867fc3d0e7814a74062372055fc2e0761047f530baa9e196422"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "0b965b5f52d8036a1843ab4d51d16890bbfb5c4216323b7725fa781957cfdf5b",
+      "width": 1366,
+      "height": 4528,
+      "bytes": 1653606,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260829190524",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260829190524/https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260829190524/https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "timestamp": "20260829190524",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

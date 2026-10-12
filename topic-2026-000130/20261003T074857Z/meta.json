@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000130",
+  "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+  "capturedAt": "2026-10-03T07:48:57Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 557130,
+    "sha256": "49114bcee70d1fb38e7dc0bd77c01b53bf0d14a6582a3c43d5f01ff81c9d9c65",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "EBE35224C473A6916B2EFB2CDE02A270",
+      "status": 401,
+      "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "548198f02f999bccd2036690afe016701a2cee7f3248126f6b831c52a26b47ca",
+    "width": 1366,
+    "height": 900,
+    "bytes": 28731,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:48:57Z",
+    "url": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 557130,
+      "sha256": "49114bcee70d1fb38e7dc0bd77c01b53bf0d14a6582a3c43d5f01ff81c9d9c65"
+    },
+    "finalUrl": "https://www.reuters.com/world/how-texas-student-blew-whistle-rogue-ai-hacking-attempt-2026-08-20/",
+    "httpStatus": 401,
+    "title": "reuters.com",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "7aa208ba6232b7533d0b949ddd1c7c1648e3e26dd30f41642ac11bec7af6ad20"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "548198f02f999bccd2036690afe016701a2cee7f3248126f6b831c52a26b47ca",
+      "width": 1366,
+      "height": 900,
+      "bytes": 28731,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

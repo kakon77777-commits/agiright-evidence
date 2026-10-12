@@ -1,0 +1,171 @@
+Skip to content
+Skip to main navigation
+Skip to footer
+Our Services
+Our People
+Our Approach
+Our Thinking
+Our Firm
+Careers
+Locations
+Our Culture
+Subscribe
+Our Services
+Our People
+Our Approach
+Our Thinking
+Our Firm
+Careers
+Home
+>
+Our Thinking
+>
+Publications
+>
+New California AI Disclosure Rules Become Operative
+SUBSCRIBE
+LAWFLASH
+NEW CALIFORNIA AI DISCLOSURE RULES BECOME OPERATIVE
+August 03, 2026
+
+The recent proliferation of AI-generated content online, including “deepfakes” and synthetic media, has prompted federal and state regulators to consider new approaches for enhancing transparency and protecting consumers. While federal efforts remain in early stages, California and other states are taking the lead by enacting comprehensive laws aimed at addressing the risks associated with AI-generated images, video, and audio.
+
+California has enacted the AI Transparency Act (CAITA), establishing a comprehensive disclosure regime for providers of generative artificial intelligence (GenAI) systems with a significant user base that is publicly accessible in California. The law targets transparency around AI-generated content, requiring both visible and machine-readable disclosures as well as publicly accessible and effective detection tools.
+
+Service providers offering users GenAI functionalities for creating or altering images, video, and audio should carefully assess the new compliance obligations and the phased implementation timeline. California’s initial wave of requirements became operative on August 2.
+
+KEY TAKEAWAYS
+CAITA (SB 942/AB 853) imposes rigorous disclosure and detection requirements on GenAI service providers operating in the state.
+The act applies to GenAI services that have more than one million monthly visitors or users and are publicly accessible in California.
+As of August 2, covered providers must implement both latent disclosures and a manifest disclosure option for AI-generated images, video, and audio, and make available a free, public AI detection tool.
+Additional requirements for GenAI system hosting platforms, large online platforms, and manufacturers of devices will be rolled out in 2027 and 2028.
+Noncompliance carries significant civil penalties, enforceable by state authorities, but there is no private right of action.
+BACKGROUND
+
+California enacted CAITA in 2024 to address concerns about the risks of synthetic content and the need for transparency among consumers interacting with AI-generated media. CAITA initially was slated to go into effect on January 1, 2026. The California State Assembly amended the act in 2025 to delay its operation until August 2, 2026, and to create a roadmap of additional requirements that become operational through 2028.
+
+The first set of CAITA requirements specifically targets companies that create, code, or otherwise produce any GenAI system with more than one million monthly users that is publicly accessible in California.[1] The act excludes products or services that are “exclusively non-user-generated video game, television, streaming, movie, or interactive experiences.”[2] By its own terms, CAITA’s requirements do not apply to AI-generated textual content.
+
+NEW DISCLOSURE AND DETECTION REQUIREMENTS
+
+Beginning August 2, covered GenAI providers must comply with several core obligations, including the following.
+
+AI Detection Tool
+
+Covered providers must make available, at no cost, a publicly accessible “AI detection tool” that permits users to determine whether certain content was created or altered by its GenAI system and output any “system provenance data” detected.[3] To ensure greater utility and interoperability, the tool must allow for content upload, URL submission, and application programming interface support.
+
+In designing these tools, providers must ensure that they do not collect or retain user personal information, except in narrowly defined circumstances (such as voluntary feedback with opt-in consent), and they must not retain submitted content or personal provenance data longer than necessary. CAITA also requires providers to collect feedback to continually improve detection tools and their efficacy.
+
+Manifest Disclosure Option
+
+Providers must offer users the option to include a “manifest disclosure” in any image, video, or audio content created or altered by their GenAI system.[4] The manifest disclosure must clearly and conspicuously identify the content as being AI generated, and the disclosure must be permanent or extraordinarily difficult to remove, to the extent technically feasible.
+
+Latent Disclosure
+
+Providers must embed a “latent disclosure” for all AI-generated image, video, or audio content.[5] This disclosure must uniquely identify the content, provide information about the name and version of the GenAI system used, and provide the date the content was created or altered. CAITA requires the disclosure to be durable, consistent with widely accepted industry standards, and compatible with the service provider’s AI detection tool.
+
+If a covered provider licenses its GenAI system to a third party, it must contractually require the licensee to maintain the system’s latent disclosure capability.[6] If a provider learns that a third-party licensee has modified the GenAI system to disable latent disclosures, the provider must revoke the license within 96 hours of discovery, and the licensee must cease using the GenAI system.
+
+PENDING LEGISLATIVE AMENDMENTS
+
+As the legislative history of the act demonstrates, pending legislation can materially change CAITA’s requirements. For instance, the California State Senate is currently considering SB 1000, an amendment that could vastly expand the scope and application of the law. If enacted in its current form, SB 1000 would, among other things:
+
+Eliminate the one-million-monthly-visitors-or-users threshold for covered providers, so CAITA would reach any GenAI system that is publicly accessible in the state;
+Scrap the manifest disclosure option;
+Revise the latent disclosure requirements;
+Reduce the deadline to revoke a noncompliant licensee’s authorization from 96 to 72 hours; and
+Replace the AI detection tool obligation with a disclosure verification tool obligation that includes enhanced privacy limitations.
+
+Similarly, the California State Assembly is considering AB 2713, a bill that reworks the provisions of CAITA that apply to large online platforms, in order to display and preserve the integrity of provenance data, including when a user downloads image, video, and/or audio content from the platform.
+
+Given the dynamic regulatory environment and pending developments, companies should verify the status of potential amendments such as SB 1000 and AB 2713 to confirm the governing requirements before implementing or updating their compliance programs.
+
+PHASED IMPLEMENTATION FOR ADDITIONAL ENTITIES
+
+With CAITA, California has chosen to adopt a phased approach to transparency, with the initial slate of requirements addressing the providers that offer GenAI systems directly, and staggered timelines for upstream or downstream players in the space. This allows the AI ecosystem to evolve as providers develop best practices for CAITA disclosure.
+
+Starting January 1, 2027, qualifying large online platforms must begin detecting embedded provenance data in content and offering user interfaces that clearly identify it.[7] GenAI system hosting platforms (i.e., marketplaces or websites making GenAI systems available) may no longer knowingly offer systems that do not meet CAITA’s latent disclosure requirements.[8]
+
+From January 1, 2028, manufacturers of capture devices (such as cameras or recorders) selling in California must enable users to include CAITA disclosures in captured content by default.[9]
+
+ENFORCEMENT AND PENALTIES
+
+CAITA does not create a private right of action. Instead, enforcement authority is vested in the attorney general and other state actors, who may bring civil actions seeking penalties of $5,000 per violation against any covered provider, large online platform, or capture device manufacturer, with each day of violation counting as a discrete violation.[10] State authorities may also seek injunctive relief and recover attorney fees and costs.
+
+IMPLICATIONS OR RECOMMENDATIONS
+
+CAITA represents a substantial shift in legal requirements for large-scale GenAI providers operating in the state, mandating clear disclosures and robust provenance measures for AI-generated content. It sets a new bar for AI transparency compliance and will have significant operational, technical, and contractual impacts for affected businesses throughout the AI ecosystem.
+
+With aggressive enforcement mechanisms and phased implementation, companies should proactively assess their exposure and develop compliance roadmaps as CAITA’s requirements become operational throughout the next two years.
+
+Companies developing (or licensing) GenAI systems with large user bases should immediately evaluate compliance strategies for the upcoming slate of manifest/latent disclosure and detection tool requirements.
+
+Other entities in the space (e.g., AI hosting platforms, large online platforms, and device manufacturers) should develop project plans to address the staged rollout of CAITA obligations through 2028.
+
+CONTACTS
+
+If you have any questions or would like more information on the issues discussed in this LawFlash, please contact any of the following:
+
+Authors
+Heather Egan (Boston)
+Minna Lo Naranjo (San Francisco)
+Armen Nercessian (San Francisco)
+Kevin M. Papay (San Francisco)
+
+[1] Cal. Bus. & Prof. Code § 22757.1(d) (definition of “Covered provider”).
+
+[2] Cal. Bus. & Prof. Code § 22757.5.
+
+[3] Cal. Bus. & Prof. Code § 22757.2.
+
+[4] Cal. Bus. & Prof. Code § 22757.3(a).
+
+[5] Cal. Bus. & Prof. Code § 22757.3(b).
+
+[6] Cal. Bus. & Prof. Code § 22757.3(c).
+
+[7] Cal. Bus. & Prof. Code § 22757.3.1.
+
+[8] Cal. Bus. & Prof. Code § 22757.3.2.
+
+[9] Cal. Bus. & Prof. Code § 22757.3.3.
+
+[10] Cal. Bus. & Prof. Code § 22757.4.
+
+AUTHORS
+HEATHER EGAN
+Partner
+Boston
+MINNA LO NARANJO
+Partner
+San Francisco
+ARMEN NERCESSIAN
+Of Counsel
+San Francisco
+KEVIN M. PAPAY
+Partner
+San Francisco
+RELATED RESOURCES
+INDUSTRIES
+Artificial Intelligence
+Technology
+PRACTICES
+Antitrust & Competition
+Cybersecurity, Incident Response & Privacy
+Litigation, Regulation & Investigations
+GLOBAL CAPABILITIES
+United States
+﻿
+
+Contact Us
+Attorney Advertising
+Terms of Use
+Privacy Policy
+Cookie Policy
+Client Access
+Sitemap
+© 2026 Morgan, Lewis & Bockius LLP. Morgan Lewis is a registered trademark of Morgan, Lewis & Bockius LLP. All rights reserved.
+
+We use cookies to improve the functionality and performance of this site. By clicking "Accept All Cookies," you consent to our recommended use of cookies in accordance with our Cookie Policy and Privacy Policy. You may review, modify or revoke your consent by clicking "Customize Cookies."
+
+Customize Cookies Reject All Cookies ACCEPT ALL COOKIES

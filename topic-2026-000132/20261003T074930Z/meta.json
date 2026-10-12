@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000132",
+  "url": "https://www.sra.org.uk/solicitors/guidance/misuse-ai/",
+  "capturedAt": "2026-10-03T07:49:30Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 129352,
+    "sha256": "66a3d4ec1fab101c2bd95db0a8ce25fd9c0e9a28f2956c39046d9d5dd3b70220",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5950E18141E6182B372F06366B6FF350",
+      "status": 200,
+      "url": "https://www.sra.org.uk/solicitors/guidance/misuse-ai/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8408,
+      "afterScrollHeight": 8408,
+      "wantedHeight": 8408
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5ecf0a06e3d87ba270ea45c101d8c3cf74da898b7298a2835a51464b4a7f8adb",
+    "width": 1366,
+    "height": 8408,
+    "bytes": 1376742,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8408,
+    "afterScrollHeight": 8408,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:49:30Z",
+    "url": "https://www.sra.org.uk/solicitors/guidance/misuse-ai/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 129352,
+      "sha256": "66a3d4ec1fab101c2bd95db0a8ce25fd9c0e9a28f2956c39046d9d5dd3b70220"
+    },
+    "finalUrl": "https://www.sra.org.uk/solicitors/guidance/misuse-ai/",
+    "httpStatus": 200,
+    "title": "SRA | Misuse of AI - Warning notice | Solicitors Regulation Authority",
+    "rendered": {
+      "textChars": 19924,
+      "textSha256": "eff17139c1b22f245ca14c943cb61486c6585f171fd687ac72552b5f9d8fedbe",
+      "htmlSha256": "6057f6822c6abd693dd8446f7137ca3c99321025129ddc35414f53f7940280ff"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "5ecf0a06e3d87ba270ea45c101d8c3cf74da898b7298a2835a51464b4a7f8adb",
+      "width": 1366,
+      "height": 8408,
+      "bytes": 1376742,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260817180427",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260817180427/https://www.sra.org.uk/solicitors/guidance/misuse-ai/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260817180427/https://www.sra.org.uk/solicitors/guidance/misuse-ai/",
+      "timestamp": "20260817180427",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

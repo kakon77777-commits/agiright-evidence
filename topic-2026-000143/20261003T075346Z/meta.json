@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000143",
+  "url": "https://www1.folha.uol.com.br/internacional/en/brazil/2026/08/folha-sues-perplexity-ai-for-unauthorized-use-of-content-and-unfair-competition.shtml",
+  "capturedAt": "2026-10-03T07:53:46Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 107312,
+    "sha256": "ddd8514393e3c7ae1318093cec223510d182ad25532b4438de8928b9279d26cd",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7A94AA9E4EE8321A2CD78C8C5FDD6D4B",
+      "status": 200,
+      "url": "https://www1.folha.uol.com.br/internacional/en/brazil/2026/08/folha-sues-perplexity-ai-for-unauthorized-use-of-content-and-unfair-competition.shtml",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3317,
+      "afterScrollHeight": 3317,
+      "wantedHeight": 3317
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3a49c28c38873ad6c2afac11d23e26ea10030b532bebcd04a05232b7cba5f841",
+    "width": 1366,
+    "height": 3317,
+    "bytes": 629599,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3317,
+    "afterScrollHeight": 3317,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:53:46Z",
+    "url": "https://www1.folha.uol.com.br/internacional/en/brazil/2026/08/folha-sues-perplexity-ai-for-unauthorized-use-of-content-and-unfair-competition.shtml",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 107312,
+      "sha256": "ddd8514393e3c7ae1318093cec223510d182ad25532b4438de8928b9279d26cd"
+    },
+    "finalUrl": "https://www1.folha.uol.com.br/internacional/en/brazil/2026/08/folha-sues-perplexity-ai-for-unauthorized-use-of-content-and-unfair-competition.shtml",
+    "httpStatus": 200,
+    "title": "Folha Sues Perplexity AI - 24/08/2026 - Brazil - Folha",
+    "rendered": {
+      "textChars": 5208,
+      "textSha256": "7dd94b063f6ab0341ff6a58ca014624a673bafc9c6ae278bb138eea1f38883d6",
+      "htmlSha256": "17d83d15dfa02983bd0713b17c9f3d526d37ea9f2dfc7109613d592825349630"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "3a49c28c38873ad6c2afac11d23e26ea10030b532bebcd04a05232b7cba5f841",
+      "width": 1366,
+      "height": 3317,
+      "bytes": 629599,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260826124108",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260826124108/https://www1.folha.uol.com.br/internacional/en/brazil/2026/08/folha-sues-perplexity-ai-for-unauthorized-use-of-content-and-unfair-competition.shtml"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260826124108/https://www1.folha.uol.com.br/internacional/en/brazil/2026/08/folha-sues-perplexity-ai-for-unauthorized-use-of-content-and-unfair-competition.shtml",
+      "timestamp": "20260826124108",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

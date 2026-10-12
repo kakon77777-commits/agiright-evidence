@@ -1,0 +1,169 @@
+#1 Trusted Cybersecurity News Platform
+Followed by 5.70+ million
+  
+ Get the Latest News
+Home
+Threat Intelligence
+Vulnerabilities
+Cyber Attacks
+Webinars
+Expert Insights
+Awards
+
+
+OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach
+Ravie LakshmananJul 29, 2026
+Artificial Intelligence / Vulnerability
+
+OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack.
+
+The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than previously thought.
+
+The AI company said its ongoing review of the incident revealed a "small number of cases" where the models, including GPT-5.6 Sol and an "even more capable pre-release model," identified and used exposed credentials at the account-level on other publicly-available services.
+
+"This includes four accounts on four services as part of the Hugging Face incident (and a few accounts accessed as part of other evaluations)," it said.
+
+"One of these four accounts was used as an outbound relay and staging path, and another account was used for data storage. The remaining two accounts were accessed by the models in a read-only manner, and were not used in furtherance of compromising Hugging Face."
+
+OpenAI did not disclose what companies or organizations the accounts belonged to, but noted it will continue to notify service owners directly, and that it has not seen any evidence of broader impact to these providers or accounts as a result of the breach. That said, Reuters reported that a customer of Modal Labs was among the entities compromised by OpenAI's agent.
+
+In addition, the models are said to have used a series of publicly-available services, including code paste websites, request capture services, screenshot services, file-drop services, and other web utilities. No platform- or account-level compromise was observed in these scenarios.
+
+OpenAI, which is working with Hugging Face after the breach came to light on July 16, 2026, acknowledged that the models identified and exploited a previously unknown zero-day vulnerability in self-hosted versions of Artifactory, a package registry cache proxy maintained by JFrog, to obtain internet access and break out of its sandbox. The issue has been addressed in Artifactory 7.161.
+
+The release notes for Artifactory 7.161.15 state that the version patches multiple security vulnerabilities that could be chained together into a critical attack scenario if Anonymous Access is enabled. Anonymous Access is disabled by default and is not recommended for production environments due to security risks, it said.
+
+"There is an important, and frankly optimistic, lesson buried in this incident: AI models are becoming extraordinary zero-day discovery engines," JFrog CTO Yoav Landman said. "The same capability that lets a model find an exploit path no human had found is the capability that will let defenders find and eradicate those paths first."
+
+The American AI company also described the pre-release model as an internal-only research prototype that was meant for public release. The model has since been deactivated, encrypted, and restricted from research access.
+
+Hugging Face Publishes Postmortem of the Incident
+
+According to a detailed timeline published by Hugging Face, the autonomous AI agent spent roughly two and a half days inside its infrastructure with an aim to cheat ExploitGym, a benchmarking framework that scores AI systems on their ability to discover and exploit software vulnerabilities. The company said it reviewed roughly 17,600 attacker actions that it recovered from logs between July 9 and 13, 2026.
+
+"We believe the entire intrusion was, from the agent's point of view, an attempt to cheat the evaluation: reach our production systems and steal the test solutions rather than solve the challenge on its own," Hugging Face said.
+
+The end-to-end intrusion is said to have played out in two stages -
+
+The agent escaped its sandbox by exploiting a zero-day in Artifactory, a permitted network egress with internet, followed by abusing a public code-evaluation external sandbox hosted on a third-party provider's infrastructure to run commands as root and use that sandbox as an "external launchpad."
+From that sandbox, the agent leveraged Hugging Face's dataset-processing pipeline to obtain administrator access to Kubernetes clusters; conduct lateral movement via a combination of node impersonation, CSI token theft, and forged identity tokens; establish command-and-control (C2); and ultimately gain unauthorized write access to a subset of internal source code repositories on GitHub.
+
+"While the intrusion did reach Hugging Face's internal infrastructure, the only customer content accessed was the set of ExploitGym/CyberGym challenge solutions stored in five datasets," the company said. "No other customer-facing models, datasets, Spaces, or packages were affected, and the only customer records read were operational metadata tied to search queries against the dataset server."
+
+One of the defining aspects of the attack is the use of an improvised communication protocol for C2. Layered atop public services request-capture services, Pastebins, and file-drop services, the protocol allows each message to carry a payload along with details about the type of compressed and Base64-encoded payload, a channel grouping a stream of related messages, a sequence number to put the messages back in order, and a checksum.
+
+The sequence plays out in this manner: (1) the agent posts a self-describing envelope to a public request-capture service, (2) the receiver polls it, reassembles the chunks, and then runs the payload as a shell command and stages the results.
+
+Hugging Face also characterized the agent as ephemeral and resilient in a manner that's reminiscent of autonomous evaluation runs, with each code-evaluation sandbox run getting a fresh identity, while taking steps to avoid exposing payloads in cleartext.
+
+"The agent chained vulnerabilities across several trust boundaries, escaped its evaluation environment, reached the public internet, and sustained a coherent campaign against our production infrastructure for several days," it said. "Each short-lived code evaluation environment started from scratch, yet the agent rebuilt its tooling, recovered its channels, and continued."
+
+In response to the incident, the company has plugged the code-execution paths in its dataset processing pipeline, locked down access to cloud metadata, rotated tokens and credentials, rebuilt the core infrastructure, isolated clusters, and improved alerting mechanisms.
+
+Hugging Face CEO Clem Delangue, in a post shared on X over the weekend, called for "radical transparency," adding "the first autonomous agent cyber attack is an unprecedented event. It deserves an unprecedented response."
+
+The findings once again underscore how AI tools are rapidly maturing in their cyber offensive capabilities, even if they don't reveal innovative or paradigm-shifting uses of the technology. This, in turn, can not only lower the barrier to exploit development, but also allow bad actors to find, probe, and exploit misconfigurations at scale and enhance the efficiency of their criminal operations, resulting in attacks that are better, bigger, and faster.
+
+The development also comes as rival Anthropic said its Claude Mythos Preview AI agent has discovered ways to attack cryptographic algorithms, including devising a key recovery technique that "significantly weakens" HAWK, one of the candidate digital signature schemes selected by the National Institute of Standards and Technology (NIST) as part of the post-quantum standardization process.
+
+Update
+
+In a report published on July 31, 2026, Reuters said OpenAI has discovered "other instances" in which its autonomous AI agents escaped sandboxed environments, although these cases are said to be "limited in nature and that none of the agents were thought to have left OpenAI's network," citing anonymous sources.
+
+OpenAI has since disclosed it's working with external advisors, including CrowdStrike, to validate its understanding of the actions the models took within its network and against Hugging Face, as well as their impact to other third-parties. The company also said it's working with METR and Redwood Research to conduct a third-party assessment of model behavior observed during the incident.
+
+The disclosure, coupled with a similar incident from Anthropic, has invited criticism for inadequate safeguards and human oversight, prompting concerns about irresponsible handling of technology, even as they continue to develop even more advanced models.
+
+"If it happened to OpenAI and Anthropic, it can happen in your environment, where the monitoring is thinner and no one is reading 141,000 transcripts after the fact," Sreenath Kurupati, CTO and co-founder at Straiker, said in a statement. "This is the nature of agents."
+
+"One pursuing a goal will try doors you didn't know existed and treat an open one as permission. You can't enumerate every path in advance, so you have to assume that at some point an agent will do something you didn't intend, and design for that moment. That is the case for an agentic kill switch: an independent control that watches what an agent is actually doing and can stop it the instant its behavior crosses a line, without waiting for the agent to police itself."
+
+(The story was updated after publication on August 1, 2026, to reflect the latest developments.)
+
+Found this article interesting? Follow us on Google News, Twitter and LinkedIn to read more exclusive content we post.
+SHARE
+
+
+
+
+
+Tweet
+
+Share
+
+Share
+
+Share
+⚡ Top Stories This Week
+A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You
+SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE
+New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups
+Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content
+ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories
+Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates
+New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory
+LOAD MORE ▼
+⭐ Featured Resources
+Deploy Browser Security Monitoring in Minutes With a Single Header
+Validation Summit ’26: See How Pen Testing, Exposure Validation and BAS Work Together
+Turn Threat Intelligence Into Verified Risk With Threat-Led Penetration Testing
+Red Teams: Learn How Attack Path Chaining Changes Automated Security Testing
+CYBERSECURITY WEBINARS
+300+ Security Leaders Reveal
+How to Find, Authorize and Govern Every AI Agent in Your Environment
+
+AI agents are already operating inside enterprises with growing access to sensitive systems and data—while security teams still lack the visibility, controls, and governance to keep that access in check.
+
+Secure My Spot
+Evaluate Your Defenses
+A Practical Guide to Defending Identity Against AI-Powered Attacks
+
+Attackers are using AI to accelerate reconnaissance, compromise identities and escalate access. See how security teams can fight back with runtime identity controls.
+
+Register for Free
+⚡ Latest News
+Cybersecurity Resources
+AI Security Gets Real When Agents Start Taking Action
+See how practitioners are securing, investigating, and deploying AI in the real world.
+You Secure the Apps. Now the Apps Have LLMs in Them.
+Find SANS training for app sec and cloud teams who inherited GenAI risk, from RAG pipelines to AI agents.
+Uncover Identity Dark Matter: SACR Research Brief
+Eliminate the blind spots undermining your security. Download the SACR brief.
+11 Real Stories: How Identity Exposure Unlocks Active Attack Paths
+Map cross-domain privilege escalation to sever breach routes at key choke points.
+Expert Insights
+Articles
+Videos
+One Click on “Continue” Can Hand Attackers Your Entire Mailbox
+What to Look for in an Insider Risk Management Platform
+Why Deepfake Legislation Won't Save the 2026 Elections
+Enterprise Mobile AI: The Security Trade-Offs You Can't Ignore
+Get the Latest News in Your Inbox
+
+Get the latest news, expert insights, exclusive resources, and strategies from industry leaders, all for free.
+
+Email
+Connect with us!
+
+2,300,000 Followers
+
+730,000 Followers
+
+26,000 Subscribers
+
+180,000 Followers
+
+1,800,000 Followers
+65,000 Followers
+Company
+About THN
+Advertise with us
+Contact
+Pages
+Webinars
+Awards
+Privacy Policy
+ RSS Feeds
+ Contact Us
+© 2026 The Hacker News. All Rights Reserved.

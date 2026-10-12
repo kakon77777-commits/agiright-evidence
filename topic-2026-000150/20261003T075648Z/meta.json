@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000150",
+  "url": "https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx",
+  "capturedAt": "2026-10-03T07:56:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 114562,
+    "sha256": "3b8249231e7c14bcf9d808327fbc38d74f4b06a8f1f61de396d96c2356df349c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "422E554B36ABF117A562130C9436C07D",
+      "status": 200,
+      "url": "https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1727,
+      "afterScrollHeight": 1727,
+      "wantedHeight": 1727
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3d5e9bd910f4c44a2ee8b03e40aff934eaa75f68955644b80e16245a3d38ae1a",
+    "width": 1366,
+    "height": 1727,
+    "bytes": 349371,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1727,
+    "afterScrollHeight": 1727,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:56:48Z",
+    "url": "https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 114562,
+      "sha256": "3b8249231e7c14bcf9d808327fbc38d74f4b06a8f1f61de396d96c2356df349c"
+    },
+    "finalUrl": "https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx",
+    "httpStatus": 200,
+    "title": "ITU-T Focus Group on Trust and Identity for Humans and Agentic AI (FG-TIDA)",
+    "rendered": {
+      "textChars": 3838,
+      "textSha256": "db00dcdd094cc37a380de9ad61e135b374c94c751eb4a31c286bcda618ca1b13",
+      "htmlSha256": "0eb107c8835ef8fac9c022aee002ad120c6196ecfbda665860ce36e2caf97c49"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "3d5e9bd910f4c44a2ee8b03e40aff934eaa75f68955644b80e16245a3d38ae1a",
+      "width": 1366,
+      "height": 1727,
+      "bytes": 349371,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260709133522",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260709133522/https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260709133522/https://www.itu.int/en/ITU-T/focusgroups/tida/Pages/default.aspx",
+      "timestamp": "20260709133522",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

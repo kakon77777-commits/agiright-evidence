@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000139",
+  "url": "https://ipwatchdog.com/2026/08/25/wikihow-files-lawsuit-against-openai-over-chatgpts-use-of-its-how-to-library/",
+  "capturedAt": "2026-10-03T07:51:41Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 135465,
+    "sha256": "59ab6a7cf9c06220d38808e99665cf8f97dfc9179739b4534c4d5723215af794",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "84CA1F4C309E6AA0D4A14A91A1DDBC7B",
+      "status": 200,
+      "url": "https://ipwatchdog.com/2026/08/25/wikihow-files-lawsuit-against-openai-over-chatgpts-use-of-its-how-to-library/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6913,
+      "afterScrollHeight": 6913,
+      "wantedHeight": 6913
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c8897b53c444522b8ea680c7b8caf17c23d881287cce3e4f531403006b24d162",
+    "width": 1366,
+    "height": 6913,
+    "bytes": 2197251,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6913,
+    "afterScrollHeight": 6913,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:51:41Z",
+    "url": "https://ipwatchdog.com/2026/08/25/wikihow-files-lawsuit-against-openai-over-chatgpts-use-of-its-how-to-library/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 135465,
+      "sha256": "59ab6a7cf9c06220d38808e99665cf8f97dfc9179739b4534c4d5723215af794"
+    },
+    "finalUrl": "https://ipwatchdog.com/2026/08/25/wikihow-files-lawsuit-against-openai-over-chatgpts-use-of-its-how-to-library/",
+    "httpStatus": 200,
+    "title": "WikiHow Files Lawsuit Against OpenAI Over ChatGPT’s Use of Its How-To Library",
+    "rendered": {
+      "textChars": 11657,
+      "textSha256": "ed1a40ce5727ba294a5658a9911bb0cd54fffe13674dbd4ebd8a50503de34bee",
+      "htmlSha256": "2978d97011d3c49209783a62edc680a5bcea0f1b078775d366dafc382639d7e2"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c8897b53c444522b8ea680c7b8caf17c23d881287cce3e4f531403006b24d162",
+      "width": 1366,
+      "height": 6913,
+      "bytes": 2197251,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003075314/https://ipwatchdog.com/2026/08/25/wikihow-files-lawsuit-against-openai-over-chatgpts-use-of-its-how-to-library/",
+      "timestamp": "20261003075314",
+      "verifiedHttp": 200
+    }
+  }
+}

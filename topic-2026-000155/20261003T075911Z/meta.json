@@ -1,0 +1,72 @@
+{
+  "id": "topic-2026-000155",
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-fights-to-keep-chatgpt-lawsuit-away-from-a-state-jury",
+  "capturedAt": "2026-10-03T07:59:11Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 1993878,
+    "sha256": "5f0d5e584a1390c2b289371f8191c95d3b77c5f07697af0cdc026709a5369e5b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": false,
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "navError": null,
+    "document": {
+      "frameId": "67812CC729D2F2AF13FCC43815FD2E43",
+      "status": 200,
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-fights-to-keep-chatgpt-lawsuit-away-from-a-state-jury",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 20733,
+      "afterScrollHeight": 20733,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": null,
+    "layout": {
+      "firstLoadHeight": 20733,
+      "afterScrollHeight": 20733,
+      "wantedHeight": 15000
+    },
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:59:11Z",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-fights-to-keep-chatgpt-lawsuit-away-from-a-state-jury",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1993878,
+      "sha256": "5f0d5e584a1390c2b289371f8191c95d3b77c5f07697af0cdc026709a5369e5b"
+    },
+    "finalUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-fights-to-keep-chatgpt-lawsuit-away-from-a-state-jury",
+    "httpStatus": 200,
+    "title": "Florida seeks court ruling to officially classify Sam Altman and ChatGPT as a 'public nuisance' — OpenAI fights to keep lawsuit away from a state jury | Tom's Hardware",
+    "rendered": {
+      "textChars": 8390,
+      "textSha256": "cf6ae02a77794cd62b345b0f5688e30723f8e80f424c8a21b481bd809c88f96f",
+      "htmlSha256": "b9a589dde0ee6dda4a75ca2493960dcd4bf076ad7fb81217291c0cc96f94303a"
+    },
+    "suspectedBlock": false,
+    "browserError": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

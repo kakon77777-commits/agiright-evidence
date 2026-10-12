@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000156",
+  "url": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
+  "capturedAt": "2026-10-03T08:00:04Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 118484,
+    "sha256": "896c247e8bd0d699536c60031a83a65c60cdf22aaf7f3464cafd3bff02b5ad68",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5C47E368B3D2DED148E8EB7C1E78582B",
+      "status": 200,
+      "url": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6196,
+      "afterScrollHeight": 6196,
+      "wantedHeight": 6196
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "fc22c0c943d734089c64b540bab2b1ac5e69f351944ec68a8579f9cbca3acf73",
+    "width": 1366,
+    "height": 6196,
+    "bytes": 976286,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6196,
+    "afterScrollHeight": 6196,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:00:04Z",
+    "url": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 118484,
+      "sha256": "896c247e8bd0d699536c60031a83a65c60cdf22aaf7f3464cafd3bff02b5ad68"
+    },
+    "finalUrl": "https://cyberscoop.com/ai-agent-act-senate-draft-bill-mark-warner/",
+    "httpStatus": 200,
+    "title": "Warner bill would create federally vetted list for secure, trustworthy AI agents | CyberScoop",
+    "rendered": {
+      "textChars": 8884,
+      "textSha256": "1ad79461784dd5d240042d16d1c1b1653f247a4e53178d429b827dc4abeec60e",
+      "htmlSha256": "f32a1c2160d7b26f686c47ba7eb8012c583717db30b619fe327359e63df9a877"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "fc22c0c943d734089c64b540bab2b1ac5e69f351944ec68a8579f9cbca3acf73",
+      "width": 1366,
+      "height": 6196,
+      "bytes": 976286,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

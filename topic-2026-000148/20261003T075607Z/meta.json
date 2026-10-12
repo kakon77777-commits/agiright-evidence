@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000148",
+  "url": "https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic",
+  "capturedAt": "2026-10-03T07:56:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 202793,
+    "sha256": "19837db26c19811247cee80ffdc96be7ebaa0f0f93f5c4ded8485759bc7586d6",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1CD10BB24F1FB4C71F10AD90AA5DF161",
+      "status": 200,
+      "url": "https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4473,
+      "afterScrollHeight": 5900,
+      "wantedHeight": 4473
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "91c395651d0d5c45f6bfe4226dad6648bdae68601ee4ea1ecd7ad0e20c5ca759",
+    "width": 1366,
+    "height": 4473,
+    "bytes": 722957,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 4473,
+    "afterScrollHeight": 5900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:56:07Z",
+    "url": "https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 202793,
+      "sha256": "19837db26c19811247cee80ffdc96be7ebaa0f0f93f5c4ded8485759bc7586d6"
+    },
+    "finalUrl": "https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic",
+    "httpStatus": 200,
+    "title": "US judge blocks Pentagon blacklisting of AI firm Anthropic | Civil Rights News | Al Jazeera",
+    "rendered": {
+      "textChars": 4964,
+      "textSha256": "1129ce6531a381d36b2ba5c284af2f8d1f494c5a31c15aa2efbc22b5f116ce49",
+      "htmlSha256": "37576abbec0c17a326ac9ddf150e3d9839e09c2b1ded46c5ac8130dbf13eb967"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "91c395651d0d5c45f6bfe4226dad6648bdae68601ee4ea1ecd7ad0e20c5ca759",
+      "width": 1366,
+      "height": 4473,
+      "bytes": 722957,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260828071401",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260828071401/https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260828071401/https://www.aljazeera.com/news/2026/8/28/us-judge-blocks-pentagon-blacklisting-of-ai-firm-anthropic",
+      "timestamp": "20260828071401",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

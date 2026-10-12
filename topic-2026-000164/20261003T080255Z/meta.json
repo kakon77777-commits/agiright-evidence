@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000164",
+  "url": "https://www.cbsnews.com/minnesota/news/elon-musk-xai-sues-minnesota-law-banning-ai-nudification/",
+  "capturedAt": "2026-10-03T08:02:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 652880,
+    "sha256": "5bbec8997db2aebb55dd5c6c227817d407f4021c3632b8be213de50fe39e114c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A94E26CD18BE5C31DCDE2ECA91B33D52",
+      "status": 200,
+      "url": "https://www.cbsnews.com/minnesota/news/elon-musk-xai-sues-minnesota-law-banning-ai-nudification/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3553,
+      "afterScrollHeight": 3553,
+      "wantedHeight": 3553
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7aea08747e9201d2f6607a1c7472ce03042df3869e2eb70f91d24c3fc16f0296",
+    "width": 1366,
+    "height": 3553,
+    "bytes": 870856,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3553,
+    "afterScrollHeight": 3553,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:02:55Z",
+    "url": "https://www.cbsnews.com/minnesota/news/elon-musk-xai-sues-minnesota-law-banning-ai-nudification/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 652880,
+      "sha256": "5bbec8997db2aebb55dd5c6c227817d407f4021c3632b8be213de50fe39e114c"
+    },
+    "finalUrl": "https://www.cbsnews.com/minnesota/news/elon-musk-xai-sues-minnesota-law-banning-ai-nudification/",
+    "httpStatus": 200,
+    "title": "Elon Musk's xAI sues to stop Minnesota law banning nudification technology - CBS Minnesota",
+    "rendered": {
+      "textChars": 4889,
+      "textSha256": "9e7a423ff7788ac240e907c54130507380b42ce77986d00e8c33690eed91c0aa",
+      "htmlSha256": "57314f34ceedb80855d5645bacb2c133d98d2a0339eb87ae239ce1f667b975a2"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7aea08747e9201d2f6607a1c7472ce03042df3869e2eb70f91d24c3fc16f0296",
+      "width": 1366,
+      "height": 3553,
+      "bytes": 870856,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260729022243",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260729022243/https://www.cbsnews.com/minnesota/news/elon-musk-xai-sues-minnesota-law-banning-ai-nudification/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260729022243/https://www.cbsnews.com/minnesota/news/elon-musk-xai-sues-minnesota-law-banning-ai-nudification/",
+      "timestamp": "20260729022243",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

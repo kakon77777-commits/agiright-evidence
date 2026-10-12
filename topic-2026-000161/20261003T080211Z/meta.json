@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000161",
+  "url": "https://guidelight.ai/blog/control-assessment-august-2026",
+  "capturedAt": "2026-10-03T08:02:11Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 314405,
+    "sha256": "76ad3c96ff3ba8bb1dc74e3bde3db5ca21699d345ff6fd39bccc610cf65a8643",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5BAF3ECBAEBA089CF427081E2F1E7606",
+      "status": 200,
+      "url": "https://guidelight.ai/blog/control-assessment-august-2026",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3641,
+      "afterScrollHeight": 3641,
+      "wantedHeight": 3641
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6706251c153fcba081f4afff1a179e944320571fbbc267306a5157229048c233",
+    "width": 1366,
+    "height": 3641,
+    "bytes": 567641,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3641,
+    "afterScrollHeight": 3641,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:02:11Z",
+    "url": "https://guidelight.ai/blog/control-assessment-august-2026",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 314405,
+      "sha256": "76ad3c96ff3ba8bb1dc74e3bde3db5ca21699d345ff6fd39bccc610cf65a8643"
+    },
+    "finalUrl": "https://guidelight.ai/blog/control-assessment-august-2026",
+    "httpStatus": 200,
+    "title": "Guidelight's Control Assessment of Frontier AI Companies | Guidelight AI Standards",
+    "rendered": {
+      "textChars": 6668,
+      "textSha256": "f80920543d9f68d93671b046eac65f77e3ca9c9363f4ce18cef37c6585e0583c",
+      "htmlSha256": "e2614dd5c56e3756e163d71a0b2cc9cb64fb21a5df1731fd8bb1951a82ddd6f4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6706251c153fcba081f4afff1a179e944320571fbbc267306a5157229048c233",
+      "width": 1366,
+      "height": 3641,
+      "bytes": 567641,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260819141847",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260819141847/https://guidelight.ai/blog/control-assessment-august-2026"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260819141847/https://guidelight.ai/blog/control-assessment-august-2026",
+      "timestamp": "20260819141847",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

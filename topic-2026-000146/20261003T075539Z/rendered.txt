@@ -1,0 +1,121 @@
+Consent
+Details
+About
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Deny
+Allow selection
+Allow all
+Our people
+Our practice
+Our insights
+Our commitments
+Join us
+Home|
+Our insights|
+Blogs|
+Viewpoints|
+GEMA notches a second transatlantic AI copyright win in Germany
+31 July 2026 / 9 min read
+GEMA notches a second transatlantic AI copyright win in Germany
+
+On 31 July 2026, the Munich District Court I (Landgericht München I; the “Court”) delivered the first major European ruling to hold that training an AI model on protected musical works without a license can infringe copyright even where the training itself takes place outside the EU – a result likely to influence pending disputes elsewhere in Europe.
+
+Key takeaways
+Offshore training is no safe harbor. The Court assumed international jurisdiction over acts committed in the U.S. – a forum open to collecting societies only (not to other rightsholders), where there is a link to a German case.
+The model itself infringes. Memorization of the works in models hosted on German servers is an infringing reproduction under German copyright law.
+The provider of the AI system, not the user, is liable.
+EU AI Act compliance is not a defence.
+Nothing is settled yet. The judgment is not final, GEMA v. OpenAI is pending before the Munich Court of Appeals, and the CJEU’s Like Company ruling is due in September 2026.
+
+In its first-instance judgment of 31 July 2026 (case no. 42 O 763/25), the Court has largely awarded the claims for injunctive relief and information as well as declaratory relief confirming an entitlement to damages brought by GEMA, the German collecting society representing songwriters, composers and music publishers, against the U.S.-based AI music generation service provider Suno.
+
+The Court found that both (i) the AI training in the U.S. and (ii) the output of music in Germany would be copyright-infringing:
+
+According to the decision of the adjudicating chamber, the plaintiff is entitled to the claims asserted both on the basis of the reproduction of the musical works that took place during the training in the United States and on the basis of the reproduction in the model and the reproduction in the outputs in Germany.
+[verbatim quote translated from the Court’s German press release dated 31 July 2026]
+
+The fully reasoned judgment has not been published yet, but the Court released an official press release (German content) setting out its reasoning. The judgment itself is not yet final, and may be appealed by Suno.
+
+The case in brief
+
+GEMA alleged that Suno’s AI system was trained on protected recordings of six well-known musical works without a license, and that Suno’s AI system reproduces these works in its outputs. The lyrics of these songs were not at issue in the proceedings, which is a key difference as compared to GEMA’s earlier case brought against ChatGPT (please see our earlier blog here). GEMA’s claim, brought on behalf of the composers of these works, sought an injunction, information, and damages, and was based on both U.S. and German acts of infringement: reproduction of the works during training in the U.S., and reproduction within the model plus reproduction and communication to the public through outputs in Germany. 
+
+It was undisputed that Suno’s training dataset for its models included the six works at issue, and that Suno used stream-ripping techniques to extract and copy the recordings from YouTube, circumventing YouTube’s “rolling cipher” technical protection measure in the process. To generate the disputed outputs, GEMA’s side had entered the original lyrics, the desired musical style, and the work title into the AI system’s prompt field. 
+
+Suno argued that the works were not protected by copyright at all; that they were not recognizable in the outputs; that the model’s weights and parameters reflect only mathematically learned patterns and generalized features rather than the training data itself; that any similarity stemmed from prompt-induced narrowing of the model’s search space; that the training was covered by U.S. fair use, a question the Munich court in any event lacked jurisdiction to assess; that the outputs resulted from GEMA’s own complex, iteratively refined prompts, breaking the chain of attribution to Suno; and that, insofar as German law applied, there was no copyright-relevant act of use, or any such use was justified by the text and data mining (“TDM”) exception.
+
+What the Court found
+
+Jurisdiction. The Court held that the Court had international jurisdiction even over claims arising from infringing acts committed in the U.S. It based this on Section 131(1) and (2) of the German Collecting Societies Act (Verwertungsgesellschaftengesetz – “VGG”), which governs the exercise of copyright and related rights by collecting societies such as GEMA and which the court read as establishing both local and international jurisdiction, including a special forum of factual connection of claims in various forums for privileged collecting societies whose purpose is the administration of copyright. Notably, Section 131 VGG is not available for claims brought by rightsholders other than collecting societies (e.g., music publishers or labels).
+
+Memorization and the model itself. The Court found that the works at issue were reproducibly contained (i.e., memorized) in certain versions of Suno’s AI system, which were stored on servers located in Germany. Citing established findings from information-technology research on how training data is retained in AI models, the Court held that such memorization constituted an infringement of the reproduction right under Section 16 of the German Copyright Act (Urheberrechtsgesetz – “UrhG”), and that this reproduction within the models at issue was not covered by the statutory TDM exception under Section 44b UrhG for several reasons.
+
+The outputs. The Court held Suno – not its users – responsible for the unauthorized reproduction and communication to the public of the works through outputs generated in Germany, in which the original elements remained recognizable. That the prompts had been entered repeatedly, in some instances more than 100 times, did not break attribution: in the Court’s view, the prompts were simple and open-ended, specifying only the lyrics and the desired musical style. As provider, Suno had trained the models on the works at issue and remained responsible for their architecture and for the memorization of the training data, so that the models – not the prompts – substantively determined the outputs. Offering the model and the music generation application therefore already infringed the right of communication to the public under Section 15(2) UrhG.
+
+U.S. training and fair use. For the reproductions made during training in the U.S., the Court applied U.S. law under the principle of territoriality (Schutzlandprinzip) – a notable choice in itself, since a German civil court thus conducted a full U.S. fair use analysis rather than declining the question as outside its competence (as Suno had urged) or obtaining U.S. law expert advice. Assessing the factors under 17 U.S.C. § 107 as articulated by the U.S. Supreme Court, the Court found fair use inapplicable because simple, open-ended prompts produced outputs substantially similar to the original works.
+It expressly held that the case is not comparable to Bartz v. Anthropic and Kadrey v. Meta, the two recent U.S. federal rulings AI providers most rely on: in those cases, the outputs were not shown to reproduce or closely resemble the training works and market harm was not established. Whereas here, the outputs were substantially similar and generated from non-specific prompts. According to the judges’ verbal explanations, they also considered that the infringements concern the core area of copyright protection and that Suno’s service created a substitutable competing musical work.
+
+EU AI Act implications. According to the judges’ verbal explanations, the Court also considered the EU AI Act. Complying with Article 53(1) c) and d) – the duties to adopt a policy for EU copyright compliance and to publish a sufficiently detailed summary of the training content – does not in itself release AI providers from copyright liability. The EU AI Act does not replace EU copyright law but complements and references it; relying on Recital 107, the Court took the position that it is meant to make enforcement easier, not harder, for rightsholders.
+
+The broader litigation landscape
+
+Today’s judgment lands amid a rapidly developing and, so far, inconsistent European jurisprudence on AI training and copyright.
+
+The earlier GEMA v. OpenAI judgment of the same Court remains under appeal. This means that the doctrinal foundation both German rulings rest on has not yet been tested at the appellate level. Today’s judgment adds a further, untested dimension to that appeal exposure: its cross-border application of U.S. fair use principles to conduct occurring outside Germany, and its finding that a German collecting society’s forum of factual connection under Section 131 VGG extends jurisdiction to infringing acts in foreign countries.
+
+German courts are, moreover, not speaking with one voice. The Hamburg Court of Appeals (Hanseatisches Oberlandesgericht Hamburg) held, in its 10 December 2025 decision, case no. 5 U 104/24, (German content) that creating an AI training dataset may fall within several statutory TDM exceptions under Directive (EU) on copyright and related rights in the Digital Single Market (“DSM Directive”), as transposed into national German law, while taking the user-friendly view that an opt-out from TDM declared by the rightsholder would not be necessarily sufficiently machine-readable to be effective. 
+
+At the EU level, the Court of Justice of the European Union (“CJEU”) is seized of case C-250/25 (Like Company), a preliminary reference from Hungary asking whether chatbot outputs can infringe copyright or press publishers’ rights, whether LLM training constitutes a copyright-relevant reproduction, and whether the general TDM exception under the DSM Directive can shield such training. An oral hearing took place on 10 March 2026, and the Advocate General’s opinion is expected on 3 September 2026 – a ruling likely to reach well beyond the facts of that case and to inform how German courts, including the Munich Court of Appeals, ultimately resolve the GEMA disputes.
+
+Today’s ruling also sits alongside, but is legally distinct from, Suno’s ongoing exposure in the U.S., where two of the three major record labels continue to pursue copyright infringement claims against Suno, with a summary-judgment hearing pending in Massachusetts. Because that litigation proceeds under the U.S. fair use doctrine before U.S. courts, today’s Munich judgment has no direct legal effect on it, but a loss on both fronts would materially raise the stakes for Suno’s global licensing posture.
+
+GEMA is not confining its response to the courtroom. On 23 July 2026, just over a week before the judgment, it launched PLAI by GEMA – described as Europe’s first fully licensed, scalable music dataset of its kind, bundling sound files, comprehensive metadata and the necessary copyright and master rights for providers of AI music tools. Developed with various partners, it comprises roughly 178,000 sound files across more than 60 genres and has already signed its first customer. Litigation and licensing thus run as parallel: establishing in court that unlicensed training infringes, while offering AI developers a licensed – but paid – alternative.
+
+Practical implications
+
+For music companies and other rightsholders, today’s result reinforces the message GEMA has pressed since 2024: AI providers training on protected repertoire without a license face a real and growing German litigation risk, not merely a theoretical one. GEMA has paired its litigation strategy with a licensing push.
+
+For AI developers and companies deploying or offering AI tools, the case underscores that German judges have been receptive to the argument that a model’s ability to reproduce protected content on simple prompting is itself evidence of unlawful reproduction within the model – a theory that TDM defenses have so far failed to displace at first instance. Just as significant for global operators is the Court’s willingness to reach conduct occurring entirely outside Germany. Bartz and Kadrey are widely cited for the proposition that training is fair use so long as outputs do not closely reproduce the training material and no market harm is shown; by finding Suno’s outputs substantially similar to the original musical works, the Court removed the factual predicate on which that defense typically rests – and signaled both that structuring training activity offshore will not, by itself, insulate a provider from a German collecting society’s claims, and that a German court will scrutinize the U.S. fair use merits rather than defer to them wholesale. 
+
+Until the Munich Court of Appeals rules on the OpenAI appeal, the CJEU issues its guidance in Like Company, and any appeal against today’s judgment is resolved, the practical guidance remains the same as after the OpenAI decision: maintain evidence of lawful data access, take machine-readable rights reservations seriously, and treat memorization risk as a live commercial exposure rather than a remote possibility.
+
+Authors
+
+Nick Breen
+
+Partner
+
+London
+
+Dr. Alexander Hardinghaus, LL.M.
+
+Counsel
+
+Munich
+
+Dr. Carsten Dobler
+
+Associate
+
+Munich
+
+Subscribe to the Viewpoints newsletter
+Subscribe to receive latest insights directly to your inbox
+Subscribe
+Related insights
+Our insights
+Share
+Subscribe to our newsletters
+Register your preferences and subscribe to receive insights directly to your inbox
+
+Follow us
+
+© 2026 Reed Smith LLP. All rights reserved.
+
+Accessibility | Country-Specific Legal Notices | Fraud Alert | Legal Notices | Attorney Advertising | Modern Slavery and Human Trafficking Statement | Privacy and Cookies | Terms of Use

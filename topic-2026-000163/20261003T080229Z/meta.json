@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000163",
+  "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/shapiro-administration-sues-character-ai-over-fake-medical-claim",
+  "capturedAt": "2026-10-03T08:02:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 119177,
+    "sha256": "2d9c0ca9b7337d5a52fd11b8c583e430eef185b5b058c211b04ccc81202d9e6b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1739D73341B2E86B565E638E76BEF21B",
+      "status": 200,
+      "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/shapiro-administration-sues-character-ai-over-fake-medical-claim",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3687,
+      "afterScrollHeight": 3687,
+      "wantedHeight": 3687
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "564e0e409a61013f4e915ba476ad12b07099a8631bf131a3db370f8c0ba0d253",
+    "width": 1366,
+    "height": 3687,
+    "bytes": 685436,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3687,
+    "afterScrollHeight": 3687,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:02:29Z",
+    "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/shapiro-administration-sues-character-ai-over-fake-medical-claim",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 119177,
+      "sha256": "2d9c0ca9b7337d5a52fd11b8c583e430eef185b5b058c211b04ccc81202d9e6b"
+    },
+    "finalUrl": "https://www.pa.gov/governor/newsroom/2026-press-releases/shapiro-administration-sues-character-ai-over-fake-medical-claim",
+    "httpStatus": 200,
+    "title": "Shapiro Administration Sues Character.AI Over Fake Medical Claims | Commonwealth of Pennsylvania",
+    "rendered": {
+      "textChars": 8182,
+      "textSha256": "7f188785b043c1fc3ab392e42c8ee7d81f8a8488b2037dc608b2e9501ae70377",
+      "htmlSha256": "f24f9c2c5bcf9d52c196cba024f8e453276f873d82aa7906448f99169bfe6b44"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "564e0e409a61013f4e915ba476ad12b07099a8631bf131a3db370f8c0ba0d253",
+      "width": 1366,
+      "height": 3687,
+      "bytes": 685436,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260505172318",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260505172318/https://www.pa.gov/governor/newsroom/2026-press-releases/shapiro-administration-sues-character-ai-over-fake-medical-claim"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260505172318/https://www.pa.gov/governor/newsroom/2026-press-releases/shapiro-administration-sues-character-ai-over-fake-medical-claim",
+      "timestamp": "20260505172318",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

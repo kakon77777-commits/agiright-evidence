@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000160",
+  "url": "https://sd05.senate.ca.gov/news/legislature-approves-no-robo-bosses-act-2026-ensure-human-oversight-ai-workplace",
+  "capturedAt": "2026-10-03T08:02:10Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 38347,
+    "sha256": "3c45c291fb30711fbb9154b2d18642a0b23b8afc66a39a5c219645a7d19aa3dd",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8A86ED8F1EFAB13002C06F23A76B413D",
+      "status": 200,
+      "url": "https://sd05.senate.ca.gov/news/legislature-approves-no-robo-bosses-act-2026-ensure-human-oversight-ai-workplace",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3606,
+      "afterScrollHeight": 3606,
+      "wantedHeight": 3606
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "88c230d2a1908fbc2933ad47d1595858998a6e72c7d2e1310ee238569e789f17",
+    "width": 1366,
+    "height": 3606,
+    "bytes": 1701069,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3606,
+    "afterScrollHeight": 3606,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:02:10Z",
+    "url": "https://sd05.senate.ca.gov/news/legislature-approves-no-robo-bosses-act-2026-ensure-human-oversight-ai-workplace",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 38347,
+      "sha256": "3c45c291fb30711fbb9154b2d18642a0b23b8afc66a39a5c219645a7d19aa3dd"
+    },
+    "finalUrl": "https://sd05.senate.ca.gov/news/legislature-approves-no-robo-bosses-act-2026-ensure-human-oversight-ai-workplace",
+    "httpStatus": 200,
+    "title": "Legislature Approves No Robo Bosses Act of 2026 to Ensure Human Oversight of AI in the Workplace | Senator Jerry McNerney",
+    "rendered": {
+      "textChars": 3928,
+      "textSha256": "87b09864d3813e8bf29b8329dc74812cf752a1c05122327399af6fbd3e7f98e4",
+      "htmlSha256": "0dd9e3e521f483d1ffa2457508161ae476d9779eb15569fc1cf2755b2c1dd6ee"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "88c230d2a1908fbc2933ad47d1595858998a6e72c7d2e1310ee238569e789f17",
+      "width": 1366,
+      "height": 3606,
+      "bytes": 1701069,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260901171407",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260901171407/https://sd05.senate.ca.gov/news/legislature-approves-no-robo-bosses-act-2026-ensure-human-oversight-ai-workplace"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260901171407/https://sd05.senate.ca.gov/news/legislature-approves-no-robo-bosses-act-2026-ensure-human-oversight-ai-workplace",
+      "timestamp": "20260901171407",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

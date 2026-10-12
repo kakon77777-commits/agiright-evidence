@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000158",
+  "url": "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai",
+  "capturedAt": "2026-10-03T08:00:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 99791,
+    "sha256": "f15929d921e37f035fad1d76b4f6094fa85f77d2761ec5dbfe6eb848b6478cec",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1BBD2A85CC1F1ECFCA09407D3C2C9563",
+      "status": 200,
+      "url": "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2188,
+      "afterScrollHeight": 2185,
+      "wantedHeight": 2185
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "be84c9676409335b3911d7d2c1e57e357567c5c439bbd1d3a4876c6e98127509",
+    "width": 1366,
+    "height": 2185,
+    "bytes": 293044,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2188,
+    "afterScrollHeight": 2185,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:00:55Z",
+    "url": "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 99791,
+      "sha256": "f15929d921e37f035fad1d76b4f6094fa85f77d2761ec5dbfe6eb848b6478cec"
+    },
+    "finalUrl": "https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai",
+    "httpStatus": 200,
+    "title": "Carriages preview | Legislative Train Schedule",
+    "rendered": {
+      "textChars": 7088,
+      "textSha256": "11f16cf6004d65ed780932fbc6178624e6c9e0be90bfec938de7cf80785cf664",
+      "htmlSha256": "be84c647679893cff8462464a3d6cd9553d214add9d826df688876d8c8bb6ea5"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "be84c9676409335b3911d7d2c1e57e357567c5c439bbd1d3a4876c6e98127509",
+      "width": 1366,
+      "height": 2185,
+      "bytes": 293044,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20251223050249",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20251223050249/https://www.europarl.europa.eu/legislative-train/package-digital-package/file-digital-omnibus-on-ai"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

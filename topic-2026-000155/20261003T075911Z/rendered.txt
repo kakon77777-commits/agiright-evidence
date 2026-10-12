@@ -1,0 +1,202 @@
+Skip to main content
+Join Tom’s Hardware today
+EXPLORE
+Choose how you want to join Tom’s Hardware
+MEMBER
+
+Get started with free access to reviews, badges and discussions.
+
+BECOME A MEMBER
+PREMIUM MEMBER
+
+Unlock exclusive tools and insights for enthusiasts who want more.
+
+Bench Database
+Exclusive Features
+Roadmaps
+Deep Analysis
+BECOME A PREMIUM MEMBER
+Tom's Hardware
+US Edition
+RSS
+Sign in
+Search
+Best Picks
+CPUs
+GPUs
+PC Components
+News
+Laptops
+Desktops
+Software & AI
+Coupons
+Premium
+Forums
+TRENDING
+AI Chip Design Week
+RAM Shortage
+AI Data Centers
+Vera Rubin
+RAM Combo Deals
+Nova Lake
+Tom's 30th Anniversary
+Tech Industry  Artificial Intelligence
+Florida seeks court ruling to officially classify Sam Altman and ChatGPT as a 'public nuisance' — OpenAI fights to keep lawsuit away from a state jury
+News
+By Luke James
+Published August 21, 2026
+
+Trump ally Judge Aileen Cannon has had the remand motion for seven weeks.
+
+(Image credit: Getty / Kevin Dietsch)
+Share this article
+14
+Join the conversation
+Add us as a preferred source on Google
+Newsletter
+Subscribe to our newsletter
+
+Florida's lawsuit against OpenAI and Sam Altman has now been sitting before U.S. District Judge Aileen Cannon in Fort Pierce for seven weeks without a ruling on whether it belongs there. The state filed its 83-page, ten-count complaint in Highlands County circuit court on June 1, pleading only Florida law, naming Altman personally, and demanding a jury. OpenAI removed the case to federal court on July 2, arguing that one count built on the federal Children's Online Privacy Protection Act pulls the whole action into federal jurisdiction. Amongst other things, the state is seeking a court ruling finding that ChatGPT is a public nuisance.
+
+GO DEEPER WITH TH PREMIUM: AI AND DATA CENTERS
+
+The data center cooling state of play
+The custom AI ASIC state of play
+America’s AI chip rules keep changing — and the rest of the world is paying the price
+GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year
+Demand for data center CPUs has surged, and AI agents are responsible
+
+Florida moved to remand on July 10, calling the removal "preposterous," and briefing closed July 31. In a similar matter, New Mexico kept its own state-law case against Meta out of federal court and this month won a $567 million public-nuisance abatement order on top of a $375 million jury penalty.
+
+Count IV alleges OpenAI violates the Florida Deceptive and Unfair Trade Practices Act by collecting data from under-13s without the parental notice and consent the FTC's COPPA rule requires. Paragraph 30 of the complaint expressly disclaims any federal cause of action. Meanwhile, OpenAI's opposition to remand argues the count arises under federal law anyway, that applying COPPA to "artificial intelligence research services is a novel question of federal law," and that 15 U.S.C. §6504 makes federal court the exclusive forum for state attorneys general enforcing COPPA.
+
+Latest Videos From
+Tom's Hardware
+How To Check Your CPU Temperature
+0 seconds of 1 minute, 35 secondsVolume 0%
+ 
+Watch full video here: How To Check Your CPU Temperature
+
+OpenAI's brief cites three cases in which states sued platforms under state law, defendants removed, and federal judges sent them back: New Mexico v. Meta, California v. TikTok, and New Jersey v. Discord. OpenAI cites them only to show the judges declined to award fees because removal wasn't "objectively unreasonable." Florida's remand motion asks for fees regardless, arguing OpenAI removed for one reason: "delay."
+
+The complaint's remaining counts cover negligence, gross negligence, strict liability for design defect and failure to warn, fraudulent misrepresentation, and public nuisance. It alleges ChatGPT's memory feature was on by default, the free tier has no age gate, the September 2025 parental controls require a voluntary account link, and GPT-4o's safety evaluation was compressed to one week to beat a Google launch.
+
+YOU MAY LIKE
+Florida attorney general asks judge to bar OpenAI from developing new AI models without third-party approval
+British Columbia sues OpenAI and Sam Altman for 'aiding and abetting' school shooter
+Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development
+
+The State seeks a permanent injunction on under-13 data collection and a finding that distributing ChatGPT in Florida is a public nuisance, demanding civil penalties of up to $10,000 per willful violation, which is double New Mexico's $5,000 cap. New Mexico's jury found 75,000 violations.
+
+A footnote in every federal filing states that Altman "is not making a general appearance" and reserves a personal-jurisdiction defense. That defense sets up a motion to dismiss the CEO individually, no matter which court hears the case. Much of the record that Florida's case relies on is against Altman, including Greg Brockman's diary and Tasha McCauley's testimony about a "toxic culture of lying," which came out at the Musk v. Altman trial in May. A coalition of 42 state attorneys general subpoenaed OpenAI in June; none has filed a complaint yet.
+
+Stay On the Cutting Edge: Get the Tom's Hardware Newsletter
+
+Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.
+
+Contact me with news and offers from other Future brands
+Receive email from us on behalf of our trusted partners or sponsors
+By submitting your information you agree to the Terms & Conditions and Privacy Policy and are aged 16 or over.
+
+Follow Tom's Hardware on Google News, or add us as a preferred source, to get our latest news, analysis, & reviews in your feeds.
+
+TOPICS
+OpenAI
+ SEE ALL COMMENTS (14)
+Luke James
+Contributor
+
+Luke James is a freelance writer and journalist.  Although his background is in legal, he has a personal interest in all things tech, especially hardware and microelectronics, and anything regulatory. 
+
+READ MORE
+Artificial Intelligence
+Florida attorney general asks judge to bar OpenAI from developing new AI models without third-party approval
+ 
+ 
+Artificial Intelligence
+British Columbia sues OpenAI and Sam Altman for 'aiding and abetting' school shooter
+ 
+ 
+Big Tech
+Anthropic, OpenAI, SpaceXAI, and Google face antitrust lawsuit for agreeing to slow AI development
+ 
+ 
+Artificial Intelligence
+Microsoft director called AI scraping ‘the largest theft of labor in human history'
+ 
+ 
+Tech Industry
+Apple is taking OpenAI to court over alleged theft of trade secrets
+ 
+ 
+Data Centers
+AI data center developers begin suing local jurisdictions behind bans and moratoriums
+ 
+ 
+LATEST IN ARTIFICIAL INTELLIGENCE
+Artificial Intelligence
+Geekbench 7 results suggest OpenAI's dots run on nine-core AMD EPYC VMs
+ 
+ 
+Artificial Intelligence
+Anthropic claims popular Chinese AI model has Mythos-class hacking abilities
+ 
+ 
+Artificial Intelligence
+AMD acquires AI legend Fei-Fei Li's World Labs for $8.2 billion
+ 
+ 
+Artificial Intelligence
+Florida attorney general asks judge to bar OpenAI from developing new AI models without third-party approval
+ 
+ 
+Artificial Intelligence
+Meta's Muse AI agent accused of ignoring user permissions and accessing forbidden personal user data
+ 
+ 
+Artificial Intelligence
+Anthropic lists ‘existential risks to humanity’ as one of its risk factors in IPO prospectus
+ 
+ 
+LATEST IN NEWS
+Policy
+Top AI tech executives promise to ‘self-police’ AI development
+ 
+ 
+Artificial Intelligence
+Geekbench 7 results suggest OpenAI's dots run on nine-core AMD EPYC VMs
+ 
+ 
+PlayStation
+Marvel's Wolverine reaches gameplay with KytyPS5 emulator
+ 
+ 
+Wi-Fi Routers
+TP-Link opens global preorders for its first Wi-Fi 8 router, but ban keeps it out of US market
+ 
+ 
+PlayStation
+New PS5 Relapse jailbreak enables homebrew and Switch emulation but is hamstrung by rapidly-changing firmware revisions
+ 
+ 
+Xbox
+Xbox Disc to Digital feature rolls out to all Xbox players to enable playing disc-free, but selling your media revokes access
+ 
+ 
+ADVERTISEMENT
+ADVERTISEMENT
+
+Tom's Hardware is part of Future US Inc, an international media group and leading digital publisher. Visit our corporate site.
+
+Add as a preferred source on Google
+Terms and conditions
+Contact Future's experts
+Privacy policy
+Cookies policy
+Accessibility Statement
+Advertise with us
+About us
+Coupons
+Careers
+
+© Future US, Inc. Full 7th Floor, 130 West 42nd Street, New York, NY 10036.

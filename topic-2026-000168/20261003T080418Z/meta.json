@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000168",
+  "url": "https://www.ksat.com/news/world/2026/09/02/brazils-electoral-court-sets-new-standards-for-ai-deepfakes-after-case-involving-sen-bolsonaro/",
+  "capturedAt": "2026-10-03T08:04:18Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 388539,
+    "sha256": "484c592634379bd7e20e9e8c6159daccf639f5dcf8abdb46eadea9c3d0944234",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "09809A920AC43811E263105D4FE60A3A",
+      "status": 200,
+      "url": "https://www.ksat.com/news/world/2026/09/02/brazils-electoral-court-sets-new-standards-for-ai-deepfakes-after-case-involving-sen-bolsonaro/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4764,
+      "afterScrollHeight": 4764,
+      "wantedHeight": 4764
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2aa0b23cfd3ffe4915cce629debd09dc3ec66e2e25c163cc9e015c596df7da4b",
+    "width": 1366,
+    "height": 4764,
+    "bytes": 1367908,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4764,
+    "afterScrollHeight": 4764,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:04:18Z",
+    "url": "https://www.ksat.com/news/world/2026/09/02/brazils-electoral-court-sets-new-standards-for-ai-deepfakes-after-case-involving-sen-bolsonaro/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 388539,
+      "sha256": "484c592634379bd7e20e9e8c6159daccf639f5dcf8abdb46eadea9c3d0944234"
+    },
+    "finalUrl": "https://www.ksat.com/news/world/2026/09/02/brazils-electoral-court-sets-new-standards-for-ai-deepfakes-after-case-involving-sen-bolsonaro/",
+    "httpStatus": 200,
+    "title": "Brazil’s electoral court sets new standards for AI deepfakes after case involving Sen. Bolsonaro",
+    "rendered": {
+      "textChars": 8130,
+      "textSha256": "d24450d38e04d1f8c81e4326192cdcd2bd09a20c7553a5605e67a469fa86c72f",
+      "htmlSha256": "6f9cae6fc65bf8249bf358de3c37409f77de9f80e9445dd256c724c77f70e58e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2aa0b23cfd3ffe4915cce629debd09dc3ec66e2e25c163cc9e015c596df7da4b",
+      "width": 1366,
+      "height": 4764,
+      "bytes": 1367908,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260903002645",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260903002645/https://www.ksat.com/news/world/2026/09/02/brazils-electoral-court-sets-new-standards-for-ai-deepfakes-after-case-involving-sen-bolsonaro/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260903002645/https://www.ksat.com/news/world/2026/09/02/brazils-electoral-court-sets-new-standards-for-ai-deepfakes-after-case-involving-sen-bolsonaro/",
+      "timestamp": "20260903002645",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

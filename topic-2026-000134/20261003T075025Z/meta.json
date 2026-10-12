@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000134",
+  "url": "https://utdailybeacon.com/212857/news/ut-research-foundation-files-patent-infringement-lawsuit-against-ai-giant-anthropic/",
+  "capturedAt": "2026-10-03T07:50:25Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 316648,
+    "sha256": "793c32d544d7e62fe0069155d3f6ab23193dcf6c664ae7be36466bb779bf41ff",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "96829BA5EDB173081E3A109759807E57",
+      "status": 200,
+      "url": "https://utdailybeacon.com/212857/news/ut-research-foundation-files-patent-infringement-lawsuit-against-ai-giant-anthropic/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4742,
+      "afterScrollHeight": 4742,
+      "wantedHeight": 4742
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "81e96dbf33d66ae5f209fd117955370c4558298f9fb2afbb9c28abc8adc4bab9",
+    "width": 1366,
+    "height": 4742,
+    "bytes": 1454958,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4742,
+    "afterScrollHeight": 4742,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:50:25Z",
+    "url": "https://utdailybeacon.com/212857/news/ut-research-foundation-files-patent-infringement-lawsuit-against-ai-giant-anthropic/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 316648,
+      "sha256": "793c32d544d7e62fe0069155d3f6ab23193dcf6c664ae7be36466bb779bf41ff"
+    },
+    "finalUrl": "https://utdailybeacon.com/212857/news/ut-research-foundation-files-patent-infringement-lawsuit-against-ai-giant-anthropic/",
+    "httpStatus": 200,
+    "title": "UT Research Foundation files patent infringement lawsuit against AI giant Anthropic – The Daily Beacon",
+    "rendered": {
+      "textChars": 5784,
+      "textSha256": "1bd3b2c6c0816f57ddb75aede3c5f6e5c7f6ac3a18eb3fda41f09e344ea27da1",
+      "htmlSha256": "9eeb8105af30ba19d2d4c6e5f815007ab62a16ef351882f782f58950c9efaecf"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "81e96dbf33d66ae5f209fd117955370c4558298f9fb2afbb9c28abc8adc4bab9",
+      "width": 1366,
+      "height": 4742,
+      "bytes": 1454958,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260824035010",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260824035010/https://utdailybeacon.com/212857/news/ut-research-foundation-files-patent-infringement-lawsuit-against-ai-giant-anthropic/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260824035010/https://utdailybeacon.com/212857/news/ut-research-foundation-files-patent-infringement-lawsuit-against-ai-giant-anthropic/",
+      "timestamp": "20260824035010",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

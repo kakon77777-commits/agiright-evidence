@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000145",
+  "url": "https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm",
+  "capturedAt": "2026-10-03T07:54:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 35810,
+    "sha256": "2afe774741973045749ae2b8b22f5e86bc7134774c29625b6955b55c6a15dccb",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FBAEB719B5DA57D2BF7C1E53138E98F8",
+      "status": 200,
+      "url": "https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5529,
+      "afterScrollHeight": 5529,
+      "wantedHeight": 5529
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5917aac1ba9ad7e4920ce7dd5e8820513b7a10e56ecc13479f47568003bdce00",
+    "width": 1366,
+    "height": 5529,
+    "bytes": 750253,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5529,
+    "afterScrollHeight": 5529,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:54:58Z",
+    "url": "https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 35810,
+      "sha256": "2afe774741973045749ae2b8b22f5e86bc7134774c29625b6955b55c6a15dccb"
+    },
+    "finalUrl": "https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm",
+    "httpStatus": 200,
+    "title": "智能体规范应用与创新发展实施意见_中央网络安全和信息化委员会办公室",
+    "rendered": {
+      "textChars": 5829,
+      "textSha256": "9eb56a7d10b1faf4d92b7d449e9b1d6be74815be116c9fcc9f3af751c75f21f2",
+      "htmlSha256": "151f34496d1c678d185fc36e65897ad1049df69215227724d2851b79fefd1c8e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "5917aac1ba9ad7e4920ce7dd5e8820513b7a10e56ecc13479f47568003bdce00",
+      "width": 1366,
+      "height": 5529,
+      "bytes": 750253,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260508113720",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260508113720/https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260508113720/https://www.cac.gov.cn/2026-05/08/c_1779979789523320.htm",
+      "timestamp": "20260508113720",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

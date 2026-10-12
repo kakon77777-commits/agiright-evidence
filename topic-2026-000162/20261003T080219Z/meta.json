@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000162",
+  "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+  "capturedAt": "2026-10-03T08:02:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 164072,
+    "sha256": "a96d63e2d9ffdb1619737b5ab1306963678ded8c50f619cbff28aeccc2dcc35c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CB20C659D299CCF5FB3DB9B10A2E0E70",
+      "status": 200,
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 11572,
+      "afterScrollHeight": 11572,
+      "wantedHeight": 11572
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "941831e5810a28652ed8c08c7ecbbf30441de9dfd4810a722d4dac0aebb17025",
+    "width": 1366,
+    "height": 11572,
+    "bytes": 2102031,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 11572,
+    "afterScrollHeight": 11572,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:02:19Z",
+    "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 164072,
+      "sha256": "a96d63e2d9ffdb1619737b5ab1306963678ded8c50f619cbff28aeccc2dcc35c"
+    },
+    "finalUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "httpStatus": 200,
+    "title": "Investigating three incidents in our cybersecurity evaluations \\ Anthropic",
+    "rendered": {
+      "textChars": 23615,
+      "textSha256": "698b56e04aa1f1b2f9d136a1fe984f7960184052a3ca3e517db0e86e9f86bccc",
+      "htmlSha256": "4d49ab77c919126c3ea3d91f705067b2e66d49c797567b4f6556a0ac1c7d5fce"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "941831e5810a28652ed8c08c7ecbbf30441de9dfd4810a722d4dac0aebb17025",
+      "width": 1366,
+      "height": 11572,
+      "bytes": 2102031,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260730231111",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260730231111/https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260730231111/https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "timestamp": "20260730231111",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

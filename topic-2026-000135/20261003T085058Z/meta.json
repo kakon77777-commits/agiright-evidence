@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000135",
+  "url": "https://www.mediapost.com/publications/article/417407/judge-sides-against-snap-in-scraping-battle.html",
+  "capturedAt": "2026-10-03T08:50:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 85062,
+    "sha256": "d089dd2d837ca25d1c7226b9f285d08e1766cb283e5163585c1c80200eac50a6",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": "net::ERR_EMPTY_RESPONSE",
+    "document": null,
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e71c86c60554f2bf642fa7658305eae2832bdb4128254405245353ca17b9f0fc",
+    "width": 1366,
+    "height": 900,
+    "bytes": 29537,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:50:58Z",
+    "url": "https://www.mediapost.com/publications/article/417407/judge-sides-against-snap-in-scraping-battle.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 85062,
+      "sha256": "d089dd2d837ca25d1c7226b9f285d08e1766cb283e5163585c1c80200eac50a6"
+    },
+    "finalUrl": "chrome-error://chromewebdata/",
+    "httpStatus": 200,
+    "title": "www.mediapost.com",
+    "rendered": {
+      "textChars": 117,
+      "textSha256": "ca53d409c8feac20a9952c31f9a388fa622c61cbde637cca95d2a3d0eebbf0a5",
+      "htmlSha256": "c3c3a32b4d4f34acfa0b3a42ee5620f598da09d6f797b0c406d8a269285e9bf3"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "e71c86c60554f2bf642fa7658305eae2832bdb4128254405245353ca17b9f0fc",
+      "width": 1366,
+      "height": 900,
+      "bytes": 29537,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "navError": "net::ERR_EMPTY_RESPONSE",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260821220823",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260821220823/https://www.mediapost.com/publications/article/417407/judge-sides-against-snap-in-scraping-battle.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260821220823/https://www.mediapost.com/publications/article/417407/judge-sides-against-snap-in-scraping-battle.html",
+      "timestamp": "20260821220823",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

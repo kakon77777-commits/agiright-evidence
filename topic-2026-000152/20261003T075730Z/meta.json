@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000152",
+  "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+  "capturedAt": "2026-10-03T07:57:30Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 179267,
+    "sha256": "78d85057362c1f5ccf7ef9e59684313d00336a84227eea727cfac09b343789fa",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "75EDB0AA2907257A7DCBF385D09ECA06",
+      "status": 200,
+      "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7600,
+      "afterScrollHeight": 7547,
+      "wantedHeight": 7547
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "cd85df610cb29891b3f78c1fa85f3c0d1295464ad886eb5e3e3e70a927bdd1bb",
+    "width": 1366,
+    "height": 7547,
+    "bytes": 2472853,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7600,
+    "afterScrollHeight": 7547,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:57:30Z",
+    "url": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 179267,
+      "sha256": "78d85057362c1f5ccf7ef9e59684313d00336a84227eea727cfac09b343789fa"
+    },
+    "finalUrl": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+    "httpStatus": 200,
+    "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+    "rendered": {
+      "textChars": 12871,
+      "textSha256": "a4c17c4154a5bb20f0008a71a0c35f86d3df8e20f2c6bc899e8e3919852a4b5c",
+      "htmlSha256": "d681248e1c4a6c3817a7470586fcf6c0f80ab5c128a6906eaadd274a65bcfa91"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "cd85df610cb29891b3f78c1fa85f3c0d1295464ad886eb5e3e3e70a927bdd1bb",
+      "width": 1366,
+      "height": 7547,
+      "bytes": 2472853,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003075959/https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+      "timestamp": "20261003075959",
+      "verifiedHttp": 200
+    }
+  }
+}

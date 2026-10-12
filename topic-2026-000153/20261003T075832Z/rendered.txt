@@ -1,0 +1,173 @@
+HOME
+ABOUT
+RESOURCES
+CONTACT
+SUBSCRIBE
+L
+LEGAL FILINGS
+Why the Studios’ Midjourney Lawsuit Is Different
+by
+Aaron Moss
+June 15, 2025
+
+No one understands the power of visuals like Hollywood. And in their new lawsuit against Midjourney, Disney and Universal aren’t just alleging infringement—they’re showing it.
+
+Another week, another AI copyright complaint. But if you’re tempted to file Disney v. Midjourney away as just “Lawsuit No. 42,” don’t.
+
+On Wednesday, Disney and Universal sued the popular image-generation platform for copyright infringement, marking the first time major film studios have entered the generative AI litigation fray. And while the 110-page complaint (read it here) includes now-familiar allegations about unauthorized training, that’s not what sets this case apart.
+
+It’s the outputs.
+
+Show, Don’t Tell
+
+Unlike many of the 40-plus AI lawsuits currently pending, this one doesn’t get bogged down in the technicalities of training datasets or model weights. It’s less about what went into the system than what comes out. And what comes out looks an awful lot like Darth Vader, Bart Simpson, the Minions, Elsa, Iron Man, Shrek, and a host of other copyrighted characters.
+
+The studios describe Midjourney as a “bottomless pit of plagiarism” and a “virtual vending machine” for unauthorized copies of their works—and they’ve brought the screenshots to prove it. The complaint doubles as a gallery exhibition of infringement, filled with page after page of iconic characters generated from simple text prompts.
+
+Type “Yoda with lightsaber, IMAX” into Midjourney, and you get Yoda. Ask for “Minions in the film Despicable Me, screencap,” and you get Minions. Request “Iron Man flying, action photo,” and there’s Iron Man in his red and gold suit. The outputs aren’t vaguely similar or arguably derivative—they’re near-carbon copies.
+
+Where Prior AI Cases Have Struggled
+
+This represents a fundamentally different approach from what we’ve seen so far.
+
+Most generative AI litigation to date has focused on the input side—whether scraping copyrighted materials to train a model constitutes infringement or qualifies as fair use. It’s an important legal question, no doubt—but not one that necessarily leads to liability for what the model actually produces. And that’s where many plaintiffs have stumbled: trying to connect the dots between training data and specific infringing outputs.
+
+In Andersen v. Stability AI, for example, the court dismissed claims that Stable Diffusion’s outputs were inherently derivative of its inputs, noting the plaintiffs had “repeatedly admit[ted]” that none of the images generated were “a close match for any specific image in the training data.” No substantial similarity, no infringement.
+
+A claim brought by Sarah Silverman and other authors against OpenAI met a similar fate, with the court finding that the plaintiffs failed to identify “any particular output” that was “substantially similar—or similar at all—to their books.”
+
+The New York Times v. OpenAI complaint went further, presenting examples of ChatGPT regurgitating articles nearly verbatim. But those examples required carefully crafted prompts. OpenAI insisted they were the result of a “rare bug”—not standard model behavior. It’s at least as plausible as the explanations ChatGPT gives for those fictional court cases it loves to cite.
+
+Why Disney v. Midjourney is Different
+
+In the studios’ lawsuit, the outputs aren’t subtle, theoretical, or buried. They’re front and center on Midjourney’s own “Explore” page, which, according to the complaint, acts as curated advertising—showcasing user-generated images that include Spider-Man, Deadpool, Shrek, and more.
+
+And this isn’t a new issue. The complaint cites a January 2024 IEEE Spectrum article showing that Midjourney V6 could generate near-replicas of copyrighted characters even without naming them. One-word prompts like “screencap” were enough to summon detailed images of Luke Skywalker, the Joker, or Iron Man. Yet the studios allege that despite multiple cease-and-desist letters, Midjourney hasn’t implemented meaningful guardrails.
+
+The Secondary Liability Angle
+
+While the lawsuit asserts both direct and secondary infringement, the secondary liability claims could prove especially significant. That’s because Midjourney will likely argue that any infringement stems from user conduct—that it’s subscribers, not the platform, who generate infringing content through their prompts.
+
+Anticipating that defense, the studios invoke a theory that echoes MGM v. Grokster, where the Supreme Court held that a platform can be held liable for encouraging, inducing, and profiting from infringement—even if the infringing acts are technically committed by users.
+
+According to the complaint, Midjourney:
+
+Has specific knowledge of widespread infringement, as evidenced by its Explore page and ignored cease-and-desist letters
+Deliberately designed its service to encourage, contribute to, and induce the reproduction of copyrighted works
+Has the technical ability to block infringing prompts (as it already does for nudity and violence)
+Derives financial benefit from infringing content, which draws users and drives subscriptions
+Has refused to implement content filtering that’s now standard among competitors
+
+If those allegations hold up, Midjourney could be on the hook even if the users are the ones doing the prompting.
+
+Why Midjourney?
+
+To be clear, Midjourney isn’t the only platform capable of generating infringing content. While writing this post, I tested ChatGPT with a prompt requesting Homer Simpson. Yes, there’s technically a guardrail, but it’s more like a sting operation than a safeguard—ChatGPT politely declined my request, then immediately offered an “original” character “inspired by a yellow cartoon dad.” The result was someone who could walk into Moe’s Tavern without raising an eyebrow:
+
+ChatGPT, proud graduate of University of American Samoa Law School.
+
+So why target Midjourney? Beyond its CEO’s admission to a “big scrape of the internet” (including copyrighted works) to train the model and the refusal to implement guardrails, it may come down to size. Midjourney is big enough to make a statement, but small enough to be manageable. It’s also a potentially expendable target—one that won’t burn bridges with potential future licensing partners in Big Tech. A court win (or even a well-timed settlement) could help lay the groundwork for an industry-wide licensing framework, much like the lawsuits against Napster and Grokster did for the streaming business two decades ago.
+
+Still no guardrails
+The Bottom Line
+
+Disney and Universal may be late to the AI litigation party, but they’ve shown up with a refreshingly simple argument: Just look at what this thing produces. When the outputs are pixel-perfect recreations of Shrek and Elsa, the question of infringement practically answers itself.
+
+The harder—and far more consequential—question is who bears responsibility: the platform or its users? But regardless of how that issue shakes out in court, the generative AI industry will need to rethink its approach to content moderation—if only to keep their customers out of the crosshairs. At minimum, that means building guardrails that don’t lead users straight into a trapdoor.
+
+As always, I’d love to hear your thoughts. Drop a note in the comments below or @copyrightlately on social media. In the meantime, if you want to see the complaint in all its illustrated glory, here’s a copy of the full filing.
+
+View Fullscreen
+
+You Might Also Like:
+Public Domain Day 2026 Is Coming: Here's What to Know
+Public Domain Day 2025 is Coming: Here's What to Know
+Public Domain Day 2024 is Coming: Here's What to Know
+Inside the Strange Copyright Fight Over America's Most…
+What's Up With Copyright Lately?: Summer Breeze Edition
+What’s Up With Copyright Lately?: Spring Cleaning Edition
+TAGS:
+Artificial Intelligence
+Disney
+Fictional Characters
+Motion Pictures
+OpenAI
+SHARE
+TWEET
+SHARE
+Aaron Moss
+
+2 COMMENTS
+Explorer09 says:
+June 17, 2025 at 11:57 am
+
+Just a reminder on the Andersen v. Stability AI lawsuit: The plaintiffs did amend the complaints with image examples and the copyright infringement claims have survived the motion to dismiss. Thus Disney isn’t the first example showing the images. But Disney’s proof is prominent.
+
+REPLY
+Franz says:
+June 21, 2025 at 2:20 pm
+
+thanks for including the full text of the complaint.
+
+Source materials are a gold standard for evaluating the truthyness of journalistic efforts, and not all your readers have a Pacer subscription.
+
+I would suggest, that as this case develops, that further inclusion and analysis of public domain legal documents would be in the public interest. As a side note, I would say that the recursion of violation of copyright in a case about copyright (the court reporters copyrighted transcript…) is kafka beyond… => https://www.youtube.com/watch?v=K2OW0-_ne64
+
+REPLY
+LEAVE A REPLY
+
+Your email address will not be published. Required fields are marked *
+
+Comment *
+
+Name *
+
+Email *
+
+Website
+
+ Save my name, email, and website in this browser for the next time I comment.
+
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+— PREVIOUS ARTICLE
+Perlmutter's Lawsuit Is About More Than Just Getting Her Job Back
+NEXT ARTICLE —
+Ethan Klein Files Copyright Lawsuits Over 'Lazy' Reaction Videos
+SUBSCRIBE TO MY NEWSLETTER
+
+Please subscribe for exclusive content and the latest copyright news!
+
+SUBSCRIBE
+Check your spam folder if you don't see a confirmation email. By clicking here, you agree to our Privacy Policy
+Aaron Moss
+FOLLOW ME
+POPULAR POSTS
+Public Domain Day 2026 Is Coming: Here’s What to Know
+Judge’s First Take Favors Denims—But Will It Survive the Recut?
+After 6,000 Romantasy Pages, Judge Hands Crave Plaintiff the Bill
+The 5 Worst Copyright Decisions of 2025
+Mondrian Entered the Public Domain. The Estate Disagrees.
+FROM THE ARCHIVES
+READ MORE
+Court Slips Up in Duct-Taped Banana Copyright Case
+READ MORE
+The 5 Worst Copyright Decisions of 2022
+READ MORE
+The 5 Worst Copyright Decisions of 2020
+CATEGORIES
+COURT DECISIONS
+LAW LAW LAND
+LEGAL FILINGS
+LEGISLATION
+LISTS
+Q&A
+WEIRD STUFF
+WHAT'S THE DEAL?
+SEARCH
+SEARCH
+
+COPYRIGHT © 2026 AARON MOSS
+ALL RIGHTS RESERVED
+
+PRIVACY POLICY

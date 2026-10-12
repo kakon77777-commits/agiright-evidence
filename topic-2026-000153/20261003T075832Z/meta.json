@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000153",
+  "url": "https://copyrightlately.com/why-the-studios-midjourney-lawsuit-is-different/",
+  "capturedAt": "2026-10-03T07:58:32Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 239508,
+    "sha256": "150b2f024f9bde52ae5cab081aa3f24487bdb5f0aa050f5a67c346970c6bc7ed",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "54A2C424402A19BA0A6CB76205949631",
+      "status": 200,
+      "url": "https://copyrightlately.com/why-the-studios-midjourney-lawsuit-is-different/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 13087,
+      "afterScrollHeight": 13087,
+      "wantedHeight": 13087
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "78d4ad8b47a25181bf6245525976751e659fb93c5ba805dd0327138373064d73",
+    "width": 1366,
+    "height": 13087,
+    "bytes": 2969630,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 13087,
+    "afterScrollHeight": 13087,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:58:32Z",
+    "url": "https://copyrightlately.com/why-the-studios-midjourney-lawsuit-is-different/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 239508,
+      "sha256": "150b2f024f9bde52ae5cab081aa3f24487bdb5f0aa050f5a67c346970c6bc7ed"
+    },
+    "finalUrl": "https://copyrightlately.com/why-the-studios-midjourney-lawsuit-is-different/",
+    "httpStatus": 200,
+    "title": "Why the Studios’ Midjourney Lawsuit Is Different | Copyright Lately",
+    "rendered": {
+      "textChars": 10299,
+      "textSha256": "9722e5c475c46857c19b0feda152d5d75192290a645211f15ffd2e44355a358d",
+      "htmlSha256": "6095d877e2e3a6c370f949f825574dcfa93904a686006414a593b4d80b57dcc7"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "78d4ad8b47a25181bf6245525976751e659fb93c5ba805dd0327138373064d73",
+      "width": 1366,
+      "height": 13087,
+      "bytes": 2969630,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20250627163755",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20250627163755/https://copyrightlately.com/why-the-studios-midjourney-lawsuit-is-different/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20250627163755/https://copyrightlately.com/why-the-studios-midjourney-lawsuit-is-different/",
+      "timestamp": "20250627163755",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

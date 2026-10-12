@@ -1,0 +1,227 @@
+Home
+Mission
+Standards
+Assessments
+Team
+Careers
+Intro
+Scoring chart
+Takeaways
+Motivation
+What we assessed
+Detailed scoring
+Logging
+Monitor efficacy
+Gated actions
+Circuit breaking
+Third-party review
+Containment plan
+Limitations
+What comes next
+Appendix
+Detailed methodology
+Sources reviewed
+Anthropic
+Google
+Meta
+OpenAI
+xAI
+Footnotes
+Changelog
+
+August 18, 2026
+
+AI Control: An Assessment of Frontier Practices
+
+Last updated: August 25, 2026 · Changelog
+
+Intro
+
+In Guidelight’s first assessment of safety at frontier AI companies, we find that basic practices for keeping control of AI are, at most, partially implemented.
+
+Drawing on public materials,1
+1
+These materials include system cards, safety frameworks, risk reports, blog posts, and third parties' descriptions of collaborations with companies.
+ we assessed the implementation of Guidelight’s Control standard at five companies: Anthropic, Google, Meta, OpenAI, and xAI.
+
+Specifically, we focused on six foundational practices from the standard:
+
+Logging: Log what internal AIs are doing, so they can be monitored.
+Monitor efficacy: Measure how well monitoring works.
+Gated actions: Require a monitor to clear certain high-risk AI actions as safe before they take effect.
+Circuit breaking: Temporarily halt AI systems after a surge of flagged misbehavior.
+Third-party review: Have third parties assess the adequacy of controls.
+Containment plan: Have a plan for containing a misaligned model.
+
+Click on any cell below to view the score’s explanation, or continue reading onward for takeaways.
+
+Scoring chart
+Implementation of Guidelight's Control standard based on publicly available information
+Absolute
+Relative
+PRACTICE
+
+Anthropic
+
+OpenAI
+
+Google
+
+xAI
+
+Meta
+
+Overall grade
+C+
+(2.50)
+
+C+
+(2.50)
+
+D+
+(1.50)
+
+D−
+(0.83)
+
+F
+(0.67)
+
+Logging
+3
+Substantial partial implementation
+
+3
+Substantial partial implementation
+
+2
+Limited partial implementation
+
+0
+Not implemented
+
+1
+Precursors only
+
+Monitor efficacy
+3
+Substantial partial implementation
+
+3
+Substantial partial implementation
+
+1
+Precursors only
+
+0
+Not implemented
+
+1
+Precursors only
+
+Gated actions
+3
+Substantial partial implementation
+
+2
+Limited partial implementation
+
+1
+Precursors only
+
+2
+Limited partial implementation
+
+0
+Not implemented
+
+Circuit breaking
+3
+Substantial partial implementation
+
+2
+Limited partial implementation
+
+1
+Precursors only
+
+2
+Limited partial implementation
+
+0
+Not implemented
+
+Third-party review
+3
+Substantial partial implementation
+
+2
+Limited partial implementation
+
+2
+Limited partial implementation
+
+0
+Not implemented
+
+2
+Limited partial implementation
+
+Containment plan
+0
+Not implemented
+
+3
+Substantial partial implementation
+
+2
+Limited partial implementation
+
+1
+Precursors only
+
+0
+Not implemented
+0Not implemented
+1Precursors only
+2Limited partial implementation
+3Substantial partial implementation
+4Near-full implementation
+5Full implementation
+
+Figure 1: Our assessment of whether frontier AI companies implement six priority practices in Guidelight's Control standard. Assessment is based only on publicly available information. We issued two scores: a 0–5 absolute score based on the extent to which a company has adopted a particular practice, and a relative rating, which compares a company’s adoption to that of its peers. Each company’s overall grade is the average of its six absolute scores, converted to a letter grade (see Appendix for detailed methodology). See Detailed scoring for more information about companies’ practices. Information is current through August 18, 2026.
+
+Takeaways
+▾
+
+Across frontier companies, basic control practices are at most partially implemented. On our 0–5 scale, no company’s score on any practice exceeded a 3 (substantial partial implementation). The majority of scores are 2 (limited partial implementation) or lower.
+
+The companies separate into three groups:
+
+Anthropic and OpenAI have the strongest control practices. Both log substantial portions of their internal AI activity and scan that activity for signs of misbehavior. Both have also taken steps to measure the efficacy of their scanning and to escalate to humans upon detecting suspicious behaviors. But neither company fully implements any practice we assessed.
+Google lags in implementation, but has detailed future plans. Its AI Control Roadmap is the most specific forward-looking document any company has published on control, spanning prevention, detection, and containment. But based on Google’s public disclosures, we don't find evidence of Google yet implementing most of this roadmap.
+Meta and xAI have the weakest control practices and fewer specific plans. The little that we know about Meta's controls comes primarily from its disclosures to METR for the Frontier Risk Report earlier this year. xAI, meanwhile, was the only assessed company that did not participate in METR’s report. It has built some limited features that could be useful future controls, but we find little evidence of how widely they are used internally or whether they are having the intended effects.
+
+The companies are strongest in two areas: detection and third-party assessment. Three companies describe logging at least some internal usage that is then scanned for signs of misbehavior. Four of them (all but xAI) participated in METR’s first Frontier Risk Report. Yet companies’ future plans for third-party assessments are unclear: for instance, whether these assessments will happen frequently enough to catch emerging dangers, and whether companies will allow deeper, hands-on access to assessors, as only Anthropic seems to have to date.
+
+The companies are weakest in prevention and containment. On prevention (i.e., gated actions and circuit-breaking), only Anthropic achieved anything above “limited partial implementation” (its score is “substantial partial implementation”). As a consequence, AI companies’ control systems are prone to being disabled by misbehaving AI. Their control systems are also prone to succumbing to a blitz of attacks that is faster than the company can respond. How AI companies would respond to such incidents is even less clear; the best public evidence is that companies have few containment protocols ready for an emergency.
+
+Though today’s scores leave significant room for improvement, we are optimistic that stronger control practices are achievable today. For each of the assessed companies, there is a clear set of changes in practices or disclosures that are practicable and would result in meaningfully stronger safety practices.
+
+Motivation
+▾
+What we assessed
+▾
+Detailed scoring
+▾
+Limitations
+▾
+What comes next
+▾
+Appendix
+▾
+Footnotes
+▾
+Changelog
+▾
+© 2026 Guidelight AI Standards Terms

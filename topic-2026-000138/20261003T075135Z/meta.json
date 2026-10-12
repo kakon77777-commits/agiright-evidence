@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000138",
+  "url": "https://fortune.com/2026/08/17/new-mexico-attorney-general-social-media-safety-laws-states-federal-trial-meta-facebook-instagram/",
+  "capturedAt": "2026-10-03T07:51:35Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 458231,
+    "sha256": "86ac1f99b0195e1b8550a3ae1f090a1f265c7e2c13c38a584dda625a75ea9bd1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "55F52283C1FCEEDEDD62DE43F569B772",
+      "status": 200,
+      "url": "https://fortune.com/2026/08/17/new-mexico-attorney-general-social-media-safety-laws-states-federal-trial-meta-facebook-instagram/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8692,
+      "afterScrollHeight": 8503,
+      "wantedHeight": 8503
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4bb8f7e5ddff07540cfece5d6f04a74349ee8d78d854b9182c2fc360ba0fa21a",
+    "width": 1366,
+    "height": 8503,
+    "bytes": 2081274,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8692,
+    "afterScrollHeight": 8503,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:51:35Z",
+    "url": "https://fortune.com/2026/08/17/new-mexico-attorney-general-social-media-safety-laws-states-federal-trial-meta-facebook-instagram/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 458231,
+      "sha256": "86ac1f99b0195e1b8550a3ae1f090a1f265c7e2c13c38a584dda625a75ea9bd1"
+    },
+    "finalUrl": "https://fortune.com/2026/08/17/new-mexico-attorney-general-social-media-safety-laws-states-federal-trial-meta-facebook-instagram/",
+    "httpStatus": 200,
+    "title": "New Mexico reportedly pushes new social media safety laws a day before 29 AGs testify against Meta | Fortune",
+    "rendered": {
+      "textChars": 10402,
+      "textSha256": "984335df03926ac3eb4158302e52736538ea4f265e060215c613da3e0305395b",
+      "htmlSha256": "0bca933e6cf283c272b2e4ec3f1a08eeba2b1c5330b4491f13b0f137d164354f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4bb8f7e5ddff07540cfece5d6f04a74349ee8d78d854b9182c2fc360ba0fa21a",
+      "width": 1366,
+      "height": 8503,
+      "bytes": 2081274,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003075327/https://fortune.com/2026/08/17/new-mexico-attorney-general-social-media-safety-laws-states-federal-trial-meta-facebook-instagram/",
+      "timestamp": "20261003075327",
+      "verifiedHttp": 200
+    }
+  }
+}

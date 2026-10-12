@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000167",
+  "url": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
+  "capturedAt": "2026-10-03T08:04:00Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 166186,
+    "sha256": "959a86289ee176ebae583492ae06f4bd0d507420af142b50dafb626efe0cf6cc",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D237EDCA5E65E632A526D67C55D92C83",
+      "status": 200,
+      "url": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5335,
+      "afterScrollHeight": 5335,
+      "wantedHeight": 5335
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b1720fbebb26879911cc89df9d16f45d04da52ca998401af3abeb279c79fca59",
+    "width": 1366,
+    "height": 5335,
+    "bytes": 886161,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5335,
+    "afterScrollHeight": 5335,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:04:00Z",
+    "url": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 166186,
+      "sha256": "959a86289ee176ebae583492ae06f4bd0d507420af142b50dafb626efe0cf6cc"
+    },
+    "finalUrl": "https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
+    "httpStatus": 200,
+    "title": "'Near-autonomous' AI agents attack Taiwan's nuclear safety agency",
+    "rendered": {
+      "textChars": 9629,
+      "textSha256": "420a3e24c00a99228f337c79506d61a87c9f686794e3c71f9bf1229ec3b58bfd",
+      "htmlSha256": "430b67dea38d1b775fa2512e7b13e69dba78591474b8570200ff10711459a578"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b1720fbebb26879911cc89df9d16f45d04da52ca998401af3abeb279c79fca59",
+      "width": 1366,
+      "height": 5335,
+      "bytes": 886161,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260813004857",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260813004857/https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260813004857/https://www.theregister.com/security/2026/08/12/near-autonomous-ai-agents-attack-taiwans-nuclear-safety-agency/5287055",
+      "timestamp": "20260813004857",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

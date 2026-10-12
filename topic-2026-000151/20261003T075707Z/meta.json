@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000151",
+  "url": "https://www.morganlewis.com/pubs/2026/08/new-california-ai-disclosure-rules-become-operative",
+  "capturedAt": "2026-10-03T07:57:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 89293,
+    "sha256": "157e902ee0e6da5e1ee0a685d0bb7e6878cd9faaa5fc96965a772f35f413a4bc",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D0240AFCB25DBE2C6552DCB10AD7014D",
+      "status": 200,
+      "url": "https://www.morganlewis.com/pubs/2026/08/new-california-ai-disclosure-rules-become-operative",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5198,
+      "afterScrollHeight": 5198,
+      "wantedHeight": 5198
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6c3b2314045fef69f704b7c3109b93b2e99de5d8f9679d2ceb4735d553a39662",
+    "width": 1366,
+    "height": 5198,
+    "bytes": 850639,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5198,
+    "afterScrollHeight": 5198,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:57:07Z",
+    "url": "https://www.morganlewis.com/pubs/2026/08/new-california-ai-disclosure-rules-become-operative",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 89293,
+      "sha256": "157e902ee0e6da5e1ee0a685d0bb7e6878cd9faaa5fc96965a772f35f413a4bc"
+    },
+    "finalUrl": "https://www.morganlewis.com/pubs/2026/08/new-california-ai-disclosure-rules-become-operative",
+    "httpStatus": 200,
+    "title": "New California AI Disclosure Rules Become Operative",
+    "rendered": {
+      "textChars": 10929,
+      "textSha256": "a3fe7bc5cdff1269ed62ee8fda48fe3b2069f0660b79657e370b864e4de86f57",
+      "htmlSha256": "d3b30186e105ebc2fc1728046494c036ab326da900a88f5f1d19303c30f6c25b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6c3b2314045fef69f704b7c3109b93b2e99de5d8f9679d2ceb4735d553a39662",
+      "width": 1366,
+      "height": 5198,
+      "bytes": 850639,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260806211900",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260806211900/https://www.morganlewis.com/pubs/2026/08/new-california-ai-disclosure-rules-become-operative"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260806211900/https://www.morganlewis.com/pubs/2026/08/new-california-ai-disclosure-rules-become-operative",
+      "timestamp": "20260806211900",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

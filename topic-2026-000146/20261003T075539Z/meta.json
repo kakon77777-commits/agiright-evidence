@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000146",
+  "url": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102nfis/gema-notches-a-second-transatlantic-ai-copyright-win-in-germany/",
+  "capturedAt": "2026-10-03T07:55:39Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 212359,
+    "sha256": "69dc46e7662a2204ce6fab1cd281fccea051cb555bf079f2eb8b6cc7d212da6e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C3332874435E1D129B092B6238735D54",
+      "status": 200,
+      "url": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102nfis/gema-notches-a-second-transatlantic-ai-copyright-win-in-germany/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8194,
+      "afterScrollHeight": 8084,
+      "wantedHeight": 8084
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d197451356928006c5abf0c5256ae57217fffaf35dc623e414ed47b1f7c624d5",
+    "width": 1366,
+    "height": 8084,
+    "bytes": 1837167,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8194,
+    "afterScrollHeight": 8084,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:55:39Z",
+    "url": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102nfis/gema-notches-a-second-transatlantic-ai-copyright-win-in-germany/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 212359,
+      "sha256": "69dc46e7662a2204ce6fab1cd281fccea051cb555bf079f2eb8b6cc7d212da6e"
+    },
+    "finalUrl": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102nfis/gema-notches-a-second-transatlantic-ai-copyright-win-in-germany/",
+    "httpStatus": 200,
+    "title": "GEMA notches a second transatlantic AI copyright win in Germany | ReedSmith",
+    "rendered": {
+      "textChars": 14422,
+      "textSha256": "50c19bf0e6fd3f5278961d769d2451c09470bf1c7d7aa54b83a862f552cae609",
+      "htmlSha256": "a2bceee5dcca19328220371e8d4d21dfeecdad2691593b2988f1e36fe6c99ca3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d197451356928006c5abf0c5256ae57217fffaf35dc623e414ed47b1f7c624d5",
+      "width": 1366,
+      "height": 8084,
+      "bytes": 1837167,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260804154643",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260804154643/https://www.reedsmith.com/our-insights/blogs/viewpoints/102nfis/gema-notches-a-second-transatlantic-ai-copyright-win-in-germany/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260804154643/https://www.reedsmith.com/our-insights/blogs/viewpoints/102nfis/gema-notches-a-second-transatlantic-ai-copyright-win-in-germany/",
+      "timestamp": "20260804154643",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

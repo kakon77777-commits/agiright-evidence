@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000159",
+  "url": "https://natlawreview.com/article/machine-generated-evidence-challenges-federal-rules-inside-contested-proposed",
+  "capturedAt": "2026-10-03T08:01:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 193373,
+    "sha256": "75964d37f6a15c84151c6f843cf30a93e2911cfd2ad1b9df8071aa44c7ef178b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CA21165E47F5A3CB3DDDAC2ADE06FCA3",
+      "status": 200,
+      "url": "https://natlawreview.com/article/machine-generated-evidence-challenges-federal-rules-inside-contested-proposed",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5727,
+      "afterScrollHeight": 5778,
+      "wantedHeight": 5778
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4d0f9dc558b7a28cd38fc1b057895c3294aac84135de09637ce833fdc66b04a4",
+    "width": 1366,
+    "height": 5778,
+    "bytes": 1031720,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5727,
+    "afterScrollHeight": 5778,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:01:13Z",
+    "url": "https://natlawreview.com/article/machine-generated-evidence-challenges-federal-rules-inside-contested-proposed",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 193373,
+      "sha256": "75964d37f6a15c84151c6f843cf30a93e2911cfd2ad1b9df8071aa44c7ef178b"
+    },
+    "finalUrl": "https://natlawreview.com/article/machine-generated-evidence-challenges-federal-rules-inside-contested-proposed",
+    "httpStatus": 200,
+    "title": "Machine-Generated Evidence Challenges the Federal Rules",
+    "rendered": {
+      "textChars": 14754,
+      "textSha256": "ae029f90f66fe89d923163b50cadc7c97b1adf93a6f65fb825d22217bc96dd83",
+      "htmlSha256": "615684b8d66fffba7b92df3da151597037bd1f6df34292d205faaac5c7e0e9f4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4d0f9dc558b7a28cd38fc1b057895c3294aac84135de09637ce833fdc66b04a4",
+      "width": 1366,
+      "height": 5778,
+      "bytes": 1031720,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260731052544",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260731052544/https://natlawreview.com/article/machine-generated-evidence-challenges-federal-rules-inside-contested-proposed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260731052544/https://natlawreview.com/article/machine-generated-evidence-challenges-federal-rules-inside-contested-proposed",
+      "timestamp": "20260731052544",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

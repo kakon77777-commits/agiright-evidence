@@ -1,0 +1,86 @@
+By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively. For further information, please see our Privacy Policy.
+
+MANAGE COOKIES
+DECLINE
+ACCEPT
+
+Read the 2026 Mid-Year State AI Legislation Report
+
+SKIP TO CONTENT
+Learn
+News
+Action Fund
+Policy Resources
+About
+Login
+DONATE
+New California law takes effect this week: AI images and video must carry a disclosure tool
+AI NEWSDISCLOSURESB 942
+
+A new law comes into effect in California this week. Images, video, and audio created or altered with an AI tool must contain embedded provenance information within that content. (Photo by Nahrizul Kadri on Unsplash)
+
+Aug. 4, 2026 — One of the nation’s first AI transparency laws officially took effect on Monday. It’s the first of dozens of state AI laws that will start to be enforced over the coming months and years.
+
+California’s AI Transparency Act now requires the largest generative AI developers—such as OpenAI, Anthropic, Google, and Microsoft—to provide users with an AI detection tool. AI-generated images, video, and audio have to carry a disclosure that may be both visible and machine-readable.
+
+The Transparency Act, sponsored as SB 942 by California state Sen. Josh Becker and enacted in Sept. 2024, is open to enforcement starting this week. AI transparency advocates are watching closely to see how the largest tech companies comply with the new law.
+
+WHAT THE TRANSPARENCY ACT REQUIRES: DISCLOSURE
+
+The Transparency Act requires companies to embed provenance data within any image or video created or altered with that company’s GenAI tool. Consumers must be given an option to include a manifest disclosure that identifies content as AI-generated. It must be clear, conspicuous, and appropriate to the medium. Consumer’s aren’t required to post the disclosure under the new law.
+
+The Transparency Act also requires a covered provider—again, this applies to only the largest AI systems with at least one million monthly visitors—to include a latent disclosure in AI-generated image, video, audio content, or content that is any combination of the three. This latent disclosure, embedded in the content, can be accessed to convey the provenance of the content.
+
+The Act also affects the relationship between a large AI developer and a third-party licensee. Any AI developer covered under the Act, if they are aware that a third-party licensee using their GenAI system without complying with the disclosures required by the Act, must demand the third-party licensee come into compliance or revoke the license. That demand must come within 96 hours (four days) of discovery of noncompliance.
+
+California state Sen. Josh Becker, at podium, was the primary sponsor of the Transparency Act.
+
+SOFTWARE ALREADY AVAILABLE FOR COMPLIANCE
+
+Yesterday, Sen. Becker was joined at a media event by Burhan Yanbolu, founder and CEO of Hardin AI, a company that specializes in providing the software tools needed to comply with AI disclosure laws such as SB 942 and New York State’s new AI-disclosure-in-advertising law.
+
+TBN Certify, a Hardin AI product, “scans content, detects AI-generated material, and issues a cryptographically signed compliance certificate anyone can independently verify,” Yanbolu wrote in a social media post.
+
+David Evan Harris, the California-based AI expert and driving force behind the AI Transparency Act, also appeared with Sen. Becker yesterday. He spoke about the power of the “California effect”: Policies enacted in California have a larger-than-life impact. “By dint of their pioneering policymaking” in a state with 40 million consumers, Harris wrote recently, California legislators “often set standards for the world.”
+
+The complete text of the new law is available here.
+
+MORE ON AI DISCLOSURE
+California joins New York in requiring disclosure of synthetic performers in ads
+
+The new law requires clear disclosures on any video or audio ad that uses AI-generated performers.
+
+SEPTEMBER 16, 2026
+Study finds nearly half of tech companies not complying with California’s AI detection law
+
+Investigative journalists at Indicator, working with the nonprofit WITNESS, analyzed 13 AI companies affected by the new California AI disclosure law. Of those 13, only seven had a dedicated detection tool available. That means nearly half of the AI companies affected by the new law are already out of compliance.
+
+AUGUST 13, 2026
+FEATURED
+Previous
+Can you sue your chatbot? TCAI’s Jai Jaishima on the legal fight reshaping AI liability
+Next
+These high school students drafted new rules for AI use in school. They’re pretty darn good.
+
+Transparency Coalition
+
+HOME
+LEARN
+NEWS
+ABOUT
+KEY TERMS
+
+TERMS OF USE
+PRIVACY POLICY
+
+DONATE
+
+Follow Us!
+
+SUBSCRIBE
+
+Sign up with your email address to receive news and updates.
+
+ SIGN UP
+
+© 2026 Transparency Coalition.ai. All Rights Reserved

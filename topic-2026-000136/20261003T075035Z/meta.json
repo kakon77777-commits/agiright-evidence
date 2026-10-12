@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000136",
+  "url": "https://www.transparencycoalition.ai/news/californias-ai-transparency-act-takes-effect-this-week-heres-what-it-means-for-ai-users",
+  "capturedAt": "2026-10-03T07:50:35Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 260467,
+    "sha256": "ac9fd9c8277428cb0ee758c9912b10b6dd2fb950e145a536272309b31167d68b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "48D899D706ACBE2E211C06028E105260",
+      "status": 200,
+      "url": "https://www.transparencycoalition.ai/news/californias-ai-transparency-act-takes-effect-this-week-heres-what-it-means-for-ai-users",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4167,
+      "afterScrollHeight": 4167,
+      "wantedHeight": 4167
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e474ef1a3e9582e66672526e5015c08ab912d9d9de3633c6316b0524ee33fac7",
+    "width": 1366,
+    "height": 4167,
+    "bytes": 963293,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4167,
+    "afterScrollHeight": 4167,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:50:35Z",
+    "url": "https://www.transparencycoalition.ai/news/californias-ai-transparency-act-takes-effect-this-week-heres-what-it-means-for-ai-users",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 260467,
+      "sha256": "ac9fd9c8277428cb0ee758c9912b10b6dd2fb950e145a536272309b31167d68b"
+    },
+    "finalUrl": "https://www.transparencycoalition.ai/news/californias-ai-transparency-act-takes-effect-this-week-heres-what-it-means-for-ai-users",
+    "httpStatus": 200,
+    "title": "New California law takes effect this week: AI images and video must carry a disclosure tool — Transparency Coalition. Legislation for Transparency in AI Now.",
+    "rendered": {
+      "textChars": 4892,
+      "textSha256": "df4ca65f5f0f5a6a510f2646c0cbaba0f8b729beec497bfb0b7738bc9c5b7611",
+      "htmlSha256": "5288899b547c819a85b0ab3700295c025e4ebe650f2091aafdecf16b732c59e8"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e474ef1a3e9582e66672526e5015c08ab912d9d9de3633c6316b0524ee33fac7",
+      "width": 1366,
+      "height": 4167,
+      "bytes": 963293,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260917133940",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260917133940/https://www.transparencycoalition.ai/news/californias-ai-transparency-act-takes-effect-this-week-heres-what-it-means-for-ai-users"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260917133940/https://www.transparencycoalition.ai/news/californias-ai-transparency-act-takes-effect-this-week-heres-what-it-means-for-ai-users",
+      "timestamp": "20260917133940",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

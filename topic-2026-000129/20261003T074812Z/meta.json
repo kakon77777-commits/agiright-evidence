@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000129",
+  "url": "https://news.cgtn.com/news/2026-08-18/ByteDance-Motion-Picture-Association-strike-deal-on-AI-IP-protection-1PI7reKrInS/p.html",
+  "capturedAt": "2026-10-03T07:48:12Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 123624,
+    "sha256": "81635cbb7371a626a13659a0ccc58b29a4aecaeff8dacbec14d3595297585fa5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CEF4C02B46F253609621B0D4CC7BBE66",
+      "status": 200,
+      "url": "https://news.cgtn.com/news/2026-08-18/ByteDance-Motion-Picture-Association-strike-deal-on-AI-IP-protection-1PI7reKrInS/p.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4027,
+      "afterScrollHeight": 4027,
+      "wantedHeight": 4027
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a2733f228b47468bec64ea75ff344609cd322baa83d5a6e7e51845b6a6c05350",
+    "width": 1366,
+    "height": 4027,
+    "bytes": 1343568,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4027,
+    "afterScrollHeight": 4027,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:48:12Z",
+    "url": "https://news.cgtn.com/news/2026-08-18/ByteDance-Motion-Picture-Association-strike-deal-on-AI-IP-protection-1PI7reKrInS/p.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 123624,
+      "sha256": "81635cbb7371a626a13659a0ccc58b29a4aecaeff8dacbec14d3595297585fa5"
+    },
+    "finalUrl": "https://news.cgtn.com/news/2026-08-18/ByteDance-Motion-Picture-Association-strike-deal-on-AI-IP-protection-1PI7reKrInS/p.html",
+    "httpStatus": 200,
+    "title": "ByteDance, Motion Picture Association strike deal on AI IP protection - CGTN",
+    "rendered": {
+      "textChars": 4930,
+      "textSha256": "8b7f6bdb4bd1f2b52f726c9ade7aa23de85412d992beba9d6e73ec97aef2f02a",
+      "htmlSha256": "fe3bed808f037a0332ca466c7dffd4f76ecb42a0c9dfb14c0e69f2a8389e63b8"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a2733f228b47468bec64ea75ff344609cd322baa83d5a6e7e51845b6a6c05350",
+      "width": 1366,
+      "height": 4027,
+      "bytes": 1343568,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

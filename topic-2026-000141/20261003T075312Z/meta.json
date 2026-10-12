@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000141",
+  "url": "https://arxiv.org/abs/2608.11344",
+  "capturedAt": "2026-10-03T07:53:12Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43310,
+    "sha256": "9627b4ad2f12dfa34434d0fc2e48ea66e36c42d0af9abb4d4657d4e05292cc85",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "2509AFFFF2F8CBDB4BE9D3E9EBDEBE93",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.11344",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1205,
+      "afterScrollHeight": 1205,
+      "wantedHeight": 1205
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1f2a614cc8a4150d42c2eb8d88fe9307647a674911a26d0b8acfdce5f49a951",
+    "width": 1366,
+    "height": 1205,
+    "bytes": 146060,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1205,
+    "afterScrollHeight": 1205,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:53:12Z",
+    "url": "https://arxiv.org/abs/2608.11344",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43310,
+      "sha256": "9627b4ad2f12dfa34434d0fc2e48ea66e36c42d0af9abb4d4657d4e05292cc85"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.11344",
+    "httpStatus": 200,
+    "title": "[2608.11344] Governing Agentic AI in FinTech",
+    "rendered": {
+      "textChars": 3562,
+      "textSha256": "2caec2f9466667bdc2ea2e60faee8ec6c27ce1392c734710e6d4231e5a0d827b",
+      "htmlSha256": "3d8779deefaa93d1d699d1a016a37be350b312dbd1e6082a765e7d2df1c5e6c6"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d1f2a614cc8a4150d42c2eb8d88fe9307647a674911a26d0b8acfdce5f49a951",
+      "width": 1366,
+      "height": 1205,
+      "bytes": 146060,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

@@ -1,0 +1,214 @@
+Your privacy choices
+
+We use cookies to collect information about how you use SRA websites. We use this information to make them work as well as possible and improve our services. These cookies are optional. Privacy Policy.
+
+Accept all
+Customize settings
+Reject all
+Skip to main content
+ Log in to mySRA Contact us
+Search the website
+News
+About us
+For law professionals
+For the public
+Becoming a solicitor
+mySRA
+Home
+For law professionals
+Guidance
+Misuse of AI - Warning notice
+Warning notice
+Warning notice
+Misuse of AI
+Misuse of AI
+
+Published: 17 August 2026
+
+Print this page Save as PDF
+Status
+
+This document is for solicitors and law firms. It is designed to help you understand your obligations and how to comply with them. We will have regard to it when exercising our regulatory functions.
+
+Who is this warning notice relevant to?
+
+This warning notice is relevant to all firms and individuals we regulate. It relates to the use of Artificial Intelligence (AI) in the provision of legal services by regulated firms and individuals. While it is directed at those we regulate, it is also likely to be relevant to other authorised persons practising within SRA-regulated firms.
+
+What is AI and what is gen AI?
+
+We use the term 'AI' to mean a technology that can operate with a degree of autonomy, meaning that it can produce outputs which have not been explicitly determined or programmed in advance. This technology can perform tasks that usually require human intelligence, such as visual perception, speech recognition and the analysis of information. We use the term 'genAI' to refer to a subset of AI models and systems that are able to generate new outputs such as text, code, images, audio or videos, for example document summaries, drafts, research outputs or other content produced in response to a user's prompt, such as AI chatbots.
+
+Use of AI in legal services
+
+Solicitors and law firms are increasingly using AI in their day-to-day work. AI tools have become commonplace in the workplace and our everyday lives. Many solicitors and law firms use AI safely and responsibly, however the SRA has identified a number of cases involving the misuse of AI, particularly relating to the provision of inaccurate information and client confidentiality. It is crucial that you, and those at your firm, are using AI in ways that are compliant with SRA rules.
+
+The SRA takes an outcomes-focused approach to regulation. This means that we set the standards we expect solicitors and firms to meet, but we do not prescribe exactly how those standards should be met in different circumstances. Our outcomes-focused approach means that firms have the freedom to use AI tools and adopt new ways of working, provided they ensure that they meet our standards.
+
+Our concerns
+
+We are concerned about two areas in particular. The first relates to court, or other, documents containing false or incorrect information, including citations, as a result of the misuse of AI. AI tools can produce 'hallucinations', generating fictitious cases, references or seemingly factual assertions that may appear convincing despite having no basis in fact. 
+
+We are also concerned that those we regulate are not fully considering and appropriately mitigating risks to client confidentiality when using AI systems, particularly in relation to clients' personal data or other confidential information. Both paid for and free-to-use AI tools may not provide the contractual, and technical safeguards needed to maintain client confidentiality. Firms should understand the safeguards that apply and ensure they are appropriate to the nature and sensitivity of the information being processed.
+
+Issues that we have observed to date include:
+
+AI hallucinations in legal work and submissions to the court. We have received reports of potential breaches of our Code of Conduct from senior members of the judiciary. There have also been several instances of solicitors self-reporting where they have relied on AI tools that have generated inaccurate or misleading content.
+Instances of confidential client information being entered into public AI tools, risking potential breaches of confidentiality and wider data protection requirements.
+
+Evidence of both the above issues have been identified through high-profile court cases. For example, R (on the application of Ayinde) v Haringey LBC [2025] EWHC 1383 (Admin)) highlighted that AI-generated case citations that turned out to be false were submitted to court, drawing public attention to the risks of using unverified AI outputs in submissions.
+
+In relation to client confidentiality, in UK v Secretary of State for the Home Department [2026] UKUT 81 (IAC), the Upper Tribunal commented on the potential for the use of public AI tools to breach confidentiality and legal professional privilege.
+
+We are concerned that some of those operating in the regulated legal sector are not fulfilling their obligations to uphold their duties to the courts, clients and third parties, and are not always following all relevant rules and regulations.
+
+Impact on consumers and the profession
+
+The misuse of AI tools can result in the following risks and harms, in contravention of our Standards and Regulations.
+
+Harm to clients, where poor or inaccurate information or advice is given, resulting in a poor outcome in their matter.
+Negative impacts in the courts, where legal professionals use incorrect or fake case law/citations generated by AI and not checked or verified before submission. Courts have had to order additional evidence and hold further hearings to explore suspected concerns with documents and case filings, which has a negative impact on case progression, access to justice and risks undermining the rule of law more widely.
+Harm to the standing of the solicitors' profession: breaches of professional obligations and regulations through the misuse of AI and high-profile occurrences risk damaging public trust and confidence in the legal profession.
+AI hallucinations – relevant considerations
+
+All those that we regulate need to ensure that the service they provide is competent, with effective supervision of work [paragraphs 3.2 and 3.5 Code of Conduct for Solicitors, RELs, RFLs and RSLs]. AI has no separate legal personality; solicitors and regulated individuals who use AI in the course of delivering legal services remain accountable for their work and outputs, regardless of how that work has been prepared.
+
+In addition, firms must also have effective governance structures, systems and controls in place to manage any risks, including those arising from use of AI [paragraph 2.1 Code of Conduct for Firms].
+
+In line with our Principles and Rules, solicitors must ensure that they put forward representations to the court that are properly arguable [paragraph 2.4 of the Code of Conduct for Solicitors, RELs, RFLs and RSLs]. As officers of the court, solicitors who mislead the court risk serious consequences. The courts have made it very clear that they regard misleading the court as 'one of the most serious offences that an advocate or litigator can commit', as stated in Brett v The Solicitors Regulation Authority [2014] EWHC 2974 (Admin).
+
+To uphold your duty to the court, you should be assured that all submissions of named case law authorities are genuine, relevant, have a verifiable citation, and advance the arguments that are being put forward in your documents. [paragraphs 2.2 and 2.4 Code of Conduct for Solicitors, RELs, RFLs and RSLs].
+
+The judgment in R (on the application of Ayinde) v Haringey LBC [2025] EWHC 1383 (Admin), which brought together two cases under the court's Hamid jurisdiction, illustrates how courts are likely to treat the submission of fabricated cases and citations. The solicitor and barrister in the Ayinde case faced a wasted costs application and were referred to their respective professional regulators for 'improper' and 'unreasonable' conduct. The judgment notes at paragraph 29 that it is 'likely to be appropriate for the court to make a reference to the regulator' when a lawyer places false citations before the court (whether because AI has been used without proper checks being made, or otherwise). Reliance on an output of AI would not be a suitable defence in this scenario. The court reminded lawyers that they must verify all content in legal submissions, as they remain personally responsible for their accuracy, regardless of the tools used in drafting.
+
+In the case of BCP v A Mother [2026] EWFC 71 (B), an unregistered barrister who held herself out as a lawyer was found to have misled the court through the inclusion of AI hallucinations in her submissions. While in this case, the court found no deliberate intention to mislead, there was concern that this person minimised the seriousness of misleading the court. This shows how seriously the court views being misled by AI hallucinations, even where this has not been intentional conduct.
+
+In the case of Cork and another v Smith [2026] EWHC 1199 (Ch), the court again reiterated the responsibilities on authorised persons, and the view that the courts will take when errors are made which can be attributed to unchecked AI hallucinations.
+
+If you put false material before the court, this could also be considered contempt of court [which may then also invoke paragraph 2.5 Code of Conduct for Solicitors, RELs, RFLs and RSLs], since this may constitute interference with the administration of justice. It requires the court to expend further resource to resolve the problem, if and when this is identified [paragraph 2.6 Code of Conduct for Solicitors, RELs, RFLs and RSLs].
+
+Those who supervise junior or non-authorised colleagues may also be found to have breached regulatory requirements and professional duties if false citations are put before the court without adequate review and/or supervision. The Code of Conduct for Solicitors, RELs, RFLs and RSLs provides that solicitors who supervise or manage others providing legal services remain accountable for the work carried out through them and must effectively supervise work undertaken for clients (paragraph 3.5). Solicitors must also ensure that those they manage are competent to carry out their role and maintain up-to-date professional knowledge, skills and understanding of their legal, ethical and regulatory obligations (paragraph 3.6).
+
+Similar obligations apply under the Code of Conduct for Firms which requires firms to maintain effective systems for supervising client matters (paragraph 4.3 and 4.4) and effective governance structures, arrangements, systems and controls to ensure compliance with regulatory and legislative requirements (paragraph 2.1). In addition, a firm's compliance officer for legal practice (COLP) must take all reasonable steps to ensure compliance with relevant regulatory arrangements, including those relating to supervision (paragraph 9.1).
+
+The SRA's Authorisation of Firms rules require authorised bodies to have regulated work supervised by at least one person who has practised as a lawyer for at least three years, whether as a manager, employee or external resource (Rule 9.4). While this three-year requirement does not apply to all supervisors, firms should ensure anyone with supervisory responsibilities has appropriate experience.
+
+Client confidentiality – relevant considerations
+
+In UK v Secretary of State for the Home Department [2026] UKUT 81 (IAC), the Upper Tribunal (Immigration and Asylum Chamber) raised concerns about the use of AI in case preparation. While the primary focus of the decision was on the submission of inaccurate, AI-generated legal authorities, the Tribunal also made broader observations about client confidentiality and the potential impact on legal professional privilege. The Tribunal observed at paragraph 21 that 'to put client letters and decision letters from the Home Office into an open source AI tool, such as ChatGPT, is to place this information on the internet in the public domain'.
+
+Using AI tools in this way will likely breach client confidentiality and as a result, legal professional privilege may be permanently waived and unable to be recovered.
+
+Both free to use and paid for AI systems may pose risks to client confidentiality. Depending on the provider's terms, settings and technical architecture, information entered into AI systems may be stored, retained or used to improve the tool. This means that confidential or client-sensitive information that is entered into AI tools may create significant risks to confidentiality, legal professional privilege and compliance with data protection law and may mean you no longer have full control over how that information is processed or used.
+
+Many firms will now have or be exploring use of in-house AI systems and tools. These tools can allow firms to remain competitive and meet the developing expectations of clients, but it is particularly important to ensure that client confidentiality is maintained at all times in any AI or wider systems and technological tools used [paragraph 6.3 in both Codes of Conduct].
+
+Client information should only be entered into AI systems where appropriate contractual, technical and organisational safeguards are in place to protect confidentiality. Firms and solicitors should satisfy themselves that client data remains within a secure environment, is not accessed by unauthorised third parties, is not used to train AI models except where explicitly authorised and appropriate to do so, and is not retained longer than necessary
+
+It is incumbent on all managers and employees of SRA regulated firms to understand their obligations in this regard given the irreparable consequences of sharing clients' confidential information and the permanent waiver of privilege that can occur as a result.
+
+For those solicitors working in-house, you should be particularly mindful about the type of AI tools available to you. The business may have developed in-house AI tools for their particular field of work but these may not necessarily be specifically designed for legal work. Particular care must be taken when utilising AI in an in-house context.
+
+In-house solicitors should also consider whether the organisation's interests in furthering its use of AI might conflict with any of their own duties and professional responsibilities under the Principles and Code of Conduct, dependent upon their role and use of those tools.
+
+Summary
+
+AI can be a valuable tool and, when used appropriately, can support the delivery of legal services. However, it also presents risks that must be understood and managed.
+
+The use of AI does not diminish or transfer your professional responsibilities. You remain accountable for all work and advice delivered to clients, whether or not AI has been used in its preparation.
+
+Appropriate human oversight, informed professional judgement and a proportionate, risk-based approach are essential to ensure compliance with your regulatory and legal obligations.
+
+Standards and Regulations
+
+Your existing professional obligations apply regardless of the tools used within legal practice. You remain responsible for the advice and outputs you provide to clients as a legal professional.
+
+Using AI tools in the course of your work does not reduce, remove or replace the professional, regulatory or legal responsibility you have for the quality and accuracy of service and information delivered to your clients, the court, third parties or your regulators.
+
+If you fail to have proper regard to this warning notice, you are at risk of disciplinary action. We can and will act where we find evidence that solicitors, firms and/or their employees contravene our rules. Please see our Enforcement Strategy for information about our approach to taking regulatory action.
+
+Further information
+
+This Warning Notice focuses on the risks and issues relating to AI that have come to our attention. We recognise that many firms and legal professionals are already taking a considered, risk-based approach to the use of AI.
+
+As the use of AI continues to evolve, we will continue to engage with the profession, monitor developments and share information to help those we regulate understand how their existing professional obligations apply when using AI.
+
+We hold events to discuss the latest and upcoming trends in AI and innovation for small to medium sized firms. You can watch the keynote and panel sessions from our recent Innovate event.
+
+For queries relating to conduct matters, please contact the SRA's Professional Ethics Guidance helpline.
+
+SRA Innovate can assist with ethical or regulatory queries in relation to your use of technology. You can also subscribe to our Lawtech Insight newsletter.
+
+AI-related information and resources are also available from key regulators and professional bodies:
+
+Guidance on the use of Artificial Intelligence and Other Technologies | The Bar Standards Board
+Our work on Artificial Intelligence | ICO
+Generative AI – the essentials | The Law Society
+Buying new technology | The Law Society Artificial Intelligence (AI)
+Artificial Intelligence (AI) - Judicial Guidance (October 2025) - Courts and Tribunals Judiciary
+
+The following SRA resources may also be relevant:
+
+Risk Outlook report: The use of artificial intelligence in the legal market
+
+This report highlights the significant opportunities and risks associated with AI use. The report notes that AI tools, including generative AI can improve efficiency, productivity, client service and access to legal services. However, firms remain responsible for meeting their regulatory obligations, regardless of the technology they use. Key risks include inaccurate or misleading outputs, confidentiality and data protection breaches, bias, lack of transparency, cybersecurity concerns and uncertainty around accountability. The report outlines ways firms can manage risk by implementing appropriate governance measures, risk management, supervision and staff training to ensure AI is used safely and ethically.
+
+Effective supervision guidance
+
+This guidance explains that firms and solicitors must have supervision arrangements that are appropriate to the risks and complexity of the work, and that supervisors remain accountable for the work carried out under their oversight. It stresses the importance of clear delegation, regular oversight, effective systems and controls, and ensuring that authorised individuals retain responsibility for work undertaken by others, including unauthorised staff.
+
+Balancing duties in litigation
+
+This report explores the challenges solicitors face in balancing their duty to act in their clients' best interests with their wider professional obligations, including duties to the courts, third parties and the administration of justice. It highlights situations where misconduct can arise. It helps firms and solicitors recognise potential ethical and regulatory risks, reinforcing the importance of professional judgement.
+
+TOP
+
+News
+
+News releases and statements
+SRA Update
+SQE Update
+Blogs and articles
+Lawtech Insight
+Events and speakers
+
+For law professionals
+
+SRA Standards and Regulations
+Guidance
+Resources
+Firm-based authorisation
+Good standing and certificates
+Investigation and enforcement
+
+For the public
+
+Who we are
+Solicitors Register
+Choosing a solicitor
+Instructing a solicitor
+Problems with a solicitor
+Compensation fund
+Solicitors Indemnity Fund
+Scam alerts
+
+Becoming a solicitor
+
+Solicitors Qualifying Examination (SQE) route
+Legal Practice Course (LPC) route
+Qualified lawyers
+Character and suitability
+Admission
+Freedom of information Copyright Privacy Accessibility Contact us Difficulties with English? Terms of service Accreditations Modern day slavery statement Legal notice Jobs at the SRA
+Visit the SRA Facebook page
+
+Visit the SRA Twitter page
+
+Visit the SRA YouTube channel
+
+Visit the SRA LinkedIn page
+
+Was this page useful?
+
+YES
+NO
+CLOSE
