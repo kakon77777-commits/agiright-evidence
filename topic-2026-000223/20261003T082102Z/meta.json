@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000223",
+  "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-establishs-illinois-artificial-intelligence-ai-cabinet",
+  "capturedAt": "2026-10-03T08:21:02Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 142906,
+    "sha256": "7c942354b92abde58156f017b3f0bf800366ba0646324c096b9c7de890cea36c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "039AC5AA1A9DA379D412D63221F4A47A",
+      "status": 200,
+      "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-establishs-illinois-artificial-intelligence-ai-cabinet",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5135,
+      "afterScrollHeight": 5135,
+      "wantedHeight": 5135
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a6b7e55a46de87202def49501941c60b3d2c438ce535ba70088ffc0dbd2b8a08",
+    "width": 1366,
+    "height": 5135,
+    "bytes": 900193,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5135,
+    "afterScrollHeight": 5135,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:21:02Z",
+    "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-establishs-illinois-artificial-intelligence-ai-cabinet",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 142906,
+      "sha256": "7c942354b92abde58156f017b3f0bf800366ba0646324c096b9c7de890cea36c"
+    },
+    "finalUrl": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-establishs-illinois-artificial-intelligence-ai-cabinet",
+    "httpStatus": 200,
+    "title": "The State of Illinois Newsroom",
+    "rendered": {
+      "textChars": 7669,
+      "textSha256": "751e8c96a4b799d42dfeca01990cd5e756fe6e2603ffba03fd4b4857192a22cf",
+      "htmlSha256": "08270c372161292214211ce4af06a2705b4663a0538a31a083dc4e0f2f3dc83a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a6b7e55a46de87202def49501941c60b3d2c438ce535ba70088ffc0dbd2b8a08",
+      "width": 1366,
+      "height": 5135,
+      "bytes": 900193,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

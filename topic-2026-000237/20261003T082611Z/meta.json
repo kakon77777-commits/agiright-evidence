@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000237",
+  "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+  "capturedAt": "2026-10-03T08:26:11Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 86603,
+    "sha256": "10cb395081044363bc7fd7bc94f3f79840c471d0cf2057d4666e6a05988ee426",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8D6A74189EE957F2227FD6382F51773B",
+      "status": 200,
+      "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6013,
+      "afterScrollHeight": 6013,
+      "wantedHeight": 6013
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4fd65bd8d5b95557567952bb4738278179861980d2a2d6f9943a4115b1d32299",
+    "width": 1366,
+    "height": 6013,
+    "bytes": 971504,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6013,
+    "afterScrollHeight": 6013,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:26:11Z",
+    "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 86603,
+      "sha256": "10cb395081044363bc7fd7bc94f3f79840c471d0cf2057d4666e6a05988ee426"
+    },
+    "finalUrl": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+    "httpStatus": 200,
+    "title": "NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment | NVIDIA Newsroom",
+    "rendered": {
+      "textChars": 15596,
+      "textSha256": "2d55e103abee6c311dcf75a3f28b61c4e426da01ce02146596adef9404fd5c72",
+      "htmlSha256": "d8a78dfab0505514d286454bccbb85be1e9c4d375f81cc50faa94717753b7975"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4fd65bd8d5b95557567952bb4738278179861980d2a2d6f9943a4115b1d32299",
+      "width": 1366,
+      "height": 6013,
+      "bytes": 971504,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260928093811",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260928093811/https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260928093811/https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "timestamp": "20260928093811",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

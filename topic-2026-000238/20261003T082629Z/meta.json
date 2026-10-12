@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000238",
+  "url": "https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
+  "capturedAt": "2026-10-03T08:26:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 62640,
+    "sha256": "7658a580218a3eaf6805c7263399c893cf3130dbb4983a51a05bf0bc677272d5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F55CFDAD3041D628890EBCA9827A936C",
+      "status": 403,
+      "url": "https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8b6f17f25bbe073695254685982363ef7792398e15def94a984d30e887141dfe",
+    "width": 1366,
+    "height": 900,
+    "bytes": 23515,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:26:29Z",
+    "url": "https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 62640,
+      "sha256": "7658a580218a3eaf6805c7263399c893cf3130dbb4983a51a05bf0bc677272d5"
+    },
+    "finalUrl": "https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
+    "httpStatus": 403,
+    "title": "ERROR: The request could not be satisfied",
+    "rendered": {
+      "textChars": 512,
+      "textSha256": "8ff28639723d5415df2a3351f19116945b259691c8525d31856488bf8b62e59b",
+      "htmlSha256": "0b93dfb931b748ccdc5e8a2f410edc938a9dd9094b089efdf6bf45d77c434d1b"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "8b6f17f25bbe073695254685982363ef7792398e15def94a984d30e887141dfe",
+      "width": 1366,
+      "height": 900,
+      "bytes": 23515,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260928201935",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260928201935/https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260928201935/https://www.engadget.com/2270988/florida-ag-requests-emergency-order-to-stop-openai-model-development/",
+      "timestamp": "20260928201935",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

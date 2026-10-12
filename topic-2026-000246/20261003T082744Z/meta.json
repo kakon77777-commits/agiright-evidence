@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000246",
+  "url": "https://calmatters.org/economy/technology/2026/09/on-ai-newsom-gives-labor-only-some-of-what-it-demanded/",
+  "capturedAt": "2026-10-03T08:27:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 274926,
+    "sha256": "cdd4c7b34f6d70b8810184ddca571bb3bc961ee975bf937bbdfac18456f19456",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "818C8D28FEAEC93A90B4F84BCD8B4E15",
+      "status": 200,
+      "url": "https://calmatters.org/economy/technology/2026/09/on-ai-newsom-gives-labor-only-some-of-what-it-demanded/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8118,
+      "afterScrollHeight": 8118,
+      "wantedHeight": 8118
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "916fb907c4b275148e4aeb1fceca69326582852751abcfc6cf070c3db7c90d6e",
+    "width": 1366,
+    "height": 8118,
+    "bytes": 1887188,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8118,
+    "afterScrollHeight": 8118,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:27:44Z",
+    "url": "https://calmatters.org/economy/technology/2026/09/on-ai-newsom-gives-labor-only-some-of-what-it-demanded/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 274926,
+      "sha256": "cdd4c7b34f6d70b8810184ddca571bb3bc961ee975bf937bbdfac18456f19456"
+    },
+    "finalUrl": "https://calmatters.org/economy/technology/2026/09/on-ai-newsom-gives-labor-only-some-of-what-it-demanded/",
+    "httpStatus": 200,
+    "title": "Newsom enacts only some AI regulations sought by unions",
+    "rendered": {
+      "textChars": 12381,
+      "textSha256": "f2c6869d82adedcf96baebfa549282f5d9528876adf6a6c551ed3b789c9b1c71",
+      "htmlSha256": "13ea210783337168fe2fc0c490219f02a235008c9109adbef7fbfc608ffdacfa"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "916fb907c4b275148e4aeb1fceca69326582852751abcfc6cf070c3db7c90d6e",
+      "width": 1366,
+      "height": 8118,
+      "bytes": 1887188,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261001011445",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261001011445/https://calmatters.org/economy/technology/2026/09/on-ai-newsom-gives-labor-only-some-of-what-it-demanded/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20261001011445/https://calmatters.org/economy/technology/2026/09/on-ai-newsom-gives-labor-only-some-of-what-it-demanded/",
+      "timestamp": "20261001011445",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

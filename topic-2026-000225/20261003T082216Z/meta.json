@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000225",
+  "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-at-the-united-nations-while-others-have-talked-i-have-acted/",
+  "capturedAt": "2026-10-03T08:22:16Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 280569,
+    "sha256": "1cd1321bccbd00bb246c937f01675e5f5f7be39603b38de0cb23dea974a623e1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BD4727D577BCF01859C818D9C6F0D4FC",
+      "status": 200,
+      "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-at-the-united-nations-while-others-have-talked-i-have-acted/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4817,
+      "afterScrollHeight": 4817,
+      "wantedHeight": 4817
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "918a476d27ba27eb8dd28f7154b3e165cd435e61ff87cfcf8bef3c0504ee9dd6",
+    "width": 1366,
+    "height": 4817,
+    "bytes": 1228916,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4817,
+    "afterScrollHeight": 4817,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:22:16Z",
+    "url": "https://www.whitehouse.gov/releases/2026/09/president-trump-at-the-united-nations-while-others-have-talked-i-have-acted/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 280569,
+      "sha256": "1cd1321bccbd00bb246c937f01675e5f5f7be39603b38de0cb23dea974a623e1"
+    },
+    "finalUrl": "https://www.whitehouse.gov/releases/2026/09/president-trump-at-the-united-nations-while-others-have-talked-i-have-acted/",
+    "httpStatus": 200,
+    "title": "President Trump at the United Nations: “While Others Have Talked, I Have Acted” – The White House",
+    "rendered": {
+      "textChars": 7285,
+      "textSha256": "9b76f78d1aed37520c7bebe7acc143b0abf1af2a949b27d79720b4ffde133117",
+      "htmlSha256": "f75bc76df9faa1ec34fbf9bd2ed086c14efc92d3ff256dc92a71840a539a1eb4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "918a476d27ba27eb8dd28f7154b3e165cd435e61ff87cfcf8bef3c0504ee9dd6",
+      "width": 1366,
+      "height": 4817,
+      "bytes": 1228916,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003082257/https://www.whitehouse.gov/releases/2026/09/president-trump-at-the-united-nations-while-others-have-talked-i-have-acted/",
+      "timestamp": "20261003082257",
+      "verifiedHttp": 200
+    }
+  }
+}

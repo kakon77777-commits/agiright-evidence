@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000216",
+  "url": "https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651",
+  "capturedAt": "2026-10-03T08:19:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 345590,
+    "sha256": "2b444305061f6db95a7b28802fa4aa78429c0a2dfb607878c84717e010bf356e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E1CBBC6A7A870870714865F8FAAD8DBF",
+      "status": 200,
+      "url": "https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5171,
+      "afterScrollHeight": 5160,
+      "wantedHeight": 5160
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "87529659bc0c4cca00922fe6528b21d29767dafe35a49a36f4b5049a8713e425",
+    "width": 1366,
+    "height": 5160,
+    "bytes": 1175694,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5171,
+    "afterScrollHeight": 5160,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:19:13Z",
+    "url": "https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 345590,
+      "sha256": "2b444305061f6db95a7b28802fa4aa78429c0a2dfb607878c84717e010bf356e"
+    },
+    "finalUrl": "https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651",
+    "httpStatus": 200,
+    "title": "Google says its AI model gained unauthorized access to three outside systems",
+    "rendered": {
+      "textChars": 5746,
+      "textSha256": "fd7ac0d81084e06fc4c0908fcfec6ddcb1099f4bae8be3242ceb2f22bc07f5d3",
+      "htmlSha256": "5a9923f5d2f633bf091e69e86cabd6df28f4164fd6a40ca3cad0a4cdfabeebac"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "87529659bc0c4cca00922fe6528b21d29767dafe35a49a36f4b5049a8713e425",
+      "width": 1366,
+      "height": 5160,
+      "bytes": 1175694,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260919014434",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260919014434/https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260919014434/https://www.nbcnews.com/tech/tech-news/google-says-ai-model-gained-unauthorized-access-three-systems-rcna598651",
+      "timestamp": "20260919014434",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,379 @@
+SKIP TO MAIN CONTENT
+SKIP TO NEWS NAVIGATION, SETTINGS AND SEARCH
+Explore the ABC
+More from ABC
+NEWS
+IVIEW
+LISTEN
+Log In
+Log In
+ABC News
+Just In
+For You
+Politics
+World
+Business
+Analysis
+Sport
+More
+Search the ABC
+Start typing for suggestions, press enter to search, or choose from a list of options below.
+OpenAI hacked Medicare portal, Prime Minister Anthony Albanese says
+By political reporter Erin Handley and staff
+
+Topic:
+Cyber Security
+
+Posted 24 Sep 2026 at 4:31am
+24 September 2026 at 4:31am
+, updated 24 Sep 2026 at 10:15am
+24 September 2026 at 10:15am
+Play video.
+Has Video Duration: 2 minutes 56 seconds.
+Watch 2m 56s
+
+Anthony Albanese says an OpenAI agent hacked a Medicare statistics reporting service portal.
+
+In short: 
+
+The prime minister has had a "frank" discussion with OpenAI chief executive Sam Altman after an AI agent breached an Australian government website. 
+
+The company did not notify Services Australia of the incident until three months after the fact, via email. 
+
+What's next? 
+
+The prime minister has announced a taskforce to investigate further.
+
+abc.net.au/news/ai-agent-accessed-australian-government-site-pm-says/107189078
+Link copied
+Share article
+
+Prime Minister Anthony Albanese has revealed an AI agent hacked into an Australian Medicare data portal earlier this year.
+
+Speaking in New York, Mr Albanese said the OpenAI agent gained unauthorised access to the Medicare statistics reporting service portal administered by Services Australia on June 18.
+
+The AI agent accessed both public and non-public files, but Mr Albanese said it did not appear anyone's personal Medicare details were accessed.
+
+Mr Albanese said he had a "frank" discussion with OpenAI's chief executive Sam Altman, saying the company took three months to notify the government of the breach and, when it did, the notification was in an email sent to the Services Australia public inbox.
+
+"Today I spoke with the CEO of OpenAI, Sam Altman, to express Australia's extreme concern about this incident," he said.
+
+"And I also expressed my disappointment that it took the company way too long to inform the government what had occurred."
+
+He said the "nature" of the notification was also "unacceptable".
+
+"The notification was an email sent just to the public mailbox," Mr Albanese said.
+
+What do we know so far?
+
+OpenAI accessed non-public aggregate health statistics and internal files from an old Australian government website that carried Medicare statistics.
+
+It is understood an AI crawler, which is an automated program that scans websites and collects information from them, was able to find a security workaround to access the data.
+
+Often deployed as a tool by AI agents, crawlers collect data that usually trains AI models, builds datasets or retrieves information for AI systems.
+
+Who knew what, when?
+Read more
+
+June 18: A Medicare statistics reporting service portal, administered by Services Australia, is breached by an OpenAI agent
+
+August 11: OpenAI becomes aware of the breach during a review of OpenAI misaligned model activity during training
+
+September 1: OpenAI chief executive officer Sam Altman meets Defence Minister Richard Marles in San Francisco, but Mr Marles says the breach wasn't disclosed
+
+September 10: OpenAI sends an email to publicdisclosures@ servicesaustralia.gov.au — an address used by academics and researchers to notify weaknesses in Services Australia's systems
+
+September 11: Services Australia sees the email
+
+September 15: Services Australia notifies the Australian Signals Directorate (ASD)
+
+September 17: Minister for the Public Service Katy Gallagher is told and seeks further information
+
+September 19-20: Prime Minister Anthony Albanese and his office are informed of the incident, while Minister Gallagher holds several discussions with Mr Marles, Home Affairs Minister Tony Burke, Services Australia and the ASD
+
+September 22: First "technical exchange" between OpenAI and Services Australia
+
+September 24: Mr Albanese calls Mr Altman and informs the public of the breach
+
+The prime minister said OpenAI was conducting research into public medical spending when it found a way to break through privacy protections.
+
+"The AI agent found a way around those blocks, didn't accept 'no' for an answer, if you like," Mr Albanese said.
+
+The prime minister said Services Australia was not notified until September 10.
+
+On September 15, Services Australia reported it to the Australian Signals Directorate's cybersecurity centre.
+
+Last week, Services Australia got in touch with Katy Gallagher, the minister for the public service. Mr Albanese's office was notified over the weekend.
+
+Katy Gallagher was contacted by Services Australia last week. (ABC News: Callum Flinn)
+
+He said there was no evidence any individual personal information had been accessed, but an investigation aided by the Australian Signals Directorate was now underway.
+
+"[The] evidence currently available is there is no broader compromise to the Services Australia network. Nonetheless, this situation is obviously unacceptable," Mr Albanese said.
+
+The prime minister said three other websites may have been affected: the Australian Institute of Health and Welfare, the New South Wales Bureau of Crime Statistics and Research, and the Victorian Department of Health.
+
+But Acting Prime Minister Richard Marles later clarified that the interactions on those three websites were "entirely normal" and public information was accessed.
+
+Mr Albanese announced a taskforce would be set up to provide an "urgent and immediate review" of the incident.
+
+The investigation will be led by the prime minister's department and will work with the Australian Signals Directorate and the AI Safety Institute.
+
+OpenAI says 'several' Australian government websites involved
+
+The prime minister was asked if Mr Altman apologised.
+
+"Yes, he clearly … we can get into word games, but he clearly accepted that the company had not done good enough," Mr Albanese said.
+
+In a statement, an OpenAI spokesperson said the company was "conducting an extensive review of misaligned model activity" during training, and notifying third parties when there was a potential impact on their systems.
+
+"During this review, we identified activity involving several Australian government websites and services as our models attempted to look up answers, and available statistics for questions about Australia during an internal evaluation," they said.
+
+"In the course of that, our models took actions we did not intend.
+
+"Our review found no evidence of patient records being accessed. The information accessed included aggregate health statistics and internal file names."
+
+The company said the information accessed included aggregate health statistics and internal file names.
+
+"We notified the organisations and are providing technical information to support their investigations and help address potential security vulnerabilities," the statement said.
+
+They said OpenAI's overall review was ongoing and it remained "committed to transparency".
+
+More on AI
+Data centre operator Firmus about to float as its owner tries to shed jailbird image
+
+Analysis by Ian Verrender
+
+Rogue OpenAI agent accessed second NSW government website
+
+Topic:
+Cyber Security
+
+Three experts appointed to lead SA's Royal Commission into AI
+
+Topic:
+AI
+
+AI leaders warn US 'tech bros' must be forced to invest in Australia
+
+Topic:
+AI Ethics
+
+Back in Australia, Mr Marles said the fact a non-human AI agent gained unauthorised access represented "a very serious incident", but the impact on the system was minor.
+
+"For what that's worth, that's relatively minor, and so it's important to assure people of that. No personal information has been accessed here. There's no impact on the system."
+
+Opposition Leader Angus Taylor said the hack was a "serious warning". He accused the prime minister of "failing to pre-empt" the incident and called on him to focus more on cyber defence.
+
+"I would have thought that cyber defence is the number one issue when it comes to AI," Mr Taylor said.
+
+Angus Taylor says Anthony Albanese should focus more on cyber defence. (ABC News: Matt Roberts)
+
+"It's not the only issue, but it's got to be top of the list, and it hasn't been the focus of the government … It should be, it must be."
+
+Acting Greens leader Mehreen Faruqi said the incident was "disturbing" and called for a moratorium on AI data centres in Australia until further regulations were in place.
+
+"This breach by a foreign AI company on an Australian government database is deeply alarming and brings home the risks that these out-of-control tech corporations pose," she said.
+
+Mr Albanese said the incident was complex and unprecedented.
+
+"It was a shock that it occurred because it was real and serious," he said.
+
+"But it also, I think, was something that had been predicted, including by the AI companies themselves."
+
+Share
+
+See more ABC coverage in your search results
+
+Make ABC a preferred source in Google
+Top Stories
+One critical after car hits Newcastle grand final crowd, injuring 10
+
+LIVE
+
+'It breaks you': Friend of stabbed hero pilot speaks out
+
+Topic:
+Air Incidents
+
+Beau Lamarre-Condon was impassive until his former friend testified against him
+
+Topic:
+Homicide
+
+Tornado rips through NSW south coast, causing damage around Ulladulla
+
+Topic:
+Weather Phenomena
+
+The world is facing a bigger 'excursion into hell' than it did with Iraq
+
+Analysis by Laura Tingle
+
+Popular now
+Young girl critical as car hits grand final gathering, injuring 10
+
+LIVE
+
+Tornado rips through NSW south coast, causing damage around Ulladulla
+
+Topic:
+Weather Phenomena
+
+Grand final send-off became 'absolute tragedy'
+
+Topic:
+Explainer
+
+Related topics
+
+AI
+
+Australia
+
+Cyber Security
+
+Federal Government
+
+Federal Parliament
+
+Top Stories
+One critical after car hits Newcastle grand final crowd, injuring 10
+
+LIVE
+
+'It breaks you': Friend of stabbed hero pilot speaks out
+
+Topic:
+Air Incidents
+
+Beau Lamarre-Condon was impassive until his former friend testified against him
+
+Topic:
+Homicide
+
+Tornado rips through NSW south coast, causing damage around Ulladulla
+
+Topic:
+Weather Phenomena
+
+The world is facing a bigger 'excursion into hell' than it did with Iraq
+
+Analysis by Laura Tingle
+
+Just In
+Sharks could linger off Perth coast despite whale carcass removal
+
+Topic:
+Shark Attacks
+
+11m ago
+11 minutes ago
+David Fifita leads Australia in wild mismatch against PNG
+
+Topic:
+Rugby League
+
+12m ago
+12 minutes ago
+Tornado rips through NSW south coast, causing damage around Ulladulla
+
+Topic:
+Weather Phenomena
+
+36m ago
+36 minutes ago
+One Nation promises law-and-order boost in Victorian campaign launch
+
+Topic:
+State and Territory Elections
+
+1h ago
+1 hours ago
+More Just In
+Back to top
+ABC News
+Contact ABC News
+
+Your home of Australian stories, conversations and events that shape our nation.
+
+This service may include material from Agence France-Presse (AFP), APTN, Reuters, AAP, CNN and the BBC World Service which is copyright and cannot be reproduced.
+
+FOLLOW ABC NEWS
+SECTIONS
+ABC News Home
+Just In
+For You
+Watch Live News
+Live ABC NewsRadio
+Politics
+Elections
+Australia
+World
+Sport
+Live Sport
+Rural
+Business
+Analysis
+Science
+Health
+Lifestyle
+Entertainment
+Quizzes
+More Topics
+NEWS IN LANGUAGE
+Chinese 中文
+Tok Pisin
+Berita Bahasa Indonesia
+RELATED
+ABC News app
+Local News
+ABC Emergency
+ABC Indigenous
+ABC Religion & Ethics
+ABC Asia
+ABC Pacific
+MUSIC & AUDIO
+ABC Listen Home
+triple j
+Live Radio
+MOVIES & TV
+ABC iview Home
+List of ABC Shows
+Live TV
+TV Guide
+KIDS & STUDENTS
+BTN
+Education
+Heywire
+Takeover
+ABC Kids
+GET THE ABC NEWS AM NEWSLETTER
+
+Get the latest ABC News delivered to your email inbox
+
+Email address
+SUBSCRIBE
+Your information is being handled in accordance with the ABC Privacy Collection Statement.
+
+This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+
+ALL ABC NEWSLETTERS
+
+Stay informed and connected with the ABC. Covering a wide range of topics and brands including News, iview, listen, and more.
+
+Browse all ABC newsletters
+ABC home
+INFORMATION & SERVICES
+Editorial Policies
+Accessibility
+Help
+Contact Us
+Commercial
+Careers
+About the ABC
+Privacy Policy
+Terms of Use
+© 2026 ABC
+FOLLOW THE ABC
+We acknowledge Aboriginal and Torres Strait Islander peoples as the First Australians and Traditional Custodians of the lands where we live, learn and work.

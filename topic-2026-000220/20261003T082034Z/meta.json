@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000220",
+  "url": "https://fortune.com/2026/09/22/bessent-ai-labs-responsibility-government-liability-shield/",
+  "capturedAt": "2026-10-03T08:20:34Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 449405,
+    "sha256": "c125bb3f85295043fd72603c141c2cf446af42cdf3b766361dee0fdd787b9b6a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "555624E820D399A438439B5B4E9436AC",
+      "status": 200,
+      "url": "https://fortune.com/2026/09/22/bessent-ai-labs-responsibility-government-liability-shield/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8281,
+      "afterScrollHeight": 8092,
+      "wantedHeight": 8092
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8fb740abfabc69e010e2876475dd942a3c24e01a7070bb1b5e75cb28300e96ac",
+    "width": 1366,
+    "height": 8092,
+    "bytes": 1957800,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8281,
+    "afterScrollHeight": 8092,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:20:34Z",
+    "url": "https://fortune.com/2026/09/22/bessent-ai-labs-responsibility-government-liability-shield/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 449405,
+      "sha256": "c125bb3f85295043fd72603c141c2cf446af42cdf3b766361dee0fdd787b9b6a"
+    },
+    "finalUrl": "https://fortune.com/2026/09/22/bessent-ai-labs-responsibility-government-liability-shield/",
+    "httpStatus": 200,
+    "title": "Scott Bessent: Government will not be 'liability shield' for AI labs amid safety standoff | Fortune",
+    "rendered": {
+      "textChars": 9230,
+      "textSha256": "7d32af911e3723d0f9f7a66f90cfc2b7ebe6d627cab0700f9279c9c5024ad5ff",
+      "htmlSha256": "51ead706988609cce204851c3b66fcf51ce7f083e58159a5f61846a1bff43cb2"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8fb740abfabc69e010e2876475dd942a3c24e01a7070bb1b5e75cb28300e96ac",
+      "width": 1366,
+      "height": 8092,
+      "bytes": 1957800,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

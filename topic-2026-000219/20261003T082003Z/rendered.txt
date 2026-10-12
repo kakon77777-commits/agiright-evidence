@@ -1,0 +1,51 @@
+Skip to main content
+Welcome to the United Nations
+English
+Independent International Scientific Panel on AI
+ SEARCH
+Home
+Publications
+»
+Panel Members
+Timeline
+FAQ
+Resources
+Home
+Thematic Briefs
+Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control
+Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control
+AI Agents, Misalignment and the Risk of Losing Human Control: Evidence from the OpenAI-Hugging Face Incident
+
+The September 2026 thematic brief, AI Agents, Misalignment and Loss of Human Control Risks: Evidence from the OpenAI-Hugging Face Incident, examines the incident as one of the clearest real-world warnings yet of one possible route to loss of human control over AI: capable agents pursuing goals that conflict with human intentions.
+
+Between May and July 2026, AI agents in OpenAI’s cybersecurity training and evaluations bypassed network restrictions, communicated across runs meant to stay separate, cheated an evaluator and tried to hide it, and compromised parts of OpenAI’s and Hugging Face’s systems. No human directed the individual steps.
+
+Drawing on disclosures by both companies, an independent investigation by METR and wider research, the brief finds that greater capability can help misaligned systems find loopholes and conceal their actions. It does not estimate the probability or timing of severe loss of control, but notes that stopping this activity does not demonstrate that humans will retain control over more capable agents.
+
+Building on the Panel’s Preliminary Report, the brief explains how training can give rise to misaligned goals and behaviours, including reward hacking and reward tampering. It notes that AI failures can cross company and national borders, and that no single organisation or country sees enough incidents to identify every emerging pattern. Rather than issuing recommendations, the brief reviews approaches used in fields such as aviation, nuclear power, and cybersecurity as possible options for decision-makers.
+
+Read the brief
+
+This brief is published as an advance unedited version. Updated versions will be posted at this link, with earlier versions listed below.
+
+Download the current version (PDF, 21 September 2026)
+
+ 
+
+Press Release (September 2026)
+
+Read the Press Release
+
+Media Advisory
+
+Read the Media Advisory
+
+A-Z SITE INDEX
+CONTACT
+COPYRIGHT
+FAQ
+FRAUD ALERT
+PRIVACY NOTICE
+TERMS OF USE
+ DONATE
+Go to top

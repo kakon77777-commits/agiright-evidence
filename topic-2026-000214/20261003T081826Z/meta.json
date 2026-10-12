@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000214",
+  "url": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit",
+  "capturedAt": "2026-10-03T08:18:26Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 206567,
+    "sha256": "6539ae432ad6e31cfbb3582f39d25ba80c34bea42a040131e19a5d651f0bb797",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8A08F0E0E6795E49A76890398DC78E57",
+      "status": 200,
+      "url": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4358,
+      "afterScrollHeight": 7153,
+      "wantedHeight": 4358
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a10443bc336ca1ac404487793a48a9ff730c4260dab13fdba438158d8f85fa14",
+    "width": 1366,
+    "height": 4358,
+    "bytes": 1159627,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 4358,
+    "afterScrollHeight": 7153,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:18:26Z",
+    "url": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 206567,
+      "sha256": "6539ae432ad6e31cfbb3582f39d25ba80c34bea42a040131e19a5d651f0bb797"
+    },
+    "finalUrl": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit",
+    "httpStatus": 200,
+    "title": "US proposes AI safety notification mechanism in talks with China | Donald Trump News | Al Jazeera",
+    "rendered": {
+      "textChars": 5147,
+      "textSha256": "352d22922fc9c44c8eebc29fdfcbf4506062f1e5fb9d8490feb8ed41ed5b2077",
+      "htmlSha256": "4e7003780f4402104ff0a12e11ffd2773527922110727fd6df9c9329e0b26860"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a10443bc336ca1ac404487793a48a9ff730c4260dab13fdba438158d8f85fa14",
+      "width": 1366,
+      "height": 4358,
+      "bytes": 1159627,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

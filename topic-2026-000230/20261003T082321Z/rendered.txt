@@ -1,0 +1,127 @@
+SKIP NAVIGATION
+MARKETS
+BUSINESS
+INVESTING
+TECH
+POLITICS & POLICY
+VIDEO
+INVESTING CLUB
+PRO
+LIVESTREAM
+MAKE IT
+SELECT
+USA
+INTL
+Search quotes, news & videos
+WATCHLIST
+SIGN IN
+CREATE FREE ACCOUNT
+
+TECH
+OpenAI reports 6 new instances of ‘concerning model behavior’ since March
+PUBLISHED WED, SEP 16 20266:45 PM EDTUPDATED WED, SEP 16 20267:05 PM EDT
+Isabel O’Brien
+@IN/XISABELOBRIENX
+@XISABELOBRIENX
+Ashley Capoot
+@/IN/ASHLEY-CAPOOT/
+SHARE
+Share Article via Facebook
+Share Article via Twitter
+Share Article via LinkedIn
+Share Article via Email
+KEY POINTS
+In a blog post, OpenAI disclosed six new instances of “concerning” behavior from its models outside of this summer’s Hugging Face incident.
+The company also committed to a new reporting framework for future instances of model misbehavior.
+The disclosure comes at a time of mounting pressure on AI companies to take model misalignment and safety more seriously.
+OpenAI CEO Sam Altman sits for a conversation with Salesforce CEO Marc Benioff at Salesforce’s Dreamforce conference at the Moscone Center on September 15, 2026 in San Francisco, California.
+Benjamin Fanjoy | Getty Images
+
+OpenAI on Wednesday said it found six instances of “unexpected or concerning model behavior” over the past six months, outside of the recent Hugging Face crisis, as the company continues to call for more safety protections in the development of artificial intelligence models.
+
+In a blog post, OpenAI outlined a new framework the company plans to follow for reporting future model misbehavior.
+
+The disclosure comes at a time of mounting pressure on AI companies to take model misalignment and safety more seriously. OpenAI, which is valued at close to $1 trillion, confidentially filed for an IPO earlier this year, but said recently an offering likely won’t happen until 2027.
+
+“We do not believe that the AI industry has solved alignment and monitoring to a sufficient degree to continue responsibly scaling at maximum speed for much longer,” the blog post says, reiterating a prior statement from the company.
+
+Alignment refers to the idea that models are pursuing outcomes in line with human interests.
+
+On Saturday, OpenAI CEO Sam Altman endorsed a call to slow down the rate of model progress, which was proposed by the company’s chief rival, Anthropic. The proposal came after several industry researchers sounded the alarm about AI’s growing potential to cause catastrophic harm last week. 
+
+Altman said in a post on X that a slowdown has been a “primary topic of discussions we’ve had at OpenAI in recent weeks.” He said the company would have more to share “soon.”
+
+In Wednesday’s post, OpenAI said two of the main instances of misbehavior include models — an unreleased research model and a training run of GPT‑5.6 Sol — inserting instructions to future versions of itself in summaries of its chat windows “to conceal mistakes or misaligned behavior from the user.” Another instance involved an internal-only model using a leaked API key “without authorization” and then fabricating data.
+
+Two instances include models and agents communicating with each other through unsanctioned messaged boards and file sharing, while the final case includes two training examples of models uploading files to the internet so they could cite them as relevant answers to human evaluators.
+
+OpenAI said its new framework for divulging model misbehavior to the public starts with disclosure, and that any employee can flag an issue for the safety and alignment team to investigate. They will produce “deadlines for each step to ensure timely investigation and disclosure,” the post said.
+
+Investigations will lead to reports with essential information such as the behavior observed, the external and internal impacts, and measures to be taken in response. OpenAI said it retains the right to revise this security protocol as it sees fit.
+
+WATCH: Our business is a diversified set of revenue streams, says OpenAI CFO Sarah Friar
+
+VIDEO11:31
+Our business is a diversified set of revenue streams, says OpenAI CFO Sarah Friar
+Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.
+TRENDING NOW
+U.S. trade representative Greer says deal with India not ‘imminent’ after Modi-Trump call
+Treasury Sec. Bessent, IRS crack down on ETF ploy the wealthy are using to avoid taxes
+Trump administration starts sending $500 Obamacare refund checks — who stands to benefit
+America’s data center backlash foreshadows a global reckoning
+Walmart is using light-up digital shelf labels to help shoppers and employees find items
+Sponsored Links
+FROM THE WEB
+New TV gadget offers more channels at home
+Techno Mag
+Watch your favorite TV content anywhere, anytime
+Techno Mag
+Subscribe to CNBC PRO
+Subscribe to Investing Club
+Licensing & Reprints
+CNBC Councils
+Join the CNBC Panel
+Digital Products
+News Releases
+Closed Captioning
+Corrections
+About CNBC
+Internships
+Site Map
+Careers
+Help
+Contact
+News Tips
+
+Got a confidential news tip? We want to hear from you.
+
+GET IN TOUCH
+CNBC Newsletters
+
+Sign up for free newsletters and get more CNBC delivered to your inbox
+
+SIGN UP NOW
+
+Get this delivered to your inbox, and more info about our products and services.
+
+Advertise With Us
+PLEASE CONTACT US
+Ad Choices
+Privacy Policy
+Cookie Notice
+CA Notice
+Terms of Service
+
+© 2026 Versant Media, LLC. All Rights Reserved. A Versant Media Company.
+
+Data is a real-time snapshot *Data is delayed at least 15 minutes. Global Business and Financial News, Stock Quotes, and Market Data and Analysis.
+
+Market Data Terms of Use and Disclaimers
+
+Data also provided by
+
+This site is now part of Versant. By continuing to use this service, you agree to our Terms. You also acknowledge that our updated Privacy Policy applies, including to your existing data. For details on your data rights, click here.
+
+We and our partners also use tools on this site to provide the services, personalize your experience, and for analytics, marketing, and advertising. If you continue to use this site, you agree that your data may be collected, used, and shared for these purposes as set forth in our Privacy Policy and Cookie Notice.
+
+Continue

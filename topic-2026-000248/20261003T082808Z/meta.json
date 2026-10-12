@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000248",
+  "url": "https://abc7news.com/story/top-ai-leaders-meet-trump-white-house-amid-dire-warnings-technology/19886613/",
+  "capturedAt": "2026-10-03T08:28:08Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 308566,
+    "sha256": "33b50cf8528b805b5056c33830c7a80baee326719c76d4460ecae2c396c37598",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5B9A80736814F644B130F1D0599C9F65",
+      "status": 200,
+      "url": "https://abc7news.com/story/top-ai-leaders-meet-trump-white-house-amid-dire-warnings-technology/19886613/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6853,
+      "afterScrollHeight": 6853,
+      "wantedHeight": 6853
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7af66050d8c28a6c8f72cb0775835bc8e21fd7f0d73933f1ed091d58d37dabf7",
+    "width": 1366,
+    "height": 6853,
+    "bytes": 1397769,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6853,
+    "afterScrollHeight": 6853,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:28:08Z",
+    "url": "https://abc7news.com/story/top-ai-leaders-meet-trump-white-house-amid-dire-warnings-technology/19886613/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 308566,
+      "sha256": "33b50cf8528b805b5056c33830c7a80baee326719c76d4460ecae2c396c37598"
+    },
+    "finalUrl": "https://abc7news.com/story/top-ai-leaders-meet-trump-white-house-amid-dire-warnings-technology/19886613/",
+    "httpStatus": 200,
+    "title": "Trump says AI leaders signed a 'constitution' to police themselves during White House meeting - ABC7 San Francisco",
+    "rendered": {
+      "textChars": 7050,
+      "textSha256": "29909cf976c03870cd8c8620e863bae4ce7775d05e6f2035cee95ce2a8d2a82c",
+      "htmlSha256": "06b99169b8f57bd3589aaed091f68886f11d6e10b4bcdc7f0382cfa4f5313d75"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7af66050d8c28a6c8f72cb0775835bc8e21fd7f0d73933f1ed091d58d37dabf7",
+      "width": 1366,
+      "height": 6853,
+      "bytes": 1397769,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260929135331",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260929135331/https://abc7news.com/story/top-ai-leaders-meet-trump-white-house-amid-dire-warnings-technology/19886613/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260929135331/https://abc7news.com/story/top-ai-leaders-meet-trump-white-house-amid-dire-warnings-technology/19886613/",
+      "timestamp": "20260929135331",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

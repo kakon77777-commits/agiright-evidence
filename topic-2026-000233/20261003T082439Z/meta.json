@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000233",
+  "url": "https://sfstandard.com/2026/09/26/berkeley-ai-welfare-consciousness/",
+  "capturedAt": "2026-10-03T08:24:39Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 464130,
+    "sha256": "3c7971a2d658ad4d1f72d853ca2b7a8aa57fe7a85295be75de7f79e2c0955ae3",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "74230F9ED51BBA7423D25968A698CD79",
+      "status": 200,
+      "url": "https://sfstandard.com/2026/09/26/berkeley-ai-welfare-consciousness/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "17d6840077a7bb2d32626d9b65ec6d1f5cd2e0d131c2fae6bffb89e373fc0f7c",
+    "width": 1366,
+    "height": 900,
+    "bytes": 196078,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:24:39Z",
+    "url": "https://sfstandard.com/2026/09/26/berkeley-ai-welfare-consciousness/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 464130,
+      "sha256": "3c7971a2d658ad4d1f72d853ca2b7a8aa57fe7a85295be75de7f79e2c0955ae3"
+    },
+    "finalUrl": "https://sfstandard.com/2026/09/26/berkeley-ai-welfare-consciousness/",
+    "httpStatus": 200,
+    "title": "‘A deeply weird question’: Inside the Berkeley conference debating if AI can feel pain | The San Francisco Standard",
+    "rendered": {
+      "textChars": 11359,
+      "textSha256": "744d92b448adb2de01cea8a9b1915e866573f52a01965e076db5e7246fa924cf",
+      "htmlSha256": "52c059a6b57a8fdbb906041a2109456faabf898b2c555424e8b482cd7555855e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "17d6840077a7bb2d32626d9b65ec6d1f5cd2e0d131c2fae6bffb89e373fc0f7c",
+      "width": 1366,
+      "height": 900,
+      "bytes": 196078,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000235",
+  "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-google-and-anthropic-join-forces-to-set-ai-safety-standards/",
+  "capturedAt": "2026-10-03T08:25:27Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 154233,
+    "sha256": "cacf4945c26f751a0a2b816e297faa78e817ae409359ffc3c9ec5b80819b5f36",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B29F88C6BDE4D420377EEF5A5BC4BE4C",
+      "status": 200,
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-google-and-anthropic-join-forces-to-set-ai-safety-standards/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2856,
+      "afterScrollHeight": 5549,
+      "wantedHeight": 2856
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "31f03c792337ac8dda38d22ead6780af1703e56d8ad44283d116ca70b7d3949f",
+    "width": 1366,
+    "height": 2856,
+    "bytes": 624845,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 2856,
+    "afterScrollHeight": 5549,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:25:27Z",
+    "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-google-and-anthropic-join-forces-to-set-ai-safety-standards/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 154233,
+      "sha256": "cacf4945c26f751a0a2b816e297faa78e817ae409359ffc3c9ec5b80819b5f36"
+    },
+    "finalUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-google-and-anthropic-join-forces-to-set-ai-safety-standards/",
+    "httpStatus": 200,
+    "title": "PYMNTS | OpenAI, Google, Anthropic Join Forces to Set AI Safety Stand…",
+    "rendered": {
+      "textChars": 4167,
+      "textSha256": "344520ad8f80b100d27a66407712f186fa480ec2d249ca0c1df118b314c4cf6e",
+      "htmlSha256": "a3a39a26f45eaaa93898398c11a9ed2d6b222bb372fb535f711e66c77dd10638"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "31f03c792337ac8dda38d22ead6780af1703e56d8ad44283d116ca70b7d3949f",
+      "width": 1366,
+      "height": 2856,
+      "bytes": 624845,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

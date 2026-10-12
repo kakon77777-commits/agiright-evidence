@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000231",
+  "url": "https://www.rockefellerfoundation.org/news/research-action-policy-lab-global-south-ai-opportunity/",
+  "capturedAt": "2026-10-03T08:23:47Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 137548,
+    "sha256": "a937a77776ba8db863b96373615ab140ab72ce665d35fb6284afb12ebebc7d8a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "988A254CE800832F497ABCDC25130FDB",
+      "status": 200,
+      "url": "https://www.rockefellerfoundation.org/news/research-action-policy-lab-global-south-ai-opportunity/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6280,
+      "afterScrollHeight": 6280,
+      "wantedHeight": 6280
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ecbe991b9e9b5e8812a7796650c347adb5221e849b1ff8fcaa9c7bc5ae887eec",
+    "width": 1366,
+    "height": 6280,
+    "bytes": 1016752,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6280,
+    "afterScrollHeight": 6280,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:23:47Z",
+    "url": "https://www.rockefellerfoundation.org/news/research-action-policy-lab-global-south-ai-opportunity/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 137548,
+      "sha256": "a937a77776ba8db863b96373615ab140ab72ce665d35fb6284afb12ebebc7d8a"
+    },
+    "finalUrl": "https://www.rockefellerfoundation.org/news/research-action-policy-lab-global-south-ai-opportunity/",
+    "httpStatus": 200,
+    "title": "As World Leaders Gather at the UN, a New Research Action Policy Lab in the Global South Sets Out To Prove AI Can Create Opportunity | RF",
+    "rendered": {
+      "textChars": 8230,
+      "textSha256": "e3520f1a0513ea98898e5c8f6c99fbea6eed2947d197f06fd773c64a6cf7976f",
+      "htmlSha256": "1afee3766c6d7049362cb27d3d20004b648cfebc6a34a13016954f283daf9cc3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ecbe991b9e9b5e8812a7796650c347adb5221e849b1ff8fcaa9c7bc5ae887eec",
+      "width": 1366,
+      "height": 6280,
+      "bytes": 1016752,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

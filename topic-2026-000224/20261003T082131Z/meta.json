@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000224",
+  "url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+  "capturedAt": "2026-10-03T08:21:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 428389,
+    "sha256": "3c28a3325a3d361e195a04e7a45556eecfc8c2adb9c9af2f69d7e7f1ef08b603",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "00BF3D1B2BFD16EDE97083DF4BF59DE5",
+      "status": 200,
+      "url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 9258,
+      "afterScrollHeight": 9258,
+      "wantedHeight": 9258
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d9f8130b4f49d1be2398a3d744e05eba67b956e0228abab570cae1aa164e6038",
+    "width": 1366,
+    "height": 9258,
+    "bytes": 2720409,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 9258,
+    "afterScrollHeight": 9258,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:21:31Z",
+    "url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 428389,
+      "sha256": "3c28a3325a3d361e195a04e7a45556eecfc8c2adb9c9af2f69d7e7f1ef08b603"
+    },
+    "finalUrl": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+    "httpStatus": 200,
+    "title": "OpenAI hacked Medicare portal, Prime Minister Anthony Albanese says - ABC News",
+    "rendered": {
+      "textChars": 12360,
+      "textSha256": "353532f70291cfdbce887ff7deaa8d7e35fc15dcd5c3b1d18f5ba1bd7569322a",
+      "htmlSha256": "159c99644100192da4f528c48f97366703be8907e9edd7084e614a7eb0010c86"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d9f8130b4f49d1be2398a3d744e05eba67b956e0228abab570cae1aa164e6038",
+      "width": 1366,
+      "height": 9258,
+      "bytes": 2720409,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260923203747",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260923203747/https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260923203747/https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+      "timestamp": "20260923203747",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000221",
+  "url": "https://www.bloomberg.com/news/articles/2026-09-23/altman-amodei-call-for-global-cooperation-on-ai-to-boost-safety",
+  "capturedAt": "2026-10-03T08:20:34Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html",
+    "bytes": 13856,
+    "sha256": "1f3f1aa547dc2364b1e4bc1aee9990537bfd376d0b701aa34d6fcaab775f94d0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "476BF4487C3A611E49F9754EB75D5C3B",
+      "status": 403,
+      "url": "https://www.bloomberg.com/news/articles/2026-09-23/altman-amodei-call-for-global-cooperation-on-ai-to-boost-safety",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f201ad10e3e83b058fef98f93af6fc1535975d7ffb7660d45d54077978d4aabf",
+    "width": 1366,
+    "height": 900,
+    "bytes": 43015,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:20:34Z",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-23/altman-amodei-call-for-global-cooperation-on-ai-to-boost-safety",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html",
+      "bytes": 13856,
+      "sha256": "1f3f1aa547dc2364b1e4bc1aee9990537bfd376d0b701aa34d6fcaab775f94d0"
+    },
+    "finalUrl": "https://www.bloomberg.com/news/articles/2026-09-23/altman-amodei-call-for-global-cooperation-on-ai-to-boost-safety",
+    "httpStatus": 403,
+    "title": "Bloomberg - Are you a robot?",
+    "rendered": {
+      "textChars": 665,
+      "textSha256": "b7574d863db7114a60990e23453f3cc6bfea319fa8f8a55222ee9807433c3483",
+      "htmlSha256": "7b8cf4a443e627cb8ca68199c91310dd96d969bed8e77367d2571c102f596884"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "f201ad10e3e83b058fef98f93af6fc1535975d7ffb7660d45d54077978d4aabf",
+      "width": 1366,
+      "height": 900,
+      "bytes": 43015,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

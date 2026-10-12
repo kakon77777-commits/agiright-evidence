@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000228",
+  "url": "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
+  "capturedAt": "2026-10-03T08:22:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 571197,
+    "sha256": "aeaada37dc4fe2d0f7a3804f5685dcb289955c79e063827bc8993fa93cefca7e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CC19494E4178A546130B6D40FDC25193",
+      "status": 200,
+      "url": "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7212,
+      "afterScrollHeight": 7201,
+      "wantedHeight": 7201
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9597a54555b3885cef02cc8e02743860be88d4eabe0b7dc772729749861b4cd6",
+    "width": 1366,
+    "height": 7201,
+    "bytes": 2015581,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7212,
+    "afterScrollHeight": 7201,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:22:24Z",
+    "url": "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 571197,
+      "sha256": "aeaada37dc4fe2d0f7a3804f5685dcb289955c79e063827bc8993fa93cefca7e"
+    },
+    "finalUrl": "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
+    "httpStatus": 200,
+    "title": "Two AI researchers leave Anthropic, Google over safety concerns",
+    "rendered": {
+      "textChars": 10375,
+      "textSha256": "2f170983425f17b205b9ced015ebd0359108d956dd20cf71ce5c39108d98699d",
+      "htmlSha256": "cca650ddb5d3fe0daf68eceba922d4a2459e605cbe3892f48723ecd019830ffa"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9597a54555b3885cef02cc8e02743860be88d4eabe0b7dc772729749861b4cd6",
+      "width": 1366,
+      "height": 7201,
+      "bytes": 2015581,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003082405/https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
+      "timestamp": "20261003082405",
+      "verifiedHttp": 200
+    }
+  }
+}

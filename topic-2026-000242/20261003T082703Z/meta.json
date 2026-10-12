@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000242",
+  "url": "https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced",
+  "capturedAt": "2026-10-03T08:27:03Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 808986,
+    "sha256": "7c6aa0839b51c12bfc1535db93fbd0e578751d3207b58154e58c5a3313d37e34",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "22D954F2D95DD41AC10903416AFF01AD",
+      "status": 200,
+      "url": "https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 16862,
+      "afterScrollHeight": 16862,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2d204273d2e576753ad967144f23d014f2d7e662de9fe6417c2ec0f6fc5d33be",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 1975731,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 16862,
+    "afterScrollHeight": 16862,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:27:03Z",
+    "url": "https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 808986,
+      "sha256": "7c6aa0839b51c12bfc1535db93fbd0e578751d3207b58154e58c5a3313d37e34"
+    },
+    "finalUrl": "https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced",
+    "httpStatus": 200,
+    "title": "OpenAI Gave AI Agents Their Own Computers at DevDay 2026. Here's Everything It Announced - Decrypt",
+    "rendered": {
+      "textChars": 21650,
+      "textSha256": "104cec9fab236e9cebc84dc05532dbf71ce94cd04da12b28ba1f3e79b17d7a73",
+      "htmlSha256": "88a459d98d1054dfd2214cbbacdfe8de5f94972a09fda07fb2d9ce0b086a6fb3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2d204273d2e576753ad967144f23d014f2d7e662de9fe6417c2ec0f6fc5d33be",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 1975731,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260929194915",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260929194915/https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260929194915/https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced",
+      "timestamp": "20260929194915",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

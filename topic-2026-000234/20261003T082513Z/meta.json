@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000234",
+  "url": "https://casar.house.gov/media/press-releases/news-casar-sanders-introduce-legislation-create-new-federal-agency-ban",
+  "capturedAt": "2026-10-03T08:25:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 44630,
+    "sha256": "0e586095e738351a527fb394dc297e5abe921f75c056d32e09567cf9e6357cd8",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C06CBD6CE5CF5CB8EE9D7D6D4C27994F",
+      "status": 200,
+      "url": "https://casar.house.gov/media/press-releases/news-casar-sanders-introduce-legislation-create-new-federal-agency-ban",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2349,
+      "afterScrollHeight": 2349,
+      "wantedHeight": 2349
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "bebd939167a7dacbdcc84f8dee274e4b3a12b5303b43ce8444e0a401047b97c0",
+    "width": 1366,
+    "height": 2349,
+    "bytes": 703857,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2349,
+    "afterScrollHeight": 2349,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:25:13Z",
+    "url": "https://casar.house.gov/media/press-releases/news-casar-sanders-introduce-legislation-create-new-federal-agency-ban",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 44630,
+      "sha256": "0e586095e738351a527fb394dc297e5abe921f75c056d32e09567cf9e6357cd8"
+    },
+    "finalUrl": "https://casar.house.gov/media/press-releases/news-casar-sanders-introduce-legislation-create-new-federal-agency-ban",
+    "httpStatus": 200,
+    "title": "NEWS: Casar, Sanders Introduce Legislation to Create New Federal Agency to Ban Artificial Superintelligence, Pause Advanced AI Development | Representative Casar",
+    "rendered": {
+      "textChars": 5107,
+      "textSha256": "36a3939c6efdfa6d50d942790bf053e7fa2e4429f1cfe75317cde1cf592abdf3",
+      "htmlSha256": "e7701ac3d8f7a1fdca1cb30eff10cf8ddd6ef1348bd8e984a6c82464e2f00d15"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "bebd939167a7dacbdcc84f8dee274e4b3a12b5303b43ce8444e0a401047b97c0",
+      "width": 1366,
+      "height": 2349,
+      "bytes": 703857,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260923211823",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260923211823/https://casar.house.gov/media/press-releases/news-casar-sanders-introduce-legislation-create-new-federal-agency-ban"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260923211823/https://casar.house.gov/media/press-releases/news-casar-sanders-introduce-legislation-create-new-federal-agency-ban",
+      "timestamp": "20260923211823",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

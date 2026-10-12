@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000226",
+  "url": "https://www.governor.ny.gov/news/ai-safety-governor-hochul-announces-next-steps-regulate-major-ai-developers-and-protect-new",
+  "capturedAt": "2026-10-03T08:22:20Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 60271,
+    "sha256": "37b6b7618fea7036bf9f2117972bc5c09c3f2d823e5e294dd6171b97cd330ee7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CF87A3AFB8BDDB2B8B4AD76335EE002B",
+      "status": 403,
+      "url": "https://www.governor.ny.gov/news/ai-safety-governor-hochul-announces-next-steps-regulate-major-ai-developers-and-protect-new",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1021,
+      "afterScrollHeight": 1021,
+      "wantedHeight": 1021
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "00ee133c6ec222c833918a2c8d843ad907aba808cb2968f164c1d8f91af5bf06",
+    "width": 1366,
+    "height": 1021,
+    "bytes": 57245,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1021,
+    "afterScrollHeight": 1021,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:22:20Z",
+    "url": "https://www.governor.ny.gov/news/ai-safety-governor-hochul-announces-next-steps-regulate-major-ai-developers-and-protect-new",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 60271,
+      "sha256": "37b6b7618fea7036bf9f2117972bc5c09c3f2d823e5e294dd6171b97cd330ee7"
+    },
+    "finalUrl": "https://www.governor.ny.gov/news/ai-safety-governor-hochul-announces-next-steps-regulate-major-ai-developers-and-protect-new",
+    "httpStatus": 403,
+    "title": "Attention Required! | Cloudflare",
+    "rendered": {
+      "textChars": 683,
+      "textSha256": "0c8a1837600635062922815d5dac03cbab4b26da0e1861aa10990b81e4d14a5a",
+      "htmlSha256": "19336f4d07aeba4560561afd6a68adfb1179401ba8109ed29975bb7c6702987e"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "00ee133c6ec222c833918a2c8d843ad907aba808cb2968f164c1d8f91af5bf06",
+      "width": 1366,
+      "height": 1021,
+      "bytes": 57245,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003082300/https://www.governor.ny.gov/news/ai-safety-governor-hochul-announces-next-steps-regulate-major-ai-developers-and-protect-new",
+      "timestamp": "20261003082300",
+      "verifiedHttp": 200
+    }
+  }
+}

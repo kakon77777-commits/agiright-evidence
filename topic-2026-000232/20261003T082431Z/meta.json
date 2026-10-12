@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000232",
+  "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
+  "capturedAt": "2026-10-03T08:24:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 128644,
+    "sha256": "c790fd746a65d303c86cb3f5008ff81dd6b693d0c5b2cd6cd5b993aa46db979c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5543BE850D9F4D2E8C25CEC3E844AF92",
+      "status": 200,
+      "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6300,
+      "afterScrollHeight": 6300,
+      "wantedHeight": 6300
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d2a7626e05e3e4ef590f4bfd5eef4a50c7a5bd09b0cb9a509eb72bfb1b3f93de",
+    "width": 1366,
+    "height": 6300,
+    "bytes": 1628865,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6300,
+    "afterScrollHeight": 6300,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:24:31Z",
+    "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 128644,
+      "sha256": "c790fd746a65d303c86cb3f5008ff81dd6b693d0c5b2cd6cd5b993aa46db979c"
+    },
+    "finalUrl": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
+    "httpStatus": 200,
+    "title": "OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data",
+    "rendered": {
+      "textChars": 9966,
+      "textSha256": "f686dcbc5b0def814ad3f03022b2ce00629f5b540b637961ae519635727e2603",
+      "htmlSha256": "78cf7636e9a9f2da2c72c260aaa5803c7a1d308b2fa74a97fc26a2d1c72cb8e8"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d2a7626e05e3e4ef590f4bfd5eef4a50c7a5bd09b0cb9a509eb72bfb1b3f93de",
+      "width": 1366,
+      "height": 6300,
+      "bytes": 1628865,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260926140009",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260926140009/https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260926140009/https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
+      "timestamp": "20260926140009",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

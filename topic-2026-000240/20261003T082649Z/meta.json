@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000240",
+  "url": "https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743",
+  "capturedAt": "2026-10-03T08:26:49Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 165279,
+    "sha256": "ae203095937c9870dbdfe467750c829a0b915bf3720a03a980bcc48efb4474fa",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F1E611AE6981427E84CE4C491E133199",
+      "status": 200,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4614,
+      "afterScrollHeight": 4614,
+      "wantedHeight": 4614
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9ed9184ec6caebd6d6b3b03bffba2f3478d5274f39f3e83c80548c58e877eb1b",
+    "width": 1366,
+    "height": 4614,
+    "bytes": 876750,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4614,
+    "afterScrollHeight": 4614,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:26:49Z",
+    "url": "https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165279,
+      "sha256": "ae203095937c9870dbdfe467750c829a0b915bf3720a03a980bcc48efb4474fa"
+    },
+    "finalUrl": "https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743",
+    "httpStatus": 200,
+    "title": "OpenAI benches GPT-6.1 Astra for overstepping the mark",
+    "rendered": {
+      "textChars": 9348,
+      "textSha256": "dae603ba09570479a7909cd9a706b5bf2b18d7662e91d940bbe1db471e30242c",
+      "htmlSha256": "90b4a50e6411f1af241ce9896dddc8d2b6663e8a836f7b8e59af5a2887bb9976"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9ed9184ec6caebd6d6b3b03bffba2f3478d5274f39f3e83c80548c58e877eb1b",
+      "width": 1366,
+      "height": 4614,
+      "bytes": 876750,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260929162735",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260929162735/https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260929162735/https://www.theregister.com/ai-and-ml/2026/09/29/openai-benches-gpt-61-astra-for-overstepping-the-mark/5299743",
+      "timestamp": "20260929162735",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

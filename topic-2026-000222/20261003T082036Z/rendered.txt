@@ -1,0 +1,136 @@
+Skip to content
+Governor of California
+About
+Priorities
+News
+Join the Administration
+First Partner
+Contact
+To search the site, enter a search term
+
+News
+
+Sep 23, 2026
+
+Governor Newsom announces world-leading experts to deliver on his AI executive order, including advancing creation of a “kill switch”
+
+What you need to know: Governor Newsom today announced the group of leading experts who will advise on recommendations required by his recent AI executive order that will accelerate independent oversight of AI companies and advance the creation of a potential “kill switch” for rogue frontier models.
+
+SACRAMENTO – While Donald Trump remains unplugged, Governor Gavin Newsom continues to advance strong AI policies to protect Americans. Building on his executive order issued just days ago to accelerate independent oversight and advance the creation of “kill switches” as part of California’s strong AI safety framework, Governor Newsom today announced the group of leading experts to help guide this nation-leading work. The group of experts at the intersection of technology, policy, and governance will help California advance its AI safety and security governance in light of rapidly advancing AI capabilities. The group will apply its expertise and engage with leading technical researchers working on AI safety. Proposals under consideration include requiring independent third parties to be embedded in frontier AI companies to verify safety frameworks and independently assess safety evaluations, as well as requiring companies to develop an emergency shutoff, or “kill switch,” for frontier models.
+
+While the President is once again focused on superficial solutions to vast, complex problems, and ignoring his responsibility to protect Americans, California is taking action — bringing together experts from across disciplines to build on our nation-leading framework, and addressing the very real concerns that impact all of our futures. We’re not waiting around. California will continue bringing new ideas, serious expertise, and practical solutions to the table as we shape the future of AI and frontier technology.
+
+Governor Gavin Newsom
+
+California’s leadership guides the nation 
+
+The Governor is announcing today the following experts to help advise California’s work:
+
+Jason Goldman — board member of the Center for Shared AI Prosperity, an early product leader at Google and Twitter, and the first White House Chief Digital Officer. 
+Gillian Hadfield — professor at Johns Hopkins University with a focus on AI alignment and innovative design for legal, regulatory, and technical systems for AI, and faculty member of the Vector Institute for Artificial Intelligence.  
+Alondra Nelson —  professor at the Institute for Advanced Study and director of the Science, Technology, and Social Values Lab, and former acting director of the White House Office of Science & Technology Policy.  
+Rob Reich —  professor at Stanford University with a focus on the governance of frontier science and technology, and former senior advisor to the United States AI Safety Institute.
+
+“Governor Newsom’s executive order addresses the hardest questions in AI safety governance, including who verifies a frontier lab’s safety claims and whether a model can be reliably shut down. California continues to show how democratic oversight can apply to one of the world’s most consequential industries.”  – Jason Goldman, board member of the Center for Shared AI Prosperity, an early product leader at Google and Twitter, and the first White House Chief Digital Officer
+
+“The need for effective, accountable, and independent oversight of increasingly powerful and autonomous AI is urgent and I’m very glad to join this great team to quickly help ensure we steer in the right direction.”  Gillian Hadfield, professor at Johns Hopkins University with a focus on AI alignment and innovative design for legal, regulatory, and technical systems for AI, and faculty member of the Vector Institute for Artificial Intelligence
+
+“California has long led on technology governance, and this executive action asks exactly the right questions: not whether to govern AI, but how. Independent verification, AI auditing, and mandatory transparency are the kinds of durable institutional mechanisms that can govern rapid technological change and hold powerful actors accountable, so their tools serve humanity instead of endangering it. I look forward to bringing the perspective of independent research to these consequential recommendations to Governor Newsom.” Alondra Nelson, professor at the Institute for Advanced Study and director of the Science, Technology, and Social Values Lab, and former acting director of the White House Office of Science & Technology Policy.    
+
+“Innovation and safety go hand in hand in any responsible marketplace, and AI is no different. In order to gain the enormous potential benefits from AI, we need governance practices that establish trust in the technology. I am honored to join the effort in California to accelerate the scientific practice of AI testing and evaluation and establish robust frameworks of independent assessment and oversight of AI systems.” – Rob Reich, professor at Stanford University with a focus on the governance of frontier science and technology, and former senior advisor to the United States AI Safety Institute.” Rob Reich, professor at Stanford University with a focus on the governance of frontier science and technology, and former senior advisor to the United States AI Safety Institute.
+
+Decisive action to strengthen AI oversight 
+
+California provides a model for national standards around AI safety. Recently, Governor Newsom signed legislation creating first-in-the-nation safeguards and accountability measures to strengthen California’s nation-leading framework. The Governor signed into law Senate Bill 813 (McNerney),  establishing a framework for independent verification organizations that can assess AI systems and models for safety and risk. Governor Newsom also signed AB 1405 (Bauer-Kahan), creating a state registry for AI auditors that assess AI systems and models for compliance with state law and establishing standards for their independence, transparency, and integrity.
+
+Governor Newsom’s executive order takes these actions even further. Through the order, the Governor is directing the Government Operations Agency to accelerate the implementation timelines for SB 813 and AB 1405, and, in consultation with the Governor’s Office of Emergency Services, to convene national experts to develop recommendations for potential changes to further strengthen state law to:
+
+Require frontier AI companies to embed a designated independent verification organization onsite in their labs to conduct regular audits and evaluations.
+Require that the AI safety frameworks, transparency reports, and risk assessments that frontier AI companies are required to file under state law are verified pursuant to standards deemed adequate by an independent verification organization. 
+Advance the creation of a “kill switch” for frontier models, with the efficacy of the switch verified on an ongoing basis by an independent verification organization.
+Update definitions of critical safety incidents to include loss-of-control incidents such as the Hugging Face attack.
+The need for state action
+
+Governor Newsom’s executive order comes after recent alarming incidents that have prompted many Americans, including leaders in the AI industry, to call on the industry to pace the development of AI systems and models and push for more stringent government regulations to address security and safety risks. In response, the federal government has done nothing and Trump’s answer is to only rename artificial intelligence to “super intelligence.”
+
+No federal law requires AI companies to report dangerous incidents when they happen, and President Trump has rejected calls for new regulations that would increase security and protect the health, safety, and well-being of the American people. 
+
+An AI safety model for the nation
+
+Under Governor Newsom’s leadership, California is already far ahead of every other state in regulating AI, creating a guidebook for the nation. Currently California has laws addressing nearly every major area of AI policy: frontier-model safety, independent oversight, children and companion chatbots, privacy, deepfakes, fraud, cybersecurity, workers and government deployment. 
+
+The Governor is calling on Congress and President Trump to review and adopt the state’s framework, or use its nation-leading regulation as a floor, not a ceiling, for the benefit and safety of all Americans. 
+
+California’s nation-leading framework 
+
+Beginning with his first-in-nation 2023 executive order on generative AI, Governor Newsom has pursued executive action, legislation passed in partnership with the Legislature, regulation, procurement, and public-private partnerships to address nearly every major area of AI policy:
+
+✅ Frontier AI safety: In 2025, Governor Newsom signed SB 53, the Transparency in Frontier Artificial Intelligence Act, the nation’s first AI safety law. It requires frontier AI developers to publicly disclose safety frameworks, report specified critical safety incidents to the state, and protect whistleblowers who report serious risks.
+
+✅ Independent AI oversight: In 2026, Governor Newsom signed SB 813, making California the first state in the nation to establish a framework for certifying independent verification organizations with sufficient expertise and demonstrated independence from AI companies to objectively assess AI systems and models for safety and risk. He also signed AB 1405, establishing a state registry for AI auditors and standards for their independence, transparency and integrity.
+
+✅ Child safety standards for AI companions: This year, Governor Newsom signed the bipartisan Adam’s Law, requiring safeguards around companion chatbots used by children, including suicide and self-harm crisis protocols, parental controls and notifications when safety settings are disabled. It is the first law in the country requiring independent child-safety audits and comprehensive risk assessments prior to release. California also enacted laws to ban toys containing AI companion chatbots for five years; prohibit use of student personal information to train AI models; and expand protections against AI-generated child sexual abuse material.
+
+✅ Social media and children: Governor Newsom signed the strongest-in-nation legislation prohibiting social-media companies from providing users under 16 with addictive features including autoplay and algorithmic feeds based on user history and profiles. California has enacted nation-leading requirements for responsible AI and social media use for children, including warning labels for young users, required age verification signals, guidance to protect kids from after-school cyberbullying, and prohibiting online platforms from knowingly providing an addictive feed to a minor without parental consent.
+
+✅ Deep fakes and synthetic content: In nation-leading action, California banned and cracked down on sexually explicit deepfakes, required AI watermarking, addressed deceptive AI-generated election content and required transparency around AI training data. 
+
+✅ Protecting privacy and civil liberties: Governor Newsom signed the Delete Act, a first-in-the-nation privacy law allowing Californians to direct registered data brokers to delete their personal information. California subsequently launched DROP, which enables people to submit a single deletion request to registered data brokers. In March 2026, Governor Newsom also issued an executive order strengthening privacy and civil-liberties protections for state AI procurement. CalPrivacy has separately adopted protections involving automated decision-making technology.
+
+✅ Workers and AI disruption: Governor Newsom signed a first-in-the-nation executive order addressing AI’s economic and labor impacts, including expanded tracking of AI’s economic effects and work to adapt job-training and public-benefit programs. California has also launched an AI Unemployment Tracker, and solicited statewide public input on AI’s economic impacts through Engaged California.
+
+✅ Cybersecurity: Governor Newsom launched a first-in-the-nation AI Cyber Defense Program to use AI to identify vulnerabilities, harden networks and support incident response. California is also establishing an AI Cybersecurity Officer in each agency and working with frontier AI companies and critical-infrastructure partners on response protocols and tabletop exercises.
+
+✅ AI-enabled fraud: Governor Newsom launched a Tech Fraud Task Force to combat AI-enabled fraud. California has also acted against AI-generated robocall scams and addressed algorithmic pricing through state antitrust law.
+
+Press releases, Recent news, Top story
+
+Facebook
+X
+Email
+Copy Link
+Recent news
+CARE Court implementation and progress are accelerating, reaching more than 10,000 Californians in crisis
+
+Oct 1, 2026
+
+At the top of the Golden Gate Bridge, Governor Newsom signs his final bill — investing in California’s next generation of innovation
+
+Sep 30, 2026
+
+Governor Newsom announces appointments
+
+Sep 30, 2026
+
+About
+Contact us
+Sign up for news updates
+Join the Administration
+Organizational chart
+Initiatives
+Abortion access
+Accountability
+Building California's future
+Climate action
+Mental health for all
+Awareness campaigns
+Heat Ready
+Ready for Wildfire
+Register to Vote
+Save Our Water
+Clemency & Parole
+Clemency
+Parole
+Rewards for unsolved cases
+Footer Utility Links
+Conditions of Use
+Privacy Policy
+Accessibility
+Website Certification
+Sitemap
+Footer Social Media Links
+Website Publishing Information
+
+Powered by: CAWeb Publishing Service
+
+© Copyright 2026

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000230",
+  "url": "https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html",
+  "capturedAt": "2026-10-03T08:23:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 778870,
+    "sha256": "639cb22aeb7f41e9e9b1fec3ca84d8917e216930efab5190463c366a6e382f79",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "3EFFA334C258BF46BEAD2429AAFDB5D5",
+      "status": 200,
+      "url": "https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3628,
+      "afterScrollHeight": 4502,
+      "wantedHeight": 3628
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3a2dd4517abfd40d439afec87d1cd78ad816b558c92363c405936453a45a5d2c",
+    "width": 1366,
+    "height": 3628,
+    "bytes": 992145,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 3628,
+    "afterScrollHeight": 4502,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:23:21Z",
+    "url": "https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 778870,
+      "sha256": "639cb22aeb7f41e9e9b1fec3ca84d8917e216930efab5190463c366a6e382f79"
+    },
+    "finalUrl": "https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html",
+    "httpStatus": 200,
+    "title": "OpenAI 6 new instances of 'concerning model behavior' since March",
+    "rendered": {
+      "textChars": 6175,
+      "textSha256": "9bafd31210ffba4c10d63e54c74dbbac19d1e4f8607c0c216d5521ff828c0566",
+      "htmlSha256": "6013a12db67966507fe235d93d46cf9a6032e1f94766a0cb18976b8990640d73"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "3a2dd4517abfd40d439afec87d1cd78ad816b558c92363c405936453a45a5d2c",
+      "width": 1366,
+      "height": 3628,
+      "bytes": 992145,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260916232204",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260916232204/https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260916232204/https://www.cnbc.com/2026/09/16/openai-6-new-instances-of-concerning-model-behavior-since-march.html",
+      "timestamp": "20260916232204",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000239",
+  "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+  "capturedAt": "2026-10-03T08:26:34Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 38700,
+    "sha256": "9ea02c860ab436a94f04906699a8bace9da317239a5313df6799715635e51442",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4C1AE56C20BDC12774EEDFBA3C2A2276",
+      "status": 200,
+      "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7310,
+      "afterScrollHeight": 8958,
+      "wantedHeight": 7310
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3b266160a804258330a778f9b66c1231c4780219e5f59788b88c2ba1a382f819",
+    "width": 1366,
+    "height": 7310,
+    "bytes": 1584241,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 7310,
+    "afterScrollHeight": 8958,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:26:34Z",
+    "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 38700,
+      "sha256": "9ea02c860ab436a94f04906699a8bace9da317239a5313df6799715635e51442"
+    },
+    "finalUrl": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+    "httpStatus": 200,
+    "title": "GPT-6 Astra performs unsanctioned supply-chain attacks in simulations | AISI Work",
+    "rendered": {
+      "textChars": 14053,
+      "textSha256": "590f3205b33c912a3787b6ab5a07b79ec897a51edad8907861c0d2b838c8f6b1",
+      "htmlSha256": "036aa6920141409b7485550d62f3dc58055f3277a79e9dbebd6064fe746a02aa"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "3b266160a804258330a778f9b66c1231c4780219e5f59788b88c2ba1a382f819",
+      "width": 1366,
+      "height": 7310,
+      "bytes": 1584241,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260928161106",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260928161106/https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260928161106/https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+      "timestamp": "20260928161106",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

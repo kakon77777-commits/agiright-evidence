@@ -1,0 +1,78 @@
+{
+  "id": "topic-2026-000229",
+  "url": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/",
+  "capturedAt": "2026-10-03T08:48:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 776435,
+    "sha256": "7c61ef83764596211d149888ae841d60eb974281ad2bd861b084f028d10ce3e3",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": false,
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "navError": null,
+    "document": {
+      "frameId": "9EB9295734362429986DEC97DD40DDA2",
+      "status": 200,
+      "url": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 41638,
+      "afterScrollHeight": 41638,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": null,
+    "layout": {
+      "firstLoadHeight": 41638,
+      "afterScrollHeight": 41638,
+      "wantedHeight": 15000
+    },
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:48:14Z",
+    "url": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 776435,
+      "sha256": "7c61ef83764596211d149888ae841d60eb974281ad2bd861b084f028d10ce3e3"
+    },
+    "finalUrl": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/",
+    "httpStatus": 200,
+    "title": "Trump-Xi visit wraps up with few achievements announced",
+    "rendered": {
+      "textChars": 41114,
+      "textSha256": "56b9e451eed4c929667d3b66319090136ec11b6888f00ce0337e559b68a08145",
+      "htmlSha256": "41fe3cb43d03955a9107c3e4881321bd593dfb0dac424c445d84d9c6db867cd2"
+    },
+    "suspectedBlock": false,
+    "browserError": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260924103402",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260924103402/https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260924103402/https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/",
+      "timestamp": "20260924103402",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

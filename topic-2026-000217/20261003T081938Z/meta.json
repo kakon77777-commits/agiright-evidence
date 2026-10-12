@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000217",
+  "url": "https://www.aljazeera.com/news/2026/9/22/canadas-bc-sues-openai-over-chatgpt-role-in-tumbler-ridge-school-shooting",
+  "capturedAt": "2026-10-03T08:19:38Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 209912,
+    "sha256": "b2b73e6623ddc5ac7bf1a82d21685b420aafc956cf536a4e7ecafb217c9a9573",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B63F28053D14ABB89A02BE36D7F1DD77",
+      "status": 200,
+      "url": "https://www.aljazeera.com/news/2026/9/22/canadas-bc-sues-openai-over-chatgpt-role-in-tumbler-ridge-school-shooting",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4461,
+      "afterScrollHeight": 6385,
+      "wantedHeight": 4461
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9c2729cd8449aec166de9d224ad39b523fe9c3a4c9c36691bdefd4d75d329f7f",
+    "width": 1366,
+    "height": 4461,
+    "bytes": 1566015,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 4461,
+    "afterScrollHeight": 6385,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:19:38Z",
+    "url": "https://www.aljazeera.com/news/2026/9/22/canadas-bc-sues-openai-over-chatgpt-role-in-tumbler-ridge-school-shooting",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 209912,
+      "sha256": "b2b73e6623ddc5ac7bf1a82d21685b420aafc956cf536a4e7ecafb217c9a9573"
+    },
+    "finalUrl": "https://www.aljazeera.com/news/2026/9/22/canadas-bc-sues-openai-over-chatgpt-role-in-tumbler-ridge-school-shooting",
+    "httpStatus": 200,
+    "title": "Canada’s BC sues OpenAI over ChatGPT role in Tumbler Ridge school shooting | Courts News | Al Jazeera",
+    "rendered": {
+      "textChars": 4809,
+      "textSha256": "3c618b775c778b907126120c2e4ba663d486c56449bed89d375797d1867cc84a",
+      "htmlSha256": "c4824fd49957238c6bc6e986fc81e5b7eafff8ec12e1d1fb47aa175f9be10b77"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9c2729cd8449aec166de9d224ad39b523fe9c3a4c9c36691bdefd4d75d329f7f",
+      "width": 1366,
+      "height": 4461,
+      "bytes": 1566015,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260922040120",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260922040120/https://www.aljazeera.com/news/2026/9/22/canadas-bc-sues-openai-over-chatgpt-role-in-tumbler-ridge-school-shooting"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260922040120/https://www.aljazeera.com/news/2026/9/22/canadas-bc-sues-openai-over-chatgpt-role-in-tumbler-ridge-school-shooting",
+      "timestamp": "20260922040120",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

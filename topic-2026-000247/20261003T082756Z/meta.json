@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000247",
+  "url": "https://tech.yahoo.com/ai/gemini/articles/googles-gemini-4-argon-pulls-043728119.html",
+  "capturedAt": "2026-10-03T08:27:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 712899,
+    "sha256": "77a8d7f645a3ee3c1f999a72f81d6086d30cd02f995291cf9364e6fadb458ebd",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "74E44D7236F3ADE690AD6270A7FBA67B",
+      "status": 200,
+      "url": "https://tech.yahoo.com/ai/gemini/articles/googles-gemini-4-argon-pulls-043728119.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 14399,
+      "afterScrollHeight": 14399,
+      "wantedHeight": 14399
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e08768116bdbbe723ae5f4e362f12e48d8631f1dd42aef2f3cb76e9fce3a016f",
+    "width": 1366,
+    "height": 14399,
+    "bytes": 1402333,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 14399,
+    "afterScrollHeight": 14399,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:27:56Z",
+    "url": "https://tech.yahoo.com/ai/gemini/articles/googles-gemini-4-argon-pulls-043728119.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 712899,
+      "sha256": "77a8d7f645a3ee3c1f999a72f81d6086d30cd02f995291cf9364e6fadb458ebd"
+    },
+    "finalUrl": "https://tech.yahoo.com/ai/gemini/articles/googles-gemini-4-argon-pulls-043728119.html",
+    "httpStatus": 200,
+    "title": "Google's Gemini 4 Argon Pulls Level With GPT-6 Astra and Brings a Smaller Bill",
+    "rendered": {
+      "textChars": 12276,
+      "textSha256": "4d145299f84de4e878dc109ba9c1f16d99d01212bf88f1fa545910f7c67524c1",
+      "htmlSha256": "b2130d84d8a02e837bf763bc46334229dc4b7802ffc3fea4847d488197805f44"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e08768116bdbbe723ae5f4e362f12e48d8631f1dd42aef2f3cb76e9fce3a016f",
+      "width": 1366,
+      "height": 14399,
+      "bytes": 1402333,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

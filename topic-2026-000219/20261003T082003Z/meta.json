@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000219",
+  "url": "https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks",
+  "capturedAt": "2026-10-03T08:20:03Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 61803,
+    "sha256": "97c5e6d8e99a53ad2a445e33077f8e17a2993e2c49829c0073c6e7f0883c57b1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "316D739E46C7B57580E7D395B2A2C507",
+      "status": 200,
+      "url": "https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1703,
+      "afterScrollHeight": 1703,
+      "wantedHeight": 1703
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "28036bc46980de39a0a30774809dc16577642335dc2f3c8e226658913dc81c81",
+    "width": 1366,
+    "height": 1703,
+    "bytes": 274726,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1703,
+    "afterScrollHeight": 1703,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:20:03Z",
+    "url": "https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 61803,
+      "sha256": "97c5e6d8e99a53ad2a445e33077f8e17a2993e2c49829c0073c6e7f0883c57b1"
+    },
+    "finalUrl": "https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks",
+    "httpStatus": 200,
+    "title": "Thematic Brief on AI Agents, Misalignment and the Risk of Losing Human Control | Independent International Scientific Panel on AI",
+    "rendered": {
+      "textChars": 2428,
+      "textSha256": "0a26c53fc78ebb635dc02b493e1c840126897d7952d5a8b1e5e1f430ffe0166d",
+      "htmlSha256": "786e55ad415dc27dd37fa8cdc704f91be83bd2dbf6b2cca530e03bb7946b3da9"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "28036bc46980de39a0a30774809dc16577642335dc2f3c8e226658913dc81c81",
+      "width": 1366,
+      "height": 1703,
+      "bytes": 274726,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260921184148",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260921184148/https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260921184148/https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks",
+      "timestamp": "20260921184148",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

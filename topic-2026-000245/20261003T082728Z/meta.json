@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000245",
+  "url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/",
+  "capturedAt": "2026-10-03T08:27:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 324667,
+    "sha256": "33f4c36fb2d4ea1de06d0d26a6807d8cd28da9dd0a0b9d3a96e8273d9ab3eefb",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D20825778CA7518F63271A5003DE4F00",
+      "status": 200,
+      "url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 12845,
+      "afterScrollHeight": 12845,
+      "wantedHeight": 12845
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c2b5d0570e714881423672abb665740e920b3c285cf6cf24d37990257767785b",
+    "width": 1366,
+    "height": 12845,
+    "bytes": 2010599,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 12845,
+    "afterScrollHeight": 12845,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:27:28Z",
+    "url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 324667,
+      "sha256": "33f4c36fb2d4ea1de06d0d26a6807d8cd28da9dd0a0b9d3a96e8273d9ab3eefb"
+    },
+    "finalUrl": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/",
+    "httpStatus": 200,
+    "title": "California’s nation-leading AI framework just got stronger, Governor Newsom signs more first-in-the-nation worker protections and more | Governor of California",
+    "rendered": {
+      "textChars": 14692,
+      "textSha256": "f3310d88326b901a1bf4f399a530ce25303fd217ae8ff72dd74612a4ddb149cc",
+      "htmlSha256": "772bc29ef300a062c02970fbd72ab6bc92a6269fe0b4c25d88de81eb3b00e156"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c2b5d0570e714881423672abb665740e920b3c285cf6cf24d37990257767785b",
+      "width": 1366,
+      "height": 12845,
+      "bytes": 2010599,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261001041410",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261001041410/https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20261001041410/https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/",
+      "timestamp": "20261001041410",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

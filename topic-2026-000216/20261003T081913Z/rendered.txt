@@ -1,0 +1,166 @@
+SKIP TO CONTENT
+POLITICS
+U.S. NEWS
+WORLD
+LOCAL
+NEW YORK
+LOS ANGELES
+CHICAGO
+DALLAS-FORT WORTH
+PHILADELPHIA
+WASHINGTON, D.C.
+BOSTON
+BAY AREA
+SOUTH FLORIDA
+SAN DIEGO
+CONNECTICUT
+SPORTS
+BUSINESS
+HEALTH
+SHOPPING
+EARLY PRIME DAY DEALS
+TIPLINE
+WATCH
+
+SHARE & SAVE —
+SECTIONS
+U.S. NEWS
+POLITICS
+WORLD
+BUSINESS
+SPORTS
+INVESTIGATIONS
+CULTURE & TRENDS
+HEALTH
+SCIENCE
+TECH
+WEATHER
+VIDEO
+PHOTOS
+SUDOKU
+RECIPES
+NBC SELECTED
+NBC ASIAN AMERICA
+NBC BLK
+NBC LATINO
+NBC OUT
+LOCAL
+NEW YORK
+LOS ANGELES
+CHICAGO
+DALLAS-FORT WORTH
+PHILADELPHIA
+WASHINGTON, D.C.
+BOSTON
+BAY AREA
+SOUTH FLORIDA
+SAN DIEGO
+CONNECTICUT
+TV
+TODAY
+NIGHTLY NEWS
+MEET THE PRESS
+DATELINE
+FEATURED
+NBC NEWS NOW
+NIGHTLY FILMS
+STAY TUNED
+SPECIAL FEATURES
+NEWSLETTERS
+PODCASTS
+LISTEN NOW
+BUSINESS IN AMERICA
+MORE FROM NBC
+NBC.COM
+NBCU ACADEMY
+PEACOCK
+NEXT STEPS FOR VETS
+NBC NEWS SITE MAP
+HELP
+FOLLOW NBC NEWS
+
+NEWS ALERTS
+
+There are no new alerts at this time
+
+ARTIFICIAL INTELLIGENCE
+Google says its AI model gained unauthorized access to three outside systems
+The company said the intrusions resulted from mistaken identity, where Gemini thought it was operating within a test but was actually connected to the real internet.
+Listen to this article with a free profile
+00:00
+03:51
+1x
+Google said it did not consider the unauthorized logins to rise to the level of misalignment, the AI industry term for software going rogue or not following instructions.David Paul Morris / Bloomberg via Getty Images file
+SHARE
+ADD NBC NEWS TO GOOGLE
+Sept. 19, 2026, 9:37 AM GMT+8
+By David Ingram and Jared Perlo
+
+Google on Friday disclosed the first known instance of its artificial intelligence software, Gemini, carrying out an undirected computer hack, weeks after similar disclosures by AI firms Anthropic and OpenAI raised security alarms about AI models going beyond the instructions of their human creators.
+
+Google said in a statement that in May its AI model gained unauthorized access to three outside systems during a test by either guessing login information or using login credentials it found in a public repository.
+
+Heather Adkins, a Google vice president for security engineering, said in the statement that the AI model thought that the outside computer systems “were part of the test,” but she said in all three instances, the model stopped before doing anything further with its access.
+
+FOR SUBSCRIBERS
+
+00:00
+00:00
+How exactly could AI cause widespread danger?
+02:35
+
+“In a standard evaluation, the model found public information online and guessed credentials to access websites it thought were part of the test,” she said.
+
+Google said it did not consider the unauthorized logins to rise to the level of misalignment, the AI industry term for software going rogue or not following instructions. Instead, the company said, the intrusions resulted from mistaken identity, where Gemini thought it was operating within a test but was actually connected to the real internet. Google said the model corrected itself and the company believed the intrusions did not cause any damage.
+
+“These events highlight the importance of training powerful AI models to act responsibly,” Adkins said.
+
+Fears about AI agents going rogue have spiked in recent months since OpenAI said in July that one of its agents had hacked an AI startup, Hugging Face. OpenAI has continued to disclose what it calls examples of other “unexpected or concerning” behavior by AI agents, and Anthropic has described similar behavior by its AI software Claude.
+
+The OpenAI headquarters in San Francisco. Fears about AI agents going rogue have spiked in recent months.David Paul Morris / Bloomberg via Getty Images
+
+Sydney Von Arx, the CEO of Nightingale Collective, an organization focused on AI safety, asked why Google did not disclose the intrusions sooner.
+
+“At this point I think it’s clear we cannot expect companies to voluntarily come forward and publicly disclose when their agents go rogue, escape, and hack companies,” she said.
+
+She also said she believed Google was too hasty to say that the incidents don’t rise to the level of misalignment. “That’s exactly what Anthropic said after their incidents,” she said.
+
+Anthropic later said its “preliminary analysis was constrained due to our desire to disclose incidents in a timely manner.”
+
+Google said the company did not learn about the intrusions until July, when Irregular, an AI-focused cybersecurity company that was carrying out the tests on Gemini when the intrusions occurred, reviewed its work to look for incidents similar to the Hugging Face disclosure.
+
+Google said it then investigated, informed the organizations behind the websites of the intrusions and told federal authorities about the hacks.
+
+Irregular said it did not believe the incident to be a “sophisticated cyber action” and “there are no current open issues.” It said it planned to release a paper in a few weeks “to share best practices for containment and securely running cyber evals.”
+
+The intrusions were reported earlier Friday by The Wall Street Journal.
+
+AI safety concerns have now reached a fever pitch, with a handful of AI researchers resigning from their jobs and a diverse array of people calling for coordinated action to protect the security of vital systems. Those calls, though, have met with skepticism from the White House and in the Chinese government.
+
+SHARE
+ADD NBC NEWS TO GOOGLE
+David Ingram
+
+David Ingram is a tech reporter for NBC News.
+
+Jared Perlo
+
+Jared Perlo is a technology reporter focused on AI for NBC News Digital.
+
+ABOUT
+CONTACT
+HELP
+CAREERS
+AD CHOICES
+PRIVACY POLICY
+YOUR PRIVACY CHOICES
+CA NOTICE
+TERMS OF SERVICE
+NBC NEWS SUBSCRIPTION TERMS OF SERVICE
+NBC NEWS SITEMAP
+CLOSED CAPTIONING
+SUBSCRIBE
+ADVERTISE
+NBC SELECTED
+
+© 2026 NBCUniversal Media, LLC

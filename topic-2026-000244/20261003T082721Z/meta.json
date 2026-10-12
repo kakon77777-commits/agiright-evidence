@@ -1,0 +1,81 @@
+{
+  "id": "topic-2026-000244",
+  "url": "https://finance.yahoo.com/technology/ai/articles/anthropics-own-ipo-filing-warns-074101950.html",
+  "capturedAt": "2026-10-03T08:27:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "fetch failed"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7E8D735BB28575DC1AEE8F76BC149533",
+      "status": 200,
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropics-own-ipo-filing-warns-074101950.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7320,
+      "afterScrollHeight": 8189,
+      "wantedHeight": 8189
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b767aadf6627f1d355f57313808ef0f61f0624adb8ef39e8e2dff7ca29a75b76",
+    "width": 1366,
+    "height": 8189,
+    "bytes": 675098,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7320,
+    "afterScrollHeight": 8189,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:27:21Z",
+    "url": "https://finance.yahoo.com/technology/ai/articles/anthropics-own-ipo-filing-warns-074101950.html",
+    "backfill": true,
+    "raw": {
+      "error": "fetch failed"
+    },
+    "title": "Anthropic's Own IPO Filing Warns AI Could Threaten Humanity",
+    "finalUrl": "https://finance.yahoo.com/technology/ai/articles/anthropics-own-ipo-filing-warns-074101950.html",
+    "httpStatus": 200,
+    "rendered": {
+      "textChars": 5236,
+      "textSha256": "1030bc7f0b11af94c2c2e7b40118801408c3033787b745898ceda0eebd25f103",
+      "htmlSha256": "7b94a9587b39da0517b5ba281b9b20deb19a4e93a9d9eec609404c50e7d30b61"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b767aadf6627f1d355f57313808ef0f61f0624adb8ef39e8e2dff7ca29a75b76",
+      "width": 1366,
+      "height": 8189,
+      "bytes": 675098,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260929092154",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260929092154/https://finance.yahoo.com/technology/ai/articles/anthropics-own-ipo-filing-warns-074101950.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260929092154/https://finance.yahoo.com/technology/ai/articles/anthropics-own-ipo-filing-warns-074101950.html",
+      "timestamp": "20260929092154",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

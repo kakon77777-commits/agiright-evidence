@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000218",
+  "url": "https://www.theinformation.com/articles/openai-anthropic-neared-deal-stress-test-others-ai",
+  "capturedAt": "2026-10-03T08:19:42Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5878,
+    "sha256": "3e42d019ba4c34bbc97286d7cfcbb47e1de5707deddc32e5101f1212074897b4",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "2B01BEC601DF22FE982218BCB8E78797",
+      "status": 200,
+      "url": "https://www.theinformation.com/articles/openai-anthropic-neared-deal-stress-test-others-ai",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1328,
+      "afterScrollHeight": 1328,
+      "wantedHeight": 1328
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6eff2e286288ce2be6cb8f67b32141174715870b08da5a662064d56b23a9a566",
+    "width": 1366,
+    "height": 1328,
+    "bytes": 435891,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1328,
+    "afterScrollHeight": 1328,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:19:42Z",
+    "url": "https://www.theinformation.com/articles/openai-anthropic-neared-deal-stress-test-others-ai",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5878,
+      "sha256": "3e42d019ba4c34bbc97286d7cfcbb47e1de5707deddc32e5101f1212074897b4"
+    },
+    "finalUrl": "https://www.theinformation.com/articles/openai-anthropic-neared-deal-stress-test-others-ai",
+    "httpStatus": 200,
+    "title": "OpenAI and Anthropic Neared Deal to Stress Test Each Other’s AI — The Information",
+    "rendered": {
+      "textChars": 824,
+      "textSha256": "704d324b9d60e7fdabd1f24d408f9703f71cd1483474627eb48fef1da9f694e8",
+      "htmlSha256": "f5bd979a453484aca8b146c00d8cac4d1204dd6339ff631832a2d72548902c0a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6eff2e286288ce2be6cb8f67b32141174715870b08da5a662064d56b23a9a566",
+      "width": 1366,
+      "height": 1328,
+      "bytes": 435891,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260921153313",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260921153313/https://www.theinformation.com/articles/openai-anthropic-neared-deal-stress-test-others-ai"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260921153313/https://www.theinformation.com/articles/openai-anthropic-neared-deal-stress-test-others-ai",
+      "timestamp": "20260921153313",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

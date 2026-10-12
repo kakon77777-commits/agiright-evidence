@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000215",
+  "url": "https://www.axios.com/2026/09/22/openai-ai-safety-standards-us-china",
+  "capturedAt": "2026-10-03T08:19:11Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5883,
+    "sha256": "1e4609b63cf50c8f571cd3b60418ef286d3af8d845a776ca4bfdaa34ed6b8a00",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8B7DB868969E98B604A1C865F9D98450",
+      "status": 403,
+      "url": "https://www.axios.com/2026/09/22/openai-ai-safety-standards-us-china",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5d7db6da8eac2a45f64883460c96ce02b5e8fec23b46f4076fbe3f5a9e3db403",
+    "width": 1366,
+    "height": 900,
+    "bytes": 27944,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:19:11Z",
+    "url": "https://www.axios.com/2026/09/22/openai-ai-safety-standards-us-china",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5883,
+      "sha256": "1e4609b63cf50c8f571cd3b60418ef286d3af8d845a776ca4bfdaa34ed6b8a00"
+    },
+    "finalUrl": "https://www.axios.com/2026/09/22/openai-ai-safety-standards-us-china",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 261,
+      "textSha256": "4aaee25adaab28536e6c9fe00ff3780a9aac31734e0ab8bbd9046cf86f3efa20",
+      "htmlSha256": "85b8eb3e1fe8bdfff9cabd04d88e430924711dae6806856b05f7cd92a5b5f8b6"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "5d7db6da8eac2a45f64883460c96ce02b5e8fec23b46f4076fbe3f5a9e3db403",
+      "width": 1366,
+      "height": 900,
+      "bytes": 27944,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}
