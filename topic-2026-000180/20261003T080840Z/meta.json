@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000180",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+  "capturedAt": "2026-10-03T08:08:40Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 413557,
+    "sha256": "8d557f5fbb22dd42a6831b9e5c6dfe201386ea603530f8ee2181a8ff85b99845",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A4D678D34CB7DA9EBF95F13809FACF79",
+      "status": 200,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 9077,
+      "afterScrollHeight": 12334,
+      "wantedHeight": 9077
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8ae046bf3a298f649617a42f0307a8894af28231fbe088cfbaa863adce62129d",
+    "width": 1366,
+    "height": 9077,
+    "bytes": 2513552,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 9077,
+    "afterScrollHeight": 12334,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:08:40Z",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 413557,
+      "sha256": "8d557f5fbb22dd42a6831b9e5c6dfe201386ea603530f8ee2181a8ff85b99845"
+    },
+    "finalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "httpStatus": 200,
+    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+    "rendered": {
+      "textChars": 9008,
+      "textSha256": "bdb2d9a898d65d1d55ed751bbc708e414cd64f89da457d4e75aa676ad5b60dae",
+      "htmlSha256": "46f7e87b244bfa96f93111e02454c37def3b14ca7af975a166e4e8b675a59ad9"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8ae046bf3a298f649617a42f0307a8894af28231fbe088cfbaa863adce62129d",
+      "width": 1366,
+      "height": 9077,
+      "bytes": 2513552,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260902154613",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260902154613/https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260902154613/https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "timestamp": "20260902154613",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

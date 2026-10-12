@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000182",
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+  "capturedAt": "2026-10-03T08:09:32Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 108171,
+    "sha256": "ef59a7e301812f09cfcfdce4d0a9334af3649f057035c1ae704c0cc27298aec6",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0FCDF77DBB39D324C987A77F00E242C1",
+      "status": 200,
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 21549,
+      "afterScrollHeight": 21549,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f1951d57e9bd2adeb956ad70b613aa587f15f51fa29e5c2dc5a572a94427cb6c",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 1494852,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 21549,
+    "afterScrollHeight": 21549,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:09:32Z",
+    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 108171,
+      "sha256": "ef59a7e301812f09cfcfdce4d0a9334af3649f057035c1ae704c0cc27298aec6"
+    },
+    "finalUrl": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+    "httpStatus": 200,
+    "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies | CISA",
+    "rendered": {
+      "textChars": 31606,
+      "textSha256": "ceafdd28fe0b6daaa68e6ee2d09126b3110421680fa1ff30f4bec5664004ff58",
+      "htmlSha256": "26b9f634119ec56f162ea7694963de5d7efb7cadc239a206037a8417031c9a09"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f1951d57e9bd2adeb956ad70b613aa587f15f51fa29e5c2dc5a572a94427cb6c",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 1494852,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260908192208",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260908192208/https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260908192208/https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+      "timestamp": "20260908192208",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

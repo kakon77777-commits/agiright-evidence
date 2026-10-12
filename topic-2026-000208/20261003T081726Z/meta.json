@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000208",
+  "url": "https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/",
+  "capturedAt": "2026-10-03T08:17:26Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 450787,
+    "sha256": "5da14beb8562697df4fede16cd33e275c6e462e2ab23c5c3a546c39cae191e7f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "857048C861AD7F7BBF1F19709ACCF2B9",
+      "status": 200,
+      "url": "https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8261,
+      "afterScrollHeight": 8072,
+      "wantedHeight": 8072
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9fbcfc4a74d6ceae69e14fd5246cb8f2cf8c96795f9fd2b9c62c1304573b91ee",
+    "width": 1366,
+    "height": 8072,
+    "bytes": 1795126,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8261,
+    "afterScrollHeight": 8072,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:17:26Z",
+    "url": "https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 450787,
+      "sha256": "5da14beb8562697df4fede16cd33e275c6e462e2ab23c5c3a546c39cae191e7f"
+    },
+    "finalUrl": "https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/",
+    "httpStatus": 200,
+    "title": "Lawsuit claims Anthropic, OpenAI, SpaceXAI and Google illegally agreed to coordinate AI slowdown | Fortune",
+    "rendered": {
+      "textChars": 8938,
+      "textSha256": "9e48f4786663acda7c8a57c927eb9e39722b814759403a8c9eea96951a39c689",
+      "htmlSha256": "a9d7c9abcbed38419079847368d89c885e1368f1beb526072b7b65e96c530c98"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9fbcfc4a74d6ceae69e14fd5246cb8f2cf8c96795f9fd2b9c62c1304573b91ee",
+      "width": 1366,
+      "height": 8072,
+      "bytes": 1795126,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260919215234",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260919215234/https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260919215234/https://fortune.com/2026/09/19/lawsuit-anthropic-openai-spacexai-google-antitrust-laws-ai-slowdown-subscription-value/",
+      "timestamp": "20260919215234",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

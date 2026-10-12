@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000169",
+  "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+  "capturedAt": "2026-10-03T08:04:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 236262,
+    "sha256": "ffb3e272b47c87cd28948ecee08f56ac0098da6b1ddd15d2e8a61a7c1c7e83e4",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "50ACCF3339C050116F98A18F548549E8",
+      "status": 200,
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4727,
+      "afterScrollHeight": 7204,
+      "wantedHeight": 4727
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "236ead751a62570aac022d36f93fa87c8717b75166873683f1fc476f51833d7a",
+    "width": 1366,
+    "height": 4727,
+    "bytes": 1159678,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 4727,
+    "afterScrollHeight": 7204,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:04:48Z",
+    "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 236262,
+      "sha256": "ffb3e272b47c87cd28948ecee08f56ac0098da6b1ddd15d2e8a61a7c1c7e83e4"
+    },
+    "finalUrl": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+    "httpStatus": 200,
+    "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab's knowledge | TechCrunch",
+    "rendered": {
+      "textChars": 7379,
+      "textSha256": "1a1d565a2dae918104db17fdd275b6b8dbeb488256b4a3a6a44a70ea164bb104",
+      "htmlSha256": "a9aff5c9eb9a726988daf60b7f373726af7d0bea40d356091994089068eb5b7d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "236ead751a62570aac022d36f93fa87c8717b75166873683f1fc476f51833d7a",
+      "width": 1366,
+      "height": 4727,
+      "bytes": 1159678,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260904162224",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260904162224/https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260904162224/https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "timestamp": "20260904162224",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000198",
+  "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+  "capturedAt": "2026-10-03T08:15:06Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 314966,
+    "sha256": "dad15823a5ac2f1fc6ad8e4c1d353194ec6bdd435925f18f465ed9034be4f552",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7831F8CE0B5AE21AA5A93D8E6AA7BD58",
+      "status": 200,
+      "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 12408,
+      "afterScrollHeight": 12407,
+      "wantedHeight": 12407
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "434a4163672d2536abc920a936e0c2e523454f66e00705d4a12f2404914c7535",
+    "width": 1366,
+    "height": 12407,
+    "bytes": 1572626,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 12408,
+    "afterScrollHeight": 12407,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:15:06Z",
+    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 314966,
+      "sha256": "dad15823a5ac2f1fc6ad8e4c1d353194ec6bdd435925f18f465ed9034be4f552"
+    },
+    "finalUrl": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "httpStatus": 200,
+    "title": "Your site, your rules: new AI traffic options for all customers | Cloudflare Blog",
+    "rendered": {
+      "textChars": 18756,
+      "textSha256": "db7f9f533eaf169dc643332a17492c21f83aba7c57f0d26c54581bcc54498e10",
+      "htmlSha256": "f3c82d6756f0d62bdb6203f9446acf49ffda0a7e66211dffab13a676a4318bb9"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "434a4163672d2536abc920a936e0c2e523454f66e00705d4a12f2404914c7535",
+      "width": 1366,
+      "height": 12407,
+      "bytes": 1572626,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260701145611",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260701145611/https://blog.cloudflare.com/content-independence-day-ai-options/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260701145611/https://blog.cloudflare.com/content-independence-day-ai-options/",
+      "timestamp": "20260701145611",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

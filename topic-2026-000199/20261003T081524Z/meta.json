@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000199",
+  "url": "https://www.helpnetsecurity.com/2026/09/16/eu-ursula-von-der-leyen-ai/",
+  "capturedAt": "2026-10-03T08:15:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 88359,
+    "sha256": "6819a60da9d0c59eb4e55143d984b869fd411d11f349a744ee93b0b1559115a9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FBF5D051EBE8DD2FCC8D6D3C6CEF2D9B",
+      "status": 200,
+      "url": "https://www.helpnetsecurity.com/2026/09/16/eu-ursula-von-der-leyen-ai/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5171,
+      "afterScrollHeight": 5171,
+      "wantedHeight": 5171
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d751b82c869860f4f66f3563f14e3d6e283ad851fbd9395a8724cd27ee0aaf77",
+    "width": 1366,
+    "height": 5171,
+    "bytes": 1245136,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5171,
+    "afterScrollHeight": 5171,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:15:24Z",
+    "url": "https://www.helpnetsecurity.com/2026/09/16/eu-ursula-von-der-leyen-ai/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 88359,
+      "sha256": "6819a60da9d0c59eb4e55143d984b869fd411d11f349a744ee93b0b1559115a9"
+    },
+    "finalUrl": "https://www.helpnetsecurity.com/2026/09/16/eu-ursula-von-der-leyen-ai/",
+    "httpStatus": 200,
+    "title": "Self-improving AI should slow down, von der Leyen tells EU lawmakers - Help Net Security",
+    "rendered": {
+      "textChars": 8141,
+      "textSha256": "4b3bf0981f82ace6291cb85c41386be1b82321ee9fc34ef2ed3279eef1069a3a",
+      "htmlSha256": "a42ebe3fbbcff6cc103bc7e6d5bdbe3b6d36d12cc03f1e6a18c89570e013c50e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d751b82c869860f4f66f3563f14e3d6e283ad851fbd9395a8724cd27ee0aaf77",
+      "width": 1366,
+      "height": 5171,
+      "bytes": 1245136,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260917082553",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260917082553/https://www.helpnetsecurity.com/2026/09/16/eu-ursula-von-der-leyen-ai/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260917082553/https://www.helpnetsecurity.com/2026/09/16/eu-ursula-von-der-leyen-ai/",
+      "timestamp": "20260917082553",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

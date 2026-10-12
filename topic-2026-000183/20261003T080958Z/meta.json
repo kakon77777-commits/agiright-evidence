@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000183",
+  "url": "https://openai.com/index/path-to-astra/",
+  "capturedAt": "2026-10-03T08:09:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 9996,
+    "sha256": "dbc2ebb6da2cf9edd837561c4cf00390600f676dc38a55a0c244eaaef593c32c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B8B41BE964442BF211B3D6C66C439C53",
+      "status": 403,
+      "url": "https://openai.com/index/path-to-astra/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:09:58Z",
+    "url": "https://openai.com/index/path-to-astra/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 9996,
+      "sha256": "dbc2ebb6da2cf9edd837561c4cf00390600f676dc38a55a0c244eaaef593c32c"
+    },
+    "finalUrl": "https://openai.com/index/path-to-astra/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "7c662f8dff12fefc87d78b2157aa2c6ae767c6b2cc4c2f994ca3b747f653eeb9"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260901212550",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260901212550/https://openai.com/index/path-to-astra/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260901212550/https://openai.com/index/path-to-astra/",
+      "timestamp": "20260901212550",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

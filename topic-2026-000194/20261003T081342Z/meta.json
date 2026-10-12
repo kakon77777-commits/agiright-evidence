@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000194",
+  "url": "https://digiday.com/media/google-rolls-out-pay-value-ai-licensing-program-to-publishers/",
+  "capturedAt": "2026-10-03T08:13:42Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 129084,
+    "sha256": "7567825506bf14def45b7b5df63577e21efde1f7bd46e395668010ecc8f86f70",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B561A2EA69F1E301BF4AD3CE75FD8686",
+      "status": 200,
+      "url": "https://digiday.com/media/google-rolls-out-pay-value-ai-licensing-program-to-publishers/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8348,
+      "afterScrollHeight": 8348,
+      "wantedHeight": 8348
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6daf23d76118ba8aacde30ba0e3677063bbb249c686bdaac73eb276b53496d88",
+    "width": 1366,
+    "height": 8348,
+    "bytes": 2496430,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8348,
+    "afterScrollHeight": 8348,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:13:42Z",
+    "url": "https://digiday.com/media/google-rolls-out-pay-value-ai-licensing-program-to-publishers/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 129084,
+      "sha256": "7567825506bf14def45b7b5df63577e21efde1f7bd46e395668010ecc8f86f70"
+    },
+    "finalUrl": "https://digiday.com/media/google-rolls-out-pay-value-ai-licensing-program-to-publishers/",
+    "httpStatus": 200,
+    "title": "Google rolls out pay-per-value AI licensing program to publishers - Digiday",
+    "rendered": {
+      "textChars": 11698,
+      "textSha256": "858a110181e901b8a3fc6d8f602e575a99cacc4d5d3d0bfe0c7e992b2c4f55ab",
+      "htmlSha256": "0df2621a99bef1c6d9499deada5e48824151e068595210cb9518ec48f26f46be"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6daf23d76118ba8aacde30ba0e3677063bbb249c686bdaac73eb276b53496d88",
+      "width": 1366,
+      "height": 8348,
+      "bytes": 2496430,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260914102057",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260914102057/https://digiday.com/media/google-rolls-out-pay-value-ai-licensing-program-to-publishers/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260914102057/https://digiday.com/media/google-rolls-out-pay-value-ai-licensing-program-to-publishers/",
+      "timestamp": "20260914102057",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000206",
+  "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+  "capturedAt": "2026-10-03T08:16:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 243043,
+    "sha256": "c8f4bc13ad7a6187b509d897342e18502f8583834175e0e75ead88529081b20f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A3E9277758CC5FA299DF65AB48C9377C",
+      "status": 200,
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5606,
+      "afterScrollHeight": 8082,
+      "wantedHeight": 5606
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "bc717c9ed8e8e05331368e4726fa218622b3eb549d3a189c9296c5686c9d2f2a",
+    "width": 1366,
+    "height": 5606,
+    "bytes": 1411132,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 5606,
+    "afterScrollHeight": 8082,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:16:59Z",
+    "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 243043,
+      "sha256": "c8f4bc13ad7a6187b509d897342e18502f8583834175e0e75ead88529081b20f"
+    },
+    "finalUrl": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+    "httpStatus": 200,
+    "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,' new unredacted filings reveal | TechCrunch",
+    "rendered": {
+      "textChars": 8966,
+      "textSha256": "52862095e0d502d3e9cf9d995786d436062e471f9694aac5c9795eb399efe2f4",
+      "htmlSha256": "90dffcbe37b2ba4ac8d690e86af4cdcece23d6173ac051e33490aa4d1dfb0214"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "bc717c9ed8e8e05331368e4726fa218622b3eb549d3a189c9296c5686c9d2f2a",
+      "width": 1366,
+      "height": 5606,
+      "bytes": 1411132,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260917201633",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260917201633/https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260917201633/https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "timestamp": "20260917201633",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

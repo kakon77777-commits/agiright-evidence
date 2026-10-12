@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000189",
+  "url": "https://www.mprnews.org/story/2026/09/04/judge-lets-minnesota-enforce-antinudification-app-law-over-xai-objection-as-case-proceeds",
+  "capturedAt": "2026-10-03T08:11:47Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 102221,
+    "sha256": "1e29efe218ebe54f0b51baf1e0cf700f31088a53b6cce3521d7c3070e221be18",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "25F3155173B3A9E5D8144C6215C1B37D",
+      "status": 200,
+      "url": "https://www.mprnews.org/story/2026/09/04/judge-lets-minnesota-enforce-antinudification-app-law-over-xai-objection-as-case-proceeds",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3101,
+      "afterScrollHeight": 3101,
+      "wantedHeight": 3101
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6a455d98a367c4b2823a8f4b52069778c8dbfaae9d1845a28f1956896cad266e",
+    "width": 1366,
+    "height": 3101,
+    "bytes": 872007,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3101,
+    "afterScrollHeight": 3101,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:11:47Z",
+    "url": "https://www.mprnews.org/story/2026/09/04/judge-lets-minnesota-enforce-antinudification-app-law-over-xai-objection-as-case-proceeds",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 102221,
+      "sha256": "1e29efe218ebe54f0b51baf1e0cf700f31088a53b6cce3521d7c3070e221be18"
+    },
+    "finalUrl": "https://www.mprnews.org/story/2026/09/04/judge-lets-minnesota-enforce-antinudification-app-law-over-xai-objection-as-case-proceeds",
+    "httpStatus": 200,
+    "title": "Judge lets Minnesota enforce anti-nudification app law over xAI objection as case proceeds | MPR News",
+    "rendered": {
+      "textChars": 4252,
+      "textSha256": "24ff8afad4ddfa9e4c7ec69924787fafcbe359c786963744e4c9233600ba486a",
+      "htmlSha256": "09119a098f0303974f1635440930281d3ca61f3ce8a9ec021945a2326f11a4c1"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6a455d98a367c4b2823a8f4b52069778c8dbfaae9d1845a28f1956896cad266e",
+      "width": 1366,
+      "height": 3101,
+      "bytes": 872007,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260904173900",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260904173900/https://www.mprnews.org/story/2026/09/04/judge-lets-minnesota-enforce-antinudification-app-law-over-xai-objection-as-case-proceeds"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260904173900/https://www.mprnews.org/story/2026/09/04/judge-lets-minnesota-enforce-antinudification-app-law-over-xai-objection-as-case-proceeds",
+      "timestamp": "20260904173900",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

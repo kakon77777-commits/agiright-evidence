@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000190",
+  "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+  "capturedAt": "2026-10-03T08:12:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 59871,
+    "sha256": "62b8af679fe10e5edbfe9c7e9a2e42904a16b164fe2fb27c47fa76d005ba3a65",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "2D1AB5ECF907C94D23527BBF09D3274E",
+      "status": 200,
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 13874,
+      "afterScrollHeight": 13874,
+      "wantedHeight": 13874
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6b1d9c19041fef26984d22b4ee97527a98ad384bcd5b80f814efdc21292d702d",
+    "width": 1366,
+    "height": 13874,
+    "bytes": 2452340,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 13874,
+    "afterScrollHeight": 13874,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:12:24Z",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 59871,
+      "sha256": "62b8af679fe10e5edbfe9c7e9a2e42904a16b164fe2fb27c47fa76d005ba3a65"
+    },
+    "finalUrl": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "httpStatus": 200,
+    "title": "Dario Amodei — We Must Pace the Frontier",
+    "rendered": {
+      "textChars": 23984,
+      "textSha256": "5d389bb0398f3a65ed9afc9a403d7a9a6a2af94b9143d1623f7acbab2009b5f7",
+      "htmlSha256": "fa4895c1122da51e53f0ae941dfdb8471898c13198b94b0dcd0898c9e5b7e035"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6b1d9c19041fef26984d22b4ee97527a98ad384bcd5b80f814efdc21292d702d",
+      "width": 1366,
+      "height": 13874,
+      "bytes": 2452340,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260912150353",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260912150353/https://darioamodei.com/post/we-must-pace-the-frontier"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260912150353/https://darioamodei.com/post/we-must-pace-the-frontier",
+      "timestamp": "20260912150353",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

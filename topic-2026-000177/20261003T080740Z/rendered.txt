@@ -1,0 +1,124 @@
+Accessibility Statement
+Skip Navigation
+Resources
+Investor Relations
+Journalists
+Agencies
+Client Login
+Send a Release
+News
+Products
+Contact
+Search
+News in Focus
+Business & Money
+Science & Tech
+Lifestyle & Health
+Policy & Public Interest
+People & Culture
+AEON Launches Agentic Checkout, Powered by AI Card for Autonomous Commerce
+NEWS PROVIDED BY
+AEON
+
+Sep 04, 2026, 13:33 ET
+
+SHARE THIS ARTICLE
+
+HONG KONG, Sept. 4, 2026 /PRNewswire/ -- AEON, the settlement layer built for the AI economy, has launched Agentic Checkout, enabling AI agents to autonomously shop, check out, and pay across e-commerce platforms such as Shopify and Amazon. Powered by the AEON AI Card, Agentic Checkout gives agents controlled spending capabilities to turn user intent into completed purchases.
+
+Natively integrated with Model Context Protocol (MCP) and the Universal Commerce Protocol (UCP), Agentic Checkout allows users to interact with an AI agent through a conversational interface, describe what they are looking for, and let the agent search for suitable products and build a shopping cart based on their requirements.
+
+Once a product is selected, the user can authorize the purchase with an AEON AI Card settled over the Visa/Mastercard networks, allowing the agent to complete the transaction without exposing the user's primary payment credentials or treasury wallet. The agent can move from product discovery to cart creation and payment, turning a natural-language request into a completed purchase.
+
+AI Card: Giving AI Agents Controlled Spending Power
+
+At the core of this experience is the AEON AI Card, designed to give AI agents financial autonomy while keeping spending under defined controls. 
+
+The infrastructure supports single-use agent cards and predefined budget limits, allowing spending authority to be scoped to individual tasks or transactions. Backed by crypto-based authorization and connected to existing Visa payment infrastructure, the AI Card creates a bridge between on-chain assets and everyday commerce.
+
+This allows agents to spend on behalf of users without requiring direct access to their primary wallets or traditional credit cards, bringing agentic commerce closer to a model where AI can not only assist users with decisions, but also securely execute those decisions in the real economy. 
+
+Agentic Checkout to Bigger Commerce Ecosystem
+
+Agentic Checkout is designed to give AI agents access to an open commerce ecosystem, rather than a limited list of curated merchants. Through Shopify, agents can search across 3M+ active storefronts in 175+ countries and more than a billion products, spanning categories including apparel, home, beauty, electronics, and books.
+
+Shopify is one of the first environments where AEON's Agentic Checkout capability is being demonstrated, but the underlying infrastructure is designed to extend across e-commerce ecosystems and support both physical and digital goods. Amazon and Travala are next, bringing mass-market retail and travel inventory into the same agent interface.
+
+The infrastructure is also designed with the safeguards required for production use. Full card numbers and security codes never enter conversation logs or model context, while uncertain payment states are verified before any retry to prevent silent double charges.
+
+As more commerce platforms become accessible to AI agents, the ability to securely authorize and settle these transactions will become increasingly important. AEON Agentic Checkout and AI Card provides the financial execution layer that allows agents to act within defined spending boundaries. And AEON is building the settlement infrastructure to enable these agents to transact, pay, and settle securely across the digital and physical economies.
+
+Building the Settlement Layer for the AI Economy
+
+The Agentic Checkout and AI Card represent two connected components of AEON's agentic payment infrastructure: Agentic Checkout gives agents the ability to execute commerce, while AI Card gives them controlled financial authority to pay for it. Together, they connect agent intent, payment authorization, checkout execution, and settlement into a unified flow.
+
+AI agents are increasingly capable of searching, reasoning, coordinating tasks, and making decisions on behalf of users. The next step is enabling those decisions to result in secure, verifiable economic transactions. AEON is building toward this infrastructure by combining agent identity, payment authorization, checkout execution, and settlement into a unified framework for the AI economy, enabling AI agents to transact across digital and physical economies, autonomously, securely, and within clearly defined financial boundaries.
+
+About AEON
+
+AEON is the native settlement layer built for the AI economy. By equipping agents with a comprehensive suite of programmable payment primitives, spanning across Agent Account, AI Card, AI Gateway, and more, AEON empowers autonomous AI to seamlessly navigate global value networks. Designed to eliminate the fee overhead, programmability gaps, and settlement lag of legacy infrastructure, AEON provides the universal financial rails needed for agents to enter the global economy across any currency, chain, or protocol.
+
+Natively integrating with leading standards like x402, ERC-8004, MCP, and Google A2A, AEON enables verifiable AI payments at scale and connects agentic capabilities directly to a network of 50M+ global merchants. Having processed over $514M in cumulative volume for 2.3M+ users, AEON is backed by top investors including YZi Labs, IDG Capital, HashKey Capital, and the Stanford Blockchain Builders Fund. The $AEON token is live on major global exchanges including OKX, Bitget, Binance Alpha and Bithumb.
+
+Website | X | Telegram | Medium | AEON Pay
+
+SOURCE AEON
+
+21%
+more press release views with 
+Request a Demo
+Also from this source
+AEON Expands the Settlement Layer for the Agentic Economy Across Latin America with Colombia Launch
+
+AEON, the settlement layer built for the agentic economy, has expanded its payment infrastructure into Colombia by integrating Bre-B, the country's...
+
+AEON Expands its Settlement Layer to South Asia with bKash and Nagad Integrations
+
+AEON, the settlement layer built for the agentic economy, today officially announced its product expansion into South Asia by integrating...
+
+More Releases From This Source
+Explore
+
+Electronic Commerce
+
+Electronic Commerce
+
+Financial Technology
+
+Financial Technology
+
+News Releases in Similar Topics
+Contact PR Newswire
+Call PR Newswire at 888-776-0942
+from 8 AM - 9 PM ET
+Contact Us
+
+Products
+Explore Our Platform
+Plan Campaigns
+Create with AI
+Distribute Press Releases
+Report Results
+Amplify Content
+About
+About PR Newswire
+About Cision
+Careers
+Accessibility Statement
+Global Sites
+My Services
+All New Releases
+Platform Login
+Data Privacy
+
+Do not sell or share my personal information:
+
+Submit via privacy@cision.com 
+Call Privacy toll-free: 877-297-8921
+Terms of Use
+Privacy Policy
+Information Security Policy
+Site Map
+RSS
+Cookies
+Copyright © 2026 Cision US Inc.

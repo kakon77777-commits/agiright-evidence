@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000175",
+  "url": "https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control",
+  "capturedAt": "2026-10-03T08:06:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 222186,
+    "sha256": "9078951fa7987af8ea8bbeb1d5cd092696be53fc57e9f02728e95bb4106db601",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D40580620D64BC42ED2A4E76AA9ABC60",
+      "status": 200,
+      "url": "https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 9625,
+      "afterScrollHeight": 9625,
+      "wantedHeight": 9625
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9ce86c317261bd2e4cbd56204459d47c15bf9ba758cd7fce49b0d864c88811c3",
+    "width": 1366,
+    "height": 9625,
+    "bytes": 1800555,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 9625,
+    "afterScrollHeight": 9625,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:06:58Z",
+    "url": "https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 222186,
+      "sha256": "9078951fa7987af8ea8bbeb1d5cd092696be53fc57e9f02728e95bb4106db601"
+    },
+    "finalUrl": "https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control",
+    "httpStatus": 200,
+    "title": "OpenAI’s GPT-6 Astra might be too powerful to understand or control",
+    "rendered": {
+      "textChars": 11729,
+      "textSha256": "a5633aea049abe876d523748c00e23302c502e817eac6ccd15f01b14e91814e7",
+      "htmlSha256": "03b6eb5933ebfc06701a9349012892c87b6a1117790c621f9be7ebd69ee5b94d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9ce86c317261bd2e4cbd56204459d47c15bf9ba758cd7fce49b0d864c88811c3",
+      "width": 1366,
+      "height": 9625,
+      "bytes": 1800555,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260905070410",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260905070410/https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260905070410/https://www.transformernews.ai/p/openai-gpt-6-astra-might-be-too-powerful-to-understand-or-control",
+      "timestamp": "20260905070410",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

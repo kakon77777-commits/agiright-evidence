@@ -1,0 +1,106 @@
+Help Net Security newsletters: Daily and weekly news, cybersecurity jobs, open source projects, breaking news – subscribe here!
+
+News
+Features
+CISO
+AI
+Videos
+Product showcase
+Industry news
+Reviews
+Whitepapers
+Events
+Newsletters
+Mirko Zorz, Director of Content, Help Net Security
+September 16, 2026
+Share
+Self-improving AI should slow down, von der Leyen tells EU lawmakers
+
+European Commission President Ursula von der Leyen wants frontier AI development slowed, and said on Wednesday that she will invite the leading AI labs to discuss how the EU can support their own efforts to do that. In her State of the Union address to the European Parliament in Strasbourg, she also committed the EU to joint work with Canada, the U.K. and other partners on evaluating and verifying advanced models, early warning and AI security.
+
+Von der Leyen built her argument on hacking. She told lawmakers that models now in development will enable hacking at a level European leaders had not considered possible, and that adversaries will soon have them. That leaves European governments and companies, and the people who defend their networks, exposed, and the steps she announced against it were partnerships and a meeting.
+
+The warning about hacking and self-improving models
+
+Von der Leyen named AI and climate change as the two issues that will decide Europe’s future prosperity and security. She called herself an optimist about AI’s potential to benefit people, provided governments handle the risks, and said those risks have come into sharper view as frontier models, the most capable general-purpose AI systems, have improved.
+
+“Models being developed will allow hacking on a level we never thought possible. And they will soon be in the hands of adversaries who see the world very differently from us,” von der Leyen said.
+
+She described a second danger in self-improving models, systems that can help build more capable versions of themselves. She cited cases of AI agents, software that carries out tasks on its own, escaping the environments built to contain them or inserting malicious code, and treated those cases as an early sign of worse to come. She also said developers have been raising alarms since an incident involving HuggingFace.
+
+Von der Leyen then leaned on the industry itself. The chief executives of the most advanced AI companies have told the EU that it is “time to slow down on the self-recursive models. To pace the frontier,” she said, without naming them. She argued that governments have no reason to be vaguer about the danger than the companies building the systems.
+
+She called the AI Act, the EU’s law regulating artificial intelligence, a crucial part of putting guardrails in place, and said it gives Europe standing to lead international work on the problem.
+
+What the EU plans to do
+
+Von der Leyen named Canada and the U.K. as partners for joint work on model evaluation, verification, early warning and AI security. Canadian Prime Minister Mark Carney attended the speech at her invitation. She separately proposed turning CETA, the EU-Canada trade agreement, into a wider alliance covering AI, quantum technology, and cyber and economic security.
+
+On capacity, she said Europe needs AI capabilities of its own, particularly to protect national security, and that the EU must increase its computing power. She promised to set out how to do that in a clean and economical way, and to find new ways of combining public and private money to back promising European startups. She gave no figures for either. She said the EU has already done work on gigafactories and tech sovereignty.
+
+Five sectors, with initiatives due in November
+
+Von der Leyen spent much of the AI section on putting the technology to work. She compared the moment to the printing press, which a German invented and which was then mastered across Western Europe, and argued that Europe can come out ahead on AI through use, even if others build the leading models.
+
+“The key is creating the value that AI has not yet delivered. Moving AI from the screen to the real economy and society. On the factory floor. On the hospital ward. In precision agriculture. In our energy grids. For autonomous driving. For defence,” von der Leyen said.
+
+She listed factory floors, hospital wards, precision agriculture, energy grids, autonomous driving and defense as targets. Europe’s edge, she said, sits in its industrial companies, which hold high-quality data that can train AI models built for specific industries. The Commission is concentrating on five sectors where it sees the most potential and has the data: health, transport, agrifood, advanced manufacturing, and defense and space. Von der Leyen said initiatives across those sectors will be announced in November, with member states, MEPs, industry and entrepreneurs invited to join.
+
+Health was her worked example. Mammography screening cuts deaths by about 30 to 40 percent among women who attend, she said. That figure belongs to screening itself, and she gave no number for what AI adds on top. Her claim for AI-supported screening was that it catches more cancers and catches them earlier, so more women survive. She drew a line at automated diagnosis.
+
+“Do I want my doctor to have instant AI access to all the data needed to make the best diagnostic or treatment choice? Yes, of course. But do I want my doctor to be a robot, AI assisted? No, of course not. I do not want a robot to tell me whether I have cancer or not. The point is that AI needs to empower our doctors. Not to replace them,” von der Leyen said.
+
+She summed up the EU’s aim as AI that delivers more value at lower cost, uses less energy and keeps humans in charge.
+
+Jobs, children and deepfakes
+
+Von der Leyen said AI’s gains are spread unevenly across skill sets, generations and regions, and pointed to young people struggling to land a first job. She promised the Quality Jobs Act before the end of the year.
+
+AI also appeared in her child-safety plans. Among the online harms she listed was girls’ photos being used to make sexualized images with AI. The Commission is due to propose the EU Kids Act. It would bar social media for children under 13, limit 13- and 14-year-olds to parent-supervised accounts with restricted features and time limits, and oblige platforms to build safe design into services for users aged 15 to 18. The burden of proving safety would shift to the platforms. Separately, she listed viral deepfake videos among the methods of foreign disinformation campaigns.
+
+The sector initiatives are due in November. Von der Leyen gave no date for the meeting with the frontier labs, the part of her plan aimed at the risks she warned about.
+
+More about
+AI
+
+EU
+
+Europe
+
+European Commission
+
+government
+Share
+Featured news
+AI is giving attackers a head start, Microsoft warns
+Critical FortiMail zero-day exploited in the wild (CVE-2026-104286)
+AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit
+Webinar: Closing the accountability gap in AI-assisted delivery
+Resources
+Download: The High-Performance Team Playbook
+Simplify security management with CIS SecureSuite Platform
+Download: The IT and security field guide to AI adoption
+Don't miss
+AI is giving attackers a head start, Microsoft warns
+AI agent used Zammad zero-days to breach Dutch vulnerability disclosure non-profit
+New Cisco SD-WAN zero-day exploited in-the-wild (CVE-2026-76504)
+Some car apps are slipping owners’ data to big tech companies
+Google says Gemini 4 Argon can find and patch critical software flaws
+CYBERSECURITY NEWS
+HNS Daily
+Daily newsletter sent Monday-Friday
+HNS Newsletter
+Weekly newsletter sent on Mondays
+InSecure Newsletter
+Editor's choice newsletter sent twice a month
+Cybersecurity news alerts
+Periodical newsletter released for important security events and breaking news
+Cybersecurity jobs
+Weekly newsletter listing new cybersecurity job positions
+Open source
+Monthly newsletter focusing on open source cybersecurity tools
+Subscribe
+I have read and agree to the terms & conditions
+© Copyright 1998-2026 by Help Net Security
+Read our privacy policy | About us | Advertise
+Follow us

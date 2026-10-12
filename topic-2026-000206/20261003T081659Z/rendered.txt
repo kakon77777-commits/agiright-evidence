@@ -1,0 +1,237 @@
+Skip to content
+10:06:42:44
+
+Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW.
+
+Close
+TechCrunch Desktop Logo
+Latest
+Startups
+Venture
+Apple
+Security
+AI
+Apps
+Disrupt 2026
+Events
+Podcasts
+Newsletters
+Site Search Toggle
+Mega Menu Toggle
+Topics
+
+Latest
+
+AI
+
+Amazon
+
+Apps
+
+Biotech & Health
+
+Climate
+
+Cloud Computing
+
+Commerce
+
+Crypto
+
+Enterprise
+
+EVs
+
+Fintech
+
+Fundraising
+
+Gadgets
+
+Gaming
+
+Google
+
+Government & Policy
+
+Hardware
+
+Instagram
+
+Layoffs
+
+Media & Entertainment
+
+Meta
+
+Microsoft
+
+Privacy
+
+Robotics
+
+Security
+
+Social
+
+Space
+
+Startups
+
+TikTok
+
+Transportation
+
+Venture
+
+More from TechCrunch
+
+Staff
+
+Events
+
+Startup Battlefield
+
+StrictlyVC
+
+Newsletters
+
+Podcasts
+
+Videos
+
+Partner Content
+
+TechCrunch Brand Studio
+
+Contact Us
+
+IMAGE CREDITS:
+JUSTIN SULLIVAN / GETTY IMAGES
+AI
+Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal
+Rebecca Bellan
+12:46 PM PDT · September 17, 2026
+
+New unredacted information in the copyright lawsuit The New York Times brought against OpenAI and Microsoft three years ago reveals an admission that AI scraping was tantamount to theft, and that AI products pose a major threat to publications.
+
+Per the lawsuit, a top Microsoft executive privately described the companies’ AI training practices as “theft,” and OpenAI’s own leadership said its AI models posed an “existential threat” to the publishers and journalists whose work trained them. 
+
+The unsealed material also details how the companies allegedly obtained and used that content by bypassing paywalls undetected, building training datasets via mass scraping, and deliberately stripping copyright notices from training data. 
+
+It’s worth noting that much of the new information comes from The Times’ own brief, not the underlying exhibits, which remain sealed. The quotes below are presented without their original context.
+
+The unredacted filing is the latest escalation in the three-year-old lawsuit, in which The New York Times initially alleged the firms violated copyright law by training generative AI models on its content. 
+
+The question of whether AI firms can legally use copyrighted material to train AI has no clear answer, but judges have been largely favorable to AI companies’ arguments that training constitutes “fair use.” This legal rule lets people use copyrighted work without permission in certain cases, like parody, news reporting, or criticism. Earlier this month, the Trump administration contributed a brief in defense of OpenAI’s unlicensed use of copyrighted material to train its LLMs. 
+
+Several of the new admissions, however, run counter to OpenAI’s fair use defense, particularly the rule’s requirement that use doesn’t substitute or harm the market for the original work.
+
+It's not AI anymore, it's ‘Super intelligence’ (according to the White House) | Equity Podcast
+0 seconds of 36 minutes, 40 secondsVolume 0%
+ 
+
+For example, Microsoft’s own data shows its Copilot “answer engine” caused click-through rates for The New York Times’ domain to drop as much as 93% compared to traditional Bing search. An internal Microsoft presentation written by Microsoft’s director of Applied Science, Brent Hecht, in January 2024 describes the decline as a “doom loop” that would “hurt the performance of our models and the entire web at the same time.”
+
+“It is highly unusual that an end-product threatens the economic foundations of its essential suppliers, but that is the situation we have created for our LLM business with respect to its ‘content supply chain,’” reads the Microsoft document, as quoted in the filing. 
+
+Microsoft CEO Satya Nadella also testified in a deposition earlier this year that “anything that is paywalled should be licensed by anyone who wants to use it…for grounding or training,” and made clear that, if he “had been made aware that OpenAI had scraped and trained on information that was behind a paywall,” he would have “invoked [Microsoft’s right to] require OpenAI to retrain its models.” 
+
+Other admissions cut against different pillars of the fair-use test: OpenAI’s head of ChatGPT, Nick Turley, wrote in internal communication that publishers face an “existential threat” from products like the chatbot, which are “largely substitutive” and “will get more and more substitutive as they get better.”
+
+OpenAI President Greg Brockman described the models as “excellent at news.” Nadella agreed under oath earlier this year that conversing with chatbots “has substituted … giving you the information right there on the website on the AI platform versus needing to go to the underlying source.”
+
+That kind of language speaks to how the technology could directly compete with, rather than transform, the original work. 
+
+A Microsoft document states that there is a “real risk” that generative AI could “significantly disrupt the employment of the very people who generated the data on which the foundation model was trained.” 
+
+The sheer scale of the copying is striking. The documents reveal for the first time that OpenAI’s mid-training datasets alone contain more than 91,692 copies of works published by the NYT, Daily News, and Center for Investigative Reporting. A Common Crawl-derived dataset included more than 2 million documents from nytimes.com alone. 
+
+In a January 2023 internal memo, Hecht called it “an astonishing theft of unprecedented proportions” and “the largest theft of labor in human history.”
+
+The filing lays out in new detail how OpenAI and Microsoft went about acquiring the plaintiffs’ content, including scraping it from the Bing Index. 
+
+“OpenAI delivered the entire GPT-3 training dataset to Microsoft, which Microsoft used to evaluate how to implement OpenAI’s models within its own commercial products,” the filing reads. “Microsoft similarly provided training data to OpenAI through initiatives called Project Taxi and Project Mango.”
+
+The companies allegedly assembled the Project Mango data into a training dataset that contains copies of at least 160,903 unique works from the news publishers. 
+
+In order to get the most out of their scraping, OpenAI employees allegedly came up with a plan to circumvent paywalls without detection. The filings show that when OpenAI researcher Nick Ryder told Brockman about a “hack to get around nytimes paywall,” Brockman replied: “ah nice.” 
+
+OpenAI employees also allegedly built training datasets like WebText and WebText2 that disproportionately relied on scraped news content. They also allegedly pulled millions of articles from Common Crawl, a free, open repository of web crawl data. The findings also describe deliberate efforts to strip copyright notices from training data before it reached the model, since researchers “wouldn’t want model outputting” “copyright notices” to users.
+
+“The evidence revealed here for the first time shows that OpenAI and Microsoft knew that what they were doing was wrong,” Steven Lieberman, counsel for the New York Daily News, said in a statement shared with TechCrunch.
+
+OpenAI and Microsoft did not return requests for comment.
+
+Topics
+
+AI
+copyright
+Government & Policy
+Microsoft
+new york times
+OpenAI
+
+When you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.
+
+Rebecca Bellan
+
+Senior Reporter
+
+Rebecca Bellan is a senior reporter at TechCrunch where she covers the business, policy, and emerging trends shaping artificial intelligence. Her work has also appeared in Forbes, Bloomberg, The Atlantic, The Daily Beast, and other publications.
+
+You can contact or verify outreach from Rebecca by emailing rebecca.bellan@techcrunch.com or via encrypted message at rebeccabellan.491 on Signal.
+
+View Bio
+October 13 – 15
+San Francisco
+
+Get 50% off a second pass
+
+The Disrupt experience is meant to be shared. Get your pass and bring a colleague, partner, or peer at 50% off. Cover more ground by making connections, building momentum, and discovering what’s next in the startup ecosystem.
+
+BOOK NOW
+Most Popular
+
+Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground
+
+World’s first enhanced geothermal power plant completed in just 23 months
+
+Google releases Gemini 4 Argon, called its most powerful model yet
+
+The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next
+
+OpenAI launches Dots, its bubbly agentic avatar
+
+AMD will acquire Fei-Fei Li’s World Labs for $8.2B
+
+Viral AI agent Instinct raises $1B Series C at a $10B valuation
+
+Loading the next article
+X
+LinkedIn
+Facebook
+Instagram
+youTube
+Mastodon
+Threads
+Bluesky
+TechCrunch
+Staff
+Contact Us
+Advertise
+Site Map
+Terms of Service
+Privacy Policy
+RSS Terms of Use
+OpenAI
+Hugging Face
+Flock
+Startup Battlefield
+Disrupt 2026
+Tech Layoffs
+ChatGPT
+
+© 2026 TechCrunch Media LLC.
+
+Some areas of this page may shift around if you resize the browser window. Be sure to check heading and document order.

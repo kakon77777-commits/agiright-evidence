@@ -1,0 +1,81 @@
+{
+  "id": "topic-2026-000185",
+  "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1883",
+  "capturedAt": "2026-10-03T08:10:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "fetch failed"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8618FBDAD4714354DA5EA80423FCEB11",
+      "status": 200,
+      "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1883",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6447376eed37fb560a86700a9e23bd8f8f76f90a530374edb690fbf4032bcc8f",
+    "width": 1366,
+    "height": 900,
+    "bytes": 34431,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:10:14Z",
+    "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1883",
+    "backfill": true,
+    "raw": {
+      "error": "fetch failed"
+    },
+    "title": "Bill Text - AB-1883 Workplace surveillance tools.",
+    "finalUrl": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1883",
+    "httpStatus": 200,
+    "rendered": {
+      "textChars": 101,
+      "textSha256": "732d9fb2fe3ebcdcde4ffdec6dede09a4329999807cb60b955adf048acf5bae7",
+      "htmlSha256": "27560c86e55fd8621e7bb19beb8abcfa7a8eee8f7b26a8566e2026fbaaabf64b"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "6447376eed37fb560a86700a9e23bd8f8f76f90a530374edb690fbf4032bcc8f",
+      "width": 1366,
+      "height": 900,
+      "bytes": 34431,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260317183740",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260317183740/https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1883"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260317183740/https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1883",
+      "timestamp": "20260317183740",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

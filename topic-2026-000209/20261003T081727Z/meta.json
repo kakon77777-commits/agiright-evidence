@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000209",
+  "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+  "capturedAt": "2026-10-03T08:17:27Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 230455,
+    "sha256": "b14ed8d64932d68f8840f8e51753912cb6451e34feaf2e6d5e664075fcf2db4b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FAEEFDDD2F4BEE4BCB9C37DFCC303E91",
+      "status": 200,
+      "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3836,
+      "afterScrollHeight": 6757,
+      "wantedHeight": 3836
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "0b2c67d2ecb306b9e3eccb74d6a63ecac967a9b1f77152ae854cb85543178150",
+    "width": 1366,
+    "height": 3836,
+    "bytes": 887532,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 3836,
+    "afterScrollHeight": 6757,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:17:27Z",
+    "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 230455,
+      "sha256": "b14ed8d64932d68f8840f8e51753912cb6451e34feaf2e6d5e664075fcf2db4b"
+    },
+    "finalUrl": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+    "httpStatus": 200,
+    "title": "AI hallucination nearly triggers US military operation | TechCrunch",
+    "rendered": {
+      "textChars": 5044,
+      "textSha256": "a59699ceb0e80a3e50469f15a3d5fd3f69f6198483e8ebbe552f784af3169a1a",
+      "htmlSha256": "b55ec844638e5daf3dd0abf3924f10fba2e7fd5604e0afbc8bf3c467b714da53"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "0b2c67d2ecb306b9e3eccb74d6a63ecac967a9b1f77152ae854cb85543178150",
+      "width": 1366,
+      "height": 3836,
+      "bytes": 887532,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

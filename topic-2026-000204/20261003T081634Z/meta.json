@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000204",
+  "url": "https://www.aljazeera.com/news/2026/9/17/the-uks-king-charles-warns-ai-leaders-of-existential-dangers",
+  "capturedAt": "2026-10-03T08:16:34Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 197087,
+    "sha256": "f396031270f45452a07e989e06f39c8dd60410f3577b7c8b8dc39c3ba82a20b9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B5EE1429CE3A9B8E02878874C742D9FF",
+      "status": 200,
+      "url": "https://www.aljazeera.com/news/2026/9/17/the-uks-king-charles-warns-ai-leaders-of-existential-dangers",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4972,
+      "afterScrollHeight": 6813,
+      "wantedHeight": 4972
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8434d6bb6493da8a9ec7011ab4074dafd6d3f0ad945326649d04e34319ce050e",
+    "width": 1366,
+    "height": 4972,
+    "bytes": 790832,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 4972,
+    "afterScrollHeight": 6813,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:16:34Z",
+    "url": "https://www.aljazeera.com/news/2026/9/17/the-uks-king-charles-warns-ai-leaders-of-existential-dangers",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 197087,
+      "sha256": "f396031270f45452a07e989e06f39c8dd60410f3577b7c8b8dc39c3ba82a20b9"
+    },
+    "finalUrl": "https://www.aljazeera.com/news/2026/9/17/the-uks-king-charles-warns-ai-leaders-of-existential-dangers",
+    "httpStatus": 200,
+    "title": "The UK’s King Charles warns AI leaders of ‘existential dangers’ | Regulation News | Al Jazeera",
+    "rendered": {
+      "textChars": 4753,
+      "textSha256": "19fc0f3b11330454d0822cbf437dabd6a41713df4205ae06e0b256c72007309d",
+      "htmlSha256": "e4df3e4b720381f4fbcfc161b5fd6c036ce14f7012e612b7690861cda32a0cc4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8434d6bb6493da8a9ec7011ab4074dafd6d3f0ad945326649d04e34319ce050e",
+      "width": 1366,
+      "height": 4972,
+      "bytes": 790832,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260917175333",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260917175333/https://www.aljazeera.com/news/2026/9/17/the-uks-king-charles-warns-ai-leaders-of-existential-dangers"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260917175333/https://www.aljazeera.com/news/2026/9/17/the-uks-king-charles-warns-ai-leaders-of-existential-dangers",
+      "timestamp": "20260917175333",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

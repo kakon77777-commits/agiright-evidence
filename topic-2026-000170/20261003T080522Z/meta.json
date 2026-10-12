@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000170",
+  "url": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+  "capturedAt": "2026-10-03T08:05:22Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 330069,
+    "sha256": "da48eaf9504a52f8dae01656c2ccfae9fe11a6ddca6ce40d1294d8a259f7fd72",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0F86B75E1C14B20F1E3D70A6D3BA4AFF",
+      "status": 200,
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 22939,
+      "afterScrollHeight": 22939,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b27841074470b2a1052308fe643cc36a119c69aedd67d9e6c3d820efec7ea3a7",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 3089716,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 22939,
+    "afterScrollHeight": 22939,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:05:22Z",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 330069,
+      "sha256": "da48eaf9504a52f8dae01656c2ccfae9fe11a6ddca6ce40d1294d8a259f7fd72"
+    },
+    "finalUrl": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+    "httpStatus": 200,
+    "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion | Microsoft Security Blog",
+    "rendered": {
+      "textChars": 33343,
+      "textSha256": "ae4a24cea90d3b9a7900baaab88ab5553b484a7d7887e31c2d4f5099b0f99a60",
+      "htmlSha256": "537dd0dfd47e676b71833198ae9510686ba9c5ecd15332225f6a59b34ca44550"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b27841074470b2a1052308fe643cc36a119c69aedd67d9e6c3d820efec7ea3a7",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 3089716,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260903235844",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260903235844/https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260903235844/https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+      "timestamp": "20260903235844",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

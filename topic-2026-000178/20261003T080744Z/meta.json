@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000178",
+  "url": "https://www.yahoo.com/news/world/articles/lords-call-ai-kill-switch-144156635.html",
+  "capturedAt": "2026-10-03T08:07:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 404,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 211647,
+    "sha256": "a39cf9913c28e4467ae6f057dc9ef7bacf956c75263fd04b6f2fc4f999cc172f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "3B7C05DD6EA9852736FBEE07DE96B000",
+      "status": 200,
+      "url": "https://www.yahoo.com/?err=404&err_url=https%3A%2F%2Fwww.yahoo.com%2Fnews%2Fworld%2Farticles%2Flords-call-ai-kill-switch-144156635.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3595,
+      "afterScrollHeight": 3686,
+      "wantedHeight": 3686
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "09ae28d4a81a27801a384c37a3f8258b8a05390074bc9d5bc7ab76b72359baa7",
+    "width": 1366,
+    "height": 3686,
+    "bytes": 1304346,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3595,
+    "afterScrollHeight": 3686,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:07:44Z",
+    "url": "https://www.yahoo.com/news/world/articles/lords-call-ai-kill-switch-144156635.html",
+    "backfill": true,
+    "raw": {
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 211647,
+      "sha256": "a39cf9913c28e4467ae6f057dc9ef7bacf956c75263fd04b6f2fc4f999cc172f"
+    },
+    "finalUrl": "https://www.yahoo.com/?err=404&err_url=https%3A%2F%2Fwww.yahoo.com%2Fnews%2Fworld%2Farticles%2Flords-call-ai-kill-switch-144156635.html",
+    "httpStatus": 200,
+    "title": "Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos",
+    "rendered": {
+      "textChars": 4517,
+      "textSha256": "42a2bab6ff5422d982fdc5ef1de3d67485cd9f2bd7d151476c15290faf14703b",
+      "htmlSha256": "e4b135185ec8228cd2a2b74c3a76881b3d4f2f6f8b5ed7afb600de215e3520af"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "09ae28d4a81a27801a384c37a3f8258b8a05390074bc9d5bc7ab76b72359baa7",
+      "width": 1366,
+      "height": 3686,
+      "bytes": 1304346,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 523 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

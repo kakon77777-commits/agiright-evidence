@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000187",
+  "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+  "capturedAt": "2026-10-03T08:10:49Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 322435,
+    "sha256": "3763f1566dde3499fc7eac05a85e16ac9f6b72a57c9cdbe7dfecfb7acd29b7a1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A7D45A4D0848004B7BA64E285413E626",
+      "status": 200,
+      "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8865,
+      "afterScrollHeight": 8865,
+      "wantedHeight": 8865
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b1d9875e67ae26be8fa9d3325fe7c5229bfd2240a51bfb8c4a6f52970364a5d3",
+    "width": 1366,
+    "height": 8865,
+    "bytes": 1377192,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8865,
+    "afterScrollHeight": 8865,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:10:49Z",
+    "url": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 322435,
+      "sha256": "3763f1566dde3499fc7eac05a85e16ac9f6b72a57c9cdbe7dfecfb7acd29b7a1"
+    },
+    "finalUrl": "https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+    "httpStatus": 200,
+    "title": "Governor Newsom signs first-in-the-nation AI safeguards to protect Californians, calls on the federal government to do its part | Governor of California",
+    "rendered": {
+      "textChars": 14880,
+      "textSha256": "576ac7721d1b133fedcca21336eb27351b4296043a80f2ea398f46bc268428e6",
+      "htmlSha256": "57c0b8dd74b9a4270b0295d461db36caa59f569d3eba644adc86b1331553cc22"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b1d9875e67ae26be8fa9d3325fe7c5229bfd2240a51bfb8c4a6f52970364a5d3",
+      "width": 1366,
+      "height": 8865,
+      "bytes": 1377192,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260910015322",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260910015322/https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260910015322/https://www.gov.ca.gov/2026/09/09/governor-newsom-signs-first-in-the-nation-ai-safeguards-to-protect-californians-calls-on-the-federal-government-to-do-its-part/",
+      "timestamp": "20260910015322",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

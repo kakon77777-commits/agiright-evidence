@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000211",
+  "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+  "capturedAt": "2026-10-03T08:17:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 307231,
+    "sha256": "ee1189370cee407caea5f2eccaa3af359ff18083bc2afc4f1b4e180930ed3461",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "DEAFF0BA42527885343DC4BE52C92F9E",
+      "status": 200,
+      "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7818,
+      "afterScrollHeight": 7818,
+      "wantedHeight": 7818
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "fc4d84c8603d416cd66a860f5146d8202d4bb0c505df0e5a9e16ef6d460f71cf",
+    "width": 1366,
+    "height": 7818,
+    "bytes": 1042266,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7818,
+    "afterScrollHeight": 7818,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:17:59Z",
+    "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 307231,
+      "sha256": "ee1189370cee407caea5f2eccaa3af359ff18083bc2afc4f1b4e180930ed3461"
+    },
+    "finalUrl": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+    "httpStatus": 200,
+    "title": "Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch | Governor of California",
+    "rendered": {
+      "textChars": 10799,
+      "textSha256": "fc3a7e1495f9dcd340abfeae22b19c2fa2aaa82522f2a92af3f180683a4aea5a",
+      "htmlSha256": "b08c14e111b4bb71562eeda492d20cc11a99c03fe5baa2d8a84d5ec4a0ab7de2"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "fc4d84c8603d416cd66a860f5146d8202d4bb0c505df0e5a9e16ef6d460f71cf",
+      "width": 1366,
+      "height": 7818,
+      "bytes": 1042266,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260918165311",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260918165311/https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260918165311/https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-executive-order-to-accelerate-independent-oversight-and-advance-the-creation-of-an-ai-kill-switch/",
+      "timestamp": "20260918165311",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

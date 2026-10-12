@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000174",
+  "url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+  "capturedAt": "2026-10-03T08:06:30Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 513653,
+    "sha256": "6a7f580b64aa6686262cca9a7b9061bff5cca26ba07be9ed557a84c5d4ac24d3",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "EFC37C26AABB8051098FC36B0FD24B80",
+      "status": 403,
+      "url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "18a2c5647102db397be2b7eb9b3be254d109d2f7ceb6ae1e0626152717810391",
+    "width": 1366,
+    "height": 900,
+    "bytes": 17467,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:06:30Z",
+    "url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 513653,
+      "sha256": "6a7f580b64aa6686262cca9a7b9061bff5cca26ba07be9ed557a84c5d4ac24d3"
+    },
+    "finalUrl": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+    "httpStatus": 403,
+    "title": "Access Denied",
+    "rendered": {
+      "textChars": 282,
+      "textSha256": "2fa51a5a92e3ff8e844a9788bf7347a4785ac82d63fc715f09c19f137302b5d8",
+      "htmlSha256": "eccbb535d39697e0f11dcf40b675146c745a681c7dd9c8cd5028f5a1902be0eb"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "18a2c5647102db397be2b7eb9b3be254d109d2f7ceb6ae1e0626152717810391",
+      "width": 1366,
+      "height": 900,
+      "bytes": 17467,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260902163305",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260902163305/https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260902163305/https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+      "timestamp": "20260902163305",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

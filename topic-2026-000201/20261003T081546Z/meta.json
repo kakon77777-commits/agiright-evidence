@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000201",
+  "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+  "capturedAt": "2026-10-03T08:15:46Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 10114,
+    "sha256": "22da589b1ae5b5dfdfe069b4c29fed1ebfe76ed5f04d42d3a13ebee6623dfb87",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D8BA8D8934D5A29E4FE9D39DE5F47301",
+      "status": 403,
+      "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:15:46Z",
+    "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 10114,
+      "sha256": "22da589b1ae5b5dfdfe069b4c29fed1ebfe76ed5f04d42d3a13ebee6623dfb87"
+    },
+    "finalUrl": "https://openai.com/index/model-misalignment-reporting-framework/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "ae1143f9a2092d492b4208ca7fe1c577f47db7f508ccb1a3038f36716459c712"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

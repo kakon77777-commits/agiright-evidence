@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000186",
+  "url": "https://openai.com/index/introducing-the-agents-api/",
+  "capturedAt": "2026-10-03T08:10:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 10077,
+    "sha256": "2e179c26de50c7ecd479d6b58863709df869c70a6484c3457fe1ce9488db5f81",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1DEDA3C97D8138FF9BEAED75833AA52D",
+      "status": 403,
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:10:24Z",
+    "url": "https://openai.com/index/introducing-the-agents-api/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 10077,
+      "sha256": "2e179c26de50c7ecd479d6b58863709df869c70a6484c3457fe1ce9488db5f81"
+    },
+    "finalUrl": "https://openai.com/index/introducing-the-agents-api/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "2ee74e1ef18b789fa524b2c2f3be67508b4e2b1b1575aafa198c8484640fe1e4"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260910193424",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260910193424/https://openai.com/index/introducing-the-agents-api/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260910193424/https://openai.com/index/introducing-the-agents-api/",
+      "timestamp": "20260910193424",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

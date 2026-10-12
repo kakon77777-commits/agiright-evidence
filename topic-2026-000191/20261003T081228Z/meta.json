@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000191",
+  "url": "https://en.people.cn/n3/2026/0907/c90000-20496911.html",
+  "capturedAt": "2026-10-03T08:12:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 15862,
+    "sha256": "fae54efd96a93193fee974c81646167d28d6d1182eef7b1f604190d8d3c8eedc",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "DF6279BA04D07F6AC4F7E794BBBF04A0",
+      "status": 200,
+      "url": "https://en.people.cn/n3/2026/0907/c90000-20496911.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1670,
+      "afterScrollHeight": 1670,
+      "wantedHeight": 1670
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d5eee0a458d348e538ffa30cf9cb0b883923997aa94e934872317bfd9a235cee",
+    "width": 1366,
+    "height": 1670,
+    "bytes": 294112,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1670,
+    "afterScrollHeight": 1670,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:12:28Z",
+    "url": "https://en.people.cn/n3/2026/0907/c90000-20496911.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 15862,
+      "sha256": "fae54efd96a93193fee974c81646167d28d6d1182eef7b1f604190d8d3c8eedc"
+    },
+    "finalUrl": "https://en.people.cn/n3/2026/0907/c90000-20496911.html",
+    "httpStatus": 200,
+    "title": "China's top court sets rules for AI deepfakes and other disputes - People's Daily Online",
+    "rendered": {
+      "textChars": 3634,
+      "textSha256": "bc8ee700b9a6cb51b4d66f1b68b1503c7c90fd877dfabd7d3421740fbaba0b4b",
+      "htmlSha256": "42ad27049dcbb204ceeea3198debd17e2055d96adc7e49e470eec04a7c02bf35"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d5eee0a458d348e538ffa30cf9cb0b883923997aa94e934872317bfd9a235cee",
+      "width": 1366,
+      "height": 1670,
+      "bytes": 294112,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003081253/https://en.people.cn/n3/2026/0907/c90000-20496911.html",
+      "timestamp": "20261003081253",
+      "verifiedHttp": 200
+    }
+  }
+}

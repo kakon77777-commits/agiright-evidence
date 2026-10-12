@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000200",
+  "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+  "capturedAt": "2026-10-03T08:15:39Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 193785,
+    "sha256": "b8332600da65da433f3e884cb4d31662012ef2eb1e43eff5e2768c7f5fa7fbe1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1E3BBDAACB1AF73116358AFF79A9E82F",
+      "status": 200,
+      "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 19139,
+      "afterScrollHeight": 19139,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d786aa5e1fa97322dea1600f926fe79da8592b1ced14f5060d0753a1853674f5",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 3087516,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 19139,
+    "afterScrollHeight": 19139,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:15:39Z",
+    "url": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 193785,
+      "sha256": "b8332600da65da433f3e884cb4d31662012ef2eb1e43eff5e2768c7f5fa7fbe1"
+    },
+    "finalUrl": "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+    "httpStatus": 200,
+    "title": "A warning about ‘model welfare’",
+    "rendered": {
+      "textChars": 35865,
+      "textSha256": "4477d8c905dd8fbf851d5db334e0ad164ecf65970dfaefd130e88b3e4e1d736a",
+      "htmlSha256": "e01a50671c7a992e960b91d593e59808923eebc0aab305392bcade87810a973b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d786aa5e1fa97322dea1600f926fe79da8592b1ced14f5060d0753a1853674f5",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 3087516,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

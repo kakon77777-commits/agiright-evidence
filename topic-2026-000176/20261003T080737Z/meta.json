@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000176",
+  "url": "https://www.bloomberg.com/news/articles/2026-08-20/strict-massachusetts-ai-safeguards-spark-anthropic-openai-clash",
+  "capturedAt": "2026-10-03T08:07:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html",
+    "bytes": 13856,
+    "sha256": "037ac644a6fd5d04fa6d635c4ae2690c9f83a65270e1e5b7005e80159d520f94",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "DB4CF93EC2D85B850F439B97C10F1C20",
+      "status": 403,
+      "url": "https://www.bloomberg.com/news/articles/2026-08-20/strict-massachusetts-ai-safeguards-spark-anthropic-openai-clash",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3f560df333d1015369483d5c86e9af4979016586245d4ffbacfb9f8e50e30082",
+    "width": 1366,
+    "height": 900,
+    "bytes": 43049,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:07:37Z",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-20/strict-massachusetts-ai-safeguards-spark-anthropic-openai-clash",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html",
+      "bytes": 13856,
+      "sha256": "037ac644a6fd5d04fa6d635c4ae2690c9f83a65270e1e5b7005e80159d520f94"
+    },
+    "finalUrl": "https://www.bloomberg.com/news/articles/2026-08-20/strict-massachusetts-ai-safeguards-spark-anthropic-openai-clash",
+    "httpStatus": 403,
+    "title": "Bloomberg - Are you a robot?",
+    "rendered": {
+      "textChars": 665,
+      "textSha256": "2355aafafffcd4fd2747cad57f512f6262e90035f686bc592eed0c22eceb8dd5",
+      "htmlSha256": "8ef44f9874d9c0d96aecdb12c3fe7bf8be64ac757507f344e72603fefd7335a8"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "3f560df333d1015369483d5c86e9af4979016586245d4ffbacfb9f8e50e30082",
+      "width": 1366,
+      "height": 900,
+      "bytes": 43049,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

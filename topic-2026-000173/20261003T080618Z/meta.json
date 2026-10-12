@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000173",
+  "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+  "capturedAt": "2026-10-03T08:06:18Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 175017,
+    "sha256": "3cf250864d11a32da1ebe42d8b1a553ab93c7d4525b0620fcea81d00bbf9fb2f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D8A39DBD80C7D0BD8027AD47FD0B6B1D",
+      "status": 200,
+      "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6573,
+      "afterScrollHeight": 6876,
+      "wantedHeight": 6876
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "0d636d3c1a75a4fdaa761b26ab07d054bcc3a4ee25cafbc1a58ed37cb91b553c",
+    "width": 1366,
+    "height": 6876,
+    "bytes": 1955502,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6573,
+    "afterScrollHeight": 6876,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:06:18Z",
+    "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 175017,
+      "sha256": "3cf250864d11a32da1ebe42d8b1a553ab93c7d4525b0620fcea81d00bbf9fb2f"
+    },
+    "finalUrl": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+    "httpStatus": 200,
+    "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+    "rendered": {
+      "textChars": 11031,
+      "textSha256": "6c395f0ebf550704b276e2487635cdc561a261927ee710eaa4f253c8c9e0595c",
+      "htmlSha256": "18a03bd81e14aaa8394f97af2955052ca8a0b53e98baac524c05c3addd85bffd"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "0d636d3c1a75a4fdaa761b26ab07d054bcc3a4ee25cafbc1a58ed37cb91b553c",
+      "width": 1366,
+      "height": 6876,
+      "bytes": 1955502,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260902143559",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260902143559/https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260902143559/https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "timestamp": "20260902143559",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000179",
+  "url": "https://batimes.com.ar/news/argentina/milei-defends-unregulated-ai-push-after-warning-from-historian-yuval-noah-harari.phtml",
+  "capturedAt": "2026-10-03T08:08:35Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 75029,
+    "sha256": "fab35e3ed386326cdb52047ab1bab5ec2d5dfb954fd96225ac520c696c8ddee2",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D4267F8F538232A459B83E92185AA2AB",
+      "status": 200,
+      "url": "https://batimes.com.ar/news/argentina/milei-defends-unregulated-ai-push-after-warning-from-historian-yuval-noah-harari.phtml",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5605,
+      "afterScrollHeight": 5124,
+      "wantedHeight": 5124
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ae7384f65385bea7cc66f2bfe772bf80c6429d9de7105c9c72c526d4a83f7284",
+    "width": 1366,
+    "height": 5124,
+    "bytes": 1864483,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5605,
+    "afterScrollHeight": 5124,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:08:35Z",
+    "url": "https://batimes.com.ar/news/argentina/milei-defends-unregulated-ai-push-after-warning-from-historian-yuval-noah-harari.phtml",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 75029,
+      "sha256": "fab35e3ed386326cdb52047ab1bab5ec2d5dfb954fd96225ac520c696c8ddee2"
+    },
+    "finalUrl": "https://batimes.com.ar/news/argentina/milei-defends-unregulated-ai-push-after-warning-from-historian-yuval-noah-harari.phtml",
+    "httpStatus": 200,
+    "title": "Milei defends unregulated AI push after warning from historian Yuval Noah Harari | Buenos Aires Times",
+    "rendered": {
+      "textChars": 5461,
+      "textSha256": "5b6f020249ece45c7efe02a14411e525d5abc5a07666f58ecbaed0699aaf1d3d",
+      "htmlSha256": "8b9f2a5fa208cc690fcb63949db833e098b2ec9dc0fc6df13c77aff0621bfa82"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ae7384f65385bea7cc66f2bfe772bf80c6429d9de7105c9c72c526d4a83f7284",
+      "width": 1366,
+      "height": 5124,
+      "bytes": 1864483,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260610014901",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260610014901/https://batimes.com.ar/news/argentina/milei-defends-unregulated-ai-push-after-warning-from-historian-yuval-noah-harari.phtml"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260610014901/https://batimes.com.ar/news/argentina/milei-defends-unregulated-ai-push-after-warning-from-historian-yuval-noah-harari.phtml",
+      "timestamp": "20260610014901",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

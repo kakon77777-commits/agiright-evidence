@@ -1,0 +1,78 @@
+{
+  "id": "topic-2026-000184",
+  "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+  "capturedAt": "2026-10-03T08:45:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 456654,
+    "sha256": "4aa45bbb26474e538f11211752ebd148892cc7d2e66b03b909abd13b06731027",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": false,
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "navError": null,
+    "document": {
+      "frameId": "60CCB9D37898FD2633B224A4FC4274C5",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 63953,
+      "afterScrollHeight": 63953,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": null,
+    "layout": {
+      "firstLoadHeight": 63953,
+      "afterScrollHeight": 63953,
+      "wantedHeight": 15000
+    },
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:45:58Z",
+    "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 456654,
+      "sha256": "4aa45bbb26474e538f11211752ebd148892cc7d2e66b03b909abd13b06731027"
+    },
+    "finalUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "httpStatus": 200,
+    "title": "An alignment assessment of recent cybersecurity incidents \\ Anthropic",
+    "rendered": {
+      "textChars": 107280,
+      "textSha256": "4662140d3e09e63e3d8b61d05bc1de38198da1950e2f8c8f70d68f0d1c4ee9fb",
+      "htmlSha256": "4882a6cc1b46ad11b462237310a42e8ce82b62a8ebbbcad002d5265cbdf380bb"
+    },
+    "suspectedBlock": false,
+    "browserError": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260909190507",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260909190507/https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260909190507/https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "timestamp": "20260909190507",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

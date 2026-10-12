@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000171",
+  "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/considerations-regulation-generative-ai-enabled-medical-devices-discussion-paper-and-request",
+  "capturedAt": "2026-10-03T08:05:23Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 45983,
+    "sha256": "364c6bb40b048e6a7ab7b4f1ff0d718242981ffe28afe9a7843894b8121f676a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6B8B595D8E713AC66AD939A6AC23C3CA",
+      "status": 200,
+      "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/considerations-regulation-generative-ai-enabled-medical-devices-discussion-paper-and-request",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3295,
+      "afterScrollHeight": 3295,
+      "wantedHeight": 3295
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "76158e764e5178cf2c61294b33f3bdaf767fdfea016f8cf4533ad9041edb10e5",
+    "width": 1366,
+    "height": 3295,
+    "bytes": 605246,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3295,
+    "afterScrollHeight": 3295,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:05:23Z",
+    "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/considerations-regulation-generative-ai-enabled-medical-devices-discussion-paper-and-request",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 45983,
+      "sha256": "364c6bb40b048e6a7ab7b4f1ff0d718242981ffe28afe9a7843894b8121f676a"
+    },
+    "finalUrl": "https://www.fda.gov/medical-devices/digital-health-center-excellence/considerations-regulation-generative-ai-enabled-medical-devices-discussion-paper-and-request",
+    "httpStatus": 200,
+    "title": "Considerations for the Regulation of Generative AI-Enabled Medical Devices: Discussion Paper and Request for Feedback | FDA",
+    "rendered": {
+      "textChars": 4773,
+      "textSha256": "8c7e460c0546693ae7e59e410c1c3746643a2a43f6626d7bc55ef423577ecff1",
+      "htmlSha256": "4326a5189667d0ee7f21508ec52511f8522411023409cc2da6b87d0cc460f4d3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "76158e764e5178cf2c61294b33f3bdaf767fdfea016f8cf4533ad9041edb10e5",
+      "width": 1366,
+      "height": 3295,
+      "bytes": 605246,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260818194500",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260818194500/https://www.fda.gov/medical-devices/digital-health-center-excellence/considerations-regulation-generative-ai-enabled-medical-devices-discussion-paper-and-request"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260818194500/https://www.fda.gov/medical-devices/digital-health-center-excellence/considerations-regulation-generative-ai-enabled-medical-devices-discussion-paper-and-request",
+      "timestamp": "20260818194500",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

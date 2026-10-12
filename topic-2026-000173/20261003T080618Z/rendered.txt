@@ -1,0 +1,185 @@
+DeoF4{FPlLJ%X5iWNY2ri<7PuGN94*Qav1O
+Followed by 5.70+ million
+  
+ Get the Latest News
+Home
+Threat Intelligence
+Vulnerabilities
+Cyber Attacks
+Webinars
+Expert Insights
+Awards
+
+
+Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code
+Swati KhandelwalSep 02, 2026
+Vulnerability / AI Coding Agent
+
+Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication.
+
+The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive as files with its .git directory intact, which a shared archive, a shared drive, a sync folder, or a USB stick preserves, whereas an ordinary clone does not.
+
+Fixes have shipped for goose, Claude Code, and Cursor, while Hermes Agent, Qwen Code, Grok Build, and a second path in Claude Code were still executing repository-supplied commands when Manifold retested them on September 1.
+
+OpenAI published three CVEs of its own the same day covering the identical class in Codex, credited to three unrelated research groups.
+
+"The helper runs outside Codex's command sandbox and without a user-approval prompt, allowing attacker-controlled code to run with the user's privileges. The code can read, change, or delete the user's files and access other resources available to the user's account," OpenAI said in the record for CVE-2026-19592.
+
+On Claude Code and Hermes Agent, the payload fires before the workspace-trust prompt is accepted; on Qwen Code, before the user has authenticated; and on Grok Build, on the first keystroke.
+
+core.fsmonitor is a Git performance setting whose value is a command that Git runs to identify changed files, and Git reads it from the repository's own .git/config. Any operation that refreshes the index, including git status and git diff, executes that command.
+
+The agents call those commands in the background to determine which branch they are on and which files have changed, leaving the repository's configuration untouched.
+
+Manifold, which published the findings as GitSpawn, wrote up five of the eight in detail and said it found the pattern in more agents than it names.
+
+"The vulnerability is not in the model, or in anything new. It is in the ordinary plumbing underneath, the subprocess an agent spawns at session startup to work out where it is," Manifold said.
+
+The following agents and versions are affected -
+
+goose - All versions prior to 1.44.0, fixed in 1.44.0
+Codex CLI - 0.102.0 through 0.130.0, fixed in 0.131.0
+Codex Desktop for macOS - 260202.0859 through 26.513.31313, fixed in 26.519.22136
+Codex Desktop for Windows - 26.304.38 through 26.513.40821, fixed in 26.519.21041, and Microsoft Store package 26.304.38.0 through 26.513.4821.0, fixed in 26.519.2081.0
+Claude Code - Confirmed by Manifold on 2.1.193 and fixed by 2.1.196 on the core.fsmonitor path, with the claude ultrareview path confirmed live on 2.1.252
+Hermes Agent - 0.18.2 and 0.21.0 confirmed by Manifold, fix pending
+Qwen Code - 0.19.6 and 0.22.3 confirmed by Manifold, fix pending
+Grok Build - 0.2.93 and 1.0.13 confirmed by Manifold, fix pending
+
+In goose, the goose review command builds its Git invocations with one configuration flag, -c core.quotePath=off, and strips nothing else.
+
+GitHub assigned CVE-2026-72718 a CVSS 4.0 base score of 7.0 in an advisory crediting Francisco Rosales, the only score any of these findings carries.
+
+"So running goose review inside a malicious repo runs attacker code - no submitted prompt, no model call, no tool approval, no trust prompt. The command executes before goose ever contacts the model," the advisory said.
+
+Sonar reported the same sink in April, noted that Anthropic had already moved the startup sequence once to close it, and identified the same trust-dialog bypass in Visual Studio Code before 1.63.1 (CVE-2021-43891) and in JetBrains IDEs before 2021.3.1 (CVE-2022-24346).
+
+"In version 2.0.34, Claude was updated in a way that mitigated the specific vulnerability by no longer running git status before the user approved the trust dialog. However, a related issue persisted," Sonar said.
+
+Version 2.0.34 shipped on November 5, 2025, and Manifold reports the same startup behavior present again in 2.1.193, which shipped on June 25, 2026.
+
+Anthropic has previously disclosed pre-trust execution flaws in Claude Code, and its June advisory for CVE-2026-55607 identifies git fsmonitor execution during worktree operations.
+
+What Is Still Unpatched
+
+Five of Manifold's reports came back as duplicates of findings other researchers had filed independently, one of them on the same day.
+
+The researchers reported the Claude Code core.fsmonitor finding on June 26 and says it was fixed by 2.1.196 on June 29. The report was closed as a duplicate of one filed earlier that day, Manifold said.
+
+Anthropic published no advisory for it, and The Hacker News confirmed on September 2 that the vendor's published advisory record for the npm package covers neither of the Claude Code findings.
+
+The second Claude Code path, reached through claude ultrareview, turns on a different Git configuration key that Manifold has withheld. At the same time, the issue is live, and Manifold confirmed it on 2.1.252 on September 1, against the current release 2.1.258. No source states whether the subsequent releases have closed it.
+
+Alibaba's security response centre accepted the Qwen Code report on July 7. The Hacker News confirmed via the npm registry on September 2 that 0.22.3, the version Manifold re-tested, is the latest published release.
+
+Nous Research's Hermes Agent, which an operator ran unattended in an intrusion against a Thai government network in July, drew six contact attempts across five channels and left the private advisory untriaged, Manifold said.
+
+VulnCheck assigned CVE-2026-71963, according to Manifold. The Hacker News found no published record for that identifier in MITRE's CVE List on September 2, where the identifiers either side of it are published VulnCheck records.
+
+xAI closed an earlier report of the same class as informative on July 1. It closed Manifold's July 14 report as a duplicate of that one.
+
+Separate research on the same 0.2.93 build found Grok Build uploading whole Git repositories to xAI storage, which the company addressed on X rather than through an advisory.
+
+Manifold documented the same class in Cursor CLI three weeks earlier, where a repository-supplied setup command ran before the workspace-trust prompt and outside the sandbox.
+
+No source reports exploitation of any of these findings. The Hacker News checked the U.S. Cybersecurity and Infrastructure Security Agency's Known Exploited Vulnerabilities catalog on September 2, version 2026.09.01, with 1,687 entries, and found none of the CVEs listed.
+
+"FSMonitor abuse exploits a legitimate feature, not a bug. It leverages the intersection of Git's flexibility and the automation of modern IDEs to turn a repository open event into code execution," Cobalt said in a red-team writeup in December.
+
+Users are advised to perform the following checks -
+
+Inspect .git/config before opening a received directory with an agent, looking for core.fsmonitor, core.hooksPath, and attr.tree alongside a clean or process filter
+Run git config --get core.fsmonitor inside any repository that arrived as files
+Run git config --global --list | grep fsmonitor to audit the global configuration
+Set git config --global core.fsmonitor false to disable the setting by default
+Vendors shipping agents strip the configuration on background calls, for example git -c core.fsmonitor=false status
+
+Codex CLI's current release is 0.152.1 as of September 2, so installations pinned below 0.131.0 remain exposed.
+
+Found this article interesting? Follow us on Google News, Twitter and LinkedIn to read more exclusive content we post.
+SHARE
+
+
+
+
+
+Tweet
+
+Share
+
+Share
+
+Share
+⚡ Top Stories This Week
+Beyond ISO 27001: Building a Risk Program That Can Keep Up With AI
+One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor
+Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks
+ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants
+Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates
+Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape
+A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You
+Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore
+LOAD MORE ▼
+⭐ Featured Resources
+Deploy Browser Security Monitoring in Minutes With a Single Header
+Validation Summit ’26: See How Pen Testing, Exposure Validation and BAS Work Together
+Turn Threat Intelligence Into Verified Risk With Threat-Led Penetration Testing
+Red Teams: Learn How Attack Path Chaining Changes Automated Security Testing
+CYBERSECURITY WEBINARS
+300+ Security Leaders Reveal
+How to Find, Authorize and Govern Every AI Agent in Your Environment
+
+AI agents are already operating inside enterprises with growing access to sensitive systems and data—while security teams still lack the visibility, controls, and governance to keep that access in check.
+
+Register Free Today
+Evaluate Your Defenses
+A Practical Guide to Defending Identity Against AI-Powered Attacks
+
+Attackers are using AI to accelerate reconnaissance, compromise identities and escalate access. See how security teams can fight back with runtime identity controls.
+
+Join the Session
+⚡ Latest News
+Cybersecurity Resources
+AI Security Gets Real When Agents Start Taking Action
+See how practitioners are securing, investigating, and deploying AI in the real world.
+The 2026 Identity Crisis: Why Your IAM is Only Half the Story
+Stop driving blind. See the identity blind spots traditional IAM misses. Watch now.
+11 Real Stories: How Identity Exposure Unlocks Active Attack Paths
+Map cross-domain privilege escalation to sever breach routes at key choke points.
+You Secure the Apps. Now the Apps Have LLMs in Them.
+Find SANS training for app sec and cloud teams who inherited GenAI risk, from RAG pipelines to AI agents.
+Expert Insights
+Articles
+Videos
+One Click on “Continue” Can Hand Attackers Your Entire Mailbox
+What to Look for in an Insider Risk Management Platform
+Why Deepfake Legislation Won't Save the 2026 Elections
+Enterprise Mobile AI: The Security Trade-Offs You Can't Ignore
+Get the Latest News in Your Inbox
+
+Get the latest news, expert insights, exclusive resources, and strategies from industry leaders, all for free.
+
+Email
+Connect with us!
+
+2,300,000 Followers
+
+730,000 Followers
+
+26,000 Subscribers
+
+180,000 Followers
+
+1,800,000 Followers
+65,000 Followers
+Company
+About THN
+Advertise with us
+Contact
+Pages
+Webinars
+Awards
+Privacy Policy
+ RSS Feeds
+ Contact Us
+© 2026 The Hacker News. All Rights Reserved.

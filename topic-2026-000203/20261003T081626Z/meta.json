@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000203",
+  "url": "https://forkast.news/the-regulator-was-ready-spains-aepd-logs-the-first-ai-agent-breach-notification-under-gdpr/",
+  "capturedAt": "2026-10-03T08:16:26Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 74663,
+    "sha256": "5a8753ba90d34c6034663318bb24e22dd2de09bb7396f3b200e5f39297c863bb",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BC83A18B519FA8B66A5C39049393ACB5",
+      "status": 200,
+      "url": "https://forkast.news/the-regulator-was-ready-spains-aepd-logs-the-first-ai-agent-breach-notification-under-gdpr/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6071,
+      "afterScrollHeight": 6071,
+      "wantedHeight": 6071
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "32cc6cbb743731b69b7b079c01acfadf3cd6c55de901a348732345f29cc7831b",
+    "width": 1366,
+    "height": 6071,
+    "bytes": 1342829,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6071,
+    "afterScrollHeight": 6071,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:16:26Z",
+    "url": "https://forkast.news/the-regulator-was-ready-spains-aepd-logs-the-first-ai-agent-breach-notification-under-gdpr/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 74663,
+      "sha256": "5a8753ba90d34c6034663318bb24e22dd2de09bb7396f3b200e5f39297c863bb"
+    },
+    "finalUrl": "https://forkast.news/the-regulator-was-ready-spains-aepd-logs-the-first-ai-agent-breach-notification-under-gdpr/",
+    "httpStatus": 200,
+    "title": "The Regulator Was Ready: Spain’s AEPD Logs the First AI-Agent Breach Notification Under GDPR – Forkast",
+    "rendered": {
+      "textChars": 7357,
+      "textSha256": "a3fbb0e303750b3494503caa04a09e6d6c0f60ac6dca61667c5ff9c960285e91",
+      "htmlSha256": "c983f9a638344b1ed5dc719ab9e417de343aa819a7cd63a0121efa900686862c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "32cc6cbb743731b69b7b079c01acfadf3cd6c55de901a348732345f29cc7831b",
+      "width": 1366,
+      "height": 6071,
+      "bytes": 1342829,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260918154425",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260918154425/https://forkast.news/the-regulator-was-ready-spains-aepd-logs-the-first-ai-agent-breach-notification-under-gdpr/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260918154425/https://forkast.news/the-regulator-was-ready-spains-aepd-logs-the-first-ai-agent-breach-notification-under-gdpr/",
+      "timestamp": "20260918154425",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000197",
+  "url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+  "capturedAt": "2026-10-03T08:14:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 116862,
+    "sha256": "587f21eaa274d4aa4721b7c13c3f369eeae2c85c18cdcd797d874a54246fb293",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A6FAE9423F4CF92D15437C10CCEB9DC8",
+      "status": 200,
+      "url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 11577,
+      "afterScrollHeight": 11621,
+      "wantedHeight": 11621
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5371a3e924b478c169c18a6f03d6778140b95572764fabd48547ecd8acca085b",
+    "width": 1366,
+    "height": 11621,
+    "bytes": 1456045,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 11577,
+    "afterScrollHeight": 11621,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:14:29Z",
+    "url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 116862,
+      "sha256": "587f21eaa274d4aa4721b7c13c3f369eeae2c85c18cdcd797d874a54246fb293"
+    },
+    "finalUrl": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+    "httpStatus": 200,
+    "title": "Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF",
+    "rendered": {
+      "textChars": 13994,
+      "textSha256": "5c8709c60040bbe198189b3e4e10a15ea181dda156fab5d2db45436e2fba1604",
+      "htmlSha256": "191494a450903e5c4a38c26f37fecd53abf23d63841d7f7b9024515c417e506f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "5371a3e924b478c169c18a6f03d6778140b95572764fabd48547ecd8acca085b",
+      "width": 1366,
+      "height": 11621,
+      "bytes": 1456045,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260910135203",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260910135203/https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260910135203/https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+      "timestamp": "20260910135203",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

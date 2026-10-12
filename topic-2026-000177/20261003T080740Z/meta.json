@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000177",
+  "url": "https://www.prnewswire.com/news-releases/aeon-launches-agentic-checkout-powered-by-ai-card-for-autonomous-commerce-302870306.html",
+  "capturedAt": "2026-10-03T08:07:40Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 206527,
+    "sha256": "d9242c456abcf33931e6f3ec94a83e19ef7691f543ee1a755c0176201941c0c9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A1C7EFBF0C0D90363BB4DF55101FC4B1",
+      "status": 200,
+      "url": "https://www.prnewswire.com/news-releases/aeon-launches-agentic-checkout-powered-by-ai-card-for-autonomous-commerce-302870306.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3576,
+      "afterScrollHeight": 3576,
+      "wantedHeight": 3576
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "94a06a7e21841b6c142c877c45dd662bd84492425691d5c7d6984509a0ba1b43",
+    "width": 1366,
+    "height": 3576,
+    "bytes": 548602,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3576,
+    "afterScrollHeight": 3576,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:07:40Z",
+    "url": "https://www.prnewswire.com/news-releases/aeon-launches-agentic-checkout-powered-by-ai-card-for-autonomous-commerce-302870306.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 206527,
+      "sha256": "d9242c456abcf33931e6f3ec94a83e19ef7691f543ee1a755c0176201941c0c9"
+    },
+    "finalUrl": "https://www.prnewswire.com/news-releases/aeon-launches-agentic-checkout-powered-by-ai-card-for-autonomous-commerce-302870306.html",
+    "httpStatus": 200,
+    "title": "AEON Launches Agentic Checkout, Powered by AI Card for Autonomous Commerce",
+    "rendered": {
+      "textChars": 7067,
+      "textSha256": "bb7e3475fd590f089bcf8e2d8a666d10094ae1391da282100a4a5709ec6dc0ef",
+      "htmlSha256": "270848cbf95771b9610c9b7a1a8edc0483aae40be02d1119e605fdcc062f12a4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "94a06a7e21841b6c142c877c45dd662bd84492425691d5c7d6984509a0ba1b43",
+      "width": 1366,
+      "height": 3576,
+      "bytes": 548602,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

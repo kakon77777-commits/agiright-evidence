@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000210",
+  "url": "https://www.axios.com/2026/09/19/justice-department-openai-new-york-times",
+  "capturedAt": "2026-10-03T08:17:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5898,
+    "sha256": "bd35461ef839fd0a959cbdcc52bfc03c266b8547a743bf4c457ac03b71364107",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E53233332EDB97C034B34E76E6901459",
+      "status": 403,
+      "url": "https://www.axios.com/2026/09/19/justice-department-openai-new-york-times",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a6e2b4f6f8d7978c137e322f66081faed112d95d3faf1f23726ef3e45207858c",
+    "width": 1366,
+    "height": 900,
+    "bytes": 28027,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:17:55Z",
+    "url": "https://www.axios.com/2026/09/19/justice-department-openai-new-york-times",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5898,
+      "sha256": "bd35461ef839fd0a959cbdcc52bfc03c266b8547a743bf4c457ac03b71364107"
+    },
+    "finalUrl": "https://www.axios.com/2026/09/19/justice-department-openai-new-york-times",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 261,
+      "textSha256": "50308ffa4a67b276b96db03c8bb33136c79ee587f36e5f9dced8103b5384eefb",
+      "htmlSha256": "8ee402515cbbcaa879b9f4b8d6fcafc7de3914a9290b061e97d817e17dc84d9d"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "a6e2b4f6f8d7978c137e322f66081faed112d95d3faf1f23726ef3e45207858c",
+      "width": 1366,
+      "height": 900,
+      "bytes": 28027,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260920013527",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260920013527/https://www.axios.com/2026/09/19/justice-department-openai-new-york-times"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260920013527/https://www.axios.com/2026/09/19/justice-department-openai-new-york-times",
+      "timestamp": "20260920013527",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

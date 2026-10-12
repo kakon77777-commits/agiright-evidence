@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000181",
+  "url": "https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/",
+  "capturedAt": "2026-10-03T08:08:57Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 189550,
+    "sha256": "46823944a8495ed5f27335a5312fc64aee8898a50a03d1fe34650dc8446cfc81",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B6B9631802D9628D2DC878C39AED3A5C",
+      "status": 200,
+      "url": "https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2151,
+      "afterScrollHeight": 2151,
+      "wantedHeight": 2151
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "42c6675fd7b48ae1af5d83979f0fc35bdbf4deb5172d1819f1b9474f0f505f4f",
+    "width": 1366,
+    "height": 2151,
+    "bytes": 533761,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2151,
+    "afterScrollHeight": 2151,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:08:57Z",
+    "url": "https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 189550,
+      "sha256": "46823944a8495ed5f27335a5312fc64aee8898a50a03d1fe34650dc8446cfc81"
+    },
+    "finalUrl": "https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/",
+    "httpStatus": 200,
+    "title": "AI Giants Work Hand-in-Hand With the Pentagon, Contracts Reveal",
+    "rendered": {
+      "textChars": 18060,
+      "textSha256": "473ba6d2c31f06f6dd7523f1e1b4264f1b333391ea9c5e73e73f01fbbde393d8",
+      "htmlSha256": "c2db16c3c340e1d9988487b0f021e4d80f1e94611141bab80f04b45879ba5b47"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "42c6675fd7b48ae1af5d83979f0fc35bdbf4deb5172d1819f1b9474f0f505f4f",
+      "width": 1366,
+      "height": 2151,
+      "bytes": 533761,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260908141006",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260908141006/https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260908141006/https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/",
+      "timestamp": "20260908141006",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

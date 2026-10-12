@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000192",
+  "url": "https://www.resultsense.com/news/2026-09-11-umg-elevenlabs-licensed-music-platform/",
+  "capturedAt": "2026-10-03T08:13:11Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 67568,
+    "sha256": "993c6d35da8b0be5d9d55d7bb8289b09c0efe14e1ce38a42038041e7c174f28e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E1170F5A59C9D1ACE76178BF2B8CA807",
+      "status": 200,
+      "url": "https://www.resultsense.com/news/2026-09-11-umg-elevenlabs-licensed-music-platform/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3170,
+      "afterScrollHeight": 3170,
+      "wantedHeight": 3170
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "db93d6740d2943daf36f32aecb605854eb3a1aa53f85eb3fe4d0d82e18b88cf7",
+    "width": 1366,
+    "height": 3170,
+    "bytes": 538407,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3170,
+    "afterScrollHeight": 3170,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:13:11Z",
+    "url": "https://www.resultsense.com/news/2026-09-11-umg-elevenlabs-licensed-music-platform/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 67568,
+      "sha256": "993c6d35da8b0be5d9d55d7bb8289b09c0efe14e1ce38a42038041e7c174f28e"
+    },
+    "finalUrl": "https://www.resultsense.com/news/2026-09-11-umg-elevenlabs-licensed-music-platform/",
+    "httpStatus": 200,
+    "title": "Universal Music and ElevenLabs agree AI music licensing deal",
+    "rendered": {
+      "textChars": 4954,
+      "textSha256": "f2c80decb738d710eb561908747c3660fd7429ccb86fbbaf5537bf82a941b022",
+      "htmlSha256": "88ea99ebeba51cd48b8520d77264b190820e151b3044927e4868b90445555b53"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "db93d6740d2943daf36f32aecb605854eb3a1aa53f85eb3fe4d0d82e18b88cf7",
+      "width": 1366,
+      "height": 3170,
+      "bytes": 538407,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

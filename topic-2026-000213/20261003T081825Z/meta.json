@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000213",
+  "url": "https://www.cbsnews.com/news/trump-vows-ai-force-czar-development/",
+  "capturedAt": "2026-10-03T08:18:25Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 624898,
+    "sha256": "c461698543f260849bbc53c3aa602b6fdc4b6978deac8081e1a337dfbab493ee",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "40A1D2AAE8F3D00E22000F1B136ADBCB",
+      "status": 200,
+      "url": "https://www.cbsnews.com/news/trump-vows-ai-force-czar-development/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3214,
+      "afterScrollHeight": 3214,
+      "wantedHeight": 3214
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "48e334259426ef3548b67b48afc73f91140999710db3a0fec1e58eb4988abae7",
+    "width": 1366,
+    "height": 3214,
+    "bytes": 712587,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3214,
+    "afterScrollHeight": 3214,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:18:25Z",
+    "url": "https://www.cbsnews.com/news/trump-vows-ai-force-czar-development/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 624898,
+      "sha256": "c461698543f260849bbc53c3aa602b6fdc4b6978deac8081e1a337dfbab493ee"
+    },
+    "finalUrl": "https://www.cbsnews.com/news/trump-vows-ai-force-czar-development/",
+    "httpStatus": 200,
+    "title": "Trump vows to form \"AI Force,\" says he won't allow slowdown of AI development - CBS News",
+    "rendered": {
+      "textChars": 3734,
+      "textSha256": "04b67880d98434238b8c5de96c099bbbe5cdb0a808b8d267bbb404f79c06e735",
+      "htmlSha256": "a8803d22a9195d11db481765653a9600ff7d9b0884a03e900fea376019dc515d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "48e334259426ef3548b67b48afc73f91140999710db3a0fec1e58eb4988abae7",
+      "width": 1366,
+      "height": 3214,
+      "bytes": 712587,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

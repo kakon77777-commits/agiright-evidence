@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000205",
+  "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+  "capturedAt": "2026-10-03T08:16:38Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 107059,
+    "sha256": "17ce173f20db4ae51e391e1562102d71f1e9672960fc9b1c06237d4e617f68ad",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5A85D0501EC69247A0E27B8EBD0E6B72",
+      "status": 200,
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3464,
+      "afterScrollHeight": 3464,
+      "wantedHeight": 3464
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "797430126454b13c806668f61d3d928215dace637fc3ba08ddb22f0d238ded2d",
+    "width": 1366,
+    "height": 3464,
+    "bytes": 438918,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3464,
+    "afterScrollHeight": 3464,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:16:38Z",
+    "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 107059,
+      "sha256": "17ce173f20db4ae51e391e1562102d71f1e9672960fc9b1c06237d4e617f68ad"
+    },
+    "finalUrl": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+    "httpStatus": 200,
+    "title": "Partnering with Accenture on embedded evaluation \\ Anthropic",
+    "rendered": {
+      "textChars": 5493,
+      "textSha256": "3d537cb45b409e82c38b2bbdd16fb4920ff8a8dc04a5c3b7a81c58eef6928eba",
+      "htmlSha256": "e35a9598f484c3511bf754334db15d2e28e033b6aea02558bb5307d8c1ce2f91"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "797430126454b13c806668f61d3d928215dace637fc3ba08ddb22f0d238ded2d",
+      "width": 1366,
+      "height": 3464,
+      "bytes": 438918,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260918201610",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260918201610/https://www.anthropic.com/news/accenture-embedded-evaluation"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260918201610/https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "timestamp": "20260918201610",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

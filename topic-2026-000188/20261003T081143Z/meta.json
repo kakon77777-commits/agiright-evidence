@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000188",
+  "url": "https://www.un.org/sustainabledevelopment/blog/2026/09/press-release-un-convening-explores-the-future-of-ai-human-development-and-human-dignity/",
+  "capturedAt": "2026-10-03T08:11:43Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 243208,
+    "sha256": "e2c5202ec56297e9d0d94a468b454c07a95a985620af6f7a3495085232b51c2d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C1C3711D9E5118AED7EB71CA2A0EDEF2",
+      "status": 403,
+      "url": "https://www.un.org/sustainabledevelopment/blog/2026/09/press-release-un-convening-explores-the-future-of-ai-human-development-and-human-dignity/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c014e247b6e76bb9f78d90c51fd5f24fc55f524506d011af839fc7df41dae52a",
+    "width": 1366,
+    "height": 900,
+    "bytes": 8884,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:11:43Z",
+    "url": "https://www.un.org/sustainabledevelopment/blog/2026/09/press-release-un-convening-explores-the-future-of-ai-human-development-and-human-dignity/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 243208,
+      "sha256": "e2c5202ec56297e9d0d94a468b454c07a95a985620af6f7a3495085232b51c2d"
+    },
+    "finalUrl": "https://www.un.org/sustainabledevelopment/blog/2026/09/press-release-un-convening-explores-the-future-of-ai-human-development-and-human-dignity/",
+    "httpStatus": 403,
+    "title": "403 Forbidden",
+    "rendered": {
+      "textChars": 13,
+      "textSha256": "58404bdf6dc25c24fedd979469e69bfb8dc9ebca64a469929a858a12b12b9c30",
+      "htmlSha256": "82d3edd2b884067e419a2caab78b38d42a8785821b77aa10064a0044d23d3f0a"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "c014e247b6e76bb9f78d90c51fd5f24fc55f524506d011af839fc7df41dae52a",
+      "width": 1366,
+      "height": 900,
+      "bytes": 8884,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003081212/https://www.un.org/sustainabledevelopment/blog/2026/09/press-release-un-convening-explores-the-future-of-ai-human-development-and-human-dignity/",
+      "timestamp": "20261003081212",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000207",
+  "url": "https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
+  "capturedAt": "2026-10-03T08:17:10Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 315506,
+    "sha256": "c4ab56030045d5161734523be5f95e666fbb7b72b60b39ab1d30b1a220335775",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "456AC97B2B4A7CCF0D0DC342663A8651",
+      "status": 200,
+      "url": "https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7160,
+      "afterScrollHeight": 7160,
+      "wantedHeight": 7160
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d43e3c9d663be19949ccec307b1e0932e042be5a08d32258323dc1fde6c36f35",
+    "width": 1366,
+    "height": 7160,
+    "bytes": 1318010,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7160,
+    "afterScrollHeight": 7160,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:17:10Z",
+    "url": "https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 315506,
+      "sha256": "c4ab56030045d5161734523be5f95e666fbb7b72b60b39ab1d30b1a220335775"
+    },
+    "finalUrl": "https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
+    "httpStatus": 200,
+    "title": "Governor Newsom signs new law to protect workers, require disclosures on AI-generated advertising | Governor of California",
+    "rendered": {
+      "textChars": 8792,
+      "textSha256": "3ac5cc5abe56e922e6a3aef7079b4e4df914779655a33af03e56240424282945",
+      "htmlSha256": "7fcf6aaa94b290c7a1502d411512a8fe852bf7bb5a3058f35141cb5b08a3f694"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d43e3c9d663be19949ccec307b1e0932e042be5a08d32258323dc1fde6c36f35",
+      "width": 1366,
+      "height": 7160,
+      "bytes": 1318010,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260917133911",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260917133911/https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260917133911/https://www.gov.ca.gov/2026/09/16/governor-newsom-signs-new-law-to-protect-workers-require-disclosures-on-ai-generated-advertising/",
+      "timestamp": "20260917133911",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

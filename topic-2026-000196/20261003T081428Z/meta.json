@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000196",
+  "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+  "capturedAt": "2026-10-03T08:14:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 235875,
+    "sha256": "4d71992c02ce1f768ea742d995d470a3f5e7e10a271ba4486fac15116bd59b13",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5A6FA06D032ED68C8344EC8F9C0ECDE3",
+      "status": 200,
+      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3941,
+      "afterScrollHeight": 6418,
+      "wantedHeight": 3941
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "417da13e2439d877bd51201de8bb6f2c3658aa1a916bc3b65e5cfdfff5fd771e",
+    "width": 1366,
+    "height": 3941,
+    "bytes": 999187,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 3941,
+    "afterScrollHeight": 6418,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:14:28Z",
+    "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 235875,
+      "sha256": "4d71992c02ce1f768ea742d995d470a3f5e7e10a271ba4486fac15116bd59b13"
+    },
+    "finalUrl": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+    "httpStatus": 200,
+    "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks | TechCrunch",
+    "rendered": {
+      "textChars": 5573,
+      "textSha256": "a82fdeec634424bc93005ba87fa10f3fb81ad48ff2aa513a0ce228c77df408ac",
+      "htmlSha256": "301d2e56f39e4fba67c7c1f774b9f839e04a0635f74d7517853bb98de3c550d4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "417da13e2439d877bd51201de8bb6f2c3658aa1a916bc3b65e5cfdfff5fd771e",
+      "width": 1366,
+      "height": 3941,
+      "bytes": 999187,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

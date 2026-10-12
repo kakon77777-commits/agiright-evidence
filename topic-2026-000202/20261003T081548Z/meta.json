@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000202",
+  "url": "https://www.ohchr.org/en/press-releases/2026/09/turk-calls-urgent-meaningful-action-tackle-unprecedented-ai-risks",
+  "capturedAt": "2026-10-03T08:15:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 6061,
+    "sha256": "937c83f0cdf474ce1451cfa5abddbed019d127e350e07948c8783d4ade10ed54",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F64A3B099DAAB06D09CFCBBF2F1AC1A4",
+      "status": 403,
+      "url": "https://www.ohchr.org/en/press-releases/2026/09/turk-calls-urgent-meaningful-action-tackle-unprecedented-ai-risks",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "03fa91d8ec8ddfc8ddcd02e7a10bba5646f40f775ad2c03715655801833db4c4",
+    "width": 1366,
+    "height": 900,
+    "bytes": 26218,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:15:48Z",
+    "url": "https://www.ohchr.org/en/press-releases/2026/09/turk-calls-urgent-meaningful-action-tackle-unprecedented-ai-risks",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 6061,
+      "sha256": "937c83f0cdf474ce1451cfa5abddbed019d127e350e07948c8783d4ade10ed54"
+    },
+    "finalUrl": "https://www.ohchr.org/en/press-releases/2026/09/turk-calls-urgent-meaningful-action-tackle-unprecedented-ai-risks",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 261,
+      "textSha256": "24c0c48a23d23a82dce1edb0ad067c8c1d08934e29d98b0311ae12a2eef57787",
+      "htmlSha256": "6d41a66fd9c041fa3a6b8934c3e0fcb96d4d2e29e26f9ad084419d20ba7c33c3"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "03fa91d8ec8ddfc8ddcd02e7a10bba5646f40f775ad2c03715655801833db4c4",
+      "width": 1366,
+      "height": 900,
+      "bytes": 26218,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

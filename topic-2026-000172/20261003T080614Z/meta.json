@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000172",
+  "url": "https://gvwire.com/2026/09/02/justice-dept-sides-with-openai-in-new-york-times-copyright-suit/",
+  "capturedAt": "2026-10-03T08:06:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 1675,
+    "sha256": "3f9caf35d24886f9527cb9903df397b4a02533df0489510065a756ef69f0de39",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1B9A25DB7517D7C1742096DA77C547AC",
+      "status": 403,
+      "url": "https://gvwire.com/2026/09/02/justice-dept-sides-with-openai-in-new-york-times-copyright-suit/?ki-cf-botcl=1",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "11aa54366ac2a371764c087ddf64c6d250f6dcbe359cb7c7e116293220e1b4de",
+    "width": 1366,
+    "height": 900,
+    "bytes": 26401,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:06:14Z",
+    "url": "https://gvwire.com/2026/09/02/justice-dept-sides-with-openai-in-new-york-times-copyright-suit/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1675,
+      "sha256": "3f9caf35d24886f9527cb9903df397b4a02533df0489510065a756ef69f0de39"
+    },
+    "finalUrl": "https://gvwire.com/2026/09/02/justice-dept-sides-with-openai-in-new-york-times-copyright-suit/?ki-cf-botcl=1",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 258,
+      "textSha256": "b9dbe37d51f7f7334293c5ab72c58f702d0aa428a86cc220b3f0c4f0f3d84a90",
+      "htmlSha256": "ff22d805cccd5a5c57e4185bb8e93dcf1ce50ff466004f0739316d4011612cf1"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "11aa54366ac2a371764c087ddf64c6d250f6dcbe359cb7c7e116293220e1b4de",
+      "width": 1366,
+      "height": 900,
+      "bytes": 26401,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

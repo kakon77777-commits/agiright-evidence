@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000193",
+  "url": "https://microsoft.ai/code-of-conduct/",
+  "capturedAt": "2026-10-03T08:13:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 351321,
+    "sha256": "bd37d1e2f42b320437c1fc47aa1fa8268ddaa3c4f4d8c106a3919e4731625b3a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5A67DEF5C19707654267A2D36DB34E6F",
+      "status": 200,
+      "url": "https://microsoft.ai/code-of-conduct/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 51166,
+      "afterScrollHeight": 51166,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "221a6af7eb0cdeb22f3a0bd0f333d35ff5961cb907f3350c4a18b0a82231e389",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 2887199,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 51166,
+    "afterScrollHeight": 51166,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:13:14Z",
+    "url": "https://microsoft.ai/code-of-conduct/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 351321,
+      "sha256": "bd37d1e2f42b320437c1fc47aa1fa8268ddaa3c4f4d8c106a3919e4731625b3a"
+    },
+    "finalUrl": "https://microsoft.ai/code-of-conduct/",
+    "httpStatus": 200,
+    "title": "Humanist AI Code of Conduct | Microsoft AI",
+    "rendered": {
+      "textChars": 100262,
+      "textSha256": "3481e628d85d4676bacfc3e67523264eb28d75cbc277c8755b713f1038ce8f10",
+      "htmlSha256": "c2245aed252cfa8762abf0bfe47d4c95cf479153384f5c248b2402168da20f1c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "221a6af7eb0cdeb22f3a0bd0f333d35ff5961cb907f3350c4a18b0a82231e389",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 2887199,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260914140146",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260914140146/https://microsoft.ai/code-of-conduct/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260914140146/https://microsoft.ai/code-of-conduct/",
+      "timestamp": "20260914140146",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

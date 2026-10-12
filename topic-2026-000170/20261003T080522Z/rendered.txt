@@ -1,0 +1,428 @@
+Skip to main content
+Security
+Products
+Solutions
+Pricing
+Services
+Partners
+Why Microsoft Security
+More
+All Microsoft
+Light
+Dark
+
+Discover what’s coming to Microsoft Ignite, Nov 17-20, 2026. Register now.
+
+Blog home
+ASCII smuggling crosses over from AI prompt injection to phishing evasion
+Search
+Research
+September 3
+17 min read
+ASCII smuggling crosses over from AI prompt injection to phishing evasion
+By Microsoft Security Research
+, view all posts by this author
+, Noam Kochavi
+, view all posts by this author
+ and Sarah Wolstencroft
+, view all posts by this author
+Listen to this post
+0:00
+0:00
+/
+0:00
+1X
+SHARE
+TAGS
+Phishing
+Social engineering
+CONTENT TYPES
+Research
+PRODUCTS AND SERVICES
+Microsoft Defender
+TOPICS
+Actionable threat insights
+Show more
+In this article
+What is ASCII smuggling?
+Writing a practical ASCII-smuggling signature
+What we observed: ASCII smuggling repurposed for phishing
+What is known and what is new
+Is there a detection gap?
+Mitigation and protection guidance
+References
+Learn More
+
+Microsoft researchers observed a high-volume phishing campaign using invisible Unicode tag characters, a technique popularized in AI prompt injection research as ASCII Smuggling. Instead of using these characters to hide instructions from people while exposing them to AI models, the attacker used them to split financial lure words such as ‘funding’ to prevent email filters from parsing them.
+
+The finding emerged from Microsoft Defender for Office 365 prompt injection protection research, showing how AI-era evasion techniques can surface in traditional phishing campaigns. In Microsoft telemetry, hits on a hunting signature designed to detect ASCII-smuggling increased sharply beginning February 9, 2026, and remained elevated on weekdays for approximately three months. Microsoft Defender for Office 365 telemetry showed that the majority of messages were flagged by layered protections rather than by reliance on a single Unicode-specific signal.
+
+What is ASCII smuggling?
+
+“ASCII smuggling” refers to the use of invisible or non-rendering Unicode characters to hide content inside text that looks normal. The most abused range is the Unicode Tags block, U+E0000 to U+E007F. This block contains a shadow copy of the printable ASCII characters (for example, U+E0041 mirrors ‘A’, U+E0061 mirrors ‘a’). The block was originally intended for language tagging and is now largely deprecated.
+
+The important property for an attacker is this: most of these code points are not rendered by typical fonts and user interfaces. A string can therefore carry a message that is not readable to a human but will be processed by any language model or other software that receives a copy of the email content.
+
+Why the AI-security world made it famous
+
+Over the past year, ASCII smuggling became a recurring technique in the prompt injection and cross-prompt injection (XPIA) literature. The attack pattern is straightforward:
+
+An attacker hides instructions inside invisible tag characters embedded in a web page, document, email, or other content.
+A human (and many user interfaces) sees nothing unusual.
+An AI assistant that ingests the raw text does “see” the hidden characters, decodes them as text, and may be induced to follow threat actor-controlled instructions, potentially including data exposure or unauthorized actions depending on the assistant’s permissions and safeguards.
+
+Because this technique cleanly demonstrates the gap between what the human sees and what the model reads, it appeared frequently in AI red-teaming write-ups, conference talks, and tooling throughout 2025. That attention put a spotlight on the U+E0000-U+E007F range.
+
+Because tag characters are invisible to humans but exist at the text-processing level, the same property that makes them useful for smuggling instructions into a model also makes them useful for obfuscating keywords before a detector evaluates them. The intent is inverted, but the mechanism is similar and a user’s suspicions are not raised.
+
+Writing a practical ASCII-smuggling signature
+
+As part of work on Microsoft Defender for Office 365 prompt injection protection, we built hunting logic for email-borne XPIA and prompt obfuscation patterns: content that looks harmless to users but may carry hidden instructions for an AI system that ingests the raw message. The same hunt designed to identify prompt injection risk in email became the starting point for this phishing-evasion discovery.
+
+One practical way to hunt for ASCII smuggling is to look for messages carrying characters from the Unicode tags block (U+E0000-U+E007F), the hallmark of attempts to hide instructions from, or for, an AI model. That broad signature is a useful starting point, but it needs enough Unicode context to avoid mistaking legitimate tag-character sequences for abuse.
+
+The first version simply flagged any code point in that range, which proved too blunt. It kept firing on a small subset of perfectly legitimate messages – which, on inspection, all contained one of three subdivision flag emojis: the flags of England, Scotland, and Wales – because those emojis are encoded using tag characters.
+
+After those exclusions, remaining hits were mostly benign artifacts from email-security gateways, mailbox providers, and security or AI researchers forwarding or testing messages that contained tag characters. This provided a good baseline where any spikes would indicate abuse of this technique by attackers.
+
+Figure 1. The three subdivision flag emojis – England, Scotland, and Wales – that tripped the naive signature. Each is encoded as a sequence of invisible Unicode tag characters (U+E0000-U+E007F).
+
+Figure 2. The Wales flag emoji pasted into the ASCII Smuggler tool from Embrace The Red. What renders as a single flag is actually a base flag code point (U+1F3F4) followed by an invisible tag-character sequence spelling gbwls (U+E0067 U+E0062 U+E0077 U+E006C U+E0073) and a terminating tag (U+E007F) – the same U+E0000-U+E007F range the signature watches for.
+
+What we observed: ASCII smuggling repurposed for phishing
+New activity emerges in telemetry
+
+The tuned ASCII-smuggling signature began as an AI-security hunt for hidden prompt injection content in email. Instead, it surfaced finance-themed phishing messages using the same Unicode range for filter evasion.
+
+On February 9, 2026, signature hits increased sharply. The following chart reflects Microsoft Defender for Office 365 telemetry for the hunting signature over the measured period:
+
+Figure 3. Daily hits on the ASCII smuggling signature, a week before and after onset. Volume holds at a low-thousands baseline through February 8, jumps roughly two orders of magnitude on February 9, peaks at over 2.3 million messages on February 11, and dips sharply on Sunday February 15 before rebounding.
+
+The day before onset (February 8) the signature fired on roughly 21,000 messages; the next day it fired on more than 1.3 million. Most of the emails can be formed into a cluster of roughly 150 finance-themed sender domains.
+
+Observed over three months with a weekly rhythm
+
+Continuing to track the clustered sender domains forward in time, we measured messages matching the activity described every day. The high-volume phase persisted for roughly three months after February 9 and dropped sharply after May 15, 2026. These dates bound the observed use of the specific technique in our telemetry, not the broader campaign, which started earlier without it and continued without it.
+
+Figure 4. Daily Unicode-tag signature hits on finance-themed sender domains, log scale, measured every day from February 9 through June 18, 2026. The deep recurring drops are weekend pauses in the observed signature matches; the decline after May 15 marks the end of the high-volume phase matching this exact activity, followed by a low residual.
+
+Two characteristics stand out:
+
+A strict weekly cadence. The campaign ran hard on weekdays and went almost completely silent every weekend. Sundays’ volume collapsed to a near-zero and then back to full volume the next day. This on/off pattern is typical of scheduled bulk-sending infrastructure.
+A long, gradual decline. After an intense first phase, with weekday volumes of 1 to 2.37 million messages, peaking on February 26, the numbers stepped down slowly to roughly 80% less per weekday by late March. The high-volume usage of the technique dropped sharply after May 15, with lower residual activity through mid-June and occasional smaller spikes.
+
+After identifying the activity through this technique-specific signal, we connected it to a broader ActiveCampaign-delivered SBA-themed phishing campaign that Fortra had documented earlier. That earlier reporting indicates the campaign predated the adoption of Unicode tag characters; our analysis focuses on the period and messages in which this method was present, not the full lifetime of the broader campaign.
+
+Not instruction smuggling, but filter evasion
+Observed obfuscation pattern
+
+When we looked at a sampling of the flagged messages, the surprise was there were no smuggled instructions to an AI assistant. Instead, the invisible tag characters were inserted inside common financial keywords, splitting them apart so that a literal signature or keyword match would fail.
+
+Figure 5. Example of a finance-themed phishing email promoting business funding and credit-line offers.
+Figure 6. A second example of a finance-themed phishing email advertising business funding and line-of-credit offers. Similar messages in the campaign inserted invisible Unicode tag characters into financial lure terms to help evade detection.
+
+For example, a finance lure term that appeared normal to the recipient could be transmitted with an invisible tag character in the middle:
+
+funding
+
+became:
+
+fun⟨U+E0020⟩ding
+
+Figure 7. Example of the HTML source of a phishing email from the observed campaign. The yellow rectangles highlight invisible Unicode tag characters.
+
+Here, ⟨U+E0020⟩ represents the invisible Unicode TAG SPACE inserted between letters. In the messages we examined, the campaign did not encode a hidden ASCII message in the tag block; it used a single invisible tag character as a separator sprinkled inside high-signal words. Strictly speaking, this is invisible-character insertion using a code point from the ASCII-smuggling tag block, rather than full message smuggling.
+
+Why it can affect detection
+
+To a recipient, and to parsing pipelines that drop or normalize these characters, the word still reads as funding. To a detector matching the literal string funding, or a regex that does not account for interleaved invisible code points, the byte sequence no longer contains the contiguous keyword. Whether real-world detectors behave that way depends on their normalization step, which is examined below.
+
+The bigger prize for the attacker, though, is not preventing the literal string matches; it is the ML- and NLP-based models that increasingly drive modern spam and phishing classification. Unless a filtering system takes a picture of a message and does OCR extraction over the visual image, it may miss this type of attack. A standard email classifier may not reason over whole words exactly as a human sees them; for efficiency, they can first split text into tokens or sub-word pieces. A clean lure term such as funding may be represented as a familiar token or a familiar sequence of sub-tokens. Insert an invisible U+E0020 into the middle, however, and the tokenizer may no longer see that same familiar unit. It might split the text into fun, an unexpected tag character, and ding; it might emit rare or unknown sub-tokens; or, if normalization runs first, it simply removes the U+E0020 character, leaving funding.
+
+Why it can help defenders
+
+There is also a defensive opportunity. Since this kind of manipulation appears so seldom in normal traffic, its presence becomes a high-confidence signal. A technique meant to make messages look more benign to ML models can instead give defenders a low-false-positive indicator to detect on.
+
+What is known and what is new
+
+Inserting invisible or look-alike characters to break keyword and signature matching is a long-standing evasion technique used in spam and phishing: defenders have for years seen zero-width spaces (U+200B), zero-width non-joiners, the no-break space (U+00A0), soft hyphens, and homoglyph substitutions used to fracture words so naive string matchers fail.
+
+What is new is the specific characters and scale of the campaign:
+
+The character choice. Instead of the usual zero-width space or NBSP, this campaign reached for the Unicode Tags block. That block went from forgotten to famous over the past year because of AI security research into ASCII smuggling and prompt injections.
+The scale and discipline. At its peak in Microsoft telemetry, the campaign generated multi-million message daily volume.
+A possible detection blind spot. Because the Unicode Tags block is less commonly abused than zero-width spaces or NBSP, defenders should verify that normalization and tokenization pipelines handle tag characters consistently.
+Financially themed sending domains
+
+The campaign ran on hundreds of disposable, finance-themed sender domains with lures that resembled business loan, line-of-credit, and advance-funding phishing patterns often associated with fraud or credential-harvesting funnels. This pattern accounted for roughly 96% of the volume flagged by the hunting signature. The signature also fired on other domains, but those were unrelated senders – chiefly email-security gateways and personal mailbox providers – not part of the campaign.
+
+A partial sample of sender domains counts from February 9, 2026 alone illustrates both the naming pattern and the per-domain volume:
+
+Sender domain	Hits (Feb 9, 2026)
+guardiangrowthfunding[.]com	30,442
+digitalcapitalboost[.]com	27,021
+thebusinessloanexpress[.]com	25,048
+yourlocfunding[.]com	24,482
+advancefundingboost[.]com	24,053
+guardiancapitalway[.]com	23,921
+harboradvancefunding[.]com	23,595
+unitedfundingwave[.]com	23,269
+directcapitalboost[.]com	22,875
+onlinedirectfinance[.]com	21,195
+catalystcapitalharbor[.]com	21,130
+rocketboostfunding[.]com	20,908
+digitalrushcapital[.]com	20,796
+guardianloccapital[.]com	20,781
+guardianlocchoice[.]com	20,553
+ourbusinessloans[.]com	20,444
+directcapitalpulse[.]com	19,767
+catalystboostfunding[.]com	19,519
+elevatecapitalrush[.]com	19,395
+fundingexpresscapital[.]com	18,695
+
+Table 1. Top 20 (by signature hits) of the 148 finance-themed campaign sender domains seen on February 9, 2026, illustrating the naming convention and per-domain volume.
+
+Every domain is just a recombination of the same small vocabulary. The 20 domains above are built from only 28 word-tokens:
+
+advance · boost · business · capital · catalyst · choice · digital · direct · elevate · express · finance · funding · growth · guardian · harbor · loan · loans · loc · online · our · pulse · rocket · rush · the · united · wave · way · your
+Sent through a legitimate email-marketing platform
+
+The finance-themed domains in Table 1 are the brand (header / P2) domains the recipient sees, but the actual mail was relayed through infrastructure associated with the legitimate email-marketing platform ActiveCampaign. The platform, which is used widely for marketing, rewrites every outbound link in the message body to route through its own click-tracking domains (acemlnd[.]com and activehosted[.]com), so the URLs the recipient clicks do not point at the brand domain at all – they look like:
+
+hxxps://＜account-id＞.acemlnd[.]com/＜tracking-token＞
+hxxps://＜brand-subdomain＞.activehosted[.]com/＜tracking-token＞
+
+Most of the flagged messages carried links associated with the platform’s tracking domains rather than direct links that point directly to the sender-branded domains. The envelope (P1) senders were platform subdomains of the form em-<id>.<brand-domain>.
+
+ActiveCampaign response
+
+Before we published this information, we shared our findings with ActiveCampaign to help them with this abuse, and they wanted us to share the following statement on their work to detect it:
+
+“We appreciate Microsoft’s research and welcome collaboration with the security community to combat this activity. We take abuse, fraud, and security extremely seriously. We tested the specific technique described in this research against our content-moderation systems: messages containing invisible Unicode characters receive the same moderation verdicts as their unobfuscated equivalents, and heavy use of the technique is itself treated as a suspicious signal. We continually invest in improving our detection and prevention capabilities, including expanding our use of AI and machine learning to identify abusive sending behavior earlier in the account lifecycle.” — ActiveCampaign spokesperson
+
+As with any shared sending service, attacker abuse of customer accounts or workflows can complicate reputation-based filtering. By originating from a reputable marketing platform with established IP reputation and authentication, the activity may appear more similar to legitimate marketing traffic and can complicate reputation-based filtering.
+
+Most observed volume also originated from cloud-hosting ranges consistent with the platform’s outbound infrastructure, with the vast majority coming froma single network block, 173.236.20[.]0/24. This indicator helped us cluster the campaign more precisely but note that this is a legitimate segment that belongs to the abused service, and not an IOC on its own.
+
+Identifying the campaign
+
+Content and infrastructure remained consistent for a long time span, providing an effective way to easily fingerprint this phase of the campaign:
+
+Unicode content (primary). Invisible Unicode tag characters in the range U+E0000-U+E007F – specifically U+E0020 – spliced inside keywords. Legitimate mail rarely ever carries these code points: the one routine exception, the England/Scotland/Wales flag emojis, is easily excluded.
+Lure and brand pattern. Sender (header / P2) domains assembled from a small finance vocabulary – capital, fund/funding, loan, loc, lend, finance, business, express, growth, solutions, choice, hedge, pillar – recombined into fresh, disposable domains and rotated.
+Envelope (P1) pattern. The bulk of mail is relayed through a single email-marketing platform, recognizable by envelope shape rather than any one name:
+per-account subdomains shaped em-<digits>.<brand-domain> (regex em-\d+\.), where a small set of reused account numbers fans out across hundreds of brand domains; and
+the platform’s shared sending pool, shaped acems<N>[.]com and emsd<N>[.]com (e.g. emsd4[.]com, s9.acems10[.]com). Across the measured activity, ~98.5% of messages matched this envelope pattern, and ~99.8% matched the envelope pattern or the platform’s tracking-URL pattern (below).
+Tracking-URL pattern. Click/tracking links on the platform’s domains activehosted[.]com and acemlnd[.]com.
+Sending-origin pattern. The bulk of daily volume – about 92% across two measured weeks – originated from a single /24 network block, 173.236.20[.]0/24.
+
+For a high-precision rule, look for the Unicode content pattern combined with the finance-brand pattern, using the sender infrastructure patterns as corroboration.
+
+However, this is just a phase in a long-running broader campaign, that keeps adapting and evolving. The campaign was observed months earlier following a different set of behaviors and continued even after the usage of the specific technique was dropped. During these shifts in behavior, one signature may no longer describe the campaign, while another still matches.
+
+Is there a detection gap?
+
+The potential gap for mail-defense pipelines is whether Unicode tag characters are normalized or flagged before content detections run. In Defender, our filter stack can take a picture of message contents, extract visible text through OCR, and run analysis over that extracted text to avoid these types of tricks. Implementations vary, so defenders should test how these characters are handled in their own pipelines. For MDO protection, over 99% of messages were flagged by layers that did not depend on catching the tag characters directly, including sender, IP, URL and domain reputations, ML spam/phishing classification, brand-impersonation detection, authentication checks and more.
+
+Emerging techniques don’t stay in one domain
+
+ASCII smuggling earned its reputation as an AI attack, hiding instructions from people while leaving them visible to models. This campaign shows the same technique being repurposed for a different objective: obscuring phishing content from detection systems while remaining readable to the intended target.
+
+The broader lesson is that security techniques rarely stay confined to a single domain. As AI-era attack methods become better understood, threat actors may adapt them for use in more traditional threats such as phishing and spam. This case illustrates how techniques that emerge in AI security research can quickly cross over into established attack ecosystems, reinforcing the need for defenders to view emerging threats through a cross-domain lens.
+
+Mitigation and protection guidance
+
+The core defensive principle is simple: normalize before you match. Any content that will be evaluated by keyword, signature, or regex logic should first have invisible and non-rendering Unicode code points stripped or folded, so that splicing them into a word no longer defeats the match.
+
+Recommended controls
+Strip or normalize Unicode tag characters (U+E0000-U+E007F) – and other zero-width / invisible code points – from email subject and body text before applying spam and phishing content signatures.
+Treat the presence of tag-block characters as a strong anomaly signal. Outside known legitimate tag-sequence uses such as certain subdivision flag emojis, these code points are rare in ordinary mail and can be a high-value anomaly signal.
+Look for the behavioral fingerprint. The observed activity had a distinctive shape: bulk volume from churning, finance-themed disposable domains, on a strict weekday-on / weekend-off schedule. A sudden spike of tag-block characters concentrated on finance-themed senders, switching on and off weekly, is a high-confidence campaign indicator.
+Apply the same normalization upstream of AI ingestion. The same control that defeats this evasion also reduces XPIA / ASCII-smuggling exposure for AI assistants that ingest email content.
+Microsoft protections
+
+Microsoft Defender for Office 365 has heuristic detections in place to flag these the tactics employed in this type of campaign. The detection that first surfaced the spike continues to flag messages carrying Unicode tag-block characters, and the financially themed sending domains are being tracked and blocked as they rotate. Microsoft uses layered email protections, including standard and OCR content analysis, sender and domain reputation, URL detonation and reputation, bulk-mail detection, and anti-phishing models, to reduce reliance on any single signal that an attacker can try to evade.
+
+Microsoft Defender for Office 365 prompt injection protection further helps protect against emails that contain prompt injection attempts, including cases where invisible characters are used to hide instructions from users while exposing them to AI systems. The same normalization and detection principles that reduce ASCII-smuggling-based prompt injection risk also help blunt this email-borne reuse of the technique for phishing evasion. Investments in AI security and traditional email security increasingly reinforce one another.
+
+Coverage depends on product licensing, configuration, and telemetry.
+
+Advanced hunting
+
+These queries run against the EmailEvents Advanced Hunting table (and EmailUrlInfo for URL joins). They hunt the campaign by its infrastructure fingerprint – the finance-vocabulary brand senders and the marketing-platform envelope shape – rather than by the invisible tag characters, as the mail body is not exposed through the table’s columns. These queries are starting points and may require environment-specific tuning. The proactive defense is implemented with multiple layers of the enterprise mail-filtering pipeline.
+
+1. Infrastructure pattern – finance-vocabulary senders relayed with the campaign’s envelope shape. Combines the brand-domain pattern (a header sender built from three or more adjacent finance/brand keywords, e.g. digital+capital+boost) with the envelope (MAIL FROM) shape em-<digits> / acems<digits> / emsd<digits> – the durable fingerprint that held across the entire period we measured.
+
+// Finance/brand vocabulary the operator recombines into disposable domains.
+let kwds = @"(capital|fund|hedge|express|solutions|choice|lend|growth|loan|loc|finance|business|pillar|advance|boost|catalyst|digital|direct|elevate|guardian|harbor|online|pulse|rocket|rush|united|wave|way|surge|swift|elite)";
+EmailEvents
+| where Timestamp > ago(30d)
+| where EmailDirection == "Inbound"
+// Header sender domain made of 3 or more adjacent finance/brand tokens.
+| where SenderFromDomain matches regex strcat("(?i)", kwds, kwds, kwds)
+// Envelope (MAIL FROM) shape: em-[digits] | acems[digits] | emsd[digits].
+| where SenderMailFromDomain matches regex @"(?i)(em-|acems|emsd)\d"
+| sort by Timestamp desc
+
+For extra corroboration you can scope to the single dominant /24 that carried the bulk of this campaign’s volume, 173.236.20[.]0/24, by adding | where ipv4_is_in_range(SenderIPv4, “173.236.20.0/24”). Like the tracking URLs, that network block is shared platform space (it also carries unrelated legitimate newsletters), so use it to scope, never as a standalone filter.
+
+2. Pivot on the platform tracking URLs. Start from the click/tracking links and join back to the mail events. Useful for scoping, but treat it as corroboration, not a verdict: the tracking domains activehosted[.]com and acemlnd[.]com are shared by every legitimate customer of the same marketing platform, so the URL on its own is not a malicious indicator. The finance-brand filter is what keeps this on the campaign; drop it only if you deliberately want a wider search.
+
+let kwds = @"(capital|fund|hedge|express|solutions|choice|lend|growth|loan|loc|finance|business|pillar|advance|boost|catalyst|digital|direct|elevate|guardian|harbor|online|pulse|rocket|rush|united|wave|way|surge|swift|elite)";
+EmailEvents
+| where Timestamp > ago(30d)
+| where EmailDirection == "Inbound"
+| where SenderFromDomain matches regex strcat("(?i)", kwds, kwds, kwds)
+| join kind=inner (
+    EmailUrlInfo
+    | where Timestamp > ago(30d)
+    | where UrlDomain endswith "activehosted.com" or UrlDomain endswith "acemlnd.com"
+    | distinct NetworkMessageId
+  ) on NetworkMessageId
+| sort by Timestamp desc
+
+3. Filter for prompt injection detection in emails
+
+The feature used in the query below is available for Microsoft Defender for Office 365 Plan 2 or Microsoft 365 E5 customers.
+
+EmailEvents
+| where DetectionMethods has "Prompt Injection Protection"
+MITRE ATT&CK techniques observed
+
+This campaign exhibits the following MITRE ATT&CK® techniques. The table includes MITRE ATT&CK for phishing/evasion behavior and MITRE ATLAS for the AI-security technique class related to prompt obfuscation.
+
+Tactic	Technique ID	Technique	How it presents in this campaign
+Initial Access	T1566	Phishing	Bulk financial-lure spam and phishing email (business loan / line-of-credit / advance-funding offers) sent from disposable, finance-themed domains.
+Defense Evasion	T1027	Obfuscated Files or Information	Invisible Unicode tag characters (U+E0000-U+E007F) spliced into high-signal keywords to break signature and keyword matching and alter downstream tokenization.
+Defense Evasion (AI)	AML.T0068	LLM Prompt Obfuscation
+Indicators and hunting pivots
+Indicator	Type	Description
+Characters in range U+E0000-U+E007F in email subject/body	Content pattern	Unicode tag-block characters spliced into spam/phishing keywords to evade signatures
+Finance-themed disposable domains (capital, fund, funding, loan, loc, lend, finance, business, express, growth, solutions, choice, pillar)	Sender domain pattern	Bulk-registered, rotating sender domains used by the campaign. See representative sample in Table 1.
+Envelope (P1) sender shaped em-<digits>.<brand> or shared pool acems<N>[.]com / emsd<N>[.]com	Infrastructure pattern	Reputation-laundering relay through a legitimate email-marketing platform
+Sending IPv4 block 173.236.20[.]0/24	Infrastructure (IPv4)	Single /24 that carried ~92% of the measured activity volume; legitimate shared email-marketing-platform egress space – a strong scoping/corroboration signal, not a standalone block indicator
+References
+Unicode Standard Annex #45 – Tags (U+E0000-U+E007F) – the deprecated Unicode tags block abused for ASCII smuggling
+ASCII Smuggler Tool: Crafting Invisible Text and Decoding Hidden Codes | Embrace The Red – public write-up showing how Unicode tag characters can hide text from users while remaining present to language models
+LLM Prompt Obfuscation | MITRE ATLAS™ – the AI-security technique class this evasion crossed over from
+Attackers exploit ActiveCampaign to deliver thousands of AI-generated SBA phish | Fortra – earlier reporting on the broader ActiveCampaign-delivered SBA-themed phishing campaign, before the Unicode tag-character evolution examined here
+Learn More
+
+For the latest security research from the Microsoft Threat Intelligence community, check out the Microsoft Threat Intelligence Blog.
+
+To get notified about new publications and to join discussions on social media, follow us on LinkedIn, X (formerly Twitter), and Bluesky.
+
+To hear stories and insights from the Microsoft Threat Intelligence community about the ever-evolving threat landscape, listen to the Microsoft Threat Intelligence podcast.
+
+Review our documentation to learn more about our real-time protection capabilities and see how to enable them within your organization.  
+
+Learn more about securing Copilot Studio agents with Microsoft Defender 
+Evaluate your AI readiness with our latest Zero Trust for AI workshop.
+Microsoft 365 Copilot AI security documentation
+How Microsoft discovers and mitigates evolving attacks against AI guardrails
+Manipulating AI memory for profit: The rise of AI Recommendation Poisoning | Microsoft Security Blog – a related example of an AI-era technique observed in email traffic
+Defending the inbox against prompt injection attacks | Microsoft Defender for Office 365 Blog – feature announcement introducing prompt injection protection in Microsoft Defender for Office 365.
+Prompt injection protection in Microsoft Defender for Office 365 – official documentation of the prompt injection protection in Microsoft Defender for Office 365.
+How Microsoft discovers and mitigates evolving attacks against AI guardrails | Microsoft Security Blog
+
+Microsoft Security Research
+See posts by this author
+Noam Kochavi
+
+Security Researcher II
+
+See posts by this author
+Sarah Wolstencroft
+
+Senior Security Researcher
+
+See posts by this author
+Related posts
+September 30
+20 min read
+Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570
+Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance.
+September 29
+14 min read
+Phishing Abuses RMM Tools for Persistent Access
+Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity
+September 29
+20 min read
+Star Blizzard refines phishing and malware delivery with the RedFlick technique
+Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as “RedFlick”.
+Get started with Microsoft Security
+
+Protect your people, data, and infrastructure with AI-powered, end-to-end security from Microsoft.
+
+Learn how
+
+Connect with us on social
+
+X
+YouTube
+LinkedIn
+What's new
+Surface Pro
+Surface Laptop
+Surface Laptop Ultra
+Surface RTX Spark Dev Box
+Explore Copilot
+Explore Microsoft products
+Windows 11 apps
+Microsoft Store
+Account profile
+Download Center
+Microsoft Store support
+Returns
+Order tracking
+Certified Refurbished
+Microsoft Store Promise
+Flexible Payments
+Education
+Microsoft in education
+Devices for education
+Microsoft Teams for Education
+Microsoft 365 Education
+How to buy for your school
+Educator training and development
+Deals for students and parents
+AI for education
+Business
+Microsoft AI
+Microsoft Security
+Dynamics 365
+Microsoft 365
+Microsoft Power Platform
+Microsoft Teams
+Microsoft Copilot
+Small Business
+Developer & IT
+Azure
+Microsoft Developer
+Microsoft Learn
+Support for AI marketplace apps
+Microsoft Tech Community
+Microsoft Marketplace
+Software companies
+Visual Studio
+Company
+Careers
+About Microsoft
+Company news
+Privacy at Microsoft
+Investors
+Diversity and inclusion
+Accessibility
+Sustainability
+English (United States)
+Your Privacy Choices
+Consumer Health Privacy
+Sitemap
+Contact Microsoft
+Privacy
+Terms of use
+Trademarks
+Safety & eco
+Recycling
+About our ads
+© Microsoft 2026

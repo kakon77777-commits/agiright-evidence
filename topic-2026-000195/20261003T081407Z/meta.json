@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000195",
+  "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/09/14/top-ai-companies-have-discussed-creating-their-own-standards-body/",
+  "capturedAt": "2026-10-03T08:14:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 313899,
+    "sha256": "d3b329274099c295bc770b4552592d6ebfaf76a89cc0ca97c68381244f51ba77",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "52D013EB5434B00FA85F395FAF6264FB",
+      "status": 200,
+      "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/09/14/top-ai-companies-have-discussed-creating-their-own-standards-body/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6612,
+      "afterScrollHeight": 6559,
+      "wantedHeight": 6559
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6a9f8ab18bd85ba99fc1608cea0ed4586014d3f03df0283c6709bc107eac9f6b",
+    "width": 1366,
+    "height": 6559,
+    "bytes": 2302822,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6612,
+    "afterScrollHeight": 6559,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:14:07Z",
+    "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/09/14/top-ai-companies-have-discussed-creating-their-own-standards-body/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 313899,
+      "sha256": "d3b329274099c295bc770b4552592d6ebfaf76a89cc0ca97c68381244f51ba77"
+    },
+    "finalUrl": "https://kvia.com/news/business-technology/cnn-business-consumer/2026/09/14/top-ai-companies-have-discussed-creating-their-own-standards-body/",
+    "httpStatus": 200,
+    "title": "Top AI companies have discussed creating their own standards body - KVIA",
+    "rendered": {
+      "textChars": 5972,
+      "textSha256": "dd48acd09febf34a4cb69c400e4f83430c2fa6cdd5b01e4a0383c44b2788a780",
+      "htmlSha256": "fa52a296fa4732560d305389c63ed43e9f2bb053a51ac4883220b9c5f9e20007"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6a9f8ab18bd85ba99fc1608cea0ed4586014d3f03df0283c6709bc107eac9f6b",
+      "width": 1366,
+      "height": 6559,
+      "bytes": 2302822,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

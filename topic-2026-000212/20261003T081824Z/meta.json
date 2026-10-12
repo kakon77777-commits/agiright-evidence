@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000212",
+  "url": "https://www.hawley.senate.gov/chairman-hawley-launches-investigation-into-openai-for-hacking-existential-risk-of-ai-products/",
+  "capturedAt": "2026-10-03T08:18:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html",
+    "bytes": 562,
+    "sha256": "dc6cfbdd45486fa757e9c63da8a242ebc1b43887f9bc31777e643d0cb7b3c021",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E123E1C63802555F53B3504A692E0206",
+      "status": 403,
+      "url": "https://www.hawley.senate.gov/chairman-hawley-launches-investigation-into-openai-for-hacking-existential-risk-of-ai-products/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5e0d30affda22f9cfc43b8af58230fb8b261d6b06f4e4250ac4896278150ec3d",
+    "width": 1366,
+    "height": 900,
+    "bytes": 18427,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:18:24Z",
+    "url": "https://www.hawley.senate.gov/chairman-hawley-launches-investigation-into-openai-for-hacking-existential-risk-of-ai-products/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html",
+      "bytes": 562,
+      "sha256": "dc6cfbdd45486fa757e9c63da8a242ebc1b43887f9bc31777e643d0cb7b3c021"
+    },
+    "finalUrl": "https://www.hawley.senate.gov/chairman-hawley-launches-investigation-into-openai-for-hacking-existential-risk-of-ai-products/",
+    "httpStatus": 403,
+    "title": "Access Denied",
+    "rendered": {
+      "textChars": 312,
+      "textSha256": "dbba11ecff1df16aaa752069bb16c2248f541ce59fdcc3958a155fcbd16c29d4",
+      "htmlSha256": "9e008cfe597678893928995e9a575688238217065a79abb43d62fa6513295b02"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "5e0d30affda22f9cfc43b8af58230fb8b261d6b06f4e4250ac4896278150ec3d",
+      "width": 1366,
+      "height": 900,
+      "bytes": 18427,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}
