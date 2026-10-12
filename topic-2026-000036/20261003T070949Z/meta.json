@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000036",
+  "url": "https://www.scoop.my/news/294441/ai-must-be-central-to-child-online-safety-laws-as-kids-adopt-technology-faster-than-adults-experts-warn/",
+  "capturedAt": "2026-10-03T07:09:49Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 424217,
+    "sha256": "2919b717550133d2b0b4214fc29fe5861de06a68bd8911eec562921670156c85",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "657B22E1C9984EF90A84685CBF7F0C16",
+      "status": 200,
+      "url": "https://www.scoop.my/news/294441/ai-must-be-central-to-child-online-safety-laws-as-kids-adopt-technology-faster-than-adults-experts-warn/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4507,
+      "afterScrollHeight": 4507,
+      "wantedHeight": 4507
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "38a212e1c7526369380be23ea465d5bc827adaab70060530469578450317d411",
+    "width": 1366,
+    "height": 4507,
+    "bytes": 1275355,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4507,
+    "afterScrollHeight": 4507,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:09:49Z",
+    "url": "https://www.scoop.my/news/294441/ai-must-be-central-to-child-online-safety-laws-as-kids-adopt-technology-faster-than-adults-experts-warn/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 424217,
+      "sha256": "2919b717550133d2b0b4214fc29fe5861de06a68bd8911eec562921670156c85"
+    },
+    "finalUrl": "https://www.scoop.my/news/294441/ai-must-be-central-to-child-online-safety-laws-as-kids-adopt-technology-faster-than-adults-experts-warn/",
+    "httpStatus": 200,
+    "title": "AI must be central to child online safety laws as kids adopt technology faster than adults, experts warn | Scoop",
+    "rendered": {
+      "textChars": 6942,
+      "textSha256": "e10fcf5e2c64dbde432a6e2d539faf21859a208bfc3d8effef3b0c97f2d5d796",
+      "htmlSha256": "9fe7129eda1a575c00c33e4484e71d0a68bd0a81c20d1b9df7343e1f1fcc7525"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "38a212e1c7526369380be23ea465d5bc827adaab70060530469578450317d411",
+      "width": 1366,
+      "height": 4507,
+      "bytes": 1275355,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 404 -- Wayback Machine --> DONATE Latest Show All The Wayback Machine has not archived that URL. Click here to search for all archived pages under https://www.scoop.my"
+    }
+  }
+}

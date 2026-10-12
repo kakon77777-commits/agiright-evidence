@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000030",
+  "url": "https://dailynous.com/2026/07/20/a-scene-from-the-ai-flooding-of-academic-journals/",
+  "capturedAt": "2026-10-03T07:07:52Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 570480,
+    "sha256": "9a27a3abd01b2074b1481f1d2e5fcdf52855e9b9682e5d9cb744e75901e61b44",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4890608050AC91409E5A40242D5C297F",
+      "status": 200,
+      "url": "https://dailynous.com/2026/07/20/a-scene-from-the-ai-flooding-of-academic-journals/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 21378,
+      "afterScrollHeight": 21378,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "028c4ac7a5924b4d2d7f7dd409dbfb4758bbffb6cdd1efae90786645bc8e6ad3",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 3050063,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 21378,
+    "afterScrollHeight": 21378,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:07:52Z",
+    "url": "https://dailynous.com/2026/07/20/a-scene-from-the-ai-flooding-of-academic-journals/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 570480,
+      "sha256": "9a27a3abd01b2074b1481f1d2e5fcdf52855e9b9682e5d9cb744e75901e61b44"
+    },
+    "finalUrl": "https://dailynous.com/2026/07/20/a-scene-from-the-ai-flooding-of-academic-journals/",
+    "httpStatus": 200,
+    "title": "A Scene from the AI Flooding of Academic Journals - Daily Nous",
+    "rendered": {
+      "textChars": 41655,
+      "textSha256": "213335a7d9e09ae57098e84864a23b1cbef7de6d98c0df95b7e919c82bcb76d4",
+      "htmlSha256": "32620617950ab4a182820262ebe48e2f2df0bd23653f6f878ecb52dad5a7afb3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "028c4ac7a5924b4d2d7f7dd409dbfb4758bbffb6cdd1efae90786645bc8e6ad3",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 3050063,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260720182744",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260720182744/https://dailynous.com/2026/07/20/a-scene-from-the-ai-flooding-of-academic-journals/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260720182744/https://dailynous.com/2026/07/20/a-scene-from-the-ai-flooding-of-academic-journals/",
+      "timestamp": "20260720182744",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

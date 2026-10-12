@@ -1,0 +1,368 @@
+By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively. For further information, please see our Privacy Policy.
+
+MANAGE COOKIES
+DECLINE
+ACCEPT
+
+Read the 2026 Mid-Year State AI Legislation Report
+
+SKIP TO CONTENT
+Learn
+News
+Action Fund
+Policy Resources
+About
+Login
+DONATE
+AI Legislative Update: July 24, 2026
+AI NEWSAI LEGISLATION UPDATE
+
+During the state legislative season TCAI offers weekly updates every Friday on a variety of AI-related bills making progress in around the nation.
+
+Get your weekly update delivered via email every Friday morning by subscribing to the AI Legislative Update newsletter:
+
+SUBSCRIBE
+AI BILL ACTION THIS WEEK
+
+It’s been a quiet week on the legislative front, and we’re expecting more of the same over the coming seven days. It’s annual conference time, with lawmakers gathering in Orlando this past week at the American Legislative Exchange Council (ALEC) Annual Meeting, and next week in Chicago at the National Conference of State Legislatures (NCSL) Summit.
+
+There was a little action before lawmakers split for the airport, though.
+
+On July 20, New Jersey lawmakers officially enacted one of the nation’s first AI-related restrictions on rental housing.  A 3497 establishes "Forbidding the Algorithmic Inflation of Rent (FAIR) Act." The FAIR Act makes it a violation of the New Jersey Antitrust Act for a rental property owner to pay for the services of an algorithmic rental price setting coordinator.
+
+Here at the Transparency Coalition, we published our 2026 Mid-Year State AI Legislation Report, an overview and analysis of all 84 AI-related bills passed in 27 states so far this year. It makes for great in-flight reading.
+
+TCAI Mid-Year AI Legislation Report: 84 new AI laws enacted in 27 states so far in 2026
+
+Lawmakers passed bills on chatbot safety, education and children’s digital lives, medical authorization and mental health, consumer rights, and frontier model oversight. More states are expected to weigh in by year’s end.
+
+Read more →
+JULY 21, 2026
+CALIFORNIA
+
+California’s 30 remaining AI bills have crossed over and are under review by their secondary chamber committees. The legislature broke for its annual summer recess on July 2 and will not return until August 3.
+
+Approved and enacted:
+
+AB 2148 explicitly states that an elementary or secondary public school employee or a contractor providing services in a public school specifically means a natural person. Approved by the full Assembly, 76-0, on May 4. Approved by Senate 38-0 on June 18, signed into law by Gov. Newsom on June 30. (Asm. Muratsuchi, Asm. Hoover)
+
+SB 719 was introduced as a state agency AI inventory bill, but has been completely changed to become a measure that would require all automobiles (beginning with the 2031 model year) with “connected vehicle service” (data-capture software that allows a third party to track the location of the vehicle) to clearly indicate to the person inside the vehicle that such a location access system is enabled. Approved by Senate on Jan. 26, approved by Assembly Privacy cmttee 15-0 on June 16, approved by full Assembly with urgency clause on June 29. Signed and enacted by Gov. Newsom on June 30. (Sen. Cabaldon, Sen. Pierson)
+
+Assembly bills on the move:
+
+AB 2  would make a social media platform liable for specified damages if the platform fails to exercise ordinary care or skill by causing injury to a child. Approved by Assembly in May 2025, now with Senate. Approved by Judiciary on June 15, by Appropriations on June 30. Currently with Appropriations as of July 2. (Asm. Lowenthal, et al.)
+
+AB 412 is a copyright protection bill that passed the Assembly during the 2025 session and was held over. It would require AI developers to document any copyrighted materials used to train an AI model, and make available a mechanism allowing a rights owner to submit a request for information regarding their copyrighted material and its use. It’s now moving again in the Senate. Approved by Senate Judiciary and by Appropriations, currently with Appropriations as of June 30. (Asm. Bauer-Kahan, Asm. Kaira)
+
+AB 1159 would apply the state’s student privacy protections (under KOPIPA and ELPIPA) to digital operators with knowledge that the site, service, app, etc, is used for and marketed for school purposes. Approved by Assembly on Jan. 26. Approved and reassigned to Senate Appropriations on June 30. (Asm. Addis)
+
+AB 1609 concerns customer service chatbots. Approved by full Assembly on May 27, sent to Senate. Passed and re-referred to Senate Judiciary on June 22. Passed and re-referred to Senate Appropriations on July 1. (Asm. Zbur)
+
+AB 1651 relates to the use of AI in the development or administration of the State Bar exam. Full Assembly approval 68-0 on April 16, approved by full Senate 36-0 on June 25 and sent back to Assembly for concurrence. (Asm. Dixon)
+
+AB 1883 is a similar workplace surveillance bill. Passed out of suspense. Approved by Assembly 52-12 on May 27, sent to Senate. Passed and re-referred to Labor on June 29, passed and re-referred to Appropriations on July 1. (Asm. Bryan)
+
+AB 1979 concerns the use of AI in healthcare services. Approved by Assembly 48-15 on May 21, sent to Senate. Approved by Privacy 7-2, sent to Health committee on June 15. Approved and re-referred to Senate Appropriations on June 30. (Asm. Bonta)
+
+AB 1988, the Preventing AI User Self Endangerment (PAUSE) Act concerns AI chatbot safety. Passed full Assembly on May 21, sent to Senate. The bill seems to have stalled in the Senate.  (Asm. Pellerin)
+
+AB 2023 and SB 1119 are companion bills concerning chatbots and children’s safety. AB 2023 was approved by the Committee on Privacy & Consumer Protection on April 21, sent to Assembly Appropriations. Senate version referred April 21 to Senate Appropriations, now set for hearing on May 11. (Asm. Bauer-Kahan, Asm. Wicks, Asm. Lowenthal, Sen. Padilla) AB 2023 approved by Assembly on May 26, sent to Senate. Approved by Privacy 7-1 on June 15, approved by 13-0 on June 24, sent to Appropriations. (SB 1119 was approved by the full Senate 39-0 on May 19. It was approved and re-referred to Assembly Appropriations on July 2.)
+
+AB 2025 is a real estate AI disclosure bill that would require the disclosure of AI used to digitally alter any promotional materials regarding the sale of real property. Approved by Assembly on May 14. Approved and re-referred to Senate Appropriations on June 23. Hearing scheduled Aug. 3. (Asm. Pellerin)
+
+AB 2071 would require digital health to be taught as part of existing courses in health education in California schools. Passed Assembly 75-0 on May 28. Approved and re-referred to Senate Appropriations on July 1. Hearing scheduled Aug. 3.  (Asm. Hoover, Sen. Umberg)
+
+AB 2392 is an Ed Tech bill that would require the California Community Colleges and the California State University, and would request the University of California, before providing a Gen AI system to students, faculty, or staff, to convene a joint working group to present recommendations for procurement standards and training, submitted by Jan. 1, 2028. Approved by Assembly, 77-0, on May 26. Approved and re-referred to Senate Appropriations on June 29. Hearing scheduled Aug. 3. (Asm. Fong)
+
+AB 2545 would establish the California Artificial Intelligence Worker Impact Data Assessment Project and would establish the California Artificial Intelligence Worker Impact Data Assessment Project Advisory Panel in the EDD. The bill would require the EDD to perform an assessment of data sources and collection methods regarding the use and impact of advanced artificial intelligence systems on the labor force. Approved by Assembly on May 21. Approved by Senate Labor on June 17, approved by Appropriations on June 30. Hearing scheduled Aug. 3. (Asm. Schiavo)
+
+AB 2656 would require state and local public employers to provide written notice to a recognized employee organization at least 45 days before taking an action to develop, purchase, implement, or utilize GenAI to perform a service that is within the scope of work of the job classification represented by the recognized employee organization. Passed Assembly 72-2 on May 26. Approved by Senate Privacy on June 17, approved and re-referred to Senate Appropriations on July 1. (Asm. Petrie-Norris)
+
+AB 2575 concerns the use of AI in health care. Approved by Assembly on May 27. Approved by Senate Labor on June 17, approved by Privacy on June 24, approved by Appropriations on June 29. Hearing scheduled Aug. 3. (Asm. Ortega)
+
+AB 2713 adjusts the existing California AI Transparency Act. The Act currently requires a large online platform to provide a user interface that makes information clearly and conspicuously available to users. The act requires that information to include whether provenance data or digital signatures are available. This bill would instead require that information to include whether provenance data or digital signatures are embedded into, attached to, or otherwise associated with the content. Approved 74-0 by Assembly on May 21, sent to Senate. Approved by Senate Privacy committee 8-0 on June 15, ordered to third reading June 17. (Asm. Wicks, Asm Aguiar-Curry)
+
+Senate bills moving forward:
+
+SB 300 would strengthen existing laws regarding chatbots, by requiring companion chatbot operators to prevent its chatbot products from producing or facilitating the exchange of any sexually explicit material or proposing sexually explicit content. Approved by full Senate, 38-0, on Jan. 26. Approved and re-referred to Assembly Appropriations on July 2. (Sen. Padilla)
+
+SB 574, Sen. Umberg’s bill from 2025, was amended and re-referred to the Senate Appropriations Committee. The bill would establish protections and standards for attorneys licensed by the state, with regard to their use of AI. Approved by Senate on Jan. 29. Approved and re-referred to Assembly Privacy on July 1. (Sen. Umberg)
+
+SB 813, Sen. McNerney’s bill from 2025, was revived and re-referred to the Senate Appropriations Committee. The bill would establish a California AI Standards and Safety Commission. Approved by Senate, 31-7, in Jan. 27 vote, amended and re-referred to Assembly P&CP Cmtee on June 16. Approved and re-referred to Assembly Appropriations on July 1. (Sen. McNerney)
+
+SB 867 would prohibit the inclusion of companion chatbots in toys. Approved by Senate on May 28. Approved by Assembly P&CP 14-1 on June 16, now with Appropriations. Placed on suspense file July 1. (Sen. Padilla, et al)
+
+SB 903 concerns the use of AI and the transcription of patient information in professional mental health therapy. Approved by full Senate 39-0 and sent to Assembly on May 19. Approved 17-0 by Privacy committee. Approved and re-referred to Assembly Appropriations on July 1. (Sen. Padilla, Sen. Rubio)
+
+SB 928 is a bill concerning the protection of California State University employees from the encroachment of artificial intelligence. Specifies that CSU instructors must be human, not AI. Approved by full Senate, 37-0, on April 23, passed out of Assembly Committee on Higher Education on June 9, ordered to third reading on June 11. (Sen. Cervantes)
+
+SB 947 This bill would establish worker protections regarding the use of AI and automated decision systems (ADS). Approved by Senate 29-9 on May 19 and sent to Assembly. Approved by Assembly Privacy committee 5-1 and re-referred to same on June 10, approved 10-4 and sent to Judiciary on June 23. Passed and re-referred to Assembly Appropriations on July 1. (Sen. McNerney, Sen. Reyes)
+
+SB 951, is a ditigal displacement notice bill, requiring 90-day notice from certain covered employers before any technological displacement affecting 25% or more of the workforce. Approved by full Senate 28-9 on May 20. Approved and re-referred to Assembly Appropriations on July 1. (Sen. Reyes)
+
+SB 1000 modifies existing law regarding AI disclosure and provenance data. Approved with urgency clause by Senate 33-1 on May 19. Approved by Assembly P&CP 15-0 on June 16, approved by Appropriations 10-0 on July 1. (Sen. Becker)
+
+SB 1015 expands existing law regarding contact with a minor with intent, to include threats or extortion induced through the use of AI-generated deepfake images. Approved 33-0 by the Senate on May 22, approved by Assembly Public Safety Committee 9-0 on June 23. Re-referred to Assembly Appropriations on June 25. (Sen. Strickland)
+
+SB 1050 would require disclosures about the use of AI (synthetic performers) in advertisements. Approved by Senate on May 28. Approved by Assembly P&CP 13-2 on June 16. Approved by Assembly Judiciary 9-0 on June 23. Approved and re-referred to Assembly Appropriations 10-1 on July 1. (Sen. Ashby)
+
+SB 1111 concerns AI and digital replicas. Existing law prohibits the false impersonation of another person with the intent to steal or defraud. This bill would clarify that false impersonation includes the use of a digital replica with the intent to impersonate another. Approved by full Senate, 36-0, on April 30. Approved by Assembly P&CP 14-1 on June 16. Approved by Public Safety 14-1 on June 17. Approved by Appropriations 9-0 on July 1. (Sen. Ashby)
+
+SB 1119, a chatbot safety bill, companion to AB 2023, see under AB 2023 above. Approved by Senate Judiciary, referred to Appropriations on April 21. Approved by full Senate 39-0 on May 19. Approved by Assembly Privacy on June 16, approved and re-referred to Appropriations on July 1. (Sen. Padilla)
+
+SB 1146 adds artificial intelligence provisions to existing false advertising law around health-related consumer products. Approved by full Senate 36-0 on May 18. Approved 15-0 by Assembly Privacy cmtee on June 16. Approved and re-referred to Assembly Appropriations on June 23. (Sen. Gonzalez, Asm. Bryan, Asm. Lowenthal)
+
+SB 1159 would specify that, for purposes of the California Public Records Act and other open meeting acts, “person,” “interested person,” “participant,” “member of the public,” and any other similar terms do not include artificial intelligence systems, autonomous agents, robots, or other nonhuman entities, whether physical or digital. Passed by full Senate, 38-0, on May 4,  approved by Assembly Privacy 15-0 on June 23, approved by Judiciary 15-0 on June 25. Ordered to third reading in Assembly on July 2. (Sen. Cabaldon)
+
+SB 1181 is a bill concerning legislation to protect the mental health, safety, and well-being of children and adolescents in California by addressing the growing impact artificial intelligence and digital technologies have on youths’ mental health development. Approved by Senate on May 28. Approved and re-referred to Assembly Appropriations on July 1. (Sen. Hurtado)
+
+HAWAII
+
+Lawmakers adjourned sine die on May 8. Two AI-related bills were approved. Gov. Josh Green signed them both into law on July 13.
+
+SB 3001 requires AI operators to issue certain disclosures to account holders and users, develop protocols to prevent the production of suicidal ideations in account holders and users, establish protections for minor account holders of conversational artificial intelligence services. (Sen. Keohokalole, et al)  Signed by Gov. Josh Green on July 13.
+
+HB 2137 is an AI deepfake bill that prohibits certain harmful uses of digital imitations, and requires the disclosure of the use of synthetic performers in advertising. (Rep. Lee, et al) Signed by Gov. Josh Green on July 13.
+
+MASSACHUSETTS
+
+The major AI-related measure in Boston right now is the statewide privacy bill, S 2619 / H 5479.
+
+After years of debate over a Massachusetts-specific data privacy law, legislators now appear poised to pass a bill and join 20 other states with comprehensive consumer privacy laws. 
+
+The House passed its version, H 5479, on June 4. This is an amended version of the bill passed by the Senate last year (S 2619).
+
+Legislators are now fighting over the key elements that differ in the two bills, including:
+
+Enforcement: The Senate bill contains no private right of action. The House version contains a limited PRA. In both versions, the state attorney general acts as the main enforcement authority.
+
+Right to cure: The Senate bill includes a 60-day cure period, which would sunset in June 2027. The House bill contains no right to cure.
+
+Sensitive data: The Senate bill has an outright ban on the sale of all sensitive data. The House version allows the sale of sensitive data (except geolocation data) with affirmative consumer consent. 
+
+House and Senate negotiators began talks last week, trying to find a version of the bill that works for both chambers.
+
+S 2619 is the Senate version of the data privacy bill, approved 40-0 in Sept. 2025.
+
+H 5479 is the House version of the privacy bill approved 146-0 on June 4, 2026.
+
+Several other AI-related bills are in play:
+
+S 3164 is a bill to protect children from addictive social media feeds. Introduced on July 2, 2026, via the Senate Ways and Means Committee. Approved by the Senate 38-2 on July 9, now with the House. Full report from WBUR on July 10 here.
+
+H 5366 would ban kids under 14 from using social media platforms and require that platforms obtain parental consent for users aged 14 and 15. Approved by the House in April, this bill has since been folded into S 2581, below.
+
+S 2581, an Act to promote student learning and mental health. The bill would direct the state Education Department to create a policy regarding the prohibition of electronic devices on school grounds during school hours. (A bell-to-bell policy.) The policy should be updated annually. Individual public schools and districts must adopt some version of the bell-to-bell policy and communicate it to students and parents, and post it on the school’s website, no later than Sept. 1 of each year. This bill was originally introduced and approved by the Senate in 2025. It moved to the House as H 5366, above, in early 2026, was approved and then changed back to S 2581 in May 2026. It currently sits as S 2581, with both House and Senate conference committees having been appointed as of July 20, 2026. (Sen. Cyr, et al)
+
+S 243 and S 264 are separate AI disclosure bills that require consumer notification for software or computer program that simulates human conversation or chatter through text or voice interactions.
+
+S 994 concerns algorithmic rent setting. New draft in the Senate as of March 12. (Sen. Friedman)
+
+S 2632 concerns the use of AI in healthcare decision-making. With Senate Ways & Means as of April 2.
+
+H 1931 concerns the use of AI in CSAM. House study order on March 26. (Rep. Paulino)
+
+H 4616 concerns the use of AI in healthcare prior authorizations. Reporting date extended to July 31 2026, in the House.
+
+H 76 concerns the dissemination of AI-generated deceptive election-related communications. (Rep. Farley-Bouvier.)
+
+S 301 would establish the Massachusetts Information Privacy and Security Act. (Sen. Finegold.)
+
+H 666 would require public schools to have a policy regarding the use of personal electronic devices on school grounds and during school activities. (Rep. Peisch, Rep. Lipper-Garabedian.)
+
+MICHIGAN
+
+Michigan has these AI bills in play:
+
+SB 760 is a kids chatbot safety bill. The bill would prohibit chatbot operators from offering products to minors unless it is not capable of encouraging the minor to engage in self-harm, suicidal ideation, violence, consumption of drugs or alcohol, or disordered eating. The chatbot may not offer mental health therapy to the minor without the direct supervision of a licensed or credentialed professional, and it may not discourage the covered minor from seeking help from a qualified professional or a parent or guardian. Approved by full Senate on April 29, now with House Communications Committee. (Sen. Polehanki, Sen. Geiss)
+
+HB 5899 would create a state artificial intelligence pilot program. Sent to House Rules Committee on May 19. (Rep. Greene, et al)
+
+HB 5771 is an AI surveillance pricing consumer protection bill. Now with the House Economic Competitiveness Committee. (Rep. Arbit, et al)
+
+NEW JERSEY
+
+On July 20, New Jersey lawmakers officially enacted one of the nation’s first AI-related restrictions on rental housing.  A 3497 establishes "Forbidding the Algorithmic Inflation of Rent (FAIR) Act."
+
+The FAIR Act makes it a violation of the New Jersey Antitrust Act for a rental property owner to pay for the services of an algorithmic rental price setting coordinator. The Act holds that many “landlords of residential rental housing use property management software to collude to restrain trade and raise residential rental housing prices, which has contributed to recent increases” in New Jersey. The Act holds that the legislature finds this to be illegal collusion subject to antitrust law.
+
+Illinois lawmakers passed a similar measure earlier this year, SB 343, although it still awaits enactment by the governor.
+
+The New Jersey bill was sponsored by Asm. Yvonne Lopez, Asm. Margie Donlon, and Asm. Chigozie Onyema.
+
+New Jersey also has these AI bills in play:
+
+A 3064 would require social media platforms to cooperate with nonprofit organization initiatives to remove nonconsensual intimate images or videos. Passed Assembly 77-0 on May 18. Now with Senate. (Asm. Tully et al.)
+
+A 4015, the New Jersey Kids Code Act, requires certain online service providers to enhance privacy and security for minors. This bill passed both the Senate (36-4) and the Assembly (73-5) on June 30.
+
+A 4728 would regulate the deceptive use of artificial intelligence in photo advertising of a dwelling for sale, rent, or lease. Referred to Appropriations on May 14. (Rep. Morales, et al)
+
+A 4729 would require disclosure to be made when generative artificial intelligence is used to operate chatbots that provide election related information. Referred to Appropriations Committee on May 11. (Asm. Karabinchak, et al)
+
+A 4731 directs professional and occupational boards to promulgate rules for licensee use of generative artificial intelligence. This bill would direct the Director of the Division of Consumer Affairs to adopt rules and regulations establishing a model policy for the use of generative artificial intelligence by a licensee in the practice of a profession or occupation regulated by state professional or occupation boards. (Asm. McCoy, et al)
+
+A 4733 would prohibit advertising generative artificial intelligence as able to practice a state-regulated profession or occupation. Referred to Appropriations Committee on May 28. (Asm. Greenwald, et al)
+
+A 4981 would regulate the use of artificial intelligence-based systems for electronic monitoring regarding employment and public services. Introduced May 7, referred to Science, Innovation & Technology Committee. (Asm. Simmons, et al)
+
+A 5088, the "AI Likeness Protection Act," concerns distributing realistic representation of individual's image, likeness, or voice created using generative artificial intelligence. Introduced May 14, referred to Science, Innovation, & Technology Committee. (Asm. Macurdy)
+
+A 5089, the "AI Image Disclosure Act," concerns disclosure of certain AI-generated content. Introduced May 14, referred to Science, Innovation & Technology Committee. (Asm. Macurdy)
+
+A 5090, the "GAI Accountability Act," would impose civil penalties on generative artificial intelligence platforms engaging in harmful activity, including exploitation of children. Introduced May 14, referred to Science, Innovation, & Technology Committee. (Asm. Macurdy, Asm. Morales)
+
+A 5184 requires boards of education to adopt policy on use of artificial intelligence; requires DOE to establish model policy. Companion to S 4469. Introduced June 1, referred to Education Committee. (Asm. Bagolie)
+
+A 5272 establishes safety requirements for artificial intelligence companion operators. Introduced June 15, referred to Science, Innovation & Tech Committee. Companion bill to S 4474. (Asm. Miller)
+
+A 5275 requires certain artificial intelligence developers to make certain disclosures to Attorney General. Introduced June 15, referred to Science, Innovation & Tech Committee. Companion to S 4446. (Asm. Macurdy)
+
+A 5292 requires guidelines on use of instructional technology to be developed by DOE and policy to be adopted by governing body of public school. Introduced June 18, referred to Education Committee. (Asm. Sauickie)
+
+S 1802 would require the New Jersey Office of Information Technology to establish minimum requirements for an AI safety test for artificial intelligence technology sold, developed, deployed, used, or offered for sale in the state. Referred to Senate Commerce Committee. (Sen. Singleton, Sen. McKnight.)
+
+S 4075 would regulate the use of artificial intelligence-based systems for electronic monitoring regarding employment and public services. Companion to A 4981. Introduced May 4, referred to Labor Committee. (Sen. Zwicker, et al)
+
+S 4088 would prohibit advertising generative artificial intelligence as able to practice a state-regulated profession or occupation. Introduced May 4, referred to Commerce Committee. Companion to A 4733. (Sen. Mukherji, Sen. Lagana)
+
+S 4345 would require social media platforms to cooperate with nonprofit organization initiatives to remove nonconsensual intimate images or videos. Companion to A 3064. Introduced May 28, referred to Law & Public Safety. (Sen. Corrado)
+
+S 4446 requires certain artificial intelligence developers to make certain disclosures to Attorney General. Introduced June 11, referred to Law & Public Safety Committee. Companion to A 5275. (Sen. Mukherji)
+
+S 4469 requires boards of education to adopt policy on use of artificial intelligence; requires DOE to establish model policy. Introduced June 15, referred to Education Committee. (Sen. Zwicker)
+
+S 4474 establishes safety requirements for artificial intelligence companion operators. Introduced June 18, referred to Commerce Committee. Companion bill to A 5272. (Sen. Moriarty, Sen. McKnight)
+
+SR 52 is a resolution urging generative AI companies to make voluntary commitments regarding employee whistleblower protections. Referred to Senate Labor Committee. (Sen. Mukherji, Sen. Lagana.)
+
+NEW YORK
+
+Legislators in Albany wrapped up the 2026 session on June 1 by passing a kids chatbot safety bill, an AI training data transparency act, the FAIR News Act, a data center moratorium, and a ban on AI-assisted surveillance pricing. Gov. Hochul now has until Dec. 31 to sign the bills.
+
+AI-related legislation approved and sent to Gov. Kathy Hochul:
+
+S 9051, is a kids chatbot safety bill that prohibits artificial intelligence chatbots from using features which are considered unsafe for minors; defines terms; specifies what are considered unsafe features; and provides for private rights of action. (Sen. Gonzalez)
+
+A 6578 establishes the Artificial Intelligence Training Data Transparency Act, which would require developers of Gen AI models or services to post on the developer's website information regarding the data used by the developer to train the generative artificial intelligence model or service, including a high-level summary of the datasets used in the development of such system or service. (Assm. Bores, et al., and Sen. Gounardes)
+
+S 6954 is an AI disclosure bill that would require synthetic content creation system providers to include provenance data on synthetic content produced or modified by a synthetic content creations system that such provider makes available. (Assm. Bores, Sen. Gounardes.)
+
+S 8451 would enact the New York Fundamental Artificial Intelligence Requirements in News Act (FAIR Act). Provides transparency requirements for news media content composed, authored, or otherwise created through generative AI. (Sen. Fahy, et al.)
+
+A 9349, a bill prohibiting the practice of surveillance pricing. (Asm. Torres)
+
+A 11560, the Responsible Data Center Development Act, would establish a statewide one-year moratorium on the permitting of hyperscale data centers with a peak load of more than 20 megawatts. (Asm. Barrett, Sen. Gonzalez)
+
+A 3411,a warning label bill, was approved earlier this session by both chambers. This bill requires the owner, licensee or operator of a generative artificial intelligence system to conspicuously display a notice on the system's user interface apprising the user that the outputs of the generative artificial intelligence system may be inaccurate. (Asm. Vanel, et al)
+
+Using AI in an ad? You’ve got to disclose it starting this month in New York
+
+The state’s new ‘synthetic performer law’ requires advertisers to disclose the use of AI in any ad that runs in New York.
+
+JUNE 29, 2026
+OHIO
+
+AI-related bills under consideration:
+
+HB 185 is a deepfake protection bill that would expand Ohio’s Right of Publicity law by eliminating the requirements that an individual’s persona have commercial value and that the unauthorized use be for a commercial purpose in order for there to be a violation of the law. Scheduled for hearing, House Committee on Technology & Innovation, June 2. (Rep. A. Mathews, Rep. T. Mathews)
+
+HB 665 is concerned with AI and algorithmic pricing. Referred to Committee on Technology & Innovation on Feb. 4. (Rep. Cockley, et al)
+
+HB 524 would impose penalties on entities whose AI models suggest harming one's self or another person. With Committee on Technology & Innovation.  (Rep. Cockley, et al.)
+
+HB 579 would regulate the use of artificial intelligence by health insurers. With House Insurance Committee. (Rep. Schmidt.)
+
+HB 525 would regulate the use of AI systems by state-licensed therapists. With House Health Committee. (Rep. Cockley, et al.)
+
+HB 469 would declare artificial intelligence systems nonsentient and prohibit them from obtaining legal personhood. With Committee on Technology & Innovation. (Rep. Claggett.)
+
+HB 628 would create an independent verification organization license for verifying artificial intelligence risk mitigation. With Committee on Technology & Innovation. (Rep. Mathews, et al.)
+
+HB 786 would prohibit use of an artificially generated depiction of a minor for obscene purposes. Referred to House Judiciary Committee on March 25. (Rep. Klopfenstein, et al)
+
+HB 813 would require AI-generated products to have a watermark, and would require AI systems to disclose. Introduced April 13.  (Rep. Cockley, et al)
+
+SCR 14 and HCR 31 are companion resolutions urging Congress to reject any moratorium on state AI laws. Referred to Senate Financial Institutions Committee on Feb. 11, to House Tech & Innovation Committee on Feb. 4. (Sen. Blessing, Rep. Cockley)
+
+PENNSYLVANIA
+
+Pennsylvania legislators broke for their summer recess on July 13, having worked through the weekend to reach agreement on a state budget that Gov. Shapiro signed on the evening of July 12. Lawmakers will reconvene in early September, with a number of AI-related bills still alive and moving forward. Pennsylvania has a number of AI-related bills in play. We recently posted a full TCAI update on the most interesting proposals:
+
+Pennsylvania House considers an AI toy ban bill, HB 2637: “These are chatbots in disguise”
+
+Child development experts have called them ‘unsafe for kids’ and harmful to critical early-year growth. Under the bill, the sale of AI-driven toys would be paused for three years to allow for the study and consideration of appropriate safety rules.
+
+SEPTEMBER 28, 2026
+
+Full list of AI-related bills:
+
+HB 95 and SB 806 would require the disclosure of synthetic advertising content. HB 95 Passed the House 124-78 on June 17. (Rep. Pielli, et al) SB 806 passed the Senate 48-2 on June 10, now with House Cmu & Tech cmtee. (Sen. Pisciottano, et al)
+
+HR 331 is a resolution urging the Pennsylvania Supreme Court to adopt safeguards governing the use of artificial intelligence by attorneys. (Rep. Krupa, Rep. Banta.)
+
+HB 1857 would require business entities to disclose the use of artificial intelligence in certain consumer interactions, and establish the right of consumers to human review in high-impact decisions. (Rep. Waxman, et al.)
+
+HB 1925 concerns the use of AI by health insurers and managed care plans. Approved by House Cmu & Tech cmtee on May 5. (Rep. Venkat, et al)
+
+HB 1993 concerns the use of artificial intelligence in mental health therapy. (Rep. Shusterman, et al.)
+
+HB 2006 is the Artificial Intelligence in Companionship Applications Safety Act. This bill requires safeguards built into companion chatbots, especially concerning suicidal ideation and/or self-harm. Approved by full House, 104-98 on July 1. (Rep. Shusterman, et al)
+
+HB 2100 is a  bill to regulate the use of mental health chatbots and artificial intelligence by mental health therapists. (Rep. O’Mara, et al)
+
+HB 2252 is a deepfake protection bill concerning the unlawful dissemination of intimate imagery.  Passed the House 202-0 on June 10, now with Senate Judiciary. (Rep. Kinkead, et al.)
+
+HB 2534 concerns data collection and disclosure around generative AI systems. Referred to House Cmu & Tech cmtee on May 26. (Rep. Ortitay, et al)
+
+HB 2637 would impose a three-year moratorium on the sale of childrens toys containing AI chatbots. Referred to House Communications & Technology cmtee on June 15. (Rep. Ciresi, et al)
+
+SB 1090 is an AI disclosure bill that requires certain disclosures and safeguards relating to the use of artificial intelligence. Approved by the Senate, 49-1, on March 17. Now with the House Communications & Technology Committee. (Sen. Pennycuick, et al)
+
+SB 1332 concerns the use of AI in political campaign materials, requiring disclosure of the use of AI. Referred to Senate State Govt. cmtee on May 21. (Sen. Williams, et al)
+
+SB 1349 would require disclosure of synthetic content and the inclusion of content verification tools (provenance) in GenAI products. Referred to Senate Cmu & Tech cmtee on June 4. (Sen. Collett, et al)
+
+SB 1368 would prohibit the offering of nudification apps from being offered in an online application marketplace. Referred to Senate Cmu & Tech cmtee on June 5. (Rep. Pennycuick, et al)
+
+TRACK AI LEGISLATION IN 2026
+Chatbot bill surge: Nationwide concern spurs 78 proposals in 27 states
+
+Six weeks into the 2026 legislative season, 78 chatbot bills are alive in 27 states, reflecting the growing nationwide concern over the dangers of the powerful new technology.
+
+Track 2026 AI legislation by topic
+
+Track bills by subject: All AI bills, deepfake bills, chatbot bills, and more.
+
+AI Legislation Tracker: All 2026 AI Bills
+
+This TCAI legislation tracker lists all AI-related bills introduced or carried over to the 2026 legislative session.
+
+FEATURED
+Previous
+States have passed 14 new laws this year regulating the use of AI in healthcare
+Next
+France just banned social media for kids. Here’s how that will work
+
+Transparency Coalition
+
+HOME
+LEARN
+NEWS
+ABOUT
+KEY TERMS
+
+TERMS OF USE
+PRIVACY POLICY
+
+DONATE
+
+Follow Us!
+
+SUBSCRIBE
+
+Sign up with your email address to receive news and updates.
+
+ SIGN UP
+
+© 2026 Transparency Coalition.ai. All Rights Reserved

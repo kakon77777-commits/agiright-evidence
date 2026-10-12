@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000051",
+  "url": "https://www.iowapublicradio.org/news-from-npr/2026-07-27/authors-have-mixed-feelings-about-the-1-5b-anthropic-copyright-infringement-ruling",
+  "capturedAt": "2026-10-03T07:16:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 174751,
+    "sha256": "16d62d8a94a26623c91d12bf858c0ec12fd336f78ffa2b4e8ce074c8afe3ea36",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C189A815BF30A903437A842A18096961",
+      "status": 200,
+      "url": "https://www.iowapublicradio.org/news-from-npr/2026-07-27/authors-have-mixed-feelings-about-the-1-5b-anthropic-copyright-infringement-ruling",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6026,
+      "afterScrollHeight": 6026,
+      "wantedHeight": 6026
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f611fcd9872630c1ddae91f8c2397976e772eaf7a669c1898a464dc8fc9efd10",
+    "width": 1366,
+    "height": 6026,
+    "bytes": 1827306,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6026,
+    "afterScrollHeight": 6026,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:16:48Z",
+    "url": "https://www.iowapublicradio.org/news-from-npr/2026-07-27/authors-have-mixed-feelings-about-the-1-5b-anthropic-copyright-infringement-ruling",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 174751,
+      "sha256": "16d62d8a94a26623c91d12bf858c0ec12fd336f78ffa2b4e8ce074c8afe3ea36"
+    },
+    "finalUrl": "https://www.iowapublicradio.org/news-from-npr/2026-07-27/authors-have-mixed-feelings-about-the-1-5b-anthropic-copyright-infringement-ruling",
+    "httpStatus": 200,
+    "title": "Authors have mixed feelings about the $1.5B Anthropic copyright infringement ruling | Iowa Public Radio",
+    "rendered": {
+      "textChars": 8024,
+      "textSha256": "0399aaf1da561952da24a96600ebd38587569b7368e1247b70e8cf566c59fc89",
+      "htmlSha256": "01bfe07cda8f9244615134e48d604f1229893dafeb35a5c8a88af01e809044b1"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f611fcd9872630c1ddae91f8c2397976e772eaf7a669c1898a464dc8fc9efd10",
+      "width": 1366,
+      "height": 6026,
+      "bytes": 1827306,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003071827/https://www.iowapublicradio.org/news-from-npr/2026-07-27/authors-have-mixed-feelings-about-the-1-5b-anthropic-copyright-infringement-ruling",
+      "timestamp": "20261003071827",
+      "verifiedHttp": 200
+    }
+  }
+}

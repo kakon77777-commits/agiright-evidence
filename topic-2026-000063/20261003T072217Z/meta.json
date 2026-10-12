@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000063",
+  "url": "https://arxiv.org/abs/2604.14990",
+  "capturedAt": "2026-10-03T07:22:17Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43043,
+    "sha256": "2eb85b01666f2974327a49c3bc73cda0fe7f0bf3bb0a8f4d3dd42b1c2434a3b0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0008A29ECB96722B2A7646DFFC004F83",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2604.14990",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1188,
+      "afterScrollHeight": 1188,
+      "wantedHeight": 1188
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "bd4f12f99d09e05389f42c5897226271a9b738b3620d2a4869e9124baac9380b",
+    "width": 1366,
+    "height": 1188,
+    "bytes": 143383,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1188,
+    "afterScrollHeight": 1188,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:22:17Z",
+    "url": "https://arxiv.org/abs/2604.14990",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43043,
+      "sha256": "2eb85b01666f2974327a49c3bc73cda0fe7f0bf3bb0a8f4d3dd42b1c2434a3b0"
+    },
+    "finalUrl": "https://arxiv.org/abs/2604.14990",
+    "httpStatus": 200,
+    "title": "[2604.14990] The Possibility of Artificial Intelligence Becoming a Subject and the Alignment Problem",
+    "rendered": {
+      "textChars": 3307,
+      "textSha256": "cc6fd184fc15ae75618080517ebdae4f2c0fcb050087168c4e6f201ceccc6f2b",
+      "htmlSha256": "8bb78ac4e570da86e8429bd93b8c5171bd91ac809ab8c930c4e658c023506796"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "bd4f12f99d09e05389f42c5897226271a9b738b3620d2a4869e9124baac9380b",
+      "width": 1366,
+      "height": 1188,
+      "bytes": 143383,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260417021057",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260417021057/https://arxiv.org/abs/2604.14990"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260417021057/https://arxiv.org/abs/2604.14990",
+      "timestamp": "20260417021057",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

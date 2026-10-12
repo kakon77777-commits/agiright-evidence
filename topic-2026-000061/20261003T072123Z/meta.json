@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000061",
+  "url": "https://arxiv.org/abs/2607.20001",
+  "capturedAt": "2026-10-03T07:21:23Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 41784,
+    "sha256": "cbe003d1393eeaa1c5e7bdf50e5249e88ac87b6673bcfa8acd174977fd3a702a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "2F47216227701410C7E05964B4ACE4AB",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2607.20001",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1124,
+      "afterScrollHeight": 1124,
+      "wantedHeight": 1124
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c547a6eef66ccd981ec9123f4085d1a1834f7ba49210d6c502b27fa8c366770a",
+    "width": 1366,
+    "height": 1124,
+    "bytes": 133708,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1124,
+    "afterScrollHeight": 1124,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:21:23Z",
+    "url": "https://arxiv.org/abs/2607.20001",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 41784,
+      "sha256": "cbe003d1393eeaa1c5e7bdf50e5249e88ac87b6673bcfa8acd174977fd3a702a"
+    },
+    "finalUrl": "https://arxiv.org/abs/2607.20001",
+    "httpStatus": 200,
+    "title": "[2607.20001] Are Attributions of Consciousness to AI Chatbots Epistemically Innocent?",
+    "rendered": {
+      "textChars": 3021,
+      "textSha256": "f106e682bb3066ee0d2fa8b704c001758552658a9fd1a0eac2841f068775609e",
+      "htmlSha256": "66809df761ec9548e5c1398feffa89d903c89af97828d687ee1744fe138a7ebe"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c547a6eef66ccd981ec9123f4085d1a1834f7ba49210d6c502b27fa8c366770a",
+      "width": 1366,
+      "height": 1124,
+      "bytes": 133708,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260918190509",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260918190509/https://arxiv.org/abs/2607.20001"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260918190509/https://arxiv.org/abs/2607.20001",
+      "timestamp": "20260918190509",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

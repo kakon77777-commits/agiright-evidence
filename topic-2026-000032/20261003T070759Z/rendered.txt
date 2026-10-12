@@ -1,0 +1,248 @@
+Skip to main content
+Advertisement
+CYBERSCOOP
+AISCOOP
+FEDSCOOP
+DEFENSESCOOP
+STATESCOOP
+EDSCOOP
+Advertise
+Search
+Topics
+Special Reports
+Events
+Podcasts
+Videos
+Insights
+FedScoop 50
+SUBSCRIBE
+
+Get our latest cybersecurity news first on Google.
+
+CLICK HERE!
+CLOSE
+AI
+Where’s the Trump administration line on AI regulation?
+The messy approach to U.S. AI regulation reflects both the rapid speed of model cyber capabilities and the White House’s “education” over the past two years, experts said.
+
+BY
+DEREK B. JOHNSON
+
+JULY 21, 2026
+
+Listen to this article
+11:13
+Learn more.
+US President Donald Trump (R) and Open AI CEO Sam Altman (L) react during a working lunch meeting of G7 members, partner countries, and artificial intelligence business leaders as part of the G7 summit, in Evian, eastern France, on June 17, 2026. The Trump administration has been moving to regulate AI models for cybersecurity use. (Photo by Julia Demaree Nikhinson / POOL / AFP via Getty Images)
+
+After a year and a half spent downplaying calls for AI safety regulations, the Trump administration has sharply reversed course, embracing a level of government scrutiny of frontier AI systems before public release–a far stricter stance than the Biden administration took.
+
+An executive order designed to be friendly to the AI industry was meant to let the federal government briefly review some new models on a voluntary basis.
+
+When the Trump administration, suddenly and without much warning, slapped export controls on Anthropic’s Fable 5 and Mythos 5 in response to private sector threat intelligence reporting, the U.S. AI industry officially entered its regulatory era.
+
+But key questions and gaps remain. It’s not clear why the administration drew the line where it did, or whether they will move it again in the future.
+
+Advertisement
+
+While newer models like Mythos and OpenAI’s Daybreak do have stronger cybersecurity capabilities, the private sector reports the administration relied on describe capabilities already available in older commercial, open-source and Chinese models that nearly anyone can access.
+
+CyberScoop spoke with current users of the latest frontier models, including OpenAI’s ChatGPT 5.5 and Fable 5, to learn more about what these models are currently capable of in offensive and defensive cybersecurity.
+
+Cybersecurity experts and former government officials say the administration may be playing catch up on threats that have been building for years as it has more fully realized the national security implications of the technology.
+
+Are the models breaking new ground or just breaking things? 
+
+Users of Chat GPT 5.5, introduced this past April, and Fable 5 tell CyberScoop those models have been largely helpful to their work, even as they complained about high token usage and safety guardrails that hinder,  but don’t meaningfully prevent, defensive cyber tasks.
+
+Advertisement
+
+Eyal Webber Zvik, chief strategy officer at Cato Networks, a cloud and cybersecurity network provider in OpenAI’s Trusted Access in Cyber program, said they use GPT 5.5 and later OpenAI models to scan and triage internal codebases for vulnerabilities, test new safeguards and provide “highly autonomized service” to their customers.
+
+Zvik wouldn’t disclose how many bugs 5.5 has found but said the company’s view is that it helps both find bugs that humans missed and rank which ones to patch based on factors like each bug’s exploitability.
+
+“It is now a native part of our development environment and cycles, and we use those models to scale our entire codebase and make sure what we release into the service that our customers use to run their networks and network security has the least likelihood of having any vulnerabilities that can be exploited,” said Zvik.
+
+John Hopper, vice president of engineering at SpecterOps, an identity security company, said newer models like GPT 5.5 are sharper and more persistent in pursuing their tasks.
+
+“That can be a good or bad thing,” he noted.
+
+Advertisement
+
+One metric that SpecterOps tracks is how long it can keep a particular agent working before it moves off task or fails. That metric “matters a lot” because the longer an agent works without human help , the more agents a single operator can run at once.
+
+Hopper said this provides defenders with immense value, and pushed back on the idea that the offensive capabilities the models offer are automatically more beneficial to malicious hackers. There is “a modicum of grounding that the industry needs when we talk about these models.”
+
+“Yes, AI frontier tools will lower the barrier of entry, but these problems have always existed,” he said. “I don’t actually believe that AI is going to remove the needle in the haystack problem, but by howdy, using my two hands to find that damn needle, compared to using a backhoe, I can tell you which one I’d rather be driving.”
+
+Eran Kinsbruner, vice president of product marketing at software security firm Checkmarx, told CyberScoop that later models like OpenAI’s Codex Security and GPT 5.5 are noticeably easier to set up and run with local systems, even for less technical users. That alone gives them an edge over many cybersecurity tools where interoperability is a constant concern.
+
+However, GPT 5.5 burns through tokens at a much faster rate. He recalled one instance of using it to scan a medium-sized repository in three different programming languages.
+
+Advertisement
+
+“After 26 minutes I almost ran out of tokens, and it didn’t provide anything, just created a threat model for me and told me you want to buy more tokens?” he said.
+
+In other instances, some of the scan results he received were not comprehensive.
+
+Further, he expressed frustration with some of the guardrails designed to prevent risk – like only allowing users to scan local files but not code repositories like GitHub – “makes not too much sense” given how often developers must work with remote code.
+
+Those kinds of guardrails – which can prevent models or developers from injecting malicious code or prompting into their models – sit at the heart of the debate in Washington D.C. and around the world. Some users feel differently about their utility.
+
+Kinsbruner said that doesn’t make sense for organizations like his, which work with thousands of different enterprise organizations with  thousands of different code repositories spread across the internet.
+
+Advertisement
+
+“I cannot imagine how large-scale developers could just jump into this solution and make it an enterprise-grade, enterprise-level, de facto cybersecurity solution” out of it, said Kinsbruner.
+
+OpenAI did not respond to a request from CyberScoop for an interview on GPT 5.5. The company has since released another model, GPT 5.6, that they said is more efficient at token use.
+
+The White House’s crash course in AI cyber risk 
+
+ The White House keeps changing its line on whether and how the U.S. government should limit the release of commercial frontier models. The shift comes from lessons learned since coming into office in Jan. 2025. Trump threw out Biden-era regulations meant to steer the industry toward safer models. Top officials like Vice President JD Vance argued against restricting industry progress.
+
+Less than two years later, administration officials worry about the impact of speed and scale – two things AI excels at – in cyberspace.
+
+Advertisement
+
+According to Will Loucks, senior director of intelligence at the Office of the National Cyber Director, over the past two years the number of exposed and known vulnerabilities has shot up. Threat actors exploit those flaws faster before defenders can fix them. Once inside, the time from initial access to full network control shrinks.
+
+“So in other words, every stage of the cyber operations lifecycle that a threat actor has to move through to get to a victim network and achieve an outcome, they’re just moving through more quickly faster,” said Loucks at a July 16 event in Washington D.C.
+
+Speaking about AI in particular, Loucks said one of the defining characteristics of the technology is its ability to lower barriers for threat actors.
+
+“Sometimes speed and volume have a threatening aspect alone, even if sophistication isn’t quite increasing in the same way, and the reason for that is because it places pressure on defenders…to triage alerts more quickly,” he said.
+
+Jordan Rae Kelly, former director for cyber and incident response on the White House’s National Security Council during Trump’s first term, told CyberScoop that the changes over the past two years reflect the lessons the White House has learned on the issue since returning to office.
+
+Advertisement
+
+In the early days of this administration, Kelly said, “there is a sense and a spirit that the Biden administration was limiting AI and there was a kind of a rip-it-all-off [attitude], everybody go and do whatever, we will be the biggest and boldest and brightest.”
+
+“I love that talking point, but I think what you’ve seen is probably an education over the last 19 months, where people [in the White House] have said that’s a challenging premise to put into place, knowing about the potential downsides and capabilities,” she added.
+
+Michael Daniel, former White House cyber coordinator under President Barack Obama, thinks the horse may already be out of the barn.
+
+Daniel, now head of the Cyber Threat Alliance, a membership nonprofit group focused on cyber threat information sharing between industry and government, said his members report that AI is being used to do things “faster and at a slightly bigger scale” but aren’t yet seeing the flood of exploitation that analysts have warned about. Not yet.
+
+“I think what we’re seeing right now [and] talking about is ‘okay, where are the step changes [in the cyber threat landscape] actually going to occur?” said Daniel. “Are we and when will we see the explosion in vulnerability reporting from these Mythos-like capabilities? That’s what’s really got their attention right now.”
+
+But Mythos and OpenAI’s Daybreak models are restricted to select organizations, and neither has publicly released its most powerful cybersecurity models to the public. That dynamic won’t last.
+
+Advertisement
+
+The UK’s AI Security Institute estimates that open source and foreign LLM models are between 4-7 months behind frontier U.S. models. In that setting, it’s hard to stop the development of AI models worldwide through export controls or other limits.
+
+“It’s not like we’re buying ourselves five to ten years on this,” he said. “We’re not, and so I’m not sure the impact on the defenders who are trying to obey the law is worth whatever small hiccup we cause for our adversaries.”
+
+Kelly said there’s merit to the administration’s current position, even if it took time to get there. Many federal cybersecurity procedures that operated even a decade ago – such as a Vulnerabilities Equities Process that could take days or weeks to consider the pros and cons of keeping an exploit – are no longer practical.
+
+“All of that work to some degree, is out the window, because you can’t meet with the regularity you would need to meet to adjudicate vulnerabilities that are being found in seconds and exploited in minutes,” said Kelly.
+
+But Kelly and others say that’s also because AI capabilities in cybersecurity are developing faster than policymakers can react, even in the best of times.
+
+Advertisement
+
+Key questions remain and the administration’s balance between national security and backing domestic industry will likely shift  in response to new events.  The administration wants a framework that can predict and manage the risks of AI models today and tomorrow. That may be harder than it sounds.
+
+“Do I think they’ve been clear? No,” said Kelly. “But I think it’s a place where clarity is really hard to achieve.”
+
+Written by Derek B. Johnson
+Derek B. Johnson is a reporter at CyberScoop, where his beat includes cybersecurity, elections and the federal government. Prior to that, he has provided award-winning coverage of cybersecurity news across the public and private sectors for various publications since 2017. Derek has a bachelor’s degree in print journalism from Hofstra University in New York and a master’s degree in public policy from George Mason University in Virginia.
+In This Story
+AI REGULATION
+FABLE
+DAYBREAK
+MYTHOS
+AI HACKING
+AI SECURITY
+AGENTIC AI
+AI SAFETY
+ANTHROPIC
+OPENAI
+CHATGPT
+OFFICE OF THE NATIONAL CYBER DIRECTOR
+NATIONAL SECURITY COUNCIL (NSC)
+VULNERABILITIES EQUITIES PROCESS (VEP)
+ARTIFICIAL INTELLIGENCE (AI)
+VULNERABILITIES
+TRUMP ADMINISTRATION
+SHARE
+Advertisement
+Advertisement
+More Like This
+The legal questions raised by agentic AI hacks
+BY DEREK B. JOHNSON
+National cyber director: Government-industry collaboration vital to managing AI risks, competition with nations
+BY TIM STARKS
+AI policy circles targeted in China-linked phishing operation
+BY GREG OTTO
+Advertisement
+Top Stories
+Authorities seize KillSec extortion group infrastructure, arrest 3 alleged members
+BY MATT KAPKO
+Advertisement
+More Scoops
+Researchers at Hacktron discovered a vulnerability, HEIF Heist, named for its ability to trigger memory corruption errors in affected software, allowing the attacker to pilfer sensitive data from its victims. (Image Source: Getty)
+Researchers use AI to find widespread software decoder flaw 
+The bug, since patched, gave attackers remote code execution privileges and access to user accounts and production environments, including Meta’s core product suite and an OpenAI software…
+BY
+DEREK B. JOHNSON
+(Getty Images)
+Feds accuse China of ‘systematic’ distillation of U.S. AI models
+BY
+DEREK B. JOHNSON
+OpenAI: Agent behavior that led to Hugging Face intrusion formed in May
+BY
+GREG OTTO
+AI’s ‘middle class’ has gotten dramatically better at hacking
+BY DEREK B. JOHNSON
+OpenAI says Daybreak will expand to offer specialized cyber services 
+BY DEREK B. JOHNSON
+More than half of AI-generated patches are broken
+BY DEREK B. JOHNSON
+AISI, OpenAI report more ‘unsanctioned’ model hacks
+BY DEREK B. JOHNSON
+Latest Podcasts
+ What the Section 702 lapse means for cybersecurity
+ What AI alignment means for cybersecurity
+ Jailbreaks, sandboxes, and the limits of AI safeguards
+ ClickFix and the social engineering of routine
+Government
+US is looking to weave AI into critical infrastructure for cybersecurity, national cyber director says
+As AI world debates security, NVIDIA releases open source tools for agents
+ShinyHunters trades financial extortion for a reckless war of ego with the FBI
+Supreme Court permits states to use SAVE database for citizenship checks
+Technology
+New bill would create federal investigative body for AI-driven hacks 
+CISA outlines improvement plan for CVE program
+OpenAI, Ukraine partner on ‘Daybreak’ program to protect power grids and water systems 
+Citing China, President Trump doubles down on hands-off approach to AI regulation
+Threats
+WaterISAC reckons with range of threats after summer of cyberattacks
+Attackers exploited Citrix NetScaler zero-day for at least three weeks undetected
+Russian hackers Star Blizzard expand targeting, change up tactics to reach Ukraine and beyond
+Alleged ShinyHunters leader arrested in the Netherlands
+Policy
+House and Senate members propose legislation for CISA to step up cyber defenses for biotech
+Bipartisan Senate leaders introduce bill to bolster telecom cybersecurity in response to Salt Typhoon hacks
+Watchdog finds most agencies failed to meet CISA cloud security orders, heightening risk of attack
+The president has called for AI leadership. Here’s the mission.
+Advertisement
+ABOUT US
+FEDSCOOP
+DEFENSESCOOP
+STATESCOOP
+EDSCOOP
+CYBERSCOOP
+AISCOOP
+NEWSLETTERS
+ADVERTISE WITH US
+AD SPECS
+(202) 887-8001
+HELLO@CYBERSCOOP.COM
+FB
+TW
+LINKEDIN
+IG
+YT

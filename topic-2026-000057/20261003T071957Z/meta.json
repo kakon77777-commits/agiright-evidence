@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000057",
+  "url": "https://industrialcyber.co/ai/warner-unveils-ai-legislative-agenda-to-strengthen-cybersecurity-secure-frontier-ai-models-and-counter-foreign-threats/",
+  "capturedAt": "2026-10-03T07:19:57Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 6201,
+    "sha256": "78c56afbd212ba69b13df050a09e75b90b3455fb5bfb79fc009ee443aad9ad09",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "3BF8C74273AB9AA0069ECEA97D0EE860",
+      "status": 403,
+      "url": "https://industrialcyber.co/ai/warner-unveils-ai-legislative-agenda-to-strengthen-cybersecurity-secure-frontier-ai-models-and-counter-foreign-threats/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "bc842472d3114b3ea1ea156aaaa544cb1a1b64b99d06ed9cf1ff05a94a11a944",
+    "width": 1366,
+    "height": 900,
+    "bytes": 27308,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:19:57Z",
+    "url": "https://industrialcyber.co/ai/warner-unveils-ai-legislative-agenda-to-strengthen-cybersecurity-secure-frontier-ai-models-and-counter-foreign-threats/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 6201,
+      "sha256": "78c56afbd212ba69b13df050a09e75b90b3455fb5bfb79fc009ee443aad9ad09"
+    },
+    "finalUrl": "https://industrialcyber.co/ai/warner-unveils-ai-legislative-agenda-to-strengthen-cybersecurity-secure-frontier-ai-models-and-counter-foreign-threats/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 266,
+      "textSha256": "ede3dd6ef32759d4f5f34bf5a4575655f8cf07d60976dd5d09879fef420ad5fe",
+      "htmlSha256": "5a81b72dc11ebda7e2726e1dc533a0b2732e2849639458ee39872ff5a0d938e9"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "bc842472d3114b3ea1ea156aaaa544cb1a1b64b99d06ed9cf1ff05a94a11a944",
+      "width": 1366,
+      "height": 900,
+      "bytes": 27308,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003072036/https://industrialcyber.co/ai/warner-unveils-ai-legislative-agenda-to-strengthen-cybersecurity-secure-frontier-ai-models-and-counter-foreign-threats/",
+      "timestamp": "20261003072036",
+      "verifiedHttp": 200
+    }
+  }
+}

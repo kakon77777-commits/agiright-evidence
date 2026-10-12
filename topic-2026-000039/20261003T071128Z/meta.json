@@ -1,0 +1,78 @@
+{
+  "id": "topic-2026-000039",
+  "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1817904/full",
+  "capturedAt": "2026-10-03T07:11:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 996565,
+    "sha256": "23e66f0273b6c2bb3397def0276e821dd7f94f52b57ff9f5bb5c25732a4b9b86",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": false,
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "navError": null,
+    "document": {
+      "frameId": "C58D6C53E264815A4B1C00333EA07330",
+      "status": 200,
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1817904/full",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 40945,
+      "afterScrollHeight": 41256,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": null,
+    "layout": {
+      "firstLoadHeight": 40945,
+      "afterScrollHeight": 41256,
+      "wantedHeight": 15000
+    },
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:11:28Z",
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1817904/full",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 996565,
+      "sha256": "23e66f0273b6c2bb3397def0276e821dd7f94f52b57ff9f5bb5c25732a4b9b86"
+    },
+    "finalUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1817904/full",
+    "httpStatus": 200,
+    "title": "Frontiers | Understanding university students’ AI ethical decision-making in academic contexts: a SOR - social cognitive perspective",
+    "rendered": {
+      "textChars": 94105,
+      "textSha256": "1d74d9be96363eeca3624ead779aac98adc020e4cd0c38424c2db724001c1dcb",
+      "htmlSha256": "8e6751b73191181de5402f01dadb3b59dce71d0ce7c5ba29d88928edae586565"
+    },
+    "suspectedBlock": false,
+    "browserError": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260815070751",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260815070751/https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1817904/full"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260815070751/https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1817904/full",
+      "timestamp": "20260815070751",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

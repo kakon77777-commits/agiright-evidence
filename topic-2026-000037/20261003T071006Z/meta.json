@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000037",
+  "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+  "capturedAt": "2026-10-03T07:10:06Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 51743,
+    "sha256": "aef88cb685c866e9544653a607dc0b2fbff5ca6c4d577147721d4cc8edc62a3b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F6A2FABB25D25D8320D077FEB4832DF3",
+      "status": 200,
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2584,
+      "afterScrollHeight": 2584,
+      "wantedHeight": 2584
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b225cfe680213c7563e4612e10e57b6eaa3f016acf61aa93a449d14b4be918f9",
+    "width": 1366,
+    "height": 2584,
+    "bytes": 372653,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2584,
+    "afterScrollHeight": 2584,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:10:06Z",
+    "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 51743,
+      "sha256": "aef88cb685c866e9544653a607dc0b2fbff5ca6c4d577147721d4cc8edc62a3b"
+    },
+    "finalUrl": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+    "httpStatus": 200,
+    "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems | Shaping Europe’s digital future",
+    "rendered": {
+      "textChars": 2934,
+      "textSha256": "42942acbae7839ee8a571da5087c24d447fbd536959681420e814153862ee694",
+      "htmlSha256": "e6c768b7c84f27aec6e9e35198a77e968317c81ca46b1aa6a2e32c487a357a53"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b225cfe680213c7563e4612e10e57b6eaa3f016acf61aa93a449d14b4be918f9",
+      "width": 1366,
+      "height": 2584,
+      "bytes": 372653,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260720143158",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260720143158/https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260720143158/https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+      "timestamp": "20260720143158",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

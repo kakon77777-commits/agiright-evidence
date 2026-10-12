@@ -1,0 +1,139 @@
+Log In
+Sign Up
+News
+Topics
+Features
+Webinars
+White Papers
+Podcasts
+Events & Conferences
+Directory
+Infosecurity Magazine Home » Opinions » Agentic AI’s Next Breach Won’t Start in the Model. It Will Start in the API Path
+Agentic AI’s Next Breach Won’t Start in the Model. It Will Start in the API Path
+OPINION
+24 July 2026
+Written by
+Vishnu Gatla
+
+Senior Application Security and Infrastructure Consultant, F5
+
+Security teams are right to question whether AI agents can be trusted, but many are looking for the risk in the wrong place.
+
+Current discussions focus heavily on the model: whether it follows instructions, resists prompt injection or generates unsafe output. These are valid concerns, but they do not represent the full risk. In production, an AI agent becomes an API client, an automation user, a non-human identity, a traffic generator and sometimes a decision-making layer between business users and sensitive systems.
+
+This is where the next significant failure is likely to occur.
+
+A breach may not result from the model “going rogue” but from excessive API access, misuse of tools, unexpected use of trusted tokens or data movement through application paths that were never designed for autonomous behavior. The primary risk lies not only in what the agent says, but in what it is permitted to do.
+
+AI Agents Are Becoming Production Identities
+
+Most enterprise security programs are unprepared for this transition.
+
+For years, organizations have built controls around human users, service accounts, applications and third-party integrations. Each category has familiar assumptions. A human logs in, completes MFA and performs actions. A service account runs a known workflow. An application sends traffic according to a predictable pattern. A third-party integration has documented permissions and expected API behavior.
+
+AI agents blur these traditional boundaries. They may act on behalf of humans, use service-account credentials, call multiple tools, interact with SaaS platforms, trigger backend workflows, summarize sensitive information and automatically retry failed actions. This combination creates a security gap.
+
+Many existing controls will treat this activity as legitimate.
+
+API calls may be authenticated, tokens valid, traffic encrypted and domains trusted. Users may have approved connections, WAFs may detect normal HTTP requests and identity providers may see successful logins. However, SIEMs may lack sufficient context to determine whether actions are intended, excessive or agent driven.
+
+Treating agentic AI solely as an AI governance issue is too narrow. It also presents challenges for application security, identity security, API security and traffic-layer visibility.
+
+The Risk Is Not the Model Alone
+
+Consider a common production scenario. A business team deploys an AI agent to help summarize tickets, query customer records, open change requests or assist with cloud operations. To be useful, the agent needs access to internal APIs, SaaS applications, storage systems, ticketing tools or collaboration platforms.
+
+During the pilot, broad permissions are granted to ensure smooth operation. As the pilot transitions to daily use, access often remains broad, logs become noisy and ownership becomes unclear. No one is fully responsible for reviewing the agent’s access, tool usage or behavioral changes over time.
+
+This scenario reflects familiar governance failures seen with shadow SaaS, OAuth consent abuse, overprivileged service accounts and forgotten API keys. Agentic AI does not create these weaknesses from scratch. It exposes and accelerates them.
+
+Some argue that model-level guardrails, prompt filtering and human approval steps will address these issues. They help, but they are insufficient. Model guardrails cannot compensate for excessive backend permissions. Prompt filters cannot enforce least privilege across APIs. Human approval is ineffective if reviewers lack visibility into the full chain of actions the agent is about to trigger. Policy documents alone do not prevent authenticated traffic from reaching sensitive systems.
+
+Blocking AI agents is neither realistic nor feasible for most organizations. Instead, agents should be treated as a new class of privileged non-human identity and managed accordingly.
+
+What Security Leaders Should Do Now
+
+First, assign a clear identity to every production AI agent. Security teams must know which agent is acting, whom it represents, which systems it can access and which actions it is permitted to perform. Agent activity should not be hidden within generic service accounts or shared automation credentials.
+
+Second, aggressively scope access. Agents should not receive broad API permissions simply because the use case is still evolving. Begin with narrow scopes, specific tools, limited data access and defined execution boundaries. If an agent only needs to read ticket metadata, it should not be able to export customer records. If it only summarizes alerts, it should not modify firewall rules or initiate deployments.
+
+Third, ensure agent traffic is distinguishable from human and traditional service traffic. Context is critical for detection. A burst of API calls from automation may be normal, but the same pattern from an AI agent acting for a user may be risky. Security teams should identify agent-originated requests across API gateways, WAFs, identity logs, SaaS audit trails and cloud control planes.
+
+Fourth, implement runtime controls closer to the application path. Rate limits, egress controls, schema validation, sensitive-data checks and tool-level authorization should be prioritized. These controls help prevent a compromised or confused agent from using valid credentials for harmful actions. WAFs and API gateways should be used as telemetry and enforcement points for agent behavior.
+
+Fifth, establish an agent access review process. This should resemble reviews for third-party integrations or privileged service accounts, but include additional considerations: Which tools can the agent call? Can it chain actions across systems? Can it access regulated data? Can it take irreversible actions? Are there limits on retries, volume and destinations? Who is responsible if issues arise?
+
+The Breach Will Look Legitimate
+
+The most important change is cultural. Security leaders must stop treating AI agents as experimental features outside standard control frameworks. Once an agent interacts with production systems, it should be included in identity governance, application security, API security, logging, incident response and change management.
+
+Agentic AI failures will not result solely from incorrect model outputs, but from trusted systems accepting inappropriate actions.
+
+Organizations that manage this effectively will not be those with the longest AI policy documents, but those able to answer practical questions: Which agents exist? What can they access? What actions can they take? How is their traffic monitored? What happens when their behavior changes?
+
+The next agentic AI breach may not appear as a dramatic model failure, but as a normal API request from a valid identity, using an approved token and moving through trusted infrastructure.
+
+This is precisely why defenders must prioritize monitoring these areas.
+
+You may also like
+AI is Finding More Vulnerabilities But Open Source Needs More People to Fix Them
+OPINION
+2 October 2026
+China-Linked Hackers Impersonate AI Experts to Target US Policy Insiders
+NEWS
+1 October 2026
+AI-Found Vulnerabilities More Likely to Enable RCE, Google Says
+NEWS
+30 September 2026
+Trump, Six AI Giants Sign 'Super Intelligence' Safety Accord
+NEWS
+30 September 2026
+Amazon Bedrock AgentCore Flaws Could Expose AWS Credentials
+NEWS
+29 September 2026
+What’s Hot on Infosecurity Magazine?
+Read
+Shared
+Watched
+Editor's Choice
+AI-Found Vulnerabilities More Likely to Enable RCE, Google Says
+NEWS
+30 September 2026
+1
+Trump, Six AI Giants Sign 'Super Intelligence' Safety Accord
+NEWS
+30 September 2026
+2
+Attackers Combine ChatGPT Feature Abuse With ClickFix to Deliver Trojan Malware
+NEWS
+30 September 2026
+3
+AI Threats Top Cybersecurity Preparedness Gap, PwC Finds
+NEWS
+1 October 2026
+4
+MI5 Warns Over 100 Academics Helped China's Espionage Plans
+NEWS
+1 October 2026
+5
+Deepfakes Are Becoming a Costly Reality for Businesses, Report Warns
+NEWS
+28 September 2026
+6
+The magazine
+About Infosecurity
+Meet the team
+Contact us
+Advertisers
+Media pack
+Contributors
+Forward features
+Op-ed
+Next-gen submission
+Copyright © 2026 Reed Exhibitions Ltd.
+Terms and Conditions
+Privacy Policy
+Intellectual property statement
+Cookie Settings
+Cookie Policy
+Sitemap

@@ -1,0 +1,204 @@
+Subscribe
+Sign in
+Discover more from techletter by Nesibe
+TechLetter — AI governance, regulation, safety, and the societal impact of emerging technologies.
+Subscribe
+By subscribing, you agree Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
+Already have an account? Sign in
+The Week AI Governance Stopped Being Optional
+China’s Agent Rules, Illinois Audits, EU Enforcement, NATO’s Military AI, and the UN’s First Global Dialogue
+NESIBE | AI GOVERNANCE EXPERT
+JUL 13, 2026
+11
+2
+3
+Share
+
+I keep a running file of moments when a voluntary principle turns into an enforceable rule. Most weeks it gains one or two. Last week is the first time that many major jurisdictions moved in the same seven days from ‘should we govern this?’ to ‘here is the machinery that will.’
+
+China, Illinois, Brussels, Ankara, and the UN all moved from asking to building, and every one of those moves turns on the same unresolved question: who is accountable when AI acts.
+
+If May was the week governance stopped looking like one thing, this is the week it stopped being optional.
+
+The Week AI Governance Stopped Looking Like One Thing: Hangzhou, Karlsruhe, Oakland, and Colorado
+NESIBE KIRIS CAN
+·
+MAY 5
+Read full story
+The Week at a Glance
+
+Where What happened Instrument Binding?
+
+Here is each development, and what they add up to once you line them up.
+
+China Now Regulates AI Agents as a Separate Category
+
+China’s Implementation Opinions on intelligent agents, jointly issued by the CAC, NDRC, and MIIT, take effect on 15 July. This is the world’s first dedicated regulatory category for AI agents, and its core provisions are structural:
+
+Agents are defined as systems capable of autonomous perception, memory, decision-making, interaction, and execution, treated as a category separate from generative AI.
+
+Developers must sort agent decisions into three tiers: decisions the user makes, decisions requiring user authorisation, and decisions the agent takes alone. The user holds final decision-making power, and agents can’t act beyond authorised scope.
+
+Agents in healthcare, transportation, media, and public safety face mandatory filing, compliance testing, and recall provisions.
+
+Whatever else this framework is, it’s an answer to the accountability question, and one of the first detailed answers anywhere. This puts the obligations on the agent, the thing that perceives, decides, and executes. The model sitting underneath is not the unit being governed here. That is a different regulatory instinct from the one driving most frameworks in the West, where the model is still the thing regulators reach for first. China decided the actor is what matters, and it built filing, testing, and recall around that choice. The compliance cost lands on developers, and the protection it promises, final decision-making power, lands with the user, at least on paper.
+
+Illinois Is the First US State to Require Independent AI Safety Audits
+
+Governor Pritzker signed the AI Safety Measures Act (SB 315), making Illinois the first US state to mandate third-party audits of frontier model safety. The mechanics:
+
+Applies to frontier developers with more than $500 million in revenue.
+
+Requires annual independent audits of safety plans, with results published.
+
+Enforcement sits with the Attorney General alone: civil penalties up to $1 million for a first violation and $3 million for subsequent ones, with no private right of action.
+
+The design choice worth sitting with is that Illinois set no new safety standard at all. The law takes the safety plans companies already publish and forces them to stand up to an independent auditor once a year, in public, or answer to the Attorney General. That shifts the burden from asserting safety to evidencing it, and it does so, as I argued in May, in a world where many frontier systems have already outrun what a traditional audit can meaningfully prove. The distance between what a company claims and what an auditor can verify is exactly where this law will be tested.
+
+What Would the GAAIA Draft Actually Freeze?
+
+Or: how a federal pause lands on a live state experiment. The Great American AI Act discussion draft from Representatives Obernolte and Trahan proposes a three-year federal preemption, and its scope is precise:
+
+Frozen: state laws that specifically regulate AI model development, exactly the category Illinois just legislated.
+
+Untouched: post-deployment rules, laws of general applicability, and state authority granted under the draft itself.
+
+Status: opposed from both directions at once, by Democrats because it strips state authority and by Republicans and industry because it doesn’t strip enough.
+
+Read next to Illinois, the timing is the story. It’s a draft that arrives just as one state finally tests the path it would close. If you read it next to Trump’s new AI executive order, you get the full picture: Congress is trying to pause state experiments while the White House writes national AI policy through directives that leave most of the model‑safety machinery undefined.
+
+Trump's New AI Executive Order Is Not What It Looks Like
+NESIBE KIRIS CAN
+·
+JUN 12
+Read full story
+The EU Is Building the Capacity to Test AI Models Before They Reach the Market
+
+On 7 July, the Commission presented its EU Action Plan on Cybersecurity and Artificial Intelligence. Under the headline items sits the structural one:
+
+An EU evaluation capacity for advanced AI models, supporting the AI Office’s regulatory function, operational in 2027.
+
+A secure AI testing platform expected by the end of 2026.
+
+The context: the AI Act already requires advanced models to be evaluated before they reach the EU market. What Europe lacked was the independent technical capacity to do the evaluating.
+
+This is the difference between a law that exists and a law that can be enforced, and Brussels just funded the second, in hardware, software, and staff. What matters most here is who holds the evidence. Until now, the requirement to assess advanced models before they reach the market leaned on the same labs that build those models to characterise their own risks. An independent evaluation capacity pulls that evidence out of the developer's hands and into the regulator's. The catch is timing. The obligation exists now, the capacity is scheduled for 2027, and the testing platform for the end of 2026. For roughly a year, Europe holds a law it cannot yet independently enforce, which is its own kind of gap.
+
+NATO Put Military AI Adoption on the Fast Track
+
+Yes, NATO had briefly turned into an international Turkish cat fan club.
+
+Nesibe | AI Governance Expert
+Jul 10
+
+Sorry, but NATO turned into an international Turkish cat fan club. 🇹🇷🐈❤️
+
+4
+
+Of course, Ankara Summit Declaration wasn’t about cats—it was about speeding up how fast military AI systems move from concept to deployment. Two commitments matter for this file:
+
+The Alliance is developing an interoperable transatlantic warfighting cloud and “adopting powerful AI models,” alongside capability investments in uncrewed systems and cutting-edge technologies.
+
+Allies announced more than $50 billion in new procurements in Ankara, on top of a $139 billion increase in European and Canadian core defence investment in 2025.
+
+The contrast with everything above is the point: civilian regimes spent the week designing brakes and dashboards; the military track pressed the accelerator. The military track committed to adopting powerful AI models in a single sentence, with no accountability framework named in the declaration. The most consequential AI deployments of the decade may run on the track with the least governance machinery attached.
+
+What Happened at the First UN Global Dialogue on AI Governance?
+
+The first UN Global Dialogue on AI Governance ran back‑to‑back with ITU’s AI for Good summit in Geneva—AI’s new global governance table bolted onto the UN’s flagship ‘AI for Good’ stage.
+
+I was invited to both; in the end, my contribution stayed on paper and in the consultation portal, because the visa appointment system never opened in time.:))
+
+Three inputs shaped it:
+
+The science arrived first. The preliminary report of the Independent International Scientific Panel on AI, warns that current safeguards can’t keep pace with capability growth, that there are no known technical guarantees agent systems will follow instructions consistently, and that most countries, including advanced economies, lack the technical expertise to assess the most capable models.
+
+The Global South named its terms. Ahead of the Dialogue, the Global Digital Justice Forum and the Global South Alliance issued a joint statement with five demands: end AI extractivism, apply the common but differentiated responsibilities principle to international AI cooperation, address corporate impunity in data and AI value chains, build a data governance framework that delivers global equity, and invest in global public compute.
+
+The fault line is visible. The submissions split along a familiar divide, capacity-building for the majority of countries, frontier safety for the few that build frontier models.
+
+That split is the one to watch. Capacity-building for the many and frontier safety for the few look like parallel tracks. They are really competing for the same scarce thing: whose problem sets the agenda. When the few who build frontier models also define what safety means, the many end up governing risks they did not design and cannot yet assess. The Global South statement is an attempt to widen that definition before it hardens.
+
+Why Does the FCA Mills Review Matter for Agentic AI?
+
+One more entry, easy to miss. The FCA published the Mills Review on 6 July, the first review of its kind initiated by a regulator anywhere:
+
+FCA-commissioned research found a fifth of people, 11 million UK adults, are likely to use AI that acts autonomously on their finances within pre-set goals.
+
+The review maps five human roles along an autonomy spectrum, from operator to observer, and concedes that accountability under existing regimes gets hard to evidence precisely at the autonomous end.
+
+A financial regulator just said, in its own voice, what China’s new rules assume: the accountability question moves when the AI starts acting. I’m mapping who is actually answering that question, jurisdiction by jurisdiction, in Sunday’s piece.
+
+Until next one,
+
+Nesibe
+
+💬 Let’s Connect:
+
+🔗 LinkedIn: [linkedin.com/in/nesibe-kiris]
+
+🐦 Twitter/X: [@nesibekiris]
+
+📸 Instagram: [@nesibekiris]
+
+🔔 New here? for weekly updates on AI governance, ethics, and policy! no hype, just what matters.
+
+Subscribe to techletter by Nesibe
+TechLetter — AI governance, regulation, safety, and the societal impact of emerging technologies.
+Subscribe
+By subscribing, you agree Substack's Terms of Use, and acknowledge its Information Collection Notice and Privacy Policy.
+11 Likes
+∙
+3 Restacks
+11
+2
+3
+Share
+Previous
+Next
+Discussion about this post
+Comments
+Restacks
+Raise Ready Moms
+Jul 16
+
+Thanks so much for the roundup. I live in Illinois and wasn’t even aware of the recent changes in our state. Appreciate your clear, concise review of what’s happening!
+
+LIKE
+REPLY
+SHARE
+Horst Pichler
+Jul 13
+
+It still sounds like the Wild West. EU doing the most and still lagging a year behind. US actively trying to stop legislation to regulate AI and the military speeding it up. That’s still a very scary picture especially if you add in the fact that you can fit all AI execs in one rather small room. That much power concentrated on that few people without governance is scary.
+
+LIKE
+REPLY
+SHARE
+Top
+Latest
+Discussions
+Why Your AI Policy Fails Before Anyone Enforces It
+A signed policy is not the same as one that binds. Here is the seven-part outline a governance-grade AI policy needs, and the seven signals that tell…
+JUL 8 • NESIBE | AI GOVERNANCE EXPERT
+12
+5
+Claude Is Using Your Computer Now. Here Is What That Actually Means.
+Governance and security concerns
+MAR 24 • NESIBE | AI GOVERNANCE EXPERT
+21
+3
+3
+How I Protect My Brain in the Age of AI
+A personal framework for using AI tools without outsourcing your thinking
+JAN 16 • NESIBE | AI GOVERNANCE EXPERT
+19
+3
+5
+See all
+Ready for more?
+Subscribe
+© 2026 Nesibe Kırış Can · Privacy ∙ Terms ∙ Collection notice
+Start your Substack
+Get the app
+Substack is the home for great culture

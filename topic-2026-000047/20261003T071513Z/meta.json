@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000047",
+  "url": "https://siliconangle.com/2026/07/23/ropedia-raises-22m-scale-human-centric-data-collection-embodied-ai/",
+  "capturedAt": "2026-10-03T07:15:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 183105,
+    "sha256": "4b8a551a3214d9b2772f1ec60162c2b415f6b72c07ae6848c072dc41f408ce2c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "78497DA508A27B03C71EC2BEB2352032",
+      "status": 200,
+      "url": "https://siliconangle.com/2026/07/23/ropedia-raises-22m-scale-human-centric-data-collection-embodied-ai/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5027,
+      "afterScrollHeight": 5027,
+      "wantedHeight": 5027
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "40a1f4ef6b08217c4209f675678dd640d778a17c98db412b413c61e459797f8f",
+    "width": 1366,
+    "height": 5027,
+    "bytes": 1944100,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5027,
+    "afterScrollHeight": 5027,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:15:13Z",
+    "url": "https://siliconangle.com/2026/07/23/ropedia-raises-22m-scale-human-centric-data-collection-embodied-ai/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 183105,
+      "sha256": "4b8a551a3214d9b2772f1ec60162c2b415f6b72c07ae6848c072dc41f408ce2c"
+    },
+    "finalUrl": "https://siliconangle.com/2026/07/23/ropedia-raises-22m-scale-human-centric-data-collection-embodied-ai/",
+    "httpStatus": 200,
+    "title": "Ropedia raises $22M to scale human-centric data collection for embodied AI - SiliconANGLE",
+    "rendered": {
+      "textChars": 9132,
+      "textSha256": "1fdf7b2707bb6d0ca6492b1b4ec99c726e88513d9397161bf1953d831f6fc5bd",
+      "htmlSha256": "49b1149e97fb1af278ee241f842e7f7946574b752c8ac3320af2f422a8990297"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "40a1f4ef6b08217c4209f675678dd640d778a17c98db412b413c61e459797f8f",
+      "width": 1366,
+      "height": 5027,
+      "bytes": 1944100,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260724053001",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260724053001/https://siliconangle.com/2026/07/23/ropedia-raises-22m-scale-human-centric-data-collection-embodied-ai/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260724053001/https://siliconangle.com/2026/07/23/ropedia-raises-22m-scale-human-centric-data-collection-embodied-ai/",
+      "timestamp": "20260724053001",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

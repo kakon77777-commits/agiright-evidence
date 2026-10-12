@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000053",
+  "url": "https://iapp.org/news/a/china-s-new-ai-rules-ethics-ai-agents-and-anthropomorphic-ai",
+  "capturedAt": "2026-10-03T07:17:35Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 360121,
+    "sha256": "84aad9ab1019d295c29eda585480d885e5ec8ded1ca66265c1278bb48f4d20a9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "89E80A585141EF9E46362A50B589D56B",
+      "status": 200,
+      "url": "https://iapp.org/news/a/china-s-new-ai-rules-ethics-ai-agents-and-anthropomorphic-ai",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2655,
+      "afterScrollHeight": 2655,
+      "wantedHeight": 2655
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8b081b7c9b7948e313df7cd85a78c23a6e91b7be8a9bfd83fb0ef628a5dc8ce4",
+    "width": 1366,
+    "height": 2655,
+    "bytes": 623814,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2655,
+    "afterScrollHeight": 2655,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:17:35Z",
+    "url": "https://iapp.org/news/a/china-s-new-ai-rules-ethics-ai-agents-and-anthropomorphic-ai",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 360121,
+      "sha256": "84aad9ab1019d295c29eda585480d885e5ec8ded1ca66265c1278bb48f4d20a9"
+    },
+    "finalUrl": "https://iapp.org/news/a/china-s-new-ai-rules-ethics-ai-agents-and-anthropomorphic-ai",
+    "httpStatus": 200,
+    "title": "China's new AI rules: Ethics, AI agents and anthropomorphic AI | IAPP",
+    "rendered": {
+      "textChars": 4355,
+      "textSha256": "f3cb28ed99b4bf0af0bce9d472c976c68b5cd35796e425c23fa4c83a92aa36c4",
+      "htmlSha256": "764551b6ee63e1617c29cf00390fe8dd643600afc3b90f33b7f99763e05dce21"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8b081b7c9b7948e313df7cd85a78c23a6e91b7be8a9bfd83fb0ef628a5dc8ce4",
+      "width": 1366,
+      "height": 2655,
+      "bytes": 623814,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260710234622",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260710234622/https://iapp.org/news/a/china-s-new-ai-rules-ethics-ai-agents-and-anthropomorphic-ai"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260710234622/https://iapp.org/news/a/china-s-new-ai-rules-ethics-ai-agents-and-anthropomorphic-ai",
+      "timestamp": "20260710234622",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

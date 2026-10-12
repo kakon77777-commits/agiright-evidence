@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000062",
+  "url": "https://northeasttimes.com/2026/07/31/gcc-bans-ai-generated-code-over-gpl-copyright-fears/",
+  "capturedAt": "2026-10-03T07:21:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5960,
+    "sha256": "6ee603d108d38eaa01ee937841d182bcd3aa3e6b009e2343f7a5d173013e142a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F71F9C5CC3CCD1B3A78524376797ABB6",
+      "status": 403,
+      "url": "https://northeasttimes.com/2026/07/31/gcc-bans-ai-generated-code-over-gpl-copyright-fears/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8992d304d5de19fbd894280ab00be5f79ddf17465e92dc3e74bda8e129f3f691",
+    "width": 1366,
+    "height": 900,
+    "bytes": 28761,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:21:56Z",
+    "url": "https://northeasttimes.com/2026/07/31/gcc-bans-ai-generated-code-over-gpl-copyright-fears/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5960,
+      "sha256": "6ee603d108d38eaa01ee937841d182bcd3aa3e6b009e2343f7a5d173013e142a"
+    },
+    "finalUrl": "https://northeasttimes.com/2026/07/31/gcc-bans-ai-generated-code-over-gpl-copyright-fears/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 266,
+      "textSha256": "f6a35c1151b47d4d6afbdb61e6520cc4edf22a6bf3f5ac8004ea401d1f3c208d",
+      "htmlSha256": "914be2553453724cf561b44a6fb82b7a1bc86914b6cb227987e9c2b3c0ae079d"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "8992d304d5de19fbd894280ab00be5f79ddf17465e92dc3e74bda8e129f3f691",
+      "width": 1366,
+      "height": 900,
+      "bytes": 28761,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003072306/https://northeasttimes.com/2026/07/31/gcc-bans-ai-generated-code-over-gpl-copyright-fears/",
+      "timestamp": "20261003072306",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000041",
+  "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-july24-2026",
+  "capturedAt": "2026-10-03T07:12:23Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 283630,
+    "sha256": "b2e15094dd19fb5b62797e5a4ce865718c83365d312e2e4ffdf845f0d8ec0ddb",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CAA0D17ED32640AAB472FDA525F5AB6C",
+      "status": 200,
+      "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-july24-2026",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 19403,
+      "afterScrollHeight": 19392,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ad0da1e97273ad835aee841b6566c483ea13b6a0a89568794fda9a29c75f668a",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 2888994,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 19403,
+    "afterScrollHeight": 19392,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:12:23Z",
+    "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-july24-2026",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 283630,
+      "sha256": "b2e15094dd19fb5b62797e5a4ce865718c83365d312e2e4ffdf845f0d8ec0ddb"
+    },
+    "finalUrl": "https://www.transparencycoalition.ai/news/ai-legislative-update-july24-2026",
+    "httpStatus": 200,
+    "title": "AI Legislative Update: July 24, 2026 — Transparency Coalition. Legislation for Transparency in AI Now.",
+    "rendered": {
+      "textChars": 35051,
+      "textSha256": "6d79f50a894df515c00af4217ea9ad067ea705a2e761b957e8067de4167825fb",
+      "htmlSha256": "3d66f7e681e87d7f0944fefbfb0aed56d8281f5f314f43d7628a2be24481634e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ad0da1e97273ad835aee841b6566c483ea13b6a0a89568794fda9a29c75f668a",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 2888994,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260809131959",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260809131959/https://www.transparencycoalition.ai/news/ai-legislative-update-july24-2026"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260809131959/https://www.transparencycoalition.ai/news/ai-legislative-update-july24-2026",
+      "timestamp": "20260809131959",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

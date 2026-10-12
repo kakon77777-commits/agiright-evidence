@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000029",
+  "url": "https://thedispatch.com/article/consciousness-research-question-hoel/",
+  "capturedAt": "2026-10-03T07:06:46Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 514000,
+    "sha256": "ded9b4db649768862092090b1a70ad3f2307ca1ce1dde260a07daaa52da315c1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6CA58C0B85756A0CF2CE52C7D85E27F3",
+      "status": 200,
+      "url": "https://thedispatch.com/article/consciousness-research-question-hoel/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6755,
+      "afterScrollHeight": 6755,
+      "wantedHeight": 6755
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4bfcbe4a7cfd41950412d7a67adeb1dad6fddd47c907a7e9e7fceac13770cf94",
+    "width": 1366,
+    "height": 6755,
+    "bytes": 2163012,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6755,
+    "afterScrollHeight": 6755,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:06:46Z",
+    "url": "https://thedispatch.com/article/consciousness-research-question-hoel/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 514000,
+      "sha256": "ded9b4db649768862092090b1a70ad3f2307ca1ce1dde260a07daaa52da315c1"
+    },
+    "finalUrl": "https://thedispatch.com/article/consciousness-research-question-hoel/",
+    "httpStatus": 200,
+    "title": "Can We Ever Understand Consciousness?  - Sam Buntz - The Dispatch",
+    "rendered": {
+      "textChars": 14086,
+      "textSha256": "bc48acd2059f9ee617c771a7465316506fc24da6423a4e5238b65288cd7eeb25",
+      "htmlSha256": "df992b6723c9c7b47624fda291dfba5023087ca46ae9b8927058a89b005caa5e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4bfcbe4a7cfd41950412d7a67adeb1dad6fddd47c907a7e9e7fceac13770cf94",
+      "width": 1366,
+      "height": 6755,
+      "bytes": 2163012,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003070740/https://thedispatch.com/article/consciousness-research-question-hoel/",
+      "timestamp": "20261003070740",
+      "verifiedHttp": 200
+    }
+  }
+}

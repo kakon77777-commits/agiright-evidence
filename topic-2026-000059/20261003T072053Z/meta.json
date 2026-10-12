@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000059",
+  "url": "https://www.bakerbotts.com/thought-leadership/publications/2026/july/third-circuit-hears-oral-argument",
+  "capturedAt": "2026-10-03T07:20:53Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 63007,
+    "sha256": "2919f6a69f543f1814b985b2f639dd8abef584e0eb07638de34b4fb226f477e8",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4277B486230D136DAAC8EF4925A436C7",
+      "status": 200,
+      "url": "https://www.bakerbotts.com/thought-leadership/publications/2026/july/third-circuit-hears-oral-argument",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4376,
+      "afterScrollHeight": 4376,
+      "wantedHeight": 4376
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c524b202080cf4e0fa114cc43dbb28e29bc2d7b89758655486c510a17102b42f",
+    "width": 1366,
+    "height": 4376,
+    "bytes": 657735,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4376,
+    "afterScrollHeight": 4376,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:20:53Z",
+    "url": "https://www.bakerbotts.com/thought-leadership/publications/2026/july/third-circuit-hears-oral-argument",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 63007,
+      "sha256": "2919f6a69f543f1814b985b2f639dd8abef584e0eb07638de34b4fb226f477e8"
+    },
+    "finalUrl": "https://www.bakerbotts.com/thought-leadership/publications/2026/july/third-circuit-hears-oral-argument",
+    "httpStatus": 200,
+    "title": "Third Circuit Hears Oral Argument in Ross v. Reuters AI Training Copyright Case | Thought Leadership | July 2026 | Baker Botts",
+    "rendered": {
+      "textChars": 7304,
+      "textSha256": "935915e51267190709f13a71eb69c6ba5a5dda24a8d28d756ad1e1bafaae6cc2",
+      "htmlSha256": "452401169d3a347b4d5561e3a8a283b061acda5782109bd6de5ed6483b68163f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c524b202080cf4e0fa114cc43dbb28e29bc2d7b89758655486c510a17102b42f",
+      "width": 1366,
+      "height": 4376,
+      "bytes": 657735,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003072232/https://www.bakerbotts.com/thought-leadership/publications/2026/july/third-circuit-hears-oral-argument",
+      "timestamp": "20261003072232",
+      "verifiedHttp": 200
+    }
+  }
+}

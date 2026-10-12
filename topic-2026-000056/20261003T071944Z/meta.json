@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000056",
+  "url": "https://internationalpublishers.org/publishers-and-authors-file-class-action-lawsuit-against-google-for-willful-copyright-infringement-to-develop-gemini-ai-models/",
+  "capturedAt": "2026-10-03T07:19:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 156117,
+    "sha256": "95551e31bebd9b7f46b7ba883242fbe6e35c7bd5025de1c6d66a72696e5ad730",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8078592557526EB6F888EE3D7F451FBC",
+      "status": 200,
+      "url": "https://internationalpublishers.org/publishers-and-authors-file-class-action-lawsuit-against-google-for-willful-copyright-infringement-to-develop-gemini-ai-models/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2426,
+      "afterScrollHeight": 2426,
+      "wantedHeight": 2426
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "fba4727e7dd6314d807d15ac55163153f49b04860df5fdfc52d3c03d18470dab",
+    "width": 1366,
+    "height": 2426,
+    "bytes": 413945,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2426,
+    "afterScrollHeight": 2426,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:19:44Z",
+    "url": "https://internationalpublishers.org/publishers-and-authors-file-class-action-lawsuit-against-google-for-willful-copyright-infringement-to-develop-gemini-ai-models/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 156117,
+      "sha256": "95551e31bebd9b7f46b7ba883242fbe6e35c7bd5025de1c6d66a72696e5ad730"
+    },
+    "finalUrl": "https://internationalpublishers.org/publishers-and-authors-file-class-action-lawsuit-against-google-for-willful-copyright-infringement-to-develop-gemini-ai-models/",
+    "httpStatus": 200,
+    "title": "Publishers and Authors File Class Action Lawsuit Against Google for Willful Copyright Infringement to Develop Gemini AI Models – International Publishers Association",
+    "rendered": {
+      "textChars": 4610,
+      "textSha256": "9ee5045faf37e7022db8827e6f4025c5880892b1b0c4913e544ccbb46dd3c026",
+      "htmlSha256": "c15ad2d20367c86b54f3672bbdcbe1e44c7be3eac5084313859424f61ec2074b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "fba4727e7dd6314d807d15ac55163153f49b04860df5fdfc52d3c03d18470dab",
+      "width": 1366,
+      "height": 2426,
+      "bytes": 413945,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003072042/https://internationalpublishers.org/publishers-and-authors-file-class-action-lawsuit-against-google-for-willful-copyright-infringement-to-develop-gemini-ai-models/",
+      "timestamp": "20261003072042",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,134 @@
+From Europe. For the global patent community.
+JUVE Patent PaceMaker Advertiser Login
+Firm Rankings
+Cases
+Legal Commentary
+People & Business
+Firms & Experts
+TRENDING TOPICS:
+Dutch patent market
+Interviews
+UK patent courts
+Unified Patent Court
+JUVE Patent  Cases  Munich Regional Court stops Suno using GEMA-protected music
+Generative AI
+Munich Regional Court stops Suno using GEMA-protected music
+
+Today, Munich Regional Court ruled in favour of GEMA, finding Suno has infringed copyrighted musical works with its AI tool for generating music. It is the second copyright case brought by GEMA over AI-generated musical output.
+
+31 July 2026 by Laura King
+
+Computer & Software
+Entertainment
+Germany
+Print
+GEMA maintains Suno's AI music generator infringes the copyright of multiple composers ©Atstock Productions/ADOBE Stock
+
+Today, the Regional Court Munich handed down its decision in the dispute between GEMA and Suno AI. US company Suno AI is the provider of an AI tool that generates complete, playable songs using simple text commands or prompts. The collecting society accuses Suno of systematically using its members’ repertoire to train the system without acquiring licences or paying royalties. In this specific case, GEMA is asserting claims on behalf of the composers of six well-known musical works.
+
+The collecting society GEMA brought an action at the Munich court for cease and desist, disclosure and damages against Suno in January 2025 (case ID: 42 O 763/25). Rather than patents, this case concerns the copyright of music creators.
+
+The 42nd Civil Chamber, which specialises in copyright law, heard the case in March. Originally a judgment was scheduled for 12 June but was postponed to 31 July. The chamber under presiding judge Elke Schwager has now ruled in favour of GEMA. The court has ordered Suno to cease the unauthorised reproduction of the protected musical works and to stop using the works to train the AI model. The court also ordered Suno to disclose information regarding revenue generated in connection with the infringements and to pay damages. The amount has not yet been determined. The judgment is not yet enforceable.
+
+Protection circumvented
+
+It was undisputed that the model developed by Suno was trained using the six musical works at issue. According to Munich Regional Court, Suno used so-called ‘stream-ripping’ techniques to extract well-known musical works from the YouTube platform. In doing so, it circumvented the so-called ‘rolling cipher’, a technical protection measure designed to prevent downloading.
+
+During the oral hearing, GEMA stated that it was able to document that the Suno system produces audio content which, in terms of melody, harmony and rhythm, partially corresponds to six world-famous works, namely ‘Daddy Cool’ by Frank Farian; ‘Rasputin’ by Frank Farian, Fred Jay and George Reyam; ‘Forever Young’ and ‘Big in Japan’ by Marian Gold, Bernhard Lloyd and Frank Mertens; ‘Atemlos’ by Kristina Bach; and ‘Mambo No. 5’ by David Lubega and Christian Pletschacher.
+
+GEMA regards this as unauthorised reproduction under copyright law and therefore demanded an appropriate share of the AI provider’s subscription revenue for its members. Copyright infringements are alleged in both the US and Germany. The song lyrics were not at issue.
+
+Suno claims ‘fair use’ doctrine
+
+Suno contested this. It argued that the musical pieces are not protected by copyright in the first place. Furthermore, it claimed that training with the musical works is covered by the ‘fair use’ doctrine under the applicable US law, and that the training data is neither contained in the model nor stored within it. Instead, claimed Suno, the weights and parameters of the model represent mathematically learnt patterns and generalised features derived from the training data, such as syntactic, semantic and contextual relationships.
+
+Insofar as German law applies, Suno claimed there is no use relevant to copyright and any potential infringements are justified by the exceptions for text and data mining.
+
+The court did not agree with Suno’s arguments. According to the ruling, GEMA is entitled to the claims asserted both on the basis of the reproduction of the musical works that took place as part of the training carried out in the US, and on the basis of the reproduction in the model and the communication to the public in the outputs in Germany.
+
+AI tool memorised songs
+
+The court considers itself competent to rule on the case, including alleged copyright infringements that took place in the US. A special rule in Germany’s Collecting Societies Act (VGG) gives organisations such as GEMA a privileged court venue for cases connected with their role in managing copyright.
+
+The court found that the disputed songs were effectively stored within the defendant’s AI music models, which were hosted on servers in Germany. This can happen through a process called ‘memorisation’: rather than merely learning general patterns from training data, an AI model can retain parts of the original works and later reproduce them. The court concluded that the similarities between the original songs and the AI-generated outputs were too extensive and specific to be coincidental.
+
+According to the court, this amounts to an unauthorised copying of the songs under German copyright law. The legal exception for text and data mining does not apply, because the works were not only analysed during training but retained in the models in a reproducible form.
+
+‘Fair use’ does not apply
+
+The court also held that Suno was responsible when the AI generated outputs in Germany that reproduced recognisable original elements of the songs. It was not the users who bore responsibility, because the users only entered basic prompts, such as lyrics and a musical style. The defendant designed, trained and operated the models, and therefore controlled the system that produced the allegedly infringing outputs.
+
+In addition, simply making the AI model and music-generation application available to the public was considered by the court to infringe the right of public performance under German copyright law.
+
+For copying that occurred during training in the US, the court stated that US copyright law applies. The court found that the copies and outputs were not protected by the US fair use doctrine. It distinguished this case from the Bartz and Kadrey decisions in the US, where courts found AI training to be fair use largely because the original training materials were not reproduced for users in the outputs. By contrast, in the GEMA against Suno case simple prompts led to outputs that were substantially similar to the original musical works.
+
+Suno now intends to explore all options, including an appeal.
+
+Not the first AI case
+
+The lawsuit against Suno is the second AI-related lawsuit brought by GEMA. The collecting society also sued the US provider OpenAI regarding the AI-generated reproduction of well-known song lyrics. In that case, too, the Munich Regional Court examined the use of the copyright-protected works and ruled in favour of GEMA in November.
+
+GEMA represents around 103,000 members from all over the world, including composers, lyricists and music publishers. According to its own statements, it is seeking partnership-based solutions with AI companies.
+
+Suno AI entered into such a partnership with Warner Music at the end of 2025 to licence its music catalogue for new Suno AI models. Warner had previously also taken legal action against Suno, as had Universal Music and Sony Music Entertainment.
+
+Raue vs Latham
+
+GEMA retained a multi-office team from Berlin IP law firm Raue. The firm has a high profile in Germany for its media and publishing law expertise. Partner and co-head of the media practice Robert Heine led the case. He regularly assists collecting societies such as Corint Media, Gesellschaft zur Verwertung von Leistungsschutzrechten (GVL) and VG Musikedition.
+
+Robert Heine
+Kai Welp
+Felix Laurin Stang
+
+Within the firm, Heine also leads on matters relating to the use of artificial intelligence in legal work. Media and copyright lawyers Felix Stang, Anna Bernzen, and Johannes von Rosen provided support. GEMA’s head of legal, Kai Welp, prepared the claim in tandem with Raue.
+
+Anne Löhner
+Christoph Baus
+Susan Kempe-Müller
+
+Suno relied on Latham & Watkins. Munich-based dispute resolution partner Anne Löhner led the case, with support from IP partner Susan Kempe-Müller and commercial litigator and partner Christoph Baus. (Co-authors: Norbert Plützer, Sonja Behrens)
+
+Receive the latest patent news direct to your inbox.
+Subscribe
+Print
+Author
+Laura King
+Production editor
+laura.king@juve.de
+Sponsored Content
+A whole-of-market-evidence approach to FRAND determination
+22 July 2026 by BRELA / FRANDLY
+FRAND Rate-Setting: Convergence on Principles, Divergence in Practice
+2 July 2026 by BRELA / FRANDLY
+Sponsored Content Overview
+Related Articles
+Generative AI
+Open AI must pay GEMA licence fee for ChatGPT
+
+If Open AI wants to use song lyrics by German musicians to train ChatGPT, it must obtain a GEMA licence. This is the outcome of t ...
+
+11 November 2025 by Mathieu Klos
+Case preview
+Munich hears first ever case over licences for generative AI in GEMA vs OpenAI
+
+It is reportedly the first lawsuit worldwide against an AI provider for the unlicensed use of protected musical works. Today, Mun ...
+
+29 September 2025 by Mathieu Klos
+Patentability of AI
+UK Court of Appeal issues landmark ruling in Emotional Perception AI case
+
+In the ongoing debate over the patentability of AI, the UK Court of Appeal has now issued a landmark ruling. According to the jud ...
+
+29 July 2024 by Konstanze Richter
+Interview
+Malte Köllner: "You can file a patent application on an AI-assisted invention"
+
+Artificial intelligence cannot be an inventor. The Federal Court of Justice recently decided this for Germany. The court neverthe ...
+
+25 July 2024 by Mathieu Klos
+© 2026 Juve Patent
+ LinkedIn
+Team About us Media Information General Terms and Conditions PaceMaker General Terms & Conditions Privacy Policy Legal Notice Whistleblowing policy Dealing with Artificial Intelligence (AI)
+We would like to send you push notifications. You can unsubscribe at any time.
+ALLOW
+NO THANKS

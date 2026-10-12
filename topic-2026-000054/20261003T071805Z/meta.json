@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000054",
+  "url": "https://viterbischool.usc.edu/news/2026/07/can-ai-make-us-better-thinkers-usc-researcher-studies-how-human-and-ai-think-together-by-looking-at-brain-signals/",
+  "capturedAt": "2026-10-03T07:18:05Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 218088,
+    "sha256": "56541431a5068ff2d553b1621202137e96a9bcbc06b403a77e3c55580b1b3878",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BF63F954CA9F4CBEE916977A2704EBC2",
+      "status": 200,
+      "url": "https://viterbischool.usc.edu/news/2026/07/can-ai-make-us-better-thinkers-usc-researcher-studies-how-human-and-ai-think-together-by-looking-at-brain-signals/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4303,
+      "afterScrollHeight": 4303,
+      "wantedHeight": 4303
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "98e52046b0e997d0877bca9ac8a2068e3a16f86f8945844ac7d7dc14ef9e41ed",
+    "width": 1366,
+    "height": 4303,
+    "bytes": 1783411,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4303,
+    "afterScrollHeight": 4303,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:18:05Z",
+    "url": "https://viterbischool.usc.edu/news/2026/07/can-ai-make-us-better-thinkers-usc-researcher-studies-how-human-and-ai-think-together-by-looking-at-brain-signals/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 218088,
+      "sha256": "56541431a5068ff2d553b1621202137e96a9bcbc06b403a77e3c55580b1b3878"
+    },
+    "finalUrl": "https://viterbischool.usc.edu/news/2026/07/can-ai-make-us-better-thinkers-usc-researcher-studies-how-human-and-ai-think-together-by-looking-at-brain-signals/",
+    "httpStatus": 200,
+    "title": "Can AI Make Us Better Thinkers? USC Researcher Studies How Human and AI Think Together by Looking at Brain Signals - USC Viterbi | School of Engineering",
+    "rendered": {
+      "textChars": 9162,
+      "textSha256": "c8c6fe230a006d97e2e6c9c3421da44e348654653f2c40ab5c82aae315aeea1d",
+      "htmlSha256": "80b234e3f8096c4ab258b5e282ddb19b92e0af8904709d616a505f2cd0183842"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "98e52046b0e997d0877bca9ac8a2068e3a16f86f8945844ac7d7dc14ef9e41ed",
+      "width": 1366,
+      "height": 4303,
+      "bytes": 1783411,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

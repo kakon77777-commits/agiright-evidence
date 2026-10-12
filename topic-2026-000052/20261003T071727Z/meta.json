@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000052",
+  "url": "https://www.nature.com/articles/d41586-026-02300-2",
+  "capturedAt": "2026-10-03T07:17:27Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "DF3B9CAA1238AAF96F7E4AD7144AB562",
+      "status": 200,
+      "url": "https://www.nature.com/articles/d41586-026-02300-2",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4729,
+      "afterScrollHeight": 4880,
+      "wantedHeight": 4880
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "cf6d671bd95a4c657baff88f569f21b0ee5a83fb97d6a49213eb0f2454675ad5",
+    "width": 1366,
+    "height": 4880,
+    "bytes": 519169,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4729,
+    "afterScrollHeight": 4880,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:17:27Z",
+    "url": "https://www.nature.com/articles/d41586-026-02300-2",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 3038,
+      "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea"
+    },
+    "finalUrl": "https://www.nature.com/articles/d41586-026-02300-2",
+    "httpStatus": 200,
+    "title": "Consciousness research is having an AI moment. Will the hype help the field? | Nature",
+    "rendered": {
+      "textChars": 5396,
+      "textSha256": "f95d7f6abaeade1536627995f8875fca31f786e6c33da85c132b56c2bf9c5b5f",
+      "htmlSha256": "790111e9954c3513043e6a8274b9690b4120976eb4612096949fc91aede64ffb"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "cf6d671bd95a4c657baff88f569f21b0ee5a83fb97d6a49213eb0f2454675ad5",
+      "width": 1366,
+      "height": 4880,
+      "bytes": 519169,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

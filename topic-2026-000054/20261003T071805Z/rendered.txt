@@ -1,0 +1,132 @@
+Skip to content
+(opens in a new tab)
+Menu
+Search
+Can AI Make Us Better Thinkers? USC Researcher Studies How Human and AI Think Together by Looking at Brain Signals
+Venice Tang | July 28, 2026 
+
+Upcoming NSF-funded study will study how doctors, journalists and software engineers interact with AI to redesign interactions that strengthen creativity and critical thinking
+
+ILLUSTRATION CREDIT: MIDJOURNEY
+
+Artificial Intelligence (AI) has fundamentally changed the way we think, analyze information and generate ideas.
+
+From journalists working in newsrooms and programmers writing code to doctors diagnosing patients in exam rooms, AI tools have become the new standard in how people code, write and create.
+
+As human-AI interaction becomes an increasingly common part of workflows across industries, USC computer science researchers are studying how humans and AI interact to maximize creative and critical thinking.
+
+USC’s Souti (Rini) Chattopadhyay aims to advance a model of augmentation by redesigning how humans interact with AI-powered agentic systems to enhance a person’s capacity for creativity and critical thinking through a new research project funded by the National Science Foundation (NSF).
+
+Launched this month, the five-year project is supported by an approximately $600,000 NSF CAREER Award.
+
+Chattopadhyay is a WiSE Gabilan Assistant professor of computer science in the USC Viterbi School of Engineering‘s Thomas Lord Department of Computer Science and the USC Mark and Mary Stevens School of Computing and AI. She also leads the USC ACE Lab.
+
+The project’s objective is to design interaction guidelines that enable stronger human-AI synergy and shared agency. Researchers will examine how people interact with AI tools to identify the types of interactions that best spark creativity and critical thinking through human-AI collaboration, while also pinpointing gaps in current human-AI interactions.
+
+Specifically, the team will investigate which factors enhance human creativity and which factors inhibit it when using AI-powered agentic systems.
+
+“Creativity is something that’s inherently human,” said Chattopadhyay. “This project is built on the philosophy that AI can enhance people’s ability to create and think, but it cannot replace it.”
+
+She believes key cognitive processes such as creativity and critical thinking remain uniquely human strengths and are what ultimately drive innovation, solve problems and create change in the real world.
+
+She emphasized that the core goal of the study is to create a synergistic relationship between humans and AI, allowing each to complement the other’s strengths.
+
+Tracking the Brain to Understand How AI Shapes Human Thinking
+
+The study will examine professionals across three fields: software engineering, journalism and medicine. All three professions require significant critical and creative thinking.
+
+Participants from each field will be asked to complete job-related tasks using AI-powered agentic systems, alongside a control group performing the same tasks without AI.
+
+The researchers will then monitor participants’ brain activity using electroencephalography (EEG) to map how ideas are formed and connected during the thinking process.
+
+As Chattopadhyay explained, different regions of the brain become active when performing different types of cognitive tasks. By collecting neural signals through EEG, researchers can quantify patterns associated with creativity and critical thinking.
+
+By mapping which brain regions become active throughout a participant’s workflow, the researchers hope to identify what activities trigger these responses and connect specific patterns of brain activity to particular tasks or interactions with AI.
+
+Different types of thinking leave different patterns of brain activity. Critical thinking is often associated with the prefrontal cortex, creative insight with sudden bursts of neural activity and focused attention with the brain’s visual regions. Through this grant, Chattopadhyay will study how those patterns change when people think alongside AI rather than independently, mapping where the technology sharpens human reasoning and where it begins to take over.
+
+The research will examine questions familiar to many AI users: Does AI create new cognitive blind spots? Does relying on it weaken people’s ability to evaluate whether an answer is accurate or useful? And can AI systems be designed to strengthen human thinking instead of quietly replacing it?
+
+To account for environmental factors that could produce misleading signals, Chattopadhyay’s team will also collect two additional forms of qualitative data: screen activity tracking and participants’ verbalized thought processes. The mixed-method approach will help researchers better interpret the neural activity observed during the experiments.
+
+The project is divided into two phases.
+
+In the first, the team works to detect and classify moments when AI expands a person’s thinking and moments when it instead narrows it, building a structured map of what helps and what hinders. The phase is specifically designed to uncover patterns, barriers and opportunities for improvement.
+
+In the second, Chattopadhyay will use that map to redesign how people and AI interact, developing four new interaction paradigms, each designed to strengthen human creativity and critical thinking rather than replace them.
+
+The team will ultimately develop four new interaction paradigms aimed at strengthening human cognitive capacity and improving collaboration between humans and AI systems.
+
+Testing Human-AI Interaction in Real-World Settings With Partners like Microsoft and the Los Angeles Times
+
+To ensure the research reflects how AI is used in real-world workplace settings, Chattopadhyay plans to collaborate with doctors, journalists and engineers from different companies, studying how they interact with AI in their daily work.
+
+Within USC, the project will partner with faculty from the USC Annenberg School for Communication and Journalism, to study how journalists interact with AI in writing workflows. The team is also collaborating with the Keck School of Medicine of USC to examine how doctors and nurses use AI for tasks such as medical summaries and clinical decision-making.
+
+Beyond USC, the researchers are working with partners that represent each of the study’s three professional domains. Industry collaborators include Microsoft Research and teams behind Microsoft Excel, while media partnerships include the Los Angeles Times, which will be operating on a non-disclosure agreement.
+
+As the project progresses, the team hopes to expand its partnerships further. Future outreach efforts include “Mind the Gap” workshops with LAUSD to promote AI literacy and critical thinking among students, as well as discussions with local government agencies on how the findings could inform policies that encourage responsible AI use while strengthening human decision-making.
+
+This article may feature some AI-assisted content for clarity, consistency, and to help explore complex scientific concepts with greater depth and creative range.
+Related Stories
+June 11, 2026
+USC Researcher to Lead $2.4M AI Core for Raynor Cerebellum Project Treating Cerebellar Disorders
+
+USC Viterbi's Maryam Shanechi aims to develop AI models to improve neuromodulation and enable adaptive treatment for cerebellar disorders
+
+February 9, 2026
+Cracking the Brain's Code: Unlocking Neuron Memory to Advance AI
+
+USC researchers discover neurons have memory and use a single neuron's activity to map entire brain networks, first to achieve...
+
+May 27, 2025
+Bringing Digital Light to Live-Action Filmmaking
+
+Prof. Andrew Gordon and Ph.D. candidate Natali Chavez from the USC Institute for Creative Technologies explore new AI-assisted workflows for...
+
+January 27, 2025
+Spot the Difference: Safeguarding Cybersecurity with Graph Anomaly Detection
+
+Yue Zhao receives an Amazon Research Award for his work detecting and explaining suspicious behavior in information security systems
+
+December 5, 2024
+USC at the Conference on Neural Information Processing Systems (NeurIPS) 2024
+
+USC researchers present their latest research at NeurIPS 2024, one of the world's top natural language processing and artificial intelligence...
+
+November 18, 2021
+"Deepfaking the Mind" Could Improve Brain-Computer Interfaces for People with Disabilities
+
+Synthetic neurological data created using generative adversarial networks could speed up training of brain-computer interfaces, new study finds.
+
+Contact Us
+Visit Us
+(opens in a new tab)
+(opens in a new tab)
+(opens in a new tab)
+(opens in a new tab)
+Other USC Links
+History
+Awards
+Foreign Academy Members and Fellows
+Information For
+Students
+Corporate
+Giving
+Faculty
+Recent USC Viterbi News
+OCT. 02, 2026
+
+For This USC Engineering Junior, Every Bottleneck Is an Opportunity
+
+OCT. 01, 2026
+
+USC Robotics Leader Maja Matarić Named to Forbes 50 Over 50: Innovation List
+
+SEP. 30, 2026
+
+Engineers Develop an AI Tool to Trace Where Wildfire Started
+
+Read More News
+© 2026 USC Viterbi
+Privacy Notice | Notice of Non-Discrimination | Digital Accessibility | Smoke-Free Policy

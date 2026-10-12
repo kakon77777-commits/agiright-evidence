@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000032",
+  "url": "https://cyberscoop.com/trump-admin-ai-safety-cybersecurity-export-controls/",
+  "capturedAt": "2026-10-03T07:07:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 138155,
+    "sha256": "951bfb1de4aa1bd40c37daa43883d401930904e45964b78a40ffc423a2e1d841",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "44FE53C4EBEE90A891239E7E9380F99D",
+      "status": 200,
+      "url": "https://cyberscoop.com/trump-admin-ai-safety-cybersecurity-export-controls/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10342,
+      "afterScrollHeight": 10342,
+      "wantedHeight": 10342
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7688f513e23033d00d87249ee701571644966957480081b10036f5a331b7028d",
+    "width": 1366,
+    "height": 10342,
+    "bytes": 1554381,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10342,
+    "afterScrollHeight": 10342,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:07:59Z",
+    "url": "https://cyberscoop.com/trump-admin-ai-safety-cybersecurity-export-controls/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 138155,
+      "sha256": "951bfb1de4aa1bd40c37daa43883d401930904e45964b78a40ffc423a2e1d841"
+    },
+    "finalUrl": "https://cyberscoop.com/trump-admin-ai-safety-cybersecurity-export-controls/",
+    "httpStatus": 200,
+    "title": "Where’s the Trump administration line on AI regulation? | CyberScoop",
+    "rendered": {
+      "textChars": 15748,
+      "textSha256": "3da92cc600fb12de4748f59f25ca524da72365266209a4b2e1a39072b6faf2b7",
+      "htmlSha256": "a5a8aa642942c86a3e105a1b1cb26217709e6b664513aa09dc1b021946720573"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7688f513e23033d00d87249ee701571644966957480081b10036f5a331b7028d",
+      "width": 1366,
+      "height": 10342,
+      "bytes": 1554381,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000048",
+  "url": "https://www.infosecurity-magazine.com/opinions/ais-next-breach-api-path/",
+  "capturedAt": "2026-10-03T07:15:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 107811,
+    "sha256": "2c81855dc6134ea6850598802ae372b7602fd3a0741ead5818ed07ec8360472c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "21A244ED9F76763AAD31F86DA53EBAF4",
+      "status": 200,
+      "url": "https://www.infosecurity-magazine.com/opinions/ais-next-breach-api-path/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3856,
+      "afterScrollHeight": 3856,
+      "wantedHeight": 3856
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "0f2ebff18d0419d7f024b104b1f6b4537347e46104dfdaeef24bf2db38e2f6e3",
+    "width": 1366,
+    "height": 3856,
+    "bytes": 1148906,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3856,
+    "afterScrollHeight": 3856,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:15:28Z",
+    "url": "https://www.infosecurity-magazine.com/opinions/ais-next-breach-api-path/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 107811,
+      "sha256": "2c81855dc6134ea6850598802ae372b7602fd3a0741ead5818ed07ec8360472c"
+    },
+    "finalUrl": "https://www.infosecurity-magazine.com/opinions/ais-next-breach-api-path/",
+    "httpStatus": 200,
+    "title": "Agentic AI’s Next Breach Will Start in the API Path - Infosecurity Magazine",
+    "rendered": {
+      "textChars": 8633,
+      "textSha256": "93693ec87a926fe83e362f44dd6555d26fceb03fd8409644330e6d6ff1993a51",
+      "htmlSha256": "da2dbf9033ca5c1c80328764b208859419cdf6e35b5f052ce4466d3e72f286eb"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "0f2ebff18d0419d7f024b104b1f6b4537347e46104dfdaeef24bf2db38e2f6e3",
+      "width": 1366,
+      "height": 3856,
+      "bytes": 1148906,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003071704/https://www.infosecurity-magazine.com/opinions/ais-next-breach-api-path/",
+      "timestamp": "20261003071704",
+      "verifiedHttp": 200
+    }
+  }
+}

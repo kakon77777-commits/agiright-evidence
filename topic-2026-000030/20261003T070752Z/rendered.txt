@@ -1,0 +1,742 @@
+Skip to content
+Twitter
+Facebook
+Bluesky
+Instagram
+RSS
+Search
+
+DAILY NOUS
+
+NEWS FOR & ABOUT THE PHILOSOPHY PROFESSION
+
+ABOUT
+COMMENTS POLICY
+ONLINE EVENTS
+PHILOSOPHY COMICS
+CFP
+HEAP OF LINKS
+SUPPORTERS
+A Scene from the AI Flooding of Academic Journals
+Justin Weinberg
+July 20, 2026
+
+“We recently received a double-digit number of submissions from authors in the Far East… where we had strong evidence of machine generated content. Nothing made much sense in these papers, the authors, with their yahoo and aol type email addresses, frequently supplied false university affiliations, among other glaring problems. I suspected that these submissions were a test of our detection systems more so than anything else.”
+
+That is Udo Schuklenk, professor of philosophy at Queen’s University, writing in his capacity as one of the editors of the journal, Bioethics.
+
+His editorial was prompted by his journal’s publication of a critique of an article in the Journal of Medical Ethics (JME) for, among other things, multiple citations to “bibliographic fictions” (seemingly the result of unacknowledged AI use), which led to the latter article’s retraction.
+
+The now-retracted JME article is “Panem, corticoids and circenses: the ethical fallout of Enhanced Games,” by Alexis Demas (who, Schuklenk notes, used a yahoo email address and whose stated institutional affiliation could not be verified).
+
+The critique of the JME article, published (open access) in Bioethics, is by Ognjen Arandjelović (University of St. Andrews), and is titled “Against Moral Panic and Citation Fiction: A Critique of “Panem, Corticoids and Circenses” and a Proposal for Editorial Gatekeeping on Reference Integrity“.
+
+Arandjelović discusses the reference failures and what to do about them in section 4 of his article, and I recommend people look at it. Here’s the introduction to that section:
+
+It is tempting to treat reference failures as a mechanistic problem that could be addressed through technology and bureaucracy by installing more automated checks, tightening and enforcing checklists, reminding authors of their obligations. Not only banal, that response misdiagnoses the failure mode. In a publication culture where fast-turnaround commentaries are rewarded, reviewers often treat references as decorative rather than load-bearing, and journals rarely suffer meaningful consequences for bibliographic unreliability, low-grade fabrication, and high-grade sloppiness become rational strategies.
+
+The core issue, then, is not attempting to help authors avoid mistakes. Authors know this. Rather, the challenge is in making it costly (in probability and consequence) to submit work with citations that do not exist or do not support what they are cited for. In other words, what is needed is deterrence, not assistance; accountability, not coaching.
+
+Schuklenk describes how the case looks from the point of view of the editor:
+
+Given the number of made-up references in the Journal of Medical Ethics paper, it is reasonable to assume that these references were the result of an AI hallucinating, a known phenomenon of AI-written content that adds non-existent references to the content the AI generated, and it is not unreasonable to suggest that the author of this manuscript was careless enough to leave a plethora of fake references in the manuscript. This doesn’t happen by accident. During the proof corrections stage of the article the author would have had ample time to correct any errors but chose not to. Your guess about how much else of the manuscript was generated using AI is as good as mine. We don’t currently have detection tools available to assist us in making reliable determinations. AI use also wasn’t disclosed by this author, if this is what is (very likely) at the heart of the fake references. I’m pleased to say that, apparently unlike the BMJ group of journals, Wiley, the publisher of this journal, has in place a highly sophisticated automated reference check that is available to the editorial team. This manuscript would not have gone out for peer review if it had been submitted to Bioethics, because it would have been eliminated after the reference (and possibly the AI generated content) screening. Surprisingly, the BMJ group of journals doesn’t seem to possess this sort of capacity, or it hasn’t been deployed in this instance.
+
+I don’t know how the reader views the fact that the reviewers and editors of the Journal of Medical Ethics didn’t undertake a reference check for this manuscript given some of the already mentioned other ‘red flags’ that were in place. Arandelović thinks that they failed the readers of the journal, and ultimately that the journal failed as an institution on this occasion. It is easy to point fingers here, but truth be told, it has become exceedingly difficult to find willing reviewers for the ever-increasing number of papers that are prima facie worthy of peer review, and those reviewers are still expected to work pro bono, because publishers don’t wish to pay for their services. I am not surprised that reviewers do not spend their volunteer time undertaking detailed (or any) reference checks, especially given that the publisher could have systems in place that undertake that sort of task automatically.
+
+Schuklenk’s editorial is here.
+
+(via Johann Go)
+
+14
+44
+
+Filed under: Uncategorized
+Tagged: academic misconduct, artificial intelligence, citations, journals, large language models LLMs, plagiarism, publishing, refereeing, research ethics
+ Subscribe
+ Login
+
+{}
+[+]
+44
+COMMENTS
+Oldest
+Newest
+Most Voted
+Overworked adjunct
+ 2 months ago
+
+A little digging suggested that the author didn’t even exist. The paper appeared to have been generated by AI and attributed to a fabricated scholar. That immediately brought to mind something I’d recently read about: the possibility of creating “academic avatars”…. basically invented researchers with plausible institutional affiliations, email addresses, publication histories,etc and online profiles. In principle, AI now makes it cheap to generate a steady stream of competent-looking papers under such an identity.. so you can gradually start building what appears to be a genuine scholarly record. Then, as the scam goes, once the fictitious researcher has accumulated enough publications, citations, and digital presence, someone could plausibly “step into” that identity, — they do that by presenting themselves as the person behind the established record . giving one public talk under the avatar is the coming out party. The real value of the scheme would come later: the laundered academic reputation could then be hired out to lend apparent expert authority to opinion pieces (as well as consultancy reports, policy interventions etc.) or even expert testimony on behalf of whoever was willing to pay.
+
+0
+Reply
+Matthew Braham
+ 2 months ago
+ Reply to  Overworked adjunct
+
+And AI makes it cheap to detect as well. See my comment.
+
+0
+Reply
+Just curious
+ 2 months ago
+ Reply to  Overworked adjunct
+
+Could you explain why you think the author does not exist? This seems to be their LinkedIn: Alexis DEMAS – ARGOS (Art, Research and Gestures Observed Scientifically) Neurosciences & Arts | LinkedIn
+
+0
+Reply
+Dan Lehman
+ 2 months ago
+ Reply to  Just curious
+
+Yeah, with an emphasis on “seems”. I think the idea here is that what you found is consistent with the hypothesis that the person doesn’t exist. An online persona on places like Linked in is part of their “academic avatar” hypothesis. compare, you would not attempt to disprove descarte raising the dream hypothesis by saying “but it seems there is a fire in the fire place”.
+
+0
+Reply
+Just curious
+ 2 months ago
+ Reply to  Dan Lehman
+
+Sorry but I don’t see how your comment adds anything new to the discussion.
+
+If you click on the link I provided, you will see that Alexis Demas has been publishing since at least 2018. Here are some of the papers with his name attached to it:
+
+(1) Further evidence for a distinctive atypical degenerative parkinsonism in the Caribbean: A new cluster in the French West Indian Island of Martinique – Journal of the Neurological Sciences
+
+(2) Transient global amnesia with bilateral hippocampal lesions: report of two cases | Acta Neurologica Belgica | Springer Nature Link
+
+(3) A confused young woman – EM consulte
+
+Note that all of these papers have multiple co-authors.
+
+You will also see that Alexis Demas is registered on lemedicine.fr:
+
+Prendre rendez-vous : Dr DEMAS Alexis Neurologue à Sainte-adresse
+
+Of course, this still does not exclude the scenario described by “Overworked adjunct” (or another form of identity theft), but I need more evidence to be convinced that Demas is not simply a French neurologist who started using AI to try and get published in JME.
+
+In the meantime, I have reached out to the co-authors of Demas asking them whether they have ever met Demas and/or can provide us with an email address to contact him.
+
+Let’s see what happens.
+
+0
+Reply
+Just curious
+ 2 months ago
+ Reply to  Dan Lehman
+
+I just got in touch with Alexis Demas via email, providing him with a link to this blogpost. He “seems” to be a real person. I have invited him to post a message here.
+
+0
+Reply
+Dan Lehman
+ 2 months ago
+ Reply to  Just curious
+
+You do realise right that “Alexis Demas” is an acronym for “A Mass Exiled” which is the name of a magic spell on the game “Magic: The Gathering” which involves “taking the people off the board” – which is itself, effectively, what’s happening with these academic avatars and their AI generated papers. Anyway, one thing I’d caution you about is when “Alexis” send you a picture (or someone else sends you one of him) check to see if it says “Shutterstock” on it. I have made this mistake before in not looking closely at that (that’s a different story).
+
+0
+Reply
+Deborah
+ 2 months ago
+ Reply to  Dan Lehman
+
+Whoa mic drop. Very interesting – hard to unsee the anagram
+
+0
+Reply
+Kenny Easwaran
+ 2 months ago
+ Reply to  Dan Lehman
+
+It looks like “exile” is a mechanic in Magic: the Gathering, and some cards do it en masse (I found discussion here: https://www.reddit.com/r/mtg/comments/1nl3rfx/should_mass_exile_be_placed_on_the_game_changers/ ) but I’m not sure why someone would anagram that phrase in the past tense with an additional “a” that isn’t even grammatical! Why not just use the name “Lexis Demas” or some anagram of “mass exile”?
+
+0
+Reply
+Matthew Braham
+ 2 months ago
+
+As someone working on the use of AI in journal production processes (to bring down production costs for in-house journal production for non-profit academic publishing), I have used Claude Code to write a reference validation script (so it runs independently of AI to prevent further hallucinations) as part of a production pipeline.
+
+The application of this script immediately flagged 6 suspicious references from this article. I then tested this by using Claude Cowork to double-check. Same 6. This does not require any proprietary and “highly sophisticated automated reference check” from Wiley. This can be done easily by the editorial staff or even automated as part of the submission process with little or no effort.
+
+In an important sense, the failure here isn’t AI at all. Rather it’s the workplace’s. AI has made fabricated references cheap to produce, but the duty to check them was never technologically hard: as I said, a trivial non-AI script flagged all six in under a minute. What has broken is an incentive structure economists call moral hazard (whoever skips the check doesn’t bear the reputational cost) and adverse selection (production is tendered on price, and diligence is invisible at the point of decision). Editorial rigour is a credence good, so no one downstream can see it was skipped. For whatever reason the workflow is not being adhered to. Why? Maybe the incentives of the corporate publishing model. Just consider that in fiscal 2024 Wiley’s Research division — the journals business that runs on the voluntary labour of academic authors, reviewers, and editors — turned revenue of US$1,043M into US$331M of adjusted earnings, a margin of 31.8%. With returns like that resting on unpaid academic work, the problem is not AI but the failure to apply HI — Human Intelligence — to designing publication models whose incentives are resolved in favour of academic integrity rather than the bottom line.
+
+The problem is not AI and hallucinated references, but the business model that the affected journals are tied into. Anyone following the postings on Daily Nous will find that a host of high ranking philosophy journals have flipped from Wiley. That is the way forward.
+
+Check here:
+https://s27.q4cdn.com/812717746/files/doc_financials/2024/q4/Q424-Earnings-Presentation.pdf
+
+0
+Reply
+Matt L
+ 2 months ago
+ Reply to  Matthew Braham
+
+The problem is not AI and hallucinated references, but the business model that the affected journals are tied into.
+
+This isn’t all wrong, (It’s part right!) but it’s at least incomplete. It leaves out the people “writing” these papers, who are also part of the problem. It also leaves out university structures that encourage this sort of thing. To a degree this is so everywhere, but in some places the mere quantity of publications (in almost any journal) and citations is largely all that is rewarded. This leads unethical actors to do things like submit fake papers, engage in citation rings, etc. This “person” seems not to have existed, but when actual ones are found doing this stuff, it’s essential the by shunned.
+
+0
+Reply
+Matthew Braham
+ 2 months ago
+ Reply to  Matt L
+
+The problem with the ostracism model is that the “wrongdoers” may be unaffected by the ostracism — if they do not “exist” in the system. Therefore the first line of defence is not “deterrence” of author wrong-doing but it has to be a technical filter. The second line of defence is a functional editorial system. This requires restructuring the publication model overall. Clearly the J Med Ethics system failed. Look at the turn around time on the article.
+
+0
+Reply
+Matt L
+ 2 months ago
+ Reply to  Matthew Braham
+
+All of those things are important. My point is only that they are not the only things that are imporant, and if that’s all you do, you’re not doing enough.
+
+0
+Reply
+Matthew Braham
+ 2 months ago
+
+Aside from the technical issue and business model I pointed to in my earlier post, the decision by the editors of Bioethics seems most peculiar indeed. To publish a paper that criticizes a paper of now is recognized as dubious by both the author of the paper in Bioethics and the editor. Why?
+
+0
+Reply
+Leonard Joseph Waks
+ 2 months ago
+
+Gen AI is still “new” and systems take time to adjust. To my knowledge, there is no consensus statement on what is and is not an appropriate use of AI. There are uses that strike me as appropriate that others would hotly contest. Here is one. I start by asking chat to suggest key articles and book chapters on a topic I am writing about, to make sure that there are not existing essential sources I may have missed. Chat supplies links. They are often bogus. But when they actually exist, I read them and then dialog with Chat about what I think about them. Then I gather all of my ducks in a row and dictate a rough draft from them into a chat box and ask Chat to suggest an outline. Then, working section by section, I dictate the materials into Chat and ask it to re-write my dictation as text. This strikes me as akin to using a four function calculator. I am doing all of the heavy lifting but using a tool to write grammatical sentences. Then I re-write everything to bring it into my own style. I eliminate all bold text, eliminate em-dashes, eliminate endless streams of parallel phrases. I end up with a professional looking paper with every citation not only checked but carefully read. Please let me know if you think this is ok or not. I think there will be disagreements, but I also think this is the direction we are moving towards.
+
+0
+Reply
+Gorm
+ 2 months ago
+ Reply to  Leonard Joseph Waks
+
+I would be inclined to think this is not okay. I would certainly expect an author to disclose all of this information to a journal if they are submitting it for consideration for publication. And I would think it is reasonable for readers of such an article – were it published – to have this information as well.
+Quoting:
+“I gather all of my ducks in a row and dictate a rough draft from them into a chat box and ask Chat to suggest an outline. Then, working section by section, I dictate the materials into Chat and ask it to re-write my dictation as text”
+I think the machine is doing too much of the work we expect the author to do. I will be interested to hear what others say. Personally, I would not feel much of a sense of ownership in “writing” this way.
+
+0
+Reply
+Alice
+ 2 months ago
+ Reply to  Leonard Joseph Waks
+
+Not responding to your main content but: I only always use the latest models, and I have not observed any “bogus links” in recent months.
+
+To your main content: seems like the standard procedure of vibe writing. I don’t know if it is okay, but it does seem to be exactly one of my concerns when I receive referee requests which I mentioned under another post. that is, it would be crying out for vibe refereeing.
+
+Edit: typo
+
+0
+Reply
+Patrick Lin
+ 2 months ago
+ Reply to  Leonard Joseph Waks
+
+Hi Leonard, are you crediting AI as a co-author or otherwise clearly acknowledging how you’re using it? If so, could you post links to a couple papers for us to see how?
+
+Yes, there might not be a consensus statement in these still-early days of generative AI, but that doesn’t mean there’s not an operational norm in academic writing. And that’s the norm of disclosure, which the vast majority of journals have already adopted.
+
+If you’re not clearly disclosing your AI use, I’d be curious why you think that’s ok. I hope it’s not “because everyone else is doing it” or “it’s just a tool like a calculator”…
+
+For instance, substitute “AI” in your description with “graduate assistant”: do you still think it’s ok to not acknowledge the extent of their help or even make them a co-author? If you don’t disclose their role, then that’s arguably plagiarism (e.g., “I re-write everything to bring it into my own style”) and authorship theft.
+
+Whether it’s appropriate or wise or responsible of you to use AI as you describe is a different conversation. And there are tons of reasons to think it’s not responsible, if you’ve been following LLM-ethics discussions at all…
+
+0
+Reply
+Marc Champagne
+ 2 months ago
+ Reply to  Patrick Lin
+
+Hear, hear.
+
+0
+Reply
+Matthew Braham
+ 2 months ago
+ Reply to  Leonard Joseph Waks
+
+This returns us to the this thread:
+https://dailynous.com/2026/07/16/a-meta-epistemological-reason-for-rejecting-ai-written-philosophy/
+
+Here is something I have tried:
+After interrogating a problem, I ask Claude to write me a log of all my own inputs and track my contributions and insights. I then read and study these and keep for further use and input. I do this to avoid “vibe writing”
+
+So Claude becomes interlocutor for research tasks.
+
+0
+Reply
+Kenny Easwaran
+ 2 months ago
+ Reply to  Leonard Joseph Waks
+
+You mention several steps:
+
+Ask the AI for sources
+Dialog with AI about works you have read, to deepen your understanding of the works
+Dictate a “rough draft” and have AI suggest an outline
+Dictate sections and have AI edit them into text paragraphs
+Re-write by hand to eliminate AI style and bring your own style
+
+To me, it seems that 1 and 2 are perfectly fine, and really not worthy of comment. 3 and 4 are things that might sound plausible from some ways of imagining what’s going on, but there’s a lot of room for concern.
+
+If step 3 is something like “draft a full outline but have the AI make suggestions about re-structuring some parts, and take some of those suggestions when they seem useful”, that seems fine, but if it’s more like “spend an hour talking stream-of-consciousness about the ideas and then have the AI write an outline of a paper”, then it’s very likely to go wrong, and not produce a properly coherent paper, with any of the models that exist today.
+
+Step 4 can be useful for composing administrative e-mails and the like, but in any setting where you want to do step 5 after, I don’t quite see how step 4 could be useful. It’s probably going to take longer to re-write something into your own style if it’s already been put into flowing AI style, than it is to just take your conversationally-dictated ideas and re-write them as academic paragraphs in your own style.
+
+0
+Reply
+Thinkmaxxing
+ 2 months ago
+ Reply to  Leonard Joseph Waks
+
+I think the point of an essay is sustained reflection on a topic. The topic is usually too complex or abstract for memory, and requires deletion and editing in ways that the mind can do but not keep track of. So I think it really comes down to what you are doing when you do this “I read them and then dialog with Chat about what I think about them. Then I gather all of my ducks in a row and dictate a rough draft from them into a chat box and ask Chat to suggest an outline. Then, working section by section, I dictate the materials into Chat and ask it to re-write my dictation as text.” Here’s a detail that matters, for instance: did you or Chaz come up with the content of an idea that made it into the paper? Did the idea start as a thought in your mind that got reframed by Chaz? Or did Chaz give you the idea and you reworked it? Or both?
+
+0
+Reply
+Meme
+ 2 months ago
+
+I imagine a future in which AI improves and journals are flooded with high quality artificial scholarship indistinguishable from expert human work; and in which journals, already struggling to find competent and timely referees, subsequently turn to AI reviewers to handle the surge of new material. Is that an insane take? If it’s not, what does that mean for the future of academic research? The whole thing makes me want to drop out of academia altogether (perhaps before it falls apart on its own). But I suspect (hope?) I’m being hyperbolic…
+
+0
+Reply
+Anya
+ 2 months ago
+ Reply to  Meme
+
+At least my papers would get reviewed, AI probably doesn’t turn down requests
+
+0
+Reply
+Kenny Easwaran
+ 2 months ago
+ Reply to  Anya
+
+I see you haven’t asked AI to do any long and difficult tasks! It’s not uncommon for AI systems to say they’re going through a whole thing, but then decide to skip part of it because it’s long and boring. (Though these days, the AI sometimes gets around this by writing a script, which then asks a separate AI to do each step, so that no one AI instance gets bored doing the whole thing.)
+
+0
+Reply
+Anya
+ 2 months ago
+ Reply to  Kenny Easwaran
+
+That is a nonsequitur I said it won’t turn down requests, not that it won’t ‘decide to skip part of them’
+
+0
+Reply
+Rob Hughes
+ 2 months ago
+ Reply to  Meme
+
+I think it is unlikely that LLMs will ever reliably produce scholarship indistinguishable from top quality human work, in light of this finding in computational complexity theory:
+
+“As we formally prove herein, creating systems with human(-like or -level) cognition is intrinsically computationally intractable. This means that any factual AI systems created in the short-run are at best decoys” (van Rooij et al., 2024).
+
+https://link.springer.com/article/10.1007/s42113-024-00217-5
+
+0
+Reply
+Meme
+ 2 months ago
+ Reply to  Rob Hughes
+
+Thank you sharing this, it’s very interesting (and perhaps reassuring, despite some lingering worries).
+
+0
+Reply
+Kenny Easwaran
+ 2 months ago
+ Reply to  Rob Hughes
+
+I think the same argument shows that no *human* can ever learn to reliably produce scholarship indistinguishable from other top quality humans! The theorem just shows that there is no tractable algorithm for sampling from a distribution and using these samples to generate a new distribution that is indistinguishable from the given distribution. It doesn’t matter whether the distribution is the distribution of text generated by humans or the distribution of cosmic rays generated by the cosmic background.
+
+I do think it’s misleading to equivocate on “human-like” vs “human-level” here, since being “human-level” isn’t meaningfully interpreted as being “statistically indistinguishable qua probability distribution”.
+
+The goal of scholarship is *not* to produce new text that is indistinguishable from old text. And in any case, the bulk of the training that is done these days is not aimed at getting LLMs to generate text that matches training data, but rather to build on those first-level LLMs with reinforcement learning to generate sequences of tokens that solve various kinds of problems.
+
+I doubt they’ll autonomously write papers of the sort humans are interested in any time in the next few years. But humans are already able to use them in various sorts of ways to aid in writing papers that other humans are interested in reading. (And unfortunately, lots of humans also use them to generate papers that seem superficially like they will be interesting to read, but turn out not to be.)
+
+0
+Reply
+Rob Hughes
+ 2 months ago
+ Reply to  Kenny Easwaran
+
+The argument in van Rooij et al. (2024) shows that neither a computer nor a human can learn a complex behavior pattern (such as writing good-quality scholarship) by running a learning algorithm on a random sampling of that complex behavior. The argument is compatible with humans learning complex behavior by interacting with the world. That learning could happen in either or both of two ways:
+
+1) We are biologically pre-programmed to be ready to learn what we need to know.
+
+2) What we learn through experience cannot be adequately expressed as a set of ordered pairs (situation, behavioral response) randomly chosen from the set of appropriate situation-response pairs.
+
+The standard for a successful learning algorithm in van Rooij et al. (2024) is not producing a model perfectly that perfectly matches a probability distribution. The standard is having a better-than-chance probability of producing a model that has a better-than-chance probability of meeting whatever standard of complex behavior we may choose to set. This is a low bar. In the case of text generation, the standard is, “Can we produce a model with a significantly better chance of producing text that meets our standard than a room full of monkeys pounding on keys?”
+
+The argument applies to any standard of behavior, so long as the desired behavior is complex enough. Producing grammatical text is clearly not too complex for machine learning. As the behavior to be modeled gets more complex, the computational resources needed to model it (more accurately than a room full of monkeys with keyboards) grows much faster. “Human-like” and “human-level” are different standards, but the argument applies equally to both. If producing human-like or human-level text is sufficiently complex behavior, we won’t be able to model it. The same goes for “producing philosophy articles that resemble existing ones,” as well as, “producing philosophy articles that competent judges would judge good.”
+
+You raise the question whether there is a significant difference between machine learning that seeks to match a fixed body of training data and reinforcement learning in which a model gets feedback that is responsive to its behavior. Are LLMs getting a kind of contact with the world that is relevantly like human childhood? Or is the switch to reinforcement learning equivalent to giving LLM training algorithms a larger set of (situation, appropriate response) pairs and somewhat more time to go through them? That’s a good question, and I don’t have an answer.
+
+0
+Reply
+Michel
+ 2 months ago
+ Reply to  Meme
+
+If I start getting a substantial number of papers to referee that look like chatbot work, I will simply stop refereeing entirely. I have no desire to read that kind of thing, let alone spend time assessing it and giving feedback. I referee twenty or so things a year, so that would be some kind of loss, even if not a huge one.
+
+If I start getting a substantial number of referee reports that look chatbot-generated, I will stop trying to publish in that outlet. That, of course, is no big loss to them. I’ll probably also stop refereeing for them, though, which might be more significant.
+
+At this point in time, my tolerance for this kind of thing is at zero. Maybe if there comes a time when I’m not deluged with slop in my inbox, from my students, and all over social media, my tolerance will increase. But I sort of doubt that’s how this will shake out.
+
+0
+Reply
+Deborah
+ 2 months ago
+
+Coincidentally I just finished a review of a manuscript for Bioethics. It was terrible: superficial discussion, fundamental claims missed, outdated references. In comments to the editor I was emphatic that theanuscript shouldn’t be published. Now I’m wondering if I wasted my time reading and commenting on an article that was AI generated. Something tells me it won’t be the last.
+
+0
+Reply
+Matthew Braham
+ 2 months ago
+ Reply to  Deborah
+
+I am not supporting AI authoring; but what you just wrote reminded me of a recent review for a leading ethics jnl and the paper was clearly not AI, but HI. I wondered the opposite: if an AI generated paper would be as bad as the HI generated one I just read.
+
+0
+Reply
+Kenny Easwaran
+ 2 months ago
+ Reply to  Deborah
+
+In my experience with AI-generated articles submitted to journals, the problems are often somewhat different from these. It’s not so often outdated references as either just not discussing references at all, or discussing references with a very strange disciplinary mix (often including some relevant papers from many other disciplines but missing some important philosophy papers). Superficial discussion is common, but it’s not so often missing fundamental claims as just failing to give arguments, or dealing with a very skewed set of assumptions from the ones that people in the literature are usually thinking about (without referring to the ones that people in the literature mention).
+
+But of course, from a two sentence summary, it’s very hard to tell if these are really different issues, or just different description of the same issues.
+
+0
+Reply
+Peter Finocchiaro
+ 2 months ago
+
+While I acknowledge the potential severity of AI flooding, I am also a bit disappointed that the editorial phrases things in terms of the “Far East” and “yahoo and aol type email addresses”. What is the insinuation supposed to be, exactly? That these types of email addresses are suspicious in a way that gmail and outlook type email addresses are not? If so, I would suggest thinking more critically about the assumptions that go into this sort of insinuation.
+
+0
+Reply
+Double A
+ 2 months ago
+ Reply to  Peter Finocchiaro
+
+I can’t speak to the “Far East” but I’ll bet the comment about the email addresses has nothing to do with aol vs gmail and everything to do with the fact that they weren’t institutional email addresses, like “blah@abc.edu.” Without institutional email addresses it’s harder to know that the authors are actual academics (or actual people at all). Of course they could be independent scholars or people who prefer to use a non-work email, but those are uncommon.
+
+0
+Reply
+Peter Finocchiaro
+ 2 months ago
+ Reply to  Double A
+
+I was under the impression that it was not at all uncommon to use a non-work email for journal correspondences. But I admit that I haven’t looked at any data about that.
+
+Regardless, I’m a bit suspicious about your interpretation given that yahoo and aol constitute a small fraction of private email addresses. But I sure hope you’re right!
+
+0
+Reply
+Brad
+ 2 months ago
+ Reply to  Peter Finocchiaro
+
+Peter,
+If you are following the research on retractions and misconduct in science you would be aware that papers by researchers based in China are retracted at much higher rates than in most of the rest of the world. See the two papers below. The van Noorden piece takes account of the large population of scientists in China. The data pertain to retractions/100,000 scientists.
+
+From van Noorden: “in China … Overall, about 0.3% of that country’s articles have been retracted so far — three times the global average”
+
+That is one out of every 330 articles are retracted.
+
+Most people who are working in scientific publishing (editors, etc.) are aware of this.
+
+See Koo and Lin:
+https://www.sciencedirect.com/science/article/pii/S2405844024146518
+and Van Noorden
+https://www.nature.com/articles/d41586-025-00455-y
+
+0
+Reply
+Peter Finocchiaro
+ 2 months ago
+ Reply to  Brad
+
+Brad,
+If you are following my comments on Daily Nous, I regularly acknowledge China’s shortcomings when it comes to publishing ethics (and academic ethics more generally). What did I say that caused you to infer otherwise?
+
+My worry about the use of the term “Far East” is based on the fact that the term is inherently Eurocentric and might have the effect of exoticizing an entire academic community that, while it has its problems, deserves to be treated with equal standing.
+
+Most people who are working in decolonial theory (bloggers, etc.) are aware of this
+
+0
+Reply
+Lu Chen
+ 2 months ago
+ Reply to  Peter Finocchiaro
+
+Good that Peter pointed it out, because we Far Easters would simply see the word, roll our eyes (almost imperceptibly), and move on. (Why not name the countries, if naming at all? Happy for my country to be called out, if that’s the case.)
+
+0
+Reply
+Michel
+ 2 months ago
+ Reply to  Peter Finocchiaro
+
+On email addresses: I moderate a forum for several thousand academics from all over the academy. We get hundreds of new user registrations a day. Almost everything from an AOL, Yahoo, OR a gmail account is an obvious bot. Institutional emails are generally real, but not always (some are compromised by bots).
+
+0
+Reply
+Jukka
+ 2 months ago
+
+I don’t know how the reader views the fact that the reviewers and editors of the Journal of Medical Ethics didn’t undertake a reference check […]
+
+Since when has checking references become a task for peer reviewers? (By this, I mean checking each and every in-text citation and entry in a bibliography for existence and correctness.) If you try to offload also that to us reviewers, the peer review crisis will only become worse. I have better things to do with my volunteer time.
+
+0
+Reply
+Kenny Easwaran
+ 2 months ago
+ Reply to  Jukka
+
+It definitely shouldn’t be the referee’s job. But Matthew Braham shows above that it’s pretty easy to write a little script that verifies that all the references at least exist, and it’s probably worthwhile for journals to implement basic checks like this before sending things out.
+
+0
+Reply
+Michel
+ 2 months ago
+ Reply to  Jukka
+
+I don’t check them as such, but the first thing I do when I referee a new paper is look at the list of works cited (to get a sense of what the paper covers, and how old/recent that coverage is). Often I see something of interest and track it down for my own use.
+
+0
+Reply
+
+HEAP OF LINKS
+How should we react to scary predictions about AI? “First: by asking questions” — "If you believe predictions uncritically, it amounts to obeying in advance," says Carissa Véliz
+“I feel unbelievably lucky that I was able to make philosophy my profession” — Karen Ng reflects on her path into philosophy, at #first-genphilosophers
+The ordinary concept of knowledge “doesn’t work at all the way philosophers said it does” — a round-up of studies shows how weird the philosophers' version of the concept is
+1000 or so psychiatrists were asked to diagnose standardized clinical case vignettes. “Two doctors agreed on the diagnosis only 55% of the time” — What does this tell us about psychiatry? Or about other fields in which experts disagree?
+Where Aristotle taught Alexander — "this newest dig may be the most revealing yet, offering insight into the specifics of Alexander the Great’s education"
+Over 4000 of the Justice Department’s lawyers have left their jobs since Trump’s second term began — The New Yorker on the moral dilemma facing some government employees: resign and avoid complicity, or stay and resist where one can?
+Underappreciated philosophy published between 1970-2019 — some old posts to which you can still add works that should be better appreciated
+The AI threat to independent student writing is not necessarily a threat to student learning — what's needed, says Joe Cruz, are courses "in which ideas are expressed in real time and analytical thought unfolds as a debate or an oral defense or a group discussion"—and small enough classes to make that work
+Would you take a pill that allows you, with no ill health effects, to permanently forgo sleep? — Rebecca Lowe thinks you have no good reason not to, though she neglects to consider that sometimes it's the world that needs a break from you
+Fifty essays in the philosophy of paleontology — by Max Dresow at the Extinct blog
+“Asking whether [an AI] model ‘has a world model’ leaves much unresolved. Our findings point toward mechanistically studying its world modeling; uncovering the structures it learned [and] the world modeling capacities that recruit these” — further research on the internal representations of AIs
+Sixty Years of Philosophy in America — Ernest Sosa's Dewey Lecture from the 2024 APA Eastern Division Meeting
+“You’re responsible for other people’s learning of this material, so you better know it at a higher level yourself” — for 20 years, the Socrates Project at the University of Toronto has hired senior philosophy undergrads to run weekly tutorials for introductory students
+“Suddenly, my problems stop being problems in the world. They become problems in my head. The problem is no longer: ‘my job is demoralizing, but I can’t leave it’… It’s: ‘I have a chemical imbalance that prevents me from enjoying life'” — Justin Garson on “the pathologizing tendency”
+A political theorist and a comedian discuss the American presidency — "The Oath and the Office" is the podcast of Corey Brettschneider & John Fugelsang
+An “evidence revolution” has taken place in medicine and other fields over the past 50 years — but, as Benjamin Santos Genta asks, there's still the question: "what counts as good scientific evidence?"
+“Behind the scenes at Ethics” — editor Douglas Portmore shares how the journal works
+“Cambridge philosophy gave Scruton a sense of the distinction between real thinking and fake thinking… a sense of when a conclusion had been too easily won” — a look at the early years of Roger Scruton
+“Once students see language in an Aristotelian way, nobody talks about what a chatbot thinks or feels.” — when teaching students about LLMs, don’t forget they know almost nothing about that second "L"
+Effective altruism may seem “bonkers” to some, but “what do our elders propose as a replacement? Aristotle? Arendt? Marx? A life in community? A life of the mind? Worst of all, more dialogue?” — Harry Levov, a student, attends an Effective Altruism conference
+
+ALL LINKS →
+
+SUBSCRIBE BY EMAIL
+
+Get new Daily Nous posts delivered to your inbox.
+
+Subscription Form
+Subscribe
+ARCHIVES
+Select Month
+Select Month
+October 2026
+September 2026
+August 2026
+July 2026
+June 2026
+May 2026
+April 2026
+March 2026
+February 2026
+January 2026
+December 2025
+November 2025
+October 2025
+September 2025
+August 2025
+July 2025
+June 2025
+May 2025
+April 2025
+March 2025
+February 2025
+January 2025
+December 2024
+November 2024
+October 2024
+September 2024
+August 2024
+July 2024
+June 2024
+May 2024
+April 2024
+March 2024
+February 2024
+January 2024
+December 2023
+November 2023
+October 2023
+September 2023
+August 2023
+July 2023
+June 2023
+May 2023
+April 2023
+March 2023
+February 2023
+January 2023
+December 2022
+November 2022
+October 2022
+September 2022
+August 2022
+July 2022
+June 2022
+May 2022
+April 2022
+March 2022
+February 2022
+January 2022
+December 2021
+November 2021
+October 2021
+September 2021
+August 2021
+July 2021
+June 2021
+May 2021
+April 2021
+March 2021
+February 2021
+January 2021
+December 2020
+November 2020
+October 2020
+September 2020
+August 2020
+July 2020
+June 2020
+May 2020
+April 2020
+March 2020
+February 2020
+January 2020
+December 2019
+November 2019
+October 2019
+September 2019
+August 2019
+July 2019
+June 2019
+May 2019
+April 2019
+March 2019
+February 2019
+January 2019
+December 2018
+November 2018
+October 2018
+September 2018
+August 2018
+July 2018
+June 2018
+May 2018
+April 2018
+March 2018
+February 2018
+January 2018
+December 2017
+November 2017
+October 2017
+September 2017
+August 2017
+July 2017
+June 2017
+May 2017
+April 2017
+March 2017
+February 2017
+January 2017
+December 2016
+November 2016
+October 2016
+September 2016
+August 2016
+July 2016
+June 2016
+May 2016
+April 2016
+March 2016
+February 2016
+January 2016
+December 2015
+November 2015
+October 2015
+September 2015
+August 2015
+July 2015
+June 2015
+May 2015
+April 2015
+March 2015
+February 2015
+January 2015
+December 2014
+November 2014
+October 2014
+September 2014
+August 2014
+July 2014
+June 2014
+May 2014
+April 2014
+March 2014
+
+LATEST COMMENTS
+
+Daniel Weltman on A Request from an AI (updated)
+
+Meme on A Request from an AI (updated)
+
+pat on A Request from an AI (updated)
+
+Useless murmuring on A Request from an AI (updated)
+
+Bothered on A Request from an AI (updated)
+
+pat on A Request from an AI (updated)
+
+Meme on A Request from an AI (updated)
+
+Ichabod Crawford on A Request from an AI (updated)
+
+Eric Steinhart on A Request from an AI (updated)
+
+pat on A Request from an AI (updated)
+
+Meme on A Request from an AI (updated)
+
+Zach Goodsell on A Request from an AI (updated)
+
+James Dominic Rooney on A Request from an AI (updated)
+
+Kenny Easwaran on A Request from an AI (updated)
+
+Eric Steinhart on A Request from an AI (updated)
+
+© Daily Nous
+
+About Daily Nous
+44

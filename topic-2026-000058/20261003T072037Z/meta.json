@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000058",
+  "url": "https://spicyip.com/2026/07/ani-v-openai-user-rights-fair-dealing-and-the-future-of-ai-in-indian-copyright-law-part-i.html",
+  "capturedAt": "2026-10-03T07:20:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 302733,
+    "sha256": "713d4133138092f199e978158bf82128d854e82c5bd1847fc04b19a17dda8d18",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E2301A61E06BBA1BC269B81D8E548F4F",
+      "status": 200,
+      "url": "https://spicyip.com/2026/07/ani-v-openai-user-rights-fair-dealing-and-the-future-of-ai-in-indian-copyright-law-part-i.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8340,
+      "afterScrollHeight": 8340,
+      "wantedHeight": 8340
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ed2dd25b2f7f471d22449e3135f69a0a575eb3120a835b91e799f1bbe1d162ea",
+    "width": 1366,
+    "height": 8340,
+    "bytes": 1406851,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8340,
+    "afterScrollHeight": 8340,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:20:37Z",
+    "url": "https://spicyip.com/2026/07/ani-v-openai-user-rights-fair-dealing-and-the-future-of-ai-in-indian-copyright-law-part-i.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 302733,
+      "sha256": "713d4133138092f199e978158bf82128d854e82c5bd1847fc04b19a17dda8d18"
+    },
+    "finalUrl": "https://spicyip.com/2026/07/ani-v-openai-user-rights-fair-dealing-and-the-future-of-ai-in-indian-copyright-law-part-i.html",
+    "httpStatus": 200,
+    "title": "ANI v. OpenAI: User Rights, Fair Dealing, and the Future of AI in Indian Copyright Law (Part I) – SpicyIP",
+    "rendered": {
+      "textChars": 16846,
+      "textSha256": "d20355b401d1711e7c452a37587898cd9b99bc312b69bf7b78a157e410d730e4",
+      "htmlSha256": "76ac9d422608debf148f88ec8425c5c83d48cce5fb7c9965e0f2a164bb39dcf4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ed2dd25b2f7f471d22449e3135f69a0a575eb3120a835b91e799f1bbe1d162ea",
+      "width": 1366,
+      "height": 8340,
+      "bytes": 1406851,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260731171139",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260731171139/https://spicyip.com/2026/07/ani-v-openai-user-rights-fair-dealing-and-the-future-of-ai-in-indian-copyright-law-part-i.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260731171139/https://spicyip.com/2026/07/ani-v-openai-user-rights-fair-dealing-and-the-future-of-ai-in-indian-copyright-law-part-i.html",
+      "timestamp": "20260731171139",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

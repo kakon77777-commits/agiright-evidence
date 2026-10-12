@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000046",
+  "url": "https://ca.billboard.com/business/legal/music-publishers-canada-ai-copyright-case",
+  "capturedAt": "2026-10-03T07:14:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 258293,
+    "sha256": "bba198462e11f183bb5a5d78517c8da4acb64b5799937c9377deed266761ea63",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BE7D856EAE434409882C4C8B6024D105",
+      "status": 200,
+      "url": "https://ca.billboard.com/business/legal/music-publishers-canada-ai-copyright-case",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6264,
+      "afterScrollHeight": 6453,
+      "wantedHeight": 6453
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f00cfb4df6269430f43a94ab4992b077e1528e6a91039705dee4d5211a827cac",
+    "width": 1366,
+    "height": 6453,
+    "bytes": 1655717,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6264,
+    "afterScrollHeight": 6453,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:14:24Z",
+    "url": "https://ca.billboard.com/business/legal/music-publishers-canada-ai-copyright-case",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 258293,
+      "sha256": "bba198462e11f183bb5a5d78517c8da4acb64b5799937c9377deed266761ea63"
+    },
+    "finalUrl": "https://ca.billboard.com/business/legal/music-publishers-canada-ai-copyright-case",
+    "httpStatus": 200,
+    "title": "Music Publishers Canada Files to Intervene in Landmark AI and Copyright Federal Court Case | Billboard Canada",
+    "rendered": {
+      "textChars": 9422,
+      "textSha256": "c9f028d0bb176cf4c1339f65f77158030cbbb85f16fd9da62baaf9f4ce3e7fc1",
+      "htmlSha256": "2dd46647008801b14c0df02cf65abf292cc5bcc296e24a99391adf15fa3749c3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f00cfb4df6269430f43a94ab4992b077e1528e6a91039705dee4d5211a827cac",
+      "width": 1366,
+      "height": 6453,
+      "bytes": 1655717,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003071540/https://ca.billboard.com/business/legal/music-publishers-canada-ai-copyright-case",
+      "timestamp": "20261003071540",
+      "verifiedHttp": 200
+    }
+  }
+}

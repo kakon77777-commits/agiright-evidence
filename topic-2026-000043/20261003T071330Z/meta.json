@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000043",
+  "url": "https://www.theguardian.com/technology/2026/jul/22/we-must-reject-any-notion-of-ai-consciousness",
+  "capturedAt": "2026-10-03T07:13:30Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 317443,
+    "sha256": "6b4bfbcbc0dc5b522cf6827b9d152ad291135796d0d6cc2e947feeab398c2895",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0300D33C750D248D7E3D270CF4552AB9",
+      "status": 200,
+      "url": "https://www.theguardian.com/technology/2026/jul/22/we-must-reject-any-notion-of-ai-consciousness",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ef25b933d0e1c0b35df70ad64b780e7c6c683338b418725b6fd7da06be465a69",
+    "width": 1366,
+    "height": 900,
+    "bytes": 75234,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:13:30Z",
+    "url": "https://www.theguardian.com/technology/2026/jul/22/we-must-reject-any-notion-of-ai-consciousness",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 317443,
+      "sha256": "6b4bfbcbc0dc5b522cf6827b9d152ad291135796d0d6cc2e947feeab398c2895"
+    },
+    "finalUrl": "https://www.theguardian.com/technology/2026/jul/22/we-must-reject-any-notion-of-ai-consciousness",
+    "httpStatus": 200,
+    "title": "We must reject any notion of AI consciousness | AI (artificial intelligence) | The Guardian",
+    "rendered": {
+      "textChars": 2847,
+      "textSha256": "245c59654b6e7ad92579b62db6c9cc22bedb894565bde904801fb8e362751602",
+      "htmlSha256": "e933e2fcb9adfefadd1d9022acb3517765260fcc18b98589771920d6ac786ed0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ef25b933d0e1c0b35df70ad64b780e7c6c683338b418725b6fd7da06be465a69",
+      "width": 1366,
+      "height": 900,
+      "bytes": 75234,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003071407/https://www.theguardian.com/technology/2026/jul/22/we-must-reject-any-notion-of-ai-consciousness",
+      "timestamp": "20261003071407",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "topic-2026-000065",
+  "url": "https://arxiv.org/html/2607.25620v1",
+  "capturedAt": "2026-10-03T08:43:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 117941,
+    "sha256": "46e43f218759fae406d5b68a5aac161eedf8a288f9156954e0ad44c1405a9834",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": false,
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "navError": null,
+    "document": {
+      "frameId": "87C5FCB78FA2BB393E4C233937E46E7A",
+      "status": 200,
+      "url": "https://arxiv.org/html/2607.25620v1",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 19367,
+      "afterScrollHeight": 19367,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": null,
+    "layout": {
+      "firstLoadHeight": 19367,
+      "afterScrollHeight": 19367,
+      "wantedHeight": 15000
+    },
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:43:15Z",
+    "url": "https://arxiv.org/html/2607.25620v1",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 117941,
+      "sha256": "46e43f218759fae406d5b68a5aac161eedf8a288f9156954e0ad44c1405a9834"
+    },
+    "finalUrl": "https://arxiv.org/html/2607.25620v1",
+    "httpStatus": 200,
+    "title": "Beyond Epistemia:Epistemic Schizologia and Large Language Models as Techno-Semiotic Machines",
+    "rendered": {
+      "textChars": 67711,
+      "textSha256": "19b6a6af47986b65cd2fde56287d9602093304e08891b3d37f7618904ad9a5e0",
+      "htmlSha256": "58e63169126d0f4adc703331e4e5804c14d70284a8dbbc79904b15c24ddeb10f"
+    },
+    "suspectedBlock": false,
+    "browserError": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261003072538",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261003072538/https://arxiv.org/html/2607.25620v1"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20261003072538/https://arxiv.org/html/2607.25620v1",
+      "timestamp": "20261003072538",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

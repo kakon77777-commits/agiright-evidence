@@ -1,0 +1,101 @@
+People
+Thought Leadership
+Third Circuit Hears Oral Argument in Ross v. Reuters AI Training Copyright Case
+July 2026
+Client Updates
+
+On June 11, 2026, the Third Circuit heard oral argument in Thomson Reuters Enterprise Centre GmbH et al. v. Ross Intelligence Inc., the first federal appellate case to squarely address whether using copyrighted works to train an AI model qualifies as fair use.[1] The Third Circuit’s ruling on this important question, which is likely to include findings on central questions of transformativeness and market harm discussed during oral argument, is expected in late 2026. The audio recording of the oral argument can be found here.
+
+Background
+Ross Intelligence (“Ross”) built an AI-powered search engine, and to do so, created training memos derived from Westlaw's headnotes.[2] Each memo adapted a headnote into a question paired with multiple answers, which Ross used to train its model.[3] Some headnotes were direct quotes from judicial opinions.[4] Others, however, were not quotes and reflected certain modifications, such as the use of ellipses, the removal of citations, and the condensing of multiple sentences from a paragraph into a single headnote.[5] Unlike generative AI models, Ross’s model was designed not to produce output, but to identify the semantic relationships of legal language.[6] In 2020, Thomson Reuters (“Reuters”) sued Ross for copyright infringement.[7]
+
+In February 2025, the District Court granted summary judgment for Reuters on the fair use question, finding that Ross’s use was not fair use.[8] The court found the headnotes to be copyrightable, noting that the editorial judgment in creating the headnotes satisfied the low originality threshold.[9] As to fair use, the court concluded that Ross’ use of Westlaw headnotes was not transformative because Ross's product served the same purpose as Westlaw: helping lawyers find relevant case law.[10]
+
+The Third Circuit certified two questions for interlocutory appeal: (1) whether the West headnotes are original, and (2) whether Ross's use of the headnotes was fair use.[11] This analysis focuses on the parties’ fair use arguments.
+
+Key Themes from the Argument
+During the June 11 oral argument, the Third Circuit panel, comprised of Judges Luis Felipe Restrepo, Tamika Montgomery Reeves, and Emil Bove III, grappled with the parties’ competing views on how the fair use analysis should be applied. The court focused on two key fair use considerations: transformativeness and market harm.
+
+Transformativeness: “Cheat Sheet” or Something Materially Different? Judge Bove framed the central tension of the case as presenting two competing narratives. In one version, Ross’s use of Westlaw’s headnotes was merely a “cheat sheet”—a shortcut to publicly available judicial opinions that Ross could have analyzed itself.[12] Alternatively, Ross’s use of those headnotes was to train a fundamentally different technology, one that processes natural-language queries in a way that is “materially different” from traditional keyword-based legal search.[13] The panel pressed Reuters on what the record shows about the nature of Ross's AI training and how the resulting product compares to Westlaw's search functionality.[14] Reuters maintained that training was merely “a means to copying” and that both products serve the identical purpose of legal research.[15]  In contrast, Ross’s counsel contended that Ross’s AI tool was a meaningfully different, transformative product.[16]
+
+Market Harm: "Worlds Apart" on the Relevant Market. As to the fair use factor of market impact, Judge Bove observed that the parties are “worlds apart” on what the relevant market is.[17] Ross argued that there is no standalone market for headnotes and that it would be circular to find market harm in an AI-training market that Reuters itself created.[18] In response, Reuters argued that the market includes its Westlaw legal research platform and related uses for its content, including its own AI development, training, and licensing.[19] Reuters identified three harms associated with that market: direct competitive substitution, harm to Reuters’ exclusive use of its own content for AI training, and harm to a potential licensing market for AI training data.[20]
+
+Takeaways
+As the first federal appellate case to address whether AI training on copyrighted material qualifies as fair use, the Third Circuit's decision will have significant implications for AI developers, content owners, and the broader AI industry. Baker Botts will continue to track developments and provide timely updates and guidance once the panel issues an opinion.
+
+*Jonathan Lerner, a Baker Botts Summer Associate, assisted with the preparation of this article.
+
+[1] Oral Argument, Thomson Reuters Enter. Ctr. GmbH v. Ross Intelligence, Inc., No. 25-2153 (3d Cir. June 11, 2026), https://www2.ca3.uscourts.gov/oralargument/audio/25-2153ThomsonReutersetalv.RossIntelligenceInc.mp3.
+[2] See Thomson Reuters Enter. Ctr. GMBH v. Ross Intel. Inc., 765 F. Supp. 3d 382, 391 (D. Del. 2025).
+[3] Id. at 2:00 (Ross).
+[4] Id. at 10:20 (Panel).
+[5] Id. at 12:25 (Panel).
+[6] Id. at 5:58 (Ross); id. at 47:06 (Ross).
+[7] Compl., Thomson Reuters Enter. Ctr. GMBH v. Ross Intel. Inc., No. 1:20-CV-613-SB (D. Del. May 5, 2020).
+[8] Thomson Reuters Enter. Ctr. GMBH v. Ross Intel. Inc., 765 F. Supp. 3d 382 (D. Del. 2025).
+[9] Thomson Reuters, 765 F. Supp. 3d at 392 (discussing originality of the headnotes); Id. at 396 (rejecting Ross’s merger defense).
+[10] Id. at 401.
+[11] Thomson Reuters Enter. Ctr. GMBH v. Ross Intel. Inc., 2025 WL 1488015, No. 1:20-CV-613-SB (D. Del. May 23, 2025).
+[12] Id. at 30:13 (Panel).
+[13] Id. at 38:55 (Panel).
+[14] Id. at 31:33 (Panel).
+[15] Id. at 31:11 (Reuters).
+[16] Id. at 6:02, 7:58 (Ross).
+[17] Id. at 23:24 (Panel).
+[18] Id. at 2:00 (Ross).
+[19] Id. at 24:35 (Reuters).
+[20] Id. at 24:34 (Reuters).
+
+ABOUT BAKER BOTTS L.L.P.
+Baker Botts is an international law firm whose lawyers practice throughout a network of offices around the globe. Based on our experience and knowledge of our clients' industries, we are recognized as a leading firm in the energy, technology and life sciences sectors. Since 1840, we have provided creative and effective legal solutions for our clients while demonstrating an unrelenting commitment to excellence. For more information, please visit bakerbotts.com.
+
+Share
+
+Follow
+
+Practices
+Artificial Intelligence AI
+Federal Circuit Appeals
+Intellectual Property
+Related Professionals
+Julie Albert
+Partner
+Jasmine Boyer
+Associate
+View Related Professionals
+Contact Us
+Subscribe
+People
+Services
+Diversity In Action
+About Us
+Management
+Pro Bono
+CSR
+Alumni
+Geographies
+Africa
+Asia Pacific
+Europe
+Latin America & Caribbean
+Middle East
+North America
+Careers
+Lateral Lawyers
+Law Students
+Patent Agents and IP Technical Staff
+Professional Staff
+Recruiting Contacts
+Copyright © Baker Botts L.L.P, 2026
+Disclaimer
+Cookies
+Attorney Advertising
+Fraud Alert
+Privacy Policy
+Regulatory Information
+Statement on Modern Slavery
+Transparency in Coverage
+Cookie Preferences
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.
+Cookies Settings
+Essential Only Accept All Cookies

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000044",
+  "url": "https://www.scmp.com/week-asia/politics/article/3361569/indonesias-ai-copyright-push-opens-new-front-war-over-digital-content",
+  "capturedAt": "2026-10-03T07:13:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 6163,
+    "sha256": "f4b96950bdff68c8276ac3521638d66395833be363865d3bc559adef5df80d36",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B69EAB3BE3C1D146D571F7F2C59FC163",
+      "status": 403,
+      "url": "https://www.scmp.com/week-asia/politics/article/3361569/indonesias-ai-copyright-push-opens-new-front-war-over-digital-content",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b03d75177a3ab89dcc3544a131a2f2cfdcf4eafc58e0b475bc43d79438f62168",
+    "width": 1366,
+    "height": 900,
+    "bytes": 26572,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:13:56Z",
+    "url": "https://www.scmp.com/week-asia/politics/article/3361569/indonesias-ai-copyright-push-opens-new-front-war-over-digital-content",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 6163,
+      "sha256": "f4b96950bdff68c8276ac3521638d66395833be363865d3bc559adef5df80d36"
+    },
+    "finalUrl": "https://www.scmp.com/week-asia/politics/article/3361569/indonesias-ai-copyright-push-opens-new-front-war-over-digital-content",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 260,
+      "textSha256": "44244cc0432e1b8a24383204a1a419b55e23a06daa345fccc12d51c17329bf15",
+      "htmlSha256": "e1e212de8dd4652cbb48f43eff686306f4bbf16c00cf2296604849a422de29ec"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "b03d75177a3ab89dcc3544a131a2f2cfdcf4eafc58e0b475bc43d79438f62168",
+      "width": 1366,
+      "height": 900,
+      "bytes": 26572,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260723114957",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260723114957/https://www.scmp.com/week-asia/politics/article/3361569/indonesias-ai-copyright-push-opens-new-front-war-over-digital-content"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260723114957/https://www.scmp.com/week-asia/politics/article/3361569/indonesias-ai-copyright-push-opens-new-front-war-over-digital-content",
+      "timestamp": "20260723114957",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

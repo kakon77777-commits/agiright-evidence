@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000042",
+  "url": "https://www.nber.org/papers/w35481",
+  "capturedAt": "2026-10-03T07:13:12Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 89265,
+    "sha256": "f374987d2f2b78e36872483cc763c996b73bfcc7d023c24073905359ec19be71",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "15DFAC4D5F1D4170F834027F5DBD9422",
+      "status": 200,
+      "url": "https://www.nber.org/papers/w35481",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3485,
+      "afterScrollHeight": 3485,
+      "wantedHeight": 3485
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "adb420246cb76c7c26ed289a6b5179d0a390318139d96396a3b49fb20962febe",
+    "width": 1366,
+    "height": 3485,
+    "bytes": 724736,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3485,
+    "afterScrollHeight": 3485,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:13:12Z",
+    "url": "https://www.nber.org/papers/w35481",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 89265,
+      "sha256": "f374987d2f2b78e36872483cc763c996b73bfcc7d023c24073905359ec19be71"
+    },
+    "finalUrl": "https://www.nber.org/papers/w35481",
+    "httpStatus": 200,
+    "title": "Inference with AI-Generated Covariates | NBER",
+    "rendered": {
+      "textChars": 4711,
+      "textSha256": "1a63cb9a8b8c92de21f47e63174606c5fa85430e9673da755044ced01fe98d3f",
+      "htmlSha256": "e0bac2ef34ce72fdf1f88b03efd081fe771e662ce197d4417be63ab2dde45e9e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "adb420246cb76c7c26ed289a6b5179d0a390318139d96396a3b49fb20962febe",
+      "width": 1366,
+      "height": 3485,
+      "bytes": 724736,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260803101814",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260803101814/https://www.nber.org/papers/w35481"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260803101814/https://www.nber.org/papers/w35481",
+      "timestamp": "20260803101814",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

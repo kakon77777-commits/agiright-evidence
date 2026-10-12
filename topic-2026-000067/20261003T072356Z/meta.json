@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000067",
+  "url": "https://www.juve-patent.com/cases/munich-regional-court-stops-suno-using-gema-protected-music/",
+  "capturedAt": "2026-10-03T07:23:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 113561,
+    "sha256": "361f689c6ac3b36bde10e55561b17ecb3c6fc1f27eb43a177f917b37839337b7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0F04C9A55719CE1D0FBE0ACD250736A0",
+      "status": 200,
+      "url": "https://www.juve-patent.com/cases/munich-regional-court-stops-suno-using-gema-protected-music/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5927,
+      "afterScrollHeight": 5927,
+      "wantedHeight": 5927
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b7780bbbd2919a7b57d4675a4098f0b447765166460f2a0c624447d70a8721d7",
+    "width": 1366,
+    "height": 5927,
+    "bytes": 1078157,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5927,
+    "afterScrollHeight": 5927,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:23:56Z",
+    "url": "https://www.juve-patent.com/cases/munich-regional-court-stops-suno-using-gema-protected-music/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 113561,
+      "sha256": "361f689c6ac3b36bde10e55561b17ecb3c6fc1f27eb43a177f917b37839337b7"
+    },
+    "finalUrl": "https://www.juve-patent.com/cases/munich-regional-court-stops-suno-using-gema-protected-music/",
+    "httpStatus": 200,
+    "title": "Munich Regional Court stops Suno using GEMA-protected music - JUVE Patent",
+    "rendered": {
+      "textChars": 10245,
+      "textSha256": "64a30627ced104174023673f194b3a59030a0d1eed83b00877d676e71d9a3276",
+      "htmlSha256": "680a9e3c200f48575e8019ccc1b0119a14b189bacd1ee39fd649a90133e3bb8b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b7780bbbd2919a7b57d4675a4098f0b447765166460f2a0c624447d70a8721d7",
+      "width": 1366,
+      "height": 5927,
+      "bytes": 1078157,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 403"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 403 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

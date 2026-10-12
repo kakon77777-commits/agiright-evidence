@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000066",
+  "url": "https://arxiv.org/html/2607.08731v2",
+  "capturedAt": "2026-10-03T07:23:22Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 191733,
+    "sha256": "0f427ef4e765b30f8abd2146b389d9f37cf9cc2f34cfeed2b37dabff3fb86d39",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6E9E8049ED9F107C5387838401025E88",
+      "status": 200,
+      "url": "https://arxiv.org/html/2607.08731v2",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 24213,
+      "afterScrollHeight": 24213,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "79b8cd21e66d5455235f8bbd5548d89f7252559de5af8aa87d38c9c64820909f",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 2771861,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 24213,
+    "afterScrollHeight": 24213,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:23:22Z",
+    "url": "https://arxiv.org/html/2607.08731v2",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 191733,
+      "sha256": "0f427ef4e765b30f8abd2146b389d9f37cf9cc2f34cfeed2b37dabff3fb86d39"
+    },
+    "finalUrl": "https://arxiv.org/html/2607.08731v2",
+    "httpStatus": 200,
+    "title": "Trusting sovereign language models as scientific instruments: evidence from Portugal’s AMALIA",
+    "rendered": {
+      "textChars": 70786,
+      "textSha256": "e265f237044369a113a8e7b44704237d4ffe124a4a735c9d629f62c4a4c7cc3c",
+      "htmlSha256": "26477cfaeaf00116c9ffa983c8a19b39a8cb8094a6a374a87a47386e02e9614d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "79b8cd21e66d5455235f8bbd5548d89f7252559de5af8aa87d38c9c64820909f",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 2771861,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

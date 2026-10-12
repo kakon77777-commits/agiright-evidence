@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000055",
+  "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+  "capturedAt": "2026-10-03T08:42:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 417920,
+    "sha256": "339843f5e8d29cb5276c6d57cce64cc005523261d98b9d0b01393876e77d8599",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "49F1DCCAD61802F1719A458827C3F4D0",
+      "status": 200,
+      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 184170,
+      "afterScrollHeight": 188377,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f78f6a346faf4cf4e9cf67953cc3d0ae06bd7ef199be34c596edd28b4dd3031a",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 2054866,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 184170,
+    "afterScrollHeight": 188377,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:42:56Z",
+    "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 417920,
+      "sha256": "339843f5e8d29cb5276c6d57cce64cc005523261d98b9d0b01393876e77d8599"
+    },
+    "finalUrl": "https://transformer-circuits.pub/2026/workspace/index.html",
+    "httpStatus": 200,
+    "title": "Verbalizable Representations Form a Global Workspace in Language Models",
+    "rendered": {
+      "textChars": 437407,
+      "textSha256": "659eb734a79ef043b87d5e0225169130b91f53c4270a23681bf21319e069c87d",
+      "htmlSha256": "ffff6fcafd529c3f693104bbbd783ee2df9d3df9c6baa2afbb41825ba7175ba5"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f78f6a346faf4cf4e9cf67953cc3d0ae06bd7ef199be34c596edd28b4dd3031a",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 2054866,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260706182616",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260706182616/https://transformer-circuits.pub/2026/workspace/index.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260706182616/https://transformer-circuits.pub/2026/workspace/index.html",
+      "timestamp": "20260706182616",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

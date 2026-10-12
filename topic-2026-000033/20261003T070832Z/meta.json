@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000033",
+  "url": "https://www.theguardian.com/commentisfree/2026/jul/15/ai-consciousness-anthropic-claude-dawkins",
+  "capturedAt": "2026-10-03T07:08:32Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 345023,
+    "sha256": "9080bf5d9cf94f9bee64975bb83d7e3289eeef5777f90010b440be4ef9ec6368",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E1A8D065B8252B1A89CFDD06E8709D19",
+      "status": 200,
+      "url": "https://www.theguardian.com/commentisfree/2026/jul/15/ai-consciousness-anthropic-claude-dawkins",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ef25b933d0e1c0b35df70ad64b780e7c6c683338b418725b6fd7da06be465a69",
+    "width": 1366,
+    "height": 900,
+    "bytes": 75234,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:08:32Z",
+    "url": "https://www.theguardian.com/commentisfree/2026/jul/15/ai-consciousness-anthropic-claude-dawkins",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 345023,
+      "sha256": "9080bf5d9cf94f9bee64975bb83d7e3289eeef5777f90010b440be4ef9ec6368"
+    },
+    "finalUrl": "https://www.theguardian.com/commentisfree/2026/jul/15/ai-consciousness-anthropic-claude-dawkins",
+    "httpStatus": 200,
+    "title": "Once again we are told AI may be conscious – I study consciousness, and I have my doubts | Anil Seth | The Guardian",
+    "rendered": {
+      "textChars": 9458,
+      "textSha256": "1c73882fb615005e2c86e63b2709b33d79b3416d2e8d5a60d648f67ad6164567",
+      "htmlSha256": "3d539a09582e03c4fc8957e9c0699ad38c499a25f3d9f80fe36d90b8b11fb70f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ef25b933d0e1c0b35df70ad64b780e7c6c683338b418725b6fd7da06be465a69",
+      "width": 1366,
+      "height": 900,
+      "bytes": 75234,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 403"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003070913/https://www.theguardian.com/commentisfree/2026/jul/15/ai-consciousness-anthropic-claude-dawkins",
+      "timestamp": "20261003070913",
+      "verifiedHttp": 200
+    }
+  }
+}

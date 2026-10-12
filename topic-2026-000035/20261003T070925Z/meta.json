@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000035",
+  "url": "https://hamiltonlocke.com.au/no-free-pass-for-ai-australia-confirms-copyright-will-be-protected-under-new-mandatory-framework/",
+  "capturedAt": "2026-10-03T07:09:25Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 283584,
+    "sha256": "25694d7c06eea4c8ded6880a56c8f8a32c60fd2c25111ff9ff26854db47abeec",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9FE08B7DB061BD0D62492A98361A4B6D",
+      "status": 200,
+      "url": "https://hamiltonlocke.com.au/no-free-pass-for-ai-australia-confirms-copyright-will-be-protected-under-new-mandatory-framework/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4350,
+      "afterScrollHeight": 4350,
+      "wantedHeight": 4350
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3717ec4dcdb3522c2c574753528d95dce1ab7230255797e9a083f0974f64e4d7",
+    "width": 1366,
+    "height": 4350,
+    "bytes": 883907,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4350,
+    "afterScrollHeight": 4350,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:09:25Z",
+    "url": "https://hamiltonlocke.com.au/no-free-pass-for-ai-australia-confirms-copyright-will-be-protected-under-new-mandatory-framework/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 283584,
+      "sha256": "25694d7c06eea4c8ded6880a56c8f8a32c60fd2c25111ff9ff26854db47abeec"
+    },
+    "finalUrl": "https://hamiltonlocke.com.au/no-free-pass-for-ai-australia-confirms-copyright-will-be-protected-under-new-mandatory-framework/",
+    "httpStatus": 200,
+    "title": "No free pass for AI: Australia confirms copyright will be protected under new mandatory framework - Hamilton Locke",
+    "rendered": {
+      "textChars": 8413,
+      "textSha256": "9ffddc1e48a030fad0792d6a1f0f3fe2cc3c1a7248d0dd6f367a7f7a6b63bcf7",
+      "htmlSha256": "82cb50cf7e06285eedc0eb2e46a8aa305845df165f8fd5de6f241e0bf658c99d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "3717ec4dcdb3522c2c574753528d95dce1ab7230255797e9a083f0974f64e4d7",
+      "width": 1366,
+      "height": 4350,
+      "bytes": 883907,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003071014/https://hamiltonlocke.com.au/no-free-pass-for-ai-australia-confirms-copyright-will-be-protected-under-new-mandatory-framework/",
+      "timestamp": "20261003071014",
+      "verifiedHttp": 200
+    }
+  }
+}

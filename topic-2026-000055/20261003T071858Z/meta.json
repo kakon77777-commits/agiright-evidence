@@ -1,0 +1,54 @@
+{
+  "id": "topic-2026-000055",
+  "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+  "capturedAt": "2026-10-03T07:18:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 417920,
+    "sha256": "339843f5e8d29cb5276c6d57cce64cc005523261d98b9d0b01393876e77d8599",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": false,
+    "error": "devtools timeout: Runtime.evaluate",
+    "navError": null,
+    "document": {
+      "frameId": "C7AFFBC57666BD93B2CF82C05AD35056",
+      "status": 200,
+      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:18:58Z",
+    "url": "https://transformer-circuits.pub/2026/workspace/index.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 417920,
+      "sha256": "339843f5e8d29cb5276c6d57cce64cc005523261d98b9d0b01393876e77d8599"
+    },
+    "finalUrl": "https://transformer-circuits.pub/2026/workspace/index.html",
+    "httpStatus": 200,
+    "browserError": "devtools timeout: Runtime.evaluate",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261002013034/https://transformer-circuits.pub/2026/workspace/index.html",
+      "timestamp": "20261002013034",
+      "verifiedHttp": 200
+    }
+  }
+}

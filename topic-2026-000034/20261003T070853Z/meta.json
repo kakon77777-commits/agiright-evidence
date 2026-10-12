@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000034",
+  "url": "https://www.theguardian.com/technology/2026/jul/22/bloomsbury-book-publisher-anthropic-copyright-settlement",
+  "capturedAt": "2026-10-03T07:08:53Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 439569,
+    "sha256": "d0ece3216ba0003133fa529327b2a68d9648e02e22d46b4238f1c017a06075c1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F65A0476ED17B928D1B9295CCD681FAA",
+      "status": 200,
+      "url": "https://www.theguardian.com/technology/2026/jul/22/bloomsbury-book-publisher-anthropic-copyright-settlement",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "cd8ee4fd11f8b50515c590ac8773cf2dcf6323329d25f8981b976907a2432972",
+    "width": 1366,
+    "height": 900,
+    "bytes": 75991,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:08:53Z",
+    "url": "https://www.theguardian.com/technology/2026/jul/22/bloomsbury-book-publisher-anthropic-copyright-settlement",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 439569,
+      "sha256": "d0ece3216ba0003133fa529327b2a68d9648e02e22d46b4238f1c017a06075c1"
+    },
+    "finalUrl": "https://www.theguardian.com/technology/2026/jul/22/bloomsbury-book-publisher-anthropic-copyright-settlement",
+    "httpStatus": 200,
+    "title": "Harry Potter publisher to receive millions in Anthropic copyright settlement | AI (artificial intelligence) | The Guardian",
+    "rendered": {
+      "textChars": 6044,
+      "textSha256": "fd09a43545c531ae9cd284ce62118573e53fbd10d5825951ffbe25539123b519",
+      "htmlSha256": "5fd69ef02f6efd34dba21ed46152066942878d978da1003944f24193cf0de60f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "cd8ee4fd11f8b50515c590ac8773cf2dcf6323329d25f8981b976907a2432972",
+      "width": 1366,
+      "height": 900,
+      "bytes": 75991,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 403"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

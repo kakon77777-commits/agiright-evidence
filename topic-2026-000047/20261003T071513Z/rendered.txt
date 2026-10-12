@@ -1,0 +1,144 @@
+Skip to content
+[the voice of enterprise and emerging tech]
+OUR NETWORK
+search
+Search SiliconANGLE
+search
+Submit search
+HOME
+TECHFORWARD
+CLOUD
+AI
+SECURITY
+INFRA
+BLOCKCHAIN
+EMERGING TECH
+More
+THE SILICONANGLE 120
+Market Data Provided by
+SHARE
+
+UPDATED 09:00 EDT / JULY 23 2026
+
+AI
+Ropedia raises $22M to scale human-centric data collection for embodied AI
+
+BY KYT DOTSON
+
+Singapore-based robotics data infrastructure firm Ropedia Pte. Ltd. today announced it raised $22 million in Pre-Series A funding to scale up its collection of real-world, multimodal interaction data to fuel artificial intelligence robotics models developed by technology companies.
+
+Physical AI and embodied AI development is increasingly burdened by a lack of real-world data at a diversity and scale that robot-specific teleoperation struggles to produce. Developers in this field need models that can generalize across robots, objects and environments to scale products. Ropedia’s industry proposition is to gather human experience directly via video and convert it into model-ready multimodal datasets.
+
+Although images and text exist in abundance, and there are many videos online, much of it cannot be readily curated or transformed into robotic trajectories that represent human-like activity. When a robot interacts with the real world, it needs synchronized, annotated, and curated information about movements, geometry and the consequences of those actions. Pictures of objects don’t work for this and unless video is well structured, it’s harder to concentrate into a clean dataset.
+
+“There’s not yet going to be a massive deployment of robots,” founder and Chief Executive Zhaoxi Chen told SiliconANGLE in an interview. “We need to unlock the ChatGPT moment for robotics first.”
+
+Chen described Ropedia’s approach to this challenge as existing in three layers: capture, annotation and deployment. The company focuses heavily on the annotation layer – curation, filtering, quality control and AI-assisted annotation – while more extensive fine-tuning and deployment loops build the long-term vision for the company.
+
+From capture to clean data
+
+To make this happen, the company built a wearable, head-mounted device called HOMIE, or Human-centric Omni Interaction and Experience. It’s shaped more or less like a crown that sits atop the head and mounts four cameras in the cardinal directions. It’s lightweight, at less than half a pound, and remains out of the user’s direct line of sight, making it easier to perform normal work or everyday activities without getting in their way.
+
+The wearable captures raw experiences using video, while its processing backend synchronizes and annotates the resulting visual, spatial and motion data.
+
+“This kind of ‘anywhere, by anybody’ is really valuable for enriching the diversity of the data,” Chen explained.
+
+The company plans to release a second-generation version of the wearable that Chen characterized as both more attractive and lighter. It’s expected to be announced next month.
+
+Ropedia looks to become similar to how cloud infrastructure became the foundation of internet services: largely invisible to end users, but necessary for ingesting, processing and serving information on an enormous scale. In terms of robotics and physical AI, that means becoming the go-to for multimodal synchronization, quality control, annotation and consistent data structures across as many contributors and environments as possible, delivered to a data-hungry industry.
+
+“Infrastructure means that you can push the boundary of data production from, let’s say, 1,000 hours [to] 1 million hours of data production,” Chen said.
+
+Despite the high visibility of HOMIE, Ropedia ultimately provides curated data produced by its pipeline. Customers can license existing datasets or use the company’s hardware to collect demonstrations within their own facilities. After that, Ropedia processes, curates and annotates the captured proprietary data.
+
+Revolutionizing future robotics with curated data
+
+The company’s data-centric foundation is already paying off. Chen noted that the Allen Institute for AI, a preeminent AI research company developing AI models, recently released MolmoMotion, a 3D motion forecasting model that can anticipate how objects will move within a scene. He explained that Ropedia supplied more than half of the data sources used to train the model.
+
+Chen said the new funding will help Ropedia put its second-generation HOMIE hardware into large-scale production, with an eventual target of as many as 10,000 devices. The company also intends to hire across hardware, software, AI infrastructure and business development, including talent focused on efficiency and performance for its annotation models. Finally, the company intends to establish a larger United States branch and deepen relationships with North American customers and industry partners.
+
+At its core, Ropedia provides clean data for robotics. This is an evolving industry supplying a growing number of robots moving from experiment onto factory floors. According to Chen, it’s an emerging discipline and it’s fundamental to the foundation that will allow embodied AI and smart robotics to scale up.
+
+“Data is also a form of science,” Chen said. “It’s not only about collecting or accumulating the data. It’s more like how you organize and understand the flow between different domains.”
+
+Image: SiliconANGLE/Microsoft Designer; Ropedia
+A message from John Furrier, co-founder of SiliconANGLE:
+
+Support our mission to keep content open and free by engaging with theCUBE community. Join theCUBE’s Alumni Trust Network, where technology leaders connect, share intelligence and create opportunities.
+
+15M+ viewers of theCUBE videos, powering conversations across AI, cloud, cybersecurity and more
+11.4k+ theCUBE alumni — Connect with more than 11,400 tech and business leaders shaping the future through a unique trusted-based network
+Are you an AWS customer?  Support SiliconANGLE financially by buying your AWS services from our Marketplace portal page and links: https://siliconangle.com/aws-marketplace/
+
+ 
+
+About SiliconANGLE Media
+SiliconANGLE Media is a recognized leader in digital media innovation, uniting breakthrough technology, strategic insights and real-time audience engagement. As the parent company of SiliconANGLE, theCUBE Network, theCUBE Research, CUBE365, theCUBE AI and theCUBE SuperStudios — with flagship locations in Silicon Valley and the New York Stock Exchange — SiliconANGLE Media operates at the intersection of media, technology and AI.
+
+Founded by tech visionaries John Furrier and Dave Vellante, SiliconANGLE Media has built a dynamic ecosystem of industry-leading digital media brands that reach 15+ million elite tech professionals. Our new proprietary theCUBE AI Video Cloud is breaking ground in audience interaction, leveraging theCUBEai.com neural network to help technology companies make data-driven decisions and stay at the forefront of industry conversations.
+
+LATEST STORIES
+
+Report: Amazon to offload $8B worth of AI chips, lease them back
+
+NetApp hands storage operations to AI agents, but humans still draw the boundaries
+
+IBM and CoreWeave co-design controls for agent workloads
+
+Robotics AI developer FieldAI reportedly raising $700M in funding
+
+Database startup Supabase raises $150M, acquires Turso
+
+CrowdStrike and CoreWeave bring AI security to machine speed
+
+Report: Amazon to offload $8B worth of AI chips, lease them back
+
+NetApp hands storage operations to AI agents, but humans still draw the boundaries
+
+IBM and CoreWeave co-design controls for agent workloads
+
+Robotics AI developer FieldAI reportedly raising $700M in funding
+
+Database startup Supabase raises $150M, acquires Turso
+
+CrowdStrike and CoreWeave bring AI security to machine speed
+
+CUBE EVENT COVERAGE  
+help_outline
+LATEST FROM THECUBE
+CrowdStrike and CoreWeave bring AI security to machine speed
+NetApp hands storage operations to AI agents, but humans still draw the boundaries
+IBM and CoreWeave co-design controls for agent workloads
+TOTVS expands enterprise AI foundation beyond software
+Wiring and powering GPUs differently can swing AI latency by orders of magnitude, says CoreWeave
+Nvidia’s scale-in play: Controlling agents is the next infrastructure priority
+CoreWeave’s next test: From GPU scarcity to a durable AI cloud
+Salesforce after Dreamforce: How the CRM giant can grow beyond its own interface
+Beyond shared responsibility: When AI acts, who owns the blast radius?
+CrowdStrike’s post-Mythos surge: Moat, momentum and the blast-radius test
+Sign Up for Our Weekly Newsletter
+SUBSCRIBE
+UPCOMING CUBE EVENTS
+Dell AI Data Platform Event: From Ambition to AI at Scale
+Oct 07
+SailPoint Navigate 2026
+Oct 07-08
+AI Cybersecurity & Resilience Summit
+Oct 28-29
+RECENT CUBE EVENTS
+Fully Connected 2026
+NetApp INSIGHT 2026
+Oktane 2026
+GraphSummit 2026
+Oracle's AI Cyberattacks Are Escalating: How to Secure Your Data Now 2026
+PRIVACY POLICY
+TERMS
+ABOUT US
+CONTACT US
+BRAND GUIDELINES
+SEND US A NEWS TIP
+JOIN OUR COMMUNITY
+theCUBE
+theCUBE Research
+
+© 2026 SiliconANGLE Media Inc. All rights reserved.

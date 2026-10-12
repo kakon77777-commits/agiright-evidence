@@ -1,0 +1,179 @@
+Skip to content
+
+De-Coding Indian Intellectual Property Law
+
+Home
+About
+Resources
+Fellowship
+Internship
+Contact
+Latest
+Copyright
+Patent
+Trademark
+Others
+Search
+ANI v. OpenAI: User Rights, Fair Dealing, and the Future of AI in Indian Copyright Law (Part I)
+Copyright, Innovation / 9 minutes of reading / By Vishno Sudheendra / July 30, 2026 / AI, Artificial Intelligence, Copyright Act, Delhi High Court, Fair Dealing, Interim relief, LLM
+
+The judgment in ANI v OpenAI has finally been pronounced! OpenAI’s use of ANI’s copyrighted works was held to be prima facie non-infringing. 24th July, 2026 would mark a monumental day in Indian IP history, not just because the DHC tackled a cutting-edge AI-copyright dispute while preventing copyright maximalism but also because of its emphasis on public interest and user rights embodied in the Copyright Act, 1957. 
+
+To be clear, this is only an interim order. Yet, anyone familiar with Indian IP litigation knows that interim orders often end up exerting an influence far beyond their formal precedential value. Given the significance of the questions addressed and the Court’s extensive reasoning, this decision is likely to shape both future litigation and the broader discourse on AI and copyright.
+
+This two-part post unpacks the judgment in full. Part I examines the Court’s fair dealing analysis, its recognition of user rights under Section 52, and its treatment of public interest and interim relief. Part II analyses the Court’s findings on memorization, substantial reproduction, and territorial jurisdiction.
+
+Brief facts & issues 
+
+ANI, a news media outlet, had filed for an injunction against OpenAI to restrain them from “storing, publishing, reproducing or in any manner using” ANI’s copyrighted works and also sought that OpenAI disable access of ChatGPT to ANI’s copyrighted works published by itself or ANI’s subscribers (Para 20 of Order dated 19/11/2024). 
+
+The Court framed the following issues (Para 25 of Order dated 19/11/2024):
+
+Whether the storage by the defendants of the plaintiff’s data (which is in the nature of news and is claimed to be protected under the Copyright Act, 1957) for training its software i.e., ChatGPT, would amount to infringement of the plaintiff’s copyright.
+Whether the use by the defendants of the plaintiff’s copyrighted data in order to generate responses for its users would amount to infringement of the plaintiff’s copyright.
+Whether the defendants’ use of the plaintiff’s copyrighted data qualifies as ‘fair use’ [to be read as fair dealing] in terms of Section 52 of the Copyright Act, 1957.
+Whether the Courts in India have jurisdiction to entertain the present lawsuit considering that the servers of the defendants are located in the United States of America.”
+
+Before I break down the judgment, interested readers who would like to gain more background on the case and how the technology involved works can look at our previous updates:
+
+Previous updates and coverage of the case – Bharathwaj – Part 1, Part 2, Part 3
+On how Large Language Models (“LLMs”) work – Shivam Kaushik’s excellent two part explanation and analysis  (Part 1 and Part 2) 
+Explanation and analysis of Retrieval Augmented Generation (“RAG”) and memorization in the present context – my piece here
+
+Infringement or Fair Dealing? – Issues I and III 
+
+The Court effectively observed that while determining infringement, one must look at the provisions dealing with exclusive rights, infringement and exceptions (Sections 14, 51 and 52) in conjunction and not in isolation. It thus sought to deal with Issues I and III together. [Paras 150-154]
+
+Fair Dealing as a User Right
+
+The Court relies on DHC’s Narendera Publishing (2008) and Canada SC’s CCH Canadian (2004) to make this excellent observation:
+
+“Section 52 independently defines the rights/privileges of a user in respect of copyrighted works and must not be interpreted in a restrictive manner. It is an integral part of the Copyright Act and therefore, it has to be given broad and liberal interpretation.” [Para 167]
+
+Yes, you read that right, Section 52 is not just an exception, proviso or a limitation, it defines user rights!!! This refreshing observation rightly recognizes the bargain embodied in the Copyright framework and ensures that the intended purpose of the Copyright Act is achieved. By recognising user rights, it also goes beyond previous judgments which had interpreted Section 52 in light of protecting the freedom of expression under Article 19(1) of the Constitution of India [Wiley Eastern (DHC 1995) and Hamar Television (DHC 2010)].  If this reading is widely adopted by Courts, it will change the course of fair dealing, giving it way more teeth. 
+
+The Court observed that for a satisfactory finding of fair dealing, one must fulfill both the purpose test and the fairness test – the former checks which specific enumerated purpose of Section 52(1)(a) such use would fall under, and the latter assesses whether such dealing is fair. [Para 168]
+
+Purpose Test
+Commercial Use does not negate Section 52(1)(a)
+
+In applying the purpose test, the Court observed that OpenAI’s use qualifies as – “private or personal use, including research”. OpenAI’s use is limited to LLM training, which is an internal process and does not provide third-parties access to the copyrighted works [Para 189]. Furthermore, the term “private” would also include such use by juristic entities, and LLM training qualifies as research [Paras 206-219].
+
+The Court further clarified that Section 52(1)(a) is not confined to non-commercial use. It reasoned that Parliament was conscious of the distinction between commercial and non-commercial uses, as several other clauses in Section 52(1) expressly incorporate such a limitation. The absence of any similar restriction in Section 52(1)(a), therefore, indicates that the provision extends to commercial uses as well. [Paras 176–179]
+
+This observation is a welcome development in recognising the wide ambit of India’s fair dealing regime. Fair dealing has often been criticised as a narrower exception than the open-ended fair use doctrine in the U.S. Ironically, on the limited question of commerciality, the DHC adopts a more liberal approach. While the U.S. Supreme Court observed in Campbell v. Acuff-Rose Music (1994) that “the more transformative the new work, the less will be the significance of other factors, like commercialism,” commerciality nevertheless remains a relevant consideration under the first fair use factor. By contrast, the DHC holds that Section 52(1)(a) draws no distinction between commercial and non-commercial research, effectively rendering commerciality irrelevant to the fair dealing inquiry. In my view, this significantly strengthens the research exception by enabling broader utilisation of copyrighted works, reducing legal uncertainty for innovators, and ultimately fostering creative production – an objective that copyright law should facilitate as much as it protects existing works.
+
+Non-infringing Copy and Lawful Access?
+
+The Court rejected the argument that, under the Explanation to Section 52(1)(a)(i), the stored copy must necessarily be a non-infringing copy. It held that the Explanation is confined to computer programmes. The Court reached this conclusion from the text of the provision. It also noted that lawful access is expressly prescribed in Sections 52(1)(aa), 52(1)(ab), and 52(1)(ad), but the Legislature chose not to do so in Section 52(1)(a)(i). Moreover, ANI’s works were publicly available without paywalls. [Paras 192–201]
+
+Thus, lawful access is not a prerequisite under Section 52(1)(a)(i). Such an interpretation strengthens the fair dealing framework, particularly in the context of access to knowledge and education, where many relevant works remain behind paywalls. Reading a lawful access requirement into the provision despite the absence of any such statutory language would substantially undermine the exception. It would effectively require users to obtain a lawful copy (whether through a physical purchase or by paying for digital access) before invoking fair dealing, thereby defeating the purpose of the exception by imposing significant access and transaction costs. [In an earlier post, Yogesh covers the absurdity of having a lawful access requirement for fair dealing.]
+
+Fairness Test
+
+The Court notes that “different Courts have adopted different tests according to the facts and circumstances of the case before them. There is no single test which has been adopted uniformly or consistently by the Indian Courts.” It then proceeds to formulate relevant factors to be considered in the facts of this case, which include:
+
+whether the aforesaid use by Open AI of ANI’s works prejudice interests of ANI, resulting in competition, actual or potential damage to ANI’s legitimate commercial interests.
+the extent to which the activities of OpenAI serve broader public interests, including scientific research, technological innovation, access to information, and the dissemination of knowledge [Para 236]
+
+ANI is a news agency engaged in collecting and distributing news, whereas OpenAI’s ChatGPT enables users to interact with its LLMs for a range of generative AI tasks. The Court therefore held that OpenAI’s purpose and character of use are fundamentally different from ANI’s dissemination of news. Thus, ChatGPT’s responses are not substitutable for news articles of ANI, nor has ANI shown any evidence of market harm. [Paras 243-251] 
+
+The Court notes that the public benefits flowing from such trained LLMs and chatbots are considerable; specifically noting “access to information, supporting education, assisting scientific research, … knowledge dissemination at scale, thereby advancing science and the useful arts in a broader societal sense.” The Court also notes that these “objectives resonate with the broader constitutional and statutory commitment to advancing knowledge and learning.” Thus, the factor of public interest also stands established. [Paras 252-255] The factors, for the fairness test, applied by the Court seem to be a mixture of first and fourth factors of fair use coupled with analyzing the impact on public interest.
+
+Given that both the purpose test and fairness test are satisfied, the Court holds that “Open AI’s acts of storage of the literary works of ANI for the training of its LLMs would fall under Section 52(1)(a) of the Copyright Act and hence, would not amount to infringement.” [Para 256]. 
+
+While the Court has laid quite a bit of emphasis on AI chatbots and LLMs helping knowledge dissemination, access to information, supporting education, etc, much of such observations are premised on the fact that free versions are also available to the general public. But with concentration of market power leading to a few players having an oligopoly, the policy question to be considered is whether AI developers are to be mandated to have some versions of their AI chatbots freely accessible to the public or in the alternate have an open-weight system facilitating development of more chatbots. In fact, while weighing the balance of convenience, the Court explicitly observes that granting an injunction “would also have adverse impact on public interest,including millions of users of ChatGPT in India, many of whom would not be paid subscribers” (Para 269). Free access and/or open-weight system also aligns with equitable access of the benefits of internet commons, which AI developers have ruthlessly scraped to build their models. 
+
+On Balance of Convenience – Public Interest & Domestic AI Development
+
+The Court’s reasoning on interim relief is noteworthy. It recognises that the balance of convenience in AI copyright disputes differs from conventional infringement actions. Since ANI itself had offered to license its works, any loss was readily quantifiable and could be compensated. By contrast, an injunction against OpenAI would disrupt the functioning of ChatGPT which cannot be compensated in monetary terms, would also impact public interest and be detrimental to the growth of AI and LLMs being developed in India [Paras 265-270]. In doing so, the Court expressly factors technological innovation and public interest into the balance of convenience analysis, signalling a balanced and pragmatic approach to interim relief in AI copyright litigation.
+
+In Part II, I seek to analyze the Court’s findings on memorization, substantial reproduction, and territorial jurisdiction.
+
+I would like to thank Swaraj Barooah and Praharsh Gour for their valuable inputs and review of this post.
+
+Tags: AI, Artificial Intelligence, Copyright Act, Delhi High Court, Fair Dealing, Interim Relief, LLM
+About The Author
+Vishno Sudheendra
+Leave a Comment
+You may also like:
+Can Section 124 be Invoked in Section 47 Cancellation Proceedings under the Trade Marks Act, 1999?
+By SpicyIP / September 29, 2026 / Leave a Comment
+No Declaration Required: What the Delhi High Court’s ZARA v. ZORA Ruling Means for Section 11(2)
+By SpicyIP / September 26, 2026 / Leave a Comment
+TCRC v. Ganga Rudraiah: Copyright, Acquiescence, and the Cost of an Unwritten Arrangement
+By SpicyIP / September 25, 2026 / Leave a Comment
+Section 14 is Not Section 25: Delhi High Court Revives Sugammadex Patent Bid
+By SpicyIP / September 11, 2026 / 4 Comments
+Unpacking Copyright Strikes, Safe Harbour and Due Diligence under the IT Rules : Part 1
+By Akshat Agrawal / September 11, 2026 / Leave a Comment
+[Part III] The Road Not Taken (Down): Delhi HC Starts Sorting the Personality Rights “Salad Platter”
+By SpicyIP / September 9, 2026 / Leave a Comment
+[Part II] The Road Not Taken (Down): Delhi HC Starts Sorting the Personality Rights “Salad Platter”
+By SpicyIP / September 9, 2026 / Leave a Comment
+[Part I] The Road Not Taken (Down): Delhi HC Starts Sorting the Personality Rights “Salad Platter”
+By SpicyIP / September 9, 2026 / Leave a Comment
+Well-Known Marks: To Declare or Not to Declare?
+By Maneesha Gupta / September 8, 2026 / Leave a Comment
+← InterDigital v. Transsion: A ‘Comparatively’ Better Pro-Tem Order?
+ANI v. OpenAI: User Rights, Fair Dealing, and the Future of AI in Indian Copyright Law (Part II) →
+Subscribe to SpicyIP
+
+Biological Diversity Comparative Advertising Competition Law Copyright Courses & Workshops COVID-19 Data Exclusivity Design Drug Regulation Event Geographical Indication Innovation Opportunities Others Overlaps in IP Patent Plant Variety Protection Podcast Privacy Publication Sponsored Trademark Trade Secret Traditional Knowledge Uncategorized View All
+
+Opportunities
+Call for Submissions
+Courses & Workshops
+Essay Competitions
+Fellowships & Scholarships
+Job & Research Opportunities
+Moot Court Competitions
+Patent Drafting & Other Competitions
+Webinars, Conferences & Other Events
+Recent Comments
+Anonymous on Section 14 is Not Section 25: Delhi High Court Revives Sugammadex Patent Bid
+
+Another example of how irrational our judicial system is!!!! Somehow they do not want to decide technical issues.... So always…
+
+Anonymous on Remembering Prof. (Dr.) Pinaki Ghosh, WBNUJS IP Chair Professor
+
+Shocking indeed! Learnt that Dr. Ghosh had been detected with the deadly disease some time back but never expected to…
+
+Anonymous on Remembering Prof. (Dr.) Pinaki Ghosh, WBNUJS IP Chair Professor
+
+Unbelievable! Dr. Ghosh always would call with a sound of familiarity and friendliness, difficult to find these days. I am…
+
+Malobika Sen on Remembering Prof. (Dr.) Pinaki Ghosh, WBNUJS IP Chair Professor
+
+Addendum. Hon'ble B. P. Singh Sir shared this with me but since the post was live I am sharing the…
+
+Anonymous on Dagar v. A R Rahman Controversy: Is the Law Out of Tune with Indian Classical Music?
+
+Bit of a disagreement. Every work which even if inspired from public domain work of the past and quality as…
+
+Latest Opportunities
+SpicyIP Bells & Whistles: IP Events and Opportunities (29.09.2026)
+September 29, 2026
+SpicyIP Bells & Whistles: IP Events and Opportunities (22.09.2026)
+September 22, 2026
+Specific Comments on the IPO’s Draft Pharmaceutical Guidelines (2026)
+September 19, 2026
+SpicyIP Bells & Whistles: IP Events and Opportunities (15.09.2026)
+September 15, 2026
+General Comment on the IPO’s Draft Pharmaceutical Guidelines (2026)
+September 10, 2026
+LATEST IP & COVID-19
+The WHO Pandemic Agreement: A Contested Step Beyond Doha
+July 17, 2025
+Preparedness Without Power? Analysing IP and Access in the WHO Pandemic Agreement
+June 15, 2025
+[Part III] Should Delhi High Court be Inviting Pharmaceutical Companies for its Official Event to Mark World IP Day?
+April 3, 2025
+[Part II] Public Money, Private Patents? Unravelling India’s Opacity over its COVID Vaccines
+April 3, 2025
+[Part I] India’s Hypocrisy over the TRIPs Waiver During the Pandemic
+April 3, 2025
+
+Copyright © 2026 SpicyIP
+
+Terms and Conditions

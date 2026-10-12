@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000060",
+  "url": "https://arxiv.org/abs/2604.04788",
+  "capturedAt": "2026-10-03T07:21:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 40739,
+    "sha256": "5d966caa48df998b9b153fda41f25f34751e16b32d89b76822d42fa4fe54d2bb",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "89867875EC93818936C36A85FE872604",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2604.04788",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1059,
+      "afterScrollHeight": 1059,
+      "wantedHeight": 1059
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "381bc77d3b378f0169e8d1778b8e0aacb478abf544145ed24db91f74f68071ec",
+    "width": 1366,
+    "height": 1059,
+    "bytes": 127807,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1059,
+    "afterScrollHeight": 1059,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:21:13Z",
+    "url": "https://arxiv.org/abs/2604.04788",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 40739,
+      "sha256": "5d966caa48df998b9b153fda41f25f34751e16b32d89b76822d42fa4fe54d2bb"
+    },
+    "finalUrl": "https://arxiv.org/abs/2604.04788",
+    "httpStatus": 200,
+    "title": "[2604.04788] From Sycophancy to Deception: A Unified Taxonomy for LLM Spontaneous Misalignment",
+    "rendered": {
+      "textChars": 2534,
+      "textSha256": "9930fcb330570cc19a161c0ab630dfb90ea2eda948082723086b4237cd2421a4",
+      "htmlSha256": "f2eb8e67bf29704ae4c0209579818d2e5646727c538bcdf55bb8f834b1b314e6"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "381bc77d3b378f0169e8d1778b8e0aacb478abf544145ed24db91f74f68071ec",
+      "width": 1366,
+      "height": 1059,
+      "bytes": 127807,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

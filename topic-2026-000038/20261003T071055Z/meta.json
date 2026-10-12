@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000038",
+  "url": "https://www.sheppard.com/insights/blogs/caught-in-the-middle-when-state-ai-laws-and-federal-consumer-protection-law-collide",
+  "capturedAt": "2026-10-03T07:10:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 429,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 33950,
+    "sha256": "727f2763679f25fe0f57c27598299fe58dcc29baaa85fb4325124d7afb1a0082",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9F09C550190EC3DA83B82C3C5C47A85B",
+      "status": 200,
+      "url": "https://www.sheppard.com/insights/blogs/caught-in-the-middle-when-state-ai-laws-and-federal-consumer-protection-law-collide",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5712,
+      "afterScrollHeight": 6530,
+      "wantedHeight": 6530
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "71c44997dd6e02c9c443986980d8202b81fc321fa264481625db1a7b313f5d66",
+    "width": 1366,
+    "height": 6530,
+    "bytes": 1079046,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5712,
+    "afterScrollHeight": 6530,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:10:55Z",
+    "url": "https://www.sheppard.com/insights/blogs/caught-in-the-middle-when-state-ai-laws-and-federal-consumer-protection-law-collide",
+    "backfill": true,
+    "raw": {
+      "status": 429,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 33950,
+      "sha256": "727f2763679f25fe0f57c27598299fe58dcc29baaa85fb4325124d7afb1a0082"
+    },
+    "finalUrl": "https://www.sheppard.com/insights/blogs/caught-in-the-middle-when-state-ai-laws-and-federal-consumer-protection-law-collide",
+    "httpStatus": 200,
+    "title": "Caught in the Middle: When State AI Laws and Federal Consumer Protection Law Collide | Sheppard",
+    "rendered": {
+      "textChars": 11599,
+      "textSha256": "0a289389b8d381a9e24f3d8cf77197ccdcb60dc96cb02ee165dfc52a812716e8",
+      "htmlSha256": "101ac4c4d788a0a291ddf3b680c92f4bdc846c82b52b1a2bbc4a1826d3a1597f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "71c44997dd6e02c9c443986980d8202b81fc321fa264481625db1a7b313f5d66",
+      "width": 1366,
+      "height": 6530,
+      "bytes": 1079046,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

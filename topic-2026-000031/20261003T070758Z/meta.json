@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000031",
+  "url": "https://www.techletter.co/p/the-week-ai-governance-stopped-being",
+  "capturedAt": "2026-10-03T07:07:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 224879,
+    "sha256": "f24c0ae7c0a566524356b755405c58653d6ee114dcc83008f2d3cff8804d1630",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "721BC8F92CE7EE385E326BD9487C4B86",
+      "status": 200,
+      "url": "https://www.techletter.co/p/the-week-ai-governance-stopped-being",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10016,
+      "afterScrollHeight": 10016,
+      "wantedHeight": 10016
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "dedd6e15f24a71f5ce2dce97781b1cf5db7c5feea08d1ee70af1f0855466adbe",
+    "width": 1366,
+    "height": 10016,
+    "bytes": 2008902,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10016,
+    "afterScrollHeight": 10016,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:07:58Z",
+    "url": "https://www.techletter.co/p/the-week-ai-governance-stopped-being",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 224879,
+      "sha256": "f24c0ae7c0a566524356b755405c58653d6ee114dcc83008f2d3cff8804d1630"
+    },
+    "finalUrl": "https://www.techletter.co/p/the-week-ai-governance-stopped-being",
+    "httpStatus": 200,
+    "title": "The Week AI Governance Stopped Being Optional",
+    "rendered": {
+      "textChars": 12347,
+      "textSha256": "d32de8c317c67fcff26c8db2792aa042778953446378fedd7e2d477ecac5de7a",
+      "htmlSha256": "1dad9d4f9264666abcf4a0168b733384210e504f66d7a6967af7e3aa4cb87b2f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "dedd6e15f24a71f5ce2dce97781b1cf5db7c5feea08d1ee70af1f0855466adbe",
+      "width": 1366,
+      "height": 10016,
+      "bytes": 2008902,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

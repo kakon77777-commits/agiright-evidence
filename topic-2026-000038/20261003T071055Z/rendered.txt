@@ -1,0 +1,134 @@
+Skip to main content
+Enable accessibility for low vision
+Open the accessibility menu
+People
+Capabilities
+Insights
+Careers
+Menu Toggle
+Home
+/
+. . .
+/
+Our Blogs
+/
+Caught in the Middle: When State AI Laws and Federal Consumer Protection Law Collide
+
+Blog
+
+Caught in the Middle: When State AI Laws and Federal Consumer Protection Law Collide
+Written by James G. Gatto, Brittany Walter
+July 23, 2026
+Estimated Read Time: 8 mins
+Subscribe
+▶
+Listen to this post
+As seen in
+AI Law and Policy
+
+AI companies operating across the United States are increasingly finding themselves pulled in two directions at once. On one side, a growing patchwork of state laws purports to govern what AI systems can and cannot output. On the other, the Federal Trade Commission has made clear that navigating those state requirements the wrong way could expose companies to federal liability under one of the oldest consumer protection statutes on the books.
+
+The FTC Enters the AI Governance Arena
+
+On December 11, 2025, President Trump signed Executive Order 14365, directing the Commission to issue an enforcement policy statement addressing how state laws requiring alterations to the accurate outputs of AI models can conflict with the requirements of the FTC Act. The FTC responded on July 1, 2026 with a proposed policy statement that reframes a question the AI industry had long treated as a regulatory compliance matter into something far more familiar territory: a consumer protection problem.
+
+The Commission’s starting point is the reasonable expectation consumers bring to AI systems, namely, that those systems aim to produce the best output possible, faithfully and accurately achieving users’ stated objectives, free from undisclosed ideological agendas. That expectation, the FTC argues, is not merely a philosophical position. It is the foundation of Section 5 of the FTC Act, and the Commission takes the position that violating it, regardless of why, constitutes deception.
+
+The Core Legal Argument
+
+The FTC’s proposed policy statement takes direct aim at companies that steer or alter their AI systems’ outputs to comply with state law, warning that doing so may deceive consumers in violation of Section 5 of the FTC Act, and that this is true even if the deceptive steering is done in an effort to comply with state laws.
+
+The Commission has emphasized that Congress did not provide state-law safe harbors in the FTC Act. Even where a state’s laws shape the provision of products or services, companies must still comply with Section 5.
+
+The legal framework the FTC is invoking is well-established. Under the Commission’s 1983 Policy Statement on Deception, the FTC will find a violation where there is a representation, omission, or practice that is likely to mislead a consumer acting reasonably in the circumstances, to the consumer’s detriment. This analysis examines whether the practice is material and whether it is likely to mislead a reasonable consumer. Federal courts have consistently applied these same principles and have recognized that the Commission’s deception authority covers not only overt misrepresentations, but also implied misrepresentations, half-truths, and instances where only a significant minority of consumers are misled.
+
+What is notable here is not the legal framework itself. It is the context to which the FTC is applying it. The agency is essentially arguing that an AI system’s implicit promise of accuracy and neutrality is itself a consumer-facing representation, and that secretly undermining that promise to satisfy a state regulator is no different from any other form of undisclosed deception.
+
+Why State AI Laws Are the Flashpoint
+
+The FTC’s statement focuses particular attention on Colorado’s AI legislation. The original version of Colorado’s Artificial Intelligence Act imposed a broad duty on AI companies to avoid output that might lead to disparate impacts in various contexts, including where a customer’s foreseeable use of that output could itself create a disparate impact. The revised version of the law explicitly provides that AI companies can be held liable for discriminatory outcomes caused by their customers’ use of their products, creating a predictable incentive for AI companies to prioritize objectives such as equity over accuracy to avoid state liability, without disclosing these tradeoffs to users.
+
+That scenario (a company quietly adjusting outputs to sidestep state liability without telling users) is precisely what the FTC is targeting. The Commission takes the position that AI companies that steer the outputs of their systems toward unexpected objectives, and away from the objectives set by or reasonably expected by users, are likely to deceive consumers in violation of Section 5, because they have made both explicit and implicit representations that their systems aim to produce outputs that achieve users’ objectives as faithfully and accurately as possible.
+
+Importantly, Colorado is not uniquely situated. The growing number of enacted and proposed state AI laws threatens to create a patchwork of regulatory regimes and compliance challenges for American companies, including laws that regulate the outputs of AI models and effectively require companies to embed ideological bias within those models. Any state law that creates an incentive for AI companies to quietly alter outputs could, under the FTC’s theory, put those companies in a legally untenable position.
+
+The Consumer Trust Problem
+
+The FTC’s statement also draws on a striking data point about just how much consumers actually trust AI outputs. According to one major AI developer, consumers accept AI system outputs without conducting any further fact-checking over 90% of the time, even though these systems only purport to strive for, rather than guarantee, complete accuracy.
+
+That figure underscores the real-world stakes. Consumers may be induced to pay for a service that does not behave as advertised. They may also be deceived into relying on a technology that, by design, produces worse outputs and may recommend suboptimal courses of action, not because of any technological or resource limitations, but because the AI developer’s hidden agenda subverted consumers’ objectives.
+
+From the FTC’s perspective, this makes AI output manipulation what the Commission characterizes as a paradigmatic consumer harm, not a technical compliance nuance.
+
+The Disclosure Safe Harbor and Its Limits
+
+The FTC’s proposed policy statement does not leave companies with no options. A company can clearly and conspicuously disclose that its systems are designed to produce outputs that prioritize certain objectives over what users request and otherwise expect. However, such a disclaimer would have to be adequate to shift consumer expectations that would otherwise be based on companies’ explicit representations and the inherent value proposition of AI systems as tools to solve human problems.
+
+The bar for an adequate disclosure is high. An adequate disclaimer could not be buried in terms of service. It would have to clearly and conspicuously dispel the notion that the system is designed to give the best answer possible, and it is doubtful that a one-time disclosure subsequently hidden away in fine print would suffice. The more that the disclosure cuts against the reasonable expectations users would take from other contexts, the more persistent and prominent it would need to be.
+
+In practical terms, this means that a footnote in a terms-of-service agreement or a buried settings disclosure will not protect companies from enforcement exposure. Any meaningful disclosure would need to be front-and-center, the kind that would fundamentally change how a user perceives the product.
+
+What This Means for AI Companies
+
+The FTC’s proposed policy statement puts AI companies squarely between two sets of legal obligations with no simple way to satisfy both simultaneously. A company that modifies its outputs to comply with state anti-discrimination or equity requirements may find itself exposed to a federal deception claim. A company that refuses to modify outputs may face state enforcement action or private litigation.
+
+Several practical considerations stand out:
+
+Audit your outputs and your representations. If your marketing positions your AI system as accurate, objective, or truth-seeking, any systematic alteration to outputs, however well-intentioned, creates legal exposure under the FTC’s theory. The gap between what you promise and what you deliver is exactly where Section 5 liability arises.
+Disclose, but disclose properly. The FTC acknowledges that disclosure can serve as a safe harbor, but the disclosure standard is demanding. Companies should work with legal counsel to assess whether their current disclosures are sufficiently clear, prominent, and persistent to shift consumer expectations in a meaningful way.
+Track the comment period. The FTC has issued this as a proposed policy statement and is gathering public comments through July 31, 2026. The final policy may be refined, narrowed, or expanded based on the feedback it receives. Companies operating at the intersection of state AI law and federal consumer protection law should consider whether submission of comments is appropriate.
+Watch for federal preemption arguments. The FTC has flagged that, in its view, a state law requiring an AI firm to deceive its consumers conflicts with Section 5’s express purpose of protecting consumers from such conduct, raising the prospect that the FTC Act could impliedly preempt conflicting state AI requirements. Implied preemption analysis is inherently fact-specific, and this area of law remains to be fully developed, but it may ultimately provide a pathway for AI companies caught between competing regulatory demands.
+
+Looking Ahead
+
+The FTC’s proposed policy statement is one piece of a broader federal strategy aimed at establishing a national AI governance framework. Whether Congress ultimately acts to formalize that framework legislatively remains to be seen, but the FTC’s intervention signals that federal agencies are prepared to use existing tools aggressively in the interim.
+
+For now, the practical reality for AI companies is clear: under the FTC’s proposed framework, compliance with state AI law would not serve as a defense to a federal deception claim. Companies need to think carefully not just about what their AI systems do, but about what they tell consumers their AI systems do, and whether the two remain aligned as state regulatory requirements continue to evolve.
+
+Tags: Artificial Intelligence, Consumer Protection, FTC, Executive Orders
+
+Disclaimer: This alert is provided for information purposes only and does not constitute legal advice and is not intended to form an attorney client relationship. Please contact your Sheppard attorney contact for additional information.
+
+Share Via:
+
+Related Industries
+AI, Robotics and Quantum
+See All Blogs
+See All Podcasts
+Capabilities
+News and Events
+
+Quicklinks
+
+People
+Capabilities
+Insights
+Careers
+News and Events
+Blogs
+About Us
+Pro Bono
+D&I
+Alumni
+Locations
+
+Follow Us
+
+Visit Our Page
+Visit Our Page
+Visit Our Page
+Visit Our Page
+Stay Connected
+Insights and expertise delivered to your inbox.
+Subscribe
+Attorney Advertising
+Website Terms
+Privacy Policy
+Legal Notice
+Cookie and Advertising Policy
+© 2026 Sheppard
+
+By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. Cookie Policy
+Cookies Settings
+Reject All
+Accept All Cookies
