@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000072",
+  "url": "https://www.pnas.org/doi/10.1073/pnas.2610088123",
+  "capturedAt": "2026-10-03T07:25:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5782,
+    "sha256": "e948fc8a1a2baee44d41d0ce1d36356474ac637d13c471b743f85975d334123b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "667E596F5A1A16AD31DD6AD69D4B0D55",
+      "status": 403,
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2610088123",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "21bbcfc0ef6a2751bb80f989d19210ca7a3dc8ee9147d96f19b947908d9f8a18",
+    "width": 1366,
+    "height": 900,
+    "bytes": 26832,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:25:59Z",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.2610088123",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5782,
+      "sha256": "e948fc8a1a2baee44d41d0ce1d36356474ac637d13c471b743f85975d334123b"
+    },
+    "finalUrl": "https://www.pnas.org/doi/10.1073/pnas.2610088123",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 260,
+      "textSha256": "a60d38c1c1ff8e54eb02feb11df23451bba7afe7f44422bffa4c5994f69f99ac",
+      "htmlSha256": "d3c86fb979c02b37a3e53a5c13fdc58e819664b658ced622197db857bcb34586"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "21bbcfc0ef6a2751bb80f989d19210ca7a3dc8ee9147d96f19b947908d9f8a18",
+      "width": 1366,
+      "height": 900,
+      "bytes": 26832,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

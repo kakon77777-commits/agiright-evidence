@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000076",
+  "url": "https://arxiv.org/abs/2608.03958",
+  "capturedAt": "2026-10-03T07:28:00Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 45051,
+    "sha256": "c1a76817b70fdf1737a209df9e73a203fb2c18457dd8cf47433c3f749b48a41e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "67C730C4999C85319E55203C63AE9836",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.03958",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1215,
+      "afterScrollHeight": 1215,
+      "wantedHeight": 1215
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c11b8cc711c735d0d93638738fc708e87e5c4ec7a72e32f1f883407f2d566827",
+    "width": 1366,
+    "height": 1215,
+    "bytes": 147456,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1215,
+    "afterScrollHeight": 1215,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:28:00Z",
+    "url": "https://arxiv.org/abs/2608.03958",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 45051,
+      "sha256": "c1a76817b70fdf1737a209df9e73a203fb2c18457dd8cf47433c3f749b48a41e"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.03958",
+    "httpStatus": 200,
+    "title": "[2608.03958] A game theory for foundation models shows new paths to rational cooperation through similarity inference",
+    "rendered": {
+      "textChars": 3345,
+      "textSha256": "48220642e1e08d4cb187da1d9dae170ea6c90d6f96b8da71db8b9d67ea09ef20",
+      "htmlSha256": "10ff98d3988d3f293c2f3458176126f6df8bb08d5c9188148b2753d5b1c9b044"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c11b8cc711c735d0d93638738fc708e87e5c4ec7a72e32f1f883407f2d566827",
+      "width": 1366,
+      "height": 1215,
+      "bytes": 147456,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260806200523",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260806200523/https://arxiv.org/abs/2608.03958"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260806200523/https://arxiv.org/abs/2608.03958",
+      "timestamp": "20260806200523",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

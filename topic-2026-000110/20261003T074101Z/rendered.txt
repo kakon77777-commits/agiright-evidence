@@ -1,0 +1,203 @@
+Skip to content
+Skip to main menu
+ARTICLES PODCASTS SPECIAL REPORTS OPINION
+SUBSCRIBE
+TOPICS:
+AI
+Finance & Accounting
+Markets & The Economy
+Management
+More
+Search this site
+CLOSE
+Topics
+TOGGLE SUBMENU
+AI
+Behavioral Science
+Data Analytics
+Entrepreneurship
+ESG
+Finance & Accounting
+Financial Literacy
+Fintech
+Real Estate
+Retirement
+Innovation
+Leadership
+Management
+Diversity, Equity, & Inclusion
+Health Care Management
+Human Resources
+Marketing
+Retail
+Markets & The Economy
+Public Policy
+Technology
+Articles
+Faculty
+Podcasts
+Series
+TOGGLE SUBMENU
+AI Horizons
+AI in Focus
+American Business Innovation
+Beyond Business
+Dollars & Change
+Future of Finance
+Great Question
+Leading Diversity at Work
+Meet the Authors
+Nano Tools
+Opportunity Matters
+Polices That Work
+What I’ve Learned
+Special Reports
+Videos
+SUBSCRIBE
+HOME / ARTICLES /
+The Different Philosophies Driving AI Regulation Today
+
+Wharton’s Cornelia Walther explains how different countries are approaching AI regulation and what that means for business leaders.
+
+AI
+Public Policy
+Technology
+AUGUST 11, 2026 • 6 MIN READ
+
+FEATURED FACULTY
+
+Cornelia C. Walther
+
+WRITTEN BY
+
+Cornelia C. Walther
+
+The following article was written by Dr. Cornelia C. Walther, a visiting scholar at Wharton and director of global alliance POZE. A humanitarian practitioner who spent over 20 years at the United Nations, Walther’s current research focuses on leveraging AI for social good.
+
+A CEO DOES NOT NEED TO read every AI law to understand why regulation matters. It shows up in subtler ways: a sales team using a chatbot with client data, a hiring manager testing an AI screening tool, a board member asking whether the company has an AI policy. AI governance has moved from the policy department into daily operations.
+
+The difficulty is that governments are not converging on a single answer. Some are embedding human dignity into constitutional law. Some are moving fast through executive orders and procurement rules. Some prefer risk-based obligations tied to potential harm. The philosophies differ — and for business leaders, so does the exposure. Law arrives too slowly for the pace of deployment, then lands suddenly and at full cost.
+
+Greece: The Slow Power of Constitutional Thinking
+
+Greece offers one of the most striking recent examples. In May 2026, Prime Minister Kyriakos Mitsotakis proposed a constitutional revision requiring AI to serve individual freedom and social prosperity. Constitutional change is slow by design — deliberation, successive parliamentary votes, political endurance. Its value lies in declaring principles that outlast technological cycles.
+
+For companies using AI in credit, insurance, health, employment, or public communication, the signal is worth reading even before it becomes law. Constitutional language shapes legislation, litigation, and public expectations. Today’s ethical question is tomorrow’s legal test.
+
+There is a subtler implication. Asking whether AI serves human freedom requires people to understand what AI does to attention, judgment, and choice. Constitutional framings raise the bar for what an organization must be able to see — and demonstrate — about its own AI practices.
+
+Law arrives too slowly for the pace of deployment, then lands suddenly and at full cost.
+
+California: The Fast Logic of Executive Action
+
+California illustrates a different rhythm. The state cannot wait for a constitutional rewrite while AI companies, workers, public agencies, and consumers are already affected. Governor Gavin Newsom’s 2023 executive order directed the state to study generative AI, identify beneficial public-sector uses, and assess risks. The approach has been fast, practical, and cumulative ever since.
+
+That path has continued. In March 2026, California issued an executive order to strengthen AI procurement, requiring companies seeking state business to demonstrate safeguards around privacy, safety, security, bias, civil rights, and misuse. In May 2026, another order focused on AI’s potential workforce disruption, including worker training, ownership models, and ways for employees to share in productivity gains.
+
+This is regulation by leverage: A government shapes the market through what it buys, not just what it bans. Procurement rules become de facto standards. A business selling to government, health care, education, or regulated industries will face simple questions with complex implications: Who trained the model? What data was used? How are errors detected? Where is human oversight required? What happens when the system harms someone?
+
+These are good questions. What most organizations lack is a systematic way to answer them before they are asked. Privacy, bias, explainability, human oversight, environmental footprint, employee agency, user dignity — each is already embedded in procurement requirements somewhere. An organization that has mapped its AI systems against those dimensions already has a story to tell.
+
+The EU: Risk-Based Regulation as a Middle Path
+
+The European Union’s AI Act, which entered into force in August 2024, represents a third philosophy: Classify AI systems by risk, then assign obligations accordingly. Recruitment tools, medical software, and systems affecting essential services face heavier compliance requirements than low-stakes applications.
+
+This model is familiar to many business leaders: It resembles enterprise risk management. A social media caption generator and an AI system that determines access to housing should not carry the same burden.
+
+The problem here is operational. Most organizations still struggle to move from AI enthusiasm to AI discipline. McKinsey’s 2025 State of AI survey found that AI use is widespread while enterprise-scale impact remains uneven, and that high performers are more likely to redesign workflows and define when human validation is needed. AI value comes from clarifying responsibility and deciding where human judgment must remain active — not from deploying tools and hoping.
+
+Risk-based regulation assumes organizations can accurately locate themselves on the risk spectrum. That assumption holds only when people inside those organizations understand what AI systems actually do — to data, to decisions, to the humans at each end of the process. Classification without comprehension is compliance theater. Closing the gap requires literacy in both the human and algorithmic dimensions, and a consistent instrument for scoring whether systems are designed with people and planet in view.
+
+Many executives are tempted to wait until the legal environment settles. That instinct is costly.
+
+Why Business Cannot Wait for Legal Certainty
+
+Many executives are tempted to wait until the legal environment settles. That instinct is costly. AI law will remain uneven for years because jurisdictions are making different choices about freedom, safety, labor, and democracy. The waiting period is the risk period.
+
+The signal from global bodies is consistent. The Stanford 2025 AI Index, the OECD’s updated AI Principles, and the NIST Generative AI Profile all point in the same direction: AI governance is becoming measurable, and trustworthiness is moving from aspiration to operational requirement.
+
+Every organization needs a minimum layer of AI agency, independent of what the law currently allows. That starts with double literacy.
+
+Double literacy means human literacy plus algorithmic literacy. Human literacy is the ability to understand our own aspirations, emotions, thoughts, and sensations — including bias, attention, and social influence. Algorithmic literacy is the ability to understand how AI systems shape what we see, decide, believe, and delegate. Together, they preserve agency amid AI, and they belong at every level: boards asking better questions, managers redesigning workflows, employees using tools without surrendering judgment.
+
+The second move is to integrate the Prosocial AI Index. This gives organizations a structured way to assess whether AI systems are tailored, trained, tested, and targeted to bring out the best in and for people and planet — tracking indicators like human oversight, bias testing, explainability, privacy, environmental footprint, employee agency, and user dignity.
+
+Retrofitting AI systems after regulation arrives is expensive. Proactive planning costs less and builds credibility before scrutiny intensifies. Prosocial AI could become the new ESG — but with sharper substance, provided it stays tied to measurable agency and governance rather than drifting into branding. Companies that move now can become hybrid pioneers: fluent in technology, serious about people, positioned for a legal environment that will increasingly ask whether AI serves human freedom.
+
+Narrow ROI captures short-lived efficiency. Hybrid ROV — Return on Values — captures trust, resilience, talent, legitimacy, and social license. In an AI-shaped economy, those are the conditions under which future value can be created.
+
+Comments
+NEW THIS WEEK
+Podcast
+The Hidden Cost of Competition in the Workplace
+OCTOBER 2, 2026 • 12 MIN LISTEN
+Management
+
+Henning Piezunka, Wharton associate professor of management, explores how rivalry motivates individual performance while potentially undermining team success.
+
+Podcast
+The NHL Salary Cap Surge Is Changing Team Building
+SEPTEMBER 30, 2026 • 1 HR 7 MIN LISTEN
+Data Analytics
+
+Samuel Ventura, vice president of hockey strategy and research for the Buffalo Sabres, explores how a rapidly rising salary cap is changing roster construction, contracts, and player valuation.
+
+Podcast
+The Surveillance Challenge Facing Prediction Markets
+SEPTEMBER 30, 2026 • 16 MIN LISTEN
+Markets & The Economy
+
+Daniel Taylor, Wharton finance professor and director of the Forensic Analytics Lab, explains how prediction markets are evolving and why stronger surveillance systems are needed to detect insider trading and manipulation.
+
+KEY TAKEAWAYS
+AI regulatory philosophies around the world are diverging, though human agency is a shared concern.
+Protecting human agency requires two things: people literate in what AI does to human judgment, and a structured way to assess whether AI systems are designed with human well-being in view.
+Proactive governance costs less than retrofitting.
+SPONSORED CONTENT
+
+APPLY NOW
+
+APPLY NOW
+
+BUY THE BOOK
+Looking for more insights?
+
+Sign up to stay informed about our latest article releases.
+
+Name
+Email
+How often would you like to receive newsletters?
+Get the latest from Knowledge at Wharton every week
+Get a roundup of the best content from Knowledge at Wharton once a month
+SUBSCRIBE
+
+A business journal from the Wharton School of the University of Pennsylvania
+
+AI
+Finance & Accounting
+Markets & The Economy
+Management
+Marketing
+Leadership
+All Topics
+Articles
+Faculty
+Series
+Opinions
+Podcasts
+Special Reports
+Videos
+About
+The Wharton School
+Shop Books
+Contact Us
+Twitter
+Facebook
+LinkedIn
+YouTube
+Instagram
+
+©2026 Knowledge at Wharton. All rights reserved. Knowledge at Wharton is an affiliate of the Wharton School of the University of Pennsylvania.
+
+Privacy Policy
+Report Accessibility Issues and Get Help

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000099",
+  "url": "https://arxiv.org/abs/2607.07760",
+  "capturedAt": "2026-10-03T07:36:49Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 40679,
+    "sha256": "237c0658398f8a5f973702d2ec68d5638f69d51c1663d9f3eb9d95f3967a5f5c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4098962683AD888715F168C7BE3EB97E",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2607.07760",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1061,
+      "afterScrollHeight": 1061,
+      "wantedHeight": 1061
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a118fd143840aa96573b6c6f53631ccb83ba44cc729c62c222784ac368eaaac1",
+    "width": 1366,
+    "height": 1061,
+    "bytes": 125248,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1061,
+    "afterScrollHeight": 1061,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:36:49Z",
+    "url": "https://arxiv.org/abs/2607.07760",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 40679,
+      "sha256": "237c0658398f8a5f973702d2ec68d5638f69d51c1663d9f3eb9d95f3967a5f5c"
+    },
+    "finalUrl": "https://arxiv.org/abs/2607.07760",
+    "httpStatus": 200,
+    "title": "[2607.07760] Adversarial Social Epistemology for Assemblies of Humans and Large Language Models",
+    "rendered": {
+      "textChars": 2591,
+      "textSha256": "3417c79f7600ca5564f4732a6d85094a28fdc0f283a0106a5c609f34df766eba",
+      "htmlSha256": "bda09a7ef9eb2524a776183db8b76c8e33d4e6f81f389e2e36859b812ef6b18a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a118fd143840aa96573b6c6f53631ccb83ba44cc729c62c222784ac368eaaac1",
+      "width": 1366,
+      "height": 1061,
+      "bytes": 125248,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260710044319",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260710044319/https://arxiv.org/abs/2607.07760"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260710044319/https://arxiv.org/abs/2607.07760",
+      "timestamp": "20260710044319",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

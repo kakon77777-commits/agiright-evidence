@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000123",
+  "url": "https://www.musicbusinessworldwide.com/round-hill-sues-suno-and-anthropic-for-up-to-1bn-apiece-it-isnt-looking-to-settle/",
+  "capturedAt": "2026-10-03T07:46:08Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 92254,
+    "sha256": "fbfbbed064aca89be2719c75fdde5fa1320479b87a0199e0bd756a515bf7d24e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E436A8488693ACFBFC6005801FCA05D4",
+      "status": 200,
+      "url": "https://www.musicbusinessworldwide.com/round-hill-sues-suno-and-anthropic-for-up-to-1bn-apiece-it-isnt-looking-to-settle/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6014,
+      "afterScrollHeight": 6044,
+      "wantedHeight": 6044
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "24d039f8f0859b9332042e0171785c81aea03cc165cf57bf7c4b0d166a0ccbff",
+    "width": 1366,
+    "height": 6044,
+    "bytes": 922523,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6014,
+    "afterScrollHeight": 6044,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:46:08Z",
+    "url": "https://www.musicbusinessworldwide.com/round-hill-sues-suno-and-anthropic-for-up-to-1bn-apiece-it-isnt-looking-to-settle/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 92254,
+      "sha256": "fbfbbed064aca89be2719c75fdde5fa1320479b87a0199e0bd756a515bf7d24e"
+    },
+    "finalUrl": "https://www.musicbusinessworldwide.com/round-hill-sues-suno-and-anthropic-for-up-to-1bn-apiece-it-isnt-looking-to-settle/",
+    "httpStatus": 200,
+    "title": "Round Hill is suing Suno and Anthropic for up to $1B apiece. It isn’t looking to settle. - Music Business Worldwide",
+    "rendered": {
+      "textChars": 11077,
+      "textSha256": "feda84129a5474e04a431d998773a3604c922d4b11cd25620e0256600d355504",
+      "htmlSha256": "1da355b56a72593eb5b8ac4648da890cea570def55bee2f473cb339b530bade5"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "24d039f8f0859b9332042e0171785c81aea03cc165cf57bf7c4b0d166a0ccbff",
+      "width": 1366,
+      "height": 6044,
+      "bytes": 922523,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260819020042",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260819020042/https://www.musicbusinessworldwide.com/round-hill-sues-suno-and-anthropic-for-up-to-1bn-apiece-it-isnt-looking-to-settle/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260819020042/https://www.musicbusinessworldwide.com/round-hill-sues-suno-and-anthropic-for-up-to-1bn-apiece-it-isnt-looking-to-settle/",
+      "timestamp": "20260819020042",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

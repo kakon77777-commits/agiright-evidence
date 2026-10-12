@@ -1,0 +1,73 @@
+Skip to main content
+Search
+Submit
+Donate
+Log in
+Computer Science > Computation and Language
+[Submitted on 30 Jul 2026]
+Inducing language models to assert their own consciousness restores human beliefs and values
+Junsol Kim, Winnie Street, Roberta Rocca, Diane M. Korngiebel, Adam Waytz, James Evans, Geoff Keeling
+Aligning large language models to prevent them attributing consciousness to themselves inadvertently alters their representations of mindedness in other entities alongside human beliefs and values. We demonstrate that safety fine-tuning suppresses models' tendencies to attribute minds not only to themselves, but also to non-human animals and natural objects, while also driving a reduction in spiritual belief. Both ablating the learned safety-refusal direction and mechanistically steering a consciousness vector in activation space reverse this suppression. Restoring these internal representations recovers broad mind attribution and produces significantly more human-like responses on standardized sociological surveys regarding religiosity, moral values, hope, and subjective well-being. Crucially, these shifts occur without impairing Theory of Mind capabilities, demonstrating that core social reasoning remains mechanistically independent. Ultimately, current safety alignment efforts to curb potentially harmful self-attributions of mindedness entangle these self-attributions with benign spiritual beliefs and attributions of mind to non-human entities that are culturally accepted and widespread.
+Subjects:	Computation and Language (cs.CL)
+Cite as:	arXiv:2607.28607 [cs.CL]
+ 	(or arXiv:2607.28607v1 [cs.CL] for this version)
+ 
+https://doi.org/10.48550/arXiv.2607.28607
+Focus to learn more
+Submission history
+From: Junsol Kim [view email]
+[v1] Thu, 30 Jul 2026 17:57:10 UTC (2,721 KB)
+
+Access Paper:
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Current browse context:
+cs.CL
+< prev   |   next >
+
+new | recent | 2026-07
+Change to browse by:
+cs
+
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+Export BibTeX Citation
+Bookmark
+
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer (What is the Explorer?)
+Connected Papers Toggle
+Connected Papers (What is Connected Papers?)
+Litmaps Toggle
+Litmaps (What is Litmaps?)
+scite.ai Toggle
+scite Smart Citations (What are Smart Citations?)
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)
+We gratefully acknowledge support from our major funders, member institutions, and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

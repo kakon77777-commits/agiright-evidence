@@ -1,0 +1,76 @@
+Skip to main content
+Search
+Submit
+Donate
+Log in
+Computer Science > Artificial Intelligence
+[Submitted on 4 Aug 2026]
+A game theory for foundation models shows new paths to rational cooperation through similarity inference
+Alexander Meulemans, Maciej Wołczyk, Marissa A. Weis, Rajai Nasser, Roberta Rocca, Seijin Kobayashi, Guillaume Lajoie, Angelika Steger, Blake Richards, Marcus Hutter, James Manyika, Rif A. Saurous, João Sacramento, Blaise Agüera y Arcas
+As autonomous agents powered by foundation models are increasingly integrated into social and economic systems, understanding the principles governing their collective behavior is essential for ensuring safety and cooperation. Classical game theory, the dominant framework for modeling rational interaction, is built upon the assumption of `decoupled agency,' where agents treat their own decision-making as independent of the environment and other actors. Modern AI agents, however, jointly predict their own future actions alongside external observations. Here, we report a striking finding: when interacting in stylized social dilemmas, foundation model agents engaging in optimal planning consistently converge to stable cooperation, directly contradicting classical game-theoretic predictions of mutual defection. To understand this phenomenon, we introduce the `embedded Bayesian agent,' a theoretical model for foundation model agents. By shifting from decoupled to embedded agency, these agents model themselves as part of the universe they inhabit, maintaining epistemic uncertainty about their own decision-making algorithms. We show that by inferring whether others are behaviorally similar, an embedded agent treats its own deliberation during planning as evidence: a decision to cooperate predicts a similar decision by a similar partner. We formalize this mechanism of similarity inference through the `embedded equilibrium,' a novel solution concept replacing the Nash equilibrium to provide a foundational game theory for the social behavior of modern AI agents.
+Comments:	75 pages, 11 figures
+Subjects:	Artificial Intelligence (cs.AI)
+MSC classes:	68
+ACM classes:	I.2.6
+Cite as:	arXiv:2608.03958 [cs.AI]
+ 	(or arXiv:2608.03958v1 [cs.AI] for this version)
+ 
+https://doi.org/10.48550/arXiv.2608.03958
+Focus to learn more
+Submission history
+From: Alexander Meulemans [view email]
+[v1] Tue, 4 Aug 2026 17:24:33 UTC (6,925 KB)
+
+Access Paper:
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Current browse context:
+cs.AI
+< prev   |   next >
+
+new | recent | 2026-08
+Change to browse by:
+cs
+
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+Export BibTeX Citation
+Bookmark
+
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer (What is the Explorer?)
+Connected Papers Toggle
+Connected Papers (What is Connected Papers?)
+Litmaps Toggle
+Litmaps (What is Litmaps?)
+scite.ai Toggle
+scite Smart Citations (What are Smart Citations?)
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)
+We gratefully acknowledge support from our major funders, member institutions, and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

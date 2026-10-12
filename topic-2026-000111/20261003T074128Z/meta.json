@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000111",
+  "url": "https://legalblogs.wolterskluwer.com/copyright-blog/copyright-across-the-genai-lifecycle-views-from-computer-science-and-law/",
+  "capturedAt": "2026-10-03T07:41:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 79487,
+    "sha256": "4c4927331ce351b11590d8c0dbec06ac9b153204f2aa61d8a4a7d28382b6b9d6",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "3FAE2DD4BA31E4C992B59654683B94F9",
+      "status": 200,
+      "url": "https://legalblogs.wolterskluwer.com/copyright-blog/copyright-across-the-genai-lifecycle-views-from-computer-science-and-law/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6048,
+      "afterScrollHeight": 6048,
+      "wantedHeight": 6048
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "32aa93bb4a5d74a0b9e727bc4ac24ecda236b9f779d72b38c06b7917c83a828d",
+    "width": 1366,
+    "height": 6048,
+    "bytes": 2020977,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6048,
+    "afterScrollHeight": 6048,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:41:28Z",
+    "url": "https://legalblogs.wolterskluwer.com/copyright-blog/copyright-across-the-genai-lifecycle-views-from-computer-science-and-law/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 79487,
+      "sha256": "4c4927331ce351b11590d8c0dbec06ac9b153204f2aa61d8a4a7d28382b6b9d6"
+    },
+    "finalUrl": "https://legalblogs.wolterskluwer.com/copyright-blog/copyright-across-the-genai-lifecycle-views-from-computer-science-and-law/",
+    "httpStatus": 200,
+    "title": "Copyright across the genAI lifecycle – views from computer science and law | Kluwer Copyright Blog",
+    "rendered": {
+      "textChars": 10400,
+      "textSha256": "2dfca083f6286dbb6e61f71310d4fb2cee1231ff90fa8f4db28dd5abbd8d792a",
+      "htmlSha256": "ef5fdc8fc7e6dc95bda20b24de0828c9995bcbed9f46855e821c07e642485442"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "32aa93bb4a5d74a0b9e727bc4ac24ecda236b9f779d72b38c06b7917c83a828d",
+      "width": 1366,
+      "height": 6048,
+      "bytes": 2020977,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260824055047",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260824055047/https://legalblogs.wolterskluwer.com/copyright-blog/copyright-across-the-genai-lifecycle-views-from-computer-science-and-law/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260824055047/https://legalblogs.wolterskluwer.com/copyright-blog/copyright-across-the-genai-lifecycle-views-from-computer-science-and-law/",
+      "timestamp": "20260824055047",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

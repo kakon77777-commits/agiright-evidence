@@ -1,0 +1,75 @@
+Skip to main content
+Search
+Submit
+Donate
+Log in
+Computer Science > Cryptography and Security
+[Submitted on 5 Aug 2026]
+Private Direct Preference Optimization for LLM Alignment
+Yangfan Jiang, Fei Wei, Ergute Bao, Xiaokui Xiao, Yaliang Li, Bolin Ding
+Direct preference optimization (DPO) is now a standard method for aligning large language models (LLMs) using human preference data. Each DPO example contains a prompt and a pair of candidate model responses. While prompts and responses are often public or model-generated, the relative preference between responses reflects subjective judgments and can reveal sensitive attributes of annotators or end users. Off-the-shelf privacy-preserving approaches are not well matched to this structure, leading to unnecessary noise injection and biased updates in training.
+In this paper, we formalize preference privacy, a label-DP-style privacy notion for DPO that protects only the relative preference between candidate responses, assuming an adversary who already knows the prompt and responses. We then design PrivDPO, a DPO variant that enforces preference privacy while remaining compatible with large-scale LLM training. Our main observation is that, for neighboring examples differing only in their preference signal, the gradient difference lies on a one-dimensional preference axis determined solely by the text; all preference information flows through this axis. PrivDPO adds calibrated randomness only along this axis via an unbiased randomized rescaling of the DPO objective, avoiding per-example gradient operations. Our experiments on three alignment benchmarks and three LLM families show that PrivDPO consistently achieves strong privacy-utility trade-offs compared with privacy-preserving baselines.
+Comments:	accepted for publication at CCS 2026, extended version
+Subjects:	Cryptography and Security (cs.CR)
+Cite as:	arXiv:2608.05040 [cs.CR]
+ 	(or arXiv:2608.05040v1 [cs.CR] for this version)
+ 
+https://doi.org/10.48550/arXiv.2608.05040
+Focus to learn more
+Submission history
+From: Yangfan Jiang [view email]
+[v1] Wed, 5 Aug 2026 16:51:02 UTC (172 KB)
+
+Access Paper:
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Current browse context:
+cs.CR
+< prev   |   next >
+
+new | recent | 2026-08
+Change to browse by:
+cs
+
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+Export BibTeX Citation
+Bookmark
+
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer (What is the Explorer?)
+Connected Papers Toggle
+Connected Papers (What is Connected Papers?)
+Litmaps Toggle
+Litmaps (What is Litmaps?)
+scite.ai Toggle
+scite Smart Citations (What are Smart Citations?)
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)
+We gratefully acknowledge support from our major funders, member institutions, and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

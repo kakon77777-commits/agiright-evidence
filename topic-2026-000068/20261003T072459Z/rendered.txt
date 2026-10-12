@@ -1,0 +1,185 @@
+LESSWRONG
+LOGIN
+AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)
+11 min read
+•
+Who are we?
+•
+Highlights
+•
+Agent Control & Monitorability
+•
+Deep Alignment
+•
+Language Model Interpretability
+•
+Amplified Oversight
+•
+Alignment Evaluations
+•
+Frontier Safety: Risk Assessment & Mitigations
+•
+Causal Alignment
+•
+External advising
+AI
+Frontpage
+86
+AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026)
+by Rohin Shah, Seb Farquhar
+31st Jul 2026
+AI Alignment Forum
+Linkpost for gdmalignment.substack.com
+
+Cross-posted from our new Substack
+
+It’s been nearly two years since our last major update here in August 2024 and we wanted to share another recap of our recent work with the AGI safety community. Things have changed a lot since then. We are now fully in the midgame, and focus more on landing things in production.
+
+Who are we?
+
+We are the AGI Safety and Alignment Team (ASAT), the main group at Google DeepMind working directly on technical approaches to existential risk from AI systems. Last year we published An Approach to Technical AGI Safety and Security, which remains the best place to read our overarching vision.
+
+Highlights
+
+Norms around chain of thought. Our impression is that our work meaningfully moved the field away from beliefs along the lines of “chain of thought is often unfaithful and so not worth using” towards beliefs along the lines of “chain of thought is a very useful tool that is worth preserving”, leading to a tentative industry consensus on its importance. We have also published substantial technical research that enables companies to preserve chain of thought transparency for longer than would have happened by default. 
+
+We think this is a big deal: extending the period where model reasoning is relatively transparent enables better science on more powerful AI systems, better model forensics on future warning shots, and stronger bootstrapping of control monitors.
+
+Frontier Safety. We substantially strengthened the Frontier Safety Framework (FSF), and were the first company to introduce a section on misalignment in such a framework. The scope of Frontier Safety has grown a lot over the past two years, and is now a cross-functional effort including many teams across Google. We believe the FSF played a key role in maintaining Google’s situational awareness around severe risks, and particularly around starting to develop mitigations well in advance of when they would be needed. For example, this was particularly useful for landing probes, which are quite a complex change in production as they touch many parts of the infra stack.
+
+Technical planning. We published An Approach to Technical AGI Safety and Security as well as the GDM AI Control Roadmap, which go into substantial detail about the specific areas of work we believe are best to focus on in AGI safety and control respectively. We have found it very useful for organizing our work internally, and ensuring that our work makes progress towards the right goals.
+
+Agent Control & Monitorability
+
+While monitoring has formed a part of our thinking for a long time, a couple of years ago it became a priority to do empirical work on it, since it seemed plausible that it would soon be needed in practice.
+
+At the time, the prevailing opinion we heard was that the chain of thought was unfaithful (and therefore, by implication, effectively useless). This seemed wrong to us: while the chain of thought is frequently unfaithful, this tends to be on easy tasks where the chain of thought isn’t load bearing to get the correct answer. However, this doesn’t apply to difficult tasks requiring significant reasoning, as would be the case for many of the most concerning misalignment threat models. In such cases, the chain of thought is necessary to complete the task correctly, and so we should expect it to be informative.
+
+Along with a variety of other organizations, we coauthored the position paper Chain-of-Thought Monitorability: A New and Fragile Opportunity for AI Safety, in which the necessity argument is placed front and center in Figure 1. We validated the necessity argument empirically in the paper When Chain of Thought is Necessary, Language Models Struggle to Evade Monitors, and formalized the concept of Opaque Serial Depth as a theoretically principled metric that can quantify the extent to which the necessity argument still applies for new model architectures. We then applied these ideas to text diffusion models in the paper How Transparent is DiffusionGemma?, with the hope of setting standard practices for assessing the impacts of latent reasoning architectures on model transparency.
+
+The necessity argument only shows that relevant information must exist in the chain of thought; it does not say anything about whether we can understand that information. In practice, due to the natural language prior learned from pretraining, LLMs tend to think in natural language that we can understand. We built a simple pragmatic autorater to measure this default legibility. We also developed a framework to analyze when we can safely optimize chain of thought without significantly threatening the default legibility of chain of thought.
+
+To tie these arguments more closely to misalignment risks, we developed capability evaluations for stealth and situational awareness. These evaluations serve two purposes: (1) assessing capability in the absence of monitoring, and (2) assessing capability to evade monitors in cases where difficult reasoning is required (i.e. those requiring stealth).
+
+Despite our significant investment in chain of thought monitoring, we think it is important to prepare for scenarios where we lose chain of thought monitorability. We expect that in such a situation we are likely to rely next on AI control. We have published our initial thinking and approach in the GDM AI Control Roadmap, and studied some of the practical challenges of control monitoring in frontier AI deployments in a collaboration with UK AISI. We have also worked with Google’s world-class security teams to build out monitoring systems and integrate them into internally deployed agents, and are actively improving the quality, coverage, and efficiency of these monitors.
+
+Deep Alignment
+
+Deep Alignment is a relatively new area for us, and is one of the best examples of how we’re adapting to the midgame.
+
+Historically, we’ve worked on more conceptual alignment approaches that we thought could scale to ASI and avoided working on things that were current-day priorities for Gemini, as they consumed a lot of effort and seemed poor analogies for future risks. Recently, we’ve changed our approach.
+
+We think current models are likely similar enough to future AI systems that can substantially accelerate AI research, that progress on aligning current models has a good chance of directly transferring to those models. There may also be path dependent factors that will affect the alignment of future AI systems, as with chain of thought legibility. Finally, we want to cover worlds with short timelines, where near-future Gemini models directly drive recursive AI research, in which case it is important to align those near-future models.
+
+To best achieve these theories of change, Deep Alignment thinks hard about projects that are likely to generalize to future AI systems, and then works closely with Gemini teams to land their projects in production. We have written about some of our work analysing post-training:
+
+SFT Drives Gemini’s Safety Properties: Investigating how different aspects of post-training influence the final model’s safety profile.
+Why Do Naive SFT Filters For Safety Properties Fail?: A deep dive into the limitations of standard filtering strategies.
+Synthetic document finetuning for instilling positive traits: Exploring the use of training on synthetic data to instill positive principles into frontier models.
+Language Model Interpretability
+
+Our research in Language Model Interpretability works to further a scientific understanding of models and use this to make models safer in a wide range of ways. This can include auditing models for misalignment, improving control and monitoring, and accelerating other safety work.
+
+At the time of our last update, our research was focused on sparse autoencoders (SAEs). However, after trying to apply SAEs to a variety of downstream tasks and finding primarily negative results, we pivoted most of our effort to other topics. Since then, we have taken a pragmatic approach to interpretability that aims to directly solve important problems with interpretability or model internals, and measures progress empirically using proxy tasks. Neel Nanda (the team lead) also talked about this strategic pivot in his 80,000 Hours podcasts. We believe these strategic updates significantly influenced the external interpretability research ecosystem.
+
+We focus on the comparative advantages of interpretability researchers, that is, areas that depend on model internals or areas where we need deep dives for understanding. Within model internals, we worked on probes, and helped implement our production misuse mitigations. We published some of our learnings in Building production-ready probes for Gemini. For understanding, we have worked on model forensics: investigating cases of suspicious behavior to understand whether they were caused by malign intent. In one case, we found that seeming instances of self-preservation were explained by instruction ambiguity. We then supervised external work to better establish the field of model forensics.
+
+We also invest in tooling and infrastructure to support internal research and the external ecosystem. We investigated model diffing agents that can quickly give safety researchers feedback on how their techniques change model behavior. This work has already been used to help several deep alignment projects. We released Gemma Scope 2 to enable external interpretability work on Gemma 3 using both SAEs as well as skip-transcoders.
+
+We see a key goal of our interpretability work as preparing for future models without a monitorable chain of thought, e.g. latent reasoning, and discuss our relevant research such as How Transparent is DiffusionGemma? in the monitorability section.
+
+Amplified Oversight
+
+Our work in Amplified Oversight aims to enable weak overseers to provide good incentives to strong AI systems during training. Ideally, this would allow us to align superhuman AI systems.
+
+Most of the team’s effort goes into empirical work on various flavors of debate, especially more recently, but this work has not been published yet. This talk provides a sense of our approach and motivation to this work.
+
+On the theoretical side, we studied the problem of obfuscated arguments, in which a dishonest debater decomposes an easy problem into many hard subproblems, making it hard for the opposing debater to know which subproblem contains the flaw. We published prover-estimator debate, which makes progress on obfuscated arguments by allowing the opposing debater to provide probability estimates over the claims rather than choosing a particular claim to recurse on: in this case, the dishonest debater has to say which probability is unreasonable, which they will not be able to do due to their own obfuscation.
+
+In Human-AI Complementarity: A Goal for Amplified Oversight, we study how AI assistance can amplify human raters in the domain of fact verification of AI outputs, with a focus on HCI elements. For example, we find that while providing human raters with AI-generated evidence helps a lot, providing more details like the AI’s reasoning and confidence can lead to overtrust, reducing overall accuracy.
+
+While our work in this area usually aims to amplify the overseer, in Myopic Optimization with Non-myopic Approval (MONA), we explore the alternative strategy of myopic optimization. This has the key benefit of removing the incentive for multi-step reward hacks, even if the overseer would not be able to detect the hack. Non-myopic approval keeps the technique competitive: the agent still has the incentive to execute long-horizon plans whose benefits the overseer can recognize and forecast.
+
+Alignment Evaluations
+
+Alignment evaluations are tricky: usually any given project within it is either important or tractable, but not both. Approaches like automated auditing are very tractable, but it is unclear whether they matter for existential safety. Conversely, alignment evaluations that are robust to deceptive alignment would be hugely important, but it seems very intractable, as we document in Difficulties with Evaluating a Deception Detector for AIs. Nevertheless, we have developed some alignment evaluations to capture the low-hanging fruit.
+
+Realistic honeypot evaluations for scheming propensity lets us see whether a model would take sabotaging actions, in a way unlikely to happen for any non-misaligned model. It mitigates the problem of eval awareness by using real situations from deployment. While we would guess that these honeypot evaluations are unlikely to catch very competent schemers, they may still let us catch early schemers, providing significant evidence about AI risk.
+
+Gram is an automated alignment auditing framework building off of Petri. It narrows the focus on the propensity to sabotage, and makes a variety of changes to increase the realism of the resulting transcripts. These changes mean that the resulting audits provide information that is more decision-relevant. Gram also includes automated forensics to isolate the root cause of misbehavior.
+
+When we ran alignment evaluations on Gemini, we noticed and published that Models May Behave Worse When Eval Aware, in this case because they treated the evaluation as testing strategic ability rather than alignment.
+
+Frontier Safety: Risk Assessment & Mitigations
+
+Our work in Frontier Safety drives internal governance for severe risks that could be posed by Google’s frontier models.
+
+At the time of our last update, we had just published the first version of the Frontier Safety Framework, and much of the relevant work was done within ASAT. Since then, Frontier Safety has expanded substantially and is now spread across a huge number of teams across Google.
+
+We have published a few updates to the Frontier Safety Framework. FSF 2 was particularly notable, as it substantially strengthened the framework. This update added substantially more clarity on what kinds of security and deployment mitigations would be expected for various levels of dangerous capabilities. This update also made us the first company to add a section on misalignment (which we think is distinct from autonomy or automated AI R&D, though of course there are overlaps). FSF 3 added the new risk domain of Harmful Manipulation, and FSF 3.1 added Tracked Capability Levels (TCLs) for less severe risks which correspondingly have lower governance obligations.
+
+We conduct risk assessments in collaboration with many partner teams. An example of such an assessment is the Gemini 3 Pro Frontier Safety Framework report. This draws on a variety of research done by the rest of ASAT as well as our partner teams:
+
+We assess instrumental reasoning ability using the evaluations from Evaluating Frontier Models for Stealth and Situational Awareness.
+Our analysis of chain of thought legibility draws on much of the research discussed in the section on monitorability.
+Evaluating Language Models for Harmful Manipulation (partner team)
+A Framework for Evaluating Emerging Cyberattack Capabilities of AI (partner team)
+
+One general heuristic we follow is that it can be very valuable to produce approximate quantitative measurements of thorny concepts, as this can enable many decisions to be legibly and/or cheaply when they previously would have required subject matter experts. We coauthored A Rosetta Stone for AI Benchmarks with Epoch to approximately quantitatively measure “overall AI capabilities”. This now powers the Epoch Capability Index. While our primary motivation for the project was to create an indicator for acceleration of AI capability progress, we have found it useful in other ways as well: for example, it can help triage across different models to identify which ones are most important to assess.
+
+We also contribute to mitigation development, though less centrally. Most of this work is not published. Some relevant papers include:
+
+Building Production-Ready Probes For Gemini (discussed in the interpretability section)
+Consistency Training Helps Stop Sycophancy and Jailbreaks
+Causal Alignment
+
+Our recent work aims to develop a deeper understanding of agency, with a focus on exploring the limits of what can be learned about agents (such as beliefs, goals, intents) from experiments. In General agents contain world models, we proved that generally competent agents must learn world models, and that these implicit beliefs can be identified from agent behavior without requiring strong rationality assumptions. In tandem with theory work, we have been developing methods for evaluating goal-directedness in language models. We hope to further develop these workstreams into a more general theory of behavioural interpretability, and practical tools that can be applied to agentic systems. 
+
+External advising
+
+In addition to our internal research, we advise a huge amount of external work, over 70 pieces of work in the past two years. You can find a list of most of our externally advised papers here.
+
+If you’re interested in working with ASAT, please see our companion post about our currently open roles.
+
+86
+Ω 41
+New Comment
+Type here! Use '/' for editor commands.
+SUBMIT
+Moderation Log
+More from Rohin Shah
+71
+The AGI Safety and Alignment team at Google DeepMind is Hiring (July 2026)Ω
+Seb Farquhar, Rohin Shah, Neel Nanda
+2mo
+4
+87
+How transparent is DiffusionGemma (and why it matters)Ω
+Josh Engels, Callum McDougall, bilalchughtai, János Kramár, Senthooran Rajamanoharan, Arthur Conmy, Rohin Shah, Neel Nanda
+3mo
+2
+86
+GDM AI Control RoadmapΩ
+Mary Phuong, Erik Jenner, Rohin Shah, Seb Farquhar
+4mo
+2
+View more
+Curated and popular this week
+247
+Frog and Toad and the Increasingly Capable Machines
+Elizabeth
+3d
+22
+376
+What's the date?
+N8 Programs
+2d
+16
+226
+On Social Reality in China
+alkjash
+1d
+32
+0
+Comments
+x

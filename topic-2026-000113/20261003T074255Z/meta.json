@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000113",
+  "url": "https://arxiv.org/abs/2608.07830",
+  "capturedAt": "2026-10-03T07:42:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43846,
+    "sha256": "c489d172001b957170c156e35cd837bb57e44c1b45ec1cd7613c9245578b1ce3",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BE477708A7956892819EBC0F6B72B4B6",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.07830",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1178,
+      "afterScrollHeight": 1178,
+      "wantedHeight": 1178
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ee77bd042e75b23f3ffaeef693f762641cc63ef24350ce1a74fb271aa08463d9",
+    "width": 1366,
+    "height": 1178,
+    "bytes": 145474,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1178,
+    "afterScrollHeight": 1178,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:42:55Z",
+    "url": "https://arxiv.org/abs/2608.07830",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43846,
+      "sha256": "c489d172001b957170c156e35cd837bb57e44c1b45ec1cd7613c9245578b1ce3"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.07830",
+    "httpStatus": 200,
+    "title": "[2608.07830] Hardware is an AI Ethics Problem: Expert Visions for a Sustainable and Equitable Semiconductor Industry",
+    "rendered": {
+      "textChars": 3362,
+      "textSha256": "084171125366ab76b60854208ea6fee25f04f32f5e13002a3e17bf6d5fa1517d",
+      "htmlSha256": "b97e9ee00357d93467b65466d50c792831690f156d319beada6c80cc17b8521a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ee77bd042e75b23f3ffaeef693f762641cc63ef24350ce1a74fb271aa08463d9",
+      "width": 1366,
+      "height": 1178,
+      "bytes": 145474,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260813041934",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260813041934/https://arxiv.org/abs/2608.07830"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260813041934/https://arxiv.org/abs/2608.07830",
+      "timestamp": "20260813041934",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

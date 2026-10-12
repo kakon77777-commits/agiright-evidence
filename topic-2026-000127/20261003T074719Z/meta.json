@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000127",
+  "url": "https://forkast.news/googles-a2a-protocol-joins-aaif-consolidating-the-agent-economys-protocol-layer-under-one-roof/",
+  "capturedAt": "2026-10-03T07:47:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 73123,
+    "sha256": "8f7e2967bc1eb0163f4076fc0e056e84e4a5f1d59a865a22cef81a3912f743d1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "2B3C409401EB00F7FDDBD5953873C294",
+      "status": 200,
+      "url": "https://forkast.news/googles-a2a-protocol-joins-aaif-consolidating-the-agent-economys-protocol-layer-under-one-roof/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4952,
+      "afterScrollHeight": 4952,
+      "wantedHeight": 4952
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "0b111dd106b4f039512c4435588e9c3d1d2428205080f5eb991117198b1f4b92",
+    "width": 1366,
+    "height": 4952,
+    "bytes": 1247206,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4952,
+    "afterScrollHeight": 4952,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:47:19Z",
+    "url": "https://forkast.news/googles-a2a-protocol-joins-aaif-consolidating-the-agent-economys-protocol-layer-under-one-roof/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 73123,
+      "sha256": "8f7e2967bc1eb0163f4076fc0e056e84e4a5f1d59a865a22cef81a3912f743d1"
+    },
+    "finalUrl": "https://forkast.news/googles-a2a-protocol-joins-aaif-consolidating-the-agent-economys-protocol-layer-under-one-roof/",
+    "httpStatus": 200,
+    "title": "Google’s A2A Protocol Joins AAIF, Consolidating the Agent Economy’s Protocol Layer Under One Roof – Forkast",
+    "rendered": {
+      "textChars": 5829,
+      "textSha256": "f9af9a7203eed7d5dcefc24b3c80f66070b93a2d8b9a60c4d9e7542737044449",
+      "htmlSha256": "803f3e52f7edb3784d1d24e18bd305fe9733088889b67b5acdcb45a835b72659"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "0b111dd106b4f039512c4435588e9c3d1d2428205080f5eb991117198b1f4b92",
+      "width": 1366,
+      "height": 4952,
+      "bytes": 1247206,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

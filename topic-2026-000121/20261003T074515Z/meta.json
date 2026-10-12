@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000121",
+  "url": "https://arxiv.org/abs/2608.16801",
+  "capturedAt": "2026-10-03T07:45:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43202,
+    "sha256": "3c7abf1a50a12dd46e561bc324ffb153d4090165d6243e33adbdbd90877b5fc5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "530E703FA1B3B787E6EE3316363F2337",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.16801",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1147,
+      "afterScrollHeight": 1147,
+      "wantedHeight": 1147
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "46fe959cbabfff50a55403df1341e2f72286b029f4ef7a6da9750d96fb52d896",
+    "width": 1366,
+    "height": 1147,
+    "bytes": 143181,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1147,
+    "afterScrollHeight": 1147,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:45:15Z",
+    "url": "https://arxiv.org/abs/2608.16801",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43202,
+      "sha256": "3c7abf1a50a12dd46e561bc324ffb153d4090165d6243e33adbdbd90877b5fc5"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.16801",
+    "httpStatus": 200,
+    "title": "[2608.16801] When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
+    "rendered": {
+      "textChars": 3413,
+      "textSha256": "e549915b993cabc0c94df35b26aaeea1fd5082cc7e621c6b5d561463640ab33b",
+      "htmlSha256": "0d7f739e39053358fe4c495cf01b2f058937c01f797d670b592fc4eb0210f936"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "46fe959cbabfff50a55403df1341e2f72286b029f4ef7a6da9750d96fb52d896",
+      "width": 1366,
+      "height": 1147,
+      "bytes": 143181,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20260930134750/https://arxiv.org/abs/2608.16801",
+      "timestamp": "20260930134750",
+      "verifiedHttp": 200
+    }
+  }
+}

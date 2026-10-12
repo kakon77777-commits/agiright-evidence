@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000074",
+  "url": "https://arxiv.org/abs/2607.00001",
+  "capturedAt": "2026-10-03T07:27:41Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 41942,
+    "sha256": "4a46c29580d804d67869340b8bfab4db7fd461bff6da7714e4d10f67da47b554",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "DA269F30CD47549808BF515E24D023CF",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2607.00001",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1103,
+      "afterScrollHeight": 1103,
+      "wantedHeight": 1103
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5c1ad22b8b7a02258dd178cd99be7f5fd977b2b3400512645d8dcacaf6e8bca2",
+    "width": 1366,
+    "height": 1103,
+    "bytes": 135002,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1103,
+    "afterScrollHeight": 1103,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:27:41Z",
+    "url": "https://arxiv.org/abs/2607.00001",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 41942,
+      "sha256": "4a46c29580d804d67869340b8bfab4db7fd461bff6da7714e4d10f67da47b554"
+    },
+    "finalUrl": "https://arxiv.org/abs/2607.00001",
+    "httpStatus": 200,
+    "title": "[2607.00001] Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction",
+    "rendered": {
+      "textChars": 2989,
+      "textSha256": "0f013cd4d4c8b3dcd2bf7bdaa85c46b3be0d449674171307c607c22329ee84b7",
+      "htmlSha256": "1450d556e94df0997de2cc5f42645e0c3073bac618223a710b3ffad4127cd210"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "5c1ad22b8b7a02258dd178cd99be7f5fd977b2b3400512645d8dcacaf6e8bca2",
+      "width": 1366,
+      "height": 1103,
+      "bytes": 135002,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260725013544",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260725013544/https://arxiv.org/abs/2607.00001"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260725013544/https://arxiv.org/abs/2607.00001",
+      "timestamp": "20260725013544",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

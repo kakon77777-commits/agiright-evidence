@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000081",
+  "url": "https://arxiv.org/abs/2608.05040",
+  "capturedAt": "2026-10-03T07:29:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 42474,
+    "sha256": "0f9b191e6874a64ab3f52fbc89d0ca64060f98971c9b62254e29a1b709a469a9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "2179916B3FEEEFC8E06734C62D4C611E",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.05040",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1124,
+      "afterScrollHeight": 1124,
+      "wantedHeight": 1124
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "629ac8f395e464b83ce56982ac7e6264af4a22d28e30c2761d5603a90cb26a65",
+    "width": 1366,
+    "height": 1124,
+    "bytes": 137806,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1124,
+    "afterScrollHeight": 1124,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:29:15Z",
+    "url": "https://arxiv.org/abs/2608.05040",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 42474,
+      "sha256": "0f9b191e6874a64ab3f52fbc89d0ca64060f98971c9b62254e29a1b709a469a9"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.05040",
+    "httpStatus": 200,
+    "title": "[2608.05040] Private Direct Preference Optimization for LLM Alignment",
+    "rendered": {
+      "textChars": 3060,
+      "textSha256": "8e9f14a539fe9e3c6e7b64531ad40c4b174fcc2dc1b41f177588c790498d42db",
+      "htmlSha256": "eefbebc7ad3774038ab21fc6701937607495894e74c99a5bbb26688c43ac333a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "629ac8f395e464b83ce56982ac7e6264af4a22d28e30c2761d5603a90cb26a65",
+      "width": 1366,
+      "height": 1124,
+      "bytes": 137806,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260811185917",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260811185917/https://arxiv.org/abs/2608.05040"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260811185917/https://arxiv.org/abs/2608.05040",
+      "timestamp": "20260811185917",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

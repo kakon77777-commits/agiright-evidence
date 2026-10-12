@@ -1,0 +1,58 @@
+{
+  "id": "topic-2026-000103",
+  "url": "https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf",
+  "capturedAt": "2026-10-03T07:37:52Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 4627926,
+    "sha256": "823c932ac3185f2ace2235b8526caba6cebe0ad10a39b0da0645047148fa709f",
+    "file": "raw.pdf"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D383695940B1C707452034A6D2C0B3AB",
+      "status": 200,
+      "url": "https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf",
+      "mime": "application/pdf"
+    },
+    "skipped": "pdf: no rendered view captured (raw bytes stored instead)",
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:37:52Z",
+    "url": "https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 4627926,
+      "sha256": "823c932ac3185f2ace2235b8526caba6cebe0ad10a39b0da0645047148fa709f"
+    },
+    "finalUrl": "https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf",
+    "httpStatus": 200,
+    "note": "pdf: no rendered view captured (raw bytes stored instead)",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260708052749",
+      "statuscode": "200",
+      "mimetype": "application/pdf",
+      "url": "https://web.archive.org/web/20260708052749/https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260708052749/https://futureoflife.org/wp-content/uploads/2026/07/AI-Safety-Index-Summer-2026-Digital.pdf",
+      "timestamp": "20260708052749",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

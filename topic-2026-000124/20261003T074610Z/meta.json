@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000124",
+  "url": "https://www.cbsnews.com/news/ftc-ai-companies-destroying-books/",
+  "capturedAt": "2026-10-03T07:46:10Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 619644,
+    "sha256": "f190b56553dc9ea10b55a6a1e8fc73ce59569296ced2f999efa6b00393b0ee84",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E4BE2B351F3FEB2A44507E2D1DE545C7",
+      "status": 200,
+      "url": "https://www.cbsnews.com/news/ftc-ai-companies-destroying-books/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3314,
+      "afterScrollHeight": 3314,
+      "wantedHeight": 3314
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c8b62944eff172197d14f1c42ee71e87709c6f5120409ba84b68459e246a837d",
+    "width": 1366,
+    "height": 3314,
+    "bytes": 807502,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3314,
+    "afterScrollHeight": 3314,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:46:10Z",
+    "url": "https://www.cbsnews.com/news/ftc-ai-companies-destroying-books/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 619644,
+      "sha256": "f190b56553dc9ea10b55a6a1e8fc73ce59569296ced2f999efa6b00393b0ee84"
+    },
+    "finalUrl": "https://www.cbsnews.com/news/ftc-ai-companies-destroying-books/",
+    "httpStatus": 200,
+    "title": "AI companies accused of hoarding and destroying millions of books - CBS News",
+    "rendered": {
+      "textChars": 3885,
+      "textSha256": "bdf1e31d089a8e34c924d0efeec7afbe07ddd3a40307727ff4b3377b0cb1f212",
+      "htmlSha256": "1a4511f00a8a319974d7fe838c54542181c6ad59136759d1d0cfc1f3bd478a66"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c8b62944eff172197d14f1c42ee71e87709c6f5120409ba84b68459e246a837d",
+      "width": 1366,
+      "height": 3314,
+      "bytes": 807502,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260821192322",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260821192322/https://www.cbsnews.com/news/ftc-ai-companies-destroying-books/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260821192322/https://www.cbsnews.com/news/ftc-ai-companies-destroying-books/",
+      "timestamp": "20260821192322",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000100",
+  "url": "https://arxiv.org/abs/2608.05583",
+  "capturedAt": "2026-10-03T07:37:12Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 42058,
+    "sha256": "96b27b10ee3ff5db5a0f385b8a596baacfd1396b184b522d3030564893c93567",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8F96718869F74F536F9365FEE4B8FCFB",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.05583",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1103,
+      "afterScrollHeight": 1103,
+      "wantedHeight": 1103
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "37e0f653879063905a99f8474f1659d62a599acd5e607f0132efdadb9ca26ef1",
+    "width": 1366,
+    "height": 1103,
+    "bytes": 135475,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1103,
+    "afterScrollHeight": 1103,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:37:12Z",
+    "url": "https://arxiv.org/abs/2608.05583",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 42058,
+      "sha256": "96b27b10ee3ff5db5a0f385b8a596baacfd1396b184b522d3030564893c93567"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.05583",
+    "httpStatus": 200,
+    "title": "[2608.05583] The Judgment-Consequence Gap: LLM Moral Reasoning in Healthcare Decisions",
+    "rendered": {
+      "textChars": 2939,
+      "textSha256": "9817bbc3a5f10570036d2ab5d3763930eea72ab868f757c502ead4c1d223f66e",
+      "htmlSha256": "eb1965e03a987f4e0e3c90a0ad8ef8f8c5654ba5449b4d62f44a2fed187f3adf"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "37e0f653879063905a99f8474f1659d62a599acd5e607f0132efdadb9ca26ef1",
+      "width": 1366,
+      "height": 1103,
+      "bytes": 135475,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260811105312",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260811105312/https://arxiv.org/abs/2608.05583"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260811105312/https://arxiv.org/abs/2608.05583",
+      "timestamp": "20260811105312",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000116",
+  "url": "https://arxiv.org/abs/2608.16574",
+  "capturedAt": "2026-10-03T07:43:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 42644,
+    "sha256": "252ae757a9caba433bc5c0c863559ea62be6226c31ea94871b876d7183007eee",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "AE97D6AC064CE2F225CA55FF1E246314",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.16574",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1167,
+      "afterScrollHeight": 1167,
+      "wantedHeight": 1167
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a3e69cfe038780964abe8ce394384fe7edcd1934e7fc3fa2ed0b3d5ede202b58",
+    "width": 1366,
+    "height": 1167,
+    "bytes": 140823,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1167,
+    "afterScrollHeight": 1167,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:43:29Z",
+    "url": "https://arxiv.org/abs/2608.16574",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 42644,
+      "sha256": "252ae757a9caba433bc5c0c863559ea62be6226c31ea94871b876d7183007eee"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.16574",
+    "httpStatus": 200,
+    "title": "[2608.16574] The User Side of AI Model Lifecycles: Evidence from the Keep4o Movement",
+    "rendered": {
+      "textChars": 3377,
+      "textSha256": "f85bb89b427f2569907db050db28a35151b47c150ca667b2a5a9df63f6f8c1a0",
+      "htmlSha256": "73dd04f022130053847d73086eae6db2775b97fe2e3f7ed7c21e082565c045c4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a3e69cfe038780964abe8ce394384fe7edcd1934e7fc3fa2ed0b3d5ede202b58",
+      "width": 1366,
+      "height": 1167,
+      "bytes": 140823,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003074407/https://arxiv.org/abs/2608.16574",
+      "timestamp": "20261003074407",
+      "verifiedHttp": 200
+    }
+  }
+}

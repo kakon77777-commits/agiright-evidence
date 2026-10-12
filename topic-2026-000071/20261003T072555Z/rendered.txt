@@ -1,0 +1,137 @@
+About Us
+Contact Us
+Privacy Policy
+Wednesday, September 30, 2026
+ SUBSCRIBE
+Home
+News
+Investigations
+Elections
+CNI InsiderNew
+Podcasts
+About Us
+Media Center
+Support Us
+Pritzker signs landmark AI regulation bill that aims to mitigate risks
+The law builds on legislation passed in California and New York to create a state-driven national standard
+byMaggie Dougherty  July 6, 2026 in Technology
+A A
+
+Gov. JB Pritzker signs the Artificial Intelligence Safety Measures Act into law in Chicago on July 6, 2026, surrounded by lawmakers and advocates. (Capitol News Illinois photo by Maggie Dougherty)
+
+5.9k
+VIEWS
+Facebook
+Share
+Reddit
+Article Summary
+JB Pritzker signed a landmark bill regulating large artificial intelligence developers on Monday, adding new reporting requirements for risks caused by the AI models.
+The law includes a first-in-the-nation requirement for annual independent third-party audits.
+The legislation is based on similar bills from California and New York. Lawmakers estimate that the three states account for roughly 40% of the U.S. AI market, thus effectively establishing a de facto national standard in lieu of federal regulations.
+
+This summary was written by the reporters and editors who worked on this story.
+
+CHICAGO — Gov. JB Pritzker signed artificial intelligence legislation modeled after similar bills in California and New York on Monday, furthering a push for a state-driven national framework in lieu of federal regulations.
+
+“Congress and the president ought to be passing similar legislation, but they’ve so far been unwilling, because many are captive to special interests that profit from the industry having no regulation,” Pritzker said before signing the bill. “We can work together to establish thoughtful guardrails in ways that benefit both industry and the public, or we can allow a handful of actors to evade accountability and push the costs and detriment onto ordinary people. Illinois has chosen our path.”
+
+Senate Bill 315, also known as the Artificial Intelligence Safety Measures Act, increases transparency and accountability requirements for the largest artificial intelligence models — those that generate more than $500 million in annual revenue and are trained using massive computing power.
+
+The bill mirrors California’s SB-53 and New York’s Responsible AI Safety and Education Act, which were each signed in late 2025. It establishes new reporting standards for the possibility that the AI model could be used for large-scale harms, such as by providing users assistance in creating a chemical, biological or nuclear weapon or committing cyber-attacks.
+
+Senate sponsor Sen. Mary Edly-Allen, D-Libertyville, said there is an urgency for states to protect against those potential harms.
+
+“We are not willing to wait for Congress to act,” Edly-Allen said. “There’s an old saying: Give a man a fish, he eats for a day. Teach him to fish, he eats for a lifetime. Teach AI to fish, though, and it might just empty the whole river trying to figure out how.”
+
+Though the three states only account for roughly 20% of the national populus, lawmakers estimate that they represent roughly 40% of the U.S. AI market, effectively creating a de facto national standard.
+
+ADVERTISEMENT
+
+Sen. Mary Edly-Allen, D-Libertyville, speaks at a bill signing event on July 6, 2026, for the Artificial Intelligence Safety Measures Act she sponsored in the state Senate. (Capitol News Illinois photo by Maggie Dougherty)
+New guardrails
+
+The new law requires model developers to publish an AI framework outlining how the developer identifies and assesses “catastrophic risk,” defined as the likelihood that incidents that could cause death or serious injury to more than 50 people or more than $1 million in property damage.
+
+Developers will also be required to report any incidents that could cause harm to the state within 72 hours of identifying the incident, or 24 hours if it poses an imminent risk for death or serious physical injury.
+
+The bill’s House sponsor, Rep. Daniel Didech, D-Buffalo Grove, said the harms the bill will regulate are not theoretical.
+
+“We have already seen the first AI-inspired mass shooting. We have already seen AI systems utilized to attack a municipal water and drainage utility,” Didech said.
+
+He also alluded to the example of Anthropic’s Mythos model, which the company said was too powerful a cyberweapon to release to the public. Anthropic supported Illinois’ bill and had representatives present at the signing on Monday.
+
+“Every transformative technology in our history, from automobiles to electricity to air travel, has delivered enormous benefits while carrying real risks, and in every case the government responded not by banning the technology and not by taking a hands-off approach, but by building safeguards, so everyday people can trust that these technologies are safe,” Didech said.
+
+Rep. Daniel Didech, D-Buffalo Grove, speaks at a bill signing event on July 6, 2026, for the Artificial Intelligence Safety Measures Act he sponsored in the House. (Capitol News Illinois photo by Maggie Dougherty)
+
+Illinois’ version, similar in most ways to the standards set in New York and California, adds a first-in-the-nation requirement for mandatory annual third-party audits; New York’s version only required a single independent audit at the time when developers became large enough to qualify under the law.
+
+During debate in the General Assembly, the third-party audit provision was a point of contention for some industry stakeholders, including TechNet, a coalition of tech executives across the industry.
+
+“We remain concerned that Illinois would effectively be requiring private actors to make highly subjective determinations requiring AI safety compliance without established national standards, certifications, or clear regulatory guardrails,” TechNet representative Ninia Linero said in committee May 20.
+
+Read more: Illinois lawmakers pass landmark AI accountability bill | Bill regulating powerful AI models advances as advocates say it’s only the first step
+
+OpenAI and Anthropic both supported the bill on its path through the Illinois General Assembly, and it passed with broad bipartisan support in both chambers; only five Republican senators voted against it, and it passed unanimously in the House.
+
+Though the large developers pushed for a federal framework rather than what they were concerned would be an inconsistent patchwork of state regulations, Caitlin Niedermeyer of OpenAI’s Global Affairs told the Senate’s AI and Social Media committee in April that OpenAI was open to a coordinated state-driven approach.
+
+“While we have been very clear that the federal government remains well-positioned to lead on frontier safety because it has the resources, expertise and institutions, we also strongly actually see a position for both Illinois but also California and New York to really lead in advancing aligned frameworks, which we believe can absolutely help create a de facto national direction of travel,” Niedermeyer told the committee.
+
+What’s on the AI horizon?
+
+Companies that violate it will be subject to civil penalties brought by the attorney general’s office of up to $1 million for the first offense and up to $3 million for subsequent violations.
+
+But lawmakers and advocates say they expect to continue working on the topic of AI in the future. For example, Didech identified medical care and education as likely frontiers needing further evaluation of AI’s public safety risks.
+
+Scott Wisor, policy director for Secure AI, was one of the advocates helping to shape Illinois’ bill. Having more external evaluation of the risks the models pose, and make judgments on when they’re ready for release, would be the next step for further transparency and accountability, he said.
+
+“Right now, the evaluation in this bill is, are you complying with your safety framework? Because suppose you had a safety framework, just like, ‘We’re going to do A, B, C, and D,’ you do that, the evaluator confirms it, and yet it’s still a risky thing to have out in the world,” Wisor said.
+
+“So, this is a huge step forward, but I think there’s more we can do,” Wisor said.
+
+Illinois’s law will take effect on Jan.  1, 2028.
+
+Capitol News Illinois is a nonprofit, nonpartisan news service that distributes state government coverage to hundreds of news outlets statewide. It is funded primarily by the Illinois Press Foundation and the Robert R. McCormick Foundation.
+
+Tags: AnthropicArtificial IntelligenceBuffalo GroveCaitlin NiedermeyerChicagoDaniel DidechIllinois attorney generalJB PritzkerLibertyvilleMary Edly-AllenNinia LineroOpenAIScott WisorSecure AITechNet
+Maggie Dougherty
+
+Chicago Reporter
+Maggie joined CNI in November, 2025 as a Chicago reporter. Maggie is a 2021 graduate of The College of Wooster, where she received her bachelor's degree in international relations and economics, and a 2025 graduate of the Northwestern University Medill School of Journalism, where she received her master's degree in Investigative Journalism. Contact Maggie
+
+Related Posts
+Pritzker establishes AI cabinet amid calls for greater regulation
+ SEPTEMBER 22, 2026 1.4K
+Data centers emerging as key issue in Illinois governor’s race
+ AUGUST 17, 2026 4.4K
+
+Republish This Story
+
+Republish our articles for free, online or in print, under a Creative Commons license.
+
+2501 Chatham Road, Suite 200
+Springfield, IL 62704
+editors@capitolnewsillinois.com
+Capitol News Illinois is a nonprofit, nonpartisan news service covering state government. A service of the Illinois Press Foundation.
+
+More news from the Illinois
+Statehouse delivered to your
+inbox.
+
+About Contact Privacy Terms
+
+© 2026 Capitol News Illinois
+
+Home
+News
+Investigations
+Elections
+Capitol News Insider
+Podcasts
+About
+Media
+Support
+Subscribe
+
+© 2026 Capitol News Illinois

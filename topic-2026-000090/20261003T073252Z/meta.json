@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000090",
+  "url": "https://openai.com/index/safety-alignment-long-horizon-models/",
+  "capturedAt": "2026-10-03T07:32:52Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 10129,
+    "sha256": "592a0aa8a831cce89c52fe665cc70c9c724ec902bab142b5cac3ee23c34d5a1e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1A26F8819CEB19E5AA29E3F0CA0BBDB9",
+      "status": 403,
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:32:52Z",
+    "url": "https://openai.com/index/safety-alignment-long-horizon-models/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 10129,
+      "sha256": "592a0aa8a831cce89c52fe665cc70c9c724ec902bab142b5cac3ee23c34d5a1e"
+    },
+    "finalUrl": "https://openai.com/index/safety-alignment-long-horizon-models/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "a12bd67c27256843d225e38ed99492839efa7c0ae6d391fbe586579e3f46ab2e"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260720193545",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260720193545/https://openai.com/index/safety-alignment-long-horizon-models/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260720193545/https://openai.com/index/safety-alignment-long-horizon-models/",
+      "timestamp": "20260720193545",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

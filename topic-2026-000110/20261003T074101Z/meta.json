@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000110",
+  "url": "https://knowledge.wharton.upenn.edu/article/the-different-philosophies-driving-ai-regulation-today/",
+  "capturedAt": "2026-10-03T07:41:01Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 242879,
+    "sha256": "e105fb59a12536d7c72b3bedf707152f45633458548668168d1a847fc53663ec",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9B4F09C848D7E3B493246FACD691777F",
+      "status": 200,
+      "url": "https://knowledge.wharton.upenn.edu/article/the-different-philosophies-driving-ai-regulation-today/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8701,
+      "afterScrollHeight": 8701,
+      "wantedHeight": 8701
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "79760723f37d073a8c72f4a5faf4607f9c47fca9f1e2662a780484c0a586cd76",
+    "width": 1366,
+    "height": 8701,
+    "bytes": 1786152,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8701,
+    "afterScrollHeight": 8701,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:41:01Z",
+    "url": "https://knowledge.wharton.upenn.edu/article/the-different-philosophies-driving-ai-regulation-today/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 242879,
+      "sha256": "e105fb59a12536d7c72b3bedf707152f45633458548668168d1a847fc53663ec"
+    },
+    "finalUrl": "https://knowledge.wharton.upenn.edu/article/the-different-philosophies-driving-ai-regulation-today/",
+    "httpStatus": 200,
+    "title": "The Different Philosophies Driving AI Regulation Today - Knowledge at Wharton",
+    "rendered": {
+      "textChars": 11112,
+      "textSha256": "9dc29323b5a831d69cb2f48f03e847c86c9061b3d0a21b90c1bd502413ceb6f1",
+      "htmlSha256": "1213b851c32453a2f6523f59432f0b373559f42cedf89e1d9c44a5ead97cb35c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "79760723f37d073a8c72f4a5faf4607f9c47fca9f1e2662a780484c0a586cd76",
+      "width": 1366,
+      "height": 8701,
+      "bytes": 1786152,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260811223719",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260811223719/https://knowledge.wharton.upenn.edu/article/the-different-philosophies-driving-ai-regulation-today/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260811223719/https://knowledge.wharton.upenn.edu/article/the-different-philosophies-driving-ai-regulation-today/",
+      "timestamp": "20260811223719",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

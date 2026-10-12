@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000087",
+  "url": "https://vietnamnews.vn/politics-laws/1784800/government-releases-list-of-high-risk-ai-systems.html",
+  "capturedAt": "2026-10-03T07:31:47Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 52737,
+    "sha256": "b0124d892788c5f82424945be74aee74a1c2e5c5f4435541f0b2c2cde4441c66",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "614E94C44A51F847B234794A347F6762",
+      "status": 200,
+      "url": "https://vietnamnews.vn/politics-laws/1784800/government-releases-list-of-high-risk-ai-systems.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6248,
+      "afterScrollHeight": 6385,
+      "wantedHeight": 6385
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f96f476dd7d2784b1f72fa4513e9032d8f0fd074e80b0411de1e8ae1eacde0df",
+    "width": 1366,
+    "height": 6385,
+    "bytes": 1832799,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6248,
+    "afterScrollHeight": 6385,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:31:47Z",
+    "url": "https://vietnamnews.vn/politics-laws/1784800/government-releases-list-of-high-risk-ai-systems.html",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 52737,
+      "sha256": "b0124d892788c5f82424945be74aee74a1c2e5c5f4435541f0b2c2cde4441c66"
+    },
+    "finalUrl": "https://vietnamnews.vn/politics-laws/1784800/government-releases-list-of-high-risk-ai-systems.html",
+    "httpStatus": 200,
+    "title": "Government releases list of 'high-risk' AI systems",
+    "rendered": {
+      "textChars": 9594,
+      "textSha256": "87525fc1d63f1a8f2f37a1b9cbef3576143b2346681a697bd8eec6d9f2f0f374",
+      "htmlSha256": "031b2d9336f441c28fc68bdaa4d68f820615d18445fb55113846495dc4fcdb51"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f96f476dd7d2784b1f72fa4513e9032d8f0fd074e80b0411de1e8ae1eacde0df",
+      "width": 1366,
+      "height": 6385,
+      "bytes": 1832799,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260706033909",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260706033909/https://vietnamnews.vn/politics-laws/1784800/government-releases-list-of-high-risk-ai-systems.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260706033909/https://vietnamnews.vn/politics-laws/1784800/government-releases-list-of-high-risk-ai-systems.html",
+      "timestamp": "20260706033909",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

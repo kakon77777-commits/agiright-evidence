@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000094",
+  "url": "https://theconsciousness.ai/posts/journal-consciousness-studies-2026-special-issue-ai-review/",
+  "capturedAt": "2026-10-03T07:34:36Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 119894,
+    "sha256": "389c248e5c800dd5d48bfaeb89499684bb66626d0f4c1f8ba662c0e0917a9a83",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "26E0BF792BF45290138A03C2CA289052",
+      "status": 200,
+      "url": "https://theconsciousness.ai/posts/journal-consciousness-studies-2026-special-issue-ai-review/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 11864,
+      "afterScrollHeight": 11864,
+      "wantedHeight": 11864
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d902ea22415dfc6b8276f2a1a3d051ca3afea966617ffa4279a8c622411f2a8e",
+    "width": 1366,
+    "height": 11864,
+    "bytes": 2166932,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 11864,
+    "afterScrollHeight": 11864,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:34:36Z",
+    "url": "https://theconsciousness.ai/posts/journal-consciousness-studies-2026-special-issue-ai-review/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 119894,
+      "sha256": "389c248e5c800dd5d48bfaeb89499684bb66626d0f4c1f8ba662c0e0917a9a83"
+    },
+    "finalUrl": "https://theconsciousness.ai/posts/journal-consciousness-studies-2026-special-issue-ai-review/",
+    "httpStatus": 200,
+    "title": "Journal of Consciousness Studies 2026 Special Issue AI Disagreement Map | The Consciousness AI",
+    "rendered": {
+      "textChars": 12508,
+      "textSha256": "5547f06a77b9b9760b31a399df72a2b25482ed8011018b0ddb895b747729aa97",
+      "htmlSha256": "772e93170531725a83c607d7e867e94a93c8e293ab10a0b0c09de6fe83bb43ca"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d902ea22415dfc6b8276f2a1a3d051ca3afea966617ffa4279a8c622411f2a8e",
+      "width": 1366,
+      "height": 11864,
+      "bytes": 2166932,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

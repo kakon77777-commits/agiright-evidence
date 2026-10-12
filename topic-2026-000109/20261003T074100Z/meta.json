@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000109",
+  "url": "https://alignment.anthropic.com/2026/conceptual-reasoning-index/",
+  "capturedAt": "2026-10-03T07:41:00Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 22204,
+    "sha256": "7409ac02a1dd72c53d1a7c77441d59f43753d28463f2d78c29831ef13e1bd948",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "96A367BD3E127BE5A7A4D0144BA2D99D",
+      "status": 200,
+      "url": "https://alignment.anthropic.com/2026/conceptual-reasoning-index/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7219,
+      "afterScrollHeight": 7219,
+      "wantedHeight": 7219
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "62057fa1586e29ba2f516f8dd79f4249c5b95ac1874061a62d4633b4bbfa64c9",
+    "width": 1366,
+    "height": 7219,
+    "bytes": 560448,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7219,
+    "afterScrollHeight": 7219,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:41:00Z",
+    "url": "https://alignment.anthropic.com/2026/conceptual-reasoning-index/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 22204,
+      "sha256": "7409ac02a1dd72c53d1a7c77441d59f43753d28463f2d78c29831ef13e1bd948"
+    },
+    "finalUrl": "https://alignment.anthropic.com/2026/conceptual-reasoning-index/",
+    "httpStatus": 200,
+    "title": "Introducing the Conceptual Reasoning Index",
+    "rendered": {
+      "textChars": 10291,
+      "textSha256": "f3d5138191c1ef63baffba5c1143dd1bb3afbb0b24b832c4d0aa8fd8350c7676",
+      "htmlSha256": "0073738d068126a285948b4d9ee8990fb9e883a40527eb068666f292732f482d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "62057fa1586e29ba2f516f8dd79f4249c5b95ac1874061a62d4633b4bbfa64c9",
+      "width": 1366,
+      "height": 7219,
+      "bytes": 560448,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260812173014",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260812173014/https://alignment.anthropic.com/2026/conceptual-reasoning-index/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260812173014/https://alignment.anthropic.com/2026/conceptual-reasoning-index/",
+      "timestamp": "20260812173014",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

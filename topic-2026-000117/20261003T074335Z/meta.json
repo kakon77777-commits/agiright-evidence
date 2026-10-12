@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000117",
+  "url": "https://www.techtarget.com/ai/news/366647544/AI-Kill-Switch-Act-What-it-means-for-enterprise-leaders",
+  "capturedAt": "2026-10-03T07:43:35Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 334753,
+    "sha256": "757206a08ac35ca0fe330d254aec11c3654b192d2ae85d286309f6a824bd8a7e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1FA8A7EB9C2DA170DAB20FC47641E620",
+      "status": 200,
+      "url": "https://www.techtarget.com/ai/news/366647544/AI-Kill-Switch-Act-What-it-means-for-enterprise-leaders",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7018,
+      "afterScrollHeight": 7018,
+      "wantedHeight": 7018
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "711a7a7339c3e15bea1e1d18b8edb2a0c9bbff1b2bbd2c30fdd3f4416257cf61",
+    "width": 1366,
+    "height": 7018,
+    "bytes": 1799218,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7018,
+    "afterScrollHeight": 7018,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:43:35Z",
+    "url": "https://www.techtarget.com/ai/news/366647544/AI-Kill-Switch-Act-What-it-means-for-enterprise-leaders",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 334753,
+      "sha256": "757206a08ac35ca0fe330d254aec11c3654b192d2ae85d286309f6a824bd8a7e"
+    },
+    "finalUrl": "https://www.techtarget.com/ai/news/366647544/AI-Kill-Switch-Act-What-it-means-for-enterprise-leaders",
+    "httpStatus": 200,
+    "title": "AI Kill Switch Act: What it means for enterprise leaders | TechTarget",
+    "rendered": {
+      "textChars": 12985,
+      "textSha256": "2ce00b3de9b9cc335cd89496bfd95d2104e85e00f37bae6645a54608d054e0e4",
+      "htmlSha256": "18928bbd487d42304e88c254049cb9cbf7810654ab2f4d21c0f45c037782f1ea"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "711a7a7339c3e15bea1e1d18b8edb2a0c9bbff1b2bbd2c30fdd3f4416257cf61",
+      "width": 1366,
+      "height": 7018,
+      "bytes": 1799218,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260806135740",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260806135740/https://www.techtarget.com/ai/news/366647544/AI-Kill-Switch-Act-What-it-means-for-enterprise-leaders"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260806135740/https://www.techtarget.com/ai/news/366647544/AI-Kill-Switch-Act-What-it-means-for-enterprise-leaders",
+      "timestamp": "20260806135740",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

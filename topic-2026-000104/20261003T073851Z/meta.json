@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000104",
+  "url": "https://arxiv.org/abs/2604.24155",
+  "capturedAt": "2026-10-03T07:38:51Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 44223,
+    "sha256": "f0a81b2b199eb6ed5306fc6b112f96dbf4bfd80a396413a251d9a0d44233c8c7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0E8C54A133543AEF4921BC27A4BDCAE4",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2604.24155",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1253,
+      "afterScrollHeight": 1253,
+      "wantedHeight": 1253
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2f2c1a6cfca915d97a5d30e423351c3ca83baed07e89d8381ccc082f4a4b40b7",
+    "width": 1366,
+    "height": 1253,
+    "bytes": 153971,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1253,
+    "afterScrollHeight": 1253,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:38:51Z",
+    "url": "https://arxiv.org/abs/2604.24155",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 44223,
+      "sha256": "f0a81b2b199eb6ed5306fc6b112f96dbf4bfd80a396413a251d9a0d44233c8c7"
+    },
+    "finalUrl": "https://arxiv.org/abs/2604.24155",
+    "httpStatus": 200,
+    "title": "[2604.24155] The Alignment Target Problem: Divergent Moral Judgments of Humans, AI Systems, and Their Designers",
+    "rendered": {
+      "textChars": 3669,
+      "textSha256": "d250be8fddafda41a9b09cbac3e47511b163a638640b8b16ce19bf1e85e73059",
+      "htmlSha256": "713d269cfa0ff7e1aa8d8cb5cd0a6bfac7a41fb1506ad30eed4f2eca5b2779d6"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2f2c1a6cfca915d97a5d30e423351c3ca83baed07e89d8381ccc082f4a4b40b7",
+      "width": 1366,
+      "height": 1253,
+      "bytes": 153971,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260428032048",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260428032048/https://arxiv.org/abs/2604.24155"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260428032048/https://arxiv.org/abs/2604.24155",
+      "timestamp": "20260428032048",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

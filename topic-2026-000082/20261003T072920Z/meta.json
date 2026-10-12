@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000082",
+  "url": "https://healthiercolorado.org/press-release/governor-polis-signs-bill-to-protect-users-from-harms-of-conversational-ai-technology/",
+  "capturedAt": "2026-10-03T07:29:20Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 6078,
+    "sha256": "42f8133d1d36612edec707cedea0ef352b2c3f885926bd7820a1bb7826a31263",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6A3E90FA0007003D11B5BB8953A465E0",
+      "status": 403,
+      "url": "https://healthiercolorado.org/press-release/governor-polis-signs-bill-to-protect-users-from-harms-of-conversational-ai-technology/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "1f3744fdd4070de51d7238764b74db4a5c153b65f1e7955c8c2b6ac2eff41565",
+    "width": 1366,
+    "height": 900,
+    "bytes": 28798,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:29:20Z",
+    "url": "https://healthiercolorado.org/press-release/governor-polis-signs-bill-to-protect-users-from-harms-of-conversational-ai-technology/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 6078,
+      "sha256": "42f8133d1d36612edec707cedea0ef352b2c3f885926bd7820a1bb7826a31263"
+    },
+    "finalUrl": "https://healthiercolorado.org/press-release/governor-polis-signs-bill-to-protect-users-from-harms-of-conversational-ai-technology/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 269,
+      "textSha256": "181bc827378c2f34bfa205ecbb6fd6b3841db48e3b008c8f0924dff129d65551",
+      "htmlSha256": "40bb2258017ed1e5f2e70f97281cf0bfecb26d4bdd60b6b69037e2b0442ebafb"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "1f3744fdd4070de51d7238764b74db4a5c153b65f1e7955c8c2b6ac2eff41565",
+      "width": 1366,
+      "height": 900,
+      "bytes": 28798,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

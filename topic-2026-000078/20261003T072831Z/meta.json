@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000078",
+  "url": "https://www.artificialintelligence-news.com/news/red-hat-nvidia-ibm-back-project-turning-ai-policy-into-code/",
+  "capturedAt": "2026-10-03T07:28:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html",
+    "bytes": 75193,
+    "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F98EF6CCBBF3B65A077408F0026319F9",
+      "status": 200,
+      "url": "https://www.artificialintelligence-news.com/news/red-hat-nvidia-ibm-back-project-turning-ai-policy-into-code/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4088,
+      "afterScrollHeight": 4088,
+      "wantedHeight": 4088
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "962794d428fefa79c9605320c139610f87d6ffd769e57946eb78c4c1d2af2cf9",
+    "width": 1366,
+    "height": 4088,
+    "bytes": 1915313,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4088,
+    "afterScrollHeight": 4088,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:28:31Z",
+    "url": "https://www.artificialintelligence-news.com/news/red-hat-nvidia-ibm-back-project-turning-ai-policy-into-code/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html",
+      "bytes": 75193,
+      "sha256": "ac4f780358ba4326a07c3a9bb83dff5a70cbb95a22be0f4c9385efe182cd722f"
+    },
+    "finalUrl": "https://www.artificialintelligence-news.com/news/red-hat-nvidia-ibm-back-project-turning-ai-policy-into-code/",
+    "httpStatus": 200,
+    "title": "Red Hat, NVIDIA, IBM back project turning AI policy into code",
+    "rendered": {
+      "textChars": 8332,
+      "textSha256": "2e286099c5865ebbb56e84a743302b1ad816f34a722c9b4f440f2020c5269601",
+      "htmlSha256": "91cde21a880aaf81721f2609c4c8c572ec0f63a4a9a28bf7f3f8103567742304"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "962794d428fefa79c9605320c139610f87d6ffd769e57946eb78c4c1d2af2cf9",
+      "width": 1366,
+      "height": 4088,
+      "bytes": 1915313,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

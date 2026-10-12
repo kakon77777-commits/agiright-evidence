@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000093",
+  "url": "https://arxiv.org/abs/2608.02660",
+  "capturedAt": "2026-10-03T07:34:33Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 41647,
+    "sha256": "45e2fc442d0db9f9dc0dbd1ad0078b1260e3255f829e035f343c2c2aa11f1ebe",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "42D2C0F5C78C5015131F0DE5C7C00D02",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.02660",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1123,
+      "afterScrollHeight": 1123,
+      "wantedHeight": 1123
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "654c0f346b3b312674a3a15317ff45b367b58da7db0dec5fdb35dea018a9d6bc",
+    "width": 1366,
+    "height": 1123,
+    "bytes": 136221,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1123,
+    "afterScrollHeight": 1123,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:34:33Z",
+    "url": "https://arxiv.org/abs/2608.02660",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 41647,
+      "sha256": "45e2fc442d0db9f9dc0dbd1ad0078b1260e3255f829e035f343c2c2aa11f1ebe"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.02660",
+    "httpStatus": 200,
+    "title": "[2608.02660] AI Alignment and Fiduciary Obligation",
+    "rendered": {
+      "textChars": 3066,
+      "textSha256": "04d82041066ab8a5fd0b3dfa393a1417d84b2d499087205a0575bfcf0c8be35c",
+      "htmlSha256": "a4a4c98372916dacd9841fe458ee0b9b915fd95fd15c2a47945777e05c80ebca"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "654c0f346b3b312674a3a15317ff45b367b58da7db0dec5fdb35dea018a9d6bc",
+      "width": 1366,
+      "height": 1123,
+      "bytes": 136221,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20260917211231/https://arxiv.org/abs/2608.02660",
+      "timestamp": "20260917211231",
+      "verifiedHttp": 200
+    }
+  }
+}

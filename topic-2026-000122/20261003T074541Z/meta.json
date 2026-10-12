@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000122",
+  "url": "https://www.commerce.senate.gov/press/rep/release/cruz-warnock-introduce-human-dignity-and-emerging-technologies-act/",
+  "capturedAt": "2026-10-03T07:45:41Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html",
+    "bytes": 550,
+    "sha256": "810d18ca4642da32e407ee6d5b01c445fa01734512ae3dc67f52a4841a9fc46e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "AA9281DEBA0495414E3E621C59EBB19E",
+      "status": 403,
+      "url": "https://www.commerce.senate.gov/press/rep/release/cruz-warnock-introduce-human-dignity-and-emerging-technologies-act/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "bfb5853051728e4e5bdb1c419c2af2fa3d58cf6d2596d5a1bdf2741314df171d",
+    "width": 1366,
+    "height": 900,
+    "bytes": 18458,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:45:41Z",
+    "url": "https://www.commerce.senate.gov/press/rep/release/cruz-warnock-introduce-human-dignity-and-emerging-technologies-act/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html",
+      "bytes": 550,
+      "sha256": "810d18ca4642da32e407ee6d5b01c445fa01734512ae3dc67f52a4841a9fc46e"
+    },
+    "finalUrl": "https://www.commerce.senate.gov/press/rep/release/cruz-warnock-introduce-human-dignity-and-emerging-technologies-act/",
+    "httpStatus": 403,
+    "title": "Access Denied",
+    "rendered": {
+      "textChars": 302,
+      "textSha256": "53ef449512f0309e830cc4cf1211771d61f88aff55dacf7effc69059d9af61a2",
+      "htmlSha256": "8f1c619931ffb197ee734f2f421b5fd4ba2c6f6c4473193f9b80c30f5d9b0fb3"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "bfb5853051728e4e5bdb1c419c2af2fa3d58cf6d2596d5a1bdf2741314df171d",
+      "width": 1366,
+      "height": 900,
+      "bytes": 18458,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260918173247",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260918173247/https://www.commerce.senate.gov/press/rep/release/cruz-warnock-introduce-human-dignity-and-emerging-technologies-act/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260918173247/https://www.commerce.senate.gov/press/rep/release/cruz-warnock-introduce-human-dignity-and-emerging-technologies-act/",
+      "timestamp": "20260918173247",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

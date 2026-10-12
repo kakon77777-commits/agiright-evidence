@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000119",
+  "url": "https://www.simmons-simmons.com/en/publications/cmt09z0uq0056uzywe1qk2rmr/ai-view:august-2026",
+  "capturedAt": "2026-10-03T07:44:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 2699,
+    "sha256": "f63730cfd12d43605779013417e68f1db123010b32269a8f85118a7e9da88405",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C2510C929194668A60DE82765BB54D99",
+      "status": 200,
+      "url": "https://www.simmons-simmons.com/en/publications/cmt09z0uq0056uzywe1qk2rmr/ai-view:august-2026",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 9465,
+      "afterScrollHeight": 9465,
+      "wantedHeight": 9465
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "23bb476c55531276a90c4a19f49ca515386c615c4ed1539a13f96d73ab5e259a",
+    "width": 1366,
+    "height": 9465,
+    "bytes": 2419846,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 9465,
+    "afterScrollHeight": 9465,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:44:24Z",
+    "url": "https://www.simmons-simmons.com/en/publications/cmt09z0uq0056uzywe1qk2rmr/ai-view:august-2026",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 2699,
+      "sha256": "f63730cfd12d43605779013417e68f1db123010b32269a8f85118a7e9da88405"
+    },
+    "finalUrl": "https://www.simmons-simmons.com/en/publications/cmt09z0uq0056uzywe1qk2rmr/ai-view:august-2026",
+    "httpStatus": 200,
+    "title": "AI View: August 2026 | Simmons & Simmons",
+    "rendered": {
+      "textChars": 19217,
+      "textSha256": "036e999c41f962a417fd7c55d18b4d41c5565c540db949815f34639d7b73379f",
+      "htmlSha256": "cd03cec9eee94833f5487b48efbd2d0ea9092b3ba7aaf848e292f5229e6aa54a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "23bb476c55531276a90c4a19f49ca515386c615c4ed1539a13f96d73ab5e259a",
+      "width": 1366,
+      "height": 9465,
+      "bytes": 2419846,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260820140907",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260820140907/https://www.simmons-simmons.com/en/publications/cmt09z0uq0056uzywe1qk2rmr/ai-view:august-2026"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260820140907/https://www.simmons-simmons.com/en/publications/cmt09z0uq0056uzywe1qk2rmr/ai-view:august-2026",
+      "timestamp": "20260820140907",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

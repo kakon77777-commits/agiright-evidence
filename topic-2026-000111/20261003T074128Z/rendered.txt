@@ -1,0 +1,152 @@
+Open suggestion box
+See related products
+Kluwer Copyright Blog
+Artificial Intelligence (AI)
+Conference
+Text and Data Mining (TDM)
+Copyright across the genAI lifecycle – views from computer science and law
+Alina Trapova, James Hall (University College London), Thomas Margoni, Leona King (KU Leuven Centre for IT & IP Law)
+August 13, 2026
+
+A few months ago, a very valuable interdisciplinary workshop took place at UCL looking at the well-rehearsed but endless topic of genAI and copyright law. What made this meeting different and particularly insightful was the fact that it brought together legal scholars, computer scientists, and practitioners. The workshop was co-organised with the AI Hub in Generative Models and the UCL Institute of Brand and Innovation Law (IBIL). It was hosted at the UCL Centre for AI.
+
+The group met on 13 March 2026 and  examined how copyright law applies across the generative AI lifecycle: from data collection and model training to post-training retrieval systems such as RAG. Across the discussions, a clear message emerged: generative AI is exposing structural tensions within copyright law. Existing legal frameworks are being asked to govern technological practices that do not map neatly onto traditional copyright concepts, while technical realities often sit uneasily with legal notions such as reproduction, lawful access, originality, and liability.
+
+ 
+
+Key Takeaways
+
+Lawful access is central, but deeply uncertain
+
+A major focus was the concept of “lawful access” under Articles 3 and 4 of the EU Copyright in the Digital Single Market (CDSM) Directive – a notion present also in section 29A of the UK Copyright Designs and Patents Act 1988. This is a legal requirement for the validity of EU and UK TDM copyright exception, which also serve as a basis for many AI training activities. Participants noted that this concept is underdefined in legislation and not yet clarified by the courts. This creates significant uncertainty for AI developers and researchers, especially where data is scraped from content that is freely available online but may itself be infringing. The result is a legal grey zone surrounding the question of whether TDM for AI training is permissible. The boundaries, legal and factual, of lawfully accessible content are also increasingly shaped by technological protection measures or other infrastructure-level access controls, with services such as Cloudflare, raising questions about the interaction between technical and legal definitions of lawful access.
+
+ 
+
+Territorial copyright rules do not map neatly onto AI systems
+
+Copyright remains territorial, but GenAI development is not. Training may take place in one jurisdiction, hosting in another, and deployment in another still. This raises unresolved questions about where copyright-relevant acts occur, and which law applies to those potential infringements. Judicial practice seems also to diverge, as shown by cases such as Getty in the UK and GEMA in Germany. Although the EU AI Act reflects a broader regulatory ambition to impose copyright-related compliance obligations on providers of general purpose AI (GPAI) models placed on the EU market regardless of where training occurred, the extent to which territorial copyright doctrines can support such an approach remains legally and practically contested.
+
+ 
+
+The law struggles to translate technical realities of training and memorisation
+
+Participants emphasized that AI models do not literally “store” works; rather, they encode statistical relationships in numerical parameters. Yet, copyright law’s broad concept of reproduction may still capture some model behaviour, especially where outputs reproduce recognisable parts of works. The workshop highlighted that “memorisation” has become a key bridge concept between computer science and law, but it carries different operational commitments in each field: in computer science, empirical claims about memorisation reflect the elicitation technique used as much as the model itself, while in copyright it plays important functions as an evidentiary shortcut to prove reproduction. This leaves major open questions about when outputs are copies, derivatives, or merely statistically generated similarities.
+
+ 
+
+Liability across the AI value chain remains unresolved
+
+The workshop explored responsibility not only for foundation model developers, but also for fine-tuners, deployers, and providers of post-training services. Contractual arrangements often push liability downstream, while copyright doctrines such as secondary infringement remain uneven and underdeveloped across jurisdictions. This creates uncertainty about who should bear responsibility where unlawful training data, infringing outputs, or problematic retrieval practices are involved.
+
+ 
+
+RAG raises distinct but related copyright questions
+
+Retrieval-Augmented Generation (RAG) was discussed as a cheaper and more dynamic alternative to retraining or fine-tuning, but one that introduces its own copyright issues. These include caching, vectorisation, chunking, indexing, and the potential retrieval or leakage of protected content. Participants noted that RAG may be easier than model training to link back to original works, making questions of reproduction and liability more acute. At the same time, no coherent legal framework clearly governs RAG today; possible analogies include legislation pertaining to search engines and hyperlinking, TDM exceptions, implied licence theories, and intermediary liability.
+
+ 
+
+Core copyright doctrines face pressure at the output stage
+
+GenAI output places strain on several foundational copyright doctrines. The idea/expression dichotomy – which limits copyright protection to expression rather than underlying ideas – is complicated by systems capable of producing outputs that closely reproduce protected expression in response to prompts framed at the level of ideas alone. The independent creation doctrine, which has historically shielded creators from infringement liability where copying cannot be established, sits uneasily with AI systems trained on broad corpora, where the causal relationship between training data and output remains technically opaque but legally material. Derivative works occupy a similarly contested position, with questions remaining about how adaptation rights apply to AI-generated outputs that draw on but do not directly reproduce protected works.
+
+ 
+
+Hybrid governance comes with serious trade-offs
+
+A range of mechanisms – including output filtering, machine unlearning, content recognition systems, contractual licensing, and collective bargaining – were widely discussed as likely components of any future governance framework for GenAI copyright. Each, however, carries significant trade-offs. Machine unlearning is not model-agnostic, may be reversed, and at best reduces the probability of a given output rather than effecting true removal of content. Output filtering and content recognition are computationally intensive – particularly for video models – and risk placing disproportionate burdens on smaller market participants. More extensive filtering also raises concerns about interference with freedom of expression. No single instrument is likely to resolve these tensions; any effective response will require careful calibration against competition, innovation, and expressive interests.
+
+ 
+
+Cross-Cutting Themes
+
+Three broader themes ran through the workshop:
+
+There is a persistent mismatch between technical and legal vocabulary. Terms such as reproduction, memorisation, storage, and copying carry different meanings across disciplines.
+
+Private governance is increasingly shaping access and enforcement. Bot blocking, platform standards, and private infrastructure providers may in practice determine what counts as accessible data more effectively than public copyright law.
+
+Future solutions are likely to be hybrid. Regulatory rules alone will not resolve all tensions. Commercial licensing, technical filtering, machine unlearning, collective bargaining, and transparency obligations are all likely to play a role, though each comes with trade-offs for innovation, competition, and freedom of expression.
+
+ 
+
+Participants
+
+ 
+
+Participants at the workshop included the following, among others:
+
+Dr Alina Trapova, Co-Director, UCL IBIL
+
+Prof Miguel Rodrigues, Professor of Information Theory and Processing, UCL
+
+Prof Thomas Margoni, Professor in Law, KU Leuven
+
+James Hall, Research Assistant, UCL IBIL
+
+Leona King, Legal Researcher, KU Leuven
+
+Dr Siddharth Swaroop, Assistant Professor, UCL
+
+Prof Michael Veale, Professor of Technology Law and Policy, UCL
+
+Yuhan Wang, Postdoc, University of Manchester and AI Hub in Generative Models
+
+Dr Canhui Liu, Research Fellow, UCL
+
+Photo by Kvalifik on Unsplash
+
+Tags:
+lawful access,
+memorisation,
+RAG,
+computer science
+Comments (0)
+Your email address will not be published.
+Leave a Comment
+Your email address will not be published.
+Comment
+Name
+*
+Email
+*
+Save my information for the next time
+Clear all Post Comment
+Image
+Image
+Number 1 in Top 40 Copyright Blogs!
+Image
+Book Ad List
+Books
+Playing with Rights: Video Games, Music & AI
+José Roberto Herrera
+€135.00
+European Union Data Protection Law: 500 Questions with Answers
+Rosario Murga Ruiz
+€135.00
+The EU Artificial Intelligence (AI) Act: A Commentary
+Ceyhun Necati Pehlivan, Nikolaus Forgó, & Peggy Valcke
+€285.00
+You may also like
+When Slowing AI Stops Looking Luddite: Copyright and the Pace of Frontier AI
+September 30, 2026
+Australia is to propose new legislation on AI and copyright licensing, but what it will look like?
+September 24, 2026
+When Machines Paint Like Masters: Can Pastiche Cover AI-Assisted Art?
+September 23, 2026
+The Court of Justice Rules on Copyright Protectability of Facebook Posts and Exception for Reporting Current Events: Gandul Media (C-598/24)
+September 21, 2026
+Learning from Hollywood? Why the US right of publicity can only serve as a partial model for Europe’s deepfake regulation
+September 17, 2026
+From Upcycling to Book Destruction: Copyright Exhaustion’s Environmental Paradox
+September 14, 2026
+About Copyright Blog
+Contact Us
+Wolters Kluwer: IP Law
+Wolters Kluwer: X
+YouTube
+Editorial Policy & Guidelines
+Privacy Policy and Use of Cookies
+User Agreement and Disclaimer
+
+©2025 Kluwer Law International, part of Wolters Kluwer. All rights reserved

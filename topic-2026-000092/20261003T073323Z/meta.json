@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000092",
+  "url": "https://arxiv.org/abs/2608.03361",
+  "capturedAt": "2026-10-03T07:33:23Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 42362,
+    "sha256": "ece2778b862ba085b7dd1a17377f47af5f813de17f503a335e51b6e893120152",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BF1A488D42951937E58683EBAEEEA5B2",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.03361",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1144,
+      "afterScrollHeight": 1144,
+      "wantedHeight": 1144
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "424b60219512936cb89e0af0b18228ee1fe87bcb4b60772e042d802bba21793f",
+    "width": 1366,
+    "height": 1144,
+    "bytes": 139390,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1144,
+    "afterScrollHeight": 1144,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:33:23Z",
+    "url": "https://arxiv.org/abs/2608.03361",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 42362,
+      "sha256": "ece2778b862ba085b7dd1a17377f47af5f813de17f503a335e51b6e893120152"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.03361",
+    "httpStatus": 200,
+    "title": "[2608.03361] The Evolutionary Origin of Values: implications for AI alignment, sentience and existential risk",
+    "rendered": {
+      "textChars": 3222,
+      "textSha256": "1d6bd363e71b215b03a2cbe2aafae6e21b41bd4801b1ad5b07f52fa15f4cc2d5",
+      "htmlSha256": "2a69719001cf3611e2f36b16e0b8b9c63100247e4de1dbfc85738313f3081665"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "424b60219512936cb89e0af0b18228ee1fe87bcb4b60772e042d802bba21793f",
+      "width": 1366,
+      "height": 1144,
+      "bytes": 139390,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003073402/https://arxiv.org/abs/2608.03361",
+      "timestamp": "20261003073402",
+      "verifiedHttp": 200
+    }
+  }
+}

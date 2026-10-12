@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000089",
+  "url": "https://www.ailawsbystate.com/blog/california-ai-transparency-act-sb-942",
+  "capturedAt": "2026-10-03T07:32:26Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 116700,
+    "sha256": "804dac40ba3a879f42eab28767c684f448cece7839f1683540020682d8900db6",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C4C0582B604A58D25FF4826B70152531",
+      "status": 200,
+      "url": "https://www.ailawsbystate.com/blog/california-ai-transparency-act-sb-942",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10716,
+      "afterScrollHeight": 10716,
+      "wantedHeight": 10716
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "bec589bdb8a1d5f7c68988df0b428d234221a64baf0464f581bafff49221e3d0",
+    "width": 1366,
+    "height": 10716,
+    "bytes": 1623309,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10716,
+    "afterScrollHeight": 10716,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:32:26Z",
+    "url": "https://www.ailawsbystate.com/blog/california-ai-transparency-act-sb-942",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 116700,
+      "sha256": "804dac40ba3a879f42eab28767c684f448cece7839f1683540020682d8900db6"
+    },
+    "finalUrl": "https://www.ailawsbystate.com/blog/california-ai-transparency-act-sb-942",
+    "httpStatus": 200,
+    "title": "California AI Transparency Act (SB 942): 2026 Compliance Guide",
+    "rendered": {
+      "textChars": 19705,
+      "textSha256": "adcaa7a5be6b2998819688fb57dd466eb1d94df9e19b482dd7b67439e2c4ca5c",
+      "htmlSha256": "5593cad61fe9e926120503497a2b3c3dfcd7a973a4a3a87805c827366ffc6320"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "bec589bdb8a1d5f7c68988df0b428d234221a64baf0464f581bafff49221e3d0",
+      "width": 1366,
+      "height": 10716,
+      "bytes": 1623309,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260507092237",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260507092237/https://www.ailawsbystate.com/blog/california-ai-transparency-act-sb-942"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260507092237/https://www.ailawsbystate.com/blog/california-ai-transparency-act-sb-942",
+      "timestamp": "20260507092237",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+Skip to main content
+Search
+Submit
+Donate
+Log in
+Computer Science > Artificial Intelligence
+[Submitted on 1 Apr 2026]
+Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction
+Max Kanwal, Caryn Tran
+Most approaches to AI alignment treat human preferences as fixed targets to be inferred and optimized. This assumption conflicts with extensive empirical evidence showing that preferences are layered, dynamic, and constructed through interaction--particularly with adaptive technologies. As AI systems become more persistent, personalized, and socially embedded, they increasingly participate in shaping what people attend to, value, and endorse over time. We introduce Constructive Alignment, a paradigm that reframes alignment as a control problem over evolving human preference trajectories rather than static preference satisfaction. Drawing on behavioral economics, psychology, and constructivist social theory, we model preferences as layered state variables that evolve under interaction with AI systems. We formalize this view using a control-theoretic framework in which system actions and interaction design jointly influence both world states and human evaluative states. We argue that alignment is not primarily about controlling AI behavior, but about regulating how AI systems influence the evolution of human preferences--ensuring that value trajectories remain coherent, reflectively endorsed, epistemically grounded, bounded against manipulation, and empowering under uncertainty. Alignment thus becomes a problem of governing long-term value formation rather than simply satisfying static preferences.
+Comments:	23 pages, 1 figure; Proceedings of the AAAI-26 Workshop on Machine Ethics
+Subjects:	Artificial Intelligence (cs.AI); Computers and Society (cs.CY)
+Cite as:	arXiv:2607.00001 [cs.AI]
+ 	(or arXiv:2607.00001v1 [cs.AI] for this version)
+ 
+https://doi.org/10.48550/arXiv.2607.00001
+Focus to learn more
+Submission history
+From: Max Kanwal [view email]
+[v1] Wed, 1 Apr 2026 17:12:42 UTC (343 KB)
+
+Access Paper:
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Current browse context:
+cs.AI
+< prev   |   next >
+
+new | recent | 2026-07
+Change to browse by:
+cs
+cs.CY
+
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+Export BibTeX Citation
+Bookmark
+
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer (What is the Explorer?)
+Connected Papers Toggle
+Connected Papers (What is Connected Papers?)
+Litmaps Toggle
+Litmaps (What is Litmaps?)
+scite.ai Toggle
+scite Smart Citations (What are Smart Citations?)
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)
+We gratefully acknowledge support from our major funders, member institutions, and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

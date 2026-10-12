@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000085",
+  "url": "https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments",
+  "capturedAt": "2026-10-03T07:30:33Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 74768,
+    "sha256": "88aa7debea225513f3f1e84e3c89523590dedea7018ce49c8ef774f6c88952ce",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "10DD34BA533DC22B340A2508BD41A632",
+      "status": 200,
+      "url": "https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6250,
+      "afterScrollHeight": 6250,
+      "wantedHeight": 6250
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "538290b3a2dcdb1856192b00be7fc8f501ef6b7ef8be89ea60e26d3a0b0535e0",
+    "width": 1366,
+    "height": 6250,
+    "bytes": 1360431,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6250,
+    "afterScrollHeight": 6250,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:30:33Z",
+    "url": "https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 74768,
+      "sha256": "88aa7debea225513f3f1e84e3c89523590dedea7018ce49c8ef774f6c88952ce"
+    },
+    "finalUrl": "https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments",
+    "httpStatus": 200,
+    "title": "Reps. Foushee, Casar Introduce Legislation to Protect Children and Americans’ Privacy from AI Chatbot Harms and Require Chatbot Safety Assessments | U.S. Congresswoman Valerie Foushee",
+    "rendered": {
+      "textChars": 17410,
+      "textSha256": "54a8f3f85fa7edff0dfc9e480a21b95363fac81e10d3d389ee8a9b9cf77cd45c",
+      "htmlSha256": "e70a6365d649f39cea1fb68960fcfbcf0998f9bbf0f8709b5a105defb32259c6"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "538290b3a2dcdb1856192b00be7fc8f501ef6b7ef8be89ea60e26d3a0b0535e0",
+      "width": 1366,
+      "height": 6250,
+      "bytes": 1360431,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260714145448",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260714145448/https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260714145448/https://foushee.house.gov/media/press-releases/reps-foushee-casar-introduce-legislation-to-protect-children-and-americans-privacy-from-ai-chatbot-harms-and-require-chatbot-safety-assessments",
+      "timestamp": "20260714145448",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

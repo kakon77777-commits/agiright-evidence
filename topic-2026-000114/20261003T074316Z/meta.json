@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000114",
+  "url": "https://arxiv.org/abs/2608.10153",
+  "capturedAt": "2026-10-03T07:43:16Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 46273,
+    "sha256": "0274b2c64b8cd557ce30cf5de5e5c976e7350a6b3e91e0c85333de57e1dda9d9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4C2E471F78F5262B3013E1290BA94A68",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.10153",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1195,
+      "afterScrollHeight": 1195,
+      "wantedHeight": 1195
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "eac6143b3478c465e85fce35735a99f51d3e17ef413d3d89e160c548cc575821",
+    "width": 1366,
+    "height": 1195,
+    "bytes": 154485,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1195,
+    "afterScrollHeight": 1195,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:43:16Z",
+    "url": "https://arxiv.org/abs/2608.10153",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46273,
+      "sha256": "0274b2c64b8cd557ce30cf5de5e5c976e7350a6b3e91e0c85333de57e1dda9d9"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.10153",
+    "httpStatus": 200,
+    "title": "[2608.10153] The CASE Framework: A Multi-Disciplinary Control Architecture for Governing Enterprise Agentic AI",
+    "rendered": {
+      "textChars": 3610,
+      "textSha256": "ebf67f28ecd7b33b32761480479ebc6e9cac12351530163f20668a5b64fbbde0",
+      "htmlSha256": "0dd23a3c70a90de4fe188ac75b4979c908d1d3e96f6af1ea71e11cd9d73f6021"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "eac6143b3478c465e85fce35735a99f51d3e17ef413d3d89e160c548cc575821",
+      "width": 1366,
+      "height": 1195,
+      "bytes": 154485,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260813201846",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260813201846/https://arxiv.org/abs/2608.10153"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260813201846/https://arxiv.org/abs/2608.10153",
+      "timestamp": "20260813201846",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

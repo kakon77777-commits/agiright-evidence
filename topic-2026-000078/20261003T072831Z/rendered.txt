@@ -1,0 +1,179 @@
+Skip to content
+
+TechForge
+
+Categories
+Events
+Resources
+More
+Search
+Subscribe
+
+GOVERNANCE, REGULATION & POLICY
+
+Red Hat, NVIDIA, IBM back project turning AI policy into code
+
+Ryan Daws
+
+August 4, 2026
+
+Share this story:
+
+Categories:
+
+DATA ENGINEERING & MLOPS
+FEATURED NEWS
+GOVERNANCE, REGULATION & POLICY
+INSIDE AI
+OPEN-SOURCE & DEMOCRATISED AI
+TRUST, BIAS & FAIRNESS
+
+Red Hat has launched asago, an open-source community project that aims to turn AI governance policy into production-ready deployment code.
+
+The project describes itself as an automated, auditable workflow that connects the “fragmented steps, tools, and requirements” of engineering and compliance teams. With regulation such as the EU AI Act now taking effect, Red Hat frames the choice facing organisations as: either grind AI innovation down through manual review, or let ungoverned agents run in production without anyone checking their behaviour against policy.
+
+asago builds on Red Hat and NVIDIA’s work inside the Open Secure AI Alliance. It is being released under the Apache License 2.0, and the project is currently in its formation phase, with a repository open on GitHub for developers, academic researchers, and enterprise early adopters to review and contribute to governance.
+
+Four stages from policy text to running controls
+
+The workflow Red Hat describes runs across four stages. Risk mapping comes first: the framework reads an organisation’s uploaded governance policy and maps its specific requirements against established frameworks, including the NIST AI RMF, the OWASP LLM Top 10, and the EU AI Act as catalogued via IBM’s AI Risk Atlas. Policy language becomes a risk profile automatically, rather than through a compliance team’s manual cross-referencing.
+
+From there, asago moves into risk assessment. The project generates and runs scenarios tailored to the specific use case, probing for the harmful behaviours that its risk mapping flagged rather than testing against a standard checklist. Risk mitigation follows: the system recommends guardrails based on what the testing surfaced, and builds a rationale trail meant to survive a reviewer’s scrutiny.
+
+asago orchestrates the recommended controls into deployment-ready configurations for hybrid cloud and Kubernetes environments, according to Red Hat, cutting out the manual infrastructure coding that would otherwise sit between a mitigation recommendation and a running control. Red Hat’s stated aim is to cut deployment timelines from months to days.
+
+Audit-trail-as-a-product
+
+Every stage is meant to feed a single, continuous audit trail. Each policy clause ties to a specific test, and each test ties to a runtime control. A reviewer, in principle, can trace any active control in a live deployment straight back to the policy line that justified it.
+
+That traceability is the actual selling point. Red Hat’s own framing treats AI safety less as a one-off certification exercise and more as an ongoing enterprise utility (i.e. something that stays checkable as agents keep running, not just at the point they’re first approved.)
+
+Steven Huels, Red Hat’s VP of AI Engineering, says: “As organisations transition from experimental AI pilots to long-running, autonomous agents, establishing clear operational guardrails becomes a critical infrastructure requirement.”
+
+Huels connects asago to Red Hat’s separate Lightwell initiative, which focuses on securing the open-source supply chain from AI-driven vulnerabilities, calling asago “the next logical step for enterprise AI by automating the link between corporate policy definitions and live production agents.”
+
+Stuart Battersby, Red Hat’s AI safety and model evaluation architect, is more direct about the project’s intended shape: “The asago project is a true collaborative, open-source endeavour bringing together stakeholders from the technology industry, academia, and government.
+
+“We encourage more collaborators to join this community-driven effort, particularly from global jurisdictions, to ensure maximum coverage of AI safety viewpoints.”
+
+A roster of major contributors, not a single vendor
+
+The founding list runs far wider than Red Hat and NVIDIA. Brave Software, IBM Research, Microsoft, MIT Lincoln Laboratory, North Carolina State University, and The Alan Turing Institute all appear as contributors, alongside the EvalEval coalition and Austria’s Interdisciplinary Transformation University (IT:U). Alquimia AI, a partner rather than a founding research institution, is also named.
+
+Sarah Bird, Chief Product Officer for Responsible AI at Microsoft, comments: “Many of the hardest AI safety and security challenges are still unsolved, and no single organisation can tackle them all alone.”
+
+Academic voices push a similar line from a different angle. NC State’s Veena Misra, Interim Dean of the College of Engineering, calls AI safety “an engineering problem as much as a policy problem.”
+
+asago’s outputs are meant to be infrastructure-agnostic: declarative configurations for Kubernetes, Terraform, and Ansible, according to Red Hat, so a safety posture set in one cloud doesn’t need re-engineering in another.
+
+Nothing about the project is production-tested yet. There’s no deployed customer case study in Red Hat’s announcement, no benchmark showing the “days, not months” claim holding up under a live regulatory audit, and no indication of how disputes between contributing organisations over risk-mapping standards get resolved once the code moves past formation.
+
+For now, the project exists as a repository and a governance structure on GitHub, open to developers, researchers, and enterprise teams willing to build alongside a list of contributors rather than adopt a finished product.
+
+See also: OpenAI aligns safety practices with EU AI Act’s GPAI Code
+
+Want to learn more about AI and big data from industry leaders? Check out AI & Big Data Expo taking place in Amsterdam, California, and London. The comprehensive event is part of TechEx and is co-located with other leading technology events including the Cyber Security & Cloud Expo. Click here for more information.
+
+AI News is powered by TechForge Media. Explore other upcoming enterprise technology events and webinars here.
+
+ABOUT THE AUTHOR
+
+Ryan Daws
+
+Senior Editor
+
+Ryan Daws is a senior editor at TechForge Media with over a decade of experience in weaving narratives and dissecting complex topics. His articles and interviews with industry leaders have earned him recognition as a key tech influencer from numerous organisations. Under his leadership, publications have been praised by analyst firms for their excellence and performance. Connect with him on X, Mastodon, Bluesky, Threads, and/or LinkedIn.
+RELATED
+Microsoft recommends data controls for government AI adoption
+
+October 2, 2026
+
+Malaysia’s MACC expands AI use for intelligence-led investigations
+
+October 2, 2026
+
+MIT Transit Lab secures $2.1M from Google for AI transit platform
+
+October 1, 2026
+
+How an AI powered learning platform is changing the role of L&D teams
+
+October 1, 2026
+
+JOIN OUR COMMUNITY
+
+Subscribe now to get all our premium content and latest tech news delivered straight to your inbox
+
+Click here
+POPULAR
+
+ARTIFICIAL INTELLIGENCE
+
+Physical AI raises governance questions for autonomous systems
+
+AI BUSINESS STRATEGY
+
+Bain sees US$100 billion SaaS market in agentic AI automation
+
+ARTIFICIAL INTELLIGENCE
+
+Experian uncovers fraud paradox in financial services’ AI adoption
+
+AI IN ACTION
+
+Top 7 Real-time Data Pipeline Platforms for AI Applications
+See all
+LATEST
+View All Latest
+
+SPONSORED CONTENT
+
+October 1, 2026
+
+How an AI powered learning platform is changing the role of L&D teams
+
+RETAIL & LOGISTICS AI
+
+September 30, 2026
+
+Vinasoy reports 20% out-of-stock reduction with AWS AI
+
+AI IN ACTION
+
+September 30, 2026
+
+How McDonald’s uses AI to recommend menu prices
+SUBSCRIBE
+
+All our premium content and latest tech news delivered straight to your inbox
+
+Subscribe
+Explore
+Contact Us
+Newsletter
+Privacy Policy
+Cookie Policy
+Reach Our Audience
+Editorial opportunities
+Contact Us
+Post a Press Release
+Categories
+AI and Us
+AI in Action
+How It Works
+Features
+Inside AI
+Sponsored Content
+TechEx Events
+All Categories
+Other Publications
+Explore All
+Developer
+IoT News
+MarketingTech
+CloudTech
+Telecoms
+TechHQ
+TechWire Asia
+
+AI News is part of TechForge

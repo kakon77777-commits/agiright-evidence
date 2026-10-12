@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000069",
+  "url": "https://arxiv.org/abs/2607.28607",
+  "capturedAt": "2026-10-03T07:25:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 41803,
+    "sha256": "2abfad15cb3c4eaabb54acf32982277020d40bfea4209cde1a375f60918a7ea9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "40175CBD06E9D0F9E029666259C17432",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2607.28607",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1063,
+      "afterScrollHeight": 1063,
+      "wantedHeight": 1063
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "082099ef263d3e4229a58e1d5e076dc672eeb454347a56d7932b49453e71b5ac",
+    "width": 1366,
+    "height": 1063,
+    "bytes": 127722,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1063,
+    "afterScrollHeight": 1063,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:25:15Z",
+    "url": "https://arxiv.org/abs/2607.28607",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 41803,
+      "sha256": "2abfad15cb3c4eaabb54acf32982277020d40bfea4209cde1a375f60918a7ea9"
+    },
+    "finalUrl": "https://arxiv.org/abs/2607.28607",
+    "httpStatus": 200,
+    "title": "[2607.28607] Inducing language models to assert their own consciousness restores human beliefs and values",
+    "rendered": {
+      "textChars": 2758,
+      "textSha256": "222ad47837cc7a6ccc6e6da58bfc8d2a9d340208f634286a96e95a1dee8c6b3e",
+      "htmlSha256": "6b35f677aef10edb05d6e3a42beffa2fd402636e270595cae10f1eb6cf2335c2"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "082099ef263d3e4229a58e1d5e076dc672eeb454347a56d7932b49453e71b5ac",
+      "width": 1366,
+      "height": 1063,
+      "bytes": 127722,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260801041544",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260801041544/https://arxiv.org/abs/2607.28607"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260801041544/https://arxiv.org/abs/2607.28607",
+      "timestamp": "20260801041544",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

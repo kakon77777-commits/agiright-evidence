@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000115",
+  "url": "https://www.anthropic.com/research/multiagent-systems",
+  "capturedAt": "2026-10-03T07:43:17Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 178171,
+    "sha256": "62cdbd951b898ba937bcaef1fd7831ee3b6cf5a9d52dee06de613375f661d6c2",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "42F7ADDC787E7FD0FF3BAE56A0F47E61",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 16750,
+      "afterScrollHeight": 16750,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "1e79b8fbe64bf2b774cd8d20042f4a753b896070567212191c68ad7c07e80353",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 2796842,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 16750,
+    "afterScrollHeight": 16750,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:43:17Z",
+    "url": "https://www.anthropic.com/research/multiagent-systems",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 178171,
+      "sha256": "62cdbd951b898ba937bcaef1fd7831ee3b6cf5a9d52dee06de613375f661d6c2"
+    },
+    "finalUrl": "https://www.anthropic.com/research/multiagent-systems",
+    "httpStatus": 200,
+    "title": "Patterns and problems in multiagent systems \\ Anthropic",
+    "rendered": {
+      "textChars": 29048,
+      "textSha256": "17b460fc82e68f90ff60c3dd197f58ba94b734c358f5f94fbf42fbcbb0ac777d",
+      "htmlSha256": "dace29c9a1ca143cc31caa0dc6842308e5c1e1b9b3f41fb22ee7b5f8cf90b86d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "1e79b8fbe64bf2b774cd8d20042f4a753b896070567212191c68ad7c07e80353",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 2796842,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260813012624",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260813012624/https://www.anthropic.com/research/multiagent-systems"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260813012624/https://www.anthropic.com/research/multiagent-systems",
+      "timestamp": "20260813012624",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+Allow all
+Allow selection
+Deny
+
+Music Business Worldwide
+NEWS
+INTERVIEWS
+ANALYSIS
+DATABASE
+PODCAST
+JOBS
+MBW+
+ROUND HILL IS SUING SUNO AND ANTHROPIC FOR UP TO $1B APIECE. IT ISN’T LOOKING TO SETTLE.
+152
+SHARES
+ AUGUST 18, 2026
+BY MANDY DALUGDUG
+Credit: Hulton Archive/Getty
+The works allegedly infringed include I Got You (I Feel Good) by James Brown (pictured)
+
+Round Hill Music has filed copyright infringement lawsuits against Suno and Anthropic – and says it has no intention of settling either one.
+
+The complaints were filed on Monday (August 17) in the US District Court for the Northern District of California.
+
+Each seeks statutory damages of up to USD $150,000 per work willfully infringed. Round Hill says the total in each case could run into “hundreds of millions of dollars and potentially approach or conceivably exceed $1 billion“.
+
+The plaintiffs are Round Hill Music LP and five affiliated funds and holding companies, which own or control, in whole or in part, 14,364 musical compositions and 16,873 sound recordings, according to the complaints.
+
+Each suit attaches an exhibit of 500 compositions, described as “a prioritized representative bellwether”. Round Hill says it plans to amend both cases to cover “potentially ten thousand or more” works.
+
+The suits claim direct infringement under the Copyright Act, plus circumvention of access controls and removal of copyright management information under the Digital Millennium Copyright Act.
+
+Among the works at issue are Iris by the Goo Goo Dolls, Total Eclipse of the Heart, written by Jim Steinman and performed by Bonnie Tyler, and I Got You (I Feel Good) by James Brown, which Round Hill says alone have been streamed over six billion times.
+
+The Suno complaint, which you can read here, also names Israeli data-scraping firm Bright Data Ltd. and its US subsidiary Bright Data, Inc. as defendants.
+
+Round Hill alleges that Bright Data supplied the proxy networks and scraping tools that let Suno take music and lyrics from licensed platforms, making it liable for contributory infringement.
+
+On that count the complaint puts a number on it: 500 works at the statutory maximum, “for a total of $75,000,000“.
+
+“We are currently reviewing the lawsuit,” a Bright Data spokesperson told MBW.
+
+“Bright Data is a web data infrastructure company that provides access to publicly available information on the open internet. Access to public web data is legally recognized and well established, and we remain committed to enabling that access responsibly and transparently.”
+
+Round Hill alleges access controls were bypassed to reach its works.
+
+“LICENSING ISN’T AN OBSTACLE TO INNOVATION – IT IS THERE TO PROTECT THE LEGAL OWNERS OF THE RAW MATERIAL, THEIR PROPERTY. AS AN INDEPENDENT MUSIC COMPANY, WE HAVE THE FREEDOM AND OBLIGATION TO SAY THAT PLAINLY AND TO ACT ON IT.”
+
+JOSH GRUSS, ROUND HILL
+
+“We are privileged to act as stewards of some of the greatest musical works of our time, and we answer to the writers and artists who created them,” said Round Hill Music founder and CEO Josh Gruss.
+
+“We are not against artificial intelligence. We are against the idea that you can build a business worth billions on top of other people’s creative work and pay the creators nothing.
+
+“Licensing isn’t an obstacle to innovation – it is there to protect the legal owners of the raw material, their property. As an independent music company, we have the freedom and obligation to say that plainly and to act on it.
+
+“We intend to take these cases to trial and to hold these companies accountable, and we will not accept a resolution that leaves songwriters and artists deprived of their rightful share of compensation.”
+
+MBW understands Round Hill chose its counsel deliberately, wanting a trial lawyer rather than a settlement negotiator.
+
+It is represented by Richard S. Busch, now of Adams and Reese LLP, who won the Blurred Lines case for Marvin Gaye‘s family while at King & Ballow.
+
+Both complaints demand a jury trial. Busch filed with Adams and Reese‘s Andrew H. Davis and David Niemierzycki, California attorney Mark L. Block, and Skaggs Faucette LLP as local counsel.
+
+“The question in these cases is not complicated. Copyrighted works have been used to build multi-billion dollar businesses, and in the case of Anthropic a company now valued at more than a trillion dollars, while the songwriters and publishers who created the foundations of that value have received nothing,” said Busch.
+
+“There is nothing fair about that use, and we look forward to making our arguments to the Court and in front of a jury,” Busch added.
+
+Both Round Hill complaints argue that relevant evidence only recently emerged.
+
+The Suno filing says Bright Data‘s role was not publicly known until 404 Media reported on July 15 that hacked Suno source code named YouTube Music, Deezer and Genius among the platforms it scraped, and showed it using Bright Data proxies on YouTube.
+
+The filing also cites the searchable music datasets The Atlantic published in June 2026, and Suno‘s answer in the majors’ Boston case, where the firm said its training data “includes essentially all music files of reasonable quality that are accessible on the open internet”.
+
+Round Hill’s Anthropic complaint, which you can read here, points to the same Atlantic dataset.
+
+It also reproduces what it says was Claude‘s response when asked to rewrite three of the songs at issue “for a modern audience”. Claude said of the results: “These renders keep landing very close to the originals: same structure, same hooks reused with light rewording, and full sets of verses/choruses/bridges. That’s edging past ‘inspired by’ into reproducing the copyrighted song, even when the words are swapped out.”
+
+Anthropic is already defending three music copyright cases in the district. Concord Music Group, Universal Music Publishing Group and ABKCO sued in Nashville in October 2023 over roughly 500 songs, in a case later transferred to California.
+
+The same publishers filed a second suit in January 2026 over more than 20,000 songs, seeking over USD $3 billion; BMG Rights Management brought a third in March 2026 over 493 compositions.
+
+Anthropic CEO Dario Amodei and co-founder Benjamin Mann are named as individual defendants in that second case; Amodei moved this month to have the direct infringement claim against him dropped.
+
+Anthropic reached a USD $1.5 billion settlement with book authors in September 2025.
+
+Anthropic‘s most recent primary funding round, in May, priced it at USD $965 billion, but subsequent estimates have put it above $1.2 trillion.
+
+The majors sued Suno in Boston in June 2024, in a case coordinated by the RIAA; Warner Music Group settled in November 2025 and licensed Suno, selling it Songkick, while Universal and Sony Music remain plaintiffs.
+
+The Munich Regional Court then ruled against Suno on July 31 in the case brought by German collecting society GEMA, finding it was not entitled to use the society’s repertoire and ordering it to disclose revenue and pay damages yet to be set.
+
+That first-instance judgment is not final; Suno says it is weighing an appeal.
+
+Denmark’s Koda has a separate case against Suno in Copenhagen, and more than 1,800 artists are backing class actions against Suno and Udio, according to Reuters.
+
+Winamp-owned licensing platform Jamendo and production duo The American Dollar dropped their own Suno suits last week, the latter with prejudice.
+
+BMG licensed Suno on August 12 in a deal settling prior use of its repertoire, the first significant rightsholder to do so since Warner – even as its own Anthropic suit continues, and its merger with Concord, lead plaintiff in the lyrics cases, is expected to close in Q4.
+
+Round Hill, founded in 2010, says it manages a USD $1.1 billion portfolio and over 200,000 copyrights with an in-house team of around 50.
+
+It has not announced an AI licensing deal, though in April it hired Chad Doerge as President and Deputy CEO from AI-powered financial intelligence platform Aiera.
+
+MBW has contacted Suno, Anthropic and Bright Data for comment.Music Business Worldwide
+
+NEWS UNITED STATES ANTHROPIC LAWSUITS ROUND HILL ROUND HILL MUSIC SUNO
+RELATED POSTS
+BILL WITHERS’ PUBLISHER SUES UMG, SONY, AND KOBALT, CLAIMING OLIVIA DEAN’S ‘I’VE SEEN IT’ COPIES ‘JUST THE TWO OF US’
+SUNO IS ‘FAR BEYOND’ 2M SUBSCRIBERS AND $300M IN REVENUE, SAYS MIKEY SHULMAN – WHO ARGUES IT’S ‘GOOD’ THAT AI MUSIC HAS NO ‘FIRM RULES OF THE ROAD’ YET
+US PROSECUTORS WANT MAN WHO POCKETED $8M USING AI SONGS IMPRISONED FOR 4 YEARS, SAYING HE STOLE FROM ‘HARD-WORKING’ SONGWRITERS
+NOCOPYRIGHTSOUNDS WINS £1.4M INTERIM PAYMENT FROM FORMER DISTRIBUTOR AEI MUSIC, AS HIGH COURT ORDERS INTERIM ACCOUNTS
+Continue to article...
+LATEST MUSIC INDUSTRY JOBS
+Digital Strategist, Atlantic Records
+London, United Kingdom  Warner Music Group
+Music Sales Specialist
+Remote  RHEI
+SVP of Global Marketing
+Los Angeles  Ourness Pty Ltd
+Director, D2C Commercial Strategy
+New York  Sony Music Entertainment
+Director of Marketing, Promotion & A&R – UK
+London  Reliant Music
+Head of Music – Latin America
+Mexico  Stellar Music
+Digital Marketing Manager
+London  One Little Independent
+Music Consultant/Curator
+United Kingdom / Music Concierge Worldwide Ltd
+Events Social Media Marketing Manager
+London / Defected Records Ltd
+Social Media Marketing Manager
+London / Defected Records Ltd
+A&R Manager, Domino Publishing Company
+Los Angeles / Domino Recording Company
+Audience Development Manager
+London / IDOL
+Music Business Worldwide
+
+Stay on top of the real stories shaping the music industry: Join over 60,000 industry professionals who rely on MBW's free emails for essential insights and breaking news.
+
+ SIGN UP
+POPULAR ARTICLES
+US APPEALS COURT REJECTS 'FAIR USE' DEFENSE OVER AI TRAINING – AS THOMSON REUTERS WINS COPYRIGHT CASE BACKED BY RIAA AND NMPA
+ELEVENLABS VALUATION DOUBLES TO $22B – FOUR TIMES THAT OF AI MUSIC RIVAL SUNO
+LESS THAN THREE MONTHS AFTER EXITING KOBALT, WILLARD AHDRITZ OFFICIALLY LAUNCHES AHDRITZ CAPITAL PARTNERS
+SIA SELLS 50% OF MUSIC CATALOG TO POPHOUSE IN $180M DEAL
+FRANK BRIEGMANN PROMOTED TO CHAIRMAN & CEO OF UNIVERSAL MUSIC EUROPE, AUSTRALIA, NEW ZEALAND, CANADA & DEUTSCHE GRAMMOPHON
+MUSIC BUSINESS WORLDWIDE
+WHO WE ARE
+WHAT WE DO
+POLICIES
+TERMS OF USE
+COMMENTS POLICY
+PRIVACY POLICY
+COOKIE DECLARATION
+CONTACT US
+CONTACT US
+ADVERTISE WITH US
+SEND US NEWS
+GENERAL ENQUIRIES
+REPORT A PROBLEM
+FOLLOW US
+ FACEBOOK
+ LINKEDIN
+ TWITTER
+ RSS
+© 2025 MUSIC BUSINESS WORLDWIDE
+27 OLD GLOUCESTER STREET, LONDON, WC1N 3AX
+WEBSITE BY 44 BYTES
+We'd like to show you notifications for the latest news and updates.
+Allow
+Cancel

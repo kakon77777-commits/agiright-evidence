@@ -1,0 +1,1038 @@
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" class=" js"><head>
+    <meta charset="utf-8">
+<meta name="description" content="A few months ago, a very valuable interdisciplinary workshop took place at UCL looking at the well-rehearsed but endless topic of genAI and copyright law. What made this meeting different and particularly insightful was the fact that it brought together legal scholars, computer scientists, and practitioners. The workshop was co-organised with the AI Hub in Generative Models and the UCL Institute of Brand and Innovation Law (IBIL). It was hosted at the UCL Centre for AI.">
+<link rel="canonical" href="https://legalblogs.wolterskluwer.com/copyright-blog/copyright-across-the-genai-lifecycle-views-from-computer-science-and-law/">
+<meta property="og:site_name" content="Kluwer Copyright Blog">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://legalblogs.wolterskluwer.com/copyright-blog/copyright-across-the-genai-lifecycle-views-from-computer-science-and-law/">
+<meta property="og:title" content="Copyright across the genAI lifecycle – views from computer science and law">
+<meta property="og:description" content="A few months ago, a very valuable interdisciplinary workshop took place at UCL looking at the well-rehearsed but endless topic of genAI and copyright law. What made this meeting different and particularly insightful was the fact that it brought together legal scholars, computer scientists, and practitioners. The workshop was co-organised with the AI Hub in Generative Models and the UCL Institute of Brand and Innovation Law (IBIL). It was hosted at the UCL Centre for AI.">
+<meta property="og:image" content="https://legalblogs.wolterskluwer.com/copyright-blog/uploads/sites/49/styles/large/public/2026/08/kvalifik-5Q07sS54D0Q-unsplash%20%281%29.jpg.webp?itok=GtBRZ7iu">
+<meta property="og:image:type" content="image/webp">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="600">
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/copyright-blog/themes/custom/kli_blogs_theme/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <title>Copyright across the genAI lifecycle – views from computer science and law | Kluwer Copyright Blog</title>
+    <link rel="stylesheet" media="all" href="/copyright-blog/uploads/sites/49/css/css_-LOqotSIpovYwmjO6ZhavC5Pqa39pYeHAkwNDFXINqM.css?delta=0&amp;language=en&amp;theme=kli_blogs_theme&amp;include=eJw1yVsKwzAMBdENCXtJQbZvUxE5Mpbcx-4Dof0ZOEy1idzmGqyJV1i1PhQBwidUzuP_fqRDZStqu2_xREfe1QordTTh_BANzFR5hNhJ_vVAz4Ud9BK8Pd9N3dpSXH1iL6c">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-v3-react16/0.0.129/theme-PDS-v3.bundle.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-v3-react16/0.0.129/all.bundle.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/forms.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/wk-footer.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/breadcrumb.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/banner.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/search-suggestions.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/search-suggestion.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/search-suggestion-category.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/action-bar.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/wk-switch.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/splitpane.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/card.css">
+<link rel="stylesheet" media="all" href="https://cdn.wolterskluwer.io/wk/components-react16/2.20.0/tag.css">
+<link rel="stylesheet" media="all" href="/copyright-blog/uploads/sites/49/css/css_ruLBstk4GeQ7go06R7NSvUbImjDzsG5maQ_t4d_hQgs.css?delta=15&amp;language=en&amp;theme=kli_blogs_theme&amp;include=eJw1yVsKwzAMBdENCXtJQbZvUxE5Mpbcx-4Dof0ZOEy1idzmGqyJV1i1PhQBwidUzuP_fqRDZStqu2_xREfe1QordTTh_BANzFR5hNhJ_vVAz4Ud9BK8Pd9N3dpSXH1iL6c">
+<link rel="stylesheet" media="print" href="/copyright-blog/uploads/sites/49/css/css_w3dp1MI0h1lu_ThcoxXAfjQQf3XuaoNgQr9EUMfodHE.css?delta=16&amp;language=en&amp;theme=kli_blogs_theme&amp;include=eJw1yVsKwzAMBdENCXtJQbZvUxE5Mpbcx-4Dof0ZOEy1idzmGqyJV1i1PhQBwidUzuP_fqRDZStqu2_xREfe1QordTTh_BANzFR5hNhJ_vVAz4Ud9BK8Pd9N3dpSXH1iL6c">
+<link rel="stylesheet" media="all" href="/copyright-blog/uploads/sites/49/css/css__7krgfX34p8KA_eufU25WRHHw_pcMF5WdQk_VSgf7a0.css?delta=17&amp;language=en&amp;theme=kli_blogs_theme&amp;include=eJw1yVsKwzAMBdENCXtJQbZvUxE5Mpbcx-4Dof0ZOEy1idzmGqyJV1i1PhQBwidUzuP_fqRDZStqu2_xREfe1QordTTh_BANzFR5hNhJ_vVAz4Ud9BK8Pd9N3dpSXH1iL6c">
+
+    <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-PCQJMG9WFC&amp;cx=c&amp;gtm=4e69u2"></script><script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/copyright-blog\/","pathPrefix":"","currentPath":"node\/4111","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJxliVEOwjAMxS5UtUeqsu6RhaVL1WYwbs8EX7AfS7ZxuMq2prnvjTTiq4HNWJGdOPGJf490p-M31rCq5EmNR_YFFYm6Szl_I8ZlstpEeskD1MuSaXcrVpvCESpmoXQTdfRYqLnYFsZrOGqaaCA8BM-RPozV5l3xBvbKU2E","theme":"kli_blogs_theme","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-N262K372"]},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindowLabel":"(opens in a new window)","extTargetNoOverride":false,"extNofollow":false,"extTitleNoOverride":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":"","extCssInclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","extHideIcons":false,"mailtoClass":"0","telClass":"0","mailtoLabel":"(link sends email)","telLabel":"(link is a phone number)","extUseFontAwesome":false,"extIconPlacement":"append","extPreventOrphan":false,"extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","extAdditionalLinkClasses":"","extAdditionalMailtoClasses":"","extAdditionalTelClasses":"","extFaTelClasses":"fa fa-phone","whitelistedDomains":[],"extExcludeNoreferrer":""}},"csp":{"nonce":"QnBOcqlIdUZiuxH0INFRzQ"},"user":{"uid":0,"permissionsHash":"e8a3b6ea44add27ef5ec4634302ed650222133ae5a66c69cab4ac82095586f1d"}}</script>
+<script src="/copyright-blog/uploads/sites/49/js/js_7ynBNMtCg9dUvYTmn-4mXy1Gy_t92XXpKs2X9jvaN_g.js?scope=header&amp;delta=0&amp;language=en&amp;theme=kli_blogs_theme&amp;include=eJxliUEKgDAQxD4k7ZPKWIe1unVLXcHnK3hSL4EkPF3LtsapHw0a-OggZqJMDoly4-sBC853rMOqJY1qsiefWRnRveT7Nwh_U9RG6C_vRM9zwuGWrTal8wINbj9e"></script>
+<script src="/copyright-blog/modules/contrib/google_tag/js/gtag.js?t8wwzc"></script>
+<script src="/copyright-blog/modules/contrib/google_tag/js/gtm.js?t8wwzc"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-N262K372" type="text/javascript"></script>
+
+  </head>
+  <body cg3-theme="PDS-v3">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N262K372"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    
+<header data-e2e="cg-banner" class="cg-banner">
+	<div class="cg-banner-container ">
+    <div class="cg-banner-content">
+      <div class="cg-banner-left-content">
+        <div class="cg-banner-brand-suite">
+          <a href="https://legalblogs.wolterskluwer.com/copyright-blog/">
+            <picture class="cg-banner-brand-logo hide-on-mobile">
+              <img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/logo/wheel-medium.svg" width="26" height="26" alt="Wolters Kluwer Logo">
+            </picture>
+            <picture class="cg-banner-brand-logo cg3-section-for-mobile-only">
+              <img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/logo/wheel-small.svg" width="24" height="24" alt="Wolters Kluwer Logo">
+            </picture>
+          </a>
+          <span data-e2e="cg-banner-brand-inline" aria-hidden="true" class="cg-banner-brand-inline">
+            <span class="cg-banner-brand-parent"></span>
+          </span>
+        </div>
+      </div>
+              <div data-e2e="cg-banner-search-container" class="cg-banner-search-container ">
+  <div class="cg-banner-search-placeholder">
+    <div class="cg-banner-search">
+      <div data-e2e="cg-banner-search-mobile" class="cg-banner-search-mobile">
+        <div slot="bannerSearchMobile">
+          <div data-e2e="cg-button-field-icon" class="cg-button-field cg-button-field-icon cg-button-field-icon-large ">
+            <button type="button" id="searchMobile" onclick="openSearchSuggestion()">
+							<span class="cg-icon">
+									<img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/icons/functional/open/application/search.svg" alt="search" width="24" height="24" focusable="false">
+							</span>
+            </button>
+          </div>
+          <div data-e2e="cg-sr-only" class="cg-sr-only">Open search</div>
+          <div data-e2e="cg-search-suggestions-dropdown" class="cg-search-suggestions-dropdown">
+            <div data-e2e="cg-fullscreen" class="cg-fullscreen cg-fullscreen-mobile-open ">
+              <div data-e2e="cg-menu-wrapper" class="cg-search-suggestions-dropdown-menu-wrapper">
+                <div data-e2e="cg-search-suggestions-dropdown-menu-area" class="cg-search-suggestions-dropdown-menu-area">
+                  <div data-e2e="cg-field" data-field-inlay-items="2" class="cg-field-extra-large cg-field cg-search-field_cg_unique">
+                    <div data-e2e="cg-field-body" class="cg-field-body  cg-search-field">
+                      <div data-e2e="cg-input-field-container" class="cg-input-field-container ">
+                        <input type="search" id="custom-search-form-input-mobile" aria-labelledby="sr-label-id-001" placeholder="Search blogs for articles and authors" slot="searchSuggestionsInput" value="" aria-autocomplete="list" aria-controls="suggestion-category-1" aria-expanded="true" autocomplete="off" role="combobox" class="ui-autocomplete-input">
+                        <div data-e2e="cg-field-inlay" class="cg-field-inlay">
+                          <div data-e2e="cg-button-field-icon" class="cg-button-field cg-button-field-icon ">
+                            <button type="button" data-e2e="cg-search-button" class="cg-field-button" id="search-button-mobile">
+															<span class="cg-icon">
+																	<img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/icons/functional/open/application/search.svg" alt="search" width="24" height="24" focusable="false">
+															</span>
+                            </button>
+                          </div>
+                          <div class="cg-close-button-divider"></div>
+                          <div data-e2e="cg-button-field-icon" class="cg-button-field cg-button-field-icon ">
+                            <button type="button" data-e2e="cg-close-button" class="cg-field-button cg-close" onclick="closeSearchSuggestion()">
+															<span class="cg-icon">
+																	<img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/icons/functional/open/application/close.svg" alt="close" width="16" height="16" focusable="false">
+															</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-e2e="cg-search-suggestions-dropdown-menu" class="cg-search-suggestions-dropdown-menu">
+                    <section aria-labelledby="suggestion-category-1-title" data-e2e="cg-search-suggestion-category" class="cg-search-suggestion-category ">
+                      <div id="suggestion-category-1-title" class="cg-search-suggestion-category-title">
+                        <span slot="categoryTitle">Search suggestion</span>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form action="https://legalblogs.wolterskluwer.com/copyright-blog/search/" method="get" role="search" data-e2e="cg-banner-search">
+      <div data-e2e="cg-banner-search-default" class="cg-banner-search-default">
+        <div data-e2e="cg-field" data-field-inlay-items="1" class="cg-field-secondary cg-field">
+          <div data-e2e="cg-field-body" class="cg-field-body cg-search-field">
+            <div data-e2e="cg-input-field-container" class="cg-input-field-container">
+              <div class="cg-field-inlay-left">
+                <div class="cg-button-field cg-button-field-icon cg-button-field-icon-large">
+                  <button type="submit" class="cg-field-button">
+                <span class="cg-icon">
+                  <img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/icons/functional/open/application/search.svg" alt="search" width="24" height="24" focusable="false">
+                </span>
+                  </button>
+                </div>
+              </div>
+              <input type="search" id="custom-search-form-input" name="query" placeholder="Search blogs for articles and authors" value="" autocomplete="off" class="ui-autocomplete-input">
+            </div>
+          </div>
+        </div>
+      </div>
+      </form>
+      <div data-e2e="cg-suggestion-box-desktop" class="cg-suggestion-box-desktop hide-on-mobile-and-tablet">
+        <div>
+          <div data-e2e="cg-sr-only" class="cg-sr-only">Open suggestion box</div>
+          <div data-e2e="cg-search-suggestions-dropdown" class="cg-search-suggestions-dropdown">
+            <div data-e2e="cg-fullscreen" class="cg-fullscreen cg-fullscreen-mobile-open ">
+              <!-- Add "cg-is-open" class to class="cg-search-suggestions-dropdown-menu-wrapper" to open suggestion box -->
+              <div data-e2e="cg-menu-wrapper" class="cg-search-suggestions-dropdown-menu-wrapper" id="suggestions-dropdown-desktop">
+                <div data-e2e="cg-search-suggestions-dropdown-menu-area" class="cg-search-suggestions-dropdown-menu-area">
+                  <div data-e2e="cg-search-suggestions-dropdown-menu" class="cg-search-suggestions-dropdown-menu">
+                    <section aria-labelledby="suggestion-category-1-title" data-e2e="cg-search-suggestion-category" class="cg-search-suggestion-category ">
+                      <div id="suggestion-category-1-title" class="cg-search-suggestion-category-title">
+                        <span slot="categoryTitle">Search suggestion</span>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+
+    <div data-e2e="cg-banner-right-content" class="cg-banner-right-content">
+      <div class="cg-button-field cg-button-field-icon cg-button-field-icon-large cg-more-info-button-mobile">
+        <button class="cg-field-button" onclick="openFullscreen()">
+			<span class="cg-icon">
+					<img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/icons/functional/filled/application/more.svg" width="24" height="24" alt="dots-menu" focusable="false">
+			</span>
+        </button>
+      </div>
+      <div class="cg-banner-action-bar-item">
+        <div class="cg-dropdown-close-area">
+          <div data-e2e="cg-button-field-icon-close" class="cg-button-field cg-button-field-icon cg-button-field-close">
+            <button type="button" onclick="closeFullscreen()">
+					<span class="cg-icon">
+							<img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/icons/functional/open/application/close.svg" width="16" height="16" alt="close button">
+					</span>
+            </button>
+          </div>
+        </div>
+        
+        <div class="cg-custom-button cg-toggle-button">
+	<a id="cg3-dropdown-selector" aria-haspopup="true" aria-expanded="false" onclick="toggleDropdown()">
+		<div class="cg-log-in-btn">
+			<span class="cg-icon cg-log-in-icon-button">
+					<img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/icons/functional/open/application/login.svg" alt="log in button" width="16" height="16">
+			</span>
+			<span>See related products</span>
+		</div>
+		<span class="cg-icon">
+				<img src="https://cdn.wolterskluwer.io/wk/jumpstart-v3-assets/0.x.x/icons/functional/open/arrow/chevron-down.svg" alt="arrow down" width="16" height="16">
+		</span>
+	</a>
+	<div class="cg3-dropdown hidden">
+		<div flow-id="dropdown-area" class="cg3-dropdown-area">
+			<div class="cg3-dropdown-content-area">
+				<ul flow-id="dropdown-list" class="cg3-dropdown-list " aria-labelledby="b">
+											<li flow-id="dropdown-list-item" class="cg3-dropdown-list-item">
+              <a href="http://www.kluweriplaw.com/" class="no-decoration ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+                <div flow-id="dropdown-item-field" class="cg3-dropdown-item-field">
+                  <button type="button" class="dropdown-button">Kluwer IP Law</button>
+                </div>
+              </a>
+						</li>
+											<li flow-id="dropdown-list-item" class="cg3-dropdown-list-item">
+              <a href="https://legalblogs.wolterskluwer.com/patent-blog/" class="no-decoration">
+                <div flow-id="dropdown-item-field" class="cg3-dropdown-item-field">
+                  <button type="button" class="dropdown-button">Kluwer Patent Blog</button>
+                </div>
+              </a>
+						</li>
+											<li flow-id="dropdown-list-item" class="cg3-dropdown-list-item">
+              <a href="https://legalblogs.wolterskluwer.com/trademark-blog/" class="no-decoration">
+                <div flow-id="dropdown-item-field" class="cg3-dropdown-item-field">
+                  <button type="button" class="dropdown-button">Kluwer Trademark Blog</button>
+                </div>
+              </a>
+						</li>
+											<li flow-id="dropdown-list-item" class="cg3-dropdown-list-item">
+              <a href="http://www.kluwerlaw.com/" class="no-decoration ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+                <div flow-id="dropdown-item-field" class="cg3-dropdown-item-field">
+                  <button type="button" class="dropdown-button">Kluwer Law International</button>
+                </div>
+              </a>
+						</li>
+											<li flow-id="dropdown-list-item" class="cg3-dropdown-list-item">
+              <a href="http://www.kluwerlaw.com/catalogue/" class="no-decoration ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+                <div flow-id="dropdown-item-field" class="cg3-dropdown-item-field">
+                  <button type="button" class="dropdown-button">E-Store</button>
+                </div>
+              </a>
+						</li>
+											<li flow-id="dropdown-list-item" class="cg3-dropdown-list-item">
+              <a href="https://www.wolterskluwer.com/en/solutions/kluwerlawinternational/authors" class="no-decoration ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+                <div flow-id="dropdown-item-field" class="cg3-dropdown-item-field">
+                  <button type="button" class="dropdown-button">Authors</button>
+                </div>
+              </a>
+						</li>
+									</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</header>
+  <div class="breadcrumb-story1 cg-breadcrumb-master-container-img">
+  <div class="cg3-typography">
+    <div class="cg3-breadcrumb-title">Kluwer Copyright Blog</div>
+  </div>
+</div>
+
+
+<main>
+      
+<div class="cg3-page-container">
+  <div class="cg3-typography">
+    <div class="cg3-section-container-cstm">
+      <div class="cg3-article-main-panel-cstm">
+        <div data-drupal-messages-fallback="" class="hidden"></div>  <div data-e2e="cg-action-bar" class="cg-action-bar">
+  <div class="cg-action-bar-panels">
+    <div data-e2e="cg-action-bar-panel-actions" class="cg-action-bar-panel-actions">
+      <nav data-e2e="cg-button-group" class="cg-button-group ">
+        <ul class="cg-button-group-items ">
+          <li class="cg-button-group-item">
+            <div data-e2e="cg-button-field" class="cg-button-field cg-button-field-small cg-button-field-icon-left cg-button-field-text ">
+              <button type="button" onclick="generatePDF()">
+                <span data-e2e="cg-icon" class="cg-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve">
+                    <path d="M19.2,12l-1.1-1.1l-5.3,5.3V1.6h-1.6v14.6l-5.3-5.3L4.8,12l7.2,7.2L19.2,12z M1.6,20.8v1.6h20.8v-1.6H1.6z"></path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <span data-e2e="cg-tooltip" class="cg-tooltip-ctx cg-tooltip-open cg-disable-animation cg-tooltip cg-tooltip-indicator cg-position-top ">
+              <span class="cg-tooltip-content">
+                <span data-e2e="cg-tooltip-body" class="cg-tooltip-body">Download</span>
+              </span>
+            </span>
+          </li>
+          <li class="cg-button-group-item">
+            <div data-e2e="cg-button-field" class="cg-button-field cg-button-field-small cg-button-field-icon-left cg-button-field-text ">
+              <button type="button" onclick="openPrintModal()">
+                <span data-e2e="cg-icon" class="cg-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve">
+                    <path d="M19.2,6.4V0H4.8v6.4H0v14.4h4.8V24h14.4v-3.2H24V6.4H19.2z M6.4,1.6h11.2v4.8H6.4V1.6z M17.6,22.4H6.4v-8h11.2V22.4z   M22.4,19.2h-3.2v-6.4H4.8v6.4H1.6V8h20.8V19.2z M20.8,9.6h-3.2v1.6h3.2V9.6z"></path>
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <span data-e2e="cg-tooltip" class="cg-tooltip-ctx cg-tooltip-open cg-disable-animation cg-tooltip cg-tooltip-indicator cg-position-top " role="tooltip">
+                <span class="cg-tooltip-content">
+                    <span data-e2e="cg-tooltip-body" class="cg-tooltip-body">Print</span>
+                </span>
+            </span>
+          </li>
+          <li class="cg-button-group-item">
+            <div data-e2e="cg-button-field" class="cg-button-field cg-button-field-small cg-button-field-icon-left cg-button-field-text ">
+              <button type="button">
+                  <span data-e2e="cg-icon" class="cg-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve">
+                          <path d="M19.2,15.2c-1.3,0-2.4,0.6-3.1,1.6L8.6,13c0.1-0.3,0.2-0.7,0.2-1c0-0.4-0.1-0.7-0.2-1l7.4-3.7c0.7,0.9,1.9,1.5,3.1,1.5  c2.2,0,4-1.8,4-4s-1.8-4-4-4s-4,1.8-4,4c0,0.4,0.1,0.7,0.2,1L7.9,9.5C7.2,8.6,6.1,8,4.8,8c-2.2,0-4,1.8-4,4c0,2.2,1.8,4,4,4  c1.3,0,2.4-0.6,3.1-1.6l7.4,3.7c-0.1,0.3-0.2,0.7-0.2,1c0,2.2,1.8,4,4,4s4-1.8,4-4S21.4,15.2,19.2,15.2z M19.2,2.4  c1.3,0,2.4,1.1,2.4,2.4s-1.1,2.4-2.4,2.4c-1.3,0-2.4-1.1-2.4-2.4S17.9,2.4,19.2,2.4z M4.8,14.4c-1.3,0-2.4-1.1-2.4-2.4  c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4C7.2,13.3,6.1,14.4,4.8,14.4z M19.2,21.6c-1.3,0-2.4-1.1-2.4-2.4s1.1-2.4,2.4-2.4  c1.3,0,2.4,1.1,2.4,2.4S20.5,21.6,19.2,21.6z"></path>
+                      </svg>
+                  </span>
+              </button>
+            </div>
+            <div class="cg3-dropdown">
+              <div flow-id="dropdown-area" class="cg3-dropdown-area">
+                <div class="cg3-dropdown-content-area">
+                  <ul flow-id="dropdown-list" class="cg3-dropdown-list " aria-labelledby="b" data-url="https://legalblogs.wolterskluwer.com/copyright-blog/copyright-across-the-genai-lifecycle-views-from-computer-science-and-law/" data-title="Copyright across the genAI lifecycle – views from computer science and law">
+                    <li flow-id="dropdown-list-item" class="cg3-dropdown-list-item share-linkedin">
+                      <div flow-id="dropdown-item-field" class="cg3-dropdown-item-field ">
+                        <button type="button" class="dropdown-button">
+                          <span data-e2e="cg-icon" class="cg-icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve">
+                                  <path d="M21.4,0.8h-19c-1,0-1.7,0.7-1.7,1.6v19.2c0,0.9,0.7,1.6,1.7,1.6h19.1c0.9,0,1.7-0.7,1.7-1.6V2.4C23.1,1.5,22.4,0.8,21.4,0.8  z M7.4,19.9H4.1V9.2h3.3C7.4,9.2,7.4,19.9,7.4,19.9z M5.7,7.8c-1,0-1.9-0.9-1.9-1.9s0.9-1.9,1.9-1.9s1.9,0.9,1.9,1.9  S6.9,7.8,5.7,7.8z M19.9,19.9h-3.3v-5.2c0-1.2,0-2.8-1.8-2.8c-1.8,0-2,1.4-2,2.7v5.3H9.5V9.2h3.2v1.4h0.1c0.5-0.9,1.5-1.8,3.1-1.8  c3.3,0,4,2.2,4,5.1V19.9z"></path>
+                              </svg>
+                          </span>Share via Linkedin
+                        </button>
+                      </div>
+                    </li>
+                    <li flow-id="dropdown-list-item" class="cg3-dropdown-list-item share-x">
+                      <div flow-id="dropdown-item-field" class="cg3-dropdown-item-field ">
+                        <button type="button" class="dropdown-button">
+                          <span data-e2e="cg-icon" class="cg-icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                  <path d="M1.5512 2L9.65907 13.0312L1.5 22H3.33628L10.4795 14.1477L16.2511 22H22.5L13.936 10.3483L21.5303 2H19.6941L13.1155 9.23185L7.80013 2H1.5512ZM4.25158 3.37634H7.12235L19.7992 20.6235H16.9284L4.25158 3.37634Z" fill="#353535"></path>
+                              </svg>
+                          </span>Share via X
+                        </button>
+                      </div>
+                    </li>
+                    <li flow-id="dropdown-list-item" class="cg3-dropdown-list-item share-email">
+                      <div flow-id="dropdown-item-field" class="cg3-dropdown-item-field ">
+                        <button type="button" class="dropdown-button">
+                          <span data-e2e="cg-icon" class="cg-icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve">
+                                  <path d="M0,3.2v17.6h24V3.2H0z M14.1,13.1c-1.2,1.1-1.4,1.3-2.1,1.3s-0.9-0.2-2-1.3L1.6,4.8h20.8L14.1,13.1z M1.6,7.1l5.7,5.7  l-5.7,4.7V7.1z M2,19.2l6.5-5.3l0.3,0.3C10,15.3,10.6,16,12,16s2.1-0.7,3.2-1.8l0.3-0.3l6.5,5.3H2z M22.4,17.4l-5.7-4.7l5.7-5.7  V17.4z"></path>
+                              </svg>
+                          </span>Share via email
+                        </button>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div aria-modal="true" aria-hidden="false" aria-labelledby="header-id-001" flow-id="modal" class="cg3-modal hidden">
+  <div flow-id="modal-overlay" class="cg3-modal-overlay"></div>
+  <div flow-id="modal-container" class="cg3-modal-container">
+    <div class="header-buttons">
+      <div flow-id="button-field" class="cg3-button-field cg3-button-field-large cg3-button-field-icon cg3-button-field-info ">
+        <button type="button" flow-id="close-button" onclick="closePrintModal()">
+          <span flow-id="icon" class="cg3-icon ">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve">
+              <path d="M20.8,4.3l-1.1-1.1L12,10.9L4.3,3.2L3.2,4.3l7.7,7.7l-7.7,7.7l1.1,1.1l7.7-7.7l7.7,7.7l1.1-1.1L13.1,12L20.8,4.3z"></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="content cg3-modal-print-container">
+      <div>
+        <div class="cg3-modal-print-title">Print</div>
+        <div class="cg3-modal-print-subtitle">Selected document</div>
+        <p class="cg3-modal-subtitle-cstm">Copyright across the genAI lifecycle – views from computer science and law</p>
+      </div>
+      <div>
+        <div class="cg3-modal-print-subtitle">Printing options
+          <span class="cg3-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve">
+              <path d="M12,0C5.4,0,0,5.4,0,12s5.4,12,12,12s12-5.4,12-12S18.6,0,12,0z M12,22.4C6.3,22.4,1.6,17.7,1.6,12S6.3,1.6,12,1.6  S22.4,6.3,22.4,12S17.7,22.4,12,22.4z M11.2,19.2h1.6V9.6h-1.6V19.2z M11.2,8h1.6V4.8h-1.6V8z"></path>
+            </svg>
+          </span>
+        </div>
+        <div class="cg3-switch-label-cstm">
+          <span class="fixed-width">Blog post</span>
+          <label data-e2e="cg-switch" class="cg-switch cg-switch-small">
+            <input data-e2e="cg-switch-large" type="checkbox" name="blog-post-switch" class="cg-switch-checkbox" checked="">
+            <span aria-hidden="true" class="cg-switch-base"></span><span aria-hidden="true" class="cg-switch-focus-placeholder"></span>
+          </label>
+        </div>
+        <div class="cg3-switch-label-cstm">
+          <span class="fixed-width">Comments</span>
+          <label data-e2e="cg-switch" class="cg-switch cg-switch-small">
+            <input data-e2e="cg-switch-large" type="checkbox" name="comments-switch" class="cg-switch-checkbox">
+            <span aria-hidden="true" class="cg-switch-base"></span><span aria-hidden="true" class="cg-switch-focus-placeholder"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="cg3-modal-cta-section-cstm">
+      <a href="#" onclick="closePrintModal()">Cancel</a>
+      <div flow-id="button-field" class="cg3-button-field cg3-button-field-medium cg3-button-field-primary cg3-button-field-info ">
+        <button type="button" flow-id="primary-button" onclick="printPost()">Print</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="article-tags">
+    <div flow-id="responsive-list" class="cg3-responsive-list cg3-pill-group-responsive-list">
+      <div class="cg-button-field cg-button-field-icon hidden">
+        <button type="button" onclick="closeMoreCategoriesMobile()">
+          <span class="cg3-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve">
+              <polygon points="20.8,5.4 18.6,3.2 12,9.8 5.4,3.2 3.2,5.4 9.8,12 3.2,18.6 5.4,20.8 12,14.2 18.6,20.8 20.8,18.6 14.2,12 "></polygon>
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div class="cg3-responsive-list-container">
+                            <div class="cg3-responsive-list-item" style="display: block;">
+            <span slot="responsiveListItem">
+              <a href="https://legalblogs.wolterskluwer.com/copyright-blog/category/artificial-intelligence-ai/">
+                <div flow-id="pill-suggestion-field" class="cg3-pill-suggestion-field cg3-pill-suggestion-field-medium">
+                  <button type="button">Artificial Intelligence (AI)</button>
+                </div>
+              </a>
+            </span>
+          </div>
+                            <div class="cg3-responsive-list-item" style="display: block;">
+            <span slot="responsiveListItem">
+              <a href="https://legalblogs.wolterskluwer.com/copyright-blog/category/conference/">
+                <div flow-id="pill-suggestion-field" class="cg3-pill-suggestion-field cg3-pill-suggestion-field-medium">
+                  <button type="button">Conference</button>
+                </div>
+              </a>
+            </span>
+          </div>
+                            <div class="cg3-responsive-list-item" style="display: block;">
+            <span slot="responsiveListItem">
+              <a href="https://legalblogs.wolterskluwer.com/copyright-blog/category/text-and-data-mining-tdm/">
+                <div flow-id="pill-suggestion-field" class="cg3-pill-suggestion-field cg3-pill-suggestion-field-medium">
+                  <button type="button">Text and Data Mining (TDM)</button>
+                </div>
+              </a>
+            </span>
+          </div>
+                <div class="cg3-more-category-btn-cstm" style="display: none;">
+        <div slot="responsiveListItemExpand">
+          <div flow-id="pill-text-field" class="cg3-pill-text-field cg3-pill-text-field-medium">
+            <button type="button" onclick="openMoreCategories()" flow-id="pill-group-more-button" aria-controls="pill-group-id-008" aria-expanded="false">
+            </button>
+          </div>
+        </div>
+          <div class="cg3-dropdown">
+            <div flow-id="dropdown-area" class="cg3-dropdown-area hidden">
+              <div class="cg3-dropdown-content-area">
+                <ul flow-id="dropdown-list" class="cg3-dropdown-list" aria-labelledby="b"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="cg3-article-main-section-container-cstm">
+  <h1 class="cg3-page-title">Copyright across the genAI lifecycle – views from computer science and law</h1>
+      <div class="cg3-authors-name-cstm">
+                        <a href="https://legalblogs.wolterskluwer.com/copyright-blog/author/alinatrapova/">Alina Trapova</a>,           <a href="https://legalblogs.wolterskluwer.com/copyright-blog/author/jhall1/">James Hall</a>            <a href="" target="_blank">(University College London)</a>,                   <a href="https://legalblogs.wolterskluwer.com/copyright-blog/author/thomasmargoni/">Thomas Margoni</a>,           <a href="https://legalblogs.wolterskluwer.com/copyright-blog/user/910/">Leona King</a>            <a href="https://www.law.kuleuven.be/citip/en/staff-members/staff/00158494" target="_blank" class="ext" data-extlink="" rel="noopener noreferrer" title="(opens in a new window)">(KU Leuven Centre for IT &amp; IP Law)</a>          </div>
+    <span class="cg3-article-date-cstm">August 13, 2026</span>
+  <div class="cg3-blog-image-container-cstm">
+    <img src="https://legalblogs.wolterskluwer.com/copyright-blog/uploads/sites/49/styles/large_16_9/public/2026/08/kvalifik-5Q07sS54D0Q-unsplash%20%281%29.jpg.webp?itok=y_RgCdpQ" alt="Photo by &lt;a href=&quot;https://unsplash.com/@kvalifik?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Kvalifik&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/person-writing-on-glass-whiteboard-with-diagrams-5Q07sS54D0Q?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;" width="800" height="450" class="blog-image">
+  </div>
+</div>
+<div class="cg3-main-article-section-cstm">
+  <section>
+    	<p class="text-align-justify"><span lang="EN-US">A few months ago, a very valuable interdisciplinary workshop took place at UCL looking at the well-rehearsed but endless topic of genAI and copyright law. What made this meeting different and particularly insightful was the fact that it brought together legal scholars, computer scientists, and practitioners. </span><span>The workshop was co-organised with the AI Hub in Generative Models and </span><span lang="EN-US">the UCL Institute of Brand and Innovation Law (IBIL).</span><span> It was hosted at the UCL Centre for AI.</span></p><p class="text-align-justify"><span lang="EN-US">The group met on 13 March 2026 and&nbsp; examined how copyright law applies across the generative AI lifecycle: from data collection and model training to post-training retrieval systems such as RAG. Across the discussions, a clear message emerged: generative AI is exposing structural tensions within copyright law. Existing legal frameworks are being asked to govern technological practices that do not map neatly onto traditional copyright concepts, while technical realities often sit uneasily with legal notions such as reproduction, lawful access, originality, and liability.</span></p><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><span lang="EN-US"><strong>Key Takeaways</strong></span></p><p class="text-align-justify"><em><span lang="EN-US">Lawful access is central, but deeply uncertain</span></em></p><p class="text-align-justify"><span lang="EN-US">A major focus was the concept of “lawful access” under </span><a href="https://eur-lex.europa.eu/eli/dir/2019/790/oj/eng" class="ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)"><span lang="EN-US">Articles 3 and 4 of the EU Copyright in the Digital Single Market (CDSM) Directive</span></a><span lang="EN-US"> – a notion present also in </span><a href="https://www.legislation.gov.uk/ukpga/1988/48/contents" class="ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)"><span lang="EN-US">section 29A of the UK Copyright Designs and Patents Act 1988</span></a><span lang="EN-US">. This is a legal requirement for the validity of EU and UK TDM copyright exception, which also serve as a basis for many AI training activities. Participants noted that this concept is underdefined in legislation and not yet clarified by the courts. This creates significant uncertainty for AI developers and researchers, especially where data is scraped from content that is freely available online but may itself be infringing. The result is a legal grey zone surrounding the question of whether TDM for AI training is permissible. The boundaries, legal and factual, of lawfully accessible content are also increasingly shaped b</span><span>y technological protection measures or other </span><a href="https://blog.cloudflare.com/monetization-gateway/" class="ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)"><span>infrastructure-level access controls, with services such as </span><span lang="EN-US">Cloudflare</span></a><span lang="EN-US">, </span><span>raising questions about the interaction between technical and legal definitions of lawful access</span><span lang="EN-US">.</span></p><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><em><span lang="EN-US">Territorial copyright rules do not map neatly onto AI systems</span></em></p><p class="text-align-justify"><span lang="EN-US">Copyright remains territorial, but GenAI development is not. Training may take place in one jurisdiction, hosting in another, and deployment in another still. This raises unresolved questions about where copyright-relevant acts occur, and which law applies to those potential infringements. Judicial practice seems also to diverge, as shown by cases such as </span><a href="https://www.judiciary.uk/wp-content/uploads/2025/11/Getty-Images-v-Stability-AI.pdf" class="ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)"><em>Getty</em> in the UK</a><span lang="EN-US"> and </span><a href="https://aifray.com/wp-content/uploads/2025/11/42-O-14139-24-Endurteil.pdf" class="ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)"><em>GEMA</em> in Germany</a><span lang="EN-US">. Although the </span><a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" class="ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)"><span lang="EN-US">EU AI Act</span></a><span lang="EN-US"> reflects a broader regulatory ambition to impose copyright-related compliance obligations on providers of general purpose AI (GPAI) models placed on the EU market regardless of where training occurred, the extent to which territorial copyright doctrines can support such an approach remains legally and practically contested.</span></p><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><em><span lang="EN-US">The law struggles to translate technical realities of training and memorisation</span></em></p><p class="text-align-justify"><span lang="EN-US">Participants emphasized that AI models do not literally “store” works; rather, they encode statistical relationships in numerical parameters. Yet, copyright law’s broad concept of reproduction may still capture some model behaviour, especially where outputs reproduce recognisable parts of works. The workshop highlighted that “memorisation” has become a key bridge concept between computer science and law, but it carries different operational commitments in each field: in computer science, empirical claims about memorisation reflect the elicitation technique used as much as the model itself, while in copyright it plays important functions as an evidentiary shortcut to prove reproduction. This leaves major open questions about when outputs are copies, derivatives, or merely statistically generated similarities.</span></p><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><em><span lang="EN-US">Liability across the AI value chain remains unresolved</span></em></p><p class="text-align-justify"><span lang="EN-US">The workshop explored responsibility not only for foundation model developers, but also for fine-tuners, deployers, and providers of post-training services. Contractual arrangements often push liability downstream, while copyright doctrines such as secondary infringement remain uneven and underdeveloped across jurisdictions. This creates uncertainty about who should bear responsibility where unlawful training data, infringing outputs, or problematic retrieval practices are involved.</span></p><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><em><span lang="EN-US">RAG raises distinct but related copyright questions</span></em></p><p class="text-align-justify"><span lang="EN-US">Retrieval-Augmented Generation (RAG) was discussed as a cheaper and more dynamic alternative to retraining or fine-tuning, but one that introduces its own copyright issues. These include caching, vectorisation, chunking, indexing, and the potential retrieval or leakage of protected content. Participants noted that RAG may be easier than model training to link back to original works, making questions of reproduction and liability more acute. At the same time, no coherent legal framework clearly governs RAG today; possible analogies include legislation pertaining to search engines and hyperlinking, TDM exceptions, implied licence theories, and intermediary liability.</span></p><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><em><span>Core copyright doctrines face pressure at the output stage</span></em></p><p class="text-align-justify"><span>GenAI output places strain on several foundational copyright doctrines. The idea/expression dichotomy – which limits copyright protection to expression rather than underlying ideas – is complicated by systems capable of producing outputs that closely reproduce protected expression in response to prompts framed at the level of ideas alone. The independent creation doctrine, which has historically shielded creators from infringement liability where copying cannot be established, sits uneasily with AI systems trained on broad corpora, where the causal relationship between training data and output remains technically opaque but legally material. Derivative works occupy a similarly contested position, with questions remaining about how adaptation rights apply to AI-generated outputs that draw on but do not directly reproduce protected works.</span></p><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><em><span lang="EN-US">Hybrid governance comes with serious trade-offs</span></em></p><p class="text-align-justify"><span lang="EN-US">A range of mechanisms – including output filtering, machine unlearning, content recognition systems, contractual licensing, and collective bargaining – were widely discussed as likely components of any future governance framework for GenAI copyright. Each, however, carries significant trade-offs. Machine unlearning is not model-agnostic, may be reversed, and at best reduces the probability of a given output rather than effecting true removal of content. Output filtering and content recognition are computationally intensive – particularly for video models – and risk placing disproportionate burdens on smaller market participants. More extensive filtering also raises concerns about interference with freedom of expression. No single instrument is likely to resolve these tensions; any effective response will require careful calibration against competition, innovation, and expressive interests.</span></p><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><span lang="EN-US"><strong>Cross-Cutting Themes</strong></span></p><p class="text-align-justify"><span lang="EN-US">Three broader themes ran through the workshop:</span></p><ul><li><p class="text-align-justify"><span lang="EN-US">There is a persistent <strong>mismatch between technical and legal vocabulary</strong>. Terms such as reproduction, memorisation, storage, and copying carry different meanings across disciplines.</span></p></li><li><p class="text-align-justify"><span lang="EN-US"><strong>Private governance is increasingly shaping access and enforcement</strong>. Bot blocking, platform standards, and private infrastructure providers may in practice determine what counts as accessible data more effectively than public copyright law.</span></p></li><li><p class="text-align-justify"><span lang="EN-US"><strong>Future solutions are likely to be hybrid</strong>. Regulatory rules alone will not resolve all tensions. Commercial licensing, technical filtering, machine unlearning, collective bargaining, and transparency obligations are all likely to play a role, though each comes with trade-offs for innovation, competition, and freedom of expression.</span></p></li></ul><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><span lang="EN-US"><strong>Participants</strong></span></p><p class="text-align-justify">&nbsp;</p><p class="text-align-justify"><span>Participants at the workshop included the following, among others:</span></p><ul><li><p class="text-align-justify"><span>Dr Alina Trapova, Co-Director, UCL IBIL</span></p></li><li><p class="text-align-justify"><span>Prof Miguel Rodrigues, Professor of Information Theory and Processing, UCL</span></p></li><li><p class="text-align-justify"><span>Prof Thomas Margoni, Professor in Law, KU Leuven</span></p></li><li><p class="text-align-justify"><span>James Hall, Research Assistant, UCL IBIL</span></p></li><li><p class="text-align-justify"><span>Leona King, Legal Researcher, KU Leuven</span></p></li><li><p class="text-align-justify"><span>Dr Siddharth Swaroop, Assistant Professor, UCL</span></p></li><li><p class="text-align-justify"><span>Prof Michael Veale, Professor of Technology Law and Policy, UCL</span></p></li><li><p class="text-align-justify"><span>Yuhan Wang, Postdoc, University of Manchester and AI Hub in Generative Models</span></p></li><li><p class="text-align-justify"><span lang="EN-GB">Dr Canhui Liu, Research Fellow, UCL</span></p></li></ul><hr><p><em>Photo by </em><a href="https://unsplash.com/@kvalifik?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" class="ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)"><em>Kvalifik</em></a><em> on </em><a href="https://unsplash.com/photos/person-writing-on-glass-whiteboard-with-diagrams-5Q07sS54D0Q?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" class="ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)"><em>Unsplash</em></a></p>
+
+  </section>
+      <div class="cg3-tag-section-cstm">
+      <strong>Tags: </strong>
+              <a href="https://legalblogs.wolterskluwer.com/copyright-blog/tag/lawful-access/">lawful access,</a>
+              <a href="https://legalblogs.wolterskluwer.com/copyright-blog/tag/memorisation/">memorisation,</a>
+              <a href="https://legalblogs.wolterskluwer.com/copyright-blog/tag/rag/">RAG,</a>
+              <a href="https://legalblogs.wolterskluwer.com/copyright-blog/tag/computer-science/">computer science</a>
+          </div>
+  </div>
+<div class="cg3-article-comment-container-cstm">
+  <div class="cg3-notification-container"></div>
+  <div class="cg3-article-title-cstm">Comments (0)</div>
+  <span class="cg3-article-comment-subtitle-cstm">Your email address will not be published.</span>
+
+  <div class="cg3-article-comments-section-cstm" data-pages="0" data-page="1">
+      </div>
+  
+  <form id="leave-comment" class="comment-reply-form" action="" data-article-id="4111">
+    <input type="hidden" name="parent" value="">
+    <input type="hidden" name="node" value="4111">
+    <div class="cg3-article-title-cstm">Leave a Comment</div>
+    <span class="cg3-article-comment-subtitle-cstm">Your email address will not be published.</span>
+    <div class="cg3-article-form-cstm">
+      <div flow-id="textarea-field" class="cg3-textarea-field ">
+        <div flow-id="form-field" class="cg3-form-field ">
+          <div flow-id="form-field-header" class="cg3-form-field-header cg3-textarea-field-header">
+            <label flow-id="form-field-label" for="textarea-id-textarea-story1" class="cg3-form-field-label ">Comment</label>
+          </div>
+          <div flow-id="form-field-header-subtitle" class="form-field-header-subtitle">
+            <span class="cg3-response-to-cstm"></span>
+          </div>
+          <div flow-id="form-field-body" class="cg3-form-field-body cg3-textarea-field-body cg3-form-field-body-large ">
+            <div class="cg3-form-field-body-container"><textarea name="body" id="textarea-id-textarea-story1" placeholder="Placeholder text"></textarea></div>
+          </div>
+        </div>
+      </div>
+      <div flow-id="text-field" class="cg3-text-field ">
+        <div flow-id="form-field" class="cg3-form-field ">
+          <div flow-id="form-field-header" class="cg3-form-field-header cg3-text-field-header "><label flow-id="form-field-label" for="example-input-1" id="example-label-1" class="cg3-form-field-label ">Name<span flow-id="form-field-required-indicator" class="cg3-form-field-required-indicator "><span aria-hidden="true">* </span></span></label></div>
+          <div flow-id="form-field-body" class="cg3-form-field-body cg3-form-field-body-large ">
+            <div class="cg3-form-field-body-container"><input name="name" placeholder="Placeholder text" type="text" id="example-input-1" required=""></div>
+          </div>
+        </div>
+      </div>
+      <div flow-id="text-field" class="cg3-text-field ">
+        <div flow-id="form-field" class="cg3-form-field ">
+          <div flow-id="form-field-header" class="cg3-form-field-header cg3-text-field-header "><label flow-id="form-field-label" for="example-input-1" id="example-label-2" class="cg3-form-field-label ">Email<span flow-id="form-field-required-indicator" class="cg3-form-field-required-indicator "><span aria-hidden="true">* </span></span></label></div>
+          <div flow-id="form-field-body" class="cg3-form-field-body cg3-form-field-body-large ">
+            <div class="cg3-form-field-body-container"><input name="email" placeholder="Placeholder text" type="text" id="example-input-2" required=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="cg3-check-mark-field-header-content"><input name="save-info" type="checkbox" flow-id="checkbox" value="y" id="i1g4fuv4xipc">
+        <div flow-id="check-mark-field-label" class="cg3-check-mark-field-label "><label flow-id="form-field-label" class="cg3-form-field-label cg3-check-mark-field-label-content " for="i1g4fuv4xipc">Save my information for the next time</label></div>
+      </div>
+      <div flow-id="button-field" class="cg3-button-field cg3-button-field-medium cg3-button-field-primary cg3-button-field-info">
+        <a href="javascript:void(0)" class="clear-all">Clear all</a>
+        <button type="submit" flow-id="primary-button" disabled="">Post Comment</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+      </div>
+      <div class="cg3-right-panel-cstm">
+            <a href="https://know.wolterskluwerlr.com/LP=4777" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+    <div class="kli-banner">
+      	<div>
+  
+  
+  <div>
+    <div class="visually-hidden">Image</div>
+              <div>  <img loading="lazy" src="/copyright-blog/uploads/sites/49/styles/large/public/2026/09/Banner%20KIPL%20deminar_R1.jpg.webp?itok=_HRMtLjh" width="480" height="480" alt="Deminar: The Power of Kluwer IP Law" title="Register Now">
+
+
+</div>
+          </div>
+
+</div>
+
+
+    </div>
+  </a>
+      <a href="https://www.aippicongress.org/event/hamburg/registration" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+    <div class="kli-banner">
+      	<div>
+  
+  
+  <div>
+    <div class="visually-hidden">Image</div>
+              <div>  <img loading="lazy" src="/copyright-blog/uploads/sites/49/styles/large/public/2026/06/AIPPI%20conference%20banner_R1_Op1%20%281%29.jpg.webp?itok=7A0BTOTm" width="480" height="480" alt="2026 AIPPI World Congress" title="Register Now">
+
+
+</div>
+          </div>
+
+</div>
+
+
+    </div>
+  </a>
+      <a href="https://blog.feedspot.com/copyright_blogs/" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+    <div class="kli-banner">
+      	<h4><strong>Number 1 in Top 40 Copyright Blogs!</strong></h4><div>
+  
+  
+  <div>
+    <div class="visually-hidden">Image</div>
+              <div>  <img loading="lazy" src="/copyright-blog/uploads/sites/49/styles/large/public/2025/07/copyright_blogs.png.webp?itok=fp-2yY0T" width="480" height="480" alt="feedspot" title="feedspot">
+
+
+</div>
+          </div>
+
+</div>
+
+
+    </div>
+  </a>
+  <div id="block-kli-blogs-theme-bookadlist">
+  
+      <h2>Book Ad List</h2>
+    
+      <div class="cg3-book-container">
+    <div class="cg3-section-title">Books</div>
+        <div class="cg3-book-item">
+              <img class="cg3-book-img" src="/copyright-blog/uploads/sites/49/2026/09/Cover%20Playing%20with%20Rights.jpg" alt="Playing with Rights">
+            <div class="cg3-book-info">
+                <a href="https://law-store.wolterskluwer.com/s/product/playing-with-rights-video-games-music-ai/01tPg00000P0qTXIAZ?srsltid=AU7gw4VHX9YMjoA75Zk_SPsqWNCZKPAY2sYSoX_o6Ldrb9OCX9un84zm" class="no-decoration ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+          <div class="cg3-book-title">Playing with Rights: Video Games, Music &amp; AI</div>
+        </a>
+                <div class="cg3-book-author">José Roberto Herrera</div>
+                  <div class="cg3-book-price">€135.00</div>
+              </div>
+    </div>
+        <div class="cg3-book-item">
+              <img class="cg3-book-img" src="/copyright-blog/uploads/sites/49/2026/09/Cover%20EU%20Data%20Protection%20Law.jpg" alt="EU Data Protection Law">
+            <div class="cg3-book-info">
+                <a href="https://law-store.wolterskluwer.com/s/product/european-union-data-protection-law-500-questions-with-answers/01tPg00000MUuJaIAL?srsltid=AU7gw4UGQX226AMqsmAg-8GFEaN_MmoC6PzPWf9S2BTpNoqwb2O89QUY" class="no-decoration ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+          <div class="cg3-book-title">European Union Data Protection Law: 500 Questions with Answers</div>
+        </a>
+                <div class="cg3-book-author">Rosario Murga Ruiz</div>
+                  <div class="cg3-book-price">€135.00</div>
+              </div>
+    </div>
+        <div class="cg3-book-item">
+              <img class="cg3-book-img" src="/copyright-blog/uploads/sites/49/2025/07/EU%20AI%20Act.jpg" alt="book1">
+            <div class="cg3-book-info">
+                <a href="https://law-store.wolterskluwer.com/s/product/the-eu-artificial-intelligence-ai-act-a-commentary/01tPg000007gkK9IAI" class="no-decoration ext" data-extlink="" target="_blank" rel="noopener noreferrer" title="(opens in a new window)">
+          <div class="cg3-book-title">The EU Artificial Intelligence (AI) Act: A Commentary</div>
+        </a>
+                <div class="cg3-book-author">Ceyhun Necati Pehlivan, Nikolaus Forgó, &amp; Peggy Valcke</div>
+                  <div class="cg3-book-price">€285.00</div>
+              </div>
+    </div>
+    </div>
+
+  </div>
+
+
+      </div>
+		</div>
+  </div>
+</div>
+<div class="cg3-you-may-also-like-cstm cg3-page-container-large cg3-typography">
+  <h3 class="you-may-also-like-heading">You may also like</h3>
+  <div class="cg-card-container-cstm no-skeleton">
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+  <div data-e2e="cg-card-content" class="cg-card-content compact">
+    <div data-e2e="cg-card-header-image" class="cg-card-header-image no-margin">
+      <img src="https://legalblogs.wolterskluwer.com/copyright-blog/uploads/sites/49/styles/medium_16_9/public/2026/09/Gemini_Generated_Image_hmsqb0hmsqb0hmsq.jpeg.webp?itok=LVbdfaEy" alt="Gemini generated image" width="480" height="270">
+    </div>
+    <div data-e2e="cg-card-tile" class="cg-card-tile no-padding">
+      <div data-e2e="cg-card-tile-title" class="cg-card-tile-title">
+        <a href="https://legalblogs.wolterskluwer.com/copyright-blog/when-slowing-ai-stops-looking-luddite-copyright-and-the-pace-of-frontier-ai/">
+          <h3 class="cg3-card-title-cstm less-margin">When Slowing AI Stops Looking Luddite: Copyright and the Pace of Frontier AI</h3>
+        </a>
+      </div>
+      <div class="cg3-article-date-cstm">September 30, 2026</div>
+    </div>
+  </div>
+</div>
+
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+  <div data-e2e="cg-card-content" class="cg-card-content compact">
+    <div data-e2e="cg-card-header-image" class="cg-card-header-image no-margin">
+      <img src="https://legalblogs.wolterskluwer.com/copyright-blog/uploads/sites/49/styles/medium_16_9/public/2026/09/maximalfocus-4e0LMA9VBK0-unsplash.jpg.webp?itok=nnOrlwfG" alt="Sydney Harbour Bridge at night" width="480" height="270">
+    </div>
+    <div data-e2e="cg-card-tile" class="cg-card-tile no-padding">
+      <div data-e2e="cg-card-tile-title" class="cg-card-tile-title">
+        <a href="https://legalblogs.wolterskluwer.com/copyright-blog/australia-is-to-propose-new-legislation-on-ai-and-copyright-licensing-but-what-it-will-look-like/">
+          <h3 class="cg3-card-title-cstm less-margin">Australia is to propose new legislation on AI and copyright licensing, but what it will look like?</h3>
+        </a>
+      </div>
+      <div class="cg3-article-date-cstm">September 24, 2026</div>
+    </div>
+  </div>
+</div>
+
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+  <div data-e2e="cg-card-content" class="cg-card-content compact">
+    <div data-e2e="cg-card-header-image" class="cg-card-header-image no-margin">
+      <img src="https://legalblogs.wolterskluwer.com/copyright-blog/uploads/sites/49/styles/medium_16_9/public/2026/09/magnific__this-should-be-in-landscape-format-less-than-2mb-i__35057.jpeg.webp?itok=SHUHXyBd" alt="Robot painting" width="480" height="270">
+    </div>
+    <div data-e2e="cg-card-tile" class="cg-card-tile no-padding">
+      <div data-e2e="cg-card-tile-title" class="cg-card-tile-title">
+        <a href="https://legalblogs.wolterskluwer.com/copyright-blog/when-machines-paint-like-masters-can-pastiche-cover-ai-assisted-art/">
+          <h3 class="cg3-card-title-cstm less-margin">When Machines Paint Like Masters: Can Pastiche Cover AI-Assisted Art?</h3>
+        </a>
+      </div>
+      <div class="cg3-article-date-cstm">September 23, 2026</div>
+    </div>
+  </div>
+</div>
+
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+  <div data-e2e="cg-card-content" class="cg-card-content compact">
+    <div data-e2e="cg-card-header-image" class="cg-card-header-image no-margin">
+      <img src="https://legalblogs.wolterskluwer.com/copyright-blog/uploads/sites/49/styles/medium_16_9/public/2026/09/markus-winkler-miUxZHydcyo-unsplash.jpg.webp?itok=RemiF8p9" alt="Photo by &lt;a href=&quot;https://unsplash.com/@markuswinkler?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Markus Winkler&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/photos/a-wooden-block-spelling-out-the-word-teacher-miUxZHydcyo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;" width="480" height="270">
+    </div>
+    <div data-e2e="cg-card-tile" class="cg-card-tile no-padding">
+      <div data-e2e="cg-card-tile-title" class="cg-card-tile-title">
+        <a href="https://legalblogs.wolterskluwer.com/copyright-blog/the-court-of-justice-rules-on-copyright-protectability-of-facebook-posts-and-exception-for-reporting-current-events-gandul-media-c-59824/">
+          <h3 class="cg3-card-title-cstm less-margin">The Court of Justice Rules on Copyright Protectability of Facebook Posts and Exception for Reporting Current Events: Gandul Media (C-598/24)</h3>
+        </a>
+      </div>
+      <div class="cg3-article-date-cstm">September 21, 2026</div>
+    </div>
+  </div>
+</div>
+
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+  <div data-e2e="cg-card-content" class="cg-card-content compact">
+    <div data-e2e="cg-card-header-image" class="cg-card-header-image no-margin">
+      <img src="https://legalblogs.wolterskluwer.com/copyright-blog/uploads/sites/49/styles/medium_16_9/public/2026/09/alexandra_koch-ai-7977960_1920.jpg.webp?itok=sf4BDDx3" alt="AI Robot" width="480" height="270">
+    </div>
+    <div data-e2e="cg-card-tile" class="cg-card-tile no-padding">
+      <div data-e2e="cg-card-tile-title" class="cg-card-tile-title">
+        <a href="https://legalblogs.wolterskluwer.com/copyright-blog/learning-from-hollywood-why-the-us-right-of-publicity-can-only-serve-as-a-partial-model-for-europes-deepfake-regulation/">
+          <h3 class="cg3-card-title-cstm less-margin">Learning from Hollywood? Why the US right of publicity can only serve as a partial model for Europe’s deepfake regulation</h3>
+        </a>
+      </div>
+      <div class="cg3-article-date-cstm">September 17, 2026</div>
+    </div>
+  </div>
+</div>
+
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+  <div data-e2e="cg-card-content" class="cg-card-content compact">
+    <div data-e2e="cg-card-header-image" class="cg-card-header-image no-margin">
+      <img src="https://legalblogs.wolterskluwer.com/copyright-blog/uploads/sites/49/styles/medium_16_9/public/2026/09/compagnons-aI4RJ--Mw4I-unsplash.jpg.webp?itok=wTjRvX-H" alt="recycling bin" width="480" height="270">
+    </div>
+    <div data-e2e="cg-card-tile" class="cg-card-tile no-padding">
+      <div data-e2e="cg-card-tile-title" class="cg-card-tile-title">
+        <a href="https://legalblogs.wolterskluwer.com/copyright-blog/from-upcycling-to-book-destruction-copyright-exhaustions-environmental-paradox/">
+          <h3 class="cg3-card-title-cstm less-margin">From Upcycling to Book Destruction: Copyright Exhaustion’s Environmental Paradox</h3>
+        </a>
+      </div>
+      <div class="cg3-article-date-cstm">September 14, 2026</div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+<div class="cg-card-container-cstm container-skeleton" style="display: none">
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+        <div data-e2e="cg-card-content" class="cg-card-content">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+        <div data-e2e="cg-card-content" class="cg-card-content">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+        <div data-e2e="cg-card-content" class="cg-card-content">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+        <div data-e2e="cg-card-content" class="cg-card-content">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+        <div data-e2e="cg-card-content" class="cg-card-content">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+        <div data-e2e="cg-card-content" class="cg-card-content">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+        <div data-e2e="cg-card-content" class="cg-card-content">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+        <div data-e2e="cg-card-content" class="cg-card-content">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+      <div class="cg-card-cstm-medium">
+      <div data-e2e="cg-card" class="cg-card cg-card-has-not-favorite no-border">
+        <div data-e2e="cg-card-content" class="cg-card-content">
+          <div class="skeleton skeleton-img"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</div>
+    <div id="scrollToTopButton" class="cg-button-field cg-button-field-icon">
+	<button type="button" onclick="scrollOnTop()">
+		<span class="cg3-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve">
+					<path d="M20.8,9.6L12,0.8L3.2,9.6l1.1,1.1l6.9-6.9v19.3h1.6V3.9l6.9,6.9L20.8,9.6z"></path>
+			</svg>
+		</span>
+	</button>
+</div></main>
+
+<footer data-e2e="cg-footer" class="cg-footer">
+      
+  <div data-e2e="cg-footer-container" class="cg-footer-container">
+    <div class="cg-footer-container-body cg-footer-container-research cg-footer-container-row ">
+      <ul data-e2e="cg-footer-navigation" class="cg-footer-navigation cg-footer-navigation-info-l cg-footer-navigation-row ">
+                  <li data-e2e="cg-footer-item" class="cg-footer-item">
+            <a data-e2e="cg-footer-navigation-link" href="/copyright-blog/about-us/" rel="noopener noreferrer" target="_self">About Copyright Blog</a>
+          </li>
+                  <li data-e2e="cg-footer-item" class="cg-footer-item">
+            <a data-e2e="cg-footer-navigation-link" href="/copyright-blog/contact-2/" rel="noopener noreferrer" target="_self">Contact Us</a>
+          </li>
+              </ul>
+      <div class="cg-footer-right-content">
+        <ul data-e2e="cg-footer-social-list" class="cg-footer-social-list cg-footer-item-social cg-footer-social-list-row ">
+                      <li data-e2e="cg-social-item" class="cg-social-item">
+              <a href="https://www.linkedin.com/showcase/78632065/admin/dashboard/" rel="noopener noreferrer noreferrer" target="_blank" class="cg-social-link cg-social-link-research " title="(opens in a new window)">
+              <span class="cg-icon">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="Wolters Kluwer: IP Law" width="16" height="16">
+              </span>
+                <div data-e2e="cg-sr-only" class="cg-sr-only">Wolters Kluwer: IP Law</div>
+              </a>
+            </li>
+                      <li data-e2e="cg-social-item" class="cg-social-item">
+              <a href="https://x.com/wolters_kluwer" rel="noopener noreferrer noreferrer" target="_blank" class="cg-social-link cg-social-link-research " title="(opens in a new window)">
+              <span class="cg-icon">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" alt="Wolters Kluwer on X" width="16" height="16">
+              </span>
+                <div data-e2e="cg-sr-only" class="cg-sr-only">Wolters Kluwer: X</div>
+              </a>
+            </li>
+                      <li data-e2e="cg-social-item" class="cg-social-item">
+              <a href="https://www.youtube.com/user/WoltersKluwerComms" rel="noopener noreferrer noreferrer" target="_blank" class="cg-social-link cg-social-link-research " title="(opens in a new window)">
+              <span class="cg-icon">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoiMtJG_PC4lsb3-GZAiTZkUXAm3VlkJC1Ag&amp;s" alt="KLI YouTube" width="16" height="16">
+              </span>
+                <div data-e2e="cg-sr-only" class="cg-sr-only">YouTube</div>
+              </a>
+            </li>
+                  </ul>
+      </div>
+    </div>
+    <div class="cg-footer-line-separator"></div>
+  </div>
+
+  
+		
+	<div data-e2e="cg-footer-container" class="cg-footer-container">
+    <div class="cg-footer-container-body cg-footer-container-research cg-footer-container-row ">
+      <ul data-e2e="cg-footer-navigation" class="cg-footer-navigation cg-footer-navigation-info-l cg-footer-navigation-row ">
+				        <li data-e2e="cg-footer-item" class="cg-footer-item">
+					<a data-e2e="cg-footer-navigation-link" href="/copyright-blog/editorial-policy-guidelines/" rel="noopener noreferrer" target="_self">Editorial Policy &amp; Guidelines</a>
+				</li>
+				        <li data-e2e="cg-footer-item" class="cg-footer-item">
+					<a data-e2e="cg-footer-navigation-link" href="/copyright-blog/privacy-policy/" rel="noopener noreferrer" target="_self">Privacy Policy and Use of Cookies</a>
+				</li>
+				        <li data-e2e="cg-footer-item" class="cg-footer-item">
+					<a data-e2e="cg-footer-navigation-link" href="/copyright-blog/user-agreement-and-disclaimer/" rel="noopener noreferrer" target="_self">User Agreement and Disclaimer</a>
+				</li>
+				      </ul>
+      <div class="cg-footer-right-content">
+        <ul data-e2e="cg-footer-social-list" class="cg-footer-social-list cg-footer-item-social cg-footer-social-list-row ">
+					          <div class="cg-footer-line-separator"></div>
+        </ul>
+        <p data-e2e="cg-footer-copyright" class="cg-footer-copyright-wrapper cg-footer-copyright-info cg-footer-copyright-from-m cg-footer-copyright-row ">
+          ©2025 Kluwer Law International, part of Wolters Kluwer. All rights reserved</p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+  </div>
+
+    <script src="/copyright-blog/uploads/sites/49/js/js_vDTOMhrf-QbBfDr7Q-4wyd-1i455QifRfnvBFDMQ1xQ.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=kli_blogs_theme&amp;include=eJxliUEKgDAQxD4k7ZPKWIe1unVLXcHnK3hSL4EkPF3LtsapHw0a-OggZqJMDoly4-sBC853rMOqJY1qsiefWRnRveT7Nwh_U9RG6C_vRM9zwuGWrTal8wINbj9e"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="/copyright-blog/uploads/sites/49/js/js_PKQZ3_1t2_3fBFH-H3bZwptVaAUQY6r9L288jv8xBIU.js?scope=footer&amp;delta=3&amp;language=en&amp;theme=kli_blogs_theme&amp;include=eJxliUEKgDAQxD4k7ZPKWIe1unVLXcHnK3hSL4EkPF3LtsapHw0a-OggZqJMDoly4-sBC853rMOqJY1qsiefWRnRveT7Nwh_U9RG6C_vRM9zwuGWrTal8wINbj9e"></script>
+
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;bb87cfd4527a4701b60aea9aede3565f&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+
+
+<div id="drupal-live-announce" class="visually-hidden" aria-live="polite" aria-busy="false"></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div></body></html>

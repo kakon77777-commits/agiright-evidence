@@ -1,0 +1,34 @@
+Sucuri Website Firewall
+
+Hosting Server Connect Timeout
+
+HTTP 502 — Unable to Connect to the Origin Server
+
+Please try again in a few minutes.
+
+✓
+
+You
+✓
+
+Sucuri Firewall
+✕
+
+Hosting Timeout
+Error details
+Error code
+HTTP 502
+Error message
+Backend or gateway connection timeout.
+Server ID
+11012
+What's going on?
+The origin server might be down
+The Sucuri network might be blocked by the origin's firewall
+What can I do to fix it?
+
+If you are just visiting the site, wait a bit and it should be back soon. We apologize for the inconvenience.
+
+If you own the website, check with your hosting company that your server is up and running and that they have our firewall IPs allowlisted.
+
+If the problem persists, open a ticket on our support page and we will help you troubleshoot.

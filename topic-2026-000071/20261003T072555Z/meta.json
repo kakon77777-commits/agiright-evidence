@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000071",
+  "url": "https://capitolnewsillinois.com/news/pritzker-signs-landmark-ai-regulation-bill-that-aims-to-mitigate-risks/",
+  "capturedAt": "2026-10-03T07:25:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 306708,
+    "sha256": "3a0ffbc651be074c44cae8b2cce2585d160ee55957589d430d5b2f73b014ebe1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "27C269083F1F2B6F4762B2D751B7838C",
+      "status": 200,
+      "url": "https://capitolnewsillinois.com/news/pritzker-signs-landmark-ai-regulation-bill-that-aims-to-mitigate-risks/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7278,
+      "afterScrollHeight": 6640,
+      "wantedHeight": 6640
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b7b23e5b37cc2949fd1cd03cae8b8bbcc56f3bbb84cb8103ba8d7b544ccb8c09",
+    "width": 1366,
+    "height": 6640,
+    "bytes": 2416380,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7278,
+    "afterScrollHeight": 6640,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:25:55Z",
+    "url": "https://capitolnewsillinois.com/news/pritzker-signs-landmark-ai-regulation-bill-that-aims-to-mitigate-risks/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 306708,
+      "sha256": "3a0ffbc651be074c44cae8b2cce2585d160ee55957589d430d5b2f73b014ebe1"
+    },
+    "finalUrl": "https://capitolnewsillinois.com/news/pritzker-signs-landmark-ai-regulation-bill-that-aims-to-mitigate-risks/",
+    "httpStatus": 200,
+    "title": "Pritzker signs landmark AI regulation bill that aims to mitigate risks | Capitol News Illinois",
+    "rendered": {
+      "textChars": 9829,
+      "textSha256": "d8fc9b2eb7a26eda6267c6a82b6baa6971d29b163fb34ebd1e80ac7799edf2fc",
+      "htmlSha256": "c16e9887311e1e80a82105cd1e95edb8bcc489e6e9ddb05abf034e308aab365e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b7b23e5b37cc2949fd1cd03cae8b8bbcc56f3bbb84cb8103ba8d7b544ccb8c09",
+      "width": 1366,
+      "height": 6640,
+      "bytes": 2416380,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260707002052",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260707002052/https://capitolnewsillinois.com/news/pritzker-signs-landmark-ai-regulation-bill-that-aims-to-mitigate-risks/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260707002052/https://capitolnewsillinois.com/news/pritzker-signs-landmark-ai-regulation-bill-that-aims-to-mitigate-risks/",
+      "timestamp": "20260707002052",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000102",
+  "url": "https://www.paulhastings.com/insights/ph-privacy/white-house-launches-gold-eagle-ai-driven-cybersecurity-vulnerability-clearinghouse",
+  "capturedAt": "2026-10-03T07:37:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 134035,
+    "sha256": "682a581fe619865c2d9602f75cdb3daf6f431db9c44cf2ff6ad908196bf5760d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1F02486238577984E4A5DF4EF9962FD9",
+      "status": 200,
+      "url": "https://www.paulhastings.com/insights/ph-privacy/white-house-launches-gold-eagle-ai-driven-cybersecurity-vulnerability-clearinghouse",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4434,
+      "afterScrollHeight": 4434,
+      "wantedHeight": 4434
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f49d685df381e5981fce728f32d0119336c56bf9731fefb5b5d16f64058cfdd5",
+    "width": 1366,
+    "height": 4434,
+    "bytes": 662397,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4434,
+    "afterScrollHeight": 4434,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:37:31Z",
+    "url": "https://www.paulhastings.com/insights/ph-privacy/white-house-launches-gold-eagle-ai-driven-cybersecurity-vulnerability-clearinghouse",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 134035,
+      "sha256": "682a581fe619865c2d9602f75cdb3daf6f431db9c44cf2ff6ad908196bf5760d"
+    },
+    "finalUrl": "https://www.paulhastings.com/insights/ph-privacy/white-house-launches-gold-eagle-ai-driven-cybersecurity-vulnerability-clearinghouse",
+    "httpStatus": 200,
+    "title": "White House Launches ‘Gold Eagle’ AI-Driven Cybersecurity Vulnerability Clearinghouse | Paul Hastings LLP",
+    "rendered": {
+      "textChars": 6939,
+      "textSha256": "fc3b2ddf6730eaf611eb7250f361ad9c2118a529845f8d27f1b38a0b7e30e443",
+      "htmlSha256": "86b8527e4133b3931e8f7e6597dec86f295b58b14d379f4f6f22b30a8cc2931b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f49d685df381e5981fce728f32d0119336c56bf9731fefb5b5d16f64058cfdd5",
+      "width": 1366,
+      "height": 4434,
+      "bytes": 662397,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

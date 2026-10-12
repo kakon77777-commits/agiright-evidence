@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000107",
+  "url": "https://iapp.org/news/a/us-senate-judiciary-unpacks-potential-paths-to-address-surveillance-pricing",
+  "capturedAt": "2026-10-03T07:40:03Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 405690,
+    "sha256": "0acb655103516704912b192290f2e071108d73ebfd1f6c2a24ae9c86b9e8431a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A902A84079BD4FC5F4599BD34907D8BE",
+      "status": 200,
+      "url": "https://iapp.org/news/a/us-senate-judiciary-unpacks-potential-paths-to-address-surveillance-pricing",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4000,
+      "afterScrollHeight": 4000,
+      "wantedHeight": 4000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "053919ace5215ceff439490c9ce6ea1149277ba22819e894d0f562e0b96782f0",
+    "width": 1366,
+    "height": 4000,
+    "bytes": 969437,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4000,
+    "afterScrollHeight": 4000,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:40:03Z",
+    "url": "https://iapp.org/news/a/us-senate-judiciary-unpacks-potential-paths-to-address-surveillance-pricing",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 405690,
+      "sha256": "0acb655103516704912b192290f2e071108d73ebfd1f6c2a24ae9c86b9e8431a"
+    },
+    "finalUrl": "https://iapp.org/news/a/us-senate-judiciary-unpacks-potential-paths-to-address-surveillance-pricing",
+    "httpStatus": 200,
+    "title": "US Senate Judiciary unpacks potential paths to address surveillance pricing | IAPP",
+    "rendered": {
+      "textChars": 7286,
+      "textSha256": "de5c7b3eb264b5a356d04688b3a57923428dd28f12cd136f36a9b38591a423f3",
+      "htmlSha256": "dd01e467930ecdddc83c19abaf7f728324519d22de66247157b375c8770d29fc"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "053919ace5215ceff439490c9ce6ea1149277ba22819e894d0f562e0b96782f0",
+      "width": 1366,
+      "height": 4000,
+      "bytes": 969437,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003074045/https://iapp.org/news/a/us-senate-judiciary-unpacks-potential-paths-to-address-surveillance-pricing",
+      "timestamp": "20261003074045",
+      "verifiedHttp": 200
+    }
+  }
+}

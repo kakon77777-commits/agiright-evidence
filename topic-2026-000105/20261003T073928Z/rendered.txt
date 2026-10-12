@@ -1,0 +1,110 @@
+Skip to content
+News
+Events
+Research
+Publications
+Resources
+Training
+About
+NEWS
+Image: Andriy Onufriyenko/Getty Images
+Australia just outlined more ‘AI safety’ priorities, but is the plan actually coherent?
+
+Author Henry Fraser
+Date 22 July 2026
+
+This week, a group of ministers issued a joint media release outlining a a series of artificial intelligence (AI) “safety priorities” for the Australian government. These include:
+
+introducing a digital duty of care to address risks from AI and digital services
+consulting on a second round of privacy law reforms
+AI safety in the workplace
+consumer risks such as surveillance pricing and AI agent-based commerce
+a framework to regulate government use of automated decision-making.
+
+Renewed energy around AI governance in Australia is welcome. Prime Minister Anthony Albanese’s speech last week signals a stronger interest in AI policy. An important milestone in the government’s National AI Plan was the recent appointment of a general manager for Australia’s new AI Safety Institute.
+
+But messaging about “priorities” and “AI safety” and ministerial cooperation is doing a lot of heavy lifting here. These priorities are mostly old policy initiatives that have until now been de-prioritised for months or even years. They sit uneasily under the umbrella concept of AI safety.
+
+Overcoming the Australian government’s track record of delay, reactivity, and fragmentation on AI and tech regulation will take more than a joint press release.
+
+Putting AI safety ‘priorities’ in context
+
+The Australian government’s commitment to AI safety has a complicated history. The past few years have seen some big moves away from meaningful AI and tech regulation, as well as moves toward AI safety.
+
+The government recently abandoned its proposal to introduce mandatory guardrails for high-risk AI with almost no explanation.
+
+That proposal was the product of two and a half years of public consultation and expert advice. The consultation found existing laws were inadequate to deal with risks from AI. The proposal would have introduced basic fairness, accountability and transparency obligations for AI providers and deployers in high-impact settings across the economy.
+
+Ed Husic, former Minister for Industry and Science, drove this process. It evaporated when he was replaced by Tim Ayres in a cabinet reshuffle in May 2025.
+
+The government also spent 15 months and $200,000 to convene an AI expert body to advise the government, then scrapped it in February this year – again with little explanation.
+
+In place of mandatory guardrails and the AI expert body, the government introduced a National AI Plan focused on AI capability building and investment. It stated Australia would rely on the adaptability of existing laws to deal with AI risks – without acknowledging the contradiction with the government’s earlier position.
+
+It also established an AI Safety Institute to conduct technical AI safety testing, and to advise and coordinate action across government. However, it was given a budget of only $29.9 million over four years. The product of a multibillion-dollar industry, AI is eye-wateringly expensive to develop and test. With such a small budget, the institute doesn’t have enough resources to perform the wide range of activities expected of it.
+
+The new AI safety priorities also mention privacy law reform. Until now, it hasn’t been a priority – the Attorney-General committed to consulting on a second round of this reform as far back as 2024, yet it’s still pending.
+
+You can tell a similar story about the government’s renewed commitment to regulating automated decision-making in government. This was recommended in the Robodebt Royal Commission report back in July 2023.
+
+And it’s hard to make sense of the messaging that AI consumer risks are now a new priority, when Treasury’s report on AI and Australian Consumer Law in October 2025 stated that existing consumer law was basically fit to deal with AI.
+
+In search of coherence
+
+What’s missing from the new announcement is a sense of how these priorities fit together, and who is going to make them fit together and drive this agenda for AI safety.
+
+The prime minister is establishing an Office of AI within his own department. But it’s not clear precisely what its role, resourcing or powers will be, nor whether it will be involved in the initiatives mentioned in this press release.
+
+It’s good the government is ready to push a broader tech policy agenda across multiple domains. But if Australia really wants to prioritise AI governance, the AI Safety Institute should be much better funded, should have a clearer remit, a much clearer relationship with the Prime Minister’s Office of AI, greater independence, and stronger powers to hold AI providers and deployers accountable.
+
+And that’s the main storyline here. Accountability, transparency and fairness should be keystones of AI governance. Yet so far the government’s approach to AI policy has lacked coherence.
+
+The possible bright spot is the proposed digital duty of care. It could mean AI providers have to take care to prevent foreseeable harms from their services (and perhaps do more). Its advantage is that a digital duty of care could be general, flexible and apply across a wide range of circumstances where AI and other tech could cause harm.
+
+But it is also not a new policy. The government committed to introducing a digital duty of care in late 2024 and consultations on the pending legislation have been ongoing since 2025.
+
+The question is whether the government can deliver on the duty of care and use it to anchor and drive a coherent AI policy agenda – or whether the pattern of drift, fragmentation and delay will persist.
+
+Henry Fraser, Research Fellow in Law, Accountability and Data Science, Queensland University of Technology
+
+This article is republished from The Conversation under a Creative Commons license. Read the original article.
+
+Return to news.
+
+SEE ALSO
+EVENTS
+EVENTS
+NEWSLETTERS
+NEWSLETTERS
+PODCAST SERIES
+PODCAST SERIES
+News
+Events
+Research
+Publications
+Resources
+Training
+About
+
+Contact us
+
+Stay up to date
+
+Get regular updates
+
+For ADM+S Members
+
+ADM+S Intranet
+
+Connect with us
+
+Acknowledgement of Country
+In the spirit of reconciliation we acknowledge the Traditional Custodians of Country throughout Australia and their connections to land, sea and community. We pay our respect to their Elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples today.
+
+This Centre is funded by the Australian Government through the Australian Research Council.
+© 2020 ADM+S ARC
+
+We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept”, you consent to the use of ALL the cookies.
+Cookie settings
+ACCEPT
+Privacy Policy

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000097",
+  "url": "https://news.northwestern.edu/stories/2026/08-2/chatbots-are-changing-who-wins-research-grants-study-finds",
+  "capturedAt": "2026-10-03T07:35:50Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 46680,
+    "sha256": "2e97e2e7eef08dd4af395c82ce61103e20b8b88d8c94422d2b0b04ef8bc89f82",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "18EEE00D41474AE1DF1749EE2EAF3D7E",
+      "status": 200,
+      "url": "https://news.northwestern.edu/stories/2026/08-2/chatbots-are-changing-who-wins-research-grants-study-finds",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6219,
+      "afterScrollHeight": 6219,
+      "wantedHeight": 6219
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "1e3193fcdd2148b8d7829c0735354fe44e4e2ceb943349716ec558c96743d51e",
+    "width": 1366,
+    "height": 6219,
+    "bytes": 1488425,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6219,
+    "afterScrollHeight": 6219,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:35:50Z",
+    "url": "https://news.northwestern.edu/stories/2026/08-2/chatbots-are-changing-who-wins-research-grants-study-finds",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46680,
+      "sha256": "2e97e2e7eef08dd4af395c82ce61103e20b8b88d8c94422d2b0b04ef8bc89f82"
+    },
+    "finalUrl": "https://news.northwestern.edu/stories/2026/08-2/chatbots-are-changing-who-wins-research-grants-study-finds",
+    "httpStatus": 200,
+    "title": "Chatbots are changing who wins research grants - Northwestern Now",
+    "rendered": {
+      "textChars": 7603,
+      "textSha256": "da5ac9051b47e771f4644794a3d171cb52fe468c24f0b6a64274ce1891875f5c",
+      "htmlSha256": "0f31a13a0d1c2f536745e101e11c970888f0f9228d8c1a877f628ee6a83341d2"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "1e3193fcdd2148b8d7829c0735354fe44e4e2ceb943349716ec558c96743d51e",
+      "width": 1366,
+      "height": 6219,
+      "bytes": 1488425,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260813134657",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260813134657/https://news.northwestern.edu/stories/2026/08-2/chatbots-are-changing-who-wins-research-grants-study-finds"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260813134657/https://news.northwestern.edu/stories/2026/08-2/chatbots-are-changing-who-wins-research-grants-study-finds",
+      "timestamp": "20260813134657",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

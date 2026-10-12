@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000080",
+  "url": "https://www.fsb.org/2026/08/public-responses-to-consultation-on-sound-practices-for-responsible-adoption-of-artificial-intelligence-ai/",
+  "capturedAt": "2026-10-03T07:28:54Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 441362,
+    "sha256": "6dd876b68244acfb57098877bebe4afe64376d64df4aa86945ff765eb9b14f08",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6B901059E26C37313C65F49CA6864479",
+      "status": 200,
+      "url": "https://www.fsb.org/2026/08/public-responses-to-consultation-on-sound-practices-for-responsible-adoption-of-artificial-intelligence-ai/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8420966225b0b84164808a3b7101e3dcc2b7404525a7d99ae07f3ad592d5e6b3",
+    "width": 1366,
+    "height": 900,
+    "bytes": 149078,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:28:54Z",
+    "url": "https://www.fsb.org/2026/08/public-responses-to-consultation-on-sound-practices-for-responsible-adoption-of-artificial-intelligence-ai/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 441362,
+      "sha256": "6dd876b68244acfb57098877bebe4afe64376d64df4aa86945ff765eb9b14f08"
+    },
+    "finalUrl": "https://www.fsb.org/2026/08/public-responses-to-consultation-on-sound-practices-for-responsible-adoption-of-artificial-intelligence-ai/",
+    "httpStatus": 200,
+    "title": "Public responses to consultation on Sound Practices for Responsible Adoption of Artificial Intelligence (AI) - Financial Stability Board",
+    "rendered": {
+      "textChars": 1280,
+      "textSha256": "e2c9d28563c416517b570784339a1d94303de3f327e5c335c3764e567f1483b8",
+      "htmlSha256": "740dbd475eab8501af0ad725c4453b25a458f994a8b5f3b3a544cd5a8e9d190e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8420966225b0b84164808a3b7101e3dcc2b7404525a7d99ae07f3ad592d5e6b3",
+      "width": 1366,
+      "height": 900,
+      "bytes": 149078,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260831144342",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260831144342/https://www.fsb.org/2026/08/public-responses-to-consultation-on-sound-practices-for-responsible-adoption-of-artificial-intelligence-ai/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260831144342/https://www.fsb.org/2026/08/public-responses-to-consultation-on-sound-practices-for-responsible-adoption-of-artificial-intelligence-ai/",
+      "timestamp": "20260831144342",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

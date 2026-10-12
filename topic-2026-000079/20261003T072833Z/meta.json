@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000079",
+  "url": "https://www.dandodiary.com/2026/07/articles/artificial-intelligence/brave-new-world-delawares-proposed-new-artificial-intelligence-company/",
+  "capturedAt": "2026-10-03T07:28:33Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 25668,
+    "sha256": "e9e7e8f95a037f0c5d24e6a216d04b10333329cbb286d501ef05382417947975",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "334F97039BC77387608F5208FF5D2806",
+      "status": 403,
+      "url": "https://www.dandodiary.com/2026/07/articles/artificial-intelligence/brave-new-world-delawares-proposed-new-artificial-intelligence-company/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "124da1ef6d434111214944b26f7368a709d9b7a562090d2dc592c4da84e24b58",
+    "width": 1366,
+    "height": 900,
+    "bytes": 23342,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:28:33Z",
+    "url": "https://www.dandodiary.com/2026/07/articles/artificial-intelligence/brave-new-world-delawares-proposed-new-artificial-intelligence-company/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 25668,
+      "sha256": "e9e7e8f95a037f0c5d24e6a216d04b10333329cbb286d501ef05382417947975"
+    },
+    "finalUrl": "https://www.dandodiary.com/2026/07/articles/artificial-intelligence/brave-new-world-delawares-proposed-new-artificial-intelligence-company/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 102,
+      "textSha256": "4dd092543658d432f3027883ccba58dbc91727379e51591e56c9e82e43cc5b57",
+      "htmlSha256": "4dcd9c445d176245224a3cc8093072d00d716609e89a6ce0abe1785f803a5a6e"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "124da1ef6d434111214944b26f7368a709d9b7a562090d2dc592c4da84e24b58",
+      "width": 1366,
+      "height": 900,
+      "bytes": 23342,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260820165248",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260820165248/https://www.dandodiary.com/2026/07/articles/artificial-intelligence/brave-new-world-delawares-proposed-new-artificial-intelligence-company/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260820165248/https://www.dandodiary.com/2026/07/articles/artificial-intelligence/brave-new-world-delawares-proposed-new-artificial-intelligence-company/",
+      "timestamp": "20260820165248",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000095",
+  "url": "https://www.axios.com/2026/08/04/white-house-finalizes-ai-framework-behind-closed-doors",
+  "capturedAt": "2026-10-03T07:34:42Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5961,
+    "sha256": "eddc460b1d1ce47ca95ac4e73a1a7bce525b27bc39e3fa9109efdce542fe9220",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9090980C67BE30FD4E9CB7CC7EA5CA85",
+      "status": 403,
+      "url": "https://www.axios.com/2026/08/04/white-house-finalizes-ai-framework-behind-closed-doors",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d3af2958f3ba22316d8ffec45f6d614ed8817bfa33db5c12e5fb66de080dd925",
+    "width": 1366,
+    "height": 900,
+    "bytes": 27984,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:34:42Z",
+    "url": "https://www.axios.com/2026/08/04/white-house-finalizes-ai-framework-behind-closed-doors",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5961,
+      "sha256": "eddc460b1d1ce47ca95ac4e73a1a7bce525b27bc39e3fa9109efdce542fe9220"
+    },
+    "finalUrl": "https://www.axios.com/2026/08/04/white-house-finalizes-ai-framework-behind-closed-doors",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 261,
+      "textSha256": "969f858fd7d25a0e733b8c40ffff0c31ce2765a74cb5ea205d3278ce22edc2ec",
+      "htmlSha256": "3716bdef0724ad587f97ddbd605849187b078750442aed31410784cd9405511e"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d3af2958f3ba22316d8ffec45f6d614ed8817bfa33db5c12e5fb66de080dd925",
+      "width": 1366,
+      "height": 900,
+      "bytes": 27984,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

@@ -1,0 +1,114 @@
+skip to content home accessibility FAQ feedback sitemap login
+ Quick Search:
+Bill Number
+Bill Keyword
+
+Home
+Bill Information
+California Law
+Publications
+Other Resources
+My Subscriptions
+My Favorites
+Bill Information >> Bill Search >> Text
+
+Bill PDF |Add To My Favorites |Track Bill | Version:
+09/09/26 - Chaptered
+09/01/26 - Enrolled
+08/26/26 - Amended Assembly
+08/24/26 - Amended Assembly
+08/13/26 - Amended Assembly
+07/02/26 - Amended Assembly
+06/16/26 - Amended Assembly
+01/05/26 - Amended Senate
+05/01/25 - Amended Senate
+03/26/25 - Amended Senate
+02/21/25 - Introduced
+
+SB-813 Independent verification organizations.(2025-2026)
+
+Text Votes History Bill Analysis Today's Law As Amended  Compare Versions Status Comments To Author
+SHARE THIS:
+Date Published: 09/09/2026 09:00 PM
+BILL START
+
+Senate Bill No. 813
+CHAPTER 179
+
+An act to add Chapter 14 (commencing with Section 8898) to Division 1 of Title 2 of the Government Code, relating to artificial intelligence.
+
+[ Approved by Governor  September 09, 2026. Filed with Secretary of State  September 09, 2026. ]
+
+LEGISLATIVE COUNSEL'S DIGEST
+
+SB 813, McNerney. Independent verification organizations.
+Existing law requires, on or before September 1, 2024, the Department of Technology, within the Government Operations Agency, to conduct, in coordination with other interagency bodies as it deems appropriate, a comprehensive inventory of all high-risk automated decision systems that have been proposed for use, development, or procurement by, or are being used, developed, or procured by, any state agency. Existing law requires the department to annually submit a report of that comprehensive inventory to the Assembly Committee on Privacy and Consumer Protection and the Senate Committee on Governmental Organization.
+Existing law, the Transparency in Frontier Artificial Intelligence Act, among other things related to ensuring the safety of certain artificial intelligence models, requires a large frontier developer to write, implement, and clearly and conspicuously publish on its internet website a frontier AI framework that applies to the large frontier developer’s frontier models and describes how the large frontier developer approaches, among other things, incorporating national standards, international standards, and industry-consensus best practices into its frontier AI framework.
+This bill would require, on or before January 1, 2028, the Government Operations Agency to take certain actions related to the selection and regulation of certain entities, defined as “independent verification organizations,” designated by the agency as having demonstrated expertise in assessing the risks posed by an AI system or model and identifying the metrics and methodologies that form the basis for that assessment. The bill would require the agency to convene working groups to solicit stakeholder input in the identification of standards and the development and revision of procedures and criteria, as specified. The bill would require the agency to provide a report to the Legislature on the findings of the working groups and would require a designated IVO to submit annually, and no sooner than 12 months after initial designation as an IVO, to the agency and Legislature a report, as specified.
+DIGEST KEY
+Vote: majority   Appropriation: no   Fiscal Committee: yes   Local Program: no  
+BILL TEXT
+THE PEOPLE OF THE STATE OF CALIFORNIA DO ENACT AS FOLLOWS:
+
+SECTION 1. Chapter 14 (commencing with Section 8898) is added to Division 1 of Title 2 of the Government Code, to read:
+CHAPTER  14. California Artificial Intelligence Safety Independent Verification Organizations
+
+8898. As used in this chapter:
+(a) “Agency” means the Government Operations Agency.
+(b) “Artificial intelligence” or “AI” means an engineered or machine-based system that varies in its level of autonomy and that can, for explicit or implicit objectives, infer from the input it receives how to generate outputs that can influence physical or virtual environments.
+(c) “AI auditor” means a person, partnership, academic institution, nonprofit, or corporation that conducts a covered audit on behalf of a third party.
+(d) “Covered AI audit” means an audit conducted to assess internal controls, processes, or systems implemented for an AI system or model that are necessary for compliance with state law.
+(e) “Independent verification organization” or “IVO” means an AI auditor that is designated by the agency as having demonstrated expertise in assessing the risks posed by an AI system or model and identifying the metrics and methodologies that form the basis for that assessment.
+
+8898.1. On or before January 1, 2028, the agency shall do all of the following:
+(a) Develop application requirements for designation as an IVO, including the information required to apply for designation as an applicant IVO, which shall submit the following as part of its application:
+(A) The qualifications of the applicant demonstrating competence to be designated an IVO by the agency.
+(B) Information sufficient to address the designation criteria published by the agency pursuant to subdivision (c).
+(C) The benchmarks, technologies, metrics, and methodologies the IVO proposes using to conduct the IVO’s work.
+(D) Any documentation necessary for the agency to verify the accuracy of the information in the application.
+(b) Develop procedures for determining whether to suspend or terminate the designation of an IVO. In developing these procedures, the agency shall include procedures to consider all of the following:
+(1) Failures to adhere to appropriate standards.
+(2) Material misrepresentations in the IVO’s application for designation, audit reports, or required disclosures.
+(3) Conflicts of interest that impair independence.
+(4) Failure to maintain adequate documentation.
+(5) Conduct that reasonably calls into question the integrity, objectivity, or competence of the IVO.
+(6) Lapses in cybersecurity.
+(c) Develop criteria for determining whether an AI auditor qualifies as a designated IVO.
+(1) In developing these criteria, the agency shall identify and consider existing standards, frameworks, guidelines, criteria, and best practices developed or published by government agencies, standards-setting organizations, including national and international auditing and assurance organizations, AI auditors, AI entities that develop or deploy AI systems or models, or other independent experts with relevant expertise.
+(2) The agency shall consider, at a minimum, whether the IVO meets all of the following criteria with respect to an AI system or model in operation:
+(A) Assessing the risks posed by an AI system or model and identifying the metrics and methodologies that form the basis for that assessment.
+(B) Employing or otherwise engaging personnel with sufficient technical expertise.
+(C) Identifying and managing potential conflicts of interest that may undermine the integrity, quality, or independence of the IVO, including ensuring financial relationships do not impact the judgment and decisionmaking of the IVO. An IVO may accept payment from a party being assessed at reasonable market rates but shall not accept terms which condition any payment or the amount of any payment on the results of their assessment.
+(D) Maintaining independence from the party being assessed, including by having no operational or management dependence on the party being assessed or its affiliates and by remaining otherwise free from the assessed party’s control in reaching conclusions or making recommendations, including, as appropriate, through contractual safeguards and conflict-of-interest policies.
+(d) Publish any requirements or criteria identified pursuant to this chapter in a publicly accessible format on the agency’s internet website.
+(e) Publish a statement on the agency’s internet website prominently disclosing that the publication of requirements or criteria pursuant to this subdivision does not constitute recommendation or endorsement by the state of any AI system or model.
+(f) Regularly review requirements and criteria identified pursuant to this chapter and revise them as appropriate to reflect changes in applicable state law, technological developments, widely recognized industry standards, and emerging best practices.
+(g) To the extent practicable, align procedures and criteria developed pursuant to this chapter with existing professional and regulatory audit and assurance standards, frameworks, and criteria to promote consistency, comparability, and reliability across regulatory and industry frameworks.
+(h) To the extent practicable, structure the requirements of this section to minimize duplicative compliance obligations, including by allowing reports, assessments, audits, or assurance engagements prepared to satisfy substantially similar requirements to be used for purposes of this section if those reports, assessments, audits, or engagements satisfy the requirements of this section.
+
+8898.2. (a) In carrying out its duties under this chapter, the agency shall consult as appropriate with any of the following:
+(1) AI auditors.
+(2) Independent verification organizations.
+(3) Academic institutions.
+(4) Private entities, including startups and other emerging technology companies, that develop AI systems or models.
+(5) Private entities, including startups and other emerging technology companies, that deploy or operate AI systems or models.
+(6) Consumer protection, labor, and civil society organizations.
+(7) Relevant federal, state, and local agencies.
+(8) National and international standards-setting organizations.
+(9) Any other relevant stakeholders, as determined by the agency.
+(b) (1) The agency shall convene working groups to solicit stakeholder input in the identification of standards and the development and revision of procedures, requirements, and criteria pursuant to this chapter. Working groups shall include, but not be limited to, engineers from AI companies that are competitors and AI safety experts.
+(2) The agency shall provide a report, under Section 9795, to the Legislature on the findings of the working groups.
+
+8898.3. (a) A designated IVO shall submit annually, and no sooner than 12 months after initial designation as an IVO, to the agency and Legislature a report that includes all of the following:
+(1) Summaries of the IVO’s standards and methodologies.
+(2) A description of any changes to the independent verification organization’s governance policies or sources of funding relevant to the IVOs conflicts of interest or independence.
+(3) Any changes to the IVO’s application information.
+(b) When an IVO provides documents to comply with this section, the IVO may make redactions to those documents that are necessary to protect trade secrets, cybersecurity, public safety, or the national security of the United States or to comply with any federal or state law.
+(c) If an IVO redacts information in a document pursuant to this subdivision, the IVO shall describe the character and justification of the redaction in any published version of the document to the extent permitted by the concerns that justify redaction and shall retain the unredacted information for five years.
+
+8898.4. (a) This chapter does not do any of the following:
+(1) Establish liability solely for failure to comply with a standard pursuant to this chapter.
+(2) Constitute recommendation or endorsement by the state of any AI system or model.
+(3) Require any person, partnership, or corporation that develops, deploys, or operates an AI system or model to engage an IVO or to undergo a covered AI audit as a condition of developing, deploying, or operating an AI system or model in this state.
+(4) Require an IVO to conduct audits to assess compliance with applicable state law in order to register with the agency.
+(b) In an action alleging that a defendant’s development, modification, or use of an artificial intelligence system or model caused harm, the fact that an audit has been performed in accordance with a standard identified under this chapter is relevant to, but not conclusive of, the action.

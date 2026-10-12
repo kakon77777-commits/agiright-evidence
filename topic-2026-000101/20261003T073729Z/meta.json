@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000101",
+  "url": "https://arxiv.org/abs/2608.09867",
+  "capturedAt": "2026-10-03T07:37:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 44264,
+    "sha256": "3cad2e0d76e53bb0da606a95f8dfa88c694fec078c0529ccb0a0c870944229fc",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B2D73771A36ABD9EEFAE771AE3AD8F14",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.09867",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1147,
+      "afterScrollHeight": 1147,
+      "wantedHeight": 1147
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "cb379b8b639f8b2872a9aba6f46d714a9df0cab6df59fcec44bc66002ab95088",
+    "width": 1366,
+    "height": 1147,
+    "bytes": 147992,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1147,
+    "afterScrollHeight": 1147,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:37:29Z",
+    "url": "https://arxiv.org/abs/2608.09867",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 44264,
+      "sha256": "3cad2e0d76e53bb0da606a95f8dfa88c694fec078c0529ccb0a0c870944229fc"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.09867",
+    "httpStatus": 200,
+    "title": "[2608.09867] Stealing Reasoning Traces from Proprietary LLM APIs",
+    "rendered": {
+      "textChars": 3546,
+      "textSha256": "afc06182aaeb0078046cc05602898ad6b92e183e44eecf0f4099e7129b58bf48",
+      "htmlSha256": "c8c4a1f0d8aed34e526a8238ef98b0af74017da5b9108de8e851e0374ecfd035"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "cb379b8b639f8b2872a9aba6f46d714a9df0cab6df59fcec44bc66002ab95088",
+      "width": 1366,
+      "height": 1147,
+      "bytes": 147992,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

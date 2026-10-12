@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000128",
+  "url": "https://www.cbsnews.com/chicago/news/illinois-class-action-lawsuits-voices-stolen-train-ai-bipa/",
+  "capturedAt": "2026-10-03T07:47:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 645909,
+    "sha256": "f9975ebef2cbc7ea5ac0f7d9f6c7882443754cd612a030210bcb60fa602ee9c2",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "2DB7B354A290EB7A0499190CD9AEF71C",
+      "status": 200,
+      "url": "https://www.cbsnews.com/chicago/news/illinois-class-action-lawsuits-voices-stolen-train-ai-bipa/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5402,
+      "afterScrollHeight": 5402,
+      "wantedHeight": 5402
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "0235d5f5f4cac08c281ece213fc4d5e6329baec676fb4573d27455f9f6d0af52",
+    "width": 1366,
+    "height": 5402,
+    "bytes": 1093235,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5402,
+    "afterScrollHeight": 5402,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:47:21Z",
+    "url": "https://www.cbsnews.com/chicago/news/illinois-class-action-lawsuits-voices-stolen-train-ai-bipa/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 645909,
+      "sha256": "f9975ebef2cbc7ea5ac0f7d9f6c7882443754cd612a030210bcb60fa602ee9c2"
+    },
+    "finalUrl": "https://www.cbsnews.com/chicago/news/illinois-class-action-lawsuits-voices-stolen-train-ai-bipa/",
+    "httpStatus": 200,
+    "title": "Illinois lawsuits accuse tech giants of \"stealing\" voices of well-known journalists, voice actors to train AI - CBS Chicago",
+    "rendered": {
+      "textChars": 7100,
+      "textSha256": "4479a078fa1891a4bd9c80576f2a3a40d657366261f1a0b415a133ee64163180",
+      "htmlSha256": "23c4275c63b491c443f5fa325b9d19ea5b118fee0b86eaef0e1ea571277f3cbe"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "0235d5f5f4cac08c281ece213fc4d5e6329baec676fb4573d27455f9f6d0af52",
+      "width": 1366,
+      "height": 5402,
+      "bytes": 1093235,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260519192704",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260519192704/https://www.cbsnews.com/chicago/news/illinois-class-action-lawsuits-voices-stolen-train-ai-bipa/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260519192704/https://www.cbsnews.com/chicago/news/illinois-class-action-lawsuits-voices-stolen-train-ai-bipa/",
+      "timestamp": "20260519192704",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

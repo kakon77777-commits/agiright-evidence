@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000091",
+  "url": "https://www.transparencycoalition.ai/news/more-than-1300-tech-employees-sign-open-letter-asking-for-ai-to-be-regulated",
+  "capturedAt": "2026-10-03T07:33:22Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 394437,
+    "sha256": "a05d59e8528558d271e32a7a5d170ae3afb6e4d8c41179b096a61065a1223923",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E12A61DE09BCA323A0D25DF336493446",
+      "status": 200,
+      "url": "https://www.transparencycoalition.ai/news/more-than-1300-tech-employees-sign-open-letter-asking-for-ai-to-be-regulated",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5252,
+      "afterScrollHeight": 5252,
+      "wantedHeight": 5252
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4e69da6880308e5a0a6e7836a61de96ee79e8eae5b82cfacf22ed4df92555f03",
+    "width": 1366,
+    "height": 5252,
+    "bytes": 974264,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5252,
+    "afterScrollHeight": 5252,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:33:22Z",
+    "url": "https://www.transparencycoalition.ai/news/more-than-1300-tech-employees-sign-open-letter-asking-for-ai-to-be-regulated",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 394437,
+      "sha256": "a05d59e8528558d271e32a7a5d170ae3afb6e4d8c41179b096a61065a1223923"
+    },
+    "finalUrl": "https://www.transparencycoalition.ai/news/more-than-1300-tech-employees-sign-open-letter-asking-for-ai-to-be-regulated",
+    "httpStatus": 200,
+    "title": "More than 1,300 tech employees sign open letter asking for AI to be regulated — Transparency Coalition. Legislation for Transparency in AI Now.",
+    "rendered": {
+      "textChars": 7469,
+      "textSha256": "4c35a00d8c17a3a231720d9b09112bdec9804a6e0dee20ed25fb88e0fb458bcb",
+      "htmlSha256": "05ac031d2cc285c3342bd94b4cc40d1d22976eae2293d82b81339d87e175d226"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4e69da6880308e5a0a6e7836a61de96ee79e8eae5b82cfacf22ed4df92555f03",
+      "width": 1366,
+      "height": 5252,
+      "bytes": 974264,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260812024245",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260812024245/https://www.transparencycoalition.ai/news/more-than-1300-tech-employees-sign-open-letter-asking-for-ai-to-be-regulated"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260812024245/https://www.transparencycoalition.ai/news/more-than-1300-tech-employees-sign-open-letter-asking-for-ai-to-be-regulated",
+      "timestamp": "20260812024245",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

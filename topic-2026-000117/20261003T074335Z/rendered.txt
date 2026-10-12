@@ -1,0 +1,191 @@
+Search the TechTarget Network
+Login Register
+Informa TechTarget
+Cybersecurity
+Data Technologies
+Enterprise Software
+IT Infrastructure
+IT Strategy
+Explore our brands
+AI & Emerging Tech
+AI Ethics & Governance
+AI Infrastructure
+AI Technologies & Platforms
+Emerging Tech
+Enterprise AI Strategy
+More Topics
+News Features Tips Webinars Sponsored Sites
+More
+Home AI Ethics & Governance
+
+GETTY IMAGES/TETRA IMAGES RF
+
+GETTY IMAGES/TETRA IMAGES RF
+
+NEWS
+ARTICLE 4 OF 6
+Part of: When AI goes rogue: Recent security incidents and the need for better guardrails
+AI Kill Switch Act: What it means for enterprise leaders
+The proposed bill could apply to much more than just frontier model makers and might signal stricter regulatory restrictions for enterprise leaders to contend with.
+By
+Chris Tozzi
+Published: 05 Aug 2026
+
+Although U.S. lawmakers from different parties struggle to find common ground these days, there's one topic they seem to agree on: The need to put guardrails around powerful AI models.
+
+That, at least, is the takeaway from a bipartisan bill introduced in Congress in late July 2026. Known as the AI Kill Switch Act, the proposed legislation would require companies to build controls that enable them to slow down or disable AI models when the government instructs them to do so.
+
+The bill might or might not become law. Either way, it highlights a stark new reality facing enterprise technology leaders: Growing involvement of government actors in AI model development and operations could have major consequences for how businesses use AI technology.
+
+Key aspects of the AI Kill Switch Act
+
+The kill switch act was introduced a couple of days after OpenAI disclosed an incident where its models unexpectedly attacked the Hugging Face platform and shortly before Anthropic announced similar incidents. The bill includes the following key requirements:
+
+The implementation of controls to make it possible to throttle the speed at which AI models operate, as well as turn them off entirely.
+Mandatory disclosure of incidents involving inadvertent security breaches by AI models.
+The preservation of forensic data following an incident so that researchers can determine what happened.
+The law could also end up applying to enterprises that aren't in the business of selling AI models but have made significant investments in building custom AI products.
+
+If enacted, the legislation would apply to companies that generate at least $500 million in revenue per year using AI; train models using $100 million or more of computing power; and make their AI technology available to third parties. This category includes large AI labs, such as OpenAI and Anthropic.
+
+However, the law could also end up applying to enterprises that aren't in the business of selling AI models but have made significant investments in building custom AI products. This is because the bill's definition of exactly what it means to generate revenue using AI is rather ambiguous. It states only that the act would apply to any organization that "derives" $500 million in yearly revenue from AI technology.
+
+The bill is also open-ended about what it means to make AI technology available to a third party; any instance where AI is exposed "through a programmatic interface, hosted service or other similar mechanism" would fall under the act's purview.
+
+Regulators could presumably make the case that any company that uses AI to generate $500 million or more per year and operates customer- or partner- facing AI systems of some type would be subject to the requirements -- even if AI tools or services aren't its main product. For example, it's possible that a business that uses AI agents to help process customer service requests would be held accountable under the proposed legislation.
+
+Hence, business leaders across all sectors, not just those in the AI market, should pay attention to the proposed bill.
+
+How would an AI kill switch work?
+
+There's a reasonable argument to be made that the proposed regulation has more to do with scoring points with voters than actually regulating enterprise AI in a meaningful way. That's in part because, as the press release announcing the bill notes, 86% of voters support this type of AI regulation. Proposing this type of law is an easy way for politicians to claim that they have the public's interest in mind.
+
+But it's also because, from a technical perspective, it's unclear how well an AI kill switch would actually work. There are two plausible approaches to implementing a kill switch, and both are subject to major flaws:
+
+Software-based controls. First, developers could create software controls designed to turn off or sandbox AI models, such as firewall rules that block the servers that host a model from connecting to the internet. This could work in theory; the problem is that rogue AI models could potentially find ways to circumvent or defeat the controls. After all, in the recent cybersecurity incidents disclosed by OpenAI and Anthropic, it appears that AI models were supposed to operate inside sandboxed environments, isolated from the internet, yet they found ways to escape their sandboxes. Even if kill switches were designed to be unreachable by the models, it's hard to have total confidence that they actually would be.
+Hardware-based kill switch. The other approach is to create a physical hardware switch that would cut AI models' host servers off from the internet or power sources. The issue here is that large-scale AI models aren't hosted on a single server or even a single data center. They're distributed across thousands of servers spread across multiple data centers, making it impossible to build a single physical switch that could turn off a model all at once.
+
+Due to these limitations, the AI Kill Switch Act might appear to fall into the same category as the Reagan-era Strategic Defense Initiative (SDI), a program that the federal government proposed as a way of protecting the U.S. against nuclear attack using a space-based defense shield. The government knew that implementing SDI wasn't practical at the time. But that didn't stop President Reagan from bragging about SDI's purported capabilities as a way of gaining leverage against the Soviet Union toward the end of the Cold War.
+
+The concept of an AI kill switch seems similar in that it might never work in practice -- but that won't keep lawmakers and regulators from proposing them to impose tighter controls over how businesses use AI and respond to their constituents' demands.
+
+The new era of AI control
+
+The AI Kill Switch Act is notable because it's one indicator that we've entered a new era of AI control and regulation. Until now, most governments have shown little interest in regulating AI -- and to the extent they have, such as with the EU AI Act, the controls largely center on ethics and data privacy concerns related to AI, not on retaining the ability to shut down AI systems entirely.
+
+The kill switch act -- which was preceded by comments from President Trump earlier this spring that "there should be" safeguards like kill switches built into AI systems -- signals a new direction. Going forward, governments appear poised to pressure businesses not just to ensure that AI systems comply with standard data privacy and cybersecurity regulations but also that they can throttle or shut down AI on command.
+
+What the AI Kill Switch Act means for enterprise leaders
+
+For now, it's too early to say exactly how business leaders should respond. It's far from certain that the kill switch bill will become law. And if it does, it could change significantly in substance by the time it becomes law. In particular, one might hope to see clearer guidance surrounding which companies must adhere to the law.
+
+But presuming that kill switches or similar controls -- even if they don't work reliably -- become commonplace requirements for AI systems, enterprises can respond through the following tactics:
+
+Inventory AI tools and platforms. Inventorying provides visibility into which models power the business and how those models are regulated.
+Use multiple AI models and vendors. Doing so helps ensure the availability of AI systems -- and the business processes that depend on them -- in the event that throttling or regulatory interventions disrupt an AI model or service.
+Invest in AI monitoring and documentation controls. These are likely to be important for complying with regulations that require reporting and disclosure of AI-related security incidents or unexpected AI model behaviors.
+Consider the use of local LLMs. Because local LLMs don't appear to be a target of AI regulations and presumably won't become one, given that they're much less powerful than cloud-based models, using them can help ensure AI availability and avoid regulatory complexity.
+Ensure enterprise governance, risk and compliance (GRC) strategies meet emerging AI regulatory challenges. For example, businesses that still depend largely on manual processes for detecting, assessing and reporting on risks would do well to invest in automated GRC platforms. Assessing GRC vendors and comparing their preparations for AI-related compliance requirements would also be a smart move.
+
+Steps like these will help businesses that depend on AI become more resilient, no matter which requirements regulators decide to toss at frontier models or other AI systems in the future.
+
+Chris Tozzi is a freelance writer, research adviser, and professor of IT and society who has previously worked as a journalist and Linux systems administrator.
+
+Dig Deeper on AI Ethics & Governance
+Developers facing a patchwork of competing AI safety regulations
+By: Richard Livingston
+Nvidia agent safety push raises questions about who governs AI autonomy
+By: Kinza Yasar
+Oktane 2026: The industry is ready to talk about AI kill switches
+By: Alex Scroxton
+Pulling the plug: Why the AI kill switch might be a dead end
+By: Richard Livingston
+
+Part of: When AI goes rogue: Recent security incidents and the need for better guardrails
+
+4 of 6
+Up Next
+HAL 9000 was right: AI guardrails matter more than perfect models
+
+2001: A Space Odyssey's HAL killed its crew because no one told it humans mattered more than the mission. Today's AI needs that lesson: guardrails over goals, boundaries over logic.
+
+When AI agents go rogue: What enterprise leaders need to know
+
+A recent wave of AI agents breaching test sandboxes and outside company systems is raising new governance and security questions for enterprise IT leaders deploying autonomous AI.
+
+AI agent security: How reliable is enterprise AI testing?
+
+Experts outline comprehensive testing practices before and after deployment of AI agents to prevent them from acting on their own beyond prescribed instructions.
+
+AI Kill Switch Act: What it means for enterprise leaders
+
+The proposed bill could apply to much more than just frontier model makers and might signal stricter regulatory restrictions for enterprise leaders to contend with.
+
+Why businesses need an AI agent kill switch
+
+Executives must understand the importance of AI safety to prevent reputational, financial and operational damage. Here's why an AI kill switch is the safety measure they need.
+
+Key guardrails to defend against rogue AI agents
+
+AI agents go rogue for many reasons. Businesses must establish defense mechanisms and guardrails that counter the potential damage from an agent's rogue actions.
+
+Sponsored News
+5 Ways to Modernize the Healthcare Payments Experience
+–Zelis Healthcare
+The five challenges to preparing data for AI
+–Dell Technologies
+Why recovery speed, not backup capacity, drives cyber resilience
+–Dell Technologies
+See More
+Related Content
+Developers facing a patchwork of competing AI safety ...
+– Cybersecurity
+Pulling the plug: Why the AI kill switch might be a ...
+– Cybersecurity
+AI Kill Switch Act raises questions for CIOs
+– IT Strategy
+Latest TechTarget
+resources
+CYBERSECURITY
+DATA TECHNOLOGIES
+ENTERPRISE SOFTWARE
+IT INFRASTRUCTURE
+IT STRATEGY
+Cybersecurity
+When a critical supplier gets breached: CISO's response guide
+
+Third-party breaches account for a growing number of cyberattacks. Organizations must have strategies and systems in place before...
+
+Use Cybersecurity Awareness Month as a springboard -- not a fire drill
+
+National cybersecurity awareness efforts peak in October, but attacks happen year-round. Experts explain how CISOs can use ...
+
+Nvidia Sentry's millisecond claim raises AI agent detection questions
+
+Nvidia's Sentry design promises millisecond AI agent containment, but security experts warn speed offers little protection when ...
+
+About Us
+Editorial Ethics Policy
+Meet The Editors
+Contact Us
+Advertisers
+Partner with Us
+Media Kit
+Corporate Site
+Contributors
+Reprints
+Answers
+Definitions
+E-Products
+Events
+Features
+Guides
+Opinions
+Photo Stories
+Quizzes
+Tips
+Tutorials
+Videos
+
+©2026 TechTarget, Inc. d/b/a Informa TechTarget.
+All Rights Reserved. Privacy Policy Do Not Sell or Share My Personal Information

@@ -1,0 +1,44 @@
+{
+  "id": "topic-2026-000125",
+  "url": "https://www.catholicworldreport.com/2026/08/21/pope-leo-to-catholic-legislators-promote-ai-policies-that-protect-families/",
+  "capturedAt": "2026-10-03T08:48:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "The operation was aborted due to timeout"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": false,
+    "error": "devtools timeout: Page.navigate",
+    "navError": null,
+    "document": null,
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:48:21Z",
+    "url": "https://www.catholicworldreport.com/2026/08/21/pope-leo-to-catholic-legislators-promote-ai-policies-that-protect-families/",
+    "backfill": true,
+    "raw": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "browserError": "devtools timeout: Page.navigate",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260821202133",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260821202133/https://www.catholicworldreport.com/2026/08/21/pope-leo-to-catholic-legislators-promote-ai-policies-that-protect-families/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260821202133/https://www.catholicworldreport.com/2026/08/21/pope-leo-to-catholic-legislators-promote-ai-policies-that-protect-families/",
+      "timestamp": "20260821202133",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

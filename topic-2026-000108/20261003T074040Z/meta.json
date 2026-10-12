@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000108",
+  "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+  "capturedAt": "2026-10-03T07:40:40Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 93530,
+    "sha256": "bf5f005c48ead63a059fb57f122c43bd538d7bdb8725038a0c45a89112b6fb12",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C0D61FF54DC1F0DC4CDCEC71930C4E57",
+      "status": 200,
+      "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3919,
+      "afterScrollHeight": 3919,
+      "wantedHeight": 3919
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2982941bad82ab38c7eb32b7a8a53e4ef09525ccba23cce343671f2d2853ec66",
+    "width": 1366,
+    "height": 3919,
+    "bytes": 367837,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3919,
+    "afterScrollHeight": 3919,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:40:40Z",
+    "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 93530,
+      "sha256": "bf5f005c48ead63a059fb57f122c43bd538d7bdb8725038a0c45a89112b6fb12"
+    },
+    "finalUrl": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+    "httpStatus": 200,
+    "title": "Bill Text - SB-813 Independent verification organizations.",
+    "rendered": {
+      "textChars": 12109,
+      "textSha256": "533c988d276fe26aff2c251c0e4909577a0c145693647cbb18a2eea95412eca5",
+      "htmlSha256": "da7f22cf8c22521b810ba559d28e6f4613ff6b40cb26236b35cb5d28573bb55b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2982941bad82ab38c7eb32b7a8a53e4ef09525ccba23cce343671f2d2853ec66",
+      "width": 1366,
+      "height": 3919,
+      "bytes": 367837,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20250321212517",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20250321212517/https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20250321212517/https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB813",
+      "timestamp": "20250321212517",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

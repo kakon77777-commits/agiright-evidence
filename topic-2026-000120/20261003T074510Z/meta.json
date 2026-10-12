@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000120",
+  "url": "https://www.sheppard.com/insights/blogs/south-korea-opens-the-door-to-copyright-registration-of-ai-assisted-works",
+  "capturedAt": "2026-10-03T07:45:10Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 429,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 33940,
+    "sha256": "7d5e11fb7662e73cd4fcd938da7d793bec7d43710f558afda7ac6e2dc895d207",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "29DC7FF4E146377D75D9252A3301392C",
+      "status": 200,
+      "url": "https://www.sheppard.com/insights/blogs/south-korea-opens-the-door-to-copyright-registration-of-ai-assisted-works",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4652,
+      "afterScrollHeight": 5470,
+      "wantedHeight": 4652
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4f76a9f070019366a6b4b0a04a77fe5a2694d66bc536ecd5b88cb91fdb242ea2",
+    "width": 1366,
+    "height": 4652,
+    "bytes": 761358,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 4652,
+    "afterScrollHeight": 5470,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:45:10Z",
+    "url": "https://www.sheppard.com/insights/blogs/south-korea-opens-the-door-to-copyright-registration-of-ai-assisted-works",
+    "backfill": true,
+    "raw": {
+      "status": 429,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 33940,
+      "sha256": "7d5e11fb7662e73cd4fcd938da7d793bec7d43710f558afda7ac6e2dc895d207"
+    },
+    "finalUrl": "https://www.sheppard.com/insights/blogs/south-korea-opens-the-door-to-copyright-registration-of-ai-assisted-works",
+    "httpStatus": 200,
+    "title": "South Korea Opens the Door to Copyright Registration of AI-Assisted Works | Sheppard",
+    "rendered": {
+      "textChars": 7865,
+      "textSha256": "7579eebafb6548582273dde8278d8df58a1ffec3d7ce78f4694f6b065f47eb47",
+      "htmlSha256": "2e8f3075024961a8c8a68f1e03bdf6b51ba59c45a5fa5ba3373a23ce7293ae43"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4f76a9f070019366a6b4b0a04a77fe5a2694d66bc536ecd5b88cb91fdb242ea2",
+      "width": 1366,
+      "height": 4652,
+      "bytes": 761358,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

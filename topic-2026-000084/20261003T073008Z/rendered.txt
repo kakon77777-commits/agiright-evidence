@@ -1,0 +1,119 @@
+Skip to content (Press Enter)
+
+Cooley Finsights
+
+Tracking trends in financial regulation and enforcement
+
+Home_Send NotificationsFannie Mae Issues AI/ML Governance Framework for Sellers and Servicers
+Compliance Supervision and Enforcement
+Fannie Mae Issues AI/ML Governance Framework for Sellers and Servicers
+Cooley April 24, 20264 min read
+Share
+
+Fannie Mae recently issued Lender Letter LL-2026-04 (Fannie Mae letter), which sets forth a governance framework for Fannie Mae single-family sellers and servicers using artificial intelligence and machine learning (AI/ML) in their origination and servicing practices. The requirements will take effect on August 6, 2026. The Fannie Mae letter builds upon prior Freddie Mac updates to its Seller/Servicer Guide on the same topic (Freddie Mac updated guidance).
+
+While the mortgage industry’s adoption of AI/ML has been subject to certain regulatory requirements since before the explosion of AI-specific regulations, the recent guidance from Fannie Mae and Freddie Mac indicates a new focus on governance and encompasses risks not only from underwriting but also from third parties.
+
+Background
+
+Regulators have long acknowledged the potential – and risks – of using AI/ML tools to improve the mortgage underwriting process. Model governance, transparency and efficacy are established focus areas, even before AI was part of the conversation. Thus, the government-sponsored enterprises’ (GSEs) shift toward governance aligns with AI trends outside of the mortgage industry, and regulatory expectations within it, with a wave of state legislative proposals and enacted laws zeroing in on governance as key for responsible AI/ML deployment.
+
+The guidance
+
+While the Fannie Mae letter and Freddie Mac updated guidance are aligned in purpose, they differ meaningfully in specificity.
+
+Fannie Mae
+
+The Fannie Mae letter provides that any seller or servicer that uses AI or ML in connection with origination or servicing activity must operate under a documented, actively maintained governance program.
+
+Specifically, a seller or servicer must:
+
+Maintain written policies and procedures that cover the full life cycle of any AI/ML system, and that are reviewed and updated at least annually. The policies must be communicated to relevant staff, grounded in applicable legal and regulatory requirements, calibrated to the institution’s own risk tolerance, and assigned to a designated owner.
+Comply with information security obligations.
+Manage risks from vendor and subcontractor use of AI/ML tools and apply the same governance standards as are required of the seller or servicer.
+
+Freddie Mac
+
+The Freddie Mac updated guidance is more prescriptive than the Fannie Mae letter, mandating a more operationally demanding set of controls. Sellers and servicers must:
+
+Actively assess their AI/ML systems for specific attack vectors.
+Conduct regular internal and external audits measured against named industry standards (i.e., National Institutes of Standards and Technology 800-53 and International Organization for Standardization 27001).
+Maintain ongoing monitoring for performance degradation and bias.
+Implement segregation of duties with documented accountability structures and lines of communication.
+
+Unlike the Fannie Mae letter, the Freddie Mac updated guidance includes a broad indemnification obligation since it is part of the Freddie Mac Seller/Servicer Guide, requiring sellers and servicers to hold Freddie Mac harmless from losses or liability arising from their use of AI/ML. The Freddie Mac updated guidance also expressly requires that AI/ML policies be approved by senior management (including, at a minimum, the chief information officer, chief technology officer, chief information security officer or chief risk officer).
+
+What this means
+
+While substantively similar, the Fannie Mae letter provides the bones of a governance program, while the Freddie Mac updated guidance operates more like an operational checklist. Sellers and servicers will need to assess whether their programs satisfy both GSEs’ expectations.
+
+More broadly, Fannie Mae and Freddie Mac have signaled their increasing oversight over AI/ML, including reserving the right to ask sellers and servicers why AI/ML is being used, the purposes of such use, and what safeguards are in place to mitigate risks related broadly to AI/ML, not just bias or discrimination risks.
+
+For many sellers and servicers, the requirements may feel familiar to governance frameworks they already have in place in response to fair lending laws. The significance of the documents, however, lies in their reach. The GSEs are no longer focused solely on discrimination and risk; they are now evaluating the broader set of risks stemming from AI/ML and a seller’s or servicer’s ability to manage those risks through governance.
+
+The vendor oversight component is likely to be another operational challenge. Sellers and servicers will need to assess whether their existing vendor management programs are robust enough to satisfy at least the Fannie Mae letter and may need to evaluate their own oversight of third-party compliance.
+
+As AI/ML use continues to proliferate in the mortgage industry, sellers and servicers should expect the GSEs to revisit and refine these standards over time and make AI/ML a new focal point of examinations and enforcement.
+
+ 
+
+Tags: Artificial intelligence Lending Mortgage
+Post Navigation
+Previous Article
+FDIC Rescinds Supervisory Guidance on Multiple NSF Fees
+Next Article
+CFPB Finalizes Significant Changes to Regulation B
+You may also like
+Compliance Supervision and Enforcement
+Federal Banking Regulators Rescind Guidance on Climate-Related Financial Risks
+Compliance Regulation and Rulemaking
+10th Circuit Upholds Colorado’s DIDMCA Opt Out, Deepening States’ Power Over Bank-Fintech Partnership Lending – But Not Without Dissent
+Compliance Supervision and Enforcement
+Agencies Issue Guidance on Lending to Persons Not Authorized to Work in US
+Compliance Supervision and Enforcement
+Part 2: NYDFS Sharpens Its Focus on Multifactor Authentication
+Subscribe to new post notifications.
+Security check: What is 7 + 6?
+Search
+Search
+Tags
+Artificial intelligence
+BSA/AML
+Consumer Financial Protection Bureau (CFPB)
+Court opinions
+Cryptocurrency
+Cybersecurity
+Debanking
+Debit cards
+Department of Housing and Urban Development (HUD)
+Department of Justice (DOJ)
+Earned wage access (EWA)
+Executive orders
+Fair lending
+Federal Deposit Insurance Corporation (FDIC)
+Federal Reserve
+Federal Trade Commission (FTC)
+FinCEN
+Legislation
+Lending
+Licensing
+Litigation
+Money transmission
+Mortgage
+NCUA
+Office of the Comptroller of the Currency (OCC)
+Open banking
+Small business
+States
+Treasury
+UK
+
+View all tags
+
+Disclaimer
+
+This content is provided for general informational purposes only, and your access or use of the content does not create an attorney-client relationship between you or your organization and Cooley LLP, Cooley (UK) LLP, or any other affiliated practice or entity (collectively referred to as "Cooley"). By accessing this content, you agree that the information provided does not constitute legal or other professional advice. This content is not a substitute for obtaining legal advice from a qualified attorney licensed in your jurisdiction, and you should not act or refrain from acting based on this content. This content may be changed without notice. It is not guaranteed to be complete, correct or up to date, and it may not reflect the most current legal developments. Prior results do not guarantee a similar outcome. Do not send any confidential information to Cooley, as we do not have any duty to keep any information you provide to us confidential. When advising companies, our attorney-client relationship is with the company, not with any individual. This content may have been generated with the assistance of artificial intelligence (Al) in accordance with our Al Principles, may be considered Attorney Advertising and is subject to our Privacy Policy / Cookies Policy.
+
+Cooley Cookie Preferences
+At Cooley, we use a variety of technologies to help us deliver customized web visitor experiences. In particular, we may use a technology called “cookies” to provide you with, for example, customized information from our website and its webpages. You can update your consent in our Cookie Preference Center at any time. By clicking “Accept all,” you agree to the storing of cookies on your device to enhance site navigation, analyze site usage and assist in our marketing efforts.View our cookie policy.View our legal notices.
+Manage Reject all Accept all

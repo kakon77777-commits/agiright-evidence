@@ -1,0 +1,279 @@
+AI Laws by State
+By State
+By Topic
+Trends
+Pricing
+Tools
+Resources
+About
+Log In
+Sign Up
+Home
+›
+Blog
+›
+California AI Transparency Act (SB 942): 2026 Compliance Guide
+COMPLIANCE GUIDES
+California AI Transparency Act (SB 942): 2026 Compliance Guide
+AI Laws by State
+April 28, 2026
+10 min read
+Legal Disclaimer: This article is for informational purposes only and does not constitute legal advice. Consult a qualified attorney for guidance specific to your situation.
+
+On August 2, 2026, California will become the first US state to enforce a comprehensive generative AI watermarking and content-detection mandate. That operative date is not the original one: California's AI Transparency Act (SB 942), signed by Governor Newsom on September 19, 2024, initially took effect January 1, 2026. AB 853, signed October 13, 2025, pushed the date back to align with EU AI Act provenance timelines while layering on new obligations for online platforms and camera manufacturers. Together, SB 942 and AB 853 (Chapter 674, Statutes of 2025) form the most detailed AI provenance framework enacted by any US state. Here is what covered entities need to know before the clock runs out.
+
+What SB 942 Requires
+
+SB 942 imposes three distinct technical obligations on covered providers of generative AI systems.
+
+AI Content Detection Tool
+
+Every covered provider must offer a free, publicly accessible tool that lets any person determine whether a specific piece of content was generated or substantially altered by that provider's AI system. The tool must accept uploads or URLs as input and expose an application programming interface (API) so that third-party platforms can integrate it into their own workflows. Privacy is a first-class requirement: the detection tool must not retain any user-submitted content longer than is necessary to return a result, and it must not collect personal information from users who submit content for analysis. These constraints effectively prohibit logging user uploads for model training or analytics purposes without explicit consent.
+
+The detection API requirement is significant because it creates a standardized access point for social media platforms, news organizations, and enterprise compliance teams to verify AI provenance at scale — something a web-only UI could not deliver alone.
+
+Latent Disclosure (Watermark)
+
+Every image, video, and audio file generated or substantially altered by a covered system must carry a latent disclosure — a machine-readable provenance record embedded in the content itself. The latent disclosure must include the provider's name; the name and version of the generative AI system that created or altered the content; the timestamp of creation or alteration; and a unique identifier linking the content back to the generating system.
+
+The disclosure must be "permanent or extraordinarily difficult to remove" — language that points squarely at cryptographic or steganographic embedding rather than easily-stripped metadata tags. SB 942 instructs covered providers to use methods consistent with "widely accepted industry standards," which in practice means the C2PA (Coalition for Content Provenance and Authenticity) specification — the same framework underlying the EU AI Act Article 50 watermarking requirement. Because SB 942 was drafted to harmonize with EU AI Act timelines (AB 853 made that explicit), C2PA-compatible provenance is the de facto technical standard for compliance.
+
+The latent disclosure obligation applies to images, video, and audio — not to AI-generated text. This is a deliberate policy choice that reflects the higher deception risk of realistic synthetic media relative to plain text outputs.
+
+Manifest Disclosure (Visible Label)
+
+SB 942 also gives users the option to add a manifest disclosure — a visible label indicating that content was AI-generated. The manifest disclosure is optional for users to apply, but covered providers must offer the capability. Any manifest disclosure must be clear, conspicuous, and appropriate for the medium in which it appears: a label suitable for a still image may not be appropriate for a short-form video or an audio clip, and providers must account for that variation.
+
+Who Has to Comply
+
+SB 942 applies to covered providers: any person or entity that creates, codes, or otherwise produces a generative AI system that is publicly accessible within California and has more than one million monthly visitors or users. The one-million threshold means the law is designed for scale — it captures every major foundation-model laboratory (OpenAI, Anthropic, Google DeepMind, Meta, xAI) and every significant mid-market image, audio, and video generation platform (Midjourney, ElevenLabs, Suno, Adobe Firefly, and similar services) that operates at scale in the California market.
+
+The "publicly accessible within California" framing does not require a California headquarters or incorporation. Any platform with over one million monthly users who are California residents or who access the platform from California falls within scope. Given California's population of approximately 39 million, virtually every US-facing consumer GenAI platform above the monthly-user threshold will need to comply. The practical effect is that SB 942 functions as a national — and in many cases global — compliance requirement for any GenAI company operating at scale.
+
+Smaller providers below the threshold are not directly covered by SB 942, but they may still face contractual obligations from covered providers who license their technology (see below), and they remain subject to other California AI laws such as AB 2013 (training data transparency).
+
+Third-Party Licensee Requirements
+
+SB 942 does not stop at the covered provider. Any covered provider that licenses its generative AI system to a third party must contractually require that licensee to maintain the latent-disclosure capability of the system. The licensee cannot strip, disable, or circumvent the watermarking mechanism. This pass-through obligation runs with the license: a covered provider that licenses to a business customer, which in turn sublicenses to a downstream developer, must ensure the chain of contracts preserves the disclosure mandate.
+
+The enforcement mechanism for licensee violations is a 96-hour revocation window. If a covered provider learns — or reasonably should know — that a licensee has stripped or disabled the latent-disclosure capability, the covered provider must revoke that licensee's access to the system within 96 hours of gaining that knowledge. Once a license is revoked, the licensee must immediately cease using the system. Failure to revoke within the 96-hour window exposes the covered provider itself to enforcement action, creating a strong incentive to monitor licensee compliance continuously rather than relying on contractual representations alone.
+
+For enterprise sales teams and legal departments, this means AI supply-chain due diligence is now a legal requirement, not just a best practice. Covered providers will need audit rights in their license agreements and technical monitoring capabilities to detect downstream stripping of provenance data.
+
+Penalties and Enforcement
+
+The penalty structure of SB 942 is deliberately designed to accumulate quickly. Each failure to comply carries a fine of $5,000 per violation, and every day of non-compliance is treated as a separate, discrete violation. A covered provider that fails to deploy a compliant detection tool for 30 days faces potential exposure of $150,000 from that single deficiency alone — before any multiplier for the number of affected users or content pieces.
+
+Enforcement authority rests with the California Attorney General, as well as city attorneys and county counsels, who may bring civil actions on behalf of California residents. Prevailing plaintiffs — including the AG — are entitled to attorney's fees and costs in addition to the per-violation penalties. For licensees who strip provenance data, the AG, city attorneys, and county counsels can also seek injunctive relief to compel compliance or halt the use of a non-compliant system entirely.
+
+The combination of daily accrual, AG standing to sue, and fee-shifting creates a litigation risk profile similar to California's CCPA enforcement regime — but with less ambiguity about who the covered defendants are.
+
+AB 853: What Changed in October 2025
+
+AB 853 (authored by Assemblymember Buffy Wicks, signed October 13, 2025, Chapter 674 of the Statutes of 2025) substantially expanded the SB 942 framework while also delaying its initial operative date. The four primary changes are:
+
+1. Delayed operative date to August 2, 2026. The original SB 942 was operative January 1, 2026. AB 853 pushed that date to August 2, 2026, citing the need to align California's watermarking requirements with EU AI Act Article 50 provenance timelines and to give covered providers adequate time to build compliant detection infrastructure. The delay does not affect any obligation to begin preparing — covered providers should treat the August 2, 2026 date as a hard deadline, not an invitation to defer implementation.
+
+2. Large online platform obligations starting January 1, 2027. AB 853 creates a new category of regulated entity: "large online platforms," which include social media networks, general-purpose search engines, and mass-messaging platforms that distribute content at significant scale. Beginning January 1, 2027, these platforms must detect C2PA-compatible provenance data embedded in content distributed on their services and disclose that provenance information to users — for example, by surfacing an "AI-generated" indicator when a watermarked image appears in a social feed. This obligation extends SB 942's reach from content creators to content distributors.
+
+3. GenAI hosting platform restrictions starting January 1, 2027. Platforms that distribute generative AI model weights or source code — including AI model repositories and cloud-hosting services — will be prohibited from knowingly hosting generative AI systems that do not include the SB 942-required latent disclosures. This provision targets the open-source model ecosystem and ensures that models distributed for fine-tuning or local deployment cannot circumvent the watermarking requirements by being stripped of provenance capabilities before redistribution.
+
+4. Capture device manufacturer rules starting January 1, 2028. Under AB 853, cameras and recording devices first sold in California on or after January 1, 2028 must give users the option to embed latent provenance disclosures at the point of capture. This provision is forward-looking: it anticipates a world where authentic content (a photograph taken by a human) carries its own provenance metadata, making AI-generated content that lacks such metadata instantly distinguishable by detection systems.
+
+How SB 942 Compares to Other AI Disclosure Laws
+
+SB 942 is one of several AI transparency laws taking effect across the US in 2025 and 2026, but its technical specificity and media-specific scope set it apart from earlier frameworks.
+
+Utah SB 149 (effective May 1, 2024) was the first state AI disclosure law in the US. It is narrower than SB 942: it applies primarily to consumer-facing AI in regulated occupations (law, healthcare, financial services) and requires disclosure when AI interacts directly with a consumer in those contexts. Utah SB 149 does not address watermarking or provenance embedding.
+
+Colorado SB 26-189, which replaces Colorado's AI Act (SB 24-205) from January 1, 2027, focuses on consequential decisions made using automated decision-making technology — employment, housing, health care, lending — rather than synthetic media provenance. The notice obligations under Colorado SB 26-189 run from deployers to affected consumers, not from GenAI providers to all California residents. The two laws are complementary, not duplicative.
+
+Texas TRAIGA (HB 149) (effective January 1, 2026) establishes a broad AI governance framework with disclosure components for high-risk AI systems, but does not include a watermarking or detection-tool mandate comparable to SB 942.
+
+EU AI Act Article 50 is the global benchmark that SB 942 was explicitly designed to harmonize with. Article 50 requires providers of AI systems that generate synthetic audio, image, video, or text content to mark the output in a machine-readable format so that it is detectable as artificially generated or manipulated. AB 853's delayed operative date was chosen specifically to align with Article 50's enforcement timeline, creating a de facto transatlantic standard for GenAI provenance. For more on the EU–US comparison, see our AI transparency disclosure requirements state-by-state guide.
+
+Compliance Checklist
+
+Covered providers should work through the following steps before August 2, 2026. Each item maps to a specific SB 942 obligation or enforcement risk.
+
+Determine coverage. Confirm whether your generative AI system has more than 1,000,000 monthly visitors or users publicly accessible within California. If you are approaching but below this threshold, plan for compliance now — rapid growth can push you over the line quickly, and there is no grace period once you cross it.
+Build or license a detection tool. Deploy a free, publicly accessible AI detection tool with both a web UI and a documented API. Ensure it does not retain submitted content after returning results and does not collect personal information from users.
+Embed C2PA-compatible latent provenance. Integrate C2PA credential generation into your image, video, and audio generation pipelines. Each output must carry provider name, system name and version, creation timestamp, and a unique content identifier in a format that C2PA-compliant detection tools can read.
+Provide manifest disclosure capability. Give users an option — in your product UI or API — to add a visible "AI-generated" label to content they create or export.
+Audit third-party license agreements. Review all active licenses under which you distribute your generative AI system. Confirm that each agreement contractually requires the licensee to maintain the latent-disclosure capability and prohibits stripping provenance metadata.
+Establish a 96-hour revocation procedure. Create an internal process for monitoring licensee compliance and for revoking access within 96 hours of learning that a licensee has stripped or disabled latent disclosures. Document this process; regulators may request it in an enforcement investigation.
+Prepare for January 1, 2027 platform obligations. If you operate a large online platform (social network, search engine, mass-messaging service), begin designing the detection-and-display pipeline required to surface provenance information to users. You have until January 1, 2027, but the technical integration work typically takes several months.
+Frequently Asked Questions
+When does SB 942 take effect?
+What is the monthly-user threshold for SB 942 coverage?
+What is the penalty for SB 942 violations?
+Does SB 942 cover AI-generated text?
+Does California AB 2013 (training data transparency) also apply?
+Who enforces SB 942?
+Sources
+SB 942 bill text — California Legislative Information (CA leginfo)
+AB 853 (Chapter 674, Statutes of 2025) — CalMatters Digital Democracy
+Governor's signing statement (SB 942, September 19, 2024) — Office of Governor Newsom
+California Attorney General's Office — enforcement authority
+COMPLIANCE SUPPORT
+Need Help With AI Compliance?
+
+Connect with a compliance specialist who understands your state's AI regulations.
+
+Name *
+Email *
+Company
+State
+Select a state
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+District of Columbia
+Industry
+Select an industry
+Technology
+Healthcare
+Finance
+Insurance
+Legal
+Education
+Real Estate
+Government
+Retail
+Manufacturing
+Other
+Company Size
+Select company size
+1-10
+11-50
+51-200
+201-1000
+1000+
+What do you need help with?
+Get Compliance Help
+
+By submitting this form, you consent to AI Laws by State LLC sharing your contact information and inquiry details with vetted third-party law firms and compliance professionals who may contact you about AI compliance services. This is not a request for legal advice and does not create an attorney-client relationship. AI Laws by State LLC is not a law firm and does not provide legal services. You may opt out of future contact at any time by emailing read@ailawsbystate.com. See our Privacy Policy and Terms of Service.
+
+This article is for informational purposes only and does not constitute legal advice. Consult a qualified attorney for guidance specific to your situation.
+
+California AI law changes frequently. AI Laws by State tracks every California AI bill with effective dates and compliance deadlines updated as they are enacted.
+
+Subscribe to the weekly digest →
+SB 942
+AB 853
+California AI Transparency Act
+AI watermarking
+GenAI compliance
+C2PA
+AI content detection
+More from AI Laws by State
+The AI Transparency Act, Explained: What’s Federal vs State (2026 Guide)
+What is the AI Transparency Act? We explain federal proposals, California’s CAITA (AB 853), and the…
+AI Transparency Laws: State-by-State Breakdown 2026
+AI transparency requirements by state 2026: California AB 2013, bot disclosure laws, when you must …
+Washington HB 1170: AI Content Disclosure Law
+Washington HB 1170 requires disclosure when content is AI-generated or modified. Effective Feb 1, 2…
+New York S 8828: Frontier AI Transparency Law
+New York S 8828 requires transparency reporting for frontier AI model developers. Effective Jan 1, …
+
+Struggling with AI compliance?
+
+Describe your situation and we'll connect you with a specialist who understands your state's AI laws.
+
+Get Compliance Help
+
+Free consultation request · No obligation
+
+Sources & References
+
+All claims are sourced from primary government, academic, and standards-body materials. Found something we got wrong? Submit a correction.
+
+California Legislative Information — official bill text and status — primary source for California legislation cited in this post
+National Conference of State Legislatures — Artificial Intelligence in the States — nonpartisan aggregator of state AI legislation
+NIST AI Risk Management Framework (AI RMF 1.0) — federal standard referenced by many state AI laws
+Federal Trade Commission — AI and Consumer Protection — federal consumer protection guidance on AI disclosures
+Congress.gov — federal legislation and committee reports — official federal legislative information
+
+See our methodology for how we source, verify, and update this content.
+
+AI Laws by State
+
+Track AI bills across all 50 states. Updated daily from official legislature records.
+
+BROWSE
+All 50 States
+By Topic
+Trends
+Blog
+TOOLS
+Risk Score
+Deadline Calendar
+Printable Deadline PDF
+Compare States
+Am I Affected?
+All Trackers
+COMPANY
+About
+Methodology
+Enterprise
+Contact
+Pricing
+Press
+© 2026 AI Laws by State LLC · Updated October 3, 2026
+Terms
+Privacy
+Corrections
+Do Not Sell
+Not legal advice. Consult a licensed attorney for compliance decisions.
+
+We use cookies for analytics to understand how visitors use this site. We also use essential cookies for site functionality. See our Privacy Policy for details.
+
+Reject Non-Essential
+Accept All

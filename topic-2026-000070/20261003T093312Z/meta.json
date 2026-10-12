@@ -1,0 +1,89 @@
+{
+  "id": "topic-2026-000070",
+  "url": "https://aisafetypriorities.org/",
+  "capturedAt": "2026-10-03T09:33:12Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 535362,
+    "sha256": "fe1067e93bf4a9ea90b6dc90d6dc79d0faae0aefd41f20097558db45effebd15",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "031ED39A74758994BF742D81A105C740",
+      "status": 200,
+      "url": "https://aisafetypriorities.org/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 45616,
+      "afterScrollHeight": 45617,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "a9aa4951f55b8d1ad985d9f2304a7badf14a4961da7185feac91b90dfa8eac9b",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 2038201,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 45616,
+    "afterScrollHeight": 45617
+  },
+  "record": {
+    "capturedAt": "2026-10-03T09:33:12Z",
+    "url": "https://aisafetypriorities.org/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 535362,
+      "sha256": "fe1067e93bf4a9ea90b6dc90d6dc79d0faae0aefd41f20097558db45effebd15"
+    },
+    "finalUrl": "https://aisafetypriorities.org/",
+    "httpStatus": 200,
+    "title": "The 2026 Singapore Consensus on Global AI Safety Research Priorities",
+    "rendered": {
+      "textChars": 73292,
+      "textSha256": "26eb66b4de7521c2ceec1f87ace05f3725528f39406db1691995af6bdcab681a",
+      "htmlSha256": "1044941bbbfc99eaf71aa3d255692c4b3bc34ee5dbaed43b86d24dd95ca10ec8"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a9aa4951f55b8d1ad985d9f2304a7badf14a4961da7185feac91b90dfa8eac9b",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 2038201,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20250508210240",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20250508210240/https://aisafetypriorities.org/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20250508210240/https://aisafetypriorities.org/",
+      "timestamp": "20250508210240",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000118",
+  "url": "https://arxiv.org/abs/2608.12645",
+  "capturedAt": "2026-10-03T07:44:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 42404,
+    "sha256": "c219196e125d77a014ce397f3131e846f49d8610b64cf45f9ec69c4082efc69b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "223B34320FA85E84417A77F23F914BEB",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2608.12645",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1103,
+      "afterScrollHeight": 1103,
+      "wantedHeight": 1103
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e63b1adfaa3225d163b301908c252cb02aa0c24609a20b3889030695111d781a",
+    "width": 1366,
+    "height": 1103,
+    "bytes": 137882,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1103,
+    "afterScrollHeight": 1103,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:44:19Z",
+    "url": "https://arxiv.org/abs/2608.12645",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 42404,
+      "sha256": "c219196e125d77a014ce397f3131e846f49d8610b64cf45f9ec69c4082efc69b"
+    },
+    "finalUrl": "https://arxiv.org/abs/2608.12645",
+    "httpStatus": 200,
+    "title": "[2608.12645] Jagged Judges: Epistemic Stability Under Perturbation, Pressure, and Persistence",
+    "rendered": {
+      "textChars": 3030,
+      "textSha256": "a945983dbd85a3b005f44755b535f65dd2a799a058c6e891a8a929df391d8782",
+      "htmlSha256": "0070ba4a1e3a2a9cdf0b7867e9ff91ea256b839a7bd5dd98f04e8de90b6b456f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e63b1adfaa3225d163b301908c252cb02aa0c24609a20b3889030695111d781a",
+      "width": 1366,
+      "height": 1103,
+      "bytes": 137882,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

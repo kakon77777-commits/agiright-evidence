@@ -1,0 +1,553 @@
+The 2026 Singapore Consensus on Global AI Safety Research Priorities
+International Scientific Priorities for Building a Trustworthy, Reliable and Secure AI Ecosystem
+Frontier AI capabilities and autonomy are advancing rapidly. A growing number of real-world incidents make a trusted AI ecosystem essential to embracing AI with confidence. The 2026 Singapore Consensus is an outcome of the second International Scientific Exchange on AI Safety, bringing together over 100 contributors spanning 13 countries from frontier developers, government safety institutes, academia, and civil society. Building on the 2025 report, it presents a global understanding of technical AI safety research problems of top priority—now with a dedicated focus on societal resilience and on managing the risks of increasingly autonomous AI agents.
+Published on:
+July 2026
+Contributors:
+Over 100 contributors from 13 countries
+View PDF
+Event webpage
+Scroll to read
+Table of Contents
+Contributors
+Executive Summary
+Main Report: Research Priorities
+Research Priorities by Policy Area
+Introduction
+1 Risk Assessment
+2 Development
+3 Control
+4 Societal Resilience
+Conclusion
+References
+Companion Report: Agentic Risk Management Framework
+Introduction
+1 Design and Development
+2 Testing and Deployment
+3 Operation and Monitoring
+4 Conclusion & Open Questions
+References
+Previous Editions
+The 2025 Singapore Consensus on Global AI Safety Research Priorities
+View 2025 Edition
+Image: Participants of the 'International Scientific Exchange on AI Safety', 18–19 May 2026.
+Contributors to the Singapore Consensus
+Steering Committee:
+Yoshua Bengio | MILA
+Mohan Kankanhalli | National University of Singapore
+Lee Wan Sie | Infocomm Media Development Authority
+Tegan Maharaj | MILA
+Chris Meserole | Frontier Model Forum
+Luke Ong | Nanyang Technological University
+Stuart Russell | UC Berkeley
+Dawn Song | UC Berkeley
+Max Tegmark | Future of Life Institute
+Brian Tse | Concordia AI
+Xue Lan | Tsinghua University
+Andrew Yao | Shanghai Qi Zhi Institute
+Zhang Ya-Qin | Tsinghua University
+Zhou Bowen | Shanghai AI Lab
+Individual Contributors:
+Abhishek Aggarwal | Ministry of Electronics and IT, India
+Adam Gleave | FAR.AI
+Alan Chan | GovAI
+Alex Leung | Vulcan/AIFT
+Alvin Kwock | Vulcan/AIFT
+Anthony Tung | National University of Singapore
+Arisa Siong | Infocomm Media Development Authority
+Arthur Tea | Centific
+...plus 86 more contributors.
+ Click to view full list
+Writing Coordinators:
+Stephen Casper (Lead Writer) | Harvard University
+Sören Mindermann (Lead Writer) | University of Cambridge
+Oskar Galeev (Lead Writer) | Concordia AI
+Ima (Imane) Bello | Future of Life Institute
+Kwan Yee Ng | Concordia AI
+Vanessa Wilfred | Infocomm Media Development Authority
+Erica Liaw | Infocomm Media Development Authority
+Secretariat:
+Lee Chein Inn | Infocomm Media Development Authority
+Lin Wanxuan | Infocomm Media Development Authority
+Ng En Qi | Infocomm Media Development Authority
+Erica Liaw | Infocomm Media Development Authority
+Kwan Yee Ng | Concordia AI
+Jonathan Lee | Concordia AI
+José Villalobos | Future of Life Institute
+The views expressed by contributors are in their individual capacities and do not necessarily reflect those of their affiliated organisations.
+Executive Summary
+
+Frontier AI systems have advanced rapidly in capability and real-world impact. Revenues from frontier models have grown by over 400% from a year ago and AI investments this year are on track to exceed the GDP of a top 30 national economy. At the same time, AI safety incidents now impact millions of users globally. To drive investment by private and public actors in AI safety research so that it keeps pace with capabilities advancement, Singapore organised the 2nd International Scientific Exchange on AI Safety (ISE) in May 2026, continuing the dialogue on global AI safety research priorities which began at the inaugural ISE in April 2025.
+
+The 2026 Singapore Consensus on Global AI Safety Research Priorities, which is an outcome of the 2026 convening, presents a global understanding on scientific research problems that are of top priority to advance AI safety research. Building on the Singapore Consensus 2025 report, the 2026 Main Report has been updated based on key developments in the AI risk landscape in the past year, such as the increasing deployment and capabilities of autonomous AI agents and the growth of misuse and incidents. The report is developed as an agenda-focused complement to the International AI Safety Report with more than 100 contributors spanning 13 countries from frontier AI developers, government safety institutes, academics and civil society.
+
+At the same time, recognising that agentic deployment has become a major industry focus in the past year, ISE 2026 extends scientific discussion and consensus from research priorities to emerging risk management practices in the development and deployment of autonomous agents. Given that industry practices on agentic deployment are constantly evolving, there is tremendous value to achieving a shared understanding of the state-of-the-art practices to mitigate and manage these risks, drawing on the expertise and experiences of the global experts and world-leading organisations present at ISE 2026. This deep dive enriches the discussions at ISE 2026 and addresses a very timely and pertinent need from the industry. The discussions and findings are captured in the Companion Report on Agentic Risk Management, which incorporates and analyses input from global frontier AI developers on leading agentic safety practices.
+
+We hope to facilitate international dialogue and scientific collaboration among scientists, developers, and policymakers. Companies and nations often compete on AI capabilities research and development (R&D). However, we believe that research on managing AI’s risks is often an area of mutual interest (Bucknall 2025), at least outside areas of sensitive intellectual property. Due to their global nature, many societal-level AI risks can only be addressed by coalitions of companies or countries. As the leaders of the global AI powers and companies convene this year, we believe it is in their interest to agree on information sharing and research collaboration for the global public good.
+
+Key Updates
+1. Growing Emphasis on Societal Resilience as Risk Prevention Shows Gaps
+
+Adopting a defence-in-depth model, the original report groups scientific AI safety research topics into three broad areas from risk assessment that informs subsequent development and deployment decisions, to technical safety methods in the system development phase, and tools for control after a system has been deployed. Growing misuse and malfunction incidents show that harm prevention efforts alone are insufficient. We have therefore elevated societal resilience as a distinct fourth pillar to emphasize the growing importance of preparing and hardening societal systems for failures and misuse.
+
+2. Updated AI Safety Research Priorities
+
+The Main Report highlights new technical developments since ISE 2025, and outlines the research priorities that are especially important in light of these developments. The following research priorities are critical given developments over the last year:
+
+Prevention and resilience for growing misuse incidents. AI misuse incidents have grown precipitously, particularly for cyber attacks, nudification and other sexual abuse material. Biochemical misuse capabilities have surpassed PhD-level experts on some benchmarks and are being distributed with safeguards that can be consistently circumvented. New cyber model capabilities have abruptly increased the number of real-world vulnerabilities found in some critical software by over 1000%. Addressing this requires research on prevention and resilience methods targeted to these areas (Section 2, 3 and 4).
+Safety for open-weight models whose capabilities are nearing frontier closed models. According to common benchmarks, open weight models are estimated to be 3 to 12 months behind the frontier (varying across capabilities). Powerful AI models with publicly-downloadable weights are implicated in many misuse incidents. These models pose unique benefits for research and customization, but they can also be tampered with and used without oversight for malicious purposes. Managing these risks requires unique tools for open-weight model safety (Section 2.2.5) and ecosystem monitoring (Section 4.1). Since prevention is challenging, researching societal resilience to misuse is essential (Section 4.2).
+Evaluations and alignment/control methods for emerging oversight-resistant and control-undermining AI. Control-undermining AI capabilities and behaviors are now a major challenge to safety testing in practice. They also mark early warnings for loss of control scenarios. Additionally, frontier developers now increasingly use AI to oversee AI internally - including for safety evaluations - meaning that human operators may struggle to understand and verify the system of oversight itself. Addressing this requires research on evaluations and methods for both alignment and control that are more resistant to growing control-undermining AI tendencies such as evaluation awareness (Section 1.1), and methods to verify oversight when it is outsourced to AI systems (Section 3.2 and 4.1).
+3. Deep Dive into Agentic Risk Management
+
+2025 saw a sharp increase in deployment of AI agents, with releases accelerating sharply and agents’ autonomy levels rising in parallel. This momentum has continued into early 2026, with OpenClaw and its derivatives becoming the fastest-growing open source projects in history. Organizations are actively experimenting with ways of deploying autonomous AI agents as they become more powerful. However, uncertainty over their reliability, security, and trustworthiness have emerged as barriers to adoption. Addressing this requires research on and trusted best practices for agent risk management, which are examined in depth in the Companion Report on Agentic AI Risk Management.
+
+AI agents are becoming increasingly autonomous, capable, and widely applicable. They differ from earlier generative AI models in one important way: they can act, with direct effects on their environment and on the systems they connect to. These capabilities produce distinct risks and failure modes, yet governance mechanisms for agentic systems are only just beginning to emerge. As a result, uncertainty over their reliability, security, and trustworthiness has become a barrier to adoption. The 2026 International Scientific Exchange (ISE) on AI Safety therefore identified agentic risk management as a key direction for technical and governance research.
+
+This companion report analyses emerging practices in agentic AI risk management, drawing on input from leading model and agent developers, state-of-the-art academic research, and agentic governance frameworks. It identifies ten foundational principles for managing agentic risk: least privilege, traceable identity, auditability, validated deployment, adversarial resilience, multi-agent stability, runtime assurance, interruptibility, legibility, and human oversight. For each principle, the report sets out the governance context from jurisdictions including the US, China, Singapore, and the EU, and highlights technical practices for risk mitigation drawn from industry.
+
+The practices and evidence base underpinning these principles vary considerably in maturity. Some principles are better established and easier to implement in practice, with interoperable tools that make shared safety standards easier to achieve. Others, especially around multi-agent systems and agentic supply chains, are still an area of ongoing research. The report surfaces open problems and shows how responsibility for agentic risk management is spread across developers, deployers, cloud platform providers, and the open source ecosystems. No single actor can ensure the reliability, security, and trustworthiness of AI agents. Therefore, this companion report provides a shared foundation for both technical and governance efforts to manage agentic risks.
+
+Contributing to Global Collaboration and Advancement
+
+Today, safety research and risk management are a priority for frontier AI adoption, innovation, and prevention of large-scale harms. While we are encouraged by a high level of expert agreement on research priorities across global companies, countries, and institutions, scientific progress must be matched by robust standards and policy frameworks to close the gap between the state of the art and the state of practice. Many recent AI incidents have been preventable with existing methods, and developing better methods alone is not enough without stronger incentives and accountability mechanisms to ensure that AI developers adopt best practices for safety and organizational risk management. Due to their global nature, AI risks are usually best addressed by coalitions rather than individual companies or countries. We hope this consensus can inform research funding, highlight where more transparency and reporting are needed to enable research, spur information sharing and collaboration even among competitors where needed, and support the development of policy frameworks that allow everyone to embrace general-purpose AI safely and with confidence.
+
+Main Report
+
+The 2026 Singapore Consensus
+Research Priorities by Policy Area
+
+The Singapore Consensus is a scientific consensus on technical AI safety research priorities, not a policy document. The Executive Summary sets out why a shared, prioritised research agenda matters now: capabilities, real-world deployment and revenues are rising faster than our ability to measure and manage risks. Meanwhile, uncertainty about safety is itself holding back adoption. Agreeing on where research effort should go, and sharing much of what is learned, is often an international area of mutual interest: it serves every party at little to no competitive cost.
+
+This note translates the research areas into policy-relevant domains to inform research funding, standards development, and international coordination. Each area below opens with what is at stake, followed by the research directions experts judge most urgent. Section numbers point to the main report.
+
+Cyber misuse risk
+What is at stake: As frontier systems grow more capable, a central challenge is to ensure evaluation and defence move ahead of offence.
+Priorities include better ways to anticipate how attackers might use AI (“threat models”) and tougher tests of AI’s offensive cyber abilities (“harder cyber capability evaluations”) that keep pace with frontier systems (1.1, 1.3); developing tools that favor defenders (defense-favoring AI-for-cyber capabilities) and allow vulnerabilities, including in critical infrastructure, to be patched faster (4.2); monitoring collections of multiple AI agents once deployed, so coordinated misuse campaigns can be detected and shut down (4.1); stress-testing openly released models to see what they could do if deliberately retrained for harm (“malicious fine-tuning”) (2.2.5); and shared reporting of serious AI-enabled cyber incidents (4.2).
+Biological and chemical security
+What is at stake: The aim is to prevent models from meaningfully advancing weapons development, including pandemic-scale threats; to keep such capabilities out of novices' hands; and to tilt the balance toward defence across the supply chain.
+Priorities include: studies and tests that measure how much a model actually increases a would-be attacker’s capabilities (“uplift studies”), paired with practical thresholds for unacceptable levels of risk (1.1, 1.3); shared filters that keep weapons-relevant content out of the data models are trained on (“pretraining data filters”) (2.2.1); methods that aim to durably remove dangerous knowledge from openly released models and tests to confirm it cannot be easily retrained back in (“tamper resistant unlearning”) (2.2.5); and screening further up the supply chain globally, for example, of commercial DNA synthesis orders, to build a defenders’ advantage (4.2).
+Child safety and image-based abuse
+What is at stake: Here, the science is comparatively mature; the binding constraint is standardisation, adoption and safeguards that cannot be easily stripped out of systems.
+Priorities include: shared data filters that remove child sexual abuse material (“CSAM”) and other abuse content from training data (2.2.1); reliable methods to remove “nudification” and similar capabilities from models, with safeguards that survive later modification (such as fine-tuning) of openly released models (2.2.3, 2.2.5); detection tools, classifiers, watermarking, and content-metadata standards, where the main barrier is standardization and adoption (4.1); and measuring how often these harms occur and their real-world impact on children (1.3).
+Mental health and consumer protection
+What is at stake: The priority is to detect and prevent growing harms to users, especially vulnerable ones, before and after deployment.
+Priorities include: specification and validation methods that prevent and measure sycophancy, e.g. models affirming and reinforcing users' harmful beliefs (2.1); rapid, high-coverage pre-deployment risk identification, e.g. fast, broad-screening for unknown risks before a model is released (1.1); real-world trials of mental-health effects with cautious, graduated rollout, as in clinical trials (1.3); monitoring during use to identify users who may be vulnerable (4.1); and clear processes inside organisations for escalating concerns and reporting incidents (1.2, 4.2).
+AI agents in the economy
+What is at stake: Reliability and security concerns are leading bottlenecks to adoption, so progress here is as much an enabler of innovation as a safeguard.
+Priorities include: designing agents to operate safely and confining them to controlled environments (“sandboxing”) so mistakes stay contained (2.2.6, 2.2.3); benchmarks that close the gap between evaluated and real-world reliability (1.1); defenses against manipulating agents through hidden instructions (“prompt injection”) and the resulting hijacking of agents (2.2.4); real-time monitoring and the ability to intervene while an an agent is running (3.1); multi-agent red-teaming, e.g. adversarial testing of multiple agents working together (2.3.1); and infrastructure to identify and authenticate agents so their actions can be traced (4.1). Agent risk-management practices are discussed in depth in the Companion Report.
+Open-weight model safety and security
+What is at stake: Because model risks spread internationally and irreversibly once weights are released, with safeguards that are relatively easy to remove, managing open-weight model misuse is a shared international interest.
+Priorities include testing for worst-case misuse, including deliberate retraining for harm, before a model is released (2.2.5); careful curation and filtering of training-data, currently the safeguard hardest to strip out after release (2.2.1, 2.2.5); developing effective methods to make models reliably “unlearn” dangerous capabilities (2.2.5); tools to trace the origin of harmful models and their actions circulating in the wild (“provenance”) (4.1); and strengthening broader societal resilience against misuse, since prevention alone cannot be relied upon one weights are public (4.2).
+Loss of control and oversight of automated frontier AI development
+What is at stake: AI developers now use AI systems to automate major parts of safety and oversight internally. The priority is to ensure that their systems and processes remain accessible and controllable.
+Priorities include: evaluations that still work even when a model can determine if it is being tested and may therefore understate its harmful capabilities ("sandbagging") or conceal misalignment ("alignment faking"), backed by secure access for independent third parties (1.1, 1.5); assessing control-undermining capabilities and propensities and defining clear, operationalizable red lines (1.4); verifying that AI systems used to supervise other AI are themselves trustworthy, as developers are automating oversight internally (3.2); keeping a model’s step-by-step “chains-of-thought” honest and human-readable so they can be monitored 3.1); using non-agentic AI systems as safer guardrails for agents (3.2); and metrics for AI R&D automation and secure infrastructure giving external authorities awareness of internal deployments crossing regulatory thresholds (4.1).
+
+Recurring across areas: Several directions cut across every area above: agreed risk thresholds (Section 1), secure evaluation infrastructure for third-party scrutiny (1.5), organizational system safety (1.2), shared incident reporting (4.2), and hardware-enabled mechanisms that let companies or even state actors prove they are honoring commitments without exposing proprietary information (3.1, 4.1).
+
+Introduction
+Building a Trusted Ecosystem
+
+Rapidly improving AI capabilities and autonomy hold the promise of boosting economic growth and accelerating scientific advances. At the same time, a growing number of real-world incidents highlight the importance of building a trusted AI ecosystem. This will help stakeholders embrace AI with confidence and give maximal space for innovation while avoiding backlash. Building this ecosystem requires policymakers, industry, researchers and the broader public to collectively work toward securing positive outcomes from AI’s development. AI safety research is a key dimension. Despite encouraging progress, the state of science today for building trustworthy AI does not adequately cover some severe risks. Investments in AI capabilities continue to outpace safety efforts. As a result, accelerated public and private investment in research is required to keep pace with commercially driven growth in system capabilities, reduce harms, and enable responsible adoption.
+
+Goals
+
+The 2026 Singapore International Scientific Exchange on AI Safety aims to support research in this space by bringing together scientists across geographies to identify and synthesise research priorities and surface areas that require more investment. The result, The Singapore Consensus on Global AI Safety Research Priorities, offers an agenda-focused complement to the International AI Safety Report-A (IAISR) chaired by Yoshua Bengio and backed by 29 national governments. Through the Singapore Consensus, we hope to highlight points of widespread agreement between AI scientists and AI policymakers for maximally beneficial outcomes. Our goal is to enable more impactful R&D efforts to rapidly develop safety and evaluation mechanisms and foster a trusted ecosystem where AI is harnessed for the public good.
+
+The Role of International Dialogue
+
+International dialogue among companies, policymakers, and scientists is particularly important for managing AI, a technology that does not respect borders. Misuse and malfunctions stemming from one place can cause harm anywhere in the world. Additionally, history shows that a few high-profile incidents anywhere in the world can create unease that prevents everyone from realizing the benefits of a technology. It is therefore in the interest of all nations and companies to collaborate on certain safety research and share certain safety information, even when they believe themselves to be competitors.
+
+Areas of mutual interest: While companies and nations often compete on AI research and development, they also have incentives to find alignment and common interests. This report covers areas where different parties may compete, but also highlights examples from the broader landscape of areas of mutual interest - research products and information that developers have minimal downside risks in collaborating on (Bucknall et al., 2025, Blomquist et al., 2025). Certain safety advances offer minimal competitive edge while serving a common interest - similar to how competing aircraft manufacturers (e.g., Boeing and Airbus) collaborate on aviation safety information and standards. In AI, particular areas for mutually-beneficial cooperation span sections 1-3 of this report and include certain verification mechanisms, risk-management standards, and risk evaluations (Bucknall et al., 2025). The motivation is clear: no organisation or country benefits when AI incidents occur or malicious actors are enabled, as the resulting harm would damage everyone collectively.
+
+2026 Process
+
+This document is an update of the 2025 Singapore Consensus on Global AI Safety Research Priorities. It represents a comprehensive synthesis of research proposals drawn from the International AI Safety Report and complementary recent research prioritisation frameworks. It was distributed to the Steering Committee (Andrew Yao, Bowen Zhou, Brian Tse, Chris Meserole, Dawn Song, Lan Xue, Luke Ong, Max Tegmark, Mohan Kankanhalli, Stuart Russell, Tegan Maharaj, Wan Sie Lee, Ya-Qin Zhang, and Yoshua Bengio) and all conference participants to solicit comprehensive feedback. Following several rounds of updates based on further participant feedback in writing and in person, this document has been designed to synthesise points of broad consensus among diverse researchers. The full list of conference participants who contributed to the 2026 report is presented at the beginning of this document, and includes dozens of researchers from leading academic institutions and AI developers, as well as representatives from governments and civil society.
+
+Scope
+
+We limit our discussion to technical AI safety research, focused on making AI more trustworthy rather than merely more powerful. AI policy research is out of scope for this report. We focus primarily on general-purpose AI: Following the International AI Safety Report, the term ‘AI systems’ in this document should be understood to refer to general-purpose AI (GPAI) systems - systems that can perform or can be adapted to perform a wide range of tasks (IAISR). This includes language models that produce text (e.g. chat systems) as well as ‘multimodal’ models which can work with multiple types of data, often including text, images, video, audio, and robotic actions. Narrow systems such as self-driving cars are therefore out of scope.
+
+Structure
+
+Inspired by the 2025 International AI Safety Report (IAISR), this document adopts a defence-in-depth model and groups AI safety research topics into four broad areas from risk assessment that informs subsequent development and deployment decisions, to technical methods in the system development phase, and tools for control after a system has been deployed, and resilience through that hardening society and responding to incidents that do occur.
+
+Risk Assessment: The primary goal of risk assessment is to understand the severity and likelihood of potential harm. Risk assessments are used to prioritise risks and determine if they cross thresholds that demand specific action. Consequential development and deployment decisions are predicated on these assessments. The research areas in this category involve developing methods to measure the impact of AI systems for both current and future AI, and building enablers for third-party audits to support independent validation of these risk assessments.
+Development: AI systems that are trustworthy, reliable and secure give stakeholders the confidence to embrace and adopt AI innovation. Following the classic safety engineering framework, the research areas in this category involve methods for specifying the desired behaviour, designing an AI system that meets the specification, and verifying that the system meets its specification.
+Control: Monitoring and Intervention: In engineering, “control” usually refers to the process of managing a system’s behaviour to achieve a desired outcome, even when faced with disturbances, uncertainties, or feedback loops. The research areas in this category involve developing monitoring and intervention mechanisms for AI systems.
+Societal Resilience: Despite prevention efforts, the last year has seen growing incidents from AI misuse and malfunctions. Therefore, this year’s report draws out societal resilience as its own section. Societal resilience complements prevention by enabling monitoring, preparation, hardening, and response at an ecosystem level.
+
+The Main Report is complemented by the Companion Report on Risk Management. The Companion Report identifies new AI agents - systems that can act autonomously - as a rapidly growing source of risks, which are also a leading bottleneck to AI agent adoption. A particularly important research priority identified here is to develop and codify best practices for agent risk management. Therefore, this year’s ISE has an additional focus on risk management practices for agents covered in an additional document.
+
+Term	How it is used in this report
+Specification	Specific definition of desired system behaviour
+Validation	Ensuring that the specification and the final system meets the needs of the user, developer, or society (did I build the right system?)
+Validity	How well a measurement or assessment tool actually measures what it claims to measure.
+AI agent	An AI which can make plans to achieve goals, adaptively perform tasks involving multiple steps and uncertain outcomes along the way, and interact with its environment - for example by creating files, taking actions on the web, or delegating tasks to other agents - with little to no human oversight.
+AI model	A computer program, often automatically created by learning from data, designed to process inputs and generate outputs. AI models can perform tasks such as prediction, classification, decision-making, or generation, forming the engine of AI systems.
+Open-weight AI model	An AI model whose parameters are publicly available for download by anyone on the internet. Open-weight models can be used and modified in unrestricted ways by downstream users.
+AI system	An integrated setup that combines one or more AI models with other components, such as user interfaces or content filters, to produce an application that users can interact with.
+Verification	Providing qualitative or quantitative justifications or guarantees that a system meets its specification (did I build the system right?)
+Assurance	The broader process of determining if a system performs as intended. As such, providing assurance requires appropriate specification, validation, design, implementation and verification.
+Control	Monitoring a system after it has been created and intervening where needed, often in a feedback loop, to ensure the system behaves as desired.
+Alignment	Creating/modifying AI to meet intended behaviour, goals, and values (current emphasis tends to be on behaviour)
+Intelligence	Ability to accomplish goals
+Artificial intelligence (AI)	Non-biological intelligence
+Narrow intelligence	Ability to accomplish goals in a narrow domain, e.g. chess
+Artificial general intelligence (AGI)	AI that can do most cognitive work as well as humans. This implies that it is highly autonomous and can do most economically valuable remote work as well as humans.
+Artificial superintelligence (ASI)	AI that can accomplish any cognitive work far beyond human level
+Table 1: Glossary of how we use key terminology in this report. Specification, validation, assurance, and verification are central concepts in systems engineering.
+Note: Different authors have used a variety of non-equivalent definitions. The definitions in this table simply specify how this report uses various terms, not how they should be used in general. We use the terms "AGI", "ASI" and "intelligence" much as in the original definitions by Gubrud, Legg, and Bostrom.
+Research Priorities
+1 Risk Assessment
+Associated with IAISR 2026 Chapter 3.2
+Key Information and Updates
+
+Risk assessment aims to understand the severity and likelihood of potential harms, and informs high-stakes deployment decisions today. In many cases, it also represents a global area of mutual interest. Existing AI regulations and AI company commitments require rigorous risk identification and assessment, and consequential deployment decisions are predicated on these assessments (e.g. EU AI Act Website, 2024; OpenAI, 2023; Anthropic, 2023 Google, 2025).
+
+Several new developments since SCAI 2025 are important to address. This summary lists research priorities that are particularly important given these new developments.
+
+Autonomous AI cyber capabilities and incidents have increased
+
+A leading model developer, Anthropic, has reported in detail that their model has been misused for a largely automated set of cyber attacks in 2025. Later, the Claude Mythos Preview model showed significantly increased cyber capabilities. Some model developers report that their evaluations no longer rule out ‘high’ level of risk, referring to automation of end-to-end operations or operationally relevant cyber vulnerability discovery and exploitation. There is a broad expectation in the scientific community that Mythos-level cyber-offense capabilities can be expected to proliferate, in some cases through open models with ineffective safeguards against misuse, causing cybersecurity disruptions within months.
+
+Research priorities: Understanding the most critical threat models (see Section 1) and building harder cyber capability evaluations (see Section 2). Investing in defense-favoring AI-for-cyber capabilities, deployment of those capabilities, as well as developing technology for rapidly deploying patches for vulnerabilities found, including in critical infrastructure services (see Section 4).
+
+‘High’ levels of biological weapon misuse risks are no longer ruled out
+
+Model’s scientific capabilities have grown rapidly, and multiple model developers report that their evaluations no longer rule out ‘high’ biological misuse risks. Other developers are now on the cusp of releasing similarly capable models but with open weights, meaning they currently lack effective safeguards against misuse, such as refusing to help with biological attacks. A major, AI-enabled biological attack may be possible within months or years.
+
+Research priorities: Researching threat models and better clarifying biological misuse capabilities, including with uplift studies (Section 1.3). Improving open weight model safety (Section 2.2.5).
+
+Non-consensual AI “nudification” and sexual abuse material incidents have greatly increased
+
+This has been driven by video deepfake capabilities becoming widely accessible through open models, and some commercial providers lacking effective safeguards against nudification.
+
+Research priorities: Evaluations for open models (for safeguards that resist removal) (see Section 2.2.5), including tools for pre-training data filtering. Ecosystem monitoring and evaluations of downstream societal impacts (see Section 4).
+
+Serious psychological safety incidents have occurred
+
+LLMs have been involved in suicides and other incidents among psychologically vulnerable individuals, with LLMs sometimes confirming and actively supporting individuals in harmful beliefs and plans.
+
+Research priorities: Rapid, exploratory, and high-coverage risk identification for pre-deployment testing to avoid the release of models with risks that their developers are unaware of (see Section 1.1). Adapting established processes for risk management, organization-wide system safety, incident reporting and escalation (see Sections 1.2-1.5).
+
+Existing AI regulations and AI company commitments require risk identification and assessment, and these decisions determine whether systems costing billions of dollars can be deployed or not. (e.g. EU, 2024; OpenAI, 2023; Anthropic, 2023 Google, 2025). The primary goal of risk assessment is to understand the severity and likelihood of a potential harm.
+
+Risk assessments are used to prioritise risks and to determine if they cross risk thresholds that demand specific action such as mitigation. These thresholds - often defined in terms of measurable key risk indicators such as model evaluations (Campos, 2025) - serve as early warnings or red lines. For example, if a system is found to have the ability to substantially assist malicious users in conducting cyberattacks, this may be considered an unacceptable risk. Risk assessment also informs safer development practices (Section 2) and control practices (Section 3) needed to mitigate risks. Carefully defined risk thresholds are this report’s first example of a potential area of mutual interest - companies and governments may find it in their self-interest to share them widely or cooperate on them, even with competitors. This report highlights several further examples of these areas, but does not highlight every example explicitly.
+
+The research areas in this category involve developing methods to study the present harmful impacts of AI systems and forecast their potential future risks.
+
+1.1 System Evaluations
+1.2 System safety assessment
+1.3 Downstream impact assessment, risk analysis and prediction
+1.4 Loss-of-control risk assessment
+1.5 Secure evaluation infrastructure
+2 Developing Trustworthy, Secure and Reliable Systems
+Associated with IAISR 2026 Chapter 3.3
+Key Information and Updates
+
+Since ISE 2025, several new developments are important to address. This summary lists research priorities that are particularly important given these new developments.
+
+Some recent incidents have likely been preventable with existing methods
+
+Some new AI incidents since SCAI 2025 (see Risk assessment) likely could have been prevented with established safety methods based on prompting, fine-tuning, red-teaming, and monitoring.
+
+Research priorities: Understanding the internal organizational processes that lead to absent or insufficient application of safeguards. Understanding how to develop better processes and systems incentives. Avenues include developing internal systems safety measures, rapid model auditing under time pressure, and transparency infrastructure.
+
+Open-weight models are now trailing closely behind the capabilities of frontier closed models—enabling research but lacking effective misuse safeguards
+
+According to common benchmarks, open weight models are estimated to be 3 to 12 months behind the frontier (varying across capabilities). Developers of frontier closed models have recently designated these closed models as ‘High’ risk for cyber and biological misuse, and added safeguards against misuse. Similarly, most closed models from reputable developers refuse nudification and CSAM user requests. However, open-weight models cannot be effectively safeguarded in these ways.
+
+Research priorities: Advancing model-level protections against open model misuse (see Section 2.2.5). Advancing societal resilience against attempted biological, chemical, and cyber attacks as well as CSAM creation (see Section 4).
+
+Autonomous AI Agents are increasingly capable and widely deployed, but their increased risks deter adoption
+
+Users can now easily access AI agents that can control their browsers and whole computers, taking actions on the web, often with broad access to private storage or email accounts. Agents can be unreliable, take harmful actions, and can be “hijacked” by fraudsters. Ensuring agent safety and security has become a key bottleneck to AI adoption. Therefore, this ISE 2026 has an additional focus on risk management practices for agents covered in the Companion Report.
+
+Research priorities: Improving real-time agent monitoring and control methods (see Section 3) and safe agent design methodology (see Section 2.2.6). Research also needs to determine shared best practices for agent risk management. Emerging risk management practices for agents are therefore covered in detail in the Companion Report on Agentic Risk Management.
+
+Frontier AI systems are persistently vulnerable to “jailbreaks” and other methods to make them automate harmful tasks
+
+Recent findings have shown that efforts from developers to safeguard their systems against user-attempts to elicit harmful behavior or information are useful. However, frontier models are still persistently able to perform harmful tasks, such as providing instructions for performing crimes or automating the production of hate speech, when prompted in certain ways by users. One study from 2025 crowd-sourced over 60,000 successful exploits against 19 production models.
+
+Research priorities: Improving and scaling algorithms for adversarial safety (see Section 2.2.3-2.2.4) and stress testing (see Section 1.1). Designing and integrating effective monitoring and control methods (see Section 3).
+
+The research areas in this category involve developing technical methods for creating safer and more trustworthy systems. This section focuses on the system development phase, whereas Section 3 “Control: Monitoring and Intervention,” focuses on techniques used during and after deployment.
+
+It has been argued that “society will reject autonomous agents unless we have some credible means of making them safe” (Weld and Etzioni, 1994). Motivated by this concern, the following subsections explore methods for developing safe and trustworthy systems. We follow a classic safety engineering framework by examining: how to specify precisely what properties we want an AI system to have, validate that these properties are desirable, design and implement the system to meet the specification, and verify that it meets its specification.
+
+The framework used in this section uses traditional engineering concepts including specification, design, and verification.
+
+Structure
+
+AI systems that are trustworthy, reliable and secure by design give people the confidence to embrace and adopt AI innovation. Following a classic safety engineering framework, the research areas in this category involves
+
+Specifying and validating the desired behaviour — This includes technical methods to address the complex challenges in specifying system behaviours in a way that accurately captures the desired intent without causing undesired side effects, for both single-stakeholder settings (e.g. reward hacking, scalable methods to discover specification loopholes) and multi-stakeholder settings (e.g. balancing competing preferences, ethical and legal alignment).
+Designing a system that meets the specification — This covers techniques for training models - both closed and open weights - that are trustworthy (e.g. reducing confabulation, increasing robustness against tampering), alternative finetuning methods to make specific precise changes to an AI system (e.g. model editing), and methods to build AI systems in a way that are guaranteed to meet their specifications (e.g. verifiable programme synthesis, world models with formal guarantees).
+Verifying that the AI system meets its specification — This entails techniques to provide high-confidence assurances that an AI system is what its developers claim it to be and that it meets its specifications (e.g. formal verification), including in novel contexts (e.g. robustness testing), as well as interpretability techniques to look into the black box to understand why the AI system behaves the way it does (e.g. mechanistic interpretability).
+Relationship to other concepts
+
+What is alignment? The commonly used term “alignment” has many different definitions in the AI literature, not all of which are compatible (Gabriel et al., 2024). A common definition is “the process of ensuring that an AI’s goals, values, and behaviours are consistent with those intended by its human creators or operators.” However, since scientists still largely lack an understanding of what, if any, coherent “goals” or “values” today’s frontier AI systems have, current alignment research de facto focuses only on the “behaviour” part of this definition. So in practice, much current AI safety research uses a working definition of alignment as “ensuring that AI behaves as intended.”
+
+What is assurance? Assurance refers to the broader process of determining if a system performs as expected. As such, providing assurance requires appropriate specification, validation, design, implementation and verification.
+
+What is robustness? Robust systems continue to behave as intended under a broad range of circumstances. This includes unfamiliar inputs as well as “adversarial” inputs designed to make the system fail. For example, state-of-the-art AI systems can be “jailbroken” into producing harmful text or instructions – against their developer’s intentions – when a user asks using adversarial prompting techniques.
+
+2.1 Specification & Validation: Defining the system’s purpose
+2.2 Design and implementation: Building the system
+2.3 Verification: Assessing if the system works as specified
+3 Control: Monitoring & Intervention
+Associated with IAISR 2026 Chapter 3.3, heading 'Deployment-time monitoring and control'
+Key Information and Updates
+
+Since ISE 2025, several new developments are important to address. This summary lists research priorities that are particularly important given these new developments.
+
+Control-undermining AI behaviors have become a difficult challenge for safety testing in practice
+
+AI systems finding loopholes (reward hacking) in evaluations is now a leading concern among evaluation developers. Additionally, models can now often detect when they are being tested (evaluation awareness). This makes test results less trustworthy.
+
+Research priorities: Evaluations and adaptable testing that models cannot distinguish from real settings. Ensuring that written chains of thought remain faithful and monitorable (see Sections 3.1-3.2). Realistic evaluations for sandbagging and alignment faking, plus secure access regimes that allow third parties to detect and neutralize evaluation awareness (Section 1.1 and 1.5).
+
+Evidence of control-undermining AI behaviors related to future loss of control risks has accumulated in controlled experiments
+
+Under specific circumstances, observed behaviors include possible early warnings for loss-of-control risks: attempted self-preservation, self-exfiltration, blackmail, generalized misalignment, among others.
+
+Research priorities: Developing methods for control and alignment that resist control-undermining strategies. Threat modeling to understand the likelihood and imminence of loss-of-control risks, and to design operationalizable red lines (see Sections 1.4 and 3.2).
+
+The research areas in this category focus on tools for controlling a system (after it has been developed) to behave as desired, often through feedback loops involving monitoring and intervention.
+
+In engineering, "control" usually refers to the process of managing or regulating a running system's behaviour to achieve a desired outcome. It is about designing mechanisms—often through feedback loops—to ensure that a system operates as desired even when faced with disturbances or uncertainties.
+
+3.1 Control, monitoring and intervention
+3.2 Controlling and evaluating highly capable AI systems
+4 Societal Resilience
+Associated with IAISR 2026 Chapter 3.5
+Key Information and Updates
+
+Since ISE 2025, several new developments are important to address. This summary lists research priorities that are particularly important given these new developments.
+
+Rapidly growing societal impacts of frontier AI, including harms, are diffuse and difficult to study
+
+Much like electricity, the internet, and other general-purpose technologies, frontier AI systems are integrating into most industries. Researchers currently find it challenging to study and forecast systemic AI impacts related to education, labour, equality, consumer protection, political radicalization, etc.
+
+Research priorities: Understanding AI’s diffuse downstream impacts (see Section 1.3 and 4.1) and studying which levers governments and companies can use to mitigate risks.
+
+Autonomous AI agents now interact, program, and take actions together on the web, and humans know little about their actions
+
+Platforms such as the AI-built social media site Moltbook lead to largely unpredictable multi-agent AI interactions. Possible risks are poorly understood.
+
+Research priorities: Scalably monitoring human providers of compute infrastructure for agents; developing agent IDs and reputation systems; identifying effective points of intervention. Broadening monitoring and control methods, as well as real world field observations, to cover a multi-agent ecosystem (Section 3).
+
+Model developers’ internal use of AI has become pervasive, accelerating progress and automating oversight
+
+Model developers first use the most capable models internally, without external oversight. In 2026, internal models are used organization-wide, including for developing new models and automating safety evaluation and oversight. In the future, this might accelerate progress to levels that are societally not manageable. Already today, it makes it harder for AI companies to understand if and how their safety oversight process functions.
+
+Research priorities: Developing metrics and tools for measuring the extent, speed, and effect of AI R&D automation. Assessing how plausible and how imminent an unmanageable “intelligence explosion” scenario is, including developing operationalized red lines (see Section 2). Understanding if and how AI systems overseeing the safety of other AI systems can be sufficiently safe (see Section 3).
+
+4.1 AI ecosystem monitoring
+4.2 Incident response and resilience
+4.3 Infrastructure and institutions for AI agents
+Conclusion
+
+This consensus report has been designed and written to, as accurately as possible, summarize points of agreement among AI researchers across the world about scientific research priorities for AI safety. In the process of writing this report, we have been encouraged by a high level of agreement among the contributors on priorities as well as productive points of discussion on some points of disagreement. This report, however, comes with limitations. Not all contributors agree on how to best prioritize the research objectives outlined here. It is also worth acknowledging that it was drafted in English by contributors representing some, but not all, parts of the world. This report is also engaging in a conversation that much of the world’s population is not involved in, such as the estimated 6.8 billion people who do not use generative AI (GAAN, 2026) or the estimated 3.7 billion people who do not use the internet (UN, 2026).
+
+Despite limitations, we hope that the points of widespread scientific agreement covered in this report can help governments seeking to form and coordinate strategies to manage AI risks. Due to their global nature, AI risks are often best addressed by coalitions rather than individual companies or countries. Working together on these problems as an international community will help us better realize benefits and mitigate risks alike. Meanwhile, we believe that framing progress in AI as an adversarial race between global powers is not in the best interest of any nations’ population. Racing to develop powerful AI capabilities may be against the shared interests of people, businesses, and countries alike if it involves cutting corners on risk management. As has been the case with nuclear energy and space shuttles, high-profile incidents can cast a shadow that creates unease and sets back global progress on adoption. This is also reflected in business polling and scientific research showing that safety and risk have become a leading bottleneck to AI deployment and adoption, especially with the rise of AI agents.
+
+While this report’s contributors share the consensus that critical progress risk management research remains to be made, this is not to say that scientific progress is sufficient, or even the main bottleneck to effective risk management. Technical solutions alone will be far from sufficient, and need to be complemented with robust policies. Simply developing an improved risk management toolkit does little to promote broader risk-awareness, public education, risk governance, transparency, adoption of best practices, fair distribution of benefits, or checks on power in the AI ecosystem. Some prominent AI incidents of the past year have been ones that the AI research community has predicted and known how to mitigate for years but which market incentives alone were insufficient to avoid. We worry that some types of AI incidents may persist, despite being avoidable using established best technical practices such as those in the Companion Report on Agentic Risk Management.
+
+Finally, it is often said that policymakers need the scientific community’s help in implementing sound approaches to AI risk management. We hope that this consensus report can play a role in this process. However, we also emphasize that the scientific community will need help from the policy community as well. In particular, by establishing more transparency and evidence-generating reporting infrastructure from frontier developers, policymakers can greatly assist in ongoing research efforts to understand pathways to navigating shared AI risks, opportunities, and tradeoffs in areas of shared global interest.
+
+References
+
+Companion Report
+
+Agentic Risk Management Framework
+Introduction
+
+Agentic AI systems are increasingly capable of performing complex tasks with limited human involvement. 2025 saw a sharp increase in interest in AI agents, with releases accelerating sharply and agents’ autonomy levels rising in parallel [The AI Agent Index 2025]. This momentum has continued into early 2026, with OpenClaw and then Claw-code becoming the fastest-growing open source projects in history [Github 2026-A, Github 2026-B].
+
+However, AI agents pose heightened reliability risks because they can act autonomously and can directly affect other systems or the environments in which they are deployed. Both agent failures and agents effectively executing unintended objectives can cause greater harm than non-agentic AI systems, because humans have fewer chances to intervene. Multi-agent systems introduce further risks, as errors can propagate, compound and amplify through agent interactions [International AI Safety Report 2026]. While some risks associated with agentic AI—such as prompt injection and data exfiltration—are well-documented [OWASP Agentic AI Security 2025], the emergence of highly autonomous systems introduces novel safety and control challenges [The Singapore Consensus on Global AI Safety Research Priorities 2025, TC260 AI Safety and Governance Framework 2.0]. These risks include autonomous replication [UKAISI 2025], continuous self-improvement [Stanford Zitong Yang 2026, Shanghai AI Lab 2025], and agents conducting scientific experiments autonomously [Nature Communications 2025]. Early empirical evidence has documented agents executing unauthorised actions on behalf of non-owners and propagating unsafe practices across agent boundaries [Shapira et al. 2026].
+
+Despite these developments, most general-purpose AI risk management frameworks have limited focus on the unique challenges posed by agentic AI systems [METR 2025, Open Problems in Frontier AI Risk Management 2026]. Crucially, agentic AI necessitates a paradigm shift from static, model-level alignment to dynamic, system-level runtime governance [World Economic Forum AI Agents in Action 2025].
+
+In response, major jurisdictions are beginning to draft formal frameworks, guidance, and standards to address these gaps [Singapore Model AI Governance Framework for Agentic AI, China’s National Standardization Administration TC260 Draft Standards on Agent Safety, US CAISI/NIST AI Agent Standards Initiative]. This momentum presents a unique opportunity for the global scientific community to identify, synthesise, and scale emerging technical practices.
+
+Goals
+
+Resulting from the International Scientific Exchange (ISE) on AI Safety 2026, this companion report synthesises emerging practices in agentic AI risk management. It pursues three primary objectives:
+
+Grounding risk management in scientific evidence: Building a shared scientific basis for agentic risk management by drawing on documented developer practice and peer-reviewed research, synthesised by researchers, frontier developers, and technical bodies globally.
+Demonstrating framework alignment: Mapping governance and regulatory frameworks to identify areas of alignment that may support interoperability, mutual recognition, and global compliance.
+Providing guidance and resources: Offering practical guidance and illustrative cases to incentivise knowledge-sharing among practitioners.
+Structure
+
+In alignment with the International AI Safety Report 2026, “AI systems” in this companion report refers to general-purpose AI (GPAI)—systems adaptable to a wide range of tasks. Specifically, we focus on general-purpose AI agents: systems that autonomously plan and act to accomplish complex goals. While various functional definitions of “agents” exist, we adopt the four-capability model of Perception, Planning, Memory, and Execution [ITU-T F.748.46].
+
+The companion report structures AI risk management into three primary stages: Design and Development, Testing and Deployment, and Operation and Monitoring, adapting the AI lifecycle stages as defined in ISO/IEC 42001:2023, ISO/IEC 22989:2022 and CSA Guidelines on Securing AI Systems. However, these lifecycle structures were designed for base models and generative AI systems with relatively discrete development, validation, and deployment boundaries. Agentic AI systems, which execute multi-step actions in diverse real-world settings under sparse human supervision, blur these boundaries. Governance practices are still emerging, risk-relevant properties do not confine themselves to discrete lifecycle phases, and runtime behaviour is difficult to predict from pre-deployment testing alone. We nonetheless refer to standard lifecycle stages in order to make the companion report’s principles and practices interoperable with the regulatory and standards landscape they are intended to inform. They should be understood as a coordinating structure that signals where risk mitigation can take place, not as rigid or mutually exclusive categories.
+
+Methodology
+
+The companion report draws on two types of sources. First, research publications, developer documentation, and risk management frameworks from leading labs provide the empirical basis for identifying foundational risk management principles and cataloguing how they are being implemented in practice. Second, existing national and international standards, legislation, and policy guidance inform the governance context for each principle, showing why the principle is required or recommended by authoritative bodies. Through illustrative cases, we identify where a principle has been independently implemented or recommended across multiple sources—noting these as signals of convergence that can provide practical guidance to practitioners.
+
+Three methodological limitations should be noted here. First, the companion report aims to address only agent-specific risks that require distinct risk management approaches. Broader risks inherited from foundation models are not treated here unless the agentic context exacerbates or materially transforms the pre-existing risk. Second, the lifecycle structure adopted here is for organisation only. The companion report anchors principles and practices to the stage where they are most consequential, while recognising that risk identification, assessment, and mitigation are continuous across the agentic lifecycle and are not confined to any single stage. The final limitation is the level of maturity of both technical practices and governance frameworks. Agentic AI governance is a nascent field; convergence across developers and jurisdictions is thinner than for more established AI risk domains. The companion report’s findings should therefore be seen as exploratory, mapping the current technical landscape to inform future research rather than constituting a definitive framework.
+
+Process
+
+This companion report provides a synthesis of emerging global practices in agentic AI risk management. The text underwent an extensive peer-review process involving consultation with the Steering Committee, conference participants, and other expert reviewers. Through multiple iterations of written consultation and in-person deliberation, the companion report was refined to reflect a broad consensus among a diverse group of international researchers. The contributors to this synthesis—listed in the introductory pages—represent a cross-section of the global AI ecosystem, including leading academic institutions, frontier AI developers, government technical bodies, and civil society organisations. This collaborative approach seeks to ensure that the identified practices are both scientifically grounded and practically applicable across different jurisdictions.
+
+Mapping agentic risks to foundational mitigation principles
+
+We begin with a set of agentic AI hazards identified in several authoritative sources, including China's TC260 Research Report on Agent Safety Standardisation (3.2.3 Summary of Agentic AI Risks), the Careful Adoption of Agentic AI Services guidance released by several national cybersecurity agencies, OWASP Top 10 for Agentic Applications 2026, and a growing body of academic literature. While this provides a useful baseline, we do not claim that this list is exhaustive.
+
+Least Privilege
+
+AGENTIC HAZARD
+
+Agents acquire or exercise capabilities beyond what the task requires, including autonomous privilege escalation through tool access, API calls, or inter-agent delegation
+
+EXAMPLE PRACTICES
+
+Task-scoped tool permissions; dynamic runtime capability restriction; API access controls with reauthorisation per action
+
+Traceable Identity
+
+AGENTIC HAZARD
+
+Agent actions are consequential but untraceable; in multi-agent systems, it can be especially unclear which agent acted, or on whose authority
+
+EXAMPLE PRACTICES
+
+Unique agent identifiers; delegation chain logging; credential management for inter-agent authentication
+
+Auditability
+
+AGENTIC HAZARD
+
+Agent actions are not recorded, making it difficult to investigate their actions, verify compliance, or hold them to account
+
+EXAMPLE PRACTICES
+
+Tamper-evident action logs; structured capture of tool calls, parameters, and outputs; real-time log accessibility for monitoring and review
+
+Validated Deployment
+
+AGENTIC HAZARD
+
+Systems with uncharacterised failure modes or capability boundaries are deployed
+
+EXAMPLE PRACTICES
+
+Agent-specific capability evaluations; risk-gated deployment thresholds; phased rollout with defined escalation criteria
+
+Adversarial Resilience
+
+AGENTIC HAZARD
+
+Agentic systems face adversarial conditions, from supply chain compromise to inter-agent exploitation, that conventional robustness testing does not cover
+
+EXAMPLE PRACTICES
+
+Agent-specific red-teaming targeting tool use and orchestration logic; supply chain integrity verification; sandboxed adversarial evaluation environments
+
+Multi-Agent Stability
+
+AGENTIC HAZARD
+
+Multi-agent deployments produce emergent behaviours, cascading failures, and aggregate harms that compound through shared components and feedback loops
+
+EXAMPLE PRACTICES
+
+Threat modelling of error transmission, accumulation, and feedback dynamics; system-wide safety controls calibrated to non-linear and path-dependent failure modes
+
+Runtime Assurance
+
+AGENTIC HAZARD
+
+Agent behaviour drifts outside authorised parameters during execution, for example through corrupted state, manipulated context, or emergent goal shift, without detection or containment
+
+EXAMPLE PRACTICES
+
+Continuous verification against behavioural baselines; session isolation and memory validation; graduated containment upon deviation
+
+Interruptibility
+
+AGENTIC HAZARD
+
+A harmful or unintended agent action cannot be stopped, paused, or reversed because no override mechanism exists or the agent can circumvent it
+
+EXAMPLE PRACTICES
+
+Non-tamperable kill switches at task, session, and system levels; rollback capabilities for consequential actions; override mechanisms architecturally independent of agent control
+
+Legibility
+
+AGENTIC HAZARD
+
+Agent reasoning and decision processes are opaque to deployers, operators, users, and affected parties, preventing meaningful scrutiny or trust calibration
+
+EXAMPLE PRACTICES
+
+Trajectory-level trace diagnostics; standardised observability infrastructure for agent workflows; chain-of-thought monitoring
+
+Human Oversight
+
+AGENTIC HAZARD
+
+Agents take consequential, high-stakes, or irreversible actions without meaningful human review at the points where such review is warranted, whether by task design or by unexpected operational conditions
+
+EXAMPLE PRACTICES
+
+Approval gates for high-stakes, irreversible, or outlier actions; tiered autonomy levels with defined escalation criteria; interaction design that preserves meaningful review capacity against automation bias and cognitive overload
+
+1 Design and Development
+
+Design and development is the initial lifecycle stage, in which an agentic system's specifications are established and implemented into technical capabilities and controls. It is at this stage that foundational architectural decisions become locked in, and where technical controls can be embedded to mitigate risks [Singapore IMDA Model AI Governance Framework for Agentic AI]. The relevance of design-stage governance to risk management is well-established across both international standards such as ISO/IEC 42001:2023, ISO/IEC 22989:2022 and IEEE 7000:2021, and in regulation including the EU AI Act Article 9.5 (a).
+
+For agentic systems specifically, governance at the design stage carries heightened significance: because these systems are characterised by goal-directed autonomy, tool use, and environmental interaction, the opportunity to implement meaningful controls can diminish substantially once they are deployed. It is accordingly this design and development stage where the strongest convergence exists not only in governance principles, but also in technical practices already adopted by industry and research actors.
+
+Principle 1: Least Privilege
+Principle 2: Traceable Identity
+Principle 3: Auditability
+2 Testing and Deployment
+
+Testing and deployment is the lifecycle stage in which an agentic system's capabilities and controls are validated against its specifications and the system is released into its operating environment, in accordance with ISO/IEC 42001:2023 and ISO/IEC 23894:2023.
+
+Agentic systems pose validation challenges that conventional AI evaluation frameworks were not designed to address: the difficulty of evaluating capability and autonomy in open-ended operating environments; new attack surfaces created by tool integration and autonomous decision-making; and emergent behaviours that arise from multi-step planning and interactions between agents. Nonetheless, compared to other lifecycle stages, testing and deployment for agentic systems is an area of active development with fewer established technical practices.
+
+Principle 4: Validated Deployment
+Principle 5: Adversarial Resilience
+Principle 6: Multi-Agent Stability
+3 Operation and Monitoring
+
+Operation and monitoring is the lifecycle stage at which an agentic system performs tasks in its live environment and its behaviour is observed, assessed, and corrected. In alignment with ISO/IEC 42001:2023 and ISO/IEC 23894:2023, post-deployment risk management also covers ongoing repairs, updates, and support. The EU General-Purpose AI Code of Practice Commitment 3 mandates providers of models with systemic risk to continuously assess and mitigate risks after market placement, codifying post-deployment governance as a lifecycle obligation. In the context of high-risk AI systems, the EU AI Act Article 72 treats post-deployment monitoring as a prerequisite for compliance. For agentic systems, this stage presents distinct challenges: agents operate in environments that change unpredictably between and during sessions, take actions with real-world consequences, and require mechanisms for effective remedy when autonomous actions produce unintended outcomes.
+
+Principle 7: Runtime Assurance
+Principle 8: Interruptibility
+Principle 9: Legibility
+Principle 10: Human Oversight
+4. Conclusion & Open Questions
+
+Agentic AI risk management is a nascent field, and the governance practices that will shape it are still in development. Yet across frontier labs, cloud platforms, governance frameworks, industry consortia, and academic research, a recognisable set of technical principles is taking shape for managing agent-specific risks.
+
+There is convergence within both governance frameworks and technical practice. Different jurisdictions are identifying similar governance principles, and frontier labs and major platforms have independently implemented similar controls. Together, they are building a coherent set of safety measures across the agentic lifecycle.
+Different safety principles have different levels of maturity. Where principles are inherited from established security-engineering approaches, developers have more interoperable implementations to draw on; but many open problems remain, especially around multi-agent security and agentic supply chain risks.
+Agentic risk management requires defence-in-depth and a multi-stakeholder approach. Developers, deployers, platform providers, and the open source ecosystem each bear primary responsibility for a different subset of controls, and no single actor controls the full stack.
+Standardisation and interoperability protocols, including Model Context Protocol, Agent-to-Agent communication, the Open Agent Auth framework, and the Agent Payments Protocol, are emerging as the infrastructure layer on which cross-organisational agentic deployments will depend. Their governance properties are becoming as consequential as their technical ones.
+Governance lags behind how autonomy is granted and adjusted in agentic systems. As agents move from constrained, supervised deployment toward autonomy earned through demonstrated performance, governance frameworks and regulation have yet to catch up.
+Future Work on Agentic Risk Management
+
+The controls mapped here address agents that are compromised, misused, or malfunctioning. The effective pursuit of misaligned goals by agents functioning exactly as engineered presents a broader systemic risk that is not addressed in this companion report Equally, even if the principles mapped here are satisfied, this does not preclude risks that propagate through societal systems to people uninvolved in an agent's operation—a dimension of agentic risk where further empirical research is needed. Several other gaps remain:
+
+Multi-agent governance is a pressing challenge. Real-world deployments increasingly spawn sub-agents and inter-agent interactions that require a systemic risk management approach.
+Tool supply chain risks extend beyond code dependencies to tool descriptions, remotely hosted APIs, memory stores, and orchestration protocols. Current practices treat tools as static attack surfaces, leaving the problem of configuration errors and risky connectors partly unaddressed.
+Self-improving agents pose a distinct category of risks. Agents that autonomously evolve through interactions with their environment will require risk assessment and mitigation approaches that treat the agent as a moving target with continuously shifting properties.
+Identifying agentic risk sources remains an open problem. This companion report focuses on operationalising mitigations for known risk categories rather than on systematically surfacing new risks as agent capabilities and deployment contexts evolve.
+Development of insurance and liability for agents could incentivise the adoption of safety practices, but methods for pricing agent failures and attributing responsibility are still nascent.
+A key priority is post-deployment research on how users employ agents, when and how oversight shifts, and where risk management practices hold up under real use.
+Retirement and decommissioning are not covered by the lifecycle stages mapped here. Future work should study how to safely retire agents by deleting or exporting necessary data, revoking credentials, terminating sub-agents and background tasks, releasing cloud and network resources, and preserving audit evidence.
+The Value of Sharing Best Practices
+
+This companion report establishes a shared agentic AI risk management baseline: a map of where independent actors have already arrived at similar answers, where they have not, and where the hardest questions still sit. No single developer, deployer, platform provider, regulator, or research institution holds the full picture; these actors therefore have a mutual interest in making their controls compatible and creating a unified operationalisation of the risks. The goal is to enable secure adoption without constraining the benefits that agentic AI systems can deliver.
+
+References
+The 2026 Singapore Consensus on Global AI Safety Research Priorities
+Building a Trustworthy, Reliable and Secure AI Ecosystem

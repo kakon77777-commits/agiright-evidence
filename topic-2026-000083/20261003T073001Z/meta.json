@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000083",
+  "url": "https://www.fca.org.uk/news/press-releases/fca-publishes-landmark-review-impact-ai-retail-financial-services",
+  "capturedAt": "2026-10-03T07:30:01Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 179736,
+    "sha256": "2dcf6fee0a5f782c5ce9faf6bfd861f300fa3c8d9d37512fcd93b7dd37d19047",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1FECC4ED74D6C6FDDFB8A58F9B69B43D",
+      "status": 200,
+      "url": "https://www.fca.org.uk/news/press-releases/fca-publishes-landmark-review-impact-ai-retail-financial-services",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2901,
+      "afterScrollHeight": 2901,
+      "wantedHeight": 2901
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e3bff994da735bed18fea1f9616c50f5a82099f9eac44a5768b92aed1d086a90",
+    "width": 1366,
+    "height": 2901,
+    "bytes": 237917,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2901,
+    "afterScrollHeight": 2901,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:30:01Z",
+    "url": "https://www.fca.org.uk/news/press-releases/fca-publishes-landmark-review-impact-ai-retail-financial-services",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 179736,
+      "sha256": "2dcf6fee0a5f782c5ce9faf6bfd861f300fa3c8d9d37512fcd93b7dd37d19047"
+    },
+    "finalUrl": "https://www.fca.org.uk/news/press-releases/fca-publishes-landmark-review-impact-ai-retail-financial-services",
+    "httpStatus": 200,
+    "title": "FCA publishes landmark review into impact of AI on retail financial services  | FCA",
+    "rendered": {
+      "textChars": 6106,
+      "textSha256": "9fbe14d81a3f28b68a33e4c585939f82e1355c152c71f37b7c1b5839702f1087",
+      "htmlSha256": "f381abd0bc516c1fe2a8fcb964e1e8d57e134f5f712fb52f1d4cbd24c8b5dca6"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e3bff994da735bed18fea1f9616c50f5a82099f9eac44a5768b92aed1d086a90",
+      "width": 1366,
+      "height": 2901,
+      "bytes": 237917,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260706133844",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260706133844/https://www.fca.org.uk/news/press-releases/fca-publishes-landmark-review-impact-ai-retail-financial-services"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260706133844/https://www.fca.org.uk/news/press-releases/fca-publishes-landmark-review-impact-ai-retail-financial-services",
+      "timestamp": "20260706133844",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

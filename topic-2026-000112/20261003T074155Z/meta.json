@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000112",
+  "url": "https://www.pymnts.com/cpi-posts/bytedance-reaches-hollywood-copyright-accord-over-ai-tools/",
+  "capturedAt": "2026-10-03T07:41:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 144042,
+    "sha256": "4488c70397ef4006dd7a664710a13e6c8bc10a2c7ab00ba9f5e76fc363c00a17",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "043BFC8281DBE4A11B3FB6262141B3C2",
+      "status": 200,
+      "url": "https://www.pymnts.com/cpi-posts/bytedance-reaches-hollywood-copyright-accord-over-ai-tools/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5809,
+      "afterScrollHeight": 8477,
+      "wantedHeight": 5809
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d8dc6f4d7456d227c1ba09c9621f21a1c85ec987ff8a324b834ea2e2b6d9aa7d",
+    "width": 1366,
+    "height": 5809,
+    "bytes": 1306867,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 5809,
+    "afterScrollHeight": 8477,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:41:55Z",
+    "url": "https://www.pymnts.com/cpi-posts/bytedance-reaches-hollywood-copyright-accord-over-ai-tools/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 144042,
+      "sha256": "4488c70397ef4006dd7a664710a13e6c8bc10a2c7ab00ba9f5e76fc363c00a17"
+    },
+    "finalUrl": "https://www.pymnts.com/cpi-posts/bytedance-reaches-hollywood-copyright-accord-over-ai-tools/",
+    "httpStatus": 200,
+    "title": "CPI | ByteDance Reaches Hollywood Copyright Accord Over AI Tools",
+    "rendered": {
+      "textChars": 6625,
+      "textSha256": "31dba921187132600f58ed8a3b594205e3b7e2f39dfe1f45282fdb4969d1492e",
+      "htmlSha256": "9a4488b7c0b4199388fae2b278b27657d110a4341834aaaa987551055bd7597e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d8dc6f4d7456d227c1ba09c9621f21a1c85ec987ff8a324b834ea2e2b6d9aa7d",
+      "width": 1366,
+      "height": 5809,
+      "bytes": 1306867,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260817193239",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260817193239/https://www.pymnts.com/cpi-posts/bytedance-reaches-hollywood-copyright-accord-over-ai-tools/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260817193239/https://www.pymnts.com/cpi-posts/bytedance-reaches-hollywood-copyright-accord-over-ai-tools/",
+      "timestamp": "20260817193239",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

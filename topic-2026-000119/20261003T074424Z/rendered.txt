@@ -1,0 +1,379 @@
+About usExpertiseInsightsPeopleLocations
+Sign In
+Home |Insights |Publications |AI View: August 2026
+AI View: August 2026
+
+Our fortnightly round-up of key AI legislative, regulatory and policy updates from around the world.
+
+19 August 2026
+
+Publication
+
+Listen to our publication
+0:00 / 0:00
+
+Welcome to AI View, Simmons & Simmons' fortnightly round-up of key AI legislative, regulatory, and policy updates from around the world.
+
+August has seen a watershed moment in the international regulation of AI, as the EU AI Act came into general application and became enforceable on 2 August. While there is delayed application of some parts of the Act, the prohibitions in Article 5, the requirements for general-purpose AI models in Articles 53 to 55 and the transparency obligations in Article 50 can all now be enforced by regulators. Some regulators, notably the European AI Office, are already active in enforcing the Act and this trend is set to continue into the Autumn.
+
+The newly-applicable transparency obligations in Article 50 of the AI Act, in particular, are likely to affect most organisations developing or using AI and are likely to increasingly lead to visible evidence of AI Act compliance online. From 2 August, these provisions require:
+
+Interactive AI (e.g. chatbots)
+Clear disclosure that users are interacting with AI
+Generative AI systems
+Digital marking of AI-generated content
+Emotion recognition and biometric categorisation systems
+Disclosure to individuals exposed to these systems
+Deepfake and synthetic content systems
+Labelling of AI-generated or manipulated content
+
+We’re advising extensively on compliance with all aspects of the AI Act and on enforcement, including engagement with regulators, so please get in touch if you require assistance.
+
+We’ve also prepared legal and practical guidance, templates and implementation advice designed to smoothly achieve compliance with the transparency obligations in the AI Act – click here to access our EU AI Act Transparency Toolkit.
+
+In addition, this edition brings you:
+
+1. California and EU transparency standards for AI-generated content come into force
+2. US Senate Committee advances Kids Online Safety Act and AI chatbot child safety bill
+3. UK government launches AI Growth Lab providing legal services providers with sandbox
+4. Australian government publishes report on risks and controls for Multi-Agent Systems
+5. Indonesian government outlines upcoming presidential regulation on National AI Roadmap and AI ethics
+6. Australian Signals Directorate issues guidance on AI cybersecurity risks
+1. California and EU transparency standards for AI generated content come into force
+
+On 2 August 2026, California’s AI Transparency Act (CATA) became operative on the same day as the EU’s new AI transparency rules under Article 50 of the EU AI Act (Article 50) came into force. CATA and Article 50 share many similarities and reflect a broader trend that developers must build and deploy technical systems that make AI generated content detectable and auditable as far as technically feasible. Together, Article 50 and CATA, given their similarities, have developed common legal and technical expectations for labelling and tracing AI‑generated content, with the aim of avoiding a fragmented “patchwork” of rules by creating a de facto global standard.
+
+The CATA applies to “Covered Providers”: companies that create or produce a generative AI system with over 1 million monthly users or visitors that is publicly accessible in California. As such, the CATA captures major generative AI tools available nationally. Similarly, the EU AI Act applies to providers placing systems on the EU market wherever they are based.
+
+The key features of the CATA that apply from 2 August 2026 include:
+
+Detection Tool: Covered Providers must offer a free AI detection tool that allows users to assess whether content was created or altered by the provider’s own system.
+Metadata: Covered Providers must embed a latent disclosure in AI generated image, video and audio outputs. Provenance information carried in the content or its metadata must disclose as far as technically feasible and reasonable: the provider’s name, the system name and version, the creation/alteration time and date, and a unique identifier, and it should be permanent or extraordinarily difficult to remove.
+Labelling: Covered Providers must offer users the option to apply a visible label indicating that content is AI generated.
+Licensing: Covered Providers must require licensees to maintain disclosure capability contractually and must revoke licences within 96 hours of discovering that a licensee has modified the system to remove that capability.
+Enforcement: There is no private right of action. The CATA is enforced by the California Attorney General and specified local public enforcers. Civil penalties are set at $5,000 per violation, with each day of continuing non compliance treated as a separate violation.
+
+The CATA also introduces staged rules that will apply from January 2027 and 2028:
+
+Stripping Ban: From 1 January 2027, large online platforms (public facing social media, file sharing, mass messaging or stand alone search services distributing content to users who did not create or collaborate in creating it and exceeding 2 million unique monthly users) must not knowingly strip any system provenance data or digital signature, to the extent technically feasible, from content they host or distribute.
+Generative AI hosting platforms: From 1 January 2027, platforms hosting generative AI systems are barred from knowingly making available systems that omit the required disclosures.
+Devices: From 1 January 2028, cameras, phones and voice recorders first produced for sale in California must offer users the option to include latent disclosures in captured content and embed such disclosures by default.
+
+Read the CATA here and the EU AI Act here.
+
+2. US Senate Committee advances Kids Online Safety Act and AI chatbot child safety bill
+
+On 5 August 2026, the US Senate Commerce Committee (the Committee) unanimously advanced its version of the Kids Online Safety Act (KOSA) with AI‑related child protection provisions. The Committee also adopted other measures to impose more rigorous duties on platforms and AI providers in relation to children.
+
+The KOSA imposes a duty of care on “Covered Platforms” (including online platforms, games, messaging apps and streaming services used or likely to be used by minors, subject to certain exclusions) when designing and implementing features such as infinite scrolling, autoplay, engagement‑based rewards, push notifications, in‑game purchases and appearance‑altering filters. It also introduces a range of child‑protective measures, including default safeguards for known minors, reporting and response mechanisms, prohibitions on manipulative user interfaces, enhanced notices, transparency and independent audits, a Kids Online Safety Council, and disclosure requirements for opaque ranking algorithms.
+
+Alongside KOSA, the Committee advanced several targeted AI chatbot child safety measures:
+
+Children’s Health, Advancement, Trust, Boundaries, and Oversight in Technology Act (the CHATBOT Act): The CHATBOT Act would require “family accounts” for under‑13s using AI chatbots, with configurable controls for parents, including disabling push notifications, blocking financial transactions, mandating clear labelling that a chatbot is not human, imposing usage time limits and setting data‑retention parameters.
+Youth AI Privacy Act (YAP Act): The Committee adopted the YAP Act, which prohibits advertising and promotional outputs to minors via chatbots where there is a material financial connection, bans profiling of minors, and restricts the use or transfer of minors’ data to train algorithms except for testing and mitigating harm.
+Children’s Artificial Intelligence Toy Safety Act (Toy Safety Act): The Toy Safety Act would require the National Academies of Sciences, Engineering, and Medicine to conduct a study regarding AI-enabled toys and the Federal Trade Commission and Consumer Product Safety Commission to produce a joint action plan to improve the safety of AI-enabled toys.
+
+To become law, the Acts must (i) pass a vote on the full Senate floor; (ii) pass a corresponding vote in the House of Representatives; and (iii) if passed by both chambers, be signed by the President.
+
+Read the press release here, KOSA here, the CHATBOT Act here, the YAP Act here, and the Toy Safety Act here.
+
+3. UK government launches AI Growth Lab providing legal services providers with sandbox
+
+On 4 August 2026, the UK government announced the launch of the AI Growth Lab, a new advisory sandbox designed to support responsible AI deployment in the legal sector. The first cohort is expected to support around 10 to 12 participants for up to nine months, with applications closing on 27 September 2026.
+
+The Lab is intended to accelerate responsible AI adoption and improve access to justice by enabling higher‑quality, faster and more affordable legal services.
+
+The AI Growth Lab will offer coordinated access to key UK regulators for law firms and other legal services providers developing or deploying AI, with the aim of helping participants navigate existing regulatory frameworks, including in relation to client confidentiality and data protection. Regulatory support will be provided by the Legal Services Board, the Solicitors Regulation Authority, the Council for Licensed Conveyancers and the Information Commissioner’s Office.
+
+Read the government statement here.
+
+4. Australian government publishes report on risks and controls for multi-agent systems
+
+On 10 August 2026, the Australian Department of Industry, Science and Resources (DISR) published a report on risks and controls for multi-agent systems, examining AI agent risks (the Report).
+
+The key recommendations include:
+
+Tiered governance framework: Classify multi agent deployments into three governance tiers: (i) singular; (ii) federated and (iii) open environments, and design controls accordingly.
+Four core governance practices: Organisations should adopt and reinforce four practices that are put under pressure by multi‑agent systems:
+Attribution: Assign responsibility for outcomes to specific agents and principals.
+Authorisation: Ensure agents act within a properly scoped mandate, and that delegated authority is correctly managed.
+Oversight: Maintain human visibility and intervention capability over agent activity.
+Evaluation: Assess fitness for purpose for the interacting system as a whole.
+Model: The Report advocates a structured risk-control model and a repertoire of system level technical controls that should be selected based on the risk profile of the deployment, rather than applied as a fixed checklist.
+
+Read the Report here.
+
+5. Indonesian government outlines the National AI Roadmap and AI ethics
+
+In August 2026, the Indonesian government outlined the forthcoming Presidential Regulation on the National AI Roadmap and AI Ethics, which will form Indonesia’s initial framework for AI governance (the Regulation). The Regulation aims to respond to the growing deployment of increasingly autonomous “agentic” AI systems that can initiate transactions and interact with external systems with limited human intervention. It forms part of Indonesia’s wider industrial policy to develop domestic computing and data‑centre infrastructure, local digital talent and further integration with critical minerals and semiconductor‑related supply chains.
+
+The Regulation is designed around two core principles: (i) human‑centred AI, and (ii) risk‑based regulation where regulatory obligations scale based on the level of risk posed by the system. The Regulation aims to regulate autonomous decision‑making and the limits organisations set on AI behaviour, rather than AI-generated content.
+
+The key measures are set to include:
+
+Accountability: The Regulation will require AI systems affecting the public to incorporate human oversight, with an explicit commitment that “ultimate accountability” remains with humans.
+Transparency: Algorithms will need to be explainable and auditable.
+Risk‑based obligations for higher‑risk AI: A differentiated, risk‑based regulatory approach is planned. High‑risk AI applications will be subject to risk assessments from the design stage onwards and to enhanced transparency requirements, including model disclosures, notification to users and labelling of AI‑generated content. Additional safeguards are being prepared for sensitive sectors such as healthcare and financial services.
+
+The Presidential Regulation remains at the legal review stage and has not yet been signed into law.
+
+Read press coverage here.
+
+6. Australian Signals Directorate issues guidance on AI cybersecurity risks
+
+On 5 August 2026, the Australian Signals Directorate (the ASD) and the Australian Institute of Company Directors (AICD) issued guidance on frontier AI cybersecurity risks (the Guidance). The Guidance is intended to help boards understand and review organisational responses to cyber risks amplified by frontier AI models.
+
+The Guidance explains that frontier AI can greatly speed up the discovery and exploitation of vulnerabilities, lower the skill required by attackers, and potentially invalidate existing assumptions about cyber risk tolerance. Boards are encouraged to ask management targeted questions about how exposed an organisation is to AI enabled attacks, weaknesses in systems and the cyber supply chain, and whether core cybersecurity controls would remain effective if attacks became more frequent, targeted and automated.
+
+The Guidance is structured as staged priorities (immediate, short, medium and longer term) and sets out practical actions for boards to oversee and challenge management on:
+
+Immediate: Strengthen basic cyber systems: (i) secure attack surfaces by standardising and enforcing secure system configurations and removing unnecessary services and (ii) reduce software vulnerabilities by continuously identifying weaknesses, and mitigating high risk issues within defined timeframes.
+Short term: Address structural weaknesses by: (i) reinforcing identity, credential and access management by removing unused accounts, securing keys, and using phishing resistant multi factor authentication; and (ii) restricting unnecessary privileges by regularly reviewing access, limiting powerful permissions to authorised administrators, and enforcing least privilege for user and service accounts.
+Short to medium: Improve resilience by preparing for cyber security incidents by reviewing and regularly exercising incident response, business continuity and disaster recovery plans to ensure the organisation can continue critical operations and recover from serious cyber attacks.
+Medium priorities: Use AI defensively for cyber defence in a secure, controllable and human supervised way.
+Long term priorities: Modernise systems by designing, building and maintaining systems using Secure by Design and Secure by Default principles, giving visibility over activity, enforcing authorised access, protecting data, minimising privileges, and securing build and deployment processes across their lifecycle.
+
+Read the Guidance here.
+
+Sign up to get the latest legal know-how delivered straight to your inbox.
+
+This document (and any information accessed through links in this document) is provided for information purposes only and does not constitute legal advice. Professional legal advice should be obtained before taking or refraining from any action as a result of the contents of this document.
+
+Applicable law
+Global
+Sector focus
+Technology, Media and Telecommunications
+Services
+Artificial Intelligence (AI)
+Contact
+Minesh Tanna
+Partner
+Lucy Shurwood
+Partner
+AI View main page
+Related products
+AI Literacy Programme
+EU AI Act Transparency Toolkit
+Unlock Personalised Insights
+
+Stay up to date with the latest legal developments and insights from Simmons & Simmons.
+
+GET STARTED
+SUBSCRIBE TO NEWSLETTER
+Already have an account? Sign in now to continue enjoying personalised content.
+Related insights
+
+30 September 2026 • Publication
+
+AI governance for high-growth companies
+
+6 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+28 September 2026 • Publication
+
+AI View September 2026
+
+7 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+23 September 2026 • Publication
+
+The importance of metacognition in the AI era
+
+5 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+09 September 2026 • Publication
+
+Reimagining legal teams for the AI era
+
+4 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+04 September 2026 • Publication
+
+Legal talent 2.0: developing skills for AI era
+
+5 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+21 August 2026 • Publication
+
+The rise of the Legal Engineer: bridging law, technology & innovation
+
+4 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+05 August 2026 • Publication
+
+AI View - August 2026
+
+10 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+28 July 2026 • Publication
+
+The German AI Act Implementing Law
+
+9 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+21 July 2026 • Publication
+
+AI View: July 2026
+
+11 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+10 July 2026 • Publication
+
+Beyond efficiency: the full value of AI in legal services
+
+5 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+07 July 2026 • Publication
+
+AI View - July 2026
+
+8 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+25 June 2026 • Publication
+
+AI View: June 2026
+
+7 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+29 May 2026 • Publication
+
+AI View: May 2026
+
+10 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+28 May • Event
+
+Le nouveau rendez-vous du Droit et de l'Innovation
+
+Paris • Event
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+28 May • Webinar
+
+EU AI Act: high-risk AI in recruitment and HR
+
+London • Webinar
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+07 May • Event
+
+TECH: ignite – Germany 2026
+
+Munich • Event
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+29 April 2026 • Publication
+
+Future of Work
+
+5 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+24 April 2026 • Publication
+
+AI & Copyright Roundtable – Key Reflections
+
+2 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+14 April 2026 • Publication
+
+AI View: April 2026
+
+5 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+
+13 April 2026 • News Article
+
+Students begin first dedicated AI internship
+
+1 Minute read
+
+Are you sure you want to remove bookmark?
+NO
+YES
+Legal and regulatory
+Cookie policy
+Data privacy
+Manage cookies
+Sitemap
+Accessibility
+© Simmons & Simmons LLP 2026.
+All rights reserved.
+
+This website uses cookies and other similar technologies to ensure you get the best experience on our website. Please review our cookie policy and our data protection privacy notice for more information on how the data that is collected is used.
+
+ACCEPT ALL COOKIES
+REJECT ALL COOKIES
+(EXCEPT STRICTLY NECESSARY)
+MANAGE COOKIE PREFERENCES

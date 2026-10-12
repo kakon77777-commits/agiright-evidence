@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000106",
+  "url": "https://academic.oup.com/nc/article/2026/1/niag023/8728409",
+  "capturedAt": "2026-10-03T07:39:32Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5783,
+    "sha256": "893444109d51fade63825c94e9e2bc420de03c63d0bcc0c0199b339f06b4faec",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E600EB9656B4DA09FC55A9F623D5E054",
+      "status": 403,
+      "url": "https://academic.oup.com/nc/article/2026/1/niag023/8728409",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2e27f37119f2d0a7e026abc856aac8e307d51f2380b4b8c7ada01ea299418f58",
+    "width": 1366,
+    "height": 900,
+    "bytes": 27007,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:39:32Z",
+    "url": "https://academic.oup.com/nc/article/2026/1/niag023/8728409",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5783,
+      "sha256": "893444109d51fade63825c94e9e2bc420de03c63d0bcc0c0199b339f06b4faec"
+    },
+    "finalUrl": "https://academic.oup.com/nc/article/2026/1/niag023/8728409",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 264,
+      "textSha256": "bb5b5189e9085aac6919cc285cb098bbd4eb93a2c2e82d2e1aefeec082d16f4a",
+      "htmlSha256": "183807428915a9b4e7cbf849cf1cb0022757bf0562e1f25178502f282b7f39ff"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "2e27f37119f2d0a7e026abc856aac8e307d51f2380b4b8c7ada01ea299418f58",
+      "width": 1366,
+      "height": 900,
+      "bytes": 27007,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000068",
+  "url": "https://www.lesswrong.com/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
+  "capturedAt": "2026-10-03T07:24:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 475693,
+    "sha256": "5f59cc9302baf11cc7899b44585e1e5744e1f152c6a3e987d08e23dcc2339867",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "DF8808A17BAEE287E177C126E979EAD4",
+      "status": 200,
+      "url": "https://www.lesswrong.com/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 9291,
+      "afterScrollHeight": 9291,
+      "wantedHeight": 9291
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4ed2cbec04d9f9c25646257bb2662e03c45dcb5665f0d73b40d6acc43f366ebf",
+    "width": 1366,
+    "height": 9291,
+    "bytes": 833821,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 9291,
+    "afterScrollHeight": 9291,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:24:59Z",
+    "url": "https://www.lesswrong.com/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 475693,
+      "sha256": "5f59cc9302baf11cc7899b44585e1e5744e1f152c6a3e987d08e23dcc2339867"
+    },
+    "finalUrl": "https://www.lesswrong.com/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
+    "httpStatus": 200,
+    "title": "AGI Safety and Alignment at Google DeepMind: A Summary of Recent Work (July 2026) — LessWrong",
+    "rendered": {
+      "textChars": 18332,
+      "textSha256": "cb208b24e895a2e16e2067eb877670496e999c50a9f14f3d8ded7d43697530a0",
+      "htmlSha256": "0c4004d45d9d6150028655aeaeaeac478a02fdd9b446e92203bf18c4257fe420"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4ed2cbec04d9f9c25646257bb2662e03c45dcb5665f0d73b40d6acc43f366ebf",
+      "width": 1366,
+      "height": 9291,
+      "bytes": 833821,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260801092539",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260801092539/https://www.lesswrong.com/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260801092539/https://www.lesswrong.com/posts/ZTdRtSWaw7JgqEtfa/agi-safety-and-alignment-at-google-deepmind-a-summary-of-1",
+      "timestamp": "20260801092539",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

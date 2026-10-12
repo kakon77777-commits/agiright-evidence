@@ -1,0 +1,78 @@
+{
+  "id": "topic-2026-000070",
+  "url": "https://aisafetypriorities.org/",
+  "capturedAt": "2026-10-03T08:43:35Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 535362,
+    "sha256": "fe1067e93bf4a9ea90b6dc90d6dc79d0faae0aefd41f20097558db45effebd15",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": false,
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "navError": null,
+    "document": {
+      "frameId": "703A1BA1F4BF075BB8CFEBC830C7826C",
+      "status": 200,
+      "url": "https://aisafetypriorities.org/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 45616,
+      "afterScrollHeight": 45617,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": null,
+    "layout": {
+      "firstLoadHeight": 45616,
+      "afterScrollHeight": 45617,
+      "wantedHeight": 15000
+    },
+    "error": "devtools timeout: Emulation.setDeviceMetricsOverride"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:43:35Z",
+    "url": "https://aisafetypriorities.org/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 535362,
+      "sha256": "fe1067e93bf4a9ea90b6dc90d6dc79d0faae0aefd41f20097558db45effebd15"
+    },
+    "finalUrl": "https://aisafetypriorities.org/",
+    "httpStatus": 200,
+    "title": "The 2026 Singapore Consensus on Global AI Safety Research Priorities",
+    "rendered": {
+      "textChars": 73292,
+      "textSha256": "26eb66b4de7521c2ceec1f87ace05f3725528f39406db1691995af6bdcab681a",
+      "htmlSha256": "0661104a9ee791babfc3e04308fe528caec14ae38a645237ca9c3b8cb88ce66e"
+    },
+    "suspectedBlock": false,
+    "browserError": "devtools timeout: Emulation.setDeviceMetricsOverride",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20250508210240",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20250508210240/https://aisafetypriorities.org/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20250508210240/https://aisafetypriorities.org/",
+      "timestamp": "20250508210240",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000075",
+  "url": "https://www.sciencenews.org/article/ai-making-us-dumber-learning-skills-risk",
+  "capturedAt": "2026-10-03T07:27:49Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 801823,
+    "sha256": "5593a3114c82b930792f04262c0ce847a5692c553786cd0d44e70387d4a94b6a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "33B7576CF9FE1728EC75E49192ACE21A",
+      "status": 200,
+      "url": "https://www.sciencenews.org/article/ai-making-us-dumber-learning-skills-risk",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7803,
+      "afterScrollHeight": 7803,
+      "wantedHeight": 7803
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b64952119cc0ef25d0b0c4fd43bdc76308b92654574369e0b1bc2738f96aab3c",
+    "width": 1366,
+    "height": 7803,
+    "bytes": 1845575,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7803,
+    "afterScrollHeight": 7803,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:27:49Z",
+    "url": "https://www.sciencenews.org/article/ai-making-us-dumber-learning-skills-risk",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 801823,
+      "sha256": "5593a3114c82b930792f04262c0ce847a5692c553786cd0d44e70387d4a94b6a"
+    },
+    "finalUrl": "https://www.sciencenews.org/article/ai-making-us-dumber-learning-skills-risk",
+    "httpStatus": 200,
+    "title": "Is AI making us dumber? Maybe not. But our skills are at risk",
+    "rendered": {
+      "textChars": 11748,
+      "textSha256": "a29c4ae8e7b616a68531d316018bb9e89ef61c6610d621c498d37246aecc2e81",
+      "htmlSha256": "52f4a5ae2efa418fca104a7e956d09134aa268b492189faddd54e45b04bf24d0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b64952119cc0ef25d0b0c4fd43bdc76308b92654574369e0b1bc2738f96aab3c",
+      "width": 1366,
+      "height": 7803,
+      "bytes": 1845575,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260805145500",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260805145500/https://www.sciencenews.org/article/ai-making-us-dumber-learning-skills-risk"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260805145500/https://www.sciencenews.org/article/ai-making-us-dumber-learning-skills-risk",
+      "timestamp": "20260805145500",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

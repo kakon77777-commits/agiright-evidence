@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000088",
+  "url": "https://www.cooley.com/news/insight/2026/2026-08-06-ninth-circuit-rules-on-ai-agent-access-to-third-party-websites-under-cfaa",
+  "capturedAt": "2026-10-03T07:32:16Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 60701,
+    "sha256": "c882b6f400020d664755193032b4979e75db13daef0ade6e85845adbe8c0e6d0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FBCD69BE4101B3855DBEF5D5D44AD0E2",
+      "status": 200,
+      "url": "https://www.cooley.com/news/insight/2026/2026-08-06-ninth-circuit-rules-on-ai-agent-access-to-third-party-websites-under-cfaa",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6552,
+      "afterScrollHeight": 6552,
+      "wantedHeight": 6552
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "1b99fecbae618dc634ce213d0a1e6c8fd255200f4e16372967ffd860505665c6",
+    "width": 1366,
+    "height": 6552,
+    "bytes": 602726,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6552,
+    "afterScrollHeight": 6552,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:32:16Z",
+    "url": "https://www.cooley.com/news/insight/2026/2026-08-06-ninth-circuit-rules-on-ai-agent-access-to-third-party-websites-under-cfaa",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 60701,
+      "sha256": "c882b6f400020d664755193032b4979e75db13daef0ade6e85845adbe8c0e6d0"
+    },
+    "finalUrl": "https://www.cooley.com/news/insight/2026/2026-08-06-ninth-circuit-rules-on-ai-agent-access-to-third-party-websites-under-cfaa",
+    "httpStatus": 200,
+    "title": "Ninth Circuit Rules on AI Agent ‘Access’ to Third-Party Websites Under CFAA // Cooley // Global Law Firm",
+    "rendered": {
+      "textChars": 811,
+      "textSha256": "fa5adc65340ea4709b6531aafeedc54954e5516762280e2906a604c92303f88a",
+      "htmlSha256": "55f7b573a348fd60db175f4dea273db2dddf72ffe6bd3d3d5ac066260800c360"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "1b99fecbae618dc634ce213d0a1e6c8fd255200f4e16372967ffd860505665c6",
+      "width": 1366,
+      "height": 6552,
+      "bytes": 602726,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

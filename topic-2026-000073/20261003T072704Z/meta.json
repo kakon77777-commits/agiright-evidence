@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000073",
+  "url": "https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/",
+  "capturedAt": "2026-10-03T07:27:04Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 770,
+    "sha256": "9559e5d5f07fecaefdf509c349c78d47e1d6fa56d5ec5e51aff81c197d3077d9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1B58E52AA0D625E70ADE5B9616F79816",
+      "status": 403,
+      "url": "https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7419de1f93c1dcf2ab573ae222366d1dd69966121a3632f348150e01abdb62db",
+    "width": 1366,
+    "height": 900,
+    "bytes": 35114,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:27:04Z",
+    "url": "https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 770,
+      "sha256": "9559e5d5f07fecaefdf509c349c78d47e1d6fa56d5ec5e51aff81c197d3077d9"
+    },
+    "finalUrl": "https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/",
+    "httpStatus": 403,
+    "title": "forbes.com",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "52f43fcd9f42dede31dd39504ebcb05ba1c3f265e3cb5f001d14903eb03bfabe"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "7419de1f93c1dcf2ab573ae222366d1dd69966121a3632f348150e01abdb62db",
+      "width": 1366,
+      "height": 900,
+      "bytes": 35114,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260728152904",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260728152904/https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260728152904/https://www.forbes.com/sites/timbajarin/2026/07/28/china-launches-waico-in-shanghai-as-west-sits-out-ai-governance/",
+      "timestamp": "20260728152904",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000084",
+  "url": "https://finsights.cooley.com/fannie-mae-issues-ai-ml-governance-framework-for-sellers-and-servicers/",
+  "capturedAt": "2026-10-03T07:30:08Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 84205,
+    "sha256": "5c500fd143a66bb2f94a8270ea4137fb85ba2ef611aa16256903dd8bb6c8edde",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "57D36647E2E5677690178CD36EE5324C",
+      "status": 200,
+      "url": "https://finsights.cooley.com/fannie-mae-issues-ai-ml-governance-framework-for-sellers-and-servicers/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4304,
+      "afterScrollHeight": 4304,
+      "wantedHeight": 4304
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a0cc97a5a9db286ef60e65a4cf0b2d7fbb27f74ca0fd63c0b2ee0e266982d0ce",
+    "width": 1366,
+    "height": 4304,
+    "bytes": 365329,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4304,
+    "afterScrollHeight": 4304,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:30:08Z",
+    "url": "https://finsights.cooley.com/fannie-mae-issues-ai-ml-governance-framework-for-sellers-and-servicers/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 84205,
+      "sha256": "5c500fd143a66bb2f94a8270ea4137fb85ba2ef611aa16256903dd8bb6c8edde"
+    },
+    "finalUrl": "https://finsights.cooley.com/fannie-mae-issues-ai-ml-governance-framework-for-sellers-and-servicers/",
+    "httpStatus": 200,
+    "title": "Fannie Mae Issues AI/ML Governance Framework for Sellers and Servicers – Cooley Finsights",
+    "rendered": {
+      "textChars": 8616,
+      "textSha256": "47b091184a7c9a3c506776275272e2c5d61158105b4219906ca9b4d1f4a654ff",
+      "htmlSha256": "2191eb9e60e14e40408e0cfde34be909fe1d2dbf1271a44bdf2a70c33386e35d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a0cc97a5a9db286ef60e65a4cf0b2d7fbb27f74ca0fd63c0b2ee0e266982d0ce",
+      "width": 1366,
+      "height": 4304,
+      "bytes": 365329,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003073156/https://finsights.cooley.com/fannie-mae-issues-ai-ml-governance-framework-for-sellers-and-servicers/",
+      "timestamp": "20261003073156",
+      "verifiedHttp": 200
+    }
+  }
+}
