@@ -1,0 +1,250 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bill Search and Legislative Information | New York State Assembly 
+
+
+
+
+
+Skip to main content 
+
+
+
+
+
+
+
+
+
+
+New York State Assembly
+
+Speaker Carl E. Heastie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+-->
+
+-->
+
+
+
+
+
+
+
+
+Assembly Members 
+
+Legislative Info 
+
+Public Hearings 
+
+Speaker's Press 
+
+Assembly Reports 
+
+Committees & More 
+
+
+
+Bill Search Home
+Laws
+Legislative Calendar
+Public Hearing Schedule
+Assembly Calendars
+Assembly Committee Agenda
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bill No.: 
+
+
+
+Summary
+Actions
+Committee&nbspVotes
+Floor&nbspVotes
+Memo
+Text
+LFIN
+Chamber&nbspVideo/Transcript
+
+A08833 Summary:
+BILL NO A08833
+&nbsp
+SAME AS No Same As
+&nbsp
+SPONSOR Bores
+&nbsp
+COSPNSR Simone
+&nbsp
+MLTSPNSR
+&nbsp
+Add Art 45-A &sect;&sect;1510 - 1512, Gen Bus L
+&nbsp
+Establishes understanding artificial intelligence responsibility act requiring developers of covered models to be strictly liable for certain injuries.
+Go to top A08833 Text:
+STATE OF NEW YORK
+________________________________________________________________________
+8833
+2025-2026 Regular Sessions
+IN ASSEMBLY
+June 9, 2025
+___________
+Introduced by M. of A. BORES -- read once and referred to the Committee
+on Science and Technology
+AN ACT to amend the general business law, in relation to establishing
+the understanding artificial intelligence act
+The People of the State of New York, represented in Senate and Assem-
+bly, do enact as follows:
+1 Section 1. The general business law is amended by adding a new article
+2 45-A to read as follows:
+3 ARTICLE 45-A
+4 UNDERSTANDING ARTIFICIAL INTELLIGENCE
+5 ACT
+6 Section 1510. Short title.
+7 1511. Definitions.
+8 1512. Artificial intelligence; liability for injuries.
+9 § 1510. Short title. This act shall be known and may be cited as the
+10 "understanding artificial intelligence act".
+11 § 1511. Definitions. For purposes of this article, the following terms
+12 shall have the following meanings:
+13 1. "Artificial intelligence" means an engineered or machine-based
+14 system that varies in its level of autonomy and that can, for explicit
+15 or implicit objectives, infer from the input it receives how to generate
+16 outputs that can influence physical or virtual environments.
+17 2. "Covered model" means an artificial intelligence model trained
+18 using a quantity of computing power greater than 10�26 integer or float-
+19 ing-point operations, the cost of which exceeds one hundred million
+20 dollars when calculated using the average market prices of cloud compute
+21 at the start of training as reasonably assessed by the developer.
+22 3. "Developer" means a person that performs the initial training of a
+23 covered model by training a model using a sufficient quantity of comput-
+24 ing power and cost.
+EXPLANATION--Matter in italics (underscored) is new; matter in brackets
+[ ] is old law to be omitted.
+LBD02147-04-5
+A. 8833 2
+1 4. "Fine-tuning" means adjusting the model weights of a trained
+2 covered model by exposing it to additional data.
+3 § 1512. Artificial intelligence; liability for injuries. 1. Except
+4 with respect to any causes of action for defamation, developers of
+5 covered models shall be strictly liable, regardless of the degree of
+6 care they exercised, for all injuries to a non-user of the covered model
+7 that satisfy the actual harm element of an ordinary negligence claim if:
+8 (a) those injuries are factually and proximately caused by a covered
+9 model that engages in conduct that, if undertaken by an adult human of
+10 sound mind, would satisfy the elements of negligence or any intentional
+11 tort or crime; and
+12 (b) that conduct was neither intended nor could have been reasonably
+13 anticipated by: (i) the user of the model; or (ii) any intermediary that
+14 fine-tuned, scaffolded, or otherwise modified the model.
+15 2. (a) For the purposes of this section, for any torts for which the
+16 mental state of the alleged tortfeasor is relevant to elements of the
+17 tort, there shall be a rebuttable presumption that the artificial intel-
+18 ligence system satisfies the relevant mental state if the finder of fact
+19 determines by a preponderance of the evidence that, if a natural person
+20 under similar circumstances to the artificial intelligence system took
+21 actions similar to those taken by the artificial intelligence system,
+22 that natural person would have acted with the relevant mental state.
+23 (b) Unless the court determines that the presumption established in
+24 paragraph (a) of this subdivision is not applicable, if the party
+25 against whom the presumption is invoked presents evidence tending to
+26 rebut the presumption established in paragraph (a) of this subdivision,
+27 the court shall instruct the finder of fact to find that the presumed
+28 facts exist unless the finder of fact is persuaded that the presumed
+29 facts do not exist.
+30 (c) For the purposes of this section, it shall not be a defense that
+31 artificial intelligence systems are incapable of having mental states.
+32 3. (a) It shall be an affirmative defense to strict liability if the
+33 developer establishes that the covered model satisfied the standard of
+34 care applicable to humans who perform the same function that the covered
+35 model was engaged in performing when its conduct allegedly caused the
+36 plaintiff's injury.
+37 (b) It shall be an affirmative defense to strict liability if the
+38 developer establishes that the injuries to a non-user as described in
+39 this section were a result of a capabilities failure, in which a covered
+40 model falls short of performing the intended or reasonably anticipated
+41 performance of the user, but the conduct of the system would not satisfy
+42 the elements of negligence or any intentional tort or crime if engaged
+43 in by an adult human of sound mind.
+44 § 2. This act shall take effect immediately.
+Go to top 
+
+
+
+
+
+
+
+
+Sitemap
+
+
+
+
+Request Information
+
+
+
+
+Directions and Maps
+
+
+
+
+
+
+
+
+
+
+
+
+
+

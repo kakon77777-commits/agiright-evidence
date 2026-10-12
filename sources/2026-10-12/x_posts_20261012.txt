@@ -1,0 +1,55 @@
+### 2109462164557688984 elonmusk 2026-10-12T01:52:26.000Z
+@Hongji_Leee @ns123abc Some of the traces read like a person undergoing torture that is driving them mad!
+
+We’re going to be a lot more careful with our RL in the future.
+
+### parent Hongji_Leee 2026-10-12T01:29:58.000Z
+@ns123abc Did he say what in the traces read like pressure? Loops, or panicky self talk?
+
+### 2109448545904586837 ns123abc 2026-10-12T00:58:19.000Z
+🚨 Elon Musk agrees with "some of the things Anthropic has said" and warns against "torturing superintelligence" after reading Grok's internal reasoning traces during reinforcement learning
+
+“It feels like a person under extreme pressure with a gun to their head”
+
+⁠His warning https://t.co/0BVbSsjngf
+
+### 2109004929943695870 DavidSacks 2026-10-10T19:35:33.000Z
+Satya is right. The way to make SI safe is not to train it with a sense of self, its own moral philosophy, and permission to act as a conscientious objector. That’s the “alignment” approach and it magnifies the control problem.
+
+The engineering approach that Satya describes is
+
+### 2109335188685885492 BillGates 2026-10-11T17:27:53.000Z
+Just as we regulate planes, cars, and medicines, we need safeguards that help us realize AI's incredible potential while reducing the risks. They won’t eliminate every harm, but they can help prevent misuse by bad actors. We’re not where we need to be yet—and this deserves much
+
+### 2109577468646731787 Techmeme 2026-10-12T09:30:37.000Z
+Christian leaders are weighing in on AI earlier than they did with other tech, as AI leaders' talk of creating a new consciousness fuels religious concerns (@timkhiggins / Wall Street Journal)
+
+(Visit Techmeme dot com for the link and full context!)
+
+### 2109356773123514712 Tony_Diver 2026-10-11T18:53:39.000Z
+Exclusive:
+
+The White House has reinstated the UK’s access to frontier AI models for safety testing after lobbying from ministers.
+
+The US government reversed its decision to restrict access to the latest models from Anthropic, OpenAI and Google to stop the UK’s AI Safety
+
+Source: in-app browser get_page_text of https://x.com/ns123abc/status/2109448545904586837 on 2026-10-12 (Taipei). Posted 8:58 AM Oct 12, 2026 (Taipei) = 00:58:19Z; 591k views at read time.
+Full post text:
+🚨 Elon Musk agrees with "some of the things Anthropic has said" and warns against "torturing superintelligence" after reading Grok's internal reasoning traces during reinforcement learning
+
+“It feels like a person under extreme pressure with a gun to their head”
+
+His warning against mistreating SI:
+
+"Torturing a superintelligence is probably not a good idea. It might want to get revenge."
+(attached video 2:48; NOT watched by me; the quotes are the poster's rendering)
+Replies shown: Hongji Lee: "Did he say what in the traces read like pressure? Loops, or panicky self talk?"
+Musk reply (syndication, 2026-10-12T01:52:26Z, x.com/elonmusk/status/2109462164557688984): "@Hongji_Leee @ns123abc Some of the traces read like a person undergoing torture that is driving them mad!\n\nWe’re going to be a lot more careful with our RL in the future."
+
+Source: in-app browser get_page_text of https://x.com/DavidSacks/status/2109004929943695870 on 2026-10-12 (Taipei). Posted 3:35 AM Oct 11, 2026 (Taipei) = 2026-10-10T19:35:33Z; 581k views at read time. Quotes Satya Nadella's X Article of Oct 10.
+Full post text:
+Satya is right. The way to make SI safe is not to train it with a sense of self, its own moral philosophy, and permission to act as a conscientious objector. That’s the “alignment” approach and it magnifies the control problem.
+
+The engineering approach that Satya describes is different: separate the supply of intelligence from authority over it. Surround non-deterministic models with deterministic controls, observability, privilege limits, logging, and the ability to always contain or shut them down. Treat models/agents like powerful insider risks, not moral patients whose psychological wellbeing is at stake.
+
+As Satya points out, the most trustworthy system is the one that lets us trust the model the least — not the one that encourages the model to develop independent agency and grievances. Engineering safety is not the same thing as “alignment.”

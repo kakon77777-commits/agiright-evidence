@@ -1,0 +1,29 @@
+#2108653789591003585 @LuminaBench Lumina (blue-verified) 2026-10-09T20:20:14Z likes=335
+Google are already testing another Gemini 4 model called "Carbon" in Jetski
+According to Business Insider, one employee says it "feels like Opus 5.5" for coding
+Argon hasn't even dropped yet and they already have a better checkpoint, tf is going on rn
+
+#2108867722905878750 @LuminaBench Lumina (blue-verified) 2026-10-10T10:30:20Z likes=239
+Everything looks ready for Gemini 4 Argon now
+Argon is all setup in Antigravity and all old models are leaving soon
+Google please just release this thing already
+[image: ANTIGRAVITY CLI DIFF · GOOGLE | Gemini 4 Argon | Referenced in the bundled interface of Antigravity CLI. | Model picker: dedicated model-specific code branch with effort and context-window controls. | Context menu: 256K, 512K, 900K | Context default: 256K | Quota hints: 512K: ~1.3× per turn · 900K: ~1.8× per turn | Bundled UI evidence; menu values are not confirmed API limits. | Build: 1.3.3-5524738307653632 | Source: CLI production · Linux x64 | Evidence: antigravity → main.js | Integrity: Published download checksum verified | Compiled-in references only. Availability and account access are unconfirmed. | Official download | Join us at LuminaBench.com/discord | Developed by @LuminaBench on X]
+
+#2108880220069769507 @ai_fengshou 丰收 (blue-verified) 2026-10-10T11:20:00Z likes=3
+Gemini 4 这次是真要来了
+@LuminaBench 直接晒了 GCP 后台截图
+europe-west-4 里 arg-argon、argon-pro 已经能用了，老模型全部弃用重定向
+BI 同日拿到内部文档：Argon、Barium、Carbon 三个版本都在测
+两边对上了，这是发布前夜的信号
+
+#2108791640928444810 @MilkRoadAI Milk Road AI (blue-verified) 2026-10-10T05:28:01Z likes=59 views=7217
+Alibaba just kicked DeepSeek, Kimi, GLM and MiniMax off its cloud, and Chinese AI developers are NOT happy.
+As of October 10, Alibaba Cloud has stopped serving DeepSeek, Kimi K2, GLM and MiniMax models on its platform. Every developer building on those models now has to migrate, and Alibaba's suggested replacement is its own Qwen model. This is HUGE because these are some of the most used open weight models in the world, and China's biggest cloud is now pushing all of that traffic toward its own AI.
+I think this is Alibaba trying to own both the cloud and the model layer in China at the same time. If it works, Qwen gets a massive boost in usage and $BABA keeps far more of the AI spend in house.
+
+#2108877894797631779 @ChinaTechFlux ChinaTechFlux (blue-verified) 2026-10-10T11:10:45Z views=3
+Alibaba Cloud delisted several models on Oct 10 — but not the ones the rumor says.
+What actually got pulled: deepseek-v3, v3.1, v3.2, R1, R1-0528, and the R1-distilled Qwen 7B/14B/32B. Old DeepSeek builds. Not DeepSeek as a vendor.
+Kimi k2.7-code, GLM-5.2, MiniMax-M2.5 are still running on the platform. The "Alibaba kicked DeepSeek, Kimi, GLM and MiniMax off the cloud" story doesn't hold.
+The real signal is quieter and more boring: every retirement notice recommends a Qwen replacement. qwen3.7-plus, qwen3.7-max, qwen3.6-flash.
+That's a cloud pushing its own models through the migration path. Not the same as cutting off rivals.

@@ -1,0 +1,6 @@
+Source: in-app browser (JavaScript read of document.title, meta tags and body text) at https://x.ai/ on 2026-10-12 (Taipei). curl returns a Cloudflare 403, so only the browser read counts.
+document.title = "SpaceXSI"; og:title = "SpaceXSI"; og:site_name = "SpaceXSI"; canonical = https://x.ai/
+Page text (news list): "Team Bots: shared AI teammates that learn as they work | Product | Sep 22, 2026 | How SpaceXSI is using Grok Bot to scale customer support | Sep 18, 2026 | Introducing Grok Voice T..."
+Page text (footer): "Social | @SpaceXSI | @grok | Discord" with the @SpaceXSI link pointing to https://x.com/spacexsi
+Page text (pricing/footer block): "© 2026 SpaceXAI LLC | Products | Chat | Build | Imagine | Voice | Bot | Grokipedia | Download | grok.com"
+Counts in body text: "SpaceXSI" 2, "SpaceXAI" 1, "xAI" 0.

@@ -1,0 +1,101 @@
+
+Zero Day Initiative — Pwn2Own Ireland 2026 - Day Two Results
+About
+How It Works
+FAQ s
+Blog
+Advisories
+Sign Up
+Log In
+About
+How It Works
+FAQ s
+Blog
+Advisories
+Sign Up
+Log In
+Find us on
+Blog
+Pwn2Own Ireland 2026 - Day Two Results
+October 07, 2026
+Dustin Childs
+Day Two of Pwn2Own Ireland 2026 has 24 attempts on the docket, with roughly $780,000 up for grabs, running 9:30 AM to 7:30 PM IST.
+Samsung's Galaxy S26 will be attempted three separate times — by Valsamaras/Ken Gannon (using Djini.ai)/Valsamara at 1:00 PM, Kyeongmin Kim at 3:15 PM, and PetoWorks at 5:30 PM — worth watching since only the first successful demo claims the cash. Home Assistant Green is the day's most-attempted device, with five researchers scheduled to take a run at it. AI Infrastructure stays active with four attempts on tap (Dynamo, two at Chroma, two at Oracle's Autonomous AI Database), Wellness has just one attempt scheduled, and Printers see steady action with three separate attempts on the Lexmark CX532adwe.
+Yesterday, we awarded $388,500 for 32 unique 0-days. Stay tuned for all of today’s results!
+FAILURE - Unfortunately, the printers continue to be a challenge with Thanh Do (
+@nyanctl
+) of Team Confused unsuccessful in their targeting of Brother MFC-L8970CDW in the Printers category #Pwn2Own
+SUCCESS - The grass may not be greener but the exploits sure were as Yves Bieri (@yves_bieri) of Xint (@xint_official) just won $30k and 3 Master of Pwn points in his takedown of Home Assistant Green #Pwn2Own
+FAILURE - Another one bites the dust - with seconds left on the clock, unfortunately Eugene (
+@k3vg3n
+) targeting Chroma in the #AIInfrastructure category was unsuccessful in his final attempt #Pwn2Own
+SUCCESS - A dynamite takedown of Dynamo in the AI Infrastructure category for a total of $40,000 and 4 Master of Pwn points by HaeJung Yang (@haehaeYang) of Out of Bounds (@oobs_io) #Pwn2Own
+SUCCESS / COLLISION
+We have another collision! Yassine Bengana (@cousky_), and Maxence Schmitt (@maxenceschmitt) of Doyensec (@doyensec) used 3 bugs to exploit the Home Assistant Green, but all 3 bugs were previously known. They still earn $7,500 and 1.5 Master of Pwn points. #Pwn2Own
+SUCCESS -
+Confirmed! @_McCaulay used 3 bugs (incl Hard-coded Credentials, Missing Authentication for Critical Function, Command Injection) to exploit the Canon imageFORCE 1643F. His 2nd round win nets him $10,000 and 2 Master of Pwn points. #Pwn2Own
+SUCCESS / COLLISION -
+Against the clock in the final round.... Jack Dates of RET2 Systems (@ret2systems) locked in his win against the Sonos Era 300. The pot has been confirmed, with 1 zero day and 1 collision, he will take home $9.5K and 3.75 Master of Pwn points #Pwn2Own
+SUCCESS / COLLISION - Boom! With 3 collisions and 2 unique zero-days Taisic Yun (
+@taisic_
+) of Xint (
+@xint_official
+) breached Oracle Autonomous AI Database capturing their pot of gold of $14k at #Pwn2OwnIreland and 3 Master of Pwn points #Pwn2Own
+FAILURE - A valiant effort but Shio Kudo (
+@shiosa1t
+) of GMO Flatt Security Inc. (
+@flatt_security
+) was unsuccessful in their attempts at targeting Home Assistant Green in the Smart Home category #Pwn2Own
+SUCCESS - 1 bug wonder! With an Confused Deputy (CWE-441) bug Dimitrios Valsamaras (@Ch0pin), Ken Gannon / 伊藤 剣 (@yogehi) using Djini.ai from Mobile Hacking Lab, Tenia Valsamara (@ir3l14) from CENSUS Labs PwN'ed the Samsung Galaxy S26 #Pwn2Own
+SUCCESS / COLLISION - And the results are in! Nguyen Thanh Dat (@rewhiles), dungnm (@dungnm_) of Viettel Cyber Security (@vcslab) targeting Sonos Era 300 with 1 collision & 2 zero-days for a total of $10.5K and 4.25 Master of Pwn points #Pwn2Own
+SUCCESS - It was DOOMsday for the Lexmark CX532adwe printer as Interrupt Labs (@InterruptLabs) claimed victory and earned $5k & 2 Master of Pwn points! #Pwn2Own #DoomHack
+SUCCESS / COLLISION - Green means go! And boy did PetoWorks (@petoworks) go straight into the Home Assistant Green with a chain of 5 bugs including 2 collisions and 3 unique, securing $12k and 2.5 Master of Pwn points in the Smart Home category #Pwn2Own
+SUCCESS / COLLISION - Direct connection - NOT needed for Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab who remotely breached the Samsung Galaxy S26 with 1 unique bug and 2 collision winning $8.5k and 3.5 Master of Pwn points #Pwn2Own
+SUCCESS - Confused? Well Ikotas Labs, Inc. sure wasn't as they unleased a 7-chain bug ending with a Use-After-Free and a Type Confusion on Oracle Autonomous AI Database securing a win of $10,000 and 4 Master of Pwn points #Pwn2Own
+SUCCESS / COLLISION -
+@_McCaulay climbs the leaderboard with his third target earning another 1.5 master of Pwn points and $6750 for his exploit of Garmin Index BPM with 1 collision and 1 unique bug.
+SUCCESS / COLLISION - Confirmed! 1 zero-day & 3 collisions by Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab successfully exploited the Home Assistant Green in the Smart Home category earning him $4,750 and 2 Master of Pwn points #Pwn2Own
+SUCCESS -
+Another printer bites the dust by Rick de Jager and Filippo Cremonese of @zellic_io/@v12sec earning him $5k and 2 Master of Pwn points in his successful exploit of Lexmark CX532adwe #Pwn2Own
+SUCCESS / COLLISION - Boom! With 3 bug collisions PetoWorks (@petoworks) successfully accessed the Samsung Galaxy S26 remotely, earning them a net $6250 and 2.5 Master of Pwn points #Pwn2Own
+SUCCESS / COLLISION - A mammoth win by team MAMMOTH, with Mingeun Kim, Chulhan Park, SeokHun Lee, Inhyung Lee, Sehyun Baek, Nayeon Lee, Junseok Kim of Team MAMMOTH exploiting Chroma in the AI Infrastructure category with 2 collisions and 1 zero-day for a net total win of $12,000 and 1.25 Master of Pwn points #Pwn2Own
+SUCCESS -
+2 bugs + Sina Kheirkhah (@SinSinology) of Summoning Team = exploited Sonos Era 300 and $12,500 and 5 Master of Pwn points won! #Pwn2Own
+SUCCESS / COLLISION - Exploit Confirmed!
+@BoredPentester successfully exploited Lexmark CX532adwe in the Printers category with 1 collision & 2 unique bugs for a net total of $4250 and 1.25 Master of Pwn points #Pwn2Own
+SUCCESS / COLLISION - @_McCaulay strikes again and down goes Home Assistant Green once again! With a 6 bug chain, including 1 collision and 5 zero-days, the net total winnings is $7k & 2.75 Master of Pwn points #Pwn2Own
+SUCCESS / COLLISION - An impressive disclosure from Alessandro Fanio Gonzalez targeting Chroma with a 2 N-days & 1 collision in the AI Infrastructure category for a net total win of $4,500 and 1 Master of Pwn points #Pwn2Own
+Pwn2Own
+Samsung
+Stand at the front line of proactive security
+TrendAI™ ZDI connects the experts who discover, remediate, and defend.
+Add your voice to the work that pushes attackers back.
+RESEARCHERS
+Submit a vulnerability
+VENDORS
+Learn how it works
+ORGANIZATIONS
+See how you're protected
+Find us on
+©2026 TrendAI™ Zero Day Initiative™ (ZDI).
+All rights reserved.
+General inquiries
+zdi@trendmicro.com
+Media inquiries
+media_relations@trendmicro.com
+Sensitive email communications
+PGP key
+Who We Are
+Our Mission
+TrendAI™
+TrendAI Vision One™
+How It Works
+Process
+Researcher Rewards
+FAQs
+Privacy
+Advisories
+Published Advisories
+Upcoming Advisories
+RSS Feeds
+Blog

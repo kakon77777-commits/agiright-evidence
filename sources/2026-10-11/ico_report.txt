@@ -1,0 +1,560 @@
+ 
+
+
+
+
+
+
+
+
+Building trust and transparency into generative AI development: our work to create regulatory certainty | ICO 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content 
+
+
+
+
+
+
+
+
+
+
+Home 
+
+
+
+
+
+
+The ICO exists to empower you through information. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search 
+
+
+
+
+
+
+
+
+
+Search 
+
+
+
+Search 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu 
+
+
+
+
+
+Home 
+
+
+
+
+
+For the public 
+
+
+
+
+
+For organisations 
+
+
+
+
+
+Make a complaint 
+
+
+
+
+
+Action we've taken 
+
+
+
+
+
+About the ICO 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For organisations 
+
+
+
+
+UK GDPR guidance and resources 
+
+
+
+
+Artificial intelligence 
+
+
+
+Building trust and transparency into generative AI development: our work to create regulatory certainty 
+
+
+
+
+
+
+
+
+Building trust and transparency into generative AI development: our work to create regulatory certainty
+
+
+
+
+
+
+
+
+
+
+Contents
+
+
+
+
+
+
+
+
+
+Search this document 
+
+
+
+
+
+
+
+
+
+
+
+
+Building trust and transparency into generative AI development: our work to create regulatory certainty 
+
+
+
+
+
+
+
+Introduction 
+
+
+
+
+
+
+
+
+
+Data protection challenges and our expectations 
+
+
+
+
+
+
+
+
+
+Industry Supervision 
+
+
+
+
+
+
+
+
+
+Next steps 
+
+
+
+
+
+
+
+
+
+Annex A: Information gathering 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our message to model developers
+Foundation models are a key enabling technology that underpin a wide range of activity across the UK economy. If these models are to drive the next phase of artificial intelligence (AI) adoption, developers must give businesses and the public confidence that personal data is being used lawfully, transparently, and with effective safeguards in place. Trust must be built into model development and AI governance practices from the outset.
+Our message to foundation model developers is clear. Where you process personal data to train models, you must :
+identify a lawful basis for doing so;
+provide meaningful transparency;
+enable people to exercise their rights; and
+show that you have safeguards in place to materially reduce risk.
+Where models themselves contain personal data, or where special category data is involved, the bar is even higher.
+We recognise that interpretation and application of the law can be challenging in some areas, particularly where developers are processing special category data. We’re engaging with the government and industry on those questions. But challenges in applying the law are not justification for failing to address data protection fundamentals. Data protection law applies to the processing of personal data in foundation model development, and you should act on the basis that you must comply. We have produced exten sive g uidance on data protection and AI , and we expect organisations to engage with it.
+Our approach to regulation will remain pragmatic, evidence-based, and proportionate.
+We will continue to work with developers that engage constructively and seek to improve practices, and we monitor developments in privacy-enhancing technologies that can help. But we’re increasingly seeing reports detailing the feasibility of extracting model training data. This includes training data sourced from the internet, which can include email signatures, API keys and passwords that can be used maliciously to get access to systems and further information. Where organisations expose people to avoidable harm or proceed without adequate safeguards, we will intervene.
+We’ve opened formal investigations into X Internet Unlimited Company (XIUC) and X.AI LLC (X.AI) covering their processing of personal data in relation to the Grok AI system and its potential to produce harmful sexualised image and video content. This ongoing investigation is an example of the steps we will take to address the real-world harms that can arise from the development and deployment of generative AI, where the irresponsible or unlawful use of personal data may adversely affect people’s rights and freedoms.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Next 
+Introduction 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Back to top 
+
+
+
+
+
+
+
+
+Print this page 
+
+
+
+
+
+
+
+
+
+
+
+
+For the public 
+
+
+
+Official information 
+
+
+Nuisance calls 
+
+
+
+
+
+For organisations 
+
+
+
+UK GDPR guidance and resources 
+
+
+Freedom of information 
+
+
+EIR and access to information 
+
+
+Direct marketing 
+
+
+Advice and services 
+
+
+
+
+
+Action we've taken 
+
+
+
+Enforcement action 
+
+
+Decision notices 
+
+
+Audits and overview reports 
+
+
+
+
+
+About the ICO 
+
+
+
+Download registration certificate 
+
+
+Who we are 
+
+
+What we do 
+
+
+Media centre 
+
+
+Careers 
+
+
+Modern slavery statement 
+
+
+
+
+
+
+
+
+
+
+Follow us
+
+
+
+
+
+
+
+
+
+X@ICONews 
+
+
+
+
+
+
+
+
+
+YouTube 
+
+
+
+
+
+
+
+
+
+LinkedIn 
+
+
+
+
+
+
+
+
+
+Facebook 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The ICO exists to empower you through information. 
+
+
+
+
+
+
+
+
+
+
+
+Contact us 
+
+
+Privacy notice 
+
+
+Cookies 
+
+
+Accessibility 
+
+
+Cymraeg 
+
+
+Disclaimer 
+
+
+&#xA9; Copyright 
+
+
+
+
+
+
+
+
+
+
+
+
+All text content is available under the Open Government Licence v3.0 , except where otherwise stated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

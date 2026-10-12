@@ -1,0 +1,201 @@
+
+Bipartisan Senate bill would push DOD to expand its oversight of in-use commercial frontier AI models | DefenseScoop
+Skip to main content
+Advertisement
+DefenseScoop
+AIScoop
+FedScoop
+CyberScoop
+StateScoop
+EdScoop
+Advertise
+Search
+Close
+Search for:
+Search
+Open navigation
+Topics
+Back
+IT
+Cybersecurity
+AI
+Space
+Weapons
+R&D
+Events
+Podcasts
+Videos
+Insights
+FedScoop 50
+Subscribe to our Newsletters
+Advertise
+Switch Site
+DefenseScoop
+AIScoop
+FedScoop
+CyberScoop
+StateScoop
+EdScoop
+Subscribe
+Advertisement
+Subscribe to our daily newsletter.
+Subscribe
+Close
+AI
+Bipartisan Senate bill would push DOD to expand its oversight of in-use commercial frontier AI models
+The legislation would direct the secretary of defense to create new reporting requirements and voluntary guidance for large AI contractors.
+By
+Brandi Vincent
+October 8, 2026
+Listen to this article
+0:00
+Learn more.
+This feature uses an automated voice, which may result in occasional errors in pronunciation, tone, or sentiment.
+The setting sun casts a warm glow on the Senate side of the west front of the U.S. Capitol Building on September 14, 2026, in Washington, DC. (Photo by J. David Ake/Getty Images)
+A bipartisan bill proposed in the Senate would require the Pentagon to continuously vet the commercial tech giants from which it buys frontier AI for security vulnerabilities, algorithmic failures and other emerging risks accompanying the models that could compromise U.S. defense and national security.
+Put forward by Sens. Jim Banks, R-Ind., and Kirsten Gillibrand, D-N.Y., the 18-page legislation would direct the secretary of defense to create new “reporting requirements and voluntary guidance for large” AI contractors.
+Broadly, the bill would apply the Defense Department’s significant purchasing power to help enforce safety standards and transparency about the military’s AI use, ahead of Congress passing more sweeping industry-wide federal AI regulations.
+“Right now, the Pentagon is moving toward deploying incredibly powerful AI technology without commonsense guardrails in place, which could have catastrophic consequences for our national security,” Gillibrand told DefenseScoop in an email on Tuesday.
+Advertisement
+Frontier AI refers to the most advanced and capable foundational models, which are rapidly pushing the boundaries of machine intelligence.
+In the military realm, such capabilities present unique risks for potential technical, strategic and operational failures that are unmatched by standard commercial software and legacy computing hardware. For instance, research suggests that AI models performing as military decision-makers — often driven by tactical optimization over restraint — have demonstrated bias towards rapid escalation, preemptive strikes, or weapon deployment, under time pressures.
+Still, defense officials have warned that AI must be applied to support and compress decision cycles against militaries opposing the U.S., so the DOD is increasingly hustling to fuse powerful models into real-world military operations.
+In 2025, the Pentagon announced individual contracts with four frontier AI companies — each worth up to $200 million — for access to some of the most advanced commercial capabilities, including large language models, agentic workflows, cloud-based infrastructure and more.
+Not long after that, the DOD revealed plans for a swift and expansive release of a generative AI tool, dubbed GenAI.mil, to millions of military members, civilian employees and contractors.
+Advertisement
+But tensions between the department and its frontier AI partner Anthropic escalated in early 2026 , largely stemming from disagreements over restrictions on how the military could deploy the company’s Claude models, particularly for certain national surveillance and warfare operations. That dispute remains ongoing, with the relationship between DOD and Anthropic sharply fractured.
+The department announced new formal AI agreements with SpaceX, OpenAI, Google, NVIDIA, Reflection, Microsoft, Amazon Web Services and Oracle — notably excluding Anthropic — in May. As part of those deals, the U.S. tech companies signed on to deploy their frontier AI capabilities on the Defense Department’s classified networks “for lawful operational use” in the near term.
+“As the Pentagon rapidly expands its partnerships with frontier AI companies, our adversaries are working just as quickly to steal our most sensitive technology and exploit any weak link,” Banks told DefenseScoop in an email on Wednesday. “My bill strengthens reporting requirements to give the Pentagon the visibility it needs to stop insider threats and maintain America’s critical AI advantage.”
+That legislation is called the Insider Threat Reporting and Security Guidance Act of 2026.
+According to its text, if the bill is passed the defense secretary would be mandated to “issue regulations establishing reporting requirements for covered artificial intelligence contractors to support the protection of Department of Defense systems, missions, personnel, operations, and supply chains from counterintelligence, security, and other national security risks arising from the security practices of such contractors” within 180 days.
+Advertisement
+Those “covered” contractors would be companies that have entered into deals with DOD worth $100 million or more for AI, among other caveats listed in the bill.
+The tech giants would need to share a wide range of information, including but not limited to: their policies, practices and security measures relating to their models; who has access to the model weights and training; suspected material incidents affecting the security, integrity, or availability of the technology; any unauthorized access, exfiltration, or sabotage to the data or models; and past evasions of safeguards, unprompted autonomous actions and other “concerning” AI behaviors.
+The bill would also require the covered companies to certify that the information they submitted to Pentagon leadership continues to be accurate and a complete reflections of their assets, “not less frequently than once every 90 days.”
+Further, it would also mandate the frontier AI contractors to report national security incidents (like theft of model weights) to the DOD within 72 hours of discovery, and report material vulnerabilities in the model or worrying conduct within seven days of discovering the issue is material.
+The proposal for that notification system grew out of Gillibrand’s Secure and Accountable Military AI Act, which she introduced in June.
+Advertisement
+“I am proud to work across the aisle to put in place a rigorous notification framework that requires AI contractors to immediately alert the Pentagon to vulnerabilities or deceptive model behaviors, and mandates that the Secretary of Defense brief Congress within seven days of an incident,” Gillibrand said.
+Written by Brandi Vincent
+Brandi Vincent is a Senior Reporter at DefenseScoop, where she reports on disruptive technologies and associated policies impacting Pentagon and military personnel. Prior to joining SNG, she produced a documentary and worked as a journalist at Nextgov, Snapchat and NBC Network. Brandi grew up in Louisiana and received a master’s degree in journalism from the University of Maryland. She was named Best New Journalist at the 2024 Defence Media Awards.
+In This Story
+Anthropic
+Artificial Intelligence (AI)
+Congress
+congressional oversight
+frontier AI
+Google
+Jim Banks
+Kirsten Gillibrand
+NVIDIA
+OpenAI
+oversight
+Senate
+Share
+Facebook
+LinkedIn
+Twitter
+Copy Link
+Add to Preferred Sources
+Advertisement
+Advertisement
+More Like This
+Pentagon launches pilot program that will use AI to manage sensitive information
+By
+Drew F. Lawrence
+Brandi Vincent
+How embedded agents are accelerating defense AI adoption
+By
+Joe Kopacz
+Pentagon moving to modify its online portal for reporting U.S. military casualties
+By
+Brandi Vincent
+Advertisement
+Top Stories
+Colby approves Pentagon policy for ‘cyber operations-peculiar’ monetary awards
+By
+Jon Harper
+Pentagon memo outlines plan to operationalize new ‘FORTRESS America’ program office
+By
+Brandi Vincent
+Unmanned warfare has now expanded to the high seas. Is the U.S. ready?
+By
+Vice Adm. Michael Connor (ret.)
+Yoni Tobin
+White House, Anduril announce plans for new ‘software-defined’ shipyard to help build attack submarines
+By
+Jon Harper
+Bonnie Evangelista to lead drone buying on Pentagon’s new DRPM-UxS team
+By
+Brandi Vincent
+Advertisement
+More Scoops
+Cameron Stanley, the Pentagon’s chief digital and AI officer, speaks at DefenseTalks, Sept. 22, 2026. (Photo credit: Stephanie Boyles/EPNAC)
+GenAI.mil attracts about half a million ‘power users’ as Pentagon pushes forward with frontier models
+Senior defense officials provided an update on the department’s adoption of AI at DefenseTalks.
+By
+Jon Harper
+Services members assigned to the GenAI.mil task force, Department of Defense (DOD) Chief Digital and Artificial Intelligence Office (CDAO), deliver training on building AI agents to Sailors assigned to U.S. Pacific Fleet on Joint Base Pearl Harbor-Hickam, Hawaii, July 23, 2026. (U.S Navy photo by Mass Communication Specialist 2nd Class Christopher Sypert)
+DOD poised to move all classified AI workloads off Anthropic by October
+By
+Brandi Vincent
+An AI app folder containing Grok, Gemini, and ChatGPT, among others, is displayed on a smartphone screen in Creteil, France, on July 9, 2026. (Photo by Samuel Boivin/NurPhoto via Getty Images)
+Grok and ChatGPT join Gemini in Pentagon’s enterprise genAI portal
+By
+Brandi Vincent
+Amid concerns sparked by Mythos, the Pentagon’s cyber policy chief sees ‘huge opportunity’ with frontier AI models
+By
+Jon Harper
+DOD expands its classified AI work with 8 companies — excluding Anthropic — amid ongoing dispute
+By
+Brandi Vincent
+Experts raise questions and concerns about Pentagon’s threat to blacklist Anthropic amid AI spat
+By
+Brandi Vincent
+Pentagon CTO urges Anthropic to ‘cross the Rubicon’ on military AI use cases amid ethics dispute
+By
+Brandi Vincent
+Latest Podcasts
+How the Navy is reducing workforce friction to improve mission outcomes
+How DARPA is looking to AI to fend off cyber vulnerabilities through a challenge program
+How the DOD protects national security interests by monitoring climate change
+IonQ’s Craig Miller on securing against quantum threats
+Tech
+Army awards Anduril contract worth up to $1.8B over five years to expand NGC2
+After developing Pentagon’s counter-drone marketplace, Kaizen nabs $49M IDIQ from Army with first task order for classified work
+Army Special Forces graduate first batch of Robotics Technician Integrators, a new job the rest of the service is eyeing
+Hegseth issues new directive to hasten U.S. military’s counter-drone pursuits
+AI
+How AI agents are informing JIATF-401’s procurement plans after Falcon Peak
+More than 100K personnel use Maven Smart System: Pentagon official
+AI to help make logistics less predictable and vulnerable to adversaries, Transcom commander says
+Joint Chiefs chairman says U.S. forces must prepare to be ‘hunted’ by autonomous systems
+Weapons
+7th Air Force seeks new counter-drone capabilities for point defense modernization in South Korea
+Navy creates warfighting development center in Virginia to determine how the sea service will employ unmanned systems in future battles
+BAE Systems delivers two AMPV 30s to Army built with internal funding in project the service didn’t formally request
+Pentagon unveils top performers in latest ‘Gauntlet’ for Drone Dominance Program
+Cyber
+The Pentagon’s new cyber mastery incentive model promised a ‘new era.’ Troops are bracing for pay cuts.
+AAFES investigating ‘suspicious' messages sent to military customers through email and store’s official app
+Decades of delayed maintenance has left Pentagon networks in ‘potential peril’ for the AI age, cyber defense commander says: ‘no more.’
+Pentagon pores over heaps of industry feedback on CMMC reform
+Advertisement
+About Us
+FedScoop
+DefenseScoop
+CyberScoop
+StateScoop
+EdScoop
+AIScoop
+Newsletters
+Advertise with us
+Ad specs
+(202) 887-8001
+hello@defensescoop.com
+FB
+TW
+LinkedIn
+YT
+Close Ad
+Continue to DefenseScoop

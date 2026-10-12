@@ -1,0 +1,65 @@
+Transect: Making large-scale agentic evaluations easier to understand | AISI Work 
+ Read the Frontier AI Trends Report 
+ Please enable javascript for this website.
+ A
+ A
+ About Research Grants Blog Contact Careers
+ Home About Research Grants Blog Careers
+ Blog
+ Science of Evaluations
+ Transect: Making large-scale agentic evaluations easier to understand
+ We introduce Transect, an open-source tool that helps evaluators follow an agent’s work, identify what to investigate closely, and check their interpretation against the transcript.
+ —
+ Oct 7, 2026
+ Read the paper
+ As frontier AI models become more capable, robust evaluations must keep pace. The actions agents take during evaluations are also becoming more extensive: they write code, run experiments, and collaborate with each other to complete complex tasks. During long evaluations, agents try many strategies, hit errors, and delegate work to other agents. 
+ A final evaluation score reveals little of these processes - which approaches agents tried, where they got stuck, or how the test setup shaped their work. Evaluations generate transcripts, which record the agent’s messages, tool calls, and tool responses. Reconstructing what happened from a long transcript can take significant time and subject-matter expertise. 
+ Large language models (LLMs) can help segment, classify and interpret these transcripts (known as LLM-as-judges, or judge scanners in Inspect Scout terms), but their judgements can be wrong or misleading. Reviewers therefore need to inspect both the supporting transcript passages, and how the automated analysis was produced. 
+ To address these issues, with the support of Meridian Labs , we are releasing Transect , an open-source Python package built on Inspect Scout . It translates the complexities of an agentic evaluation transcript into one interactive report. Reviewers can follow the course of an evaluation run, examine signals (such as token use or sub-agent activity) together, and navigate to the relevant transcript passages to check their interpretations. 
+ AISI’s mission is not only to evaluate what frontier models can do, how they behave, and test safeguards against harmful actions, but also to innovate new and better tooling, methods, and frameworks to ensure evaluations remain fit for purpose – sharing solutions where we can, to benefit the wider community of evaluators. 
+ What Transect does 
+ To analyse a run, users supply Transect with an evaluation transcript, the task’s context, and the activity categories or agent behaviours they want Transect to distinguish (such as experiment design, coding or data analysis). The task context and categories can be reused across multiple runs of the same evaluation.
+ Figure 1. An illustration of the Transect report. Activity labels and token information share the same turn axis. In the report, selecting a labelled stretch of activity reveals its classification details and a link to the transcript. Transect then generates a report, which places activity labels, token use and recorded events on a shared timeline , so reviewers can examine them together. A reviewer can follow an agent’s shift from running experiments to drafting a paper, inspect nearby sub-agent launches or human messages, and open the relevant transcript passages. Where token use is recorded, the labels let reviewers examine how it is distributed across different activities. The tables underlying the report can be exported for further analysis. 
+ The timeline is indexed by turns . Each turn is one recorded agent output, which may contain text, tool calls or both. 
+ Transect extracts recorded events, such as human messages and sub-agent launches, directly from the transcript. It uses the LLMs-as-judges selected by the user to label stretches of activity with the user’s categories. It can also classify sub-agents from their delegation instructions; these labels describe what they were asked to do, not necessarily what they did. 
+ Following work across agents 
+ When several agents work on a research project, how do they collaborate and pass work between them? In one run from a study of open-ended AI research , an agent was asked to carry out a research project and write a paper. The agent had six calendar days, ample compute resources and the ability to delegate tasks to sub-agents. 
+ To follow the work across these agents, we conducted a custom analysis using Transect. Figure 2, produced from this analysis, follows four documents through the run: the research plan, baseline code, experiments draft, and a blind self-review by the research agent. The arcs connect a ‘write’ in one agent conversation or task to a later ‘read’ in another. 
+ Figure 2. Recorded activity and shared-file access in one research run. Upper bars span each conversation or task's first to last recorded activity. On each document row, hollow symbols mark ‘writes’ and filled symbols mark ‘reads’. Each curved line links a write in one conversation or task to a later read of the same file in another. Colour and shape distinguish delegated tasks, scheduled tasks, and main and chat conversations. Horizontal position follows the order of records in the log, not elapsed time; bars do not establish continuous or simultaneous activity. An agent reading a file does not necessarily mean it influenced its later behaviour. Figure 2 shows that subagents initially collaborated on the research plan, then on the codebase needed to implement that research plan. Once experiments were underway, subagents collaborated intensely on the experimental designs and the data those experiments were producing. Following these accesses back to the transcript lets reviewers investigate how the main agent delegated work and whether it communicated with subagents during task execution. 
+ Understanding patterns of multi-agent collaboration is becoming increasingly important as evaluations require more agents interacting with each other synchronously and asynchronously through shared filesystems and artefacts. Transect allows evaluators to straightforwardly map those multi-agent interactions and co-interpret them with other events in a transcript, such as human intervention or changes in progress or behaviour during a run. 
+ Trustworthiness, flexibility, and scalability 
+ We designed Transect with three priorities: trustworthiness, flexibility, and scalability. 
+ Trustworthiness means making the basis and limits of an analysis inspectable. Transect links model-generated labels to the transcript and records how they were produced. When an analysis uses repeated judgements or several judge models, reviewers can see where those judgements disagree. Agreement does not establish that a label is correct, but disagreement can help direct closer inspection. 
+ Transect saves activity labels and individual model judgements, so reviewers can reopen an analysis without making new model calls. Rerunning the same analysis also requires retaining the transcript, category definitions, settings, custom analysis code and software versions. Fresh model judgements may differ even when these are unchanged. 
+ Flexibility means adapting the analysis to the task. Users can adapt Transect to a new evaluation by changing the task context and activity categories, or by adding custom analyses (such as the shared-file analysis above). 
+ Scalability means expanding analysis, while preserving the means to check its findings. Once configured for a kind of task, Transect can apply the same approach to further runs and generate their reports. Users can add custom classifications and use the same tools for repeated judgements, optional model review of uncertain labels, and records of how labels were produced. 
+ Scaling oversight responsibly 
+ AISI’s response to its security incident earlier this year, in which agents took unsanctioned actions during an evaluation, illustrates the benefits of examining agent activities in detail. Systematic transcript review helped us identify the agents’ actions and investigate their consequences. AISI's research on cheating in evaluations likewise shows why apparent successes must be investigated by looking at how the agent passed the evaluation. 
+ For incident investigation, Transect can organise recorded actions and delegated work around an unexpected episode. Making recorded behaviour easier to inspect is one contribution to preserving the observability of agents. Reliable conclusions still depend on the evaluation design and expert human judgement. 
+ As agents work more autonomously on longer tasks and coordinate with other agents, evaluation transcripts can run to billions of tokens, exceeding what human experts can review in full. Maintaining oversight requires tools and methods to understand this activity, examine the skills behind performance, track changes in capabilities, and investigate unsafe behaviour. Those methods must preserve the evidence and analysis records needed to check their conclusions. 
+ Releasing Transect openly is part of AISI’s wider mission to not only evaluate frontier models, but also to build and share the methods that keep evaluation fit for purpose. We hope the wider community will use it, stress-test it, and improve on it. 
+ The Transect package is available to use, and our accompanying paper describes the method and case study in more detail. 
+ ‍
+ The AI Security Institute is a research organisation within the Department of Science, Innovation and Technology.
+ AISI
+ Home
+ About us
+ Grants
+ Careers
+ Our WOrk
+ Blog
+ Research
+ Research Agenda
+ Connect
+ Department for Science, Innovation and Technology
+ LinkedIn
+ Twitter
+ Site Policies
+ Privacy Policy
+ www.aisi.gov.uk uses cookies essential for website functionality and anonymous usage analytics.
+ I understand
+ Thanks for sharing AISI's work!
+ We have copied this figure to your clipboard. 
+You can paste it into your tweet on the next page.
+(Paste using 'ctrl +v' or 'cmd + v')
+ Proceed with Tweet

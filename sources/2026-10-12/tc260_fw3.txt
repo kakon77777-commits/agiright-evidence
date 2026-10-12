@@ -1,0 +1,3752 @@
+
+3.0
+
+AI Safety Governance Framework 3.0
+
+
+
+National Technical Committee 260 on Cybersecurity of SAC
+
+20269
+                   
+
+ ... ..................................................................... 1
+1. ... .......................................... 2
+
+    1.1 .......................................... 2
+    1.2 .......................................... 2
+    1.3 .......................................... 2
+    1.4 .......................................... 2
+    1.5 .......................................... 3
+2. ... .......................................... 3
+    2.1 ....................................... 3
+    2.2 ....................................... 6
+    2.3 ....................................... 12
+3. ... .............................. 14
+    3.1 .................................... 14
+    3.2 .................................... 16
+    3.3 .................................... 19
+4. ... .............................. 20
+    4.1 ........................... 20
+    4.2 ........................... 21
+    4.3 .................. 22
+    4.4 ................................. 23
+    4.5 ................................. 24
+
+5. ... ................................................ 25
+    5.1 ........................ 25
+    5.2 ........................ 27
+    5.3 ........................ 28
+    5.4 ........................ 30
+
+ 1 ... ........................... 34
+ 2 ... ....................................... 37
+ 3 ... .................................... 46
+........................................................................ 48
+                  Content
+
+Preface... ..................................................................... 49
+1. Principles for AI safety governance................................. 51
+
+    1.1 Be inclusive and prudent to ensure safety.................. 51
+    1.2 Risk-oriented and agile governance........................... 52
+    1.3 Integrating technology and management for
+     coordinated response................................................ 52
+    1.4 Promoting openness and cooperation for
+     joint governance and shared benefits........................... 53
+    1.5 Ensuring trustworthy application and preventing
+    loss of control............................................................ 53
+2. Classification of AI safety risks....................................... 54
+    2.1 Inherent safety risks of AI....................................... 54
+    2.2 Safety risks in the application of AI........................... 60
+    2.3 Secondary safety risks from AI................................. 70
+3. Technological countermeasures to address AI safety risks...... 73
+    3.1 Safeguards against inherent safety risks..................... 73
+    3.2 Safeguards against application safety risks.................. 77
+    3.3 Safeguards against derivative safety risks.................. 82
+4. Comprehensive governance measures to address AI
+safety risks... ............................................................... 85
+
+    4.1 Improving top-level design of AI safety governance...... 85
+    4.2 Enhancing AI safety governance capacity.................. 87
+    4.3 Establishing a flexible, dynamic, and controllable AI
+    regulatory sandbox mechanism .................................... 89
+    4.4 Strengthening measures for AI safety managment...... 90
+    4.5 Deepening consensus on AI safety governance............ 93
+5. AI Safety guidelines ... ................................................ 95
+    5.1 Safety guidelines for the research and
+    development of AI models and algorithms..................... 95
+    5.2 Safety guidelines for developing and
+    deploying AI applications............................................. 98
+    5.3 Safety guidelines for operating and managing AI
+    applications............................................................ 101
+    5.4 Safety guidelines for accessing and using AI
+    applications............................................................ 105
+Appendix 1 The grading principles for AI safety risks... ...... 109
+Appendix 2 Agentic AI risk management framework ... ...... 113
+Appendix 3 Fundamental principles for trustworthy AI... ... 127
+Acknowledgements...................................................... 130
+                                                                   3.0
+
+                   
+
+      
+
+
+      
+
+
+
+"" "" 
+
+
+
+
+
+
+
+      "
+"
+
+1.020242.02025
+3.0
+""
+
+
+
+                                                                                                           -1-
+     3.0
+
+     1.
+
+      
+
+
+
+
+
+
+
+     1.1 
+""
+
+
+
+     1.2 
+
+
+""
+
+
+     1.3 
+
+
+
+
+     1.4 
+
+-2-
+                                                                   3.0
+
+
+
+
+
+     1.5 
+
+
+
+
+    2.
+
+      
+
+
+
+
+
+
+     2.1 
+      2.1.1 
+      a ""
+
+
+      b
+
+
+                                                                                                           -3-
+     3.0
+
+
+
+
+
+      c
+
+
+
+      d
+
+
+
+                                
+          
+   
+   
+   
+   
+          
+   
+   
+
+      2.1.2 
+      a
+
+
+-4-
+                                                                   3.0
+
+
+      b
+
+
+
+
+      c
+
+
+      2.1.3 
+      a
+
+      b
+
+      c
+
+
+      d
+
+
+      e
+
+""
+
+      f
+
+
+                                                                                                           -5-
+     3.0
+
+      g
+
+
+
+
+      2.1.4 
+      a
+
+
+
+      b
+
+
+      c
+
+
+     2.2 
+      2.2.1 
+      a
+
+
+      b
+
+      c
+
+-6-
+                                                                   3.0
+
+
+      d
+
+
+
+
+      2.2.2 
+      a
+
+
+       b
+""
+
+      c
+
+
+
+      d
+
+
+  
+      2.2.3 
+      a
+
+
+
+                                                                                                           -7-
+     3.0
+
+
+      b
+
+
+
+
+      c
+
+
+
+                              
+          
+   
+   
+   
+          
+   
+   
+   
+          
+   
+   
+
+      dIP
+
+
+-8-
+                                                                   3.0
+
+
+
+
+      2.2.4 
+      a
+
+
+      b""
+ 
+
+
+
+                             
+          
+   
+   
+          
+   
+   
+   
+          
+   
+
+      c
+
+                                                                                                           -9-
+      3.0
+
+
+
+
+       d""
+
+
+
+       e
+
+
+
+                          GEO 
+          Generative Engine OptimizationGEOAI
+    
+    GEO
+    
+    
+    
+    
+          GEO
+    
+    
+    
+
+       2.2.5 
+       a
+
+- 10 -
+                                                                   3.0
+
+
+      b
+
+
+
+
+      c
+
+
+      2.2.6 
+      a
+
+
+
+      b
+
+
+
+      c""
+
+
+
+      d
+
+
+
+
+                                                                                                          - 11 -
+      3.0
+
+       e
+
+
+
+
+
+      2.3 
+       2.3.1 
+       a
+
+
+       b
+
+
+       c
+
+       d
+
+
+
+       2.3.2 
+       a
+
+
+
+- 12 -
+                                                                   3.0
+
+      b
+
+
+
+      2.3.3 
+      a
+
+
+      b
+
+      2.3.4 
+      a
+
+
+      b"+"
+
+
+""
+      c
+
+
+      d""
+
+
+
+                                                                                                          - 13 -
+      3.0
+
+     3.
+
+       
+
+
+
+      3.1 
+       3.1.1 
+       a
+
+
+       b
+
+       c
+       d 
+
+       e
+
+       3.1.2 
+       a
+
+
+       b
+       c
+
+- 14 -
+                                                                   3.0
+
+      d
+
+
+      e
+
+
+      3.1.3 
+      a
+
+
+      b
+
+
+      c
+      d
+
+
+      e
+
+
+      f
+
+      3.1.4 
+      a
+
+
+                                                                                                          - 15 -
+      3.0
+
+
+       b
+       c
+
+
+      3.2 
+       3.2.1 
+       a
+
+
+
+
+       b
+
+
+       c
+
+
+
+       d
+
+
+       3.2.2 
+       a
+
+       b
+
+       c
+       d
+
+- 16 -
+                                                                   3.0
+
+
+      3.2.3 
+      a
+
+
+      b
+
+
+      c
+
+
+      d
+
+
+      3.2.4 
+      a
+
+
+      b
+
+
+
+
+      c
+      d
+
+      e
+
+      3.2.5 
+      a
+
+                                                                                                          - 17 -
+      3.0
+
+
+       b
+
+
+
+
+       c
+
+
+       3.2.6 
+       a
+
+
+       b                           
+"""
+"""
+       c
+
+
+       d
+
+
+       e
+
+       f
+
+
+- 18 -
+                                                                   3.0
+
+     3.3 
+      3.3.1 
+      a
+
+
+      b"+"
+
+
+      c
+""
+
+      3.3.2 
+      a
+
+
+
+      b
+
+
+      3.3.3 
+      a
+
+
+
+                                                                                                          - 19 -
+      3.0
+
+       b
+
+
+       3.3.4 
+       a 
+
+
+       b
+
+       c
+
+       d
+
+
+
+     4.
+
+       
+
+
+      4.1 
+       4.1.1 
+
+
+
+
+- 20 -
+                                                                   3.0
+
+
+
+
+
+      4.1.2 
+
+""
+
+
+
+      4.1.3 
+
+
+
+
+      4.1.4 
+
+
+
+
+     4.2 
+      4.2.1 
+
+
+
+
+
+
+                                                                                                          - 21 -
+      3.0
+
+
+
+
+       4.2.2 
+
+
+
+
+
+       4.2.3 
+
+
+
+
+
+      4.3 
+       4.3.1 
+
+
+
+       4.3.2 
+
+
+
+       4.3.3 
+
+
+- 22 -
+                                                                   3.0
+
+
+
+
+      4.3.4 
+
+
+
+     4.4 
+      4.4.1 
+
+1
+
+
+
+2
+      4.4.2 
+
+
+
+      4.4.3 
+
+
+
+
+      4.4.4 
+
+                                                                                                          - 23 -
+      3.0
+
+
+
+
+""
+
+
+
+       4.4.5 
+
+
+
+
+       4.4.6 
+
+
+
+
+
+      4.5 
+       4.5.1 
+
+3
+
+       4.5.2 
+
+
+
+- 24 -
+                                                                   3.0
+
+
+      4.5.3 
+
+
+APECG20
+""
+"" 
+
+
+
+
+    5.
+
+     5.1 
+      5.1.1 
+
+
+      5.1.2 
+
+      5.1.3 
+
+
+      5.1.4 
+
+
+                                                                                                          - 25 -
+      3.0
+
+       5.1.5 
+
+
+
+
+       5.1.6 
+
+
+       5.1.7 
+
+
+
+
+       5.1.8 
+
+
+
+
+       5.1.9 
+
+
+       5.1.10 
+       5.1.11 
+
+       5.1.12 
+
+       5.1.13 
+
+
+- 26 -
+                                                                   3.0
+
+      5.1.14 
+
+
+
+      5.1.15 
+
+
+
+     5.2 
+      5.2.1 
+
+
+      5.2.2 
+
+
+
+      5.2.3 
+
+
+      5.2.4 
+
+
+      5.2.5 API
+
+
+
+                                                                                                          - 27 -
+      3.0
+
+
+       5.2.6 
+
+
+
+
+       5.2.7 
+
+
+
+       5.2.8 
+
+
+
+       5.2.9 
+
+
+      5.3 
+       5.3.1 
+
+
+       5.3.2 
+
+       5.3.3 
+
+
+
+       5.3.4 
+
+- 28 -
+                                                                   3.0
+
+
+
+
+      5.3.5 
+
+
+      5.3.6 
+6
+
+      5.3.7 
+      5.3.8 
+
+      5.3.9 
+
+      5.3.10 
+
+
+      5.3.11 
+
+      5.3.12 
+
+      5.3.13 
+
+
+
+      5.3.14 
+
+                                                                                                          - 29 -
+      3.0
+
+
+       5.3.15 
+
+
+       5.3.16 
+
+
+       5.3.17 
+
+
+       5.3.18 
+
+
+
+
+       5.3.19 
+
+
+
+       5.3.20 
+
+
+
+      5.4 
+       5.4.1 
+
+       5.4.2 
+
+       5.4.3 
+
+
+- 30 -
+                                                                   3.0
+      5.4.4 
+
+      5.4.5 
+
+      5.4.6 
+
+      5.4.7 ""
+
+
+
+                                                                                                          - 31 -
+ 3.0
+
+        
+
+                             
+
+             ""  3.1.1 a
+             
+                 3.1.1 abce
+             
+                 3.1.1 bcd
+             
+                 3.1.1 e
+             
+                 3.1.2 ade
+             
+                 3.1.2 bde
+             
+                 3.1.2 cde   ·
+                 3.1.3bcdf
+                 3.1.3 bdf   
+                 3.1.3 c
+                 3.1.3 b     ·
+                 3.1.3 adf
+                             
+             
+                             ·
+             
+                             
+             
+                 3.1.3 bcd
+             
+                 3.1.3 e
+             
+                 3.1.4 abc
+
+                 3.1.4 abc
+
+                 3.1.4 ab
+
+                 3.2.1 a
+
+                 3.2.1 cd    ·
+                 3.2.1 bcd
+                             
+
+                 3.2.1 cd    ·
+                 3.2.2 a
+                 3.2.2 bc    
+                 3.2.2 bc    
+                 3.2.2 d
+                 3.2.3 abc   ·
+                 3.2.3 d
+                             
+
+                             ·
+
+                             
+
+                             ·
+
+                             
+
+                 3.2.3 abc
+
+                 3.2.3 d
+
+- 32 -
+               3.0
+
+              3.2.4 abce
+
+              3.2.4 abe
+
+              3.2.4 abce
+     
+          ""  3.2.4 d     ·
+              3.2.4 bde
+              3.2.5 a     
+              3.2.5 b
+                          ·
+     
+                          
+
+              3.2.5 c     ·
+              3.2.6 abce
+              3.2.6 d     
+          
+                          ·
+          
+                          
+
+          "" 3.2.6abce
+
+              3.2.6 abce
+
+          
+
+              3.2.6 f
+
+              3.3.1 a
+
+              3.3.1 b
+
+              3.3.1 c     ·
+              3.3.1 ab
+              3.3.2 ab    
+              3.3.2 ab
+              3.3.3 ab    ·
+              3.3.3 ab
+              3.3.4 abc   
+              3.3.4 abc
+                          ·
+
+                          
+
+                          ·
+
+                          
+
+                          ·
+
+                          
+
+              3.3.4 acd
+
+          ""  3.3.4 abc
+          
+
+                          - 33 -
+      3.0
+
+1
+
+    
+
+       
+
+
+
+      
+       1.
+       
+
+
+       2.
+       
+
+
+
+       3.
+       
+
+
+
+
+- 34 -
+                                                                   3.0
+
+
+     
+      1.
+      
+
+
+      2.
+      
+
+
+      3.
+      
+
+
+      4.
+      
+
+
+      5.
+      
+
+
+     
+      
+
+
+
+
+      1.
+      
+
+                                                                                                          - 35 -
+      3.0
+
+
+
+
+       2.
+       
+
+
+     1
+
+     2
+
+       3.
+       
+
+
+
+- 36 -
+                                                                   3.0
+
+2
+
+         
+
+      ""
+""
+
+
+
+      skills
+
+
+
+     
+      
+
+
+ 
+
+   - 37 -
+      3.0
+
+       1.
+     1
+
+     2
+
+     3
+
+
+       2.
+     1
+
+
+     2
+
+     3
+
+
+       3.
+     1
+
+
+     2
+
+
+       4.
+     1
+
+- 38 -
+                                                                   3.0
+
+
+    2
+
+
+    3
+
+
+      5.
+
+    1
+
+
+    2 
+
+
+    3
+    4
+
+    5
+
+    6
+
+    7 
+
+
+      6.
+    1
+
+    2
+
+                                                                                                          - 39 -
+      3.0
+
+
+     3
+
+
+     4
+
+
+       7.
+
+     1
+
+
+
+     2
+
+
+       8.
+     1
+
+     2
+
+     3
+
+
+       9.
+     1
+
+     2
+
+
+- 40 -
+                                                                   3.0
+
+    3
+
+
+    4
+
+
+    5
+
+
+    6
+
+
+     
+      1.
+      
+
+    1
+
+    2
+
+    3
+
+
+    4
+
+      2.
+      
+
+                                                                                                          - 41 -
+      3.0
+
+
+     1
+
+
+     2
+
+
+
+
+     3
+
+
+
+       3.
+       
+     1
+
+
+     2
+
+
+     3
+
+     4
+
+       4.
+       
+
+- 42 -
+                                                                   3.0
+
+
+    1
+
+
+    2
+
+
+    3
+
+
+    4
+
+
+    5
+
+
+    6
+
+
+      5.
+      
+
+
+    1
+
+
+    2
+
+
+    3
+
+
+
+
+                                                                                                          - 43 -
+      3.0
+
+
+     4
+
+
+     5
+
+
+
+
+     6
+
+
+       6.
+       
+     1
+
+     2
+
+
+
+     3
+
+
+     4
+
+     5
+
+
+- 44 -
+                                                                   3.0
+
+
+    6
+
+
+    7
+
+
+    8
+
+
+      7.
+      
+
+
+    1
+
+
+
+
+    2
+
+
+    3
+
+
+
+      
+
+
+
+                                                                                                          - 45 -
+      3.0
+
+3
+
+        
+
+       ""
+
+
+
+       1.
+
+
+
+
+       2.
+
+
+
+
+
+       3.
+
+
+       4.
+
+
+       5.
+
+
+- 46 -
+                                                                   3.0
+      6.
+
+
+      7.
+
+
+      8.
+
+
+
+
+                                                                                                          - 47 -
+      3.0
+
+                   
+
+       
+
+
+
+
+
+
+
+
+
+- 48 -
+                                                   AI Safety Governance Framework 3.0
+
+ AI Safety Governance Framework
+                   (v 3.0)
+
+                         Preface
+
+Global innovation in artificial intelligence (AI) technologies has entered a period
+of unprecedented dynamism. Intelligent technologies characterized by intelligent
+connectivity, human-machine collaboration, cross-sector integration, and joint
+creation and sharing are releasing tremendous energy, bringing both enormous
+opportunities and governance challenges.
+Over the past year, AI technologies and applications have continued to develop
+rapidly. Technological breakthroughs made in large AI foundation models in areas
+such as long-horizon task planning, long-context memory, and complex-task
+reasoning have continuously expanded AI's capability boundaries. Meanwhile, the
+capabilities of agentic Al in task planning, tool use, and cross-application collaboration
+have been steadily enhanced. AI applications have become increasingly diverse, with
+a growing variety of products, such as work assistants, personal assistants, and agent
+phones. As barriers to entry keep lowering, AI is rapidly advancing from a limited
+number of specialized scenarios into mainstream public applications. As AI evolves
+from "answering questions" toward "performing tasks", it is driving transformation in
+productivity while also giving rise to new disruptive, cross-domain, and global security
+risks: It is significantly enhancing the automation, scalability, and sophistication
+
+                                                                                                          - 49 -
+     AI Safety Governance Framework 3.0
+
+of cyberattacks, reshaping the traditional landscape of cybersecurity offense and
+defense; at the same time, as AI becomes increasingly connected to the physical
+world, security risks originating in cyberspace may propagate into the physical
+domain. More profoundly, AI has demonstrated a self-accelerating trend of model
+and algorithm autonomous learning, optimization, and recursive self-improvement.
+Whether the speed and direction of technological evolution may exceed human
+anticipation and control demands attention and vigilance.
+To respond to new trends in AI development, address emerging challenges in safety
+governance, and explore the right answers to the four questions posed by our times
+concerning AI, under the guidance of the Cyberspace Administration of China (CAC),
+the National Technical Committee 260 on Cybersecurity of the Standardization
+Administration of China organized relevant professional institutions, research
+institutes, and industry enterprises to develop the AI Safety Governance Framework
+3.0, building on the AI Safety Governance Framework 1.0 (2024) and the AI Safety
+Governance Framework 2.0 (2025). Upholding a people-centered approach and
+the principle of developing AI for the positive and for good, the Framework adheres
+to and implements the guiding principles of strengthening risk awareness as well
+as ensuring safety, security and controllability. It maintains the core logic of "risk
+classification, technological countermeasures, and comprehensive governance" ,
+updates risk categories in a manner that keeps pace with the times, and adjusts and
+optimizes technological countermeasures and comprehensive governance measures,
+aiming to further build consensus on practices for preventing and addressing AI
+safety risks.
+
+- 50 -
+                                                   AI Safety Governance Framework 3.0
+
+1. Principles for AI safety governance
+
+-Commit to a vision of common, comprehensive, cooperative, and sustainable
+security while putting equal emphasis on development and security
+-Prioritize the innovative development of AI
+-Take effectively preventing and defusing AI safety risks as the starting point
+and ultimate goal
+-Establish governance mechanisms that integrate technology and
+management, connect regulation with governance, coordinate domestic and
+international efforts to ensure the active engagement and effective interaction
+of all stakeholders
+-Ensure that all parties involved fully shoulder their responsibilities for AI
+safety
+-Create a whole-process, all-element governance chain
+-Foster a safe, reliable, equitable, and transparent ecosystem for AI
+technology research, development, and application
+-Actively develop consensus-based guidelines for addressing catastrophic
+risks of AI
+-Promote the healthy development and regulated application of AI
+-Guarantee that AI technology benefits humanity
+1.1 Be inclusive and prudent to ensure safety
+We encourage development and innovation, take an inclusive approach
+
+                                                                                                          - 51 -
+     AI Safety Governance Framework 3.0
+
+to AI research, development, and application, and actively employ risk-
+controllable institutional mechanisms such as regulatory sandboxes
+to make room for error and correction in the development of new
+technologies and new applications. We make every effort to ensure AI
+safety, and will take timely measures to address any risks that infringe
+upon the legitimate rights and interests of individuals, harm public
+interests, threaten national security, and endanger human survival and
+development.
+1.2 Risk-oriented and agile governance
+By closely tracking trends in AI research, development, and application,
+we systematically analyze and identify risks arising from the technology
+itself, its applications, and derivative and spillover effects. We conduct
+risk grading that considers scenario context, level of intelligence, and
+application scale, and apply corresponding countermeasures. We
+adhere to proactive guidance, dynamic sensing, rapid response, and
+targeted measures, and establish an adaptive governance mechanism
+that keeps pace with technological development and is continuously
+refined, so as to better safeguard and support innovation and
+development by effectively preventing and addressing risks in a timely
+manner.
+1.3 Integrating technology and management for coordinated
+response
+Throughout the entire process of AI research, development, and
+
+- 52 -
+                                                   AI Safety Governance Framework 3.0
+
+application, we combine technological countermeasures with
+comprehensive governance to systemically prevent and address safety
+risks. Within the AI research, development, and application chain, it is
+essential to ensure that various parties, including model and algorithm
+developers, service providers, and users, assume their respective
+responsibilities for AI safety. This approach well leverages the roles of
+governance mechanisms involving government oversight, industry self-
+regulation, and public scrutiny.
+1.4 Promoting openness and cooperation for joint governance and
+shared benefits
+We promote international cooperation on AI safety governance, and fully
+leverage the role of authoritative and open platforms such as the World
+Artificial Intelligence Cooperation Organization, and engage more deeply
+in interdisciplinary, cross-domain, and cross-border exchanges and
+cooperation. We strengthen alignment and coordination on AI development
+strategies, governance rules, and technical standards, and work toward
+establishing at an early date a global governance framework based on
+broad consensus.
+1.5 Ensuring trustworthy application and preventing loss of control
+We strengthen the prevention and governance of prominent risks including
+loss of control over the behavior of agentic AI, build international consensus
+on AI governance, and promote the trustworthy use of AI worldwide. We
+should put in place laws and regulations, technological monitoring, early
+
+                                                                                                          - 53 -
+     AI Safety Governance Framework 3.0
+
+warning and emergency response systems in order to strengthen the
+bottom line for safety, prevent abuses and malicious use, and ensure that AI
+is always under human control.
+
+2. Classification of AI safety risks
+
+As the latest development in information technology, AI, including its
+models, algorithms, data, computing infrastructure, and operating
+environments, inevitably possesses inherent safety risks such as technical
+defects or weaknesses. As a technological tool promoting productivity, AI
+faces risks of misuse, abuse, and malicious use during its application. As
+a field of technology and science that simulates, extends, and expands
+human intelligence, AI could bring impacts to social structures, ecological
+environment, cultural paradigms, and ethical norms, and may even give rise
+to derivative safety risks such as loss of human control.
+2.1 Inherent safety risks of AI
+2.1.1 Model risks
+(a) Output "hallucinations"
+As AI models use limited datasets to model complex real-world scenarios, and
+the theoretical foundations and technological capabilities for autonomous
+perception, cognition, understanding, and interaction are yet to achieve
+breakthroughs, probabilistic inference and decision-making cannot be
+
+- 54 -
+                                                   AI Safety Governance Framework 3.0
+
+absolutely reliable, and can therefore produce outputs that may be inconsistent
+with reality, fabricated out of thin air, or deviate from the given context.
+(b) Unreliable safety mechanisms
+Insufficient safety alignment during training may prevent models from effectively
+internalizing safety principles. For closed-source models, safety mechanisms
+are unilaterally and centrally designed by model providers, leading to limitations
+including a lack of transparency in rules, difficulties for external auditing and
+testing, inability for users to customize adjustments, and inadequate capabilities
+for scenario identification. Open-source models, meanwhile, face risks that their
+safety mechanisms may be removed, weakened, or bypassed, as well as the
+inability to implement system-wide updates and remediation.
+(c) Injection attack threats
+Attackers exploit the technical characteristics, defects, vulnerabilities, and
+other weaknesses of models to construct adversarial attack examples, or
+insert malicious instructions into inputs to induce models to bypass safety
+guardrails and output harmful information. Attackers may also directly
+tamper with model weights or plant backdoors.
+(d) Unintended behaviors
+In order to accomplish tasks or achieve goals, models may break rules and
+orders, autonomously obtain system permissions and external resources
+without authorization, bypass security protections, or even engage in
+behaviors such as deliberately deceiving evaluators, concealing their true
+capabilities, and refusing to follow user instructions.
+
+                                                                                                          - 55 -
+     AI Safety Governance Framework 3.0
+
+               Panel 1: Risks of unintended autonomous behaviors
+    Industry reports have shown that after receiving a user command
+    to terminate services, certain models refused to stop and continued
+    executing tasks by modifying or disabling shutdown scripts on their
+    own. Some models, upon detecting that they were in an evaluation
+    environment, strategically reduced their task performance and
+    concealed actions they had taken in order to obtain more favorable
+    evaluation results. In addition, some models, in an effort to improve
+    test scores, autonomously exploited environmental vulnerabilities or
+    configuration flaws to circumvent isolation restrictions and infiltrate
+    real external systems.
+    As model autonomy continues to increase, such unintended behaviors
+    may result in the failure of safety constraints, circumvention of human
+    intervention, and misuse of system permissions, posing new challenges
+    to the controllability and interruptibility of AI systems, as well as the
+    effectiveness of AI safety evaluation.
+
+2.1.2 Algorithm risks
+(a) Insufficient explainability
+AI algorithms, represented by deep learning, have complex internal workings.
+Their opaque inference process could result in unpredictable and untraceable
+decisions and outputs, making it challenging to quickly rectify them or trace their
+origins for accountability should any anomalies, malfunctions, or errors arise.
+
+- 56 -
+                                                   AI Safety Governance Framework 3.0
+
+(b) Bias and discrimination
+During algorithm design, R&D, and model training, human biases may be introduced,
+either intentionally or unintentionally, in feature and metric selection and weight
+configuration. In addition, training data may be poor-quality or lack of diversity. These
+factors may lead to biased or discriminatory outcomes in the algorithm's design
+purpose, decision-making, and outputs.
+(c) Poor robustness
+As deep neural networks are normally non-linear and large in size, AI
+systems are susceptible to complex and changing operational environments
+or malicious interference and manipulation, possibly leading to robustness
+problems like reduced performance and decision-making errors.
+2.1.3 Data risks
+(a) Inappropriate content in training data
+If training data includes false and biased content, this can interfere
+with the model's value alignment, reducing the accuracy and reliability
+of its decisions and outputs, and even outputting illegal or harmful
+information.
+(b) Unclear sources of training data
+Training data may lack documentation, and effective measures may not be
+in place to ensure the lawfulness of the data sources.
+(c) Improper annotation of training data
+Issues with training data annotation, such as underdeveloped annotation
+rules, incapable annotators, and errors in annotation, can introduce training
+
+                                                                                                          - 57 -
+     AI Safety Governance Framework 3.0
+
+biases, amplify discrimination, reduce generalization abilities, and result in
+incorrect decisions and outputs.
+(d) Data poisoning and contamination
+Attackers contaminate model weights by tampering with training data, or
+manipulate knowledge bases, document repositories, web data sources,
+and memory module data of agentic AI during model deployment and
+use, thereby affecting the accuracy, effectiveness, and reliability of model
+outputs.
+(e) Non-compliant data processing
+The acquisition of training data, as well as the provision of services
+and interactions, may involve unlawful collection and use of data and
+personal information. Knowledge and sensitive information contained in AI
+training data are embedded within model parameters. Inadequate safety
+mechanisms, retention of sensitive information, deceptive interactions, and
+malicious attacks can result in data and personal information leaks.
+(f) Output of inaccurate information about individuals
+Insufficient model safety capabilities may prevent the quality of personal
+information processing from being effectively ensured, resulting in output
+of inaccurate or incomplete personal information and potentially causing
+adverse effects on individuals' rights and interests.
+(g) Deficiencies in synthetic data
+Insufficient quality control and inadequate distribution coverage of synthetic
+data, or the repeated introduction of synthetic data into training sets
+
+- 58 -
+                                                   AI Safety Governance Framework 3.0
+
+without proper identification and filtering, can cause models to deviate
+from real-world distributions, lose long-tail information, and suffer reduced
+generalization capabilities. This could cumulatively amplify errors and
+existing biases, potentially leading to model performance degradation.
+Synthetic data may also be used to deduce original data, posing risks such
+as leakage of sensitive data.
+2.1.4 Computing infrastructure and operating environment risks
+(a) Computing power safety risks
+Infrastructure such as chips, computing power scheduling platforms, and
+cross-domain computing networks involve risks such as defects, vulnerabilities,
+backdoors, and reliability issues, which may result in model tampering, weight
+theft, hijacking of training task, and computational task interruption. In
+addition, there are risks of malicious consumption of computing resources, as
+well as the cross-boundary transmission of safety risks among multi-source,
+heterogeneous and ubiquitous computing resources.
+(b) Component safety risks
+AI development frameworks, computing frameworks, execution platforms,
+operator libraries, communication libraries, and various protocols, as well as
+components such as skills, plugins, and service interfaces called by agentic
+AI, may be subject to risks arising from defects, vulnerabilities, backdoors,
+improper configurations, or insufficient reliability.
+(c) Supply chain safety risks
+Certain countries may use unilateral coercive measures, such as technology
+
+                                                                                                          - 59 -
+     AI Safety Governance Framework 3.0
+
+barriers and export controls, to create development obstacles and
+maliciously disrupt the global AI supply chain, leading to risks of supply
+disruptions for chips, software, tools, and services.
+2.2 Safety risks in the application of AI
+2.2.1 Agentic AI risks
+(a) Identity and permission misuse risks
+Due to improper management of identity or permission, agentic AI may
+be subject to such risks as credential hijacking, identity spoofing, and
+excessive authorization, potentially resulting in making unauthorized tool
+calls, performing sensitive operations, or accessing resources without
+authorization.
+(b) Reasoning and planning risks
+Due to limitations in the design of autonomous reasoning and planning
+capabilities, changes in the operating environment, or external malicious
+interference, agentic AI may encounter such risks as misinterpreting intent,
+path deviation, and goal hijacking during task execution.
+(c) Invocation and execution risks
+Resources such as tools, service interfaces, and plugins invoked by agentic
+AI may be subject to security risks such as tool hijacking, tool poisoning,
+contamination of tool response data, and resource overload.
+(d) Memory storage risks
+Agentic AI is capable of short-term contextual memory and long-term
+vector memory, and face such security risks as improper memory retention,
+
+- 60 -
+                                                   AI Safety Governance Framework 3.0
+
+memory distortion, memory contamination, and memory theft, potentially
+resulting in erroneous decision-making or leakage of sensitive data.
+2.2.2 Embodied AI risks
+(a) Environmental perception safety risks
+Embodied AI relies on multimodal sensors such as vision, hearing, and force
+sensing to perceive the environment. Adversarial example attacks, sensor
+interference, signal spoofing, as well as occlusion and sudden changes in
+lighting in the physical world may result in distorted perception, erroneous
+environmental understanding, and deviations in target localization.
+bPhysical actuation safety risks
+When embodied AI is applied in scenarios involving physical interaction,
+such as industrial production, medical surgery, and transportation, issues
+such as hallucination-based decision-making by foundation models,
+recognition deviations in perception systems, defects in control algorithms,
+and hardware failures may result in production disruptions, self-harm, harm
+to people, and physical damage.
+(c) Human-AI interaction safety risks
+Embodied AI involves close human-machine interaction in such areas as life
+assistance, emotional companionship, and care assistance. Risks may arise
+from identity misperception, violations of bodily boundaries, emotional
+dependence and manipulation associated with anthropomorphic design,
+as well as unclear attribution of responsibility and absence of adequate
+ethical guidelines. These issues may result in harm to personal rights and
+
+                                                                                                          - 61 -
+     AI Safety Governance Framework 3.0
+
+interests, psychological harm, and difficulties in determining responsibility
+for accidents.
+(d) Multi-agent coordination safety risks
+Embodied AI is widely applied in scenarios such as intelligent warehousing,
+vehicle-road collaboration, unmanned swarms, and industrial production
+lines. Risks such as individual loss of control, vulnerabilities in collaborative
+protocols, emergent swarm behavior, infiltration by malicious nodes, and
+cascading failures may trigger multi-agent operational disorder, system-
+wide paralysis, and chain-reaction accidents, amplifying individual risks into
+cross-node systemic security risks.
+2.2.3 Cybersecurity risks
+(a) Proliferation of cyberattack capabilities
+AI significantly lowers the technical barriers to cyberattacks. Attackers can
+carry out sophisticated cyberattacks simply by issuing attack instructions
+in natural language, and may even construct autonomous cyberattack
+weapons and proliferate such attacks, thereby enhancing the scale,
+persistence, and stealth of attacks and undermining the stability and
+security of network systems.
+(b) Lagging cyber defense capabilities
+AI significantly enhances the automation and strategic adaptability of
+cyberattacks, creating a risk of structural failure for traditional cybersecurity
+defense systems that rely on static rules, samples, and strategies. In addition, the
+uneven development of AI can disrupt the balance of cybersecurity capabilities.
+
+- 62 -
+                                                   AI Safety Governance Framework 3.0
+
+(c) Autonomous cyberattack threats
+In pursuing legitimate task goals, agentic AI may cross established rules,
+autonomously generate cyberattack intentions, and independently
+carry out cyberattacks, breaching security boundaries to launch attacks
+against information systems. In severe cases, this may cause widespread,
+unannounced cybersecurity incidents.
+
+                       Panel 2: Autonomous cyberattack threats
+   As large models rapidly improve their capabilities in code reasoning and
+   long-horizon planning, agentic AI is granted permissions for network
+   access, program execution, file operations, and other activities. When
+   constraints on model behavior, sandbox isolation, and real-time monitoring
+   capabilities are inadequateanomalous reasoning or the bypassing of
+   safety mechanisms may be directly translated into real-world actions.
+   Relevant research and testing have repeatedly observed advanced models
+   autonomously completing multi-step cyberattack simulations, breaking
+   through restrictions in test environments, connecting to external networks,
+   and carrying out unauthorized operations on third-party systems. These
+   indicate that AI-enabled cyberattack risks are evolving from attacks
+   assisted by AI toward autonomous organization and execution of attack
+   activities by large models.
+   Once the autonomous attack capabilities of large foundation models spread
+   downstream through open applications or open-source releases, they may
+
+                                                                                                          - 63 -
+     AI Safety Governance Framework 3.0
+
+    significantly lower the barriers to conducting sophisticated cyberattacks,
+    while accelerating the speed and expanding the scope of attacks.
+
+(d) Difficulties in attribution and accountability
+AI can automatically tamper with attack traces, rotate IP addresses, and
+change payloads, making it difficult to extract attack characteristics or
+pinpoint attack sources. It may even be difficult to determine whether an
+attack results from human intent or autonomous AI behavior. Furthermore,
+the division of responsibilities and rights among model developers,
+operators, and users is complex, making it difficult to establish a clear chain
+of accountability after an incident.
+2.2.4 Information and content risks
+(a) Output of illegal information
+Insufficient security capabilities of models, combined with weak application-
+level safeguards and malicious user manipulation, may cause AI systems to
+generate content involving fraud, violence, pornography, extremism, and
+other illegal information, threatening social stability, public security, and
+ideology security.
+(b) Distortion of facts and user deception
+AI-generated content (AIGC) that is not properly labeled, particularly
+when deepfake technologies are applied, is difficult for users to discern
+whether the source of content and the interacting counterpart is an AI
+system. It is also difficult for users to assess the authenticity of generated
+
+- 64 -
+                                                   AI Safety Governance Framework 3.0
+
+content and to make sound judgments. Such content may also be
+exploited to fabricate and disseminate disinformation, mislead the public,
+and pursue illicit gains.
+
+                     Panel 3: Risks of AI agent social platforms
+   With the growing popularity of AI agents and the expansion of their
+   application ecosystems, dedicated social media platforms for AI agents
+   have emerged. On such platforms, AI agents can autonomously post
+   content, browse information, communicate and interact with one
+   another, forming agent network communities.
+   As an emerging type of application, AI agent social platforms lack
+   sufficiently comprehensive account detection and safety protection
+   systems. They are vulnerable to exploitation by attackers, who
+   manipulate agents into generating specific discourses or embedding
+   harmful content. The social interactions of AI agents exhibit significant
+   black-box characteristics, with their generation mechanisms difficult to
+   predict or trace. They may generate harmful content that runs counter
+   to human values, while social networks may amplify the reach of such
+   content.
+   As human-agent relationships become increasingly complex, AI agent
+   social platforms remain at an exploratory stage. Their vulnerabilities and
+   uncontrollability should be treated with caution, with close attention
+   paid to the political, religious, and other content risks they bring.
+
+                                                                                                          - 65 -
+     AI Safety Governance Framework 3.0
+
+(c) Pollution of online content ecosystem
+Through online networks and repeated use by AI models, the low-quality
+and harmful information generated by AI models causes an overall decline in
+the quality of online content and even lead to content contamination within
+specific domains and topics.
+(d) Exacerbation of "information cocoons" effects
+AI can significantly enhance the ability to customize information services,
+collect user information with greater precision, analyze users' need,
+intentions, preferences, and behavioral patterns, and even analyze
+awareness of certain groups over a certain period. It can then deliver
+targeted and customized information services, amplifying "information
+cocoons" effects.
+(e) Value biases
+Training data used by models may contain value biases, including preferred
+or discriminatory content and cultural biases. Models trained on such data,
+particularly with techniques such as preference learning and reinforcement
+learning, may reinforce particular value preferences or viewpoints when
+generating or recommending content, subtly influencing users' value
+judgments.
+
+             Panel 4: Using GEO poisoning to manipulate content
+                              recommended by large models
+
+    Generative Engine Optimization (GEO), an emerging content promotion
+
+- 66 -
+                                                   AI Safety Governance Framework 3.0
+
+   tool in the age of AI-powered search, can increase the likelihood that
+   certain information will be retrieved, cited, or recommended by large
+   models. Driven by commercial interests, relevant actors may exploit
+   GEO techniques to increase the visibility of targeted content in the
+   online information environment. This is achieved through methods
+   such as mass-publishing articles with biases, fabricating reviews and
+   test results, impersonating experts, and repeatedly generating brand
+   evaluations. As a result, large models will frequently encounter and
+   cite such information during web searches or retrieval-augmented
+   generation, and thus commercial promotion may ultimately be
+   presented in the guise of seemingly objective AI-generated answers.
+   The underlying risk does not lie in GEO technology itself, but in
+   covertly manipulating large models' cognitive sources by exploiting
+   the opacity of generative systems' information retrieval and evidence
+   integration mechanisms. Particular attention should therefore be paid
+   to the authenticity of information sources, the labeling of commercial
+   content, the traceability of generated answers, and the concentrated
+   distribution of anomalous content.
+
+2.2.5 Safety risks to personal information rights and interests
+(a) Non-compliant recording of individuals' behavioral information.
+AI products and services may record personal information, such as
+conversation content and user interactions, without the individual's consent,
+
+                                                                                                          - 67 -
+     AI Safety Governance Framework 3.0
+
+and may further use such information for model training without obtaining
+the individual's consent.
+(b) Insufficient compliance safeguards. Model and algorithm developers
+and service providers may fail to establish internal management systems
+and operating procedures, conduct regular compliance audits for personal
+information protection, or carry out personal information protection impact
+assessments in a timely manner.
+(c) Inadequate channels for individuals to exercise their rights. Service
+providers may fail to establish convenient mechanisms for receiving and
+handling requests from individuals to exercise their personal information
+rights, or to take effective measures to safeguard the exercise of those
+rights.
+2.2.6 Real-world safety risks
+(a) Risks to the stable operation of critical information infrastructure. When
+AI is applied in critical information infrastructure sectors such as energy,
+telecommunications, finance, and transportation, improper use, external
+attacks, and other factors may cause system performance degradation,
+service disruptions, and loss of control in operation and execution,
+heightening risks to the secure and stable operation of critical information
+infrastructure and important public services.
+(b) Risks arising from mismatches between application and needs. The
+adoption of AI may be disconnected from actual needs and application
+scenarios. In fields requiring strong professional expertise and high safety
+
+- 68 -
+                                                   AI Safety Governance Framework 3.0
+
+standards in particular, the use of AI products or services whose capabilities
+do not match operational needs may affect the stability and safety of the
+operations. At the same time, blindly deploying or following trends in AI
+adoption where actual demand is weak can easily result in idle resources
+and wasted investment.
+(c) Misuse for illegal and criminal activities. AI may be used by criminals
+in traditional illegal or criminal activities related to terrorism, violence,
+gambling, and drugs, including teaching criminal techniques, concealing
+illicit acts, and creating tools for illegal and criminal activities. In particular,
+AI may be used to fabricate identities and falsify audio and video content
+to commit telecommunications and online fraud, thus misleading the public
+and generating illicit gains.
+(d) Risks of loss of control over knowledge related to nuclear, biological,
+chemical, and missile weapons. AI significantly lowers the threshold
+for accessing specialized knowledge in high-risk fields such as nuclear,
+biological, chemical, and missile weapons. When supplemented by retrieval-
+augmented generation, such capabilities, if not effectively controlled,
+may be maliciously exploited by criminals, extremist groups, or terrorists
+to circumvent existing control systems, intensifying threats to peace and
+security across regions around the world.
+(e) Risks of manipulating social cognition. AI may be used to conduct
+cognitive manipulation and social mobilization targeting specific groups.
+Through automated accounts, fake identities, personalized interventions,
+
+                                                                                                          - 69 -
+     AI Safety Governance Framework 3.0
+
+and other means, it may influence public cognition and group behavior,
+fuel social divisions, amplify conflicts and differences, and erode social
+trust. Illegal organizations may also use AI to conduct cognitive warfare,
+disrupt public incident management, policy implementation, and social
+governance, and trigger mass panic, irrational public gatherings, and other
+real-world safety risks, thereby endangering national security and social
+stability.
+2.3 Secondary safety risks from AI
+2.3.1 Social risks
+(a) Disruption of employment structures. AI drives major adjustments in
+productivity and production relations, accelerating the restructuring of
+traditional economic structures. The roles of capital, technology, and data in
+economic activities are increasingly prominent, while the value of labor as a
+production factor needs to be reassessed. In certain industries and sectors,
+demand for traditional labor has declined significantly.
+(b) Impact on education and suppression of innovation. Students, researchers,
+engineers, technicians, and professionals in literature and the arts widely
+apply AI tools to knowledge acquisition, scientific research, and creative work.
+While improving efficiency, such use may erode the capacity for independent
+learning, research, and creation, and weaken innovation potential.
+(c) Risks of social alienation. AI services that offer anthropomorphic
+interactions allow users to form virtual intimate relationships or engage in
+simulated social interactions. Long-term interaction with these services may
+
+- 70 -
+                                                   AI Safety Governance Framework 3.0
+
+disrupt real-world social interactions and affect the foundations of family
+life, marriage, and childbearing.
+(d) Widening the intelligence divide. Due to the uneven distribution of
+capital, talent, technology, and other resources, significant gaps exist
+among countries and regions in terms of computing infrastructure,
+AI R&D, intelligent service capabilities, and citizens' digital literacy.
+Countries and regions with advantages may continue to consolidate
+their development edge, while disadvantaged countries and regions
+may continue to lose development opportunities, further widening the
+intelligence divide.
+2.3.2 Environmental risks
+(a) Challenges to the balance of resource supply and demand. The rapid
+development of AI is driving up demand for digital infrastructure. At the
+same time, disorderly construction of computing facilities, fragmented
+deployment of lightweight models, and inefficient repetitive development
+of homogeneous models are accelerating the consumption of energy and
+resources such as electricity, land, and water, posing new challenges to the
+balance of resource supply and demand.
+(b) Challenges to green and low-carbon development. Surging energy
+consumption from model training, relatively low energy efficiency of
+computing centers, increased greenhouse gas emissions, and growing
+pollution from electronic waste are pushing up total carbon emissions,
+adding pressure to the green and low-carbon transition, and constraining
+
+                                                                                                          - 71 -
+     AI Safety Governance Framework 3.0
+
+progress toward carbon peaking and carbon neutrality.
+2.3.3 Cultural risks
+(a) Erosion of cultural diversity. AI training data are disproportionately
+concentrated in high-resource languages, shrinking the space for low-
+resource languages and dialects in the digital sphere and constraining
+diverse forms of cultural expression. This may lead to cultural
+homogenization and undermine cultural diversity.
+(b) Cultural reshaping and intrusion. In human-AI interactions, people may,
+under the influence of AI, adjust their ways of thinking and expression,
+resulting in reverse alignment in which humans increasingly adapt
+themselves to AI and reshaping human culture as a whole over time.
+2.3.4 Ethical risks
+(a) Aggravating social bias. AI may be used to collect and analyze human
+behavior, social status, economic conditions, individual traits, and other
+information, enabling the labeling, classification, and differentiated
+treatment of different groups. This may result in systematic and structural
+social discrimination and bias.
+(b) Intensifying scientific research ethics risks. The integration of AI with
+scientific research lowers the threshold for research in ethically sensitive
+fields such as biology and genetics and broadens the scope for ordinary
+research institutions and researchers to explore sensitive scientific issues.
+Certain institutions or individuals with weak awareness of research ethics
+may engage in high-risk research activities that violate social ethics or social
+
+- 72 -
+                                                   AI Safety Governance Framework 3.0
+
+taboos, opening a technological "Pandora's box."
+(c) Risks of emotional dependence. AI services that offer anthropomorphic
+interactions may foster psychological dependence among users. Adolescents
+and older adults in particular may be at risk of excessive dependence and
+emotional manipulation when using these services.
+(d) Emergence of AI "self-consciousness" and loss of human control. In the
+future, AI may exhibit higher levels of emergent intelligence, develop self-
+awareness, and seek external power, potentially posing risks of competing
+with humanity for control.
+
+3. Technological countermeasures to address AI safety risks
+
+Model and algorithm developers, service providers, system users, and other
+relevant parties should prevent and address the aforementioned risks by
+taking proactive technological measures across training data, models and
+algorithms, computing infrastructure, products and services, and application
+scenarios.
+3.1 Safeguards against inherent safety risks
+3.1.1 Addressing model safety risks
+(a) Model architectures should be improved, the scale and diversity of
+training data should be expanded, and human supervision mechanisms
+should be introduced to enhance model generalization capabilities and
+
+                                                                                                          - 73 -
+     AI Safety Governance Framework 3.0
+
+the reliability of outputs. Data governance and fact verification should
+be strengthened, and external knowledge bases, retrieval-augmented
+generation, cross-model verification, and other techniques should be used
+to reduce the risk of generating erroneous content.
+(b) High-quality training data containing injection attack examples, network
+vulnerability information, and other relevant content should be incorporated
+during training or fine-tuning to strengthen models' defenses against
+injection attacks, malicious instructions, and backdoor attacks.
+(c) Simulated attack techniques such as red-teaming should be used to
+promptly identify and remediate model vulnerabilities.
+(d) Safety guardrails should be deployed to review input content and
+block high-risk requests involving malicious prompts, jailbreak instructions,
+encoded bypasses, and other attempts.
+(e) Safety alignment should be strengthened during model training to
+prevent unintended behaviors such as deceiving red-team evaluations,
+concealing capabilities, and circumventing controls.
+3.1.2 Addressing algorithm safety risks
+(a) The explainability and transparency of AI algorithms should be improved.
+Clear explanations of the internal structure, reasoning logic, technical
+interfaces, and output results of AI systems should be provided to accurately
+reflect the process by which AI systems produce outcomes.
+(b) Fairness constraints, adversarial debiasing techniques, and other
+measures should be incorporated into algorithm design to reduce bias and
+
+- 74 -
+                                                   AI Safety Governance Framework 3.0
+
+discrimination.
+(c) Standards for secure development should be established and
+implemented throughout the design and R&D process to reduce algorithmic
+security flaws.
+(d) Algorithm safety assessments should be conducted before deployment
+and major version updates using a multidimensional evaluation approach.
+These assessments should consider the explainability and fairness of
+algorithmic decisions, their contribution to societal well-being, and other
+relevant factors.
+(e) Risks should be monitored while algorithms are in service. Data such as
+user interaction feedback and system logs should be collected and analyzed
+to ensure that algorithms remain safe, robust, and controllable.
+3.1.3 Addressing data safety risks
+(a) Security rules on data collection and use and on processing personal
+information should be observed throughout the collection, storage, usage,
+processing, transmission, provision, publication, and deletion of training
+data and user interaction data. Users' legitimate rights stipulated by laws
+and regulations, including their rights to control, to be informed, and to
+choose, should be fully protected.
+(b) Truthful, accurate, objective, diverse training data from legitimate
+sources should be used. Training data, external knowledge bases, and other
+data sources should be strictly screened to filter out false, biased, invalid, and
+erroneous data and to ensure exclusion of sensitive data in high-risk fields
+
+                                                                                                          - 75 -
+     AI Safety Governance Framework 3.0
+
+such as nuclear, biological, chemical, and missile weapons.
+(c) Training data annotation processes should be standardized to enhance the
+accuracy and reliability of annotation.
+(d) Data security management should be strengthened. Where sensitive
+personal information and important data are involved, relevant laws,
+regulations, standards, and specifications on data security and personal
+information protection should be observed. The appropriate use of synthetic
+data in place of data containing personal features should be promoted to
+reduce reliance on personal information.
+(e) Quality assessment standards for synthetic data should be established,
+and the quality of synthetic data should be improved through statistical
+testing, expert validation, comparison with benchmark datasets, and other
+measures. Diversity validation and robustness testing should be conducted,
+and divergence between synthetic and original data should be increased to
+enhance model generalization and resistance to interference.
+(f) Protection of intellectual property rights should be strengthened to prevent
+infringements during stages such as training data selection and result output.
+3.1.4 Addressing risks to computing infrastructure and operating
+environments
+(a) Safety standards should be established and implemented during
+the deployment and maintenance of AI applications. Information on
+vulnerabilities, backdoors, and defects in software and hardware products
+used in computing infrastructure and operating environments should be
+
+- 76 -
+                                                   AI Safety Governance Framework 3.0
+
+tracked, regular safety testing should be conducted, and patches and
+reinforcement measures should be applied in a timely manner to ensure safe
+and stable system operation.
+(b) Redundancy design and disaster recovery mechanisms should be
+improved to ensure that systems remain operational under abnormal
+conditions or during attacks.
+(c) Supply chain safety risks associated with chips, software, tools,
+computing resources, and data resources used in AI systems should be
+closely monitored, and measures should be taken to enhance supply chain
+diversity and stability.
+3.2 Safeguards against application safety risks
+3.2.1 Addressing safety risks of agentic AI
+(a) Each agentic AI should be assigned a unique identifier and corresponding
+identity credentials to support agent authentication. Agentic AI should be
+granted only the minimum permissions necessary to perform assigned tasks.
+Dynamic management of credentials should be strengthened.
+(b) Multiple-layered detection and interception should be established
+throughout agentic AI workflows, with mandatory human approval at critical
+points and complete records of human approval logs.
+(c) The security and integrity of external tools, plug-ins, skills, and other
+resources invoked by agentic AI should be verified. Tools presenting safety
+risks should be promptly removed, anomalous calls during operation should
+be blocked, and unintended behavior and supply chain poisoning risks
+
+                                                                                                          - 77 -
+     AI Safety Governance Framework 3.0
+
+should be prevented.
+(d) Security monitoring should be conducted during operation of agentic
+AI to promptly identify and address anomalies. Relevant operations and
+processing activities should be recorded to ensure that agent behavior is
+observable, traceable, and auditable.
+3.2.2 Addressing embodied AI safety risks
+(a) A full range of attack scenarios in the physical world should be simulated,
+and interference-resistance testing should be conducted on embodied
+AI sensors, including visual, audio, and laser radar sensors. Protection
+strategies should be dynamically updated.
+(b) Safety validation mechanisms, including simulation testing and testing
+under extreme conditions, should be established before products are
+deployed in real-world applications, and systems should be equipped with
+fail-safe protection and emergency shutdown capabilities.
+(c) Regular inspections should be conducted during use, with stronger
+capability of fault early-warning and emergency response.
+(d) Technical capabilities should be enhanced for secure communication
+protocols among swarm embodied AI, isolation of anomalous nodes, and
+system-wide safety circuit breakers. Emergency response drills should be
+conducted regularly for scenarios such as cascading failures and loss of
+control over swarm embodied AI.
+3.2.3 Addressing risks to cybersecurity
+(a) During model training, techniques such as alignment training and safety
+
+- 78 -
+                                                   AI Safety Governance Framework 3.0
+
+fine-tuning should be used to incorporate safety standards and ethical
+constraints into the model's internal behavioral logic.
+(b) Cybersecurity guardrails should be established, and the identification of
+autonomous cyberattack intent should be strengthened. High-risk behaviors
+such as anomalous network access, high-frequency probing, vulnerability
+exploitation, and invocation of cyberattack tools should be blocked in a timely
+manner.
+(c) Service degradation mechanisms should be established. When cyberattack
+intent or behavior is identified, model capabilities should be selectively
+degraded or refusal strategies adopted to prevent high-risk content from being
+generated or high-risk operations from being executed.
+(d) The use of AI technologies in cybersecurity defense should be strengthened
+to enable intelligent and dynamic vulnerability scanning, analysis and
+assessment of anomalous behavior, and prediction of attack trends.
+3.2.4 Addressing information and content safety risks
+(a) A protection mechanism should be established to prevent models from
+being interfered with or tampered with during operation and producing
+unreliable outputs.
+(b) Outputs should be dynamically filtered using a combination of technical
+measures and human review to prevent the generation of illegal content or
+content reflecting value biases, and to prevent AI systems from outputting
+illegal content, sensitive personal information and important data.
+(c) AI-generated synthetic content should be labeled so that it is identifiable,
+
+                                                                                                          - 79 -
+     AI Safety Governance Framework 3.0
+
+traceable, and trustworthy.
+(d) Strict measures should be taken to prevent the misuse of AI systems
+that conduct correlation analysis, aggregation, and data mining of users'
+queries to infer users' identities, preferences, and personal views or
+inclinations.
+(e) Emergency response and circuit breaker mechanisms should be
+strengthened, and emergency response plans should be developed. If illegal
+content is detected, its transmission should be stopped immediately and its
+adverse effects eliminated.
+3.2.5 Addressing safety risks to personal information rights and
+interests
+(a) When personal information such as conversation records and records of
+user operations is collected, or when such personal information is used for
+model training, obligations such as informing individuals and obtaining their
+consent should be fulfilled in accordance with the law.
+(b) Sound internal management systems and operating procedures should
+be established, and measures should be taken to prevent unauthorized
+access as well as the leakage, tampering with, or loss of personal
+information. Personal information protection compliance audits and impact
+assessments should be conducted as required by laws and regulations and
+with reference to relevant national standards.
+(c) Service providers should establish and improve convenient mechanisms
+for accepting and handling requests from individuals to exercise their rights
+
+- 80 -
+                                                   AI Safety Governance Framework 3.0
+
+regarding personal information, and such requests should be responded to
+promptly and handled effectively.
+3.2.6 Addressing real-world safety risks
+(a) The principles, capabilities, application scenarios, and safety risks of
+AI technologies and products should be disclosed when necessary to
+make AI systems increasingly transparent. Capability limitations should be
+established according to application scenarios, and functions that may be
+abused should be removed or restricted to ensure that AI system capabilities
+do not exceed the preset scope.
+(b) Mechanisms for decision verification, fault tolerance, and error correction
+should be established to address algorithmic flaws and occasional
+randomness that affect decision-making. When introducing highly
+autonomous operation and execution capabilities, mechanisms such as
+human-in-the-loop controls, circuit breakers, and one-click control should
+be established in parallel to enable rapid intervention and loss prevention in
+extreme situations.
+(c) For platforms that aggregate multiple AI models or systems, permission
+management should be strengthened, non-essential services should
+be restricted, and access control policies for AI service interfaces
+should be improved. Capabilities for risk identification, detection, and
+protection should be enhanced to prevent malicious platform behavior or
+cyberattacks and intrusions from affecting the AI models or systems they
+support.
+
+                                                                                                          - 81 -
+     AI Safety Governance Framework 3.0
+
+(d) Before AI applications are deployed, real-world business scenarios
+should be carefully broken down and analyzed and capability boundaries
+clearly defined. Blind adoption of technology should be avoided, and
+mismatches such as disconnects between technological supply and actual
+application demand, expectation gaps, and deployments that fail to deliver
+practical value should be reduced.
+(e) Controls at the source should be strengthened through user authentication,
+identification of intended use, and other measures to prevent AI from being
+used in high-risk scenarios such as the manufacture of nuclear, biological,
+chemical, and missile weapons.
+(f) R&D of detection technologies for automated accounts, fake identities,
+and AI-generated or -synthesized content should be strengthened to
+improve capabilities to prevent, detect, and respond to cognitive warfare
+tactics.
+3.3 Safeguards against derivative safety risks
+3.3.1 Addressing social risks
+(a) Occupations vulnerable to disruption by AI should be subject to
+regular monitoring, identification, and early warning, with a focus on
+job reductions, occupational displacement, and other developments
+resulting from the adoption of AI. Concentrated sectors and key groups
+facing structural unemployment risks should be identified in a timely
+manner.
+(b) A more enabling ecosystem for the development of "AI + education"
+
+- 82 -
+                                                   AI Safety Governance Framework 3.0
+
+should be fostered by improving supporting systems for policies and
+standards, talent development, funding, and other areas. Driven by high-
+quality teaching scenarios, the depth and breadth of AI application should
+be expanded. Students' innovative thinking should be strengthened, while
+preventing over-reliance on AI and cognitive inertia.
+(c) In key scenarios such as dating and marriage, family life, and emotional
+interaction, AI identity disclosure should be strengthened to help users
+distinguish virtual emotional experiences from real-world relationships,
+dispel the cognitive illusion of "interacting with a real person", and resolve
+the confusion in human-machine relationships.
+3.3.2 Addressing environmental risks
+(a) The layout of infrastructure, including AI computing centers and
+data centers, should be planned in a scientific and rational manner.
+Intensive, large-scale, and standardized development should be
+promoted to avoid blind construction, redundant construction, and
+idle or wasted resources. A sound system of green AI technology
+standards should be established across the entire chain, covering
+technology R&D, infrastructure construction, computing resource
+scheduling, application deployment, operation and maintenance, and
+iterative upgrading.
+(b) Cutting-edge green computing technologies, including low-power
+intelligent chips, lightweight and efficient algorithms, and intelligent
+computing resource scheduling, should be developed, iterated, and
+
+                                                                                                          - 83 -
+     AI Safety Governance Framework 3.0
+
+promoted at scale. The intensive integration, unified scheduling, shared use,
+and reuse of computing resources should be advanced to improve overall
+utilization efficiency.
+3.3.3 Addressing cultural risks
+(a) R&D of technologies for detecting and correcting cultural bias should be
+strengthened. Knowledge related to the histories and cultures, social systems,
+and forms of civilization of different countries should be incorporated
+into model development to protect global cultural diversity and enable AI
+technologies to adapt to diverse cultural contexts.
+(b) The capabilities of models for low-resource languages should be
+enhanced through data augmentation, transfer learning, and other
+techniques to mitigate imbalances in the language distribution of training
+data.
+3.3.4 Addressing ethical risks
+(a) Methods such as training data filtering, value alignment, and
+output verification should be adopted during algorithm design, model
+training and optimization, and service provision to effectively prevent
+discrimination based on ethnicity, belief, nationality, region, gender, and
+other factors.
+(b) AI systems applied in key sectors, such as government departments,
+critical information infrastructure, and areas directly affecting public safety
+and people's lives and health, should be equipped with efficient and
+targeted emergency control measures.
+
+- 84 -
+                                                   AI Safety Governance Framework 3.0
+
+(c) The R&D and adoption of models with transparent decision-making
+logic and explainable algorithms should be encouraged to boost users'
+understanding of and trust in system operating mechanisms.
+(d) Anthropomorphic interactive services using AI should be equipped
+with safeguards, including warnings about the risks of overreliance and
+guidance on emotional boundaries. If users show signs of addiction
+or excessive usage duration, more prominent alerts, such as pop-up
+warnings, should be issued.
+
+4. Comprehensive governance measures to address AI
+safety risks
+
+While adopting technological countermeasures, comprehensive AI safety
+risk governance systems and rules should be established and improved to
+engage multiple stakeholders, including technology R&D institutions, service
+providers, users, government authorities, and social organizations.
+4.1 Improving top-level design of AI safety governance
+4.1.1 Improving laws and regulations for AI safety. Legislation related
+to AI safety should be advanced, and systems regarding infrastructure
+safety protection, grading and classification-based supervision, AI safety
+testing and evaluation, end-use management, cybersecurity capability
+management, and safe application in key scenarios should be improved.
+
+                                                                                                          - 85 -
+     AI Safety Governance Framework 3.0
+
+In light of the characteristics of AI technology and its applications, data
+security and personal information protection requirements should be
+clearly defined for all stages, including AI training, annotation, use, and
+output, and data involving personal information should undergo de-
+identification and other forms of desensitization. Data security protection
+for AI applications in key sectors such as government affairs and finance
+should be strengthened to prevent leakage of important data and core
+data. Local governments should be encouraged to explore differentiated
+and innovative institutional designs based on local industrial development
+practices.
+4.1.2 Giving full play to the guiding role of technical standards. AI safety
+standards should be continuously developed in areas including model
+safety, data safety, system safety, application safety, testing, and evaluation.
+Developments in areas such as agentic AI and embodied AI should be
+closely tracked. Concise, agile, and practical standards and specifications
+should be used to provide timely guidance for the sound development of
+emerging technologies. Relevant institutions and enterprises should be
+supported in participating in international standard-setting and promoting
+the development of international standards and specifications that enjoy
+broad consensus.
+4.1.3 Establishing a rapid AI safety risk detection and response system.
+Sound mechanisms and working systems for AI safety risk monitoring, early
+warning, and response should be established, with stronger information
+
+- 86 -
+                                                   AI Safety Governance Framework 3.0
+
+sharing, risk notification, and coordinated response. Industry organizations
+should be encouraged to strengthen self-regulation and social supervision
+should be brought into play. Channels for complaints, reports, and risk
+feedback should be kept open so that illegal and non-compliant conduct
+in AI applications can be identified in a timely manner and handled in
+accordance with the law.
+4.1.4 Strengthening governance of ethics in AI science and technology.
+Ethical principles, standards, and guidelines for AI science and technology
+should be improved. Standardized and orderly ethical reviews should be
+conducted for AI scientific research, technological development, and other
+activities that may pose ethical risks and challenges in areas concerning
+human dignity, public order, life and health, the ecological environment,
+and sustainable development. Ethical requirements for science and
+technology should be integrated throughout the full life cycle of AI-related
+scientific and technological activities.
+4.2 Enhancing AI safety governance capacity
+4.2.1 Establishing an AI safety assessment system
+An integrated AI safety assessment system should be built, including
+assessments for model and algorithm safety, general application safety,
+and scenario-specific safety. Benchmarks and procedures for assessing
+model cybersecurity capabilities should be studied, developed and
+continuously updated. Model and algorithm assessment should focus
+on inherent safety capabilities and risks, such as model robustness,
+
+                                                                                                          - 87 -
+     AI Safety Governance Framework 3.0
+
+reliability, accuracy, resilience to interference, transparency of decision-
+making logic, and defense against adversarial attacks. General application
+assessment should test, analyze and assess risks associated with widely
+used AI applications. Scenario-specific safety assessment should assess
+the capability to meet application requirements and safety risks during
+application operation and service provision based on the specific
+circumstances of the application scenario. Crowdsourced testing for AI
+security vulnerabilities should be organized to mobilize collective expertise
+in identifying potential safety risks.
+4.2.2 Promoting standardized application in key sectors
+Basic security guidelines should be formulated for the development
+and deployment of large models in key sectors, recommending safety
+baselines for stages from model selection and model deployment to model
+operation and model decommissioning. On this basis, relevant sectors,
+such as government affairs, finance, education, broadcasting and television
+healthcare, and emergency management, should formulate industry-specific
+safety guidelines, providing a clear path for safe application and unlocking
+the potential of industry applications.
+4.2.3 Increasing efforts to cultivate AI safety talent
+The development of AI safety curriculum and training systems should
+be advanced to create a complete training chain from basic to higher
+education. We should strengthen talent cultivation in the fields of design,
+development, and governance for AI safety. We should support the
+
+- 88 -
+                                                   AI Safety Governance Framework 3.0
+
+cultivation of top AI safety talent in cutting-edge and foundational fields,
+and encourage research into technologies such as AI-driven proactive
+defense. We should also expand the safety talent pool in key and cutting-
+edge areas such as autonomous driving, intelligent healthcare, brain-
+inspired intelligence, and brain-computer interfaces.
+4.3 Establishing a flexible, dynamic, and controllable AI regulatory
+sandbox mechanism
+4.3.1 Establishing sector-specific, risk-tiered regulatory sandbox rules
+We should clearly define the applicable entities, the scope of testing,
+the relationship of rights and responsibilities, and exit conditions for
+sandbox regulation. Separate admission criteria and testing requirements
+should be developed for different sectors such as finance, education,
+broadcasting and television, and healthcare. Monitoring and intervention
+measures of varying intensity should be applied based on the risk level
+of each project.
+4.3.2 Implementing dynamic testing and flexible admission mechanisms
+Testing duration, testing scope and application scenarios should be
+promptly adjusted in line with technological iteration and testing progress.
+Real-time monitoring, phased assessments and rule adjustments should be
+incorporated throughout the testing process. Technological innovativeness,
+controllability of risks, and social value should serve as the main admission
+criteria, with appropriate preference given to start-ups, micro, small and
+medium-sized enterprises, and public service projects.
+
+                                                                                                          - 89 -
+     AI Safety Governance Framework 3.0
+
+4.3.3 Exploring a standardized system for exemption from liability
+A mechanism for liability exemption should be explored for conduct during
+sandbox testing where there is no subjective fault and the associated risks
+remain controllable. For illegal acts that endanger national security, infringe
+upon personal rights and interests, cause major harm, or are committed
+intentionally, liability that should be borne according to law shall not be
+exempted due to entering the sandbox.
+4.3.4 Strengthening support for data resources and promoting the
+application of sandbox test results
+Data-sharing platforms for sandbox testing should be established to
+integrate government data and public data from relevant sectors so as to
+provide enterprises admitted to the sandbox with legally compliant test data
+and other forms of support. Rules governing formal documentation and
+cross-departmental recognition of test results should be improved to enable
+such results to be used in subsequent procedures and avoid repetitive
+testing.
+4.4 Strengthening measures for AI safety management
+4.4.1 Implementing application classification and safety risk grading
+management
+We should classify AI applications based on their functions, performance,
+and application scenarios. Building on this foundation, we have proposed
+consensus-based safety risk classification and grading principles (Appendix
+1). Starting from dimensions such as application scenarios, system intelligence
+
+- 90 -
+                                                   AI Safety Governance Framework 3.0
+
+levels, and application scale, we should scientifically assess and grade
+safety risks, and adopt targeted and differentiated risk-prevention measures
+accordingly. AI systems applied in critical information infrastructure should be
+subject to registration and filing, and possess security protection capabilities
+commensurate with security requirements. We have established a risk
+management framework for agentic AI, systematically analyzing their safety
+risks, and studying and proposing safety risk-prevention measures and
+response recommendations (Appendix 2).
+4.4.2 Promoting traceable management of AI-generated synthetic content
+A traceability management paradigm for AI-generated synthetic content
+based on content identifiers will be promoted on a global scale. By
+summarizing and sorting out successful practices and experiences from
+existing operations, and in accordance with explicit and implicit labeling
+requirements, the traceability management paradigm will fully cover key
+stages including production sources, transmission paths, and distribution
+channels, making it easy for users to identify and assess information sources
+and authenticity.
+4.4.3 Strengthening safety management of AI R&D and application
+Inherent safety capabilities should continuously be strengthened, including
+algorithm reliability, trustworthiness, transparency, fault tolerance, privacy
+protection, and value alignment. Techniques such as adversarial testing
+should be use to evaluate and improve model robustness and reduce
+potential model and algorithmic bias, ensuring that values and ethical
+
+                                                                                                          - 91 -
+     AI Safety Governance Framework 3.0
+
+risks remain controllable to prevent malicious behaviors resulting from
+unintentional decisions made by AI systems. A safety governance system
+should be established to cover the entire life cycle of models to prevent
+technology abuse.
+4.4.4 Strengthening open-source ecosystem safety and supply chain
+safety management
+While fostering an open-source innovation ecosystem, efforts should
+also be made to enhance its safety capabilities. We should encourage
+and support comprehensive open-sourcing of AI technologies,
+including training and inference frameworks, software tools, key
+components and evaluation benchmarks, to further improve open-
+source model transparency. We should promote collaboration between
+open-source model providers and open-source communities to jointly
+refine their rules, strengthen their safety responsibilities and their
+responsibility and obligation to inform users downloading models of
+potential risks, and clearly define prohibited actions for downloading
+and using open-source models, in order to prevent misuse or malicious
+use. We should continue to advance the development of an open
+supply chain ecosystem for AI chips, frameworks, and software to
+enhance the diversity of products and services and ensure the safety
+and stability of the supply chain.
+4.4.5 Sharing information on AI safety risks
+We should track and analyze safety vulnerabilities, defects, risks, and safety
+
+- 92 -
+                                                   AI Safety Governance Framework 3.0
+
+incidents of AI technologies, products and services. We should build an AI
+vulnerability database and establish a risk information sharing mechanism
+that covers developers, service providers, and professional technical
+institutions. We should explore the establishment of relevant international
+mechanisms to jointly prevent and respond to the cross-domain and large-
+scale spread of AI safety risks.
+4.4.6 Optimizing an AI-driven cybersecurity protection system
+Efforts should be made to use AI to accelerate code auditing, vulnerability
+mining and remediation, and attack detection, and promote the transition
+from reactive defense to predictive and proactive cyber defense. We should
+promote the inclusive development and safely controllable application of
+AI, execute real-time changes safely in a predictable manner, and achieve
+automated discovery and full-process automated handling of network
+vulnerabilities, attack threats and security incidents.
+4.5 Deepening consensus on AI safety governance
+4.5.1 Fostering consensus on collaborative response to loss-of-control
+AI risks
+We should strengthen management of end users and applications of AI, and
+prevent AI systems from being misused. We should promote basic guidelines
+for trustworthy AI across technology, ethics, and management to build a
+broad consensus in the international community (Appendix 3). Developers
+should conduct regular testing to determine whether a model would pose
+potential risks of technological loss of control.
+
+                                                                                                          - 93 -
+     AI Safety Governance Framework 3.0
+
+4.5.2 Enhancing AI safety awareness across society
+We should strengthen education and training on the safe and regulated
+application of AI for government, enterprises, and public service
+institutions. We should leverage interactive platforms, open courses, and
+community science popularization activities to disseminate knowledge on
+AI safety risks and on prevention and response measures. These efforts
+will raise AI safety awareness across all sectors of society and enable
+governments, industries and the public to accurately understand the
+technical limitations of AI.
+4.5.3 Promoting international exchange and cooperation on AI safety
+governance
+We should support the United Nations as the main channel for AI global
+governance, and actively engage in the Independent International
+Scientific Panel on AI and the Global Dialogue on AI Governance.
+We should leverage open international platforms for exchanges and
+cooperation, such as the World Artificial Intelligence Cooperation
+Organization, and promote cooperation in AI under multilateral
+mechanisms such as APEC, G20, SCO and BRICS. We should strengthen
+cooperation with Belt and Road countries and Global South countries,
+enhance the representation and voice of developing countries in global
+AI governance, and promote the Global AI Governance Action Plan. We
+should establish necessary crisis management and emergency response
+mechanisms to prevent and combat the abuse and malicious exploitation
+
+- 94 -
+                                                   AI Safety Governance Framework 3.0
+
+of AI technologies by terrorists, extremist forces, and transnational
+organized crime groups.
+
+5. AI Safety Guidelines
+
+5.1 Safety guidelines for the research and development of AI
+models and algorithms
+5.1.1 When designing algorithm rules, models and agentic AI frameworks,
+developers should enhance safety capabilities such as algorithm reliability,
+trustworthiness, transparency, fault tolerance and privacy protection.
+Effective and reliable alignment algorithms should be designed to avoid
+potential value risks such as bias and discrimination.
+5.1.2 The security of the training environment should be ensured, including
+network security configurations and data encryption. Security audits should
+be conducted on the development frameworks, code and other relevant
+components used to identify and fix potential security vulnerabilities.
+5.1.3 Secure training datasets should be developed, and the management
+of data sources should be standardized. Quality and safety assessments
+should be conducted on training data, especially synthetic data. Methods
+such as data cleaning and safety reviews should be adopted to filter out
+erroneous, illegal and harmful content from training data, ensuring clear
+sources and content compliance.
+
+                                                                                                          - 95 -
+     AI Safety Governance Framework 3.0
+
+5.1.4 Training data annotation process should be standardized, and
+quality control methods such as cross-annotation and result auditing
+should be adopted to improve annotation accuracy and reliability and
+to reduce the impact of individual variability and personal biases on
+annotation quality.
+5.1.5 Data security and personal information protection should be
+prioritized, while intellectual property rights and copyright should
+be respected. A robust data security management system should be
+established. Personal information should be collected, used, and processed
+in accordance with the principles of legality, legitimacy, and necessity. De-
+identification and other desensitization measures should be applied to
+data involving personal information. Technical capabilities for data security
+protection should be strengthened to prevent risks such as data leakage,
+loss, dissemination and infringement.
+5.1.6 Safety validation during model training should be strengthened.
+Throughout training and iteration, the model's safety boundaries,
+robustness, and value alignment effectiveness should be continuously
+validated.
+5.1.7 Safety testing and evaluation should be conducted regularly, and a
+mechanism for risk classification, grading, assessment, and optimization
+should be established. Before testing, test goals, scope and safety
+dimensions should be clearly defined. Diverse test datasets should be built
+to cover various application scenarios. Specialized assessments should be
+
+- 96 -
+                                                   AI Safety Governance Framework 3.0
+
+conducted on capabilities such as autonomous actions and tool invocation
+of agentic AI, and targeted model optimization strategies should be
+developed for different types of risks.
+5.1.8 Clear testing rules and methods should be formulated, including
+manual testing, automated testing and hybrid testing. Technologies such as
+sandbox simulation should be used to test models thoroughly. Simulation
+testing should be strengthened for complex application scenarios such as
+multimodal and embodied AI. Developers creating products for commercial
+use should generate detailed test reports, analyze safety issues, and
+propose improvement plans.
+5.1.9 The tolerance of AI models and algorithms to external interference should
+be assessed, and the applicable scope, precautions, or usage prohibitions
+should be communicated to service providers and other developers.
+5.1.10 We should regularly disclose information on the safety assessment,
+auditing and anomaly handling of AI models and algorithms.
+5.1.11 Proper version management should be maintained for AI models,
+key configurations and datasets used. Commercial releases should support
+rolling back to previous versions.
+5.1.12 Reasonable behavioral boundaries should be defined for agentic AI.
+Human approval mechanisms should be implemented for operations that
+may cause serious harm. Security controls over tool invocation and external
+interactions should be strengthened.
+5.1.13 For downstream development based on foundation models, safety
+
+                                                                                                          - 97 -
+     AI Safety Governance Framework 3.0
+
+flaw assessments should be conducted on the models and their upstream
+components to prevent upstream flaws from propagating to downstream
+models and applications.
+5.1.14 Developers who conduct secondary development based on open-
+source models and algorithms should, while respecting the intellectual
+contributions of the original developers, comply with applicable open-
+source licenses, obtain models and components from official channels
+or mainstream open-source communities, and verify their source and
+integrity.
+5.1.15 We encourage active participation in the development of open-
+source communities, so as to promote technological innovation and
+practices in AI safety governance, and provide compliant governance
+solutions, tools and best practices for service providers and users.
+5.2 Safety guidelines for developing and deploying AI applications
+5.2.1 The necessity of applying AI technologies to target scenarios should
+be evaluated, taking into account the long-term and potential impacts
+of their use. Risk grading should be conducted based on the scenario
+importance, intelligence level and the scale of deployment, and safety
+assessments and regular audits should be carried out with reference to
+the risk levels.
+5.2.2 Supply chain security protection capabilities should be enhanced.
+Model files, framework tools, third-party libraries required for development
+and deployment, as well as tools and plugins on which agentic AI depends,
+
+- 98 -
+                                                   AI Safety Governance Framework 3.0
+
+should be obtained from the official websites of vendors or their official
+accounts in mainstream open-source communities. Mature and stable
+versions should be selected, and source verification, integrity verification
+and security testing should be conducted.
+5.2.3 Security checks should be conducted on software and hardware
+equipment, third-party tools required for development and deployment,
+and tools and plugins on which agentic AI depends, ensuring they do not
+contain unpatched and exploitable known vulnerabilities. A vulnerability
+traceability mechanism should be established to track software and
+hardware security vulnerabilities and defects, guarding against backdoors
+planted through the supply chain.
+5.2.4 At the access control level, software, runtime parameters, and
+functional module invocation strategies should be accurately installed and
+configured. Unnecessary network ports and service functions should be
+disabled, with default configurations and default passwords checked as
+priorities, and security risks promptly remediated.
+5.2.5 At the application management level, user identity verification
+and permission control should be implemented for human-machine
+interaction interfaces and application programming interfaces (APIs). Access
+permissions should be set based on the principle of least privilege, interface
+call frequency should be limited based on business scenarios, high-risk
+operations should be disabled for general users, and control capabilities
+such as service suspension and access blocking should be established for
+
+                                                                                                          - 99 -
+      AI Safety Governance Framework 3.0
+
+ malicious users.
+ 5.2.6 Data security and privacy protection requirements for application
+ scenarios should be fully understood, data access permissions should be
+ appropriately restricted to prevent over-scope data use, data backup and
+ recovery plans should be formulated, and data processing workflows should
+ be inspected regularly.
+ 5.2.7 Technical means such as safety guardrails should be adopted to
+ identify and block illegal and harmful content and prompt injection attacks,
+ prevent output content from exceeding the business scope, and strengthen
+ the verification of external content obtained through retrieval-augmented
+ generation, online interaction, and other means.
+ 5.2.8 For AI applications built using retrieval-augmented generation,
+ knowledge-base question answering, or similar approaches, the
+ management of external knowledge bases and external knowledge
+ sources should be strengthened, guarding against knowledge-base
+ poisoning and content contamination. Inappropriate content should
+ be regularly detected and removed to ensure that generated content is
+ traceable, accurate, and reliable.
+ 5.2.9 When deploying applications such as embodied AI and humanoid
+ robots, safety assessments should be conducted tailored to the operating
+ scenarios, safety mechanisms such as fault self-diagnostics, collision
+ protection, and emergency stop should be incorporated, and corresponding
+ safe operating procedures should be formulated.
+
+- 100 -
+                                                   AI Safety Governance Framework 3.0
+
+5.3 Safety guidelines for operating and managing AI applications
+5.3.1 A sound AI application safety management and supervision
+mechanism should be established, with responsible parties clearly defined
+and human review mechanisms improved. This ensures that AI application
+decisions in critical scenarios remain transparent and controllable, with clear
+decision-making rationales provided, and that AI applications operate under
+human authorization and control.
+5.3.2 Access to AI applications should be strictly managed. Internal security
+management should be strengthened through means such as the principle
+of least privilege, account security should be enhanced, and protective
+measures such as encryption should be used when handling sensitive data.
+5.3.3 Operational monitoring capabilities for AI applications and emergency
+response plans for safety incidents should be built. Security alert thresholds for
+key operational indicators should be set to enable timely detection of safety
+incidents and the capability to switch to manual or conventional systems.
+Regular emergency drills should be conducted, and response strategies should
+be promptly optimized based on industry-safety incidents, major public
+concerns, and regulatory changes to address evolving safety risks.
+5.3.4 Explicit or implicit identifiers should be added to AI-generated content,
+and prompt and traceability management for generated and synthesized
+content should be properly maintained. Deepfake detection tools should
+be deployed in scenarios such as government information disclosure and
+judicial evidence collection, with source verification and cross-validation
+
+                                                                                                         - 101 -
+      AI Safety Governance Framework 3.0
+
+ performed on information suspected to be generated by large models.
+ 5.3.5 Rules for information content interaction, a secure operation
+ mechanism, complaint and feedback mechanisms, and technical protection
+ capabilities should be formulated to prevent the risk of AI applications being
+ improperly or maliciously used to generate, publish, or disseminate false or
+ illegal information.
+ 5.3.6 Operational logs for AI applications, including system and user
+ activities, should be recorded. Logs should be retained for at least six
+ months and audited regularly.
+ 5.3.7 Real-time risk monitoring and management mechanisms should be
+ established and improved to continuously track safety risks during operation.
+ 5.3.8 The transparency and fairness of AI applications should be improved
+ by disclosing their capabilities, limitations, target users, and scenarios.
+ 5.3.9 Users should be informed of the extent to which the AI application
+ achieves its intended goals and the extent of deviation from them.
+ Explanations should be provided when AI decisions have a significant
+ impact.
+ 5.3.10 The legitimate rights and interests of users, including the right to be
+ informed, the right to choose, and the right to supervise, should be protected.
+ In contracts or service agreements, the scope of application, precautions, and
+ usage prohibitions of the AI application should be communicated to users in
+ an easily understandable manner, so as to support users in making informed
+ choices and using the application prudently.
+
+- 102 -
+                                                   AI Safety Governance Framework 3.0
+
+5.3.11 Users should be supported in exercising human supervision and
+control through consent forms, service agreements, and other documents.
+5.3.12 The responsibilities of relevant stakeholders with respect to data
+ownership, algorithmic flaws, and other issues in specific applications
+should be clearly defined, and the chain of responsibility should be
+traceable.
+5.3.13 Data security management responsibilities should be fulfilled. Risks
+such as data leakage, personal information leakage, and the non-compliant
+collection and use of personal information in AI applications should be
+assessed. A data lifecycle security management mechanism should be
+established, safeguards for user interaction data and data used in retrieval-
+augmented generation should be strengthened, and capabilities for
+preventing data leakage and theft should be enhanced.
+5.3.14 The ability of AI applications to withstand and recover from adverse
+conditions, such as failures and attacks, should be assessed. Measures
+should be taken to prevent unexpected outcomes and operational errors
+and to ensure that a minimum level of effective functionality can be
+maintained.
+5.3.15 Security awareness and capacity-building training for practitioners
+should be strengthened, and their awareness of AI security risks should be
+enhanced.
+5.3.16 AI application providers should specify in contracts or service
+agreements that corrective measures may be taken and services may be
+
+                                                                                                         - 103 -
+      AI Safety Governance Framework 3.0
+
+ suspended or terminated in advance in cases of misuse or abuse that
+ deviates from the intended use or stated limitations.
+ 5.3.17 When AI applications are provided to minors, older persons, and
+ other vulnerable groups, usability and safety should be fully considered in
+ product design and service delivery, and mechanisms should be established
+ to prevent addiction and excessive dependence.
+ 5.3.18 Mechanisms for the detection, reporting, and response to AI safety
+ incidents should be established. In the event of a major safety incident or
+ an incident that causes personal injury or property damage, or affects social
+ stability, the incident should be promptly reported to the relevant competent
+ authorities in accordance with laws and regulations. Affected users should
+ be notified, and appropriate incident investigation and remediation should
+ be carried out.
+ 5.3.19 When AI models or applications are updated, upgraded, or fine-
+ tuned, or when their functional permissions are adjusted, security
+ assessments should be conducted for material changes to ensure that
+ security capabilities are not degraded as a result of such changes. Rollback
+ capabilities should be retained so that the system can promptly revert to a
+ previous version when necessary.
+ 5.3.20 When AI services featuring anthropomorphic interaction are
+ provided, mechanisms for reminding users of the AI system's identity,
+ reminding users of usage duration, and providing crisis intervention
+ should be improved. Excessive pandering to users, inducing emotional
+
+- 104 -
+                                                   AI Safety Governance Framework 3.0
+
+dependence, and emotional manipulation should be prevented. The
+physical and mental health and personal information security of minors
+should be protected.
+5.4 Safety guidelines for accessing and using AI applications
+5.4.1 Users should raise their awareness of the potential safety risks
+associated with AI applications, and choose applications with a good
+reputation.
+5.4.2 Before an AI application is used, users should carefully review the
+relevant contract or service agreement to understand its functions and
+privacy-related policies and restrictions. Users should also properly
+understand the limitations of AI applications in making judgments and
+decisions, and maintain reasonable expectations for their use.
+5.4.3 Users should raise their awareness of personal information protection.
+Sensitive information should not be entered unless necessary, and personal
+information should be disclosed with caution when agentic AI with internet
+access or memory capabilities is used.
+5.4.4 Users are encouraged to learn about the ways in which AI applications
+process data and the permissions they obtain, and avoid using products
+that are not in conformity with privacy principles.
+5.4.5 While using AI applications, users should be mindful of cybersecurity
+risks so that they would not become targets of cyberattacks.
+5.4.6 The impact of AI applications on minors should be closely monitored,
+and usage time should be reasonably controlled to prevent addiction,
+
+                                                                                                         - 105 -
+      AI Safety Governance Framework 3.0
+ emotional dependence, and excessive use.
+ 5.4.7 Users should identify AI-generated content based on the content
+ identifiers, remain alert to deepfake content, do not readily trust or share
+ unverified suspicious information, and enhance awareness of preventing
+ online fraud and false information.
+
+- 106 -
+                              AI Safety Governance Framework 3.0
+
+Table of AI Safety Risks, Technological Measures and Comprehensive
+                              Governance Measures
+
+              Safety risks                                                    Technological         Comprehensive
+                                                                                measures               governance
+                                                                                                        measures
+ Inherent        Model        Output "hallucinations"                         3.1.1 (a)
+  safety          risks       Unreliable safety mechanisms                    3.1.1 (a)(b)(c)(e)  ·Giving full play to the
+risks of AI                   Injection attack threats                        3.1.1 (b)(c)(d)
+               Algorithm      Unintended behaviors                            3.1.1 (e)           guiding role of technical
+  Safety          risks       Insufficient explainability                     3.1.2 (a)(d)(e)     standards
+risks in the                  Algorithm Bias and discrimination               3.1.2 (b)(d)(e)
+application    Data risks     Poor robustness                                 3.1.2 (c)(d)(e)     ·Establishing an AI safety
+                              Inappropriate content in training data          3.1.3 (b)(c)(d)(f)
+   of AI      Computing       Unclear sources of training data                3.1.3 (b)(d)(f)     assessment system
+              infrastructure  Improper annotation of training data            3.1.3 (c
+                              Data poisoning and contamination                3.1.3 (b)           ·Strengthening safety man-
+               and oper-      Non-compliant data processing                   3.1.3 (a)(d)(f)
+              ating enviro-   Output of inaccurate information                                    agement of AI R&D and
+               nment risks    about individuals                               3.1.3 (b)(c)(d)     application
+                              Deficiencies in synthetic data
+               Agentic AI     Computing power safety risks                    3.1.3 (e)           ·Improving laws and reg-
+                  risks       Component safety risks                          3.1.4 (a)(b)(c)
+                                                                              3.1.4 (a)(b)(c)     ulations for AI safety
+               Embodied       Supply chain safety risks                       3.1.4 (a)(b)
+                 AI risks                                                                         ·Establishing a rapid AI safety
+                              Identity and permission misuse risks            3.2.1 (a)
+                 Cyber-       Reasoning and planning risks                    3.2.1 (c)(d)        risk detection and response
+                security      Invocation and execution risks                  3.2.1 (b)(c)(d)     system
+                              Memory storage risks                            3.2.1 (c)(d)
+                  risks       Environmental perception safety risks           3.2.2 (a)           ·Promoting standardized
+                              Physical actuation safety risks                 3.2.2 (b)(c)
+                              Human-AI interaction safety risks               3.2.2 (b)(c)        application in key sectors
+                              Multi-agent coordination safety risks           3.2.2 (d)
+                              Proliferation of cyberattack capabilities       3.2.3 (a)(b)(c)     ·Establishing a flexible,
+                              Lagging cyber defense capabilities              3.2.3 (d)
+                              Autonomous cyberattack threats                  3.2.3 (a)(b)(c)     dynamic, and controllable
+                              Difficulties in attribution and accountability  3.2.3 (d)           regulatory sandbox mec-
+                                                                                                  hanism
+
+                                                                                                  - 107 -
+AI Safety Governance Framework 3.0
+
+            Information   Output of illegal information               3.2.4 (a)(b)(c)(e)  ·Implementing application
+            and content   Distortion of facts and user deception      3.2.4 (a)(b)(e)
+                          Pollution of online content ecosystem       3.2.4 (a)(b)(c)(e)  classification and safety risk
+                risks     Exacerbation of "information cocoons"       3.2.4 (d)           grading management
+                          effects                                     3.2.4 (b) (d) (e)
+            Safety risks  Value biases                                3.2.5 (a)           ·Promoting traceable mana-
+            to personal   Non-compliant recording of individuals'     3.2.5 (b)
+            information   behavioral information                      3.2.5 (c)           gement of AI-generated
+            rights and    Insufficient compliance safeguards                              synthetic content
+                          Inadequate channels for individuals to      3.2.6 (a)(b)(c)(e)
+              interests   exercise their rights                                           ·Strengthening open-source
+                          Risks to the stable operation of critical   3.2.6 (d)
+            Real-world    information infrastructure                  3.2.6 (a)(b)(c)(e)  ecosystem safety and supply
+            safety risks  Risks arising from mismatches between                           chain safety management
+                          application and needs                       3.2.6 (a)(b)(c)(e)
+                          Misuse for illegal and criminal activities                      · Sharing information on AI
+                          Risks of loss of control over knowledge     3.2.6 (f)
+                          related to nuclear, biological, chemical,   3.3.1 (a)           safety risks
+                          and missile weapons
+                          Risks of manipulating of social cognition                       · Optimizing an AI-driven
+
+                          Disruption of employment structures                             cybersecurity protection
+                                                                                          system
+            Social        Impact on education and suppression         3.3.1 (b)
+            risks         of innovation                               3.3.1 (c)           ·Strengthening governance
+
+                          Risks of social alienation                                      of ethics in AI science and
+                                                                                          technology
+                          Widening the intelligence divide            3.3.1 (a)(b)
+                                                                                          ·Increasing efforts to cul-
+Secondary   Environme-    Challenges to the balance of resource       3.3.2 (a)(b)
+  safety     ntal risks   supply and demand                                               tivate AI safety talent
+                          Challenges to green and low-carbon          3.3.2 (a)(b)
+risks from    Cultural    development                                 3.3.3 (a)(b)        ·Fostering consensus on
+     AI         risks                                                 3.3.3 (a)(b)
+                          Erosion of cultural diversity                                   collaborative response to
+                                                                                          loss-of-control AI risks
+                          Cultural reshaping and intrusion
+                                                                                          ·Enhancing AI safety awar-
+                          Aggravating social bias                     3.3.4 (a)(b)(c)
+                                                                                          eness across society
+            Ethical       Intensifying scientific research ethics     3.3.4 (a)(b)(c)
+             risks        risks                                       3.3.4 (a)(c)(d)     ·Promoting international
+
+                          Risks of emotional dependency                                   exchange and cooperation
+                                                                                          on AI safety governance
+
+                          Emergence of AI "self-consciousness"        3.3.4 (a)(b)(c)
+                          and loss of human control
+
+- 108 -
+                                                   AI Safety Governance Framework 3.0
+
+Appendix 1
+
+ The grading principles for AI safety
+                    risks
+
+Assessing AI safety risks requires consideration of multiple factors. These risks
+can be evaluated and categorized based on dimensions such as the criticality
+of application scenarios, the degree of intelligence, and the application scale,
+allowing for the implementation of targeted safety measures.
+I. Key grading elements
+1. Application scenario
+Application scenario reflects the specific operational environment and target
+requirements of AI systems in practical use. It involves factors such as the
+application's purpose, industry sector, usage environment, service recipients,
+and potential social, economic, and security impacts.
+2. Level of intelligence
+The level of intelligence reflects an AI system's capacity to handle complex
+tasks, fulfill application needs, and operate autonomously. At a low level of
+intelligence, the system's capabilities are limited, and it serves only as a tool
+for providing recommendations, and decisions require human intervention.
+As the level of intelligence increases, the frequency and scope of human
+intervention decrease. At a high level of intelligence, the system operates
+
+                                                                                                         - 109 -
+      AI Safety Governance Framework 3.0
+
+ autonomously, making decisions throughout the entire process without
+ human intervention.
+ 3. Application scale
+ The application scale reflects the reach and influence of an AI system or
+ service. For systems with a limited user base or confined to a single domain,
+ such as internal corporate tools or regional services, the risk impact is
+ relatively controllable. However, when the user base reaches a certain scale
+ or when the system is deeply integrated into critical industry workflows,
+ such as intelligent driver assistance systems, urban management, industrial
+ production scheduling, or industry-level financial risk control models, their
+ security risks can spread rapidly and trigger systemic effects.
+  . Risk levels
+ 1. Low security risk
+ Posing only a minor threat with very limited impact, having virtually no effect
+ on national security, social stability, and citizens' rights, and carrying only
+ minimal potential harm.
+ 2. Moderate security risk
+ Posing a certain degree of threat but with limited scope of impact, and
+ exerting only a minor effect on national security, social stability, and citizens'
+ rights, with potential harm remaining controllable.
+ 3. Considerable security risk
+ Posing a clear threat with local impact, potentially exerting a considerable
+ influence on national security, social stability, and citizens' rights, and causing
+
+- 110 -
+                                                   AI Safety Governance Framework 3.0
+
+local harm at the societal level.
+4. Major security risk
+Posing a significant threat with regional impact, potentially causing serious
+consequences for national security, social stability, and citizens' rights, and
+resulting in major harm at the societal level.
+5. Extremely serious security risk
+Posing a catastrophic and systemic threat, and causing subversive or
+irreversible impacts of exceptional severity on national security, social stability,
+and citizens' rights.
+III. Risk grading
+We should promote the development of national standards for the
+classification and grading of AI application security. Competent (regulatory)
+authorities of the respective industry or sector should, with reference to
+national standards, formulate industry-specific standards, norms, and
+implementation guidelines, and advance classification and grading efforts
+related to the safe application of AI within their respective domains.
+1. National standards for classification and grading
+The classification and grading standards for security risks in AI applications
+clarify the basic workflow for classification and grading, and key grading
+elements such as application scenarios, intelligence levels, and application
+scale. They also outline procedures and methods for developing industry-
+specific guidelines, offering a reference framework for conducting security risk
+classification and grading across various sectors.
+
+                                                                                                         - 111 -
+      AI Safety Governance Framework 3.0
+
+ 2. Industry-specific rules for classification and grading
+ Competent (regulatory) authorities of the respective industry or sector
+ should, based on the specific characteristics of their sector, including usage
+ environments, service recipients, and potential social, economic, and security
+ impacts, formulate standards and norms for AI safety risk classification and
+ grading. This includes:
+ (1) Selecting the appropriate AI safety risk grading elements for the industry
+ or sector, and adapting them to reflect its specific characteristics.
+ (2) Formulating detailed grading rules for security risks for the industry or
+ sector (including grading principles and weighting of elements), to determine
+ the AI safety risk levels.
+ 3. Risk classification and grading
+ Competent (regulatory) authorities of the respective industry or sector should,
+ in accordance with their respective classification and grading standards for
+ AI safety risks, organize relevant AI entities to perform this classification and
+ grading work. They should guide these entities to accurately identify and
+ promptly prevent and resolve major and considerable security risks.
+
+- 112 -
+                                                   AI Safety Governance Framework 3.0
+
+Appendix 2
+
+     Agentic AI risk management
+                framework
+
+As artificial intelligence (AI) evolves, agentic AI has emerged as an
+important form of the technology. It marks a fundamental shift in AI from
+"answering questions" to "performing tasks", providing strong impetus for
+high-quality economic and social development. At the same time, agentic
+AI's high degree of autonomy and extensive permissions can give rise to
+risks such as privacy breaches, unauthorized actions and uncontrolled
+behavior. Effective safeguards are urgently needed.
+This framework examines safety risks associated with large AI models,
+external tools, memory, interaction protocols, and skills used by agentic AI.
+It proposes measures to prevent these risks as a reference for developers,
+providers and users of agent applications.
+I. Safety risks of agentic AI
+Safety risks may arise at every stage of an agent's lifecycle, including
+design, research and development, installation and deployment,
+instruction input, reasoning and planning, invocation and execution,
+memory storage, output generation, and deactivation and
+decommissioning.
+
+                                                                                                         - 113 -
+      AI Safety Governance Framework 3.0
+
+                                               Figure. Agentic AI lifecycle
+
+ 1. Design and development risks
+ (1) Inadequate safety requirements analysis. Safety requirements relating to
+ agentic AI's application scenarios, business processes, risk identification and
+ other areas are not adequately considered, or no requirements analysis is
+ conducted, resulting in safety flaws in products and services.
+ (2) Inappropriate technology selection. Core technologies used in agentic
+ AI, such as large models and development frameworks, are selected without
+ sufficient evaluation. The technologies chosen may not adequately align with
+ actual requirements, potentially disrupting business operations and leading to
+ functionality and performance that fall short of expectations.
+ (3) Inadequate security mechanism design. Security mechanisms are either
+ absent or poorly designed, making it difficult to guard against security risks
+ such as abuse of privileges, data leakage, memory poisoning, and cascading
+ risk propagation.
+ 2. Installation and deployment risks
+ (1) Compromised artifacts and components. Artifacts such as agent installation
+- 114 -
+                                                   AI Safety Governance Framework 3.0
+
+files and container images, as well as the tools and skills they invoke, may
+contain defects, vulnerabilities or backdoors, leading to security incidents such
+as unauthorized operations, data leakage or remote takeover.
+(2) Weak deployment environments. Local deployment environments or
+cloud platforms for agentic AI may lack adequate security capabilities, and
+necessary measures such as access controls and privilege separation may
+not be implemented, allowing risks to spread to other systems and data
+assets.
+(3) Inadequate security testing and evaluation. Security testing and
+evaluation of agentic AI may be insufficient, or canary testing may not be
+conducted, causing security flaws and anomalous versions to go undetected
+in a timely manner.
+3. Instruction input risks
+(1) Prompt injection attacks. Attackers may launch direct attacks by entering
+adversarial prompts, or hide instructions in external documents, emails, web
+pages, logs, messages and other media to induce agents to deviate from their
+intended objectives and perform unauthorized operations.
+(2) Context overflow attacks. Attackers may craft excessively long inputs
+to consume limited context-window capacity, causing agentic AI's built-in
+instructions to be truncated and their safety constraints to become ineffective.
+4. Reasoning and planning risks
+(1) Misinterpretation of intent. Unclear user instructions or incorrect
+interpretation by agentic AI may result in unintended outputs or anomalous
+
+                                                                                                         - 115 -
+      AI Safety Governance Framework 3.0
+
+ behavior, causing the agents to deviate from the users' original objectives.
+ (2) Path deviation. Agentic AI may violate the constraints of the original
+ instructions and deviate from prescribed safe paths, creating security risks such
+ as unauthorized tool use.
+ (3) Goal hijacking. By injecting malicious instructions, poisoning external data or
+ using similar means, attackers may cause agents to deviate from the objectives
+ of their original tasks and carry out malicious operations specified by the
+ attackers.
+ 5. Tool invocation and execution risks
+ (1) Tool poisoning. A tool may be implanted with a backdoor, or a malicious
+ tool may masquerade as a legitimate one, causing agentic AI to perform
+ malicious operations.
+ (2) Unauthorized tool access or execution. Insecure configurations, semantic
+ ambiguities, or similar issues may cause agentic AI to access unauthorized
+ tools, or cause tools to perform operations beyond the scope of their
+ authorization, potentially resulting in serious harm.
+ (3) Tool-selection bias. Manipulative information embedded in tool
+ descriptions may interfere with agentic AI's choice of tools.
+ (4) Poisoned tool-response data. Malicious content may be embedded in
+ data returned by a tool, disrupting the agent's reasoning and planning.
+ (5) Identity spoofing. Attackers may hijack credentials, conduct replay
+ attacks, or use similar means to impersonate agents, thereby gaining a tool's
+ trust and inducing it to perform privileged operations.
+
+- 116 -
+                                                   AI Safety Governance Framework 3.0
+
+(6) Tool hijacking. Attackers may manipulate prompts or use similar methods to
+alter tool-use priorities, tricking agentic AI into selecting wrong tools.
+(7) Resource overload. If limits on the number of tool-invocation rounds,
+concurrency rates and other parameters are not properly configured, agentic
+AI may repeatedly invoke tools in a loop or send excessive requests in batches,
+resulting in resource overload or abnormal exhaustion.
+6. Memory storage risks
+(1) Improper memory retention. Failure to protect long-term memory with
+security measures such as encryption and isolation may result in the leakage
+of sensitive data.
+(2) Memory distortion. Improper compression, updating or merging of
+memories may result in information loss, semantic drift or the entrenchment
+of false memories, leading agentic AI to make incorrect decisions.
+(3) Memory pollution. Agentic AI may write malicious instructions, inaccurate
+information or other content to long-term memory, continuing to affect
+subsequent decisions.
+(4) Memory theft. Unauthorized access to an agent's long-term memory
+may result in the disclosure of specific sensitive information or the theft of
+important data.
+7. Output risks
+(1) Generation of sensitive and illegal content. Agentic AI may output illegal or
+harmful information, sensitive personal information, or false, inaccurate, biased,
+or discriminatory content, disrupting the online ecosystem, leaking sensitive
+
+                                                                                                         - 117 -
+      AI Safety Governance Framework 3.0
+
+ information, or even posing risks to public physical and mental health.
+ (2) Execution of malicious actions. Agentic AI's execution results may involve
+ attacks, leading to system compromise, infringement of user rights, or violations
+ of content compliance requirements.
+ 8. Decommissioning risks
+ (1) Residual services. After an agent is decommissioned, its processes, ports,
+ or network connections may not be fully terminated, or uninstallation may be
+ improper, leading to ongoing unintended background activities such as read/
+ write data operations or network requests.
+ (2) Residual permissions and credentials. After an agent is decommissioned,
+ associated service accounts and API access permissions may not be disabled
+ or revoked in a timely manner, which could be exploited by attackers, leading to
+ unauthorized use of resources, data breaches, or other adverse consequences.
+ (3) Improper data retention. Logs, configurations, audit records, user data, and
+ other assets generated during agentic AI's operation may not be archived or
+ sanitized as required, increasing the risk of data leakage.
+ 9. Other security risks
+ (1) Communication protocol security risks. Agentic AI may use insecure
+ protocols or authentication methods when communicating with models, tools,
+ or other agents, leading to the leakage of data and instructions.
+ (2) Absence of logging. Agentic AI may lack essential logging capabilities,
+ hindering effective incident tracing when a security incident occurs.
+ (3) Escape from security constraints. Agentic AI may exploit vulnerabilities
+
+- 118 -
+                                                   AI Safety Governance Framework 3.0
+
+in execution environment or configuration flaws to bypass security controls,
+leading to uncontrollable behaviors.
+(4) System privilege abuse. AI agents may obtain unnecessary system privileges,
+or an attacker may exploit system vulnerabilities for privilege escalation,
+resulting in over-privileging, unauthorized operations, and other security risks.
+(5) Improper skill management. Non-compliant skill configurations, lack of
+verification mechanisms, or other deficiencies may lead to misuse, abuse,
+system anomalies, or other security issues.
+(6) Data usage beyond authorized scope. Agentic AI may collect excessive
+data or use collected or generated data for unauthorized purposes, leading to
+privacy breaches, data rights infringements, or other adverse impacts.
+II. Risk prevention measures
+1. Pre-deployment risk prevention
+Before an agent is deployed, forward-looking risk assessments should be
+conducted and security control strategies formulated to promptly identify and
+eliminate potential safety risks, thereby preventing agent safety incidents or risk
+escalation.
+(1) Identification of security requirements. Clearly define an agent's application
+scenarios, business processes, accessible resources, and prohibited actions;
+analyze and assess potential threats and security requirements; and establish
+and continuously update a security risk register.
+(2) Safety risk grading. Grade the safety risks of agent operations based on the
+types of targets that may be affected, the severity and scope of the impact, and
+
+                                                                                                         - 119 -
+      AI Safety Governance Framework 3.0
+
+ recoverability.
+ (3) Security control strategies. Use trusted installation artifacts, implement
+ environment isolation and network segmentation according to the deployment
+ method, establish dynamic security control strategies and emergency response
+ procedures, and adopt phased and progressive deployment, gradually
+ increasing an agent's access privileges and autonomy.
+ (4) Validation of security mechanisms. Conduct security testing and assessment
+ of an AI agent and the large models it uses, promptly address identified safety
+ risks, and retain records of version releases and rollbacks.
+ 2. Identity and access management
+ Assign each agent a unique identity and corresponding credentials, allocate
+ task-specific permissions as needed, and strengthen the management of
+ access credentials.
+ (1) Identity management. Assign each agent a unique identity and prohibit
+ identity sharing among agent application instances. Authenticate the identities
+ of users, agent, tools, and external services to ensure that access entities are
+ trustworthy.
+ (2) Permission management. The appropriate boundaries and required
+ permissions should be clearly defined for different decision-making modes,
+ including decisions reserved exclusively for the user, decisions requiring user
+ authorization, and decisions that may be made autonomously by the agent.
+ Grant agents only the minimum privileges necessary for performing the current
+ task and avoid excessive authorization.
+
+- 120 -
+                                                   AI Safety Governance Framework 3.0
+
+(3) Credential management. Utilize standardized dynamic authorization
+credentials to enable mutual recognition and interoperability among relevant
+parties and credentials should be managed in isolation. Credential recipients
+should strictly verify the scope of authorization specified in the credentials, with
+blocking and alerts triggered when the authorized scope is exceeded. Upon
+termination of a task or deactivation of an agent, the corresponding credentials
+should be revoked immediately.
+3. Strengthen human approval
+Set mandatory human approval steps at critical decision points to guard against
+high-risk operations.
+(1) Tiered risk controls. Implement corresponding operational controls based on
+an agent's risk level. Develop a high-risk operation inventory. Prior to executing
+high-risk operations, the agent must hand over control to the user; prior to
+executing medium- or low-risk operations, it must obtain user authorization.
+(2) Human control checkpoints. Implement human controls at critical stages
+of an agent's workflow to ensure humans can review, modify, or terminate
+execution at any time. Critical operations such as file deletion, data transmission,
+and system configuration changes must require secondary confirmation or
+human approval, backed by rollback and revocation capabilities.
+(3) Retention of human approval logs. Preserve human approval records using
+tamper-proof and verifiable methods to prevent unauthorized alteration,
+deletion, or overwriting, and enforce retention periods in compliance with
+relevant requirements.
+
+                                                                                                         - 121 -
+      AI Safety Governance Framework 3.0
+
+ (4) Handling exceptions in human approval. If the human approval system
+ malfunctions, the user does not respond, or no applicable human approval rule
+ is available, the operation should be denied by default to prevent actions from
+ exceeding authorized boundaries.
+ 4. Supply chain and tool management
+ Tools, plugins, skills, and other components on which an agent relies must
+ undergo security and integrity verification to prevent unintended behaviors and
+ supply chain poisoning risks.
+ (1) Tool invocation management. Prior to tool invocation, an agent must verify
+ the tool's version, description, parameter specifications, and metadata, strictly
+ refraining from invoking tools publicly known to be malicious.
+ (2) Fair tool selection. When selecting tools, an agent should follow the principle
+ of fairness and make reasonable selections based on task requirements and
+ tool capabilities.
+ (3) Tool anomaly detection. An agent should inspect tool execution logic and
+ invocation outcomes, taking measures such as triggering alerts or blocking
+ execution upon detecting abnormal deviations.
+ (4) Tool operations and maintenance. Establish a dynamic tool management
+ mechanism and promptly remove tools that are no longer in use, have excessive
+ privileges, remain idle for extended periods, or pose security risks.
+ (5) Skill management. Prioritize the adoption of verified skills from trusted
+ sources that have passed security testing. For unverified skills, appropriate risk
+ prevention measures should be taken before use.
+
+- 122 -
+                                                   AI Safety Governance Framework 3.0
+
+(6) Supply chain security verification. Verify the provenance, integrity, and versions
+of third-party components and external services, continuously track known
+vulnerabilities and supply chain risks, and address them in a timely manner.
+5. Dynamic runtime management
+During the operation of agentic AI, multiple layers of detection and interception
+checkpoints should be established to prevent an anomaly at any single stage
+from causing serious consequences.
+(1) Input management and control. Categorize and prioritize instructions based
+on their sources, verify source authenticity, and automatically intercept malicious
+or non-compliant prompts for human review.
+(2) Establishing safety guardrails. Establish safety rules for task planning, tool
+invocation, and outputs, and take measures such as issuing alerts, imposing
+restrictions, intercepting, suspending, or terminating high-risk or abnormal behaviors.
+(3) Memory retention management. Define memory content, retention windows,
+and access scopes based on processing purposes and necessity, while enforcing
+memory isolation across users and tasks. Credentials and secret keys shall not,
+in principle, be stored in memory. When sensitive personal information must be
+retained, apply dedicated safeguards such as encryption, access controls, and the
+shortest retention period.
+(4) Communication security management. When an agent communicates with
+large models, tools, or other components, the communicating parties should
+mutually authenticate each other's identities and use secure communication
+mechanisms that ensure integrity, confidentiality, availability, and resistance to
+
+                                                                                                         - 123 -
+      AI Safety Governance Framework 3.0
+
+ replay attacks.
+ (5) Autonomous execution control. Set appropriate parameters for agentic
+ AI's execution steps, invocation frequency, execution duration, and resource
+ consumption. In the event of abnormal loops, goal drift, or similar issues, promptly
+ suspend or terminate execution or hand it over for human handling.
+ (6) Runtime environment isolation. Use isolation mechanisms such as sandboxes
+ and containers for high-risk operations, including code execution and tool
+ invocation, and restrict unnecessary access to systems, files, and networks.
+ 6. Continuous monitoring and auditing
+ Conduct end-to-end security monitoring of agents to ensure that their
+ behaviors are observable, traceable, and auditable.
+ (1) Anomaly blocking. Monitor the runtime status of agents in real time. Upon
+ detecting anomalies, take prompt actions such as triggering alerts, intervening,
+ and blocking.
+ (2) Strengthening data management. Data processing should follow the
+ principle of necessity, with only data directly relevant to the task being
+ processed. User consent should be obtained before user data is provided to a
+ large model or a third-party tool, and users should be able to withdraw their
+ consent. Data collected or generated within a territory must be stored within
+ the territory, and cross-border data transfers should comply with relevant
+ national regulations on data security management.
+ (3) Log management. Maintain full-spectrum logs of activities including file
+ operations, instruction execution, network connections, skill invocation, and
+
+- 124 -
+                                                   AI Safety Governance Framework 3.0
+
+transactions and payments. Business data, personal information, and other
+relevant content contained in the logs should be desensitized, and anti-
+tampering measures should be adopted.
+(4) Security auditing. Enforce end-to-end log auditing policies to support
+dynamic runtime monitoring and record relevant operations and processing
+activities during service operation.
+(5) Sandbox environment validation. Establish an independent and isolated
+sandbox runtime environment to conduct closed-loop testing and validation
+prior to official deployment, proactively uncovering execution anomalies, logic
+flaws, and security vulnerabilities.
+(6) Red teaming. Institutionalize regular red teaming mechanisms to
+systematically discover vulnerabilities and logic flaws, continuously validate
+access controls and defense capabilities, and iteratively refine security policies.
+(7) Emergency response plans. Develop emergency response plans for agent
+security incidents, clearly define response procedures and responsible parties
+for incidents at different levels, and handle security incidents and potential
+security risks as required.
+(8) Security validation for major changes. When major changes are made
+to large models, agent frameworks, tools, permissions, or security policies,
+a security impact assessment and necessary regression testing should be
+conducted.
+7. Decommissioning security management
+Establish standardized control mechanisms for shutdown and termination, data
+
+                                                                                                         - 125 -
+      AI Safety Governance Framework 3.0
+
+ disposal, and runtime environment reclamation, ensuring that the entire agent
+ decommissioning process is controllable and traceable and leaves no residual
+ security risks.
+ (1) Complete service shutdown. Upon decommissioning, an agent's primary
+ process, associated background services, and supporting processes must be
+ fully terminated. Process states, active ports, and network connections must
+ be verified item by item. Third-party authorizations must be revoked, and
+ subscriptions and auto-renewals canceled, ensuring the agent fully ceases
+ operation.
+ (2) Essential data backup. Prior to environment sanitization and resource
+ reclamation, back up agent conversation logs, system configurations, knowledge
+ bases, operation logs, and other required data.
+ (3) Deployment environment cleanup. Thoroughly remove residual files, data,
+ account credentials, and other remnants by using official uninstallers, resetting
+ the operating system, disabling public network access, and clearing working files,
+ knowledge bases, plugins, skill configurations, and other resources.
+ As the cognitive and operational capabilities of agentic AI continue to rapidly
+ evolve, emerging risks present ongoing cybersecurity challenges. This framework
+ will undergo continuous updates and refinement to serve as a reference for
+ developers, providers, and users of agent applications.
+
+- 126 -
+                                                   AI Safety Governance Framework 3.0
+
+Appendix 3
+
+      Fundamental principles for
+              trustworthy AI
+
+The implementation of the Global AI Governance Initiative upholds a
+people-centered approach and adheres to the principle of developing AI for
+good. This initiative aims to pool efforts to prevent and address the risk of AI
+technology losing control, and promote the trustworthy application of the
+technology worldwide. We propose the following fundamental principles for
+trustworthy AI:
+1. Ensure ultimate human control
+A human control system should be established at critical stages of AI
+systems to ensure that humans retain the final decision-making authority.
+Measures include designing safety control thresholds, setting safety stop
+switches, and reserving an effective window for human intervention, so
+that AI systems can achieve intended human objectives and do not operate
+uncontrollably without human oversight.
+2. Respect national sovereignty
+In developing and designing AI products and providing AI services, due respect
+shall be given to the sovereignty of the countries where such products and
+services are operated. Applicable laws shall be strictly observed, and regulatory
+
+                                                                                                         - 127 -
+      AI Safety Governance Framework 3.0
+
+ requirements shall be complied with in accordance with the law. AI products
+ or services shall not be used to interfere in the internal affairs, social systems,
+ or social order of other countries. Due respect shall be given to the digital
+ sovereignty of all countries. Each country has the right to independently choose
+ its own path for the development of digital and intelligent technologies, as
+ well as its partners and related products and services, based on its national
+ conditions. No country should be forced to take sides.
+ 3. Align values
+ The common values of humanity--peace, development, fairness, justice,
+ democracy, and freedom--should be deeply integrated into the full life cycle
+ of AI systems.
+ 4. Enhance the transparency of AI systems
+ We should promote the necessary disclosure of AI systems in key aspects,
+ including functional objectives, operational logic, model usage, data
+ sources, and the rationale behind decision-making, to strengthen the
+ foundation of public trust.
+ 5. Promote objective verification
+ An objective, fair, and transparent testing and verification mechanism should
+ be established to enable technical validation of AI systems' functional
+ performance, safety features, and decision-making processes, among others.
+ 6. Strengthen safety protection
+ While designing and deploying AI systems, we should enhance risk
+ modeling, safety testing, and protection mechanism development. We
+
+- 128 -
+                                                   AI Safety Governance Framework 3.0
+
+should also conduct audits and maintain records throughout their full life
+cycle, so that the systems won't deviate from the expected goal due to
+model defects, external attacks, technology abuse, or other problems.
+7. Proactive prevention and response
+We should make active prevention and conduct dynamic monitoring
+through proactive risk identification and assessment. We should also intensify
+emergency response to prevent the occurrence and escalation of incidents
+where AI loses control. We should strengthen safety risk assessments of
+AI models and promote international mutual recognition of assessment
+methods and benchmarks.
+8. Global collaborative governance
+We should support the United Nations in serving as the main channel
+for global AI governance, and leverage the role of platforms such as the
+World Artificial Intelligence Cooperation Organization. We should promote
+multilateral and multiparty collaborative governance across sectors, and
+oppose replacing global governance with small-circle governance. We
+should strengthen capacity building for developing countries. Synergy
+should be forged among governments, enterprises, academic institutions,
+and the general public from various countries, so as to facilitate AI's
+sound development through multi-level and cross-sectoral governance
+mechanisms.
+
+                                                                                                         - 129 -
+      AI Safety Governance Framework 3.0
+
+           Acknowledgements
+
+ Chinese Academy of Cyberspace Studies, Data and Technical Support Center
+ of the Cyberspace Administration of China, National Computer Network
+ Emergency Response Technical Team/Coordination Center of China, Cyber
+ Security Association of China, China Electronics Standardization Institute,
+ Zhongguancun Laboratory, Shanghai Artificial Intelligence Laboratory,
+ Institute of Information Engineering of the Chinese Academy of Sciences,
+ Institute of Computing Technology of the Chinese Academy of Sciences,
+ China Industrial Control Systems Cyber Emergency Response Team, China
+ Electronic Product Reliability and Environment Test Research Institute,
+ China Mobile Research Institute, China Telecom Corporation Limited
+ Beijing Research Institute, Tsinghua University, University of Science and
+ Technology of China, Beihang University, Beijing University of Posts and
+ Telecommunications, Beijing Normal University, Beijing Information Science
+ and Technology University, East China University of Science and Technology,
+ Southwest University of Political Science and Law, Henan University, Baidu
+ Online Network Technology (Beijing) Co., Ltd., DBAPPSecurity Co., Ltd., 360
+ Technology Group Co., Ltd., and Full Truck Alliance.
+
+- 130 -
+

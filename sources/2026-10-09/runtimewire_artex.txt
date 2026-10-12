@@ -1,0 +1,44 @@
+so there's no flash
+ of the wrong palette before React hydrates. Mirrors the useTheme hook
+ (storage key "rw-theme"; classes rw-theme-dark|light|ascii). -->
+ AhnLab finds ARTEX on 600 IPs as police probe South Korean bank breaches 
+ security 
+ AhnLab finds ARTEX on 600 IPs as police probe South Korean bank breaches
+ Yonhap reported on October 6th that AhnLab identified ARTEX instances on about 600 IP addresses worldwide. Police are separately investigating traces linked to attacks on seven financial firms, where data tied to about 68,000 people was exposed. 
+ By Ryan Merket 
+ · Published Oct 6th, 2026, 6:03pm CT 
+ Primary source: The Wall Street Journal 
+ Why it matters
+ The breaches affected seven financial firms, and investigators have not established whether ARTEX was used. A trace on an attack server does not show that an AI agent conducted the intrusion. The exposed customer data and suspected routes through less-protected systems remain immediate risks.
+ South Korea's National Police Agency is investigating ARTEX traces on IP addresses associated with attacks against financial firms. Separately, AhnLab's Security Intelligence Center found about 600 IP addresses worldwide hosting ARTEX instances , according to Yonhap's October 6th report . The global count describes observed hosting; it does not establish that each server was used in an attack or operated by the same group.
+ The breaches affected Shinhan Bank, KB Kookmin Bank, Hana Bank, BNK Busan Bank, Yegaram Savings Bank, Welcome Savings Bank and Hyundai Capital, Yonhap reported. The Wall Street Journal reported that officials put the number of people whose information was stolen at 68,000. A Korea Times account put the figure above 67,000 and said exposed details included names, contact information, resident registration numbers, annual income and loan limits.
+ ARTEX's connection to the attacks remains under investigation. On October 2nd, Yonhap reported that a server believed to have been involved in the Shinhan incident displayed an ARTEX-related Chinese-language page title. At that point, authorities had not confirmed that attackers had actually used the tool. The October 6th report said financial-sector attack IP addresses showed ARTEX traces and that South Korea's National Police Agency was investigating. The forensic clues do not establish that ARTEX autonomously carried out the intrusions or that its developer was involved.
+ The person behind the project
+ The public identity attached to ARTEX is the GitHub account Autumn-27. The repository and the author's public project descriptions show a focus on assembling a complete penetration-testing workflow. They do not verify a personal name, career history or company behind the software.
+ In a project description posted in late July , the account presented ARTEX as a system that takes a defined target and authorized scope, breaks work into tasks, lets agents investigate and execute tools, and makes the process visible to a human operator. The repository README describes a Go backend, a Next.js interface and a multi-agent architecture. Users configure an external language-model provider, including Anthropic or OpenAI, and the system coordinates agents with different roles across reconnaissance, vulnerability checks and attack-path planning. The project also provides an online demo .
+ The workflow is described by the project; the investigation has not established whether or how ARTEX was used in the intrusions - AI explanatory diagram, not documentary evidence. RuntimeWire - AI-generated diagram. 
+ ARTEX attempts to organize and carry out a sequence of testing tasks. The project describes itself as software for learning, code study and local, isolated testing, and warns against testing live systems. Its source code is open under the AGPL-3.0 license. A warning in a README sets out the author's intended use; it cannot ensure that a downloaded or modified copy will be used that way.
+ A server showing ARTEX-related text could indicate that the tool was installed or that its environment was present. It does not show which functions were used, whether they were modified, or whether an AI agent made the decisions attributed to it. Yonhap's October 2nd reporting likewise said actual use in the Shinhan attack had not been verified. The more expansive headline claim that hackers used the Chinese AI tool therefore goes beyond what the described forensic evidence proves.
+ The breaches and their impact
+ The South Korean incidents targeted multiple financial firms in quick succession. The Korea Times reported that attackers appeared to probe less-protected entry points, including systems used by employees, contractors and loan agents, instead of going straight through banks' core networks. It also reported that credential stuffing, which tests previously obtained usernames and passwords against other services, was among the suspected techniques.
+ The suspected entry points raise questions about the security of systems outside the banks' core networks. A tool that automates reconnaissance could help an attacker test more systems faster. That capability does not prove the tool found the vulnerabilities or caused the breaches. The confirmed impact is the exposure of customer information; investigators have not established ARTEX's role.
+ AhnLab's Security Intelligence Center identified roughly 600 IP addresses around the world hosting ARTEX instances, according to Yonhap's October 6th report . That number measures observed instances, not 600 attackers or 600 malicious operations. AhnLab cautioned that open-source tools can be deployed by attackers, legitimate red teams, penetration testers and researchers. The same report said some servers also hosted another security platform, CyberStrikeAI, while warning that shared hosting alone does not prove a common operator or campaign.
+ ARTEX's GitHub author made an offensive-security workflow publicly available and documented an intended local-testing boundary. Investigators are assessing evidence that the software's traces appeared in infrastructure linked to attacks on financial firms. The evidence does not make the project's maintainer an attack suspect or establish that AI performed the intrusions.
+ For financial institutions, the risk does not depend on ARTEX being proven responsible. Seven firms reported breaches, and exposed customer information can create risks of phishing or other follow-on fraud. Authorities have also pointed to the possibility of attackers seeking weaknesses in partner and contractor systems, where controls may differ from a bank's central network. The investigation will determine how the intruders got access and what role, if any, ARTEX played. Until then, the case documents a live breach; it does not demonstrate an AI-led bank attack.
+ Sources
+ Hackers Use Chinese AI Tool to Hit South Korean Banks, Exposing New Risk The Wall Street Journal 
+ Banks' ARTEX traces found on about 600 IP addresses worldwide Yonhap 
+ ARTEX traces found on server in Shinhan Bank incident; use unconfirmed Yonhap 
+ ARTEX project repository GitHub 
+ ARTEX project description GitHub 
+ AI-powered attacks on banks expose technological lag in Korea's financial cyber defenses The Korea Times 
+ Reader comments
+ Conversation for this story loads after sign-in.
+ More from Security
+ Rein Security raises $25M to secure AI agents at runtime 
+ PoeLLM turns exposed AI and developer servers into miners and attack launchpads 
+ Banks fund OSERA to patch the Java versions their systems still run 
+ Linux Foundation gives automotive suppliers an SBOM rulebook for component handoffs 
+ OpenSSH 10.6 disables LZ77 in SSH compression after side-channel research 
+ Wikimedia links OpenAI agents to unauthorized edits and heavy service traffic 
+ See all Security

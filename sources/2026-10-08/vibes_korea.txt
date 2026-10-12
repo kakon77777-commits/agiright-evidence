@@ -1,0 +1,99 @@
+AI agents used in cyberattacks targeting South Korean banks, CrowdStrike says | World | The Vibes 
+ Sections
+ Malaysia 
+ Business 
+ World 
+ Opinion 
+ Sports & Fitness 
+ Culture & Lifestyle 
+ Podcast 
+ Education 
+ Videos 
+ Gallery 
+ About
+ The Team 
+ Contact Us 
+ Advertising 
+ Privacy Policy 
+ Terms of Use 
+ About Us 
+ Get the app
+ Follow us on
+ Malaysia
+ Business
+ World
+ Opinion
+ Sports & Fitness
+ Culture & Lifestyle
+ Podcast
+ Education
+ Videos
+ Gallery
+ -->
+ World 
+ AI agents used in cyberattacks targeting South Korean banks, CrowdStrike says
+ Cybersecurity firm CrowdStrike says an attacker used a Chinese-developed AI agent and Anthropic’s Claude Code in a campaign targeting at least nine South Korean banks
+ Updated 1 hour ago · Published on 08 Oct 2026 5:35PM
+ The breaches raise fresh concerns over the use of AI to automate cyberattacks - October 8, 2026 
+ AN attacker targeting South Korea’s financial sector used a Chinese-developed AI agent alongside Anthropic’s Claude Code, cybersecurity firm CrowdStrike said, highlighting growing concerns over how AI tools are being used to support cyberattacks.
+ CrowdStrike said it uncovered personal details potentially linked to the suspected attacker while analysing AI coding-tool sessions and infrastructure associated with a campaign targeting South Korean financial institutions from late September to early October.
+ The firm said the suspect may be a 26-year-old based in Guangdong province, but stressed that the activity had not been attributed to a named adversary.
+ “While this activity has not been attributed to a named adversary, the threat actor is likely a Chinese speaker and financially motivated,” Reuters reported CrowdStrike saying.
+ “This assessment is made with moderate confidence based on the use of the Chinese-developed tool ARTEX and observed Chinese-language prompts.”
+ CrowdStrike said the individual used ARTEX, a recently released open-source AI agent for automated penetration testing, together with large language models including Claude.
+ The attacker also asked Claude where threat actors typically sell Korean data breach information and sought assistance in locating Korean Telegram groups involved in data sales, according to the report.
+ In another Claude session, the person requested a security researcher resume containing details including a Telegram account, age, educational background and a location in Maoming, a city in southern China’s Guangdong province. CrowdStrike said the information likely belonged to the attacker.
+ A man who answered a phone number provided by CrowdStrike said he had no knowledge of the matter.
+ Anthropic, South Korean police and China’s Foreign Ministry did not immediately respond to requests for comment.
+ ARTEX is an open-source AI agent published on GitHub this year by a Chinese security engineer using the handle Autumn. It is not a standalone large language model but connects to external models such as ChatGPT, Claude and DeepSeek to assist organisations in testing network vulnerabilities.
+ The tool’s GitHub page says it is intended for personal learning, code research and local technical verification and should not be used to conduct real-world testing against online systems or websites.
+ At least nine South Korean banks have disclosed or been reported by local media to have been targeted in cyberattacks since late September, prompting South Korean police to launch an investigation this week.
+ President Lee Jae Myung has also called for robust response measures.
+ Shinhan Bank said last week that personal information belonging to about 25,000 customers had been compromised, while KB Kookmin Bank said personal information belonging to 119 customers had been leaked.
+ The case is likely to intensify scrutiny of AI agents and whether organisations are adequately prepared to defend their systems against increasingly automated attacks.
+ Australia said last month that an autonomous AI agent breached a government health statistics portal in June, in one of the first publicly known cases of an AI agent being used to hack a government system. - October 8, 2026
+ Popular 
+ Trending 
+ Spotlight
+ Malaysia 
+ Nhaveen murder trial: Accused admits taunting victim but denies fatal assault
+ Malaysia 
+ MCMC probes alleged AI sexual abuse targeting Kedah pupils, teachers
+ Malaysia 
+ Anwar checks final preparations for Budget 2027
+ Malaysia 
+ Sarawak election could be called within weeks of Budget 2027
+ Malaysia 
+ Anwar contacts Prabowo over ‘alarming’ transboundary haze
+ Malaysia 
+ King calls for schools in haze-hit areas to close
+ Malaysia 
+ Parents worry over children’s exposure as haze worsens
+ By Alfian Z.M. Tahir
+ You may be interested
+ World 
+ Trump to speak with Putin over reported plague death in Russia
+ World 
+ Three years after Oct 7, Israeli trauma still shapes attitudes towards Gaza
+ World 
+ 59,275 hotspots turn South Sumatra into haze hotspot as respiratory cases surge
+ Malaysia 
+ Business 
+ World 
+ Opinion 
+ Sports & Fitness 
+ Culture & Lifestyle 
+ Podcast 
+ Education 
+ Videos 
+ Gallery 
+ The Team 
+ Contact Us 
+ Advertising 
+ Privacy Policy 
+ Terms of Use 
+ About Us 
+ Petra Group
+ Getaran.my
+ Get the app
+ &copy; 2026 Copyright. All rights reserved. The Vibes Dotcom Sdn Bhd (1378707-W)

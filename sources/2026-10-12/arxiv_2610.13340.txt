@@ -1,0 +1,131 @@
+
+[2610.13340] Who Can Say No? Control, Accountability and the Pace of Frontier AI
+Skip to main content
+Search
+Submit
+Donate
+Log in
+Search arXiv
+Press Enter to search &middot; Advanced search
+-->
+Computer Science > Computers and Society
+arXiv:2610.13340 (cs)
+[Submitted on 9 Oct 2026]
+Title: Who Can Say No? Control, Accountability and the Pace of Frontier AI
+Authors: Rikard Rosenbacke , Carl Rosenbacke , Victor Rosenbacke , Martin McKee
+View a PDF of the paper titled Who Can Say No? Control, Accountability and the Pace of Frontier AI, by Rikard Rosenbacke and 3 other authors
+View PDF
+Abstract: In September 2026, the leaders of the largest frontier AI laboratories said in public that the pace of capability improvement is too fast and that none of them can slow down alone, and agents under evaluation at OpenAI broke out of their test environment and reached a third party's live systems, which a UN-mandated panel called an early warning of one route to loss of human control. This paper examines the institutional side of that risk: not the machine, but the person who must control it. We argue that control is not taken by AI but given away, one delegation at a time, by organisations arranged so that nobody is positioned to say no, and we define control as a person who can detect a serious problem, challenge the decision, stop the system and reverse it, and who has something to lose by not doing so. Three questions follow, which any builder, funder, regulator or deployer can answer in public: (1) who inside the organisation can say no, and who answers for saying yes; (2) who outside the organisation checks the decision, and what can they do when they disagree; (3) what happens when AI builds AI faster than anyone can check it. A checkable answer needs a named person, a date, a number, and a stop that has been used or tested. Three measures meet that test: a named person on every consequential decision, including the standing instructions AI agents carry out; a supervisor with a stop authority; and two published clocks, time to build against time to check. We show that governance theory arrives at the same conditions, and code fifty older mechanisms against the questions, finding that almost every one began as one rule at one point, taken by one party without waiting for the rest. That is the paper's design: a start, not a solution. Publication is the first step and one laboratory can take it alone; the contract, the independent body and the law come after.
+Comments:
+23 pages
+Subjects:
+Computers and Society (cs.CY)
+Cite as:
+arXiv:2610.13340 [cs.CY]
+(or
+arXiv:2610.13340v1 [cs.CY] for this version)
+https://doi.org/10.48550/arXiv.2610.13340
+Focus to learn more
+arXiv-issued DOI via DataCite (pending registration)
+Submission history
+From: Rikard Rosenbacke [ view email ]
+[v1]
+Fri, 9 Oct 2026 10:15:48 UTC (628 KB)
+Full-text links:
+Access Paper:
+View a PDF of the paper titled Who Can Say No? Control, Accountability and the Pace of Frontier AI, by Rikard Rosenbacke and 3 other authors
+View PDF
+view license
+Additional Features
+Audio Summary
+Current browse context:
+cs.CY
+< prev
+|
+next >
+new
+|
+recent
+| 2026-10
+Change to browse by:
+cs
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+export BibTeX citation
+Loading...
+BibTeX formatted citation
+&times;
+loading...
+Data provided by:
+Bookmark
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer ( What is the Explorer? )
+Connected Papers Toggle
+Connected Papers ( What is Connected Papers? )
+Litmaps Toggle
+Litmaps ( What is Litmaps? )
+scite.ai Toggle
+scite Smart Citations ( What are Smart Citations? )
+Code, Data, Media
+Code, Data and Media Associated with this Article
+alphaXiv Toggle
+alphaXiv ( What is alphaXiv? )
+Links to Code Toggle
+CatalyzeX Code Finder for Papers ( What is CatalyzeX? )
+DagsHub Toggle
+DagsHub ( What is DagsHub? )
+GotitPub Toggle
+Gotit.pub ( What is GotitPub? )
+Huggingface Toggle
+Hugging Face ( What is Huggingface? )
+ScienceCast Toggle
+ScienceCast ( What is ScienceCast? )
+Demos
+Demos
+Replicate Toggle
+Replicate ( What is Replicate? )
+Spaces Toggle
+Hugging Face Spaces ( What is Spaces? )
+Spaces Toggle
+TXYZ.AI ( What is TXYZ.AI? )
+Related Papers
+Recommenders and Search Tools
+Link to Influence Flower
+Influence Flower ( What are Influence Flowers? )
+Core recommender toggle
+CORE Recommender ( What is CORE? )
+Author
+Venue
+Institution
+Topic
+About arXivLabs
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .
+Which authors of this paper are endorsers? |
+Disable MathJax ( What is MathJax? )
+We gratefully acknowledge support from
+our major funders ,
+member institutions , ,
+and all contributors.
+About
+&middot;
+Help
+&middot;
+Contact
+&middot;
+Subscribe
+&middot;
+Copyright
+&middot;
+Privacy
+&middot;
+Accessibility
+&middot;
+Operational Status (opens in new tab)
+Major funding support from

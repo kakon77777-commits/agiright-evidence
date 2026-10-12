@@ -1,0 +1,126 @@
+
+Zero Day Initiative — Pwn2Own Ireland 2026 - Day One Results
+About
+How It Works
+FAQ s
+Blog
+Advisories
+Sign Up
+Log In
+About
+How It Works
+FAQ s
+Blog
+Advisories
+Sign Up
+Log In
+Find us on
+Blog
+Pwn2Own Ireland 2026 - Day One Results
+October 06, 2026
+Dustin Childs
+Welcome to Day One of Pwn2Own Ireland 2026! Today, 21 entries took the Pwn2Own stage to target multiple categories - including multiple Samsung attempts and our first Pixel entry.
+Follow the action live! We’ll be posting real-time updates and results throughout the competition on our blog and across social media. Stay up to date by following us on Twitter , Mastodon , LinkedIn , and Bluesky , and join the conversation using #Pwn2Own Ireland and #P2OIreland for continuous coverage.
+Here are the results of Day One:
+FAILURE - Unfortunately, Ikotas Labs, Inc. (@ikotas00) could not get their exploit of the Brother MFC-L8970CDWworking within the time allotted.
+Ikotas Labs, Inc. ( @ikotas00 ) targeting the Brother printer
+SUCCESS - @_McCaulay combined an OOB Write and a format string(!) bug to exploit the #Sonos Era 300. He earns $50,000 and 5 Master of Pwn points.
+McCaulay Hudson displays his successful exploit
+SUCCESS - Taisic Yun (@taisic_) of Xint (@xint_official) used an Improper Input Validation bug along with code injection to get his reverse shell on LiteLLM. He earned $40,000 and 4 Master of Pwn points.
+Xint focuses on his LiteLLM exploit
+FAILURE - Printers continue to prove to be a time challenge as unfortunately Hyeop Jung (@hyoub9un), Hyunwoo Kim (@hwhw_kr), Jinyoung Choi (@hmema_), and Jihun Lee (@dyrandy_) of Team T-X Lab team (@TX_Lab_) hit the time limit on their exploit attempt of Lexmark CX532adwe in the Printers category.
+SUCCESS / COLLISION - Nguyen Thanh Dat (@rewhiles) of Viettel Cyber Security (@vcslab) used 4 bugs to exploit the Samsung Galaxy S26, but 3 were known by the vendor. They still earn 31,250 and 3.25 Master of Pwn points.
+Team Viettel shows their access to the Samsung handset
+SUCCESS / COLLISION - Another bug collision! linhlhq (@linhlhq) and Son Dinh (@_sondt_) of VinSOC exploited the #Sonos Era 300 with 2 bugs, but one was publicly known. They still earn $17,500 and 3.5 Master of Pwn points.
+VinSOC took over the Sonos, but one bug was publicly known
+SUCCESS / COLLISION - Another Collision 💥 4 bugs - 3 collisions & 1 zero-day successfully exploit the Samsung Galaxy S26 and Interrupt Labs (@InterruptLabs) takes home $15,750 and 3.25 Master of Pwn points.
+FAILURE - The Garmin Index BPM withstood Aaron Christophel (@ATC1441) of Summoning Team (@SummoningTeam) targeting as exploit attempts were unsuccessful before the clock ran out.
+SUCCESS -
+A slam dunk success with 7 zero-days bugs disclosed from Vũ Chí Thành (@vcth4nh) and Huỳnh Đức Tin (
+@ductinm
+) of VinSOC during their exploit of Philips Hue Bridge Pro in the Smart Home category, taking home a total of $40,000 and 4 Master of Pwn points #Pwn2Own
+SUCCESS / COLLISION -
+Out of Bounds (
+@oobs_io
+) results are confirmed as a Collision! HaeJung Yang (
+@haehaeYang
+), and ByungYoung Yi (
+@yibarrack
+) used 4 bugs - 2 of which were previously known. They still take home $15k and 3 Master of Pwn points in their exploit of LiteLLM in the #AIInfrastructure category.
+SUCCESS - Confirmed! Thanh Do (
+@nyanctl
+) of Team Confused showed no confusion at all as he used a single use-after-free on the Lexmark CX532adwe to win $20,000 and 2 Master of Pwn points.
+SUCCESS / COLLISION - Confirmed (w/ a collision)! Ikotas Labs, Inc. used 4 bugs to exploit the #Samsung Galaxy S26, but one was already known to the vendor (yet unpatched). They still earn $11,000 and 4.5 Master of Pwn points.
+FAILURE - Unfortunately, Mikhail Evdokimov (
+@konatabrk
+), Polina Smirnova (
+@moe_hw
+) and Mate Zombor (
+@r4bbit_zm
+) of White Noise Club could not get their exploit of the Google Pixel 10 working within the time allotted. #Pwn2Own
+SUCCESS / COLLISION - It seems to be a day for collisions. ByungYoung Yi (
+@yibarrack
+), and KeunHo Kim (
+@gn0sis__
+) of Out of Bounds (
+@oobs_io
+) used 5 bugs to exploit the Phillips Hue Bridge Pro, but 4 of those bugs were previously known. They still earn $12,000 and 2.5 Master of Pwn points. #Pwn2Own
+SUCCESS - Confirmed! Sina Kheirkhah (
+@SinSinology
+) of Summoning Team used a single bug to exploit the Lexmark CX532adwe printer. The second round win nets him $10,000 and 2 Master of Pwn points. #Pwn2Own
+SUCCESS - Verified! Nam Nguyen (
+@namberinos
+), Thanh Vu (
+@vcth4nh
+), and Tin Huynh (
+@ductinm
+) of VinSOC combined 5 bugs to exploit the #Oracle Autonomous AI Database. They win $40,000 and 4 Master of Pwn points. Outstanding work!
+SUCCESS - Confirmed! Ikotas Labs, Inc. used a single argument injection bug to exploit OpenAI Codex. They win $40,000 and 4 more Master of Pwn points. More outstanding research on display.
+FAILURE - Unfortunately, the team of Nam Nguyen (
+@namberinos
+) and Thai Son Dinh (
+@ sondt
+) and Hoang Tien Minh (
+@cr0nica1
+) of VinSOC couldn't get their exploit of Chroma working within the time allotted.
+SUCCESS - Verified! The 1st full win the the Wellness category has Interrupt Labs (
+@InterruptLabs
+) using an OOB Read and an OOB Write to exploit the Garmin Index BPM. They win $20,000 and 2 Master of Pwn points.
+SUCCESS / COLLISION - Ending Day 1 with collisions seems apropos. Joohyun Park (
+@cdor1
+) of Xint (
+@xint_official
+) used 5 different bugs in his exploit of the Philips Hue Bridge Pro, but 4 were previously known. His 3rd round success still nets him $6,000 and 2.5 Master of Pwn points. #Pwn2Own
+Pwn2Own
+Stand at the front line of proactive security
+TrendAI™ ZDI connects the experts who discover, remediate, and defend.
+Add your voice to the work that pushes attackers back.
+RESEARCHERS
+Submit a vulnerability
+VENDORS
+Learn how it works
+ORGANIZATIONS
+See how you're protected
+Find us on
+©2026 TrendAI™ Zero Day Initiative™ (ZDI).
+All rights reserved.
+General inquiries
+zdi@trendmicro.com
+Media inquiries
+media_relations@trendmicro.com
+Sensitive email communications
+PGP key
+Who We Are
+Our Mission
+TrendAI™
+TrendAI Vision One™
+How It Works
+Process
+Researcher Rewards
+FAQs
+Privacy
+Advisories
+Published Advisories
+Upcoming Advisories
+RSS Feeds
+Blog

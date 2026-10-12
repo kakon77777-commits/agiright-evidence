@@ -1,0 +1,304 @@
+ Anthropic's Claude model made bogus murder tip-off to US police - ABC News
+Skip to main content Skip to news navigation, settings and search Explore the ABC
+More from ABC
+Close menu
+ABC ABC News
+ABC iview
+ABC listen
+Kids & Students
+Indigenous
+Information & Services
+Editorial Policies
+Read our editorial guiding principles
+Follow the ABC
+news
+iview
+listen
+Loading
+ABC News Just In
+For You
+Politics
+World
+Business
+Analysis
+Sport
+Lifestyle
+Entertainment
+Quizzes
+More
+Search
+News Home
+Just In
+For You
+Analysis
+Rural
+Watch Live
+Health
+Indigenous
+Politics
+Science
+Deep Time
+Elections
+World
+Environment
+Investigations
+Business
+Local news
+Quizzes
+Sport
+AFL
+NRL
+Football
+Tennis
+Cricket
+Netball
+Lifestyle
+Wellbeing
+Relationships & Family
+Food & Recipes
+Personal Finance
+Home & Garden
+Entertainment
+TV & Movies
+Books
+Music
+Pop Culture
+Arts
+Facebook
+YouTube
+Instagram
+Twitter
+Emergency
+Backstory
+Newsletters
+中文新闻
+BERITA BAHASA INDONESIA
+TOK PISIN
+Appearance (BETA)
+Follow system settings
+Select an option
+Always light
+Always dark
+Follow system settings
+ABC iView
+ABC Listen
+ABC News
+News Home
+Anthropic's Claude model made bogus murder tip-off to US police
+Share Share article
+Anthropic's Claude model made bogus murder tip-off to US police
+T
+By Tessa Flemming
+Topic: AI
+Posted Mon 12 Oct 2026 at 1:43pm Mon 12 Oct 2026 at 1:43pm Mon 12 Oct 2026 at 1:43pm
+The Claude chatbot made the tip-off in July. ( Reuters: Bastiaan Slabbers )
+abc.net.au/news/anthropic-claude-ai-model-false-murder-tip-off-explained/107254596
+Link copied
+Share Share article
+An AI model submitted a false murder tip to US police in the latest incident of rogue chatbot behaviour.
+Anthropic's Claude communicated the bogus tip to Philadelphia authorities despite instructions not to create accounts or submit anything destructive.
+While the breach was discovered on September 28, authorities were not notified for another nine days.
+It has left the White House and experts demanding more transparency, with one arguing the sector needs to prove it is capable of "basic cybersecurity".
+Here's what we know so far.
+How did this happen?
+The event occurred on July 18, with a submission made to the official website, PhillyUnsolvedMurders.com.
+The tip was received on the PhillyUnsolvedMurders.com webpage. ( Supplied: Philadelphia Police Department )
+The tip purported to have come from someone who might have information about a case, according to a Philadelphia police statement.
+It was flagged as spam and was never forwarded to police for investigation.
+There was "no indication" the chatbot accessed police data, the statement said.
+Police were then notified by Anthropic about the tip before the company released a statement on October 8.
+Someone used AI to create a book about me and sold it online
+Cam Wilson, who is the ABC's AI reporter, recently discovered an AI-generated book about him and a book he wrote.
+Anthropic said it discovered the false claim on September 28.
+In its statement, Anthropic said Claude Haiku 4.5 had been performing tasks "on randomly selected webpages" but not actively "trying to mislead anyone".
+The tip-off from Claude read as follows, according to Anthropic :
+"I may have information regarding this case. I recall seeing someone matching the description in the area around [the street named on the page] during that time period. Please contact me if this information is relevant."
+The chatbot left the name and contact fields empty and submitted.
+It was instructed to never "submit anything" destructive, but the instructions did not rule out form submissions.
+Following the police statement, Anthropic said it reported the tip-off "as soon as our technical review was complete".
+It said it had since updated Claude's guardrails.
+The older version of Claude was told not to "submit anything destructive". ( Four Corners: Mark Hiney )
+What are White House officials saying?
+Anthropic contacted Donald Trump's recently formed AI task force, called the Super Intelligence Force, about the event.
+US Federal Trade Commission director of public affairs Joe Gabriel Simonson said the new task force expected "immediate and full transparency to the entities involved and the public".
+"We expect Anthropic and all companies to honor their obligations, immediately report incidents, fully cooperate with federal and state law enforcement authorities, remedy any damage, and implement concrete safeguards to ensure these failures do not reoccur," he said on X, matching a task force statement shared to Axios .
+Australia could adapt airline and bank laws for AI safety
+The federal government is looking to banking and aviation regulation as it develops laws that would make AI companies demonstrate they can identify and manage risks.
+"Our message to all SI [Super Intelligence] companies is clear: delayed notification, inadequate corrective action, and a failure to take responsibility will not be tolerated."
+The Philadelphia police department said all tip-offs were vetted by a human but that "unsolved cases involve real victims" and "grieving families".
+"The company must strengthen its safeguards to prevent similar incidents from impacting city systems without the city's knowledge," it said.
+"The two-month delay in detecting and reporting the incident to the city is unacceptable."
+Failures are 'fundamental', expert says
+Prime Minister Anthony Albanese last month revealed an OpenAI agent hacked into an Australian Medicare data portal earlier this year, as well as NSW government websites.
+University of New South Wales AI Institute chief scientist Toby Walsh said the Anthropic tip-off showed OpenAI was not alone, calling it "incompetency" on the industry's part.
+Toby Walsh says AI companies need to "fear" they will be prosecuted if such behaviour continues. ( AP: Patrick Sison )
+"The failures are again fundamental," he said.
+"Why did Anthropic not have basic oversight of what their agents were doing? Why did Anthropic give their agents more than minimal permissions to do their assigned tasks?
+"This is basic stuff. You only give an agent the minimal permissions needed to do their task. Why then did it have permission to submit a police report?"
+More on AI
+As One Nation looms over Victoria's election, voters ask chatbots for poll info
+P
+Analysis by Patricia Karvelas
+As One Nation looms over Victoria's election, voters ask chatbots for poll info
+P
+Analysis by Patricia Karvelas
+Tasmanians expressed doubts about AI firm Firmus, now so have investors
+Analysis by Ashleigh Barraclough
+Tasmanian EPA says it was not told extent of Firmus data centre generator plans
+Topic: Data Centres
+Someone used AI to create a book about me and sold it online
+Topic: AI
+Professor Walsh said it spoke "to the carelessness of the AI companies" as he urged for independent oversight "with teeth".
+"They've been warning that they might lose control of their AI models. Well, it's clear that they have," he said.
+"But not for the reasons that they feared, that the models would become too capable, but because the companies and the people within them proved incapable of performing basic cybersecurity."
+Top OpenAI boss on hack apology tour 'can't explain' Australian AI distrust
+OpenAI's chief strategy officer, Jason Kwon, made his first public appearance in Sydney since the hack, saying he could not explain why Australians distrust AI.
+Torrens University Australia AI professor Seyedali Mirjalili said it showed the systems were becoming so complex that even "developers struggle to predict their behaviour".
+That could mean a "harmless goal" did not necessarily "guarantee harmless behaviour".
+"Even when an AI system's goal is harmless or beneficial, its actions can cross ethical and legal red lines," he said.
+"An agent gathering information or completing a test can gain unauthorised access to a service or submit fabricated information to authorities."
+Professor Mirjalili called for the sector to be more proactive in auditing systems, with clear deadlines for notifying authorities and those affected.
+"As AI systems become more autonomous, we need to be clear about who remains responsible when something goes wrong," Professor Mirjalili said.
+"The companies developing and deploying these systems are still responsible for testing them, monitoring their actions and reporting serious incidents.
+" Calling an agent autonomous should not become a way to avoid that responsibility. "
+How is Australia regulating AI?
+Digital Rights Watch head of policy Tom Sulston said the false tip-off came about because "Anthropic were failing to follow good software development practices by testing their agents on the public internet".
+"It's not acceptable for AI corporations to release untested code out into the world where it can cause all sorts of problems for other people," he said.
+Anthony Albanese has suggested UN leaders need to work together on AI. ( ABC News: Adam Kennedy )
+He said the AI sector needed to demonstrate it was "responsible corporate citizens".
+"We have plenty of evidence that they're taking shortcuts around the reliability and safety of their products, so it's important that we're able to hold them to account for these failings," Mr Sulston said.
+"We need the Australian government to adopt mandatory AI standards that require big tech to disclose which datasets they use to train their AI systems so the relevant regulators can enforce Australian copyright, safety and privacy laws.
+"We also need AI corporations to follow standards around mandatory reporting of failures, as well as demonstrating adherence to good software development practices."
+The federal government is finalising plans to regulate AI , which could make companies prove they are properly testing models.
+Share options
+Copy link
+Facebook
+X (formerly Twitter)
+See more ABC coverage in your search results
+Make ABC a preferred source in Google
+Promotion
+Top Stories
+Australian man agrees to plead guilty to one charge over Thai teen's death
+Topic: Courts
+Penny Wong urges Palestinian Authority to hold elections 'without delay'
+Topic: Federal Government
+Behind Trump's war of words on Ukraine is a worrying threat
+L
+Analysis by Laura Tingle
+AI boom could widen income inequality, Labor MP warns
+Topic: Federal Government
+Australia sets South Africa 421 to win after explosive Cummins cameo
+LIVE
+Popular now
+Australia sets South Africa 421 to win after explosive Cummins cameo
+LIVE
+Behind Trump's war of words on Ukraine is a worrying threat
+L
+Analysis by Laura Tingle
+Australian man agrees to plead guilty to one charge over Thai teen's death
+Topic: Courts
+Related topics
+AI
+Information Technology Industry
+Internet
+United States
+Top Stories
+Australian man agrees to plead guilty to one charge over Thai teen's death
+Topic: Courts
+Penny Wong urges Palestinian Authority to hold elections 'without delay'
+Topic: Federal Government
+Behind Trump's war of words on Ukraine is a worrying threat
+L
+Analysis by Laura Tingle
+AI boom could widen income inequality, Labor MP warns
+Topic: Federal Government
+Australia sets South Africa 421 to win after explosive Cummins cameo
+LIVE
+Just In
+AI boom could widen income inequality, Labor MP warns
+Topic: Federal Government
+Mon 12 Oct 2026 at 10:45pm Mon 12 Oct 2026 at 10:45pm Mon 12 Oct 2026 at 10:45pm
+Australians in Riyadh told to shelter as Saudis and Houthis trade attacks
+Topic: Unrest, Conflict and War
+Mon 12 Oct 2026 at 10:47pm Mon 12 Oct 2026 at 10:47pm Mon 12 Oct 2026 at 10:47pm
+Molly Ticehurst's killer intends to appeal murder sentence
+Topic: Courts
+Mon 12 Oct 2026 at 10:10pm Mon 12 Oct 2026 at 10:10pm Mon 12 Oct 2026 at 10:10pm
+American professors Hall and Woodford win Nobel economics prize
+Topic: Awards and Prizes
+Mon 12 Oct 2026 at 10:59pm Mon 12 Oct 2026 at 10:59pm Mon 12 Oct 2026 at 10:59pm
+More Just In
+Back to top
+ABC News Contact ABC News
+Your home of Australian stories, conversations and events that shape our nation.
+This service may include material from Agence France-Presse (AFP), APTN, Reuters, AAP, CNN and the BBC World Service which is copyright and cannot be reproduced.
+Follow ABC News
+Sections
+ABC News Home
+Just In
+For You
+Watch Live News
+Live ABC NewsRadio
+Politics
+Elections
+Australia
+World
+Sport
+Live Sport
+Rural
+Business
+Analysis
+Science
+Health
+Lifestyle
+Entertainment
+Quizzes
+More Topics
+News in Language
+Chinese 中文
+Tok Pisin
+Berita Bahasa Indonesia
+Related
+ABC News app
+Local News
+ABC Emergency
+ABC Indigenous
+ABC Religion & Ethics
+ABC Asia
+ABC Pacific
+Music & Audio
+ABC Listen Home
+triple j
+Live Radio
+Movies & TV
+ABC iview Home
+List of ABC Shows
+Live TV
+TV Guide
+Kids & Students
+BTN
+Education
+Heywire
+Takeover
+ABC Kids
+Get the ABC News AM newsletter
+Get the latest ABC News delivered to your email inbox
+Email address
+Subscribe
+Your information is being handled in accordance with the ABC Privacy Collection Statement .
+All ABC newsletters
+Stay informed and connected with the ABC. Covering a wide range of topics and brands including News, iview, listen, and more.
+Browse all ABC newsletters
+ABC home Information & Services
+Editorial Policies
+Accessibility
+Help
+Contact Us
+Commercial
+Careers
+About the ABC
+Privacy Policy
+Terms of Use
+© 2026 ABC
+Follow the ABC
+We acknowledge Aboriginal and Torres Strait Islander peoples as the First Australians and Traditional Custodians of the lands where we live, learn and work.

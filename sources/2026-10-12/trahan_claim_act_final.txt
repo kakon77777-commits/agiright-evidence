@@ -1,0 +1,296 @@
+G:\M\19\TRAHAN\TRAHAN_055.XML
+
+119TH CONGRESS                                           .....................................................................
+     2D SESSION                                                  (Original Signature of Member)
+
+                                H. R. ll
+
+To establish liability for injuries to non-users caused by artificial intelligence,
+                                 and for other purposes.
+
+       IN THE HOUSE OF REPRESENTATIVES
+
+   Mrs. TRAHAN introduced the following bill; which was referred to the
+                Committee on llllllllllllll
+
+                 A BILL
+
+   To establish liability for injuries to non-users caused by
+         artificial intelligence, and for other purposes.
+
+1  Be it enacted by the Senate and House of Representa-
+
+2 tives of the United States of America in Congress assembled,
+
+3 SECTION 1. SHORT TITLE.
+
+4  This Act may be cited as the ``Clear Liability for Ar-
+
+5 tificial Intelligence Misconduct Act'' or the ``CLAIM Act''.
+
+6 SEC. 2. DEFINITIONS.
+
+7  (a) ARTIFICIAL INTELLIGENCE.--The term ``artifi-
+
+8 cial intelligence'' has the meaning given such term in sec-
+
+g:\VHLD\100526\D100526.012.xml  (1078762|6)
+
+              October 5, 2026 (12:18 p.m.)
+
+VerDate Nov 24 2008 12:18 Oct 05, 2026 Jkt 000000 PO 00000 Frm 00001 Fmt 6652 Sfmt 6201 C:\USERS\LMANDERSON\APPDATA\ROAMING\SOFTQUAD\XMETAL\11.0\GEN\C\TRAHA
+G:\M\19\TRAHAN\TRAHAN_055.XML
+
+                                             2
+
+1 tion 5002 of the National Artificial Intelligence Initiative
+
+2 Act of 2020 (15 U.S.C. 9401).
+
+3   (b) DEVELOPER.--The term ``developer'' means a
+
+4 person that performs the initial training of an artificial
+
+5 intelligence system.
+
+6   (c) FINE-TUNING.--The term ``fine-tuning'' means
+
+7 adjusting the model weights of a trained artificial intel-
+
+8 ligence system by exposing it to additional data.
+
+9   (d) NON-USER.--The term ``non-user'' means , with
+
+10 respect to an injury caused by an artificial intelligence sys-
+
+11 tem, a person who is not a user of that artificial intel-
+
+12 ligence system.
+
+13  (e) STATE.--The term ``State'' means each of the
+
+14 several States, the District of Columbia, the Common-
+
+15 wealth of Puerto Rico, and each other territory or posses-
+
+16 sion of the United States.
+
+17  (f) USER.--The term ``user'' means a person who op-
+
+18 erates, or directs or causes the operation of, an artificial
+
+19 intelligence system, including by providing input to or
+
+20 prompting the artificial intelligence system.
+
+21 SEC. 3. LIABILITY FOR INJURIES.
+
+22  (a) IN GENERAL.--Except with respect to any cause
+
+23 of action for defamation, a developer of an artificial intel-
+
+24 ligence system shall be liable, regardless of the degree of
+
+g:\VHLD\100526\D100526.012.xml  (1078762|6)
+
+              October 5, 2026 (12:18 p.m.)
+
+VerDate Nov 24 2008 12:18 Oct 05, 2026 Jkt 000000 PO 00000 Frm 00002 Fmt 6652 Sfmt 6201 C:\USERS\LMANDERSON\APPDATA\ROAMING\SOFTQUAD\XMETAL\11.0\GEN\C\TRAHA
+G:\M\19\TRAHAN\TRAHAN_055.XML
+
+                                              3
+
+1 care exercised, for all reasonably foreseeable injuries to a
+
+2 non-user of the artificial intelligence system if--
+
+3                               (1) the injuries are factually and proximately
+
+4   caused by an artificial intelligence system that en-
+
+5   gages in conduct that, if undertaken by an adult
+
+6   human of sound mind, would satisfy the elements of
+
+7   negligence or any intentional tort or crime; and
+
+8                               (2) neither the user of the artificial intelligence
+
+9   system nor any intermediary that fine-tuned,
+
+10  scaffolded, or otherwise modified the system--
+
+11                              (A) intended the conduct; or
+
+12                              (B) was negligent with respect to the risk
+
+13                              of the artificial intelligence system engaging in
+
+14                              the conduct.
+
+15  (b) COMMERCE REQUIREMENT.--This Act applies to
+
+16 an artificial intelligence system the training, development,
+
+17 provision, or deployment of which is in or affects interstate
+
+18 or foreign commerce.
+
+19  (c) APPLICABLE STANDARDS.--For purposes of this
+
+20 Act, whether conduct would satisfy the elements of neg-
+
+21 ligence, an intentional tort, or a crime shall be determined
+
+22 under the law of the State in which the injury occurred.
+
+23 SEC. 4. PRESUMPTION OF MENTAL STATE.
+
+24  (a) IN GENERAL.--For purposes of this Act, for any
+
+25 tort for which the mental state of the alleged tortfeasor
+
+g:\VHLD\100526\D100526.012.xml  (1078762|6)
+
+              October 5, 2026 (12:18 p.m.)
+
+VerDate Nov 24 2008 12:18 Oct 05, 2026 Jkt 000000 PO 00000 Frm 00003 Fmt 6652 Sfmt 6201 C:\USERS\LMANDERSON\APPDATA\ROAMING\SOFTQUAD\XMETAL\11.0\GEN\C\TRAHA
+G:\M\19\TRAHAN\TRAHAN_055.XML
+
+                                             4
+
+1 is relevant to the elements of the tort or crime, there shall
+
+2 be a rebuttable presumption that the artificial intelligence
+
+3 system satisfies the relevant mental state if the finder of
+
+4 fact determines, by a preponderance of the evidence, that
+
+5 a natural person who, under circumstances similar to
+
+6 those of the artificial intelligence system, took actions
+
+7 similar to those taken by the artificial intelligence system
+
+8 would have acted with the relevant mental state.
+
+9   (b) EFFECT OF REBUTTAL EVIDENCE.--Notwith-
+
+10 standing Rule 301 of the Federal Rules of Evidence, and
+
+11 unless the court determines that the presumption estab-
+
+12 lished in subsection (a) is not applicable, if the party
+
+13 against whom the presumption is invoked presents evi-
+
+14 dence tending to rebut that presumption, the court shall
+
+15 instruct the finder of fact to find that the presumed facts
+
+16 exist unless the finder of fact is persuaded that the pre-
+
+17 sumed facts do not exist.
+
+18  (c) NO DEFENSE FOR INCAPACITY.--For purposes of
+
+19 this Act, it shall not be a defense that artificial intelligence
+
+20 systems are incapable of having mental states.
+
+21 SEC. 5. PRIVATE RIGHT OF ACTION; JURISDICTION.
+
+22  (a) PRIVATE RIGHT OF ACTION.--Any non-user who
+
+23 suffers an injury described in section 3 may bring a civil
+
+24 action against the developer to recover damages and to
+
+25 obtain such other relief as the court considers appropriate.
+
+g:\VHLD\100526\D100526.012.xml  (1078762|6)
+
+              October 5, 2026 (12:18 p.m.)
+
+VerDate Nov 24 2008 12:18 Oct 05, 2026 Jkt 000000 PO 00000 Frm 00004 Fmt 6652 Sfmt 6201 C:\USERS\LMANDERSON\APPDATA\ROAMING\SOFTQUAD\XMETAL\11.0\GEN\C\TRAHA
+G:\M\19\TRAHAN\TRAHAN_055.XML
+
+                                             5
+
+1   (b) JURISDICTION.--The district courts of the United
+
+2 States shall have jurisdiction over a civil action brought
+
+3 under this Act, without regard to the amount in con-
+
+4 troversy or the citizenship of the parties. Such jurisdiction
+
+5 shall be concurrent with that of the courts of the States.
+
+6   (c) LIMITATION.--A civil action may not be com-
+
+7 menced under this Act later than 3 years after the date
+
+8 on which the plaintiff discovered, or in the exercise of rea-
+
+9 sonable diligence should have discovered, the injury that
+
+10 is the basis of the action.
+
+11 SEC. 6. RELATIONSHIP TO STATE LAW.
+
+12  Nothing in this Act shall be construed to preempt,
+
+13 displace, or otherwise limit any cause of action, remedy,
+
+14 standard of liability, or other protection available under
+
+15 the law of any State or political subdivision of a State,
+
+16 and the remedies provided under this Act are in addition
+
+17 to, and not in lieu of, any other remedies available under
+
+18 Federal or State law.
+
+19 SEC. 7. SEVERABILITY.
+
+20  If any provision of this Act, or the application of any
+
+21 such provision to any person or circumstance, is held to
+
+22 be invalid, the remainder of this Act, and the application
+
+23 of the provision to any other person or circumstance, shall
+
+24 not be affected.
+
+g:\VHLD\100526\D100526.012.xml  (1078762|6)
+
+              October 5, 2026 (12:18 p.m.)
+
+VerDate Nov 24 2008 12:18 Oct 05, 2026 Jkt 000000 PO 00000 Frm 00005 Fmt 6652 Sfmt 6201 C:\USERS\LMANDERSON\APPDATA\ROAMING\SOFTQUAD\XMETAL\11.0\GEN\C\TRAHA
+G:\M\19\TRAHAN\TRAHAN_055.XML
+
+                                    6
+1 SEC. 8. EFFECTIVE DATE.
+
+2  This Act shall take effect on the date of the enact-
+
+3 ment of this Act and shall apply to conduct occurring, and
+
+4 injuries arising, on or after that date.
+
+5 SEC. 9. SUNSET.
+
+6  This Act shall cease to have effect on the date that
+
+7 is 5 years after the date of the enactment of this Act.
+
+g:\VHLD\100526\D100526.012.xml  (1078762|6)
+
+              October 5, 2026 (12:18 p.m.)
+
+VerDate Nov 24 2008 12:18 Oct 05, 2026 Jkt 000000 PO 00000 Frm 00006 Fmt 6652 Sfmt 6201 C:\USERS\LMANDERSON\APPDATA\ROAMING\SOFTQUAD\XMETAL\11.0\GEN\C\TRAHA
+

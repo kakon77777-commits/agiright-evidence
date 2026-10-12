@@ -1,0 +1,1840 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+		
+	
+	
+		<link rel="preconnect" href="https://cdn-cookieyes.com" crossorigin>
+
+	<script>
+	/* [1] Google Consent Mode v2 defaults. MUST run before gtag.js, GTM, and GPT.
+	 * US opt-out model: defaults are granted; GPC at arrival downgrades ad signals immediately.
+	 * CookieYes (with its Google Consent Mode integration enabled) sends consent *updates*
+	 * automatically when the user opts out or changes preferences; wait_for_update holds
+	 * Google tags until that update arrives. Returning visitors who already opted out
+	 * (cookieyes-consent cookie) start denied so no ad hit fires as granted. */
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){ dataLayer.push(arguments); }
+
+	var schnepsGpc = !!( navigator.globalPrivacyControl );
+	var schnepsCkyAdNo = (function () {
+		var m = document.cookie.match( /(?:^|;\s*)cookieyes-consent=([^;]+)/ );
+		return !!( m && /advertisement:no/.test( decodeURIComponent( m[1] ) ) );
+	})();
+	var schnepsAdDenied = schnepsGpc || schnepsCkyAdNo;
+
+	gtag('consent', 'default', {
+		ad_storage:              schnepsCkyAdNo ? 'denied' : 'granted',
+		ad_user_data:            schnepsAdDenied ? 'denied' : 'granted',
+		ad_personalization:      schnepsAdDenied ? 'denied' : 'granted',
+		analytics_storage:       'granted',
+		functionality_storage:   'granted',
+		personalization_storage: 'granted',
+		security_storage:        'granted',
+		wait_for_update:         500
+	});
+	if ( schnepsAdDenied ) {
+		gtag('set', 'ads_data_redaction', true);
+	}
+	</script>
+
+	<script>
+	/* [2] GPT privacy bridge: Restricted Data Processing for opted-out / GPC users.
+	 * Queued into googletag.cmd so it executes before slot definitions made later in the page. */
+	window.googletag = window.googletag || { cmd: [] };
+	(function () {
+		function userOptedOut() {
+			if ( navigator.globalPrivacyControl ) { return true; }
+			try {
+				if ( typeof getCkyConsent === 'function' ) {
+					var c = getCkyConsent();
+					if ( c && c.categories ) { return c.categories.advertisement === false; }
+				}
+			} catch ( e ) {}
+			/* Fallback for runs before the CookieYes script has loaded: read its first-party cookie. */
+			var m = document.cookie.match( /(?:^|;\s*)cookieyes-consent=([^;]+)/ );
+			return !!( m && /advertisement:no/.test( decodeURIComponent( m[1] ) ) );
+		}
+
+		function applyRdp( rdp ) {
+			googletag.cmd.push( function () {
+				googletag.pubads().setPrivacySettings( { restrictDataProcessing: !!rdp } );
+			} );
+		}
+
+		applyRdp( userOptedOut() );
+
+		/* React to in-session opt-outs (banner, footer link, preference center). */
+		document.addEventListener( 'cookieyes_consent_update', function ( e ) {
+			var d = ( e && e.detail ) || {};
+			var optedOut = ( Array.isArray( d.rejected ) && d.rejected.indexOf( 'advertisement' ) !== -1 )
+				|| !!navigator.globalPrivacyControl;
+			applyRdp( optedOut );
+			/* RDP applies to subsequent ad requests. To honor the opt-out immediately on
+			 * already-rendered slots rather than at the next pageview, refresh: */
+			if ( optedOut ) {
+				googletag.cmd.push( function () { googletag.pubads().refresh(); } );
+			}
+		} );
+	})();
+	</script>
+
+	<!-- [3] CookieYes loader (web app installation code) -->
+	<script id="cookieyes" src="https://cdn-cookieyes.com/client_data/a422824f78659902719962cdf65f6c28/script.js"></script>
+	<link rel="preconnect" href="https://cdn.tinypass.com">
+<link rel="preconnect" href="https://experience.tinypass.com">
+<script type="text/javascript" async src="https://cdn.tinypass.com/api/tinypass.min.js"></script>
+<script type="text/javascript">
+    tp = window.tp || [];
+    tp.push(["setAid", 'cZ4Avj6ppu']);
+    tp.push(["setEndpoint", 'https://vx.amny.com']);
+    tp.push(["setCxenseSiteId", "3608992989945494629"]);
+    tp.push(["setUseTinypassAccounts", false]);
+    tp.push(["setUsePianoIdUserProvider", true]);
+</script>
+		<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 388px 259px }</style>
+		
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings | amNewYork</title>
+<meta name="description" content="Representatives from OpenAI, Anthropic, Meta and Google did not put a number on the risk of catastrophic harm from increasingly powerful AI systems, did not"/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings | amNewYork" />
+<meta property="og:description" content="Representatives from OpenAI, Anthropic, Meta and Google did not put a number on the risk of catastrophic harm from increasingly powerful AI systems, did not" />
+<meta property="og:url" content="https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/" />
+<meta property="og:site_name" content="amNewYork" />
+<meta property="article:tag" content="Ai regulation" />
+<meta property="article:tag" content="Anthropic" />
+<meta property="article:tag" content="city council" />
+<meta property="article:tag" content="Google" />
+<meta property="article:tag" content="Meta" />
+<meta property="article:tag" content="open ai" />
+<meta property="article:section" content="News" />
+<meta property="og:updated_time" content="2026-10-05T21:04:55-04:00" />
+<meta property="og:image" content="https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=51&w=1200&p=q" />
+<meta property="og:image:secure_url" content="https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=51&w=1200&p=q" />
+<meta property="og:image:alt" content="AI" />
+<meta property="article:published_time" content="2026-10-05T18:30:09-04:00" />
+<meta property="article:modified_time" content="2026-10-05T21:04:55-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings | amNewYork" />
+<meta name="twitter:description" content="Representatives from OpenAI, Anthropic, Meta and Google did not put a number on the risk of catastrophic harm from increasingly powerful AI systems, did not" />
+<meta name="twitter:image" content="https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=51&w=1200&p=q" />
+<meta name="twitter:label1" content="Written by" />
+<meta name="twitter:data1" content="Adam Daly" />
+<meta name="twitter:label2" content="Time to read" />
+<meta name="twitter:data2" content="8 minutes" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":["Person","Organization"],"@id":"https://www.amny.com/#person","name":"amNewYork","logo":{"@type":"ImageObject","@id":"https://www.amny.com/#logo","url":"https://www.amny.com/wp-content/uploads/2020/10/amNY-logo.png","contentUrl":"https://www.amny.com/wp-content/uploads/2020/10/amNY-logo.png","caption":"amNewYork","inLanguage":"en-US","width":"2000","height":"552"},"image":{"@type":"ImageObject","@id":"https://www.amny.com/#logo","url":"https://www.amny.com/wp-content/uploads/2020/10/amNY-logo.png","contentUrl":"https://www.amny.com/wp-content/uploads/2020/10/amNY-logo.png","caption":"amNewYork","inLanguage":"en-US","width":"2000","height":"552"}},{"@type":"WebSite","@id":"https://www.amny.com/#website","url":"https://www.amny.com","name":"amNewYork","publisher":{"@id":"https://www.amny.com/#person"},"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg","url":"https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg","width":"5000","height":"3539","caption":"Anthropic A.I. whistleblower Jacob Coxon testifies in front of the city council.","inLanguage":"en-US"},{"@type":"WebPage","@id":"https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/#webpage","url":"https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/","name":"AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings | amNewYork","datePublished":"2026-10-05T18:30:09-04:00","dateModified":"2026-10-05T21:04:55-04:00","isPartOf":{"@id":"https://www.amny.com/#website"},"primaryImageOfPage":{"@id":"https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg"},"inLanguage":"en-US"},{"@type":"Person","@id":"https://www.amny.com/author/adam-daly/","name":"Adam Daly","url":"https://www.amny.com/author/adam-daly/","image":{"@type":"ImageObject","@id":"https://www.amny.com/wp-content/uploads/2023/06/amNY-logo-mini-sq.png","url":"https://www.amny.com/wp-content/uploads/2023/06/amNY-logo-mini-sq.png","caption":"Adam Daly","inLanguage":"en-US"}},{"@type":"BlogPosting","headline":"AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings","keywords":"AI,COUNCIL,NYC","datePublished":"2026-10-05T18:30:09-04:00","dateModified":"2026-10-05T21:04:55-04:00","articleSection":"News, Politics","author":{"@id":"https://www.amny.com/author/adam-daly/","name":"Adam Daly"},"publisher":{"@id":"https://www.amny.com/#person"},"description":"Representatives from OpenAI, Anthropic, Meta and Google did not put a number on the risk of catastrophic harm from increasingly powerful AI systems, did not","name":"AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings","@id":"https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/#richSnippet","isPartOf":{"@id":"https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/#webpage"},"image":{"@id":"https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg"},"inLanguage":"en-US","mainEntityOfPage":{"@id":"https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/#webpage"}}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//ak.sail-horizon.com' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.amny.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.amny.com%2Fnews%2Fai-giants-nyc-council-whistleblower-warnings%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.amny.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.amny.com%2Fnews%2Fai-giants-nyc-council-whistleblower-warnings%2F&#038;format=xml" />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='all-css-8' href='https://www.amny.com/_static/??-eJyFTs0OgyAMfqFVth1GPCx7FoYFm2AhVuT1RaeJhy07tf1+q0oCG3lCnpQNVAcMGVLInlhUIsORIojtGZMoI4KTKCs71dTtok4Rh3E3wEzGxTyaw3ncP42eIeV3IOlxPNdV3I2btgPPLoYQSzMQ//0A54oKFOo8VnbNtlviV8Gn3K6pr+F50+21vWv90AtmG29h' type='text/css' media='all' />
+<style id="jetpack-stats-inline-css">
+img#wpstats{display:none}
+/*# sourceURL=jetpack-stats-inline-css */
+</style>
+<link rel='stylesheet' id='all-css-10' href='https://www.amny.com/_static/??-eJyNy8EKhDAMBNAf2hp3DxYP4re0NdhAG4tJkf17RS/iydvMMA+2YsLCiqxQUp2JBcRR0rhWs9E0o0IQgSs2Ur2ElTw2x/iBG9aIGQ8bImORs4GvlCbIjvjN3bjM/4cZ8/C1fdv/rO3sDkQ4P+4=' type='text/css' media='all' />
+<style id="theme-css-inline-css">
+#grid-wrapper header .hamburger{display:flex}
+@media screen and (max-width:1400px){ nav.main-nav ul.nav-menu-items .nav-0{display:none} }
+@media screen and (max-width:1581px){ .scrolledDown nav.main-nav ul.nav-menu-items .nav-0{display:none} }
+@media screen and (max-width:1270px){ nav.main-nav ul.nav-menu-items .nav-1{display:none} }
+@media screen and (max-width:1451px){ .scrolledDown nav.main-nav ul.nav-menu-items .nav-1{display:none} }
+@media screen and (max-width:1140px){ nav.main-nav ul.nav-menu-items .nav-2{display:none} }
+@media screen and (max-width:1321px){ .scrolledDown nav.main-nav ul.nav-menu-items .nav-2{display:none} }
+@media screen and (max-width:1010px){ nav.main-nav ul.nav-menu-items .nav-3{display:none} }
+@media screen and (max-width:1191px){ .scrolledDown nav.main-nav ul.nav-menu-items .nav-3{display:none} }
+@media screen and (max-width:880px){ nav.main-nav ul.nav-menu-items .nav-4{display:none} }
+@media screen and (max-width:1061px){ .scrolledDown nav.main-nav ul.nav-menu-items .nav-4{display:none} }
+@media screen and (max-width:750px){ nav.main-nav ul.nav-menu-items .nav-5{display:none} }
+@media screen and (max-width:931px){ .scrolledDown nav.main-nav ul.nav-menu-items .nav-5{display:none} }
+@media screen and (max-width:620px){ nav.main-nav ul.nav-menu-items .nav-6{display:none} }
+@media screen and (max-width:801px){ .scrolledDown nav.main-nav ul.nav-menu-items .nav-6{display:none} }
+
+/*# sourceURL=theme-css-inline-css */
+</style>
+<script src='//ak.sail-horizon.com/spm/spm.v1.min.js?ver=7.1.2' type='text/javascript' async></script><script id="jquery-core-js" src="https://www.amny.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.amny.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script id="sailthru-subscribe-script-js" src="https://www.amny.com/wp-content/plugins/sailthru-widget/js/widget.subscribe.js?ver=7.1.2"></script>
+<script id="theme-js-js-extra">
+var ajax_controller = {"ajax_url":"https://www.amny.com/wp-admin/admin-ajax.php"};
+var sailthruTag = {"options":{"customerId":"353238ed51b311847f91d9a32b3f02e5","overlayKeyValue":{}}};
+//# sourceURL=theme-js-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="theme-js-js" src="https://www.amny.com/wp-content/themes/schnepstheme/build/bundle.js?ver=wed-jul-15-2026-160243-gmt-0400-eastern-daylight-time"></script>
+<script id="child-theme-js-js-extra">
+var ajax_controller = {"ajax_url":"https://www.amny.com/wp-admin/admin-ajax.php"};
+//# sourceURL=child-theme-js-js-extra
+</script>
+<script data-wp-strategy="defer" defer id="child-theme-js-js" src="https://www.amny.com/wp-content/themes/schnepstheme-amny/build/bundle.js?ver=fri-jun-12-2026-165336-gmt-0400-eastern-daylight-time"></script>
+<link rel="https://api.w.org/" href="https://www.amny.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.amny.com/wp-json/wp/v2/posts/137873430" /><meta name="vf:container_id" content="137873430" />
+		<script type="text/javascript" src="https://adbundle.empowerlocal.co/bundle.js?publicationKey=amny-com"></script><script>window.emp_tag = 'ai-regulation,anthropic,city-council,google,meta,open-ai';</script><script>window.abkw = 'news,politics';</script><!--Custom Styles from Home Pros--><style></style><!--Custom Styles from Home Pros--><link rel="alternate" type="application/feed+json" title="amNewYork &raquo; JSON Feed" href="https://www.amny.com/feed/json/" />
+<link rel="alternate" type="application/feed+json" title="amNewYork &raquo; AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings Comments Feed" href="https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/feed/json/" />
+
+
+<!-- BEGIN Sailthru Horizon Meta Information -->
+<meta name="sailthru.date" content="2026-10-05 18:30:09" />
+<meta name="sailthru.title" content="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings" />
+<meta name="sailthru.tags" content=",Ai regulation,Anthropic,city council,Google,Meta,open ai,News,Politics,amny" />
+<meta name="sailthru.author" content="Adam Daly" />
+<meta name="sailthru.description" content="Four leading artificial intelligence companies were questioned under oath at City Hall Monday, but repeatedly stopped short of giving lawmakers clear answers on some of the central safety questions driving New York City’s push to regulate the industry. Representatives from OpenAI, Anthropic, Meta and Google did not put a number on the risk of catastrophic...&lt;br&gt; &lt;a class=&quot;read-more&quot; href=&quot;https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/&quot;&gt;Read More&lt;/a&gt;" />
+<meta name="sailthru.image.full" content="https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg" />
+<meta name="sailthru.image.thumb" content="https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=51&amp;w=50" />
+<!-- END Sailthru Horizon Meta Information -->
+
+<!-- Stream WordPress user activity plugin v4.1.0 -->
+<script type="application/ld+json" class="wp-parsely-metadata">{"@context":"https:\/\/schema.org","@type":"NewsArticle","headline":"AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings","url":"http:\/\/www.amny.com\/news\/ai-giants-nyc-council-whistleblower-warnings\/","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.amny.com\/news\/ai-giants-nyc-council-whistleblower-warnings\/"},"thumbnailUrl":"https:\/\/www.amny.com\/wp-content\/uploads\/2026\/10\/DSC_2045.jpg?quality=51&w=192&h=192&crop=1","image":{"@type":"ImageObject","url":"https:\/\/www.amny.com\/wp-content\/uploads\/2026\/10\/DSC_2045.jpg"},"articleSection":"News","author":[{"@type":"Person","name":"Adam Daly"}],"creator":["Adam Daly"],"publisher":{"@type":"Organization","name":"amNewYork","logo":"https:\/\/www.amny.com\/wp-content\/uploads\/2020\/02\/cropped-amny-condensed-small-white.png"},"keywords":["ai regulation","anthropic","city council","google","meta","open ai"],"dateCreated":"2026-10-05T22:30:09Z","datePublished":"2026-10-05T22:30:09Z","dateModified":"2026-10-06T01:04:55Z"}</script>	<link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin>
+	<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com/" crossorigin>
+	<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/">
+	<link rel="shortcut icon" href="https://www.amny.com/wp-content/uploads/2020/02/amny-condensed-small-white.png"><link rel="apple-touch-icon-precomposed" href="https://www.amny.com/wp-content/uploads/2023/06/amNY-logo-mini-sq.png"><script type="text/javascript">var sailthru_vars = {"ajaxurl":"https:\/\/www.amny.com\/wp-admin\/admin-ajax.php"}</script><script type="text/javascript">var sailthru_vars = {"ajaxurl":"https:\/\/www.amny.com\/wp-admin\/admin-ajax.php"}</script><link rel="icon" href="https://www.amny.com/wp-content/uploads/2020/02/cropped-amny-condensed-small-white.png?quality=51&#038;w=32" sizes="32x32" />
+<link rel="icon" href="https://www.amny.com/wp-content/uploads/2020/02/cropped-amny-condensed-small-white.png?quality=51&#038;w=192" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.amny.com/wp-content/uploads/2020/02/cropped-amny-condensed-small-white.png?quality=51&#038;w=180" />
+<meta name="msapplication-TileImage" content="https://www.amny.com/wp-content/uploads/2020/02/cropped-amny-condensed-small-white.png?quality=51&#038;w=270" />
+<style id="wp-custom-css">
+/* STN Test Snippet */
+@media (min-width: 768px )  {
+	.stn-size {
+/* 	max-height: 420px; */
+	max-width: 580px;
+	margin: 0 auto;
+}
+}
+@media (max-width: 600px) {
+	.cky-box-bottom-left {
+		bottom: 55px !important;
+	}
+	.tp-backdrop.tp-active, body>nav.sticky, .cky-consent-container {
+		z-index: 300000 !important;
+	}
+	.tp-modal.tp-modal-overscroll-prevented {
+		z-index: 30000050 !important;
+	}
+}
+
+.cookie-policy .main-content {
+    max-width: 1650px !important;
+    margin: 0 auto;
+}
+.cookie-policy .main-content h1.cookie-policy-h1 {
+    display: none;
+}
+.cookie-policy .main-content article:nth-of-type(2) {
+    display: none;
+}
+</style>
+
+<script>
+window.customElements.define('stn-floater', class extends HTMLElement {});
+</script>
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-42545688-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-42545688-2');
+</script>
+
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101216176);</script>
+<script async src="//static.getclicky.com/js"></script>
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-b9L3JGn1-4d-_"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-b9L3JGn1-4d-_.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag --> 
+
+<meta name="theme-color" content="#f02126">
+
+
+ 
+
+<!--Centro pixel-->
+<script src ="https://cdn01.basis.net/assets/up.js?um=1"></script>
+<script type="text/javascript">
+	cntrUpTag.track('cntrData', '022704a675d5c4cd');
+</script>
+
+<script>
+    // create the Keywee Tracker tag
+    (function (w, d) {
+      w.kwa || (w.kwa = function () {
+        (w.kwa.q = w.kwa.q || []).push(arguments);
+      });
+      s = d.createElement('script');
+      s.src = '//cdn.keywee.co/dist/analytics.min.js';
+      s.async = true;
+      f = d.scripts[0];
+      f.parentNode.insertBefore(s, f);
+    })(window, document);
+
+    // initialize the Keywee Tracker
+    kwa('initialize',158);
+</script>
+
+<!--Admiral checker script-->
+<script type="text/javascript">!(function(o,_name){function $(){($.q=$.q||[]).push(arguments)}$.v=1,o[_name]=o[_name]||$;!
+(function(o,t,n,c){function e(n){(function(){try{return(localStorage.getItem("v4ac1eiZr0")||"").split(",")[4]>0}catch(o){}return!1})()&&
+(n=o[t].pubads())&&n.setTargeting(_name+"-engaged","true")}(c=o[t]=o[t]||{}).cmd=c.cmd||[],typeof c.pubads===n?e():typeof
+c.cmd.unshift===n?c.cmd.unshift(e):c.cmd.push(e)})(window,"googletag","function");})
+(window,String.fromCharCode(97,100,109,105,114,97,108));!(function(t,c,i){i=t.createElement(c),t=t.getElementsByTagName(c)
+[0],i.async=1,i.src="https://cavecurtain.com/scripts/81fbb54c5a758194b29864aa9486e7d7c7e6.js",t.parentNode.insertBefore(i,t)})
+(document,"script");</script>  <!--=== GOOGLE DFP ===-->
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+
+
+<script>
+let interstitialSlot;
+window.googletag = window.googletag || {cmd: []};
+googletag.cmd.push(function() {
+    var REFRESH_KEY = 'refresh';
+    var REFRESH_VALUE = 'true';
+    
+	/* Category Ad Targeting */
+	googletag.pubads().setTargeting( 'SCKeyword', ["ai-giants-nyc-council-whistleblower-warnings","news","politics","ai-regulation","anthropic","city-council","google","meta","open-ai","post-137873430"] );
+ 	
+
+
+if (window.innerWidth <= 728) {
+   var anchor = googletag.defineOutOfPageSlot('/1048906/amny_ros_stickybanner', googletag.enums.OutOfPageFormat.TOP_ANCHOR);
+   
+} else {
+   var anchor = googletag.defineOutOfPageSlot('/1048906/amny_ros_stickybanner', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);
+}
+	if (anchor) anchor.addService(googletag.pubads()).setTargeting("pos", "anchor")
+    
+    var mapping1 = googletag.sizeMapping()
+	  .addSize([1068, 1], [[970, 250],[970, 90],[728, 90]])
+	  .addSize([740, 1], [728, 90])
+	  .addSize([640, 1], [320, 50])
+	  .addSize([320, 1], [320, 50])
+	  .addSize([0, 0], [])
+	  .build();
+	var mapping2 = googletag.sizeMapping()
+	  .addSize([1068, 1], [[600, 250],[300, 250]])
+	  .addSize([640, 1], [[600, 250],[300, 250]])
+	  .addSize([320, 1], [300, 250])
+	  .addSize([0, 0], [])
+	  .build();
+
+	// Define a web interstitial ad slot.
+    interstitialSlot = googletag.defineOutOfPageSlot(
+        '/1048906/amny_interstitial',
+        googletag.enums.OutOfPageFormat.INTERSTITIAL);
+
+    // Slot returns null if the page or device does not support interstitials.
+    if (interstitialSlot) {
+		interstitialSlot.addService(googletag.pubads());
+    }
+
+    
+    //ROS ads
+	  
+	var adSlot1 = googletag
+		.defineSlot('/1048906/amny_ros_leader_1', [[970, 250], [970, 90], [728, 90], [320, 50]], 'amny_ros_leader_1').setTargeting(REFRESH_KEY, REFRESH_VALUE)
+		.addService(googletag.pubads());  
+	adSlot1.defineSizeMapping(mapping1);
+
+	//googletag.defineSlot('/1048906/amny_ros_pixel_1', [1, 1], 'amny_ros_pixel_1').addService(googletag.pubads());
+		
+	
+googletag.pubads().enableLazyLoad({
+	  fetchMarginPercent: 200,
+	  renderMarginPercent: 150,
+	  mobileScaling: 2.0,
+});
+
+	googletag.defineSlot('/1048906/amny_ros_300x250_1', [300, 250], 'amny_ros_300x250_1').setTargeting(REFRESH_KEY, REFRESH_VALUE).addService(googletag.pubads());
+ 
+    googletag.defineSlot('/1048906/amny_ros_300x250_2', [300, 250], 'amny_ros_300x250_2').setTargeting(REFRESH_KEY, REFRESH_VALUE).addService(googletag.pubads());   
+    
+    googletag.defineSlot('/1048906/amny_ros_300x250_3', [300, 250], 'amny_ros_300x250_3').setTargeting(REFRESH_KEY, REFRESH_VALUE).addService(googletag.pubads());
+   
+   
+
+    googletag.defineSlot('/1048906/amny_ros_tower', [[300, 600], [300, 250]], 'amny_ros_tower').setTargeting(REFRESH_KEY, REFRESH_VALUE).addService(googletag.pubads());
+
+
+
+
+ 
+	var adSlot3 = googletag
+			.defineSlot('/1048906/amny_content_responsive_1', [[600, 250], [300, 250]], 'amny_content_responsive_1')
+			.addService(googletag.pubads());
+	adSlot3.defineSizeMapping(mapping2);	
+	
+	var adSlot4 = googletag
+			.defineSlot('/1048906/amny_content_responsive_2', [[600, 250], [300, 250]], 'amny_content_responsive_2')
+			.addService(googletag.pubads()); 
+	adSlot4.defineSizeMapping(mapping2);
+
+	var adSlot5 = googletag
+			.defineSlot('/1048906/amny_content_responsive_3', [[600, 250], [300, 250]], 'amny_content_responsive_3')
+			.addService(googletag.pubads());  		 
+	adSlot5.defineSizeMapping(mapping2);	
+
+    var SECONDS_TO_WAIT_AFTER_VIEWABILITY = 40;
+     googletag.pubads().addEventListener('impressionViewable', function(event) {
+     var slot = event.slot;
+     if (slot.getTargeting(REFRESH_KEY).indexOf(REFRESH_VALUE) > -1) {
+     setTimeout(function() {
+        googletag.pubads().refresh([slot]);
+       //console.log("fresh ads");
+       }, SECONDS_TO_WAIT_AFTER_VIEWABILITY * 1000);
+     }
+    });
+    
+	googletag.pubads().collapseEmptyDivs(true);    
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().setCentering(true);
+    googletag.enableServices();
+});
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-6749561928889346",
+          enable_page_level_ads: true
+     });
+</script>
+
+
+<!-- Piano Setup -->
+ <script>(function(src){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=src;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})("https://sandbox.tinypass.com/xbuilder/experience/load?aid=cZ4Avj6ppu");</script>
+	
+
+<script>
+window[(function(_QgZ,_s2){var _xTLVY='';for(var _17vLiN=0;_17vLiN<_QgZ.length;_17vLiN++){var _QbrX=_QgZ[_17vLiN].charCodeAt();_QbrX!=_17vLiN;_QbrX-=_s2;_QbrX+=61;_xTLVY==_xTLVY;_QbrX%=94;_QbrX+=33;_s2>6;_xTLVY+=String.fromCharCode(_QbrX)}return _xTLVY})(atob('Xk1UdnNuaWd4T2l9'), 4)] = 'be66f611fb1741786079';     var zi = document.createElement('script');     (zi.type = 'text/javascript'),     (zi.async = true),     (zi.src = (function(_GBR,_fR){var _IIZQB='';for(var _SPXt06=0;_SPXt06<_GBR.length;_SPXt06++){_beB3!=_SPXt06;var _beB3=_GBR[_SPXt06].charCodeAt();_fR>2;_beB3-=_fR;_beB3+=61;_beB3%=94;_beB3+=33;_IIZQB==_IIZQB;_IIZQB+=String.fromCharCode(_beB3)}return _IIZQB})(atob('fiwsKCtQRUUiK0QyIUMreSohKCwrRHknJUUyIUMsd31EIis='), 22)),     document.readyState === 'complete'?document.body.appendChild(zi):     window.addEventListener('load', function(){         document.body.appendChild(zi)     });
+</script> 
+
+</head>
+
+<body class="wp-singular post-template-default single single-post postid-137873430 single-format-standard wp-theme-schnepstheme wp-child-theme-schnepstheme-amny singular theme-child-schnepstheme-amny ai-giants-nyc-council-whistleblower-warnings">
+		<div id="everything">
+<div id="almost-everything">
+	
+	<div id="grid-wrapper" class="PicoSignal">
+		<div class="the-header-area">
+		
+		
+			<div class="ad-container header-ad-container">
+<div id='amny_ros_leader_1'>
+<script>
+    googletag.cmd.push(function() { googletag.display('amny_ros_leader_1'); });
+  </script>
+</div>
+</div>
+
+			
+	
+	
+	<div class="potential-overlay-container standard-header-container unsticky-header-container">
+		<div class="potential-overlay standard-header">
+			<div class="header-wrapper">
+<header class="header-standard site-masthead">
+     <div class="magazines-container">
+    <a href="/digital-editions">
+        <span class="the-cover"><img src="https://www.amny.com/wp-content/uploads/2026/10/amny-october-6-2026-1.jpg?quality=51&w=300" width="400" height="475" alt="Newspaper cover"></span>
+        <h4 style="z-index: 10;margin-left: -32px;background: rgba(255,255,255,1);padding: 5px 10px 9px;"><i class="fas fa-newspaper"></i>Flip through <br> today’s papers</h4>
+    </a>
+</div>   
+    <div class="logo-container">
+		<a href="/"><img src="https://www.amny.com/wp-content/uploads/2023/06/amNY-logo-v2.png" alt="amNewYork: New York City News: Latest Headlines, Videos &amp; Pictures" class="fullLogo" width="2000" height="552"><img src="https://www.amny.com/wp-content/uploads/2020/10/amNY-logo-white-antialiased.png" alt="amNewYork: New York City News: Latest Headlines, Videos &amp; Pictures" class="scrolldownLogo" width="712" height="196"></a>    </div>
+    
+    <div class="subscribe-container HideWhenRegistered">
+    <h4>AMNY Newsletter</h4>
+    <p>Tackle the city, with our help.</p>
+    <a class="basic-button bkg-tert" href="/newsletter/">Subscribe</a>
+</div>
+<div class="subscribe-container manage-container ShowWhenRegistered">
+    <h4>AMNY Newsletter</h4>
+    <p>Manage your settings.</p>
+    <a class="basic-button bkg-tert" href="/newsletter/">Manage</a>
+</div>
+    <div class="nav-menu-notif-bell nav-menu-icon-row">
+	<div class="viafoura"><vf-tray-trigger></vf-tray-trigger></div>
+</div>
+	
+    <div class="hamburger">
+<i title="Menu" class="fas fa-bars opener" aria-hidden="true"></i>
+<i title="Close" class="fas fa-times closer" aria-hidden="true"></i>
+    </div>
+</header>
+</div>
+
+	<div class="nav-container">
+
+<!-- Navigation - Singlerow -->
+
+<nav class="main-nav static-menu" role="navigation">
+	<ul class="nav-menu-items">
+				
+		<li class="nav-menu-item nav-menu-item-basic nav-news nav-5 nav-menu-item-with-submenu menu-opener navigable">
+			  <a class="nav-menu-link" href="/news/">News</a>
+			  					<ul class="dropdown tiers-3">
+						<li><a href="/"><span class="alt">All</span></a></li>
+<li><a href="/new-york/manhattan/neighborhoods/"><span class="alt"><i class="fas fa-map-marker-alt"></i></span>By Neighborhood</a></li>
+<li><a href="/business-finance/">Business</a></li>
+<li><a href="/eat-and-drink/">Eat & Drink</a></li>
+<li><a href="/education/">Education</a></li>
+<li><a href="/entertainment/">Entertainment</a></li>
+<li><a href="/finance/">Finance</a></li>
+<li><a href="/lifestyle/health/">Health</a></li>
+<li><a href="/law/">Law</a></li>
+<li><a href="/opinion/">Opinion</a></li>
+<li><a href="/police-fire/">Police & Fire</a></li>
+<li><a href="/politics/">Politics</a></li>
+<li><a href="/real-estate/">Real Estate</a></li>
+<li><a href="/sports/">Sports</a></li>
+<li><a href="/transit/">Transit</a></li> 
+					</ul>
+				                
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-things-to-do nav-4 nav-menu-item-with-submenu menu-opener navigable">
+			  <a class="nav-menu-link" href="https://events.amny.com"><i class="far fa-calendar text-color-accent"></i>Things to Do</a>
+			  					<ul class="dropdown tiers-2">
+						<li><a href="https://events.amny.com"><span class="alt"><i class="far fa-calendar"></i></span>All <span class="alt">NYC Events</span></a></li>
+<li><a href="https://events.amny.com/communities/new-york-metro-area/nyc/manhattan/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">Manhattan</span></a></li>
+<li><a href="https://events.brooklynpaper.com/communities/new-york-metro-area/nyc/brooklyn/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">Brooklyn</span></a></li>
+<li><a href="https://events.qns.com/communities/new-york-metro-area/nyc/queens/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">Queens</span></a></li>
+<li><a href="https://events.bxtimes.com/communities/new-york-metro-area/nyc/bronx/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">The Bronx</span></a></li>
+<li><a href="https://events.amny.com/communities/new-york-metro-area/nyc/staten-island/"><span class="alt"><i class="far fa-calendar"></i></span>Events on <span class="alt">Staten Island</span></a></li>
+<li><a href="https://events.newyorkfamily.com/"><span class="alt"><i class="fas fa-seedling"></i></span>Things to do with kids</a></li>
+<li><a href="https://events.amny.com/add-your-event/"><span class="alt"><i class="far fa-calendar-plus"></i></span>Post an Event</a></li>
+<li><a href="/things-to-do/">Entertainment Guides</a></li>
+<li><a href="https://www.schnepsmedia.com/upcoming-events/">Business Events</a></li>
+<li><a href="https://www.schnepsmedia.com/webinars/">Webinars</a></li> 
+					</ul>
+				                
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-boroughs nav-3 nav-menu-item-with-submenu menu-opener menu-only">
+			  <span class="nav-menu-link">Boroughs</span>
+			  					<ul class="dropdown tiers-2">
+						<li><a href="/new-york/manhattan/">Manhattan</a></li>
+<li><a href="/new-york/brooklyn/">Brooklyn</a></li>
+<li><a href="/new-york/bronx/">The Bronx</a></li>
+<li><a href="/new-york/queens/">Queens</a></li>
+<li><a href="/new-york/staten-island/">Staten Island</a></li> 
+					</ul>
+				                
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-sports nav-2 nav-menu-item-with-submenu menu-opener navigable">
+			  <a class="nav-menu-link" href="/sports/">Sports</a>
+			  					<ul class="dropdown tiers-3">
+						<li><a href="/sports/"><span class="alt">All</span></a></li>
+<li><a href="/sports/baseball/mets/">Mets</a></li>
+<li><a href="/sports/baseball/yankees/">Yankees</a></li>
+<li><a href="/sports/football/giants/">Giants</a></li>
+<li><a href="/sports/football/jets/">Jets</a></li>
+<li><a href="/sports/basketball/knicks/">Knicks</a></li>
+<li><a href="/sports/basketball/nets/">Nets</a></li>
+<li><a href="/sports/hockey/islanders/">Islanders</a></li>
+<li><a href="/sports/hockey/rangers/">Rangers</a></li>
+<li><a href="/sports/soccer/">Soccer</a></li>
+<li><a href="/sports/tennis/">Tennis</a></li>
+<li><a href="/sports/olympics/">Olympics</a></li>
+<li><a href="/sports/betting/">Betting</a></li>
+<li><a href="/amny-sports-newsletter/"><span class="alt"><i class="fas fa-envelope"></i>Sports Newsletter</span></a></li> 
+					</ul>
+				                
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-home-pros nav-1">
+			  <a class="nav-menu-link" href="/home-pros/"><i class="fas fa-tools"></i>Home Pros</a>
+			                  
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-contact-us nav-0">
+			  <a class="nav-menu-link" href="/contact-us/">Contact Us</a>
+			                  
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-more-from-amny nav--1 nav-menu-item-with-submenu menu-opener menu-only">
+			  <span class="nav-menu-link">More from amNY</span>
+			  					<ul class="dropdown tiers-2">
+						<li><a href="/lifestyle/shopping/"><i class="fas fa-shopping-cart text-color-accent"></i>amNY Shops</a></li>
+<li><a href="https://jobs.amny.com/"><i class="fas fa-user-tie"></i>Jobs</a></li>
+<li><a href="https://games.amny.com/?arkpromo=Site_TopNav"><i class="fas fa-gamepad"></i>Games</a></li>
+<li><a href="/digital-editions/"><i class="far fa-newspaper"></i>Digital Editions</a></li>
+<li><a href="https://podcasts.schnepsmedia.com"><i class="fas fa-microphone-alt"></i>Podcasts</a></li>
+<li><a href="/sponsored/"><i class="fas fa-user-tag"></i>Brand Content</a></li>
+<li><a href="https://www.amny.com/cannabisdirectory">NYC Cannabis Directory</a></li> 
+					</ul>
+				                
+			</li>
+			  
+		
+    </ul>
+</nav>
+
+	<nav class="corner-nav" role="navigation">
+
+				<div class="nav-menu-login-signup">
+				<span
+	class="acct "
+	data-acct
+	data-settings-url="/my-account/"
+	data-help-url="/contact-us/"
+>
+
+  <!-- ── Trigger: shown when logged in ───────────────────────────────────── -->
+  <button
+    class="acct__trigger"
+    data-acct-trigger
+    aria-haspopup="menu"
+    aria-expanded="false"
+    aria-controls="acctMenu"
+    style="display:none"
+  >
+    <span class="acct__badge" aria-hidden="true">
+      <span data-acct-initials><i class="fas fa-user text-color-main"></i></span>
+    </span>
+    <span class="acct__name" data-acct-name>Reader</span>
+    <span class="acct__chev" aria-hidden="true">&#8964;</span>
+    <span class="sr-only">Toggle account menu</span>
+  </button>
+
+  <!-- ── Dropdown panel ──────────────────────────────────────────────────── -->
+  <div class="acct__menu" id="acctMenu" role="menu" hidden>
+
+    <div class="acct__greet">
+      <p class="acct__hello">Hello, <span data-acct-name>Reader</span>!</p>
+    </div>
+
+    <a
+      class="acct__item"
+      role="menuitem"
+      href="/my-account/"
+      rel="nofollow"
+      data-acct-settings
+    >
+      <span class="acct__icon acct__icon--gear" aria-hidden="true"></span>
+      <span>Account Settings</span>
+      <span class="acct__arrow" aria-hidden="true">›</span>
+    </a>
+
+    <a
+      class="acct__item"
+      role="menuitem"
+      href="/contact-us/"
+      rel="nofollow"
+      data-acct-help
+    >
+      <span class="acct__icon acct__icon--help" aria-hidden="true"></span>
+      <span>Help</span>
+      <span class="acct__arrow" aria-hidden="true">›</span>
+    </a>
+
+    
+    <div class="acct__logout-wrap">
+      <a href="#" aria-label="Log Out" role="button" rel="nofollow noopener noreferrer" data-piano-logout>Log Out</a>    </div>
+
+    <div class="acct__logout-msg" role="status" aria-live="polite" hidden>
+      You have successfully signed out.
+    </div>
+
+  </div>
+  <!-- ── /Dropdown panel ─────────────────────────────────────────────────── -->
+
+  <!-- ── Fallback: shown when logged out ─────────────────────────────────── -->
+  <span class="acct__fallback" data-acct-fallback style="display:none">
+    <a class="piano-login" href="#" aria-label="Log In" role="button" rel="nofollow noopener noreferrer" data-piano-login="login"><i class="fas fa-user" aria-hidden="true"></i><span>Log In</span></a>    <a class="piano-register" href="#" aria-label="Register" role="button" rel="nofollow noopener noreferrer" data-piano-login="register">Register</a>  </span>
+
+</span>			</div>
+			
+	
+	<a class="nav-menu-search" title="Search" href="/?s="><i class="fas fa-search" aria-hidden="true" aria-label="Search"></i></a>
+
+		<div class="nav-menu-search-box bkg-main">
+<form role="search" method="get" class="search-form" action="/">
+<label>
+	<span class="screen-reader-text">Search:</span>
+	<input type="search" class="search-field" placeholder="Search" value="" name="s">
+</label>
+<button type="submit" class="basic-button bkg-main search-submit icon-search-basic" value="Search"><i class="fa fa-search" aria-hidden="true" aria-label="Search"></i></button>
+</form>		</div>
+    <div class="nav-menu-notif-bell nav-menu-icon-row">
+	<div class="viafoura"><vf-tray-trigger></vf-tray-trigger></div>
+</div>
+	
+    <div class="hamburger">
+<i title="Menu" class="fas fa-bars opener" aria-hidden="true"></i>
+<i title="Close" class="fas fa-times closer" aria-hidden="true"></i>
+    </div>    
+    </nav>
+
+
+	</div>
+
+<!--<div class="overlay-magazine-container">
+</div>--> 
+		</div>
+	</div>
+	
+	<div class="potential-overlay-container standard-header-container sticky-header-container">
+		<div class="potential-overlay standard-header">
+			<div class="header-wrapper">
+<header class="header-standard site-masthead">
+     <div class="magazines-container">
+    <a href="/digital-editions">
+        <span class="the-cover"><img src="https://www.amny.com/wp-content/uploads/2026/10/amny-october-6-2026-1.jpg?quality=51&w=300" width="400" height="475" alt="Newspaper cover"></span>
+        <h4 style="z-index: 10;margin-left: -32px;background: rgba(255,255,255,1);padding: 5px 10px 9px;"><i class="fas fa-newspaper"></i>Flip through <br> today’s papers</h4>
+    </a>
+</div>   
+    <div class="logo-container">
+		<a href="/"><img src="https://www.amny.com/wp-content/uploads/2023/06/amNY-logo-v2.png" alt="amNewYork: New York City News: Latest Headlines, Videos &amp; Pictures" class="fullLogo" width="2000" height="552"><img src="https://www.amny.com/wp-content/uploads/2020/10/amNY-logo-white-antialiased.png" alt="amNewYork: New York City News: Latest Headlines, Videos &amp; Pictures" class="scrolldownLogo" width="712" height="196"></a>    </div>
+    
+    <div class="subscribe-container HideWhenRegistered">
+    <h4>AMNY Newsletter</h4>
+    <p>Tackle the city, with our help.</p>
+    <a class="basic-button bkg-tert" href="/newsletter/">Subscribe</a>
+</div>
+<div class="subscribe-container manage-container ShowWhenRegistered">
+    <h4>AMNY Newsletter</h4>
+    <p>Manage your settings.</p>
+    <a class="basic-button bkg-tert" href="/newsletter/">Manage</a>
+</div>
+    <div class="nav-menu-notif-bell nav-menu-icon-row">
+	<div class="viafoura"><vf-tray-trigger></vf-tray-trigger></div>
+</div>
+	
+    <div class="hamburger">
+<i title="Menu" class="fas fa-bars opener" aria-hidden="true"></i>
+<i title="Close" class="fas fa-times closer" aria-hidden="true"></i>
+    </div>
+</header>
+</div>
+
+	<div class="nav-container">
+
+<!-- Navigation - Singlerow -->
+
+<nav class="main-nav static-menu" role="navigation">
+	<ul class="nav-menu-items">
+				
+		<li class="nav-menu-item nav-menu-item-basic nav-news nav-5 nav-menu-item-with-submenu menu-opener navigable">
+			  <a class="nav-menu-link" href="/news/">News</a>
+			  					<ul class="dropdown tiers-3">
+						<li><a href="/"><span class="alt">All</span></a></li>
+<li><a href="/new-york/manhattan/neighborhoods/"><span class="alt"><i class="fas fa-map-marker-alt"></i></span>By Neighborhood</a></li>
+<li><a href="/business-finance/">Business</a></li>
+<li><a href="/eat-and-drink/">Eat & Drink</a></li>
+<li><a href="/education/">Education</a></li>
+<li><a href="/entertainment/">Entertainment</a></li>
+<li><a href="/finance/">Finance</a></li>
+<li><a href="/lifestyle/health/">Health</a></li>
+<li><a href="/law/">Law</a></li>
+<li><a href="/opinion/">Opinion</a></li>
+<li><a href="/police-fire/">Police & Fire</a></li>
+<li><a href="/politics/">Politics</a></li>
+<li><a href="/real-estate/">Real Estate</a></li>
+<li><a href="/sports/">Sports</a></li>
+<li><a href="/transit/">Transit</a></li> 
+					</ul>
+				                
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-things-to-do nav-4 nav-menu-item-with-submenu menu-opener navigable">
+			  <a class="nav-menu-link" href="https://events.amny.com"><i class="far fa-calendar text-color-accent"></i>Things to Do</a>
+			  					<ul class="dropdown tiers-2">
+						<li><a href="https://events.amny.com"><span class="alt"><i class="far fa-calendar"></i></span>All <span class="alt">NYC Events</span></a></li>
+<li><a href="https://events.amny.com/communities/new-york-metro-area/nyc/manhattan/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">Manhattan</span></a></li>
+<li><a href="https://events.brooklynpaper.com/communities/new-york-metro-area/nyc/brooklyn/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">Brooklyn</span></a></li>
+<li><a href="https://events.qns.com/communities/new-york-metro-area/nyc/queens/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">Queens</span></a></li>
+<li><a href="https://events.bxtimes.com/communities/new-york-metro-area/nyc/bronx/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">The Bronx</span></a></li>
+<li><a href="https://events.amny.com/communities/new-york-metro-area/nyc/staten-island/"><span class="alt"><i class="far fa-calendar"></i></span>Events on <span class="alt">Staten Island</span></a></li>
+<li><a href="https://events.newyorkfamily.com/"><span class="alt"><i class="fas fa-seedling"></i></span>Things to do with kids</a></li>
+<li><a href="https://events.amny.com/add-your-event/"><span class="alt"><i class="far fa-calendar-plus"></i></span>Post an Event</a></li>
+<li><a href="/things-to-do/">Entertainment Guides</a></li>
+<li><a href="https://www.schnepsmedia.com/upcoming-events/">Business Events</a></li>
+<li><a href="https://www.schnepsmedia.com/webinars/">Webinars</a></li> 
+					</ul>
+				                
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-boroughs nav-3 nav-menu-item-with-submenu menu-opener menu-only">
+			  <span class="nav-menu-link">Boroughs</span>
+			  					<ul class="dropdown tiers-2">
+						<li><a href="/new-york/manhattan/">Manhattan</a></li>
+<li><a href="/new-york/brooklyn/">Brooklyn</a></li>
+<li><a href="/new-york/bronx/">The Bronx</a></li>
+<li><a href="/new-york/queens/">Queens</a></li>
+<li><a href="/new-york/staten-island/">Staten Island</a></li> 
+					</ul>
+				                
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-sports nav-2 nav-menu-item-with-submenu menu-opener navigable">
+			  <a class="nav-menu-link" href="/sports/">Sports</a>
+			  					<ul class="dropdown tiers-3">
+						<li><a href="/sports/"><span class="alt">All</span></a></li>
+<li><a href="/sports/baseball/mets/">Mets</a></li>
+<li><a href="/sports/baseball/yankees/">Yankees</a></li>
+<li><a href="/sports/football/giants/">Giants</a></li>
+<li><a href="/sports/football/jets/">Jets</a></li>
+<li><a href="/sports/basketball/knicks/">Knicks</a></li>
+<li><a href="/sports/basketball/nets/">Nets</a></li>
+<li><a href="/sports/hockey/islanders/">Islanders</a></li>
+<li><a href="/sports/hockey/rangers/">Rangers</a></li>
+<li><a href="/sports/soccer/">Soccer</a></li>
+<li><a href="/sports/tennis/">Tennis</a></li>
+<li><a href="/sports/olympics/">Olympics</a></li>
+<li><a href="/sports/betting/">Betting</a></li>
+<li><a href="/amny-sports-newsletter/"><span class="alt"><i class="fas fa-envelope"></i>Sports Newsletter</span></a></li> 
+					</ul>
+				                
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-home-pros nav-1">
+			  <a class="nav-menu-link" href="/home-pros/"><i class="fas fa-tools"></i>Home Pros</a>
+			                  
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-contact-us nav-0">
+			  <a class="nav-menu-link" href="/contact-us/">Contact Us</a>
+			                  
+			</li>
+					
+		<li class="nav-menu-item nav-menu-item-basic nav-more-from-amny nav--1 nav-menu-item-with-submenu menu-opener menu-only">
+			  <span class="nav-menu-link">More from amNY</span>
+			  					<ul class="dropdown tiers-2">
+						<li><a href="/lifestyle/shopping/"><i class="fas fa-shopping-cart text-color-accent"></i>amNY Shops</a></li>
+<li><a href="https://jobs.amny.com/"><i class="fas fa-user-tie"></i>Jobs</a></li>
+<li><a href="https://games.amny.com/?arkpromo=Site_TopNav"><i class="fas fa-gamepad"></i>Games</a></li>
+<li><a href="/digital-editions/"><i class="far fa-newspaper"></i>Digital Editions</a></li>
+<li><a href="https://podcasts.schnepsmedia.com"><i class="fas fa-microphone-alt"></i>Podcasts</a></li>
+<li><a href="/sponsored/"><i class="fas fa-user-tag"></i>Brand Content</a></li>
+<li><a href="https://www.amny.com/cannabisdirectory">NYC Cannabis Directory</a></li> 
+					</ul>
+				                
+			</li>
+			  
+		
+    </ul>
+</nav>
+
+	<nav class="corner-nav" role="navigation">
+
+				<div class="nav-menu-login-signup">
+				<span
+	class="acct "
+	data-acct
+	data-settings-url="/my-account/"
+	data-help-url="/contact-us/"
+>
+
+  <!-- ── Trigger: shown when logged in ───────────────────────────────────── -->
+  <button
+    class="acct__trigger"
+    data-acct-trigger
+    aria-haspopup="menu"
+    aria-expanded="false"
+    aria-controls="acctMenu"
+    style="display:none"
+  >
+    <span class="acct__badge" aria-hidden="true">
+      <span data-acct-initials><i class="fas fa-user text-color-main"></i></span>
+    </span>
+    <span class="acct__name" data-acct-name>Reader</span>
+    <span class="acct__chev" aria-hidden="true">&#8964;</span>
+    <span class="sr-only">Toggle account menu</span>
+  </button>
+
+  <!-- ── Dropdown panel ──────────────────────────────────────────────────── -->
+  <div class="acct__menu" id="acctMenu" role="menu" hidden>
+
+    <div class="acct__greet">
+      <p class="acct__hello">Hello, <span data-acct-name>Reader</span>!</p>
+    </div>
+
+    <a
+      class="acct__item"
+      role="menuitem"
+      href="/my-account/"
+      rel="nofollow"
+      data-acct-settings
+    >
+      <span class="acct__icon acct__icon--gear" aria-hidden="true"></span>
+      <span>Account Settings</span>
+      <span class="acct__arrow" aria-hidden="true">›</span>
+    </a>
+
+    <a
+      class="acct__item"
+      role="menuitem"
+      href="/contact-us/"
+      rel="nofollow"
+      data-acct-help
+    >
+      <span class="acct__icon acct__icon--help" aria-hidden="true"></span>
+      <span>Help</span>
+      <span class="acct__arrow" aria-hidden="true">›</span>
+    </a>
+
+    
+    <div class="acct__logout-wrap">
+      <a href="#" aria-label="Log Out" role="button" rel="nofollow noopener noreferrer" data-piano-logout>Log Out</a>    </div>
+
+    <div class="acct__logout-msg" role="status" aria-live="polite" hidden>
+      You have successfully signed out.
+    </div>
+
+  </div>
+  <!-- ── /Dropdown panel ─────────────────────────────────────────────────── -->
+
+  <!-- ── Fallback: shown when logged out ─────────────────────────────────── -->
+  <span class="acct__fallback" data-acct-fallback style="display:none">
+    <a class="piano-login" href="#" aria-label="Log In" role="button" rel="nofollow noopener noreferrer" data-piano-login="login"><i class="fas fa-user" aria-hidden="true"></i><span>Log In</span></a>    <a class="piano-register" href="#" aria-label="Register" role="button" rel="nofollow noopener noreferrer" data-piano-login="register">Register</a>  </span>
+
+</span>			</div>
+			
+	
+	<a class="nav-menu-search" title="Search" href="/?s="><i class="fas fa-search" aria-hidden="true" aria-label="Search"></i></a>
+
+		<div class="nav-menu-search-box bkg-main">
+<form role="search" method="get" class="search-form" action="/">
+<label>
+	<span class="screen-reader-text">Search:</span>
+	<input type="search" class="search-field" placeholder="Search" value="" name="s">
+</label>
+<button type="submit" class="basic-button bkg-main search-submit icon-search-basic" value="Search"><i class="fa fa-search" aria-hidden="true" aria-label="Search"></i></button>
+</form>		</div>
+    <div class="nav-menu-notif-bell nav-menu-icon-row">
+	<div class="viafoura"><vf-tray-trigger></vf-tray-trigger></div>
+</div>
+	
+    <div class="hamburger">
+<i title="Menu" class="fas fa-bars opener" aria-hidden="true"></i>
+<i title="Close" class="fas fa-times closer" aria-hidden="true"></i>
+    </div>    
+    </nav>
+
+
+	</div>
+
+<!--<div class="overlay-magazine-container">
+</div>--> 
+		</div>
+	</div>
+	
+	<div class="potential-overlay-container actual-overlay-container">
+		<div class="potential-overlay actual-overlay">
+
+			<div class="header-wrapper">
+<header class="header-standard site-masthead">
+   
+    <div class="logo-container">
+		<a href="/"><img src="https://www.amny.com/wp-content/uploads/2023/06/amNY-logo-v2.png" alt="amNewYork: New York City News: Latest Headlines, Videos &amp; Pictures" class="fullLogo" width="2000" height="552"><img src="https://www.amny.com/wp-content/uploads/2020/10/amNY-logo-white-antialiased.png" alt="amNewYork: New York City News: Latest Headlines, Videos &amp; Pictures" class="scrolldownLogo" width="712" height="196"></a>    </div>
+    
+    <div class="nav-menu-notif-bell nav-menu-icon-row">
+	<div class="viafoura"><vf-tray-trigger></vf-tray-trigger></div>
+</div>
+	
+    <div class="hamburger">
+<i title="Menu" class="fas fa-bars opener" aria-hidden="true"></i>
+<i title="Close" class="fas fa-times closer" aria-hidden="true"></i>
+    </div>
+</header>
+</div>
+ 
+			
+			<!-- Navigation - Singlerow -->
+<!-- loop through menu row -->
+
+<nav class="main-nav hamburger-menu" role="navigation">
+	<ul class="nav-menu-items nav-menu-singlet">
+		<li class="hamburger-menu-search-box">
+<form role="search" method="get" class="search-form" action="/">
+<label>
+	<span class="screen-reader-text">Search:</span>
+	<input type="search" class="search-field" placeholder="Search" value="" name="s">
+</label>
+<button type="submit" class="basic-button bkg-main search-submit icon-search-basic" value="Search"><i class="fa fa-search" aria-hidden="true" aria-label="Search"></i></button>
+</form>		</li>
+    </ul>
+    
+    <div class="hamburger-grid">
+
+		<ul class="nav-menu-items nav-menu-pile">
+			<li class="nav-menu-item nav-menu-subhead">
+				  <a class="nav-menu-link" href="/news/">News</a>
+			</li><li class="nav-menu-item"><a href="/"><span class="alt">All</span></a></li><li class="nav-menu-item"><a href="/new-york/manhattan/neighborhoods/"><span class="alt"><i class="fas fa-map-marker-alt"></i></span>By Neighborhood</a></li><li class="nav-menu-item"><a href="/business-finance/">Business</a></li><li class="nav-menu-item"><a href="/eat-and-drink/">Eat & Drink</a></li><li class="nav-menu-item"><a href="/education/">Education</a></li><li class="nav-menu-item"><a href="/entertainment/">Entertainment</a></li><li class="nav-menu-item"><a href="/finance/">Finance</a></li><li class="nav-menu-item"><a href="/lifestyle/health/">Health</a></li></ul><ul class="nav-menu-items nav-menu-pile"><li class="nav-menu-spacer nav-menu-item nav-menu-subhead"><span class="spacer">&nbsp;</span></li><li class="nav-menu-item"><a href="/law/">Law</a></li><li class="nav-menu-item"><a href="/opinion/">Opinion</a></li><li class="nav-menu-item"><a href="/police-fire/">Police & Fire</a></li><li class="nav-menu-item"><a href="/politics/">Politics</a></li><li class="nav-menu-item"><a href="/real-estate/">Real Estate</a></li><li class="nav-menu-item"><a href="/sports/">Sports</a></li><li class="nav-menu-item"><a href="/transit/">Transit</a></li></ul><ul class="nav-menu-items nav-menu-pile">
+			<li class="nav-menu-item nav-menu-subhead">
+				  <a class="nav-menu-link" href="https://events.amny.com" target="_blank"><i class="far fa-calendar text-color-accent"></i>Things to Do</a>
+			</li><li class="nav-menu-item"><a href="https://events.amny.com"><span class="alt"><i class="far fa-calendar"></i></span>All <span class="alt">NYC Events</span></a></li><li class="nav-menu-item"><a href="https://events.amny.com/communities/new-york-metro-area/nyc/manhattan/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">Manhattan</span></a></li><li class="nav-menu-item"><a href="https://events.brooklynpaper.com/communities/new-york-metro-area/nyc/brooklyn/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">Brooklyn</span></a></li><li class="nav-menu-item"><a href="https://events.qns.com/communities/new-york-metro-area/nyc/queens/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">Queens</span></a></li><li class="nav-menu-item"><a href="https://events.bxtimes.com/communities/new-york-metro-area/nyc/bronx/"><span class="alt"><i class="far fa-calendar"></i></span>Events in <span class="alt">The Bronx</span></a></li><li class="nav-menu-item"><a href="https://events.amny.com/communities/new-york-metro-area/nyc/staten-island/"><span class="alt"><i class="far fa-calendar"></i></span>Events on <span class="alt">Staten Island</span></a></li></ul><ul class="nav-menu-items nav-menu-pile"><li class="nav-menu-spacer nav-menu-item nav-menu-subhead"><span class="spacer">&nbsp;</span></li><li class="nav-menu-item"><a href="https://events.newyorkfamily.com/"><span class="alt"><i class="fas fa-seedling"></i></span>Things to do with kids</a></li><li class="nav-menu-item"><a href="https://events.amny.com/add-your-event/"><span class="alt"><i class="far fa-calendar-plus"></i></span>Post an Event</a></li><li class="nav-menu-item"><a href="/things-to-do/">Entertainment Guides</a></li><li class="nav-menu-item"><a href="https://www.schnepsmedia.com/upcoming-events/">Business Events</a></li><li class="nav-menu-item"><a href="https://www.schnepsmedia.com/webinars/">Webinars</a></li></ul><ul class="nav-menu-items nav-menu-pile">
+			<li class="nav-menu-item nav-menu-subhead">
+				  <span class="nav-menu-link">Boroughs</span>
+			</li><li class="nav-menu-item"><a href="/new-york/manhattan/">Manhattan</a></li><li class="nav-menu-item"><a href="/new-york/brooklyn/">Brooklyn</a></li><li class="nav-menu-item"><a href="/new-york/bronx/">The Bronx</a></li><li class="nav-menu-item"><a href="/new-york/queens/">Queens</a></li><li class="nav-menu-item"><a href="/new-york/staten-island/">Staten Island</a></li></ul><ul class="nav-menu-items nav-menu-pile">
+			<li class="nav-menu-item nav-menu-subhead">
+				  <a class="nav-menu-link" href="/sports/">Sports</a>
+			</li><li class="nav-menu-item"><a href="/sports/"><span class="alt">All</span></a></li><li class="nav-menu-item"><a href="/sports/baseball/mets/">Mets</a></li><li class="nav-menu-item"><a href="/sports/baseball/yankees/">Yankees</a></li><li class="nav-menu-item"><a href="/sports/football/giants/">Giants</a></li><li class="nav-menu-item"><a href="/sports/football/jets/">Jets</a></li><li class="nav-menu-item"><a href="/sports/basketball/knicks/">Knicks</a></li><li class="nav-menu-item"><a href="/sports/basketball/nets/">Nets</a></li></ul><ul class="nav-menu-items nav-menu-pile"><li class="nav-menu-spacer nav-menu-item nav-menu-subhead"><span class="spacer">&nbsp;</span></li><li class="nav-menu-item"><a href="/sports/hockey/islanders/">Islanders</a></li><li class="nav-menu-item"><a href="/sports/hockey/rangers/">Rangers</a></li><li class="nav-menu-item"><a href="/sports/soccer/">Soccer</a></li><li class="nav-menu-item"><a href="/sports/tennis/">Tennis</a></li><li class="nav-menu-item"><a href="/sports/olympics/">Olympics</a></li><li class="nav-menu-item"><a href="/sports/betting/">Betting</a></li><li class="nav-menu-item"><a href="/amny-sports-newsletter/"><span class="alt"><i class="fas fa-envelope"></i>Sports Newsletter</span></a></li></ul><ul class="nav-menu-items nav-menu-pile">
+			<li class="nav-menu-item nav-menu-subhead">
+				  <span class="nav-menu-link">More from amNY</span>
+			</li><li class="nav-menu-item"><a href="/lifestyle/shopping/"><i class="fas fa-shopping-cart text-color-accent"></i>amNY Shops</a></li><li class="nav-menu-item"><a href="https://jobs.amny.com/"><i class="fas fa-user-tie"></i>Jobs</a></li><li class="nav-menu-item"><a href="https://games.amny.com/?arkpromo=Site_TopNav"><i class="fas fa-gamepad"></i>Games</a></li><li class="nav-menu-item"><a href="/digital-editions/"><i class="far fa-newspaper"></i>Digital Editions</a></li><li class="nav-menu-item"><a href="https://podcasts.schnepsmedia.com"><i class="fas fa-microphone-alt"></i>Podcasts</a></li><li class="nav-menu-item"><a href="/sponsored/"><i class="fas fa-user-tag"></i>Brand Content</a></li><li class="nav-menu-item"><a href="https://www.amny.com/cannabisdirectory">NYC Cannabis Directory</a></li></ul><ul class="nav-menu-items nav-menu-pile nav-menu-singlet-group">
+			<li class="nav-menu-item nav-menu-subhead">
+				  <a class="nav-menu-link" href="/home-pros/"><i class="fas fa-tools"></i>Home Pros</a>
+			</li>
+			<li class="nav-menu-item nav-menu-subhead">
+				  <a class="nav-menu-link" href="/contact-us/">Contact Us</a>
+			</li>		
+		<ul class="nav-menu-items">
+			<li class="nav-menu-social-links social-links nav-menu-icon-row">				
+				<a href="https://twitter.com/AMNewYork" target="_blank" title="Twitter">
+		<i class="fab fa-twitter" aria-hidden="true" aria-label="Twitter"></i></a>
+			
+				
+				<a href="https://www.facebook.com/amnewyork" target="_blank" title="Facebook">
+		<i class="fab fa-facebook-f" aria-hidden="true" aria-label="Facebook"></i></a>
+			
+				
+				<a href="https://www.instagram.com/amnewyork/" target="_blank" title="Instagram">
+		<i class="fab fa-instagram" aria-hidden="true" aria-label="Instagram"></i></a>
+			
+				
+				<a href="https://www.youtube.com/user/amnewyork" target="_blank" title="Youtube">
+		<i class="fab fa-youtube" aria-hidden="true" aria-label="Youtube"></i></a>
+			
+				
+</li>
+   		</ul>
+		
+		</ul>		
+	</div>
+	
+</nav>
+ 
+
+		</div>
+	</div>
+	
+		
+	 
+		
+		</div><!-- /the-header-area -->
+ 
+
+<div class="content-container single-template transparent-container wallpaper-container">
+<div class="container-center-cut">
+	 
+
+    <div id="theSidebarContainer" class="content-section standard-singlepost">
+
+        <div class="content-main">
+        	<div id="theArticleContainer">
+		<script>
+gtag('event', 'author_view', {
+	author_byline: 'Adam Daly',
+	story_title: 'AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings',
+	post_date: '2026-wk-41',
+	post_date_exact: '2026-10-05',
+});
+gtag('event', 'post_view_by_cat', {
+	post_category: 'News',
+	story_title: 'AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings',
+	post_date: '2026-wk-41',
+	post_date_exact: '2026-10-05',
+});
+gtag('event', 'post_view_by_cat', {
+	post_category: 'Politics',
+	story_title: 'AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings',
+	post_date: '2026-wk-41',
+	post_date_exact: '2026-10-05',
+});
+</script>
+<article id="post-137873430" class="post-137873430 post type-post status-publish format-standard has-post-thumbnail hentry category-news category-politics tag-ai-regulation tag-anthropic tag-city-council tag-google tag-meta tag-open-ai">
+	<div class="article-header">
+		
+					<div class="category-box category-label category-label-politics">
+			<a href="https://www.amny.com/politics/">Politics</a>
+			</div>
+					
+		<h1 class="article-title">AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings</h1>
+		
+
+		
+						<div class="article-meta triple">
+				
+				<span class="byline"><img alt='' src='https://www.amny.com/wp-content/uploads/2023/06/amNY-logo-mini-sq.png' srcset='https://www.amny.com/wp-content/uploads/2023/06/amNY-logo-mini-sq.png 2x' class='avatar avatar-32 photo' height='32' width='32' decoding='async'/><span class="name">By <a href="https://www.amny.com/author/adam-daly/" title="Posts by Adam Daly" class="author url fn" rel="author">Adam Daly</a></span></span>
+					<div class="comments-meta vf-commentscount bkg-accent text-color-white" data-id="137873430"><a href="#comments-section"><i class="fas fa-comment-alt"></i><span class="the-comment-count"  id="comment-count-137873430"><span class="mobile-only">…</span></span> <span class="desktop-only">Comments</span></a></div>
+	
+				<span class="posted-on"><span class="intro">Posted on </span><a href="https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/" rel="bookmark"><time class="entry-date published updated" datetime="2026-10-05T18:30:09-04:00">October 5, 2026</time></a></span>				
+			</div><!-- .article-meta -->
+				</div><!-- .article-header -->
+
+
+	<div class="post-thumbnail">
+	<div class="image-wrapper">
+				
+				<img width="1200" height="849" src="https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=51&amp;w=1200" class="crop-center wp-post-image" alt="Anthropic A.I. whistleblower Jacob Coxon testifies in front of the city council." decoding="async" fetchpriority="high" srcset="https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=31&#038;resize=1200,849 1200w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=31&#038;resize=2048,1450 2048w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=51&#038;resize=384,272 384w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=51&#038;resize=900,637 900w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=31&#038;resize=1600,1132 1600w" sizes="(max-width: 1200px) 100vw, 1200px" title="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings 1">			</div>
+	<div class="image-caption">Anthropic  A.I. whistleblower Jacob Coxon testifies in front of the city council.</div>	<div class="image-credit">Photo by Lloyd Mitchell</div></div><!-- .post-thumbnail -->
+
+	<div class="addthis_inline_share_toolbox"></div>
+
+
+
+	<div class="article-content">
+		<p><span style="font-weight: 400;">Four leading artificial intelligence companies were questioned under oath at City Hall Monday, but repeatedly stopped short of giving lawmakers clear answers on some of the central safety questions driving New York City’s push to regulate the industry.</span></p><div id="piano-inline-wrapper">
+<p><span style="font-weight: 400;">Representatives from OpenAI, Anthropic, Meta and Google did not put a number on the risk of catastrophic harm from increasingly powerful AI systems, did not give a blanket commitment that failing an independent safety test would automatically block a model’s release and largely avoided saying whether their companies would bear legal responsibility if one of their systems caused serious harm.</span></p>
+<p><span style="font-weight: 400;">The hours-long grilling came as the City Council <a href="https://www.amny.com/news/ai-whistleblower-paid-under-nyc-council-proposal/">weighs a package of AI legislation</a> that includes mandatory third-party validation for systems marketed or deployed in the city, human “kill switches,” financial incentives for whistleblowers, a new right for some people harmed by AI to sue and 24-hour reporting of certain safety incidents involving city agencies or contractors.</span></p><div id="piano-inline-signup"></div><div class="stn-size">
+<div data-stn-player="gq4cbg36"></div><script async type="text/javascript" src="https://embed.sendtonews.com/player3/embedcode.js?fk=gq4cbg36"></script>
+</div>
+
+<p data-pm-slice="1 1 []">The Council hearing came days after the <a href="https://www.npr.org/2026/09/30/nx-s1-5985699/trump-self-police-ai-development" target="_blank" rel="noopener">Trump administration announced a voluntary AI safety agreemen</a>t with several major technology companies, including OpenAI, Anthropic, Google, Meta and xAI. The agreement calls for companies to use internal safeguards, outside reviews and board-level oversight, but does not impose binding federal requirements.</p>
+<p data-pm-slice="1 1 []">“When the federal government fails to act, cities take the lead and that’s exactly what the New York City Council has done today,&#8221; said Speaker Menin.
+<p data-pm-slice="1 1 []">One invited company was notably absent. Elon Musk’s SpaceXAI failed to appear despite a Council subpoena issued last week.
+<p>“SpaceXAI, however, is not here at all in direct violation of the subpoena that we issued last week, and we are pursuing that subpoena in court,” Menin said.
+<figure id="attachment_137873438" aria-describedby="caption-attachment-137873438" style="max-width: 700px" class="wp-caption alignnone"><img decoding="async" class="size-medium wp-image-137873438" src="https://www.amny.com/wp-content/uploads/2026/10/DSC_2038-1.jpg?quality=51&amp;w=700" alt="" width="700" height="408" title="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings 2" srcset="https://www.amny.com/wp-content/uploads/2026/10/DSC_2038-1.jpg?quality=31&#038;resize=1200,700 1200w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2038-1.jpg?quality=51&#038;resize=384,224 384w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2038-1.jpg?quality=51&#038;resize=900,525 900w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2038-1.jpg?quality=31&#038;resize=1600,933 1600w" sizes="(max-width: 700px) 100vw, 700px" /><figcaption id="caption-attachment-137873438" class="wp-caption-text"><span class="image-caption">The City Council questioned top reps from the leading AI companies Monday. Photo</span><span class="image-credit"> by Lloyd Mitchell</span></figcaption></figure>
+<p><span style="font-weight: 400;">The Council convened as a Committee of the Whole, a rarely used format that includes all 51 members. Roughly 40 council members participated throughout the day, according to the Council. Speaker Julie Menin led the questioning, asking the companies to quantify the risk of a worst-case catastrophic event.</span></p>
+    <div id="inline-content-recommendations"></div>
+
+
+<p><span style="font-weight: 400;">“I don’t know. I also don’t think it matters whether it’s 1% or 10% or a 20% chance that something catastrophic will go wrong,” said Morgan Dwyer, OpenAI’s head of policy development and operations. “None of these levels is remotely acceptable. We should not train models that we cannot make an extremely strong case that we can keep under human control.”</span></p>
+<p><span style="font-weight: 400;">Menin pushed back. “To say you don’t know and it doesn’t matter is flippant at best,” she said, comparing the answer to a pharmaceutical company developing a drug without knowing the likelihood it could kill people.</span></p>
+<p><span style="font-weight: 400;">Anthropic’s Logan Graham discussed the company’s efforts to assess risks ranging from cybersecurity to loss of control but did not give a percentage. </span>
+<p><span style="font-weight: 400;">Meta&#8217;s director for privacy and AI legislation Shane Cahill said he did not want to be imprecise and would follow up. </span>
+<p><span style="font-weight: 400;">Google’s Alice Friend said there was not yet a rigorous scientific method for assigning a probability to a future catastrophic AI event.</span>
+<p><span style="font-weight: 400;">Menin later asked whether the companies would bear legal responsibility if an AI system went rogue and caused major financial damage, exposed sensitive information, injured someone or contributed to a death.</span></p><div class="ad-container embedded-ad-container">
+<div class="responsive-ad">
+<!-- /1048906/amny_content_responsive_1 -->
+<div id='amny_content_responsive_1'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('amny_content_responsive_1'); });
+  </script>
+</div>
+</div>
+
+</div>
+<figure id="attachment_137873441" aria-describedby="caption-attachment-137873441" style="max-width: 700px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-medium wp-image-137873441" src="https://www.amny.com/wp-content/uploads/2026/10/DSC_2081.jpg?quality=51&amp;w=700" alt="" width="700" height="377" title="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings 3" srcset="https://www.amny.com/wp-content/uploads/2026/10/DSC_2081.jpg?quality=31&#038;resize=1200,646 1200w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2081.jpg?quality=51&#038;resize=384,207 384w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2081.jpg?quality=51&#038;resize=900,485 900w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2081.jpg?quality=31&#038;resize=1600,862 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" /><figcaption id="caption-attachment-137873441" class="wp-caption-text"><span class="image-caption">OpenAI’s Morgan Dwyer, Anthropic’s Logan Graham, Meta’s Shane Cahill and Google’s Alice Friend testify virtually before the New York City Council on Oct. 5, 2026, during a hearing on AI safety and regulation. Photo</span><span class="image-credit"> by Lloyd Mitchell</span></figcaption></figure>
+<p><span style="font-weight: 400;">Dwyer said OpenAI was responsible for developing and evaluating its systems safely but did not directly say whether the company would bear legal liability under Menin’s hypothetical. Graham said the question was outside his expertise as a technical researcher, while Cahill said he was not in Meta’s legal department and did not want to speculate.</span></p><div class="ad-container embedded-ad-container">
+<div class="responsive-ad">
+<!-- /1048906/amny_content_responsive_2 -->
+<div id='amny_content_responsive_2'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('amny_content_responsive_2'); });
+  </script>
+</div>
+</div>
+
+</div>
+<p><span style="font-weight: 400;">Friend gave the clearest response, saying Google believes existing legal frameworks apply to AI and repeating the company’s position that “if it’s illegal without AI, it’s still illegal with AI.”</span></p>
+<p><span style="font-weight: 400;">Menin also asked whether the companies would commit not to release a model if it failed an internal safety test or an independent third-party validation.</span>
+<p><span style="font-weight: 400;">Dwyer said OpenAI would not release models it did not believe were safe and noted that the company has delayed releases in the past. But when Menin asked specifically whether failing either type of test would stop a release, Dwyer again pointed to the company’s broader safety process.</span></p>
+<p><span style="font-weight: 400;">Anthropic, Meta and Google also described their review procedures without making the blanket commitment Menin sought.</span>
+<p><span style="font-weight: 400;">“I think a simple yes or no would instill more confidence in the public on a matter as serious as this,” Menin said.</span>
+<h2>AI whistleblower warns: &#8216;We don&#8217;t fully control it&#8217;</h2>
+<p><span style="font-weight: 400;">The questioning followed testimony from three former employees of major AI companies who warned that the technology is advancing faster than researchers’ ability to reliably control it.</span></p><div class="ad-container embedded-ad-container">
+<div class="responsive-ad">
+<!-- /1048906/amny_content_responsive_3 -->
+<div id='amny_content_responsive_3'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('amny_content_responsive_3'); });
+  </script>
+</div>
+</div>
+
+</div>
+<p><figure id="attachment_137873443" aria-describedby="caption-attachment-137873443" style="max-width: 700px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-medium wp-image-137873443" src="https://www.amny.com/wp-content/uploads/2026/10/DSC_1436.jpg?quality=51&amp;w=700" alt="" width="700" height="446" title="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings 4" srcset="https://www.amny.com/wp-content/uploads/2026/10/DSC_1436.jpg?quality=31&#038;resize=1200,765 1200w, https://www.amny.com/wp-content/uploads/2026/10/DSC_1436.jpg?quality=51&#038;resize=384,245 384w, https://www.amny.com/wp-content/uploads/2026/10/DSC_1436.jpg?quality=51&#038;resize=900,573 900w, https://www.amny.com/wp-content/uploads/2026/10/DSC_1436.jpg?quality=31&#038;resize=1600,1020 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" /><figcaption id="caption-attachment-137873443" class="wp-caption-text"><span class="image-caption">Speaker Julie Menin speaks to reporters ahead of Monday&#8217;s hearing</span><span class="image-credit">Photo by Lloyd Mitchell</span></figcaption></figure> <figure id="attachment_137873442" aria-describedby="caption-attachment-137873442" style="max-width: 700px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-medium wp-image-137873442" src="https://www.amny.com/wp-content/uploads/2026/10/DSC_1468-1.jpg?quality=51&amp;w=700" alt="" width="700" height="467" title="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings 5" srcset="https://www.amny.com/wp-content/uploads/2026/10/DSC_1468-1.jpg?quality=31&#038;resize=1200,800 1200w, https://www.amny.com/wp-content/uploads/2026/10/DSC_1468-1.jpg?quality=51&#038;resize=384,256 384w, https://www.amny.com/wp-content/uploads/2026/10/DSC_1468-1.jpg?quality=51&#038;resize=900,600 900w, https://www.amny.com/wp-content/uploads/2026/10/DSC_1468-1.jpg?quality=31&#038;resize=1600,1067 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" /><figcaption id="caption-attachment-137873442" class="wp-caption-text"><span class="image-caption">Anthropic A.I. whistleblower Jacob Coxon testifies in front of the city council.</span><span class="image-credit">Photo by Lloyd Mitchell</span></figcaption></figure></p>
+<div id="emp-69c61" class="emp-action emp-ad" style="width:100%;text-align:center;"><style>#placement_551839_0_i{width:100%;max-width:550px;margin:0 auto;}</style>   
+                    <script type="text/javascript" data-jetpack-boost="ignore" data-cfasync="false">
+                        var rnd = Math.floor(Math.random()*10e6);
+                        var pid551839 = rnd;
+                        var plc551839 = window.plc551839 || 0;
+                        var abkw = window.abkw || '';
+                        var absrc = 'https://ads.empowerlocal.co/adserve/;ID=181918;size=0x0;setID=551839;type=js;sw='+screen.width+';sh='+screen.height+';spr='+window.devicePixelRatio+';kw='+abkw+';pid='+pid551839+';place='+(plc551839++)+';rnd='+rnd+';click=CLICK_MACRO_PLACEHOLDER';
+                        var _absrc = absrc.split("type=js"); absrc = _absrc[0] + 'type=js;referrer=' + encodeURIComponent(document.location.href) + _absrc[1];
+                        document.write('<scr'+'ipt src="'+absrc+'" type="text/javascript"></'+'script>');
+                    </script></div>
+<p><span style="font-weight: 400;">Jacob Coxon, a former researcher at OpenAI and Anthropic, said researchers still do not fully understand why advanced AI systems behave the way they do.</span>
+<p><span style="font-weight: 400;">“We don’t fully control it. We don’t understand its drives or why it does the things it does,” Coxon said.</span>
+<p><span style="font-weight: 400;">He warned that companies are approaching systems capable of helping conduct the research used to build their successors, a process known as recursive self-improvement.</span></p>
+<p><span style="font-weight: 400;">Coxon said he believes that, on the current trajectory, it is “more likely than not” that humanity could eventually lose control of such systems, potentially resulting in human extinction. He framed that as his own assessment.</span></p>
+<p><span style="font-weight: 400;">“The companies need to be far more transparent with the public and independent experts,” Coxon said. “They need to take safety much more seriously than they have, and we should slow down frontier AI development until we can be confident that it’s safe.”</span></p>
+<p><span style="font-weight: 400;">Former OpenAI researcher Daniel Kokotajlo and former Google DeepMind researcher Alex Turner also warned about increasingly autonomous systems. Turner told lawmakers his personal estimate of an eventual AI takeover was roughly one in three.</span></p>
+<figure id="attachment_137873445" aria-describedby="caption-attachment-137873445" style="max-width: 700px" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-medium wp-image-137873445" src="https://www.amny.com/wp-content/uploads/2026/10/DSC_2122-1.jpg?quality=51&amp;w=700" alt="" width="700" height="393" title="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings 6" srcset="https://www.amny.com/wp-content/uploads/2026/10/DSC_2122-1.jpg?quality=31&#038;resize=1200,674 1200w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2122-1.jpg?quality=51&#038;resize=384,216 384w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2122-1.jpg?quality=51&#038;resize=900,506 900w, https://www.amny.com/wp-content/uploads/2026/10/DSC_2122-1.jpg?quality=31&#038;resize=1600,899 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" /><figcaption id="caption-attachment-137873445" class="wp-caption-text"><span class="image-caption">Assembly Member Alex Bores, the Assembly sponsor of New York’s RAISE Act, arrives at City Hall on Oct. 5, 2026, for the City Council’s hearing on artificial intelligence safety and regulation.</span><span class="image-credit">Photo by Lloyd Mitchell</span></figcaption></figure>
+<p><span style="font-weight: 400;">OpenAI also disclosed that it is reviewing potential past incidents of misalignment involving AI agents dating back to November 2025.</span></p>
+<p><span style="font-weight: 400;">Asked whether any such incident had affected a New York City government system or a city resident’s personal data, Dwyer said she was not aware of any. </span><span style="font-weight: 400;">But she said the investigation remains underway.</span></p>
+<p><span style="font-weight: 400;">“I can commit to you that if there are incidents that affect New York City, we will make the third parties aware,” she said, adding that OpenAI intends to make the results public.</span></p>
+<p><span style="font-weight: 400;">The testimony also revived an Albany fight over the RAISE Act, New York’s frontier AI safety law.</span>
+<h2>State lawmakers weigh in</h2>
+<p><span style="font-weight: 400;">OpenAI repeatedly cited its support for the law while defending its record on regulation. But state Sen. Andrew Gounardes, who sponsored the measure, accused the companies of fighting stronger safeguards contained in its original version.</span></p>
+<p><span style="font-weight: 400;">That earlier proposal included mandatory third-party audits, whistleblower protections, a prohibition on deploying a model a developer knew posed an unreasonable risk of harm and higher fines, according to Gounardes’ written testimony.</span></p>
+<p><span style="font-weight: 400;">“Contrary to what you heard earlier today, the companies that testified in this room today and their army of lobbyists spent millions of dollars to defeat that version of the bill,” Gounardes testified. He said some companies ultimately supported the version that became law.</span></p>
+<p><span style="font-weight: 400;">After the hearing, Gounardes said the testimony reinforced his argument that outside regulation is needed.</span>
+<p><span style="font-weight: 400;">“They repeatedly claim to support smart guardrails on AI, even as they’ve spent millions on an army of lobbyists to defeat legislation that would create those guardrails, like my RAISE Act,” he said.</span></p>
+<p>Assembly Member Alex Bores, who sponsored the bill in the Assembly, went further after the hearing, accusing OpenAI of lying under oath about its position.
+<p>“I believe that @OpenAI just committed perjury,” Bores wrote on X, later calling the company’s stated position “a lie.”
+<p><span style="font-weight: 400;">Council Member Christopher Marte later raised the dispute directly with OpenAI.</span>
+<p><span style="font-weight: 400;">“OpenAI worked with other companies on the New York RAISE Act, and we do support the New York RAISE Act, which passed,” Dwyer said, before pointing to other AI safety legislation the company says it has supported. Notably, she did not say OpenAI had supported the original version of the RAISE Act.</span></p>
+<p><span style="font-weight: 400;">OpenAI also told lawmakers that voluntary industry commitments are not enough and said it supports government regulation of frontier AI.</span>
+<p><span style="font-weight: 400;">At the close of the company panel, the Council made clear it was still seeking answers.</span>
+<p><span style="font-weight: 400;">“The council still has many questions that we feel we did not get answers to today,” Menin said, adding that the companies would receive a list of questions to answer in writing.</span></p>
+<p data-pm-slice="1 1 []">Mayor Zohran Mamdani, <a href="https://www.youtube.com/watch?v=IynOVW4wc3k" target="_blank" rel="noopener">asked at a separate press conference</a> about the Council’s push Monday, said AI needs to be regulated “at every single level” of government but argued the most urgent response must come from Washington.</p>
+<p>“This is not a New York City-specific question,” Mamdani said. “And therefore, I think that the place where we need the most urgent response to this is at the national level.”
+<p data-pm-slice="1 1 []">Mamdani said it was right for the Council to examine the issue and that city government should continue taking its own steps, but stopped short of endorsing the individual bills under consideration, saying he first wanted to review them.</p>
+</div>
+		
+	</div><!-- .article-content -->
+	
+
+	<div class="article-footer">
+
+		
+		<div class="addthis_inline_share_toolbox"></div>
+
+		<div class="author-meta">
+				<h3 class="about-the-author">About the Author</h3>
+ 
+		</div>
+
+					<div class="comments-container" id="comments-section">                          <div data-spotim-module="conversation" data-post-id="137873430"></div>
+			</div>
+					
+		
+				
+	</div><!-- .article-footer-->
+
+	<div class="viafoura-conversation-wrapper vf-widget-wrapper" id="comments-section">
+
+	<header class="conversation-header">
+		<span class="section-title"><i class="fas fa-solid fa-comment text-color-accent"></i>Conversations</span>
+
+		<span class="account-settings"><a href="/my-account/"><i class="fa-solid fa-gear text-color-main" style="margin-right:.4rem"></i>Profile</a></span>
+	</header>
+	<p class="conversation-blurb">All comments are subject to our <a href="/community-guidelines/">Community Guidelines</a>. Schneps Media does not endorse the views shared by readers in our comment sections.</p>
+
+	<div class="viafoura">
+		<vf-conversations></vf-conversations>
+	</div>
+</div>
+		</article>
+<div id="magma-events-footer">
+	<div class="content-sidebar sidebar-section widget-area">
+	
+	</div>
+</div>
+
+<div class="component-container related-posts">
+<div class="related-posts-footer">
+<h2 class="related-title">Related Articles</h2>
+	<ul class="display-posts-listing"><li class="listing-item article-container cards-design"><a class="image related-posts-true" href="https://www.amny.com/news/city-council-subpoenas-elon-musk-ai/"><img width="700" height="389" src="https://www.amny.com/wp-content/uploads/2026/09/MixCollage-28-Sep-2026-12-47-PM-4234.jpg?quality=51&amp;w=700" class="crop-center attachment-medium size-medium wp-post-image" alt="City Council Speaker Julie Menin pictured last week. Elon Musk is seen at President Donald Trump’s second inauguration on Jan. 20, 2025." decoding="async" loading="lazy" srcset="https://www.amny.com/wp-content/uploads/2026/09/MixCollage-28-Sep-2026-12-47-PM-4234.jpg?quality=31 1800w, https://www.amny.com/wp-content/uploads/2026/09/MixCollage-28-Sep-2026-12-47-PM-4234.jpg?quality=31&#038;resize=1200,667 1200w, https://www.amny.com/wp-content/uploads/2026/09/MixCollage-28-Sep-2026-12-47-PM-4234.jpg?quality=51&#038;resize=384,213 384w, https://www.amny.com/wp-content/uploads/2026/09/MixCollage-28-Sep-2026-12-47-PM-4234.jpg?quality=51&#038;resize=900,500 900w, https://www.amny.com/wp-content/uploads/2026/09/MixCollage-28-Sep-2026-12-47-PM-4234.jpg?quality=31&#038;resize=1600,889 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" title="City Council subpoenas Elon Musk’s AI company after rivals agree to testify under oath 7"></a> <span class="title-wrapper"><a class="title related-posts-true" href="https://www.amny.com/news/city-council-subpoenas-elon-musk-ai/">City Council subpoenas Elon Musk’s AI company after rivals agree to testify under oath</a></span></li><li class="listing-item article-container cards-design"><a class="image related-posts-true" href="https://www.amny.com/news/ai-whistleblower-paid-under-nyc-council-proposal/"><img width="700" height="393" src="https://www.amny.com/wp-content/uploads/2026/09/DSC_1294.jpg?quality=51&amp;w=700" class="crop-center attachment-medium size-medium wp-post-image" alt="AI whistleblowers could get paid under new NYC Council proposal" decoding="async" loading="lazy" srcset="https://www.amny.com/wp-content/uploads/2026/09/DSC_1294.jpg?quality=31&#038;resize=1200,674 1200w, https://www.amny.com/wp-content/uploads/2026/09/DSC_1294.jpg?quality=51&#038;resize=384,216 384w, https://www.amny.com/wp-content/uploads/2026/09/DSC_1294.jpg?quality=51&#038;resize=900,506 900w, https://www.amny.com/wp-content/uploads/2026/09/DSC_1294.jpg?quality=31&#038;resize=1600,899 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" title="AI whistleblowers could get paid under new NYC Council proposal 8"></a> <span class="title-wrapper"><a class="title related-posts-true" href="https://www.amny.com/news/ai-whistleblower-paid-under-nyc-council-proposal/">AI <span class="lgwd">whistleblowers</span> could get paid under new NYC Council proposal</a></span></li><li class="listing-item article-container cards-design post-format-link"><a href="https://www.newyorkfamily.com/meta-settlement-new-york-1-15-billion/" class="image related-posts-true"><img width="1200" height="800" src="https://www.newyorkfamily.com/wp-content/uploads/2026/08/GettyImages-2284386528.jpg?quality=51&amp;w=1200" class="crop-center wp-post-image" alt="Meta Settles: New York to Receive Up to $1.15 Billion: Here&#039;s What Changes for Kids" decoding="async" loading="lazy" srcset="https://www.newyorkfamily.com/wp-content/uploads/2026/08/GettyImages-2284386528.jpg?quality=31&#038;resize=1200,800 1200w, https://www.newyorkfamily.com/wp-content/uploads/2026/08/GettyImages-2284386528.jpg?quality=31&#038;resize=2048,1365 2048w, https://www.newyorkfamily.com/wp-content/uploads/2026/08/GettyImages-2284386528.jpg?quality=51&#038;resize=384,256 384w, https://www.newyorkfamily.com/wp-content/uploads/2026/08/GettyImages-2284386528.jpg?quality=51&#038;resize=900,600 900w, https://www.newyorkfamily.com/wp-content/uploads/2026/08/GettyImages-2284386528.jpg?quality=31&#038;resize=1600,1067 1600w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></a><span class="title-wrapper"><a class="title related-posts-true" href="https://www.newyorkfamily.com/meta-settlement-new-york-1-15-billion/">Meta Settles: New York to Receive Up to $1.15 Billion: Here&#8217;s What Changes for Kids</a></span></li><li class="listing-item article-container cards-design"><a class="image related-posts-true" href="https://www.amny.com/law/meta-new-york-billion-social-media-settlement/"><img width="700" height="484" src="https://www.amny.com/wp-content/uploads/2026/08/2026-08-12T100036Z_59147143_RC29C3AD19S7_RTRMADP_3_META-TRIAL-CALIFORNIA.jpg?quality=51&amp;w=700" class="crop-center attachment-medium size-medium wp-post-image" alt="FILE PHOTO: People are seen behind a logo of Meta Platforms, during a conference in Mumbai, India, September 20, 2023. REUTERS/Francis Mascarenhas/File Photo" decoding="async" loading="lazy" srcset="https://www.amny.com/wp-content/uploads/2026/08/2026-08-12T100036Z_59147143_RC29C3AD19S7_RTRMADP_3_META-TRIAL-CALIFORNIA.jpg?quality=31&#038;resize=1200,830 1200w, https://www.amny.com/wp-content/uploads/2026/08/2026-08-12T100036Z_59147143_RC29C3AD19S7_RTRMADP_3_META-TRIAL-CALIFORNIA.jpg?quality=51&#038;resize=384,266 384w, https://www.amny.com/wp-content/uploads/2026/08/2026-08-12T100036Z_59147143_RC29C3AD19S7_RTRMADP_3_META-TRIAL-CALIFORNIA.jpg?quality=51&#038;resize=900,622 900w, https://www.amny.com/wp-content/uploads/2026/08/2026-08-12T100036Z_59147143_RC29C3AD19S7_RTRMADP_3_META-TRIAL-CALIFORNIA.jpg?quality=31&#038;resize=1600,1107 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" title="Meta to pay New York up to $1 billion of potential $17 billion social media addiction settlement 9"></a> <span class="title-wrapper"><a class="title related-posts-true" href="https://www.amny.com/law/meta-new-york-billion-social-media-settlement/">Meta to pay New York up to $1 billion of potential $17 billion social media addiction settlement</a></span></li></ul></div>
+</div>
+			</div>
+        </div>
+
+		<div id="theSidebar" class="sidebar-section widget-area">
+			<div class="sidebar-section__inner">
+            <section class="widget_box widget">
+<div class="ad-container card-ad-container">
+<div id='amny_ros_300x250_1' style='width: 300px; height: 250px;'>
+<script>
+    googletag.cmd.push(function() { googletag.display('amny_ros_300x250_1'); });
+  </script>
+</div>
+
+</div>
+</section>
+<section id="tribe-events-adv-list-widget-2" class="widget tribe-events-adv-list-widget magma-new-widget"><h2 class="widget-title"><a href="https://events.amny.com" target="_blank">Things to do in NYC</a></h2>
+
+	<p class="tribe-events-widget-link tribe-events-widget-submit-link">
+		<a class="basic-button bkg-main" href="https://events.amny.com/add-your-event/" rel="bookmark" target="_blank">
+			<i class="fa fa-plus" aria-hidden="true"></i> 
+			Post an Event</a>
+	</p>
+	
+	<div class="events-widget-content">
+		<article class="article-container cards-design tribe-mini-calendar-event event--1 type-tribe_events tribe-clearfix status-featured">
+			<div class="tribe-event-image">
+				<a class="magma-event-thumbnail" href="https://events.amny.com/event/47-films-14-countries-one-global-caribbean-celebration-conch-shell-international-film-fest-unveils-its-2026-official-selection/"><img width="700" height="394" src="https://events.amny.com/wp-content/uploads/2026/08/a-glimpse-at-csiff26-coming-oct-9-11.png?quality=51&w=700" class="crop-center wp-post-image" alt="From the Caribbean to its global Diaspor" loading="lazy"></a>	
+			</div>
+		
+			<div class="context-box">
+				<div class="magma-list-date">
+					<span>Oct. 9, 11 am</span>
+				</div>
+
+				<div class="magma-list-info">
+					<h2 class="magma-tribe-events-title">
+						<a href="https://events.amny.com/event/47-films-14-countries-one-global-caribbean-celebration-conch-shell-international-film-fest-unveils-its-2026-official-selection/" rel="bookmark">47 Films. 14 Countries. One Global Caribbean Celebration: Conch Shell International Film Fest Unveils Its 2026 Official Selection							<br><span class="magma-widget-venue text-color-main" style="font-size:80%;"><i class="fa fa-map-marker-alt text-color-tert" aria-hidden="true"></i>Regal UA Midway</span>						</a>
+					</h2>
+			</div>
+		</div>
+		</article>
+				<article class="article-container cards-design tribe-mini-calendar-event event--1 type-tribe_events tribe-clearfix status-featured">
+			<div class="tribe-event-image">
+				<a class="magma-event-thumbnail" href="https://events.amny.com/event/mt-loretto-italian-festival/"><img width="700" height="464" src="https://events.amny.com/wp-content/uploads/2022/11/family-placeholder-baby.png?quality=51&w=700" class="crop-center wp-post-image" alt="Join Catholic Charities of Staten Island" loading="lazy"></a>	
+			</div>
+		
+			<div class="context-box">
+				<div class="magma-list-date">
+					<span>Oct. 9, all day</span>
+				</div>
+
+				<div class="magma-list-info">
+					<h2 class="magma-tribe-events-title">
+						<a href="https://events.amny.com/event/mt-loretto-italian-festival/" rel="bookmark">Mt. Loretto Italian Festival							<br><span class="magma-widget-venue text-color-main" style="font-size:80%;"><i class="fa fa-map-marker-alt text-color-tert" aria-hidden="true"></i>Mount Loretto</span>						</a>
+					</h2>
+			</div>
+		</div>
+		</article>
+				<article class="article-container cards-design tribe-mini-calendar-event event--1 type-tribe_events tribe-clearfix status-featured">
+			<div class="tribe-event-image">
+				<a class="magma-event-thumbnail" href="https://events.amny.com/event/hands-on-native-new-york-traditions-and-more/"><img width="700" height="464" src="https://events.amny.com/wp-content/uploads/2026/09/cornhusk-dolls-Mohawks.jpg?quality=51&w=700" class="crop-center wp-post-image" alt="Bring the whole family to the National M" loading="lazy"></a>	
+			</div>
+		
+			<div class="context-box">
+				<div class="magma-list-date">
+					<span>Oct. 10, 11 am</span>
+				</div>
+
+				<div class="magma-list-info">
+					<h2 class="magma-tribe-events-title">
+						<a href="https://events.amny.com/event/hands-on-native-new-york-traditions-and-more/" rel="bookmark">Hands-On: Native New York Traditions and More							<br><span class="magma-widget-venue text-color-main" style="font-size:80%;"><i class="fa fa-map-marker-alt text-color-tert" aria-hidden="true"></i>Smithsonian National Museum of the American Indian</span>						</a>
+					</h2>
+			</div>
+		</div>
+		</article>
+				<article class="article-container cards-design tribe-mini-calendar-event event--1 type-tribe_events tribe-clearfix status-sponsored">
+			<div class="tribe-event-image">
+				<a class="magma-event-thumbnail" href="https://events.amny.com/event/broadway-magic-hour-nycs-family-magic-show/"><img width="700" height="511" src="https://events.amny.com/wp-content/uploads/2026/08/Broadway_Magic_Hour_Family_Friendly_Magic_Show_NYC_2026-e1787602858724.jpg?quality=51&w=700" class="crop-center wp-post-image" alt="The Broadway Magic Hour with Jim Vines (" loading="lazy"></a>	
+			</div>
+		
+			<div class="context-box">
+				<div class="magma-list-date">
+					<span>Oct. 10, 2 pm</span>
+				</div>
+
+				<div class="magma-list-info">
+					<h2 class="magma-tribe-events-title">
+						<a href="https://events.amny.com/event/broadway-magic-hour-nycs-family-magic-show/" rel="bookmark">Broadway Magic Hour: NYC&#8217;s Family Magic Show							<br><span class="magma-widget-venue text-color-main" style="font-size:80%;"><i class="fa fa-map-marker-alt text-color-tert" aria-hidden="true"></i>Broadway Magic Hour: Magic Show</span>						</a>
+					</h2>
+			</div>
+		</div>
+		</article>
+				<article class="article-container cards-design tribe-mini-calendar-event event--1 type-tribe_events tribe-clearfix status-sponsored">
+			<div class="tribe-event-image">
+				<a class="magma-event-thumbnail" href="https://events.amny.com/event/blessing-of-the-animals-at-marble-collegiate-church/"><img width="700" height="467" src="https://events.amny.com/wp-content/uploads/2026/09/Marble-Church-Blessing-of-the-Animals.jpg?quality=51&w=700" class="crop-center wp-post-image" alt="Bring your pets, cuddly and cute, or not" loading="lazy"></a>	
+			</div>
+		
+			<div class="context-box">
+				<div class="magma-list-date">
+					<span>Oct. 11, noon</span>
+				</div>
+
+				<div class="magma-list-info">
+					<h2 class="magma-tribe-events-title">
+						<a href="https://events.amny.com/event/blessing-of-the-animals-at-marble-collegiate-church/" rel="bookmark">Blessing of the Animals at Marble Collegiate Church							<br><span class="magma-widget-venue text-color-main" style="font-size:80%;"><i class="fa fa-map-marker-alt text-color-tert" aria-hidden="true"></i>Marble Collegiate Church</span>						</a>
+					</h2>
+			</div>
+		</div>
+		</article>
+				<article class="article-container cards-design tribe-mini-calendar-event event--1 type-tribe_events tribe-clearfix status-featured">
+			<div class="tribe-event-image">
+				<a class="magma-event-thumbnail" href="https://events.amny.com/event/revival-how-america-found-its-voice-at-marble-church/"><img width="700" height="467" src="https://events.amny.com/wp-content/uploads/2026/10/GOSPEL_CHOIR_2025_083.jpeg?quality=51&w=700" class="crop-center wp-post-image" alt="Explore the rich and interconnected trad" loading="lazy"></a>	
+			</div>
+		
+			<div class="context-box">
+				<div class="magma-list-date">
+					<span>Oct. 18, 1 pm</span>
+				</div>
+
+				<div class="magma-list-info">
+					<h2 class="magma-tribe-events-title">
+						<a href="https://events.amny.com/event/revival-how-america-found-its-voice-at-marble-church/" rel="bookmark">Revival: How America Found Its Voice Concert At Marble Church							<br><span class="magma-widget-venue text-color-main" style="font-size:80%;"><i class="fa fa-map-marker-alt text-color-tert" aria-hidden="true"></i>Marble Collegiate Church</span>						</a>
+					</h2>
+			</div>
+		</div>
+		</article>
+				<article class="article-container cards-design tribe-mini-calendar-event event--1 type-tribe_events tribe-clearfix status-featured">
+			<div class="tribe-event-image">
+				<a class="magma-event-thumbnail" href="https://events.amny.com/event/windsor-terrace-fall-festival/"><img width="192" height="192" src="https://events.amny.com/wp-content/uploads/2026/10/Fall-Festival.jpeg?quality=51&w=192&h=192&crop=1" class="crop-center wp-post-image" alt="​Games, pumpkin decorating, magic show a" loading="lazy"></a>	
+			</div>
+		
+			<div class="context-box">
+				<div class="magma-list-date">
+					<span>Oct. 22, 4:30 pm</span>
+				</div>
+
+				<div class="magma-list-info">
+					<h2 class="magma-tribe-events-title">
+						<a href="https://events.amny.com/event/windsor-terrace-fall-festival/" rel="bookmark">Windsor Terrace Fall Festival							<br><span class="magma-widget-venue text-color-main" style="font-size:80%;"><i class="fa fa-map-marker-alt text-color-tert" aria-hidden="true"></i>Brooklyn Prospect Charter School Sunset Yards Campus</span>						</a>
+					</h2>
+			</div>
+		</div>
+		</article>
+				<article class="article-container cards-design tribe-mini-calendar-event event--1 type-tribe_events tribe-clearfix status-featured">
+			<div class="tribe-event-image">
+				<a class="magma-event-thumbnail" href="https://events.amny.com/event/dia-de-los-muertos-day-of-the-dead/"><img width="700" height="468" src="https://events.amny.com/wp-content/uploads/2026/09/DgB8l0fNdMidgzBALQvN0tFs.png?quality=51&w=700" class="crop-center wp-post-image" alt="Día de los Muertos (Day of the Dead) is" loading="lazy"></a>	
+			</div>
+		
+			<div class="context-box">
+				<div class="magma-list-date">
+					<span>Oct. 31, 11 am</span>
+				</div>
+
+				<div class="magma-list-info">
+					<h2 class="magma-tribe-events-title">
+						<a href="https://events.amny.com/event/dia-de-los-muertos-day-of-the-dead/" rel="bookmark">Día de los Muertos (Day of the Dead)							<br><span class="magma-widget-venue text-color-main" style="font-size:80%;"><i class="fa fa-map-marker-alt text-color-tert" aria-hidden="true"></i>Smithsonian National Museum of the American Indian</span>						</a>
+					</h2>
+			</div>
+		</div>
+		</article>
+		
+	</div>
+	
+	<p class="tribe-events-widget-link tribe-events-widget-view-all-link">
+		<a class="basic-button bkg-plain text-color-white" href="https://events.amny.com" rel="bookmark">View All Events…</a>
+	</p>
+</section>
+<script type="text/javascript">
+let ajax_url = "https://www.amny.com/wp-admin/admin-ajax.php";
+let data = new FormData();
+data.append('action', 'magma_events_impressions');
+data.append('eventids', JSON.stringify([881468,796833,889159,881445,888065,890149,890434,888855]));
+data.append('eventcampaigns', JSON.stringify([]));
+navigator.sendBeacon( ajax_url, data );				
+</script>
+<section class="widget_box widget">
+<div class="ad-container card-ad-container">
+<div id='amny_ros_tower' style='width: 300px; min-height: 250px;'>
+<script>
+    googletag.cmd.push(function() { googletag.display('amny_ros_tower'); });
+  </script>
+</div>
+</div>
+</section>
+<section class="featured_jobs_widget widget">
+<div class="top-posts featured featured-jobs">
+<h2 class="widget-title"><a href="https://jobs.amny.com" target="_blank">Jobs in New York</a></h2>
+<h4 class="widget-add-yours"><a href="https://jobs.amny.com/list-your-job/" target="_blank" class="basic-button bkg-main"><i class="fas fa-user-plus"></i>Add your job</a></h4>
+<ul class="display-posts-listing">
+<li class="listing-item article-container cards-design"><span class="title-wrapper"><a class="title featured-job" href="https://jobs.amny.com/2026/09/21/architectural-designer-residential/" target="_blank"><span class="company-name"><i class="fas fa-building"></i>Zwirko Ortmann & Hugo Architects, P.C.</span><span class="job-title">Architectural Designer Residential</span></a></span>
+</li>
+		
+<li class="listing-item article-container cards-design"><span class="title-wrapper"><a class="title featured-job" href="https://jobs.amny.com/2026/10/01/m-wbe-work-opportunity-3/" target="_blank"><span class="company-name"><i class="fas fa-building"></i>MDG Design + Construction</span><span class="job-title">M/WBE Work Opportunity</span></a></span>
+</li>
+		
+<li class="listing-item article-container cards-design"><span class="title-wrapper"><a class="title featured-job" href="https://jobs.amny.com/2026/10/01/data-entry-representative-18/" target="_blank"><span class="company-name"><i class="fas fa-building"></i>Edge Technology </span><span class="job-title">Data Entry Representative</span></a></span>
+</li>
+		</ul>
+<h4 class="widget-add-yours"><a href="https://jobs.amny.com" class="basic-button bkg-main" target="_blank">View all jobs…</a></h4>
+</div></section><section class="widget_box widget">
+<div class="ad-container card-ad-container">
+<div id='amny_ros_300x250_2' style='width: 300px; height: 250px;'>
+<script>
+    googletag.cmd.push(function() { googletag.display('amny_ros_300x250_2'); });
+  </script>
+</div>
+</div>
+</section>
+<section class="widget_promo widget standard"><div class="community-partner-box bkg-plain promo-content">
+<h2 class="section-title text-color-white"><a href="/home-pros/"><i class="fas fa-wrench text-color-accent"></i>Home Pros</a></h2>
+<p><a href="/home-pros/" class="basic-button bkg-accent text-color-white">Find a pro</a></p>
+</div></section><section class="widget_box widget">
+<div class="ad-container card-ad-container">
+<div id='amny_ros_300x250_3' style='width: 300px; height: 250px;'>
+<script>
+    googletag.cmd.push(function() { googletag.display('amny_ros_300x250_3'); });
+  </script>
+</div>
+
+</div>
+</section>
+<section class="widget_promo widget optional"><div class="top-posts news">
+<h2 class="widget-title">Latest News</h2>
+<ul class="display-posts-listing"><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/DSC_2045.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="Anthropic A.I. whistleblower Jacob Coxon testifies in front of the city council." decoding="async" loading="lazy" title="AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings 10"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/">AI giants give few clear answers to key safety questions at NYC Council hearing amid <span class="lgwd">whistleblower</span> warnings</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/news/nyc-ferry-fare-hikes-october-2026/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2021/08/DSCF2552-scaled.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="An NYC Ferry departs from St. George in Staten Island on Aug. 23, 2021." decoding="async" loading="lazy" title="NYC Ferry fare hikes coming Oct. 19, as system gives middle schoolers discounted trips 11"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/news/nyc-ferry-fare-hikes-october-2026/">NYC Ferry fare hikes coming Oct. 19, as system gives middle schoolers discounted trips</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/news/business-of-broadway-longevity-lives/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/gershwin-theater-google-maps.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="outside of a theater" decoding="async" loading="lazy" title="Business of Broadway: Where longevity lives 12"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/news/business-of-broadway-longevity-lives/">Business of Broadway: Where longevity lives</a></span></li><li class="listing-item article-container cards-design post-format-link"><a href="https://gaycitynews.com/man-arrested-anti-lgbtq-assault-the-bronx/" class="image"><img width="1200" height="822" src="https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=51&amp;w=1200" class="crop-center wp-post-image" alt="The Bronx intersection where two suspects allegedly physically attacked an individual and voiced anti-LGBTQ remarks." decoding="async" loading="lazy" srcset="https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=31&#038;resize=1200,822 1200w, https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=31&#038;resize=2048,1402 2048w, https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=51&#038;resize=384,263 384w, https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=51&#038;resize=900,616 900w, https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=31&#038;resize=1600,1095 1600w" sizes="auto, (max-width: 1200px) 100vw, 1200px" /></a><span class="title-wrapper"><a class="title" href="https://gaycitynews.com/man-arrested-anti-lgbtq-assault-the-bronx/">Man arrested in connection with anti-LGBTQ assault in the Bronx</a></span></li><li class="listing-item article-container cards-design post-format-link"><a href="https://www.brooklynpaper.com/brooklyn-dems-elect-new-chair-court-orders/" class="image"><img width="1024" height="683" src="https://www.brooklynpaper.com/wp-content/uploads/2026/10/55164571955_89e71a4088_b.jpg?quality=51&amp;w=1024" class="crop-center wp-post-image" alt="nikki lucas brooklyn democratic party court orders" decoding="async" loading="lazy" srcset="https://www.brooklynpaper.com/wp-content/uploads/2026/10/55164571955_89e71a4088_b.jpg?quality=51 1024w, https://www.brooklynpaper.com/wp-content/uploads/2026/10/55164571955_89e71a4088_b.jpg?quality=51&#038;resize=384,256 384w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a><span class="title-wrapper"><a class="title" href="https://www.brooklynpaper.com/brooklyn-dems-elect-new-chair-court-orders/">Brooklyn Dems claim to elect new chair, despite court orders</a></span></li></ul>
+</div></section><section class="widget_promo widget optional"><div class="top-posts sports">
+<h2 class="widget-title">Sports</h2>
+<ul class="display-posts-listing"><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/sports/yankees-rays-game2-alds-10-5-26/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/2026-10-06T021407Z_771171650_MT1USATODAY30009076_RTRMADP_3_MLB-ALDS-NEW-YORK-YANKEES-AT-TAMPA-BAY-RAYS.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="Richie Palacios 2-RBI single Rays Yankees Game 2 ALDS" decoding="async" loading="lazy" title="Yankees commit 4 errors, shut down by Rays again in Game 2 13"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/sports/yankees-rays-game2-alds-10-5-26/">Yankees commit 4 errors, shut down by Rays again in Game 2</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/sports/george-lombard-jr-feat-yankees-10-5-26/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/2026-10-01T021439Z_1299484584_MT1USATODAY29963104_RTRMADP_3_MLB-WILDCARD-BOSTON-RED-SOX-AT-NEW-YORK-YANKEES.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="George Lombard Jr. Wild Card Series Red Sox" decoding="async" loading="lazy" title="Tireless preparation fueling Yankees&#039; George Lombard Jr. in postseason debut 14"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/sports/george-lombard-jr-feat-yankees-10-5-26/">Tireless <span class="lgwd">preparation</span> fueling Yankees&#8217; George Lombard Jr. in postseason debut</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/sports/giants-cardinals-takeaways-10-5-26/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/2026-10-04T205349Z_1457029688_MT1USATODAY29999798_RTRMADP_3_NFL-ARIZONA-CARDINALS-AT-NEW-YORK-GIANTS.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="Donte Banks celebrate Giants win Cardinals" decoding="async" loading="lazy" title="Takeaways from Giants&#039; thrilling Week 4 win over Cardinals 15"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/sports/giants-cardinals-takeaways-10-5-26/">Takeaways from Giants&#8217; thrilling Week 4 win over Cardinals</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/sports/karl-anthony-towns-knicks-miffed-10-5-26/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2025/01/2024-12-29T011048Z_979094010_MT1USATODAY25075697_RTRMADP_3_NBA-NEW-YORK-KNICKS-AT-WASHINGTON-WIZARDS.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="Karl-Anthony Towns Knicks MSG Networks" decoding="async" loading="lazy" title="Karl-Anthony Towns clearly miffed by Knicks&#039; contract negotiations 16"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/sports/karl-anthony-towns-knicks-miffed-10-5-26/"><span class="lgwd">Karl-Anthony</span> Towns clearly miffed by Knicks&#8217; contract <span class="lgwd">negotiations</span></a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/sports/st-johns-preview-10-5-26/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/03/2026-03-28T011701Z_1801540704_MT1USATODAY28600970_RTRMADP_3_NCAA-BASKETBALL-NCAA-TOURNAMENT-SWEET-SIXTEEN-EAST-REGIONAL-ST-JOHNS-AT-DUKE.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="Rick Pitino St. John&#039;s" decoding="async" loading="lazy" title="New-look St. John&#039;s hoping to build off last season&#039;s success 17"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/sports/st-johns-preview-10-5-26/">New-look St. John&#8217;s hoping to build off last season&#8217;s success</a></span></li></ul>
+</div></section><section class="widget_promo widget optional"><div class="top-posts arts-entertainment">
+<h2 class="widget-title">Entertainment</h2>
+<ul class="display-posts-listing"><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/entertainment/arts-entertainment/in-service-the-care-behind-the-commute/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/ChristopherPayne_MTA_Photographs_NicholasKnight-6730.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="&quot;In Service: MTA Photographs by Christopher Payne&quot; is on view at five station hubs." decoding="async" loading="lazy" title="In Service: The care behind the commute 18"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/entertainment/arts-entertainment/in-service-the-care-behind-the-commute/">In Service: The care behind the commute</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/news/bushwick-company-xiv-celebrates-20-years-burlesque/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/Deneka-Peniston-for-Petite-Rouge-by-Company-XIV-6II8189.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="a Company XIV dancer" decoding="async" loading="lazy" title="Bushwick&#039;s Company XIV celebrates 20 years of reimagining burlesque performances 19"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/news/bushwick-company-xiv-celebrates-20-years-burlesque/">Bushwick&#8217;s Company XIV celebrates 20 years of <span class="lgwd">reimagining</span> burlesque <span class="lgwd">performances</span></a></span></li><li class="listing-item article-container cards-design"><a href="https://www.amny.com/news/jay-zs-30-year-legacy-comes-home-to-brooklyn-with-free-docuseries-screening/" class="image"><img width="520" height="380" src="https://www.brooklynpaper.com/wp-content/uploads/2026/10/jay-z_in_8_email.jpg.jpg?quality=51&amp;w=520" class="crop-center wp-post-image" alt="jay-z_in_8_email.jpg" decoding="async" loading="lazy" /></a><span class="title-wrapper"><a class="title" href="https://www.amny.com/news/jay-zs-30-year-legacy-comes-home-to-brooklyn-with-free-docuseries-screening/">JAŸ-Z’s 30-year legacy comes home to Brooklyn with free docuseries screening</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/entertainment/brooklyn-museum-art-of-manga-japanese-comics-graphic-novels/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/DIG_E_2026_Art_of_Manga_002_Paula_Abreu_Pita_PS22-Large-JPEG.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="&quot;Art of Manga&quot; opens at the Brooklyn Museum on Oct. 3." decoding="async" loading="lazy" title="Brooklyn Museum&#039;s new exhibit &#039;Art of Manga&#039; spotlights hundreds of hand-drawn works of Japanese comics and graphic novels 20"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/entertainment/brooklyn-museum-art-of-manga-japanese-comics-graphic-novels/">Brooklyn Museum&#8217;s new exhibit &#8216;Art of Manga&#8217; spotlights hundreds of hand-drawn works of Japanese comics and graphic novels</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/new-york/manhattan/the-villager/dudamel-opens-the-philharmonic-season/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/09/Michael-Feinstein-Elizabeth-Segerstrom-Gustavo-Dudamel-BFA_55713_8187179.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="Michael Feinstein, Elizabeth Segerstrom, Gustavo Dudamel" decoding="async" loading="lazy" title="The names in the dark, the music in the light: Dudamel opens the Philharmonic season 21"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/new-york/manhattan/the-villager/dudamel-opens-the-philharmonic-season/">The names in the dark, the music in the light: Dudamel opens the <span class="lgwd">Philharmonic</span> season</a></span></li></ul>
+</div></section><section class="widget_promo widget optional"><div class="top-posts police-fire">
+<h2 class="widget-title">Crime</h2>
+<ul class="display-posts-listing"><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/police-fire/bronx-man-stabbed-dead-10052026/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/bronx-stabbing-provided-10052026.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="victim of Bronx stabbing on stretcher aided by EMS" decoding="async" loading="lazy" title="&#039;Mami, don&#039;t let me go&#039;: Bronx man dies from fatal stabbing, despite woman&#039;s desperate efforts to keep him alive 22"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/police-fire/bronx-man-stabbed-dead-10052026/">&#8216;Mami, don&#8217;t let me go&#8217;: Bronx man dies from fatal stabbing, despite woman&#8217;s desperate efforts to keep him alive</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/new-york/manhattan/senior-cyclist-dies-central-park-10052026/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/IMG_4111.jpeg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="A 71-year-old cyclist died Monday morning after colliding with a dog that ran into the roadway in Central Park." decoding="async" loading="lazy" title="Senior cyclist in Central Park dies after colliding with a golden retriever: cops 23"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/new-york/manhattan/senior-cyclist-dies-central-park-10052026/">Senior cyclist in Central Park dies after colliding with a golden retriever: cops</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/police-fire/bronx-woman-dies-body-trauma-10052026/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/04/Screenshot-2026-04-13-at-4.27.36-PM.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="police wheel out body of dead person in Bronx" decoding="async" loading="lazy" title="Bronx woman dies after being found with severe body trauma in her apartment: cops 24"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/police-fire/bronx-woman-dies-body-trauma-10052026/">Bronx woman dies after being found with severe body trauma in her apartment: cops</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/news/brooklyn-chain-reaction-crash-hit-and-run-10052026/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2025/07/manhattan-queens-crime-scene-dean-moses-2025.jpg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="Police officer in front of NYPD car and EMS vehicle at scene of crime in Queens" decoding="async" loading="lazy" title="Brooklyn chain-reaction crash: Cops hunt for hit-and-run driver who killed one and critical injured another in wreck 25"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/news/brooklyn-chain-reaction-crash-hit-and-run-10052026/">Brooklyn <span class="lgwd">chain-reaction</span> crash: Cops hunt for <span class="lgwd">hit-and-run</span> driver who killed one and critical injured another in wreck</a></span></li><li class="listing-item article-container cards-design"><a class="image" href="https://www.amny.com/new-york/queens/man-slashing-13-year-old-boy-queens/"><img width="192" height="192" src="https://www.amny.com/wp-content/uploads/2026/10/IMG_7985.jpeg?quality=51&amp;w=192&amp;h=192&amp;crop=1" class="crop-center attachment-thumbnail size-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://www.amny.com/wp-content/uploads/2026/10/IMG_7985.jpeg?quality=51 708w, https://www.amny.com/wp-content/uploads/2026/10/IMG_7985.jpeg?quality=51&#038;resize=192,192 192w, https://www.amny.com/wp-content/uploads/2026/10/IMG_7985.jpeg?quality=51&#038;resize=384,384 384w" sizes="auto, (max-width: 192px) 100vw, 192px" title="Man sought for slashing 13-year-old boy outside Queens mall: cops 26"></a> <span class="title-wrapper"><a class="title" href="https://www.amny.com/new-york/queens/man-slashing-13-year-old-boy-queens/">Man sought for slashing <span class="lgwd">13-year-old</span> boy outside Queens mall: cops</a></span></li></ul>
+</div></section>            </div>
+        </div>
+    </div><!-- #main -->
+
+	 
+</div>
+</div><!-- #primary -->
+
+ 
+
+ 
+
+
+ 
+<div class="banner-container component-container">
+
+ 
+<a href="https://events.amny.com" class="banner-chunk chunk-calendar text-color-white" style="display: block;background-color:#16a2ea;background-image: url(https://www.amny.com/wp-content/uploads/2019/10/5255_image.jpg?quality=31);">
+
+	<div class="banner-chunk-content">
+
+<div class="banner-promo-icon"> 
+<i class="far fa-calendar-alt"></i>
+</div>
+<div class="banner-promo-content"> 
+<h2 class="">Things to do in NYC</h2>
+
+<button class="basic-button bkg-accent" href="https://events.amny.com">Full calendar</button>
+
+</div> 
+</div>
+</a>
+ 
+<a href="/home-pros/" class="banner-chunk chunk-directory text-color-white" style="display: block;background-color:#595959;background-image: url(https://www.amny.com/wp-content/uploads/2023/01/best-plumber-home-pros-nyc.jpg?quality=51&amp;w=1200?quality=31);">
+	<div class="banner-chunk-content">
+
+<div class="banner-promo-icon"> 
+<i class="fas fa-tools"></i>
+</div>
+<div class="banner-promo-content"> 
+<h2>Home Pros</h2>
+<button class="basic-button bkg-accent" href="/home-pros/">Find a pro</button>
+
+</div> 
+
+</div>
+</a></div>
+
+<div class="hero-container sister-sites-container component-container card">
+
+	<div class="component-title-section">
+		<h2 class="section-title">More from around NYC</h2>
+	</div>
+
+    <div class="hero-section sister-sites component-content-section hero-blocks-4">
+    				<article class="article-container cards-design">
+					<a href="https://www.bxtimes.com/tour-de-bronx-brings-cyclists-across-the-borough/"><img width="700" height="394" src="https://www.bxtimes.com/wp-content/uploads/2026/10/IMG_7906.jpg?quality=51&amp;w=700" class="crop-center wp-post-image" alt="Thousands of cyclists participated in this year&#039;s Tour de Bronx." decoding="async" loading="lazy" srcset="https://www.bxtimes.com/wp-content/uploads/2026/10/IMG_7906.jpg?quality=31&#038;resize=1200,675 1200w, https://www.bxtimes.com/wp-content/uploads/2026/10/IMG_7906.jpg?quality=51&#038;resize=384,216 384w, https://www.bxtimes.com/wp-content/uploads/2026/10/IMG_7906.jpg?quality=51&#038;resize=900,506 900w, https://www.bxtimes.com/wp-content/uploads/2026/10/IMG_7906.jpg?quality=31&#038;resize=1600,900 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" /></a>					<div class="context-box sister-sites-metabox">
+				<div class="blurb category-label site-label-bronx-times"><a href="https://www.bxtimes.com">Bronx Times</a></div>
+				<h2><a href="https://www.bxtimes.com/tour-de-bronx-brings-cyclists-across-the-borough/">Tour de Bronx brings cyclists across the borough for 32nd <span class="titend">annual ride</span></a></h2>
+					</div>
+				</article>
+								<article class="article-container cards-design">
+					<a href="https://qns.com/2026/10/lithium-ion-batteries-corona-fire/"><img width="700" height="394" src="https://qns.com/wp-content/uploads/2026/10/lithium-ion-batteries-corona-fire01.jpg?quality=51&amp;w=700" class="crop-center wp-post-image" alt="The FDNY battled an apartment house fire in Corona that may have been started by lithium-ion batteries." decoding="async" loading="lazy" srcset="https://qns.com/wp-content/uploads/2026/10/lithium-ion-batteries-corona-fire01.jpg?quality=31 1280w, https://qns.com/wp-content/uploads/2026/10/lithium-ion-batteries-corona-fire01.jpg?quality=51&#038;resize=384,216 384w, https://qns.com/wp-content/uploads/2026/10/lithium-ion-batteries-corona-fire01.jpg?quality=51&#038;resize=900,506 900w" sizes="auto, (max-width: 700px) 100vw, 700px" /></a>					<div class="context-box sister-sites-metabox">
+				<div class="blurb category-label site-label-qns"><a href="https://qns.com">QNS</a></div>
+				<h2><a href="https://qns.com/2026/10/lithium-ion-batteries-corona-fire/"><span class="lgwd">Lithium-ion</span> batteries may have sparked fire that was contained to Corona e-bike store before spreading to apartments <span class="titend">above: FDNY</span></a></h2>
+					</div>
+				</article>
+								<article class="article-container cards-design">
+					<a href="https://www.brooklynpaper.com/11-displaced-bushwick-building-fire/"><img width="700" height="393" src="https://www.brooklynpaper.com/wp-content/uploads/2026/10/DSC_1946.jpg?quality=51&amp;w=700" class="crop-center wp-post-image" alt="firefighters on scene of bushwick two-alarm fire" decoding="async" loading="lazy" srcset="https://www.brooklynpaper.com/wp-content/uploads/2026/10/DSC_1946.jpg?quality=31&#038;resize=1200,674 1200w, https://www.brooklynpaper.com/wp-content/uploads/2026/10/DSC_1946.jpg?quality=51&#038;resize=384,216 384w, https://www.brooklynpaper.com/wp-content/uploads/2026/10/DSC_1946.jpg?quality=51&#038;resize=900,506 900w, https://www.brooklynpaper.com/wp-content/uploads/2026/10/DSC_1946.jpg?quality=31&#038;resize=1600,899 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" /></a>					<div class="context-box sister-sites-metabox">
+				<div class="blurb category-label site-label-brooklyn-paper"><a href="https://www.brooklynpaper.com">Brooklyn Paper</a></div>
+				<h2><a href="https://www.brooklynpaper.com/11-displaced-bushwick-building-fire/"><span class="lgwd">Early-morning</span> fire at Bushwick apartment building displaces <span class="titend">11 people</span></a></h2>
+					</div>
+				</article>
+								<article class="article-container cards-design">
+					<a href="https://gaycitynews.com/man-arrested-anti-lgbtq-assault-the-bronx/"><img width="700" height="479" src="https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=51&amp;w=700" class="crop-center wp-post-image" alt="The Bronx intersection where two suspects allegedly physically attacked an individual and voiced anti-LGBTQ remarks." decoding="async" loading="lazy" srcset="https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=31&#038;resize=1200,822 1200w, https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=51&#038;resize=384,263 384w, https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=51&#038;resize=900,616 900w, https://gaycitynews.com/wp-content/uploads/2026/07/Screenshot-2026-07-24-at-11.58.36-AM.jpg?quality=31&#038;resize=1600,1095 1600w" sizes="auto, (max-width: 700px) 100vw, 700px" /></a>					<div class="context-box sister-sites-metabox">
+				<div class="blurb category-label site-label-gay-city-news"><a href="https://gaycitynews.com">Gay City News</a></div>
+				<h2><a href="https://gaycitynews.com/man-arrested-anti-lgbtq-assault-the-bronx/">Man arrested in connection with anti-LGBTQ assault in <span class="titend">the Bronx</span></a></h2>
+					</div>
+				</article>
+				    </div>
+</div>
+
+	<footer class="site-footer">
+
+	<nav class="footer-nav-menu"><ul>
+							<li>
+			<a class="" href="https://www.amny.com/about-amny/" target="">
+			<span>About amNY</span>
+			</a>
+		</li>
+							<li>
+			<a class="" href="/contact-us/" target="">
+			<span>Contact Us</span>
+			</a>
+		</li>
+							<li>
+			<a class="" href="https://jobs.amny.com/" target="_blank">
+			<span>Jobs</span>
+			</a>
+		</li>
+							<li>
+			<a class="" href="/home-pros/" target="">
+			<span><i class="fas fa-tools"></i>Home Pros</span>
+			</a>
+		</li>
+							<li>
+			<a class="" href="/advertise/" target="">
+			<span>Advertise</span>
+			</a>
+		</li>
+							<li>
+			<a class="" href="/newsletter/" target="">
+			<span>Newsletter</span>
+			</a>
+		</li>
+		
+	
+			<li class="nav-menu-social-links social-links nav-menu-icon-row">				
+				<a href="https://twitter.com/AMNewYork" target="_blank" title="Twitter">
+		<i class="fab fa-twitter" aria-hidden="true" aria-label="Twitter"></i></a>
+			
+				
+				<a href="https://www.facebook.com/amnewyork" target="_blank" title="Facebook">
+		<i class="fab fa-facebook-f" aria-hidden="true" aria-label="Facebook"></i></a>
+			
+				
+				<a href="https://www.instagram.com/amnewyork/" target="_blank" title="Instagram">
+		<i class="fab fa-instagram" aria-hidden="true" aria-label="Instagram"></i></a>
+			
+				
+				<a href="https://www.youtube.com/user/amnewyork" target="_blank" title="Youtube">
+		<i class="fab fa-youtube" aria-hidden="true" aria-label="Youtube"></i></a>
+			
+				
+</li>
+		
+	</ul></nav>
+ 
+
+
+	<nav class="site-info"><ul>
+													<li class="copyright">
+			<a href="https://www.schnepsmedia.com" target="_blank">
+			<span>© amNY 2026 Schneps Media</span>
+			</a>
+		</li>
+													<li class="">
+			<a href="/privacy-policy/" target="">
+			<span>Privacy Policy </span>
+			</a>
+		</li>
+													<li class="">
+			<a href="/terms-of-use/" target="">
+			<span>Terms of Use</span>
+			</a>
+		</li>
+													<li class="">
+			<a href="/sitemap/" target="">
+			<span>Sitemap</span>
+			</a>
+		</li>
+		</ul></nav>
+ 
+
+	</footer>
+	
+</div> <!--/#grid-wrappr-->	
+</div><!--/#almost-everything-->
+</div><!--/#everything-->
+
+<nav id="theStickyNavBar" class="sticky sticky-fa sticky-bottom-bar" role="navigation">
+	<ul>
+					
+				<li class="hamburger">
+					<span class="sticky-item sticky-item-hamburger">
+					<i class="fas fa-bars opener"></i>
+					Sections
+					</span>
+				</li>
+
+											
+				<li class="sticky-link-news">
+					<a class="sticky-item sticky-item-news" href="/news/" target="" title="">
+					<i class="far fa-newspaper"></i>					News					</a>
+				</li>
+											
+				<li class="sticky-link-things-to-do">
+					<a class="sticky-item sticky-item-things-to-do" href="https://events.amny.com/" target="_blank" title="">
+					<i class="far fa-calendar-alt"></i>					Things to Do					</a>
+				</li>
+											
+				<li class="sticky-link-sports">
+					<a class="sticky-item sticky-item-sports" href="/sports/" target="" title="">
+					<i class="fa-solid fa-basketball"></i>					Sports					</a>
+				</li>
+											
+				<li class="sticky-link-contact">
+					<a class="sticky-item sticky-item-contact" href="/contact-us/" target="" title="">
+					<i class="fas fa-phone"></i>					Contact					</a>
+				</li>
+			
+						<li class="nav-menu-login-signup sticky-link-login-signup">
+			<span
+	class="acct "
+	data-acct
+	data-settings-url="/my-account/"
+	data-help-url="/help/"
+>
+
+  <!-- ── Trigger: shown when logged in ───────────────────────────────────── -->
+  <button
+    class="acct__trigger"
+    data-acct-trigger
+    aria-haspopup="menu"
+    aria-expanded="false"
+    aria-controls="acctMenu"
+    style="display:none"
+  >
+    <span class="acct__badge" aria-hidden="true">
+      <span data-acct-initials><i class="fas fa-user text-color-main"></i></span>
+    </span>
+    <span class="acct__name" data-acct-name>Reader</span>
+    <span class="acct__chev" aria-hidden="true">&#8964;</span>
+    <span class="sr-only">Toggle account menu</span>
+  </button>
+
+  <!-- ── Dropdown panel ──────────────────────────────────────────────────── -->
+  <div class="acct__menu" id="acctMenu" role="menu" hidden>
+
+    <div class="acct__greet">
+      <p class="acct__hello">Hello, <span data-acct-name>Reader</span>!</p>
+    </div>
+
+    <a
+      class="acct__item"
+      role="menuitem"
+      href="/my-account/"
+      rel="nofollow"
+      data-acct-settings
+    >
+      <span class="acct__icon acct__icon--gear" aria-hidden="true"></span>
+      <span>Account Settings</span>
+      <span class="acct__arrow" aria-hidden="true">›</span>
+    </a>
+
+    <a
+      class="acct__item"
+      role="menuitem"
+      href="/help/"
+      rel="nofollow"
+      data-acct-help
+    >
+      <span class="acct__icon acct__icon--help" aria-hidden="true"></span>
+      <span>Help</span>
+      <span class="acct__arrow" aria-hidden="true">›</span>
+    </a>
+
+    
+    <div class="acct__logout-wrap">
+      <a href="#" aria-label="Log Out" role="button" rel="nofollow noopener noreferrer" data-piano-logout>Log Out</a>    </div>
+
+    <div class="acct__logout-msg" role="status" aria-live="polite" hidden>
+      You have successfully signed out.
+    </div>
+
+  </div>
+  <!-- ── /Dropdown panel ─────────────────────────────────────────────────── -->
+
+  <!-- ── Fallback: shown when logged out ─────────────────────────────────── -->
+  <span class="acct__fallback" data-acct-fallback style="display:none">
+    <a class="piano-login" href="#" aria-label="Log In" role="button" rel="nofollow noopener noreferrer" data-piano-login="login"><i class="fas fa-user" aria-hidden="true"></i><span>Log In</span></a>    <a class="piano-register" href="#" aria-label="Register" role="button" rel="nofollow noopener noreferrer" data-piano-login="register">Register</a>  </span>
+
+</span>			</li>
+
+					
+			</ul>        
+</nav> 
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/schnepstheme-amny/*","/wp-content/themes/schnepstheme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" async src="//cdn.viafoura.net/entry/index.js"></script>
+<script id="parsely-cfg" src="//cdn.parsely.com/keys/amny.com/p.js" async="" defer=""></script>
+	<script id="schneps-piano-glue-js-extra">
+var SchnepsPianoConfig = {"env":"production","isProd":"1","composerHost":"https://c2.amny.com","pianoIdUrl":"https://auth.amny.com","endpoint":"https://vx.amny.com","gaTrackingId":"G-XJYLNCK4WG","registrationTermId":"TMXHRJC7DVIS","registrationTemplateId":"OT0R7HVC38FG","postCategories":["piano_article","news","politics"]};
+//# sourceURL=schneps-piano-glue-js-extra
+</script>
+<script id="schneps-piano-glue-js" src="https://www.amny.com/wp-content/client-mu-plugins/pianoio-schneps/assets/js/piano-glue.js?ver=2.5.0"></script>
+<script id="schneps-viafoura-js-extra">
+var vf_settings = {"section_uuid":"00000000-0000-4000-8000-062523ee3216"};
+//# sourceURL=schneps-viafoura-js-extra
+</script>
+<script async data-wp-strategy="async" id="schneps-viafoura-js" src="https://www.amny.com/var/www/wp-content/plugins/schneps-viafoura/assets/viafoura.js?ver=1.0.28"></script>
+<script id="jetpack-stats-js-before">
+_stq = window._stq || [];
+_stq.push([ "view", {"v":"ext","blog":"228294986","post":"137873430","tz":"-4","srv":"www.amny.com","hp":"vip","j":"1:16.2"} ]);
+_stq.push([ "clickTrackerInit", "228294986", "137873430" ]);
+//# sourceURL=jetpack-stats-js-before
+</script>
+<script data-wp-strategy="defer" defer fetchpriority="low" id="jetpack-stats-js" src="https://stats.wp.com/e-202641.js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.amny.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.2"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=https://www.amny.com/wp-includes/js/wp-emoji-loader.min.js
+</script>
+
+
+<div class="footer-ad-code"><!-- /1048906/amny_ros_pixel_1 -->
+<div id='amny_ros_pixel_1'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('amny_ros_pixel_1'); });
+  </script>
+</div>
+
+<script>
+googletag.cmd.push(() => {
+	googletag.display(interstitialSlot);
+});
+</script></div>
+
+
+</body>
+</html>

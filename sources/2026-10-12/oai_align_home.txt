@@ -1,0 +1,70 @@
+
+Research and Releases · OpenAI Alignment
+Skip to content
+OpenAI Alignment Research Blog
+← Home Research and Releases Misalignment Reports and Notices System Cards ↗
+Research and Releases
+Informal updates from the OpenAI team
+Oct 6, 2026 Studying metagaming latents in language models
+Reasoning about how a task will be monitored or rewarded appears to draw on several overlapping processes, not a single mechanism.
+Oct 6, 2026 Meet LASER: Recursive sampling for safer conversations
+LASER (Logistic Augmented Sampling over Embeddings, Recursively) helps us evaluate model safety more efficiently by combining logistic classifiers with reasoning models to identify high-value data for evaluation.
+Sep 28, 2026 Towards safety cases for frontier AI training ↗
+Initial guidelines for safety cases covering technical safeguards, operational practices, and investigations of misalignment incidents during frontier AI training.
+Sep 6, 2026 Research acceleration: The view inside OpenAI ↗
+Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.
+Sep 6, 2026 An Alien Mind ↗
+Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.
+Aug 26, 2026 The Hugging Face incident and the road ahead ↗
+Findings from the incident and the response across model security, monitoring, and alignment.
+Jul 21, 2026 Measuring Reward-Seeking by Instilling Contrastive Beliefs
+Testing whether behavior changes when a model believes its grader wants something different.
+Jun 18, 2026 Reinforcement learning towards broadly and persistently beneficial models
+Testing how alignment improvements hold across domains and under adversarial pressure.
+Jun 16, 2026 Can public chat data predict real-world AI misalignments?
+Comparing public evaluation signals with evidence from deployment.
+May 7, 2026 Investigating the consequences of accidentally grading CoT during RL
+An investigation of affected reward pathways and possible effects on monitorability.
+Apr 30, 2026 Auto-review of agent actions without synchronous human oversight
+Using a separate agent to review proposed actions that cross a boundary.
+Apr 23, 2026 Open Sourcing Monitorability Evaluations
+Datasets, code, and an evaluation filtering strategy for studying monitorability.
+Apr 6, 2026 Introducing the OpenAI Safety Fellowship
+A program supporting independent alignment and safety research.
+Mar 27, 2026 How far does alignment midtraining generalize?
+Experiments spanning midtraining, posttraining, and generalization.
+Mar 25, 2026 Introducing Model Spec Evals
+Evaluating how well models follow the OpenAI Model Spec.
+Mar 21, 2026 Training agents to self-report misbehavior
+Training agents to report covert misbehavior through a dedicated tool.
+Mar 19, 2026 How we monitor internal coding agents for misalignment ↗
+Monitoring model behavior in real internal workflows.
+Mar 16, 2026 Metagaming matters for training, evaluation, and oversight
+Metagaming can complicate how we interpret behavior, and current models still give us a chance to study it directly.
+Mar 11, 2026 Interpreting Black Box Reward Models
+ARGO distills black-box reward models into interpretable rubrics using reinforcement learning.
+Mar 5, 2026 Reasoning models struggle to control their chains of thought, and that’s good ↗
+Why a limitation of frontier models is reassuring for AI safety.
+Feb 19, 2026 Advancing independent research on AI alignment ↗
+We’re committing $7.5M to The Alignment Project to fund independent research developing mitigations to safety and security risks from misaligned AI.
+Feb 6, 2026 Discovering unknown AI misalignments in real-world usage
+Reasoning models can find and understand unknown misaligned behaviors from how users respond.
+Jan 14, 2026 CoVal: Learning values-aware rubrics from the crowd
+An experimental dataset of crowd-written rubrics that surfaces why people prefer one model output over another.
+Jan 14, 2026 Why we are excited about confessions
+Deeper analysis of confession training and comparisons to chain-of-thought monitoring.
+Dec 22, 2025 Helpful assistant features suppress emergent misalignment
+Emergent misalignment not only activates misaligned personas, but also suppresses helpful assistant personas.
+Dec 18, 2025 Evaluating chain-of-thought monitorability ↗
+We introduce evaluations for chain-of-thought monitorability and study how it scales with test-time compute, reinforcement learning, and pretraining.
+Dec 18, 2025 Sidestepping Evaluation Awareness and Anticipating Misalignment with Production Evaluations
+A pipeline to uncover unknown misaligned behavior and scale the creation of realistic evaluations.
+Dec 1, 2025 Debugging misaligned completions with sparse-autoencoder latent attribution
+Efficiently finding features that cause behaviors.
+Dec 1, 2025 A Practical Approach to Verifying Code at Scale
+We train and deploy an AI review agent optimised for precision and real-world use, enabling oversight to scale with autonomous code generation.
+Dec 1, 2025 Hello World
+Introducing our blog on alignment research.
+Load more
+OpenAI © 2015–2026
+Terms of use Privacy policy

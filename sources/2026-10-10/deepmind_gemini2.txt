@@ -1,0 +1,275 @@
+Gemini — Google DeepMind Skip to main content 
+ Explore our next generation AI systems
+ Explore models
+ Gemini
+ Gemini
+ Build intelligent agents
+ Gemini Omni
+ Create anything from anything
+ Nano Banana
+ Create and edit detailed images
+ Gemini Audio
+ Talk, create and control audio
+ Specialized models
+ Veo
+ Generate cinematic video with audio
+ Lyria
+ Generate high fidelity music and audio
+ Genie 3
+ Generate and explore interactive worlds
+ Gemini Robotics
+ Perceive, reason, use tools and interact
+ Open models
+ Gemma
+ Build responsible AI applications at scale
+ Our latest AI breakthroughs and updates from the lab
+ Explore research
+ Breakthroughs
+ SIMA 2
+ An agent that plays, reasons, and learns with you
+ Genie 3
+ Generate and explore interactive worlds
+ AlphaGo
+ Mastering the game of Go
+ Gemini Robotics
+ Perceive, reason, use tools and interact
+ Learn more
+ Evals
+ Publications
+ Responsibility
+ Frontier safety
+ Unlocking a new era of discovery with AI
+ Explore science
+ Breakthroughs
+ AlphaFold
+ Predict protein structures with high accuracy
+ AlphaGenome
+ Using AI to understand the human genome
+ WeatherNext
+ Fast and accurate AI weather forecasting
+ AlphaEarth
+ Map our planet in unprecedented detail
+ AlphaEvolve
+ Design advanced algorithms for math and applications in computing
+ Learn more
+ Gemini for Science
+ Experimental Tools
+ Science Skills
+ Our mission is to build AI responsibly to benefit humanity
+ About Google DeepMind
+ Responsibility
+ Ensuring AI safety through proactive security, even against evolving threats
+ News
+ Discover our latest AI breakthroughs, projects, and updates
+ Careers
+ We’re looking for people who want to make a real, positive impact on the world
+ Learn more
+ Education
+ Our National Partnerships for AI
+ Accelerator programs
+ The Podcast
+ DeepMind Institute
+ Models Explore our next generation AI systems
+ Explore models
+ Gemini
+ Gemini
+ Build intelligent agents
+ Gemini Omni
+ Create anything from anything
+ Nano Banana
+ Create and edit detailed images
+ Gemini Audio
+ Talk, create and control audio
+ Specialized models
+ Veo
+ Generate cinematic video with audio
+ Lyria
+ Generate high fidelity music and audio
+ Genie 3
+ Generate and explore interactive worlds
+ Gemini Robotics
+ Perceive, reason, use tools and interact
+ Open models
+ Gemma
+ Build responsible AI applications at scale
+ Research Our latest AI breakthroughs and updates from the lab
+ Explore research
+ Breakthroughs
+ SIMA 2
+ An agent that plays, reasons, and learns with you
+ Genie 3
+ Generate and explore interactive worlds
+ AlphaGo
+ Mastering the game of Go
+ Gemini Robotics
+ Perceive, reason, use tools and interact
+ Learn more
+ Evals
+ Publications
+ Responsibility
+ Frontier safety
+ Science Unlocking a new era of discovery with AI
+ Explore science
+ Breakthroughs
+ AlphaFold
+ Predict protein structures with high accuracy
+ AlphaGenome
+ Using AI to understand the human genome
+ WeatherNext
+ Fast and accurate AI weather forecasting
+ AlphaEarth
+ Map our planet in unprecedented detail
+ AlphaEvolve
+ Design advanced algorithms for math and applications in computing
+ Learn more
+ Gemini for Science
+ Experimental Tools
+ Science Skills
+ About Our mission is to build AI responsibly to benefit humanity
+ About Google DeepMind
+ Learn more
+ Education
+ Our National Partnerships for AI
+ Accelerator programs
+ The Podcast
+ DeepMind Institute
+ Responsibility
+ Ensuring AI safety through proactive security, even against evolving threats
+ News
+ Discover our latest AI breakthroughs, projects, and updates
+ Careers
+ We’re looking for people who want to make a real, positive impact on the world
+ Build with Gemini Try Gemini 
+ Google DeepMind 
+ Google AI
+ Learn about all our AI
+ Google DeepMind
+ Explore the frontier of AI
+ Google Labs
+ Try our AI experiments
+ Google Research
+ Explore our research
+ Products and apps
+ Gemini app
+ Chat with Gemini
+ Google AI Studio
+ Build with our next-gen AI models
+ Google Antigravity
+ Our agentic development platform
+ Models 
+ Research 
+ Science 
+ About 
+ Build with Gemini 
+ Try Gemini 
+ Our next era of frontier intelligence Gemini 4 Argon
+ Read blog
+ Gemini 4 Argon delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense.
+ Capabilities 
+ Performance 
+ Safety 
+ Ecosystem 
+ Excels in coding & enterprise knowledge work
+ Argon’s reasoning capabilities across subjects, coding performance, ability to sustain long, multi-step tasks, and unmatched multimodal understanding enable it to excel across a range of enterprise workflows.
+ Leading in defensive cybersecurity
+ The model can autonomously find, validate, and patch critical software vulnerabilities.
+ Performance
+ Frontier performance in complex workflows
+ Benchmark Notes Gemini 4 Argon GPT-6 Astra Claude Fable 5.1 Claude Opus 5.5 Vals Index Knowledge work 68.9% 63.1% 65.8% 67.0% AutomationBench Knowledge work Score 51.3% 41.4% 31.4% 42.5% Vals Finance Agent v2 Knowledge work 65.4% 53.5% 58.9% 58.6% Harvey's Legal Agent Benchmark Knowledge work 19.6% 5.4% 6.7% 3.8% DeepSWE v1.1 Agentic coding 77.9% 74.1% 67.4% 74.2% FrontierSWE v2 Agentic coding 55.0% 65.5% 56.3% 62.3% Vibe Code Bench Agentic coding 91.9% 89.6% 90.3% 90.3% Terminal-bench 4.0 Agentic coding 57.4% 58.2% 57.9% 66.4% PostTrainBench ML engineering 45.3% 44.3% 40.2% 49.3% Terminal-Bench Science 0.1 Science and math 57.6% 68.1% 52.6% 63.3% LABBench 2 Science and math 88.8% 85.4% 68.6% 73.1% RiemannBench Science and math 76.0% 72.0% 65.6% 69.6% GraphWalks Long context Up to 128k, BFS (F1) 99.7% 98.7% 91.4% 90.6% 256k to 1M, BFS (F1) 84.2% 71.8% 65.0% 66.8% Agent's Last Exam Computer use Pass rate 39.5% 34.2% — 38.2% OSWorld-2.0 Computer use Offline subset
+Partial score 69.2% 72.6% — — Chartography Multimodal understanding 71.6% 71.0% 46.2% 66.3% LVBench Multimodal understanding 91.7% 87.5% 79.7% 83.7% CWE-bench v1 Cybersecurity 68.0% 68.0% 58.0% 67.0% 
+ Methodology: deepmind.google/models/evals-methodology/gemini-4-argon 
+ Safety
+ Strengthening frontier safeguards before broad availability
+ Slide 1 of 4
+ Defending against misuse
+ Argon is designed to refuse harmful requests while preserving legitimate, dual-use scientific research, as per our Frontier Safety Framework.
+ Defending against prompt injection attacks
+ Argon is our most resilient model yet against indirect prompt injections.
+ Monitoring for misalignment
+ We are deploying misalignment mitigations that monitor Argon’s chain-of-thought and actions and stop execution when necessary.
+ Hardening systems
+ We are hardening our sandboxed environments by isolating and sealing them before high-risk training or evaluations begin.
+ Defending against misuse
+ Argon is designed to refuse harmful requests while preserving legitimate, dual-use scientific research, as per our Frontier Safety Framework.
+ Defending against prompt injection attacks
+ Argon is our most resilient model yet against indirect prompt injections.
+ Monitoring for misalignment
+ We are deploying misalignment mitigations that monitor Argon’s chain-of-thought and actions and stop execution when necessary.
+ Hardening systems
+ We are hardening our sandboxed environments by isolating and sealing them before high-risk training or evaluations begin.
+ Gemini 4 Argon with cybersecurity defense capabilities To better equip defenders for the new era of cyberattacks, we trained Argon to be highly capable at cybersecurity defense
+ Learn more
+ The Gemini Ecosystem
+ Slide 1 of 4
+ Your browser does not support the video tag. 
+ Gemini Omni
+ Create anything from anything, starting with video
+ Learn more
+ Nano Banana
+ Create and edit images with Gemini
+ Learn more
+ Your browser does not support the video tag. 
+ Gemini Audio
+ Push new frontiers with intuitive inputs, natural expressiveness, and the ability to take action
+ Learn more
+ Gemini Robotics
+ The intelligence layer to power any kind of robot
+ Learn more
+ Your browser does not support the video tag. 
+ Gemini Omni
+ Create anything from anything, starting with video
+ Learn more
+ Nano Banana
+ Create and edit images with Gemini
+ Learn more
+ Your browser does not support the video tag. 
+ Gemini Audio
+ Push new frontiers with intuitive inputs, natural expressiveness, and the ability to take action
+ Learn more
+ Gemini Robotics
+ The intelligence layer to power any kind of robot
+ Learn more
+ Follow us
+ Sign up for updates on our latest innovations 
+ I accept Google's Terms and Conditions and acknowledge that my information will be used in accordance with Google's Privacy Policy .
+ Sign up
+ Build AI responsibly to benefit humanity 
+ Models 
+ Gemini
+ Gemini Omni
+ Nano Banana
+ Gemini Audio
+ Gemma
+ Genie
+ Lyria
+ Veo
+ Research 
+ Gemini Robotics
+ Breakthroughs
+ Evals
+ Publications
+ Frontier safety
+ Responsibility
+ Science 
+ AlphaFold
+ AlphaGenome
+ WeatherNext
+ AlphaEarth
+ AlphaEvolve
+ Products 
+ Gemini app
+ Google AI Studio
+ Google Antigravity
+ Learn more 
+ About
+ News
+ Careers
+ National Partnerships for AI
+ Accelerator programs
+ The Podcast
+ DeepMind Institute
+ About Google 
+ Google products 
+ Privacy 
+ Terms 
+ Cookies management controls

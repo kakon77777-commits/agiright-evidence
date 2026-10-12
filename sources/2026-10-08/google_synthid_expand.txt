@@ -1,0 +1,265 @@
+Google expands SynthID Detector for AI content 
+ Skip to main content
+ Innovation & AI
+ Products & platforms
+ Company news
+ Feed 
+ Newsletter 
+ Back
+ Innovation & AI
+ See all in Innovation & AI
+ Models & Research
+ Google DeepMind
+ Google Research
+ Google Labs
+ Gemini models
+ Quantum computing
+ See all
+ Products
+ Developer tools
+ Gemini app
+ Gemini Notebook
+ See all
+ Infrastructure & cloud
+ Global network
+ Google Cloud
+ See all
+ Technology
+ Safety & Security
+ Health
+ See all
+ Learn more:
+ Google DeepMind blog
+ Google Research blog
+ Google Developers blog
+ Google Cloud blog
+ Back
+ Products & platforms
+ See all in Products & platforms
+ Products
+ Search
+ Maps
+ Chrome
+ Google Health
+ Google Workspace
+ Learning & Education
+ Shopping
+ See all
+ Platforms
+ Android
+ Google Play
+ Wear OS
+ See all
+ Devices
+ Pixel
+ Google Nest
+ Fitbit
+ Chromebook
+ Googlebook
+ See all
+ Learn more:
+ Google Ads & Commerce blog
+ Waze blog
+ Back
+ Company news
+ See all in Company news
+ Outreach & initiatives
+ Creating opportunity
+ Safety & security
+ Google.org
+ Public policy
+ Sustainability
+ Health
+ See all
+ Leadership
+ Sundar Pichai, CEO
+ More authors
+ See all
+ Inside Google
+ Around the globe
+ Life at Google
+ See all
+ Learn more:
+ Google Security blog
+ Innovation & AI
+ Innovation & AI
+ See all in Innovation & AI
+ Models & Research
+ Google DeepMind 
+ Google Research 
+ Google Labs 
+ Gemini models 
+ Quantum computing 
+ See all 
+ Products
+ Developer tools 
+ Gemini app 
+ Gemini Notebook 
+ See all 
+ Infrastructure & cloud
+ Global network 
+ Google Cloud 
+ See all 
+ Technology
+ Safety & Security 
+ Health 
+ See all 
+ Learn more:
+ Google DeepMind blog 
+ Google Research blog 
+ Google Developers blog 
+ Google Cloud blog 
+ Products & platforms
+ Products & platforms
+ See all in Products & platforms
+ Products
+ Search 
+ Maps 
+ Chrome 
+ Google Health 
+ Google Workspace 
+ Learning & Education 
+ Shopping 
+ See all 
+ Platforms
+ Android 
+ Google Play 
+ Wear OS 
+ See all 
+ Devices
+ Pixel 
+ Google Nest 
+ Fitbit 
+ Chromebook 
+ Googlebook 
+ See all 
+ Learn more:
+ Google Ads & Commerce blog 
+ Waze blog 
+ Company news
+ Company news
+ See all in Company news
+ Outreach & initiatives
+ Creating opportunity 
+ Safety & security 
+ Google.org 
+ Public policy 
+ Sustainability 
+ Health 
+ See all 
+ Leadership
+ Sundar Pichai, CEO 
+ More authors 
+ See all 
+ Inside Google
+ Around the globe 
+ Life at Google 
+ See all 
+ Learn more:
+ Google Security blog 
+ Feed
+ []
+ Preferences 
+ Global (English)
+ Africa (English)
+ Australia (English)
+ Brasil (Português)
+ Canada (English)
+ Canada (Français)
+ Česko (Čeština)
+ Deutschland (Deutsch)
+ España (Español)
+ France (Français)
+ Greece (Ελληνικά)
+ India (English)
+ Indonesia (Bahasa Indonesia)
+ Ireland (English)
+ Italia (Italiano)
+ 日本 (日本語)
+ 대한민국 (한국어)
+ Latinoamérica (Español)
+ Malaysia (English)
+ الشرق الأوسط وشمال أفريقيا (اللغة العربية)
+ MENA (English)
+ Nederlands (Nederland)
+ New Zealand (English)
+ Polska (Polski)
+ Portugal (Português)
+ România (Română)
+ Sverige (Svenska)
+ ประเทศไทย (ไทย)
+ Türkiye (Türkçe)
+ 台灣 (中文)
+ Links 
+Images 
+RSS feed 
+ Newsletter 
+ Breadcrumb 
+ Home
+ Innovation & AI
+ Models & research
+ Google DeepMind
+ We're making it easier to identify AI-generated content globally.
+ Pushmeet Kohli
+ VP, Science and Strategic Initiatives, Google DeepMind
+ Oct 07, 2026
+ As AI tools become better and easier to use, having clear context about the content you encounter online helps you make informed decisions about what to trust. Since launching Google SynthID in 2023, we've helped people identify AI-generated media using imperceptible watermarks across images, video, and audio. To date, we've watermarked over 180 billion images and videos, along with 240,000 years of audio content.
+ Last year, we introduced an early version of the SynthID Detector to help media professionals verify AI-generated content. Now, we’re expanding access to everyone – with the tool available globally in English starting today.
+ With the new SynthID Detector , anyone can easily check if an image, video, or audio file was made with AI from Google or our partners, including OpenAI, NVIDIA, Kakao, and soon, Apple.
+ This tool joins our built-in verification features in Search, the Gemini app, and Chrome, which now regularly handle over 1 million requests daily. It’s all part of our ongoing work to give you more context about the media you see online, so you can navigate the web with confidence.
+ Posted in: 
+ Google DeepMind
+ Safety & Security
+ Related stories
+ Google DeepMind
+ EmbeddingGemma 2: an open, lightweight multimodal embedding model
+ By
+ Sahil Dua
+ & 
+ Henrique Schechter Vera
+ AI
+ The latest AI news we announced in September 2026
+ By
+ Blog Team
+ Google DeepMind
+ We’re introducing SynthID Bio, bringing our watermarking technology to synthetic biology.
+ AI
+ Recreating a 70-year love story frame by frame
+ By
+ Michael Chang
+ Privacy
+ Terms
+ Help
+ More of Google
+ Google Products
+ About the Blog
+ Global (English)
+ Africa (English)
+ Australia (English)
+ Brasil (Português)
+ Canada (English)
+ Canada (Français)
+ Česko (Čeština)
+ Deutschland (Deutsch)
+ España (Español)
+ France (Français)
+ Greece (Ελληνικά)
+ India (English)
+ Indonesia (Bahasa Indonesia)
+ Ireland (English)
+ Italia (Italiano)
+ 日本 (日本語)
+ 대한민국 (한국어)
+ Latinoamérica (Español)
+ Malaysia (English)
+ الشرق الأوسط وشمال أفريقيا (اللغة العربية)
+ MENA (English)
+ Nederlands (Nederland)
+ New Zealand (English)
+ Polska (Polski)
+ Portugal (Português)
+ România (Română)
+ Sverige (Svenska)
+ ประเทศไทย (ไทย)
+ Türkiye (Türkçe)
+ 台灣 (中文)

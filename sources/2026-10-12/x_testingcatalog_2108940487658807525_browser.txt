@@ -1,0 +1,10 @@
+Source: in-app browser get_page_text of https://x.com/testingcatalog/status/2108940487658807525 on 2026-10-12 (Taipei). Posted 11:19 PM Oct 10, 2026 (Taipei) = 2026-10-10T15:19:29Z; 51k views, 559 likes at read time.
+Full post text:
+ANTHROPIC 🔥: A hidden Voice tab labeled as "Preview" suggests that Claude may offer an upgraded voice experience. 
+
+It is still unclear whether Anthropic is developing its own voice models, but a new option to share voice data for training has recently appeared in Claude's mobile apps. 
+
+I bet that for Anthropic, having their own voice models is quite important in case they want to continue releasing solutions for "vibe coders."
+
+Or if they want to ship a proactive assistant 👀
+Screenshot (viewed by me): Claude web app; left navigation New / Projects / Voice [Preview] / Scheduled / Design / Plugins / More; greeting "Welcome to the weekend, TestingCatalog"; banner "Due to capacity constraints, chatting with Claude is currently not available. Try again shortly."; model selector "Sonnet 5.5 Medium". The screenshot does not show what the Voice item does, and does not show the voice-data setting.

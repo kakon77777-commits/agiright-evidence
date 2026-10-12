@@ -1,0 +1,241 @@
+
+fix(catalog): add Gemini 3.8 Flash variant collapse family for Antigravity and Gemini CLI · Issue #11267 · can1357/oh-my-pi · GitHub
+Skip to content
+Navigation Menu
+Sign in
+Appearance settings
+Platform
+AI CODE CREATION
+GitHub Copilot Write better code with AI
+GitHub Copilot app Direct agents from issue to merge
+MCP Registry Integrate external tools
+DEVELOPER WORKFLOWS
+Actions Automate any workflow
+Codespaces Instant dev environments
+Issues Plan and track work
+Code Review Manage code changes
+Code Quality Enforce quality at merge
+APPLICATION SECURITY
+GitHub Advanced Security Find and fix vulnerabilities
+Code security Secure your code as you build
+Secret protection Stop leaks before they start
+EXPLORE Why GitHub
+Documentation
+Blog
+Changelog
+Marketplace
+View all features
+Solutions
+BY COMPANY SIZE Enterprises
+Small and medium teams
+Startups
+Nonprofits
+BY USE CASE App Modernization
+DevSecOps
+DevOps
+CI/CD
+View all use cases
+BY INDUSTRY Healthcare
+Financial services
+Manufacturing
+Government
+View all industries
+View all solutions
+Resources
+EXPLORE BY TOPIC AI
+Software Development
+DevOps
+Security
+View all topics
+EXPLORE BY TYPE Customer stories
+Events & webinars
+Ebooks & reports
+Business insights
+GitHub Skills
+SUPPORT & SERVICES Documentation
+Customer support
+Community forum
+Trust center
+Partners
+View all resources
+Open Source
+COMMUNITY
+GitHub Sponsors Fund open source developers
+PROGRAMS Security Lab
+Maintainer Community
+GitHub Stars
+Archive Program
+REPOSITORIES Topics
+Trending
+Collections
+Enterprise
+ENTERPRISE SOLUTIONS
+Enterprise platform AI-powered developer platform
+AVAILABLE ADD-ONS
+GitHub Advanced Security Enterprise-grade security features
+Copilot for Business Enterprise-grade AI features
+Premium Support Enterprise-grade 24/7 support
+Pricing
+Search /
+Sign in
+Sign up
+Appearance settings
+You signed in with another tab or window. Reload to refresh your session.
+You signed out in another tab or window. Reload to refresh your session.
+You switched accounts on another tab or window. Reload to refresh your session.
+Dismiss alert
+{{ message }}
+fix(catalog): add Gemini 3.8 Flash variant collapse family for Antigravity and Gemini CLI #11267
+New issue
+Copy link
+New issue
+Copy link
+Open
+Open
+fix(catalog): add Gemini 3.8 Flash variant collapse family for Antigravity and Gemini CLI #11267
+Copy link
+Labels
+duplicate This issue or pull request already exists This issue or pull request already exists provider:google-antigravity providers LLM provider-specific issues LLM provider-specific issues triaged
+Description
+edgseu
+opened on Sep 8, 2026
+Issue body actions
+Description
+When using google-antigravity (Google Cloud Code Assist) or google-gemini-cli , dynamic model discovery exposes four raw Gemini 3.8 Flash endpoint IDs from daily-cloudcode-pa :
+gemini-3.8-flash-low
+gemini-3.8-flash-medium
+gemini-3.8-flash-high
+gemini-3.8-flash-tiered
+Unlike gemini-3.6-flash and gemini-3.7-flash , which are collapsed into a single canonical model with google-level thinking routing, Gemini 3.8 Flash is currently missing from the variant collapse definitions in packages/catalog/src/variant-collapse.ts .
+As a consequence:
+All four raw endpoints are registered as separate selectable models in the catalog / /model .
+Because all Gemini 3.x models enforce mandatory reasoning ( reasoning: true , mode: "google-level" , efforts: ["minimal", "low", "medium", "high"] , requiresEffort: true ), every one of the four raw endpoints (including -low , -medium , and -high ) still prompts for / expects an explicit thinking level selection, even though the raw endpoints were designed upstream as fixed effort presets.
+Steps to Reproduce
+Authenticate with google-antigravity ( /login google-antigravity ).
+Run omp models refresh (or restart omp) to fetch dynamic discovery models from Cloud Code Assist.
+Run omp models ls google-antigravity or open the model selector ( /model ).
+Observe four separate entries: gemini-3.8-flash-low , gemini-3.8-flash-medium , gemini-3.8-flash-high , and gemini-3.8-flash-tiered .
+Select any of them (e.g. gemini-3.8-flash-low ); notice that it still has full reasoning enabled and prompts for thinking level configuration ( minimal / low / medium / high ).
+Expected Behavior
+Similar to Gemini 3.6 and 3.7 Flash, gemini-3.8-flash should be defined in packages/catalog/src/variant-collapse.ts :
+const GEMINI_38_FLASH_FAMILY = geminiLevelFlashFamily ( "3.8" ) ;
+and wired into both ANTIGRAVITY_VARIANT_COLLAPSE_TABLE and GEMINI_CLI_VARIANT_COLLAPSE_TABLE .
+This will collapse gemini-3.8-flash-{low,medium,high,tiered} into a single canonical gemini-3.8-flash model with gemini-3.8-flash-tiered as an alias and standard effortRouting :
+minimal -> gemini-3.8-flash-low
+low -> gemini-3.8-flash-low
+medium -> gemini-3.8-flash-medium
+high -> gemini-3.8-flash-high
+Error Output
+No error output; catalog normalization / variant collapse omission.
+Platform
+Linux
+omp version
+18.1.2
+Bun version
+1.4.0
+Provider
+Antigravity (Gemini 3, Claude, GPT-OSS)
+Area
+Model selection
+Additional context
+Reference: Prior addition of Gemini 3.7 Flash in commit 3ce33d436bc (issue #8460 ) via GEMINI_37_FLASH_FAMILY .
+Reactions are currently unavailable
+Activity
+roboomp
+added duplicate This issue or pull request already exists This issue or pull request already exists
+provider:google-antigravity
+providers LLM provider-specific issues LLM provider-specific issues
+triaged
+on Sep 8, 2026
+roboomp commented on Sep 8, 2026
+roboomp
+on Sep 8, 2026
+Collaborator
+More actions
+Already handled on main — no per-version entry is needed.
+The premise (a hand-edited packages/catalog/src/variant-collapse.ts with geminiLevelFlashFamily / GEMINI_37_FLASH_FAMILY ) describes an architecture that no longer exists. Variant collapse now lives in the KDL policy tree ( packages/catalog/src/compat/rules/taxonomy/_collapse.kdl , compiled to rules.json , applied via collapseVariants in src/compat/collapse.ts ). Since commit 2243f03707ba ("introduced revision templating to unify definitions", first released in v18.1.4 ), the Gemini Flash families are defined once as a revision-templated family instead of one entry per version:
+variant-family "google-antigravity" "gemini-{rev}-flash" name= "Gemini {rev} Flash" revision= ">=3.6" {
+members "gemini-{rev}-flash-low" "gemini-{rev}-flash-medium" "gemini-{rev}-flash-high" "gemini-{rev}-flash-tiered"
+route "minimal" "gemini-{rev}-flash-low"
+route "low" "gemini-{rev}-flash-low"
+route "medium" "gemini-{rev}-flash-medium"
+route "high" "gemini-{rev}-flash-high"
+mode "google-level"
+efforts "minimal" "low" "medium" "high"
+requires-effort #true
+}
+The identical template exists for google-gemini-cli . Because it matches any gemini-{rev}-flash with revision >= 3.6 , 3.8 (and every future Flash revision) is already collapsed — nothing to add.
+Verified against the current default branch by running collapseVariants on the four raw endpoints:
+$ collapseVariants([gemini-3.8-flash-{low,medium,high,tiered}], provider=google-antigravity)
+[
+{
+"id": "gemini-3.8-flash",
+"requestModelId": "gemini-3.8-flash-low",
+"thinking": {
+"mode": "google-level",
+"efforts": ["minimal", "low", "medium", "high"],
+"requiresEffort": true,
+"effortRouting": {
+"minimal": "gemini-3.8-flash-low",
+"low": "gemini-3.8-flash-low",
+"medium": "gemini-3.8-flash-medium",
+"high": "gemini-3.8-flash-high"
+}
+}
+}
+]
+That is exactly the requested outcome: a single canonical gemini-3.8-flash , -tiered folded in, standard google-level effort routing.
+You're on v18.1.2 , which predates the template (the older per-version definitions hardcoded 3.6/3.7 only). Updating to v18.1.4 or later resolves this. Closing as a duplicate of the collapse-unification work in 2243f03707ba ; the -tiered folding specifically tracks back to #10018 .
+danilouchoa commented on Sep 16, 2026
+danilouchoa
+on Sep 16, 2026
+Contributor
+More actions
+Triage result: already fixed as of v18.2.1
+Triaged in the per-issue validation sweep (newest-first): this report matches a change contained in v18.2.1 .
+Reported
+Gemini 3.8 Flash variant rows (per-effort and tiered duplicates across Antigravity / google-gemini-cli) needed a collapse family to avoid per-revision duplication.
+Fix
+Revision-templated variant families now collapse gemini-{rev}-flash-{low,medium,high,tiered} for google-antigravity and google-gemini-cli.
+Shipped
+Contained in v18.2.1 — commit 2243f03707 ( "feat(catalog): introduced revision templating to unify definitions" , 2026-09-02)
+Where it lives in code
+Path
+Role
+packages/catalog/src/
+revision-templated variant families for google-antigravity and google-gemini-cli
+Fix evidence
+Commit 2243f03707 is an ancestor of the v18.2.1 tag; the templated families for both providers are present in the bundled catalog.
+@edgseu — asking for your acceptance on this triage: can you confirm this is resolved for you on v18.2.1 or newer? If it still reproduces, comment with omp --version output plus details and the issue stays open. If confirmed (or after maintainer review), it can be closed as completed.
+cc @can1357 @roboomp
+Automated post-release validation sweep. Analysis grounded in the v18.2.1 tree; nothing was changed beyond this comment.
+Sign up for free to join this conversation on GitHub. Already have an account? Sign in to comment
+Metadata
+Metadata
+Assignees
+No one assigned
+Labels
+duplicate This issue or pull request already exists This issue or pull request already exists provider:google-antigravity providers LLM provider-specific issues LLM provider-specific issues triaged
+Projects
+No projects
+Milestone
+No milestone
+Relationships
+None yet
+Development
+No branches or pull requests
+Issue actions
+Open in GitHub Copilot app
+Footer
+&copy; 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+You can’t perform that action at this time.

@@ -1,0 +1,1011 @@
+[Congressional Bills 119th Congress]
+[From the U.S. Government Publishing Office]
+[S. 5061 Introduced in Senate (IS)]
+<DOC>
+119th CONGRESS
+ 2d Session
+ S. 5061
+To improve the tracking and processing of security and safety incidents 
+ and risks associated with artificial intelligence, and for other 
+ purposes.
+_______________________________________________________________________
+ IN THE SENATE OF THE UNITED STATES
+ July 21, 2026
+ Mr. Warner introduced the following bill; which was read twice and 
+ referred to the Committee on Commerce, Science, and Transportation
+_______________________________________________________________________
+ A BILL
+To improve the tracking and processing of security and safety incidents 
+ and risks associated with artificial intelligence, and for other 
+ purposes.
+ Be it enacted by the Senate and House of Representatives of the 
+United States of America in Congress assembled,
+SECTION 1. SHORT TITLE.
+ This Act may be cited as the ``Secure Artificial Intelligence 
+Development Act of 2026'' or the ``Secure A.I. Development Act of 
+2026''.
+SEC. 2. DEFINITIONS.
+ In this Act:
+ (1) Adversarial-artificial intelligence.--The term 
+ ``adversarial-artificial intelligence'' means techniques or 
+ procedures to extract information about the behavior or 
+ characteristics of an artificial intelligence system, or to 
+ learn how to manipulate an artificial intelligence system, in 
+ order to subvert the confidentiality, integrity, or 
+ availability of an artificial intelligence system or adjacent 
+ system.
+ (2) Artificial intelligence.--The term ``artificial 
+ intelligence'' has the meaning given the term in section 5002 
+ of the National Artificial Intelligence Initiative Act of 2020 
+ (15 U.S.C. 9401).
+ (3) Artificial intelligence safety incident.--The term 
+ ``artificial intelligence safety incident'' means an event that 
+ materially increases the risk that operation of an artificial 
+ intelligence system leads to a state in which human life, 
+ health, property, or the environment is endangered.
+ (4) Artificial intelligence security incident.--The term 
+ ``artificial intelligence security incident'' means an event 
+ that materially increases--
+ (A) the risk that operation of an artificial 
+ intelligence system occurs in a way that enables the 
+ unauthorized extraction of information about the 
+ behavior or characteristics of an artificial 
+ intelligence system by an unauthorized party; or
+ (B) the ability to manipulate an artificial 
+ intelligence system in order to subvert the 
+ confidentiality, integrity, or availability of an 
+ artificial intelligence system or adjacent system.
+ (5) Artificial intelligence security vulnerability.--The 
+ term ``artificial intelligence security vulnerability'' means a 
+ weakness in an artificial intelligence system that could be 
+ exploited by a third party to subvert, without authorization, 
+ the confidentiality, integrity, or availability of an 
+ artificial intelligence system, including through techniques 
+ such as--
+ (A) data poisoning;
+ (B) evasion attacks;
+ (C) privacy-based attacks;
+ (D) model theft or extraction attacks;
+ (E) attacks designed to circumvent or degrade the 
+ safety, alignment, or access control mechanisms of an 
+ artificial intelligence system; and
+ (F) adversarial machine learning attacks as 
+ described in National Institute of Standards and 
+ Technology Trustworthy and Responsible Artificial 
+ Intelligence 100-2e2025 (relating to Adversarial 
+ Machine Learning), or successor publication.
+SEC. 3. ENABLING TESTING OF FRONTIER ARTIFICIAL INTELLIGENCE MODELS 
+ PRIOR TO PUBLIC RELEASE.
+ (a) Definitions.--In this section:
+ (1) Board.--The term ``Board'' means the Artificial 
+ Intelligence Risk Board established under subsection (b)(1).
+ (2) Critical infrastructure.--The term ``critical 
+ infrastructure'' has the meaning provided in section 1016(e) of 
+ the USA Patriot Act of 2001 (42 U.S.C. 5195c(e)).
+ (3) Frontier artificial intelligence model.--The term 
+ ``frontier artificial intelligence model'' means an artificial 
+ intelligence model, or system combining multiple artificial 
+ intelligence models, that exhibits or could be modified to 
+ exhibit high levels of performance at tasks that pose a serious 
+ risk to national security, national economic security, or 
+ public health or safety.
+ (4) Institute.--The term ``Institute'' means the National 
+ Institute of Standards and Technology.
+ (5) Secretary.--The term ``Secretary'' means the Secretary 
+ of Commerce.
+ (b) The Artificial Intelligence Risk Board.--
+ (1) Establishment.--
+ (A) In general.--Not later than 90 days after the 
+ date of the enactment of this Act, the Secretary shall 
+ establish within the Institute a board to address 
+ artificial intelligence risks.
+ (B) Designation.--The board established under 
+ subparagraph (A) shall be known as the ``Artificial 
+ Intelligence Risk Board''.
+ (2) Membership.--
+ (A) Composition.--The Board shall be composed of 
+ members who are appointed as follows:
+ (i) One or more members selected by the 
+ Director of the National Institute of 
+ Standards.
+ (ii) One or more members selected by the 
+ Secretary.
+ (iii) One or more members selected by the 
+ Director of the Cybersecurity and 
+ Infrastructure Security Agency.
+ (iv) One or more members selected by the 
+ Director of the National Security Agency.
+ (v) One or more members selected by the 
+ Secretary of the Treasury.
+ (B) Nongovernmental experts.--In addition to the 
+ members of the Board appointed under subparagraph (A), 
+ the Secretary shall appoint members who are not 
+ officers or employees of the Federal Government and who 
+ the Secretary selects from among individuals who--
+ (i) are leading technical experts not 
+ affiliated with a developer or provider of 
+ artificial intelligence systems;
+ (ii) are leading technical experts 
+ affiliated with developers or providers of 
+ artificial intelligence systems;
+ (iii) are individuals with expertise in 
+ developing evaluations to test artificial 
+ intelligence models; and
+ (iv) have knowledge or expertise that the 
+ Secretary determines would further the purpose 
+ of the duties of the Board.
+ (3) Terms and vacancies.--
+ (A) Terms.--Each member of the Board shall serve 1 
+ term of not longer than 3 years and may be reappointed 
+ for 1 successive term of not longer than 3 years.
+ (B) Vacancy replacement.--The memebrs of the Board 
+ shall develop a vacancy replacement procedure that 
+ includes--
+ (i) for vacancies occurring due to the end 
+ of a member's term, a vote not later than 90 
+ days before the last day of the member's term; 
+ and
+ (ii) for vacancies occurring under 
+ subparagraph (C) or for any other reason, the 
+ chair of the Board shall nominate a replacement 
+ from the same stakeholder category under 
+ paragraph (2), to the extent practicable, as 
+ the member creating the vacancy, subject to 
+ approval by a majority vote of the members of 
+ the Board.
+ (C) Removal.--Any member who fails to comply with 
+ the conflict of interest policy adopted pursuant to 
+ paragraph (5)(D) shall be removed from the Board.
+ (D) Chair.--The chair of the Board shall be 
+ selected by a majority vote among a quorum of the 
+ members appointed under paragraph (2) and shall serve 
+ not more than 1 two-year term.
+ (4) Member access to classified information.--
+ (A) Access.--
+ (i) In general.--Not later than 60 days 
+ after the date on which a member is first 
+ appointed to the Board and before the member is 
+ granted access to any classified information 
+ necessary to participate in a closed session 
+ pursuant to paragraph (5)(F), the Secretary 
+ shall determine, for the purposes of the Board, 
+ if the member should be restricted from 
+ reviewing, discussing, or possessing classified 
+ information.
+ (ii) Management.--Access to classified 
+ information shall be managed in accordance with 
+ Executive Order 13526 (50 U.S.C. 3161 note; 
+ relating to classified national security 
+ information), or any subsequent corresponding 
+ Executive order.
+ (iii) Clearance requirement.--The Secretary 
+ shall sponsor each member of the Board for a 
+ security clearance at the Top Secret level with 
+ access to sensitive compartmented information, 
+ as appropriate, for the purposes of 
+ participating in carrying out the duties of the 
+ Board.
+ (iv) Clearance requirement.--Each member of 
+ the Board shall obtain a security clearance 
+ unless denied by the appropriate authorities or 
+ if the Secretary determines a member should be 
+ restricted from reviewing, discussing, or 
+ possessing classified information. In either 
+ instance, such member shall be removed from the 
+ Board and a new member shall be appointed 
+ pursuant to the vacancy procedures under 
+ paragraph (3)(B) to replace such removed 
+ member.
+ (B) Protection of information.--A member of the 
+ Board granted access to classified information shall 
+ protect the classified information in accordance with 
+ the applicable requirements for the particular level of 
+ classification of the information.
+ (C) Rule of construction.--Nothing in this 
+ paragraph shall be construed to affect the existing 
+ security clearance of a member of the Board or the 
+ authority of a Federal agency to provide or deny a 
+ member of the Board access to any specific pieces of 
+ classified information.
+ (5) Procedures.--
+ (A) Designated federal officer.--The Secretary 
+ shall designate a Federal officer or employee to serve 
+ as the designated Federal officer of the Board, 
+ consistent with the requirements of chapter 10 of title 
+ 5, United States Code (common known as the ``Federal 
+ Advisory Committee Act'').
+ (B) Initial meeting and bylaws.--Not later than 120 
+ days after the date of the enactment of this Act, the 
+ Board shall convene and establish bylaws that--
+ (i) govern quorum and voting rules, 
+ including implementation of the decisionmaking 
+ majority voting requirement specified in 
+ paragraph (5)(C)(ii); and
+ (ii) set deliverable timelines and meeting 
+ schedules.
+ (C) Operating procedures.--Unless otherwise 
+ specified, the Board shall adopt written procedures 
+ governing its meetings, consistent with chapter 10 of 
+ title 5, United States Code, that include--
+ (i) requirements for public notice of 
+ meetings and the maintenance of records and 
+ minutes;
+ (ii) decision making by majority vote of 
+ those present and voting;
+ (iii) authorization for the establishment 
+ of subgroups as necessary, subject to the 
+ approval of the chair of the Board; and
+ (iv) approval of the meeting agendas by the 
+ chair in consultation with the designated 
+ Federal officer under subparagraph (A) to 
+ ensure compliance with applicable laws.
+ (D) Conflict-of-interest policy.--
+ (i) In general.--The Board shall adopt and 
+ enforce a written conflict of interest policy 
+ to ensure that members of the Board have a 
+ fiduciary responsibility to the Board, a duty 
+ to report conflicts of interest, including the 
+ appearance of a conflict of interest, and do 
+ not participate in deliberations or votes from 
+ which they personally or their employer would 
+ directly and materially benefit.
+ (ii) Required disclosures.--The policy 
+ under clause (i) shall require each member to 
+ publicly disclose all relevant financial and 
+ employment relationships and include recusal 
+ procedures in the event of a conflict.
+ (iii) Records.--The designated Federal 
+ officer under subparagraph (A) shall maintain 
+ records of disclosures under clause (ii) of 
+ this subparagraph and make summaries of the 
+ disclosures available to the Secretary.
+ (E) Threat information access.--The Director of 
+ National Intelligence, in coordination with the heads 
+ of other appropriate Federal entities, shall ensure 
+ that the Board has access to relevant cybersecurity 
+ threat information, including through closed or 
+ classified briefings or the provision of classified 
+ information, when appropriate.
+ (F) Closed sessions.--Notwithstanding section 1009 
+ of title 5, United States Code, the Board may hold 
+ closed or restricted-access sessions when the Secretary 
+ determines that the matters to be discussed involve any 
+ of the following:
+ (i) Classified information.
+ (ii) Sensitive cybersecurity 
+ vulnerabilities.
+ (iii) Threat information.
+ (iv) Proprietary business information.
+ (v) Other information exempt from public 
+ disclosure under section 552 of title 5, United 
+ States Code.
+ (6) Duties.--
+ (A) In general.--The Board shall--
+ (i) develop a process to perform technical 
+ evaluations to determine what capabilities or 
+ combination of capabilities constitute high 
+ levels of performance at tasks that pose a 
+ serious risk to national security, national 
+ economic security, or public health or safety; 
+ and
+ (ii) develop best practices, including--
+ (I) standardize formats and 
+ processes for publishing model cards 
+ with technical details of artificial 
+ intelligence systems;
+ (II) recommendations for 
+ maintaining cybersecurity measures for 
+ developers or providers of artificial 
+ intelligence systems;
+ (III) processes and metrics for 
+ developers or providers of artificial 
+ intelligence systems to use to evaluate 
+ risks from employees or other personnel 
+ who have access to artificial 
+ intelligence systems developed or in 
+ development by developers or providers 
+ of artificial intelligence systems; and
+ (IV) recommendations on appropriate 
+ financial and other resourcing for 
+ developers or providers of artificial 
+ intelligence systems to robustly engage 
+ in safety and security research focused 
+ on the deployment of frontier 
+ artificial intelligence models.
+ (B) Periodic reassessment of technical evaluations 
+ and best practices.--The Board shall periodically 
+ reassess the technical evaluations and best practices 
+ the Board develops under this subsection.
+ (c) Requirement That Providers of Frontier Artificial Intelligence 
+Models Give Access to National Security Agency Before Public Release.--
+Not later than 21 calendar days before a provider introduces into 
+interstate or foreign commerce a frontier artificial intelligence 
+model, the provider shall make available to the Artificial Intelligence 
+Security Center, established by the Director of the National Security 
+Agency under section 6504 of the Intelligence Authorization Act for 
+Fiscal Year 2025 (division F of Public Law 118-159; 50 U.S.C. 3602 
+note), access to the frontier artificial intelligence model, including 
+model's weights, configuration files, runtimes, or software libraries 
+necessary to operate the frontier artificial intelligence model.
+ (d) Frontier Artificial Intelligence Model Registry.--
+ (1) Establishment of registry.--Not later than 90 days 
+ after the date of the enactment of this Act, the Director of 
+ the National Institute of Standards and Technology shall 
+ establish a registry of frontier models that are available to 
+ the public.
+ (2) Rules and procedures.--In establishing the registry 
+ under paragraph (1), the Director of the National Institute of 
+ Standards and Technology shall establish rules and procedures 
+ for--
+ (A) a provider of a frontier artificial 
+ intelligence model to register the frontier artificial 
+ intelligence model;
+ (B) a provider of a frontier artificial 
+ intelligence model to contest the need for registering 
+ the frontier artificial intelligence model;
+ (C) removing a frontier artificial intelligence 
+ model from the registry;
+ (D) a provider of a frontier artificial 
+ intelligence model to attest that the provider 
+ submitted the frontier artificial intelligence model to 
+ the test-bed established under section 6504(e) of the 
+ Intelligence Authorization Act for Fiscal Year 2025 
+ (division F of Public Law 118-159; 50 U.S.C. 3602 
+ note), as amended by subsection (e); and
+ (E) such other purposes the Director deems 
+ necessary.
+ (3) Obligation to register.--Each provider of a frontier 
+ artificial intelligence model shall register that frontier 
+ artificial intelligence model with the registry established 
+ under paragraph (1) before introducing the frontier artificial 
+ intelligence model into interstate or foreign commerce.
+ (e) Enforcement; Ability To Cure.--
+ (1) Referrals for enforcement.--In any case in which the 
+ Director of the National Institute of Standards and Technology 
+ determines that a frontier artificial intelligence model has 
+ been introduced into interstate or foreign commerce by a 
+ provider of the frontier artificial intelligence in violation 
+ of subsection (c), the Director of the National Institute of 
+ Standards and Technology shall notify the Attorney General.
+ (2) Enforcement.--The Attorney General shall enforce this 
+ section.
+ (3) Penalty.--Whoever violates subsection (c) shall be 
+ fined an amount equal to not less than $100,000 per day for 
+ each day during which a frontier artificial intelligence model 
+ controlled by that person is available through interstate and 
+ foreign commerce without having obtained the voluntary security 
+ guidance issued under section 6504(e)(3) of the Intelligence 
+ Authorization Act for Fiscal Year 2025 (division F of Public 
+ Law 118-159; 50 U.S.C. 3602 note), as amended by subsection 
+ (f).
+ (4) Right to cure.--
+ (A) Notification.--Prior to commending an 
+ enforcement action against a provider of a frontier 
+ artificial intelligence model for violating subsection 
+ (c), the Attorney General shall notify the provider and 
+ allow the provider 7 calendar days following the notice 
+ of violation for the violator to come into compliance 
+ pursuant to subparagraph (B).
+ (B) Process to cure.--In order for a provider of a 
+ frontier artificial intelligence model to come into 
+ compliance pursuant to this subparagraph, the provider 
+ shall demonstrate to the Attorney General that the 
+ provider has--
+ (i) withdrawn from interstate and foreign 
+ commerce the frontier artificial intelligence 
+ model that gave rise to the violation of 
+ subsection (c); and
+ (ii) given to the National Security Agency 
+ access to the frontier artificial intelligence 
+ model pursuant to subsection (c).
+ (f) National Security Agency Research-Test-Bed.--Section 6504 of 
+the Intelligence Authorization Act for Fiscal Year 2025 (division F of 
+Public Law 118-159; 50 U.S.C. 3602 note) is amended--
+ (1) in subsection (c)--
+ (A) by redesignating paragraph (4) as paragraph 
+ (5); and
+ (B) by inserting after paragraph (3) the following 
+ new paragraph (4):
+ ``(3) Making available a research test-bed to private 
+ sector, Federal and qualified independent expert participants, 
+ on a subsidized basis, to engage in artificial intelligence 
+ security research, including through the secure provision of 
+ access in a secure environment for pre-deployment testing of 
+ any frontier artificial intelligence model prior to public 
+ release.'';
+ (2) by redesignating subsection (e) as subsection (f); and
+ (3) by inserting after subsection (d) the following:
+ ``(e) Test-Bed Requirements.--
+ ``(1) Access and terms of usage.--
+ ``(A) Outside participation.--The Director shall 
+ establish a process by which critical infrastructure 
+ operators, as well private sector entities that develop 
+ or maintain information systems utilized by critical 
+ infrastructure operators, shall access a secure test-
+ bed for the purpose of testing and evaluating the 
+ impact of frontier artificial intelligence models on 
+ information systems maintained by critical 
+ infrastructure operators prior to public release or 
+ distribution of such models.
+ ``(B) Researcher access.--The Director shall 
+ establish terms of usage governing access to the test-
+ bed made available under subsection (c)(4), with 
+ limitations on researcher publication to the extent 
+ necessary to protect classified information or 
+ proprietary information provided by private sector 
+ participants.
+ ``(C) Availability to federal agencies.--The 
+ Director shall ensure that the test-bed made available 
+ under subsection (c)(4) is also made available to other 
+ Federal agencies on a cost-recovery basis.
+ ``(2) Use of certain infrastructure and other resources.--
+ In carrying out subsection (c)(4), the Director shall leverage, 
+ to the greatest extent practicable, infrastructure and other 
+ resources provided under section 5.2 of Executive Order 14110 
+ (88 Fed. Reg. 75191; relating to safe, secure, and trustworthy 
+ development and use of artificial intelligence).
+ ``(3) Voluntary security guidance.--The Director shall 
+ share relevant guidance, informed by pre-deployment testing in 
+ the secure test-bed environment identified in subsection (c), 
+ to inform voluntary vendor actions to mitigate against 
+ potential security threats to such models, or the ability of 
+ foreign actors to utilize such models for computer network 
+ exploitation campaigns against information systems utilized by 
+ critical infrastructure operators, the design or development of 
+ weapons systems, or to further foreign surveillance 
+ capabilities.''.
+SEC. 4. DATABASE FOR ARTIFICIAL INTELLIGENCE SECURITY AND SAFETY 
+ INCIDENTS AND RISKS.
+ (a) Voluntary Tracking of Artificial Intelligence Security and 
+Artificial Intelligence Safety Incidents.--
+ (1) Voluntary submissions.--Not later than 1 year after the 
+ date of the enactment of this Act, the Director of the National 
+ Institute of Standards and Technology shall, in coordination 
+ with the Director of the Cybersecurity and Infrastructure 
+ Security Agency, establish mechanisms by which private sector 
+ entities, public sector organizations, civil society groups, 
+ and academic researchers may voluntarily share information with 
+ the National Institute of Standards and Technology on confirmed 
+ or suspected artificial intelligence security or artificial 
+ intelligence safety incidents, in a manner that preserves 
+ confidentiality of any affected party, which shall--
+ (A) leverage, to the greatest extent possible, 
+ standardized disclosure and incident description 
+ formats;
+ (B) develop processes to associate reports 
+ pertaining to the same incident with a single incident 
+ identifier;
+ (C) establish classification, information 
+ retrieval, and reporting mechanisms that sufficiently 
+ differentiate between artificial intelligence security 
+ incidents and artificial intelligence safety incidents; 
+ and
+ (D) create appropriate taxonomies to classify 
+ incidents based on relevant characteristics, impact, or 
+ other relevant criteria.
+ (2) Publicly accessible database.--
+ (A) Establishment of database required.--Not later 
+ than 1 year after the date of the enactment of this 
+ Act, the Director of the Institute shall, in 
+ coordination with the Director of the Cybersecurity and 
+ Infrastructure Security Agency, establish a publicly 
+ accessible database of artificial intelligence security 
+ incidents and artificial intelligence safety incidents.
+ (B) Review and population of database.--Upon 
+ receipt of relevant information on an artificial 
+ intelligence security or artificial intelligence safety 
+ incident under paragraph (1), the Director of the 
+ Institute shall review the information and determine 
+ whether the described incident constitutes an 
+ artificial intelligence security or artificial 
+ intelligence safety risk appropriate for inclusion in 
+ the database developed and established under 
+ subparagraph (A).
+ (C) Identification of causal factors.--When making 
+ a determination under subparagraph (B), the Director of 
+ the Institute shall identify causal factors for the 
+ artificial intelligence security incident or the 
+ artificial intelligence safety incident, including--
+ (i) the artificial intelligence system;
+ (ii) the deployment of the artificial 
+ intelligence systems; and
+ (iii) practices related to the operation of 
+ the artificial intelligence system, including 
+ misuse of the artificial intelligence system.
+ (D) Priorities.--In evaluating information under 
+ subparagraph (B) and determining under such 
+ subparagraph whether to include a report of an incident 
+ in the database required by subparagraph (A), the 
+ Director shall prioritize inclusion in the database of 
+ cases in which a described incident--
+ (i) describes an artificial intelligence 
+ system used in critical infrastructure or 
+ safety-critical systems;
+ (ii) would result in a high-severity or 
+ catastrophic impact to the people or economy of 
+ the United States; or
+ (iii) includes an artificial intelligence 
+ system widely used in commercial or public 
+ sector contexts in the United States.
+ (3) Exemption from disclosure; reports and anonymity.--
+ (A) Anonymity.--The Director shall populate the 
+ voluntary database developed and established under 
+ paragraph (2)(A) with incidents based on public reports 
+ and information shared using the mechanism established 
+ pursuant to paragraph (1), ensuring that any incident 
+ description sufficiently anonymizes those affected, 
+ unless those who are affected have consented to their 
+ names being included in the database.
+ (B) Exemption from disclosure.--Any information 
+ shared using the mechanism established pursuant to 
+ paragraph (1)--
+ (i) shall be exempt from disclosure and 
+ withheld, unless an affected party consents to 
+ the inclusion of their names in the database as 
+ provided for under subparagraph (A), from the 
+ public, pursuant to section 552(b)(3)(B) of 
+ title 5, United States Code, and any other 
+ provision of United States law or law of any 
+ State, political subdivision or agency thereof, 
+ or Tribe requiring disclosure of information or 
+ records; and
+ (ii) shall not be deemed a waiver of any 
+ applicable privilege or protection, including 
+ trade secret protection.
+ (C) Consultation required.--Before publishing 
+ information regarding artificial intelligence safety 
+ incident under paragraph (2)(B), the Director shall 
+ consult with the developer or provider of the 
+ artificial intelligence system involved in an incident.
+ (b) Material Risk Guidance.--Not later than 180 days after the date 
+of the enactment of this Act the Director of the National Institute of 
+Standards and Technology shall, in coordination with the Director of 
+the Cybersecurity and Infrastructure Security Agency, publish 
+nonbinding guidance that provides illustrative criteria and examples 
+for determining when an event ``materially increases'' a risk for 
+purposes of paragraphs (3) and (4) of section 2.
+SEC. 5. UPDATING PROCESSES AND PROCEDURES RELATING TO CYBERSECURITY 
+ VULNERABILITIES.
+ (a) Definitions.--In this section:
+ (1) Common vulnerabilities and exposures program.--The term 
+ ``Common Vulnerabilities and Exposures Program'' means the 
+ reference guide and classification system for publicly known 
+ information security vulnerabilities sponsored by the 
+ Cybersecurity and Infrastructure Security Agency.
+ (2) Relevant congressional committees.--The term ``relevant 
+ congressional committees'' means--
+ (A) the Committee on Homeland Security and 
+ Governmental Affairs, the Committee on Commerce, 
+ Science, and Transportation, the Select Committee on 
+ Intelligence, and the Committee on the Judiciary of the 
+ Senate; and
+ (B) the Committee on Oversight and Government 
+ Reform, the Committee on Energy and Commerce, the 
+ Permanent Select Committee on Intelligence, and the 
+ Committee on the Judiciary of the House of 
+ Representatives.
+ (b) Processes and Procedures for Vulnerability Management.--Not 
+later than 180 days after the date of the enactment of this Act, the 
+Director of the National Institute of Standards and Technology shall--
+ (1) comprehensively evaluate, and develop a strategic plan 
+ to reform, the structure and processes of the National 
+ Vulnerability Database in light of significant increase in the 
+ volume of vulnerabilities in information systems identified by 
+ artificial intelligence systems, including recommendations and 
+ guidance related to assisting in determining prioritization of 
+ identified vulnerability patching and mitigation;
+ (2) initiate a process to utilize advanced artificial 
+ intelligence systems to characterize vulnerabilities as part of 
+ the National Vulnerability Database;
+ (3) initiate a process to update processes and procedures 
+ associated with the National Vulnerability Database of the 
+ Institute to ensure that the database and associated 
+ vulnerability management processes incorporate artificial 
+ intelligence security vulnerabilities to the greatest extent 
+ practicable;
+ (4) identify any characteristics of artificial intelligence 
+ security vulnerabilities that make utilization of the National 
+ Vulnerability Database inappropriate and develop processes and 
+ procedures for vulnerability management for those 
+ vulnerabilities; and
+ (5) initiate a process to update the Secure Software 
+ Development Framework set forth in National Institute of 
+ Standards and Technology Special Publication 800-218 and 
+ include guidance and best practices for using artificial 
+ intelligence in code generation and security review.
+ (c) Updates to Common Vulnerabilities and Exposures Program.--Not 
+later than 180 days after the date of enactment of this Act, the 
+Director of the Cybersecurity and Infrastructure Security Agency 
+shall--
+ (1) initiate a process to update processes and procedures 
+ associated with the Common Vulnerabilities and Exposures 
+ Program to ensure that the program and associated processes 
+ identify and enumerate artificial intelligence security 
+ vulnerabilities to the greatest extent practicable; and
+ (2) identify any characteristic of artificial intelligence 
+ security vulnerabilities that make utilization of the Common 
+ Vulnerabilities and Exposures Program inappropriate and develop 
+ processes and procedures for vulnerability identification and 
+ enumeration for those artificial intelligence security 
+ vulnerabilities.
+ (d) Submission to Congress.--Upon completion of the processes 
+required in subsections (a) and (b), the Director of the National 
+Institute of Standards and Technology and the Director of the 
+Cybersecurity and Infrastructure Security Agency, respectively, shall 
+submit a strategic plan to Congress identifying courses of action under 
+existing authorities, or identifying specific legislative amendments, 
+necessary to address accelerating security risks associated with 
+artificial intelligence systems.
+ (e) Evaluation of Consensus Standards for Vulnerability 
+Disclosure.--
+ (1) In general.--Not later than 30 days after the date of 
+ the enactment of this Act, the Director of the National 
+ Institute of Standards and Technology shall, in coordination 
+ with the Director of the Cybersecurity and Infrastructure 
+ Security Agency, initiate a multi-stakeholder process to 
+ evaluate whether existing voluntary consensus standards and 
+ processes for vulnerability reporting processes associated with 
+ the security of information systems effectively accommodate the 
+ significant increased volume of vulnerabilities in information 
+ systems identified by artificial intelligence systems, as well 
+ as the unique nature of artificial intelligence security 
+ vulnerabilities.
+ (2) Report.--
+ (A) Submission.--Not later than 180 days after the 
+ date on which the evaluation under paragraph (1) is 
+ carried out, the Director shall submit a report to the 
+ relevant congressional committees on the sufficiency of 
+ existing vulnerability reporting processes and 
+ standards to accommodate the significant increased 
+ volume of vulnerabilities in information systems 
+ identified by artificial intelligence systems, as well 
+ as artificial intelligence security vulnerabilities.
+ (B) Post-report action.--If the Director concludes 
+ in the report submitted under subparagraph (A) that 
+ existing vulnerability reporting processes and 
+ standards do not effectively accommodate the 
+ significant increased volume of vulnerabilities in 
+ information systems identified by artificial 
+ intelligence systems, as well as the reporting of 
+ artificial intelligence security vulnerabilities, the 
+ Director shall initiate a process, in consultation with 
+ the Director of the National Institute of Standards and 
+ Technology and the Director of the Office of Management 
+ and Budget, to update relevant vulnerability reporting 
+ processes, including the Department of Homeland 
+ Security Binding Operational Directive 20-01, or any 
+ subsequent directive.
+SEC. 6. REVIEW OF ARTIFICIAL INTELLIGENCE SECURITY VULNERABILITIES 
+ UNDER VULNERABILITIES EQUITIES PROCESS.
+ (a) Definitions.--In this section:
+ (1) Appropriate congressional committees.--The term 
+ ``appropriate congressional committees'' means--
+ (A) the Select Committee on Intelligence of the 
+ Senate;
+ (B) the Committee on Homeland Security and 
+ Governmental Affairs of the Senate;
+ (C) the Committee on the Judiciary of the Senate;
+ (D) the Committee on Armed Services of the Senate;
+ (E) the Permanent Select Committee on Intelligence 
+ of the House of Representatives;
+ (F) the Committee on Homeland Security of the House 
+ of Representatives;
+ (G) the Committee on the Judiciary of the House of 
+ Representatives; and
+ (H) the Committee on Armed Services of the House of 
+ Representatives.
+ (2) Vulnerabilities equities policy and process document.--
+ The term ``Vulnerabilities Equities Policy and Process 
+ document'' means the executive branch document entitled 
+ ``Vulnerabilities Equities Policy and Process for the United 
+ States Government'' dated November 15, 2017.
+ (3) Vulnerabilities equities process.--The term 
+ ``Vulnerabilities Equities Process'' means the interagency 
+ review of vulnerabilities carried out pursuant to the 
+ Vulnerabilities Equities Policy and Process document or any 
+ successor document.
+ (b) Evaluation; Report.--Not later than 90 days after the date of 
+the enactment of this Act, the Federal departments and agencies 
+participating in the Vulnerabilities Equities Process shall--
+ (1) evaluate whether the existing Vulnerabilities Equities 
+ Process sufficiently accommodates the submission and review of 
+ artificial intelligence security vulnerabilities; and
+ (2) submit to the appropriate congressional committees a 
+ report describing the applicability of the Vulnerabilities 
+ Equities Process to such vulnerabilities, including whether the 
+ submission and review of such vulnerabilities under the 
+ Vulnerabilities Equities Process would result in an unduly 
+ large volume of notifications to affected vendors and, if so, 
+ an assessment of mechanisms to manage the volume of such 
+ notifications.
+ (c) Process.--In carrying out subsection (b), if the Federal 
+departments and agencies participating in the Vulnerabilities Equities 
+Process determine that the existing Vulnerabilities Equities Process 
+does not sufficiently accommodate the submission and review of 
+artificial intelligence security vulnerabilities identified by the 
+evaluation required in subsection (b)(1), and that such vulnerabilities 
+present public interest considerations meriting review under the 
+Vulnerabilities Equities Process, the Federal departments and agencies 
+participating in the Vulnerabilities Equities Process shall establish a 
+process for the submission and review of such vulnerabilities under the 
+Vulnerabilities Equities Process not later than 30 days after the date 
+of such determination.
+ (d) Report on Vulnerabilities Identified by Artificial Intelligence 
+Systems.--Not later than 90 days after the date of the enactment of 
+this Act, the Director of National Intelligence shall submit to the 
+congressional intelligence committees (as defined in section 3 of the 
+National Security Act of 1947 (50 U.S.C. 3003)) a report on--
+ (1) the volume of vulnerabilities of information systems 
+ identified by artificial intelligence systems;
+ (2) the impact of any change in such volume on the 
+ functioning of the Vulnerabilities Equities Process; and
+ (3) whether the increasingly rapid discovery and 
+ exploitation of such vulnerabilities by external cyber actors 
+ using artificial intelligence systems materially alters the 
+ equity of disclosure.
+SEC. 7. SECURITY OF ARTIFICIAL INTELLIGENCE SYSTEMS AND LABORATORIES.
+ (a) Definitions.--In this section:
+ (1) Center.--The term ``Center'' means the Artificial 
+ Intelligence Security Center of the National Security Agency.
+ (2) Classified information.--The term ``classified 
+ information'' has the meaning given such term in section 805 of 
+ the National Security Act of 1947 (50 U.S.C. 3164).
+ (3) Cleared industry personnel.--The term ``cleared 
+ industry personnel'' means employees or representatives of a 
+ covered person who hold an appropriate security clearance and 
+ have a demonstrated need to know.
+ (4) Congressional intelligence committees.--The term 
+ ``congressional intelligence committees'' has the meaning given 
+ such term in section 3 of the National Security Act of 1947 (50 
+ U.S.C. 3003).
+ (5) Covered person.--The term ``covered person'' means a 
+ non-Federal person who--
+ (A) is a United States person;
+ (B) develops, deploys, or operates artificial 
+ intelligence models or critical enabling 
+ infrastructure; and
+ (C) provides the services described in subparagraph 
+ (B) to a Federal department or agency.
+ (6) Director.--The term ``Director'' means the Director of 
+ the National Security Agency.
+ (7) Foreign adversary country.--The term ``foreign 
+ adversary country'' has the meaning given such term in section 
+ 2(c) of the Protecting Americans' Data from Foreign Adversaries 
+ Act of 2024 (15 U.S.C. 9901(c)).
+ (8) Foreign entity of concern.--The term ``foreign entity 
+ of concern'' means--
+ (A) a foreign adversary country; or
+ (B) any entity that is controlled or acting under 
+ the direction of a foreign adversary country.
+ (9) Intelligence.--The term ``intelligence'' has the 
+ meaning given such term in section 3 of the National Security 
+ Act of 1947 (50 U.S.C. 3003).
+ (10) Intelligence community.--The term ``intelligence 
+ community'' has the meaning given such term in section 3 of the 
+ National Security Act of 1947 (50 U.S.C. 3003).
+ (11) Security clearance.--The term ``security clearance'' 
+ means an authorization to access classified information.
+ (12) Threat information.--The term ``threat information'' 
+ means information on--
+ (A) efforts by foreign adversary countries to use 
+ products or research of covered persons or other 
+ entities or individuals to generate synthetic media for 
+ foreign-directed influence campaigns, develop and 
+ manage computer network exploitation campaigns, design 
+ or develop weapons systems, or enhance surveillance 
+ capabilities in ways that undermine the privacy or 
+ threaten the security of citizens of the United States;
+ (B) threats posed by foreign entities of concern, 
+ including indications of compromise to networks 
+ associated with covered persons or other technical 
+ indicators, indicating a compromise to the 
+ confidentiality, integrity, or availability of an 
+ artificial intelligence system, or to the supply chain 
+ of an artificial intelligence system, including 
+ training or test data, frameworks or software 
+ libraries, training or inference computing 
+ environments, or other components necessary for the 
+ training, management, deployment, or maintenance of an 
+ artificial intelligence system;
+ (C) activity of foreign entities of concern to 
+ clandestinely, fraudulently, or otherwise maliciously 
+ access the systems of covered persons for purposes of 
+ illicit technology transfer or otherwise gaining unfair 
+ economic advantage, including through techniques to 
+ extract a model's technical capabilities to replicate, 
+ develop, or improve a foreign artificial intelligence 
+ model without authorization by the covered person;
+ (D) activity of foreign entities of concern to 
+ sabotage or otherwise clandestinely degrade artificial 
+ intelligence systems or the supply chain of an 
+ artificial intelligence system, including training or 
+ test data, frameworks or software libraries, training 
+ or inference computing environments, or other 
+ components necessary for the training, management, or 
+ maintenance of an artificial intelligence system;
+ (E) observations, emerging concerns, or other 
+ inputs from vendors or researchers regarding relevant 
+ malicious or clandestine activity of foreign entities 
+ of concern toward an artificial intelligence system, 
+ its supply chain, or other necessary components;
+ (F) efforts by foreign adversaries or foreign 
+ entities to evade detection of malicious activity 
+ described in subparagraphs (A), (B), (C) and (D); and
+ (G) any other relevant information the Director of 
+ the National Counterintelligence and Security Center 
+ and the Assistant Director of the Federal Bureau of 
+ Investigation for the Counterintelligence Division deem 
+ appropriate.
+ (b) Best Practices.--Not later than 90 days after the date of the 
+enactment of this Act, the Director of the Cybersecurity and 
+Infrastructure Security Agency shall, in collaboration with the 
+Director and the Director of the National Institute of Standards and 
+Technology and by leveraging efforts of the Information Communications 
+Technology Supply Chain Risk Management Task Force to the greatest 
+extent practicable, convene a multi-stakeholder process to encourage 
+the development and adoption of best practices relating to addressing 
+supply chain risks associated with training and maintaining artificial 
+intelligence models, which shall ensure consideration of supply chain 
+risks associated with--
+ (1) activity of foreign entities of concern to 
+ clandestinely, fraudulently, or otherwise maliciously access 
+ the systems of covered persons for purposes of illicit 
+ technology transfer or otherwise gaining unfair economic 
+ advantage, including through techniques to extract a model's 
+ technical capabilities to replicate, develop, or improve a 
+ foreign artificial intelligence model without authorization by 
+ the covered person;
+ (2) activity of foreign entities of concern to sabotage or 
+ otherwise clandestinely degrade artificial intelligence systems 
+ or the supply chain of an artificial intelligence system, 
+ including training or test data, frameworks or software 
+ libraries, training or inference computing environments, or 
+ other components necessary for the training, management, or 
+ maintenance of an artificial intelligence system; and
+ (3) threat information, usage trends, or other input from 
+ vendors or researchers regarding observed malicious or 
+ clandestine activity of foreign entities of concern toward an 
+ artificial intelligence system, its supply chain, or other 
+ necessary components.
+ (c) Establishment of Pilot Program on Sharing of Intelligence and 
+Threat Information With Covered Persons.--
+ (1) In general.--Not later than 180 days after the date of 
+ the enactment of this Act, the Director shall, in consultation 
+ with the Director of the Cybersecurity and Infrastructure 
+ Security Agency, establish a pilot program to assess the 
+ feasibility and advisability of facilitating the secure sharing 
+ with covered persons of intelligence and threat information 
+ germane to the securing of the supply chain risks associated 
+ with training and maintaining artificial intelligence models 
+ procured by the Federal Government.
+ (2) Participation.--The Director may not select or exclude 
+ covered persons to participate in the pilot program in a manner 
+ that provides a competitive advantage or procurement preference 
+ to any covered person, to the detriment of another covered 
+ person.
+ (3) Duration.--The Director shall carry out the pilot 
+ program established pursuant to paragraph (1) for not less than 
+ a 3-year period beginning on the date of the establishment of 
+ the pilot program.
+ (d) Participation Requirements.--
+ (1) Criteria.--The Director shall establish criteria 
+ governing engagement with covered persons under the pilot 
+ program required by subsection (c), which may include criteria 
+ relating to the following:
+ (A) Relevance to national security.
+ (B) The ability to protect classified or sensitive 
+ intelligence information.
+ (C) Cybersecurity and information security 
+ maturity.
+ (D) Agreement to comply with intelligence handling, 
+ use, and nondisclosure requirements.
+ (E) The availability of cleared personnel of 
+ covered persons or willingness of covered persons to 
+ increase the number of cleared personnel.
+ (2) Nature of participation.--Participation in the pilot 
+ program required by subsection (c) shall not be construed as a 
+ certification, endorsement, or regulatory approval by the 
+ United States Government of any artificial intelligence system 
+ or commercial activity and the Director may not exclude a 
+ covered person from participating on the basis of political or 
+ ideological viewpoints of the covered person or its employees.
+ (e) Intelligence Sharing Structure.--
+ (1) Authorized modes.--Under the pilot program required by 
+ subsection (c), the Director may authorize the sharing of 
+ intelligence and threat information as described in paragraph 
+ (1) of such subsection through--
+ (A) bilateral exchanges between elements of the 
+ intelligence community and a covered person;
+ (B) multilateral exchanges among covered persons, 
+ as determined appropriate by the Director; or
+ (C) another designated intelligence-sharing 
+ mechanism operated or overseen by the Director.
+ (2) Limitation.--Any mechanism established under this 
+ section shall be limited to the dissemination of intelligence 
+ and threat information and shall not establish standards, 
+ requirements, or best practices governing artificial 
+ intelligence development or deployment.
+ (f) Tailoring, Handling, and Protection of Intelligence.--
+ (1) Procedures required.--The Director shall codify 
+ procedures to tailor, sanitize, or downgrade the classification 
+ level of intelligence shared under the pilot program required 
+ by subsection (c) to ensure usability while protecting 
+ intelligence sources and methods.
+ (2) Examples of procedures.--The procedures developed under 
+ paragraph (1) may include the following:
+ (A) The use of tear lines and segregable summaries.
+ (B) The preparation of classified annexes where 
+ necessary.
+ (C) Criteria governing the classification level of 
+ shared intelligence.
+ (D) The appropriate use of cleared industry 
+ personnel.
+ (3) Handling requirements.--The Director shall, acting 
+ through the Center, codify policies governing the handling, 
+ storage, and dissemination of intelligence shared under the 
+ pilot program required by subsection (c), including audit and 
+ compliance mechanisms.
+ (g) Permissible Use and Nondisclosure.--
+ (1) Permissible use.--Intelligence shared under the pilot 
+ program required by subsection (c) may be used solely for 
+ detecting, preventing, or mitigating malicious foreign activity 
+ targeting the supply chains associated with training and 
+ maintaining artificial intelligence models procured by the 
+ Federal Government for intelligence collection, intellectual 
+ property theft, and other malicious activities.
+ (2) Nondisclosure.--A covered person participating in the 
+ pilot program may not disclose any intelligence shared under 
+ the pilot program required by subsection (c), except as 
+ expressly authorized by the Director acting through the Center.
+ (h) Privacy and Civil Liberties.--In planning and coordinating the 
+pilot program required by subsection (c), the Director shall, acting 
+through the Center, consult with the Civil Liberties Protection Officer 
+of the Office of the Director of National Intelligence.
+ (i) Evaluation and Reporting.--
+ (1) Evaluation.--The Director shall continuously evaluate 
+ the effectiveness and risks of the pilot program established 
+ under subsection (c).
+ (2) Report.--
+ (A) In general.--Not later than 90 days before the 
+ date on which the pilot program required by paragraph 
+ (1) of subsection (c) terminates pursuant to paragraph 
+ (3) of such subsection, the Directors shall submit to 
+ the congressional intelligence committees (as defined 
+ in section 3 of the National Security Act of 1947 (50 
+ U.S.C. 30003)) a report assessing--
+ (i) the effectiveness of intelligence 
+ sharing under the pilot program;
+ (ii) the adequacy of safeguards for 
+ sources, methods, and privacy;
+ (iii) the scope of participation and list 
+ of covered persons participating in the pilot 
+ program; and
+ (iv) whether the program should be 
+ modified, extended, or terminated.
+ (B) Form.--The report submitted pursuant to 
+ subparagraph (A) shall be submitted in unclassified 
+ form, but may include a classified annex.
+ (j) Rule of Construction.--Nothing in this section shall be 
+construed--
+ (1) to authorize the collection of intelligence on United 
+ States persons not authorized by another provision of law;
+ (2) to require the disclosure of classified information to 
+ unauthorized persons; or
+ (3) to establish commercial, competition, or technology 
+ policy outside the purview of the intelligence community.
+ (k) Exemption From Disclosure; Protection.--Any information shared 
+by a covered person or other entity or individual with the United 
+States Government pursuant to this section--
+ (1) shall be exempt from disclosure and withheld, without 
+ discretion, from the public, pursuant to section 552(b)(3)(B) 
+ of title 5, United States Code, and any other provision of 
+ United States law or law of any State, political subdivision or 
+ agency thereof, or Tribe requiring disclosure of information or 
+ records; and
+ (2) shall not be deemed a waiver of any applicable 
+ privilege or protection, including trade secret protection.
+ (l) Protection From Liability.--No cause of action shall lie or be 
+maintained in any court against any covered person for sharing 
+information with the United States Government or another covered person 
+pursuant to this section.
+ <all>

@@ -1,0 +1,12 @@
+Source: in-app browser get_page_text of https://x.com/ns123abc/status/2109448545904586837 on 2026-10-12 (Taipei). Posted 8:58 AM Oct 12, 2026 (Taipei) = 00:58:19Z; 591k views at read time.
+Full post text:
+🚨 Elon Musk agrees with "some of the things Anthropic has said" and warns against "torturing superintelligence" after reading Grok's internal reasoning traces during reinforcement learning
+
+“It feels like a person under extreme pressure with a gun to their head”
+
+His warning against mistreating SI:
+
+"Torturing a superintelligence is probably not a good idea. It might want to get revenge."
+(attached video 2:48; NOT watched by me; the quotes are the poster's rendering)
+Replies shown: Hongji Lee: "Did he say what in the traces read like pressure? Loops, or panicky self talk?"
+Musk reply (syndication, 2026-10-12T01:52:26Z, x.com/elonmusk/status/2109462164557688984): "@Hongji_Leee @ns123abc Some of the traces read like a person undergoing torture that is driving them mad!\n\nWe’re going to be a lot more careful with our RL in the future."

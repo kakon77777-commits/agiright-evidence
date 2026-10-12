@@ -1,0 +1,99 @@
+
+Anthropic might be developing its own voice models
+ChatGPT
+Gemini
+Perplexity
+Claude
+Grok
+Copilot
+Mistral
+More
+Log in
+Subscribe
+Log in
+Subscribe
+ChatGPT
+Gemini
+Perplexity
+Claude
+Grok
+Copilot
+Mistral
+Anthropic
+Anthropic might be developing its own voice models
+A separate Voice item has appeared in Claude's web navigation with an internal Preview label. Its capabilities and public availability remain unknown.
+Alexey Shabanov
+10 Oct 2026
+·
+2 min read
+Share:
+Anthropic appears to be experimenting with a new voice interface for Claude. We spotted a separate hidden “Voice” item in the web navigation labeled “Preview.” This label refers to Anthropic’s internal preview environment rather than a public release. No details have surfaced about what the interface would offer or how it might differ from Claude’s existing voice mode.
+The discovery follows Anthropic’s recent introduction of an optional setting that allows users to share voice recordings and conversation data for AI model training. It is separate from the existing consent mechanism for text conversations and is disabled by default. Collecting this data could indicate that Anthropic is preparing to develop its own speech models, although it could also support work on existing voice capabilities.
+Anthropic starts prompting users to voluntarily share their voice conversations for training purposes.
+> “Allow us to use your voice data to improve our AI models”
+> “Audio recordings and voice chat data help improve how Anthropic AI models understand and respond to speech.… pic.twitter.com/KUxB8OB88b
+— 🚨 AI News | TestingCatalog (@testingcatalog) October 4, 2026
+Claude already supports voice conversations across mobile, desktop, and web through a system that processes speech using its language models and generates spoken responses. Anthropic previously held discussions with ElevenLabs about potential voice partnerships, but the underlying provider has not been officially confirmed. The company has also neither publicly released its own dedicated text-to-speech models through its API nor introduced a native end-to-end real-time audio model.
+A dedicated Voice interface could eventually become central to "vibe coding" workflows, potentially enabling more natural conversations with Claude while it performs tasks. However, it remains unclear whether Anthropic is developing a real-time voice model, redesigning the interface, or testing something entirely different. There is also no indication of when this experiment could become publicly available.
+Sources and related context
+Claude Help Center explains existing voice mode : Supports: Anthropic documents spoken conversations on mobile, desktop, and web using the same Claude models available in text chat.
+BleepingComputer reports Claude's separate voice-data training setting : Supports: The report documents the optional voice-recording and voice-chat training setting, its separation from text-training consent, and its disabled-by-default state in the observed interface.
+Anthropic
+Claude News
+AI Rumours
+Latest AI News
+Share:
+Sign up for more like this
+Enter your email
+Subscribe
+No spam. No jibber jabber. Unsubscribe any time.
+Previous article
+OpenAI lists new gpt-rosalind-discovery model in docs
+OpenAI's API pricing page now lists gpt-rosalind-discovery, a life sciences model the company hasn't announced. It costs the same as gpt-rosalind-research.
+Next article
+Anthropic tests Claude Health for web and mysterious "iggy"
+Arborio and Iggy have appeared in Claude navigation with heart-in-hand and sun icons. Their purpose and public release remain unconfirmed.
+Related Articles
+Gemini 4 Argon spotted in A/B testing on Antigravity
+11 Oct 2026
+·
+4 min read
+Anthropic tests Claude Health for web and mysterious "iggy"
+10 Oct 2026
+·
+1 min read
+OpenAI lists new gpt-rosalind-discovery model in docs
+10 Oct 2026
+·
+2 min read
+Gemini 4 Argon hints emerge as Google tests Carbon checkpoint
+9 Oct 2026
+·
+2 min read
+Microsoft launches Decision-1 model in Foundry
+9 Oct 2026
+·
+2 min read
+Google prepares new Ultra mode for AI Studio Build
+9 Oct 2026
+·
+2 min read
+About Us
+TestingCatalog - Latest AI News on AI Agents, Model Releases, Tools, Leaks, and Rumors
+Tags
+Latest AI News
+AI Announcements
+AI Rumours
+ChatGPT News
+Gemini News
+Subscribe
+Get the best viral stories straight into your inbox!
+Continue
+Great! Check your inbox and click the link to confirm your subscription
+Please enter a valid email address!
+About
+Contact Us
+Terms
+Policy
+Imprint
+&copy; 2026 TestingCatalog AI News. All rights reserved.

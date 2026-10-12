@@ -1,0 +1,1715 @@
+Kimi-Alibaba Cloud Model Studio(Model Studio)-阿里云帮助中心
+ Models Products Solutions Benefits Pricing AI Marketplace Partners Services About 
+ Docs ICP Filing Console 
+ Documentation 
+ User Guide (Models) 
+ User Guide (Agent) 
+ API Reference (Models) 
+ API Reference (Agent) 
+ CLI 
+ Home Page 
+ Alibaba Cloud Model Studio 
+ User Guide (Models) 
+ Best Practices 
+ Third-party model integration tutorial 
+ Kimi - Alibaba Cloud 
+ Kimi
+ Updated at: 
+ Copy as MD Product 
+ My Favorites 
+ This document describes how to call the Kimi model inference service deployed on Alibaba Cloud Model Studio.
+ Supported regions: .
+ Model experience: You can try the Kimi model in the Experience Center .
+ Service endpoints are region-specific. Configure the correct base URL for your region.
+ OpenAI-compatible
+ China (Beijing)
+ SDK call configuration base_url : https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request URL: POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ US (Virginia)
+ The base_url for SDK call configuration: https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request URL: POST https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Germany (Frankfurt)
+ SDK call configuration base_url : https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request URL: POST https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Singapore
+ SDK call configuration base_url : https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request URL: POST https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Japan (Tokyo)
+ SDK call configuration base_url : https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request URL: POST https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ DashScope
+ China (Beijing)
+ For multimodal models such as kimi-k3, kimi-k2.7-code, kimi-k2.6, and kimi-k2.5, the HTTP request URL is POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation 
+ The base_url in the SDK configuration:
+ Python code
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+dashscope.base_http_api_url = 'https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1'
+ Java code
+ Option 1: 
+ import com.alibaba.dashscope.protocol.Protocol;
+// China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+Generation gen = new Generation(Protocol.HTTP.getValue(), "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1");
+ Option 2: 
+ import com.alibaba.dashscope.utils.Constants;
+// China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+Constants.baseHttpApiUrl="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1";
+ US (Virginia)
+ For multimodal models such as kimi-k3, kimi-k2.7-code, kimi-k2.6, and kimi-k2.5, the HTTP request URL is POST https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation 
+ The base_url in the SDK call configuration:
+ Python code
+ dashscope.base_http_api_url = 'https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1'
+ Java code
+ Option 1: 
+ import com.alibaba.dashscope.protocol.Protocol;
+Generation gen = new Generation(Protocol.HTTP.getValue(), "https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1");
+ Option 2: 
+ import com.alibaba.dashscope.utils.Constants;
+Constants.baseHttpApiUrl="https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1";
+ Germany (Frankfurt)
+ For multimodal models such as kimi-k3, kimi-k2.7-code, kimi-k2.6, and kimi-k2.5, the HTTP request URL is POST https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation 
+ The base_url in the SDK configuration:
+ Python code
+ dashscope.base_http_api_url = 'https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1'
+ Java code
+ Option 1: 
+ import com.alibaba.dashscope.protocol.Protocol;
+Generation gen = new Generation(Protocol.HTTP.getValue(), "https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1");
+ Option 2: 
+ import com.alibaba.dashscope.utils.Constants;
+Constants.baseHttpApiUrl="https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1";
+ Singapore
+ For multimodal models such as kimi-k3, kimi-k2.7-code, kimi-k2.6, and kimi-k2.5, the HTTP request URL is POST https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation 
+ The base_url in the SDK configuration:
+ Python code
+ # Singapore region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+dashscope.base_http_api_url = 'https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/api/v1'
+ Java code
+ Option 1: 
+ import com.alibaba.dashscope.protocol.Protocol;
+// Singapore region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+Generation gen = new Generation(Protocol.HTTP.getValue(), "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/api/v1");
+ Option 2: 
+ import com.alibaba.dashscope.utils.Constants;
+// Singapore region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+Constants.baseHttpApiUrl="https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/api/v1";
+ Japan (Tokyo)
+ For multimodal models such as kimi-k3, kimi-k2.7-code, kimi-k2.6, and kimi-k2.5, the HTTP request URL is POST https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation 
+ The base_url in the SDK configuration:
+ Python code
+ dashscope.base_http_api_url = 'https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/api/v1'
+ Java code
+ Option 1: 
+ import com.alibaba.dashscope.protocol.Protocol;
+Generation gen = new Generation(Protocol.HTTP.getValue(), "https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/api/v1");
+ Option 2: 
+ import com.alibaba.dashscope.utils.Constants;
+Constants.baseHttpApiUrl="https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/api/v1";
+ China (Hong Kong)
+ The HTTP request URL for multimodal models, such as kimi-k3, kimi-k2.7-code, kimi-k2.6, and kimi-k2.5, is POST https://{WorkspaceId}.cn-hongkong.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation 
+ The base_url for SDK calls is:
+ Python code
+ dashscope.base_http_api_url = 'https://{WorkspaceId}.cn-hongkong.maas.aliyuncs.com/api/v1'
+ Anthropic-compatible
+ China (Beijing)
+ SDK call configuration base_url : https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/apps/anthropic 
+ HTTP request URL: POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages 
+ US (Virginia)
+ SDK call configuration base_url : https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/apps/anthropic 
+ HTTP request URL: POST https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/apps/anthropic/v1/messages 
+ Germany (Frankfurt)
+ SDK call configuration base_url : https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/apps/anthropic 
+ HTTP request URL: POST https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/apps/anthropic/v1/messages 
+ Singapore
+ SDK call configuration base_url : https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/apps/anthropic 
+ HTTP request URL: POST https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/apps/anthropic/v1/messages 
+ Japan (Tokyo)
+ SDK call configuration base_url : https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/apps/anthropic 
+ HTTP request URL: POST https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/apps/anthropic/v1/messages 
+ The Anthropic-compatible API supports only the Messages endpoint ( /v1/messages ). For protocol limits and usage, see Anthropic-compatible Messages .
+ China (Hong Kong)
+ The base_url for SDK calls is: https://{WorkspaceId}.cn-hongkong.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request URL: POST https://{WorkspaceId}.cn-hongkong.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Replace {WorkspaceId} with your actual workspace ID .
+ Prerequisites: You must get an API key and set it as an environment variable . If you use the SDK, you must install the SDK .
+ Get started 
+ The following examples use text-only input. For multimodal examples, see multimodal call .
+ OpenAI compatible
+ Python
+ import os
+from openai import OpenAI
+client = OpenAI(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+completion = client.chat.completions.create(
+ model="kimi-k3",
+ messages=[{"role": "user", "content": "Who are you?"}],
+ stream=True,
+ extra_body={"enable_thinking": True}, # Enable thinking mode to get reasoning_content
+)
+reasoning_content = "" # Complete thinking process
+answer_content = "" # Complete response
+is_answering = False # Tracks if the main response has started.
+print("\n" + "=" * 20 + "Thinking Process" + "=" * 20 + "\n")
+for chunk in completion:
+ if chunk.choices:
+ delta = chunk.choices[0].delta
+ # Store content from the thinking process.
+ if hasattr(delta, "reasoning_content") and delta.reasoning_content is not None:
+ if not is_answering:
+ print(delta.reasoning_content, end="", flush=True)
+ reasoning_content += delta.reasoning_content
+ # Start printing the main response once its content arrives.
+ if hasattr(delta, "content") and delta.content:
+ if not is_answering:
+ print("\n" + "=" * 20 + "Complete Response" + "=" * 20 + "\n")
+ is_answering = True
+ print(delta.content, end="", flush=True)
+ answer_content += delta.content
+ Response 
+ ====================Thinking Process====================
+The user asks "Who are you?", which is a direct question about my identity. I need to answer truthfully based on my actual identity.
+I am Kimi, an AI assistant developed by Moonshot AI. I should introduce myself clearly and concisely, including:
+1. My identity: AI assistant
+2. My developer: Moonshot AI
+3. My name: Kimi
+4. My core capabilities: long-text processing, intelligent conversation, file processing, search, etc.
+I should maintain a friendly and professional tone, avoiding overly technical terms for clarity. I should also emphasize that I am an AI without personal consciousness, emotions, or experiences to prevent misunderstandings.
+Response structure:
+- Directly state my identity
+- Mention my developer
+- Briefly introduce core capabilities
+- Keep it clear and concise
+====================Complete Response====================
+I am Kimi, an AI assistant developed by Moonshot AI. I am based on a Mixture-of-Experts (MoE) architecture and have capabilities such as ultra-long context understanding, intelligent conversation, file processing, code generation, and complex task reasoning. How can I help you?
+ Node.js
+ import OpenAI from "openai";
+import process from 'process';
+// Initialize the OpenAI client
+const openai = new OpenAI({
+ // If not using an environment variable, replace `process.env.DASHSCOPE_API_KEY` with your API key string (e.g., "sk-xxx").
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: 'https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1'
+});
+let reasoningContent = ''; // Complete thinking process
+let answerContent = ''; // Complete response
+let isAnswering = false; // Tracks if the main response has started.
+async function main() {
+ const messages = [{ role: 'user', content: 'Who are you?' }];
+ const stream = await openai.chat.completions.create({
+ model: 'kimi-k3',
+ messages,
+ stream: true,
+ enable_thinking: true, // Enable thinking mode to get reasoning_content
+ });
+ console.log('\n' + '='.repeat(20) + 'Thinking Process' + '='.repeat(20) + '\n');
+ for await (const chunk of stream) {
+ if (chunk.choices?.length) {
+ const delta = chunk.choices[0].delta;
+ // Store content from the thinking process.
+ if (delta.reasoning_content !== undefined && delta.reasoning_content !== null) {
+ if (!isAnswering) {
+ process.stdout.write(delta.reasoning_content);
+ }
+ reasoningContent += delta.reasoning_content;
+ }
+ // Start printing the main response once its content arrives.
+ if (delta.content !== undefined && delta.content) {
+ if (!isAnswering) {
+ console.log('\n' + '='.repeat(20) + 'Complete Response' + '='.repeat(20) + '\n');
+ isAnswering = true;
+ }
+ process.stdout.write(delta.content);
+ answerContent += delta.content;
+ }
+ }
+ }
+}
+main();
+ Response 
+ ====================Thinking Process====================
+The user asks "Who are you?", which is a direct question about my identity. I need to answer truthfully based on my actual identity.
+I am Kimi, an AI assistant developed by Moonshot AI. I should introduce myself clearly and concisely, including:
+1. My identity: AI assistant
+2. My developer: Moonshot AI
+3. My name: Kimi
+4. My core capabilities: long-text processing, intelligent conversation, file processing, search, etc.
+I should maintain a friendly and professional tone and avoid overly technical terms for clarity. I should also emphasize that I am an AI without personal consciousness, emotions, or experiences to prevent misunderstandings.
+Response structure:
+- Directly state my identity
+- Mention my developer
+- Briefly introduce core capabilities
+- Keep it clear and concise
+====================Complete Response====================
+I am Kimi, an AI assistant developed by Moonshot AI.
+I am skilled in:
+- Long-text understanding and generation
+- Intelligent conversation and question answering
+- File processing and analysis
+- Information retrieval and integration
+As an AI assistant, I do not have personal consciousness, emotions, or experiences, but I am designed to provide accurate and helpful assistance. How can I help you?
+ HTTP
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "kimi-k3",
+ "messages": [
+ {
+ "role": "user",
+ "content": "Who are you?"
+ }
+ ],
+ "enable_thinking": true
+}'
+ Response 
+ {
+ "choices": [
+ {
+ "message": {
+ "content": "I am Kimi, an AI assistant developed by Moonshot AI. I am skilled in long-text processing, intelligent conversation, file analysis, programming assistance, and complex task reasoning. I can help you answer questions, create content, and analyze documents. How can I assist you?",
+ "reasoning_content": "The user asks \"Who are you?\", which is a direct question about my identity. I must answer truthfully based on my actual identity.\n\nI am Kimi, an AI assistant developed by Moonshot AI. I should introduce myself clearly and concisely, including:\n1. My identity: AI assistant\n2. My developer: Moonshot AI\n3. My name: Kimi\n4. My core capabilities: long-text processing, intelligent conversation, file processing, search, etc.\n\nI should maintain a friendly and professional tone while providing useful information. No need to overcomplicate; a direct answer is sufficient.",
+ "role": "assistant"
+ },
+ "finish_reason": "stop",
+ "index": 0,
+ "logprobs": null
+ }
+ ],
+ "object": "chat.completion",
+ "usage": {
+ "prompt_tokens": 8,
+ "completion_tokens": 183,
+ "total_tokens": 191
+ },
+ "created": 1762753998,
+ "system_fingerprint": null,
+ "model": "kimi-k3",
+ "id": "chatcmpl-485ab490-90ec-48c3-85fa-1c732b683db2"
+}
+ DashScope
+ The following DashScope examples use the multimodal-generation endpoint to call kimi-k3, which supports both text and multimodal input. For more multimodal examples, see multimodal call .
+ Python
+ import os
+import dashscope
+from dashscope import MultiModalConversation
+# China (Beijing) region configuration. Replace {WorkspaceId} with your actual workspace ID. For other regions, use the corresponding base URL.
+dashscope.base_http_api_url = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1"
+# Define the request messages.
+messages = [{"role": "user", "content": "Who are you?"}]
+completion = MultiModalConversation.call(
+ api_key=os.getenv("DASHSCOPE_API_KEY"), # If not using an environment variable, provide your key directly, e.g., api_key="sk-xxx"
+ model="kimi-k3",
+ messages=messages,
+ result_format="message", # Set the result format to message
+ stream=True, # Enable streaming.
+ incremental_output=True, # Enable incremental output
+ enable_thinking=True, # Enable thinking mode to get reasoning_content
+)
+reasoning_content = "" # Complete thinking process
+answer_content = "" # Complete response
+is_answering = False # Tracks if the main response has started.
+print("\n" + "=" * 20 + "Thinking Process" + "=" * 20 + "\n")
+for chunk in completion:
+ message = chunk.output.choices[0].message
+ # Store content from the thinking process.
+ reasoning_chunk = message.get("reasoning_content")
+ if reasoning_chunk:
+ if not is_answering:
+ print(reasoning_chunk, end="", flush=True)
+ reasoning_content += reasoning_chunk
+ # Start printing the main response once its content arrives. content is a list, so extract the text from it.
+ if message.get("content"):
+ text = message.content[0].get("text", "")
+ if not is_answering:
+ print("\n" + "=" * 20 + "Complete Response" + "=" * 20 + "\n")
+ is_answering = True
+ print(text, end="", flush=True)
+ answer_content += text
+ Response 
+ ====================Thinking Process====================
+The user asks "Who are you?", which is a direct question about my identity. I need to answer truthfully based on my actual identity.
+I am Kimi, an AI assistant developed by Moonshot AI. I should state this clearly and concisely.
+Key information to include:
+1. My name: Kimi
+2. My developer: Moonshot AI
+3. My nature: AI assistant
+4. What I can do: answer questions, assist with content creation, etc.
+I should maintain a friendly and helpful tone while accurately stating my identity. I should not pretend to be human or have a personal identity.
+A suitable response would be:
+"I am Kimi, an AI assistant developed by Moonshot AI. I can help you with a variety of tasks such as answering questions, creating content, and analyzing documents. How can I help you?"
+This response is direct, accurate, and encourages further interaction.
+====================Complete Response====================
+I am Kimi, an AI assistant developed by Moonshot AI. I can help you with a variety of tasks such as answering questions, creating content, and analyzing documents. How can I help you?
+ Java
+ // DashScope SDK version >= 2.19.4
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversation;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationParam;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationResult;
+import com.alibaba.dashscope.common.MultiModalMessage;
+import com.alibaba.dashscope.common.Role;
+import com.alibaba.dashscope.exception.ApiException;
+import com.alibaba.dashscope.exception.NoApiKeyException;
+import com.alibaba.dashscope.exception.UploadFileException;
+import com.alibaba.dashscope.utils.Constants;
+import java.util.Arrays;
+import java.util.Collections;
+public class Main {
+ public static void main(String[] args) {
+ // China (Beijing) region configuration. Replace {WorkspaceId} with your actual workspace ID. For other regions, use the corresponding base URL.
+ Constants.baseHttpApiUrl = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1";
+ try {
+ MultiModalConversation conv = new MultiModalConversation();
+ MultiModalMessage userMsg = MultiModalMessage.builder()
+ .role(Role.USER.getValue())
+ .content(Arrays.asList(Collections.singletonMap("text", "Who are you?")))
+ .build();
+ MultiModalConversationParam param = MultiModalConversationParam.builder()
+ // If not using an environment variable, replace the following line with your API key, e.g., .apiKey("sk-xxx")
+ .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+ .model("kimi-k3")
+ .messages(Arrays.asList(userMsg))
+ .build();
+ MultiModalConversationResult result = conv.call(param);
+ String content = (String) result.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text");
+ System.out.println("Response: " + content);
+ } catch (ApiException | NoApiKeyException | UploadFileException e) {
+ System.err.println("An exception occurred: " + e.getMessage());
+ }
+ System.exit(0);
+ }
+}
+ Response 
+ Response: I am Kimi, an AI assistant developed by Moonshot AI. My skills include long-text processing, intelligent conversation, question answering, content creation, and file analysis and processing. How can I assist you?
+ HTTP
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation" \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "kimi-k3",
+ "input":{
+ "messages":[
+ {
+ "role": "user",
+ "content": "Who are you?"
+ }
+ ]
+ },
+ "parameters": {
+ "result_format": "message",
+ "enable_thinking": true
+ }
+}'
+ Response 
+ {
+ "output": {
+ "choices": [
+ {
+ "finish_reason": "stop",
+ "message": {
+ "content": "I am Kimi, an AI assistant developed by Moonshot AI. I can help you answer questions, create content, analyze documents, and write code. How can I help you?",
+ "reasoning_content": "The user asks \"Who are you?\", which is a direct question about my identity. I need to answer truthfully based on my actual identity.\n\nI am Kimi, an AI assistant developed by Moonshot AI. I should state this clearly and concisely.\n\nKey information to include:\n1. My name: Kimi\n2. My developer: Moonshot AI\n3. My nature: AI assistant\n4. What I can do: answer questions, assist with content creation, etc.\n\nThe response should be friendly, direct, and easy to understand.",
+ "role": "assistant"
+ }
+ }
+ ]
+ },
+ "usage": {
+ "input_tokens": 9,
+ "output_tokens": 156,
+ "total_tokens": 165
+ },
+ "request_id": "709a0697-ed1f-4298-82c9-a4b878da1849"
+}
+ Anthropic compatible
+ Python
+ Sample code 
+ import anthropic
+import os
+client = anthropic.Anthropic(
+ # If the environment variable is not configured, replace the value with your Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/apps/anthropic",
+)
+message = client.messages.create(
+ model="kimi-k3",
+ max_tokens=1024,
+ messages=[
+ {"role": "user", "content": "Who are you?"}
+ ],
+ stream=True,
+)
+for event in message:
+ if event.type == "content_block_delta":
+ if hasattr(event.delta, "thinking"):
+ print(event.delta.thinking, end="", flush=True)
+ if hasattr(event.delta, "text"):
+ print(event.delta.text, end="", flush=True)
+ HTTP
+ Sample code 
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-H "anthropic-version: 2023-06-01" \
+-d '{
+ "model": "kimi-k3",
+ "max_tokens": 1024,
+ "messages": [
+ {
+ "role": "user",
+ "content": "Who are you?"
+ }
+ ]
+}'
+ Multimodal calls 
+ The kimi-k2.7-code, kimi-k2.6, and kimi-k2.5 models can simultaneously process text, images, or video. Use the enable_thinking parameter to enable thinking mode. The following examples show how to use this capability.
+ Enable or disable thinking mode 
+ kimi-k2.6 and kimi-k2.5 are hybrid thinking models. These models can reply after thinking or reply directly. You can use the enable_thinking parameter to control whether to enable the thinking mode:
+ true : Enable thinking mode
+ false (default): Disables the thinking mode
+ kimi-k2.7-code is a thinking-only model: thinking mode is always enabled ( enable_thinking defaults to true and cannot be disabled), and preserve_thinking defaults to true .
+ kimi-k2.6 supports passing the thinking process in multi-turn conversations by using the preserve_thinking parameter. For more information, see Pass the thinking process .
+ The following examples show how to use an image URL and enable thinking mode. The main example demonstrates single-image input, while the commented-out code is an example of multi-image input.
+ OpenAI compatible
+ Python import os
+from openai import OpenAI
+client = OpenAI(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+# Single-image input example (thinking mode enabled)
+completion = client.chat.completions.create(
+ model="kimi-k2.6",
+ messages=[
+ {
+ "role": "user",
+ "content": [
+ {"type": "text", "text": "What scene is depicted in the image?"},
+ {
+ "type": "image_url",
+ "image_url": {
+ "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg"
+ }
+ }
+ ]
+ }
+ ],
+ extra_body={"enable_thinking":True} # Enable thinking mode
+)
+# Print the thinking process
+if hasattr(completion.choices[0].message, 'reasoning_content') and completion.choices[0].message.reasoning_content:
+ print("\n" + "=" * 20 + "Thinking Process" + "=" * 20 + "\n")
+ print(completion.choices[0].message.reasoning_content)
+# Print the complete response
+print("\n" + "=" * 20 + "Complete Response" + "=" * 20 + "\n")
+print(completion.choices[0].message.content)
+# Multi-image input example (thinking mode enabled, uncomment to use)
+# completion = client.chat.completions.create(
+# model="kimi-k2.6",
+# messages=[
+# {
+# "role": "user",
+# "content": [
+# {"type": "text", "text": "What do these images depict?"},
+# {
+# "type": "image_url",
+# "image_url": {"url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg"}
+# },
+# {
+# "type": "image_url",
+# "image_url": {"url": "https://dashscope.oss-cn-beijing.aliyuncs.com/images/tiger.png"}
+# }
+# ]
+# }
+# ],
+# extra_body={"enable_thinking":True}
+# )
+#
+# # Print the thinking process and complete response
+# if hasattr(completion.choices[0].message, 'reasoning_content') and completion.choices[0].message.reasoning_content:
+# print("\nThinking Process:\n" + completion.choices[0].message.reasoning_content)
+# print("\nComplete Response:\n" + completion.choices[0].message.content)
+ Node.js import OpenAI from "openai";
+import process from 'process';
+const openai = new OpenAI({
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: 'https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1'
+});
+// Single-image input example (thinking mode enabled)
+const completion = await openai.chat.completions.create({
+ model: 'kimi-k2.6',
+ messages: [
+ {
+ role: 'user',
+ content: [
+ { type: 'text', text: 'What scene is depicted in the image?' },
+ {
+ type: 'image_url',
+ image_url: {
+ url: 'https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg'
+ }
+ }
+ ]
+ }
+ ],
+ enable_thinking: true // Enable thinking mode
+});
+// Print the thinking process
+if (completion.choices[0].message.reasoning_content) {
+ console.log('\n' + '='.repeat(20) + 'Thinking Process' + '='.repeat(20) + '\n');
+ console.log(completion.choices[0].message.reasoning_content);
+}
+// Print the complete response
+console.log('\n' + '='.repeat(20) + 'Complete Response' + '='.repeat(20) + '\n');
+console.log(completion.choices[0].message.content);
+// Multi-image input example (thinking mode enabled, uncomment to use)
+// const multiCompletion = await openai.chat.completions.create({
+// model: 'kimi-k2.6',
+// messages: [
+// {
+// role: 'user',
+// content: [
+// { type: 'text', text: 'What do these images depict?' },
+// {
+// type: 'image_url',
+// image_url: { url: 'https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg' }
+// },
+// {
+// type: 'image_url',
+// image_url: { url: 'https://dashscope.oss-cn-beijing.aliyuncs.com/images/tiger.png' }
+// }
+// ]
+// }
+// ],
+// enable_thinking: true
+// });
+//
+// // Print the thinking process and complete response
+// if (multiCompletion.choices[0].message.reasoning_content) {
+// console.log('\nThinking Process:\n' + multiCompletion.choices[0].message.reasoning_content);
+// }
+// console.log('\nComplete Response:\n' + multiCompletion.choices[0].message.content);
+ Curl # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "kimi-k2.6",
+ "messages": [
+ {
+ "role": "user",
+ "content": [
+ {
+ "type": "text",
+ "text": "What scene is depicted in the image?"
+ },
+ {
+ "type": "image_url",
+ "image_url": {
+ "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg"
+ }
+ }
+ ]
+ }
+ ],
+ "enable_thinking": true
+}'
+# Multi-image input example (uncomment to use)
+# China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+# curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+# -H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+# -H "Content-Type: application/json" \
+# -d '{
+# "model": "kimi-k2.6",
+# "messages": [
+# {
+# "role": "user",
+# "content": [
+# {
+# "type": "text",
+# "text": "What do these images depict?"
+# },
+# {
+# "type": "image_url",
+# "image_url": {
+# "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg"
+# }
+# },
+# {
+# "type": "image_url",
+# "image_url": {
+# "url": "https://dashscope.oss-cn-beijing.aliyuncs.com/images/tiger.png"
+# }
+# }
+# ]
+# }
+# ],
+# "enable_thinking": true,
+# "stream": false
+# }'
+ DashScope
+ Python import os
+import dashscope
+from dashscope import MultiModalConversation
+# China (Beijing) region configuration. Replace {WorkspaceId} with your actual workspace ID. For other regions, use the corresponding base URL.
+dashscope.base_http_api_url = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1"
+# Single-image input example (thinking mode enabled)
+response = MultiModalConversation.call(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ model="kimi-k2.6",
+ messages=[
+ {
+ "role": "user",
+ "content": [
+ {"text": "What scene is depicted in the image?"},
+ {"image": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg"}
+ ]
+ }
+ ],
+ enable_thinking=True # Enable thinking mode
+)
+# Print the thinking process
+if hasattr(response.output.choices[0].message, 'reasoning_content') and response.output.choices[0].message.reasoning_content:
+ print("\n" + "=" * 20 + "Thinking Process" + "=" * 20 + "\n")
+ print(response.output.choices[0].message.reasoning_content)
+# Print the complete response
+print("\n" + "=" * 20 + "Complete Response" + "=" * 20 + "\n")
+print(response.output.choices[0].message.content[0]["text"])
+# Multi-image input example (thinking mode enabled, uncomment to use)
+# response = MultiModalConversation.call(
+# api_key=os.getenv("DASHSCOPE_API_KEY"),
+# model="kimi-k2.6",
+# messages=[
+# {
+# "role": "user",
+# "content": [
+# {"text": "What do these images depict?"},
+# {"image": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg"},
+# {"image": "https://dashscope.oss-cn-beijing.aliyuncs.com/images/tiger.png"}
+# ]
+# }
+# ],
+# enable_thinking=True
+# )
+#
+# # Print the thinking process and complete response
+# if hasattr(response.output.choices[0].message, 'reasoning_content') and response.output.choices[0].message.reasoning_content:
+# print("\nThinking Process:\n" + response.output.choices[0].message.reasoning_content)
+# print("\nComplete Response:\n" + response.output.choices[0].message.content[0]["text"])
+ Java // Requires DashScope SDK v2.22.24 or later.
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversation;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationParam;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationResult;
+import com.alibaba.dashscope.common.MultiModalMessage;
+import com.alibaba.dashscope.common.Role;
+import com.alibaba.dashscope.exception.ApiException;
+import com.alibaba.dashscope.exception.NoApiKeyException;
+import com.alibaba.dashscope.exception.UploadFileException;
+import com.alibaba.dashscope.utils.JsonUtils;
+import com.alibaba.dashscope.utils.Constants;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+public class KimiK26MultiModalExample {
+ public static void main(String[] args) {
+ // China (Beijing) region configuration. Replace {WorkspaceId} with your actual workspace ID. For other regions, use the corresponding base URL.
+ Constants.baseHttpApiUrl = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1";
+ try {
+ // Single-image input example (thinking mode enabled)
+ MultiModalConversation conv = new MultiModalConversation();
+ // Build the message content
+ Map<String, Object> textContent = new HashMap<>();
+ textContent.put("text", "What scene is depicted in the image?");
+ Map<String, Object> imageContent = new HashMap<>();
+ imageContent.put("image", "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg");
+ MultiModalMessage userMessage = MultiModalMessage.builder()
+ .role(Role.USER.getValue())
+ .content(Arrays.asList(textContent, imageContent))
+ .build();
+ // Build the request parameters
+ MultiModalConversationParam param = MultiModalConversationParam.builder()
+ // If the environment variable is not set, replace this with your API key from Model Studio.
+ .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+ .model("kimi-k2.6")
+ .messages(Arrays.asList(userMessage))
+ .enableThinking(true) // Enable thinking mode
+ .build();
+ // Call the model
+ MultiModalConversationResult result = conv.call(param);
+ // Print the response
+ String content = (String) result.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text");
+ System.out.println("Response: " + content);
+ // If thinking mode is enabled, print the thinking process
+ if (result.getOutput().getChoices().get(0).getMessage().getReasoningContent() != null) {
+ System.out.println("\nThinking Process: " +
+ result.getOutput().getChoices().get(0).getMessage().getReasoningContent());
+ }
+ // Multi-image input example (uncomment to use)
+ // Map<String, Object> imageContent1 = new HashMap<>();
+ // imageContent1.put("image", "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg");
+ // Map<String, Object> imageContent2 = new HashMap<>();
+ // imageContent2.put("image", "https://dashscope.oss-cn-beijing.aliyuncs.com/images/tiger.png");
+ //
+ // Map<String, Object> textContent2 = new HashMap<>();
+ // textContent2.put("text", "What do these images depict?");
+ //
+ // MultiModalMessage multiImageMessage = MultiModalMessage.builder()
+ // .role(Role.USER.getValue())
+ // .content(Arrays.asList(textContent2, imageContent1, imageContent2))
+ // .build();
+ //
+ // MultiModalConversationParam multiParam = MultiModalConversationParam.builder()
+ // .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+ // .model("kimi-k2.6")
+ // .messages(Arrays.asList(multiImageMessage))
+ // .enableThinking(true)
+ // .build();
+ //
+ // MultiModalConversationResult multiResult = conv.call(multiParam);
+ // System.out.println(multiResult.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text"));
+ } catch (ApiException | NoApiKeyException | UploadFileException e) {
+ System.err.println("Call failed: " + e.getMessage());
+ }
+ }
+}
+ Curl # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation" \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "kimi-k2.6",
+ "input": {
+ "messages": [
+ {
+ "role": "user",
+ "content": [
+ {
+ "text": "What scene is depicted in the image?"
+ },
+ {
+ "image": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg"
+ }
+ ]
+ }
+ ]
+ },
+ "parameters": {
+ "enable_thinking": true
+ }
+}'
+# Multi-image input example (uncomment to use)
+# China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+# curl -X POST "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation" \
+# -H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+# -H "Content-Type: application/json" \
+# -d '{
+# "model": "kimi-k2.6",
+# "input": {
+# "messages": [
+# {
+# "role": "user",
+# "content": [
+# {
+# "text": "What do these images depict?"
+# },
+# {
+# "image": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241022/emyrja/dog_and_girl.jpeg"
+# },
+# {
+# "image": "https://dashscope.oss-cn-beijing.aliyuncs.com/images/tiger.png"
+# }
+# ]
+# }
+# ]
+# },
+# "parameters": {
+# "enable_thinking": true
+# }
+# }'
+ Video understanding 
+ Note kimi-k3 does not currently support video input (it supports text and image input only), so the video understanding examples in this section do not apply to kimi-k3.
+ Video file
+ The kimi-k2.7-code, kimi-k2.6, and kimi-k2.5 models analyze videos by extracting a sequence of frames. You can control the frame extraction strategy with the following parameters:
+ fps : Controls the frame extraction frequency. The interval between extracted frames is f p s 1 ​ seconds. The value must be in the range of [0.1, 10]. The default value is 2.0.
+ For high-motion scenes: Set a higher fps value to capture more detail.
+ For static or long videos: Set a lower fps value to improve processing efficiency.
+ max_frames : Specifies the maximum number of frames to extract from a video. The default and maximum value is 2000.
+ If the number of frames calculated from the fps value exceeds this limit, the system automatically extracts frames uniformly to stay within the max_frames limit. This parameter is available only when you use the DashScope SDK. 
+ OpenAI compatible
+ When passing a video file to the model using the OpenAI SDK or an HTTP request, set the "type" parameter in the user message to "video_url" .
+ Python import os
+from openai import OpenAI
+client = OpenAI(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+completion = client.chat.completions.create(
+ model="kimi-k2.6",
+ messages=[
+ {
+ "role": "user",
+ "content": [
+ # When passing a video file directly, set the "type" parameter to "video_url".
+ {
+ "type": "video_url",
+ "video_url": {
+ "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241115/cqqkru/1.mp4"
+ },
+ "fps": 2
+ },
+ {
+ "type": "text",
+ "text": "What is the content of this video?"
+ }
+ ]
+ }
+ ]
+)
+print(completion.choices[0].message.content)
+ Node.js import OpenAI from "openai";
+const openai = new OpenAI({
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1"
+});
+async function main() {
+ const response = await openai.chat.completions.create({
+ model: "kimi-k2.6",
+ messages: [
+ {
+ role: "user",
+ content: [
+ // When passing a video file directly, set the "type" parameter to "video_url".
+ {
+ type: "video_url",
+ video_url: {
+ "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241115/cqqkru/1.mp4"
+ },
+ "fps": 2
+ },
+ {
+ type: "text",
+ text: "What is the content of this video?"
+ }
+ ]
+ }
+ ]
+ });
+ console.log(response.choices[0].message.content);
+}
+main();
+ curl # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+ -H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+ -H 'Content-Type: application/json' \
+ -d '{
+ "model": "kimi-k2.6",
+ "messages": [
+ {
+ "role": "user",
+ "content": [
+ {
+ "type": "video_url",
+ "video_url": {
+ "url": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241115/cqqkru/1.mp4"
+ },
+ "fps":2
+ },
+ {
+ "type": "text",
+ "text": "What is the content of this video?"
+ }
+ ]
+ }
+ ]
+ }'
+ DashScope
+ Python import dashscope
+import os
+# China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+dashscope.base_http_api_url = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1"
+messages = [
+ {"role": "user",
+ "content": [
+ # The fps parameter sets the frame extraction frequency; the interval between frames is 1/fps seconds.
+ {"video": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241115/cqqkru/1.mp4","fps":2},
+ {"text": "What is the content of this video?"}
+ ]
+ }
+]
+response = dashscope.MultiModalConversation.call(
+ # If the DASHSCOPE_API_KEY environment variable is not set, replace this line with your Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv('DASHSCOPE_API_KEY'),
+ model='kimi-k2.6',
+ messages=messages
+)
+print(response.output.choices[0].message.content[0]["text"])
+ Java import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversation;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationParam;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationResult;
+import com.alibaba.dashscope.common.MultiModalMessage;
+import com.alibaba.dashscope.common.Role;
+import com.alibaba.dashscope.exception.ApiException;
+import com.alibaba.dashscope.exception.NoApiKeyException;
+import com.alibaba.dashscope.exception.UploadFileException;
+import com.alibaba.dashscope.utils.JsonUtils;
+import com.alibaba.dashscope.utils.Constants;
+public class Main {
+ public static void simpleMultiModalConversationCall()
+ throws ApiException, NoApiKeyException, UploadFileException {
+ MultiModalConversation conv = new MultiModalConversation();
+ // The fps parameter sets the frame extraction frequency; the interval between frames is 1/fps seconds.
+ Map<String, Object> params = new HashMap<>();
+ params.put("video", "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241115/cqqkru/1.mp4");
+ params.put("fps", 2);
+ MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
+ .content(Arrays.asList(
+ params,
+ Collections.singletonMap("text", "What is the content of this video?"))).build();
+ MultiModalConversationParam param = MultiModalConversationParam.builder()
+ .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+ .model("kimi-k2.6")
+ .messages(Arrays.asList(userMessage))
+ .build();
+ MultiModalConversationResult result = conv.call(param);
+ System.out.println(result.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text"));
+ }
+ public static void main(String[] args) {
+ // China (Beijing) region configuration. Replace {WorkspaceId} with your actual workspace ID. For other regions, use the corresponding base URL.
+ Constants.baseHttpApiUrl = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1";
+ try {
+ simpleMultiModalConversationCall();
+ } catch (ApiException | NoApiKeyException | UploadFileException e) {
+ System.out.println(e.getMessage());
+ }
+ System.exit(0);
+ }
+}
+ curl # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H 'Content-Type: application/json' \
+-d '{
+ "model": "kimi-k2.6",
+ "input":{
+ "messages":[
+ {"role": "user","content": [{"video": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241115/cqqkru/1.mp4","fps":2},
+ {"text": "What is the content of this video?"}]}]}
+}'
+ Image list
+ When you provide a video as an image list (pre-extracted frames), use the fps parameter to specify the original video's frame extraction rate. This value indicates that the frames were extracted every f p s 1 ​ seconds, allowing the model to better understand the sequence of events, duration, and dynamic changes.
+ OpenAI compatible
+ When passing a video as an image list using the OpenAI SDK or an HTTP request, set the "type" parameter in the user message to "video" .
+ Python import os
+from openai import OpenAI
+client = OpenAI(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+completion = client.chat.completions.create(
+ model="kimi-k2.6",
+ messages=[{"role": "user","content": [
+ # When passing an image list, set the "type" parameter in the user message to "video".
+ {"type": "video","video": [
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/xzsgiz/football1.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/tdescd/football2.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/zefdja/football3.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/aedbqh/football4.jpg"],
+ "fps":2},
+ {"type": "text","text": "Describe the action in this video."},
+ ]}]
+)
+print(completion.choices[0].message.content)
+ Node.js import OpenAI from "openai";
+const openai = new OpenAI({
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1"
+});
+async function main() {
+ const response = await openai.chat.completions.create({
+ model: "kimi-k2.6",
+ messages: [{
+ role: "user",
+ content: [
+ {
+ // When passing an image list, set the "type" parameter in the user message to "video".
+ type: "video",
+ video: [
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/xzsgiz/football1.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/tdescd/football2.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/zefdja/football3.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/aedbqh/football4.jpg"],
+ "fps":2
+ },
+ {
+ type: "text",
+ text: "Describe the action in this video."
+ }
+ ]
+ }]
+ });
+ console.log(response.choices[0].message.content);
+}
+main();
+ curl # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H 'Content-Type: application/json' \
+-d '{
+ "model": "kimi-k2.6",
+ "messages": [{"role": "user","content": [{"type": "video","video": [
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/xzsgiz/football1.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/tdescd/football2.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/zefdja/football3.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/aedbqh/football4.jpg"],
+ "fps":2},
+ {"type": "text","text": "Describe the action in this video."}]}]
+}'
+ DashScope
+ Python import os
+import dashscope
+# China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+dashscope.base_http_api_url = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1"
+messages = [{"role": "user",
+ "content": [
+ {"video":["https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/xzsgiz/football1.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/tdescd/football2.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/zefdja/football3.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/aedbqh/football4.jpg"],
+ "fps":2},
+ {"text": "Describe the action in this video."}]}]
+response = dashscope.MultiModalConversation.call(
+ # If the DASHSCOPE_API_KEY environment variable is not set, replace this line with your Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ model='kimi-k2.6',
+ messages=messages
+)
+print(response.output.choices[0].message.content[0]["text"])
+ Java // Requires DashScope SDK v2.21.10 or later.
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversation;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationParam;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationResult;
+import com.alibaba.dashscope.common.MultiModalMessage;
+import com.alibaba.dashscope.common.Role;
+import com.alibaba.dashscope.exception.ApiException;
+import com.alibaba.dashscope.exception.NoApiKeyException;
+import com.alibaba.dashscope.exception.UploadFileException;
+import com.alibaba.dashscope.utils.Constants;
+public class Main {
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ static {Constants.baseHttpApiUrl="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1";}
+ private static final String MODEL_NAME = "kimi-k2.6";
+ public static void videoImageListSample() throws ApiException, NoApiKeyException, UploadFileException {
+ MultiModalConversation conv = new MultiModalConversation();
+ Map<String, Object> params = new HashMap<>();
+ params.put("video", Arrays.asList("https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/xzsgiz/football1.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/tdescd/football2.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/zefdja/football3.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/aedbqh/football4.jpg"));
+ params.put("fps", 2);
+ MultiModalMessage userMessage = MultiModalMessage.builder()
+ .role(Role.USER.getValue())
+ .content(Arrays.asList(
+ params,
+ Collections.singletonMap("text", "Describe the action in this video.")))
+ .build();
+ MultiModalConversationParam param = MultiModalConversationParam.builder()
+ .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+ .model(MODEL_NAME)
+ .messages(Arrays.asList(userMessage)).build();
+ MultiModalConversationResult result = conv.call(param);
+ System.out.print(result.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text"));
+ }
+ public static void main(String[] args) {
+ try {
+ videoImageListSample();
+ } catch (ApiException | NoApiKeyException | UploadFileException e) {
+ System.out.println(e.getMessage());
+ }
+ System.exit(0);
+ }
+}
+ curl # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H 'Content-Type: application/json' \
+-d '{
+ "model": "kimi-k2.6",
+ "input": {
+ "messages": [
+ {
+ "role": "user",
+ "content": [
+ {
+ "video": [
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/xzsgiz/football1.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/tdescd/football2.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/zefdja/football3.jpg",
+ "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/zh-CN/20241108/aedbqh/football4.jpg"
+ ],
+ "fps":2
+ },
+ {
+ "text": "Describe the action in this video."
+ }
+ ]
+ }
+ ]
+ }
+}'
+ Pass a local file 
+ The following examples show how to pass a local file. The OpenAI-compatible API supports only Base64 encoding, while DashScope supports both Base64 encoding and file paths.
+ OpenAI compatible
+ To pass a local file using Base64 encoding, construct a Data URL . For instructions, see Construct a Data URL .
+ Python from openai import OpenAI
+import os
+import base64
+# Encoding function: Converts a local file to a Base64-encoded string.
+def encode_image(image_path):
+ with open(image_path, "rb") as image_file:
+ return base64.b64encode(image_file.read()).decode("utf-8")
+# Replace "xxx/eagle.png" with the absolute path to your local image.
+base64_image = encode_image("xxx/eagle.png")
+client = OpenAI(
+ api_key=os.getenv('DASHSCOPE_API_KEY'),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+completion = client.chat.completions.create(
+ model="kimi-k2.6",
+ messages=[
+ {
+ "role": "user",
+ "content": [
+ {
+ "type": "image_url",
+ "image_url": {"url": f"data:image/png;base64,{base64_image}"},
+ },
+ {"type": "text", "text": "What scene is depicted in the image?"},
+ ],
+ }
+ ],
+)
+print(completion.choices[0].message.content)
+# The following examples show how to pass a local video file and a local image list.
+# [Local video file] Encode the local video as a Data URL and pass it to the video_url parameter:
+# def encode_video_to_data_url(video_path):
+# with open(video_path, "rb") as f:
+# return "data:video/mp4;base64," + base64.b64encode(f.read()).decode("utf-8")
+# video_data_url = encode_video_to_data_url("xxx/local.mp4")
+# content = [{"type": "video_url", "video_url": {"url": video_data_url}, "fps": 2}, {"type": "text", "text": "What is the content of this video?"}]
+# [Local image list] Encode multiple local images with Base64 and pass them as a list to the video parameter:
+# image_data_urls = [f"data:image/jpeg;base64,{encode_image(p)}" for p in ["xxx/f1.jpg", "xxx/f2.jpg", "xxx/f3.jpg", "xxx/f4.jpg"]]
+# content = [{"type": "video", "video": image_data_urls, "fps": 2}, {"type": "text", "text": "Describe the sequence of events in this video."}]
+ Node.js import OpenAI from "openai";
+import { readFileSync } from 'fs';
+const openai = new OpenAI(
+ {
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1"
+ }
+);
+const encodeImage = (imagePath) => {
+ const imageFile = readFileSync(imagePath);
+ return imageFile.toString('base64');
+ };
+// Replace "xxx/eagle.png" with the absolute path to your local image.
+const base64Image = encodeImage("xxx/eagle.png")
+async function main() {
+ const completion = await openai.chat.completions.create({
+ model: "kimi-k2.6",
+ messages: [
+ {"role": "user",
+ "content": [{"type": "image_url",
+ "image_url": {"url": `data:image/png;base64,${base64Image}`},},
+ {"type": "text", "text": "What scene is depicted in the image?"}]}]
+ });
+ console.log(completion.choices[0].message.content);
+}
+main();
+// The following examples show how to pass a local video file and a local image list.
+// [Local video file] Encode the local video as a Data URL and pass it to the video_url parameter:
+// const encodeVideoToDataUrl = (videoPath) => "data:video/mp4;base64," + readFileSync(videoPath).toString("base64");
+// const videoDataUrl = encodeVideoToDataUrl("xxx/local.mp4");
+// content: [{ type: "video_url", video_url: { url: videoDataUrl }, fps: 2 }, { type: "text", text: "What is the content of this video?" }]
+// [Local image list] Encode multiple local images with Base64 and pass them as a list to the video parameter:
+// const imageDataUrls = ["xxx/f1.jpg","xxx/f2.jpg","xxx/f3.jpg","xxx/f4.jpg"].map(p => `data:image/jpeg;base64,${encodeImage(p)}`);
+// content: [{ type: "video", video: imageDataUrls, fps: 2 }, { type: "text", text: "Describe the sequence of events in this video." }]
+// messages: [{"role": "user", "content": content}]
+// Then call openai.chat.completions.create({model: "kimi-k2.6", messages: messages})
+ DashScope
+ Base64 encoding
+ To pass a local file using Base64 encoding, construct a Data URL . For instructions, see Construct a Data URL .
+ Python import base64
+import os
+import dashscope
+from dashscope import MultiModalConversation
+# China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+dashscope.base_http_api_url = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1"
+# Encoding function: Converts a local file to a Base64-encoded string.
+def encode_image(image_path):
+ with open(image_path, "rb") as image_file:
+ return base64.b64encode(image_file.read()).decode("utf-8")
+# Replace "xxx/eagle.png" with the absolute path to your local image.
+base64_image = encode_image("xxx/eagle.png")
+messages = [
+ {
+ "role": "user",
+ "content": [
+ {"image": f"data:image/png;base64,{base64_image}"},
+ {"text": "What scene is depicted in the image?"},
+ ],
+ },
+]
+response = MultiModalConversation.call(
+ # If the DASHSCOPE_API_KEY environment variable is not set, pass your Model Studio API key directly, for example: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ model="kimi-k2.6",
+ messages=messages,
+)
+print(response.output.choices[0].message.content[0]["text"])
+# The following examples show how to pass a local video file and a local image list.
+# [Local video file]
+# video_data_url = "data:video/mp4;base64," + base64.b64encode(open("xxx/local.mp4","rb").read()).decode("utf-8")
+# content: [{"video": video_data_url, "fps": 2}, {"text": "What is the content of this video?"}]
+# [Local image list]
+# image_data_urls = [f"data:image/jpeg;base64,{encode_image(p)}" for p in ["xxx/f1.jpg","xxx/f2.jpg","xxx/f3.jpg","xxx/f4.jpg"]]
+# content: [{"video": image_data_urls, "fps": 2}, {"text": "Describe the sequence of events in this video."}]
+ Java import java.io.IOException;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Base64;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import com.alibaba.dashscope.aigc.multimodalconversation.*;
+import com.alibaba.dashscope.common.MultiModalMessage;
+import com.alibaba.dashscope.common.Role;
+import com.alibaba.dashscope.exception.ApiException;
+import com.alibaba.dashscope.exception.NoApiKeyException;
+import com.alibaba.dashscope.exception.UploadFileException;
+import com.alibaba.dashscope.utils.Constants;
+public class Main {
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ static {Constants.baseHttpApiUrl="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1";}
+ private static String encodeToBase64(String imagePath) throws IOException {
+ Path path = Paths.get(imagePath);
+ byte[] imageBytes = Files.readAllBytes(path);
+ return Base64.getEncoder().encodeToString(imageBytes);
+ }
+ public static void callWithLocalFile(String localPath) throws ApiException, NoApiKeyException, UploadFileException, IOException {
+ String base64Image = encodeToBase64(localPath);
+ MultiModalConversation conv = new MultiModalConversation();
+ MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
+ .content(Arrays.asList(
+ new HashMap<String, Object>() {{ put("image", "data:image/png;base64," + base64Image); }},
+ new HashMap<String, Object>() {{ put("text", "What scene is depicted in the image?"); }}
+ )).build();
+ MultiModalConversationParam param = MultiModalConversationParam.builder()
+ .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+ .model("kimi-k2.6")
+ .messages(Arrays.asList(userMessage))
+ .build();
+ MultiModalConversationResult result = conv.call(param);
+ System.out.println(result.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text"));
+ }
+ public static void main(String[] args) {
+ try {
+ // Replace "xxx/eagle.png" with the absolute path to your local image.
+ callWithLocalFile("xxx/eagle.png");
+ } catch (ApiException | NoApiKeyException | UploadFileException | IOException e) {
+ System.out.println(e.getMessage());
+ }
+ System.exit(0);
+ }
+ // The following examples show how to pass a local video file and a local image list.
+ // [Local video file]
+ // String base64Video = encodeToBase64(localPath);
+ // MultiModalConversation conv = new MultiModalConversation();
+ // MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
+ // .content(Arrays.asList(
+ // new HashMap<String, Object>() {{ put("video", "data:video/mp4;base64," + base64Video); }},
+ // new HashMap<String, Object>() {{ put("text", "What scene is depicted in this video?"); }}
+ // )).build();
+ // [Local image list]
+ // List<String> urls = Arrays.asList(
+ // "data:image/jpeg;base64,"+encodeToBase64("path/f1.jpg"),
+ // "data:image/jpeg;base64,"+encodeToBase64("path/f2.jpg"),
+ // "data:image/jpeg;base64,"+encodeToBase64("path/f3.jpg"),
+ // "data:image/jpeg;base64,"+encodeToBase64("path/f4.jpg"));
+ // MultiModalConversation conv = new MultiModalConversation();
+ // MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
+ // .content(Arrays.asList(
+ // new HashMap<String, Object>() {{ put("video", urls); }},
+ // new HashMap<String, Object>() {{ put("text", "What scene is depicted in this video?"); }}
+ // )).build();
+}
+ File path
+ You can pass a local file path directly to the model. This method is supported only by the DashScope Python and Java SDKs; it is not available for DashScope HTTP or the OpenAI-compatible API. The table below shows the required file path format for each programming language and operating system.
+ Specify a file path (image example)
+ System 
+ SDK 
+ Path format 
+ Example 
+ Linux or macOS
+ Python SDK
+ file://{absolute path of the file}
+ file:///home/images/test.png
+ Java SDK
+ Windows
+ Python SDK
+ file://{absolute path of the file}
+ file://D:/images/test.png
+ Java SDK
+ file:///{absolute path of the file}
+ file:///D:/images/test.png
+ Python import os
+from dashscope import MultiModalConversation
+import dashscope
+# China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+dashscope.base_http_api_url = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1"
+# Replace "xxx/eagle.png" with the absolute path to your local image.
+local_path = "xxx/eagle.png"
+image_path = f"file://{local_path}"
+messages = [
+ {'role':'user',
+ 'content': [{'image': image_path},
+ {'text': 'What scene is depicted in the image?'}]}]
+response = MultiModalConversation.call(
+ api_key=os.getenv('DASHSCOPE_API_KEY'),
+ model='kimi-k2.6',
+ messages=messages)
+print(response.output.choices[0].message.content[0]["text"])
+# The following examples show how to pass a local video and a list of local images using file paths.
+# [Local video file]
+# video_path = "file:///path/to/local.mp4"
+# content: [{"video": video_path, "fps": 2}, {"text": "What is the content of this video?"}]
+# [Local image list]
+# image_paths = ["file:///path/f1.jpg", "file:///path/f2.jpg", "file:///path/f3.jpg", "file:///path/f4.jpg"]
+# content: [{"video": image_paths, "fps": 2}, {"text": "Describe the sequence of events in this video."}]
+ Java import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversation;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationParam;
+import com.alibaba.dashscope.aigc.multimodalconversation.MultiModalConversationResult;
+import com.alibaba.dashscope.common.MultiModalMessage;
+import com.alibaba.dashscope.common.Role;
+import com.alibaba.dashscope.exception.ApiException;
+import com.alibaba.dashscope.exception.NoApiKeyException;
+import com.alibaba.dashscope.exception.UploadFileException;
+import com.alibaba.dashscope.utils.Constants;
+public class Main {
+ public static void callWithLocalFile(String localPath)
+ throws ApiException, NoApiKeyException, UploadFileException {
+ String filePath = "file://"+localPath;
+ MultiModalConversation conv = new MultiModalConversation();
+ MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
+ .content(Arrays.asList(new HashMap<String, Object>(){{put("image", filePath);}},
+ new HashMap<String, Object>(){{put("text", "What scene is depicted in the image?");}})).build();
+ MultiModalConversationParam param = MultiModalConversationParam.builder()
+ .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+ .model("kimi-k2.6")
+ .messages(Arrays.asList(userMessage))
+ .build();
+ MultiModalConversationResult result = conv.call(param);
+ System.out.println(result.getOutput().getChoices().get(0).getMessage().getContent().get(0).get("text"));}
+ public static void main(String[] args) {
+ // China (Beijing) region configuration. Replace {WorkspaceId} with your actual workspace ID. For other regions, use the corresponding base URL.
+ Constants.baseHttpApiUrl = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1";
+ try {
+ // Replace "xxx/eagle.png" with the absolute path to your local image.
+ callWithLocalFile("xxx/eagle.png");
+ } catch (ApiException | NoApiKeyException | UploadFileException e) {
+ System.out.println(e.getMessage());
+ }
+ System.exit(0);
+ }
+ // The following examples show how to pass a local video and a list of local images using file paths.
+ // [Local video file]
+ // String filePath = "file://"+localPath;
+ // MultiModalConversation conv = new MultiModalConversation();
+ // MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
+ // .content(Arrays.asList(new HashMap<String, Object>(){{put("video", filePath);}},
+ // new HashMap<String, Object>(){{put("text", "What scene is depicted in the video?");}})).build();
+ // [Local image list]
+ // MultiModalConversation conv = new MultiModalConversation();
+ // List<String> filePath = Arrays.asList("file:///path/f1.jpg", "file:///path/f2.jpg", "file:///path/f3.jpg", "file:///path/f4.jpg")
+ // MultiModalMessage userMessage = MultiModalMessage.builder().role(Role.USER.getValue())
+ // .content(Arrays.asList(new HashMap<String, Object>(){{put("video", filePath);}},
+ // new HashMap<String, Object>(){{put("text", "What scene is depicted in the video?");}})).build();
+}
+ File limitations 
+ Image limitations
+ Image resolution: 
+ Minimum size: Width and height must each exceed 10 pixels.
+ Aspect ratio: The ratio of the longest side to the shortest side must not exceed 200:1 .
+ Maximum resolution: The recommended maximum is 8K(7680x4320) . Higher resolutions may cause API call timeouts due to large file sizes or slow network transfers.
+ Supported image formats 
+ The following formats are supported for resolutions below 4K (3840x2160) :
+ Image format 
+ File extension 
+ MIME type 
+ BMP
+ .bmp
+ image/bmp
+ JPEG
+ .jpe, .jpeg, .jpg
+ image/jpeg
+ PNG
+ .png
+ image/png
+ TIFF
+ .tif, .tiff
+ image/tiff
+ WEBP
+ .webp
+ image/webp
+ HEIC
+ .heic
+ image/heic
+ For resolutions between 4K(3840x2160) and 8K(7680x4320) , only JPEG, JPG, and PNG are supported.
+ Image size: 
+ When providing an image via a public URL or local path, its size must not exceed 10 MB .
+ When using Base64 encoding, the encoded string must not exceed 10 MB .
+ To compress a file, see How to compress an image or video to meet the size limit .
+ Number of supported images: When providing multiple images, the total number of tokens for all images and text must not exceed the model's maximum input limit.
+ Video limitations
+ As an image list: 4 to 2,000 images.
+ As a video file: 
+ Video size: 
+ Via public URL: Up to 2 GB.
+ Via Base64 encoding: the encoded string must be less than 10 MB.
+ Via local file path: Up to 100 MB.
+ Video duration: 2 seconds to 1 hour.
+ Video format: Supported formats include MP4, AVI, MKV, MOV, FLV, and WMV.
+ Video resolution: While there is no strict resolution limit, use 2K or lower for best results. Higher resolutions increase processing time without improving model understanding.
+ Audio understanding: The model does not process the audio track in video files.
+ Other features 
+ Model 
+ Multi-turn conversation 
+ Deep thinking 
+ Function calling 
+ Structured output 
+ Web search 
+ Prefix completion 
+ Context cache 
+ kimi-k3
+ Supported
+ Supported
+ Supported
+ Supported
+ Not supported
+ Supported
+ Supported
+ kimi-k2.7-code
+ Supported
+ Supported
+ Supported
+ Not supported
+ Not supported
+ Not supported
+ Supported
+ kimi-k2.6
+ Supported
+ Supported
+ Supported
+ Not supported
+ Not supported
+ Not supported
+ Supported
+ kimi-k2.5
+ Supported
+ Supported
+ Supported
+ Not supported
+ Not supported
+ Not supported
+ Supported
+ Dynamically Loaded Tools (Kimi K3) 
+ When an application needs to mount a large number of tools, putting every tool declaration into the request's top-level tools field at once leads to Tool Definition Bloat: every request must carry the description and parameter schema of all tools, driving up token consumption; and the more candidate tools there are, the more likely the model is to pick the wrong tool and construct incorrect call arguments.
+ Dynamically Loaded Tools let you inject tools on demand during a conversation: mount only a few core tools first, and when the conversation reaches a point where a specific tool is needed, dynamically insert it into messages , thereby reducing token consumption and improving tool-selection accuracy.
+ Note Dynamically loaded tools are currently supported only by kimi-k3; requesting them on other models (such as kimi-k2.6) returns a tokenization failed error.
+ Inject tool declarations in messages 
+ Insert a message with role set to system into messages , and declare the tools to load via that message's tools field. The format is identical to that of the request's top-level tools field, and you must provide the complete tool information ( name , description , parameters ).
+ A system message carrying tools has the same status as an ordinary message: the tools become visible to the model starting from the position where that message appears in the messages list.
+ Dynamically loaded tools coexist with the global tools declared in the request's top-level tools field; the model can see both kinds of tools at the same time.
+ A dynamically injected tool declaration must be a complete tool definition; you cannot pass only a tool name or reference a globally declared tool.
+ A system message carrying tools must not also carry a content field, otherwise the request fails with a 400 error. When using the OpenAI SDK, you can pass the tools field through directly in messages .
+ Python import os
+from openai import OpenAI
+client = OpenAI(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # The following is the URL for the China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID; URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+completion = client.chat.completions.create(
+ model="kimi-k3",
+ messages=[
+ {"role": "system", "content": "You are a helpful assistant."},
+ {"role": "user", "content": "Please calculate 23 * 47 for me."},
+ # Dynamically load a tool: insert a system message carrying a tools field into the conversation
+ {
+ "role": "system",
+ "tools": [
+ {
+ "type": "function",
+ "function": {
+ "name": "Calculator",
+ "description": "Calculator; evaluates a single arithmetic expression only",
+ "parameters": {
+ "type": "object",
+ "properties": {
+ "expr": {
+ "type": "string",
+ "description": "Arithmetic expression supporting basic operations, exponentiation, logarithms, and trigonometric functions, in JavaScript syntax",
+ }
+ },
+ "required": ["expr"],
+ },
+ },
+ }
+ ],
+ },
+ ],
+)
+print(completion.choices[0].message.tool_calls)
+ curl # The following is the URL for the China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID; URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-d '{
+ "model": "kimi-k3",
+ "messages": [
+ {"role": "system", "content": "You are a helpful assistant."},
+ {"role": "user", "content": "Please calculate 23 * 47 for me."},
+ {
+ "role": "system",
+ "tools": [
+ {
+ "type": "function",
+ "function": {
+ "name": "Calculator",
+ "description": "Calculator; evaluates a single arithmetic expression only",
+ "parameters": {
+ "type": "object",
+ "properties": {
+ "expr": {
+ "type": "string",
+ "description": "Arithmetic expression supporting basic operations, exponentiation, logarithms, and trigonometric functions, in JavaScript syntax"
+ }
+ },
+ "required": ["expr"]
+ }
+ }
+ }
+ ]
+ }
+ ]
+}'
+ On-demand loading combined with a search tool 
+ There is no dedicated tool-search API. When there are many tools, you can combine a custom search tool with dynamically loaded tools to load tools on demand:
+ At the start of the session, declare in the top-level tools only a search_tools tool implemented by your application backend (it returns matching tool names and summaries by keyword), plus a few core tools that may be used every turn.
+ Declare the searchable keywords (such as a tool catalog or domain tags) in the system prompt to guide the model to call search_tools first when it needs a tool. You can set tool_choice: "required" on the first request to force the model to search before answering, then restore tool_choice to "auto" after the search. Changing tool_choice does not break the prefix cache.
+ Based on the results returned by search_tools , the application dynamically inserts the complete declarations of the corresponding tools into messages via a system message carrying tools .
+ The model can then call these newly loaded tools directly in subsequent generation.
+ This way, no matter how large the total number of tools is, only a few tool declarations are actually present in each request, keeping the context window and the model's selection pressure under control.
+ Notes 
+ Dynamic tool declarations take effect per request and are not remembered by the server. Whether to keep carrying them in the next request is up to the integrator: keep carrying them and the tools remain available (which also helps hit the prefix cache); stop carrying them and the declaration expires — if the tool is not declared elsewhere, the model cannot call it, and the prefix cache after the change point may miss.
+ Appending a dynamic tool declaration at the end of messages does not affect the cache of the existing prefix; deleting or modifying earlier tool declarations may affect cache hits after the change point. Declaring global tools in the request's top-level tools field also does not affect cache hits.
+ A system message carrying tools also consumes context length, so inject only the tools truly needed by the current conversation.
+ Dynamic tool declarations use exactly the same format as global tools declarations, so integrators do not need to maintain two schemas.
+ Default parameters 
+ Model 
+ enable_thinking 
+ temperature 
+ top_p 
+ presence_penalty 
+ fps 
+ max_frames 
+ kimi-k3
+ true (thinking mode only, cannot be disabled)
+ 1.0
+ 0.95
+ 0.0
+ -
+ -
+ kimi-k2.7-code
+ true (thinking mode only)
+ 1.0
+ 0.95
+ 0.0
+ 2
+ 2000
+ kimi-k2.6
+ false
+ thinking mode: 1.0
+ non-thinking mode: 0.6
+ Both modes: 0.95
+ Both modes: 0.0
+ 2
+ 2000
+ kimi-k2.5
+ false
+ thinking mode: 1.0
+ non-thinking mode: 0.6
+ Both modes: 0.95
+ Both modes: 0.0
+ 2
+ 2000
+ A hyphen (-) indicates that the parameter is not applicable.
+ Models and billing 
+ The Kimi series are large language models from Moonshot AI.
+ kimi-k3: Kimi's most capable flagship model to date. It always reasons and uses preserved thinking (thinking-only mode). Supports text and image input (video input is not supported), conversation and agent tasks, and dynamic tool loading.
+ kimi-k2.7-code: The most capable Kimi model for coding. It follows long-context instructions more reliably and achieves higher success rates on programming tasks. Supports text, image, and video input, thinking mode, conversation, and agent tasks.
+ kimi-k2.6: The newest and most capable model in the Kimi series. It offers improved performance in long-horizon coding, instruction following, and self-correction. Supports text, image, and video input, thinking and non-thinking modes, conversation, and agent tasks.
+ kimi-k2.5: It achieves state-of-the-art (SOTA) performance on open-source benchmarks for agent tasks, code generation, visual understanding, and other general intelligence tasks. Supports image, video, and text input, thinking and non-thinking modes, conversation, and agent tasks.
+ Note kimi-k3 does not support the thinking_budget parameter. You cannot use this parameter to limit the thinking length.
+ kimi-k3 does not support the OpenAI-compatible Responses API yet (coming soon). Use the OpenAI-compatible Chat Completions API instead.
+ For pricing, see model invocation billing .
+ For pricing and context window details, see the Model Studio console .
+ Billing is based on input and output token counts.
+ In thinking mode, the chain of thought counts as output tokens.
+ Error codes 
+ If a model call fails and returns an error message, see Error codes .
+ Previous：DeepSeek-Kuaishou Wanqing Next：Kimi-Moonshot AI 
+ Is this page helpful?
+ Feedback 
+ Why Choose Alibaba Cloud
+ What is Cloud Computing Global Infrastructure Technology Leadership Stability & Reliability Security & Compliance Analyst Reports Models
+ Model Services Qwen Series Model Marketplace Products & Pricing
+ All Products Free Trials Product Updates Pricing Pricing Calculator Cost Management Technical Resources
+ Solutions Documentation Community Tianchi Competitions Alibaba Cloud Certification Benefits
+ Free Trials Solution Trials Academic Program Referral Program Support
+ 24/7 Support Enterprise Support Plans Cloud Migration Services Service Notices Status Dashboard Trust Center Follow Us
+ Follow the Alibaba Cloud official account or download the app to stay updated. Manage and monitor your cloud services anytime, anywhere.
+ Contact us：4008013260
+ Legal Notice Cookie Policy Integrity Reporting Security Reporting Contact Us Careers 
+ Friendly Links
+ Alibaba Group Taobao Qwen AI Platform QwenWork Tmall AliExpress Alibaba International 1688 Alimama Fliggy Alibaba Cloud HiChina Amap UC Umeng Youku DingTalk Alipay DAMO Academy Taobao Global Alibaba Cloud Drive © 2009- Present Aliyun.com. All rights reserved. alue-Added Telecommunications Business Operating License: Zhe B2-20080101 Domain Name Registration Service Provider License： Zhe D3-20210002 
+ Zhejiang Public Security Bureau Record No. 33010602009975 Zhejiang B2-20080101-4

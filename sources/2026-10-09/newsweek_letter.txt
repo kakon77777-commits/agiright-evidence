@@ -1,0 +1,221 @@
+Trio of Workers Fired by OpenAI: Read Their Warning Letter in Full - Newsweek 
+ Breaking News
+ Navi Pillay Announced As Nobel Peace Prize Winner 
+ U.S. 
+ News 
+ Politics 
+ AI Politics 
+ Tech 
+ Fact Check 
+ Sports 
+ Global 
+ Iran War 
+ Russia-Ukraine 
+ Middle East 
+ China And Asia 
+ Live Blog 
+ Better Planet 
+ All World News 
+ Lifestyle 
+ Family & Parenting 
+ Entertainment 
+ Travel 
+ Pets 
+ Automotive 
+ Relationships 
+ Science 
+ Health 
+ Personal Finance 
+ Better Workplaces 
+ Readers Choice 
+ Opinion 
+ My Turn 
+ All Opinion 
+ Rankings 
+ Health 
+ Finance 
+ Products 
+ Education 
+ Workplaces 
+ Corporate Responsibility 
+ All Rankings 
+ Watch 
+ The 1600 
+ The Royal Report 
+ Unconventional 
+ From The Paddock 
+ Newsmakers 
+ Extra 
+ Newsletters 
+ Dare to Dream 
+ Events 
+ Essays 
+ Podcasts 
+ Vantage 
+ Insights 
+ Magazine 
+ CEO Circle 
+ Announcements 
+ Leadership 
+ Dev Pragad 
+ Subscribe 
+ Sign In 
+ U.S. 
+ News Politics AI Politics Tech Fact Check Sports 
+ Global 
+ Iran War Russia-Ukraine Middle East China And Asia Live Blog Better Planet All World News 
+ Lifestyle 
+ Family & Parenting Entertainment Travel Pets Automotive Relationships Science Health Personal Finance Better Workplaces Readers Choice 
+ Opinion 
+ My Turn All Opinion 
+ Rankings 
+ Health Corporate Responsibility Finance Products Education Work All Rankings 
+ Watch 
+ The 1600 The Royal Report Unconventional From The Paddock Newsmakers 
+ Social 
+ Facebook Instagram YouTube Reddit TikTok Twitter/X 
+ Extra 
+ Newsletters Dare to Dream Events Essays Podcasts Vantage Insights Magazine CEO Circle Announcements Leadership Dev Pragad 
+ Three safety researchers fired by OpenAI last week have published an open letter challenging the company's account of their dismissals. They warned that the episode could discourage employees from speaking openly about AI risks. Tomek Korbak, Jasmine Wang and Mikita Balesni addressed the letter to OpenAI's Safety and Security Committee, Safety Advisory Group and Mission Advisory Council. The trio wrote that they were concerned that communications around their firing had made former colleagues "afraid to speak." They added that safety researchers need to be able to challenge decisions and work with outside experts. Korbak, Wang and Balesni said: "AI is not a normal technology, and OpenAI is not a normal company." OpenAI has rejected the suggestion that their dismissals were connected to speaking out about safety. The company said a "thorough investigation" found the trio had violated policies governing sensitive information. Newsweek has contacted OpenAI, Korbak, Wang and Balesni for further comment and is awaiting further responses. Read the Full Letter The letter, titled "OpenAI cannot make AI safe on its own," was published publicly by the three former employees. It opens with a warning about the effect their dismissals may have on other employees. "We have become concerned that internal and external communications around our firing have made our former colleagues afraid to speak and operate in ways that, until last week, were an integral part of working at OpenAI," the former employees wrote. The researchers argue that OpenAI has historically encouraged employees to "raise safety concerns and disagree openly," but say staff are now "unclear on where they stand." The trio added: "Given the significant safety concerns surrounding the development of AI, employees must not be left working in an environment where fear and unclear rules stymie AI safety work and weaken third-party accountability." What the Researchers Say About Their Dismissals Korbak, Wang and Balesni used the letter to dispute claims surrounding what led to their terminations. They denied being responsible for a leak about work on AI architectures that may make models' internal reasoning more difficult to monitor. "We were not the source of the leak," they wrote. They also denied improperly communicating with outside organizations, saying they did not believe they had engaged with external parties beyond what their jobs required. Korbak said separately that he was told verbally that he had been fired because of the way he communicated with Model Evaluation and Threat Research, or METR, an independent organization that evaluates advanced AI systems. "No details on what I said or did or when," Korbak wrote on X. "No other reasons were given and nothing was put in writing." He added: "To be clear, talking to METR was my job." Korbak said he had spent months raising concerns about what he described as a declining ability to monitor how AI agents reason. "I believe that was why I was fired," he said. The open letter also discusses Korbak's work following an incident involving OpenAI agents and external systems. The researchers described the incident and subsequent investigation as "without precedent" and said that "internal policies were being developed in real time." They argue that Korbak believed he was acting within OpenAI's existing norms by communicating with outside safety evaluators. Mikita Balesni's Account Balesni has gone further in publicly challenging OpenAI's explanation for the dismissals. "I believe we were fired for prioritizing safety over the near-term interests of OpenAI as a corporation," he wrote on X. Balesni said that during his exit call he was told OpenAI no longer trusted him because he had been speaking too much with third-party safety organizations, which he said implied that he had leaked company intellectual property. "I never shared company IP," he wrote. He said his work had been coordinated with his reporting line, research leadership and the board. The open letter says Balesni was working on the problem of preserving AI "monitorability," researchers' ability to understand or inspect how increasingly advanced systems arrive at decisions. The trio wrote that this work "can only succeed through extensive communication with external parties." They said Balesni regularly checked with his managers and removed sensitive material before sharing research externally. "Throughout, Mikita checked in with his reporting line and took care to remove sensitive details from materials before sharing them," they wrote. "He acted throughout in good faith and within the company's norms as they stood at the time." What Jasmine Wang Says Happened Wang has also publicly disputed OpenAI's explanation. She said she was given one reason for her dismissal: that she had accessed an executive's email. "OpenAI delegated that access to me for recruiting," she wrote on X. "When I no longer needed it, I asked IT to remove it." Wang said that request was not actioned and that she could not remove the account herself. "When I opened a sensitive email by mistake, I told the executive within minutes and asked IT again," she wrote. "None of this was hidden." Wang claimed the explanations provided for the firings were "simply not adding up." She called on OpenAI to provide the former employees with a written list of allegations so they could respond. "I would welcome receipt of a written and complete list of allegations so that we can properly address their merits, take ownership of them where we ought to, and have OpenAI take ownership of any mistakes they have made," she wrote. What They Want OpenAI To Do Next The former employees set out several recommendations for OpenAI and other frontier AI companies. They called for continued independent safety evaluations and warned against weakening relationships with outside organizations capable of scrutinizing increasingly powerful systems. They also called on AI companies to protect the ability to monitor the internal reasoning of advanced models. "As an industry, we do not yet know how to safely develop and deploy models that we cannot monitor," they wrote. The researchers also want OpenAI to maintain what they describe as an open culture in which safety employees can communicate with independent experts. Balesni has separately expressed concern that the firings could be used to restrict OpenAI's relationship with METR. "I worry that OpenAI is going to use our firing as an excuse to cut off the relationship with @METR_evals," he wrote. OpenAI Responds OpenAI issued a lengthy public statement on October 9 defending its decision to dismiss the three researchers while directly responding to several points raised in their letter. "Last week we parted ways with Jasmine, Mikita, and Tomek after a thorough investigation found they violated clear policies on handling sensitive information," the company said. OpenAI said its investigation uncovered "a significant breach of trust beyond what's outlined in the letter they published" and said it stood by the decision not to continue their employment. The company did not publicly detail the specific conduct it says amounted to that breach, saying individual employment matters are generally kept private. OpenAI nevertheless strongly rejected the researchers' suggestion that their safety advocacy had played a role in their dismissals. "We want to be very clear that these decisions were not about raising safety concerns or speaking out," the company said. It added: "Safety and research debates happen every day at OpenAI, often spirited and highly critical. We actively encourage these discussions and consider them essential to making the right decisions." OpenAI said trust remained essential to that culture, while adding that it would continue to be "extremely forgiving" when employees made good-faith mistakes. "We have not and do not terminate any of our employees for raising concerns," the statement said. The company also responded directly to the trio's concerns about independent safety oversight. OpenAI said it was "actively finalizing contracts with third-party safety assessors" and expected to announce further details in the coming weeks. "We are committed to embedding external assessors and continue to make close collaboration with independent safety organizations a core part of our safety work," it said. The company said many OpenAI researchers already work productively with third-party safety organizations. OpenAI also said it agreed with one of the central arguments in the researchers' letter: that preserving the ability to monitor frontier AI systems requires cooperation across the industry. "We agree with the letter that preserving the monitorability of frontier models requires an industrywide commitment, including from OpenAI," the company said. It pointed to its existing research into monitorability and said the issue remained a significant part of its safety program. OpenAI closed its statement by acknowledging the researchers' previous work. "We are deeply sad about this outcome," the company said. "We appreciated Jasmine, Mikita, and Tomek's contributions to AI safety at OpenAI and their willingness to speak up and challenge ideas." It continued: "We championed their voices, supported their work, and placed enormous trust in them." But the company again rejected the suggestion that their willingness to raise concerns resulted in their dismissal. "These decisions were not about them raising safety concerns," OpenAI said. "We have always encouraged that and always will." The two sides therefore agree on several of the broader principles at stake, including independent safety evaluation and preserving model monitorability, while sharply disagreeing about what happened in the events leading to the researchers' dismissal. OpenAI says there was a serious breach of its policies and trust, while Korbak, Wang and Balesni argue the boundaries around external safety work were unclear and that the episode risks making other researchers reluctant to speak openly. Why the Letter Matters The disagreement highlights a difficult problem for companies developing frontier AI. Those companies hold commercially and technically sensitive information and have an obvious interest in controlling how it is accessed and shared. At the same time, independent organizations are increasingly being asked to test powerful AI models for dangerous capabilities and unexpected behavior. That can require close cooperation with researchers inside the companies developing those systems. Korbak, Wang and Balesni argue those relationships become less effective if safety employees fear that communicating with outside evaluators could cost them their jobs. Their letter ends with a broader warning about the role of researchers working closest to increasingly powerful AI systems." Researchers inside OpenAI are a front line defense against things going wrong," they wrote. The full letter can be read here: https://mikitabalesni.com/letter/letter.pdf Newsweek’s reporters and editors used Martyn, our AI assistant, to produce this story. Learn more about Martyn here. Contact Newsweek editors on this story: Rebecca Flood and James Debens
+ News 
+ AI OpenAI Sam Altman Employment 
+ AI OpenAI Sam Altman Employment 
+ News Article
+ Trio of Workers Fired by OpenAI: Read Their Warning Letter in Full
+ Published
+ Oct 09, 2026 at 05:43 AM EDT
+ By Faye James US news reporter
+ 0 
+ Share 
+Newsweek is a Trust Project member 
+ See more of our trusted coverage when you search. 
+ Prefer Newsweek on Google 
+ to see more of our trusted coverage when you search. 
+ Three safety researchers fired by OpenAI last week have published an open letter challenging the company's account of their dismissals. They warned that the episode could discourage employees from speaking openly about AI risks .
+ Tomek Korbak, Jasmine Wang and Mikita Balesni addressed the letter to OpenAI's Safety and Security Committee, Safety Advisory Group and Mission Advisory Council.
+ The trio wrote that they were concerned that communications around their firing had made former colleagues "afraid to speak." They added that safety researchers need to be able to challenge decisions and work with outside experts. Korbak, Wang and Balesni said: " AI is not a normal technology, and OpenAI is not a normal company."
+ Read More on News 
+ OpenAI has rejected the suggestion that their dismissals were connected to speaking out about safety. The company said a "thorough investigation" found the trio had violated policies governing sensitive information. 
+ Newsweek has contacted OpenAI, Korbak, Wang and Balesni for further comment and is awaiting further responses.
+ ... 
+ Read the Full Letter
+ The letter, titled "OpenAI cannot make AI safe on its own," was published publicly by the three former employees. It opens with a warning about the effect their dismissals may have on other employees. "We have become concerned that internal and external communications around our firing have made our former colleagues afraid to speak and operate in ways that, until last week, were an integral part of working at OpenAI," the former employees wrote.
+ The researchers argue that OpenAI has historically encouraged employees to "raise safety concerns and disagree openly," but say staff are now "unclear on where they stand."
+ The trio added: "Given the significant safety concerns surrounding the development of AI, employees must not be left working in an environment where fear and unclear rules stymie AI safety work and weaken third-party accountability."
+ What the Researchers Say About Their Dismissals
+ Korbak, Wang and Balesni used the letter to dispute claims surrounding what led to their terminations. They denied being responsible for a leak about work on AI architectures that may make models' internal reasoning more difficult to monitor. "We were not the source of the leak," they wrote.
+ They also denied improperly communicating with outside organizations, saying they did not believe they had engaged with external parties beyond what their jobs required.
+ Korbak said separately that he was told verbally that he had been fired because of the way he communicated with Model Evaluation and Threat Research, or METR, an independent organization that evaluates advanced AI systems.
+ "No details on what I said or did or when," Korbak wrote on X. "No other reasons were given and nothing was put in writing." He added: "To be clear, talking to METR was my job."
+ Korbak said he had spent months raising concerns about what he described as a declining ability to monitor how AI agents reason. "I believe that was why I was fired," he said.
+ The open letter also discusses Korbak's work following an incident involving OpenAI agents and external systems. The researchers described the incident and subsequent investigation as "without precedent" and said that "internal policies were being developed in real time."
+ They argue that Korbak believed he was acting within OpenAI's existing norms by communicating with outside safety evaluators.
+ Mikita Balesni's Account
+ Balesni has gone further in publicly challenging OpenAI's explanation for the dismissals. "I believe we were fired for prioritizing safety over the near-term interests of OpenAI as a corporation," he wrote on X.
+ Balesni said that during his exit call he was told OpenAI no longer trusted him because he had been speaking too much with third-party safety organizations, which he said implied that he had leaked company intellectual property. "I never shared company IP," he wrote.
+ He said his work had been coordinated with his reporting line, research leadership and the board. The open letter says Balesni was working on the problem of preserving AI "monitorability," researchers' ability to understand or inspect how increasingly advanced systems arrive at decisions. The trio wrote that this work "can only succeed through extensive communication with external parties."
+ They said Balesni regularly checked with his managers and removed sensitive material before sharing research externally. "Throughout, Mikita checked in with his reporting line and took care to remove sensitive details from materials before sharing them," they wrote. "He acted throughout in good faith and within the company's norms as they stood at the time."
+ What Jasmine Wang Says Happened
+ Wang has also publicly disputed OpenAI's explanation. She said she was given one reason for her dismissal: that she had accessed an executive's email. "OpenAI delegated that access to me for recruiting," she wrote on X. "When I no longer needed it, I asked IT to remove it."
+ Wang said that request was not actioned and that she could not remove the account herself. "When I opened a sensitive email by mistake, I told the executive within minutes and asked IT again," she wrote. "None of this was hidden."
+ Wang claimed the explanations provided for the firings were "simply not adding up." She called on OpenAI to provide the former employees with a written list of allegations so they could respond.
+ "I would welcome receipt of a written and complete list of allegations so that we can properly address their merits, take ownership of them where we ought to, and have OpenAI take ownership of any mistakes they have made," she wrote.
+ What They Want OpenAI To Do Next
+ The former employees set out several recommendations for OpenAI and other frontier AI companies. They called for continued independent safety evaluations and warned against weakening relationships with outside organizations capable of scrutinizing increasingly powerful systems.
+ They also called on AI companies to protect the ability to monitor the internal reasoning of advanced models. "As an industry, we do not yet know how to safely develop and deploy models that we cannot monitor," they wrote.
+ The researchers also want OpenAI to maintain what they describe as an open culture in which safety employees can communicate with independent experts.
+ Balesni has separately expressed concern that the firings could be used to restrict OpenAI's relationship with METR. "I worry that OpenAI is going to use our firing as an excuse to cut off the relationship with @METR_evals," he wrote.
+ OpenAI Responds
+ OpenAI issued a lengthy public statement on October 9 defending its decision to dismiss the three researchers while directly responding to several points raised in their letter.
+ "Last week we parted ways with Jasmine, Mikita, and Tomek after a thorough investigation found they violated clear policies on handling sensitive information," the company said.
+ OpenAI said its investigation uncovered "a significant breach of trust beyond what's outlined in the letter they published" and said it stood by the decision not to continue their employment .
+ The company did not publicly detail the specific conduct it says amounted to that breach, saying individual employment matters are generally kept private.
+ OpenAI nevertheless strongly rejected the researchers' suggestion that their safety advocacy had played a role in their dismissals.
+ "We want to be very clear that these decisions were not about raising safety concerns or speaking out," the company said. It added: "Safety and research debates happen every day at OpenAI, often spirited and highly critical. We actively encourage these discussions and consider them essential to making the right decisions."
+ OpenAI said trust remained essential to that culture, while adding that it would continue to be "extremely forgiving" when employees made good-faith mistakes. "We have not and do not terminate any of our employees for raising concerns," the statement said.
+ The company also responded directly to the trio's concerns about independent safety oversight. OpenAI said it was "actively finalizing contracts with third-party safety assessors" and expected to announce further details in the coming weeks.
+ "We are committed to embedding external assessors and continue to make close collaboration with independent safety organizations a core part of our safety work," it said.
+ The company said many OpenAI researchers already work productively with third-party safety organizations. OpenAI also said it agreed with one of the central arguments in the researchers' letter: that preserving the ability to monitor frontier AI systems requires cooperation across the industry.
+ "We agree with the letter that preserving the monitorability of frontier models requires an industrywide commitment, including from OpenAI," the company said.
+ It pointed to its existing research into monitorability and said the issue remained a significant part of its safety program. OpenAI closed its statement by acknowledging the researchers' previous work. 
+ "We are deeply sad about this outcome," the company said. "We appreciated Jasmine, Mikita, and Tomek's contributions to AI safety at OpenAI and their willingness to speak up and challenge ideas." It continued: "We championed their voices, supported their work, and placed enormous trust in them."
+ But the company again rejected the suggestion that their willingness to raise concerns resulted in their dismissal. "These decisions were not about them raising safety concerns," OpenAI said. "We have always encouraged that and always will."
+ The two sides therefore agree on several of the broader principles at stake, including independent safety evaluation and preserving model monitorability, while sharply disagreeing about what happened in the events leading to the researchers' dismissal.
+ OpenAI says there was a serious breach of its policies and trust, while Korbak, Wang and Balesni argue the boundaries around external safety work were unclear and that the episode risks making other researchers reluctant to speak openly.
+ Why the Letter Matters
+ The disagreement highlights a difficult problem for companies developing frontier AI. Those companies hold commercially and technically sensitive information and have an obvious interest in controlling how it is accessed and shared.
+ At the same time, independent organizations are increasingly being asked to test powerful AI models for dangerous capabilities and unexpected behavior.
+ That can require close cooperation with researchers inside the companies developing those systems. Korbak, Wang and Balesni argue those relationships become less effective if safety employees fear that communicating with outside evaluators could cost them their jobs.
+ Their letter ends with a broader warning about the role of researchers working closest to increasingly powerful AI systems." Researchers inside OpenAI are a front line defense against things going wrong," they wrote.
+ The full letter can be read here: https://mikitabalesni.com/letter/letter.pdf 
+ Newsweek’s reporters and editors used Martyn, our AI assistant, to produce this story. Learn more about Martyn here .
+ Contact Newsweek editors on this story: Rebecca Flood and James Debens 
+ View 0 Comments 
+ Request Reprint & Licensing 
+ Submit Correction 
+ View Editorial & AI Guidelines 
+ sections
+ U.S. 
+ Global 
+ Lifestyle 
+ Health 
+ Opinion 
+ Rankings 
+ company
+ About Us 
+ Masthead 
+ Careers 
+ Diversity & Inclusion 
+ Mission Statement 
+ Leadership 
+ editions
+ U.S. Edition 
+ 日本 
+ Polska 
+ România 
+ contact
+ Advertise 
+ Corrections 
+ Announcements 
+ Press Center 
+ Contact Us 
+ terms of use
+ Cookie Policy 
+ Copyright 
+ Privacy Policy 
+ Terms & Conditions 
+ Terms of Sale 
+ Privacy Settings 
+ sections
+ U.S. 
+ Global 
+ Lifestyle 
+ Health 
+ Opinion 
+ Rankings 
+ company
+ About Us 
+ Masthead 
+ Careers 
+ Diversity & Inclusion 
+ Mission Statement 
+ Leadership 
+ editions
+ U.S. Edition 
+ 日本 
+ Polska 
+ România 
+ contact
+ Advertise 
+ Corrections 
+ Announcements 
+ Press Center 
+ Contact Us 
+ terms of use
+ Cookie Policy 
+ Copyright 
+ Privacy Policy 
+ Terms & Conditions 
+ Terms of Sale 
+ Privacy Settings 
+ © 2026 Newsweek Digital LLC

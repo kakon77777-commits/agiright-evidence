@@ -1,0 +1,600 @@
+DeepSeek API reference-Alibaba Cloud Model Studio(Model Studio)-阿里云帮助中心
+ Models Products Solutions Benefits Pricing AI Marketplace Partners Services About 
+ Docs ICP Filing Console 
+ Documentation 
+ User Guide (Models) 
+ User Guide (Agent) 
+ API Reference (Models) 
+ API Reference (Agent) 
+ CLI 
+ Home Page 
+ Alibaba Cloud Model Studio 
+ User Guide (Models) 
+ Best Practices 
+ Third-party model integration tutorial 
+ DeepSeek-Alibaba Cloud 
+ DeepSeek-Alibaba Cloud
+ Updated at: 
+ Copy as MD Product 
+ My Favorites 
+ This topic describes how to call DeepSeek series models on the Alibaba Cloud Model Studio platform using an OpenAI compatible interface or the DashScope SDK.
+ Important The deepseek-r1-distill-qwen-14b and deepseek-r1-distill-qwen-32b models will be delisted on October 10, 2026 . We recommend that you use the following models instead: qwen3.7-plus , qwen3.7-max , and qwen3.6-flash .
+ Service endpoints 
+ The service endpoint is different for each region. Configure the Base URL based on your selected region (When you call the model, replace {WorkspaceId} with the actual Workspace ID . The available models and rate limits also vary by region. For more information, see the Rate limiting document.
+ OpenAI compatible
+ China (Beijing)
+ The base_url for SDK call configuration is https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1 
+ The HTTP request address is POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ US (Virginia)
+ The base_url for SDK call configuration is https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/compatible-mode/v1 
+ The HTTP request address is POST https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Singapore
+ The base_url for SDK call configuration is https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 
+ The HTTP request address is POST https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Germany (Frankfurt)
+ The base_url for SDK call configuration is https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/compatible-mode/v1 
+ The HTTP request address is POST https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Japan (Tokyo)
+ The base_url for SDK call configuration is https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1 
+ The HTTP request address is POST https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ OpenAI compatible - Responses API
+ Note The Responses API currently supports only deepseek-v4.1-flash , deepseek-v4-flash-0731 , deepseek-v4-pro , and deepseek-v4-pro-0813 , and is available only in the China (Beijing) and Singapore regions.
+ China (Beijing)
+ The base_url for SDK calls: https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP endpoint: POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/responses 
+ Singapore
+ The base_url for SDK calls: https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP endpoint: POST https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1/responses 
+ DashScope
+ China (Beijing)
+ The HTTP request address is POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK call configuration is dashscope.base_http_api_url = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1" 
+ US (Virginia)
+ The HTTP request address is POST https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK call configuration is dashscope.base_http_api_url = "https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1" 
+ Singapore
+ The HTTP request address is POST https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK call configuration is dashscope.base_http_api_url = "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/api/v1" 
+ Germany (Frankfurt)
+ The HTTP request address is POST https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK call configuration is dashscope.base_http_api_url = "https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1" 
+ Japan (Tokyo)
+ The HTTP request address is POST https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK call configuration is dashscope.base_http_api_url = "https://{WorkspaceId}.ap-northeast-1.maas.aliyuncs.com/api/v1" 
+ Getting started 
+ deepseek-v4-pro is the flagship model in the DeepSeek series and excels at programming, math, and general tasks. deepseek-v4-flash-0731 is the latest released version. You can use the enable_thinking parameter to switch between thinking and non-thinking modes. The following example shows how to call the deepseek-v4-pro model in thinking mode.
+ You must obtain an API key and configure it as an environment variable . If you use an SDK, you must also install the OpenAI or DashScope SDK .
+ OpenAI compatible
+ Note The enable_thinking parameter is not a standard OpenAI parameter. The OpenAI Python SDK passes it through extra_body , while the Node.js SDK passes it as a top-level parameter. The reasoning_effort parameter is a standard OpenAI parameter and can be passed directly as a top-level parameter.
+ Python
+ Sample code 
+ from openai import OpenAI
+import os
+# Initialize the OpenAI client
+client = OpenAI(
+ # If the environment variable is not configured, replace it with your Alibaba Cloud Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+messages = [{"role": "user", "content": "Who are you?"}]
+completion = client.chat.completions.create(
+ model="deepseek-v4-pro",
+ messages=messages,
+ # Use extra_body to set enable_thinking and enable thinking mode
+ extra_body={"enable_thinking": True},
+ stream=True,
+ stream_options={
+ "include_usage": True
+ },
+)
+reasoning_content = "" # Complete thinking process
+answer_content = "" # Complete response
+is_answering = False # Indicates whether the response phase has started
+print("\n" + "=" * 20 + "Thinking Process" + "=" * 20 + "\n")
+for chunk in completion:
+ if not chunk.choices:
+ print("\n" + "=" * 20 + "Token Usage" + "=" * 20 + "\n")
+ print(chunk.usage)
+ print("Request ID:", chunk.id)
+ continue
+ delta = chunk.choices[0].delta
+ # Collect only the thinking content
+ if hasattr(delta, "reasoning_content") and delta.reasoning_content is not None:
+ if not is_answering:
+ print(delta.reasoning_content, end="", flush=True)
+ reasoning_content += delta.reasoning_content
+ # After receiving content, start generating the response
+ if hasattr(delta, "content") and delta.content:
+ if not is_answering:
+ print("\n" + "=" * 20 + "Complete Response" + "=" * 20 + "\n")
+ is_answering = True
+ print(delta.content, end="", flush=True)
+ answer_content += delta.content
+ Response 
+ ====================Thinking Process====================
+Okay, the user asked a very simple self-introduction question: "Who are you?".
+I need to clarify my identity, introduce myself as DeepSeek in a concise and friendly way, mention my creator, basic features, and the help I can provide.
+I can organize the answer like this: first, state my identity directly, mention I was created by the DeepSeek company, then list some key features (free, long context, file upload, etc.), and finally end with a friendly invitation, asking if I can help.
+====================Complete Response====================
+Hello! I am DeepSeek, an AI assistant created by the DeepSeek company.
+I can help you answer various questions, create text, analyze documents, assist with programming, and more. My main features are that I am **free to use**, have a **super long context** (I can process the entire 'The Three-Body Problem' trilogy at once), and support **file uploads** and **web search** (must be enabled manually).
+Is there anything I can help you with? Whether it's for study, work, or just a casual chat, I'm happy to talk with you!
+====================Token Usage====================
+CompletionUsage(completion_tokens=238, prompt_tokens=5, total_tokens=243, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=None, audio_tokens=None, reasoning_tokens=93, rejected_prediction_tokens=None), prompt_tokens_details=None)
+Request ID: chatcmpl-a1b2c3d4-e5f6-7890-abcd-ef1234567890
+ Node.js
+ Sample code 
+ import OpenAI from "openai";
+import process from 'process';
+// Initialize the OpenAI client
+const openai = new OpenAI({
+ // If the environment variable is not configured, replace it with your Alibaba Cloud Model Studio API key: apiKey: "sk-xxx"
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: 'https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1'
+});
+let reasoningContent = ''; // Complete thinking process
+let answerContent = ''; // Complete response
+let isAnswering = false; // Indicates whether the response phase has started
+async function main() {
+ try {
+ const messages = [{ role: 'user', content: 'Who are you?' }];
+ const stream = await openai.chat.completions.create({
+ model: 'deepseek-v4-pro',
+ messages,
+ // Note: In the Node.js SDK, non-standard parameters like enable_thinking are passed as top-level properties, not within extra_body.
+ enable_thinking: true,
+ stream: true,
+ stream_options: {
+ include_usage: true
+ },
+ });
+ console.log('\n' + '='.repeat(20) + 'Thinking Process' + '='.repeat(20) + '\n');
+ for await (const chunk of stream) {
+ if (!chunk.choices?.length) {
+ console.log('\n' + '='.repeat(20) + 'Token Usage' + '='.repeat(20) + '\n');
+ console.log(chunk.usage);
+ console.log('Request ID:', chunk.id);
+ continue;
+ }
+ const delta = chunk.choices[0].delta;
+ // Collect only the thinking content
+ if (delta.reasoning_content !== undefined && delta.reasoning_content !== null) {
+ if (!isAnswering) {
+ process.stdout.write(delta.reasoning_content);
+ }
+ reasoningContent += delta.reasoning_content;
+ }
+ // After receiving content, start generating the response
+ if (delta.content !== undefined && delta.content) {
+ if (!isAnswering) {
+ console.log('\n' + '='.repeat(20) + 'Complete Response' + '='.repeat(20) + '\n');
+ isAnswering = true;
+ }
+ process.stdout.write(delta.content);
+ answerContent += delta.content;
+ }
+ }
+ } catch (error) {
+ console.error('Error:', error);
+ }
+}
+main();
+ Response 
+ ====================Thinking Process====================
+Okay, the user asked a very simple self-introduction question: "Who are you?".
+I need to clarify my identity, introduce myself as DeepSeek in a concise and friendly way, mention my creator, basic features, and the help I can provide.
+I can organize the answer like this: first, state my identity directly, mention I was created by the DeepSeek company, then list some key features (free, long context, file upload, etc.), and finally end with a friendly invitation, asking if I can help.
+====================Complete Response====================
+Hello! I am DeepSeek, an AI assistant created by the DeepSeek company.
+I can help you answer various questions, create text, analyze documents, assist with programming, and more. My main features are that I am **free to use**, have a **super long context** (I can process the entire 'The Three-Body Problem' trilogy at once), and support **file uploads** and **web search** (must be enabled manually).
+Is there anything I can help you with? Whether it's for study, work, or just a casual chat, I'm happy to talk with you!
+====================Token Usage====================
+{
+ prompt_tokens: 5,
+ completion_tokens: 243,
+ total_tokens: 248,
+ completion_tokens_details: { reasoning_tokens: 83 }
+}
+Request ID: chatcmpl-a1b2c3d4-e5f6-7890-abcd-ef1234567890
+ HTTP
+ Sample code 
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "deepseek-v4-pro",
+ "messages": [
+ {
+ "role": "user",
+ "content": "Who are you?"
+ }
+ ],
+ "stream": true,
+ "stream_options": {
+ "include_usage": true
+ },
+ "enable_thinking": true
+}'
+ DashScope
+ Python
+ Sample code 
+ import os
+import dashscope
+from dashscope import Generation
+# The following is the configuration for the China (Beijing) region. Replace {WorkspaceId} with your actual workspace ID when making a call. Configurations vary by region.
+dashscope.base_http_api_url = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1"
+# Initialize the request parameters
+messages = [{"role": "user", "content": "Who are you?"}]
+completion = Generation.call(
+ # If the environment variable is not configured, replace it with your Alibaba Cloud Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ model="deepseek-v4-pro",
+ messages=messages,
+ result_format="message", # Set the result format to message
+ enable_thinking=True,
+ stream=True, # Enable streaming output
+ incremental_output=True, # Enable incremental output
+)
+reasoning_content = "" # Complete thinking process
+answer_content = "" # Complete response
+is_answering = False # Indicates whether the response phase has started
+print("\n" + "=" * 20 + "Thinking Process" + "=" * 20 + "\n")
+for chunk in completion:
+ message = chunk.output.choices[0].message
+ # Collect only the thinking content
+ if "reasoning_content" in message:
+ if not is_answering:
+ print(message.reasoning_content, end="", flush=True)
+ reasoning_content += message.reasoning_content
+ # After receiving content, start generating the response
+ if message.content:
+ if not is_answering:
+ print("\n" + "=" * 20 + "Complete Response" + "=" * 20 + "\n")
+ is_answering = True
+ print(message.content, end="", flush=True)
+ answer_content += message.content
+print("\n" + "=" * 20 + "Token Usage" + "=" * 20 + "\n")
+print(chunk.usage)
+print("Request ID:", chunk.request_id)
+ Response 
+ ====================Thinking Process====================
+Okay, the user asked a very simple self-introduction question: "Who are you?".
+I need to clarify my identity, introduce myself as DeepSeek in a concise and friendly way, mention my creator, basic features, and the help I can provide.
+I can organize the answer like this: first, state my identity directly, mention I was created by the DeepSeek company, then list some key features (free, long context, file upload, etc.), and finally end with a friendly invitation, asking if I can help.
+====================Complete Response====================
+Hello! I am DeepSeek, an AI assistant created by the DeepSeek company.
+I can help you answer various questions, create text, analyze documents, assist with programming, and more. My main features are that I am **free to use**, have a **super long context** (I can process the entire 'The Three-Body Problem' trilogy at once), and support **file uploads** and **web search** (must be enabled manually).
+Is there anything I can help you with? Whether it's for study, work, or just a casual chat, I'm happy to talk with you!
+====================Token Usage====================
+{"input_tokens": 6, "output_tokens": 240, "total_tokens": 246, "output_tokens_details": {"reasoning_tokens": 92}}
+Request ID: 85735883-9062-9c33-a963-0bc12584ee68
+ Java
+ Sample code 
+ Important The DashScope Java SDK version must be 2.19.4 or later.
+ // DashScope SDK version >= 2.19.4
+import com.alibaba.dashscope.aigc.generation.Generation;
+import com.alibaba.dashscope.aigc.generation.GenerationParam;
+import com.alibaba.dashscope.aigc.generation.GenerationResult;
+import com.alibaba.dashscope.common.Message;
+import com.alibaba.dashscope.common.Role;
+import com.alibaba.dashscope.exception.ApiException;
+import com.alibaba.dashscope.exception.InputRequiredException;
+import com.alibaba.dashscope.exception.NoApiKeyException;
+import com.alibaba.dashscope.utils.Constants;
+import io.reactivex.Flowable;
+import java.lang.System;
+import java.util.Arrays;
+public class Main {
+ static {
+ // The following is the configuration for the China (Beijing) region. Replace {WorkspaceId} with your actual workspace ID when making a call. Configurations vary by region.
+ Constants.baseHttpApiUrl = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1";
+ }
+ private static StringBuilder reasoningContent = new StringBuilder();
+ private static StringBuilder finalContent = new StringBuilder();
+ private static boolean isFirstPrint = true;
+ private static String requestId = "";
+ private static void handleGenerationResult(GenerationResult message) {
+ requestId = message.getRequestId();
+ String reasoning = message.getOutput().getChoices().get(0).getMessage().getReasoningContent();
+ String content = message.getOutput().getChoices().get(0).getMessage().getContent();
+ if (reasoning != null && !reasoning.isEmpty()) {
+ reasoningContent.append(reasoning);
+ if (isFirstPrint) {
+ System.out.println("====================Thinking Process====================");
+ isFirstPrint = false;
+ }
+ System.out.print(reasoning);
+ }
+ if (content != null && !content.isEmpty()) {
+ finalContent.append(content);
+ if (!isFirstPrint) {
+ System.out.println("\n====================Complete Response====================");
+ isFirstPrint = true;
+ }
+ System.out.print(content);
+ }
+ }
+ private static GenerationParam buildGenerationParam(Message userMsg) {
+ return GenerationParam.builder()
+ // If the environment variable is not configured, replace the following line with your Alibaba Cloud Model Studio API key: .apiKey("sk-xxx")
+ .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+ .model("deepseek-v4-pro")
+ .enableThinking(true)
+ .incrementalOutput(true)
+ .resultFormat("message")
+ .messages(Arrays.asList(userMsg))
+ .build();
+ }
+ public static void streamCallWithMessage(Generation gen, Message userMsg)
+ throws NoApiKeyException, ApiException, InputRequiredException {
+ GenerationParam param = buildGenerationParam(userMsg);
+ Flowable<GenerationResult> result = gen.streamCall(param);
+ result.blockingForEach(message -> handleGenerationResult(message));
+ }
+ public static void main(String[] args) {
+ try {
+ Generation gen = new Generation();
+ Message userMsg = Message.builder().role(Role.USER.getValue()).content("Who are you?").build();
+ streamCallWithMessage(gen, userMsg);
+ System.out.println("\nRequest ID: " + requestId);
+ } catch (ApiException | NoApiKeyException | InputRequiredException e) {
+ System.err.println("An exception occurred: " + e.getMessage());
+ }
+ }
+}
+ Response 
+ ====================Thinking Process====================
+Okay, the user asked a very simple self-introduction question: "Who are you?".
+I need to clarify my identity, introduce myself as DeepSeek in a concise and friendly way, mention my creator, basic features, and the help I can provide.
+I can organize the answer like this: first, state my identity directly, mention I was created by the DeepSeek company, then list some key features (free, long context, file upload, etc.), and finally end with a friendly invitation, asking if I can help.
+====================Complete Response====================
+Hello! I am DeepSeek, an AI assistant created by the DeepSeek company.
+I can help you answer various questions, create text, analyze documents, assist with programming, and more. My main features are that I am **free to use**, have a **super long context** (I can process the entire 'The Three-Body Problem' trilogy at once), and support **file uploads** and **web search** (must be enabled manually).
+Is there anything I can help you with? Whether it's for study, work, or just a casual chat, I'm happy to talk with you!
+ HTTP
+ Sample code 
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation" \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-H "X-DashScope-SSE: enable" \
+-d '{
+ "model": "deepseek-v4-pro",
+ "input":{
+ "messages":[
+ {
+ "role": "user",
+ "content": "Who are you?"
+ }
+ ]
+ },
+ "parameters":{
+ "enable_thinking": true,
+ "incremental_output": true,
+ "result_format": "message"
+ }
+}'
+ Anthropic compatible
+ Authentication: Pass your Model Studio API key in either the x-api-key header or the Authorization: Bearer header. For details about parameters such as thinking mode, see Anthropic-compatible Messages .
+ Python
+ Sample code 
+ import anthropic
+import os
+client = anthropic.Anthropic(
+ # If the environment variable is not configured, replace the value with your Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/apps/anthropic",
+)
+message = client.messages.create(
+ model="deepseek-v4-pro",
+ max_tokens=1024,
+ messages=[
+ {"role": "user", "content": "Who are you?"}
+ ],
+ stream=True,
+)
+for event in message:
+ if event.type == "content_block_delta":
+ if hasattr(event.delta, "thinking"):
+ print(event.delta.thinking, end="", flush=True)
+ if hasattr(event.delta, "text"):
+ print(event.delta.text, end="", flush=True)
+ HTTP
+ Sample code 
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-H "anthropic-version: 2023-06-01" \
+-d '{
+ "model": "deepseek-v4-pro",
+ "max_tokens": 1024,
+ "messages": [
+ {
+ "role": "user",
+ "content": "Who are you?"
+ }
+ ]
+}'
+ Inference strength (reasoning_effort) 
+ The deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v4-flash-0731, and deepseek-v4-pro-0813 models have thinking mode enabled by default. You can adjust the inference strength using the reasoning_effort parameter. The valid values are low (supported only by deepseek-v4.1-flash, deepseek-v4-flash-0731, and deepseek-v4-pro-0813), high , and max . The default value is high .
+ Note For deepseek-v4-pro, low and medium produce the same behavior as high , and xhigh produces the same behavior as max . For deepseek-v4.1-flash, minimal is mapped to low , medium and xhigh are mapped to high , and ultra is mapped to max .
+ OpenAI compatible
+ Python from openai import OpenAI
+import os
+client = OpenAI(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+completion = client.chat.completions.create(
+ model="deepseek-v4-pro",
+ messages=[{"role": "user", "content": "Which is greater, 9.9 or 9.11?"}],
+ reasoning_effort="high",
+)
+print(completion.choices[0].message.content)
+ Node.js import OpenAI from "openai";
+const openai = new OpenAI({
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+});
+const completion = await openai.chat.completions.create({
+ model: "deepseek-v4-pro",
+ messages: [{ role: "user", content: "Which is greater, 9.9 or 9.11?" }],
+ reasoning_effort: "high",
+});
+console.log(completion.choices[0].message.content);
+ curl # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "deepseek-v4-pro",
+ "messages": [{"role": "user", "content": "Which is greater, 9.9 or 9.11?"}],
+ "reasoning_effort": "high"
+}'
+ DashScope
+ import os
+import dashscope
+from dashscope import Generation
+# The following is the configuration for the China (Beijing) region. Replace {WorkspaceId} with your actual workspace ID when making a call. Configurations vary by region.
+dashscope.base_http_api_url = "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1"
+response = Generation.call(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ model="deepseek-v4-pro",
+ messages=[{"role": "user", "content": "Which is greater, 9.9 or 9.11?"}],
+ reasoning_effort="high",
+ result_format="message",
+)
+print(response.output.choices[0].message.content)
+ Responses API 
+ deepseek-v4.1-flash , deepseek-v4-flash-0731 , deepseek-v4-pro , and deepseek-v4-pro-0813 support calls through the OpenAI-compatible Responses API. Only the China (Beijing) and Singapore regions are supported. For endpoints, see Service endpoints .
+ When calling the Responses API, you can add the web_search ( Web search ), web_extractor ( Web extractor ), and code_interpreter ( Code Interpreter ) tools to the tools parameter.
+ Other features 
+ Model Multi-turn conversation 
+ Function Calling 
+ Web search 
+ Context cache 
+ Structured output 
+ Partial mode 
+ deepseek-v4.1-flash
+ Supported
+ Supported
+ Supported
+ Supported
+ Supported
+ Not supported
+ deepseek-v4-pro
+ Supported
+ Supported
+ Supported
+ Supported
+ Supported
+ Not supported
+ deepseek-v4-flash-0731
+ Supported
+ Supported
+ Supported
+ Supported
+ Supported
+ Not supported
+ Distilled models
+ Supported
+ Not supported
+ Not supported
+ Not supported
+ Not supported
+ Not supported
+ Default parameter values 
+ Model 
+ temperature 
+ top_p 
+ repetition_penalty 
+ presence_penalty 
+ max_tokens 
+ thinking_budget 
+ deepseek-v4.1-flash
+ 1.0
+ 1.0
+ -
+ -
+ 393,216
+ -
+ deepseek-v4-pro
+ 1.0
+ 1.0
+ -
+ -
+ 393,216 in total
+ deepseek-v4-flash-0731
+ 1.0
+ 1.0
+ -
+ -
+ 393,216 in total
+ Distilled version
+ 0.6
+ 0.95
+ -
+ 1
+ 16,384
+ 16,384
+ A hyphen (-) indicates that the parameter has no default value and cannot be set.
+ The distilled models do not support setting these parameter values.
+ "393,216 in total" indicates that for deepseek-v4 series models, max_tokens and thinking_budget share the same limit, and their combined maximum is 393,216 tokens (the maximum output length of the model).
+ For parameter definitions, see OpenAI compatible - Chat .
+ Models and billing 
+ Hybrid thinking models (use the enable_thinking parameter to control thinking mode): deepseek-v4.1-flash, deepseek-v4-pro, and deepseek-v4-flash-0731
+ deepseek-v4-pro excels at programming, math, and general tasks. deepseek-v4-flash-0731 is fast and cost-effective. We recommend that you prioritize using deepseek-v4-pro.
+ For information about model context length and pricing, see the Model Studio console.
+ Billing is based on the number of input and output tokens.
+ In thinking mode, the chain-of-thought is billed as output tokens.
+ FAQ 
+ How do I purchase tokens after my free quota is used up? 
+ You can go to the Expenses and Costs center to top up your account. To call DeepSeek models, ensure that your account has no overdue payments.
+ Calls to DeepSeek models are automatically charged. The billing cycle is minute-based. To view your consumption details, go to Bill Details .
+ How do I connect to Chatbox , Cherry Studio , or Dify ? 
+ This section uses common developer tools as examples. The connection method for other LLM tools is similar.
+ Chatbox
+ For more information, see Chatbox .
+ Cherry Studio
+ For more information, see Cherry Studio .
+ Dify
+ For more information, see Dify .
+ Can I upload images or documents to ask questions? 
+ DeepSeek models support only text input, not image or document input. For image input, use the Qwen-VL model. For document input, use the Qwen-Long model.
+ How do I view token usage and the number of calls? 
+ You can view the call results in the monitoring chart at the minute level after a model call occurs. Log in to the Model Monitoring page, select O&M Management > Model Monitoring in the left-side navigation pane to enter the monitoring overview page, and set the query conditions (for example, select the time range and workspace). Then, in the Models area, find the target model and click View Details to view the call statistics for the model. For more information, see the Monitoring & Alerts document.
+ Monitoring data is updated at the minute level and is for reference only. It is not used as a basis for billing.
+ What are the other ways to use DeepSeek? 
+ You can use DeepSeek on the Model Studio platform in three ways:
+ Online experience: Go to the Model Marketplace .
+ API or client calls: Call the model using an API or a client such as Chatbox. For more information, see this topic.
+ Zero-code application building: Build LLM applications with zero code. For more information, see Agent application or Workflow application .
+ To deploy DeepSeek on your own, see the technical solution .
+ Error codes 
+ If an error occurs during execution, see Error codes for a solution.
+ Previous：Third-party model integration tutorial Next：DeepSeek-SiliconFlow 
+ Is this page helpful?
+ Feedback 
+ Why Choose Alibaba Cloud
+ What is Cloud Computing Global Infrastructure Technology Leadership Stability & Reliability Security & Compliance Analyst Reports Models
+ Model Services Qwen Series Model Marketplace Products & Pricing
+ All Products Free Trials Product Updates Pricing Pricing Calculator Cost Management Technical Resources
+ Solutions Documentation Community Tianchi Competitions Alibaba Cloud Certification Benefits
+ Free Trials Solution Trials Academic Program Referral Program Support
+ 24/7 Support Enterprise Support Plans Cloud Migration Services Service Notices Status Dashboard Trust Center Follow Us
+ Follow the Alibaba Cloud official account or download the app to stay updated. Manage and monitor your cloud services anytime, anywhere.
+ Contact us：4008013260
+ Legal Notice Cookie Policy Integrity Reporting Security Reporting Contact Us Careers 
+ Friendly Links
+ Alibaba Group Taobao Qwen AI Platform QwenWork Tmall AliExpress Alibaba International 1688 Alimama Fliggy Alibaba Cloud HiChina Amap UC Umeng Youku DingTalk Alipay DAMO Academy Taobao Global Alibaba Cloud Drive © 2009- Present Aliyun.com. All rights reserved. alue-Added Telecommunications Business Operating License: Zhe B2-20080101 Domain Name Registration Service Provider License： Zhe D3-20210002 
+ Zhejiang Public Security Bureau Record No. 33010602009975 Zhejiang B2-20080101-4

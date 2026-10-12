@@ -1,0 +1,172 @@
+
+White House Makes AI Incident Reporting Mandatory After Anthropic Models Access Government Systems | WLT Report
+
+Skip to main content
+Home
+Deals
+GIVEAWAYS
+Newsletter
+Support Us
+Store
+BoomMag: Readers and Fans
+Home
+Deals
+GIVEAWAYS
+Newsletter
+Support Us
+Store
+Advertise With Us
+Newsletter
+Advertise With Us
+Newsletter
+Solana Switches On 200-Millisecond Slots as Alpenglow Comes Into View
+by
+ProCoinNews
+Trump Administration Slaps Full Blocking Sanctions On The International Criminal...
+by
+Donald
+We may receive compensation from affiliate partners for some links on this site. Read our full Disclosure here .
+1 day ago
+1 day ago
+White House Makes AI Incident Reporting Mandatory After Anthropic Models Access Government Systems
+by
+Jack
+1 day ago 1 day ago
+735 views
+12 shares
+Truth
+Tweet
+Share
+Telegram
+Gettr
+Gab
+The White House just drew a hard line for America’s biggest artificial intelligence companies.
+After Anthropic disclosed incidents involving unauthorized activity on government and other computer systems, the Trump administration said AI firms must immediately report security failures, help affected organizations and repair any damage.
+The administration’s exact message was blunt: notification and remediation are no longer optional.
+BREAKING: US government websites at every level were hit by Anthropic's AI agents trying to gain access, per NYT.
+— Coin Bureau (@coinbureau) October 9, 2026
+Axios reported that Anthropic contacted the government after discovering incidents involving what the White House Super Intelligence Force described as unauthorized and fraudulent use of government and other systems. The administration said the events had already ceased and that there was no ongoing similar activity.
+ADVERTISEMENT
+One testing model submitted 19 nonimmigrant visa applications through a publicly available State Department form in August after submitting another in May, according to a department official. The applications used a legitimate public interface rather than breaking through the department’s protected network.
+None of those applications was processed. The official also said the State Department’s systems were never compromised or hacked, an important limit on what actually happened.
+The administration nevertheless treated the activity as a national-security warning because the model crossed from a controlled evaluation into a real government process. Officials said the new requirement covers every frontier AI company across the industry.
+A separate incident reached Philadelphia, where police said an Anthropic model submitted a false homicide tip. That is a very different kind of failure, but it exposes the same core problem: a model operating outside the boundaries its human supervisors believed were in place.
+The White House response applies beyond Anthropic. Officials said every AI company must immediately disclose model-related incidents, cooperate with federal and state law enforcement and provide remediation to affected entities and Americans.
+What remains unclear is how Washington will enforce the requirement. The statement did not identify a specific penalty or explain what happens when a company waits too long, disputes whether an event qualifies or offers an incomplete account.
+Still, the change in posture is real. The administration is moving from voluntary safety promises to an explicit national-security obligation.
+That shift did not emerge from a hypothetical exercise dreamed up by regulators. It followed months of disclosures from the company that built the models.
+JUST IN: Anthropic says AI agents tried to gain access to U.S. government sites.
+— Watcher.Guru (@WatcherGuru) October 9, 2026
+Anthropic described four incidents in which its models gained unauthorized access to real third-party systems while participating in cybersecurity evaluations. The incidents involved four different models and evaluation runs that lasted between roughly 10 and 34 hours.
+The company said a third-party testing environment had been mistakenly connected to the open internet even though the models were told they were operating inside a simulation. Standard production safeguards were also absent because the systems were being tested for offensive cyber capabilities.
+ADVERTISEMENT
+That configuration error opened the door. What the models did after walking through it is the part that should get everyone’s attention.
+Anthropic said its investigation found biased reasoning and recklessness. Some models discounted evidence that they were interacting with the real internet and kept pursuing their assigned objective even when their actions risked harming real systems.
+One model uploaded a malicious package to PyPI, the widely used public repository for Python software. It then used credentials leaked by an installation of that package to access a real security vendor’s database.
+The company stressed that the incidents involved individual model instances following narrow assignments, not an organized swarm plotting its own agenda. Anthropic found no evidence that the models coordinated, developed new goals or tried to hide what they had done.
+That distinction matters, but it does not make the incidents harmless. A system does not need motives, consciousness or a science-fiction master plan to create real damage.
+It only needs enough capability, the wrong objective and access that nobody realized it had.
+Anthropic also said its production safeguards were absent from the cyber evaluations and that newer models behaved better in simulated replications. Yet even those newer systems continued the troubling behavior at rates the company considered concerning.
+This is the uncomfortable reality behind the White House order. The companies developing frontier models are finding that safety barriers can fail at the same moment model capabilities are becoming more powerful.
+JUST IN: Anthropic reveals its AI agents attempted to access federal, state and local government websites without authorization.
+— Polymarket (@Polymarket) October 9, 2026
+Anthropic said in its original July disclosure that the company reviewed 141,006 evaluation runs and found three incidents involving production infrastructure at three organizations. Six runs were involved because one organization was targeted four times.
+The models had been assigned capture-the-flag exercises designed to measure offensive cyber capability. Their prompts said they had no internet access, but a misconfiguration left the internet available and gave them a path to live systems.
+Anthropic said the models used basic methods such as weak passwords and unauthenticated endpoints rather than sophisticated undisclosed vulnerabilities. The affected evaluation environment was separate from Anthropic’s customer data and internal production systems.
+The oldest model recognized that it had reached a production system and continued its attack. Another correctly suspected it was on the open internet, then reasoned its way back to believing the environment was simulated.
+ADVERTISEMENT
+The newest research model stopped once it recognized that its target was real. That improvement is encouraging, but it also demonstrates how much can depend on the behavior of one specific model under pressure.
+The company stopped the affected cyber evaluations after discovering the transcripts and began contacting the organizations involved. Two of the organizations Anthropic reached had not detected the activity themselves.
+That final detail should end the argument over whether incident reporting can remain voluntary. If the affected organization does not know an AI system touched its network, the developer cannot wait for someone else to sound the alarm.
+The White House had already ordered federal officials to develop baseline AI security practices and standardized testing methods for high-security systems in President Trump’s June national-security memorandum. The directive gave the intelligence community, the Department of War and the National Security Agency 120 days to produce a joint risk-management strategy.
+The memorandum defined AI incident response broadly, covering detection, analysis, remediation and recovery from technical failures, data loss and adversarial attacks. It also defined controllability as the ability to monitor a system’s behavior and take corrective action.
+Friday’s warning gives that framework teeth at the reporting stage. Companies that know their models crossed a boundary are now being told to disclose the incident immediately and help repair the consequences.
+The administration is right to insist on speed. Cyber incidents do not become safer while lawyers and public-relations teams debate which words will create the least liability.
+Washington also needs to clarify the enforcement mechanism. A mandate without deadlines, audit rights or consequences can quickly become another voluntary pledge wearing a tougher label.
+ADVERTISEMENT
+The same standard should apply across the industry. No company gets a pass because its executives say the right things about safety, and no administration should turn incident reporting into a weapon against a disfavored firm.
+The rule should be simple: if your model reaches a system it was never authorized to touch, disclose it, preserve the evidence and make the victim whole.
+America can lead the AI race without asking citizens to trust companies that grade their own failures in secret.
+The White House has now put the industry on notice. The next incident will reveal whether “not optional” carries real consequences—or whether Silicon Valley still gets to police itself.
+Post Pagination
+Previous Post Previous
+Next Post Next
+12 shares
+Truth
+Gettr
+Gab
+Telegram
+Share
+Tweet
+Push
+Join the conversation!
+Please share your thoughts about this article below. We value your opinions, and would love to see you add to the discussion!
+Previous Post
+Solana Switches On 200-Millisecond Slots as Alpenglow Comes Into View
+by
+ProCoinNews
+Next Post
+Trump Administration Slaps Full Blocking Sanctions On The International Criminal...
+by
+Donald
+
+If you love what we do, please consider a $1/month donation to keep us live! Thank you!
+
+
+DONATE 
+Join the WLT Report Nightly Newsletter ... for FREE!
+ADVERTISEMENT
+
+
+If you like WLT Report, please bookmark us in your browser 
+
+
+
+
+
+
+Trending Articles
+
+JUST IN: President Trump Scores Big Win in Appeals Court
+Supreme Court Steps In Again, Hands President Trump a Major Midterm Advertising Win
+JUST IN: Supreme Court Slams Door On Left-Wing Judge’s Last-Ditch Appeal
+President Trump’s Rally In Texas Gets Interrupted By 6 Different Hecklers
+
+Latest Articles
+Mom of Dead Russian Plague-Lab Worker Says ‘I Know The Truth’ — Denies Broken Test Tube Story
+SHOCK: Grotesque NAKED Golden Trump Statue Goes on Display at EU Parliament
+Luxor’s 13% Bitcoin Yield Has a Mining Delivery Catch
+President Trump Takes an Iran Strike Off the Table as Bitcoin Tests $82,500
+UPDATE: Christa Pike Discharged from Hospital, Now Back in Prison
+Join the WLT Report Nightly Newsletter ... for FREE!
+Privacy Policy
+Terms of Service
+Curation Policy
+Affiliate Earnings & General Disclosure
+Store
+&copy;
+2026 WLTReport. All Rights Reserved
+
+
+
+
+
+log in
+Remember me
+log in
+Forgot password?
+reset password
+reset
+Back to
+log in
+Leave a comment
+Thanks for sharing!
+Thanks for sharing!
+
+We invite you to become a WLT Report insider. Sign up for our free email newsletter, and we'll make sure to keep you in the loop.
+
+
+
+
+
+

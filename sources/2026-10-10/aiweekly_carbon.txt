@@ -1,0 +1,75 @@
+Google Staff Test New Gemini 4 'Carbon' Build on Jetski | AI Weekly 
+ AI News 
+ Archives 
+ Learning AI 
+ Newsletters 
+ AI Index 
+ AI News Today 
+ Who's Who 
+ Use Cases 
+ Advertise 
+ Login 
+ Join free with your email
+ With your email
+ We send you a confirmation link to click.
+ Email 
+ SUBSCRIBE 
+ Also get daily AI alerts — breaking stories only 
+ Free. No spam, ever — we'll never share your email address and you can opt out at any time. Already a subscriber? Log in 
+ businessinsider.com 
+ web signal
+ Google Staff Test New Gemini 4 'Carbon' Build on Jetski 
+ By Alexis Dufresne 
+ · 
+ Published
+ October 9, 2026 at 22:55 UTC 
+ · 
+ Updated
+ October 9, 2026 at 23:00 UTC 
+ Google 
+ Sundar Pichai 
+ ai-business 
+ AI Weekly Pro
+ Want only the AI that hits your stack?
+ Build an agent that tracks your companies and topics, and skips everything else.
+ Build your agent → 
+ TL;DR
+ Google employees are testing a new Gemini 4 variant internally codenamed Carbon, deployed across the company's Jetski development environment in recent days.
+ One Google developer told Business Insider that Carbon's coding performance 'feels comparable to Anthropic's Opus 5.5.'
+ Google's internal Barium-B build was the one ultimately shipped publicly as Gemini 4 Argon; Carbon's eventual public name is unconfirmed.
+ Editor's note 
+ If Carbon ships close behind Argon, procurement teams should assume a shorter honeymoon on whichever Google model they just standardized on, and Anthropic has to defend the Opus comparison before it hardens into received wisdom.
+ Google employees are testing a new Gemini 4 variant internally codenamed Carbon, deployed across the company's Jetski development environment in recent days, Business Insider reports .
+ One Google developer told the outlet that Carbon's coding performance "feels comparable to Anthropic's Opus 5.5." That is one anonymous staffer, speaking to one reporter, about an internal build nobody outside the company has evaluated. It is the kind of quote that drives procurement conversations anyway.
+ The naming matters because Google's internal codenames do not match its public ones. Business Insider reports that the Barium-B build was the one ultimately selected for public launch as Gemini 4 Argon. Carbon is the next step along that line. Its final public designation is unconfirmed, and Google declined to comment on specific internal roadmaps.
+ Carbon is landing while Argon itself is still being argued over inside Google. Benchmark scores look strong; some employees say the model is less convincing when they actually use it for coding work. Our tracker has logged 204 Google AI stories over the last 90 days , and this week's run alone — a Workspace MCP v2 release and an AI Edge Foresight launch — reads like a company moving faster than its public roadmap.
+ No public benchmark for Carbon exists. No release date. No second outlet has confirmed the Opus 5.5 comparison.
+ Editor's take 
+ Given the Barium-to-Argon precedent, the public name on Carbon is probably not 'Carbon'; watch Google's next Gemini release notes for a lineage detail that confirms whether the shipped build is this Jetski variant or something later.
+ What internal eval was the Google developer actually using when they said Carbon 'feels comparable to Anthropic's Opus 5.5'?
+ AI Weekly Pro
+ We scan all of AI. You track a slice of it.
+ Build an agent that watches only the companies, topics and people you choose. It reads everything our scanners pull and sends you an edition made of just your matches.
+ Build your agent → 
+ $7/month for the first 2,000 members.
+ Originally reported by
+ businessinsider.com 
+ Read the original article →
+ Original headline: 
+ BI: Google Staff Testing Internal 'Carbon' Gemini 4 Variant That One Dev Says 'Feels Like Opus 5.5' 
+ AI Weekly Pro
+ This one found you. The next one might not.
+ Name the companies, topics and people you follow. Your agent watches them across every source we scan and sends you an edition when something lands.
+ Build your agent → 
+ $7/month for the first 2,000 members.
+ Track only the AI that matters to you
+ Your own agent, watching your companies and topics. 
+ Build your agent → 
+ × 
+ &copy;2015-2026 AI News Weekly | AI News | Archives | Learning AI 
+ Log in | Unsubscribe 
+ We use essential cookies to keep the site working (login, form security). With your permission, we also use analytics cookies to understand how you use the site.
+ Privacy policy 
+ Accept All 
+ Essential Only 
+ Reject Non-Essential

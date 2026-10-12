@@ -1,0 +1,992 @@
+GLM_Alibaba Cloud Model Studio(Model Studio)-Alibaba Cloud Model Studio(Model Studio)-阿里云帮助中心
+ Models Products Solutions Benefits Pricing AI Marketplace Partners Services About 
+ Docs ICP Filing Console 
+ Documentation 
+ User Guide (Models) 
+ User Guide (Agent) 
+ API Reference (Models) 
+ API Reference (Agent) 
+ CLI 
+ Home Page 
+ Alibaba Cloud Model Studio 
+ User Guide (Models) 
+ Best Practices 
+ Third-party model integration tutorial 
+ GLM - Alibaba Cloud 
+ GLM
+ Updated at: 
+ Copy as MD Product 
+ My Favorites 
+ This topic describes how to use APIs to call GLM series models on the Alibaba Cloud Model Studio platform. Each model includes 1 million free tokens.
+ Service endpoints 
+ Service endpoints vary by region. Configure the base URL that corresponds to your selected region.
+ OpenAI compatible
+ China (Beijing)
+ The base_url for SDK calls is: https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request endpoint: POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ US (Virginia)
+ The base_url for SDK calls is: https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request endpoint: POST https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Germany (Frankfurt)
+ The base_url for SDK calls is: https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request endpoint: POST https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Singapore
+ The base_url for SDK calls is: https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request endpoint: POST https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ OpenAI compatible - Responses API
+ Note The Responses API currently supports only glm-5.2 and glm-5.3 , and is available only in the China (Beijing) and Singapore regions.
+ China (Beijing)
+ The base_url for SDK calls: https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP endpoint: POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/responses 
+ Singapore
+ The base_url for SDK calls: https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP endpoint: POST https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1/responses 
+ DashScope
+ China (Beijing)
+ HTTP request endpoint: POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK calls is:
+ Python
+ dashscope.base_http_api_url = 'https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1'
+ Java
+ Method 1: 
+ import com.alibaba.dashscope.protocol.Protocol;
+Generation gen = new Generation(Protocol.HTTP.getValue(), "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1");
+ Method 2: 
+ import com.alibaba.dashscope.utils.Constants;
+Constants.baseHttpApiUrl="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1";
+ US (Virginia)
+ HTTP request endpoint: POST https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK calls is:
+ Python
+ dashscope.base_http_api_url = 'https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1'
+ Java
+ Method 1: 
+ import com.alibaba.dashscope.protocol.Protocol;
+Generation gen = new Generation(Protocol.HTTP.getValue(), "https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1");
+ Method 2: 
+ import com.alibaba.dashscope.utils.Constants;
+Constants.baseHttpApiUrl="https://{WorkspaceId}.us-east-1.maas.aliyuncs.com/api/v1";
+ Germany (Frankfurt)
+ HTTP request endpoint: POST https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK calls is:
+ Python
+ dashscope.base_http_api_url = 'https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1'
+ Java
+ Method 1: 
+ import com.alibaba.dashscope.protocol.Protocol;
+Generation gen = new Generation(Protocol.HTTP.getValue(), "https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1");
+ Method 2: 
+ import com.alibaba.dashscope.utils.Constants;
+Constants.baseHttpApiUrl="https://{WorkspaceId}.eu-central-1.maas.aliyuncs.com/api/v1";
+ Singapore
+ HTTP request endpoint: POST https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK calls is: dashscope.base_http_api_url = "https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/api/v1" 
+ China (Hong Kong)
+ HTTP request endpoint: POST https://{WorkspaceId}.cn-hongkong.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation 
+ The base_url for SDK calls is:
+ Python
+ dashscope.base_http_api_url = 'https://{WorkspaceId}.cn-hongkong.maas.aliyuncs.com/api/v1'
+ China (Hong Kong)
+ The base_url for SDK calls is: https://{WorkspaceId}.cn-hongkong.maas.aliyuncs.com/compatible-mode/v1 
+ HTTP request endpoint: POST https://{WorkspaceId}.cn-hongkong.maas.aliyuncs.com/compatible-mode/v1/chat/completions 
+ Replace {WorkspaceId} with your actual workspace ID .
+ Getting started 
+ glm-5.3, glm-5.2, and glm-5.2-fast-preview are the latest models in the GLM series. They have a context length of 1M. glm-5.2 and glm-5.2-fast-preview let you set the thinking mode and non-thinking mode using the enable_thinking parameter. glm-5.3 supports only the thinking mode, which cannot be disabled. You can run the following code to quickly call the glm-5.2 model in thinking mode.
+ Before you start, obtain an API key and configure it as an environment variable . If you use an SDK, you must also install the OpenAI or DashScope SDK .
+ OpenAI compatible
+ Note The enable_thinking parameter is not a standard OpenAI parameter. In the OpenAI Python SDK, it is passed through extra_body . In the Node.js SDK, it is passed as a top-level parameter.
+ Python
+ Sample code 
+ from openai import OpenAI
+import os
+# Initialize the OpenAI client
+client = OpenAI(
+ # If the environment variable is not configured, replace the value with your Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+messages = [{"role": "user", "content": "Who are you?"}]
+completion = client.chat.completions.create(
+ model="glm-5.2",
+ messages=messages,
+ # Set enable_thinking in extra_body to enable the thinking mode
+ extra_body={"enable_thinking": True},
+ stream=True,
+ stream_options={
+ "include_usage": True
+ },
+)
+reasoning_content = "" # Complete thinking process
+answer_content = "" # Complete response
+is_answering = False # Indicates whether the response phase has started
+print("\n" + "=" * 20 + "Thinking process" + "=" * 20 + "\n")
+for chunk in completion:
+ if not chunk.choices:
+ print("\n" + "=" * 20 + "Token usage" + "=" * 20 + "\n")
+ print(chunk.usage)
+ continue
+ delta = chunk.choices[0].delta
+ # Collect only the thinking content
+ if hasattr(delta, "reasoning_content") and delta.reasoning_content is not None:
+ if not is_answering:
+ print(delta.reasoning_content, end="", flush=True)
+ reasoning_content += delta.reasoning_content
+ # After content is received, start the response
+ if hasattr(delta, "content") and delta.content:
+ if not is_answering:
+ print("\n" + "=" * 20 + "Complete response" + "=" * 20 + "\n")
+ is_answering = True
+ print(delta.content, end="", flush=True)
+ answer_content += delta.content
+ Response 
+ ====================Thinking process====================
+Let me carefully consider the user's question. It seems simple, but it actually has depth.
+From a linguistic perspective, the user is using Chinese, which means I should respond in Chinese. This is a basic self-introduction question, but it may have multiple layers of meaning.
+First, I need to be clear that as a language model, I should honestly state my identity and nature. I am not a human, nor do I have real emotional awareness. I am an AI assistant trained with deep learning technology. This is the most basic fact.
+Second, considering the user's potential scenarios, they might want to know:
+1. What services can I provide?
+2. What are my areas of expertise?
+3. What are my limitations?
+4. How can they interact with me better?
+In my answer, I should express a friendly and open attitude while remaining professional and accurate. I should state my main areas of expertise, such as knowledge Q&A, writing assistance, and creative support, but also frankly point out my limitations, such as the lack of real emotional experience.
+In addition, to make the answer more complete, I should also express a positive attitude of being willing to help users solve problems. I can appropriately guide users to ask more specific questions to better demonstrate my abilities.
+Considering this is an open-ended opening, the answer should be both concise and informative, giving the user a clear understanding of my basic situation and laying a good foundation for subsequent conversations.
+Finally, the tone should be humble and professional, neither too technical nor too casual, to make the user feel comfortable and natural.
+====================Complete response====================
+I am a GLM large language model trained by Zhipu AI, designed to provide users with information and help solve problems. I am designed to understand and generate human language, and I can answer questions, provide explanations, or participate in discussions on various topics.
+I do not store your personal data, and our conversations are anonymous. Is there any topic I can help you understand or discuss?
+====================Token usage====================
+CompletionUsage(completion_tokens=344, prompt_tokens=7, total_tokens=351, completion_tokens_details=None, prompt_tokens_details=None)
+ Node.js
+ Sample code 
+ import OpenAI from "openai";
+import process from 'process';
+// Initialize the OpenAI client
+const openai = new OpenAI({
+ // If the environment variable is not configured, replace the value with your Model Studio API key: apiKey: "sk-xxx"
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: 'https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1'
+});
+let reasoningContent = ''; // Complete thinking process
+let answerContent = ''; // Complete response
+let isAnswering = false; // Indicates whether the response phase has started
+async function main() {
+ try {
+ const messages = [{ role: 'user', content: 'Who are you?' }];
+ const stream = await openai.chat.completions.create({
+ model: 'glm-5.2',
+ messages,
+ // Note: In the Node.js SDK, non-standard parameters such as enable_thinking are passed as top-level properties and do not need to be placed in extra_body.
+ enable_thinking: true,
+ stream: true,
+ stream_options: {
+ include_usage: true
+ },
+ });
+ console.log('\n' + '='.repeat(20) + 'Thinking process' + '='.repeat(20) + '\n');
+ for await (const chunk of stream) {
+ if (!chunk.choices?.length) {
+ console.log('\n' + '='.repeat(20) + 'Token usage' + '='.repeat(20) + '\n');
+ console.log(chunk.usage);
+ continue;
+ }
+ const delta = chunk.choices[0].delta;
+ // Collect only the thinking content
+ if (delta.reasoning_content !== undefined && delta.reasoning_content !== null) {
+ if (!isAnswering) {
+ process.stdout.write(delta.reasoning_content);
+ }
+ reasoningContent += delta.reasoning_content;
+ }
+ // After content is received, start the response
+ if (delta.content !== undefined && delta.content) {
+ if (!isAnswering) {
+ console.log('\n' + '='.repeat(20) + 'Complete response' + '='.repeat(20) + '\n');
+ isAnswering = true;
+ }
+ process.stdout.write(delta.content);
+ answerContent += delta.content;
+ }
+ }
+ } catch (error) {
+ console.error('Error:', error);
+ }
+}
+main();
+ Response 
+ ====================Thinking process====================
+Let me carefully think about the user's question, "Who are you?". This needs to be analyzed and answered from multiple perspectives.
+First, this is a basic identity question. As a GLM large language model, I need to accurately express my identity. I should clearly state that I am an AI assistant developed by Zhipu AI.
+Second, I need to consider the user's possible intentions for asking this question. They might be first-time users who want to understand my basic functions, or they might want to confirm if I can provide specific help, or they might just be testing my response style. Therefore, I need to give an open and friendly answer.
+I also need to consider the completeness of the answer. In addition to introducing my identity, I should also briefly explain my main functions, such as Q&A, creation, and analysis, so that users can understand how to use this assistant.
+Finally, I need to ensure a friendly and approachable tone and express my willingness to help. I can use expressions like "I'm happy to serve you" to make the user feel the warmth of the communication.
+Based on these thoughts, I can organize a concise and clear answer that not only answers the user's question but also guides subsequent communication.
+====================Complete response====================
+I am GLM, a large language model trained by Zhipu AI. I am trained on a massive amount of text data to understand and generate human language, helping users answer questions, provide information, and engage in conversations.
+I will continue to learn and improve to provide better services. I am happy to answer your questions or provide help! What can I do for you?
+====================Token usage====================
+{ prompt_tokens: 7, completion_tokens: 248, total_tokens: 255 }
+ HTTP
+ Sample code 
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "glm-5.2",
+ "messages": [
+ {
+ "role": "user",
+ "content": "Who are you?"
+ }
+ ],
+ "stream": true,
+ "stream_options": {
+ "include_usage": true
+ },
+ "enable_thinking": true
+}'
+ DashScope
+ Python
+ Sample code 
+ import os
+from dashscope import Generation
+# Initialize request parameters
+messages = [{"role": "user", "content": "Who are you?"}]
+completion = Generation.call(
+ # If the environment variable is not configured, replace the value with your Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ model="glm-5.2",
+ messages=messages,
+ result_format="message", # Set the result format to message
+ enable_thinking=True, # Enable the thinking mode
+ stream=True, # Enable streaming output
+ incremental_output=True, # Enable incremental output
+)
+reasoning_content = "" # Complete thinking process
+answer_content = "" # Complete response
+is_answering = False # Indicates whether the response phase has started
+print("\n" + "=" * 20 + "Thinking process" + "=" * 20 + "\n")
+for chunk in completion:
+ message = chunk.output.choices[0].message
+ # Collect only the thinking content
+ if "reasoning_content" in message:
+ if not is_answering:
+ print(message.reasoning_content, end="", flush=True)
+ reasoning_content += message.reasoning_content
+ # After content is received, start the response
+ if message.content:
+ if not is_answering:
+ print("\n" + "=" * 20 + "Complete response" + "=" * 20 + "\n")
+ is_answering = True
+ print(message.content, end="", flush=True)
+ answer_content += message.content
+print("\n" + "=" * 20 + "Token usage" + "=" * 20 + "\n")
+print(chunk.usage)
+ Response 
+ ====================Thinking process====================
+Let me carefully consider the user's question, "Who are you?". First, I need to analyze the user's intent. This could be curiosity from a first-time user, or they might want to understand my specific functions and capabilities.
+From a professional perspective, I should clearly state my identity - as a GLM large language model, I need to explain my basic positioning and main functions. I should avoid overly technical descriptions and use easy-to-understand language.
+At the same time, I should also consider some practical issues that users may be concerned about, such as privacy protection and data security. These are points that users are very concerned about when using AI services.
+In addition, to show professionalism and friendliness, I can take the initiative to guide the conversation after the introduction and ask if the user needs specific help. This will not only help the user understand me better but also pave the way for subsequent conversations.
+Finally, I need to ensure that the answer is concise and clear, with the key points highlighted, so that the user can quickly understand my identity and purpose. Such an answer can both satisfy the user's curiosity and demonstrate professionalism and a service-oriented attitude.
+====================Complete response====================
+I am a GLM large language model developed by Zhipu AI, designed to provide information and help to users through natural language processing technology. I am trained on a massive amount of text data and can understand and generate human language, answer questions, provide knowledge support, and participate in conversations.
+My design goal is to be a useful AI assistant while ensuring user privacy and data security. I do not store users' personal information and will continue to learn and improve to provide better services.
+Is there any question I can answer or any task I can assist you with?
+====================Token usage====================
+{"input_tokens": 8, "output_tokens": 269, "total_tokens": 277}
+ Java
+ Sample code 
+ Important The version of the DashScope Java SDK must be 2.19.4 or later.
+ // The version of the DashScope SDK must be 2.19.4 or later.
+import com.alibaba.dashscope.aigc.generation.Generation;
+import com.alibaba.dashscope.aigc.generation.GenerationParam;
+import com.alibaba.dashscope.aigc.generation.GenerationResult;
+import com.alibaba.dashscope.common.Message;
+import com.alibaba.dashscope.common.Role;
+import com.alibaba.dashscope.exception.ApiException;
+import com.alibaba.dashscope.exception.InputRequiredException;
+import com.alibaba.dashscope.exception.NoApiKeyException;
+import io.reactivex.Flowable;
+import java.lang.System;
+import java.util.Arrays;
+public class Main {
+ private static StringBuilder reasoningContent = new StringBuilder();
+ private static StringBuilder finalContent = new StringBuilder();
+ private static boolean isFirstPrint = true;
+ private static void handleGenerationResult(GenerationResult message) {
+ String reasoning = message.getOutput().getChoices().get(0).getMessage().getReasoningContent();
+ String content = message.getOutput().getChoices().get(0).getMessage().getContent();
+ if (reasoning != null && !reasoning.isEmpty()) {
+ reasoningContent.append(reasoning);
+ if (isFirstPrint) {
+ System.out.println("====================Thinking process====================");
+ isFirstPrint = false;
+ }
+ System.out.print(reasoning);
+ }
+ if (content != null && !content.isEmpty()) {
+ finalContent.append(content);
+ if (!isFirstPrint) {
+ System.out.println("\n====================Complete response====================");
+ isFirstPrint = true;
+ }
+ System.out.print(content);
+ }
+ }
+ private static GenerationParam buildGenerationParam(Message userMsg) {
+ return GenerationParam.builder()
+ // If the environment variable is not configured, replace the following line with: .apiKey("sk-xxx")
+ .apiKey(System.getenv("DASHSCOPE_API_KEY"))
+ .model("glm-5.2")
+ .incrementalOutput(true)
+ .resultFormat("message")
+ .messages(Arrays.asList(userMsg))
+ .build();
+ }
+ public static void streamCallWithMessage(Generation gen, Message userMsg)
+ throws NoApiKeyException, ApiException, InputRequiredException {
+ GenerationParam param = buildGenerationParam(userMsg);
+ Flowable<GenerationResult> result = gen.streamCall(param);
+ result.blockingForEach(message -> handleGenerationResult(message));
+ }
+ public static void main(String[] args) {
+ try {
+ Generation gen = new Generation();
+ Message userMsg = Message.builder().role(Role.USER.getValue()).content("Who are you?").build();
+ streamCallWithMessage(gen, userMsg);
+ } catch (ApiException | NoApiKeyException | InputRequiredException e) {
+ System.err.println("An exception occurred: " + e.getMessage());
+ }
+ }
+}
+ Response 
+ ====================Thinking process====================
+Let me think about how to answer the user's question. First, this is a simple question about identity that needs a clear and direct answer.
+As a large language model, I should accurately state my basic identity information. This includes:
+- Name: GLM
+- Developer: Zhipu AI
+- Main functions: Language understanding and generation
+Considering that the user's question may stem from a first-time interaction, I need to introduce myself in an easy-to-understand way, avoiding overly technical terms. At the same time, I should also briefly explain my main capabilities to help the user better understand how to interact with me.
+I should also express a friendly and open attitude, welcoming users to ask various questions, which can lay a good foundation for subsequent conversations. However, the introduction should be concise and not overly detailed, to avoid burdening the user with too much information.
+Finally, to promote further communication, I can proactively ask if the user needs specific help, which can better serve the user's actual needs.
+====================Complete response====================
+I am GLM, a large language model developed by Zhipu AI. I am trained on a massive amount of text data and can understand and generate human language, answer questions, provide information, and engage in conversations.
+My design purpose is to help users solve problems, provide knowledge, and support various language tasks. I will continuously learn and update to provide more accurate and useful answers.
+Is there any question I can answer or discuss with you?
+ HTTP
+ Sample code 
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation" \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-H "X-DashScope-SSE: enable" \
+-d '{
+ "model": "glm-5.2",
+ "input":{
+ "messages":[
+ {
+ "role": "user",
+ "content": "Who are you?"
+ }
+ ]
+ },
+ "parameters":{
+ "enable_thinking": true,
+ "incremental_output": true,
+ "result_format": "message"
+ }
+}'
+ Anthropic compatible
+ Python
+ Sample code 
+ import anthropic
+import os
+client = anthropic.Anthropic(
+ # If the environment variable is not configured, replace the value with your Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/apps/anthropic",
+)
+message = client.messages.create(
+ model="glm-5.2",
+ max_tokens=1024,
+ messages=[
+ {"role": "user", "content": "Who are you?"}
+ ],
+ stream=True,
+)
+for event in message:
+ if event.type == "content_block_delta":
+ if hasattr(event.delta, "thinking"):
+ print(event.delta.thinking, end="", flush=True)
+ if hasattr(event.delta, "text"):
+ print(event.delta.text, end="", flush=True)
+ HTTP
+ Sample code 
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/apps/anthropic/v1/messages \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-H "anthropic-version: 2023-06-01" \
+-d '{
+ "model": "glm-5.2",
+ "max_tokens": 1024,
+ "messages": [
+ {
+ "role": "user",
+ "content": "Who are you?"
+ }
+ ]
+}'
+ Streaming tool calling 
+ glm-5.3, glm-5.2, glm-5.2-fast-preview, glm-5.1, glm-5 support the tool_stream parameter. This boolean parameter defaults to true for glm-5.3 and to false for the other models, and takes effect only when stream is set to true . When enabled, the arguments of the tool_call parameter from Function Calling are returned incrementally in a stream, rather than all at once after the full generation is complete.
+ The combined behavior of stream and tool_stream is as follows:
+ stream 
+ tool_stream 
+ tool_call return method 
+ true
+ true
+ The arguments are returned incrementally in multiple chunks.
+ true
+ false (default)
+ The arguments are returned completely in a single chunk.
+ false
+ true/false
+ tool_stream has no effect. The arguments are returned at once in the complete response.
+ OpenAI compatible
+ Python
+ Sample code 
+ from openai import OpenAI
+import os
+client = OpenAI(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+tools = [
+ {
+ "type": "function",
+ "function": {
+ "name": "get_weather",
+ "description": "Get the weather information for a specified city",
+ "parameters": {
+ "type": "object",
+ "properties": {
+ "city": {"type": "string", "description": "The name of the city"}
+ },
+ "required": ["city"]
+ }
+ }
+ }
+]
+messages = [{"role": "user", "content": "What's the weather like in Beijing?"}]
+completion = client.chat.completions.create(
+ model="glm-5.2",
+ tools=tools,
+ messages=messages,
+ extra_body={
+ "tool_stream": True,
+ },
+ stream=True,
+ stream_options={"include_usage": True},
+)
+for chunk in completion:
+ if chunk.choices:
+ delta = chunk.choices[0].delta
+ if hasattr(delta, 'content') and delta.content:
+ print(f"[content] {delta.content}")
+ if hasattr(delta, 'tool_calls') and delta.tool_calls:
+ for tc in delta.tool_calls:
+ print(f"[tool_call] id={tc.id}, name={tc.function.name}, args={tc.function.arguments}")
+ if chunk.choices[0].finish_reason:
+ print(f"[finish_reason] {chunk.choices[0].finish_reason}")
+ if not chunk.choices and chunk.usage:
+ print(f"[usage] {chunk.usage}")
+ Node.js
+ Sample code 
+ import OpenAI from "openai";
+import process from 'process';
+const openai = new OpenAI({
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: 'https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1'
+});
+const tools = [
+ {
+ type: "function",
+ function: {
+ name: "get_weather",
+ description: "Get the weather information for a specified city",
+ parameters: {
+ type: "object",
+ properties: {
+ city: { type: "string", description: "The name of the city" }
+ },
+ required: ["city"]
+ }
+ }
+ }
+];
+async function main() {
+ try {
+ const stream = await openai.chat.completions.create({
+ model: 'glm-5.2',
+ messages: [{ role: 'user', content: "What's the weather like in Beijing?" }],
+ tools: tools,
+ tool_stream: true,
+ stream: true,
+ stream_options: {
+ include_usage: true
+ },
+ });
+ for await (const chunk of stream) {
+ if (!chunk.choices?.length) {
+ if (chunk.usage) {
+ console.log(`[usage] ${JSON.stringify(chunk.usage)}`);
+ }
+ continue;
+ }
+ const delta = chunk.choices[0].delta;
+ if (delta.content) {
+ console.log(`[content] ${delta.content}`);
+ }
+ if (delta.tool_calls) {
+ for (const tc of delta.tool_calls) {
+ console.log(`[tool_call] id=${tc.id}, name=${tc.function.name}, args=${tc.function.arguments}`);
+ }
+ }
+ if (chunk.choices[0].finish_reason) {
+ console.log(`[finish_reason] ${chunk.choices[0].finish_reason}`);
+ }
+ }
+ } catch (error) {
+ console.error('Error:', error);
+ }
+}
+main();
+ HTTP
+ Sample code 
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "glm-5.2",
+ "messages": [
+ {
+ "role": "user",
+ "content": "What's the weather like in Beijing?"
+ }
+ ],
+ "tools": [
+ {
+ "type": "function",
+ "function": {
+ "name": "get_weather",
+ "description": "Get the weather information for a specified city",
+ "parameters": {
+ "type": "object",
+ "properties": {
+ "city": {"type": "string", "description": "The name of the city"}
+ },
+ "required": ["city"]
+ }
+ }
+ }
+ ],
+ "stream": true,
+ "stream_options": {"include_usage": true},
+ "tool_stream": true
+}'
+ DashScope
+ Python
+ Sample code 
+ import os
+from dashscope import Generation
+tools = [
+ {
+ "type": "function",
+ "function": {
+ "name": "get_weather",
+ "description": "Get the weather information for a specified city",
+ "parameters": {
+ "type": "object",
+ "properties": {
+ "city": {"type": "string", "description": "The name of the city"}
+ },
+ "required": ["city"]
+ }
+ }
+ }
+]
+messages = [{"role": "user", "content": "What's the weather like in Beijing?"}]
+completion = Generation.call(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ model="glm-5.2",
+ messages=messages,
+ tools=tools,
+ result_format="message",
+ stream=True,
+ tool_stream=True,
+ incremental_output=True,
+)
+for chunk in completion:
+ msg = chunk.output.choices[0].message
+ if msg.content:
+ print(f"[content] {msg.content}")
+ if "tool_calls" in msg and msg.tool_calls:
+ for tc in msg.tool_calls:
+ fn = tc.get("function", {})
+ print(f"[tool_call] id={tc.get('id','')}, name={fn.get('name','')}, args={fn.get('arguments','')}")
+ finish = chunk.output.choices[0].get("finish_reason", "")
+ if finish and finish != "null":
+ print(f"[finish_reason] {finish}")
+ HTTP
+ Sample code 
+ curl
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api/v1/services/aigc/text-generation/generation" \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-H "X-DashScope-SSE: enable" \
+-d '{
+ "model": "glm-5.2",
+ "input": {
+ "messages": [
+ {
+ "role": "user",
+ "content": "What's the weather like in Beijing?"
+ }
+ ]
+ },
+ "parameters": {
+ "tools": [
+ {
+ "type": "function",
+ "function": {
+ "name": "get_weather",
+ "description": "Get the weather information for a specified city",
+ "parameters": {
+ "type": "object",
+ "properties": {
+ "city": {"type": "string", "description": "The name of the city"}
+ },
+ "required": ["city"]
+ }
+ }
+ }
+ ],
+ "tool_stream": true,
+ "incremental_output": true,
+ "result_format": "message"
+ }
+}'
+ Reasoning effort (reasoning_effort) 
+ glm-5.3, glm-5.2, glm-5.2-fast-preview, and glm-5.1 have the thinking mode enabled by default. The model first outputs the thinking process ( reasoning_content ) and then provides the final answer. You can use the reasoning_effort parameter to adjust the reasoning effort. A higher value indicates more thorough thinking. The supported values vary by model. If you pass an unsupported value, an invalid_parameter_error error is returned. Select a value from the following table.
+ Model 
+ Available values for reasoning_effort 
+ glm-5.3
+ low , high , max (highest)
+ glm-5.2
+ none (no reasoning, reasoning_tokens = 0 ), minimal , low , medium , high , xhigh , max (highest)
+ glm-5.2-fast-preview
+ none (no reasoning, reasoning_tokens = 0 ), minimal , low , medium , high , xhigh , max (highest)
+ glm-5.1
+ none , minimal , low , medium , high , xhigh (highest, max is not supported)
+ glm-5
+ none , minimal , low , medium , high , xhigh (highest, max is not supported)
+ Note To disable the thinking mode, set the enable_thinking parameter to false in OpenAI compatible or DashScope mode. This parameter has a higher priority than reasoning_effort . glm-5.3 does not support disabling the thinking mode. Setting enable_thinking to false has no effect.
+ Note The Anthropic compatible mode does not support the reasoning_effort parameter. To obtain the thinking content, use the native Anthropic thinking parameter: {"thinking":{"type":"enabled","budget_tokens":1024}} . When enabled, the response content will include a thinking block with type set to thinking .
+ OpenAI compatible
+ Python from openai import OpenAI
+import os
+client = OpenAI(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+completion = client.chat.completions.create(
+ model="glm-5.2",
+ messages=[{"role": "user", "content": "Which is larger, 9.9 or 9.11?"}],
+ reasoning_effort="high",
+)
+print(completion.choices[0].message.content)
+ Node.js import OpenAI from "openai";
+const openai = new OpenAI({
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ baseURL: "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+});
+const completion = await openai.chat.completions.create({
+ model: "glm-5.2",
+ messages: [{ role: "user", content: "Which is larger, 9.9 or 9.11?" }],
+ reasoning_effort: "high",
+});
+console.log(completion.choices[0].message.content);
+ curl # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "glm-5.2",
+ "messages": [{"role": "user", "content": "Which is larger, 9.9 or 9.11?"}],
+ "reasoning_effort": "high"
+}'
+ DashScope
+ import os
+from dashscope import Generation
+response = Generation.call(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ model="glm-5.2",
+ messages=[{"role": "user", "content": "Which is larger, 9.9 or 9.11?"}],
+ reasoning_effort="high",
+ result_format="message",
+)
+print(response.output.choices[0].message.content)
+ Clear thinking history (clear_thinking) 
+ The clear_thinking parameter controls whether the reasoning_content (thinking process) from previous turns in a multi-turn conversation is passed to the model as context. This parameter is supported only by GLM series models.
+ true : Ignores the reasoning_content from previous turns. Only non-reasoning content such as visible text, tool calls, and results is used as context input. This reduces the context length and cost.
+ false : Retains the reasoning_content from previous turns and provides it to the model along with the context. To enable Preserved Thinking, you must pass the historical reasoning_content completely, unmodified, and in the original order within the messages. Missing, clipping, rewriting, or reordering the content may degrade performance or cause the feature to fail.
+ The default value varies by model: true for glm-5.3 and false for the other GLM models.
+ Note This parameter only affects the historical thinking content across turns and does not change whether the model generates or outputs thinking content in the current turn.
+ The following example uses the same set of multi-turn messages, where the assistant message contains reasoning_content . When clear_thinking is set to true , the historical thinking content is not included in the context. Therefore, the prompt_tokens count is lower than when it is set to false . The actual value depends on the length of the historical reasoning_content .
+ OpenAI compatible
+ Python from openai import OpenAI
+import os
+client = OpenAI(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+# Multi-turn conversation where the assistant message carries reasoning_content (historical thinking process)
+messages = [
+ {"role": "user", "content": "Please calculate 15 * 23."},
+ {"role": "assistant", "content": "15 multiplied by 23 equals 345.", "reasoning_content": "15 * 23 = 345"},
+ {"role": "user", "content": "What if you add 55 to that?"},
+ {"role": "assistant", "content": "345 plus 55 equals 400.", "reasoning_content": "345 + 55 = 400"},
+ {"role": "user", "content": "What was the intermediate result?"},
+]
+completion = client.chat.completions.create(
+ model="glm-5.2",
+ messages=messages,
+ extra_body={
+ "enable_thinking": True,
+ # true: Ignores historical reasoning_content to reduce context length and cost
+ # false (default): Retains historical reasoning_content (Preserved Thinking)
+ "clear_thinking": True,
+ },
+)
+print(completion.usage.prompt_tokens) # The value is smaller when set to true than when set to false
+ curl # China (Beijing) region. Replace {WorkspaceId} with your Bailian workspace ID. URLs vary by region.
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "glm-5.2",
+ "messages": [
+ {"role": "user", "content": "Please calculate 15 * 23."},
+ {"role": "assistant", "content": "15 multiplied by 23 equals 345.", "reasoning_content": "15 * 23 = 345"},
+ {"role": "user", "content": "What if you add 55 to that?"},
+ {"role": "assistant", "content": "345 plus 55 equals 400.", "reasoning_content": "345 + 55 = 400"},
+ {"role": "user", "content": "What was the intermediate result?"}
+ ],
+ "enable_thinking": true,
+ "clear_thinking": true
+}'
+ DashScope
+ import os
+from dashscope import Generation
+# Multi-turn conversation where the assistant message carries reasoning_content (historical thinking process)
+messages = [
+ {"role": "user", "content": "Please calculate 15 * 23."},
+ {"role": "assistant", "content": "15 multiplied by 23 equals 345.", "reasoning_content": "15 * 23 = 345"},
+ {"role": "user", "content": "What if you add 55 to that?"},
+ {"role": "assistant", "content": "345 plus 55 equals 400.", "reasoning_content": "345 + 55 = 400"},
+ {"role": "user", "content": "What was the intermediate result?"},
+]
+response = Generation.call(
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ model="glm-5.2",
+ messages=messages,
+ result_format="message",
+ enable_thinking=True,
+ # true: Ignores historical reasoning_content to reduce context length and cost
+ # false (default): Retains historical reasoning_content (Preserved Thinking)
+ clear_thinking=True,
+)
+print(response.usage.input_tokens)
+ Responses API 
+ glm-5.2 supports calls through the OpenAI-compatible Responses API. Only the China (Beijing) and Singapore regions are supported. For endpoints, see Service endpoints .
+ When calling the Responses API, you can add the web_search ( Web search ), web_extractor ( Web extractor ), and code_interpreter ( Code Interpreter ) tools to the tools parameter.
+ Python from openai import OpenAI
+import os
+client = OpenAI(
+ # If the environment variable is not configured, replace the following line with your Model Studio API key: api_key="sk-xxx"
+ api_key=os.getenv("DASHSCOPE_API_KEY"),
+ # The following URL is for the China (Beijing) region. For the other region, use https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1
+ base_url="https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+)
+response = client.responses.create(
+ model="glm-5.2",
+ input="Hello! Please introduce yourself in one sentence.",
+ # Optional: enable the web search, web extractor, and code interpreter tools
+ tools=[
+ {"type": "web_search"},
+ {"type": "web_extractor"},
+ {"type": "code_interpreter"},
+ ],
+)
+# Get the model response
+print(response.output_text)
+ Node.js import OpenAI from "openai";
+const openai = new OpenAI({
+ // If the environment variable is not configured, replace the following line with your Model Studio API key: apiKey: "sk-xxx"
+ apiKey: process.env.DASHSCOPE_API_KEY,
+ // The following URL is for the China (Beijing) region. For the other region, use https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1
+ baseURL: "https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1"
+});
+const response = await openai.responses.create({
+ model: "glm-5.2",
+ input: "Hello! Please introduce yourself in one sentence.",
+ // Optional: enable the web search, web extractor, and code interpreter tools
+ tools: [
+ { type: "web_search" },
+ { type: "web_extractor" },
+ { type: "code_interpreter" },
+ ],
+});
+// Get the model response
+console.log(response.output_text);
+ curl # The following URL is for the China (Beijing) region. For the other region, use https://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/compatible-mode/v1/responses
+curl -X POST https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/responses \
+-H "Authorization: Bearer $DASHSCOPE_API_KEY" \
+-H "Content-Type: application/json" \
+-d '{
+ "model": "glm-5.2",
+ "input": "Hello! Please introduce yourself in one sentence.",
+ "tools": [
+ {"type": "web_search"},
+ {"type": "web_extractor"},
+ {"type": "code_interpreter"}
+ ]
+}'
+ Other features 
+ Model Multi-turn conversation 
+ Function Calling 
+ Structured output 
+ Web search 
+ Partial mode 
+ Context cache 
+ glm-5.3
+ Supported
+ Supported
+ Supported
+ Only response_format set to json_object is supported
+ Not supported
+ Not supported
+ Supported
+ Only implicit cache is supported
+ glm-5.2
+ Supported
+ Supported
+ Supported
+ Only in non-thinking mode
+ Not supported
+ Not supported
+ Supported
+ Only implicit cache is supported
+ glm-5.2-fast-preview
+ Supported
+ Supported
+ Supported
+ Only in non-thinking mode
+ Not supported
+ Not supported
+ Supported
+ Only implicit cache is supported
+ glm-5.1
+ Supported
+ Supported
+ Supported
+ Only in non-thinking mode
+ Not supported
+ Not supported
+ Supported
+ Both explicit and implicit cache are supported
+ glm-5
+ Supported
+ Supported
+ Supported
+ Only in non-thinking mode
+ Not supported
+ Not supported
+ Supported
+ Only implicit cache is supported
+ Default parameter values 
+ Model 
+ enable_thinking 
+ temperature 
+ top_p 
+ top_k 
+ repetition_penalty 
+ glm-5.3
+ true (cannot be disabled)
+ 1.0
+ 0.95
+ Not supported
+ Not supported
+ glm-5.2
+ true
+ 1.0
+ 0.95
+ 20
+ 1.0
+ glm-5.1
+ true
+ 1.0
+ 0.95
+ 20
+ 1.0
+ glm-5
+ true
+ 1.0
+ 0.95
+ 20
+ 1.0
+ For more information about the parameters, see OpenAI compatible - Chat .
+ Precautions 
+ Warning Cloud-deployed third-party open-source models (such as glm-5.2) handle hyperparameters differently from the model's official version: the official version performs threshold validation on hyperparameters and falls back to default values when thresholds are exceeded; the cloud-deployed version directly passes through user-provided parameter values without threshold validation. Therefore, improper hyperparameter settings (such as setting repetition_penalty to 0.1 ) may cause unexpected output (such as repeated printing). We recommend using the default hyperparameter values (see the default parameter values table above) for third-party open-source models and avoiding custom parameters.
+ Models and billing 
+ The GLM series models are hybrid reasoning models designed by Zhipu AI for agents. They provide both thinking and non-thinking modes.
+ glm-5.3: The latest GLM model in the GLM series with a context length of 1M. It supports Function Calling, structured output, and implicit cache. You can call it using OpenAI compatible, DashScope, and Anthropic compatible interfaces.
+ glm-5.2: A GLM model with a context length of 1M. It supports Function Calling, structured output, and implicit cache. You can call it using OpenAI compatible, DashScope, and Anthropic compatible interfaces.
+ glm-5.2-fast-preview: The fast mode of the glm-5.2 model. For details, see Prime mode .
+ For information about model context length and pricing, see the Model Studio console.
+ Billing is based on the number of input and output tokens.
+ In thinking mode, the chain-of-thought is billed as output tokens.
+ Error codes 
+ If an error occurs, see Error codes for troubleshooting information.
+ Previous：Kimi-Moonshot AI Next：GLM-ZHIPU 
+ Is this page helpful?
+ Feedback 
+ Why Choose Alibaba Cloud
+ What is Cloud Computing Global Infrastructure Technology Leadership Stability & Reliability Security & Compliance Analyst Reports Models
+ Model Services Qwen Series Model Marketplace Products & Pricing
+ All Products Free Trials Product Updates Pricing Pricing Calculator Cost Management Technical Resources
+ Solutions Documentation Community Tianchi Competitions Alibaba Cloud Certification Benefits
+ Free Trials Solution Trials Academic Program Referral Program Support
+ 24/7 Support Enterprise Support Plans Cloud Migration Services Service Notices Status Dashboard Trust Center Follow Us
+ Follow the Alibaba Cloud official account or download the app to stay updated. Manage and monitor your cloud services anytime, anywhere.
+ Contact us：4008013260
+ Legal Notice Cookie Policy Integrity Reporting Security Reporting Contact Us Careers 
+ Friendly Links
+ Alibaba Group Taobao Qwen AI Platform QwenWork Tmall AliExpress Alibaba International 1688 Alimama Fliggy Alibaba Cloud HiChina Amap UC Umeng Youku DingTalk Alipay DAMO Academy Taobao Global Alibaba Cloud Drive © 2009- Present Aliyun.com. All rights reserved. alue-Added Telecommunications Business Operating License: Zhe B2-20080101 Domain Name Registration Service Provider License： Zhe D3-20210002 
+ Zhejiang Public Security Bureau Record No. 33010602009975 Zhejiang B2-20080101-4

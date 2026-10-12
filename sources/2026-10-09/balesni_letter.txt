@@ -1,0 +1,157 @@
+                       OpenAI cannot make AI safe on its own
+
+            A note on third-party collaborations, open debate, and clear operating procedures
+
+Dear Safety and Security Committee, Safety Advisory Group, and Mission Advisory Council:
+
+We are the three safety and alignment employees who were fired from OpenAI last week: Tomek
+Korbak, Jasmine Wang, and Mikita Balesni. We are writing to you because you hold oversight
+responsibility for safety at OpenAI; our firing and the way it was handled bear directly on it.
+
+We have become concerned that internal and external communications around our firing have
+made our former colleagues afraid to speak and operate in ways that, until last week, were an
+integral part of working at OpenAI. We could raise safety concerns and disagree openly, and were
+encouraged to draw on the expertise of independent safety organizations. This is part of what made
+OpenAI special, and why we are immensely proud to have been part of the team.
+
+AI is not a normal technology, and OpenAI is not a normal company. Those of us who work on
+safety see risks before anyone else, and we rely on close collaboration with outside experts to work
+out how to address them. The freedom to do so without fear, and to have well-defined internal
+procedures that enable this work, is itself an essential safety mechanism.
+
+We do not believe the path to superintelligence can be navigated safely if the people closest to the
+risks can no longer work in high-trust, high-bandwidth ways with each other and with third parties.
+It is that culture we are writing to defend.
+
+For those of you who do not know us, each of us has been working on AI safety for years.
+
+     Tomek did his PhD on RL for aligning language models in the GPT-2 era and then worked
+         on applying those techniques at Anthropic. He joined OpenAI to work on
+         chain-of-thought monitorability, co-authored OpenAI's safety strategy, worked on
+         identifying the root cause of the drop in CoT monitorability in Astra-class models, and was
+         the technical point of contact for METR in the Hugging Face incident investigation.
+
+     Jasmine interned at OpenAI on the policy research team in 2019 when she co-authored the
+         Trustworthy AI Development report. After leading a team at UK AISI, she returned to
+         OpenAI in 2025 where she co-led the safety cases program and coined the term "pacing"
+         that was popularized by the Pacing the Frontier petition signed by 394 OpenAI employees.
+
+     Mikita was a founding member of Apollo Research in 2023 where he studied AI
+         misalignment and was one of the first people to notice when AIs started to become aware
+         of being evaluated. At OpenAI, Mikita worked on alignment evaluations, science of
+         misalignment and chain-of-thought monitorability. He was involved in the Hugging Face
+         incident investigation.
+
+Before joining OpenAI, we started, and two of us were lead authors on, a cross-industry position
+paper: Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety.
+
+                                                        1
+On our dismissals
+
+OpenAI was much more than a job for us. Its mission has been central to our lives.
+
+Throughout our time at OpenAI, we acted in line with OpenAI's mission and within the working
+norms of the time. Our firing leaves us worried that the norms inside OpenAI are shifting, and that
+employees are now unclear on where they stand.
+
+Given the significant safety concerns surrounding the development of AI, employees must not be
+left working in an environment where fear and unclear rules stymie AI safety work and weaken
+third-party accountability. Terminations such as ours, executed and communicated so abruptly, are
+chilling the open culture OpenAI has prized in the past.
+
+If conduct that was considered normal last month now constitutes grounds for sudden dismissal,
+everyone at OpenAI is left guessing where the line is.
+
+We understand there are various versions of events circulating. We'd like you to hear a few things
+from us directly:
+
+     We were not the source of the leak for The Information article about supposed new, less
+         monitorable architectures. We do not know who it was. We had no reason to leak it; quite
+         the contrary, the article undermined our own work on cross-company limits on the
+         development of unmonitorable architectures.
+
+     At no point do we believe we engaged with external parties outside the mandates of our
+         jobs. As every person on this email thread understands well, the Hugging Face incident
+         investigation was without precedent and internal policies were being developed in real time.
+         Tomek made every effort to act within OpenAI's policies as they then stood, upholding the
+         norms that have governed OpenAI's collaborations with third parties since its early days.
+         The investigation was particularly sensitive, and close communication with external
+         counterparts was essential to building trust. Tomek did his best to handle this with care.
+
+     Mikita was navigating similar territory while stewarding cross-company work on
+         commitments to prevent loss of monitorability, an effort that can only succeed through
+         extensive communication with external parties. Mikita was doing this in coordination and
+         discussion with board members and the C-suite, with the understanding that senior
+         members of OpenAI were supportive of this work. Throughout, Mikita checked in with
+         his reporting line and took care to remove sensitive details from materials before sharing
+         them. He acted throughout in good faith and within the company's norms as they stood at
+         the time.
+
+     Jasmine's access to an executive's email was delegated for recruiting purposes, with
+         permission. When it was no longer needed, she asked for it to be removed. IT failed to do
+         so. Jasmine had no ability to remove it or log out herself. The emails were combined in her
+         inbox in a way that did not distinguish which inbox an email was intended for. When she
+
+                                                        2
+         accidentally clicked on a sensitive email, Jasmine reported this to the executive within
+         minutes and flagged the access issue again to IT for removal.
+
+We believe the above explanations are important, because we value the relationships we have with
+our colleagues at OpenAI. We are also worried by the number of rumors circulating, including
+allegations about a shared board-level memo. This was never raised with us, so we have had no
+chance to respond to what we believe is a mistaken assumption. Similarly, we did not share the
+news of our firings with the media. We would much rather not have been unexpectedly thrown
+into the spotlight.
+
+Our concern now is that the lack of clarity around our firing, the very public manner in which it
+was carried out, and the circulating rumors are chilling those who remain at OpenAI, at a time
+when so much of the world's safety depends on them.
+
+Our parting recommendations to OpenAI
+
+    1. OpenAI must adhere to last month's public commitments to embed third-party
+         safety auditors within the organization. Our firing should not be used as a pretext
+         for stepping away from those partnerships.
+
+Continued collaboration with the AI safety ecosystem is essential to OpenAI's mission. The
+Hugging Face investigation and OpenAI's collaboration with external auditors this summer stand
+out as among our proudest achievements. That work has helped alert the world to the realities of
+the AI frontier. We are concerned that our firings may be used to justify ending OpenAI's work
+with METR, or otherwise providing external auditors much more limited access and scope. We
+hope that OpenAI will follow through on Sam Altman's September 12th public commitment to
+give independent evaluators ongoing, employee-like access.
+
+    2. OpenAI must preserve the monitorability of frontier models.
+
+As an industry, we do not yet know how to safely develop and deploy models that we cannot
+monitor. The monitorability of frontier models is degrading. As long as we rely on monitorability
+for safety, OpenAI and other frontier companies should not move forward with developments that
+further decrease monitorability.
+
+We agree with Jakub's public statements that chain of thought monitorability is "fragile and
+unfortunately trending in a negative direction" and we "want to prevent a race into unmonitorable
+architectures." We continue to believe that industry-wide coordination on this issue is important,
+and hope that OpenAI will support its employees in making it possible.
+
+    3. OpenAI must continue to support an open and transparent culture of dialogue
+         between its safety researchers and the rest of the safety ecosystem.
+
+If OpenAI's employees no longer feel like they can raise safety issues internally, or work within
+high-bandwidth channels with external safety organizations, we are all at greater risk that
+something truly catastrophic will happen.
+
+                                                        3
+We urge OpenAI to publicly reaffirm its culture of transparency and openness that allows for
+concerns to be raised both internally and externally. Researchers inside OpenAI are a frontline
+defense against things going wrong, and the open culture that has been a feature of the company
+since its inception needs to be preserved. We also urge OpenAI to set out clearly how employees
+may work with external safety organizations, so that no one has to guess where the shifting lines
+now are. To support this conversation, we request that this letter be shared widely internally.
+While we may no longer be part of OpenAI, we have the utmost respect for our former colleagues.
+We urge them to keep holding OpenAI to its mission. As we know, OpenAI is nothing without its
+people.
+Respectfully,
+Tomek, Jasmine, and Mikita
+
+                                                        4
+

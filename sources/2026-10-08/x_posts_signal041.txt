@@ -1,0 +1,17 @@
+
+#2107724314451878104 @elonmusk (Elon Musk, blue-verified) created 2026-10-07T06:46:50.000Z edited=false likes=104978
+  TEXT: Important note regarding Grok @Bot: Going forward, @SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno and other leading APIs. Whatever is most likely to give you the best outcome.
+
+#2107894231922876510 @elonmusk (Elon Musk, blue-verified) created 2026-10-07T18:02:02.000Z edited=false likes=11290
+  TEXT: However, most @Bot requests are pretty simple and will be handled by a lightning-fast version of Grok 4.8 when that comes out. Operating principle is to give Grok Bot users the best possible combination of speed &amp; intelligence.
+  QUOTED-ID 2107814500061638750
+  QUOTES @minchoi (2026-10-07T12:45:12.000Z): This is wild... Grok Bot will now pick Claude Opus 5.5, Midjourney, Suno + more depending on the task. Best model wins.
+
+#2107814500061638750 @minchoi (Min Choi, blue-verified) created 2026-10-07T12:45:12.000Z edited=false likes=521
+  TEXT: This is wild... Grok Bot will now pick Claude Opus 5.5, Midjourney, Suno + more depending on the task. Best model wins.
+  QUOTED-ID 2107724314451878104
+  QUOTES @elonmusk (2026-10-07T06:46:50.000Z): Important note regarding Grok @Bot: Going forward, @SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno and other leading APIs. Whatever is most likely to give you the best outcome.
+
+#2108123640810414213 @Smlay_ero (smlay, blue-verified) created 2026-10-08T09:13:37.000Z edited=false likes=6
+  TEXT: Here's all we can actually pin down on Grok 4.8: It's a 2.5T model. Musk floated 10T for 4.8 back in April. The September number is the one that counts. Training moved to a new C++ stack. Someone on the team called it the fastest in the world. Nobody outside has reproduced https://t.co/AZK5fXZpZu
+  MEDIA: photo

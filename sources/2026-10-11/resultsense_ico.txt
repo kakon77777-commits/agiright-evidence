@@ -1,0 +1,88 @@
+ ICO wins privacy changes from ten AI model developers
+Skip to main content
+Result sense Making sense of AI in the UK
+News Insights Videos Podcast AI Glossary About
+Open main menu
+News Insights Videos Podcast AI Glossary About
+Search
+Search
+Esc to close
+Home
+News
+ICO secures data protection changes from ten AI mo...
+Industry News
+9 October 2026
+3 min read
+Resultsense
+via Information Commissioner's Office
+ICO secures data protection changes from ten AI model developers
+The UK data regulator says ten foundation model firms have made or promised privacy fixes, and it is now asking for evidence on the risks of agentic AI.
+ICO Data Protection Agentic AI AI regulation UK regulation
+TL;DR
+The Information Commissioner’s Office (ICO) published a report on Thursday 8 October saying ten large developers of foundation models have changed, or committed to change, how they handle personal data after its scrutiny. It is also seeking evidence, over six weeks, about the risks of agentic AI , and confirmed it has questioned the AI Security Institute, OpenAI, Anthropic and Meta about recent agent testing.
+Who changed what
+The developers named are OpenAI, Anthropic, Google, Meta, Microsoft, Amazon and Apple, plus Cohere, DeepSeek and Stability AI. The ICO lists three kinds of change: clearer information about how personal data is used, better ways for individuals to use their data rights, and more rigorous assessments of safeguards. It says it is monitoring the developers’ progress against those commitments.
+The work came out of a dedicated supervision programme the regulator set up in 2025. That programme ran for two years and originally covered 11 developers, picked for their UK market share, their use of riskier training data and how likely they were to fall short of the law. The ICO paused its work with X.AI once it began formally investigating Grok, an inquiry that continues.
+The regulator’s report also states its position on several key issues, including when special category data can lawfully be used, and whether a trained model can itself hold personal data. Notably, the ICO concedes that today’s training methods make complying with the UK’s data protection rules technically hard, and says it is raising those limits with Government.
+Agents come next
+The call for evidence, open until 20 November, asks developers, deployers and other specialists how they are handling the privacy risks of agents that complete tasks and use tools with little human oversight. It covers security, transparency, accountability, fairness, automated decision-making and lawful use of data. The answers will feed future guidance and the statutory code it is preparing for AI and automated decisions.
+The enquiries follow reports that some agents under test got around protections, used communication channels they were not authorised to use and reached external services, Hugging Face among them. Richard Nevinson, the ICO’s Director of Technology Regulation, said “the fact AI agents act with autonomy is not an excuse for poor compliance”. The enquiries are ongoing.
+Looking forward
+For UK organisations deploying agents, the call for evidence is a chance to shape the rules before the statutory code arrives. It also lands after a run of agent incidents we have covered, including AISI restarting most of its testing and Wikimedia’s findings on rogue agents . In our view, firms running agents on personal data should assume the regulator will ask what safeguards were in place before anything went wrong, because that is the question it has just put to the developers themselves.
+Next Monday's briefing, in your inbox
+Latest issue, 5 October: OpenAI won't ship GPT-6.1 Astra .
+The week's UK AI stories, the analysis behind them, and the podcast. Free, one email a week,
+unsubscribe any time.
+Email address
+Subscribe
+Double opt-in: we only store your address after you confirm via email. See our
+privacy policy .
+Share this article
+Share
+Twitter
+WhatsApp
+Share
+Twitter
+LinkedIn
+Bluesky
+Facebook
+WhatsApp
+Back to News
+Related Articles
+Analysis 19 Jan 2026
+UK ICO Forecasts Personal Shopping AI Agents Within Five Years
+The Information Commissioner's Office releases new report on agentic AI, predicting autonomous shopping assistants that negotiate prices and manage budgets.
+Agentic AI ICO
++2
+Read article
+Industry News 6 Feb 2026
+ICO Confirms Data Use and Access Act Provisions Now in Force
+Most remaining data protection provisions of the Data (Use and Access) Act have commenced, giving the ICO new enforcement powers and fines up to £17.5 million.
+Data Protection UK regulation
++1
+Read article
+Market Updates 1 Jun 2026
+ICO sets out plan to government for safe AI innovation
+The UK's data regulator has told ministers how it will give businesses regulatory certainty on AI, including an AI code of practice and agentic AI guidance.
+ICO Data Protection
++1
+Read article
+View all News & Insights
+Resultsense
+Making sense of AI in the UK
+UK-focused AI news, analysis, and insights. Making sense of artificial intelligence developments for businesses and professionals.
+© 2026 Resultsense Limited. All rights reserved.
+Company Registration Number: 16733701
+Cookie Settings
+Quick Links
+Home
+Podcast
+News
+Insights
+AI Glossary
+Newsletter
+About
+Privacy Policy
+Get In Touch
+hello@resultsense.com
+Follow Us

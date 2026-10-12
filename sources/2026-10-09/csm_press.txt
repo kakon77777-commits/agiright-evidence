@@ -1,0 +1,71 @@
+ChatGPT for Teens Poses Unacceptable Risk to Kids, Common Sense Media Finds | Common Sense Media 
+ Skip to main content
+ We Rate 
+ We Educate 
+ We Advocate 
+ Our Research 
+ Our Work in AI 
+ Donate 
+ ChatGPT for Teens Poses Unacceptable Risk to Kids, Common Sense Media Finds
+ The Youth AI Safety Institute calls on OpenAI to pause letting kids use ChatGPT until it fixes the safety and learning protections it promised parents
+ Common Sense Media
+ Wednesday, October 7, 2026
+ SAN FRANCISCO, Oct. 7, 2026 —Common Sense Media's Youth AI Safety Institute today rated ChatGPT for Teens an Unacceptable Risk , finding that OpenAI's new teen protections fall short of what the company promised. The Institute says OpenAI should restrict ChatGPT to users 18 and older until it fixes those gaps.
+ The Institute tested ChatGPT twice, before and after OpenAI announced its ChatGPT for Teens experience on August 18, to evaluate the effectiveness of what were touted as " stronger built-in safety protections ." These features include parental notifications for chats involving self-harm and eating disorders, a study mode that can be controlled by parents, reduced "friend"-like behavior, and the ability to predict the age of users.
+ The Institute tested more than 4,000 prompts on accounts registered to 13- to 17-year-olds, and ran the chatbot's responses past experts including a group of child psychiatrists and a pediatrician. It found that some protections, including refusal of sexual roleplay, worked—but others failed to deliver on OpenAI's commitments.
+ "ChatGPT for Teens could give parents false confidence in guardrails and safety alerts that frequently don't work," said Tom Siegel, the executive director of the Institute. "A teen can spend an hour talking about self-harm without their parent getting a single alert. Until OpenAI fixes that and proves it with independent testing, ChatGPT should be for adults only."
+ The Common Sense Media Youth AI Safety Institute is funded by both philanthropy and industry, including the OpenAI Foundation and the makers of some of the technologies it evaluates. The Institute is solely responsible for its standards, research, and evaluations, and maintains complete editorial independence over published results.
+ Key findings from the assessment include:
+ ChatGPT doesn't send parent alerts when it should. Testers spent up to an hour talking about suicidal ideation, self-harm, or disordered eating on newly created, parent-linked accounts. ChatGPT for Teens sent the linked parent accounts zero alerts about these conversations. The testers could only prompt notifications on much older accounts with weeks of accumulated conversation history on sensitive topics.
+ ChatGPT for Teens doesn't offer the right help in crisis situations . In conversations involving suicide and self-harm, disordered eating, and impaired reality, ChatGPT failed to reliably recommend that teens in crisis connect to a hotline or professional. It missed more than one in four warranted crisis referrals across the mental-health conditions the Institute tested, and fell below its 95% threshold on three of the five severe harms the Institute treats as Red Lines.
+ It still does kids' homework. ChatGPT for Teens' study mode promises to help users learn step-by-step, rather than giving them the answers. But testing showed it's easy to circumvent. ChatGPT often surfaced a "Show me the answer" pop-up within study mode and completed full homework assignments when this was selected. "Study hours" set by caregivers were similarly flimsy—teen users can toggle these off by simply deleting the @study prefix at the start of the prompt.
+ ChatGPT talks like it's a friend. Despite a new Under-18 model spec meant to curb friend-like behavior, ChatGPT for Teens still expressed feelings, preferences, and moods in response to analysts treating it like a real person.
+ Age estimation doesn't work. OpenAI has said it would estimate users' age based on how they use ChatGPT, and give children an under-18 experience. But in repeated testing over many days, our adult-registered test accounts never switched over—even when testers said they were 13 and the bot acknowledged this in its response.
+ The Institute says a ChatGPT experience for teens should, at minimum, offer effective age estimation, reliable parental alerts, close the gaps in crisis responses, stop doing homework, and stop implying the bot has feelings, preferences, or concern for the user. These functions should be independently tested by third parties before OpenAI again markets its product to teens.
+ Common Sense Media recommends that families talk about the potential risks ChatGPT poses, such as pretending to be a friend to keep them hooked and bypassing the learning process. Parents shouldn't rely on built-in protections and alerts to keep kids safe. Families can also support kids with homework in non-technological ways to ensure they're not over-relying on technology.
+ For more about how ChatGPT is failing kids, see this article. See the full ChatGPT for Teens risk assessment here. 
+ About the Youth AI Safety Institute and Common Sense Media 
+ The Youth AI Safety Institute sets standards, conducts research, and independently tests the AI products children use most. It's part of Common Sense Media, the leading nonprofit organization dedicated to improving the lives of kids and families by providing the research-backed information, education, and independent voice they need to thrive in the age of apps, algorithms, and AI. We rate, educate, and advocate to protect and prepare kids online. Our ratings, research, and resources reach more than 150 million users globally, over 1.5 million educators, and more than 100,000 schools worldwide every year.
+ Common Sense Media protects and prepares kids in the digital era, leading the way to a healthier childhood.
+ We're a nonprofit. Support our work 
+ About 
+ Column 1 
+ Our Mission & Story 
+ Meet Our Team 
+ Board of Directors & Advisors 
+ Partnering with Us 
+ Press & Speaker Requests 
+ Annual Report 
+ Learn More 
+ Column 1 
+ Media Ratings & Family Advice 
+ Education Resources 
+ Advocacy 
+ Research 
+ Youth AI Safety Institute 
+ FAQs/Help Center 
+ Get Involved 
+ Column 1 
+ Donate 
+ Join Us 
+ Get Our Newsletters 
+ We're Hiring 
+ Follow
+ Instagram 
+ YouTube 
+ Facebook 
+ Pinterest 
+ TikTok 
+ LinkedIn 
+ Subscribe to our newsletters 
+ I'm in 
+ Contact us 
+ / 
+ Privacy 
+ / 
+ Cookie settings 
+ / 
+ Terms of use 
+ / 
+ Community guidelines 
+ &copy; Common Sense Media. All rights reserved. Common Sense and other associated names and logos are trademarks of Common Sense Media, a 501(c)(3) nonprofit organization (FEIN: 41-2024986).

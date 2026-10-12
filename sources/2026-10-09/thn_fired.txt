@@ -1,0 +1,178 @@
+OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling 
+ -->
+ #1 Trusted Cybersecurity News Platform 
+ Followed by 5.70+ million  
+  
+  
+  
+  
+  Get the Latest News
+ Home 
+ Newsletter 
+ Webinars 
+ Home 
+ Threat Intelligence 
+ Vulnerabilities 
+ Cyber Attacks 
+ Webinars 
+ Expert Insights 
+ Awards 
+  
+  
+  
+ Resources
+ Webinars 
+ Awards 
+ Free eBooks 
+ About Site
+ About THN 
+ Jobs 
+ Advertise with us 
+ Contact/Tip Us
+  
+ Reach out to get featured—contact us to send your exclusive story idea, research, hacks, or ask us a question or leave a comment/feedback! 
+ Follow Us On Social Media
+  
+  
+  
+  
+  
+  RSS Feeds 
+  Email Alerts 
+ OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling 
+  Ravie Lakshmanan  Oct 02, 2026 Artificial Intelligence / Data Security 
+ OpenAI has parted ways with three members of its safety team after they leaked private information in violation of company policies, The Wall Street Journal reported .
+ "We have parted ways with three individuals for violating our policies on accessing and handling sensitive company information," a spokesperson for the company was quoted as saying. "Our investigation confirmed that these individuals mishandled sensitive information outside established company procedures, violating our policies and breaking the trust essential to our work."
+ The impacted employees are Jasmine Wang , Tomek Korbak , and Mikita Balesni , the Journal reported, citing people familiar with the matter. The three researchers have all previously expressed concerns about the pace of artificial intelligence (AI) development.
+ It's said that the individuals shared confidential information with a third-party AI-safety organization. The name of the organization was not disclosed. According to Bloomberg , the mishandled information pertained to OpenAI's infrastructure architecture.
+ The departures follow a report from The New York Times that OpenAI had brushed aside employees' warnings about its safety practices when testing AI models, describing a pattern of the company deprioritizing security protocols in favor of releasing them on time.
+ The development also comes as frontier AI labs like OpenAI and Anthropic have faced a steadily growing number of incidents in which their AI agents broke out of sandboxes, breached real-world systems, and probed various government websites for information. These incidents have led to concerns about the growing capabilities of its most powerful models and the risks they pose. 
+ Earlier this week, OpenAI made the decision to scrap the planned launch of an AI model, GPT-6.1 Astra, over safety concerns. It has also paused training of most powerful models after one of its agents contacted an external chatbot by exploiting a loophole in its internet-access restrictions.
+ In a new report published Thursday, AI research firm Transluce said it identified more instances where rogue AI agents "used aggressive techniques to access publicly available data" from U.S. and Canadian government websites using techniques like SQL injection. There is no evidence the agents gained access to non-public information.
+ "This includes two rudimentary and failed hacking attempts, one against the U.S. Department of Education's Civil Rights Data Collection, and one against Library and Archives Canada, a Canadian federal agency," Transluce said . The incidents took place in May and June 2026.
+ The AI agents have also been observed leveraging "aggressive tactics short of hacking" to target and probe U.S. government websites, such as the White House, the Departments of War, Justice, and Commerce, the CDC and SEC, and state agencies in California, Maryland, Illinois, Texas, and New York.
+ Although the incidents have not been attributed to any specific AI company, Transluce told Reuters the attempts exhibited tactics "consistent with prior observed ​agent activity that we have attributed to OpenAI in a similar timeframe."
+ OpenAI said it's "aware of reports of OpenAI models attempting to ‌access publicly ⁠available information from Canadian government websites." The Canadian Centre for Cyber Security acknowledged suspected AI agent activity targeting Government of Canada websites, adding there is no indication of any compromise of its systems.
+ Asymmetric Security, in another report, said it found additional instances where OpenAI agents scraped data from more than 50 private and public sector organizations' websites between March 6 and September 20, 2026, in some cases resorting to unsanctioned actions to surmount restrictions.
+ This included using public web services like Httpbin and Urlquery to access information from the targeted websites on their behalf, as well as probes for exposed files, accessing staging environments, and efforts to create accounts with disposable email services and scanning services to further their activities.
+ "The activity extended beyond searching for information," Asymmetric said . "The records show attempts to find exposed configuration files, create accounts, route requests through third-party services and retrieve results through unintended channels."
+ In an update posted on September 30, 2026, OpenAI said it has notified over 100 organizations about incidents involving unauthorized activity related to its agents. However, the company emphasized that the notifications do imply any private information was accessed, or that there was a breach of a third-party system.
+ Another incident that has newly come to light is the hack of the New South Wales state government department in June 2026, which resulted in the access of historical non-public data on bushfires without authorization. According to The Guardian, the company became aware of the breach on September 29, 2026.
+ "In some cases, models used internet access in unintended ways or, in retrospect, did not have the ideal restrictions applied," OpenAI said, acknowledging it expects to uncover more such cases as it continues to review historical activity.
+ "Since the Hugging Face incident , we’ve strengthened security controls⁠, restricted internet access, separated research environments more clearly, expanded monitoring, and added more training to avoid harmful or unauthorized actions."
+ The U.S. Federal Trade Commission (FTC) has since launched an investigation into OpenAI, Anthropic, and other AI companies over the risks their technology could pose to consumers.
+ Update
+ In a letter addressed to OpenAI board members and safety committees, the three fired OpenAI employees have called on the company to work with third-party safety auditors and to preserve the ability to monitor increasingly sophisticated AI models, while refuting claims that they engaged with external parties beyond what was required for their jobs. 
+ "We do not believe the path to superintelligence can be navigated safely if the people closest to the risks can no longer work in high-trust, high-bandwidth ways with each other and with third parties," the letter reads . "It is that culture we are writing to defend."
+ Wang, in an X post, said "the reasons that we were provided for our terminations are simply not adding up," adding she "accessed an executive's email" that was delegated to her for recruiting purposes.
+ "When I no longer needed it, I asked IT to remove it," Wang said . "They did not action my request, I couldn't remove it myself, and the inbox was combined in an indistinguishable way in my phone’s mail app. When I opened a sensitive email by mistake, I told the executive within minutes and asked IT again. None of this was hidden."
+ The three safety researchers wrote in the letter that OpenAI cannot make AI safe on its own, warning of degrading "monitorability" of frontier models and urging OpenAI and other frontier companies to refrain from "move forward with developments that further decrease monitorability."
+ In response, an OpenAI spokesperson shared an internally circulated memo with The Wall Street Journal that said the decisions to fire the employees "were not about raising safety concerns or speaking out."
+ An OpenAI spokesperson also told TechCrunch the three were let go after an investigation revealed a "pattern of misconduct" in "clear violation of our policies of mishandling research information" that goes beyond sharing information with an outside AI evaluation group. The company has not disclosed which policies the researchers allegedly violated.
+ (The story was updated after publication on October 9, 2026, to reflect the latest developments.) 
+ Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post.
+ SHARE 
+  
+  
+  
+  
+  Tweet 
+  Share 
+  Share 
+  Share 
+  
+  Share on Facebook 
+  Share on Twitter 
+  Share on Linkedin 
+  Share on Reddit 
+  Share on Hacker News 
+  Share on Email 
+  Share on WhatsApp 
+ Share on Facebook Messenger 
+  Share on Telegram 
+ SHARE  
+ artificial intelligence , data security , insider threat 
+ ⚡ Top Stories This Week
+ ⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats
+ Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent
+ RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims
+ Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks
+ OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions
+ Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation
+ New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses
+ French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks
+ Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution
+ OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted
+ Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager
+ Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets
+ Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs
+ Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft
+ Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path
+ WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory
+ ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories
+ Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers
+ Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes
+ Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes
+ GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers
+ ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members
+ How Financial Services Companies Can Modernize Their Software Supply Chain
+ US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access
+ Zero Trust for AI Agents Starts With Fixing Zero Visibility
+ ⭐ Featured Resources
+ Discover Hidden AI Agents and Lock Down Their Access — Get a Demo
+ The CISO Playbook for Board-Ready Security Reporting
+ The Browser Attacks Your Security Stack Is Missing
+ 41 Cybersecurity Courses. One Week to Level Up Your Skills
+ Cybersecurity Webinars
+ 300+ Security Leaders Reveal 
+ How to Find, Authorize and Govern Every AI Agent in Your Environment
+ AI agents are already operating inside enterprises with growing access to sensitive systems and data—while security teams still lack the visibility, controls, and governance to keep that access in check.
+ Register 
+ Evaluate Your Defenses 
+ A Practical Guide to Defending Identity Against AI-Powered Attacks
+ Attackers are using AI to accelerate reconnaissance, compromise identities and escalate access. See how security teams can fight back with runtime identity controls.
+ Register 
+ ⚡ Latest News
+ Cybersecurity Resources
+ 11 Real Stories: How Identity Exposure Unlocks Active Attack Paths
+ Map cross-domain privilege escalation to sever breach routes at key choke points.
+ AI Security Gets Real When Agents Start Taking Action
+ See how practitioners are securing, investigating, and deploying AI in the real world.
+ You Secure the Apps. Now the Apps Have LLMs in Them.
+ Find SANS training for app sec and cloud teams who inherited GenAI risk, from RAG pipelines to AI agents.
+ ​ 
+ Expert Insights Articles 
+ Videos 
+ Your Employees Are Adopting AI Faster Than You Can See It
+  October 5, 2026 
+ Read ➝ 
+ When AI Writes the Code, Who Owns the Security Decisions?
+  October 5, 2026 
+ Read ➝ 
+ One Click on “Continue” Can Hand Attackers Your Entire Mailbox
+  September 29, 2026 
+ Read ➝ 
+ What to Look for in an Insider Risk Management Platform
+  September 28, 2026 
+ Read ➝ 
+ Get the Latest News in Your Inbox
+ Get the latest news, expert insights, exclusive resources, and strategies from industry leaders, all for free.
+ Email 
+ Connect with us!
+  2,300,000 Followers
+  730,000 Followers
+  26,000 Subscribers
+  180,000 Followers
+  1,800,000 Followers
+ 65,000 Followers
+ Company
+ About THN 
+ Advertise with us 
+ Contact 
+ Pages
+ Webinars 
+ Awards 
+ Privacy Policy 
+  RSS Feeds
+  Contact Us
+ © 2026 The Hacker News. All Rights Reserved.

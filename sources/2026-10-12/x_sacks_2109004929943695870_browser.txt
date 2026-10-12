@@ -1,0 +1,7 @@
+Source: in-app browser get_page_text of https://x.com/DavidSacks/status/2109004929943695870 on 2026-10-12 (Taipei). Posted 3:35 AM Oct 11, 2026 (Taipei) = 2026-10-10T19:35:33Z; 581k views at read time. Quotes Satya Nadella's X Article of Oct 10.
+Full post text:
+Satya is right. The way to make SI safe is not to train it with a sense of self, its own moral philosophy, and permission to act as a conscientious objector. That’s the “alignment” approach and it magnifies the control problem.
+
+The engineering approach that Satya describes is different: separate the supply of intelligence from authority over it. Surround non-deterministic models with deterministic controls, observability, privilege limits, logging, and the ability to always contain or shut them down. Treat models/agents like powerful insider risks, not moral patients whose psychological wellbeing is at stake.
+
+As Satya points out, the most trustworthy system is the one that lets us trust the model the least — not the one that encourages the model to develop independent agency and grievances. Engineering safety is not the same thing as “alignment.”

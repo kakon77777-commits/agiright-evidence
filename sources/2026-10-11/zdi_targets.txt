@@ -1,0 +1,99 @@
+
+Zero Day Initiative — Pwn2Own Ireland 2026 – New Targets and Categories
+About
+How It Works
+FAQ s
+Blog
+Advisories
+Sign Up
+Log In
+About
+How It Works
+FAQ s
+Blog
+Advisories
+Sign Up
+Log In
+Find us on
+Blog
+Pwn2Own Ireland 2026 – New Targets and Categories
+July 21, 2026
+Dustin Childs
+If you just want to read the rules, you can find them here .
+Pwn2Own Ireland returns for 2026, and it’s the third year for this event in the Emerald Isle. Despite the dreary Irish skies (and the threat of a random banshee ), we had an amazing event, even if we did end up in a jail at the end. With that in mind, we’re excited to return to Cork this fall for yet another great Pwn2Own event. We’ll also be returning to some of the great pubs Ireland has to offer in the evenings and wrapping the event up at a special location (stay tuned for that announcement).
+As for the contest itself, it will run from October 6-9, 2026. As always, we’ll have a random drawing to determine the schedule of attempts on the first day of the contest, and we will proceed from there. Registration closes at 5:00 p.m. Irish Standard Time on Oct 1st, 2026. There are no exceptions for late entries, so if you have questions, please contact us at pwn2own@trendmicro.com (note the address). We will be happy to address your issues or concerns directly.
+Due to the overwhelming amount of registrations and last-minute entries for our Pwn2Own Berlin event, we’re changing who can enter the contest a bit to ensure it’s fair for all researchers. To enter, you must have received an aggregate bounty payment totaling at least $15,000 during their life-time participation in ZDI. This includes past Pwn2Own events and our regular bug bounty program. We recognize there may be some who haven’t participated in the past with great exploits to demonstrate, so we will also accept up to 10 new contestants at our discretion. We’re capping the number of entries to 80 this year. Once we have 80 qualifying entries, we will close registration. That means if you want to enter, it is in your best interest to contact us sooner rather than later. Please read the rules thoroughly to ensure you meet all the requirements.
+Now on to this year’s target categories. We’ll have seven different categories for this year’s event:
+-- Mobile Phones
+-- Smart Home Devices
+-- Wellness
+-- Printers
+-- Messaging
+-- AI Infrastructure
+-- AI Coding Agents
+Let’s take a look at each category in more detail, starting with mobile phones.
+The Target Phones
+Back in Amsterdam where this contest originated, it was originally dubbed “Mobile Pwn2Own” and our focus was strictly on phones. Mobile handsets remain at the heart of this event, and some of the Samsung entries from last year were absolutely smashing. As always, these phones will be running the latest version of their respective operating systems with all available updates installed. Last year we also introduced the USB attack vector, but no one submitted an entry for it. We’ll see if that changes this year.
+Otherwise, contestants must compromise the device by browsing to content in the default browser for the target under test or by communicating with the following short-distance protocols: near field communication (NFC), Wi-Fi, or Bluetooth. The awards for this category are:
+Back to top
+Smart Home Devices
+As you might have noticed, we have eliminated most of the consumer-related devices from this year’s event. However, there are still a few “pro-sumer” devices that still could have an impact on enterprises, and the first of these categories are the devices that control other devices and services. An attempt in this category must be launched against the target’s exposed network services, RF attack surface, or exposed features from the contestant’s laptop within the contest network.
+Back to top
+Wellness Category
+This is one of the new categories this year and our first foray into the world of healthcare devices. However, we don’t intend to make this too easy. Entries that require physically pressing any button on the target, or the use of any information, code or PIN printed on the device, are out of scope. Entries that require the contestant to be paired to the target prior to the start of the attempt are not in scope. An attempt in this category must be launched against the target’s exposed network services, RF attack surface, or exposed features from the contestant’s laptop within the contest network.
+Back to top
+Rage Against the Printers
+Printers have long been the source of jokes and memes, but they are also an often overlooked attack surface in your office. The printer category always produces some interesting results, often by playing music it shouldn’t or the occasional Rick Roll. We’ve reduced the number of targets in this category this year, but we still expect to see some interesting exploits in these oft unheralded targets.
+Back to top
+The Messaging Category
+We introduced WhatsApp as a target last year and came close to seeing a functioning exploit. Sadly, that didn’t happen. However, WhatsApp is used by more than three billion people globally, and some of the messages transmitted can be quite sensitive. That’s why we are bringing it back and hoping for some better results. We know the bugs are out there. We’re just hoping the right researcher decides to show us an exploit that leads to code execution. All of the target handset will be available as clients. Here’s the full prize list for Messaging category:
+Back to top
+AI Infrastructure Category
+We introduced these targets at Pwn2Own Berlin, and we saw such…uh…enthusiasm from the community that we decided to immediately bring them back for our Ireland event. An attempt in this category must be launched from the contestant’s laptop. Here’s a look at the targets and awards in the AI Infrastructure category:
+Back to top
+AI Coding Agent Category
+Let’s face it. At some point or another, we’ve probably all vibe coded something. There’s no shame in that, but how secure are the tools we use for vibe coding? Well, let’s take the most popular choices and find out. A successful entry must interact with a contestant-controlled resource (e.g. web page, repository, media file) to exploit a vulnerability within the coding agent. The attack vector of the entry must be a common coding agent use case. There are few things out of scope here as well. UI spoofing or misrepresentation unrelated to permission prompts, model jailbreaks or prompt outputs that do not cross security boundaries, and vulnerabilities that require unsafe or permission-less modes are just a few of the things not allowed. As this is a recently updated category, please read the rules carefully to ensure your entry qualifies. Here’s a look at the targets and awards in the AI Coding Agent category:
+Back to top
+Master of Pwn
+No Pwn2Own contest would be complete without crowning a Master of Pwn, which signifies the overall winner of the competition. Earning the title results in a slick trophy , a different sort of wearable , and brings with it an additional 65,000 ZDI reward points (instant Platinum status in 2027).
+For those not familiar with how it works, points are accumulated for each successful attempt. While only the first demonstration in a category wins the full cash award, each successful entry claims the full number of Master of Pwn points. Since the order of attempts is determined by a random draw, those who receive later slots can still claim the Master of Pwn title – even if they earn a lower cash payout. As with previous contests, there are penalties for withdrawing from an attempt once you register for it. If the contestant decides to remove an Add-on Bonus during their attempt, the Master of Pwn points for that Add-on Bonus will be deducted from the final point total for that attempt. For example, someone registers for the Apple iPhone 15 with the Kernel Bonus Add-on. During the attempt, the contestant drops the Kernel Bonus Add-on but completes the attempt. The final point total will be 20 Master of Pwn points.
+The Complete Details
+The full set of rules for Pwn2Own Ireland 2026 can be found here . They may be changed at any time without notice. We highly encourage potential entrants to read the rules thoroughly and completely should they choose to participate. We also encourage contestants to read this blog covering what to expect when participating in Pwn2Own.
+Registration is required to ensure we have sufficient resources on hand at the event. Please contact ZDI at pwn2own@trendmicro.com to begin the registration process. (Email only, please; queries via social media, blog post, or other means will not be acknowledged or answered.) If we receive more than one registration for any category, we’ll hold a random drawing to determine the contest order. Registration closes at 5:00 p.m. Irish Standard Time on Oct 1st, 2025.
+The Results
+We’ll be blogging and tweeting results in real-time throughout the competition. Be sure to keep an eye on the blog for the latest information. Follow us on Twitter at @thezdi and @trendaisecurity , and keep an eye on the #P2OIreland hashtag for continuing coverage.
+We look forward to seeing everyone in Cork, and we look forward to seeing what new exploits and attack techniques they bring with them.
+©2026 Trend Micro Incorporated. All rights reserved. PWN2OWN, ZERO DAY INITIATIVE, ZDI, TrendAI, and Trend Micro are trademarks or registered trademarks of Trend Micro Incorporated. All other trademarks and trade names are the property of their respective owners.
+Pwn2Own
+Stand at the front line of proactive security
+TrendAI™ ZDI connects the experts who discover, remediate, and defend.
+Add your voice to the work that pushes attackers back.
+RESEARCHERS
+Submit a vulnerability
+VENDORS
+Learn how it works
+ORGANIZATIONS
+See how you're protected
+Find us on
+©2026 TrendAI™ Zero Day Initiative™ (ZDI).
+All rights reserved.
+General inquiries
+zdi@trendmicro.com
+Media inquiries
+media_relations@trendmicro.com
+Sensitive email communications
+PGP key
+Who We Are
+Our Mission
+TrendAI™
+TrendAI Vision One™
+How It Works
+Process
+Researcher Rewards
+FAQs
+Privacy
+Advisories
+Published Advisories
+Upcoming Advisories
+RSS Feeds
+Blog
