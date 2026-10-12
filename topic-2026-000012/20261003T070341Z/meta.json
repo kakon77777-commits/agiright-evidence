@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000012",
+  "url": "https://www.anthropic.com/research/emotion-concepts-function",
+  "capturedAt": "2026-10-03T07:03:41Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 167787,
+    "sha256": "400ee9da05a001253933754e758e25c002ae98e60864ba69d4e95ca987293282",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B2F44A04C7F4290A74600F4A87BE7718",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/emotion-concepts-function",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 15359,
+      "afterScrollHeight": 15359,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d3569790b92162ede2c510f4c9e67c883693c24cf694347bb77b8d1dda468eca",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 2986441,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 15359,
+    "afterScrollHeight": 15359,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:03:41Z",
+    "url": "https://www.anthropic.com/research/emotion-concepts-function",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 167787,
+      "sha256": "400ee9da05a001253933754e758e25c002ae98e60864ba69d4e95ca987293282"
+    },
+    "finalUrl": "https://www.anthropic.com/research/emotion-concepts-function",
+    "httpStatus": 200,
+    "title": "Emotion concepts in a large language model \\ Anthropic",
+    "rendered": {
+      "textChars": 22131,
+      "textSha256": "a01c998900bfe6b45d7fd7926ad055ccf157f9eefb415a4cf79c34d6b30618fb",
+      "htmlSha256": "fa484c39f715cdb1d75a0118cb52cf8b4bb9402a32b31a3c0439905235a9dc7e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d3569790b92162ede2c510f4c9e67c883693c24cf694347bb77b8d1dda468eca",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 2986441,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260402173411",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260402173411/https://www.anthropic.com/research/emotion-concepts-function"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260402173411/https://www.anthropic.com/research/emotion-concepts-function",
+      "timestamp": "20260402173411",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

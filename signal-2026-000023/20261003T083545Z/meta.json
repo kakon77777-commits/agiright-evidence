@@ -1,0 +1,71 @@
+{
+  "id": "signal-2026-000023",
+  "url": "https://x.com/kimmonismus/status/2101893653048303922",
+  "capturedAt": "2026-10-03T08:35:45Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a918ca76844469b273209dca9ee0a14ea753e0eccd6fed464b38cb230e55e673",
+    "width": 640,
+    "height": 1079,
+    "bytes": 116926,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:35:45Z",
+    "url": "https://x.com/kimmonismus/status/2101893653048303922",
+    "backfill": true,
+    "finalUrl": "https://x.com/kimmonismus/status/2101893653048303922",
+    "screenshot": {
+      "sha256": "a918ca76844469b273209dca9ee0a14ea753e0eccd6fed464b38cb230e55e673",
+      "width": 640,
+      "height": 1079,
+      "bytes": 116926,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2101893653048303922",
+      "handle": "kimmonismus",
+      "syndicationSha256": "3507f7dceb16243be740cdca6eb0ade170637b542884506ee257e3c8e753711c",
+      "createdAt": "2026-09-21T04:37:52.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "kimmonismus",
+      "lang": "en",
+      "textSha256": "764bd46d5cd53fba9d961c37b90418a12a1777eb64fd894607b5b006bf8202ac",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "e3539a3f98d8616980be6b51f225e66c4f0dd5f07606a60a1a9215ff922b9c2b",
+          "bytes": 46266,
+          "width": 1312,
+          "height": 960
+        }
+      ],
+      "oembedSha256": "39275521d57055708a07d99a078d2aeeaddece40414e802f6e1fb75898c9c262",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261001231403",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261001231403/https://x.com/kimmonismus/status/2101893653048303922"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

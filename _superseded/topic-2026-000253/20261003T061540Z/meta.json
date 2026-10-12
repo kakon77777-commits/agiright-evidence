@@ -1,0 +1,59 @@
+{
+  "id": "topic-2026-000253",
+  "url": "https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328",
+  "capturedAt": "2026-10-03T06:15:40Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 208308,
+    "sha256": "0daf5633658ba8c7202fff5db7da77e61a16471d226cba5f10972576849e7280",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": false,
+    "error": "devtools timeout: Page.captureScreenshot",
+    "navError": null,
+    "document": {
+      "status": 200,
+      "url": "https://ty-match.taboola.com/sync?dast=V9-zsCABYDANb_9N_4FwUgBADW__Tf-BcFIAUAAAAABgYAawcAJOPcDQeTycatWRgmbtFgs3ALh5PBWmQz7jbL2WDj2tiGAEAyzt1wMJls3JqFYeIWDTYLt3A4GaxFNuNus5wNNq6NbQoAH8ZymQxqgYRl9vsOCsrp6TG7DKKi622xO5xmzxsAutB0Onyue73C4rG7fJ-7xu_2S1ifp93l-fwVTrfmYXOZnm-d5e86vDWvl-etN7zsDqdb6Pr5nHafW-bwuNxCh8fr15z-lud_aXIvNrPhcLSZDOcAAAAAAPAA8P___w8BAAAAABABAAAAACABAAAAAEABEFAB8G8BIHABAAAAAIAB8P___68BABDNAXCAT9fn6Hr6AwAAAAAABAAAAACABAAAAACgBAAAAADgBOD_________PwZggD7zRgbg_____wagoAcA4MEHAOBBCAAAAOBhCKAXEr8t1lGRgwgAQECJrwjAEcAkgE4AqAAsqgD-___7rQAArgAAAAJCAc5SQbIAdAcl3sIAAAAABsYAFuhh8fvNDrvG73YZwP________-_GcD_GcA_GkDQ8XphGoDQvEKPGsAvIADAGsAvIAAAG4C6Afz_vwEIwAGEHQAAAADAHcD___-_HgBITlYrx8a5svhGK9dktlluNjOPwzSZuSbDkWW12x4AwFSqTp0ZqUQfQIU1TS6_QdJymQ0Kit_2MshYLpP9ACRstFxtRoPlaLhbLYaDwWq5P4CBWI0GCDARg-VyMllMdqvRarQZ7kazwQIBBGIwQYAJG86Gw-FgsxgMRqvZZjMYDjcIQNGq1Wy0GQxXs8lst1sNB8PlaIQAEjZarjajwXI03K0Ww8FgtRwiQEwuNouJYbdxCxYzi1s0MbncEt9kttYNFoOJczlyDhYWt-j1MT0WE4dls5h4EUAwYG4vkqdFOpENdgvPxLExjTzDzca1sIwcu9XIN5ksZzbLYGWyiCWak0U6kV32zclq5dg4VxbfaOWazDbLzWbmcZgmM9dkOLKsdvvmYrOYGHYbt2Axs7hFE5PLLfFNZmvdYDGYOJcj52BhcYteH9NjMXFYNouJv7FbLgaD4WK12jd2y8VgMFysVvsOneG7-pyNxsLW5PFJPLrfz6hzGBQug8X7LFik0ZxzZxS6PBeL6WL8eydWod_v9_v9fr_f7_duzAaPwWAYumTPtdC5TWm3y-_GezAbFAaTZ2FQGRQGgyKWCC7SicLisbt8n7fC4rG7fJ-LWKI0XaQTvcT1edpdns9f4XRrHjaX6fnWWf6uw1vzenneesPL7nC6ha6fz2n3uWUOj8stdHi8fs3pb3n-lyb3YjMbDkebyXAilghOF-lE9DKeLupXAgAAAAAAAAAAWALYBAAAAADgBAiA5QIASEhU6wL8ENGCK7yJr-4CDFH3L0nfU5scAzyExWN3-T5vhcVjd_k-VwYAkJB4ZgbYDPAZgCDWarWsAQAAAASwAQAAAMq4AXQDGAf4___3pwcAAABY2wcAYirwwI1aL-QHKJjFcrXbPwCAAIVYq9XqdmOtVisg4CA2y81qOZhAwP___z9BAAAAAAAAAF-1QQAAAAAAAMDULEKAwLabEEAhgKBIPpcXAjIE_P________s7BAzbDmYQYmxsPgQAAASEApyNgk0EGMhmNdgNRxHw____XxFQkAwKYzKLgGHbwQzCigigiwAAgIBQgLNSvIyAExkMFtOJYbGYboaD5XTmsUysq43DN11uLBPryuKbWEcel8caAQBlHAEExOJ06REA!&excid=22&docw=0&cijs=1&nlb=false",
+      "mime": "text/html"
+    },
+    "skipped": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T06:15:40Z",
+    "url": "https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 208308,
+      "sha256": "0daf5633658ba8c7202fff5db7da77e61a16471d226cba5f10972576849e7280"
+    },
+    "finalUrl": "https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328",
+    "httpStatus": 200,
+    "title": "OpenAI sued by safety group over autonomous hack of Hugging Face - ABC News",
+    "rendered": {
+      "textChars": 5324,
+      "textSha256": "12756688e67836a68fc128088978b32450cfa4583c586648b340c523c27f62d5",
+      "htmlSha256": "464113b077103d1acfcba8e068e6e2e1d40c3b2f9385648cecfa39f54a7cacac"
+    },
+    "suspectedBlock": false,
+    "browserError": "devtools timeout: Page.captureScreenshot",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260930155148",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260930155148/https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003061802/https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328",
+      "timestamp": "20261003061802",
+      "verifiedHttp": 200
+    }
+  }
+}

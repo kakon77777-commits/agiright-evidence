@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000017",
+  "url": "https://x.com/ChuckSherwood1/status/2101172892058689964",
+  "capturedAt": "2026-10-03T08:34:50Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "517152c50d23c7bf8bab03dd8c7fe037dfda9e22c3f19fd8ae43f06f12679860",
+    "width": 640,
+    "height": 900,
+    "bytes": 264029,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:34:50Z",
+    "url": "https://x.com/ChuckSherwood1/status/2101172892058689964",
+    "backfill": true,
+    "finalUrl": "https://x.com/ChuckSherwood1/status/2101172892058689964",
+    "screenshot": {
+      "sha256": "517152c50d23c7bf8bab03dd8c7fe037dfda9e22c3f19fd8ae43f06f12679860",
+      "width": 640,
+      "height": 900,
+      "bytes": 264029,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2101172892058689964",
+      "handle": "ChuckSherwood1",
+      "syndicationSha256": "01959df3d900511d6caa44ba39b5b25f70506151fa26118d05720f3134665456",
+      "createdAt": "2026-09-19T04:53:50.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "ChuckSherwood1",
+      "lang": "en",
+      "textSha256": "c942a31cf5cf65d9fbcefde5e7bc8188840af11f967f24a109ef35154c4bb150",
+      "media": [],
+      "oembedSha256": "74bc6eaffa56c7034d5960ac2c40f8c415aa54ac6b94e2f8359c8bc3ffefb444",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

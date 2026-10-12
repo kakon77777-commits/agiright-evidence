@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000003",
+  "url": "https://philarchive.org/archive/MAHPOA-2",
+  "capturedAt": "2026-10-03T07:01:11Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5774,
+    "sha256": "ccd2fdc9695c5749f6c3b6e95191f1977281768289f51eb603e8e5009ce449ed",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "063F85FA6CE62FB9813C484BDAFA3C90",
+      "status": 403,
+      "url": "https://philarchive.org/archive/MAHPOA-2",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8b15172e4ccb50cce44d4ffffb0fb4de258ac8acf8c7c2a1a1ecac9db6e863e0",
+    "width": 1366,
+    "height": 900,
+    "bytes": 26769,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:01:11Z",
+    "url": "https://philarchive.org/archive/MAHPOA-2",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5774,
+      "sha256": "ccd2fdc9695c5749f6c3b6e95191f1977281768289f51eb603e8e5009ce449ed"
+    },
+    "finalUrl": "https://philarchive.org/archive/MAHPOA-2",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 263,
+      "textSha256": "e460242a8e7d2076270ad997f768ee9825c27192454588b4b317f1c2a6ff57eb",
+      "htmlSha256": "66b973098ad7a09e8fb33931fe8e718e2e184c2df2fca66adebba8585b07d322"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "8b15172e4ccb50cce44d4ffffb0fb4de258ac8acf8c7c2a1a1ecac9db6e863e0",
+      "width": 1366,
+      "height": 900,
+      "bytes": 26769,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

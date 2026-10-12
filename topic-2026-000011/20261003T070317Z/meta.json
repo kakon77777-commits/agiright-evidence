@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000011",
+  "url": "https://arxiv.org/abs/2603.18007",
+  "capturedAt": "2026-10-03T07:03:17Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 42660,
+    "sha256": "a98e4949aaebb64e87af5b907a81976388cbfcf9bce7fe65d943363d7ce870ff",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4EE94742FF8DC95D3553FFBD72AA28AE",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2603.18007",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1151,
+      "afterScrollHeight": 1151,
+      "wantedHeight": 1151
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3afb32a832144a98da7bcd3a2acd41ac62203b089f5b8d412115ce24bbc900dc",
+    "width": 1366,
+    "height": 1151,
+    "bytes": 139910,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1151,
+    "afterScrollHeight": 1151,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:03:17Z",
+    "url": "https://arxiv.org/abs/2603.18007",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 42660,
+      "sha256": "a98e4949aaebb64e87af5b907a81976388cbfcf9bce7fe65d943363d7ce870ff"
+    },
+    "finalUrl": "https://arxiv.org/abs/2603.18007",
+    "httpStatus": 200,
+    "title": "[2603.18007] Do Large Language Models Possess a Theory of Mind? A Comparative Evaluation Using the Strange Stories Paradigm",
+    "rendered": {
+      "textChars": 3127,
+      "textSha256": "c45d96b0710e7415f7fc0824dfb57a27ff615224ba9027206beb5be823381609",
+      "htmlSha256": "267f896c8bbca0effd52c65e6f6254cfec4a26c4ee75b20ff00e82e44bb282b7"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "3afb32a832144a98da7bcd3a2acd41ac62203b089f5b8d412115ce24bbc900dc",
+      "width": 1366,
+      "height": 1151,
+      "bytes": 139910,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260320055133",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260320055133/https://arxiv.org/abs/2603.18007"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260320055133/https://arxiv.org/abs/2603.18007",
+      "timestamp": "20260320055133",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

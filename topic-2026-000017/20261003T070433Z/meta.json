@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000017",
+  "url": "https://arxiv.org/abs/2602.21012",
+  "capturedAt": "2026-10-03T07:04:33Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 53745,
+    "sha256": "992be8c2f1fd035f0357b2243d42a6813f5b9cb3336598d9203eb8f80d6f742c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9F8BD3C60EFE30913C2405D8FCC8B8C5",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2602.21012",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1238,
+      "afterScrollHeight": 1238,
+      "wantedHeight": 1238
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2a0eae871761ef95850f11f55934069b2671e6f65bb044bab59ade477a251534",
+    "width": 1366,
+    "height": 1238,
+    "bytes": 163463,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1238,
+    "afterScrollHeight": 1238,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:04:33Z",
+    "url": "https://arxiv.org/abs/2602.21012",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 53745,
+      "sha256": "992be8c2f1fd035f0357b2243d42a6813f5b9cb3336598d9203eb8f80d6f742c"
+    },
+    "finalUrl": "https://arxiv.org/abs/2602.21012",
+    "httpStatus": 200,
+    "title": "[2602.21012] International AI Safety Report 2026",
+    "rendered": {
+      "textChars": 3443,
+      "textSha256": "ac4b5e34113bd0a7d07f0523efbf4621e678b524901aadd8314f070e91c39508",
+      "htmlSha256": "d0448f72aeafaf4a49a62cc0f9df8d6b2d618d7831052d0e6094530a19ad67c0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2a0eae871761ef95850f11f55934069b2671e6f65bb044bab59ade477a251534",
+      "width": 1366,
+      "height": 1238,
+      "bytes": 163463,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260225055050",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260225055050/https://arxiv.org/abs/2602.21012"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260225055050/https://arxiv.org/abs/2602.21012",
+      "timestamp": "20260225055050",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

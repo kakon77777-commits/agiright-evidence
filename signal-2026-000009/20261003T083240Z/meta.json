@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000009",
+  "url": "https://x.com/elonmusk/status/2099308197802631191",
+  "capturedAt": "2026-10-03T08:32:40Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3382870fa4d847b5bdc4c42846617ef6e7db927c0f858a2f18f622325aa75b47",
+    "width": 640,
+    "height": 900,
+    "bytes": 45759,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:32:40Z",
+    "url": "https://x.com/elonmusk/status/2099308197802631191",
+    "backfill": true,
+    "finalUrl": "https://x.com/elonmusk/status/2099308197802631191",
+    "screenshot": {
+      "sha256": "3382870fa4d847b5bdc4c42846617ef6e7db927c0f858a2f18f622325aa75b47",
+      "width": 640,
+      "height": 900,
+      "bytes": 45759,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2099308197802631191",
+      "handle": "elonmusk",
+      "syndicationSha256": "f538634091cec26fe1f0bb406899db30a818ec53dde772f90c51f28275635e7f",
+      "createdAt": "2026-09-14T01:24:12.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "elonmusk",
+      "lang": "en",
+      "textSha256": "e4c46f2dc0562e81a5f174d0526e9f27bcdcf4b0a55defde9cbb93cf7696c3c2",
+      "media": [],
+      "oembedSha256": "4f5981e739404d6697ec294c0bf35635ab370e7b314ce0f53d7b3548f6737200",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

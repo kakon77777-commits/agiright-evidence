@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000027",
+  "url": "https://x.com/heyim_shree/status/2102258234421846291",
+  "capturedAt": "2026-10-03T08:36:22Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "647d2ddbda5f9fd32a99ef488456fd6d503ecc6a621ddf8958de6d519e50ceb9",
+    "width": 640,
+    "height": 901,
+    "bytes": 191598,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:36:22Z",
+    "url": "https://x.com/heyim_shree/status/2102258234421846291",
+    "backfill": true,
+    "finalUrl": "https://x.com/heyim_shree/status/2102258234421846291",
+    "screenshot": {
+      "sha256": "647d2ddbda5f9fd32a99ef488456fd6d503ecc6a621ddf8958de6d519e50ceb9",
+      "width": 640,
+      "height": 901,
+      "bytes": 191598,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2102258234421846291",
+      "handle": "heyim_shree",
+      "syndicationSha256": "06717f6d1f48255369aa437633b98174f9c65f9ba806256b56e3342c85d1a628",
+      "createdAt": "2026-09-22T04:46:35.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "heyim_shree",
+      "lang": "en",
+      "textSha256": "fb38b60962cfaa66307ba0966e116dbd771ee5e10817f41bda26bd5e68be0463",
+      "media": [],
+      "oembedSha256": "f2f3ad27c2cc41c296295f233e3ca4cb81036af74a57936a56d48896d4c8e5a7",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000011",
+  "url": "https://x.com/Rebecca21951651/status/2100423468198113486",
+  "capturedAt": "2026-10-03T08:33:08Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "13e838acc589ff6f9182c524021f80d59e49429873310000f81023dfb679e8b5",
+    "width": 640,
+    "height": 900,
+    "bytes": 61572,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:33:08Z",
+    "url": "https://x.com/Rebecca21951651/status/2100423468198113486",
+    "backfill": true,
+    "finalUrl": "https://x.com/Rebecca21951651/status/2100423468198113486",
+    "screenshot": {
+      "sha256": "13e838acc589ff6f9182c524021f80d59e49429873310000f81023dfb679e8b5",
+      "width": 640,
+      "height": 900,
+      "bytes": 61572,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2100423468198113486",
+      "handle": "Rebecca21951651",
+      "syndicationSha256": "00a7b14befb1ca60877d3e327650305a677d71edf684bdbf60a6b14b1d5551e0",
+      "createdAt": "2026-09-17T03:15:53.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "Rebecca21951651",
+      "lang": "en",
+      "textSha256": "d4ca64602e06338b4b5002eb0a0682fd2ae919644d1c1a879bb8139e9b23bd00",
+      "media": [],
+      "oembedSha256": "edf3e1f50eabe48036f7635758f8bc1338c9827ec1b47bd7a3ed139f2f083f98",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

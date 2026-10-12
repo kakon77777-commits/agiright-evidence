@@ -1,0 +1,76 @@
+{
+  "id": "signal-2026-000044",
+  "url": "https://x.com/auricxofficial/status/2109124229354656075",
+  "capturedAt": "2026-10-11T08:56:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a024ac7748835589064cd5cc736917e7f6de13d5d24576f54d7cb6b28efae24b",
+    "width": 640,
+    "height": 900,
+    "bytes": 107698,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-11T08:56:37Z",
+    "url": "https://x.com/auricxofficial/status/2109124229354656075",
+    "finalUrl": "https://x.com/auricxofficial/status/2109124229354656075",
+    "screenshot": {
+      "sha256": "a024ac7748835589064cd5cc736917e7f6de13d5d24576f54d7cb6b28efae24b",
+      "width": 640,
+      "height": 900,
+      "bytes": 107698,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2109124229354656075",
+      "handle": "auricxofficial",
+      "syndicationSha256": "37aac7265fe0dc4a1c8d29f1cd266120ac1519525937f0beaa02685112db3c28",
+      "createdAt": "2026-10-11T03:29:36.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "auricxofficial",
+      "lang": "en",
+      "textSha256": "3a4cf0c94ba0fe5f8be4ef3a5b324322f462d015b5ba5950d0c61436f9e55a1f",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "47cb83943875615ca4605195ec4d41b2309ea77d3447ae9e892a0c910db80373",
+          "bytes": 23925,
+          "width": 1266,
+          "height": 965
+        },
+        {
+          "type": "photo",
+          "sha256": "6a29692193bbf5ce21d89f6516802010ba586c87b7a15b1b27006fabce9524ea",
+          "bytes": 29224,
+          "width": 1651,
+          "height": 115
+        }
+      ],
+      "oembedSha256": "30e8813b5d8169176d74da3897d94001ea15abfed7c180caf0aef48b2b95a0c4",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

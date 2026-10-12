@@ -1,0 +1,86 @@
+{
+  "id": "topic-2026-000251",
+  "url": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
+  "capturedAt": "2026-10-03T06:31:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 201819,
+    "sha256": "e5097af686aa99b93f4907847a4e3c91ca3ac2dc5d683a9a0cf1924e1d7da4bd",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "ECC0F4549CE0BF2708CF928C1ED6B665",
+      "status": 200,
+      "url": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7497,
+      "afterScrollHeight": 7497,
+      "wantedHeight": 7497
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "61596bee7614f2e7a534ff36259b9bd88f0cf238c2b22c7317561bbaeec52d0a",
+    "width": 1366,
+    "height": 7497,
+    "bytes": 3144158,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7497,
+    "afterScrollHeight": 7497,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T06:31:13Z",
+    "url": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 201819,
+      "sha256": "e5097af686aa99b93f4907847a4e3c91ca3ac2dc5d683a9a0cf1924e1d7da4bd"
+    },
+    "finalUrl": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
+    "httpStatus": 200,
+    "title": "Senators debate liability for ‘rogue’ AI agents – Roll Call",
+    "rendered": {
+      "textChars": 7253,
+      "textSha256": "372ef047655a4d8eee1767dfa36faba4091ae5e779fe97edef43888a7a9e0967",
+      "htmlSha256": "35e927dcb52248ea3c251b1b3847c49081ca11bc26a0cf2dd40d605114c502ee"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "61596bee7614f2e7a534ff36259b9bd88f0cf238c2b22c7317561bbaeec52d0a",
+      "width": 1366,
+      "height": 7497,
+      "bytes": 3144158,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261001134019",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261001134019/https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003061402/https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
+      "timestamp": "20261003061402",
+      "verifiedHttp": 200
+    }
+  }
+}

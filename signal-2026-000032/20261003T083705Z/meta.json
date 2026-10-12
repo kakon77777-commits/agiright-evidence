@@ -1,0 +1,75 @@
+{
+  "id": "signal-2026-000032",
+  "url": "https://x.com/CHASER712002/status/2102984100915081416",
+  "capturedAt": "2026-10-03T08:37:05Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4d762c93d881f8efec254cbce3e7eeb95d586af8d54b7cb987e15d4e1963825e",
+    "width": 640,
+    "height": 900,
+    "bytes": 158968,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:37:05Z",
+    "url": "https://x.com/CHASER712002/status/2102984100915081416",
+    "backfill": true,
+    "finalUrl": "https://x.com/CHASER712002/status/2102984100915081416",
+    "screenshot": {
+      "sha256": "4d762c93d881f8efec254cbce3e7eeb95d586af8d54b7cb987e15d4e1963825e",
+      "width": 640,
+      "height": 900,
+      "bytes": 158968,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2102984100915081416",
+      "handle": "CHASER712002",
+      "syndicationSha256": "b1110c33dd1f29630837244e16bb805e3242e888bdd41efc7306c4d9600a202b",
+      "createdAt": "2026-09-24T04:50:55.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "CHASER712002",
+      "lang": "en",
+      "textSha256": "2062cd42d994ea1d70bd9ce89fbad27b4657856f2f547ea07c2629073e91fa7d",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "7f060f9d3c3149af4a67011cd9d1cec558b588e4ed3933c24d5d593c640d2da4",
+          "bytes": 24168,
+          "width": 400,
+          "height": 400
+        },
+        {
+          "type": "photo",
+          "sha256": "992f712274edb5a25071a756747fbf8fd616190c476494fccd8f1ec610641a66",
+          "bytes": 24383,
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "oembedSha256": "97b94b41993088f6c277370e818c2edc78284e78def19fdca76419fd36398073",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

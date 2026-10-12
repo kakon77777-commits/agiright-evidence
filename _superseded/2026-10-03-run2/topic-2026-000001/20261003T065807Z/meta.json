@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000001",
+  "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+  "capturedAt": "2026-10-03T06:58:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 234086,
+    "sha256": "ad1122df85acb41d532307ff17d9cc3b12c952ed003ef69bea6c1d9252434aad",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4D0AFBD66F7859ABD956911AFBBF07F7",
+      "status": 200,
+      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3515,
+      "afterScrollHeight": 6436,
+      "wantedHeight": 3515
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "34eb9a5b4f25622a46d178f538846b1642b681190d4d9e29eb9fea3aada8d465",
+    "width": 1366,
+    "height": 3515,
+    "bytes": 1132579,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 3515,
+    "afterScrollHeight": 6436,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T06:58:07Z",
+    "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 234086,
+      "sha256": "ad1122df85acb41d532307ff17d9cc3b12c952ed003ef69bea6c1d9252434aad"
+    },
+    "finalUrl": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+    "httpStatus": 200,
+    "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI | TechCrunch",
+    "rendered": {
+      "textChars": 5153,
+      "textSha256": "280a21634451c4809c9497a9a19853ef4b830356e47c06c42aef472161d47154",
+      "htmlSha256": "2b757168b174ad1d56fbf66b68ddbe7003228939181a8ed87ea216ad09299ac1"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "34eb9a5b4f25622a46d178f538846b1642b681190d4d9e29eb9fea3aada8d465",
+      "width": 1366,
+      "height": 3515,
+      "bytes": 1132579,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260714174632",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260714174632/https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260714174632/https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "timestamp": "20260714174632",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

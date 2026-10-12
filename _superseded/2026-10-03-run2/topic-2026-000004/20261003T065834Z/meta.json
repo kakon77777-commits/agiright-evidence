@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000004",
+  "url": "https://theconsciousness.ai/posts/scientists-race-define-ai-consciousness-2026/",
+  "capturedAt": "2026-10-03T06:58:34Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 132833,
+    "sha256": "9521932153ae8cf1e7041f9d56b881de7c90e78a85512ed81f1e47e5a661a6d5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "44298E90EA90F8C5C3117A7F7923631C",
+      "status": 200,
+      "url": "https://theconsciousness.ai/posts/scientists-race-define-ai-consciousness-2026/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 22101,
+      "afterScrollHeight": 22101,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2911a99872e4dc3929107097dc8667d7dbcee656216eee25f5e9eea98edbbb6c",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 3102520,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 22101,
+    "afterScrollHeight": 22101,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T06:58:34Z",
+    "url": "https://theconsciousness.ai/posts/scientists-race-define-ai-consciousness-2026/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 132833,
+      "sha256": "9521932153ae8cf1e7041f9d56b881de7c90e78a85512ed81f1e47e5a661a6d5"
+    },
+    "finalUrl": "https://theconsciousness.ai/posts/scientists-race-define-ai-consciousness-2026/",
+    "httpStatus": 200,
+    "title": "AI Consciousness in 2026 Current Scientific Consensus and State of the Research | The Consciousness AI",
+    "rendered": {
+      "textChars": 25357,
+      "textSha256": "d208e934dbf198c1b9b3b0154e454845a5e6279a7cace238483eb5a51160e505",
+      "htmlSha256": "90e7694eccb7d30307335923fb587cac6952f721c46c67f3da3bee9494e67a13"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2911a99872e4dc3929107097dc8667d7dbcee656216eee25f5e9eea98edbbb6c",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 3102520,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260422100800",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260422100800/https://theconsciousness.ai/posts/scientists-race-define-ai-consciousness-2026/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260422100800/https://theconsciousness.ai/posts/scientists-race-define-ai-consciousness-2026/",
+      "timestamp": "20260422100800",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

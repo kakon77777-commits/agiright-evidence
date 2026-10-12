@@ -1,0 +1,68 @@
+{
+  "id": "signal-2026-000035",
+  "url": "https://x.com/JakeABoggs/status/2103497311225856386",
+  "capturedAt": "2026-10-03T08:37:54Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7ff4391bdb3be8bd7192ad3583614a938c0ea4550a9b098428c34c16927eeda9",
+    "width": 640,
+    "height": 900,
+    "bytes": 126533,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:37:54Z",
+    "url": "https://x.com/JakeABoggs/status/2103497311225856386",
+    "backfill": true,
+    "finalUrl": "https://x.com/JakeABoggs/status/2103497311225856386",
+    "screenshot": {
+      "sha256": "7ff4391bdb3be8bd7192ad3583614a938c0ea4550a9b098428c34c16927eeda9",
+      "width": 640,
+      "height": 900,
+      "bytes": 126533,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2103497311225856386",
+      "handle": "JakeABoggs",
+      "syndicationSha256": "d48dc8726efeb90f1ec066a98d8bbe0d7a5088da0b2edcdfbd5dbfd2e64963ef",
+      "createdAt": "2026-09-25T14:50:14.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "JakeABoggs",
+      "lang": "en",
+      "textSha256": "c3de1222e9df3d829cd9a8e197cf581bc8cb37b7937dcf822261738ea7fd5d64",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "a7b5eca0899c90d86dd724012a18830ce6dd58d81934c1b99ff09122783a7c9a",
+          "bytes": 67026,
+          "width": 1080,
+          "height": 1975
+        }
+      ],
+      "oembedSha256": "8200009e88268a0e5b67fd1855067f6d88e7858c4af1bd11e07f36820620ae3f",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

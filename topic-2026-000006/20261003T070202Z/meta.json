@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000006",
+  "url": "https://arxiv.org/abs/2506.11945",
+  "capturedAt": "2026-10-03T07:02:02Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43859,
+    "sha256": "338f64373fb7a8601122d8b42aab021b5699089a8e2b14e65479d9a670ae391a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D08B9B374A7279FAF19230D9BFFF705B",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2506.11945",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1145,
+      "afterScrollHeight": 1145,
+      "wantedHeight": 1145
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e653bb8afe3b6ebc23afad90b084e66b257b206b28754d1ead2d1be601938ec7",
+    "width": 1366,
+    "height": 1145,
+    "bytes": 145406,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1145,
+    "afterScrollHeight": 1145,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:02:02Z",
+    "url": "https://arxiv.org/abs/2506.11945",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43859,
+      "sha256": "338f64373fb7a8601122d8b42aab021b5699089a8e2b14e65479d9a670ae391a"
+    },
+    "finalUrl": "https://arxiv.org/abs/2506.11945",
+    "httpStatus": 200,
+    "title": "[2506.11945] Subjective Experience in AI Systems: What Do AI Researchers and the Public Believe?",
+    "rendered": {
+      "textChars": 3300,
+      "textSha256": "1ced8f05cda2bbda4fcbf1ef0741ca24e80a74277732cc37ba3fd9716138f36a",
+      "htmlSha256": "f694d04f109b152519827c97a4f62467d0c941d75997a26726aab685b00b5503"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e653bb8afe3b6ebc23afad90b084e66b257b206b28754d1ead2d1be601938ec7",
+      "width": 1366,
+      "height": 1145,
+      "bytes": 145406,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20250616025914",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20250616025914/https://arxiv.org/abs/2506.11945"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20250616025914/https://arxiv.org/abs/2506.11945",
+      "timestamp": "20250616025914",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

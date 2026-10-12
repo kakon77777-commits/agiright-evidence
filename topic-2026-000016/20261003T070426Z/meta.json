@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000016",
+  "url": "https://arxiv.org/abs/2605.12505",
+  "capturedAt": "2026-10-03T07:04:26Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 41887,
+    "sha256": "f901352f14a433fe027a916e2eae7d7c46c62db57a6bb57337fffc30eac39e48",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "26F27AED41E8D6E9C16CFD1E90BF00EE",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2605.12505",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1103,
+      "afterScrollHeight": 1103,
+      "wantedHeight": 1103
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e61cf7520790225b75608f03a1443accc41ef3d9b4779ffd9cb68a56a1d9f0d6",
+    "width": 1366,
+    "height": 1103,
+    "bytes": 132819,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1103,
+    "afterScrollHeight": 1103,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:04:26Z",
+    "url": "https://arxiv.org/abs/2605.12505",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 41887,
+      "sha256": "f901352f14a433fe027a916e2eae7d7c46c62db57a6bb57337fffc30eac39e48"
+    },
+    "finalUrl": "https://arxiv.org/abs/2605.12505",
+    "httpStatus": 200,
+    "title": "[2605.12505] Precautionary Governance of Autonomous AI: Legal Personhood as Functional Instrument",
+    "rendered": {
+      "textChars": 3015,
+      "textSha256": "7da2f3268cd2576bf633b9097901d28be3c59ea1367fc9fe0cd83f3ca7e25f13",
+      "htmlSha256": "db2ba19033e3d62f113a7b7756a53f95e8bce4685df822cd44e8ee95975ab2f0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e61cf7520790225b75608f03a1443accc41ef3d9b4779ffd9cb68a56a1d9f0d6",
+      "width": 1366,
+      "height": 1103,
+      "bytes": 132819,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260514031431",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260514031431/https://arxiv.org/abs/2605.12505"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

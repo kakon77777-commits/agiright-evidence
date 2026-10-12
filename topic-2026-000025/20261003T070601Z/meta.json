@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000025",
+  "url": "https://www.chinadailyasia.com/hk/article/636647",
+  "capturedAt": "2026-10-03T07:06:01Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 225428,
+    "sha256": "6b61f4a77b5714d3e867fcaa55a1e7a570f8c88c59a9297596001a40f8c46ebe",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4D8D3532AAAE5B7593D51BA6B30F92E9",
+      "status": 200,
+      "url": "https://www.chinadailyasia.com/hk/article/636647",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4882,
+      "afterScrollHeight": 4882,
+      "wantedHeight": 4882
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4f4a95137da53d4e21ba8c22e03598f823528dafa08e627a3350ca79ccb82d4d",
+    "width": 1366,
+    "height": 4882,
+    "bytes": 1995060,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4882,
+    "afterScrollHeight": 4882,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:06:01Z",
+    "url": "https://www.chinadailyasia.com/hk/article/636647",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 225428,
+      "sha256": "6b61f4a77b5714d3e867fcaa55a1e7a570f8c88c59a9297596001a40f8c46ebe"
+    },
+    "finalUrl": "https://www.chinadailyasia.com/hk/article/636647",
+    "httpStatus": 200,
+    "title": "China releases international AI ethics action plan",
+    "rendered": {
+      "textChars": 5780,
+      "textSha256": "c5b70974b22caff5025e7dd858bed0c3538bb6659f5d04aac8dc17c399c1054a",
+      "htmlSha256": "b27f2e804eef152bc1083c34949050b286f1c8a4c946c342442c6035415c4ed5"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4f4a95137da53d4e21ba8c22e03598f823528dafa08e627a3350ca79ccb82d4d",
+      "width": 1366,
+      "height": 4882,
+      "bytes": 1995060,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

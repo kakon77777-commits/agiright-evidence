@@ -1,0 +1,118 @@
+Skip to content
+Toggle site navigation
+Toggle site search
+University of Bradford
+News
+Archive
+2026
+No, AI isn't conscious
+No, AI isn't conscious - even when it acts like it is, new study finds
+
+Published: Monday 23 February 2026
+
+Research from the University of Bradford and RIT shows that AI systems aren’t conscious, even when they appear to be. Tests adapted from human consciousness research revealed that AI can produce “conscious‑like” signals even when degraded, highlighting why complexity doesn’t equal awareness and why claims of conscious AI are misleading.
+
+Human beings are famously good at spotting patterns where none exist – from seeing faces in clouds to hearing hidden messages in noise. New research suggests the same instinct may be at work when people claim artificial intelligence is, or could soon become, conscious.
+
+In two new studies, researchers from the University of Bradford and the Rochester Institute of Technology (RIT) applied scientific methods used to assess consciousness in humans to artificial intelligence systems, including large language models similar to ChatGPT.
+
+Their conclusion is clear: AI is not conscious – even when it sometimes appears to be.
+
+Professor Hassan Ugail, from the University of Bradford, said: “When we applied well‑known methods used to assess consciousness in humans to AI, we got nothing meaningful back. In other words, it’s not conscious – at least not in the way humans are. AI is not conscious; it’s just a complicated system.”
+
+The findings, published in two journals as preprints and currently under peer review, challenge growing claims that AI systems are on the verge of becoming self‑aware – and reveal why measuring consciousness in machines is far more difficult than many people assume.
+
+Why AI can look ‘conscious’
+
+In humans, consciousness is linked to distinctive patterns of brain activity. When we are awake and aware, different regions of the brain work together across multiple timescales, balancing stability with flexibility. When we fall asleep, are anaesthetised or lose consciousness, those patterns change in measurable ways.
+
+The research team developed a mathematical method that can reliably distinguish between different brain‑like states, such as wakefulness, dreaming and unconsciousness.
+
+They then asked a critical question: what happens if the same measurements are applied to artificial intelligence?
+
+To find out, the researchers tested their system on GPT‑2, a well‑known AI language model. They deliberately interfered with its internal structure, removing key components responsible for prioritising information. They also adjusted a setting known as “temperature”, which controls how cautious or random the AI’s responses are.
+
+What they found was unexpected.
+
+Under certain conditions, the AI’s “consciousness‑style” score actually increased after the system was damaged – even though the quality of its output clearly got worse. Under other conditions, the score fell or barely changed at all.
+
+In short, the number said less about the AI itself and more about how it was being run.
+
+Complexity is not consciousness
+
+Professor Ugail said this reveals a fundamental misunderstanding about machine intelligence.
+
+“These kinds of measures are very good at detecting complex activity,” he said. “But complexity is not the same thing as consciousness. In our tests, the AI sometimes looked more ‘conscious‑like’ when it was actually impaired and struggling.”
+
+He likened it to a football team playing with fewer players.
+
+“They might run more and coordinate more frantically, which looks impressive if you only measure activity. But anyone watching can see the team is actually playing worse.”
+
+The study’s co‑author, Professor Newton Howard, a brain and cognitive scientist at RIT and former director of the MIT Mind Machine Project, said the findings have important implications for how AI systems are interpreted and regulated.
+
+“These complexity metrics reliably distinguish conscious from unconscious states in the human brain,” he said. “But when applied to artificial systems, they behave very differently. In damaged neural networks, we saw complexity increase under some conditions even as performance degraded.”
+
+“This tells us something crucial: complexity and consciousness are not the same thing. That challenges simplistic narratives about ‘conscious AI’.”
+
+Why it matters
+
+The researchers stress that their work does not show AI is conscious, self‑aware or alive. Instead, it shows why scientists, policymakers and the public should be cautious about claims that machines are developing minds of their own.
+
+In artificial systems, unlike in the human brain, the same mathematical patterns can be dialled up or down simply by changing settings. That makes them unreliable as any kind of test for awareness.
+
+What these methods can do, the researchers say, is help engineers understand when an AI system is functioning well – or when it is beginning to break down. That could prove valuable for AI safety, reliability and future regulation.
+
+But conscious machines remain a long way off.
+
+As Professor Ugail puts it: “Just because something behaves in a complex way doesn’t mean there’s a mind inside. Our research shows how easy it is to confuse the two – and why we shouldn’t.”
+
+Back to news from 2026
+Previous story
+Next story
+Further reading
+
+Images: 1) Professor Hassan Ugail, from University of Bradford. Credit: University of Bradford. 2) Professor Newton Howard, from Rochester Institute of Technology (RIT).
+
+Media Relations
+
+Learn about how we can help journalists and how to contact our Media Relations team, or simply email press@bradford.ac.uk.
+
+Category
+
+Press release
+
+About us
+
+Find latest facts and figures, read about our heritage or more generally about the University of Bradford.
+
+Proud to be strategic partners
+
+@uniofbradford on TikTok
+University of Bradford on Instagram
+University of Bradford on Facebook
+University of Bradford on LinkedIn
+University of Bradford on YouTube
+Bluesky
+University of Bradford on Threads
+University Governance
+Data Protection
+Freedom of Information Act
+Privacy and Cookie Policy
+Modern Slavery Act statement
+Website accessibility
+Whistleblowing (Public Interest Disclosure) Code of Practice
+Harassment, bullying, discrimination and sexual misconduct
+
+University of Bradford
+Bradford, West Yorkshire, BD7 1DP, UK
+Tel: +44 (0) 1274 232323
+
+Contact usJobs with us
+
+© University of Bradford 2026
+
+The University is a member of Yorkshire Universities
+
+Your cookie consent
+We use cookies on our website for functionality, performance and marketing purposes as detailed in our cookie policy. Please take a moment to confirm your preferences.Read our Website Privacy and Cookie Policy for full details.
+Review cookies Reject all cookies Accept all cookies

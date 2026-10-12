@@ -1,0 +1,68 @@
+{
+  "id": "signal-2026-000036",
+  "url": "https://x.com/btibor91/status/2103222629171908937",
+  "capturedAt": "2026-10-03T08:38:04Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "410aa3401241a2f63c30ad2c57e8aa19d66fe37e8ce9d6c072a6aa6d3f646615",
+    "width": 640,
+    "height": 900,
+    "bytes": 267249,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:38:04Z",
+    "url": "https://x.com/btibor91/status/2103222629171908937",
+    "backfill": true,
+    "finalUrl": "https://x.com/btibor91/status/2103222629171908937",
+    "screenshot": {
+      "sha256": "410aa3401241a2f63c30ad2c57e8aa19d66fe37e8ce9d6c072a6aa6d3f646615",
+      "width": 640,
+      "height": 900,
+      "bytes": 267249,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2103222629171908937",
+      "handle": "btibor91",
+      "syndicationSha256": "b2ae0a2487db9815a166b87562c84238661c51dbdce81c251bde03c531ad457a",
+      "createdAt": "2026-09-24T20:38:45.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "btibor91",
+      "lang": "en",
+      "textSha256": "2fa22318d5f6cd3223424c8af183a360321c07a68eb77a4f9f50e9c41895a1bd",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "c99769b21a8d669bb82497706d6eb0a41f88fb98e740f9c4f30d287a6134456b",
+          "bytes": 180430,
+          "width": 1290,
+          "height": 1117
+        }
+      ],
+      "oembedSha256": "298b1d127d03b01bac944c9b6f1a781e5e50b6f19165656fffa1acfc824bd03a",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

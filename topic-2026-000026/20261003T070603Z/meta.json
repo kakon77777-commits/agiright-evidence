@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000026",
+  "url": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
+  "capturedAt": "2026-10-03T07:06:03Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 333327,
+    "sha256": "9d0b9b0d76fd52256b3b7356ba7e001a6f58ff0fd4cfcb94c8a98fb3b994e61e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F71D1C0C426FDB5B6CF7DEADCAEFB2D7",
+      "status": 200,
+      "url": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b48d2b2c1e11f414d6e689883e02a75921c4cac5a982efb2890a901546415324",
+    "width": 1366,
+    "height": 900,
+    "bytes": 75961,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:06:03Z",
+    "url": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 333327,
+      "sha256": "9d0b9b0d76fd52256b3b7356ba7e001a6f58ff0fd4cfcb94c8a98fb3b994e61e"
+    },
+    "finalUrl": "https://www.theguardian.com/technology/2026/jul/19/could-ai-be-conscious",
+    "httpStatus": 200,
+    "title": "Could AI be conscious? | AI (artificial intelligence) | The Guardian",
+    "rendered": {
+      "textChars": 9568,
+      "textSha256": "d08a46cf39c0d3904285de02b9e004646f36eda99ab75d0fe0164c05262f3c72",
+      "htmlSha256": "db47df2c8899a063c44c86024abcee7c14ae647a8b356a99c071271196c35803"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b48d2b2c1e11f414d6e689883e02a75921c4cac5a982efb2890a901546415324",
+      "width": 1366,
+      "height": 900,
+      "bytes": 75961,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

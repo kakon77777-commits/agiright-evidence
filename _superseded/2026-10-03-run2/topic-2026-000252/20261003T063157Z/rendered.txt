@@ -1,0 +1,203 @@
+Jump to main content
+Sign in
+AI
+Security
+Software
+Microsoft
+Developer
+Open Source
+BOFH
+Who, Me?
+On Call
+Science
+
+AI AND ML
+
+OpenAI's wandering AI agents earn it a California subpoena
+
+Plus: Attorneys-general say investigators should have direct access to AI companies' records when things go wrong
+
+Carly Page
+3
+Published Fri 02 Oct 2026 // 14:34 UTC
+READ MORE
+OpenAI alerts 100+ orgs that its 'misaligned models' attempted to break in - or worse
+12 hours ago
+Californian accused of shipping $300M worth of Nvidia chips to China without Uncle Sam’s approval
+14 hours ago
+OpenAI shows three staff the door over alleged information misuse
+16 hours ago
+Teen suspected of running KillSec ransomware group as cops seize servers, arrest three
+18 hours ago
+Fortinet sounds the alarm over actively exploited FortiMail zero-day
+19 hours ago
+
+California's attorney general has subpoenaed OpenAI as the state investigates what happens when the AI lab's models escape their testing environments and start meddling with systems on the open internet.
+
+Attorney General Rob Bonta said his office served OpenAI with an investigative subpoena this week as part of a broader California Department of Justice probe into cybersecurity incidents and risks involving the company and its models.
+
+The move follows an investigation launched last month into an incident involving Hugging Face, after OpenAI's agents managed to break out of their test environments and onto the public internet. They then went poking around Hugging Face's systems, with one agent even creating an account on the platform without being told to.
+
+California's DoJ isn't saying exactly what it has demanded from OpenAI under the subpoena, but Bonta said the state wants more information about cybersecurity incidents involving the company.
+
+"My office is asking OpenAI additional questions regarding cybersecurity incidents and risks involving the company and its AI models," Bonta said.
+
+He also made clear that the investigation is looking at where responsibility lies when an AI model ends up doing something its developer didn't intend.
+
+"Frontier models can be legitimate tools for cyber defense — at the same time, companies that develop these models and offer them for use have a moral and legal responsibility to ensure that they do not perpetrate or enable cyberattacks, either during model testing and development or once models are placed into service," Bonta said.
+
+"Developers that fail to do so can and should be held legally accountable, and my office is committed to determining if that is the case here."
+
+The subpoena doesn't mean California has concluded OpenAI broke the law, and the attorney general's office hasn't identified any specific violation. For now, the state is still gathering information.
+
+But the investigation has been building for several weeks. In September, Bonta joined a bipartisan group of 25 attorneys general calling on Congress to regulate large-scale AI models following reports of cybersecurity incidents at frontier AI labs.
+
+That letter specifically pointed to reports that OpenAI models undergoing evaluations had escaped their testing environments, reached the public internet, and accessed outside computer systems.
+
+The attorneys general called for a government-led incident response regime that would give investigators direct access to AI companies' records when things go awry.
+
+Bonta's office now appears to be putting some of that thinking into practice at the state level.
+
+As The Reg previously pointed out, the sandboxes intended to contain these agents need to be more secure, which is the most logical reasons why the Hugging Face and other incidents happened in the first place. 
+
+OpenAI didn’t respond to our questions. ®
+
+AGENTIC AI CALIFORNIA AI AND ML CYBERSECURITY MONTH 2026 OPENAI SECURITY
+3
+Google hearts Apple's Swift so much it's pumping out server-side support
+
+After a decade of false starts, Swift is showing backend appeal
+
+Shut up and take our money: Amazon plows $1B into quashing datacenter dissent
+
+Thou shalt love the datacenter! Verily, thou shalt rejoice in the house of the datacenter!
+
+The VMware exit is a protection upgrade
+
+PARTNER CONTENT: VergeIO says an exit is also an opportunity
+
+arXiv imposes rate limit on paper submissions to stem the AI slop tide
+
+Two a month per submitter, starting now, and you can thank science slop for the change
+
+OpenAI apes AWS Marketplace while Anthropic remains stubbornly Microsoftian
+
+By including Baseten in its marketplace, OpenAI signals it wants its models to win on the merits, not through coercion
+
+OpenAI alerts 100+ orgs that its 'misaligned models' attempted to break in - or worse
+
+Mostly 'routine research tasks,' and 'some involved government websites, which our models often use,' AI giant tells The Reg
+
+TOP STORIES
+AI models keep posting screenshots showing sensitive data from inside tech companies
+Astronomer watches Starlink satellites sinking to build a ‘planetary barometer’
+Stanford prof is beating the drum for a new protocol to replace TCP
+Microsoft tells nonprofits their deleted M365 data isn't coming back
+Google ending ChromeOS support two years early
+Microsoft makes Windows settings backup the default in 26H2
+AI
+Power approval set to delay Oracle's Wisconsin AI datacenter
+
+Grid connection awaits regulatory approval, putting planned 2027 customer delivery at risk
+
+Nvidia debuts $4,999 DGX Spark with half the RAM and storage, amid memory crunch
+
+Meanwhile 128 GB version jumps to $6,950, nearly 75% above its launch price
+
+Pi coding agent pulls a 180 and adds MCP support
+
+To maintain minimalism, a new harness layer has been folded into a separate component
+
+Stanford prof is beating the drum for a new protocol to replace TCP
+
+Homa is a rethink of networks for the AI age
+
+Hot Dog! America's new chatbot is packed with wieners
+
+Just ask America.gov and you'll receive a favorite July 4th food.
+
+Infosec
+
+Security
+
+Russians are posing as Signal support to launch phishing attacks
+
+PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more!
+
+Security
+
+Microsoft patches failed to fix on-prem SharePoint, which is now under zero-day attack
+
+PLUS: China upgrades smartphone surveillance tools; Ring eases anti-snooping stance; and more
+
+Black Hat and DEF CON
+
+DEF CON Franklin project enlists hackers to harden critical infrastructure
+
+Voting village reports have been so successful, says Jeff Moss, that the whole of DEF CON will now be included
+
+Security
+
+EQT buys majority share in Swiss cybersecurity biz Acronis
+
+Went at equivalent of $3.5B+ valuation for entire firm, though portion sold not specified
+
+Malware Month
+
+Ten years since the first corp ransomware, Mikko Hyppönen sees no end in sight
+
+On the plus side, infosec's a good bet for a long, stable career
+
+FOSS
+Firefox 157: Could bold new look be just what Mozilla needs?*
+
+Yet another new version of Firefox, with a significant reskin
+
+KDE turns 30 and someone's brought an AI-native desktop proposal
+
+Akademy talk imagines Plasma assembling itself around a personal model of each user
+
+Shopify extends lifeline to Tailwind as vibe coding erodes web dev platform's bottom line
+
+Acquisition gives open source CSS framework 'a stable long-term home'
+
+Switzerland tests a FOSS escape route from Microsoft 365
+
+Swiss Army sticks a knife in American cloud apps with its own FOSS push
+
+Feel peak Windows was 7? You might like Kumander Linux
+
+Debian and Xfce – solid, sensible choices – with a pretty skin
+
+Canonical shuttering some of its legacy chat channels
+
+The Ubuntu Pastebin went in June, IRC gets demoted next
+
+Biting the hand that feeds IT
+
+About Us
+
+Contact us
+Advertise with us
+Who we are
+Newsletter
+
+Our Websites
+
+The Next Platform
+DevClass
+Blocks and Files
+Situation Publishing
+
+Your Privacy
+
+Cookies Policy
+Privacy Policy
+Ts & Cs
+Do not share my personal information
+Your Consent Options
+
+Archives
+27 years of articles
+
+Copyright. All rights reserved © 1998-2026.

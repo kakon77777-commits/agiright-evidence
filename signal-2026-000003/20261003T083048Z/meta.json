@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000003",
+  "url": "https://x.com/AJEnglish/status/2097961643669864524",
+  "capturedAt": "2026-10-03T08:30:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "311c1f4d5eeb442f459d0a7f13934e803184a9cbb1e306f5463313e4b5cbe670",
+    "width": 640,
+    "height": 900,
+    "bytes": 234785,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:30:48Z",
+    "url": "https://x.com/AJEnglish/status/2097961643669864524",
+    "backfill": true,
+    "finalUrl": "https://x.com/AJEnglish/status/2097961643669864524",
+    "screenshot": {
+      "sha256": "311c1f4d5eeb442f459d0a7f13934e803184a9cbb1e306f5463313e4b5cbe670",
+      "width": 640,
+      "height": 900,
+      "bytes": 234785,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2097961643669864524",
+      "handle": "AJEnglish",
+      "syndicationSha256": "077ff8063c7673bbc199df1818a12be2c042016a888a80dac33ad790b9aabcc3",
+      "createdAt": "2026-09-10T08:13:28.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "AJEnglish",
+      "lang": "en",
+      "textSha256": "3355c85c6c7c1187ff4fb8ff00faecda6d15529637daae00370fce4cd197f694",
+      "media": [],
+      "oembedSha256": "3a775e6bf011e61d25d96e5edbf429370ed01916aed8fc44669b3401f6d05118",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

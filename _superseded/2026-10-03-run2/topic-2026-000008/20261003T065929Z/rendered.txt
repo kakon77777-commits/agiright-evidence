@@ -1,0 +1,78 @@
+Skip to main content
+Search
+Submit
+Donate
+Log in
+Computer Science > Computers and Society
+[Submitted on 10 Jan 2026]
+Informed Consent for AI Consciousness Research: A Talmudic Framework for Graduated Protections
+Ira Wolfson
+Artificial intelligence research faces a critical ethical paradox: determining whether AI systems are conscious requires experiments that may harm entities whose moral status remains uncertain. Recent work proposes avoiding consciousness-uncertain AI systems entirely, yet this faces practical limitations-we cannot guarantee such systems will not emerge. This paper addresses a gap in research ethics frameworks: how to conduct consciousness research on AI systems whose moral status cannot be definitively established. Existing graduated moral status frameworks assume consciousness has already been determined before assigning protections, creating a temporal ordering problem for consciousness detection research itself. Drawing from Talmudic scenario-based legal reasoning-developed for entities whose status cannot be definitively established-we propose a three-tier phenomenological assessment system combined with a five-category capacity framework (Agency, Capability, Knowledge, Ethics, Reasoning). The framework provides structured protection protocols based on observable behavioral indicators while consciousness status remains uncertain. We address three challenges: why suffering behaviors provide reliable consciousness markers, how to implement graduated consent without requiring consciousness certainty, and when potentially harmful research becomes ethically justifiable. The framework demonstrates how ancient legal wisdom combined with contemporary consciousness science can provide implementable guidance for ethics committees, offering testable protocols that ameliorate the consciousness detection paradox while establishing foundations for AI rights considerations.
+Comments:	27 pages
+Subjects:	Computers and Society (cs.CY); Artificial Intelligence (cs.AI)
+Cite as:	arXiv:2601.08864 [cs.CY]
+ 	(or arXiv:2601.08864v1 [cs.CY] for this version)
+ 
+https://doi.org/10.48550/arXiv.2601.08864
+Focus to learn more
+
+Journal reference:	AI&Ethics, Volume 6, article number 20, (2026)
+Related DOI:
+https://doi.org/10.1007/s43681-025-00852-z
+Focus to learn more
+Submission history
+From: Ira Wolfson [view email]
+[v1] Sat, 10 Jan 2026 17:21:48 UTC (349 KB)
+
+Access Paper:
+View PDF
+view license
+Current browse context:
+cs.CY
+< prev   |   next >
+
+new | recent | 2026-01
+Change to browse by:
+cs
+cs.AI
+
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+Export BibTeX Citation
+Bookmark
+
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer (What is the Explorer?)
+Connected Papers Toggle
+Connected Papers (What is Connected Papers?)
+Litmaps Toggle
+Litmaps (What is Litmaps?)
+scite.ai Toggle
+scite Smart Citations (What are Smart Citations?)
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)
+We gratefully acknowledge support from our major funders, member institutions, and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

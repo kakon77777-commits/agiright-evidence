@@ -1,0 +1,89 @@
+{
+  "id": "topic-2026-000002",
+  "url": "https://goodstrat.com/2026/01/20/the-comeback-of-ontology-in-ai-why-it-matters-2026/",
+  "capturedAt": "2026-10-03T09:32:38Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 229396,
+    "sha256": "b4de29c6bc8e6ec2fc795d5749d95c3ac33eb38b633899b15c989da74889ea5f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "31AE2BC8CB66057E512834EA0D9A3093",
+      "status": 200,
+      "url": "https://goodstrat.com/2026/01/20/the-comeback-of-ontology-in-ai-why-it-matters-2026/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8594,
+      "afterScrollHeight": 8594,
+      "wantedHeight": 8594
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "329ccf6bde841db207393b9f5066ac93098f1c7c5564a58243e3c075142a7f8c",
+    "width": 1366,
+    "height": 8594,
+    "bytes": 1306494,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8594,
+    "afterScrollHeight": 8594
+  },
+  "record": {
+    "capturedAt": "2026-10-03T09:32:38Z",
+    "url": "https://goodstrat.com/2026/01/20/the-comeback-of-ontology-in-ai-why-it-matters-2026/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 229396,
+      "sha256": "b4de29c6bc8e6ec2fc795d5749d95c3ac33eb38b633899b15c989da74889ea5f"
+    },
+    "finalUrl": "https://goodstrat.com/2026/01/20/the-comeback-of-ontology-in-ai-why-it-matters-2026/",
+    "httpStatus": 200,
+    "title": "The Comeback of Ontology in AI: Why It Matters – 2026/01/21 – GOOD STRATEGY",
+    "rendered": {
+      "textChars": 9368,
+      "textSha256": "aafaf5210b9f514aaed7608f76fe3c0824e33d1cedfe6bc4d63d4fe35fd19bd2",
+      "htmlSha256": "1b7fbb2bb9ee1a1cd4d56ca9c6cbb14f07876974bb9a585ff3272ceef1c997d6"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "329ccf6bde841db207393b9f5066ac93098f1c7c5564a58243e3c075142a7f8c",
+      "width": 1366,
+      "height": 8594,
+      "bytes": 1306494,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260120234143",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260120234143/https://goodstrat.com/2026/01/20/the-comeback-of-ontology-in-ai-why-it-matters-2026/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260120234143/https://goodstrat.com/2026/01/20/the-comeback-of-ontology-in-ai-why-it-matters-2026/",
+      "timestamp": "20260120234143",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

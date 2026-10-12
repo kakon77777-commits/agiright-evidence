@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000020",
+  "url": "https://arxiv.org/abs/2604.26956",
+  "capturedAt": "2026-10-03T07:05:12Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 42732,
+    "sha256": "86a2bf6e238c46cdca4a55ed71297f3552ee0af30b28177e51aa65d96e0c21f2",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1510123BC907DB72FF4ACDC07CA2CFC1",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2604.26956",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1111,
+      "afterScrollHeight": 1111,
+      "wantedHeight": 1111
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ffa3aa2147bbfefe6e10612f211ff345fdcacebb8c6ba201f39d645551dcc5bd",
+    "width": 1366,
+    "height": 1111,
+    "bytes": 133924,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1111,
+    "afterScrollHeight": 1111,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:05:12Z",
+    "url": "https://arxiv.org/abs/2604.26956",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 42732,
+      "sha256": "86a2bf6e238c46cdca4a55ed71297f3552ee0af30b28177e51aa65d96e0c21f2"
+    },
+    "finalUrl": "https://arxiv.org/abs/2604.26956",
+    "httpStatus": 200,
+    "title": "[2604.26956] Can AI be a moral victim? The role of moral patiency and ownership perceptions in ethical judgments of using AI-generated content",
+    "rendered": {
+      "textChars": 2727,
+      "textSha256": "3c13932468edc05297534752aeadea99758fe4cb264520bf70b9792610da24a8",
+      "htmlSha256": "2c42cdfd66ab483e0e6707242d3fbbdc48afff72db6ae5291eaed8a36b26fb1b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ffa3aa2147bbfefe6e10612f211ff345fdcacebb8c6ba201f39d645551dcc5bd",
+      "width": 1366,
+      "height": 1111,
+      "bytes": 133924,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260501084842",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260501084842/https://arxiv.org/abs/2604.26956"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260501084842/https://arxiv.org/abs/2604.26956",
+      "timestamp": "20260501084842",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

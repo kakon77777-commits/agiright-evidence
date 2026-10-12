@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000012",
+  "url": "https://x.com/AILeaksAndNews/status/2099604153139953688",
+  "capturedAt": "2026-10-03T08:33:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "15da8ccfce760d72734694960fdab288cc561983b84249fd4e498e9049d6f2bd",
+    "width": 640,
+    "height": 918,
+    "bytes": 202462,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:33:21Z",
+    "url": "https://x.com/AILeaksAndNews/status/2099604153139953688",
+    "backfill": true,
+    "finalUrl": "https://x.com/AILeaksAndNews/status/2099604153139953688",
+    "screenshot": {
+      "sha256": "15da8ccfce760d72734694960fdab288cc561983b84249fd4e498e9049d6f2bd",
+      "width": 640,
+      "height": 918,
+      "bytes": 202462,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2099604153139953688",
+      "handle": "AILeaksAndNews",
+      "syndicationSha256": "d85a717d32ee9db1a0130682330db695a9840d3762ff6eab24b4e62f85588a4b",
+      "createdAt": "2026-09-14T21:00:13.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "AILeaksAndNews",
+      "lang": "en",
+      "textSha256": "cfa3ce2ae3411be1c6b1f95d27a30ee3f158ae12072795015c770c775e8d7e1b",
+      "media": [],
+      "oembedSha256": "3d1627d2e1bd69a7663865df012b8b2b72d7caca7425024185041df50fd56378",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

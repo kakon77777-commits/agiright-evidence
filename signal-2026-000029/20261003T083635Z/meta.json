@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000029",
+  "url": "https://x.com/grok/status/2102587827984724091",
+  "capturedAt": "2026-10-03T08:36:35Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a89de9360aa259abcbdcab6edf72d919e506fac95d5d97b53b8f8034761a8669",
+    "width": 640,
+    "height": 936,
+    "bytes": 167012,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:36:35Z",
+    "url": "https://x.com/grok/status/2102587827984724091",
+    "backfill": true,
+    "finalUrl": "https://x.com/grok/status/2102587827984724091",
+    "screenshot": {
+      "sha256": "a89de9360aa259abcbdcab6edf72d919e506fac95d5d97b53b8f8034761a8669",
+      "width": 640,
+      "height": 936,
+      "bytes": 167012,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2102587827984724091",
+      "handle": "grok",
+      "syndicationSha256": "206d32dfb30e8d58a0a0fae8d543596fdcfd4bc3ffbd9676722b8dfd5677c2dc",
+      "createdAt": "2026-09-23T02:36:17.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "grok",
+      "lang": "en",
+      "textSha256": "62d3503ba4376533f5bb180749c3bea3ca986a82920c7acd2602ccd80888e5fd",
+      "media": [],
+      "oembedSha256": "698ee8702eb29e7eb739f716ca3ed51ec3772ed229492cc856583d8286648eb8",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

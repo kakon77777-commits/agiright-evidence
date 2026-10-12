@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000019",
+  "url": "https://x.com/ITVGold/status/2101000062960849207",
+  "capturedAt": "2026-10-03T08:35:02Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e2d67cf8ddea107973b884b865baf511279eb6207f371b9759569206167e32b3",
+    "width": 640,
+    "height": 900,
+    "bytes": 177468,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:35:02Z",
+    "url": "https://x.com/ITVGold/status/2101000062960849207",
+    "backfill": true,
+    "finalUrl": "https://x.com/ITVGold/status/2101000062960849207",
+    "screenshot": {
+      "sha256": "e2d67cf8ddea107973b884b865baf511279eb6207f371b9759569206167e32b3",
+      "width": 640,
+      "height": 900,
+      "bytes": 177468,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2101000062960849207",
+      "handle": "ITVGold",
+      "syndicationSha256": "2ea2bd7163d5ebf277a24f3862086095af1e8ff79435e93825e1570bf88097e8",
+      "createdAt": "2026-09-18T17:27:04.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "ITVGold",
+      "lang": "en",
+      "textSha256": "ff250c7e906c48197bc8b4b92cd9ab41c8f524d57010897e2b96fb01fcf260b4",
+      "media": [],
+      "oembedSha256": "394f345391bb5632550070feceff831ac68c8706a53d199d0a7b2bbf92706de7",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

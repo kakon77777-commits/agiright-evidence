@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000013",
+  "url": "https://arxiv.org/abs/2603.01508",
+  "capturedAt": "2026-10-03T07:03:57Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43798,
+    "sha256": "9969ab4cd15dfcf3f319c77f647d2cd5ad52fb14498fb1516be6eb6b07846f37",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5A0B9D436D8CDFDCBAD18371C9050EA9",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2603.01508",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1214,
+      "afterScrollHeight": 1214,
+      "wantedHeight": 1214
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "dba472138c164ecd37c2c994784a690894ff88b7f6b3ed43ad6826c4191f12ac",
+    "width": 1366,
+    "height": 1214,
+    "bytes": 150938,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1214,
+    "afterScrollHeight": 1214,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:03:57Z",
+    "url": "https://arxiv.org/abs/2603.01508",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43798,
+      "sha256": "9969ab4cd15dfcf3f319c77f647d2cd5ad52fb14498fb1516be6eb6b07846f37"
+    },
+    "finalUrl": "https://arxiv.org/abs/2603.01508",
+    "httpStatus": 200,
+    "title": "[2603.01508] The Sentience Readiness Index: A Preliminary Framework for Measuring National Preparedness for the Possibility of Artificial Sentience",
+    "rendered": {
+      "textChars": 3500,
+      "textSha256": "97e3d853611d0ffc8bc2b87f4f306f99d3a2b203d29e673fdae9f385cdb0fa2c",
+      "htmlSha256": "c46c832efc4f903fec49dd8d2526741e99f5b672fda992c854327527ebb2c8ec"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "dba472138c164ecd37c2c994784a690894ff88b7f6b3ed43ad6826c4191f12ac",
+      "width": 1366,
+      "height": 1214,
+      "bytes": 150938,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260303044052",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260303044052/https://arxiv.org/abs/2603.01508"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260303044052/https://arxiv.org/abs/2603.01508",
+      "timestamp": "20260303044052",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

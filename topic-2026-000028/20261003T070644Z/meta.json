@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000028",
+  "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition",
+  "capturedAt": "2026-10-03T07:06:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 54555,
+    "sha256": "a61a5b637b1432fcf53add14709baf8797c9dcc7c818f2d51c111367231ddaef",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "91C25C5BBC4C14675D8D462FB70CE36A",
+      "status": 200,
+      "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7679,
+      "afterScrollHeight": 7731,
+      "wantedHeight": 7731
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7a8a82a6b7cbf440725a72f3c7a27bb20999970bc86325c9b0cad0ae2e4a9847",
+    "width": 1366,
+    "height": 7731,
+    "bytes": 1385637,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7679,
+    "afterScrollHeight": 7731,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:06:44Z",
+    "url": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 54555,
+      "sha256": "a61a5b637b1432fcf53add14709baf8797c9dcc7c818f2d51c111367231ddaef"
+    },
+    "finalUrl": "https://www.mintz.com/insights-center/viewpoints/54941/2026-07-08-ai-washington-report-july-2026-edition",
+    "httpStatus": 200,
+    "title": "AI: The Washington Report — July 2026 Edition | Mintz",
+    "rendered": {
+      "textChars": 18397,
+      "textSha256": "b97ba6dbd0031864c1d03a175703df6ed6def2c074217a7018184f3028da9376",
+      "htmlSha256": "a31853a2f3f89a67f8369f63e45860556d5a5f0351b3842b8d4e1828bc324efb"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7a8a82a6b7cbf440725a72f3c7a27bb20999970bc86325c9b0cad0ae2e4a9847",
+      "width": 1366,
+      "height": 7731,
+      "bytes": 1385637,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

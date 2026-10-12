@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000022",
+  "url": "https://x.com/Daily_CyberSec/status/2101555563129663630",
+  "capturedAt": "2026-10-03T08:35:43Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3bd725a11c594605e19f4fcfe894b96328e9b87c15ac2e8a20912d147d6944f0",
+    "width": 640,
+    "height": 900,
+    "bytes": 159072,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:35:43Z",
+    "url": "https://x.com/Daily_CyberSec/status/2101555563129663630",
+    "backfill": true,
+    "finalUrl": "https://x.com/Daily_CyberSec/status/2101555563129663630",
+    "screenshot": {
+      "sha256": "3bd725a11c594605e19f4fcfe894b96328e9b87c15ac2e8a20912d147d6944f0",
+      "width": 640,
+      "height": 900,
+      "bytes": 159072,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2101555563129663630",
+      "handle": "Daily_CyberSec",
+      "syndicationSha256": "551f2dab7cc4c0e35948b807fc2ecd5225c8ff5e92a0cd91942979ca8755f804",
+      "createdAt": "2026-09-20T06:14:25.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "Daily_CyberSec",
+      "lang": "en",
+      "textSha256": "161bf987c18117442cebd3b7a46ccf3ae9fb2bda5bc3d7ed8fe180c9a11292b4",
+      "media": [],
+      "oembedSha256": "77a469e36eebaf69ffc3c6fb360ef05651e2c32da09aa6e5f678db19589eb5c7",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

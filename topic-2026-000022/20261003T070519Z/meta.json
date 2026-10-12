@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000022",
+  "url": "https://www.bradford.ac.uk/news/archive/2026/no-ai-isnt-conscious---even-when-it-acts-like-it-is-new-study-finds.php",
+  "capturedAt": "2026-10-03T07:05:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 34436,
+    "sha256": "0468231f31f6f616d373b97bb559524ca1adeb52d626f4d81ec3a34e31dab7bc",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7AB07DA7A93683F917931A72AAF3B18F",
+      "status": 200,
+      "url": "https://www.bradford.ac.uk/news/archive/2026/no-ai-isnt-conscious-even-when-it-acts-like-it-is-new-study-finds.php",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4937,
+      "afterScrollHeight": 5059,
+      "wantedHeight": 5059
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b3291242c1b9f54c84e520b6cb13a307eb1a66ba555e781d96c4750f162ca3be",
+    "width": 1366,
+    "height": 5059,
+    "bytes": 1207431,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4937,
+    "afterScrollHeight": 5059,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:05:19Z",
+    "url": "https://www.bradford.ac.uk/news/archive/2026/no-ai-isnt-conscious---even-when-it-acts-like-it-is-new-study-finds.php",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 34436,
+      "sha256": "0468231f31f6f616d373b97bb559524ca1adeb52d626f4d81ec3a34e31dab7bc"
+    },
+    "finalUrl": "https://www.bradford.ac.uk/news/archive/2026/no-ai-isnt-conscious-even-when-it-acts-like-it-is-new-study-finds.php",
+    "httpStatus": 200,
+    "title": "No, AI isn't conscious - 2026 - University of Bradford",
+    "rendered": {
+      "textChars": 6819,
+      "textSha256": "dcccd96c7f0fac796bdc1251ba82a83b45ffa15c150f761a50976c403ce70871",
+      "htmlSha256": "7953c3fe71b919900855ca5944f0a7521057b776137572cac801fe7d8df72c64"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b3291242c1b9f54c84e520b6cb13a307eb1a66ba555e781d96c4750f162ca3be",
+      "width": 1366,
+      "height": 5059,
+      "bytes": 1207431,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260224090302",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260224090302/https://www.bradford.ac.uk/news/archive/2026/no-ai-isnt-conscious---even-when-it-acts-like-it-is-new-study-finds.php"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260224090302/https://www.bradford.ac.uk/news/archive/2026/no-ai-isnt-conscious---even-when-it-acts-like-it-is-new-study-finds.php",
+      "timestamp": "20260224090302",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

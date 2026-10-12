@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000014",
+  "url": "https://arxiv.org/abs/2510.02996",
+  "capturedAt": "2026-10-03T07:04:01Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 42597,
+    "sha256": "eb489d33d7dca9577ccdeaa9d9d3021f217d485b36b0f265640aa3d9eaf0e1fc",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E67DB2B48096C41D3182F2306C337BB7",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2510.02996",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1126,
+      "afterScrollHeight": 1126,
+      "wantedHeight": 1126
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4fb62ba03e6b600dfbf9c979b3bfd9995167eb283a89498a6525f118c157369b",
+    "width": 1366,
+    "height": 1126,
+    "bytes": 137902,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1126,
+    "afterScrollHeight": 1126,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:04:01Z",
+    "url": "https://arxiv.org/abs/2510.02996",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 42597,
+      "sha256": "eb489d33d7dca9577ccdeaa9d9d3021f217d485b36b0f265640aa3d9eaf0e1fc"
+    },
+    "finalUrl": "https://arxiv.org/abs/2510.02996",
+    "httpStatus": 200,
+    "title": "[2510.02996] Onto-Epistemological Analysis of AI Explanations",
+    "rendered": {
+      "textChars": 3206,
+      "textSha256": "200fde950110e48955d6ad59b02d9024ed480b9b9ef6c1b7ba9e000491abc06e",
+      "htmlSha256": "9e0249eeec125de335099a0e140c5279549b507e90b04185f3b6efc6a6ce10f0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4fb62ba03e6b600dfbf9c979b3bfd9995167eb283a89498a6525f118c157369b",
+      "width": 1366,
+      "height": 1126,
+      "bytes": 137902,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20251006014252",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20251006014252/https://arxiv.org/abs/2510.02996"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20251006014252/https://arxiv.org/abs/2510.02996",
+      "timestamp": "20251006014252",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

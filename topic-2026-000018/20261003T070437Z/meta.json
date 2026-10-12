@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000018",
+  "url": "https://arxiv.org/abs/2603.02960",
+  "capturedAt": "2026-10-03T07:04:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43659,
+    "sha256": "d6d99424f2fdb07f67f73bee218c282b5a5a6a481e0f4cd24ab66e098ad63929",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7FD5B3BF52097C90A43F89B43D58DA8D",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2603.02960",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1145,
+      "afterScrollHeight": 1145,
+      "wantedHeight": 1145
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f86b1b0493e64beeaa9b85ff0c61f8d8caacf5e5bc450840e648a160bfecfded",
+    "width": 1366,
+    "height": 1145,
+    "bytes": 142934,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1145,
+    "afterScrollHeight": 1145,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:04:37Z",
+    "url": "https://arxiv.org/abs/2603.02960",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43659,
+      "sha256": "d6d99424f2fdb07f67f73bee218c282b5a5a6a481e0f4cd24ab66e098ad63929"
+    },
+    "finalUrl": "https://arxiv.org/abs/2603.02960",
+    "httpStatus": 200,
+    "title": "[2603.02960] Architecting Trust in Artificial Epistemic Agents",
+    "rendered": {
+      "textChars": 3400,
+      "textSha256": "59a477ee5c3de107328a3c834fab5ed661a6b159c994add39d85e3402337b556",
+      "htmlSha256": "967e0af15c21724c5abafe72fd3721a5b595b388444db0a105b23bfef82851b0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f86b1b0493e64beeaa9b85ff0c61f8d8caacf5e5bc450840e648a160bfecfded",
+      "width": 1366,
+      "height": 1145,
+      "bytes": 142934,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260304025042",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260304025042/https://arxiv.org/abs/2603.02960"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260304025042/https://arxiv.org/abs/2603.02960",
+      "timestamp": "20260304025042",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

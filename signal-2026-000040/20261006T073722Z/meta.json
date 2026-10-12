@@ -1,0 +1,69 @@
+{
+  "id": "signal-2026-000040",
+  "url": "https://x.com/auricxofficial/status/2107185602802380957",
+  "capturedAt": "2026-10-06T07:37:22Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8fab36238cfcdaa4e95235545e0760f5d8ff457c4f48fe175180949b3aad851e",
+    "width": 640,
+    "height": 900,
+    "bytes": 46164,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-06T07:37:22Z",
+    "url": "https://x.com/auricxofficial/status/2107185602802380957",
+    "finalUrl": "https://x.com/auricxofficial/status/2107185602802380957",
+    "screenshot": {
+      "sha256": "8fab36238cfcdaa4e95235545e0760f5d8ff457c4f48fe175180949b3aad851e",
+      "width": 640,
+      "height": 900,
+      "bytes": 46164,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2107185602802380957",
+      "handle": "auricxofficial",
+      "syndicationSha256": "5c8d2d9200821612f0d27a596a2e81246b122cdc0c2817c92491ac2f08f4e75c",
+      "createdAt": "2026-10-05T19:06:11.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "auricxofficial",
+      "lang": "en",
+      "textSha256": "c3ba706b9627864a371827a74b0d48966a83e306bd4d6dd84b15888973167b19",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "a6a22471f2b40d1cc046a0d225ccd7d8e38963c59df0a59bc3b86676077ffcff",
+          "bytes": 1648,
+          "width": 516,
+          "height": 37
+        }
+      ],
+      "oembedSha256": "a16643faef38d60108f5a58c46b47e5678ae33eebd6fbe8cf61e03c4708b1522",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

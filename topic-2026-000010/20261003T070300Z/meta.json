@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000010",
+  "url": "https://arxiv.org/abs/2605.06965",
+  "capturedAt": "2026-10-03T07:03:00Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 41954,
+    "sha256": "cf58af669f125e548c8fe6084a6ebe5cb4bb1109853897f2c1ad2881dab1ae38",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7C17CCCABEC1A9D00F12A9A659E700A9",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2605.06965",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1105,
+      "afterScrollHeight": 1105,
+      "wantedHeight": 1105
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4b1730ef3cdb0559772792c460000e8d159422ed29e075c9eef98aa1a71eda40",
+    "width": 1366,
+    "height": 1105,
+    "bytes": 135272,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1105,
+    "afterScrollHeight": 1105,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:03:00Z",
+    "url": "https://arxiv.org/abs/2605.06965",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 41954,
+      "sha256": "cf58af669f125e548c8fe6084a6ebe5cb4bb1109853897f2c1ad2881dab1ae38"
+    },
+    "finalUrl": "https://arxiv.org/abs/2605.06965",
+    "httpStatus": 200,
+    "title": "[2605.06965] AI and Consciousness: Shifting Focus Towards Tractable Questions",
+    "rendered": {
+      "textChars": 3054,
+      "textSha256": "73930e684dc44c81f5452336eb86ef78f70f07364240057c11e253245b468fce",
+      "htmlSha256": "41db5ed4de55ecb55c40d1288fe8922b8242b700a092854863884c365b447dd2"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4b1730ef3cdb0559772792c460000e8d159422ed29e075c9eef98aa1a71eda40",
+      "width": 1366,
+      "height": 1105,
+      "bytes": 135272,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260511030152",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260511030152/https://arxiv.org/abs/2605.06965"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260511030152/https://arxiv.org/abs/2605.06965",
+      "timestamp": "20260511030152",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

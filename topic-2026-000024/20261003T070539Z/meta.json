@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000024",
+  "url": "https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/",
+  "capturedAt": "2026-10-03T07:05:39Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5951,
+    "sha256": "91ce91fb42acf03d50ac034225fce8dd8579839243d4793f56ab60bfac85b1e5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "21727DC075B17494CF751AEAC2D0103F",
+      "status": 403,
+      "url": "https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "47c33355e849c685b48e81872fff0a2c81573525a93d2f91d99325748ce06399",
+    "width": 1366,
+    "height": 900,
+    "bytes": 29677,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:05:39Z",
+    "url": "https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5951,
+      "sha256": "91ce91fb42acf03d50ac034225fce8dd8579839243d4793f56ab60bfac85b1e5"
+    },
+    "finalUrl": "https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 266,
+      "textSha256": "0b12b929e28dcbd602b066cf76a25e14a1d7b30413cbfd21c1af837b6b9da3a1",
+      "htmlSha256": "7c1183147da71f792e60e7ee4d2a727e04c3dc0cf42bf5ddfa2c87b5bce47821"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "47c33355e849c685b48e81872fff0a2c81573525a93d2f91d99325748ce06399",
+      "width": 1366,
+      "height": 900,
+      "bytes": 29677,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260722042356",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260722042356/https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260722042356/https://www.technology.org/2026/07/17/eu-ai-act-what-actually-applies-on-2-august-2026/",
+      "timestamp": "20260722042356",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

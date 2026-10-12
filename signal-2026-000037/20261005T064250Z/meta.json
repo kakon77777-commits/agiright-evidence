@@ -1,0 +1,69 @@
+{
+  "id": "signal-2026-000037",
+  "url": "https://x.com/chetaslua/status/2105733677003292983",
+  "capturedAt": "2026-10-05T06:42:50Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9fad8f0805781c223501c9bb893e02beecefddbbd4120e57bb5dcb4fbb2ff424",
+    "width": 640,
+    "height": 900,
+    "bytes": 157228,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-05T06:42:50Z",
+    "url": "https://x.com/chetaslua/status/2105733677003292983",
+    "finalUrl": "https://x.com/chetaslua/status/2105733677003292983",
+    "screenshot": {
+      "sha256": "9fad8f0805781c223501c9bb893e02beecefddbbd4120e57bb5dcb4fbb2ff424",
+      "width": 640,
+      "height": 900,
+      "bytes": 157228,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2105733677003292983",
+      "handle": "chetaslua",
+      "syndicationSha256": "8baf5ad50d0efac968aa0c5fb9041b4e3f3e3520c0e00e269a429a4ed3fa0d11",
+      "createdAt": "2026-10-01T18:56:45.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "chetaslua",
+      "lang": "en",
+      "textSha256": "722feda86dcce9f91f19dce817e1d2ab631d4a3a390b98e83ef204b2229a2653",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "0cc409b9d0aa3771484a3c71157cf37aabb0d692fbf275f6cd3388b010d3a308",
+          "bytes": 98861,
+          "width": 3200,
+          "height": 1800
+        }
+      ],
+      "oembedSha256": "950ef368537ec9ac127b45b70cd6c1aa36a0b126a0b4d46747baff2b639c5168",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

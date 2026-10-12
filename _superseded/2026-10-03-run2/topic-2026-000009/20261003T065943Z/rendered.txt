@@ -1,0 +1,74 @@
+Skip to main content
+Search
+Submit
+Donate
+Log in
+Computer Science > Artificial Intelligence
+[Submitted on 19 Feb 2026]
+Epistemology of Generative AI: The Geometry of Knowing
+Ilya Levin
+Generative AI presents an unprecedented challenge to our understanding of knowledge and its production. Unlike previous technological transformations, where engineering understanding preceded or accompanied deployment, generative AI operates through mechanisms whose epistemic character remains obscure, and without such understanding, its responsible integration into science, education, and institutional life cannot proceed on a principled basis. This paper argues that the missing account must begin with a paradigmatic break that has not yet received adequate philosophical attention. In the Turing-Shannon-von Neumann tradition, information enters the machine as encoded binary vectors, and semantics remains external to the process. Neural network architectures rupture this regime: symbolic input is instantly projected into a high-dimensional space where coordinates correspond to semantic parameters, transforming binary code into a position in a geometric space of meanings. It is this space that constitutes the active epistemic condition shaping generative production. Drawing on four structural properties of high-dimensional geometry concentration of measure, near-orthogonality, exponential directional capacity, and manifold regularity the paper develops an Indexical Epistemology of High-Dimensional Spaces. Building on Peirce semiotics and Papert constructionism, it reconceptualizes generative models as navigators of learned manifolds and proposes navigational knowledge as a third mode of knowledge production, distinct from both symbolic reasoning and statistical recombination.
+Comments:	27
+Subjects:	Artificial Intelligence (cs.AI)
+MSC classes:	68T05, 60B20
+ACM classes:	I.2.4; I.2.6
+Cite as:	arXiv:2602.17116 [cs.AI]
+ 	(or arXiv:2602.17116v1 [cs.AI] for this version)
+ 
+https://doi.org/10.48550/arXiv.2602.17116
+Focus to learn more
+Submission history
+From: Ilya Levin [view email]
+[v1] Thu, 19 Feb 2026 06:34:34 UTC (659 KB)
+
+Access Paper:
+View PDF
+view license
+Current browse context:
+cs.AI
+< prev   |   next >
+
+new | recent | 2026-02
+Change to browse by:
+cs
+
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+Export BibTeX Citation
+Bookmark
+
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer (What is the Explorer?)
+Connected Papers Toggle
+Connected Papers (What is Connected Papers?)
+Litmaps Toggle
+Litmaps (What is Litmaps?)
+scite.ai Toggle
+scite Smart Citations (What are Smart Citations?)
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)
+We gratefully acknowledge support from our major funders, member institutions, and all contributors.
+About
+·
+Help
+·
+Contact
+·
+Subscribe
+·
+Copyright
+·
+Privacy
+·
+Accessibility
+·
+Operational Status
+(opens in new tab)
+Major funding support from

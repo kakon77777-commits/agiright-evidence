@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000007",
+  "url": "https://news.un.org/en/story/2026/07/1167873",
+  "capturedAt": "2026-10-03T07:02:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 105787,
+    "sha256": "85bbf4e471269aafa2655f98a1a174a4a4b788a249af9e5d72a266fbc144add2",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6B738609649AA452E18EC74A1DB882C4",
+      "status": 200,
+      "url": "https://news.un.org/en/story/2026/07/1167873",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6361,
+      "afterScrollHeight": 6361,
+      "wantedHeight": 6361
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8ae850f448fa9d5e8354026b724952a95272266c2c05a53b9126bd296a0a243c",
+    "width": 1366,
+    "height": 6361,
+    "bytes": 1676595,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6361,
+    "afterScrollHeight": 6361,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:02:28Z",
+    "url": "https://news.un.org/en/story/2026/07/1167873",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 105787,
+      "sha256": "85bbf4e471269aafa2655f98a1a174a4a4b788a249af9e5d72a266fbc144add2"
+    },
+    "finalUrl": "https://news.un.org/en/story/2026/07/1167873",
+    "httpStatus": 200,
+    "title": "From AI to ‘killer robots’: UN chief issues urgent governance call | UN News",
+    "rendered": {
+      "textChars": 9064,
+      "textSha256": "a6480a08301dc563258bdca8e0283bacc355c74421de4aa9ff9d618a678460a4",
+      "htmlSha256": "518e905d4d80e4d7a75639b19c7a842e6f9a7e23c32c4b4856f4ed79ff9b12ef"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8ae850f448fa9d5e8354026b724952a95272266c2c05a53b9126bd296a0a243c",
+      "width": 1366,
+      "height": 6361,
+      "bytes": 1676595,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260706193701",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260706193701/https://news.un.org/en/story/2026/07/1167873"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260706193701/https://news.un.org/en/story/2026/07/1167873",
+      "timestamp": "20260706193701",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

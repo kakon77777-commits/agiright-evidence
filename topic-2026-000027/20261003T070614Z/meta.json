@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000027",
+  "url": "https://mabadiiqtishada.org/index.php/SocioHumania/article/view/189",
+  "capturedAt": "2026-10-03T07:06:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 136153,
+    "sha256": "c635900458cae113dddba6481fc8a9983f9d8747da9f7ac61b0544907de48309",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "48E50739EB43BE5341B000834E6A0383",
+      "status": 200,
+      "url": "https://mabadiiqtishada.org/index.php/SocioHumania/article/view/189",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 20078,
+      "afterScrollHeight": 20078,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c42fa93826cf1ca932e8d8738653a554c03cda3366167f220ce256f0d18a3b6e",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 1733252,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 20078,
+    "afterScrollHeight": 20078,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:06:14Z",
+    "url": "https://mabadiiqtishada.org/index.php/SocioHumania/article/view/189",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 136153,
+      "sha256": "c635900458cae113dddba6481fc8a9983f9d8747da9f7ac61b0544907de48309"
+    },
+    "finalUrl": "https://mabadiiqtishada.org/index.php/SocioHumania/article/view/189",
+    "httpStatus": 200,
+    "title": "Artificial Intelligence and Legal Personhood: Ethical, Regulatory, and Accountability Challenges in Contemporary Jurisprudence | SocioHumania: Journal of Social Humanities Studies",
+    "rendered": {
+      "textChars": 42687,
+      "textSha256": "ffda21ecab15e51d97bb78cb8e1c3901d2c6d6e4144993313b63958d39dee32a",
+      "htmlSha256": "f8a148c857270340f321aa5cccffc53e44bd0ba3ed92391dbc8e7e2f8afc1f62"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c42fa93826cf1ca932e8d8738653a554c03cda3366167f220ce256f0d18a3b6e",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 1733252,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003070731/https://mabadiiqtishada.org/index.php/SocioHumania/article/view/189",
+      "timestamp": "20261003070731",
+      "verifiedHttp": 200
+    }
+  }
+}

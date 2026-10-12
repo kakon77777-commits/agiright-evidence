@@ -1,0 +1,68 @@
+{
+  "id": "signal-2026-000007",
+  "url": "https://x.com/TechThought_org/status/2099695268174119329",
+  "capturedAt": "2026-10-03T08:32:06Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "52ec466610dfae1afb606f223c000dba94bc68d75fb0ed3c310140b4f5337a0e",
+    "width": 640,
+    "height": 900,
+    "bytes": 194829,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:32:06Z",
+    "url": "https://x.com/TechThought_org/status/2099695268174119329",
+    "backfill": true,
+    "finalUrl": "https://x.com/TechThought_org/status/2099695268174119329",
+    "screenshot": {
+      "sha256": "52ec466610dfae1afb606f223c000dba94bc68d75fb0ed3c310140b4f5337a0e",
+      "width": 640,
+      "height": 900,
+      "bytes": 194829,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2099695268174119329",
+      "handle": "TechThought_org",
+      "syndicationSha256": "12e3cd33fa452dccd8b6f742de06bb7ee64856b8eafba7111995a07e653ba834",
+      "createdAt": "2026-09-15T03:02:17.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "TechThought_org",
+      "lang": "en",
+      "textSha256": "e04f813f7e790692560af4fdc789e776b3bbc7e519ee49b7c0e463cd2b971436",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "40a5c81696da3b40c5296ef5d6837eecf68c17030107696dc9700eea78af2882",
+          "bytes": 63111,
+          "width": 5184,
+          "height": 3456
+        }
+      ],
+      "oembedSha256": "b8f31dcd827288bd1d9a8c76bc063b74f4a3c426963c1b7f8b4fe141b7f31331",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

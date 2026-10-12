@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000019",
+  "url": "https://dailynous.com/2026/07/16/a-meta-epistemological-reason-for-rejecting-ai-written-philosophy/",
+  "capturedAt": "2026-10-03T07:04:47Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 602662,
+    "sha256": "34451fac526a9f0e23cf9d8fbba6a4c521bbcba79069d1484b1f2fce74211a86",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "19B9BA8C15FB124C4D1E90BC1C7D0FA0",
+      "status": 200,
+      "url": "https://dailynous.com/2026/07/16/a-meta-epistemological-reason-for-rejecting-ai-written-philosophy/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 26350,
+      "afterScrollHeight": 26350,
+      "wantedHeight": 15000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8a3272e108a8446348ea75ed70f1b6bd4e35a12de317c76aaa85ff448b901217",
+    "width": 1366,
+    "height": 15000,
+    "bytes": 2533447,
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 26350,
+    "afterScrollHeight": 26350,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:04:47Z",
+    "url": "https://dailynous.com/2026/07/16/a-meta-epistemological-reason-for-rejecting-ai-written-philosophy/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 602662,
+      "sha256": "34451fac526a9f0e23cf9d8fbba6a4c521bbcba79069d1484b1f2fce74211a86"
+    },
+    "finalUrl": "https://dailynous.com/2026/07/16/a-meta-epistemological-reason-for-rejecting-ai-written-philosophy/",
+    "httpStatus": 200,
+    "title": "A Meta-Epistemological Reason for Rejecting AI-Written Philosophy - Daily Nous",
+    "rendered": {
+      "textChars": 49284,
+      "textSha256": "6733ad8b3bc50a560bccc5f30b0d068d22efbdea06c8e3bff78c15d8bb2fccfc",
+      "htmlSha256": "e79725e6a81e183f5a636e7f8818d531c64cc93766ecf4d00f2c8a165d0f2764"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8a3272e108a8446348ea75ed70f1b6bd4e35a12de317c76aaa85ff448b901217",
+      "width": 1366,
+      "height": 15000,
+      "bytes": 2533447,
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260720025508",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260720025508/https://dailynous.com/2026/07/16/a-meta-epistemological-reason-for-rejecting-ai-written-philosophy/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260720025508/https://dailynous.com/2026/07/16/a-meta-epistemological-reason-for-rejecting-ai-written-philosophy/",
+      "timestamp": "20260720025508",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

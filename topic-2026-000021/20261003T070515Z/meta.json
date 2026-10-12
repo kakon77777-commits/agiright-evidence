@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000021",
+  "url": "https://www.governing.com/artificial-intelligence/illinois-sets-a-new-standard-for-ai-oversight",
+  "capturedAt": "2026-10-03T07:05:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 153760,
+    "sha256": "ace4904356303790707d5029c3c61c4f0011ef3a6c75c853750bbd41121c5db0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7394531CAD3C6F76CA949FD63ADF56ED",
+      "status": 200,
+      "url": "https://www.governing.com/artificial-intelligence/illinois-sets-a-new-standard-for-ai-oversight",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5973,
+      "afterScrollHeight": 5973,
+      "wantedHeight": 5973
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "42ea8dd0b84f50d64a921892499e435c8222d38f147c8e5c219c7a7e902111f0",
+    "width": 1366,
+    "height": 5973,
+    "bytes": 960821,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5973,
+    "afterScrollHeight": 5973,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:05:15Z",
+    "url": "https://www.governing.com/artificial-intelligence/illinois-sets-a-new-standard-for-ai-oversight",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 153760,
+      "sha256": "ace4904356303790707d5029c3c61c4f0011ef3a6c75c853750bbd41121c5db0"
+    },
+    "finalUrl": "https://www.governing.com/artificial-intelligence/illinois-sets-a-new-standard-for-ai-oversight",
+    "httpStatus": 200,
+    "title": "Illinois Sets a New Standard for AI Oversight",
+    "rendered": {
+      "textChars": 7322,
+      "textSha256": "382d662f78bebc4e5a261c86a15f72794ebdb7dd6d8b4dc7fdb21615bbe0634e",
+      "htmlSha256": "4ab2c20e48588194eb4560333dce072cab21bb34152613bf4bd854d12a63145b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "42ea8dd0b84f50d64a921892499e435c8222d38f147c8e5c219c7a7e902111f0",
+      "width": 1366,
+      "height": 5973,
+      "bytes": 960821,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260708081125",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260708081125/https://www.governing.com/artificial-intelligence/illinois-sets-a-new-standard-for-ai-oversight"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260708081125/https://www.governing.com/artificial-intelligence/illinois-sets-a-new-standard-for-ai-oversight",
+      "timestamp": "20260708081125",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

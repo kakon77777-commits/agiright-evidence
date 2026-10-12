@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000003",
+  "url": "https://philarchive.org/archive/MAHPOA-2",
+  "capturedAt": "2026-10-03T06:58:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5753,
+    "sha256": "d4a6c45167f6d78f564177b93e0f086c9f8df7060b12eb1e0afc62e24a646635",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "84F4F889D0344DEB6A331F6F0EDEDF4D",
+      "status": 403,
+      "url": "https://philarchive.org/archive/MAHPOA-2",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "87bbca9c83ad1746f5818d36f523bdf14eab4f0726c59cf7a6af933fa09b0f8f",
+    "width": 1366,
+    "height": 900,
+    "bytes": 28658,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T06:58:07Z",
+    "url": "https://philarchive.org/archive/MAHPOA-2",
+    "backfill": true,
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5753,
+      "sha256": "d4a6c45167f6d78f564177b93e0f086c9f8df7060b12eb1e0afc62e24a646635"
+    },
+    "finalUrl": "https://philarchive.org/archive/MAHPOA-2",
+    "httpStatus": 403,
+    "title": "請稍候...",
+    "rendered": {
+      "textChars": 136,
+      "textSha256": "c38a5c41b361df8147e1ed4a101cbf2751e99d0ccb5ed16581bd539b13b56092",
+      "htmlSha256": "12470fe76b630bdda3ac2f272f523fde4ff867eff67dc3c79bbec44ffc80bb1e"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "87bbca9c83ad1746f5818d36f523bdf14eab4f0726c59cf7a6af933fa09b0f8f",
+      "width": 1366,
+      "height": 900,
+      "bytes": 28658,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- <!DOCTYPE html> <html lang=\"en\"> <head> <title>Wayback Machine</title> <script> /* @licstart The following is the entire license notice for the JavaScript code in this page. Copyright (C) 2020 Internet Archive The JavaSc"
+    }
+  }
+}

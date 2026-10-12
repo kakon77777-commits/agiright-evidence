@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000009",
+  "url": "https://arxiv.org/abs/2602.17116",
+  "capturedAt": "2026-10-03T06:59:43Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 41782,
+    "sha256": "32acab4d1f064e1301c12a8dac9445730f3d1f83bb8eedb450a52ae6bc5207b7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "ACAF1D02E1C0362D950597E917DDAE89",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2602.17116",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1168,
+      "afterScrollHeight": 1168,
+      "wantedHeight": 1168
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6bb71958dca5bff5364d4d52cb603f1e0437ae3875f2dfc2837af02d64b25d8d",
+    "width": 1366,
+    "height": 1168,
+    "bytes": 132502,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1168,
+    "afterScrollHeight": 1168,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T06:59:43Z",
+    "url": "https://arxiv.org/abs/2602.17116",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 41782,
+      "sha256": "32acab4d1f064e1301c12a8dac9445730f3d1f83bb8eedb450a52ae6bc5207b7"
+    },
+    "finalUrl": "https://arxiv.org/abs/2602.17116",
+    "httpStatus": 200,
+    "title": "[2602.17116] Epistemology of Generative AI: The Geometry of Knowing",
+    "rendered": {
+      "textChars": 3051,
+      "textSha256": "21700e74593f2ca13e481829503e67686a225c064a42c2184acadbeb56d50534",
+      "htmlSha256": "892ed6f41f97b23b981ca1999261f52c330f6d1952e0a7f66fb917a50b64672e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6bb71958dca5bff5364d4d52cb603f1e0437ae3875f2dfc2837af02d64b25d8d",
+      "width": 1366,
+      "height": 1168,
+      "bytes": 132502,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260220051257",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260220051257/https://arxiv.org/abs/2602.17116"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260220051257/https://arxiv.org/abs/2602.17116",
+      "timestamp": "20260220051257",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

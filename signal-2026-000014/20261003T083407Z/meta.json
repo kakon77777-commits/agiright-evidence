@@ -1,0 +1,68 @@
+{
+  "id": "signal-2026-000014",
+  "url": "https://x.com/Forbes/status/2100819640326688836",
+  "capturedAt": "2026-10-03T08:34:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d3126f5bca144031f31a064d1fff77d356ba268ec472acf6f69a7b67811bf769",
+    "width": 640,
+    "height": 900,
+    "bytes": 199927,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:34:07Z",
+    "url": "https://x.com/Forbes/status/2100819640326688836",
+    "backfill": true,
+    "finalUrl": "https://x.com/Forbes/status/2100819640326688836",
+    "screenshot": {
+      "sha256": "d3126f5bca144031f31a064d1fff77d356ba268ec472acf6f69a7b67811bf769",
+      "width": 640,
+      "height": 900,
+      "bytes": 199927,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2100819640326688836",
+      "handle": "Forbes",
+      "syndicationSha256": "41cfd9bf09c89e86ed734692182aa3dc65f799017e16b85099a6cfd7d8eac1e2",
+      "createdAt": "2026-09-18T05:30:08.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "Forbes",
+      "lang": "en",
+      "textSha256": "efce251b3567414bc1f5992315df555e4608c091eb6a24ad728458ff8ad3eb7a",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "951f806102d9cc0a91a86e30926395f502d78bd1a8e3f59be4505a4908741118",
+          "bytes": 46492,
+          "width": 959,
+          "height": 540
+        }
+      ],
+      "oembedSha256": "287d2d81b17c1d8f19649902a5553febab1f47e63a42d303ab1e84f0157fc8af",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

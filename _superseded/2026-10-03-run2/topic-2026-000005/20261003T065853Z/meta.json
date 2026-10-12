@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000005",
+  "url": "https://www.research.ed.ac.uk/en/publications/why-ai-might-not-gain-moral-standing-lessons-from-animal-ethics/",
+  "capturedAt": "2026-10-03T06:58:53Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 44111,
+    "sha256": "c10073649192b00be3893d6a7be5453524bcbfa99914488c6e08ebfa04aee57a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "475A3F7F969BCC496068C1DE9367C9BE",
+      "status": 200,
+      "url": "https://www.research.ed.ac.uk/en/publications/why-ai-might-not-gain-moral-standing-lessons-from-animal-ethics/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2152,
+      "afterScrollHeight": 2152,
+      "wantedHeight": 2152
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "312d42f528034fbcef9e86c0abcae1e55e574e522d0d64810af7b93abd846878",
+    "width": 1366,
+    "height": 2152,
+    "bytes": 257368,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2152,
+    "afterScrollHeight": 2152,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T06:58:53Z",
+    "url": "https://www.research.ed.ac.uk/en/publications/why-ai-might-not-gain-moral-standing-lessons-from-animal-ethics/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 44111,
+      "sha256": "c10073649192b00be3893d6a7be5453524bcbfa99914488c6e08ebfa04aee57a"
+    },
+    "finalUrl": "https://www.research.ed.ac.uk/en/publications/why-ai-might-not-gain-moral-standing-lessons-from-animal-ethics/",
+    "httpStatus": 200,
+    "title": "Why AI might not gain moral standing: Lessons from animal ethics - University of Edinburgh Research Explorer",
+    "rendered": {
+      "textChars": 3261,
+      "textSha256": "b72ecefeda5ecfbd0fe3701d713337bf010fdd0dbaa1a8aecda0bd266cfd00ab",
+      "htmlSha256": "f5c50756fbfd55a620a73d2b769f044bd25048e04514476ca9906db640ac4bc9"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "312d42f528034fbcef9e86c0abcae1e55e574e522d0d64810af7b93abd846878",
+      "width": 1366,
+      "height": 2152,
+      "bytes": 257368,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 404 -- <!DOCTYPE html> <html lang=\"en\"> <head> <title>Wayback Machine</title> <script> /* @licstart The following is the entire license notice for the JavaScript code in this page. Copyright (C) 2020 Internet Archive The JavaSc"
+    }
+  }
+}

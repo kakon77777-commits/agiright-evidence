@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000008",
+  "url": "https://arxiv.org/abs/2601.08864",
+  "capturedAt": "2026-10-03T06:59:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43931,
+    "sha256": "e362b6b92c9ccf7553298e637918b4bfb0fa29a83bf7dbbff3f920c937a68b8d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D7208D839752D846B3B9A53DA9FE47D8",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2601.08864",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1219,
+      "afterScrollHeight": 1219,
+      "wantedHeight": 1219
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f32c0bf5780f243016f48273f063350a7f6540a36524908743e813928d9cd716",
+    "width": 1366,
+    "height": 1219,
+    "bytes": 144394,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1219,
+    "afterScrollHeight": 1219,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T06:59:29Z",
+    "url": "https://arxiv.org/abs/2601.08864",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43931,
+      "sha256": "e362b6b92c9ccf7553298e637918b4bfb0fa29a83bf7dbbff3f920c937a68b8d"
+    },
+    "finalUrl": "https://arxiv.org/abs/2601.08864",
+    "httpStatus": 200,
+    "title": "[2601.08864] Informed Consent for AI Consciousness Research: A Talmudic Framework for Graduated Protections",
+    "rendered": {
+      "textChars": 3315,
+      "textSha256": "28f316f9bed0bf0eff58fcfc54f174b77f5762b6467529579f6606778d6cb5d7",
+      "htmlSha256": "24b96aec0f1ea4d219470a1050686d4005c695a4c5897454635f3a5d788dcd4f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f32c0bf5780f243016f48273f063350a7f6540a36524908743e813928d9cd716",
+      "width": 1366,
+      "height": 1219,
+      "bytes": 144394,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260115032511",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260115032511/https://arxiv.org/abs/2601.08864"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260115032511/https://arxiv.org/abs/2601.08864",
+      "timestamp": "20260115032511",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

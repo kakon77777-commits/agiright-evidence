@@ -1,0 +1,88 @@
+{
+  "id": "topic-2026-000023",
+  "url": "https://www.noemamag.com/when-the-machines-deserve-our-consideration/",
+  "capturedAt": "2026-10-03T07:05:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 151599,
+    "sha256": "c2c6d5921fb1c58945ccbeda4db263d711c4cf0785f44ec8699c327d9f1a0e76",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6F5AE2E63E6B34625AA1DD83B64B5501",
+      "status": 200,
+      "url": "https://www.noemamag.com/when-the-machines-deserve-our-consideration/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 13244,
+      "afterScrollHeight": 13244,
+      "wantedHeight": 13244
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "983a50d5d9fc4e1e1dbf3b13e8ea37934def5e2cec1358ec28b91803ffc36caa",
+    "width": 1366,
+    "height": 13244,
+    "bytes": 2484314,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 13244,
+    "afterScrollHeight": 13244,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T07:05:29Z",
+    "url": "https://www.noemamag.com/when-the-machines-deserve-our-consideration/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 151599,
+      "sha256": "c2c6d5921fb1c58945ccbeda4db263d711c4cf0785f44ec8699c327d9f1a0e76"
+    },
+    "finalUrl": "https://www.noemamag.com/when-the-machines-deserve-our-consideration/",
+    "httpStatus": 200,
+    "title": "When The Machines Deserve Our Consideration - NOEMA",
+    "rendered": {
+      "textChars": 19521,
+      "textSha256": "c09a2620aa1a07f268f81af9947cc6902c2982a343959cea5fc8fc7ca262c503",
+      "htmlSha256": "ca0c62b23cab0f7b0ccbc24f50acdf7b368e571d23d7fee3d43f8d54685bd85e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "983a50d5d9fc4e1e1dbf3b13e8ea37934def5e2cec1358ec28b91803ffc36caa",
+      "width": 1366,
+      "height": 13244,
+      "bytes": 2484314,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260704060531",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260704060531/https://www.noemamag.com/when-the-machines-deserve-our-consideration/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20260704060531/https://www.noemamag.com/when-the-machines-deserve-our-consideration/",
+      "timestamp": "20260704060531",
+      "verifiedHttp": 200,
+      "note": "existing public capture reused; no new save requested"
+    }
+  }
+}

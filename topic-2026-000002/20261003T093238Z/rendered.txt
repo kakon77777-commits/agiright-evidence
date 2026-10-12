@@ -1,0 +1,315 @@
+Skip to content
+Facebook
+Twitter
+Instagram
+TikTok
+YouTube
+Search
+GOOD STRATEGY
+Home
+About
+Strategy
+Opinion
+Music
+Podcasts
+Books
+Inform, educate and entertain.
+The Comeback of Ontology in AI: Why It Matters – 2026/01/21
+
+The article discusses the flawed history and resurgence of ontology in information technology. Initially ridiculed for its complexity and lack of practical application, ontology has evolved into a crucial framework for modern AI, grounding it in meaning and accountability. Successful ontologies are now pragmatic, adaptable, and integral to guiding AI’s functions.
+
+Martyn Rhisiart Jones
+January 20, 2026
+3–5 minutes
+AI, Artificial Intelligence, classification, consciousness, data, information, ontology, Philosophy, technology
+1 Vote
+
+IS ONTOLOGY UTTER BOLLOX?
+
+Martyn Rhisiart Jones
+
+Madrid, Tuesday 20th January 2026
+
+Read my absolutely fabulous books: http://www.goodstrat.com/books
+
+Ontology Didn’t Fail. The World Just Wasn’t Ready.
+
+For most of its life in information technology, ontology has carried the faint smell of intellectual embarrassment. Too academic for product teams. Too rigid for startups. Too slow for an industry trained to ship first and rationalise later. It promised machines that could understand the world—and delivered, instead, a generation of beautiful diagrams and very little working software.
+
+By 2026, that judgement looks increasingly wrong. Not because ontology suddenly got better, but because everything else did—and in doing so, exposed a missing layer in modern computing: meaning.
+
+The Problem AI Made Impossible to Ignore
+
+Large language models are astonishing pattern engines. They can write code, draft contracts, and simulate expertise across domains with unnerving fluency. What they cannot reliably do is know when they are wrong. Hallucination is not a bug; it is the inevitable outcome of systems optimised for likelihood rather than truth.
+
+As model weights commoditise and agentic systems proliferate, the bottleneck in AI is no longer intelligence but grounding. What does this entity represent? Which relationships are real? What actions are permitted in this context? These are not linguistic questions. They are ontological ones.
+
+Ontology, in its modern incarnation, is not about metaphysics. It is about constraints.
+
+Why Ontology Failed the First Time
+
+Ontology’s early failure—most visibly during the Semantic Web era—was one of scale and arrogance. The idea was to formalise meaning across the open internet: shared vocabularies, universal taxonomies, machine-readable truth. It assumed consensus where none existed, stability where none was possible, and incentives that never materialised.
+
+Critics were right. Ontologies built as monuments rather than tools quickly ossified. Businesses changed. Language drifted. Models broke. The field earned a reputation for over-engineering and under-delivery.
+
+Or, as a certain strand of Welsh pragmatism would have warned: don’t build a bridge before you know who needs to cross it.
+
+The Quiet Comeback
+
+What changed is not ontology’s ambition but its surface area. Today’s ontologies are smaller, sharper, and embedded deep inside systems rather than paraded as ideology.
+
+In practice, they show up as semantic layers, domain graphs, or structured world models sitting beneath AI applications. Companies like Palantir treat ontology as operational infrastructure: a continuously updated map of entities, relationships, and permissions that keeps AI systems from freewheeling into fantasy. Tech giants quietly rely on similar structures to make retrieval, reasoning, and auditing tractable at scale.
+
+In agentic workflows and GraphRAG pipelines, ontologies act as cognitive exoskeletons—limiting what an AI can assume, anchoring language to state, and turning probabilistic outputs into something close to accountable action.
+
+This is ontology as guardrail, not gospel.
+
+The New Risk: Semantic Theatre
+
+Success has invited a familiar danger. “Ontology” is once again fashionable, and with fashion comes performance. Vendors rebrand schemas as ontologies. Consultants sell semantic transformations that amount to little more than renamed metadata. LinkedIn fills with proclamations that “2026 is the year of ontology,” usually accompanied by diagrams of suspicious complexity.
+
+The failure mode is unchanged: rigidity, overreach, and detachment from reality. Ontologies that describe how organisations wish they worked rather than how they do. Models that take longer to build than the systems they’re meant to stabilise.
+
+Here, the oldest rule applies: not everything that looks structured is structure.
+
+What Actually Works
+
+The ontologies that survive are boring. They are built incrementally. They evolve continuously. They privilege usefulness over completeness. Most importantly, they are designed to work with large language models, not against them.
+
+They don’t replace probabilistic intelligence; they bound it. They reduce the space in which AI can confidently hallucinate. They make systems legible enough for humans to trust—and, when necessary, override.
+
+There’s a quiet Welsh sensibility in that approach: slow, careful, adaptive. Araf ymlaen, ond yn saff. Slowly forward, but safely. Not everything needs to scale to the world. Some things just need to work reliably where they’re planted.
+
+The Real Verdict
+
+Ontology was never a fraud. It was premature. It arrived before computing had systems powerful enough to need constraint, and before failure carried real-world consequences.
+
+In the age of autonomous agents, regulatory AI, and machine-generated decisions that actually move money and people, meaning has become infrastructure. Ontology is no longer trying to explain the world. It is trying to keep AI from breaking it.
+
+And in 2026, that may be the most GoodStrat outcome imaginable.
+
+Many thanks for reading.
+
+  Click for the last 100 Good Strat articles  
+
+Share this:
+ X Facebook
+Like this:
+Loading…
+Martyn Rhisiart Jones
+
+The Good Strategy Company continually & effectively addresses significant challenges by delivering brilliant, simple & elegant strategies, policies & plans.
+
+528 articles published
+Discover more from GOOD STRATEGY
+
+Subscribe to get the latest posts sent to your email.
+
+Type your email…
+
+SUBSCRIBE
+
+Leave a Reply
+AUTHOR
+
+Written by
+
+Martyn Rhisiart Jones
+The Good Strategy Company continually & effectively addresses significant challenges by delivering brilliant, simple & elegant strategies, policies & plans.
+RECENT POSTS
+Inform, educate and entertain.
+La revuelta por la vivienda en España: el audaz enfrentamiento de Sánchez con la derecha
+Martyn Rhisiart Jones
+Inform, educate and entertain.
+Spain’s Housing Revolt: Sánchez’s Daring Showdown With the Right
+Martyn Rhisiart Jones
+Inform, educate and entertain.
+How Green Was My Data?
+Martyn Rhisiart Jones
+CATEGORIES
+advertising
+agile
+agile way of working
+agile@scale
+AI
+All Data
+Architecture
+Artificial Intelligence
+Assets
+Banking
+Big Data
+Big Data 7s
+Big Data Analytics
+blockchain
+books
+Brexit
+BS
+business
+Business Intelligence
+business strategy
+Cambriano
+Cambridge Analytica
+Climate Change
+Cloud
+code of conduct
+Commercial Analytics
+community
+consider
+Consider this
+Consultation
+dark data
+data architecture
+Data governance
+data hub
+Data Lake
+data management
+Data Mart
+data mesh
+data science
+Data Supply Framework
+Data Warehouse
+Data Warehousing
+deep learning
+digital transformation
+disinformation
+Dogma
+DW 3.0
+ECM
+EDW
+enterprise content management
+European Union
+Excellence
+Excerpt
+Executive
+Extract
+Financial Industry
+fraud
+good start
+Good Strat
+Good Strategy
+Good Strategy Radio
+goodstart
+goodstartegy
+goodstrat
+goostart
+governance
+hadoop
+hdfs
+HR
+humour
+India
+Inform, educate and entertain.
+informatio Supply Framework
+information
+Information Management
+Information Supply Frameowrk
+Information Supply Framework
+Infotrends
+Inmon
+instruments
+IoT
+IT Circus
+IT fraud
+IT strategy
+iterations
+java
+Knowledge
+knowledge management
+Leadership 7s
+life
+literature
+Love
+machine learning
+market forces
+Marketing
+Marty does
+Martyn does
+Martyn Jones
+Martyn Richard Jones
+Masterclass
+media
+Memory lane
+Methodology
+nine competitive forces
+no limits
+obituary
+offshore
+Offshoring
+operational
+Outsourcing
+Oxford
+pain
+Peeves
+Philosophy
+pig data
+PIK
+PIR
+Planning
+poem
+poems
+Poetry
+Polemic
+political science
+Politics
+pomo
+postmodern
+Process
+Professional Networking
+professionalism
+project management
+Project to Excel
+prose
+public
+Public Integrity Record
+Quiz
+Rant
+Risk
+Sales
+satire
+scrum
+sentiment analysis
+SMILES
+Snippet
+Social Media
+spoof
+statistics
+Strategy
+structured intellectual capital
+supply chain management
+TEAM
+technology
+The Amazing Big Data Challenge
+The Big Data Contrarians
+The Guardian
+The hidden wealth of nations
+UK
+Uncategorized
+United Kingdom
+Value
+wisdom
+TRENDING
+Inform, educate and entertain.
+La revuelta por la vivienda en España: el audaz enfrentamiento de Sánchez con la derecha
+Martyn Rhisiart Jones
+Inform, educate and entertain.
+Spain’s Housing Revolt: Sánchez’s Daring Showdown With the Right
+Martyn Rhisiart Jones
+Inform, educate and entertain.
+How Green Was My Data?
+Martyn Rhisiart Jones
+data architecture, Data Supply Framework
+Why Smart Leaders Trust Both Data Analytics and Gut Instinct
+Martyn Rhisiart Jones
+Facebook
+Twitter
+Instagram
+YouTube
+Home
+About
+Strategy
+Opinion
+Music
+Podcasts
+Books
+
+Designed with WordPress

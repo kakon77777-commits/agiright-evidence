@@ -1,0 +1,60 @@
+{
+  "id": "signal-2026-000020",
+  "url": "https://x.com/oceanbennett/status/2101555447589138710",
+  "capturedAt": "2026-10-03T08:35:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8d8f2bde8ce43bfc9c3fd83cfc20a7c09fdfddffd886eb1f585e190bbbafa328",
+    "width": 640,
+    "height": 900,
+    "bytes": 46263,
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:35:15Z",
+    "url": "https://x.com/oceanbennett/status/2101555447589138710",
+    "backfill": true,
+    "finalUrl": "https://x.com/oceanbennett/status/2101555447589138710",
+    "screenshot": {
+      "sha256": "8d8f2bde8ce43bfc9c3fd83cfc20a7c09fdfddffd886eb1f585e190bbbafa328",
+      "width": 640,
+      "height": 900,
+      "bytes": 46263,
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2101555447589138710",
+      "handle": "oceanbennett",
+      "syndicationSha256": "b089d6c71d3ade7bc50fae6b9c6e87061b58d6799add48a47844015f6e3a9f83",
+      "createdAt": "2026-09-20T06:13:58.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "oceanbennett",
+      "lang": "en",
+      "textSha256": "cdf4682006aa34cdd1bad109fc6e343900ef196c8c87934f3813dbcc1df770a0",
+      "media": [],
+      "oembedSha256": "9890c0273d962ce5b196512bc3e25456b77573e7a6cfc4b70ff945b35ff31da2",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}
