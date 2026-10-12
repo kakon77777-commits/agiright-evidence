@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000297",
+  "url": "https://www.tc260.org.cn/tc260/xwdt1/202609/e879077a3caa4722b2206d1bcaed5a6c.shtml",
+  "capturedAt": "2026-10-12T12:38:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 12451,
+    "sha256": "356aa2b5966f799d5071ba637f708685ffdccde52647ffd73686d7e161b4ca4e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FB05F48A8A56ABD0AC9E5EE85182275A",
+      "status": 200,
+      "url": "https://www.tc260.org.cn/tc260/xwdt1/202609/e879077a3caa4722b2206d1bcaed5a6c.shtml",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1143,
+      "afterScrollHeight": 1143,
+      "wantedHeight": 1143
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6464ba4387d0529ce2f7858f51558ccc13176cb094a6156be7de36bc53fb40e7",
+    "width": 1366,
+    "height": 1143,
+    "bytes": 175809,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1143,
+    "afterScrollHeight": 1143
+  },
+  "record": {
+    "capturedAt": "2026-10-12T12:38:48Z",
+    "url": "https://www.tc260.org.cn/tc260/xwdt1/202609/e879077a3caa4722b2206d1bcaed5a6c.shtml",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 12451,
+      "sha256": "356aa2b5966f799d5071ba637f708685ffdccde52647ffd73686d7e161b4ca4e"
+    },
+    "finalUrl": "https://www.tc260.org.cn/tc260/xwdt1/202609/e879077a3caa4722b2206d1bcaed5a6c.shtml",
+    "httpStatus": 200,
+    "title": "《人工智能安全治理框架3.0》-全国网络安全标准化技术委员会",
+    "rendered": {
+      "textChars": 391,
+      "textSha256": "5dc28457bf633acd70682468387972af1a416bc039106dbb2586884c6a60db31",
+      "htmlSha256": "08db16bc59392e61318c33fa4eab74e6820d69d0bc5c24b232688d84a3db0160"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6464ba4387d0529ce2f7858f51558ccc13176cb094a6156be7de36bc53fb40e7",
+      "width": 1366,
+      "height": 1143,
+      "bytes": 175809,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260921154134",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260921154134/https://www.tc260.org.cn/tc260/xwdt1/202609/e879077a3caa4722b2206d1bcaed5a6c.shtml"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261011000100/https://www.tc260.org.cn/tc260/xwdt1/202609/e879077a3caa4722b2206d1bcaed5a6c.shtml",
+      "timestamp": "20261011000100",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000256",
+  "url": "https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/",
+  "capturedAt": "2026-10-04T05:42:43Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 32750,
+    "sha256": "ddecdc6fb18f289e5171e1b0b177490f183065079e7abece40b8f7401ce83bad",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F13A9036074A975E41AF42EBE11D9A77",
+      "status": 200,
+      "url": "https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2865,
+      "afterScrollHeight": 2865,
+      "wantedHeight": 2865
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d9a9fda54d944c8b3babe01dea603b336e012cba86c4390bbe57aa6bc04a4c4b",
+    "width": 1366,
+    "height": 2865,
+    "bytes": 337718,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2865,
+    "afterScrollHeight": 2865
+  },
+  "record": {
+    "capturedAt": "2026-10-04T05:42:43Z",
+    "url": "https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32750,
+      "sha256": "ddecdc6fb18f289e5171e1b0b177490f183065079e7abece40b8f7401ce83bad"
+    },
+    "finalUrl": "https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/",
+    "httpStatus": 200,
+    "title": "Preparing for a restart after reading Slack · OpenAI Alignment",
+    "rendered": {
+      "textChars": 8342,
+      "textSha256": "a7562e9f188dbb8bd63a4c10f69658dd643d7e1f3478d14c507717cce5375586",
+      "htmlSha256": "b9498a921ccb4545adf2e9ee115660ccaa14f99201d67924d8e4dedad1e3136f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d9a9fda54d944c8b3babe01dea603b336e012cba86c4390bbe57aa6bc04a4c4b",
+      "width": 1366,
+      "height": 2865,
+      "bytes": 337718,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261003035731",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261003035731/https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003113538/https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/",
+      "timestamp": "20261003113538",
+      "verifiedHttp": 200
+    }
+  }
+}

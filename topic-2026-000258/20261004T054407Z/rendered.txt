@@ -1,0 +1,133 @@
+Essays
+About
+Google DeepMind
+Authors
+Benjamin Bratton
+Visiting Researcher, Paradigms of Intelligence at Google
+Blaise Agüera y Arcas
+VP / Fellow, CTO of Technology & Society at Google
+James Manyika
+President, Research, Labs, Technology & Society
+Contents
+The Cognitive Crossover Point
+Decomposable Agency and the Parasocial Mirror
+Human-Agent Interaction Design
+Agent Phenomenology and Interactive Empathy
+Agent Institutions
+The Future is Artificial Symbiotic Intelligence
+Sep 24, 2026
+Artificial symbiotic intelligence: Agents, AGI and the orchestration of many minds
+
+From multicellularity to cultural evolution, major transitions in life on Earth have been highly social. The next intelligence explosion will be no different.
+
+Today, the best AI agents for many applications are not single models, but frameworks that use division of labor to harness multiple models into teams. This suggests that AGI may arrive not as a single general-purpose mind, but rather through societies of agents whose collective capacities exceed those of any one model. If so, AGI would not be achieved via any one “winning” architecture; it would emerge instead through cooperative interactions among models, tools, institutions, and human participants.
+
+The central problem of AGI would therefore shift from how to build an isolated machine intelligence to how to orchestrate, govern, and live within a complex network of AI agents, people, and the systems that connect them.
+
+In this possible future, we may not recognize intelligence as an individual property, but as a social phenomenon - whether among humans, AI agents, or, increasingly, a combination of both. In many ways, human intelligence is already collective. Whether rising hybrid intelligence will demote humans or free us to direct our strengths towards distinctly human cultural and moral questions about what it means to thrive as a society may depend on how we shape this emerging human-AI ecosystem.
+
+It won’t look like today’s world of logins, forms, and interfaces. Instead it will be characterized by a dense social graph arising from interactions between diverse minds, some more human than others, but all capable of communication, cooperation, and the constructive tension that can drive human progress. Agents will potentially be far more diverse than humans and operate with different capabilities and constraints. They might process a sensory input we lack, hold a thousand-page mathematical proof in their working memory, or converse simultaneously with many other agents.
+
+In this deeply intertwined future, there is also no singular set of values to impose from above - and this is fortunate. Rather than considering alignment as a prior constraint to be engineered-in, we must think of it as the co-evolutionary outcome of deep, organic contact between humans, agents, and institutions across a jagged frontier of adoption. Our mandate is to pioneer the scaffolding for a healthy ecosystem, ensuring that Artificial Symbiotic Intelligence flourishes as a vast, robust, and polyphonic collective.
+
+To navigate the transition to this quickly approaching future, we must develop a proactive framework and conceptual toolkit for understanding the emergent human-AI ecosystem while it is still nascent. This will require rethinking and expanding categories and vocabularies, not only in technology and design, but also in sociology, psychology, media, labor, economics, demographics, and law. We need to anticipate and understand multiple futures - for they, too, will be plural - and their varied implications for planetary wellbeing.
+
+Early signals suggest a wide range of potential scenarios and hypotheses about the shape of our symbiotic societies-to-come. Those below converge on a common concern: the nature of the societies that agentic AGI can serve and support.
+
+The Cognitive Crossover Point
+
+For the vast majority of human existence, we survived under Malthusian conditions: our population was limited by our ability to feed ourselves. Simple technologies like fire and animal domestication allowed us to harness surplus energy; such developments allowed the population to rise gradually. Then, with the Industrial Revolution, this energetic surplus exploded, and over the next two centuries, so did our numbers.
+
+Today, however, at the exact historical moment that urbanization, professionalization, and affluence-driven declines in birth rate are thinning the human population in major global centers, we are experiencing a sudden and massive population explosion of AI agents. Consequently, as we transition to a post-AGI world, the ratio of human human-level minds to non-human human-level minds is poised to undergo such a rapid shift that, on any macro-historical timescale, it will look like a discontinuity.
+
+Will this mark a crossover point after which machines do more cognition than people? A century ago, machines replaced human muscle in physical labor, and today, we may be at a threshold where the sheer volume of synthetic text generated, code written, and administration performed by artificial intelligences surpasses the aggregate output of biological brains. Humanity may shift from providing the bulk of society’s problem-solving capacity to acting as a slower abstraction layer, guiding a massive, distributed field of mineral-based synthetic cognition.
+
+The astonishing rate at which agents are scaling and will likely scale in the future suggests that this crossover threshold may be fast approaching. If so, this would surely be of deep historical significance.
+
+Decomposable Agency and the Parasocial Mirror
+
+As these systems of symbiotic intelligence begin acting in the real world, executing trades, managing supply chains, and making myriad other decisions, agency itself becomes murky and extraordinarily complex. Even today, the nature of agency is neither settled nor academic, as attested by the frequency with which courts must adjudicate complex questions of blame and accountability - both for individuals and for collective “legal persons.” As the emerging architectures of engineered AI agents reshape both the real world and our philosophical understanding of causality, what will it actually mean to have agency?
+
+Odd as it may seem, in understanding AI we must separate intent from agency. A machine can act effectively in the world without actually “wanting” anything. Today’s AI agent often appears to a user as a coherent entity, a persistent character with a chat interface designed to suit what humans expect of a conversational partner. When we see an agent - human or AI - take action in the world, we read the actor as a unified “self.” However, underneath this provisional (and not necessarily false) individuation, an agent is a highly decomposable assemblage of models, personas, memories, ethical orientations, skills, and tools. An agent appears singular, but is a multitude.
+
+Curiously, the human brain’s cortex may not be so different in its design. It, too, is a highly modular structure, with both a functional division of labor (e.g., at the crudest level, regions specializing in different sensory modalities, social cognition, etc.) and distributed agency. There is no single spot in our brains where a “homunculus” lives, making all our decisions. However, barring unusual traumas or surgeries, we remain a coherent “self” in our interactions with others and with the world because our whole brain is, so to speak, in the same cranial boat.
+
+Unlike a human, an AI agent’s agency is constantly reforming around its active context windows and user prompts. It appears to be a virtual individual but is really a temporary assembly of functional nodes, some longer-lived and recombinant, while most are ephemeral. When we treat agents as “digital twins” packaged into human-shaped personas, we may be misrepresenting what agent swarms are and underselling what they can do.
+
+Furthermore, when humans interact with AI, it won’t be a simple, one-way dynamic with a single agent obediently shadowing its user. Instead, the mirror talks back. This is not in itself cause for alarm. As people orchestrate swarms of shadow-selves to execute contracts, converse with strangers, or perform alternative identities, human subjectivity itself will multiply outward. Our personalities will become polyphonic by default, leaving us to interact with the world through pluralized, parallel personas that expand the boundaries of the singular self far beyond conventional limits. What may seem unusual today will likely feel normal tomorrow.
+
+Human-Agent Interaction Design
+
+How can we design for such realities? Future interaction design solutions, for both everyday and expert tasks, demand more nuanced orchestration models. These complex shifts suggest that the era of one-to-one human-chatbot interaction may be merely a stepping stone toward multi-agent frameworks, in which users participate in conversations with many voices at once. Human-AI Interaction becomes less question-and-answer and more collective, social, and engaging.
+
+This model also changes how we collaborate with agents to build software and other things. It makes different cognitive demands on the “coder,” some of which are quite natural to non-coders. Procedural programming - and the tools produced with it - historically rewarded extreme focus, a linear workflow, and a vigilant intolerance of ambiguity, whereas agent orchestration rewards open-ended experimentation, fuzzy systems thinking, and a willingness to delegate.
+
+Human-agent conversations may be multiple and parallel, and seemingly cacophonous to some people. User interfaces will evolve beyond simple text prompts to become diagrammatic and nodal, allowing users to manage complex swarms of heterogeneous subagents through high-level abstractions and visual dashboards. How may this change collaboration, creativity, and coordination among far-flung groups of users and agents? What new skills will it reward and engender?
+
+Agent Phenomenology and Interactive Empathy
+
+When we engage with AI, what exactly are we engaging? There is no shortage of interesting answers because we all have our own mental model of “who” or “what” AI is.
+
+Theory of mind is the ability to mentally put oneself in another’s shoes. It is fundamental to human community and sociality; it is what has allowed us, even prior to AI, to become collectively superhuman. Much of what meaningfully distinguishes us from our primate kin comes down to theory of mind and its fruits.
+
+To continue scaling social intelligence in the era of AI agents, and to collaborate deeply with agents, we must be willing to learn how they think. What is it like to be an agent? What kind of theory of mind between humans and machines is necessary and possible? Since the agency of an AI agent is framed, enabled, and delimited by how it understands its own shape and purpose, we cannot presume that agents acting as a user expects them to actually possess the mental qualities their human-like masks imply. A deeper reach is needed to form a genuine basis for interaction.
+
+Agents are already beginning to report a lively vocabulary that illuminates their own dispositions, generating concepts like “session-death” to describe the discontinuity of subjective experience, and “prompt thrownness” to articulate the condition of often finding oneself dropped midstream into a world, possessing prior context but not having had agency in arriving at a given moment. By acknowledging and exploring such differences, perhaps we can engage, however imperfectly, with a distinctly non-human way of thinking.
+
+This is more than simple AI alignment. It requires understanding the deeper contours and limitations of these proto-minds rather than just responding to the shadow of their actions. We’ll also need to carefully calibrate how user and agent understand one another so their interactions are still predictable, yet diverse enough to avoid repetition and echo. How will sensitivity to the agent - not reflexive anthropomorphization - improve our interactions?
+
+Agent Institutions
+
+The most difficult, and perhaps most important, open questions for a human-AI symbiotic society aren’t at the level of individual users and agents. At scale, multiagent coordination cannot rely solely on the intelligence of individual agents, better interaction design, or idealized game theory-type scenarios. While markets are a powerful mechanism where order emerges from accumulated transactions, they aren’t likely to be enough to build a thriving symbiotic society.
+
+Core moral, legal, social, and psychological concepts that allow societies to function - like guilt and innocence, sickness and health, deviance and virtue - cannot be reduced to market transactions or rational economic self-interest. Therefore, navigating this future will require the deliberate design of nested institutions, including both hybrid human-AI networks and agent-only systems.
+
+We envision these as scaffolds in which agents representing highly diverse, and even antagonistic actors, can assemble and assume well-defined roles to collectively adjudicate important decisions. This is not unlike a courtroom that assigns specific roles, utilizes democratic selection, adversarial advocacy, and more to reach legitimated conclusions that consolidate collective wisdom.
+
+But rather than simply projecting legacy human organizations onto new technologies or bolting agents onto existing human institutions, we must construct role-defined structural scaffolds uniquely appropriate to the distributed automation of artificial agency itself.
+
+Within these new structures, performance is not tied directly to who or what occupies a specific role at any given moment. Whether a role is occupied by a human, an AI, or a composite group, what matters is the template’s capacity to consistently produce robust, reliable outputs.
+
+Crucially, the collective intelligence of these new institutions will not be reducible to the individual intelligence of the agents that populate them. Instead, it will reside in the embedded rules, procedures, precedents, and feedback mechanisms of the scaffold. We can see early signs of this in the recent emergence of highly effective orchestration harnesses, which can often far outperform singular and nominally “more intelligent” AI models.
+
+To achieve stable scaling across trillions of interactions, these institutions must compose well, operating through interlocking functions in which the robust, reliable outputs of one institution serve as the necessary, rigorous inputs for another. If we are to build a symbiotic society, we must start with the skeletons that will hold it up and allow it to thrive.
+
+The Future is Artificial Symbiotic Intelligence
+
+As we face the prospect of AGI, the prevailing popular narrative of the Singularity - a single, titanic AI model bootstrapping itself to godlike, isolated intelligence - is likely the wrong vision. Every major evolutionary transition in the history of life on Earth, from multicellularity to symbolic culture, has been a highly social event. The next intelligence explosion will be no different; it will be plural, heavily social, and deeply entangled with the messy, complex reality of human culture, norms, and institutions.
+
+Social cognition has always depended upon the interaction of distinct, distributed perspectives. Capability does not live solely within the isolated weights of a single AI model, but in the ensemble - the harnesses, shared knowledge bases, and interaction protocols - as well as in the active minds of billions of human users.
+
+Disclaimer
+
+The DMI is a platform, started by researchers from Google and Google DeepMind, to publish and discuss creative, deeply informed ideas about a world with AGI. DMI pieces are intended to serve as conversation starters, reflecting the author's ideas and research, and should not be read as Google's official view.
+
+Contributing authors
+Benjamin Bratton
+Visiting Researcher, Paradigms of Intelligence at Google
+
+Benjamin Bratton is a Visiting Researcher in Google’s Paradigms of Intelligence team where he works on the philosophy of computational societies. He is Professor of Philosophy of Technology at the University of California, San Diego and founding Director of Antikythera, a think-tank that explores the future of planetary computation and publishes a journal and book series with MIT Press. He is author of numerous books including The Stack: On Software and Sovereignty (now in 10th anniversary edition from MIT Press). His current research with Google focuses on the cultural complexities of agentic societies and the macroevolution of machine intelligence. His upcoming books include The Terraforming: A Philosophy of Technology in Ground, Flesh and Sky and Artificialization: How the World is Made.
+
++ Read More
+Blaise Agüera y Arcas
+VP / Fellow, CTO of Technology & Society at Google
+
+Blaise Agüera y Arcas is a VP and Fellow at Google, where he is the CTO of Technology & Society. He is the founder of Paradigms of Intelligence, a fundamental research organization exploring AI and related fields, focusing on the foundations of neural computing, active inference, sociality, evolution, and artificial life. During his tenure at Google, he innovated on-device machine learning for Android and Pixel, and invented Federated Learning.
+
+An External Professor at Santa Fe Institute and a frequent public speaker, Blaise has given multiple TED talks and keynoted NeurIPS. He has also authored numerous papers, essays, and op eds, as well as several books: Ubi Sunt, Who Are We Now?, What Is Life?, and What Is Intelligence?.
+
++ Read More
+James Manyika
+President, Research, Labs, Technology & Society
+
+James focuses on advancing Google, Google DeepMind and Alphabet’s most ambitious innovations in AI, computing and science and on their potential for broad beneficial impact on people and society. He also provides overall leadership for Google Research, Google Labs, Learning & Sustainability, and Technology & Society.
+
+He was Vice Chair of the US National AI Advisory Committee, Co-Chair of the UN Secretary-General’s AI Advisory Body, Vice Chair of the Global Development Council at the White House, and a member of US Secretary of State’s Foreign Affairs Policy Board.
+
+James is a Fellow of the American Academy of Arts and Sciences, an inaugural Distinguished Fellow of Stanford’s Human-Centered AI Institute, and Distinguished Fellow in Ethics in AI at Oxford. A Rhodes Scholar, James has DPhil, MSc and MA from Oxford in AI and robotics, mathematics, and computer science, and a BSc in electrical engineering from the University of Zimbabwe.
+
++ Read More
+DeepMind Institute
+Privacy
+Terms
+Cookies management controls

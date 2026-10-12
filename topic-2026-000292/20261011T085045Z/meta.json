@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000292",
+  "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/",
+  "capturedAt": "2026-10-11T08:50:45Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 38790,
+    "sha256": "c741584ad80ec315b59e9a305ab9743216110c4e25b01ddc23b0330759c5adb7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8600E9F188F351F45F92C2556F72BCBA",
+      "status": 200,
+      "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2676,
+      "afterScrollHeight": 2676,
+      "wantedHeight": 2676
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "de5e8781f07a50da1175f7557a39ac729337ca158ca598d75ae1c14c2a3b53d7",
+    "width": 1366,
+    "height": 2676,
+    "bytes": 242857,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2676,
+    "afterScrollHeight": 2676
+  },
+  "record": {
+    "capturedAt": "2026-10-11T08:50:45Z",
+    "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 38790,
+      "sha256": "c741584ad80ec315b59e9a305ab9743216110c4e25b01ddc23b0330759c5adb7"
+    },
+    "finalUrl": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/",
+    "httpStatus": 200,
+    "title": "ICO secures changes from leading AI developers as scrutiny extends to AI agents | ICO",
+    "rendered": {
+      "textChars": 6757,
+      "textSha256": "041827615b9551adf0888478047a76f28cb6a94b4d259d42187d96eeb1c1601c",
+      "htmlSha256": "de91cc406ce0e2c1ecb55c8a22d406a71dd5f53ac2a4119b15292a3a5c3b26a7"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "de5e8781f07a50da1175f7557a39ac729337ca158ca598d75ae1c14c2a3b53d7",
+      "width": 1366,
+      "height": 2676,
+      "bytes": 242857,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261008113250",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261008113250/https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261011085156/https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/10/ico-secures-changes-from-leading-ai-developers-as-scrutiny-extends-to-ai-agents/",
+      "timestamp": "20261011085156",
+      "verifiedHttp": 200
+    }
+  }
+}

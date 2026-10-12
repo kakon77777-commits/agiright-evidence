@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000261",
+  "url": "https://www.politico.com/news/2026/10/04/jay-clayton-ai-trump-01106137",
+  "capturedAt": "2026-10-05T06:31:10Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5883,
+    "sha256": "bc68e9cf1274751681fd967e8fc5c5c0a495c045dabfd0ad7ec0ba11e810f476",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "84A088AB8794B1C3C2BBF287F145C3B1",
+      "status": 403,
+      "url": "https://www.politico.com/news/2026/10/04/jay-clayton-ai-trump-01106137",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "604e2081845a5d833f382d723ebcf581bfe488279dc612c70cc4599d42b23751",
+    "width": 1366,
+    "height": 900,
+    "bytes": 30031,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-05T06:31:10Z",
+    "url": "https://www.politico.com/news/2026/10/04/jay-clayton-ai-trump-01106137",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5883,
+      "sha256": "bc68e9cf1274751681fd967e8fc5c5c0a495c045dabfd0ad7ec0ba11e810f476"
+    },
+    "finalUrl": "https://www.politico.com/news/2026/10/04/jay-clayton-ai-trump-01106137",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 264,
+      "textSha256": "a986f1c12baf99531a1253639e582bbf38073c14238d1d902d1bf3240bd70fe2",
+      "htmlSha256": "942fdc600af2d13ee5369eba2a9268f3121cf3c9673197293f964a3196dbf2ac"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "604e2081845a5d833f382d723ebcf581bfe488279dc612c70cc4599d42b23751",
+      "width": 1366,
+      "height": 900,
+      "bytes": 30031,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261004161707",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261004161707/https://www.politico.com/news/2026/10/04/jay-clayton-ai-trump-01106137"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

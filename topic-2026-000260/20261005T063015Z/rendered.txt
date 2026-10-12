@@ -1,0 +1,102 @@
+Get Started
+Platforms
+Technologies
+Community
+Documentation
+Downloads
+Support
+Sign in
+News
+Hello Developer
+Software Releases
+Site Updates
+Upcoming Requirements
+Updates to Full Disk Access in macOS
+
+October 2, 2026
+
+We give developers powerful APIs to build incredible capabilities into their apps for Apple products, backed by a set of controls designed to protect users’ private data. Full Disk Access largely sidesteps these controls in order to allow backup apps to function properly on the Mac. Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems—including files, mail, messages, and even browsing history—without users’ full knowledge and understanding. For communication apps, this can also compromise the privacy of the people users are communicating with.
+
+Going forward, we will introduce additional controls to ensure that users who genuinely wish to grant an app this extraordinary level of access can only do so with very explicit user action. Addressing this is critical. As AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially. We are committed to ensuring users clearly understand these risks before granting such access, so they can make informed decisions about their own data and privacy.
+
+Developer Footer
+
+Apple
+Developer
+News
+Updates to Full Disk Access in macOS
+Platforms
+iOS
+iPadOS
+macOS
+tvOS
+visionOS
+watchOS
+App Store
+Tools
+Swift
+SwiftUI
+Swift Playground
+TestFlight
+Xcode
+Xcode Cloud
+Icon Composer
+SF Symbols
+Technologies
+Accessibility
+Accessories
+AI & Machine Learning
+Apple In-App Purchase
+Apple Intelligence
+Audio & Video
+Augmented Reality
+Business
+Design
+Distribution
+Education
+Games
+Health & Fitness
+Localization
+Maps & Location
+Security
+Safari & Web
+Resources
+Documentation
+Downloads
+Sample Code
+Videos
+Documentation Archive
+Support
+Help Guides & Articles
+Contact Us
+Forums
+Feedback & Bug Reporting
+System Status
+Account
+Apple Developer
+App Store Connect
+Certificates, IDs, & Profiles
+Feedback Assistant
+Programs
+Apple Developer Program
+Apple Developer Enterprise Program
+App Store Small Business Program
+MFi Program
+Mini Apps Partner Program
+News Partner Program
+Video Partner Program
+Security Bounty Program
+Security Research Device Program
+Events
+Meet with Apple
+Apple Developer Centers
+App Store Awards
+Apple Design Awards
+Apple Developer Academies
+WWDC
+Read the latest news. Get the Apple Developer app. Follow us on bilibili, LinkedIn, WeChat, and YouTube.
+Light
+Dark
+Auto
+Copyright © 2026 Apple Inc. All rights reserved.
+Terms of Use Privacy Policy Agreements and Guidelines

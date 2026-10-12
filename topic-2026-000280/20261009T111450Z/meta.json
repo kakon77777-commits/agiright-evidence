@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000280",
+  "url": "https://deploymentsafety.openai.com/gpt-6-october",
+  "capturedAt": "2026-10-09T11:14:50Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 333682,
+    "sha256": "58ffa956892e9a9a2028db785a9aa2d7b61dfe4c6bcc4c4e3185e8c1489bb851",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "3B2091037349C2120B76B82D776FE298",
+      "status": 200,
+      "url": "https://deploymentsafety.openai.com/gpt-6-october",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 20350,
+      "afterScrollHeight": 22504,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "1b4b01ac771772856f80df4c48d22f0b575e74dee883816add8febddbccca0c8",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 2051494,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 20350,
+    "afterScrollHeight": 22504
+  },
+  "record": {
+    "capturedAt": "2026-10-09T11:14:50Z",
+    "url": "https://deploymentsafety.openai.com/gpt-6-october",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 333682,
+      "sha256": "58ffa956892e9a9a2028db785a9aa2d7b61dfe4c6bcc4c4e3185e8c1489bb851"
+    },
+    "finalUrl": "https://deploymentsafety.openai.com/gpt-6-october",
+    "httpStatus": 200,
+    "title": "GPT-6 Sol and GPT-6 Luna: October 2026 update - OpenAI Deployment Safety Hub",
+    "rendered": {
+      "textChars": 39600,
+      "textSha256": "1cf63d284381e5e3b92182ee6a5e94fe488a6d7a9c6f281490c27633b200323f",
+      "htmlSha256": "9632bd278f316872ebbe82033b9d4ab5038ce450eaa9aad8a1289b4c69cb8a2e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "1b4b01ac771772856f80df4c48d22f0b575e74dee883816add8febddbccca0c8",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 2051494,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261009111541/https://deploymentsafety.openai.com/gpt-6-october",
+      "timestamp": "20261009111541",
+      "verifiedHttp": 200
+    }
+  }
+}

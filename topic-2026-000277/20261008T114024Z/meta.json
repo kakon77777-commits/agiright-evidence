@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000277",
+  "url": "https://www.tbsnews.net/worldbiz/usa/ftc-chair-suggests-ai-developers-should-be-liable-conduct-agents-1554101",
+  "capturedAt": "2026-10-08T11:40:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 95043,
+    "sha256": "4d278f49843aca240abe93219f5c4c3b30b46881f87acbb1ee02d36078f23bff",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C923B7EB5AFE3C517E2D433F5EB48C2B",
+      "status": 200,
+      "url": "https://www.tbsnews.net/worldbiz/usa/ftc-chair-suggests-ai-developers-should-be-liable-conduct-agents-1554101",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5232,
+      "afterScrollHeight": 9452,
+      "wantedHeight": 5232
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "23e0256b0235ec53391a776e359eadd8eb1112f8762d2822fe799e5095d4baff",
+    "width": 1366,
+    "height": 5232,
+    "bytes": 1982812,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 5232,
+    "afterScrollHeight": 9452
+  },
+  "record": {
+    "capturedAt": "2026-10-08T11:40:24Z",
+    "url": "https://www.tbsnews.net/worldbiz/usa/ftc-chair-suggests-ai-developers-should-be-liable-conduct-agents-1554101",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 95043,
+      "sha256": "4d278f49843aca240abe93219f5c4c3b30b46881f87acbb1ee02d36078f23bff"
+    },
+    "finalUrl": "https://www.tbsnews.net/worldbiz/usa/ftc-chair-suggests-ai-developers-should-be-liable-conduct-agents-1554101",
+    "httpStatus": 200,
+    "title": "FTC chair suggests AI developers should be liable for conduct of agents | The Business Standard",
+    "rendered": {
+      "textChars": 7031,
+      "textSha256": "0a03a698b935cf3df362d135e010bdf1037d676f8026a96157ccf1d907e51222",
+      "htmlSha256": "f62813b7e6c9fb85a27ea59fe09bfcfd52f472b0d89ffc996462440c9a6b80b4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "23e0256b0235ec53391a776e359eadd8eb1112f8762d2822fe799e5095d4baff",
+      "width": 1366,
+      "height": 5232,
+      "bytes": 1982812,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261008114058/https://www.tbsnews.net/worldbiz/usa/ftc-chair-suggests-ai-developers-should-be-liable-conduct-agents-1554101",
+      "timestamp": "20261008114058",
+      "verifiedHttp": 200
+    }
+  }
+}

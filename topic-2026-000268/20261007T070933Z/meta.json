@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000268",
+  "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+  "capturedAt": "2026-10-07T07:09:33Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 167294,
+    "sha256": "0406c4dbb8ba6c096655d0678c29385cb2d001664516eef2b951dde899d50760",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1607C7877CE1EE2535DF70A8C420A906",
+      "status": 200,
+      "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6492,
+      "afterScrollHeight": 6492,
+      "wantedHeight": 6492
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "1bc10131b6d195be4c92122a7e223a386bd7fff8c1122701b2dc11e2bd0f371d",
+    "width": 1366,
+    "height": 6492,
+    "bytes": 2657120,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6492,
+    "afterScrollHeight": 6492
+  },
+  "record": {
+    "capturedAt": "2026-10-07T07:09:33Z",
+    "url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 167294,
+      "sha256": "0406c4dbb8ba6c096655d0678c29385cb2d001664516eef2b951dde899d50760"
+    },
+    "finalUrl": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+    "httpStatus": 200,
+    "title": "OpenAI “rogue” agent activities found on Wikimedia projects – Wikimedia Foundation",
+    "rendered": {
+      "textChars": 8425,
+      "textSha256": "fa2526aeb115ca887e2726781365ba01c5414ab13dede0a3e5d41329c72dd95f",
+      "htmlSha256": "06fc740e9d3428f8070a5d2d472921e9e28504bc69f80eb09adb5bf709e3e011"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "1bc10131b6d195be4c92122a7e223a386bd7fff8c1122701b2dc11e2bd0f371d",
+      "width": 1366,
+      "height": 6492,
+      "bytes": 2657120,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261005172745",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261005172745/https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261007071004/https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "timestamp": "20261007071004",
+      "verifiedHttp": 200
+    }
+  }
+}

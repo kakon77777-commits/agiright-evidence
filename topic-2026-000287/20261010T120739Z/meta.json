@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000287",
+  "url": "https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand",
+  "capturedAt": "2026-10-10T12:07:39Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 32315,
+    "sha256": "3805f799ca339852b726810064e329883441373a40aa1fd1b1188c8d52233962",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CA59D96E2C612C3477E938AC68D4E877",
+      "status": 200,
+      "url": "https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5209,
+      "afterScrollHeight": 5209,
+      "wantedHeight": 5209
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ccf5bd5b70a8bf75fea6be2e44727f409f4c87386d85d9fb51f38b95ba7f1241",
+    "width": 1366,
+    "height": 5209,
+    "bytes": 1025162,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5209,
+    "afterScrollHeight": 5209
+  },
+  "record": {
+    "capturedAt": "2026-10-10T12:07:39Z",
+    "url": "https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 32315,
+      "sha256": "3805f799ca339852b726810064e329883441373a40aa1fd1b1188c8d52233962"
+    },
+    "finalUrl": "https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand",
+    "httpStatus": 200,
+    "title": "Transect: Making large-scale agentic evaluations easier to understand | AISI Work",
+    "rendered": {
+      "textChars": 9623,
+      "textSha256": "b44ab1fdc64fe312aed9bd4787175860fd107590dd2301207e8733820cd0bc7f",
+      "htmlSha256": "d742fc0bcee8aa51f948d22576ea58c614d794f4245be272f694c3b8c2b557d8"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ccf5bd5b70a8bf75fea6be2e44727f409f4c87386d85d9fb51f38b95ba7f1241",
+      "width": 1366,
+      "height": 5209,
+      "bytes": 1025162,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261007165535",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261007165535/https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261010120849/https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand",
+      "timestamp": "20261010120849",
+      "verifiedHttp": 200
+    }
+  }
+}

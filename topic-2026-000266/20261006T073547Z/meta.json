@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000266",
+  "url": "https://openai.com/index/eu-text-provenance/",
+  "capturedAt": "2026-10-06T07:35:47Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 10011,
+    "sha256": "254189fbe915bd2c501591f35f33916c1faf2d8b127f391d4eed18ab20416117",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "ADB7F83A2AD08CED4206BEF64A937B23",
+      "status": 403,
+      "url": "https://openai.com/index/eu-text-provenance/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-06T07:35:47Z",
+    "url": "https://openai.com/index/eu-text-provenance/",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 10011,
+      "sha256": "254189fbe915bd2c501591f35f33916c1faf2d8b127f391d4eed18ab20416117"
+    },
+    "finalUrl": "https://openai.com/index/eu-text-provenance/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "f4b2ae32b4312a0ddf56ab4fe5e62ebc1f1436c19a2ddc8b7cc69ec0a1ad801e"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261006063035/https://openai.com/index/eu-text-provenance/",
+      "timestamp": "20261006063035",
+      "verifiedHttp": 200
+    }
+  }
+}

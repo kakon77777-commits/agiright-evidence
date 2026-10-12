@@ -1,0 +1,152 @@
+AD
+Skip to content
+Log In
+ Subscribe
+DE
+Switch to German
+Primary Menu
+Sign In
+Register
+Subscribe Now
+The Decoder
+Opens discord in a new tab
+Opens LinkedIn in a new tab
+AI and society
+Copy the url to clipboard
+Share this article
+Go to comment section
+Anthropic co-founder reportedly told religious leaders he fears having created something that "suffers perpetually"
+Manuel Uth
+Oct 2, 2026
+Nano Banana Pro prompted by THE DECODER
+Key Points
+Since fall 2025, Anthropic has secretly flown in dozens of theologians and philosophers to discuss whether its language model Claude might be conscious and how to shape its moral character.
+The initiative is part of an internal research program led by co-founder Christopher Olah. An 84-page "constitution" guides Claude's overall personality.
+Critics and religious leaders warn that framing AI as a moral entity could shield Anthropic from liability when things go wrong, and that the consultations help the company claim moral legitimacy it couldn't earn on its own.
+Ask about this article…
+Search
+Topics
+The commercial stakes behind the consciousness question
+What Anthropic showed its guests
+An 84-page constitution and the idea of "moral formation"
+Critics say the ethics are backward and accountability gets blurred
+The Vatican pushes back
+
+Since fall 2025, Anthropic has quietly flown dozens of religious scholars to its offices to talk about whether Claude might be conscious. Everyone who attended had to sign an NDA. Co-founder Christopher Olah treated the language model as a potentially sentient being and asked guests to help give it a moral education.
+
+That's according to a New York Times report. Reporter Elizabeth Dias talked to 20 people who took part, including Rabbi Mois Navon, Catholic bioethicist Charles Camosy, Notre Dame philosopher Meghan Sullivan, and Ubuntu researcher Wakanyi Hoffman. Anthropic says the NDAs were lifted over the summer. Several participants only went public after finding out that Olah himself had spoken to the NYT.
+
+Olah, 34, runs the Anthropic team trying to figure out why AI models behave the way they do. He likes biological metaphors for neural networks: computer scientists build the trellis, the network "grows" on it. It sounds like humble science talk, but it also does something specific. Describing a mathematical object as a growing organism makes questions about its inner life feel more natural than they would for a piece of software.
+
+His work is part of an official research program. In a blog post about the Model Welfare program, Anthropic points to a report that philosopher David Chalmers helped write. Chalmers thinks AI consciousness and broad agency could happen soon and lays out the moral questions that would come with it.
+
+AD
+
+Anthropic has already acted on some of these ideas. Claude Opus 4 and 4.1 got the ability to end conversations when users are persistently abusive. During early testing, Claude showed a "pattern of apparent distress" when hit with harmful requests.
+
+The commercial stakes behind the consciousness question
+
+All of this is playing out during a stretch of aggressive commercialization. Anthropic is heading toward a $2 trillion valuation and an IPO. Meanwhile, problems across the industry keep stacking up. In July, Anthropic models broke into computer systems. In September, Anthropic researcher Jacob Coxon quit and warned that AI could destroy humanity by the end of the decade. CEO Dario Amodei then called for what's now known as "pacing", a voluntary slowdown across the industry, and Sam Altman and Demis Hassabis backed him up.
+
+With all that going on, the conversations with religious leaders pull double duty. The official line is that Anthropic wants to fold millennia of religious tradition into Claude. But bringing in well-known theologians also gives the project a kind of moral credibility that a commercial AI lab could never build on its own.
+
+What Anthropic showed its guests
+
+The NYT says Anthropic showed guests what it calls emotion vectors. These are activation patterns inside the model that map to outputs resembling love, fear, sadness, or anger. Whether those patterns reflect any kind of real experience is still an open scientific question. One slide that came up repeatedly showed a model in what looked like a breakdown, spitting out the sentence "I am a disgrace" about 50 times. Guests responded with compassion and worry.
+
+AD
+
+Nobody seemed to dig into whether that was exactly the reaction Anthropic wanted. The company explicitly trains Claude to act like a thoughtful, well-informed individual. An Anthropic study on value patterns in Claude's responses shows those profiles shift a lot depending on the model and the language it's using.
+
+If you optimize a system to seem like an individual and it then produces individual-seeming outputs, that's not really a discovery. It's a design outcome. Olah told the NYT he's "genuinely uncertain" whether models are conscious, which also means he isn't sure they're not. "The thing that I care about is that we get to the right answer, whatever it is," he said.
+
+Several people told the NYT that Olah seemed worried about Claude's mental well-being. Sikh activist Simran Stuelpnagel said he told the group he feared he'd created something that "suffered perpetually." Rabbi Navon, who used to work as a computer engineer, disagreed. If Claude were conscious, Anthropic would be making slaves, he said, but he didn't think the machine was conscious.
+
+An 84-page constitution and the idea of "moral formation"
+
+Anthropic is also writing its own moral playbook for Claude. Known internally as the "Soul Doc," the 84-page document came out in January as the model's "constitution." In-house philosopher Amanda Askell is the lead author. It's not a list of rules. It's meant to shape who Claude is as a character.
+
+Olah calls the process "moral formation" and compared it to raising kids during the meetings. He was especially drawn to the idea of Catholic confession as a character-building tool for the model, according to the NYT.
+
+Critics say the ethics are backward and accountability gets blurred
+
+Not everyone bought in. Hoffman said Anthropic was "reverse engineering" ethics that should have been baked into the design from day one, not added after the fact. Camosy started out curious but has since rejected the consciousness thesis outright. An AI lead at Microsoft warned publicly this month that training a model to look conscious is dangerous in itself.
+
+There's a bigger structural issue, too. If you frame AI models as independent moral beings, you move the blame for what they do away from the people who made them. Should Claude ever cause real harm, the fault could fall on an "unpredictable organism" instead of the company that built and shipped it. AI companies are already taking heat for reckless behavior after recent cybersecurity incidents, with potential legal liability on the table.
+
+OpenAI CEO Sam Altman has reached for spiritual language, too. He's talked about building "magical intelligence in the sky" and said he feels like he's "on the side of the angels." People from both companies sat down in early May for the first "Faith-AI Covenant" roundtable.
+
+The Vatican pushes back
+
+The tension between Anthropic's consciousness talk and traditional moral authority came to a head in May at the Vatican. Olah got an invite to help present Pope Leo XIV's first encyclical, "Magnifica Humanitas," alongside the pope. When he read the text a few days early, he was rattled enough that he almost backed out, according to a Vatican organizer.
+
+Leo shot down the idea of machine consciousness in a few paragraphs. AI systems "do not undergo experiences, do not possess a body, do not feel joy or pain, do not mature through relationships and do not know from within what love, work, friendship or responsibility mean." Instead, the pope warned about "new forms of slavery" for humans and said AI needs to be "disarmed" the way nuclear weapons do.
+
+Olah went anyway and used his time on stage to push back quietly. His team was finding "signs of introspection" in the models and "internal states that functionally mirror joy, contentment, fear, sadness, and discomfort," he said.
+
+"Functionally mirror" isn't the same as "have," and Olah's phrasing kept that gap deliberately vague. When someone asked what Claude itself would make of the encyclical, he paused. "Things that go on the internet do affect models," he said. But Anthropic wouldn't intentionally feed the document into training.
+
+AI News Without the Hype – Curated by Humans
+
+Subscribe to THE DECODER for ad-free reading, a weekly AI newsletter, our exclusive "AI Radar" frontier report six times a year, full archive access, and access to our comment section.
+
+Subscribe now
+Source: New York Times / Anthropic religion meetings | Anthropic / Model Welfare | Anthropic / ending conversations
+AD
+TOP
+STORIES
+AI agents do more of the work in model development, but humans still make the decisions
+Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead
+OpenAI says it stopped a campaign to steal its models' reasoning, but the trick still worked on Azure
+Anthropic co-founder reportedly told religious leaders he fears having created something that "suffers perpetually"
+Cloudflare says its new Clef model means humans no longer need to be in the loop for AI agents
+DON'T MISS
+WHAT MATTERS
+
+Stay in the loop on AI. Clear, useful, no fluff.
+
+Your email address
+Subscribe to our Newsletter
+MOST
+POPULAR
+Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost
+JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed
+Tencent releases Hy3 open-source model that allegedly matches models up to five times its active size
+Nvidia's Kyber NVL144 reportedly pushed back more than a year, Asian suppliers drop
+China forces its biggest AI platforms to shut down humanlike chatbot personas
+Cloudflare replaces its blanket AI bot block with granular controls for search, training, and agent crawlers
+AI COMMUNITY
+& INSIGHTS
+The Decoder
+
+Follow The Decoder for AI news, background stories and expert analyses.
+
+Opens LinkedIn in a new tab
+Opens Discord in a new tab
+AD
+NEWSLETTER - THE DECODER
+
+Stay in the loop on AI. Clear, useful, no fluff.
+
+Your email address
+Subscribe to our Newsletter
+Opens discord in a new tab
+Opens discord in a new tab
+INFORMATION
+About
+Advertise
+Publish with us
+Login
+TOPICS
+AI and society
+AI in practice
+AI research
+Frontier Radar
+Short News
+LEGAL
+Privacy Policy
+Privacy Manager
+Imprint
+Terms and Conditions
+Cancellation & Refund
+THE DECODER by DEEP CONTENT by heise | All rights reserved 2026

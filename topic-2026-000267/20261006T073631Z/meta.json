@@ -1,0 +1,67 @@
+{
+  "id": "topic-2026-000267",
+  "url": "https://x.com/elonmusk/status/2106672603536712025",
+  "capturedAt": "2026-10-06T07:36:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "15d401cc9d47b59539140ec48651c95f828aec764573166e815171a95f859410",
+    "width": 640,
+    "height": 900,
+    "bytes": 37143,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-06T07:36:31Z",
+    "url": "https://x.com/elonmusk/status/2106672603536712025",
+    "finalUrl": "https://x.com/elonmusk/status/2106672603536712025",
+    "screenshot": {
+      "sha256": "15d401cc9d47b59539140ec48651c95f828aec764573166e815171a95f859410",
+      "width": 640,
+      "height": 900,
+      "bytes": 37143,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2106672603536712025",
+      "handle": "elonmusk",
+      "syndicationSha256": "ae0a9d8c40ee45862997ee131d10ac43203655e912a4b7c0c60b5e1df8708e5a",
+      "createdAt": "2026-10-04T09:07:43.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "elonmusk",
+      "lang": "en",
+      "textSha256": "5c910489a85f7dc6ae1b5b5c364674c3a17d1b1aa63e304ea8ceb76830c1cbb0",
+      "media": [],
+      "oembedSha256": "6a6029fc3bacbc5930602bcf3e137e12d455d5391b946e6de19ac61242ea7178",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261004131703",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261004131703/https://x.com/elonmusk/status/2106672603536712025"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20261004131703/https://x.com/elonmusk/status/2106672603536712025",
+      "timestamp": "20261004131703",
+      "verifiedHttp": 200,
+      "note": "existing public capture made by others; our own save requests to x.com fail, so none was requested"
+    }
+  }
+}

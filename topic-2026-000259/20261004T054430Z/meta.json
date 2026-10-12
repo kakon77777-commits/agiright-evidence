@@ -1,0 +1,64 @@
+{
+  "id": "topic-2026-000259",
+  "url": "https://x.com/sama/status/2106388373221118198",
+  "capturedAt": "2026-10-04T05:44:30Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "22e4c6d2c8bf09c2cf722c511432ceac1d9cf547eed6ba54b4e4ad6057b2fcb8",
+    "width": 640,
+    "height": 900,
+    "bytes": 36514,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-04T05:44:30Z",
+    "url": "https://x.com/sama/status/2106388373221118198",
+    "finalUrl": "https://x.com/sama/status/2106388373221118198",
+    "screenshot": {
+      "sha256": "22e4c6d2c8bf09c2cf722c511432ceac1d9cf547eed6ba54b4e4ad6057b2fcb8",
+      "width": 640,
+      "height": 900,
+      "bytes": 36514,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2106388373221118198",
+      "handle": "sama",
+      "syndicationSha256": "b992a0a457bad3912260a7935e4d94eeaf87511dd7792a97914ffe63242e6e81",
+      "createdAt": "2026-10-03T14:18:17.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "sama",
+      "lang": "en",
+      "textSha256": "3eef1358ad8b5fc3e25e063297b162f252941b745429674ebffd32b9582cdebf",
+      "media": [],
+      "oembedSha256": "b93e1bd35dc6845592186294ad8cfdb1ea1a4f154855f6beeb97fc904fa08cb7",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261003152420",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261003152420/https://x.com/sama/status/2106388373221118198"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "x.com blocks Wayback Machine captures (HTTP 523 observed 2026-10-03); no third-party copy exists for this post"
+    }
+  }
+}

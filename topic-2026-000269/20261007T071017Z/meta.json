@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000269",
+  "url": "https://www.anthropic.com/news/cyber-verification-program",
+  "capturedAt": "2026-10-07T07:10:17Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 135094,
+    "sha256": "ae53729112de744ffd53364060246d9b7228846b0597fdaa03e0d1b17238793e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "320683013265761B8B3C3646B34DD91B",
+      "status": 200,
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8925,
+      "afterScrollHeight": 8925,
+      "wantedHeight": 8925
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "5c959f0785472664be08d3862a71b5f82a009e17d2f566e0317a013c0c1240d8",
+    "width": 1366,
+    "height": 8925,
+    "bytes": 1155944,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8925,
+    "afterScrollHeight": 8925
+  },
+  "record": {
+    "capturedAt": "2026-10-07T07:10:17Z",
+    "url": "https://www.anthropic.com/news/cyber-verification-program",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 135094,
+      "sha256": "ae53729112de744ffd53364060246d9b7228846b0597fdaa03e0d1b17238793e"
+    },
+    "finalUrl": "https://www.anthropic.com/news/cyber-verification-program",
+    "httpStatus": 200,
+    "title": "Expanding the Cyber Verification Program \\ Anthropic",
+    "rendered": {
+      "textChars": 11970,
+      "textSha256": "82496a9d7e0bef61019a7486a14cc7ab7d881e5d339555c0732fbeea0f757b07",
+      "htmlSha256": "746f3454eefeb20ee9936ed50119a40eac41a3a1c5dfe24a4b26187e912585cb"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "5c959f0785472664be08d3862a71b5f82a009e17d2f566e0317a013c0c1240d8",
+      "width": 1366,
+      "height": 8925,
+      "bytes": 1155944,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261007054803/https://www.anthropic.com/news/cyber-verification-program",
+      "timestamp": "20261007054803",
+      "verifiedHttp": 200
+    }
+  }
+}

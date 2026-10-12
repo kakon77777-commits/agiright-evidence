@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000283",
+  "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+  "capturedAt": "2026-10-09T11:17:42Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 10153,
+    "sha256": "cba3f05b6d806903885723a0bfd5e632f69a9cfc4f5c6fdfc798794555a77236",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D31319EC897382964D0B9DB0E6BBBAD6",
+      "status": 403,
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-09T11:17:42Z",
+    "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 10153,
+      "sha256": "cba3f05b6d806903885723a0bfd5e632f69a9cfc4f5c6fdfc798794555a77236"
+    },
+    "finalUrl": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "e3bbcf3ebba648f59c709d2f2d72c82c90e04c0d28f22aaa07bea7ab84c7ad69"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261009090215",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261009090215/https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261009090215/https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+      "timestamp": "20261009090215",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000289",
+  "url": "https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/",
+  "capturedAt": "2026-10-10T12:10:22Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 320841,
+    "sha256": "555b52a479aa193e41814b0b751e8ca6f0b71f5373f02568eff46f2d4699382a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "AE617DE21F5BB353BA32580A1EA2B0C4",
+      "status": 200,
+      "url": "https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6647,
+      "afterScrollHeight": 6647,
+      "wantedHeight": 6647
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ee914e84df494b785516cda6e770c0fe2722ddf43cd3a2060b58f3af3c20ecf2",
+    "width": 1366,
+    "height": 6647,
+    "bytes": 1041065,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6647,
+    "afterScrollHeight": 6647
+  },
+  "record": {
+    "capturedAt": "2026-10-10T12:10:22Z",
+    "url": "https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 320841,
+      "sha256": "555b52a479aa193e41814b0b751e8ca6f0b71f5373f02568eff46f2d4699382a"
+    },
+    "finalUrl": "https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/",
+    "httpStatus": 200,
+    "title": "Meta’s Muse AI Agent Is Building a Dossier On You",
+    "rendered": {
+      "textChars": 6760,
+      "textSha256": "248ad0c9ebd16758b1a6d0b495a12c34767d4a3340a22c27b8d4b4bf1be5d169",
+      "htmlSha256": "9fca4466e1f19b1f516ae4038ca73daffac299b39d75bc77e6bcfdff4c7f68db"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ee914e84df494b785516cda6e770c0fe2722ddf43cd3a2060b58f3af3c20ecf2",
+      "width": 1366,
+      "height": 6647,
+      "bytes": 1041065,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261006142634",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261006142634/https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261010121153/https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/",
+      "timestamp": "20261010121153",
+      "verifiedHttp": 200
+    }
+  }
+}

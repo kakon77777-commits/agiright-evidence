@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000276",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+  "capturedAt": "2026-10-08T11:39:01Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 391517,
+    "sha256": "a3881bf007d9c36d8c6c04c0f0903acbf540c7eadf32532daaf6dd10e05589b4",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "07C0654554F015CC9E2D9F4D713ED2A2",
+      "status": 200,
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2463,
+      "afterScrollHeight": 2463,
+      "wantedHeight": 2463
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "49d23a5d16600a90a545c8ff0461e2fb8f45cb0113ea29bfe6e9566357c1499b",
+    "width": 1366,
+    "height": 2463,
+    "bytes": 700850,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2463,
+    "afterScrollHeight": 2463
+  },
+  "record": {
+    "capturedAt": "2026-10-08T11:39:01Z",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 391517,
+      "sha256": "a3881bf007d9c36d8c6c04c0f0903acbf540c7eadf32532daaf6dd10e05589b4"
+    },
+    "finalUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+    "httpStatus": 200,
+    "title": "Google expands SynthID Detector for AI content",
+    "rendered": {
+      "textChars": 2455,
+      "textSha256": "be5d9443fc43b0c81e8ffecb3766b625b529301d29e033644629c7f9b8960201",
+      "htmlSha256": "276062e1cbc53fa2250cfd7fc48629252bed1cbef94429258ba69544faeddf1f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "49d23a5d16600a90a545c8ff0461e2fb8f45cb0113ea29bfe6e9566357c1499b",
+      "width": 1366,
+      "height": 2463,
+      "bytes": 700850,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261007144624",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261007144624/https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261008061302/https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+      "timestamp": "20261008061302",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000296",
+  "url": "https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai",
+  "capturedAt": "2026-10-12T12:38:09Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 96335,
+    "sha256": "d4df134a307e2e7187e0c9b61df98130d61c0bd823fac1b0d4b19613a70bea3d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A7BA645DD2CC29FB284C079E44FA1F2F",
+      "status": 200,
+      "url": "https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10870,
+      "afterScrollHeight": 10870,
+      "wantedHeight": 10870
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "5c3356d73a16240ef59294f809f8e725c7fe39adb79e5367d392a7781cbe345c",
+    "width": 1366,
+    "height": 10870,
+    "bytes": 1639434,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10870,
+    "afterScrollHeight": 10870
+  },
+  "record": {
+    "capturedAt": "2026-10-12T12:38:09Z",
+    "url": "https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 96335,
+      "sha256": "d4df134a307e2e7187e0c9b61df98130d61c0bd823fac1b0d4b19613a70bea3d"
+    },
+    "finalUrl": "https://www.gov.uk/government/speeches/building-a-safer-more-secure-britain-in-the-age-of-ai",
+    "httpStatus": 200,
+    "title": "Building a Safer, More Secure Britain in the age of AI - GOV.UK",
+    "rendered": {
+      "textChars": 16819,
+      "textSha256": "364b435e4292f3d850dc8f9c2ee362888e198fbdbb4d9eaff25348b627306abf",
+      "htmlSha256": "cfca1736ece3a5ea3e2a23f277dbe0b4f1ea6506c3d7f8c9094b0d90951e27c0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "5c3356d73a16240ef59294f809f8e725c7fe39adb79e5367d392a7781cbe345c",
+      "width": 1366,
+      "height": 10870,
+      "bytes": 1639434,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 404 -- Wayback Machine --> DONATE Latest Show All The Wayback Machine has not archived that URL. Click here to search for all archived pages under https://www.gov.uk/g"
+    }
+  }
+}

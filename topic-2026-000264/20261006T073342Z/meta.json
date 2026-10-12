@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000264",
+  "url": "https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/",
+  "capturedAt": "2026-10-06T07:33:42Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 154670,
+    "sha256": "e01929668fe7fd1ab667e6b766334e4f60ef3ced6434a7774b73255599c4ff26",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "77F5345F6D31C65A027CAF5823BC9D82",
+      "status": 200,
+      "url": "https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 12790,
+      "afterScrollHeight": 12768,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "57d281aafd2e27f3db97b4198c80a80887beffc8d6d50e2f1551e79490b692a2",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1456716,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 12790,
+    "afterScrollHeight": 12768
+  },
+  "record": {
+    "capturedAt": "2026-10-06T07:33:42Z",
+    "url": "https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 154670,
+      "sha256": "e01929668fe7fd1ab667e6b766334e4f60ef3ced6434a7774b73255599c4ff26"
+    },
+    "finalUrl": "https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/",
+    "httpStatus": 200,
+    "title": "AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings | amNewYork",
+    "rendered": {
+      "textChars": 12988,
+      "textSha256": "c4a5fd8e2ddb276cfa34c3ccb01501b2335208feed05606a9c9f79ebe7a62955",
+      "htmlSha256": "6b6e3491db50ebafd06c728f571c6f56c06aab4e2ded8ead4d42664bc41e40ed"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "57d281aafd2e27f3db97b4198c80a80887beffc8d6d50e2f1551e79490b692a2",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1456716,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261006073435/https://www.amny.com/news/ai-giants-nyc-council-whistleblower-warnings/",
+      "timestamp": "20261006073435",
+      "verifiedHttp": 200
+    }
+  }
+}

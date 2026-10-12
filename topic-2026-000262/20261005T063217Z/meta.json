@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000262",
+  "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+  "capturedAt": "2026-10-05T06:32:17Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5937,
+    "sha256": "c206daefbc4ed86fd46a49ad9354da12143e80d77d8a5f6bd4819f3e0fd6a57d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "AA0471A75D8000B6EF8A705CF8C0000A",
+      "status": 403,
+      "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f4d1344ce651e3a6bcd01e57a5c27f68e2536033723f984341664c8d3a8cce1c",
+    "width": 1366,
+    "height": 900,
+    "bytes": 29945,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-05T06:32:17Z",
+    "url": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5937,
+      "sha256": "c206daefbc4ed86fd46a49ad9354da12143e80d77d8a5f6bd4819f3e0fd6a57d"
+    },
+    "finalUrl": "https://www.politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 264,
+      "textSha256": "419463fd46e652169bc74811c4eb785526ef66a51fb7425a89c626d851cd40de",
+      "htmlSha256": "7e51e46e86c3ebb1d5a0a98e687c1257121ec65b57fc640857b3183406701039"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "f4d1344ce651e3a6bcd01e57a5c27f68e2536033723f984341664c8d3a8cce1c",
+      "width": 1366,
+      "height": 900,
+      "bytes": 29945,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "topic-2026-000251",
+  "url": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
+  "capturedAt": "2026-10-03T08:28:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 201819,
+    "sha256": "19665361d42d4555c4913905f22724e072be22cc6335e66e0f71164fd6260ef7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "2D2FA159DF8BF44886820B4C39029BB7",
+      "status": 200,
+      "url": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7497,
+      "afterScrollHeight": 7497,
+      "wantedHeight": 7497
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "61596bee7614f2e7a534ff36259b9bd88f0cf238c2b22c7317561bbaeec52d0a",
+    "width": 1366,
+    "height": 7497,
+    "bytes": 3144158,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7497,
+    "afterScrollHeight": 7497,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:28:55Z",
+    "url": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 201819,
+      "sha256": "19665361d42d4555c4913905f22724e072be22cc6335e66e0f71164fd6260ef7"
+    },
+    "finalUrl": "https://rollcall.com/2026/10/01/senators-debate-liability-for-rogue-ai-agents/",
+    "httpStatus": 200,
+    "title": "Senators debate liability for ‘rogue’ AI agents – Roll Call",
+    "rendered": {
+      "textChars": 7253,
+      "textSha256": "372ef047655a4d8eee1767dfa36faba4091ae5e779fe97edef43888a7a9e0967",
+      "htmlSha256": "20afaaf08a2ee736c18f57ae409741573d54244fc363b2ec99ef8bfe29d60bc9"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "61596bee7614f2e7a534ff36259b9bd88f0cf238c2b22c7317561bbaeec52d0a",
+      "width": 1366,
+      "height": 7497,
+      "bytes": 3144158,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000301",
+  "url": "https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/",
+  "capturedAt": "2026-10-12T12:44:41Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43115,
+    "sha256": "abd29c82b959b5d3fa5dac30d4f406aa5d25e7017b35db2bea11aab95da20da5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1DBE2B1E8F3B0E8202D6AE40679B9042",
+      "status": 200,
+      "url": "https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5412,
+      "afterScrollHeight": 5412,
+      "wantedHeight": 5412
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "954fec30a4d4b03d1cb3e1f8233f1e25c94dbd08273f482f4039a5fe74b2a03d",
+    "width": 1366,
+    "height": 5412,
+    "bytes": 535595,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5412,
+    "afterScrollHeight": 5412
+  },
+  "record": {
+    "capturedAt": "2026-10-12T12:44:41Z",
+    "url": "https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43115,
+      "sha256": "abd29c82b959b5d3fa5dac30d4f406aa5d25e7017b35db2bea11aab95da20da5"
+    },
+    "finalUrl": "https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/",
+    "httpStatus": 200,
+    "title": "Damaging the task environment to trigger a reset · OpenAI Alignment",
+    "rendered": {
+      "textChars": 11022,
+      "textSha256": "529b387858484425c7a55bed5826951c06a5ab69ee6cd28167f732832c734e0c",
+      "htmlSha256": "9e08f27f68f75efc7d92c84d730eb7cfa679011ed609d0f8edafdb5548222a90"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "954fec30a4d4b03d1cb3e1f8233f1e25c94dbd08273f482f4039a5fe74b2a03d",
+      "width": 1366,
+      "height": 5412,
+      "bytes": 535595,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261010040911",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261010040911/https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261012124510/https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/",
+      "timestamp": "20261012124510",
+      "verifiedHttp": 200
+    }
+  }
+}

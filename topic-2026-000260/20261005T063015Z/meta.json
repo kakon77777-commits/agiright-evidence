@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000260",
+  "url": "https://developer.apple.com/news/?id=p6zjojqw",
+  "capturedAt": "2026-10-05T06:30:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 108871,
+    "sha256": "09af10fe8c81076f4ea4e5ad0d92414745e9c84b765f24a6019e93f80d263e33",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D2364FC7CF9D5DD08D20FD0123832A2C",
+      "status": 200,
+      "url": "https://developer.apple.com/news/?id=p6zjojqw",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1501,
+      "afterScrollHeight": 1501,
+      "wantedHeight": 1501
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7eb9415d588122e1994ae86427c18f56a9eb4ad81ddf0103630e31f7f14cad8f",
+    "width": 1366,
+    "height": 1501,
+    "bytes": 222267,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1501,
+    "afterScrollHeight": 1501
+  },
+  "record": {
+    "capturedAt": "2026-10-05T06:30:15Z",
+    "url": "https://developer.apple.com/news/?id=p6zjojqw",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 108871,
+      "sha256": "09af10fe8c81076f4ea4e5ad0d92414745e9c84b765f24a6019e93f80d263e33"
+    },
+    "finalUrl": "https://developer.apple.com/news/?id=p6zjojqw",
+    "httpStatus": 200,
+    "title": "Updates to Full Disk Access in macOS - Latest News - Apple Developer",
+    "rendered": {
+      "textChars": 2650,
+      "textSha256": "fe16ad98614493c630bbf8addb9dbacab6307dfcce9174b7e685ceb3683db13b",
+      "htmlSha256": "a968a7bd750c90edc3574512e6d133e862eea0ef4fb162b9d2b81c4a505effec"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7eb9415d588122e1994ae86427c18f56a9eb4ad81ddf0103630e31f7f14cad8f",
+      "width": 1366,
+      "height": 1501,
+      "bytes": 222267,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261002183846",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261002183846/https://developer.apple.com/news/?id=p6zjojqw"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261005063051/https://developer.apple.com/news/?id=p6zjojqw",
+      "timestamp": "20261005063051",
+      "verifiedHttp": 200
+    }
+  }
+}

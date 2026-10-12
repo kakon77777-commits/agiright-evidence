@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000270",
+  "url": "https://mistral.ai/news/mistral-large-4/",
+  "capturedAt": "2026-10-07T07:10:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 288672,
+    "sha256": "8c2f9484e2a59a4194ce83e580767b7a032005850f60a75c61c09ca58101ef4b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FBDC4A35E995DA8450C754B218B9E76A",
+      "status": 200,
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 18906,
+      "afterScrollHeight": 20234,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "562df23b791d1d5bbe553fb2bd09e400757958f2f38d37544b8a3eb82c7905c5",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1328536,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 18906,
+    "afterScrollHeight": 20234
+  },
+  "record": {
+    "capturedAt": "2026-10-07T07:10:58Z",
+    "url": "https://mistral.ai/news/mistral-large-4/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 288672,
+      "sha256": "8c2f9484e2a59a4194ce83e580767b7a032005850f60a75c61c09ca58101ef4b"
+    },
+    "finalUrl": "https://mistral.ai/news/mistral-large-4/",
+    "httpStatus": 200,
+    "title": "Introducing Mistral Large 4 | Mistral",
+    "rendered": {
+      "textChars": 15793,
+      "textSha256": "a6eba12a7e4b38b79b8504b6fc1a48c99aa251fa78581ddf08b6fa6671ec5bbb",
+      "htmlSha256": "9e022290454988566ce9c643a4a776aa6b46f49d3479c1a9fe1e03d5cd48f337"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "562df23b791d1d5bbe553fb2bd09e400757958f2f38d37544b8a3eb82c7905c5",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1328536,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261006132651",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261006132651/https://mistral.ai/news/mistral-large-4/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261006144255/https://mistral.ai/news/mistral-large-4/",
+      "timestamp": "20261006144255",
+      "verifiedHttp": 200
+    }
+  }
+}

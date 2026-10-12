@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000290",
+  "url": "https://www.yahoo.com/news/politics/articles/exclusive-anthropic-breaches-spark-white-224721423.html",
+  "capturedAt": "2026-10-11T08:49:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 542321,
+    "sha256": "18a6556866600db1ec5f0ed0586fd312ee4d03cea37e56a13fbaa048ad500968",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6B310DBA2961C583665E951AFA0E6B03",
+      "status": 200,
+      "url": "https://www.yahoo.com/news/politics/articles/exclusive-anthropic-breaches-spark-white-224721423.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10263,
+      "afterScrollHeight": 10263,
+      "wantedHeight": 10263
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "83af9518c72bf1e7bca238ee0ded5341091b89b0ebfe79068e6b442cf5dae429",
+    "width": 1366,
+    "height": 10263,
+    "bytes": 1154468,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10263,
+    "afterScrollHeight": 10263
+  },
+  "record": {
+    "capturedAt": "2026-10-11T08:49:21Z",
+    "url": "https://www.yahoo.com/news/politics/articles/exclusive-anthropic-breaches-spark-white-224721423.html",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 542321,
+      "sha256": "18a6556866600db1ec5f0ed0586fd312ee4d03cea37e56a13fbaa048ad500968"
+    },
+    "finalUrl": "https://www.yahoo.com/news/politics/articles/exclusive-anthropic-breaches-spark-white-224721423.html",
+    "httpStatus": 200,
+    "title": "Exclusive: Anthropic breaches spark White House AI reporting mandate",
+    "rendered": {
+      "textChars": 12015,
+      "textSha256": "659c065e1b17c673d4cf706f8152c8cb3ea0b40cc113e85c28130f70457583a4",
+      "htmlSha256": "a4b2096d05cd6094742d32d405e740b909e5770c08a26ae0c3054db2442d08cc"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "83af9518c72bf1e7bca238ee0ded5341091b89b0ebfe79068e6b442cf5dae429",
+      "width": 1366,
+      "height": 10263,
+      "bytes": 1154468,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261010013257",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261010013257/https://www.yahoo.com/news/politics/articles/exclusive-anthropic-breaches-spark-white-224721423.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

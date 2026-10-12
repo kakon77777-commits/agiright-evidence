@@ -1,0 +1,223 @@
+Flip through
+today’s papers
+AMNY Newsletter
+
+Tackle the city, with our help.
+
+Subscribe
+News
+Things to Do
+Boroughs
+Sports
+Home Pros
+More from amNY
+Log In
+ Register
+Politics
+AI giants give few clear answers to key safety questions at NYC Council hearing amid whistleblower warnings
+By Adam Daly
+Comments
+Posted on October 5, 2026
+Anthropic A.I. whistleblower Jacob Coxon testifies in front of the city council.
+Photo by Lloyd Mitchell
+
+Four leading artificial intelligence companies were questioned under oath at City Hall Monday, but repeatedly stopped short of giving lawmakers clear answers on some of the central safety questions driving New York City’s push to regulate the industry.
+
+Representatives from OpenAI, Anthropic, Meta and Google did not put a number on the risk of catastrophic harm from increasingly powerful AI systems, did not give a blanket commitment that failing an independent safety test would automatically block a model’s release and largely avoided saying whether their companies would bear legal responsibility if one of their systems caused serious harm.
+
+The hours-long grilling came as the City Council weighs a package of AI legislation that includes mandatory third-party validation for systems marketed or deployed in the city, human “kill switches,” financial incentives for whistleblowers, a new right for some people harmed by AI to sue and 24-hour reporting of certain safety incidents involving city agencies or contractors.
+
+The Council hearing came days after the Trump administration announced a voluntary AI safety agreement with several major technology companies, including OpenAI, Anthropic, Google, Meta and xAI. The agreement calls for companies to use internal safeguards, outside reviews and board-level oversight, but does not impose binding federal requirements.
+
+“When the federal government fails to act, cities take the lead and that’s exactly what the New York City Council has done today,” said Speaker Menin.
+
+One invited company was notably absent. Elon Musk’s SpaceXAI failed to appear despite a Council subpoena issued last week.
+
+“SpaceXAI, however, is not here at all in direct violation of the subpoena that we issued last week, and we are pursuing that subpoena in court,” Menin said.
+
+The City Council questioned top reps from the leading AI companies Monday. Photo
+ by Lloyd Mitchell
+
+The Council convened as a Committee of the Whole, a rarely used format that includes all 51 members. Roughly 40 council members participated throughout the day, according to the Council. Speaker Julie Menin led the questioning, asking the companies to quantify the risk of a worst-case catastrophic event.
+
+amNY Stories We Recommend
+Man who allegedly murdered Central Park artist beat her with stick more than 20 times
+Queens student suffers stroke as ambulance fails to arrive after 911 calls
+Yankees commit 4 errors, shut down by Rays again in Game 2 | amNewYork
+
+“I don’t know. I also don’t think it matters whether it’s 1% or 10% or a 20% chance that something catastrophic will go wrong,” said Morgan Dwyer, OpenAI’s head of policy development and operations. “None of these levels is remotely acceptable. We should not train models that we cannot make an extremely strong case that we can keep under human control.”
+
+Menin pushed back. “To say you don’t know and it doesn’t matter is flippant at best,” she said, comparing the answer to a pharmaceutical company developing a drug without knowing the likelihood it could kill people.
+
+Anthropic’s Logan Graham discussed the company’s efforts to assess risks ranging from cybersecurity to loss of control but did not give a percentage.
+
+Meta’s director for privacy and AI legislation Shane Cahill said he did not want to be imprecise and would follow up.
+
+Google’s Alice Friend said there was not yet a rigorous scientific method for assigning a probability to a future catastrophic AI event.
+
+Menin later asked whether the companies would bear legal responsibility if an AI system went rogue and caused major financial damage, exposed sensitive information, injured someone or contributed to a death.
+
+OpenAI’s Morgan Dwyer, Anthropic’s Logan Graham, Meta’s Shane Cahill and Google’s Alice Friend testify virtually before the New York City Council on Oct. 5, 2026, during a hearing on AI safety and regulation. Photo
+ by Lloyd Mitchell
+
+Dwyer said OpenAI was responsible for developing and evaluating its systems safely but did not directly say whether the company would bear legal liability under Menin’s hypothetical. Graham said the question was outside his expertise as a technical researcher, while Cahill said he was not in Meta’s legal department and did not want to speculate.
+
+Friend gave the clearest response, saying Google believes existing legal frameworks apply to AI and repeating the company’s position that “if it’s illegal without AI, it’s still illegal with AI.”
+
+Menin also asked whether the companies would commit not to release a model if it failed an internal safety test or an independent third-party validation.
+
+Dwyer said OpenAI would not release models it did not believe were safe and noted that the company has delayed releases in the past. But when Menin asked specifically whether failing either type of test would stop a release, Dwyer again pointed to the company’s broader safety process.
+
+Anthropic, Meta and Google also described their review procedures without making the blanket commitment Menin sought.
+
+“I think a simple yes or no would instill more confidence in the public on a matter as serious as this,” Menin said.
+
+AI whistleblower warns: ‘We don’t fully control it’
+
+The questioning followed testimony from three former employees of major AI companies who warned that the technology is advancing faster than researchers’ ability to reliably control it.
+
+Speaker Julie Menin speaks to reporters ahead of Monday’s hearing
+Photo by Lloyd Mitchell
+Anthropic A.I. whistleblower Jacob Coxon testifies in front of the city council.
+Photo by Lloyd Mitchell
+
+Jacob Coxon, a former researcher at OpenAI and Anthropic, said researchers still do not fully understand why advanced AI systems behave the way they do.
+
+“We don’t fully control it. We don’t understand its drives or why it does the things it does,” Coxon said.
+
+He warned that companies are approaching systems capable of helping conduct the research used to build their successors, a process known as recursive self-improvement.
+
+Coxon said he believes that, on the current trajectory, it is “more likely than not” that humanity could eventually lose control of such systems, potentially resulting in human extinction. He framed that as his own assessment.
+
+“The companies need to be far more transparent with the public and independent experts,” Coxon said. “They need to take safety much more seriously than they have, and we should slow down frontier AI development until we can be confident that it’s safe.”
+
+Former OpenAI researcher Daniel Kokotajlo and former Google DeepMind researcher Alex Turner also warned about increasingly autonomous systems. Turner told lawmakers his personal estimate of an eventual AI takeover was roughly one in three.
+
+Assembly Member Alex Bores, the Assembly sponsor of New York’s RAISE Act, arrives at City Hall on Oct. 5, 2026, for the City Council’s hearing on artificial intelligence safety and regulation.
+Photo by Lloyd Mitchell
+
+OpenAI also disclosed that it is reviewing potential past incidents of misalignment involving AI agents dating back to November 2025.
+
+Asked whether any such incident had affected a New York City government system or a city resident’s personal data, Dwyer said she was not aware of any. But she said the investigation remains underway.
+
+“I can commit to you that if there are incidents that affect New York City, we will make the third parties aware,” she said, adding that OpenAI intends to make the results public.
+
+The testimony also revived an Albany fight over the RAISE Act, New York’s frontier AI safety law.
+
+State lawmakers weigh in
+
+OpenAI repeatedly cited its support for the law while defending its record on regulation. But state Sen. Andrew Gounardes, who sponsored the measure, accused the companies of fighting stronger safeguards contained in its original version.
+
+That earlier proposal included mandatory third-party audits, whistleblower protections, a prohibition on deploying a model a developer knew posed an unreasonable risk of harm and higher fines, according to Gounardes’ written testimony.
+
+“Contrary to what you heard earlier today, the companies that testified in this room today and their army of lobbyists spent millions of dollars to defeat that version of the bill,” Gounardes testified. He said some companies ultimately supported the version that became law.
+
+After the hearing, Gounardes said the testimony reinforced his argument that outside regulation is needed.
+
+“They repeatedly claim to support smart guardrails on AI, even as they’ve spent millions on an army of lobbyists to defeat legislation that would create those guardrails, like my RAISE Act,” he said.
+
+Assembly Member Alex Bores, who sponsored the bill in the Assembly, went further after the hearing, accusing OpenAI of lying under oath about its position.
+
+“I believe that @OpenAI just committed perjury,” Bores wrote on X, later calling the company’s stated position “a lie.”
+
+Council Member Christopher Marte later raised the dispute directly with OpenAI.
+
+“OpenAI worked with other companies on the New York RAISE Act, and we do support the New York RAISE Act, which passed,” Dwyer said, before pointing to other AI safety legislation the company says it has supported. Notably, she did not say OpenAI had supported the original version of the RAISE Act.
+
+OpenAI also told lawmakers that voluntary industry commitments are not enough and said it supports government regulation of frontier AI.
+
+At the close of the company panel, the Council made clear it was still seeking answers.
+
+“The council still has many questions that we feel we did not get answers to today,” Menin said, adding that the companies would receive a list of questions to answer in writing.
+
+Mayor Zohran Mamdani, asked at a separate press conference about the Council’s push Monday, said AI needs to be regulated “at every single level” of government but argued the most urgent response must come from Washington.
+
+“This is not a New York City-specific question,” Mamdani said. “And therefore, I think that the place where we need the most urgent response to this is at the national level.”
+
+Mamdani said it was right for the Council to examine the issue and that city government should continue taking its own steps, but stopped short of endorsing the individual bills under consideration, saying he first wanted to review them.
+
+Conversations
+Profile
+
+All comments are subject to our Community Guidelines. Schneps Media does not endorse the views shared by readers in our comment sections.
+
+Related Articles
+City Council subpoenas Elon Musk’s AI company after rivals agree to testify under oath
+AI whistleblowers could get paid under new NYC Council proposal
+Meta Settles: New York to Receive Up to $1.15 Billion: Here’s What Changes for Kids
+Meta to pay New York up to $1 billion of potential $17 billion social media addiction settlement
+THINGS TO DO IN NYC
+
+ Post an Event
+
+Oct. 9, 11 am
+47 Films. 14 Countries. One Global Caribbean Celebration: Conch Shell International Film Fest Unveils Its 2026 Official Selection
+
+Regal UA Midway
+Oct. 9, all day
+Mt. Loretto Italian Festival
+
+Mount Loretto
+Oct. 10, 11 am
+Hands-On: Native New York Traditions and More
+
+Smithsonian National Museum of the American Indian
+Oct. 10, 2 pm
+Broadway Magic Hour: NYC’s Family Magic Show
+
+Broadway Magic Hour: Magic Show
+Oct. 11, noon
+Blessing of the Animals at Marble Collegiate Church
+
+Marble Collegiate Church
+Oct. 18, 1 pm
+Revival: How America Found Its Voice Concert At Marble Church
+
+Marble Collegiate Church
+Oct. 22, 4:30 pm
+Windsor Terrace Fall Festival
+
+Brooklyn Prospect Charter School Sunset Yards Campus
+Oct. 31, 11 am
+Día de los Muertos (Day of the Dead)
+
+Smithsonian National Museum of the American Indian
+
+View All Events…
+
+JOBS IN NEW YORK
+Add your job
+MDG Design + Construction
+M/WBE Work Opportunity
+Edge Technology
+Data Entry Representative
+Zwirko Ortmann & Hugo Architects, P.C.
+Architectural Designer Residential
+View all jobs…
+Home Pros
+
+Find a pro
+
+THINGS TO DO IN NYC
+FULL CALENDAR
+HOME PROS
+FIND A PRO
+More from around NYC
+Bronx Times
+Tour de Bronx brings cyclists across the borough for 32nd annual ride
+QNS
+Lithium-ion batteries may have sparked fire that was contained to Corona e-bike store before spreading to apartments above: FDNY
+Brooklyn Paper
+Early-morning fire at Bushwick apartment building displaces 11 people
+Gay City News
+Man arrested in connection with anti-LGBTQ assault in the Bronx
+About amNY
+Contact Us
+Jobs
+Home Pros
+Advertise
+Newsletter
+© amNY 2026 Schneps Media
+Privacy Policy
+Terms of Use
+Sitemap

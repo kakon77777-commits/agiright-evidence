@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000249",
+  "url": "https://abcnews.com/Politics/ftc-opens-probe-safety-ai-including-anthropic-open/story?id=136896227",
+  "capturedAt": "2026-10-03T08:28:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 184471,
+    "sha256": "f49c75f4c41bcf7f4b701726b0ffb99df1183073c1af24dc2cd6e7dcc46a49df",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B5F7C8ACFB391C53FD26F39BCBA5FF2A",
+      "status": 200,
+      "url": "https://abcnews.com/Politics/ftc-opens-probe-safety-ai-including-anthropic-open/story?id=136896227",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4114,
+      "afterScrollHeight": 4114,
+      "wantedHeight": 4114
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7be585a376d7dca4c9e1a367b73b7f40264eb0dc43d7e58bff613c551ad27e1b",
+    "width": 1366,
+    "height": 4114,
+    "bytes": 1134880,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4114,
+    "afterScrollHeight": 4114,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:28:21Z",
+    "url": "https://abcnews.com/Politics/ftc-opens-probe-safety-ai-including-anthropic-open/story?id=136896227",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 184471,
+      "sha256": "f49c75f4c41bcf7f4b701726b0ffb99df1183073c1af24dc2cd6e7dcc46a49df"
+    },
+    "finalUrl": "https://abcnews.com/Politics/ftc-opens-probe-safety-ai-including-anthropic-open/story?id=136896227",
+    "httpStatus": 200,
+    "title": "FTC opens probe into safety of AI, including Anthropic and OpenAI - ABC News",
+    "rendered": {
+      "textChars": 2883,
+      "textSha256": "7b6cb296f518eb4a07390875708160335c1da68ba83e3f63e78b28e2f748b98d",
+      "htmlSha256": "8c86da826b95863d9856b381b03f476cb1c40477e8630dc53ca252de423da0d5"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7be585a376d7dca4c9e1a367b73b7f40264eb0dc43d7e58bff613c551ad27e1b",
+      "width": 1366,
+      "height": 4114,
+      "bytes": 1134880,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

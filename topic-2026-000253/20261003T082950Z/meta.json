@@ -1,0 +1,86 @@
+{
+  "id": "topic-2026-000253",
+  "url": "https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328",
+  "capturedAt": "2026-10-03T08:29:50Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 207390,
+    "sha256": "82e9b918ee8a9f2ef2e49787d092ec2dfae47f677d81286fd34b058f5b405cf0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6DCECDB7EA41501B5F122C3982981602",
+      "status": 200,
+      "url": "https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5355,
+      "afterScrollHeight": 5355,
+      "wantedHeight": 5355
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2a385c2895f66d1226d34e6cd622a3368c47bf68b98f0d5a9d6f243c5bc7447a",
+    "width": 1366,
+    "height": 5355,
+    "bytes": 1132839,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5355,
+    "afterScrollHeight": 5355,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:29:50Z",
+    "url": "https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 207390,
+      "sha256": "82e9b918ee8a9f2ef2e49787d092ec2dfae47f677d81286fd34b058f5b405cf0"
+    },
+    "finalUrl": "https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328",
+    "httpStatus": 200,
+    "title": "OpenAI sued by safety group over autonomous hack of Hugging Face - ABC News",
+    "rendered": {
+      "textChars": 4745,
+      "textSha256": "6a87a8af0b7d4ec1d8ffa7da54670321f660a7f034ddb7e6f9daa7eef2b4412f",
+      "htmlSha256": "bb3611ab5752a3fbaf11e74c1261d6a95bb39fbd79f31ca80d8c721460a2cf27"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2a385c2895f66d1226d34e6cd622a3368c47bf68b98f0d5a9d6f243c5bc7447a",
+      "width": 1366,
+      "height": 5355,
+      "bytes": 1132839,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260930155148",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260930155148/https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003061802/https://abcnews.com/Business/ai-safety-group-sues-openai-hugging-face-hack/story?id=136884328",
+      "timestamp": "20261003061802",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000300",
+  "url": "https://transcripts.cnn.com/show/sotu/date/2026-10-11/segment/01",
+  "capturedAt": "2026-10-12T12:42:57Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 49814,
+    "sha256": "4763ecdca45c7c367167c449efc86bc549776346540be3f7c42811d643a5780e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "411BB1C32521AA43F8B99BC79A87F3AF",
+      "status": 200,
+      "url": "https://transcripts.cnn.com/show/sotu/date/2026-10-11/segment/01",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 21285,
+      "afterScrollHeight": 21285,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "4f503fd83303854de4ebe6e4c411951d36ecb639a644351c744f2cf9b9263bc0",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1750617,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 21285,
+    "afterScrollHeight": 21285
+  },
+  "record": {
+    "capturedAt": "2026-10-12T12:42:57Z",
+    "url": "https://transcripts.cnn.com/show/sotu/date/2026-10-11/segment/01",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 49814,
+      "sha256": "4763ecdca45c7c367167c449efc86bc549776346540be3f7c42811d643a5780e"
+    },
+    "finalUrl": "https://transcripts.cnn.com/show/sotu/date/2026-10-11/segment/01",
+    "httpStatus": 200,
+    "title": "CNN.com - Transcripts",
+    "rendered": {
+      "textChars": 41295,
+      "textSha256": "77b750b0b06073d7cdc33bffe8de9d623f95ab0a86b2eb8d041aff94bda0e7e7",
+      "htmlSha256": "a5b52f3002e33bbad8599a0f4d265fdf349097194b9e9233a4b79dde59d70070"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4f503fd83303854de4ebe6e4c411951d36ecb639a644351c744f2cf9b9263bc0",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1750617,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261011232331",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261011232331/https://transcripts.cnn.com/show/sotu/date/2026-10-11/segment/01"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261012124425/https://transcripts.cnn.com/show/sotu/date/2026-10-11/segment/01",
+      "timestamp": "20261012124425",
+      "verifiedHttp": 200
+    }
+  }
+}

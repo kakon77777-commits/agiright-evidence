@@ -1,0 +1,86 @@
+{
+  "id": "topic-2026-000254",
+  "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+  "capturedAt": "2026-10-03T08:29:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 231961,
+    "sha256": "5afd7c6e61fc1643fb62133eafa22250f7f0a6f8a4bc822233f7aaa4ba467c5e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F462924345CDB3B025760A61EA8A83F7",
+      "status": 200,
+      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3515,
+      "afterScrollHeight": 6448,
+      "wantedHeight": 3515
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "15a3ef2948703497864c3dc9f502126622433090814f37d8ab1716574ae1a668",
+    "width": 1366,
+    "height": 3515,
+    "bytes": 984422,
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 3515,
+    "afterScrollHeight": 6448,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:29:58Z",
+    "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 231961,
+      "sha256": "5afd7c6e61fc1643fb62133eafa22250f7f0a6f8a4bc822233f7aaa4ba467c5e"
+    },
+    "finalUrl": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+    "httpStatus": 200,
+    "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports | TechCrunch",
+    "rendered": {
+      "textChars": 4836,
+      "textSha256": "fd09d631b60f36fb6dd60ce0887f16954f0f3172cc8daecef982feea008b9114",
+      "htmlSha256": "05f3022ec0fd37eff48dddf108017975ed560ff62c990849dedd0a3402da676d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "15a3ef2948703497864c3dc9f502126622433090814f37d8ab1716574ae1a668",
+      "width": 1366,
+      "height": 3515,
+      "bytes": 984422,
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261001184135",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261001184135/https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261003060954/https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "timestamp": "20261003060954",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000284",
+  "url": "https://github.com/Autumn-27/Autumn-27/blob/main/README.md",
+  "capturedAt": "2026-10-09T11:30:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 223124,
+    "sha256": "c63730adce290d5136d34faeaf1cecabccd58e24c5cabd7186c7a44c38d4df2c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E4D56305D75998BA324AF89F89427E50",
+      "status": 200,
+      "url": "https://github.com/Autumn-27/Autumn-27/blob/main/README.md",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1286,
+      "afterScrollHeight": 1286,
+      "wantedHeight": 1286
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "0393af50dd021c9a5224cf8b35188a71cd63d54439727c83093b2320350dadc2",
+    "width": 1366,
+    "height": 1286,
+    "bytes": 163103,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1286,
+    "afterScrollHeight": 1286
+  },
+  "record": {
+    "capturedAt": "2026-10-09T11:30:19Z",
+    "url": "https://github.com/Autumn-27/Autumn-27/blob/main/README.md",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 223124,
+      "sha256": "c63730adce290d5136d34faeaf1cecabccd58e24c5cabd7186c7a44c38d4df2c"
+    },
+    "finalUrl": "https://github.com/Autumn-27/Autumn-27/blob/main/README.md",
+    "httpStatus": 200,
+    "title": "Autumn-27/README.md at main · Autumn-27/Autumn-27 · GitHub",
+    "rendered": {
+      "textChars": 938,
+      "textSha256": "a157d9862e10bf507d3372f4b454939e0d2383bbc8d431a7165cb9ff13858658",
+      "htmlSha256": "88b3caaf59c68e76673bd48693ffb49cd26d9281e2b328cf1e1c58709e09af64"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "0393af50dd021c9a5224cf8b35188a71cd63d54439727c83093b2320350dadc2",
+      "width": 1366,
+      "height": 1286,
+      "bytes": 163103,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 523 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

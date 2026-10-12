@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000255",
+  "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+  "capturedAt": "2026-10-04T05:42:43Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 130977,
+    "sha256": "a048a7500d898bab4ffefb70dc628c9931be2f0073b9b914a982f73611789ccd",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BA5B3580D8932F467427EC85D7A15FF8",
+      "status": 200,
+      "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6544,
+      "afterScrollHeight": 6544,
+      "wantedHeight": 6544
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "165d064cb92f248ed79320e3dc679958975e3005a4e416925e57a0bce9ff0ce9",
+    "width": 1366,
+    "height": 6544,
+    "bytes": 1768452,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6544,
+    "afterScrollHeight": 6544
+  },
+  "record": {
+    "capturedAt": "2026-10-04T05:42:43Z",
+    "url": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 130977,
+      "sha256": "a048a7500d898bab4ffefb70dc628c9931be2f0073b9b914a982f73611789ccd"
+    },
+    "finalUrl": "https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+    "httpStatus": 200,
+    "title": "Anthropic co-founder reportedly told religious leaders he fears having created something that \"suffers perpetually\"",
+    "rendered": {
+      "textChars": 10733,
+      "textSha256": "6dc9fe938655e7f13d46aca2fc4571a6037d384f0722799bada2014afce2454c",
+      "htmlSha256": "9e48f4dd91bd45bc207286c396e7b18ab50f8ddfb6017e041dd451792767ddec"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "165d064cb92f248ed79320e3dc679958975e3005a4e416925e57a0bce9ff0ce9",
+      "width": 1366,
+      "height": 6544,
+      "bytes": 1768452,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261004054328/https://the-decoder.com/anthropic-co-founder-reportedly-told-religious-leaders-he-fears-having-created-something-that-suffers-perpetually/",
+      "timestamp": "20261004054328",
+      "verifiedHttp": 200
+    }
+  }
+}

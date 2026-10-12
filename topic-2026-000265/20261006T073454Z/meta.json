@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000265",
+  "url": "https://poll.qu.edu/poll-release?releaseid=3969",
+  "capturedAt": "2026-10-06T07:34:54Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 75135,
+    "sha256": "4d0aafef5726e26bed888317cf95a3e36371ab12ec12de2720de2e7c0471ecf5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7E1F6A7C3B59058EA9BC2BA5AF312A7D",
+      "status": 200,
+      "url": "https://poll.qu.edu/poll-release?releaseid=3969",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 12855,
+      "afterScrollHeight": 12855,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "2065930da3a2babe4f0affef306497e6f467afff49018ceca70e57a63602b60f",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1443916,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 12855,
+    "afterScrollHeight": 12855
+  },
+  "record": {
+    "capturedAt": "2026-10-06T07:34:54Z",
+    "url": "https://poll.qu.edu/poll-release?releaseid=3969",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 75135,
+      "sha256": "4d0aafef5726e26bed888317cf95a3e36371ab12ec12de2720de2e7c0471ecf5"
+    },
+    "finalUrl": "https://poll.qu.edu/poll-release?releaseid=3969",
+    "httpStatus": 200,
+    "title": "9/30/26 - The Age Of Artificial Intelligence: 73% Concerned About Potential Threat To Human Survival, Quinnipiac University Poll On AI Finds; 86% Support Independent Safety Standards For AI Companies | Quinnipiac University Poll",
+    "rendered": {
+      "textChars": 13286,
+      "textSha256": "fd5774742fe765cb677902d39b684fa861e6773c310eb04cdf62ef5a4ade793c",
+      "htmlSha256": "986dabc90fa7482eab4ef0c35e29c72036385ad20228e373d991fc8f67d29770"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2065930da3a2babe4f0affef306497e6f467afff49018ceca70e57a63602b60f",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1443916,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260930175923",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260930175923/https://poll.qu.edu/poll-release?releaseid=3969"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261004001412/https://poll.qu.edu/poll-release?releaseid=3969",
+      "timestamp": "20261004001412",
+      "verifiedHttp": 200
+    }
+  }
+}

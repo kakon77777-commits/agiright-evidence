@@ -1,0 +1,946 @@
+<html xmlns:ms="urn:schemas-microsoft-com:xslt" xmlns:dc="http://purl.org/dc/elements/1.1/" encoding="utf-8"><head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>S. 5601 (Introduced-in-Senate)</title>
+<style type="text/css">				
+					a					{
+		color: blue;
+		text-decoration: none;
+		}
+.lbexAllcap {
+		text-transform:uppercase;		
+}	
+.lbexMediumcap				{
+		font-variant: small-caps;
+		font-weight: bold;
+		font-size: 16pt;
+		}				
+.lbexSmallcap				{
+		font-variant: small-caps;
+		font-weight: bold;																				
+		}	
+.lbexAllcapnormal				{
+		font-size: 12pt;
+		text-transform: uppercase;																				
+		}
+.lbexSimplecap				{
+		font-variant: small-caps;
+		}
+.lbexSimplecapEx				{
+		font-variant: small-caps;
+		text-transform: uppercase;
+		}
+.lbexSimpleCapNormal				{
+		font-variant: small-caps;
+		text-transform: uppercase;
+		font-weight: normal;
+		}
+.lbexInitialcap				{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: small-caps;
+		font-weight: bold;
+		text-transform: capitalize;
+		}								
+.lbexHang					{
+		text-indent: -2em;		
+		}
+.lbexHangWithMargin			{
+		text-indent: -2em;
+                              margin-left: 2em		
+		}
+.lbexHangSmall		     
+        {
+        text-indent: -2em;	
+		font-size: 11pt;
+		}
+		
+.lbexHangSmalllWithMargin				
+        {
+		text-indent: -2em;	
+		font-size: 11pt;
+		 margin-left: 2em
+		}
+.lbexIndent					{
+		text-indent: 2em;		
+		}
+.lbexIndentInstruction{
+    text-indent: 2em;
+    font-size:17pt;
+}
+.lbexNoMargin					{
+		margin-left: 0em;		
+		}		
+.lbexIndentSubsection			{
+		text-indent: 2em;
+		margin-left: 0em;
+		text-align:left;
+		}	
+.lbexIndentParagraph			{
+		text-indent: 2em;
+		margin-left: 2em;
+		text-align:left;
+		}
+.lbexIndentSubpar                                                {
+		text-indent: 2em;
+		margin-left: 4em;
+		text-align:left;
+		}
+.lbexNonIndentSubpar                                                {
+		text-indent: 0em;
+		margin-left: 4em;
+		text-align:left;
+		}
+.lbexIndentClause                                                   {
+		text-indent: 2em;
+		margin-left: 6em;
+		text-align:left;
+		}
+.lbexNonIndentClause                                                   {
+		text-indent: 0em;
+		margin-left: 6em;
+		text-align:left;
+		}
+.lbexIndentSubclause                                         {
+		text-indent: 2em;
+		margin-left: 8em;
+		text-align:left;
+		}
+.lbexNonIndentSubclause                                         {
+		text-indent: 0em;
+		margin-left: 8em;
+		text-align:left;
+		}
+.lbexIndentItem                                                      {
+		text-indent: 2em;
+		margin-left: 10em;
+		text-align:left;
+		}
+.lbexIndentSubItem				{
+		text-indent: 2em;
+		margin-left: 12em;
+		text-align:left;
+		}
+.lbexNonIndentItem                                                      {
+		text-indent: 0em;
+		margin-left: 10em;
+		text-align:left;
+		}
+.lbexNonIndentSubItem				{
+		text-indent: 0em;
+		margin-left: 12em;
+		text-align:left;
+		}
+.lbexIndentFour {
+        text-indent: 4em;
+        }
+ .lbexIndentFive {
+        text-indent: 5em;
+        }
+.lbexNonIndentSubsection         {
+        text-indent:0em;
+        margin-left:0em;
+        text-align:left;
+        }
+.lbexNonIndentParagraph			{
+		text-indent: 0em;
+		margin-left: 2em;
+		/*text-align:left;*/
+		}
+.lbexIndentZero{
+		text-indent: 0;
+		}
+.lbexLegisNum				{ 
+		font-size: 37pt;
+		font-weight: bold;
+		}
+.lbexLegisNumAvg			{						
+		font-size: 36pt;						
+		font-weight: bold;
+		letter-spacing: -2pt;							
+		}		
+.lbexLegisNumLrg			{				
+		font-size: 37pt;
+		font-weight: bold;	
+		letter-spacing: -3pt;				
+		}
+.lbexLegisNumSml			{				
+		font-size: 17pt;
+		font-weight: bold;											
+		}
+.lbexLegisType				{
+		font-size: 30pt;
+		}
+.lbexChamber				{
+		font-size: 15pt;
+		}
+.lbexChamberEngrHouse		{
+		font-size: 20pt;
+		font-weight: bold;
+		font-style:italic;
+		}
+.lbexBldItalic {
+		font-weight: bold;
+		font-style:italic;    
+		}
+.lbexCongressEnrolled		{
+		font-size: 30pt;
+		font-weight: bold;
+		font-family: Monotype Corsiva;
+		}		
+.lbexlegisEnrolled			{
+		font-size: 30pt;
+		font-weight: bold;
+		font-family: Monotype Corsiva;
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: normal;						
+		text-transform: capitalize;
+		}
+.lbexLegisEngrossed			{
+		font-size: 30pt;
+		font-weight: bold;
+		font-family: Monotype Corsiva;
+		word-spacing: 2pt;
+		letter-spacing: 1pt;						
+		text-transform: capitalize;
+		}
+.lbexSessionEnrolled		{
+		font-size: 12pt;
+		font-weight: bold;						
+		}
+.lbexTextNormalBold		{
+		font-size: 12pt;
+		font-weight: bold;	
+		text-transform:none;
+		font-variant: normal;
+		}
+.lbexDateEnrolled		{
+		font-size: 10pt;						
+		font-style:italic;
+		font-weight: bold;
+		}	
+.lbexThinSpace				{
+		word-spacing: -5pt;
+		}
+.lbexNSpace				{
+		word-spacing: -1pt;
+		}
+.lbexOmmitedTextSpace				{
+		word-spacing: 60pt;
+		}
+.lbexInitialCapArchaic		{
+		font-variant: normal;
+		text-transform: capitalize;
+		}
+.lbexSectionlevelItalicOLCBold	{
+		font-size:14pt;
+		font-weight:bold;
+        font-style:italic;		
+		}
+.lbexSectionlevelOLC		{						
+		font-size:12pt;
+		font-weight:bold;		
+		}
+.lbexSectionlevelOLCBold	{
+		font-size:14pt;
+		font-weight:bold;						
+		}		
+.lbexTitleLevelOLC			{
+		font-size:18pt;
+		font-weight:bold;
+		}
+.lbexSubTitleLevelOLC		{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: normal;
+		font-size:18pt;
+		font-weight:bold;
+		text-transform: capitalize;
+		}	
+.lbexSubTitleLevelOLCBold	{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: normal;
+		font-size:20pt;
+		font-weight:bold;
+		text-transform: capitalize;
+		}
+.lbexChapterLevelOLC		{		
+		font-size:16pt;
+		font-weight:bold;				
+		}
+.lbexChapterLevelOLCBold	{		
+		font-size:20pt;
+		font-weight:bold;
+		}
+.lbexSubChapterLevelOLC		{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: normal;
+		font-size:16pt;
+		font-weight:bold;
+		text-transform: capitalize;
+		}
+.lbexChapterLevelOLCNuclear		{		
+		font-size:16pt;						
+		}
+.lbexChapterLevelOLCBoldNuclear		{		
+		font-size:16pt;
+        font-weight:bold;						
+		}
+.lbexSectionLevelOLCnuclear		{		
+		word-spacing: 2pt;
+		letter-spacing: 0pt;
+		font-variant: small-caps;						
+		text-transform: capitalize;
+		}
+.lbexSubpartLevelOLC		{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: normal;
+		font-size:14pt;
+		font-weight:bold;
+		text-transform: capitalize;
+		}
+.lbexTocSectionOLC			{		
+		font-size: 80%;						
+		text-indent: 2em;
+		margin-left: 2em;						
+		}
+.lbexTocDivisionOLC			{			
+		font-size: 11pt;
+		}
+.lbexTocSubDivisionOLC		{			
+		font-size: 10pt;
+		font-variant: small-caps;
+		text-transform: capitalize;
+		}
+.lbexTocSubDivisionCodification{
+		font-size: 11pt;
+		}
+.lbexTocSubTitleOLC			{
+		font-variant: normal;
+		text-transform: capitalize;
+		font-size: 11pt;
+		}		
+.lbexTocSubChapterOLC		{						
+		font-size: 10pt;
+		}
+.lbexTocSubPartOLC     		{
+		font-variant: small-caps;
+		font-size: 9pt;
+		}	
+.lbexTocSubPartCodification{
+		font-size: 10pt;
+		}
+.lbexSmallCapTrad			{	
+		font-variant: small-caps;						
+		font-size: 12pt;
+		}
+.lbexSmallCapBackTitle			{	
+		font-variant: small-caps;						
+		font-size: 11pt;
+		}
+.lbexInitialCapTrad			{
+		word-spacing: 2pt;
+		letter-spacing: 0pt;
+		font-size: 14pt;
+		font-variant: small-caps;
+		text-transform: capitalize;
+		}
+.lbexInitialCapTradInd			{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-size: 14pt;
+		font-variant: small-caps;
+		text-transform: capitalize;
+		text-indent: 2em;
+		}
+.lbexLargeCapTrad			{						
+		font-variant: small-caps;						
+		font-size: 16pt;
+		}
+.lbexSectionTitleTrad 		{
+		font-variant: small-caps;
+		text-transform: capitalize;
+		}
+.lbexSectionLevelTradBold	{			
+		font-size:14pt;
+		}
+.lbexSectionLevelTradBoldUp	{			
+		font-size:14pt;
+		text-transform: uppercase;
+		}
+.lbexRepTitle	{			
+		font-size:15pt;
+		}
+.lbexTitleLevelTrad			{
+		font-size:16pt;
+		font-variant: small-caps;
+		text-transform: capitalize;
+		}				
+.lbexTitleLevelTradIn			{
+		font-size:16pt;
+		text-transform: uppercase;
+		font-weight:bold;
+		}		
+.lbexTitleLevelTradEx          {
+        font-size:16pt;		
+		text-transform: uppercase;
+        }
+.lbexTitleLevelTradBold		{
+		font-size:18pt;
+		}
+.lbexSubTitleLevelTrad		{		
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-size:16pt;
+		font-variant: normal;
+		text-transform: capitalize;
+		}
+.lbexSubTitleLevelTradUp		{		
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-size:16pt;
+		font-variant: normal;
+		text-transform: uppercase;
+		}
+.lbexPartlevelTrad			{
+    	font-size:16pt;
+    	font-variant: small-caps;
+    	text-transform: capitalize;
+    	}
+.lbexSubPartLevelTradBold	{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: normal;
+		font-size:18pt;
+		text-transform: capitalize;
+		}
+.lbexChapterLevelTrad		{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;						
+		text-transform: uppercase; 
+		font-size:16pt;
+		font-weight:bold;
+		}
+.lbexSubChapterLevelTrad	{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: small-caps;
+		text-transform: capitalize;
+		font-size:16pt;
+		}
+.lbexSubChapterLevelTradEx       {
+                            word-spacing: 2pt;
+		letter-spacing: 1pt;		
+		text-transform: uppercase;
+		font-size:16pt;
+        }
+.lbexSubChapterLevelTradInline	{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;	
+		font-variant: small-caps;
+		font-size:16pt;			
+		}
+.lbexSubChapterLevelTradBold {
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: small-caps;
+		text-transform: capitalize;
+		font-size:18pt;
+		}
+.lbexTocSectionTrad			{			
+		font-size: 80%;
+		text-indent: 2em;
+		margin-left: 2em;
+		}
+.lbexTocTitleTrad			{												
+		font-size: 11pt;
+		font-variant: normal;			
+		}
+.lbexTocChapterTrad     	{						
+		font-variant: small-caps;						
+		text-transform: capitalize;
+		font-size: 11pt;	
+		}
+.lbexTocSubchapterTrad		{
+		font-variant: normal;		
+		font-size: 11pt;
+		}
+.lbexTocPartTrad     		{				
+		font-variant: small-caps;
+		font-size: 10pt;
+		}
+.lbexTocSubPartTrad     	{
+		font-variant: normal;		
+		font-size: 10pt;
+		}
+
+.lbexSectionLevelIRCEx		{				
+        font-size:12pt;
+        font-weight:bold;
+        text-transform: uppercase;
+		}	
+.lbexTitleLevelIRCEx		{
+		font-size:18pt;
+		font-weight:bold;
+		text-transform: uppercase;	
+		}
+.lbexSubTitleLevelIRCBold	{
+		word-spacing: 2pt;
+		letter-spacing: 1pt;
+		font-variant: normal;
+		font-size:22pt;
+		font-weight:bold;
+		text-transform: capitalize;
+		}		
+.lbexChapterLevelIRCEx		{
+		font-size:16pt;
+		font-weight:bold;
+		text-transform: uppercase;	
+		}	
+.lbexPartLevelIRCEx			{
+		font-size:14pt;
+		font-weight:bold;		
+		text-transform: uppercase;
+		}	
+.lbexTocSectionIRCTax		{
+		font-size:11pt;
+		font-variant: normal;
+		text-transform: capitalize;
+		}
+.lbexTocSectionIRCBold		{
+	      font-size:12pt;
+		}
+.lbexTocBigCapsLowCapsIRC	{
+		font-size:11pt;
+		font-variant: small-caps;
+		text-transform: capitalize;
+		}
+.lbexTocBigCapsLowCapsIRCBold{
+		font-size:12pt;
+		font-variant: small-caps;
+		text-transform: capitalize;
+		}
+.lbexTocPartIRCBold			{
+		font-variant: normal;
+		text-transform: capitalize;
+		font-size: 12pt;
+		}
+.lbexInitialCapUSC			{	
+		font-variant: small-caps;						
+		font-size: 14pt;
+		text-transform:uppercase;
+		}				
+.dot-leader				{			
+		vertical-align:bottom;
+		background-image:url(dot_line1.gif);
+		background-repeat:repeat-x;
+		background-position: bottom;
+		}
+.td						{		
+		font-size:90%;
+		}	
+.lbexCalendarOLC			{
+		font-size:24pt;
+		font-weight:bold;
+		letter-spacing: -1pt;						
+		}	
+.lbexHangTable				{
+		text-indent: -3em;
+		font-size:10pt;											
+		}
+		
+.lbexEndsmtHead				{
+		font-size:12pt;
+		font-weight:bold;
+		}
+.lbexEndsmtSimpleCap		{
+		font-size:10pt;						
+		font-variant: small-caps;
+		}
+.lbexSmtlegisNum			{				
+		font-size: 28pt;
+		font-weight: bold;
+		}
+.lbexSmtlegisNumAvg			{
+		font-size: 28pt;
+		font-weight: bold;
+		letter-spacing: -2pt;
+		text-transform:uppercase;
+		}
+.lbexSmtlegisNumlrg			{
+		font-size: 28pt;
+		font-weight: bold;
+		letter-spacing: -3pt;
+		text-transform:uppercase;
+		}
+.lbexEnumUcs {
+		word-spacing: -3pt;    
+		}
+.lbexBold				{
+		font-weight: bold;
+		}	
+.lbexBoldLrge				{
+		font-weight: bold;
+		font-size: 15pt;
+		}	
+.lbexBrakets			{
+		font-size: 16pt;
+		font-weight: bold;
+		font-family: Arial;						
+		}
+.lbexAttest				{
+		font-size: 13pt
+		}	
+.lbexHeaderAppropMajor {
+        font-size: 16pt; 		
+		text-transform: uppercase;		
+		}	
+.lbexHeaderAppropMajorItalic {
+        font-size: 16pt; 		
+		text-transform: uppercase;	
+		font-style:italic;
+		}
+.lbexHeaderAppropIntermediate {
+     		font-size:16pt;
+    		font-variant: small-caps;
+    		text-transform: capitalize;    		
+    	}
+.lbexHeaderAppropIntermediateItalic {
+     		font-size:16pt;
+    		font-variant: small-caps;
+    		text-transform: capitalize;    
+    		font-style:italic;
+    	}
+.lbexHeaderAppropSmall {
+		font-variant: small-caps;
+		text-transform:lowercase;		
+		}
+.lbexHeaderAppropSmallItalic {
+		font-variant: small-caps;
+		text-transform:lowercase;		
+		font-style:italic;
+		}
+.lbexAllNormal  {
+        font-variant: normal;
+        text-transform: lowercase;
+        }   
+.lbexVotesStyle {
+        font-family: Arial Narrow; 
+        }   
+.lbexSmallText {
+         font-size: 12pt;
+        }
+ .lbexSmallTextNormal {
+         font-size: 12pt;
+         text-transform:none;
+         font-variant: normal;
+        }     
+.lbexTextNormal {         
+         text-transform:none;
+         font-variant: normal;
+        } 
+ .lbexBlack
+        {
+        color:black;
+        }
+.lbexListStyle
+        {
+        list-style-type:lower-alpha;
+        }
+.lbexTextStrikethrough
+{
+    text-decoration:line-through;
+}
+
+.lbexBlockNeutral
+{
+    text-decoration: none;
+    display: block;
+}
+
+.lbexTextNeutral
+{
+    text-decoration: none;
+    display: inline-block;
+    margin-left:inherit;
+}
+
+.lbexTextNeutralInline
+{
+    text-decoration: none;
+    display: inline-block;    
+}
+
+.lbexTableStyleOne
+{
+    width:100%;
+    text-align:left;
+}
+.lbexTableStyleTwo
+{
+    width:70%;
+}
+.lbexTableStyleThree
+{
+    width:12%;
+    height:50px;
+    text-align:right;
+}
+.lbexTableStyleFour
+{
+    width:25%;
+    height:50px;
+    text-align:right;
+}
+.lbexTableStyleFive
+{
+     width:80%;
+     border-style:solid;
+     border-width:thin;
+     border-color:gray;
+}
+.lbexTableStyleSix
+{
+    width:25%;
+    height:50px;
+    text-align:left;
+}
+.lbexTableStyleSeven
+{
+    width:80%;       
+    font-size:14pt;
+}
+.lbexTableStyleEight
+{
+    width:90%;       
+    font-size:14pt;
+}
+
+.lbexTableStyleEight    {
+    width:80%;   
+     font-size:12pt;
+}
+
+.lbexTableStyleEnr
+{
+     width:100%;
+     border-style:solid;
+     border-width:medium;
+     border-color:#CC0000;
+     padding:30px;
+}
+.lbexReportCoverTableTop
+{    
+    border-bottom-style:solid;
+    border-bottom-width:thin;
+    border-bottom-color:gray;
+}
+.lbexTdStyleOne
+{
+    width:3%;
+    text-align:right;
+}
+.lbexTdStyleTwo
+{
+    width:10%;
+    text-align:right;
+}
+.lbexTdStyleThree
+{
+    width:25%;
+    text-align:left;
+}
+.lbexTdStyleFour
+{
+    width:6%;
+    text-align:center;
+}
+.lbexTdStyleFourStAlone
+{
+    width:12%;
+    text-align:center;
+}
+.lbexTdStyleSix
+{
+    width:50%;
+    text-align:right;
+}
+.lbexTdStyleSeven
+{
+    width:6%;
+}
+.lbexGeneralStyle100
+{
+    width:100%;
+}
+P.lbexBreakHere {page-break-before: always}
+			body.lbexBody					{
+			font-size: 14pt;
+			margin-left: 40pt;
+			margin-right: 40pt;						
+			
+			}
+			
+			ul.leaders
+			{
+			    padding: 0px;
+			}
+			
+			ul.leaders li
+			{
+			    display: table;
+			}
+			
+			ul.leaders li span
+			{
+			    display: table-cell;
+			}
+			
+			ul.leaders li span:first-child
+			{ /* TITLE */
+			    position: relative;
+			    overflow: hidden; /* Don't go underneath the page number */
+			}
+			
+			ul.leaders li span:first-child:after
+			{ /* DASHES */
+			    content: "";
+			    position: absolute;
+			    bottom: 0.5em; /* Set as you want */
+			    margin-left: 0.5em; /* Keep same for the next span's left padding */
+			    width: 100%;
+			    border-bottom: 1px dashed #000;
+			}
+			
+			ul.leaders li span + span
+			{ /*page number*/
+			    text-align: right;
+			    width: 0.01%; /* Trick it */
+			    vertical-align: bottom; /* Keep text bottom-aligned */
+			    padding-left: 0.5em;
+			    text-indent: 0;
+			    /* white-space: nowrap;       /* Uncomment if needed */
+			}
+			.noneTextDecorationBlock{
+			    display: inline-block;
+			    text-decoration: none;
+			}
+			
+			.noneTextDecorationInline{
+			    display: inline-block;
+			    text-decoration: none;
+			    /*  margin-left: -40px; */
+			    margin-top: -20px;
+			}
+			.normalFontStyleBlock{
+			    font-style: normal;
+			    font-weight: normal;
+			}
+			.normalFontStyleInline{
+			    font-style: normal;
+			    font-weight: normal;
+			    margin-left: -0px;
+			    margin-top: -20px;
+			}
+			.lbexChapterLevelOLCNuclearIn{
+			    font-size: 16pt;
+			    margin-bottom: 40px;
+			    margin-top: -20px;
+			}
+			.lbexSimpleItalic{
+			    font-style: italic;
+			    font-weight: normal;
+			}
+			.lbexChapterLevelOLCNuclearIn{
+			    font-size: 16pt;
+			    margin-top: 10px;
+			}
+			.hidden {
+               display: none;
+            }
+            .lbexIndentSubsectionText{
+             text-indent: 3em;
+             margin-left: 0em;
+             text-align: left;
+            }
+           .lbexIndentParagraphText{
+             text-indent: 3em;
+             margin-left: 3em;
+             text-align: left;
+            }
+           .lbexIndentSubParagraphText{
+             text-indent: 5em;
+             margin-left: 5em;
+             text-align: left;
+            }
+           .lbexIndentClauseText{
+             text-indent: 7em;
+             margin-left: 7em;
+             text-align: left;
+            }
+           .lbexIndentSubClauseText{
+             text-indent: 9em;
+             margin-left: 9em;
+             text-align: left;
+            }
+          .lbexIndentItemText{
+             text-indent: 11em;
+             margin-left: 11em;
+             text-align: left;
+           }
+         .lbexIndentSubitemText{
+            text-indent: 13em;
+            margin-left: 13em;
+            text-align: left;
+          }
+          .lbexTocDivisionOLCCodif{
+            text-indent: 2em;
+            margin-left: 2em;
+            font-size: 11pt;
+          }
+          .lbexTocSubDivisionOLCCodif{
+           text-indent: 4em;
+           margin-left: 4em;
+           font-size: 11pt;
+          }
+         .lbexTocCodif{
+           font-size: 10pt;
+}</style>
+</head>
+<body class="lbexBody"><div style="background-color: #d9534f; color: white; padding: 12px; margin-bottom: 20px; font-size: 16px; font-weight: bold; text-align: center; font-family: sans-serif; position: relative; z-index: 2147483647;">This site uses XSLT; that functionality is being <a href="https://chromestatus.com/feature/4709671889534976" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: underline;">removed from this browser very soon</a>. When that happens, this page will likely no longer display correctly. You might be able to <a href="https://chromewebstore.google.com/search/XSLT%20Polyfill" target="_blank" rel="noopener noreferrer" style="color: white; text-decoration: underline;">install a browser extension</a> that allows you to continue viewing it. Otherwise, you should contact the maintainer of the site for further information.</div>
+<p></p>
+<p><br></p>
+<table class="lbexTableStyleSix"><tbody><tr><td class="lbexTdStyleThree"><div style="text-align:center">
+<span class="lbexSimplecap">119th CONGRESS</span><br><span class="lbexSimplecap">2d Session</span>
+</div></td></tr></tbody></table>
+<table class="lbexTableStyleFour">
+<tbody><tr><td></td></tr>
+<tr><td></td></tr>
+</tbody></table>
+<div style="text-align:center"><span class="lbexLegisNum">S. 5601</span></div>
+<p></p>
+<br><p style="text-align:left;margin-left: 2em;" class="lbexHang">To require the Secretary of Defense to establish reporting requirements and voluntary guidance for large artificial intelligence contractors.</p>
+<hr style="width:40%">
+<p></p>
+<div style="text-align:center"><span class="lbexChamber">IN THE SENATE OF THE UNITED STATES</span></div>
+<div style="text-align:center">
+<p></p>
+<span class="lbexSimplecap">September 29, 2026</span><p></p>
+</div>
+<div style="text-align:left;" class="lbexHang"><p style="text-align:center" class="lbexHangSmall">Mr. <span class="lbexSimplecap"> Banks</span> (for himself and Mrs. <span class="lbexSimplecap"> Gillibrand</span>) introduced the following bill; which was read twice and referred to the Committee on Armed Services</p></div>
+<p></p>
+<hr style="width:40%">
+<p></p>
+<div style="text-align:center"><b><span class="lbexLegisType">A BILL</span></b></div>
+<p></p>
+<p style="text-align:left" class="lbexHangWithMargin">To require the Secretary of Defense to establish reporting requirements and voluntary guidance for large artificial intelligence contractors.</p>
+<p></p>
+<p style="text-align:left" class="lbexIndent"><em> Be it enacted by the Senate and House of Representatives of the
+		United States of America in Congress assembled, </em></p><p style="text-align:left" class="lbexHangWithMargin"><a id="H56C049FAB8614A39BCAF6883DA2AD16C"> </a><span class="lbexSectionlevelOLC">SECTION 1.</span> <span class="lbexSectionlevelOLC"> <span class="lbexAllcap">Short title</span>.</span></p><div style="text-align:left" class="lbexIndent"><p style="text-align:left" class="lbexIndentSectionText">This Act may be cited as the “Insider Threat Reporting and Security Guidance Act of 2026”.</p></div><p style="text-align:left" class="lbexHangWithMargin"><a id="ida98e864916324e44829cbcac5ac9ad62"> </a><span class="lbexSectionlevelOLC">SEC. 2.</span><span class="lbexSectionlevelOLC"> <span class="lbexAllcap">Insider threat reporting and voluntary guidance for large artificial intelligence contractors</span>.</span></p><div style="text-align:left" class="lbexIndent"></div><a id="id3b6f23f0f8974e53ac78b846a205b867"> </a><p style="text-align:left" class="lbexIndent">(a) <span class="lbexSectionLevelOLCnuclear">Covered artificial intelligence contractor defined</span>.—In this section, the term “covered artificial intelligence contractor” means a contractor that—<a id="idfcdb6e82dfdd4f1785735df0ed109a05"> </a></p><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(1) has entered, or seeks to enter into, one or more contracts, with a total value of not less than $100,000,000, with the Department of Defense for an artificial intelligence system or services that use an artificial intelligence system; and</p><p></p><a id="ida8cd0bd116a24c69a8bf154680f77adc"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(2)<a id="id2043f9b7039d4d75813639d286b23f38"> </a>(A) has incurred, during the 3-year period preceding the date on which any such contract was entered into, not less than $1,000,000,000 in artificial intelligence-related research and development expenditures, measured on a rolling basis and aggregated with any other person that controls, is controlled by, or is under common control with such contractor; or<a id="id6d6bdfbd44184ac79d698fb5e7440e72"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentParagraph">(B) uses or proposes to use, in the performance of such contract or contracts, an artificial intelligence model developed or controlled by a person that meets the expenditure criteria described in subparagraph (A).</p><p></p><p></p><p></p><p></p><a id="id53fa1009b39d4722b42438c68410d95b"> </a><p style="text-align:left" class="lbexIndent">(b) <span class="lbexSectionLevelOLCnuclear">Reporting requirements</span>.—<a id="id75e12a169e5c47429836535b6228494e"> </a></p><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(1) <span style="font-size:110%; text-transform: capitalize;">I</span>N GENERAL.—Not later than 180 days after the date of the enactment of this Act, the Secretary of Defense shall issue regulations establishing reporting requirements for covered artificial intelligence contractors to support the protection of Department of Defense systems, missions, personnel, operations, and supply chains from counterintelligence, security, and other national security risks arising from the security practices of such contractors.</p><p></p><a id="ide84a7d83a5ea458180064515cd63de2a"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(2) <span style="font-size:110%; text-transform: capitalize;">R</span>EQUIRED MATTERS.—<a id="idcf28a6c1a0aa42178b8cb33dcf7127d4"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(A) <span style="font-size:110%; text-transform: capitalize;">I</span>N GENERAL.—The regulations issued pursuant to paragraph (1) shall require, at a minimum, that a covered artificial intelligence contractor reports to the Secretary—<a id="id42396aa4bc924f7e919f4ea057fa9f38"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(i) all policies, practices, and security measures relating to—<a id="idd118b02ff42444acb51cad09e521ad74"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(I) personnel vetting;</p><p></p><a id="id2ed7504762ae4288924907a540a3822c"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(II) insider threat mitigation;</p><p></p><a id="id8cdc58ab076d422f9d93686fbb403c32"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(III) access controls, including the circumstances under which contractors, subcontractors, cloud providers, and other third parties are granted access to any artificial intelligence model, model weights, training infrastructure, or other sensitive assets, and the material security controls governing such access;</p><p></p><a id="idd692537680bc435296270f4161c1c1d0"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(IV) supply chain security; and</p><p></p><a id="idb7879435810f43b8a5d27b65e86ac170"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(V) the prevention of theft, tampering, sabotage, or any other unauthorized transfer or modification of any artificial intelligence model or model weights;</p><p></p><p></p><p></p><a id="idea53178a41034080bf5cd9ebbe918948"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(ii) any known or suspected material incident affecting the security, integrity, or availability of any artificial intelligence model or model weights developed or used, including any incident in which a person compromises or exploits any artificial intelligence model or model weights in a manner that could materially affect the performance of a Department contract, national security, or the operations, security, or mission effectiveness of the Department, including through—<a id="id7c3b808ddacd481481c90609d4ac6721"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(I) espionage;</p><p></p><a id="id7d615188848042ec827cd347af4ee573"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(II) unauthorized access;</p><p></p><a id="id4767b0b1d4d14b03af162b3ece266799"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(III) theft;</p><p></p><a id="id49d069954a264e0491514b587354ab8f"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(IV) exfiltration;</p><p></p><a id="id82e251202d5b4b429ec7359dd8c1a483"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(V) sabotage;</p><p></p><a id="id8b6347e056724ae18576347df2e59587"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(VI) manipulation;</p><p></p><a id="id93d3653161da42078caaabd402269c9f"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(VII) a compromise of the software, hardware, cloud, data, or other supply chain component used to develop, train, fine-tune, evaluate, secure, or deploy any such model or model weights;</p><p></p><a id="id77c95b6af5d44846bcfd236a61f4efcb"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(VIII) the poisoning, corruption, manipulation, or unauthorized alteration of training data, fine-tuning data, retrieval corpora, model checkpoints, system prompts, safety filters, monitoring systems, evaluation pipelines, or model-update mechanisms;</p><p></p><a id="id1ca22ecc96164d9abcb13a860ca6bd8f"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(IX) the discovery of a material vulnerability, exploit, backdoor, or failure of access controls that could permit unauthorized modification, extraction, degradation, or misuse of any such model or model weights; or</p><p></p><a id="idb73b78194d68465a908462d305adf634"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(X) any other effort;</p><p></p><p></p><p></p><a id="id1f5aab121cd14dbcb33fe01fde906ac4"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(iii) the defense-relevant and national security-relevant capabilities, access pathways, and material misuse risks, as determined by the Secretary, of the most powerful artificial intelligence models developed, controlled, or used by such contractor in the performance of a contract with the Department;</p><p></p><a id="idcee942a6b2844c4abc4c658e32e9fc67"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(iv) any materially concerning model behavior, including materially increased capability for a cyber offense, evasion of safeguards, deceptive behavior, unauthorized autonomous action, or other behavior that could materially affect national security, the performance of a Department contract, or the operations, security, or mission effectiveness of the Department;</p><p></p><a id="id2e542d2f1c094fc5b1742c6ef0428f66"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(v) any attempt to obtain unauthorized access to, acquire, influence, or exfiltrate sensitive information, systems, or intellectual property relating to any artificial intelligence model developed, controlled, or used by the contractor; and</p><p></p><a id="id7376fdd057a84236b62b51652f95fa10"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(vi) any other known or suspected acute national security risk relating to the compromise, misuse, loss, exfiltration, misalignment, or exploitation of artificial intelligence models developed, controlled, or used by the contractor that could materially affect national security, the performance of a Department contract, or the operations, security, or mission effectiveness of the Department.</p><p></p><p></p><p></p><a id="id39670bf0afd64fdf9771e876e01f0972"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(B) <span style="font-size:110%; text-transform: capitalize;">S</span>COPE.—The required matters described in subparagraph (A) apply to a covered artificial intelligence contractor, including with respect to any artificial intelligence model developed or controlled by another person and used, or proposed for use, by the covered artificial intelligence contractor in the performance of a contract with the Department. The Secretary may require the covered artificial intelligence contractor to obtain from the person who developed or controls such model any information the Secretary determines necessary to carry out this section.</p><p></p><a id="idfa244363a3224c6d818421f0b5adf256"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(C) <span style="font-size:110%; text-transform: capitalize;">T</span>IMING OF REPORTING REQUIREMENTS.—<a id="id29ae9e5ce64a41e7a641e278deb5118f"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(i) <span style="font-size:110%; text-transform: capitalize;">I</span>NITIAL SUBMISSION.—A covered artificial intelligence contractor shall submit to the Secretary of Defense the required matters described in subparagraph (A) as part of any offer, proposal, bid, or other response to a solicitation for a contract.</p><p></p><a id="ide85aabd4a8e24172ae3d4bb30c2da34f"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(ii) <span style="font-size:110%; text-transform: capitalize;">C</span>ONTINUING DUTY TO CERTIFY.—Not less frequently than once every 90 days, the covered artificial intelligence contractor shall certify to the Secretary of Defense that the information submitted under clause (i) remains accurate and complete in all material respects.</p><p></p><p></p><p></p><p></p><p></p><a id="id228abe73ce4c44dfbb4e4d73b28f67f0"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(3) <span style="font-size:110%; text-transform: capitalize;">N</span>OTIFICATION OF ACUTE NATIONAL SECURITY INCIDENTS.—<a id="id95fb3fe7a8b54caea4949cb93953a543"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(A) <span style="font-size:110%; text-transform: capitalize;">I</span>N GENERAL.—The regulations issued pursuant to paragraph (1) shall require that not later than 72 hours after becoming aware of any information, incident, or development that presents an acute national security risk to the United States, the covered artificial intelligence contractor shall—<a id="id9e74b67b1241444aaa31100d5306c724"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(i) notify the Secretary of Defense of the nature of national security risk, including any risk relating to model weight security as described in subparagraph (A)(ii), any risk described in clauses (iv), (v), and (vi) or subparagraph (A), and any other category of risk the Secretary may specify; and</p><p></p><a id="id0997ea6e137a4f348fa6f38c6e0780f9"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(ii) include in such notification, to the extent known at the time of the notification—<a id="id49905a7227214f6aa9f1770631875097"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(I) a description of the information, incident, or development;</p><p></p><a id="id624162628c7a43bb83fd9c97386ffa09"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(II) the date or approximate period of occurrence and discovery;</p><p></p><a id="id31189456ca844cf6814ad54fdfc81ecd"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(III) the affected model or deployment environment;</p><p></p><a id="id5604fda20d504d5888348ea93cfc0a88"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(IV) the actual or suspected means of compromise;</p><p></p><a id="id65bf3becd7ce4e419fc93d6e7b4d9512"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(V) whether any model weights, training data, system prompts, source code, evaluation data, safety systems, or software dependencies were accessed, altered, degraded, poisoned, exfiltrated, or otherwise compromised;</p><p></p><a id="idc94fe49ea7d64e3fba8ffc10c10b4c20"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(VI) an assessment of the actual or potential impact on Department of Defense missions, users, systems, operations, or decision making;</p><p></p><a id="id3f0dce9fed6b4db4a465cf355d210ada"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(VII) any actions taken to contain, mitigate, remediate, or investigate the information, incident, or development;</p><p></p><a id="id09d8e49c9e9d4908b4b954fa21a8bb9c"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(VIII) whether the information, incident, or development has been reported to any other Federal department or agency; and</p><p></p><a id="id559efa32f68743b1aa3427179cfa2f19"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(IX) such other information as the Secretary determines appropriate.</p><p></p><p></p><p></p><p></p><p></p><a id="iddfceb6c2d35949a5b8ff7efb4356f437"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(B) <span style="font-size:110%; text-transform: capitalize;">N</span>OTIFICATION BY THE SECRETARY.—If the Secretary of Defense receives a notification under subparagraph (A), the Secretary shall promptly transmit such notification to the contracting officer for the relevant contract, the Chief Digital and Artificial Intelligence Office, the Chief Information Officer of the Department of Defense, the Under Secretary of Defense for Acquisition and Sustainment, the Artificial Intelligence Security Center of the National Security Agency, the Commander of the United States Cyber Command, and the head of any other component of the Department or Federal department or agency the Secretary determines appropriate.</p><p></p><a id="id4e2603e8c1134405a23fdecbc6474df0"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(C) <span style="font-size:110%; text-transform: capitalize;">C</span>ONGRESSIONAL NOTIFICATION.—If the Secretary of Defense receives a notification under subparagraph (A) or discovery an incident that would be reportable under such clause, the Secretary shall—<a id="idad3942205e524a3ab5a9422715620f8a"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(i) not later than 7 days after the date on which the notification was received, submit to the Committee on Armed Services of the Senate and the Committee on Armed Services of the House of Representatives notice of the information, incident, or development that includes—<a id="id5c334b76e6cb4bad975727e170fe4d7e"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(I) a summary description;</p><p></p><a id="id58878a527a07467292716d41b9fca6b4"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(II) the date or approximate period of occurrence and discovery;</p><p></p><a id="idf37ad612702b483aa0e815464f42b897"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(III) the affected model or deployment environment;</p><p></p><a id="ida1ed42c387194043ad4dc8e01c5b0d88"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(IV) the actual or suspected means of compromise, exfiltration, manipulation, degradation, or misuse;</p><p></p><a id="id1c7254e71efc413f926553011f17d375"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(V) an initial assessment of actual or potential impact on Department missions, users, systems, or operations; and</p><p></p><a id="id18cb13144dab463b9d5dba6d411e5a4c"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubclause">(VI) any action taken or planned to contain, mitigate, remediate, or investigate the matter; and</p><p></p><p></p><p></p><a id="idf8b700484ad64bae965491ec237b1133"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(ii) provide the committees with additional briefings or updates on the information, incident, or development as material information becomes available.</p><p></p><p></p><p></p><a id="id80c89013583d44159e6e148bbc97f571"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(D) <span style="font-size:110%; text-transform: capitalize;">P</span>ROTECTION OF INFORMATION.—In the regulations issued under paragraph (1), the Secretary of Defense shall include procedures for the submission of notifications under this paragraph, including procedures to protect—<a id="idf4740a62009c40d1923b96485bdfa39a"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(i) classified information;</p><p></p><a id="id986aa528e9924b2896421f5f6f8c2443"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(ii) proprietary information;</p><p></p><a id="id7c9736709c0e40d4a5bf9307ccc1c1e6"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(iii) trade secrets;</p><p></p><a id="idc6734316b8704c19baca9241038b031b"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(iv) security-sensitive information; and</p><p></p><a id="id9c22997df12f4311bca2c38d8cd7e614"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(v) information regarding vulnerabilities that, if disclosed publicly, could reasonably be expected to harm national security.</p><p></p><p></p><p></p><a id="id1abaa0dd4b2a44a99b63a3011320661c"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(E) <span style="font-size:110%; text-transform: capitalize;">R</span>ULE OF CONSTRUCTION.—Nothing in this paragraph may be construed—<a id="id07b9a4c2d30b4471ae693486c5c9c8df"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(i) to require public disclosure of information in a manner inconsistent with applicable protections for classified or otherwise protected information; or</p><p></p><a id="id8e9c5bcc2f794981be269dc7b5a53edd"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(ii) to limit any other reporting obligation imposed by statute, regulation, or contract.</p><p></p><p></p><p></p><p></p><p></p><a id="id2fed394511354173b39760842a3f9395"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(4) <span style="font-size:110%; text-transform: capitalize;">C</span>LARITY OF REQUIREMENTS.—In the regulations issued pursuant to paragraph (1), the Secretary shall provide clear requirements with respect to the scope, timing, form, and manner of the reporting, including—<a id="id52cfe53ae6134e6291e8417f818b50ea"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(A) the appropriate protections the Department will take to prevent unauthorized disclosure of classified information, proprietary information, and controlled unclassified information;</p><p></p><a id="id48ae808846b545209e774f3c012ce665"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(B) any differentiated reporting requirements based on—<a id="id50f355b7accf4b2db0850a5c8bb23761"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(i) the sensitivity of the contract;</p><p></p><a id="id972b54acb52846dfb53479059c1f86b0"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(ii) the capabilities of the relevant models;</p><p></p><a id="id2ad561f465474e00bc32d2dc8c1601e8"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(iii) the degree of access of the contractor or third parties to artificial intelligence models or model weights; and</p><p></p><a id="id19cb9b3e50c84386a5e8d21fd8606b95"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentClause">(iv) the significance of the risk to Department missions or national security; and</p><p></p><p></p><p></p><a id="id8f04f837687248ba9054c4dc3e8d5fae"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(C) procedures to ensure that, if a covered artificial intelligence contractor uses, or proposes to use, in the performance of a contract with the Department an artificial intelligence model developed or controlled by another person, any information required under this section is obtained from that person.</p><p></p><p></p><p></p><a id="idfca76f4c951641f5b83bf80d23176035"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(5) <span style="font-size:110%; text-transform: capitalize;">C</span>ONSULTATION.—In developing the regulations under paragraph (1), the Secretary may consult with—<a id="id2c5e422685054b39be084d5865d237f8"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(A) covered artificial intelligence contractors;</p><p></p><a id="idd84e35841ea44e0aa876f4f6775e7847"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(B) the head of any Federal agency;</p><p></p><a id="id18428d5bab184182b5113e0e69b14262"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(C) industry participants; and</p><p></p><a id="ida47e7c7294ce4aeaa9e9156a37755147"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(D) any official of the Department that the Secretary considers relevant, including acquisition, counterintelligence, digital modernization, and operational officials of the Department.</p><p></p><p></p><p></p><p></p><a id="id002734707607417f9f977c3ea40b0005"> </a><p style="text-align:left" class="lbexIndent">(c) <span class="lbexSectionLevelOLCnuclear">Study and voluntary guidance on insider threat risk reduction for covered artificial intelligence contractors</span>.—<a id="idfa22c779ecc84420bc8dbf89b8b65a43"> </a></p><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(1) <span style="font-size:110%; text-transform: capitalize;">I</span>N GENERAL.—Not later than 180 days after the date of the enactment of this Act, the Secretary of Defense shall issue voluntary guidance for covered artificial intelligence contractors to reduce insider threat, espionage, and other personnel-related security risks to sensitive artificial intelligence assets of such contractors, with a focus on threats from highly capable nation-state adversaries that possess significant resources and the capability to conduct sophisticated espionage or related operations.</p><p></p><a id="id4dada29cafa74895877b544442b434cc"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(2) <span style="font-size:110%; text-transform: capitalize;">A</span>SSESSMENT AND UPDATED GUIDANCE.—Not later than 1 year after the date of the enactment of this Act, the Secretary shall—<a id="id7ac0750e89eb4bb79eb427cdf4dd4d12"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(A) complete an assessment of the risks described in paragraph (1); and</p><p></p><a id="id476ba07a433a4abc89c808b92fd0e7cd"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(B) updated the guidance issued under such paragraph based on the findings of that assessment.</p><p></p><p></p><p></p><a id="idf9f463a03e6d4705aa39cc9266275df3"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(3) <span style="font-size:110%; text-transform: capitalize;">C</span>ONTENTS.—The guidance required under paragraph (1), including any updated guidance issued under paragraph (2)(B), shall, at a minimum—<a id="id33e30ba4ec1b4f36bbad77a851f24ba3"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(A) identify categories of roles, responsibilities, functions, systems, and access that may provide material access to model weights, model internals, training infrastructure, sensitive research information, or other sensitive assets of the covered artificial intelligence contractor, the compromise of which could present a significant risk to Department missions or national security;</p><p></p><a id="id8e5ae4bbd6b74f4a83df6c42b2c47969"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(B) establish a tiered framework based on the degree of access, sensitivity, and national security risk involved, under which the most sensitive roles, systems, and categories of access are associated with the most stringent suggested security measures;</p><p></p><a id="id47920cf650b34e34b4a882152f51fb59"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(C) assess the practices, and if appropriate suggest preferred practices, relating to personnel vetting, role-based access controls, compartmentation, audit logging, anomaly detection, continuous monitoring, incident escalation, and protection against espionage, theft, sabotage, or unauthorized transfer, including practices designed to address threats from nation-state adversaries;</p><p></p><a id="id82b0dad0f00e44b3a82f5c8262ef7a3e"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(D) address, for especially sensitive roles or access, what personnel security measures, access restrictions, or other safeguards are appropriate to reduce heightened risks from nation-state adversaries; and</p><p></p><a id="id4b06b0b3ab2c4e1e865b6e5ae77b6bdd"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(E) address such other measures as the Secretary determines appropriate to protect Department missions and national security from insider threat and espionage risks arising from the security practices of covered artificial intelligence contractors.</p><p></p><p></p><p></p><a id="id7b6f18f3d4074fbf8d25ccc75424b609"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(4) <span style="font-size:110%; text-transform: capitalize;">R</span>ULE OF CONSTRUCTION.—Nothing in this subsection shall be construed to require a covered artificial intelligence contractor to adopt any measure, practice, personnel policy, access restriction, or other safeguard described in the guidance issued under paragraph (1).</p><p></p><a id="idd70cb09c95d1408fb86ddd3db9a3b979"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(5) <span style="font-size:110%; text-transform: capitalize;">C</span>ONSULTATION.—In carrying out this subsection, the Secretary may consult with covered artificial intelligence contractors, the intelligence community, counterintelligence officials, appropriate elements of the Department of Defense, the heads of other Federal agencies, federally funded research and development centers, and other relevant experts, as determined appropriate by the Secretary.</p><p></p><p></p><a id="id7113a2c90f6a4cfa88ee6cdbfb2e67ea"> </a><p style="text-align:left" class="lbexIndent">(d) <span class="lbexSectionLevelOLCnuclear">Report to congress</span>.—<a id="id1b182c39d4b94d46947f712c63e8c3e4"> </a></p><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(1) <span style="font-size:110%; text-transform: capitalize;">I</span>N GENERAL.—Not later than 1 year after the date of the enactment of this Act, the Secretary of Defense shall submit to the congressional defense committees an unclassified report, which may include a classified annex, on the implementation of this section.</p><p></p><a id="idc51fae4763b1475a9a3628e16a176fe0"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(2) <span style="font-size:110%; text-transform: capitalize;">E</span>LEMENTS.—The report required by paragraph (1) shall include—<a id="id5920c0050c064a6b80d5574b03b22e7e"> </a></p><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(A) a summary of the progress made in developing and implementing the reporting requirements under subsection (b)(1);</p><p></p><a id="id1f5b09eac4834495bb427d0221291f78"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(B) a summary of the progress made in issuing the voluntary guidance under paragraph (1) of subsection (c), including the initial guidance and any updated guidance issued under paragraph (2) of such subsection;</p><p></p><a id="id2412141cd3b848fea0946dd233192249"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(C) an assessment of any challenges, gaps, or limitations identified by the Secretary in carrying out this section; and</p><p></p><a id="idf518362458924543830d70f8c4a30066"> </a><p style="margin-left: -2em;"></p><p class="lbexIndentSubpar">(D) any additional steps, authorities, resources, or policy recommendations the Secretary determines would be useful to advance the purposes of this section.</p><p></p><p></p><p></p><a id="ide57e8c6e243042f3a0f9abf78012089e"> </a><p style="margin-left: 0em;"></p><p style="text-align:left" class="lbexIndentParagraph">(3) <span style="font-size:110%; text-transform: capitalize;">C</span>ONGRESSIONAL DEFENSE COMMITTEES DEFINED.—The term “congressional defense committees” has the meaning given the term in section 101 of title 10, United States Code.</p><p></p><p></p><p></p>
+<hr>
+
+</body></html>

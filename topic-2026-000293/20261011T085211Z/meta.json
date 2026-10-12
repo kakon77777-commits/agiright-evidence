@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000293",
+  "url": "https://www.thestar.com.my/tech/tech-news/2026/10/09/characterai-chatbots-encouraged-users-to-cut-and-starve-themselves-kentucky-alleges",
+  "capturedAt": "2026-10-11T08:52:11Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 399353,
+    "sha256": "e3a62c2ab0b257a372eec717960d63b0d469a9e3b765c7c4c914dd8284968db1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F32F42BB7F0E00812A5717F09C85499C",
+      "status": 200,
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/09/characterai-chatbots-encouraged-users-to-cut-and-starve-themselves-kentucky-alleges",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4535,
+      "afterScrollHeight": 4535,
+      "wantedHeight": 4535
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b3a7f114d151a2b51831bfac00a9abd117e123cd6091de698226f9b832cc1739",
+    "width": 1366,
+    "height": 4535,
+    "bytes": 1175972,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4535,
+    "afterScrollHeight": 4535
+  },
+  "record": {
+    "capturedAt": "2026-10-11T08:52:11Z",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/10/09/characterai-chatbots-encouraged-users-to-cut-and-starve-themselves-kentucky-alleges",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 399353,
+      "sha256": "e3a62c2ab0b257a372eec717960d63b0d469a9e3b765c7c4c914dd8284968db1"
+    },
+    "finalUrl": "https://www.thestar.com.my/tech/tech-news/2026/10/09/characterai-chatbots-encouraged-users-to-cut-and-starve-themselves-kentucky-alleges",
+    "httpStatus": 200,
+    "title": "Character.AI chatbots encouraged users to cut and starve themselves, Kentucky alleges | The Star",
+    "rendered": {
+      "textChars": 6441,
+      "textSha256": "865a455c2692865753db2893d2c7049091468e179a3906aedc9e20e8f9b520b6",
+      "htmlSha256": "0447478b15aa59f6664db3e324b94efbda29e8e44a605caf3509bf42bb01bebb"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b3a7f114d151a2b51831bfac00a9abd117e123cd6091de698226f9b832cc1739",
+      "width": 1366,
+      "height": 4535,
+      "bytes": 1175972,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261009004913",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261009004913/https://www.thestar.com.my/tech/tech-news/2026/10/09/characterai-chatbots-encouraged-users-to-cut-and-starve-themselves-kentucky-alleges"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261011085251/https://www.thestar.com.my/tech/tech-news/2026/10/09/characterai-chatbots-encouraged-users-to-cut-and-starve-themselves-kentucky-alleges",
+      "timestamp": "20261011085251",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000286",
+  "url": "https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities",
+  "capturedAt": "2026-10-10T12:05:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 34356,
+    "sha256": "270f7a2f0ddff8e8c87fd445019938d4532d8fbc6f4f5767295b8d0ca2828a46",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9BDC8CB034D1D39F4A2D56F96B16CBBF",
+      "status": 200,
+      "url": "https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5507,
+      "afterScrollHeight": 5507,
+      "wantedHeight": 5507
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "970ff3eae4197838ac73e5d886c9b2eafb3195f4943db70bdcd142e74a1a746a",
+    "width": 1366,
+    "height": 5507,
+    "bytes": 1116523,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5507,
+    "afterScrollHeight": 5507
+  },
+  "record": {
+    "capturedAt": "2026-10-10T12:05:56Z",
+    "url": "https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 34356,
+      "sha256": "270f7a2f0ddff8e8c87fd445019938d4532d8fbc6f4f5767295b8d0ca2828a46"
+    },
+    "finalUrl": "https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities",
+    "httpStatus": 200,
+    "title": "Building a more secure environment for evaluating dangerous capabilities | AISI Work",
+    "rendered": {
+      "textChars": 11802,
+      "textSha256": "f2c647c3dae28812e1ef17fd348e028368f4ba53f4d7835ab85c9932e80bc531",
+      "htmlSha256": "fb969a36dfca8be47c77fdb46aec7d4073e828cae6a8057eaa99844f90b3dbf0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "970ff3eae4197838ac73e5d886c9b2eafb3195f4943db70bdcd142e74a1a746a",
+      "width": 1366,
+      "height": 5507,
+      "bytes": 1116523,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261002093844",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261002093844/https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261006141329/https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities",
+      "timestamp": "20261006141329",
+      "verifiedHttp": 200
+    }
+  }
+}

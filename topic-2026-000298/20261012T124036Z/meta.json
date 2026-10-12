@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000298",
+  "url": "https://snscratchpad.com/posts/models-as-insider-risks/",
+  "capturedAt": "2026-10-12T12:40:36Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 9609,
+    "sha256": "062f0589a58f812e2a2b8d50e050ceda8ed928ede875d4418231e6c311fa135f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F04B409A64E1B8D88C1D6B4FDF8E8AC9",
+      "status": 200,
+      "url": "https://snscratchpad.com/posts/models-as-insider-risks/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3207,
+      "afterScrollHeight": 3207,
+      "wantedHeight": 3207
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7876f06eca8cff17d84e3752b9e1e4533dac5a80882b6a70d9af46403abb205e",
+    "width": 1366,
+    "height": 3207,
+    "bytes": 345411,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3207,
+    "afterScrollHeight": 3207
+  },
+  "record": {
+    "capturedAt": "2026-10-12T12:40:36Z",
+    "url": "https://snscratchpad.com/posts/models-as-insider-risks/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 9609,
+      "sha256": "062f0589a58f812e2a2b8d50e050ceda8ed928ede875d4418231e6c311fa135f"
+    },
+    "finalUrl": "https://snscratchpad.com/posts/models-as-insider-risks/",
+    "httpStatus": 200,
+    "title": "Models as Insider Risks in the Super Intelligence Era | sn scratchpad",
+    "rendered": {
+      "textChars": 5345,
+      "textSha256": "dce8545cbcbe409fc14ac67a17bb28fb1cf13224a8b5c383e9ca45e919a7e4ba",
+      "htmlSha256": "8b7acdf11a5535bf873c5d78c92de44eb8788ce4b9afd5590dd1cd16b68e2bb4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7876f06eca8cff17d84e3752b9e1e4533dac5a80882b6a70d9af46403abb205e",
+      "width": 1366,
+      "height": 3207,
+      "bytes": 345411,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261010150728",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261010150728/https://snscratchpad.com/posts/models-as-insider-risks/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261012124206/https://snscratchpad.com/posts/models-as-insider-risks/",
+      "timestamp": "20261012124206",
+      "verifiedHttp": 200
+    }
+  }
+}

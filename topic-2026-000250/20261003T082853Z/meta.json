@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000250",
+  "url": "https://council.nyc.gov/press/2026/09/28/3266/",
+  "capturedAt": "2026-10-03T08:28:53Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 76271,
+    "sha256": "1977e4c185c00db4f019a4ca34d2f3436be7806543e0f7517e0f40717a187bda",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0EF71039A5C67960D18229F41AF1C8DA",
+      "status": 200,
+      "url": "https://council.nyc.gov/press/2026/09/28/3266/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2631,
+      "afterScrollHeight": 2631,
+      "wantedHeight": 2631
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "75d10d3c6dedee5d111684eea29d3a967fb607af6b1b5367d852209b3b8e03fb",
+    "width": 1366,
+    "height": 2631,
+    "bytes": 431727,
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2631,
+    "afterScrollHeight": 2631,
+    "firstAttemptError": null
+  },
+  "record": {
+    "capturedAt": "2026-10-03T08:28:53Z",
+    "url": "https://council.nyc.gov/press/2026/09/28/3266/",
+    "backfill": true,
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 76271,
+      "sha256": "1977e4c185c00db4f019a4ca34d2f3436be7806543e0f7517e0f40717a187bda"
+    },
+    "finalUrl": "https://council.nyc.gov/press/2026/09/28/3266/",
+    "httpStatus": 200,
+    "title": "New York City Council Announces Anthropic, OpenAI, Google, and Meta to Publicly Testify Under Oath for First Time Since Recent Incident Reports - Press",
+    "rendered": {
+      "textChars": 9804,
+      "textSha256": "bf19a0a6ccea29e637f817b2ca90e81bab20cf80fa83683f9d10a3e0ea236e84",
+      "htmlSha256": "e4819a089833d2f6b2b06c288e7de517dec634aad93065f726ca9246e73a368b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "75d10d3c6dedee5d111684eea29d3a967fb607af6b1b5367d852209b3b8e03fb",
+      "width": 1366,
+      "height": 2631,
+      "bytes": 431727,
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "error": "fetch failed"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}

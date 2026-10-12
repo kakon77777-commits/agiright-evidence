@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000257",
+  "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+  "capturedAt": "2026-10-04T05:43:52Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 450384,
+    "sha256": "8e345432eb5e7d8afa4db60308b72b53e0bd84648e43910ca27f964072f00bba",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D157F029F6F7BEF6D65FD1BE65D14EE1",
+      "status": 403,
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "46f3430121174aa51d0708f6b3c6c841d9af1e4936ab73bc35c2d76f0fdc7fa5",
+    "width": 1366,
+    "height": 900,
+    "bytes": 141652,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-04T05:43:52Z",
+    "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 450384,
+      "sha256": "8e345432eb5e7d8afa4db60308b72b53e0bd84648e43910ca27f964072f00bba"
+    },
+    "finalUrl": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+    "httpStatus": 403,
+    "title": "Your access has been blocked – The Atlantic",
+    "rendered": {
+      "textChars": 422,
+      "textSha256": "55cda8f8f42b4725c9e90adede4c93f1c5f0d1683be42cebb702ae7a8f045405",
+      "htmlSha256": "0dc96fbb759feb1644e53e6974ce50a04c5deb40046b8518272aceab9919f7f5"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "46f3430121174aa51d0708f6b3c6c841d9af1e4936ab73bc35c2d76f0fdc7fa5",
+      "width": 1366,
+      "height": 900,
+      "bytes": 141652,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261004031505/https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/",
+      "timestamp": "20261004031505",
+      "verifiedHttp": 200
+    }
+  }
+}

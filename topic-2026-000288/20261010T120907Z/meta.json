@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000288",
+  "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+  "capturedAt": "2026-10-10T12:09:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 124641,
+    "sha256": "025aa5fbeac575cb9e9d52cbad336379edb86e21252570e16240e4d98cca8b88",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "61FFF5DE4741FB04FD8A62D308A1DF73",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5552,
+      "afterScrollHeight": 5552,
+      "wantedHeight": 5552
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "fdc105a1fa180286953b76502b6eed0c671f7707bbb0df2512071bed7e8162a6",
+    "width": 1366,
+    "height": 5552,
+    "bytes": 881870,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5552,
+    "afterScrollHeight": 5552
+  },
+  "record": {
+    "capturedAt": "2026-10-10T12:09:07Z",
+    "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 124641,
+      "sha256": "025aa5fbeac575cb9e9d52cbad336379edb86e21252570e16240e4d98cca8b88"
+    },
+    "finalUrl": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+    "httpStatus": 200,
+    "title": "An opt-in vulnerability-finding service for open-source software \\ Anthropic",
+    "rendered": {
+      "textChars": 9280,
+      "textSha256": "66cb07585f63baacec0b18ba243136bcce7df96a7833b97ab2a8d28e74de6bda",
+      "htmlSha256": "82f35ce7608e11f3b27c0a2ba31c2866269a87248c8cac4f6ef14ba763c25803"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "fdc105a1fa180286953b76502b6eed0c671f7707bbb0df2512071bed7e8162a6",
+      "width": 1366,
+      "height": 5552,
+      "bytes": 881870,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261008190958",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261008190958/https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261010121002/https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "timestamp": "20261010121002",
+      "verifiedHttp": 200
+    }
+  }
+}

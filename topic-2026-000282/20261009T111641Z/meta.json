@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000282",
+  "url": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+  "capturedAt": "2026-10-09T11:16:41Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 40382,
+    "sha256": "cb4eb632a509d2490c8341f396713f07a075b20f941adb5d143e915dc3bd6f54",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CDA582BEFEF749DA70436EA8ED89EC40",
+      "status": 200,
+      "url": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2001,
+      "afterScrollHeight": 2001,
+      "wantedHeight": 2001
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e44dfe06239f915c77622f7553aeaa5a836c8a746972c6fcf7a65129123992cb",
+    "width": 1366,
+    "height": 2001,
+    "bytes": 230355,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2001,
+    "afterScrollHeight": 2001
+  },
+  "record": {
+    "capturedAt": "2026-10-09T11:16:41Z",
+    "url": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 40382,
+      "sha256": "cb4eb632a509d2490c8341f396713f07a075b20f941adb5d143e915dc3bd6f54"
+    },
+    "finalUrl": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+    "httpStatus": 200,
+    "title": "ChatGPT for Teens Poses Unacceptable Risk to Kids, Common Sense Media Finds | Common Sense Media",
+    "rendered": {
+      "textChars": 6830,
+      "textSha256": "25fdbc35edbbf0c9effe8d64b38bc7361255be575c87cf08c5fb8c94463790f4",
+      "htmlSha256": "8f52428676e246e34eadd355acaeece22c2ee14ad57a66623f852310e6fdd2f5"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e44dfe06239f915c77622f7553aeaa5a836c8a746972c6fcf7a65129123992cb",
+      "width": 1366,
+      "height": 2001,
+      "bytes": 230355,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "error": "cdx HTTP 503"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261009111723/https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+      "timestamp": "20261009111723",
+      "verifiedHttp": 200
+    }
+  }
+}

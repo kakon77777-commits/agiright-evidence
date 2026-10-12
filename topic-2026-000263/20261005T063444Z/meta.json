@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000263",
+  "url": "https://teamhuman.org",
+  "capturedAt": "2026-10-05T06:34:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 118696,
+    "sha256": "78a0c148fa53264941367305db2fee6d989240d2637b3fac040e13f413ac3f99",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.53",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "44DCEEE544CD4F0DB1DEC6A1AC36F354",
+      "status": 200,
+      "url": "https://www.teamhuman.org/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8133,
+      "afterScrollHeight": 8133,
+      "wantedHeight": 8133
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "9b49d78f401918320f3cb8013ad639c5807e69932971a67dbd93ef8137629f54",
+    "width": 1366,
+    "height": 8133,
+    "bytes": 401297,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8133,
+    "afterScrollHeight": 8133
+  },
+  "record": {
+    "capturedAt": "2026-10-05T06:34:44Z",
+    "url": "https://teamhuman.org",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 118696,
+      "sha256": "78a0c148fa53264941367305db2fee6d989240d2637b3fac040e13f413ac3f99"
+    },
+    "finalUrl": "https://www.teamhuman.org/",
+    "httpStatus": 200,
+    "title": "#TeamHuman: Keep Humans in Control of AI",
+    "rendered": {
+      "textChars": 7758,
+      "textSha256": "cd379384a9a853efaf582a02fd4e9aeef267c795a95a716edb11681fe4884c26",
+      "htmlSha256": "513a9df0388f1e4441b11d9b2bed29ef75094bc86d8e38466a1917b44a333c44"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9b49d78f401918320f3cb8013ad639c5807e69932971a67dbd93ef8137629f54",
+      "width": 1366,
+      "height": 8133,
+      "bytes": 401297,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.53)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20081119141033",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20081119141033/https://teamhuman.org"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261005063615/https://teamhuman.org",
+      "timestamp": "20261005063615",
+      "verifiedHttp": 200
+    }
+  }
+}

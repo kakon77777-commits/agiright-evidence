@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000271",
+  "url": "https://www.france24.com/en/live-news/20261006-eu-vows-ai-rules-will-protect-europeans-will-they",
+  "capturedAt": "2026-10-07T07:11:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 1875,
+    "sha256": "1f5c84d1629a427c3308c3ffdbd639b9deb2cac3f017907c4211893ba9179e71",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E6123D904F7A043D75DF191C107F4015",
+      "status": 200,
+      "url": "https://www.france24.com/en/live-news/20261006-eu-vows-ai-rules-will-protect-europeans-will-they",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6057,
+      "afterScrollHeight": 6057,
+      "wantedHeight": 6057
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c42cbfca35747858d78364ab6b7230682ee67216ca07d9e7a01173dde5b8096d",
+    "width": 1366,
+    "height": 6057,
+    "bytes": 528205,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6057,
+    "afterScrollHeight": 6057
+  },
+  "record": {
+    "capturedAt": "2026-10-07T07:11:44Z",
+    "url": "https://www.france24.com/en/live-news/20261006-eu-vows-ai-rules-will-protect-europeans-will-they",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 1875,
+      "sha256": "1f5c84d1629a427c3308c3ffdbd639b9deb2cac3f017907c4211893ba9179e71"
+    },
+    "finalUrl": "https://www.france24.com/en/live-news/20261006-eu-vows-ai-rules-will-protect-europeans-will-they",
+    "httpStatus": 200,
+    "title": "EU vows AI rules will protect Europeans. Will they?",
+    "rendered": {
+      "textChars": 5734,
+      "textSha256": "930182eb4935787cbece2755fd9940debd67c04740072bf01fa2d8a64df1bdde",
+      "htmlSha256": "98d131694ecf3a00e98f1e23d1366481c2671e019c816d79c5dbfcc314781547"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c42cbfca35747858d78364ab6b7230682ee67216ca07d9e7a01173dde5b8096d",
+      "width": 1366,
+      "height": 6057,
+      "bytes": 528205,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261007071236/https://www.france24.com/en/live-news/20261006-eu-vows-ai-rules-will-protect-europeans-will-they",
+      "timestamp": "20261007071236",
+      "verifiedHttp": 200
+    }
+  }
+}

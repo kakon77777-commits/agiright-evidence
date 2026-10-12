@@ -1,0 +1,73 @@
+{
+  "id": "topic-2026-000275",
+  "url": "https://www.minister.industry.gov.au/charlton/media/speech-the-sydney-trust-and-safety-festival",
+  "capturedAt": "2026-10-08T11:44:30Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "The operation was aborted due to timeout"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": "net::ERR_HTTP2_PROTOCOL_ERROR",
+    "document": null,
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8bbb28d3758bf9c925c03d58332c2e105f67ae769cf5c471004751442269efdc",
+    "width": 1366,
+    "height": 900,
+    "bytes": 33362,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-08T11:44:30Z",
+    "url": "https://www.minister.industry.gov.au/charlton/media/speech-the-sydney-trust-and-safety-festival",
+    "raw": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "title": "www.minister.industry.gov.au",
+    "finalUrl": "chrome-error://chromewebdata/",
+    "rendered": {
+      "textChars": 273,
+      "textSha256": "27f779b09b9b5a220224850ddcd7433a59a292da889fbf066f559e8f5541a51a",
+      "htmlSha256": "350ac74aacd1605f68e0faed4bf1244d419f8d9341f9ff4b9ffae9b21557a8bc"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8bbb28d3758bf9c925c03d58332c2e105f67ae769cf5c471004751442269efdc",
+      "width": 1366,
+      "height": 900,
+      "bytes": 33362,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "navError": "net::ERR_HTTP2_PROTOCOL_ERROR",
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261008073920",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261008073920/https://www.minister.industry.gov.au/charlton/media/speech-the-sydney-trust-and-safety-festival"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

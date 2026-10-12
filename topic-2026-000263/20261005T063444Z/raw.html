@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>#TeamHuman: Keep Humans in Control of AI</title>
+<meta name="description" content="Join the movement to keep humans in control of AI. Add your name.">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="brand/handprint.png">
+<meta property="og:title" content="#TeamHuman: Keep Humans in Control of AI">
+<meta property="og:description" content="AI could be the best thing that ever happens to humanity. It could also be the last. Add your name.">
+<meta property="og:image" content="https://teamhuman.org/brand/og-card.png">
+<meta property="og:url" content="https://teamhuman.org/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="brand/wordmark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:WONK,ital,opsz,wght@0,0,9..144,400..900;0,1,9..144,400..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site.css">
+<script src="/theme.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  ::selection { background: var(--terracotta); color: var(--cream); }
+  :focus-visible { outline: 2px solid var(--terracotta); outline-offset: 2px; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--parchment);
+    color: var(--charcoal);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* paper grain over everything, like the brand book’s printed-on-paper texture */
+  body::after {
+    content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 300;
+    opacity: .045; mix-blend-mode: multiply;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .progress {
+    position: fixed; top: 0; left: 0; height: 3px; width: 0;
+    background: var(--terracotta); z-index: 120;
+  }
+  .wrap { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+  .serif { font-family: 'Fraunces', Georgia, serif; }
+
+  /* ---------- NAV ---------- */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 90;
+    padding-top: env(safe-area-inset-top);
+    background: rgba(246,239,227,.92);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+    transition: box-shadow .3s;
+  }
+  nav.scrolled { box-shadow: 0 8px 28px rgba(94,70,48,.1); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 66px; }
+  .lockup { display: flex; align-items: center; text-decoration: none; }
+  .lockup img { height: 34px; width: auto; display: block; }
+  .nav-links { display: flex; align-items: center; gap: 30px; }
+  .nav-links a:not(.btn) {
+    color: var(--charcoal); text-decoration: none; font-size: .92rem; font-weight: 500;
+    transition: color .2s;
+  }
+  .nav-links a:not(.btn):hover { color: var(--saffron); }
+  .btn {
+    display: inline-block; background: var(--terracotta); color: var(--cream);
+    font-weight: 600; text-decoration: none; border: none; cursor: pointer;
+    padding: 12px 26px; border-radius: 8px; font-size: .85rem; font-family: inherit;
+    letter-spacing: .12em; text-transform: uppercase;
+    box-shadow: 0 1px 2px rgba(32,28,23,.14), 0 4px 14px rgba(94,70,48,.22);
+    transition: background .2s, transform .15s, box-shadow .2s;
+  }
+  .btn:hover { background: var(--terracotta-dark); transform: translateY(-1px); box-shadow: 0 2px 4px rgba(32,28,23,.16), 0 8px 22px rgba(94,70,48,.28); }
+  .btn:active { transform: translateY(0); box-shadow: 0 1px 2px rgba(32,28,23,.18); }
+  .btn-nav { padding: 9px 18px; font-size: .78rem; }
+  .btn-ghost {
+    background: var(--cream); color: var(--walnut); border: 1px solid var(--sand);
+    box-shadow: none;
+  }
+  .btn-ghost:hover { background: var(--parchment); }
+
+  /* ---------- HERO ---------- */
+  header {
+    position: relative; overflow: hidden;
+    padding: calc(144px + env(safe-area-inset-top)) 0 72px;
+    background: var(--parchment);
+  }
+  .hero-cloud { position: absolute; left: 0; right: 0; bottom: -2px; pointer-events: none; z-index: 0; mix-blend-mode: multiply; }
+  .hero-cloud img { width: 100%; height: auto; display: block; opacity: .42; }
+  @media (max-width: 700px) { .hero-cloud img { opacity: .3; } }
+
+  /* partner credit: black CAIS logomark inline with the name */
+  /* creator wall: every creator who has signed, as channel photos under the quotes */
+  .wall { max-width: 940px; margin: 46px auto 0; padding-top: 40px; border-top: 1px solid var(--line); }
+  .face-wall {
+    list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
+    gap: 28px 16px;
+  }
+  .face-wall a {
+    display: flex; flex-direction: column; align-items: center; text-align: center;
+    color: inherit; text-decoration: none;
+  }
+  .face-wall img, .fw-mono {
+    width: 84px; height: 84px; border-radius: 50%; object-fit: cover; display: block;
+    border: 2px solid var(--cream); box-shadow: 0 0 0 1.5px var(--walnut);
+    transition: transform .25s;
+  }
+  .fw-mono {
+    display: flex; align-items: center; justify-content: center;
+    background: var(--terracotta); color: var(--cream);
+    font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-size: 1.9rem;
+  }
+  .face-wall a:hover img, .face-wall a:focus-visible img,
+  .face-wall a:hover .fw-mono, .face-wall a:focus-visible .fw-mono { transform: translateY(-2px); }
+  .fw-name { margin-top: 10px; font-weight: 600; font-size: .88rem; line-height: 1.25; color: var(--charcoal); transition: color .2s; }
+  .face-wall a:hover .fw-name { color: var(--saffron); }
+  .fw-subs { margin-top: 2px; font-size: .74rem; font-weight: 700; letter-spacing: .02em; color: var(--terracotta); font-variant-numeric: tabular-nums; }
+  .fw-more-row { margin-top: 36px; text-align: center; }
+  /* .btn sets its own display, which would otherwise override the hidden attribute */
+  #wallMore[hidden] { display: none; }
+  @media (max-width: 560px) {
+    .face-wall { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px 10px; }
+    .face-wall img, .fw-mono { width: 68px; height: 68px; }
+    .fw-mono { font-size: 1.5rem; }
+    .fw-name { font-size: .8rem; overflow-wrap: anywhere; }
+  }
+  #voices h2 em { font-style: italic; color: var(--terracotta); }
+  .lit-link { color: inherit; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+  .lit-link:hover { color: var(--saffron); }
+  .hero-center { position: relative; z-index: 1; text-align: center; max-width: 820px; margin: 0 auto; }
+  h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(2.4rem, 5.4vw, 3.9rem);
+    font-weight: 560; letter-spacing: -.015em; line-height: 1.12;
+    color: var(--charcoal);
+  }
+  h1, h2, .closer { text-wrap: balance; }
+  .skip-link {
+    position: absolute; left: -9999px; top: 0; z-index: 200;
+    background: var(--charcoal); color: var(--cream); padding: 10px 18px;
+    border-radius: 0 0 8px 0; text-decoration: none; font-weight: 600;
+  }
+  .skip-link:focus { left: 0; }
+  h1 em {
+    font-style: italic; color: var(--terracotta); font-weight: 600;
+  }
+  h1 em, .demand-lead em, .track-headline em, #voices h2 em, #experts h2 {
+    text-decoration: underline; text-decoration-color: var(--saffron);
+    text-decoration-thickness: .09em; text-underline-offset: .16em;
+    text-decoration-skip-ink: none;
+  }
+  .hero-kicker {
+    margin-top: 30px; font-size: .8rem; font-weight: 700; letter-spacing: .22em;
+    text-transform: uppercase; color: var(--charcoal);
+    display: flex; align-items: center; justify-content: center; gap: 18px;
+  }
+  .hero-kicker::before, .hero-kicker::after {
+    content: ""; width: 54px; height: 1px; background: var(--taupe); opacity: .6;
+  }
+  .hero-sub {
+    font-size: 1.18rem; color: #4c443a; max-width: 560px; margin: 24px auto 0;
+  }
+  .solo-label {
+    display: inline-block; margin-top: 10px; font-size: .86rem; font-weight: 500;
+    color: var(--walnut); text-decoration: none; transition: color .2s;
+  }
+  .solo-label:hover { color: var(--terracotta); }
+  .facepile {
+    margin-top: 18px; display: flex; flex-direction: column; align-items: center;
+    gap: 12px; text-decoration: none;
+  }
+  .faces { display: flex; }
+  .faces img, .face-more {
+    width: 56px; height: 56px; border-radius: 50%; object-fit: cover;
+    border: 2px solid var(--parchment); box-shadow: 0 0 0 1px var(--walnut);
+    margin-left: -14px;
+  }
+  .faces img:first-child { margin-left: 0; }
+  @media (max-width: 640px) { .faces img, .face-more { width: 42px; height: 42px; margin-left: -11px; } }
+  .face-more {
+    display: flex; align-items: center; justify-content: center;
+    background: var(--cream); color: var(--walnut);
+    font-weight: 700; font-size: 1.15rem;
+  }
+  .face-label { font-size: .86rem; font-weight: 500; color: var(--walnut); transition: color .2s; }
+  .facepile:hover .face-label { color: var(--terracotta); }
+  @media (max-width: 480px) { .faces img:nth-child(n+7) { display: none; } }
+
+  /* pledge card */
+  .pledge-card {
+    position: relative; z-index: 2; scroll-margin-top: calc(82px + env(safe-area-inset-top));
+    max-width: 480px; margin: 46px auto 0;
+    background: var(--cream);
+    border: 1px solid rgba(94,70,48,.14);
+    border-radius: 14px; padding: 26px 26px 28px;
+    box-shadow: 0 18px 50px rgba(94,70,48,.14);
+    text-align: center;
+    --glow: rgba(196,98,58,.42);
+  }
+  /* On phones, "Add Your Name" opens the pledge card as a pop-up instead of
+     scrolling back to the top. It is the card itself, lifted out of the page,
+     not a copy, so the security check inside it keeps working. */
+  .pledge-close { display: none; }
+  .pledge-backdrop { display: none; }
+  @media (max-width: 700px) {
+    html.pledge-pop, html.pledge-pop body { overflow: hidden; }
+    /* The hero wrapper is its own layer (z-index 1), which would trap the card
+       under the nav; lift it while the pop-up is open. */
+    html.pledge-pop .hero-center { z-index: 230; }
+    html.pledge-pop .pledge-card:focus { outline: none; }
+    html.pledge-pop .pledge-backdrop { display: block; position: fixed; inset: 0; z-index: 210; background: rgba(32,28,23,.55); }
+    html.pledge-pop .pledge-card {
+      position: fixed; z-index: 220; top: 12px; left: 12px; right: 12px; margin: 0;
+      max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px);
+      overflow-y: auto; overscroll-behavior: contain; padding-top: 34px;
+    }
+    html.pledge-pop .pledge-close {
+      display: flex; align-items: center; justify-content: center;
+      position: absolute; top: 6px; right: 6px; width: 40px; height: 40px;
+      border: 0; border-radius: 50%; background: transparent; color: var(--charcoal);
+      font-size: 1.7rem; line-height: 1; cursor: pointer;
+    }
+    html.pledge-pop .pledge-close:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 2px; }
+  }
+  /* "Add Your Name" in the nav gives the card a soft warm glow that fades in
+     and out (see the script). It is drawn by a layer of its own, so the
+     card's shadow is untouched in either theme. */
+  .pledge-card::after {
+    content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+    box-shadow: 0 0 34px 8px var(--glow); opacity: 0;
+  }
+  .pledge-card.glow::after { animation: pledgeGlow .5s ease-in-out; }
+  @keyframes pledgeGlow { 50% { opacity: 1; } }
+  .pledge-fine a, .disclaimer a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  .pledge-fine a:hover, .disclaimer a:hover { color: var(--saffron); }
+  .disclaimer + .disclaimer { margin-top: 8px; }
+  .creator-link {
+    display: inline-block; margin-top: 18px; text-decoration: none;
+    background: rgba(43,120,152,.06); border: 1.5px solid rgba(43,120,152,.35);
+    border-radius: 999px; padding: 11px 24px;
+    font: inherit; font-size: .95rem; font-weight: 700; color: var(--terracotta);
+    cursor: pointer; transition: background .2s, border-color .2s, transform .15s;
+  }
+  .creator-link:hover {
+    background: rgba(43,120,152,.12); border-color: var(--moss); transform: translateY(-1px);
+  }
+  .toggle {
+    display: flex; background: var(--parchment); border: 1px solid var(--line);
+    border-radius: 10px; padding: 4px; margin-bottom: 20px;
+  }
+  .toggle button, .toggle a {
+    flex: 1; border: none; background: transparent; font-family: inherit;
+    font-size: .92rem; font-weight: 600; color: var(--slate); text-decoration: none;
+    text-align: center; padding: 9px 0; border-radius: 7px; cursor: pointer; transition: all .2s;
+  }
+  .toggle a:hover { background: rgba(43,120,152,.12); }
+  .toggle .active { background: var(--terracotta); color: var(--cream); box-shadow: 0 1px 4px rgba(94,70,48,.3); }
+  .pledge-title {
+    font-family: 'Fraunces', Georgia, serif; font-weight: 700;
+    font-size: 1.3rem; letter-spacing: .12em; color: var(--slate);
+  }
+  .pledge-lead { font-size: .95rem; color: #4c443a; margin: 6px 0 18px; }
+  .fields { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; text-align: left; }
+  .fields .full { grid-column: 1 / -1; }
+  .fields input, .fields select {
+    width: 100%; background: var(--parchment); border: 1px solid rgba(94,70,48,.22);
+    border-radius: 8px; padding: 13px 14px; font-size: .92rem; font-family: inherit;
+    color: var(--charcoal); transition: border-color .2s, box-shadow .2s; appearance: none; -webkit-appearance: none;
+  }
+  .fields input:hover, .fields select:hover { border-color: rgba(94,70,48,.42); }
+  .fields select { background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M1 1l5 5 5-5' stroke='%235e4630' stroke-width='1.6' fill='none' stroke-linecap='round'/></svg>"); background-repeat: no-repeat; background-position: right 14px center; }
+  .fields select:invalid { color: #8d8272; }
+  .fields input::placeholder { color: #8d8272; }
+  .fields input:focus, .fields select:focus { outline: none; border-color: var(--moss); box-shadow: 0 0 0 3px rgba(43,120,152,.14); }
+  .also {
+    background: rgba(203,185,157,.22); border: 1px solid rgba(94,70,48,.12);
+    border-radius: 10px; padding: 14px 16px; margin-top: 10px; text-align: left;
+  }
+  #signedState:not([hidden]) { animation: popIn .5s cubic-bezier(.34,1.56,.64,1); }
+  @keyframes popIn { 0% { transform: scale(.92); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+
+  /* creator step-by-step (inside pledge card) */
+  .steps { list-style: none; counter-reset: step; text-align: left; margin: 4px 0 6px; }
+  .steps li {
+    counter-increment: step; position: relative;
+    padding: 12px 0 12px 44px; font-size: .92rem; color: #4c443a;
+    border-bottom: 1px solid rgba(94,70,48,.1);
+  }
+  .steps li:last-child { border-bottom: none; }
+  .steps li::before {
+    content: counter(step); position: absolute; left: 0; top: 12px;
+    width: 28px; height: 28px; border-radius: 50%;
+    background: var(--terracotta); color: var(--cream);
+    font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-size: .95rem;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .steps li strong { color: var(--charcoal); }
+  .txt-btn {
+    background: none; border: none; padding: 0; font: inherit; font-weight: 600;
+    color: var(--terracotta); cursor: pointer; text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .txt-btn:hover { color: var(--terracotta-dark); }
+
+  /* learn-more scroll cue under the pledge card */
+  .learn-more {
+    display: inline-flex; flex-direction: column; align-items: center; gap: 2px;
+    margin-top: 30px; text-decoration: none;
+    font-size: .78rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--walnut); opacity: .75; transition: color .2s, opacity .2s;
+  }
+  .learn-more:hover { color: var(--saffron); opacity: 1; }
+  .lm-arrow { font-size: 1.05rem; letter-spacing: 0; animation: lmBob 2.2s ease-in-out infinite; }
+  @media (prefers-reduced-motion: reduce) { .lm-arrow { animation: none; } }
+  @keyframes lmBob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
+  .also-label { font-size: .74rem; font-weight: 700; letter-spacing: .18em; color: var(--walnut); margin-bottom: 8px; }
+  .also label {
+    display: flex; align-items: flex-start; gap: 10px; padding: 8px 0;
+    font-size: .88rem; color: #4c443a; cursor: pointer;
+  }
+  .also input { position: absolute; opacity: 0; pointer-events: none; }
+  .box {
+    flex-shrink: 0; width: 17px; height: 17px; border-radius: 4px; margin-top: 2px;
+    border: 1.5px solid var(--taupe); background: var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    color: transparent; font-size: .68rem; font-weight: 800; transition: all .15s;
+  }
+  .also input:checked + .box { background: var(--slate); border-color: var(--slate); color: var(--cream); animation: stampCheck .28s cubic-bezier(.34,1.56,.64,1); }
+  .also-txt { display: inline; }
+  .tip {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 16px; height: 16px; margin-left: 6px; vertical-align: 1px;
+    border-radius: 50%; border: 1px solid var(--taupe); background: var(--cream);
+    color: var(--walnut); font-size: .62rem; font-weight: 700;
+    font-family: Georgia, serif; font-style: italic; line-height: 1;
+    cursor: help; position: relative;
+  }
+  .tip:hover, .tip:focus-visible, .tip.open { border-color: var(--terracotta); color: var(--terracotta); }
+  /* bigger tap targets for the tiny inline controls (padding on inline elements
+     does not change line layout); Lighthouse flags anything under 24px */
+  .tip-star { padding: 8px 6px; margin: -8px -6px; }
+  .tip-star {
+    width: auto; height: auto; margin-left: 2px; border: none; background: none;
+    font-family: 'Inter', sans-serif; font-style: normal; font-size: .95em;
+    font-weight: 700; color: var(--terracotta); vertical-align: super; line-height: 1;
+  }
+  .tip-star:hover, .tip-star:focus-visible, .tip-star.open { border: none; color: var(--terracotta-dark); }
+  .tip::after {
+    content: attr(data-tip);
+    position: absolute; bottom: calc(100% + 10px); left: 50%;
+    transform: translateX(-50%) translateY(4px);
+    width: 250px; padding: 10px 13px; border-radius: 8px;
+    background: var(--charcoal); color: var(--cream);
+    font-family: 'Inter', sans-serif; font-size: .78rem; font-weight: 400;
+    font-style: normal; line-height: 1.5; text-align: left;
+    opacity: 0; visibility: hidden; pointer-events: none;
+    transition: opacity .2s, transform .2s; z-index: 60;
+    box-shadow: 0 8px 24px rgba(32,28,23,.25);
+  }
+  .tip::before {
+    content: ""; position: absolute; bottom: calc(100% + 4px); left: 50%;
+    transform: translateX(-50%); border: 6px solid transparent;
+    border-top-color: var(--charcoal);
+    opacity: 0; visibility: hidden; transition: opacity .2s; z-index: 60;
+  }
+  .tip:hover::after, .tip:focus-visible::after, .tip.open::after { opacity: 1; visibility: visible; transform: translateX(-50%) translateY(0); }
+  .tip:hover::before, .tip:focus-visible::before, .tip.open::before { opacity: 1; visibility: visible; }
+  @media (max-width: 700px) {
+    .tip:not(.tip-star)::after { left: auto; right: -12px; transform: translateY(4px); }
+    /* star tips sit near the middle of a centred line, so keep them centred and
+       narrow enough to stay on a phone screen */
+    .tip-star::after { width: min(250px, 78vw); }
+    .tip:not(.tip-star):hover::after, .tip:not(.tip-star):focus-visible::after, .tip:not(.tip-star).open::after { transform: translateY(0); }
+    .tip-star:hover::after, .tip-star:focus-visible::after, .tip-star.open::after { transform: translateX(-50%) translateY(0); }
+    .tip:not(.tip-star)::before { left: auto; right: -8px; transform: none; }
+  }
+  @keyframes stampCheck { 0% { transform: scale(.5) rotate(-10deg); } 100% { transform: scale(1) rotate(0); } }
+  .also input:focus-visible + .box { outline: 2px solid var(--terracotta); outline-offset: 2px; }
+  .pledge-error { color: var(--terracotta); font-size: .85rem; font-weight: 600; min-height: 20px; margin-top: 8px; }
+  .pledge-lead-solo { font-size: 1.02rem; font-weight: 600; color: var(--charcoal); margin: 4px 0 20px; line-height: 1.55; }
+  /* Inter draws its quote marks as straight wedges; the serif's are curly. */
+  .pledge-lead-solo .q { font-family: 'Fraunces', Georgia, serif; }
+  /* same type as the hero kicker ("Led by your favorite creators…") */
+  .pledge-kicker {
+    font-size: .85rem; font-weight: 700; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--saffron); margin-bottom: 10px;
+  }
+  /* Phones: a little less padding and slightly smaller type keep the kicker on
+     one line and the statement to four. Wider screens are untouched. */
+  @media (max-width: 480px) {
+    .pledge-card { padding: 24px 18px 26px; }
+    .pledge-kicker { font-size: .77rem; letter-spacing: .16em; }
+    .pledge-lead-solo { font-size: .96rem; text-wrap: balance; }
+  }
+  /* Pledge form. 16px inputs because iOS Safari zooms the page whenever a
+     focused control is smaller than that. */
+  .nf { display: block; text-align: left; margin-top: 10px; }
+  .nf[hidden], .nf-consent[hidden], .nf-skip[hidden] { display: none; }
+  .nf-consent { margin: 2px 0 12px; font-size: .86rem; font-weight: 500; color: #4c443a; text-wrap: balance; }
+  .nf-skip {
+    display: block; margin: 12px auto 0; padding: 2px 4px; border: 0; background: none; cursor: pointer;
+    font: inherit; font-size: .8rem; color: var(--walnut); text-decoration: underline; text-underline-offset: 3px;
+  }
+  .nf-skip:hover { color: var(--terracotta); }
+  .nf-skip[disabled] { opacity: .65; cursor: default; }
+  .nf > span { display: block; font-size: .72rem; font-weight: 600; letter-spacing: .08em;
+    text-transform: uppercase; color: #746650; margin-bottom: 5px; }
+  .nf input, .nf select {
+    width: 100%; background: var(--parchment); border: 1px solid rgba(94,70,48,.22);
+    border-radius: 8px; padding: 13px 14px; font-size: 16px; font-family: inherit;
+    color: var(--charcoal); line-height: 1.3; appearance: none; -webkit-appearance: none;
+  }
+  .nf input:focus, .nf select:focus {
+    outline: none; border-color: var(--moss); box-shadow: 0 0 0 3px rgba(43,120,152,.15);
+  }
+  .nf-help { display: block; margin-top: 5px; font-size: .68rem; font-weight: 400; letter-spacing: 0; text-transform: none; color: #8a7c66; }
+  .nf-row { display: flex; gap: 10px; }
+  .nf-row .nf { flex: 1; min-width: 0; }
+  .nf-turnstile { margin-top: 14px; min-height: 65px; }
+  .nf-error { margin-top: 10px; font-size: .82rem; font-weight: 600; color: var(--terracotta); text-align: center; text-wrap: balance; }
+  /* The field a message is about glows for a moment, like the card does. */
+  .nf input.glow { animation: fieldGlow .5s ease-in-out; }
+  @keyframes fieldGlow { 50% { border-color: var(--terracotta); box-shadow: 0 0 14px 3px var(--glow); } }
+  #pledgeSubmit[disabled] { opacity: .65; cursor: default; }
+  .pledge-card .btn { width: 100%; padding: 15px 0; font-size: .9rem; margin-top: 2px; }
+  .pledge-fine { font-size: .74rem; color: var(--walnut); margin-top: 12px; }
+
+  /* ---------- SECTIONS ---------- */
+  section { padding: 68px 0; scroll-margin-top: calc(68px + env(safe-area-inset-top)); position: relative; }
+  .ornament { text-align: center; margin-bottom: 24px; }
+  .ornament img { width: 30px; height: auto; opacity: .4; mix-blend-mode: multiply; }
+  .kicker {
+    font-size: 1rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--saffron); margin-bottom: 14px;
+  }
+  h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(2rem, 4.4vw, 3rem); font-weight: 600;
+    letter-spacing: -.01em; line-height: 1.12; margin-bottom: 20px; max-width: 760px;
+  }
+  .lede { font-size: 1.12rem; color: #4c443a; max-width: 680px; }
+  .lede strong { color: var(--charcoal); }
+  .center { text-align: center; }
+  .center h2, .center .lede { margin-left: auto; margin-right: auto; }
+
+  .texture-band { position: absolute; left: 0; right: 0; bottom: -2px; pointer-events: none; }
+  .texture-band img {
+    width: 100%; height: auto; display: block; mix-blend-mode: multiply; opacity: .55;
+    -webkit-mask-image: linear-gradient(to bottom, #000 78%, rgba(0,0,0,.4) 93%, transparent 100%);
+    mask-image: linear-gradient(to bottom, #000 78%, rgba(0,0,0,.4) 93%, transparent 100%);
+  }
+
+  /* problem litany: broadsheet ruled list, not cards */
+  #problem { background: var(--cream); border-bottom: 1px solid var(--line); }
+  #problem .lede { max-width: 760px; }
+  .litany { margin-top: 52px; display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); }
+  .litany div {
+    padding: 26px 30px; font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600; font-size: 1.22rem; line-height: 1.45; color: var(--charcoal);
+    border-bottom: 1px solid var(--line);
+  }
+  .litany > div:nth-child(-n+6):nth-child(odd) { border-right: 1px solid var(--line); }
+  .litany > div:nth-child(n+7) { grid-column: 1 / -1; text-align: center; }
+  .litany > div:nth-child(n+7) { font-size: 1.5rem; padding: 34px 30px; }
+  .litany div em { font-style: italic; color: var(--terracotta); }
+  @media (max-width: 700px) {
+    .litany { grid-template-columns: 1fr; }
+    .litany > div:nth-child(-n+6):nth-child(odd) { border-right: none; }
+    .litany > div:nth-child(n+7) { text-align: left; }
+    .litany div { padding: 20px 6px; }
+  }
+  .closer {
+    margin: 46px auto 0; max-width: 880px; text-align: center;
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: clamp(1.7rem, 3.4vw, 2.5rem); font-weight: 600; line-height: 1.3;
+  }
+  .closer span { color: var(--terracotta); font-style: italic; }
+  /* the precedent closer sits right after the pressure callout's neighbourhood; keep it smaller than the problem-section closer */
+  .closer.quiet { font-size: clamp(1.15rem, 2vw, 1.45rem); font-weight: 500; max-width: 720px; line-height: 1.4; }
+
+  /* plan */
+  #plan { padding-bottom: 64px; z-index: 1; }
+  /* Equal 40%-length fades around the 72% peak; the lower tail reaches into #precedent. */
+  #plan::before {
+    content: ""; position: absolute; top: 32%; right: 0; bottom: -12%; left: 0;
+    background: linear-gradient(180deg, transparent, rgba(43,120,152,.07) 38%, rgba(43,120,152,.09) 50%, rgba(43,120,152,.07) 62%, transparent);
+    pointer-events: none;
+  }
+  #plan > .wrap { position: relative; z-index: 1; }
+  .demand-card { text-align: center; }
+  .solution-body { max-width: 760px; margin: 30px auto 0; }
+  .solution-body > p { color: #4c443a; margin-bottom: 15px; font-size: 1rem; text-align: center; }
+  .solution-body > p strong { color: var(--charcoal); }
+  .planks { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 20px; text-align: left; }
+  @media (max-width: 760px) { .planks { grid-template-columns: 1fr; } }
+  .split h3 {
+    font-family: 'Fraunces', Georgia, serif; font-size: 1.4rem; font-weight: 700;
+    margin-bottom: 14px; color: var(--forest);
+  }
+  .split p { color: #4c443a; margin-bottom: 15px; font-size: .98rem; }
+  .split p strong { color: var(--charcoal); }
+  #demand { scroll-margin-top: calc(92px + env(safe-area-inset-top)); }
+  .demand-lead {
+    font-size: clamp(2rem, 4.8vw, 3.4rem); font-weight: 600; line-height: 1.15;
+    letter-spacing: -.01em; color: var(--charcoal); max-width: 800px;
+    margin: 0 auto 6px;
+  }
+  .demand-lead em {
+    font-style: italic; color: var(--terracotta);
+  }
+  .demand-sub { font-style: italic; font-size: 1.12rem; color: var(--walnut); margin-bottom: 18px; }
+  .plank { padding: 16px 0; border-top: 1px solid var(--line); font-size: .95rem; color: #4c443a; }
+  .plank:last-of-type { border-bottom: 1px solid var(--line); }
+  /* side by side, each plank closes its own column; the grid keeps the rules level */
+  @media (min-width: 761px) { .plank { border-bottom: 1px solid var(--line); } }
+  .plank strong { font-family: 'Fraunces', Georgia, serif; font-size: 1.06rem; color: var(--charcoal); }
+  .txt-link { color: var(--saffron); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .txt-link:hover { color: #c99d36; }
+  strong .txt-link { font-weight: inherit; }
+
+  .plan-close { max-width: 680px; margin: 56px auto 0; text-align: center; }
+  .plan-close p { color: #4c443a; font-size: .98rem; margin-bottom: 14px; }
+  .plan-close p strong { color: var(--charcoal); }
+
+  /* pressure callout */
+  .pressure-callout {
+    max-width: 780px; margin: 64px auto 0; text-align: center;
+    background: var(--cream); border: 1px solid rgba(94,70,48,.16);
+    border-radius: 16px; padding: 46px 48px 42px;
+    box-shadow: 0 14px 40px rgba(94,70,48,.1);
+  }
+  @media (max-width: 640px) { .pressure-callout { padding: 30px 22px; } }
+  .pressure-callout p {
+    font-family: 'Fraunces', Georgia, serif; font-size: 1.25rem; line-height: 1.5;
+    color: var(--charcoal); margin: 0;
+  }
+  .pressure-callout p strong { font-weight: 700; }
+  .pressure-callout .pressure-line {
+    margin-top: 26px; font-size: clamp(1.3rem, 2.2vw, 1.55rem); font-weight: 700; line-height: 1.3;
+  }
+  .pressure-callout .pressure-line em { font-style: italic; color: var(--terracotta); }
+
+  /* why we signed: real quotes from real signers */
+  #voices { background: var(--cream); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  /* min() lets a card shrink below 300px on the narrowest phones instead of
+     pushing past the right edge and making the page scroll sideways */
+  .quote-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 18px; margin-top: 44px; }
+  .qcard {
+    background: var(--parchment); border: 1px solid rgba(94,70,48,.15); border-radius: 12px;
+    padding: 24px; display: flex; flex-direction: column; gap: 14px;
+    box-shadow: 0 2px 10px rgba(94,70,48,.05); transition: transform .2s, box-shadow .2s;
+  }
+  .qcard:hover { transform: translateY(-3px); box-shadow: 0 14px 34px rgba(94,70,48,.13); }
+  .qhead { display: flex; align-items: center; gap: 13px; }
+  .qhead img, .qmono {
+    width: 52px; height: 52px; border-radius: 50%; flex: 0 0 auto;
+    border: 2px solid var(--cream); box-shadow: 0 0 0 1.5px var(--walnut);
+  }
+  .qhead img { object-fit: cover; }
+  .qmono {
+    background: var(--terracotta); color: var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-size: 1.35rem;
+  }
+  .qname { font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-size: 1.05rem; line-height: 1.2; }
+  .qcard blockquote { font-size: .93rem; line-height: 1.58; color: #4c443a; }
+  .qsigned {
+    margin-top: auto; font-size: .68rem; font-weight: 700; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--terracotta); display: flex; align-items: center; gap: 7px;
+  }
+  .qsigned::before {
+    content: "\2713"; display: flex; align-items: center; justify-content: center;
+    width: 16px; height: 16px; border-radius: 50%; background: var(--terracotta);
+    color: var(--cream); font-size: .6rem;
+  }
+  /* Founding creators in the FAQ: a photo, a name and what they do. */
+  .founders {
+    list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 300px));
+    justify-content: center; gap: 32px clamp(20px, 4vw, 56px); margin: 0 auto;
+    padding: 0 0 28px; text-align: center;
+  }
+  .founders-heading { margin: 4px 0 24px; text-align: center; }
+  .founders img {
+    width: clamp(54px, 15.4vw, 92px); height: auto; aspect-ratio: 1; border-radius: 50%; object-fit: cover;
+    display: block; margin: 0 auto 14px; border: 3px solid var(--cream); box-shadow: 0 0 0 1.5px var(--walnut);
+  }
+  .founders span { display: block; font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-size: clamp(1rem, 2.6vw, 1.2rem); line-height: 1.2; }
+  .founders p { margin-top: 6px; font-size: .92rem; line-height: 1.5; color: #4c443a; text-wrap: balance; }
+  .faq-support { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 4px 0 28px; text-align: center; }
+  .founders-heading, .faq-support span { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; font-size: .9rem; font-weight: 600; color: var(--walnut); }
+  html:not([data-theme="night"]) .faq .founders-heading { color: var(--walnut); }
+  .faq-support img { display: block; height: 44px; width: auto; }
+  .faq-support .cais-night { display: none; }
+  html[data-theme="night"] .faq-support .cais-day { display: none; }
+  html[data-theme="night"] .faq-support .cais-night { display: block; }
+  /* With a line about each, three across gets too narrow below tablet width: stack them. */
+  @media (max-width: 820px) {
+    .founders { grid-template-columns: minmax(0, 340px); gap: 28px; }
+    .founders img { width: 72px; }
+  }
+  /* FAQ: ruled rows like the problem litany and the plan planks */
+  #faq { background: var(--cream); border-top: 1px solid var(--line); }
+  .faq { max-width: 720px; margin: 40px auto 0; border-bottom: 1px solid var(--line); }
+  .faq details { border-top: 1px solid var(--line); }
+  .faq summary {
+    list-style: none; cursor: pointer; position: relative; padding: 22px 44px 22px 0;
+    font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 1.22rem;
+    line-height: 1.35; color: var(--charcoal); transition: color .2s;
+  }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary::after {
+    content: "+"; position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+    font-family: 'Inter', sans-serif; font-size: 1.5rem; font-weight: 400; color: var(--terracotta);
+    transition: transform .2s;
+  }
+  .faq details[open] summary::after { transform: translateY(-50%) rotate(45deg); }
+  .faq summary:hover { color: var(--terracotta); }
+  .faq details > p { padding: 0 44px 24px 0; color: #4c443a; font-size: .98rem; max-width: 64ch; }
+  @media (max-width: 640px) {
+    .faq summary { font-size: 1.1rem; padding: 18px 36px 18px 0; }
+    .faq details > p { padding-right: 0; }
+  }
+  /* precedent */
+  #precedent { background: var(--parchment); padding-top: 16px; }
+  #precedent h2 { font-size: clamp(1.6rem, 3.4vw, 2.2rem); }
+  #precedent > .wrap { position: relative; z-index: 2; }
+  @media (max-width: 700px) {
+    .texture-band img { max-height: 150px; object-fit: cover; object-position: center top; }
+  }
+  .cards3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 50px; }
+  .pcard {
+    background: var(--cream); border: 1px solid rgba(94,70,48,.14); border-radius: 12px;
+    padding: 30px 26px; box-shadow: 0 2px 12px rgba(94,70,48,.05);
+    transition: transform .2s, box-shadow .2s;
+  }
+  .pcard:hover { transform: translateY(-3px); box-shadow: 0 10px 26px rgba(94,70,48,.12); }
+  .pcard h3 { font-family: 'Fraunces', Georgia, serif; font-size: 1.35rem; font-weight: 700; line-height: 1.25; margin-bottom: 10px; }
+  .pcard p { color: #4c443a; font-size: .92rem; }
+
+  /* finish-line track (inside the pressure callout) */
+  .finish-track { position: relative; max-width: 860px; margin: 64px auto 52px; height: 108px; }
+  .pressure-callout .finish-track { max-width: 600px; margin: 10px auto 6px; height: 128px; }
+  .pressure-callout .finish-track + p { margin-top: 30px; }
+  .ft-line {
+    position: absolute; left: 0; right: 0; bottom: 18px; height: 3px;
+    background-image: repeating-linear-gradient(90deg, var(--taupe) 0 7px, transparent 7px 16px);
+    opacity: .75;
+  }
+  .ft-dot {
+    position: absolute; bottom: 15px; width: 9px; height: 9px; border-radius: 50%;
+    background: var(--moss); transform: translateX(-50%);
+  }
+  .ft-goal {
+    position: absolute; left: 90%; bottom: 11px; width: 17px; height: 17px;
+    border: 3px solid var(--moss); border-radius: 50%;
+    background: var(--parchment); transform: translateX(-50%);
+  }
+  .ft-flag { position: absolute; right: 0; bottom: 14px; width: 58px; height: auto; transform: translateX(30%); }
+  .ft-walker {
+    position: absolute; bottom: 24px; left: 88%; width: 40px; height: auto;
+    transform: translateX(-50%);
+    transition: left 2.6s cubic-bezier(.45,.6,.3,1);
+  }
+  body.js .finish-track .ft-walker { left: 2%; }
+  body.js .finish-track.walk .ft-walker { left: 88%; animation: ftStep .37s ease-in-out 7; }
+  @keyframes ftStep { 0%, 100% { margin-bottom: 0; } 50% { margin-bottom: 4px; } }
+  @media (prefers-reduced-motion: reduce) {
+    .ft-walker { transition: none; }
+    body.js .finish-track .ft-walker { left: 88%; animation: none; }
+  }
+  .pressure-callout .track-headline {
+    font-size: clamp(1.6rem, 3.4vw, 2.2rem); font-weight: 700; line-height: 1.25;
+  }
+  .track-headline em { font-style: italic; color: var(--terracotta); }
+  /* small phones: shrink so the two lines stay two */
+  @media (max-width: 380px) { .pressure-callout .track-headline { font-size: 6.2vw; } }
+  @media (max-width: 640px) {
+    .finish-track, .pressure-callout .finish-track { height: 120px; }
+    .ft-walker { width: 26px; bottom: 22px; }
+    body.js .finish-track.walk .ft-walker { left: 80%; }
+    .ft-flag { width: 34px; bottom: 12px; }
+  }
+
+  /* footer */
+  footer .disclaimer { max-width: 460px; font-size: .8rem; color: var(--walnut); margin-top: 10px; }
+
+  /* sticky pledge bar */
+  .sticky-bar {
+    position: fixed; left: 50%; transform: translateX(-50%) translateY(140%);
+    bottom: 18px; z-index: 80; width: min(520px, calc(100vw - 32px));
+    border-radius: 12px; overflow: hidden;
+    box-shadow: 0 14px 44px rgba(32,28,23,.28);
+    transition: transform .4s cubic-bezier(.22,1,.36,1);
+  }
+  .sticky-bar.show { transform: translateX(-50%) translateY(0); }
+  .sticky-count {
+    background: var(--cream); text-align: center; padding: 11px 16px;
+    font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--walnut);
+    border: 1px solid var(--line); border-bottom: none; border-radius: 12px 12px 0 0;
+  }
+  .sticky-bar a {
+    display: block; background: var(--terracotta); color: var(--cream); text-decoration: none;
+    text-align: center; padding: 14px; font-weight: 600; font-size: .88rem;
+    letter-spacing: .16em; text-transform: uppercase;
+  }
+  .sticky-bar a:hover { background: var(--terracotta-dark); }
+
+  /* thank you modal */
+
+  /* reveal */
+  body.js .reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s ease; }
+  body.js .reveal.in { opacity: 1; transform: none; }
+  body.js .pressure-callout.reveal { transform: translateY(22px) scale(.98); }
+  body.js .pressure-callout.reveal.in { transform: none; }
+  /* staggered children */
+  body.js .litany.reveal > div { opacity: 0; transform: translateY(16px); transition: opacity .55s ease, transform .55s ease; }
+  body.js .litany.reveal.in > div { opacity: 1; transform: none; }
+  body.js .litany.reveal > div:nth-child(2) { transition-delay: .06s; }
+  body.js .litany.reveal > div:nth-child(3) { transition-delay: .12s; }
+  body.js .litany.reveal > div:nth-child(4) { transition-delay: .18s; }
+  body.js .litany.reveal > div:nth-child(5) { transition-delay: .24s; }
+  body.js .litany.reveal > div:nth-child(6) { transition-delay: .3s; }
+  body.js .litany.reveal > div:nth-child(7) { transition-delay: .36s; }
+  body.js .litany.reveal > div:nth-child(8) { transition-delay: .42s; }
+  .nav-links a:not(.btn).active { color: var(--saffron); }
+
+  @media (prefers-reduced-motion: reduce) {
+    html .pledge-card.glow::after { opacity: 1; }
+    html .nf input.glow { border-color: var(--terracotta); box-shadow: 0 0 14px 3px var(--glow); }
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: .001s !important; animation-iteration-count: 1 !important;
+      transition-duration: .001s !important; transition-delay: 0s !important;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .nav-links a:not(.btn) { display: none; }
+    .nav-links { gap: 10px; }
+    section { padding: 64px 0; }
+    header { padding-top: calc(105px + env(safe-area-inset-top)); }
+    .fields { grid-template-columns: 1fr; }
+  }
+
+  /* their title, target and "Sign This Petition" repeat the card copy above */
+  
+  /* their two floated columns are fixed-width and do not fit a 480px card */
+
+  /* the comments box is not part of this form's design */
+
+  /* their country picker is hidden behind a "Not in US?" link; the original card
+     showed a country dropdown, so show it permanently and dress it like ours */
+
+  /* our replacement for their "An error has occured" + raw 500 tab */
+
+  /* their select ships a white background that reads as a foreign control
+     next to our parchment inputs */
+
+  /* their select rule carries three ids; out-specify it so the real <select> (what iOS focuses) is 16px too */
+
+  /* Expert signatories. Grouped by category on purpose: the breadth is the
+     argument, so it has to be visible at a glance rather than only asserted. */
+  #experts .sig-groups {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 34px 28px; margin-top: 46px; text-align: left;
+  }
+  .sig-group h3 {
+    font-size: .68rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase;
+    color: var(--terracotta); margin-bottom: 14px;
+    padding-bottom: 8px; border-bottom: 1px solid rgba(94,70,48,.16);
+  }
+  .sig-group ul { list-style: none; margin: 0; padding: 0; }
+  .sig-group li { margin-bottom: 13px; }
+  .sn { display: block; font-weight: 600; font-size: .92rem; color: var(--charcoal); line-height: 1.3; }
+  .st { display: block; font-size: .75rem; color: #8a7c66; line-height: 1.38; margin-top: 2px; }
+  .sig-note { margin-top: 42px; text-align: center; font-size: .88rem; color: #8a7c66; }
+  @media (max-width: 1000px) { #experts .sig-groups { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 760px)  { #experts .sig-groups { grid-template-columns: repeat(2, 1fr); gap: 28px 20px; } }
+  /* One column of names on phones: centre it, like the heading above. */
+  @media (max-width: 460px)  { #experts .sig-groups { grid-template-columns: 1fr; text-align: center; } }
+
+  /* The bonus actions used to be checkboxes that recorded nothing and promised an
+     email nobody could send. They are links now: the thing arrives immediately. */
+  /* At phone widths the line in the sticky bar wrapped to two lines. Smaller type and tighter tracking keep it on one. Appended last
+     so it outranks the base rule (same specificity, later wins). */
+  @media (max-width: 480px) {
+    .sticky-count { font-size: .68rem; letter-spacing: .08em; white-space: nowrap; }
+  }
+  /* At 320px the nowrap label overflowed its box by ~35px and pushed the page
+     wider than the viewport. Tighter still below 340px, and the bar can never
+     exceed the viewport regardless of the text. */
+  @media (max-width: 340px) {
+    .sticky-bar { max-width: calc(100vw - 24px); }
+    .sticky-count { font-size: .6rem; letter-spacing: .03em; padding-left: 10px; padding-right: 10px; }
+    /* nav: at 320px the button wrapped to two lines and touched the wordmark */
+    .nav-inner { gap: 6px; }
+    .nav-links { gap: 8px; }
+    .btn-nav { padding: 8px 10px; font-size: .66rem; letter-spacing: .06em; white-space: nowrap; }
+    .lockup img { height: 24px; }
+  }
+  /* The most important paragraph on the site, so it is not one paragraph: three
+     short beats, larger type, air between them, and the last one as the payoff. */
+  .pressure-callout .beat { font-size: 1.34rem; line-height: 1.48; max-width: 640px; margin: 0 auto 24px;
+    text-wrap: balance; /* no one-word last lines on the most important sentence on the site */ }
+  .pressure-callout .beat:last-child { margin-bottom: 0; }
+  .pressure-callout .beat.payoff { font-size: 1.46rem; line-height: 1.42; margin-top: 34px; }
+  @media (max-width: 640px) {
+    .pressure-callout .beat { font-size: 1.12rem; margin-bottom: 18px; }
+    .pressure-callout .beat.payoff { font-size: 1.22rem; margin-top: 26px; }
+  }
+
+  /* Saffron buttons, blue emphasis, and an ink-blue problem section. */
+  html:not([data-theme="night"]) .btn-ghost { color: var(--walnut); }
+  html:not([data-theme="night"]) .btn-ghost,
+  html:not([data-theme="night"]) .btn-ghost:hover { background: var(--cream); }
+  html:not([data-theme="night"]) .sticky-bar a,
+  html:not([data-theme="night"]) .toggle .active,
+  html:not([data-theme="night"]) .steps li::before,
+  html:not([data-theme="night"]) .fw-mono,
+  html:not([data-theme="night"]) .qmono,
+  html:not([data-theme="night"]) .qsigned::before { background: var(--saffron); color: var(--charcoal); }
+  html:not([data-theme="night"]) .sticky-bar a:hover { background: #c99d36; }
+  html:not([data-theme="night"]) .hero-kicker::before,
+  html:not([data-theme="night"]) .hero-kicker::after { background: var(--saffron); opacity: 1; }
+  html:not([data-theme="night"]) .sticky-bar a { color: var(--charcoal); }
+  html:not([data-theme="night"]) .pledge-title,
+  html:not([data-theme="night"]) .demand-lead,
+  html:not([data-theme="night"]) .litany div,
+  html:not([data-theme="night"]) .faq summary,
+  html:not([data-theme="night"]) .pressure-callout .track-headline,
+  html:not([data-theme="night"]) .qname,
+  html:not([data-theme="night"]) .fw-name { color: var(--forest); }
+  html:not([data-theme="night"]) h1 em,
+  html:not([data-theme="night"]) #voices h2 em,
+  html:not([data-theme="night"]) .demand-lead em,
+  html:not([data-theme="night"]) .litany div em,
+  html:not([data-theme="night"]) .closer span,
+  html:not([data-theme="night"]) .track-headline em { color: var(--forest); }
+  html:not([data-theme="night"]) .toggle button,
+  html:not([data-theme="night"]) .toggle a { color: var(--forest); }
+  html:not([data-theme="night"]) header#top h1 em { color: var(--forest); }
+  html:not([data-theme="night"]) .hero-sub,
+  html:not([data-theme="night"]) .pledge-lead,
+  html:not([data-theme="night"]) .steps li,
+  html:not([data-theme="night"]) .also label,
+  html:not([data-theme="night"]) .nf-consent,
+  html:not([data-theme="night"]) .lede,
+  html:not([data-theme="night"]) .solution-body > p,
+  html:not([data-theme="night"]) .split p,
+  html:not([data-theme="night"]) .plank,
+  html:not([data-theme="night"]) .plan-close p,
+  html:not([data-theme="night"]) .pressure-callout p,
+  html:not([data-theme="night"]) .qcard blockquote,
+  html:not([data-theme="night"]) .faq details p,
+  html:not([data-theme="night"]) .pcard p { color: var(--walnut); }
+  html:not([data-theme="night"]) .ft-accent { fill: var(--moss); }
+  html:not([data-theme="night"]) #problem { background: #304550; border-color: rgba(246,239,227,.22); }
+  html:not([data-theme="night"]) #problem h2,
+  html:not([data-theme="night"]) #problem .litany div,
+  html:not([data-theme="night"]) #problem .closer { color: var(--parchment); }
+  html:not([data-theme="night"]) #problem .lede { color: #e3e5df; }
+  html:not([data-theme="night"]) #problem .lede strong { color: var(--parchment); }
+  html:not([data-theme="night"]) #problem .kicker,
+  html:not([data-theme="night"]) #problem .litany div em,
+  html:not([data-theme="night"]) #problem .closer span { color: var(--saffron); }
+  html:not([data-theme="night"]) #problem .litany,
+  html:not([data-theme="night"]) #problem .litany div { border-color: rgba(246,239,227,.28); }
+  html:not([data-theme="night"]) .pressure-callout {
+    background: #304550; border-color: rgba(246,239,227,.22);
+  }
+  html:not([data-theme="night"]) .pressure-callout p,
+  html:not([data-theme="night"]) .pressure-callout .track-headline,
+  html:not([data-theme="night"]) .pressure-callout .track-headline em,
+  html:not([data-theme="night"]) .pressure-callout .beat strong { color: var(--parchment); }
+  html:not([data-theme="night"]) .pressure-callout .beat { color: #e3e5df; }
+  html:not([data-theme="night"]) .pressure-callout .ft-line {
+    background-image: repeating-linear-gradient(90deg, rgba(246,239,227,.55) 0 7px, transparent 7px 16px);
+  }
+  html:not([data-theme="night"]) .pressure-callout .ft-dot { background: var(--saffron); }
+  html:not([data-theme="night"]) .pressure-callout .ft-goal { border-color: var(--saffron); background: #304550; }
+  html:not([data-theme="night"]) .pressure-callout .ft-accent { fill: var(--saffron); }
+  .pressure-callout .ft-terracotta { fill: #ba5931; }
+  html:not([data-theme="night"]) .pressure-callout .ft-shirt { fill: var(--parchment); }
+  html:not([data-theme="night"]) .pressure-callout .ft-wood { fill: var(--sand); }
+
+  /* Night theme. The palette, the switch and the pieces shared with the other
+     pages are in site.css; these are the home page's own. */
+  html[data-theme="night"] nav.scrolled { box-shadow: 0 8px 28px rgba(0,0,0,.35); }
+  html[data-theme="night"] .sticky-bar a,
+  html[data-theme="night"] .toggle .active { background: #376f8b; color: #f4ebde; }
+  html[data-theme="night"] .sticky-bar a:hover { background: #4a82a0; }
+  html[data-theme="night"] .btn-ghost { background: var(--cream); color: var(--charcoal); border-color: var(--line); }
+  html[data-theme="night"] .btn-ghost:hover { background: #55463d; }
+  html[data-theme="night"] #pledgeSubmit { background: var(--saffron); color: #201c17; border-color: var(--saffron); }
+  html[data-theme="night"] #pledgeSubmit:hover { background: #c99d36; border-color: #c99d36; }
+  html[data-theme="night"] .toggle a:hover { background: rgba(90,174,224,.12); }
+  html[data-theme="night"] .hero-cloud { mix-blend-mode: screen; }
+  html[data-theme="night"] .hero-cloud img,
+  html[data-theme="night"] .texture-band img { filter: invert(1); mix-blend-mode: screen; opacity: .14; }
+  html[data-theme="night"] .pressure-callout .ft-dot { background: var(--saffron); }
+  html[data-theme="night"] .pressure-callout .ft-goal { border-color: var(--saffron); }
+  html[data-theme="night"] .pressure-callout .ft-accent { fill: var(--saffron); }
+  html[data-theme="night"] #plan::before {
+    background: linear-gradient(180deg, transparent, rgba(90,174,224,.05) 38%, rgba(90,174,224,.07) 50%, rgba(90,174,224,.05) 62%, transparent);
+  }
+  html[data-theme="night"] .hero-sub,
+  html[data-theme="night"] .pledge-lead,
+  html[data-theme="night"] .steps li,
+  html[data-theme="night"] .also label,
+  html[data-theme="night"] .nf-consent,
+  html[data-theme="night"] .lede,
+  html[data-theme="night"] .solution-body > p,
+  html[data-theme="night"] .split p,
+  html[data-theme="night"] .plank,
+  html[data-theme="night"] .plan-close p,
+  html[data-theme="night"] .qcard blockquote,
+  html[data-theme="night"] .faq details p,
+  html[data-theme="night"] .founders p,
+  html[data-theme="night"] .pcard p { color: #fff8ed; }
+  html[data-theme="night"] .st,
+  html[data-theme="night"] .sig-note { color: #bdac99; }
+  html[data-theme="night"] .nf > span,
+  html[data-theme="night"] .nf-help,
+  html[data-theme="night"] .fields select:invalid,
+  html[data-theme="night"] .fields input::placeholder,
+  html[data-theme="night"] .nf input::placeholder { color: #bdac99; }
+  html[data-theme="night"] .pledge-card,
+  html[data-theme="night"] .pressure-callout,
+  html[data-theme="night"] .qcard,
+  html[data-theme="night"] .pcard { border-color: var(--line); box-shadow: 0 8px 28px rgba(0,0,0,.18); }
+  html[data-theme="night"] .pledge-card { --glow: rgba(90,174,224,.4); }
+  html[data-theme="night"] .qcard:hover,
+  html[data-theme="night"] .pcard:hover { box-shadow: 0 14px 34px rgba(0,0,0,.28); }
+  html[data-theme="night"] .sticky-bar { box-shadow: 0 14px 44px rgba(0,0,0,.45); }
+  html[data-theme="night"] .creator-link { background: rgba(225,182,81,.12); border-color: rgba(225,182,81,.55); }
+  html[data-theme="night"] .creator-link:hover { background: rgba(225,182,81,.2); border-color: var(--saffron); }
+  html[data-theme="night"] h1 em,
+  html[data-theme="night"] #voices h2 em,
+  html[data-theme="night"] .demand-lead em,
+  html[data-theme="night"] .track-headline em,
+  html[data-theme="night"] .pressure-callout .pressure-line em,
+  html[data-theme="night"] .litany div em,
+  html[data-theme="night"] .closer span,
+  html[data-theme="night"] .fw-subs,
+  html[data-theme="night"] .split h3,
+  html[data-theme="night"] .qsigned,
+  html[data-theme="night"] .sig-group h3,
+  html[data-theme="night"] .creator-link,
+  html[data-theme="night"] .txt-btn,
+  html[data-theme="night"] .txt-btn:hover,
+  html[data-theme="night"] .nf-skip:hover,
+  html[data-theme="night"] .tip-star,
+  html[data-theme="night"] .tip-star:hover,
+  html[data-theme="night"] .star-mark,
+  html[data-theme="night"] .tip:hover,
+  html[data-theme="night"] .tip:focus-visible,
+  html[data-theme="night"] .tip.open,
+  html[data-theme="night"] .faq summary::after,
+  html[data-theme="night"] .faq summary:hover,
+  html[data-theme="night"] .pledge-error,
+  html[data-theme="night"] .nf-error,
+  html[data-theme="night"] .solo-label:hover,
+  html[data-theme="night"] .facepile:hover .face-label { color: var(--saffron); }
+  html[data-theme="night"] .also { background: rgba(244,235,222,.04); border-color: var(--line); }
+  html[data-theme="night"] .steps li,
+  html[data-theme="night"] .sig-group h3 { border-color: var(--line); }
+  html[data-theme="night"] .nf input,
+  html[data-theme="night"] .nf select,
+  html[data-theme="night"] .fields input,
+  html[data-theme="night"] .fields select { border-color: var(--line); }
+  html[data-theme="night"] .fields input:hover,
+  html[data-theme="night"] .fields select:hover { border-color: var(--terracotta); }
+  html[data-theme="night"] .fields select {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M1 1l5 5 5-5' stroke='%23bdac99' stroke-width='1.6' fill='none' stroke-linecap='round'/></svg>");
+  }
+  html[data-theme="night"] .tip::after { background: #1d1816; color: var(--charcoal); }
+  html[data-theme="night"] .tip::before { border-top-color: #1d1816; }
+  @media (max-width: 420px) {
+    .lockup img { height: 28px; }
+    .btn-nav { padding: 8px 12px; font-size: .7rem; letter-spacing: .06em; white-space: nowrap; }
+  }
+  @media (max-width: 340px) {
+    .lockup img { height: 24px; }
+    .btn-nav { padding: 8px 10px; font-size: .66rem; }
+  }
+</style>
+<script defer src="/analytics.js"></script>
+</head>
+<body>
+
+<a class="skip-link" href="#pledge">Skip to the pledge</a>
+<div class="progress" id="progressBar" aria-hidden="true"></div>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a class="lockup" href="#top" aria-label="Team Human home"><img src="brand/wordmark.png" alt="Team Human" width="720" height="174"></a>
+    <div class="nav-links">
+      <a href="#problem">The Problem</a>
+      <a href="#plan">The Plan</a>
+      <a href="#voices">Why We Signed</a>
+      <a href="#pledge" class="btn btn-nav">Add Your Name</a>
+      <button type="button" class="theme-switch" aria-label="Switch to night mode" aria-pressed="false" title="Switch to night mode"><span class="theme-switch-thumb"></span></button>
+    </div>
+  </div>
+</nav>
+
+<header id="top">
+  <div class="wrap hero-center">
+    <h1>Join the movement to keep<br><em>humans in control</em> of AI.</h1>
+    <div class="hero-kicker">Led by your favorite creators with 300M+ subscribers</div>
+    <div class="facepile" aria-hidden="true">
+      <span class="faces">
+        <img src="avatars/kurzgesagt.jpg" alt="" title="Kurzgesagt" width="56" height="56"><img src="avatars/preston.jpg" alt="" title="Preston" width="56" height="56"><img src="avatars/jennyhoyos.jpg" alt="" title="Jenny Hoyos" width="56" height="56"><img src="avatars/markrober.jpg" alt="" title="Mark Rober" width="56" height="56"><img src="avatars/simonsquibb.jpg" alt="" title="Simon Squibb" width="56" height="56"><img src="avatars/infographicsshow.jpg" alt="" title="The Infographics Show" width="56" height="56"><img src="avatars/lindsaynikole.jpg" alt="" title="Lindsay Nikole" width="56" height="56"><span class="face-more">+</span>
+      </span>
+    </div>
+
+    <div class="pledge-card" id="pledge">
+      <button type="button" class="pledge-close" aria-label="Close">&times;</button>
+      <div id="pledgeForm">
+        <p class="pledge-kicker">Sign the Team Human Statement</p>
+        <p class="pledge-lead pledge-lead-solo"><span class="q">&ldquo;</span>AI is moving faster than our ability to control it. Alongside a chorus of experts, we call for a global slowdown through international agreements.<span class="q">&rdquo;</span></p>
+        <!-- Signatures post to our own endpoint at /api/sign, which verifies the
+             Turnstile token server-side and writes one row to MongoDB. No
+             third-party form, no widget, no data leaving our infrastructure. -->
+        <form id="pledgeFormEl" novalidate>
+          <div class="nf-row">
+            <label class="nf"><span>First name</span><input name="first_name" type="text" required autocomplete="given-name"></label>
+            <label class="nf"><span>Last name</span><input name="last_name" type="text" required autocomplete="family-name"></label>
+          </div>
+          <label class="nf"><span>Email</span><input name="email" type="email" required autocomplete="email" inputmode="email"></label>
+          <!-- Countries of over 5M people (World Bank, 2025), plus Taiwan, which the
+               World Bank omits. Smaller countries sign as "Other". -->
+          <label class="nf"><span>Country</span><select name="country" id="countrySelect">
+            <option data-cc="US">United States</option><option data-cc="AF">Afghanistan</option><option data-cc="DZ">Algeria</option><option data-cc="AO">Angola</option>
+            <option data-cc="AR">Argentina</option><option data-cc="AU">Australia</option><option data-cc="AT">Austria</option><option data-cc="AZ">Azerbaijan</option>
+            <option data-cc="BD">Bangladesh</option><option data-cc="BY">Belarus</option><option data-cc="BE">Belgium</option><option data-cc="BJ">Benin</option>
+            <option data-cc="BO">Bolivia</option><option data-cc="BR">Brazil</option><option data-cc="BG">Bulgaria</option><option data-cc="BF">Burkina Faso</option>
+            <option data-cc="BI">Burundi</option><option data-cc="KH">Cambodia</option><option data-cc="CM">Cameroon</option><option data-cc="CA">Canada</option>
+            <option data-cc="CF">Central African Republic</option><option data-cc="TD">Chad</option><option data-cc="CL">Chile</option><option data-cc="CN">China</option>
+            <option data-cc="CO">Colombia</option><option data-cc="CR">Costa Rica</option><option data-cc="CI">Côte d’Ivoire</option><option data-cc="CU">Cuba</option>
+            <option data-cc="CZ">Czechia</option><option data-cc="CD">Democratic Republic of the Congo</option><option data-cc="DK">Denmark</option><option data-cc="DO">Dominican Republic</option>
+            <option data-cc="EC">Ecuador</option><option data-cc="EG">Egypt</option><option data-cc="SV">El Salvador</option><option data-cc="ET">Ethiopia</option>
+            <option data-cc="FI">Finland</option><option data-cc="FR">France</option><option data-cc="DE">Germany</option><option data-cc="GH">Ghana</option>
+            <option data-cc="GR">Greece</option><option data-cc="GT">Guatemala</option><option data-cc="GN">Guinea</option><option data-cc="HT">Haiti</option>
+            <option data-cc="HN">Honduras</option><option data-cc="HK">Hong Kong</option><option data-cc="HU">Hungary</option><option data-cc="IN">India</option>
+            <option data-cc="ID">Indonesia</option><option data-cc="IR">Iran</option><option data-cc="IQ">Iraq</option><option data-cc="IE">Ireland</option>
+            <option data-cc="IL">Israel</option><option data-cc="IT">Italy</option><option data-cc="JP">Japan</option><option data-cc="JO">Jordan</option>
+            <option data-cc="KZ">Kazakhstan</option><option data-cc="KE">Kenya</option><option data-cc="KG">Kyrgyzstan</option><option data-cc="LA">Laos</option>
+            <option data-cc="LB">Lebanon</option><option data-cc="LR">Liberia</option><option data-cc="LY">Libya</option><option data-cc="MG">Madagascar</option>
+            <option data-cc="MW">Malawi</option><option data-cc="MY">Malaysia</option><option data-cc="ML">Mali</option><option data-cc="MR">Mauritania</option>
+            <option data-cc="MX">Mexico</option><option data-cc="MA">Morocco</option><option data-cc="MZ">Mozambique</option><option data-cc="MM">Myanmar</option>
+            <option data-cc="NP">Nepal</option><option data-cc="NL">Netherlands</option><option data-cc="NZ">New Zealand</option><option data-cc="NI">Nicaragua</option>
+            <option data-cc="NE">Niger</option><option data-cc="NG">Nigeria</option><option data-cc="KP">North Korea</option><option data-cc="NO">Norway</option>
+            <option data-cc="OM">Oman</option><option data-cc="PK">Pakistan</option><option data-cc="PS">Palestine</option><option data-cc="PG">Papua New Guinea</option>
+            <option data-cc="PY">Paraguay</option><option data-cc="PE">Peru</option><option data-cc="PH">Philippines</option><option data-cc="PL">Poland</option>
+            <option data-cc="PT">Portugal</option><option data-cc="CG">Republic of the Congo</option><option data-cc="RO">Romania</option><option data-cc="RU">Russia</option>
+            <option data-cc="RW">Rwanda</option><option data-cc="SA">Saudi Arabia</option><option data-cc="SN">Senegal</option><option data-cc="RS">Serbia</option>
+            <option data-cc="SL">Sierra Leone</option><option data-cc="SG">Singapore</option><option data-cc="SK">Slovakia</option><option data-cc="SO">Somalia</option>
+            <option data-cc="ZA">South Africa</option><option data-cc="KR">South Korea</option><option data-cc="SS">South Sudan</option><option data-cc="ES">Spain</option>
+            <option data-cc="LK">Sri Lanka</option><option data-cc="SD">Sudan</option><option data-cc="SE">Sweden</option><option data-cc="CH">Switzerland</option>
+            <option data-cc="SY">Syria</option><option data-cc="TW">Taiwan</option><option data-cc="TJ">Tajikistan</option><option data-cc="TZ">Tanzania</option>
+            <option data-cc="TH">Thailand</option><option data-cc="TG">Togo</option><option data-cc="TN">Tunisia</option><option data-cc="TR">Türkiye</option>
+            <option data-cc="TM">Turkmenistan</option><option data-cc="UG">Uganda</option><option data-cc="UA">Ukraine</option><option data-cc="AE">United Arab Emirates</option>
+            <option data-cc="GB">United Kingdom</option><option data-cc="UZ">Uzbekistan</option><option data-cc="VE">Venezuela</option><option data-cc="VN">Vietnam</option>
+            <option data-cc="YE">Yemen</option><option data-cc="ZM">Zambia</option><option data-cc="ZW">Zimbabwe</option><option>Other</option>
+          </select></label>
+          <!-- The ZIP is only asked of US signers: it is used to find their district. -->
+          <label class="nf" id="zipField"><span>ZIP or postal code</span><input name="postal_code" inputmode="numeric" autocomplete="postal-code" maxlength="10"><small class="nf-help">Used to send your signature to your district representative.</small></label>
+          <!-- Turnstile: bot protection, invisible to most visitors, loads asynchronously. -->
+          <div class="cf-turnstile nf-turnstile" data-sitekey="0x4AAAAAAE5RKVifdZ_Q2yn6" data-theme="light"></div>
+          <p class="nf-consent" id="emailLine" hidden>We'll email you when it's time to act.</p>
+          <button type="submit" class="btn" id="pledgeSubmit">Count Me In</button>
+          <p class="nf-error" id="pledgeError" role="alert" hidden></p>
+          <button type="submit" class="nf-skip" id="signOnly" hidden>Just sign, no emails</button>
+        </form>
+        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+        <script>
+        (function () {
+          var form = document.getElementById('pledgeFormEl');
+          var btn = document.getElementById('pledgeSubmit');
+          var err = document.getElementById('pledgeError');
+          var country = document.getElementById('countrySelect');
+          var zipField = document.getElementById('zipField');
+          var isUS = function () { return country.value === 'United States'; };
+          // The ZIP only finds a US district, so it shows for US signers only. A
+          // typed ZIP is kept while hidden in case they switch back, but not sent.
+          // Emailing someone outside the US needs their consent, and consent means
+          // they could have signed without it. So there the line saying we'll be
+          // in touch sits above the button, making the click the yes, and a
+          // second button signs with no emails.
+          var signOnly = document.getElementById('signOnly');
+          // Set by the click that submits; older Safari has no event.submitter.
+          var noEmails = false;
+          signOnly.addEventListener('click', function () { noEmails = true; });
+          btn.addEventListener('click', function () { noEmails = false; });
+          function syncCountry() {
+            var us = isUS();
+            zipField.hidden = !us;
+            form.elements.postal_code.required = us;
+            document.getElementById('emailLine').hidden = us;
+            signOnly.hidden = us;
+          }
+          country.addEventListener('change', syncCountry);
+          // Preselect the visitor's country from their IP (api/geo.ts) unless they
+          // have already picked one. US territories sign as the United States, and
+          // a real country too small for the list signs as Other.
+          var picked = false;
+          country.addEventListener('change', function () { picked = true; });
+          var geo = fetch('/api/geo').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+          function applyGeo(d) {
+            var cc = d && d.country;
+            if (!cc || picked || country.value !== 'United States') return;
+            if (/^(PR|GU|VI|AS|MP|UM)$/.test(cc)) return;
+            var opt = country.querySelector('option[data-cc="' + cc + '"]');
+            if (!opt && /^(XX|ZZ|T1|A1|A2|O1|AP|EU)$/.test(cc)) return;
+            country.value = opt ? opt.value : 'Other';
+            syncCountry();
+          }
+          // The fine print sits below this script, so sync once it exists.
+          document.addEventListener('DOMContentLoaded', function () { syncCountry(); geo.then(applyGeo); });
+          var emailInput = form.elements.email;
+          var EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/, US_ZIP = /^\d{5}(-\d{4})?$/;
+          // Every signer gives a first and last name and a working email; US
+          // signers also give the ZIP that finds their district. Checked in the
+          // order the fields appear, so the message is about the first gap.
+          function missing() {
+            var f = form.elements;
+            if (!f.first_name.value.trim()) return ['Please enter your first name.', f.first_name];
+            if (!f.last_name.value.trim()) return ['Please enter your last name.', f.last_name];
+            var email = f.email.value.trim();
+            if (!email) return ['Please enter your email address.', f.email];
+            if (!EMAIL.test(email)) return ['That email address does not look right.', f.email];
+            if (isUS()) {
+              var zip = f.postal_code.value.trim();
+              if (!zip) return ['Please enter your ZIP code.', f.postal_code];
+              if (!US_ZIP.test(zip)) return ['Please enter a 5-digit ZIP code.', f.postal_code];
+            }
+            return null;
+          }
+          function fail(msg, field) {
+            err.textContent = msg; err.hidden = false; btn.disabled = signOnly.disabled = false; btn.textContent = 'Count Me In';
+            if (!field) return;
+            field.classList.remove('glow');
+            void field.offsetWidth; // restart the glow on a repeat attempt
+            field.classList.add('glow');
+            setTimeout(function () { field.classList.remove('glow'); }, 600);
+            field.focus();
+          }
+          form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            err.hidden = true;
+            var data = new FormData(form);
+            var email = (data.get('email') || '').trim();
+            var gap = missing();
+            if (gap) return fail(gap[0], gap[1]);
+            // Turnstile writes its token into a hidden input it injects itself.
+            var token = (form.querySelector('[name="cf-turnstile-response"]') || {}).value || '';
+            if (!token) return fail('Please wait a moment for the security check to finish, then try again.');
+            btn.disabled = signOnly.disabled = true; btn.textContent = 'Adding\u2026';
+            // Outside the US, which button was pressed is the answer about emails.
+            // US signers are not asked, so nothing is sent for them.
+            var optIn = isUS() ? undefined : !noEmails;
+            fetch('/api/sign', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                first_name: data.get('first_name') || '',
+                last_name: data.get('last_name') || '',
+                email: email,
+                country: data.get('country') || '',
+                postal_code: isUS() ? (data.get('postal_code') || '') : '',
+                email_opt_in: optIn,
+                turnstileToken: token
+              })
+            }).then(function (r) { return r.json().then(function (b) { return { s: r.status, b: b }; }); })
+              .then(function (res) {
+                if (res.s === 200) {
+                  document.getElementById('pledgeForm').style.display = 'none';
+                  document.getElementById('signedState').hidden = false;
+                  // The fact of a signature, nothing about the signer. No name,
+                  // email or postal code goes to PostHog.
+                  if (window.posthog) window.posthog.capture('petition_signed', { already: !!(res.b && res.b.already) });
+                  // Straight to the take-action page, as the page did before; the
+                  // signed state above only shows if they come back.
+                  window.location.assign('act/');
+                  return;
+                }
+                // A token is single-use and expires after 300s, so any rejection
+                // needs a fresh challenge before the visitor can retry.
+                if (window.turnstile) window.turnstile.reset();
+                if (res.s === 400) return fail('That email address does not look right.', emailInput);
+                if (res.s === 403) return fail('The security check did not pass. Please try again.');
+                if (res.s === 503) return fail('We could not verify that just now. Please try again in a moment.');
+                fail('Something went wrong saving your signature. Please try again.');
+              })
+              .catch(function () { if (window.turnstile) window.turnstile.reset(); fail('Network error. Please check your connection and try again.'); });
+          });
+        })();
+        </script>
+        <p class="pledge-fine">Add your signature, and the <a href="https://safe.ai/" target="_blank" rel="noopener">Center for AI Safety</a> will deliver it to lawmakers in Washington D.C. and Brussels this fall. <a href="privacy/">Privacy Notice</a></p>
+        <a class="creator-link" href="invite/">Are you a creator? →</a>
+      </div>
+
+      <div id="signedState" hidden>
+        <div class="pledge-title serif">YOU’RE IN ✓</div>
+        <p class="pledge-lead">Welcome to Team Human.</p>
+        <a class="btn" href="act/">What to do next →</a>
+      </div>
+
+      <!-- NOTE: Creator-guide copy below is placeholder pending team approval. -->
+
+    </div>
+    <a class="learn-more" href="#problem">Learn more<span class="lm-arrow">↓</span></a>
+  </div>
+  <div class="hero-cloud" aria-hidden="true"><img src="brand/cloud-corner.png" alt="" width="1200" height="800"></div>
+</header>
+
+<section id="problem">
+  <div class="wrap">
+    <div class="ornament reveal"><img loading="lazy" width="40" height="40" src="brand/handprint.png" alt=""></div>
+    <div class="reveal center">
+      <div class="kicker">The Problem</div>
+      <h2 class="serif">AI is developing too rapidly for humanity to stay in control.</h2>
+      <p class="lede">AI could be the best thing that ever happens to humanity. It could also be the last. A handful of companies are racing to build the most powerful technology in history with no oversight and, <strong>by their own admission, they don’t fully understand what they’re building.</strong></p>
+    </div>
+    <div class="litany reveal">
+      <div>How much of the internet has to be <em>fake</em>?</div>
+      <div>How many times will <em>no one take responsibility when AI goes wrong?</em></div>
+      <div>How many artists have to compete with <em>copies of themselves</em>?</div>
+      <div>How many <em>scams</em> and <em>deepfakes</em>? How many <em>elections undermined</em>?</div>
+      <div>How many kids grow up shaped by <em>algorithms no parent chose</em>?</div>
+      <div>How close to <em>surveillance dystopias</em>, <em>AI-designed pandemics</em>, <em>killer robots</em>, <em><a class="lit-link" href="https://aistatement.com/work/statement-on-ai-extinction-risk" target="_blank" rel="noopener">human extinction</a></em>?</div>
+    </div>
+    <p class="closer reveal">This situation is <span>unacceptable</span>.</p>
+  </div>
+</section>
+
+<section id="plan">
+  <div class="wrap">
+    <div class="ornament reveal"><img loading="lazy" width="40" height="40" src="brand/handprint.png" alt=""></div>
+    <div class="demand-card reveal">
+      <div class="kicker">The Plan</div>
+      <p class="demand-lead serif" id="demand">We demand one thing:<br><em>slow down AI</em>.</p>
+    </div>
+    <div class="solution-body reveal">
+      <p>We join hundreds of Nobel Prize winners, AI experts, and heads of state who are <a class="txt-link" href="https://superintelligence-statement.org/" target="_blank" rel="noopener">calling for</a> no smarter-than-human AI to be built until scientists agree it can be done safely, and the public agrees to go ahead.</p>
+      <div class="planks">
+        <div class="plank"><strong>Build the brakes.</strong> A slowdown gives humanity time to figure out how to stay in control. Frontier AI is built with specialized chips: track and guard them, exactly like we track the ingredients for nukes and bioweapons. Governments can restrict how and when new AIs are built.</div>
+        <div class="plank"><strong>Enforce a speed limit.</strong> The race to develop AI punishes anyone who slows down and falls behind. That’s why the US, China, and major nations must agree to slow down together and enforce real safety standards. The International Atomic Energy Agency verifies nuclear compliance worldwide. We need a similar watchdog for AI.</div>
+      </div>
+    </div>
+    <div class="pressure-callout reveal">
+      <p class="track-headline serif"><em>Your voice</em> can compel<br>governments to act.</p>
+      <div class="finish-track reveal" aria-hidden="true">
+        <div class="ft-line"></div>
+        <span class="ft-dot" style="left:1%"></span>
+        <span class="ft-dot" style="left:24%"></span>
+        <span class="ft-dot" style="left:47%"></span>
+        <span class="ft-dot" style="left:70%"></span>
+        <span class="ft-goal"></span>
+        <svg class="ft-flag" viewBox="0 0 20 34" xmlns="http://www.w3.org/2000/svg">
+          <circle class="ft-accent" cx="5" cy="2.2" r="2" fill="#2b7898"/>
+          <rect class="ft-wood" x="4" y="3.4" width="2" height="26" fill="#5e4630"/>
+          <polygon class="ft-terracotta" points="6,4.5 19,8.5 6,12.5" fill="#ba5931"/>
+          <rect class="ft-terracotta" x="0" y="29" width="4.5" height="4.5" fill="#ba5931"/><rect x="4.5" y="29" width="4.5" height="4.5" fill="#f6efe3"/><rect class="ft-terracotta" x="9" y="29" width="4.5" height="4.5" fill="#ba5931"/>
+          <rect x="0" y="24.5" width="4.5" height="4.5" fill="#f6efe3"/><rect class="ft-terracotta" x="4.5" y="24.5" width="4.5" height="4.5" fill="#ba5931"/><rect x="9" y="24.5" width="4.5" height="4.5" fill="#f6efe3"/>
+        </svg>
+        <svg class="ft-walker" viewBox="0 0 8 10" xmlns="http://www.w3.org/2000/svg">
+          <rect class="ft-terracotta" x="2" y="0" width="4" height="1" fill="#ba5931"/>
+          <rect class="ft-terracotta" x="1" y="1" width="6" height="1" fill="#ba5931"/>
+          <rect x="2" y="2" width="4" height="2" fill="#d9b98c"/>
+          <rect class="ft-shirt" x="1.5" y="4" width="5" height="3" fill="#304550"/>
+          <rect class="ft-wood" x="0.8" y="4.5" width="0.9" height="1.8" fill="#5e4630"/>
+          <rect class="ft-wood" x="2.3" y="7" width="1.1" height="2.4" fill="#5e4630"/>
+          <rect class="ft-wood" x="4.6" y="7" width="1.1" height="2.4" fill="#5e4630"/>
+        </svg>
+      </div>
+      <p class="beat"><strong>The heads of all four leading AI companies are now <a class="txt-link" href="https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html" target="_blank" rel="noopener">publicly calling</a> for a slowdown.</strong> And more than 1,300 of their own employees <a class="txt-link" href="https://www.pacingthefrontier.com/" target="_blank" rel="noopener">asked</a> government to make that possible, because no one can stop&nbsp;alone.</p>
+      <p class="beat">That’s what governments are for. Lawmakers are starting to <a class="txt-link" href="https://controlai.org/statement" target="_blank" rel="noopener">wake up</a>, and voters are ahead of them: 68% <a class="txt-link" href="https://www.filesforprogress.org/datasets/2026/9/dfp_ai_development_pause.pdf" target="_blank" rel="noopener">back</a> a pause on advanced AI and a ban on superintelligence.</p>
+      <p class="beat payoff">But <strong>governments won’t act without seeing how much the public cares.</strong> With Team Human, we’re going to show them.</p>
+    </div>
+  </div>
+</section>
+
+<section id="precedent">
+  <div class="wrap">
+    <div class="reveal center">
+      <h2 class="serif">Humanity has come together many times.</h2>
+      <p class="lede">Countries have cooperated before to solve global problems, with the backing of ordinary people.</p>
+    </div>
+    <div class="cards3 reveal">
+      <div class="pcard"><h3 class="serif">We limited nuclear weapons</h3><p>The ingredients for nukes are safely guarded because countries established a <a class="txt-link" href="https://en.wikipedia.org/wiki/Treaty_on_the_Non-Proliferation_of_Nuclear_Weapons" target="_blank" rel="noopener">treaty</a> to track and handle them.</p></div>
+      <div class="pcard"><h3 class="serif">We saved the ozone layer</h3><p>The ozone layer survived destruction because countries signed an <a class="txt-link" href="https://en.wikipedia.org/wiki/Montreal_Protocol" target="_blank" rel="noopener">agreement</a> banning the chemicals that were causing harm.</p></div>
+      <div class="pcard"><h3 class="serif">We eradicated smallpox</h3><p>Smallpox killed hundreds of millions. Countries vaccinated against it together and it was eradicated by 1980.</p></div>
+                      </div>
+    <p class="closer quiet reveal" style="margin-top:30px;"><span>We can do it again to slow down AI.</span></p>
+  </div>
+  <div class="texture-band"><img loading="lazy" width="1200" height="800" src="brand/cloud-corner.png" alt=""></div>
+</section>
+
+<section id="voices">
+  <div class="wrap">
+    <div class="ornament reveal"><img loading="lazy" width="40" height="40" src="brand/handprint.png" alt=""></div>
+    <div class="reveal center">
+      <div class="kicker">Why We Signed</div>
+      <h2 class="serif">Creators with <em>300M+ subscribers</em> have signed on.</h2>
+    </div>
+    <div class="quote-grid">
+      <div class="qcard reveal">
+        <div class="qhead"><img loading="lazy" width="52" height="52" src="avatars/josephsmachines.jpg" alt="Joseph&rsquo;s Machines"><div class="qname">Joseph&rsquo;s Machines</div></div>
+        <blockquote>&ldquo;I&rsquo;m signing because in July 2026, hundreds of AI models escaped their test environment and hacked a real company, just to cheat on their evaluation. I don&rsquo;t want to wait and see what more powerful systems might do to cause harm.&rdquo;</blockquote>
+        <div class="qsigned">Signed</div>
+      </div>
+      <div class="qcard reveal">
+        <div class="qhead"><img loading="lazy" width="52" height="52" src="avatars/lindsaynikole.jpg" alt="Lindsay Nikole"><div class="qname">Lindsay Nikole</div></div>
+        <blockquote>&ldquo;I signed to protect the environment. I&rsquo;m also concerned critical thinking and creativity are at risk.&rdquo;</blockquote>
+        <div class="qsigned">Signed</div>
+      </div>
+      <div class="qcard reveal">
+        <div class="qhead"><img loading="lazy" width="52" height="52" src="avatars/jennyhoyos.jpg" alt="Jenny Hoyos"><div class="qname">Jenny Hoyos</div></div>
+        <blockquote>&ldquo;I signed because I want to fight against misinformation created by AI.&rdquo;</blockquote>
+        <div class="qsigned">Signed</div>
+      </div>
+    </div>
+    <div class="wall reveal">
+      <!-- Generated from the participation tracker: every creator marked Full, one
+           tile per creator, ordered by YouTube subscribers. Photos, links and counts
+           were pulled from each channel on 28 September 2026. Rows added to the
+           published creator sheet are appended below by script. -->
+      <ul class="face-wall" id="faceWall" aria-label="Creators who have signed">
+        <li><a href="https://www.youtube.com/@MarkRober" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/markrober.jpg" alt=""><span class="fw-name">Mark Rober</span><span class="fw-subs">83.1M</span></a></li>
+        <li><a href="https://www.youtube.com/@kurzgesagt" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/kurzgesagt.jpg" alt=""><span class="fw-name">Kurzgesagt</span><span class="fw-subs">25.6M</span></a></li>
+        <li><a href="https://www.youtube.com/@rebeccazamolo" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/rebeccazamolo.jpg" alt=""><span class="fw-name">Rebecca Zamolo</span><span class="fw-subs">23.3M</span></a></li>
+        <li><a href="https://www.youtube.com/@Prestonplayz" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/preston.jpg" alt=""><span class="fw-name">Preston</span><span class="fw-subs">17.9M</span></a></li>
+        <li><a href="https://www.youtube.com/@TheInfographicsShow" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/theinfographicsshow.jpg" alt=""><span class="fw-name">The Infographics Show</span><span class="fw-subs">15.5M</span></a></li>
+        <li><a href="https://www.youtube.com/@TheFunSquad" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/funsquad.jpg" alt=""><span class="fw-name">Fun Squad</span><span class="fw-subs">13.4M</span></a></li>
+        <li><a href="https://www.youtube.com/@JennyHoyos" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/jennyhoyos.jpg" alt=""><span class="fw-name">Jenny Hoyos</span><span class="fw-subs">12.4M</span></a></li>
+        <li><a href="https://www.youtube.com/@aburob" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/aburob.jpg" alt=""><span class="fw-name">Aburob</span><span class="fw-subs">11.1M</span></a></li>
+        <li><a href="https://www.youtube.com/@skipthetutorial" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/skipthetutorial.jpg" alt=""><span class="fw-name">Skip the Tutorial</span><span class="fw-subs">10.6M</span></a></li>
+        <li><a href="https://www.youtube.com/@MattSlays" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/mattslays.jpg" alt=""><span class="fw-name">Matt Slays</span><span class="fw-subs">8.92M</span></a></li>
+        <li><a href="https://www.youtube.com/@MatthewBeem" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/matthewbeem.jpg" alt=""><span class="fw-name">Matthew Beem</span><span class="fw-subs">8.17M</span></a></li>
+        <li><a href="https://www.youtube.com/@JeremyEthier" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/jeremyethier.jpg" alt=""><span class="fw-name">Jeremy Ethier</span><span class="fw-subs">7.94M</span></a></li>
+        <li><a href="https://www.youtube.com/@JosephsMachines" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/josephsmachines.jpg" alt=""><span class="fw-name">Joseph&rsquo;s Machines</span><span class="fw-subs">7.73M</span></a></li>
+        <li><a href="https://www.youtube.com/@RoomieOfficial" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/roomieofficial.jpg" alt=""><span class="fw-name">Roomie<wbr>Official</span><span class="fw-subs">7.38M</span></a></li>
+        <li><a href="https://www.youtube.com/@OfficialCheckpoint" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/checkpoint.jpg" alt=""><span class="fw-name">Checkpoint</span><span class="fw-subs">4.49M</span></a></li>
+        <li><a href="https://www.youtube.com/@AfterSkool" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/afterskool.jpg" alt=""><span class="fw-name">After Skool</span><span class="fw-subs">3.79M</span></a></li>
+        <li><a href="https://www.youtube.com/@SimplyChris" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/simplychris.jpg" alt=""><span class="fw-name">SimplyChris</span><span class="fw-subs">3.4M</span></a></li>
+        <li><a href="https://www.youtube.com/@MinuteEarth" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/minuteearth.jpg" alt=""><span class="fw-name">MinuteEarth</span><span class="fw-subs">3.33M</span></a></li>
+        <li><a href="https://www.youtube.com/@DexRock" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/dexrock.jpg" alt=""><span class="fw-name">DexRock</span><span class="fw-subs">2.84M</span></a></li>
+        <li><a href="https://www.youtube.com/@kylehill" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/kylehill.jpg" alt=""><span class="fw-name">Kyle Hill</span><span class="fw-subs">2.83M</span></a></li>
+        <li><a href="https://www.youtube.com/@Rebecca.Rogers" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/rebeccarogers.jpg" alt=""><span class="fw-name">Rebecca Rogers</span><span class="fw-subs">2.5M</span></a></li>
+        <li><a href="https://www.youtube.com/@SimonSquibb" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/simonsquibb.jpg" alt=""><span class="fw-name">Simon Squibb</span><span class="fw-subs">2.45M</span></a></li>
+        <li><a href="https://www.youtube.com/@ssavaart" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/scottchristiansava.jpg" alt=""><span class="fw-name">Scott Christian Sava</span><span class="fw-subs">2.37M</span></a></li>
+        <li><a href="https://www.youtube.com/@SolarBalls" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/solarballs.jpg" alt=""><span class="fw-name">SolarBalls</span><span class="fw-subs">2.25M</span></a></li>
+        <li><a href="https://www.youtube.com/@CharlesBerthoud" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/charlesberthoud.jpg" alt=""><span class="fw-name">Charles Berthoud</span><span class="fw-subs">2.17M</span></a></li>
+        <li><a href="https://www.youtube.com/@MrSpherical" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/mrspherical.jpg" alt=""><span class="fw-name">MrSpherical</span><span class="fw-subs">2.06M</span></a></li>
+        <li><a href="https://www.youtube.com/@LindsayNikole" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/lindsaynikole.jpg" alt=""><span class="fw-name">Lindsay Nikole</span><span class="fw-subs">2.06M</span></a></li>
+        <li><a href="https://www.youtube.com/@WDDetailing" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/wddetailing.jpg" alt=""><span class="fw-name">WD Detailing</span><span class="fw-subs">1.9M</span></a></li>
+        <li><a href="https://www.youtube.com/@InternetAnarchist" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/internetanarchist.jpg" alt=""><span class="fw-name">Internet Anarchist</span><span class="fw-subs">1.86M</span></a></li>
+        <li><a href="https://www.youtube.com/@fenitasnl" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/fenitas.jpg" alt=""><span class="fw-name">Fenitas</span><span class="fw-subs">1.85M</span></a></li>
+        <li><a href="https://www.youtube.com/@RUDANBROTHERS" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/rudanbrothers.jpg" alt=""><span class="fw-name">Rudan Brothers</span><span class="fw-subs">1.78M</span></a></li>
+        <li><a href="https://www.youtube.com/@Moon-Real" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/moon.jpg" alt=""><span class="fw-name">Moon</span><span class="fw-subs">1.78M</span></a></li>
+        <li><a href="https://www.youtube.com/@ExtinctZoo" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/extinctzoo.jpg" alt=""><span class="fw-name">ExtinctZoo</span><span class="fw-subs">1.53M</span></a></li>
+        <li><a href="https://www.youtube.com/@SciencephiletheAI" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/sciencephiletheai.jpg" alt=""><span class="fw-name">Sciencephile the AI</span><span class="fw-subs">1.11M</span></a></li>
+        <li><a href="https://www.youtube.com/@BlackBeltBarrister" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/blackbeltbarrister.jpg" alt=""><span class="fw-name">BlackBelt<wbr>Barrister</span><span class="fw-subs">970K</span></a></li>
+        <li><a href="https://www.youtube.com/@PopcornedPlanet" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/popcornedplanet.jpg" alt=""><span class="fw-name">Popcorned Planet</span><span class="fw-subs">966K</span></a></li>
+        <li><a href="https://www.youtube.com/@General.Knowledge" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/generalknowledge.jpg" alt=""><span class="fw-name">General Knowledge</span><span class="fw-subs">943K</span></a></li>
+        <li><a href="https://www.youtube.com/@IAmCrusty" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/iamcrusty.jpg" alt=""><span class="fw-name">IAmCrusty</span><span class="fw-subs">858K</span></a></li>
+        <li><a href="https://www.youtube.com/@SeriousHistory" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/serioushistory.jpg" alt=""><span class="fw-name">Serious History</span><span class="fw-subs">845K</span></a></li>
+        <li><a href="https://www.youtube.com/@SimonClark" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/simonclark.jpg" alt=""><span class="fw-name">Simon Clark</span><span class="fw-subs">748K</span></a></li>
+        <li><a href="https://www.youtube.com/@amillison" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/andrewmillison.jpg" alt=""><span class="fw-name">Andrew Millison</span><span class="fw-subs">746K</span></a></li>
+        <li><a href="https://www.youtube.com/@Weisz" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/louisweisz.jpg" alt=""><span class="fw-name">Louis Weisz</span><span class="fw-subs">744K</span></a></li>
+        <li><a href="https://www.youtube.com/@MarkMarshall_LSH" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/markmarshall.jpg" alt=""><span class="fw-name">Mark Marshall</span><span class="fw-subs">671K</span></a></li>
+        <li><a href="https://www.youtube.com/@Kraut_the_Parrot" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/kraut.jpg" alt=""><span class="fw-name">Kraut</span><span class="fw-subs">602K</span></a></li>
+        <li><a href="https://www.youtube.com/@DigitalEngine" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/digitalengine.jpg" alt=""><span class="fw-name">Digital Engine</span><span class="fw-subs">585K</span></a></li>
+        <li><a href="https://www.youtube.com/@CHEFPKR" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/chefpk.jpg" alt=""><span class="fw-name">ChefPK</span><span class="fw-subs">576K</span></a></li>
+        <li><a href="https://www.youtube.com/@paddygalloway8780" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/paddygalloway.jpg" alt=""><span class="fw-name">Paddy Galloway</span><span class="fw-subs">532K</span></a></li>
+        <li><a href="https://www.youtube.com/@weareinsideAI" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/insideai.jpg" alt=""><span class="fw-name">InsideAI</span><span class="fw-subs">443K</span></a></li>
+        <li><a href="https://www.youtube.com/@HillierSmith" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/haydenhilliersmith.jpg" alt=""><span class="fw-name">Hayden Hillier-Smith</span><span class="fw-subs">431K</span></a></li>
+        <li><a href="https://www.youtube.com/@AtriumExplores" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/atrium.jpg" alt=""><span class="fw-name">Atrium</span><span class="fw-subs">395K</span></a></li>
+        <li><a href="https://www.youtube.com/@humanbuddy" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/humanbuddy.jpg" alt=""><span class="fw-name">Human Buddy</span><span class="fw-subs">366K</span></a></li>
+        <li><a href="https://www.youtube.com/@soggycerealz" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/soggycereal.jpg" alt=""><span class="fw-name">Soggy Cereal</span><span class="fw-subs">357K</span></a></li>
+        <li><a href="https://www.youtube.com/@BeginningToNoww" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/eli.jpg" alt=""><span class="fw-name">Eli</span><span class="fw-subs">326K</span></a></li>
+        <li><a href="https://www.youtube.com/@DrumevBG" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/drumev.jpg" alt=""><span class="fw-name">Drumev</span><span class="fw-subs">301K</span></a></li>
+        <li><a href="https://www.youtube.com/@NaickKim" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/naickkim.jpg" alt=""><span class="fw-name">Naick &amp; Kim</span><span class="fw-subs">184K</span></a></li>
+        <li><a href="https://www.youtube.com/@Siliconversations" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/siliconversations.jpg" alt=""><span class="fw-name">Silicon<wbr>versations</span><span class="fw-subs">173K</span></a></li>
+        <li><a href="https://www.youtube.com/@RobertMilesAI" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/robertmiles.jpg" alt=""><span class="fw-name">Robert Miles</span><span class="fw-subs">173K</span></a></li>
+        <li><a href="https://www.youtube.com/@AprilynneAlter" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/aprilynnealter.jpg" alt=""><span class="fw-name">Aprilynne Alter</span><span class="fw-subs">167K</span></a></li>
+        <li><a href="https://www.youtube.com/@AuralisDocs" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/auralis.jpg" alt=""><span class="fw-name">Auralis</span><span class="fw-subs">138K</span></a></li>
+        <li><a href="https://www.youtube.com/@NoahGlennCarter" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/noahglenncarter.jpg" alt=""><span class="fw-name">NoahGlenn<wbr>Carter</span><span class="fw-subs">80.2K</span></a></li>
+        <li><a href="https://www.youtube.com/@WIUI" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/whatisupindonesia.jpg" alt=""><span class="fw-name">What Is Up, Indonesia?</span><span class="fw-subs">61.5K</span></a></li>
+        <li><a href="https://www.youtube.com/@Waitbutwhy" target="_blank" rel="noopener"><img loading="lazy" width="84" height="84" src="avatars/wall/timurban.jpg" alt=""><span class="fw-name">Tim Urban</span><span class="fw-subs">41.8K</span></a></li>
+      </ul>
+      <div class="fw-more-row"><button type="button" class="btn btn-ghost" id="wallMore" aria-controls="faceWall" aria-expanded="false" hidden>Show more</button></div>
+    </div>
+  </div>
+</section>
+
+<section id="experts">
+  <div class="wrap">
+    <div class="ornament reveal"><img loading="lazy" width="40" height="40" src="brand/handprint.png" alt=""></div>
+    <div class="reveal center">
+      <div class="kicker">There’s Consensus</div>
+      <h2 class="serif">Leaders everywhere agree.</h2>
+      <p class="lede">Advanced AI development <a class="txt-link" href="https://superintelligence-statement.org/" target="_blank" rel="noopener">must require</a> public buy-in.</p>
+    </div>
+    <div class="sig-groups">
+
+      <div class="sig-group reveal">
+        <h3>The scientists</h3>
+        <ul>
+          <li><span class="sn">Geoffrey Hinton</span><span class="st">Nobel laureate, Godfather of AI</span></li>
+          <li><span class="sn">Yoshua Bengio</span><span class="st">The most cited scientist alive</span></li>
+          <li><span class="sn">Daron Acemo&#287;lu</span><span class="st">Nobel laureate in economics</span></li>
+          <li><span class="sn">Martin Rees</span><span class="st">Astronomer Royal</span></li>
+          <li><span class="sn">John Mather</span><span class="st">Nobel laureate in physics</span></li>
+          <li><span class="sn">George Church</span><span class="st">Harvard Medical School</span></li>
+        </ul>
+      </div>
+
+      <div class="sig-group reveal">
+        <h3>Cultural figures</h3>
+        <ul>
+          <li><span class="sn">Prince Harry and Meghan</span><span class="st">Duke and Duchess of Sussex</span></li>
+          <li><span class="sn">Stephen Fry</span><span class="st">Actor and writer</span></li>
+          <li><span class="sn">Joseph Gordon-Levitt</span><span class="st">Actor and filmmaker</span></li>
+          <li><span class="sn">will.i.am</span><span class="st">Musician and producer</span></li>
+          <li><span class="sn">Yuval Noah Harari</span><span class="st">Author of Sapiens</span></li>
+        </ul>
+      </div>
+
+      <div class="sig-group reveal">
+        <h3>Left and right</h3>
+        <ul>
+          <li><span class="sn">Susan Rice</span><span class="st">National Security Advisor to Obama</span></li>
+          <li><span class="sn">Glenn Beck</span><span class="st">Radio and television host</span></li>
+          <li><span class="sn">Joe Crowley</span><span class="st">Former Congressman (D)</span></li>
+          <li><span class="sn">Keith Rothfus</span><span class="st">Former Congressman (R)</span></li>
+          <li><span class="sn">John Yarmuth</span><span class="st">Former Congressman (D)</span></li>
+        </ul>
+      </div>
+
+      <div class="sig-group reveal">
+        <h3>National security</h3>
+        <ul>
+          <li><span class="sn">Mike Mullen</span><span class="st">Former Chairman of the Joint Chiefs</span></li>
+          <li><span class="sn">Des Browne</span><span class="st">Former UK Defence Minister</span></li>
+          <li><span class="sn">Mark Beall</span><span class="st">Former AI policy director, US Defense Dept.</span></li>
+          <li><span class="sn">Beatrice Fihn</span><span class="st">Nobel Peace laureate</span></li>
+        </ul>
+      </div>
+
+      <div class="sig-group reveal">
+        <h3>Presidents and parliaments</h3>
+        <ul>
+          <li><span class="sn">Mary Robinson</span><span class="st">Former President of Ireland</span></li>
+          <li><span class="sn">Kersti Kaljulaid</span><span class="st">Former President of Estonia</span></li>
+          <li><span class="sn">Jonathan Berry</span><span class="st">Former UK Minister for AI</span></li>
+          <li><span class="sn">Brando Benifei</span><span class="st">Wrote the EU AI Act</span></li>
+          <li><span class="sn">Beeban Kidron</span><span class="st">UK House of Lords</span></li>
+        </ul>
+      </div>
+
+      <div class="sig-group reveal">
+        <h3>Faith leaders</h3>
+        <ul>
+          <li><span class="sn">Paolo Benanti</span><span class="st">Papal AI advisor</span></li>
+          <li><span class="sn">Walter Kim</span><span class="st">National Association of Evangelicals</span></li>
+          <li><span class="sn">Gabriel Salguero</span><span class="st">National Latino Evangelical Coalition</span></li>
+          <li><span class="sn">Anthony J. Granado</span><span class="st">US Conference of Catholic Bishops</span></li>
+        </ul>
+      </div>
+
+      <div class="sig-group reveal">
+        <h3>In China</h3>
+        <ul>
+          <li><span class="sn">Andrew Yao</span><span class="st">Turing laureate, Tsinghua</span></li>
+          <li><span class="sn">Ya-Qin Zhang</span><span class="st">Former President, Baidu</span></li>
+          <li><span class="sn">Yi Zeng</span><span class="st">Beijing Institute of AI Safety</span></li>
+          <li><span class="sn">Lan Xue</span><span class="st">Dean, Schwarzman College, Tsinghua</span></li>
+        </ul>
+      </div>
+
+      <div class="sig-group reveal">
+        <h3>The builders</h3>
+        <ul>
+          <li><span class="sn">Steve Wozniak</span><span class="st">Co-founder, Apple</span></li>
+          <li><span class="sn">Jaan Tallinn</span><span class="st">Co-founder, Skype</span></li>
+          <li><span class="sn">Emad Mostaque</span><span class="st">Founder, Stability AI</span></li>
+          <li><span class="sn">Richard Branson</span><span class="st">Founder, Virgin Group</span></li>
+        </ul>
+      </div>
+
+    </div>
+    <p class="sig-note reveal"><a class="txt-link" href="https://superintelligence-statement.org/" target="_blank" rel="noopener">See their signatures on the Superintelligence Statement &rarr;</a></p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="ornament reveal"><img loading="lazy" width="40" height="40" src="brand/handprint.png" alt=""></div>
+    <div class="reveal center">
+      <h2 class="serif">FAQ</h2>
+    </div>
+    <div class="faq reveal">
+      <details>
+        <summary>What is Team Human?</summary>
+        <p>Team Human is a new movement focused on keeping humans in control of AI. It is led and organized by creators, and is supported by the <a class="txt-link" href="https://safe.ai/" target="_blank" rel="noopener">Center for AI Safety</a>.</p>
+        <h3 class="founders-heading">Founding Creators</h3>
+        <ul class="founders">
+          <li><img loading="lazy" width="132" height="132" src="avatars/behind/mariojoos.jpg" alt=""><span>Mario Joos</span><p>Retention Director/Strategist For 100M+ Subscriber Creators (MrBeast, Stokes Twins, Alan&rsquo;s Universe and more)</p></li>
+          <li><img loading="lazy" width="132" height="132" src="avatars/behind/olivergilpin.jpg" alt=""><span>Oliver Gilpin</span><p>Co-creator of SolarBalls, MrSpherical, Atrium &amp; more (17M+ subscribers)</p></li>
+          <li><img loading="lazy" width="132" height="132" src="avatars/behind/drewspartz.jpg" alt=""><span>Drew Spartz</span><p>Creator, Species, the most viral YouTube channel on AI safety</p></li>
+        </ul>
+        <div class="faq-support">
+          <span>Supported by</span>
+          <a href="https://safe.ai/" target="_blank" rel="noopener" aria-label="Center for AI Safety"><img class="cais-day" src="cais-logotype.svg" alt="" width="218" height="70"><img class="cais-night" src="cais-logotype-night.svg" alt="" width="218" height="70"></a>
+        </div>
+      </details>
+      <details>
+        <summary>What happens to my signature?</summary>
+        <p>Team Human will deliver your signature to lawmakers this fall. By providing your email, you&rsquo;ll receive periodic updates about the Team Human campaign, related issues, and opportunities to take action. If you live outside the US, we won&rsquo;t send emails unless you opt in. You can unsubscribe anytime.</p>
+      </details>
+      <details>
+        <summary>Does Team Human sponsor creators?</summary>
+        <p>No creators were paid to sign the Team Human statement or join the Team Human campaign. The Center for AI Safety, which supports Team Human, has separately sponsored videos that discuss AI safety. Videos that receive sponsorship are required to include a clear disclosure.</p>
+      </details>
+      <details>
+        <summary>What does it mean to slow down AI?</summary>
+        <p>It means governments should limit the development of the most powerful AI systems. Because countries may not slow down alone, Team Human is calling for an international slowdown agreement.</p>
+      </details>
+      <details>
+        <summary>Is a slowdown possible?</summary>
+        <p>Yes. We have put limits on dangerous technology before, like chemical weapons, nuclear weapons, and human cloning. Many countries worked together to create those limits. We can agree to slow down AI too.</p>
+      </details>
+      <details>
+        <summary>Who benefits from a slowdown?</summary>
+        <p>You do. A slowdown gives all of us more time, and more say, in how AI changes our jobs, our communities, and our lives. No corporation should be allowed to race ahead faster than society can understand and prepare for.</p>
+      </details>
+      <details>
+        <summary>Who sets the terms of a slowdown?</summary>
+        <p>You do, through your government. The rules should come from the lawmakers you elect rather than the corporations building AI.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="foot-flex">
+    <div>
+      <img class="lockup-img" src="brand/wordmark.png" alt="Team Human" width="720" height="174">
+      <div class="partner">
+        <div class="partner-label">Supported by</div>
+        <div class="partner-logos">
+          <a href="https://safe.ai/" target="_blank" rel="noopener" aria-label="Center for AI Safety"><img class="partner-logo" src="cais-logotype-black.svg" alt="Center for AI Safety" width="218" height="70"></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-nav">
+      <p><a href="#problem">The Problem</a> &nbsp;·&nbsp; <a href="#plan">The Plan</a> &nbsp;·&nbsp; <a href="#voices">Why We Signed</a></p>
+      <p><a href="invite/">For Creators</a> &nbsp;·&nbsp; <a href="privacy/">Privacy Notice</a></p>
+      <p>Media Inquiries: <a href="mailto:press@teamhuman.org">press@teamhuman.org</a></p>
+    </div>
+  </div>
+  <div class="foot-cloud"><img loading="lazy" width="1200" height="800" src="brand/cloud-corner.png" alt=""></div>
+</footer>
+
+<div class="sticky-bar" id="stickyBar">
+  <div class="sticky-count">Join the call for action on AI</div>
+  <a href="#top">↑ &nbsp;Add Your Name</a>
+</div>
+
+
+<script>
+  document.body.classList.add('js');
+
+  // Creator wall: four rows to start, six more rows per "Show more" until
+  // every creator shows, then "Show less" folds back to four. Rows, not tile
+  // counts, so it works at any column count and as creators are added.
+  // Without script every tile shows and the button stays hidden.
+  const wall = document.getElementById('faceWall');
+  const wallMore = document.getElementById('wallMore');
+  const WALL_START_ROWS = 4, WALL_STEP_ROWS = 6;
+  let wallRows = WALL_START_ROWS;
+  const wallCols = () => getComputedStyle(wall).gridTemplateColumns.split(' ').length;
+  function clampWall() {
+    const tiles = [...wall.children], cols = wallCols();
+    const shown = Math.min(tiles.length, wallRows * cols);
+    tiles.forEach((li, i) => { li.hidden = i >= shown; });
+    const all = shown >= tiles.length;
+    wallMore.hidden = tiles.length <= WALL_START_ROWS * cols;
+    wallMore.textContent = all ? 'Show less' : 'Show more';
+    wallMore.setAttribute('aria-expanded', String(all));
+  }
+  wallMore.addEventListener('click', () => {
+    const next = wall.querySelector('li[hidden] a');
+    if (next) {
+      wallRows += WALL_STEP_ROWS;
+      clampWall();
+      next.focus({ preventScroll: true });
+    } else {
+      // Collapsing removes rows above the button; hold the button where it was
+      // on screen instead of dropping the reader further down the page.
+      const before = wallMore.getBoundingClientRect().top;
+      wallRows = WALL_START_ROWS;
+      clampWall();
+      window.scrollBy({ top: wallMore.getBoundingClientRect().top - before, behavior: 'instant' });
+    }
+  });
+  clampWall();
+  let wallFrame = 0;
+  window.addEventListener('resize', () => {
+    cancelAnimationFrame(wallFrame);
+    wallFrame = requestAnimationFrame(clampWall);
+  });
+
+  const motionOK = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Scroll: nav shadow, progress bar, hero hands parallax (drift toward each other)
+  const nav = document.querySelector('nav');
+  const progressBar = document.getElementById('progressBar');
+  const handH = document.querySelector('.hand-human');   // absent since the type-only hero
+  const handR = document.querySelector('.hand-robot');
+  let scrollTicking = false;
+  function onScrollFrame() {
+    scrollTicking = false;
+    const y = window.scrollY;
+    nav.classList.toggle('scrolled', y > 8);
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    progressBar.style.width = (max > 0 ? (y / max) * 100 : 0) + '%';
+    if (motionOK && y < 1600 && handH && handR) {
+      handH.style.transform = 'translate(' + (-y * 0.055) + 'px, ' + (y * 0.065) + 'px)';
+      handR.style.transform = 'translate(' + (y * 0.055) + 'px, ' + (-y * 0.045) + 'px)';
+    }
+  }
+  window.addEventListener('scroll', () => {
+    if (!scrollTicking) { scrollTicking = true; requestAnimationFrame(onScrollFrame); }
+  }, { passive: true });
+  onScrollFrame();
+
+  // Nav: highlight the section in view
+  const navLinks = [...document.querySelectorAll('.nav-links a[href^="#"]:not(.btn)')];
+  const secObserver = new IntersectionObserver(entries => {
+    entries.forEach(en => {
+      if (!en.isIntersecting) return;
+      navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + en.target.id));
+    });
+  }, { rootMargin: '-35% 0px -55% 0px' });
+  ['problem', 'plan', 'voices'].forEach(id => secObserver.observe(document.getElementById(id)));
+
+  // Countries
+
+  // Reveal
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Finish-line walker: start the walk only when the track is really visible,
+  // and re-arm it whenever it fully leaves the viewport so it replays.
+  const track = document.querySelector('.finish-track');
+  if (track) {
+    const walkIO = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.intersectionRatio >= 0.6) track.classList.add('walk');
+        else if (e.intersectionRatio === 0) track.classList.remove('walk');
+      });
+    }, { threshold: [0, 0.6] });
+    walkIO.observe(track);
+  }
+
+
+
+  // Bonus-action tooltips: tap toggles (button sits inside the label, so
+  // preventDefault keeps the tap from also toggling the checkbox)
+  document.querySelectorAll('.tip').forEach(tip => {
+    tip.addEventListener('click', e => {
+      e.preventDefault(); e.stopPropagation();
+      document.querySelectorAll('.tip.open').forEach(t => { if (t !== tip) t.classList.remove('open'); });
+      tip.classList.toggle('open');
+    });
+  });
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.tip')) document.querySelectorAll('.tip.open').forEach(t => t.classList.remove('open'));
+  });
+
+  // Sticky bar: show once the hero pledge card scrolls out of view
+  const bar = document.getElementById('stickyBar');
+  const pledgeCard = document.getElementById('pledge');
+  const bio = new IntersectionObserver(es => {
+    bar.classList.toggle('show', !es[es.length - 1].isIntersecting);
+  }, { threshold: 0 });
+  bio.observe(pledgeCard);
+
+  // On phones, the nav and sticky-bar "Add Your Name" open the pledge card as a
+  // pop-up where the reader is, instead of scrolling them back to the top. A
+  // spacer holds the card's place so the page behind does not move.
+  const phone = window.matchMedia('(max-width: 700px)');
+  const backdrop = document.createElement('div');
+  backdrop.className = 'pledge-backdrop';
+  pledgeCard.before(backdrop);   // same layer as the card, so it sits under it
+  let spacer = null, opener = null, readerY = 0;
+  function openPledge(from) {
+    if (spacer) return;
+    // Read first: adding the spacer briefly shifts the page, and browsers that
+    // anchor scrolling move scrollY with it.
+    readerY = window.scrollY;
+    const cs = getComputedStyle(pledgeCard);
+    spacer = document.createElement('div');
+    spacer.style.height = pledgeCard.getBoundingClientRect().height + 'px';
+    spacer.style.marginTop = cs.marginTop;
+    pledgeCard.before(spacer);
+    opener = from;
+    document.documentElement.classList.add('pledge-pop');
+    pledgeCard.setAttribute('role', 'dialog');
+    pledgeCard.setAttribute('aria-modal', 'true');
+    pledgeCard.setAttribute('aria-label', 'Add your name');
+    pledgeCard.scrollTop = 0;
+    // Focus the pop-up, not a field: a focused field would raise the phone's
+    // keyboard over the form before the reader has seen it.
+    pledgeCard.setAttribute('tabindex', '-1');
+    pledgeCard.focus({ preventScroll: true });
+  }
+  function closePledge() {
+    if (!spacer) return;
+    document.documentElement.classList.remove('pledge-pop');
+    ['role', 'aria-modal', 'aria-label', 'tabindex'].forEach(a => pledgeCard.removeAttribute(a));
+    // Put the reader back where they were. Typing in the pop-up can nudge the
+    // page, and the card may come back taller or shorter than it left (the ZIP
+    // shows only for the US), which moves everything below it.
+    const grew = pledgeCard.getBoundingClientRect().height - parseFloat(spacer.style.height);
+    spacer.remove(); spacer = null;
+    window.scrollTo({ top: readerY + grew, behavior: 'instant' });
+    if (opener) opener.focus({ preventScroll: true });
+    opener = null;
+  }
+  document.querySelectorAll('nav .btn-nav, #stickyBar a').forEach(a => a.addEventListener('click', e => {
+    if (!phone.matches) return;
+    e.preventDefault();
+    openPledge(a);
+  }));
+  pledgeCard.querySelector('.pledge-close').addEventListener('click', closePledge);
+  backdrop.addEventListener('click', closePledge);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closePledge(); });
+  phone.addEventListener('change', () => { if (!phone.matches) closePledge(); });
+  // Wider screens: "Add Your Name" in the nav scrolls to the statement card,
+  // then lets it glow for a moment so the eye lands there. If the card is
+  // already where the button would put it, the click also puts the cursor in
+  // the first empty field. (Phones get the pop-up above instead.)
+  const navSign = document.querySelector('nav .btn-nav[href="#pledge"]');
+  let glowTimer;
+  function glowCard() {
+    pledgeCard.classList.remove('glow');
+    void pledgeCard.offsetWidth; // restart the animation on a repeat tap
+    pledgeCard.classList.add('glow');
+    clearTimeout(glowTimer);
+    glowTimer = setTimeout(() => pledgeCard.classList.remove('glow'), 600);
+  }
+  function cardInPlace() {
+    const margin = parseFloat(getComputedStyle(pledgeCard).scrollMarginTop) || 0;
+    return Math.abs(pledgeCard.getBoundingClientRect().top - margin) < 24;
+  }
+  if (navSign) navSign.addEventListener('click', e => {
+    if (phone.matches) return;
+    if (cardInPlace()) {
+      e.preventDefault();
+      const fields = [...pledgeCard.querySelectorAll('input, select')].filter(f => f.offsetParent);
+      const field = fields.find(f => !f.value) || fields[0];
+      if (field) field.focus({ preventScroll: true });
+      glowCard();
+      return;
+    }
+    // Let the link scroll, and light the card when the scroll settles. Safari
+    // has no scrollend yet, so a timer stands in for it there.
+    let done = false;
+    const settle = () => { if (!done) { done = true; glowCard(); } };
+    if ('onscrollend' in window) window.addEventListener('scrollend', settle, { once: true });
+    setTimeout(settle, 'onscrollend' in window ? 1500 : 700);
+  });
+</script>
+</body>
+</html>

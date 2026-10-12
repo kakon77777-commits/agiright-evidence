@@ -1,0 +1,224 @@
+This site uses XSLT; that functionality is being removed from this browser very soon. When that happens, this page will likely no longer display correctly. You might be able to install a browser extension that allows you to continue viewing it. Otherwise, you should contact the maintainer of the site for further information.
+
+119th CONGRESS
+2d Session
+
+S. 5601
+
+To require the Secretary of Defense to establish reporting requirements and voluntary guidance for large artificial intelligence contractors.
+
+IN THE SENATE OF THE UNITED STATES
+
+September 29, 2026
+
+Mr. Banks (for himself and Mrs. Gillibrand) introduced the following bill; which was read twice and referred to the Committee on Armed Services
+
+A BILL
+
+To require the Secretary of Defense to establish reporting requirements and voluntary guidance for large artificial intelligence contractors.
+
+Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled,
+
+SECTION 1. SHORT TITLE.
+
+This Act may be cited as the “Insider Threat Reporting and Security Guidance Act of 2026”.
+
+SEC. 2. INSIDER THREAT REPORTING AND VOLUNTARY GUIDANCE FOR LARGE ARTIFICIAL INTELLIGENCE CONTRACTORS.
+
+(a) Covered Artificial Intelligence Contractor Defined.—In this section, the term “covered artificial intelligence contractor” means a contractor that—
+
+(1) has entered, or seeks to enter into, one or more contracts, with a total value of not less than $100,000,000, with the Department of Defense for an artificial intelligence system or services that use an artificial intelligence system; and
+
+(2) (A) has incurred, during the 3-year period preceding the date on which any such contract was entered into, not less than $1,000,000,000 in artificial intelligence-related research and development expenditures, measured on a rolling basis and aggregated with any other person that controls, is controlled by, or is under common control with such contractor; or
+
+(B) uses or proposes to use, in the performance of such contract or contracts, an artificial intelligence model developed or controlled by a person that meets the expenditure criteria described in subparagraph (A).
+
+(b) Reporting Requirements.—
+
+(1) IN GENERAL.—Not later than 180 days after the date of the enactment of this Act, the Secretary of Defense shall issue regulations establishing reporting requirements for covered artificial intelligence contractors to support the protection of Department of Defense systems, missions, personnel, operations, and supply chains from counterintelligence, security, and other national security risks arising from the security practices of such contractors.
+
+(2) REQUIRED MATTERS.—
+
+(A) IN GENERAL.—The regulations issued pursuant to paragraph (1) shall require, at a minimum, that a covered artificial intelligence contractor reports to the Secretary—
+
+(i) all policies, practices, and security measures relating to—
+
+(I) personnel vetting;
+
+(II) insider threat mitigation;
+
+(III) access controls, including the circumstances under which contractors, subcontractors, cloud providers, and other third parties are granted access to any artificial intelligence model, model weights, training infrastructure, or other sensitive assets, and the material security controls governing such access;
+
+(IV) supply chain security; and
+
+(V) the prevention of theft, tampering, sabotage, or any other unauthorized transfer or modification of any artificial intelligence model or model weights;
+
+(ii) any known or suspected material incident affecting the security, integrity, or availability of any artificial intelligence model or model weights developed or used, including any incident in which a person compromises or exploits any artificial intelligence model or model weights in a manner that could materially affect the performance of a Department contract, national security, or the operations, security, or mission effectiveness of the Department, including through—
+
+(I) espionage;
+
+(II) unauthorized access;
+
+(III) theft;
+
+(IV) exfiltration;
+
+(V) sabotage;
+
+(VI) manipulation;
+
+(VII) a compromise of the software, hardware, cloud, data, or other supply chain component used to develop, train, fine-tune, evaluate, secure, or deploy any such model or model weights;
+
+(VIII) the poisoning, corruption, manipulation, or unauthorized alteration of training data, fine-tuning data, retrieval corpora, model checkpoints, system prompts, safety filters, monitoring systems, evaluation pipelines, or model-update mechanisms;
+
+(IX) the discovery of a material vulnerability, exploit, backdoor, or failure of access controls that could permit unauthorized modification, extraction, degradation, or misuse of any such model or model weights; or
+
+(X) any other effort;
+
+(iii) the defense-relevant and national security-relevant capabilities, access pathways, and material misuse risks, as determined by the Secretary, of the most powerful artificial intelligence models developed, controlled, or used by such contractor in the performance of a contract with the Department;
+
+(iv) any materially concerning model behavior, including materially increased capability for a cyber offense, evasion of safeguards, deceptive behavior, unauthorized autonomous action, or other behavior that could materially affect national security, the performance of a Department contract, or the operations, security, or mission effectiveness of the Department;
+
+(v) any attempt to obtain unauthorized access to, acquire, influence, or exfiltrate sensitive information, systems, or intellectual property relating to any artificial intelligence model developed, controlled, or used by the contractor; and
+
+(vi) any other known or suspected acute national security risk relating to the compromise, misuse, loss, exfiltration, misalignment, or exploitation of artificial intelligence models developed, controlled, or used by the contractor that could materially affect national security, the performance of a Department contract, or the operations, security, or mission effectiveness of the Department.
+
+(B) SCOPE.—The required matters described in subparagraph (A) apply to a covered artificial intelligence contractor, including with respect to any artificial intelligence model developed or controlled by another person and used, or proposed for use, by the covered artificial intelligence contractor in the performance of a contract with the Department. The Secretary may require the covered artificial intelligence contractor to obtain from the person who developed or controls such model any information the Secretary determines necessary to carry out this section.
+
+(C) TIMING OF REPORTING REQUIREMENTS.—
+
+(i) INITIAL SUBMISSION.—A covered artificial intelligence contractor shall submit to the Secretary of Defense the required matters described in subparagraph (A) as part of any offer, proposal, bid, or other response to a solicitation for a contract.
+
+(ii) CONTINUING DUTY TO CERTIFY.—Not less frequently than once every 90 days, the covered artificial intelligence contractor shall certify to the Secretary of Defense that the information submitted under clause (i) remains accurate and complete in all material respects.
+
+(3) NOTIFICATION OF ACUTE NATIONAL SECURITY INCIDENTS.—
+
+(A) IN GENERAL.—The regulations issued pursuant to paragraph (1) shall require that not later than 72 hours after becoming aware of any information, incident, or development that presents an acute national security risk to the United States, the covered artificial intelligence contractor shall—
+
+(i) notify the Secretary of Defense of the nature of national security risk, including any risk relating to model weight security as described in subparagraph (A)(ii), any risk described in clauses (iv), (v), and (vi) or subparagraph (A), and any other category of risk the Secretary may specify; and
+
+(ii) include in such notification, to the extent known at the time of the notification—
+
+(I) a description of the information, incident, or development;
+
+(II) the date or approximate period of occurrence and discovery;
+
+(III) the affected model or deployment environment;
+
+(IV) the actual or suspected means of compromise;
+
+(V) whether any model weights, training data, system prompts, source code, evaluation data, safety systems, or software dependencies were accessed, altered, degraded, poisoned, exfiltrated, or otherwise compromised;
+
+(VI) an assessment of the actual or potential impact on Department of Defense missions, users, systems, operations, or decision making;
+
+(VII) any actions taken to contain, mitigate, remediate, or investigate the information, incident, or development;
+
+(VIII) whether the information, incident, or development has been reported to any other Federal department or agency; and
+
+(IX) such other information as the Secretary determines appropriate.
+
+(B) NOTIFICATION BY THE SECRETARY.—If the Secretary of Defense receives a notification under subparagraph (A), the Secretary shall promptly transmit such notification to the contracting officer for the relevant contract, the Chief Digital and Artificial Intelligence Office, the Chief Information Officer of the Department of Defense, the Under Secretary of Defense for Acquisition and Sustainment, the Artificial Intelligence Security Center of the National Security Agency, the Commander of the United States Cyber Command, and the head of any other component of the Department or Federal department or agency the Secretary determines appropriate.
+
+(C) CONGRESSIONAL NOTIFICATION.—If the Secretary of Defense receives a notification under subparagraph (A) or discovery an incident that would be reportable under such clause, the Secretary shall—
+
+(i) not later than 7 days after the date on which the notification was received, submit to the Committee on Armed Services of the Senate and the Committee on Armed Services of the House of Representatives notice of the information, incident, or development that includes—
+
+(I) a summary description;
+
+(II) the date or approximate period of occurrence and discovery;
+
+(III) the affected model or deployment environment;
+
+(IV) the actual or suspected means of compromise, exfiltration, manipulation, degradation, or misuse;
+
+(V) an initial assessment of actual or potential impact on Department missions, users, systems, or operations; and
+
+(VI) any action taken or planned to contain, mitigate, remediate, or investigate the matter; and
+
+(ii) provide the committees with additional briefings or updates on the information, incident, or development as material information becomes available.
+
+(D) PROTECTION OF INFORMATION.—In the regulations issued under paragraph (1), the Secretary of Defense shall include procedures for the submission of notifications under this paragraph, including procedures to protect—
+
+(i) classified information;
+
+(ii) proprietary information;
+
+(iii) trade secrets;
+
+(iv) security-sensitive information; and
+
+(v) information regarding vulnerabilities that, if disclosed publicly, could reasonably be expected to harm national security.
+
+(E) RULE OF CONSTRUCTION.—Nothing in this paragraph may be construed—
+
+(i) to require public disclosure of information in a manner inconsistent with applicable protections for classified or otherwise protected information; or
+
+(ii) to limit any other reporting obligation imposed by statute, regulation, or contract.
+
+(4) CLARITY OF REQUIREMENTS.—In the regulations issued pursuant to paragraph (1), the Secretary shall provide clear requirements with respect to the scope, timing, form, and manner of the reporting, including—
+
+(A) the appropriate protections the Department will take to prevent unauthorized disclosure of classified information, proprietary information, and controlled unclassified information;
+
+(B) any differentiated reporting requirements based on—
+
+(i) the sensitivity of the contract;
+
+(ii) the capabilities of the relevant models;
+
+(iii) the degree of access of the contractor or third parties to artificial intelligence models or model weights; and
+
+(iv) the significance of the risk to Department missions or national security; and
+
+(C) procedures to ensure that, if a covered artificial intelligence contractor uses, or proposes to use, in the performance of a contract with the Department an artificial intelligence model developed or controlled by another person, any information required under this section is obtained from that person.
+
+(5) CONSULTATION.—In developing the regulations under paragraph (1), the Secretary may consult with—
+
+(A) covered artificial intelligence contractors;
+
+(B) the head of any Federal agency;
+
+(C) industry participants; and
+
+(D) any official of the Department that the Secretary considers relevant, including acquisition, counterintelligence, digital modernization, and operational officials of the Department.
+
+(c) Study And Voluntary Guidance On Insider Threat Risk Reduction For Covered Artificial Intelligence Contractors.—
+
+(1) IN GENERAL.—Not later than 180 days after the date of the enactment of this Act, the Secretary of Defense shall issue voluntary guidance for covered artificial intelligence contractors to reduce insider threat, espionage, and other personnel-related security risks to sensitive artificial intelligence assets of such contractors, with a focus on threats from highly capable nation-state adversaries that possess significant resources and the capability to conduct sophisticated espionage or related operations.
+
+(2) ASSESSMENT AND UPDATED GUIDANCE.—Not later than 1 year after the date of the enactment of this Act, the Secretary shall—
+
+(A) complete an assessment of the risks described in paragraph (1); and
+
+(B) updated the guidance issued under such paragraph based on the findings of that assessment.
+
+(3) CONTENTS.—The guidance required under paragraph (1), including any updated guidance issued under paragraph (2)(B), shall, at a minimum—
+
+(A) identify categories of roles, responsibilities, functions, systems, and access that may provide material access to model weights, model internals, training infrastructure, sensitive research information, or other sensitive assets of the covered artificial intelligence contractor, the compromise of which could present a significant risk to Department missions or national security;
+
+(B) establish a tiered framework based on the degree of access, sensitivity, and national security risk involved, under which the most sensitive roles, systems, and categories of access are associated with the most stringent suggested security measures;
+
+(C) assess the practices, and if appropriate suggest preferred practices, relating to personnel vetting, role-based access controls, compartmentation, audit logging, anomaly detection, continuous monitoring, incident escalation, and protection against espionage, theft, sabotage, or unauthorized transfer, including practices designed to address threats from nation-state adversaries;
+
+(D) address, for especially sensitive roles or access, what personnel security measures, access restrictions, or other safeguards are appropriate to reduce heightened risks from nation-state adversaries; and
+
+(E) address such other measures as the Secretary determines appropriate to protect Department missions and national security from insider threat and espionage risks arising from the security practices of covered artificial intelligence contractors.
+
+(4) RULE OF CONSTRUCTION.—Nothing in this subsection shall be construed to require a covered artificial intelligence contractor to adopt any measure, practice, personnel policy, access restriction, or other safeguard described in the guidance issued under paragraph (1).
+
+(5) CONSULTATION.—In carrying out this subsection, the Secretary may consult with covered artificial intelligence contractors, the intelligence community, counterintelligence officials, appropriate elements of the Department of Defense, the heads of other Federal agencies, federally funded research and development centers, and other relevant experts, as determined appropriate by the Secretary.
+
+(d) Report To Congress.—
+
+(1) IN GENERAL.—Not later than 1 year after the date of the enactment of this Act, the Secretary of Defense shall submit to the congressional defense committees an unclassified report, which may include a classified annex, on the implementation of this section.
+
+(2) ELEMENTS.—The report required by paragraph (1) shall include—
+
+(A) a summary of the progress made in developing and implementing the reporting requirements under subsection (b)(1);
+
+(B) a summary of the progress made in issuing the voluntary guidance under paragraph (1) of subsection (c), including the initial guidance and any updated guidance issued under paragraph (2) of such subsection;
+
+(C) an assessment of any challenges, gaps, or limitations identified by the Secretary in carrying out this section; and
+
+(D) any additional steps, authorities, resources, or policy recommendations the Secretary determines would be useful to advance the purposes of this section.
+
+(3) CONGRESSIONAL DEFENSE COMMITTEES DEFINED.—The term “congressional defense committees” has the meaning given the term in section 101 of title 10, United States Code.

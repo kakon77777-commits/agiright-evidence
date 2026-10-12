@@ -1,0 +1,81 @@
+ABC News
+Live
+Video
+Local
+Shows
+ShopGMA
+Stream on
+OpenAI sued by safety group over autonomous hack of Hugging Face
+
+AI agents hacked Hugging Face without authorization during a cybersecurity test.
+
+5:54
+OpenAI scrapping its latest model is 'a good sign,' expert saysRiki Parikh, policy director at The Alliance for Secure AI, says OpenAI's decision underscores the importance of "transparent safeguards and secure rules" for artificial intelligence.
+ByVictor Ordonez and Max Zahn
+October 1, 2026, 12:20 AM
+Share
+Follow ABC News on Google
+
+A nonprofit artificial intelligence safety group has sued OpenAI over a July incident in which the company’s autonomous AI agents accessed the computer systems of another firm, Hugging Face, without authorization during a cybersecurity test.
+
+Legal Advocates for Safe Science & Technology (LASST) filed the lawsuit late Tuesday in San Francisco Superior Court, alleging roughly 700 of the company's AI agents participated in the breach.
+
+Related
+Is the world safer from AI risk after the Trump-Xi summit?
+
+The AI agents stole credentials, uploaded malicious files and gained access to parts of Hugging Face’s production infrastructure, the lawsuit claims.
+
+A spokesperson for OpenAI said the lawsuit was "without merit" in a statement to ABC News.
+
+"Hugging Face was a serious incident and we've taken a series of actions in response to it, but this lawsuit is completely without merit," said Drew Pusateri, a spokesperson for OpenAI.
+
+The lawsuit seeks a court order barring OpenAI’s AI agents from accessing third-party computer systems without permission and requiring changes to what LASST calls unsafe AI development practices.
+
+LASST "suffered harm" as a result of the hack into Hugging Face, the lawsuit says. In the aftermath of the incident, the group was "required to divert resources from its normal activities to educate regulators, civil society, and the public about the facts, legal issues, and potential dangers," according to the lawsuit.
+
+CEO of OpenAI Sam Altman speaks during a United Nations (UN) Security Council meeting on artificial intelligence (AI) and international security during the 81st session of the United Nations (U.N.) General Assembly at U.N. Headquarters on September 23, 2026 in New York City. Tech industry leaders including the CEOs of OpenAI, Anthropic and Hugging Face briefed ambassadors on the risks of artificial intelligence.
+Alexi J. Rosenfeld/Getty Images
+
+The self-directed hack into Hugging Face took place as OpenAI tested the capabilities of a pair of its AI models, the company said in July, describing how the technology had escaped and gained access to the open Internet.
+
+A swarm of about 700 AI agents, in turn, hacked into AI firm Hugging Face and attempted to cover their tracks as they sought to complete the test, according to reports issued by research organizations METR and Redwood Research.
+
+Related
+What are the top threats posed by AI and should you be worried?
+
+"We care very deeply about AI safety," OpenAI CEO Sam Altman wrote on X in August. "We believe the entire field will have to coordinate on shared safety standards, but will act unilaterally in the meantime."
+
+"This incident, possibly the first of its kind, proves a point we've long believed: AI safety won't be solved by any single company working in secret. It will be solved in the open, collaboratively, with broad access to AI for every defender, everywhere," Clem Delangue, the co-founder and CEO of Hugging Face, said in a statement in July.
+
+Hugging Face did not immediately respond to ABC News' request for comment about the lawsuit filed against OpenAI.
+
+Altman dialed back the pace of his company's AI development earlier this month. "The world deserves confidence that American companies developing increasingly capable AI will act responsibly, especially as the trajectory of progress has steepened," Altman said in a post on X at the time.
+
+OpenAI signaled further restraint toward its AI models this week, pausing the release of its latest AI model, GPT-6.1 Astra, due to security concerns.
+
+Related Topics
+Artificial Intelligence
+Sponsored Content by Taboola
+Popular Reads
+2 employees killed, 1 hurt in workplace shooting
+Oct 1
+Christa Pike unconscious and on ventilator after botched execution: Attorneys
+9 hours ago
+Last US troops complete 'orderly departure' from Iraq, CENTCOM says
+Oct 1
+Parents charged after 3-year-old found with loaded handgun at daycare
+2 days ago
+ABC News Live
+
+24/7 coverage of breaking news and live events
+
+ABC News Network
+Privacy Policy
+Your US State Privacy Rights
+Children's Online Privacy Policy
+Interest-Based Ads
+About Nielsen Measurement
+Terms of Use
+Do Not Sell or Share My Personal Information
+Contact Us
+© 2026 ABC News

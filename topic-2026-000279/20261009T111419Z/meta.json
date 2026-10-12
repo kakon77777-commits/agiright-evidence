@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000279",
+  "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+  "capturedAt": "2026-10-09T11:14:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 119391,
+    "sha256": "786735b181794ce234e5dede710a01a007034ab48c0a9e0509f36dbc2f7722b2",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F4A1DFDBABD5EDCA2FAC0A3FA95623C4",
+      "status": 200,
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5260,
+      "afterScrollHeight": 5260,
+      "wantedHeight": 5260
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4b85048005f9bb4b65ebdb03e176ce9878c6c55ae7c2adccd344661d0d380fb0",
+    "width": 1366,
+    "height": 5260,
+    "bytes": 862842,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5260,
+    "afterScrollHeight": 5260
+  },
+  "record": {
+    "capturedAt": "2026-10-09T11:14:19Z",
+    "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 119391,
+      "sha256": "786735b181794ce234e5dede710a01a007034ab48c0a9e0509f36dbc2f7722b2"
+    },
+    "finalUrl": "https://www.anthropic.com/news/2026-usage-policy-update",
+    "httpStatus": 200,
+    "title": "2026 Usage Policy update \\ Anthropic",
+    "rendered": {
+      "textChars": 9386,
+      "textSha256": "63ba6b08fc76e9fa58db6112fe1ce291dcf3919ffd8b688f4898b81031dbd04b",
+      "htmlSha256": "9347fb6dff5299bb86f17ffac4cf512084de02e442f81fc54b5bf2d27cc4cf50"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4b85048005f9bb4b65ebdb03e176ce9878c6c55ae7c2adccd344661d0d380fb0",
+      "width": 1366,
+      "height": 5260,
+      "bytes": 862842,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261008170859",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261008170859/https://www.anthropic.com/news/2026-usage-policy-update"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261009072116/https://www.anthropic.com/news/2026-usage-policy-update",
+      "timestamp": "20261009072116",
+      "verifiedHttp": 200
+    }
+  }
+}

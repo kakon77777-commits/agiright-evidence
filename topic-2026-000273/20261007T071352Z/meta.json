@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000273",
+  "url": "https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack",
+  "capturedAt": "2026-10-07T07:13:52Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 402487,
+    "sha256": "48bf9e37314596fc4c029dad21e7508082adf924b63e309c7f7e2481a4c8c8af",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/154.0.4258.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B38A203584306199DF797D63CBF3769C",
+      "status": 200,
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4536,
+      "afterScrollHeight": 4536,
+      "wantedHeight": 4536
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "aba9a5498f604f66c9e415ff29c390b166843f7a4c525ba4a516e9294bf40ac8",
+    "width": 1366,
+    "height": 4536,
+    "bytes": 1317215,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4536,
+    "afterScrollHeight": 4536
+  },
+  "record": {
+    "capturedAt": "2026-10-07T07:13:52Z",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 402487,
+      "sha256": "48bf9e37314596fc4c029dad21e7508082adf924b63e309c7f7e2481a4c8c8af"
+    },
+    "finalUrl": "https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack",
+    "httpStatus": 200,
+    "title": "OpenAI apologises for Australia Medicare hack | The Star",
+    "rendered": {
+      "textChars": 6641,
+      "textSha256": "a6744e1cb967a603586f237b5949a287d67e5ff2fd90831395981013474132c1",
+      "htmlSha256": "b82b0645ac3187323504123748bde7392fb4e058016bf6e76fa58c71dffbed65"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "aba9a5498f604f66c9e415ff29c390b166843f7a4c525ba4a516e9294bf40ac8",
+      "width": 1366,
+      "height": 4536,
+      "bytes": 1317215,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/154.0.4258.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261007071517/https://www.thestar.com.my/tech/tech-news/2026/10/06/openai-apologises-for-australia-medicare-hack",
+      "timestamp": "20261007071517",
+      "verifiedHttp": 200
+    }
+  }
+}

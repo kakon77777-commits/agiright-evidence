@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000285",
+  "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+  "capturedAt": "2026-10-10T12:14:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 155657,
+    "sha256": "46c513ab246f3e364f80473f2321e5c074dddf9906712a4faa047ca47857c686",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "3EDC7CAF1790EFA8C1D7EA538AFFD3D9",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10740,
+      "afterScrollHeight": 10740,
+      "wantedHeight": 10740
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "b472f433c62364b41b10288a7316ea0d7e063fdddf02b7432533109be7c6cb78",
+    "width": 1366,
+    "height": 10740,
+    "bytes": 1984428,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10740,
+    "afterScrollHeight": 10740
+  },
+  "record": {
+    "capturedAt": "2026-10-10T12:14:15Z",
+    "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 155657,
+      "sha256": "46c513ab246f3e364f80473f2321e5c074dddf9906712a4faa047ca47857c686"
+    },
+    "finalUrl": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+    "httpStatus": 200,
+    "title": "Investigating unintended model actions in our evaluations and internal use \\ Anthropic",
+    "rendered": {
+      "textChars": 21406,
+      "textSha256": "942b3654f42ac434584b4ad4c9e253fb0fac070e412c1b0a4b2ccf54aca1134e",
+      "htmlSha256": "369df84fae20ff378057abb09dee781345133c87ef4c02be60135f5922b5da6f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b472f433c62364b41b10288a7316ea0d7e063fdddf02b7432533109be7c6cb78",
+      "width": 1366,
+      "height": 10740,
+      "bytes": 1984428,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261009223643",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261009223643/https://www.anthropic.com/research/investigating-unintended-model-actions"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

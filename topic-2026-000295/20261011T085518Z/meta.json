@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000295",
+  "url": "https://www.govinfo.gov/bulkdata/BILLS/119/2/s/BILLS-119s5601is.xml",
+  "capturedAt": "2026-10-11T08:55:18Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/xml",
+    "bytes": 31939,
+    "sha256": "b4f3930cad81c453cb74e95b84cfa460c9784331d87cf9aaeba48e96d3fbf902",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9B05694ECC6E1E4C642E68C4C83199CB",
+      "status": 200,
+      "url": "https://www.govinfo.gov/bulkdata/BILLS/119/2/s/BILLS-119s5601is.xml",
+      "mime": "text/xml"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6189,
+      "afterScrollHeight": 6189,
+      "wantedHeight": 6189
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d951e4aa548d99b0a150f58174bb57fad62c5e3fefa405a244a183295924290f",
+    "width": 1366,
+    "height": 6189,
+    "bytes": 902610,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6189,
+    "afterScrollHeight": 6189
+  },
+  "record": {
+    "capturedAt": "2026-10-11T08:55:18Z",
+    "url": "https://www.govinfo.gov/bulkdata/BILLS/119/2/s/BILLS-119s5601is.xml",
+    "raw": {
+      "status": 200,
+      "contentType": "text/xml",
+      "bytes": 31939,
+      "sha256": "b4f3930cad81c453cb74e95b84cfa460c9784331d87cf9aaeba48e96d3fbf902"
+    },
+    "finalUrl": "https://www.govinfo.gov/bulkdata/BILLS/119/2/s/BILLS-119s5601is.xml",
+    "httpStatus": 200,
+    "title": "S. 5601 (Introduced-in-Senate)",
+    "rendered": {
+      "textChars": 17190,
+      "textSha256": "73bc08360ebf29fe5393a9377dd0523f85e6ed7b93f80545e3d41502bf5a4059",
+      "htmlSha256": "64bf287acf415d0ce8b5138a972b82593c841bbca73d7bff8ebcc564b8fd33c3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d951e4aa548d99b0a150f58174bb57fad62c5e3fefa405a244a183295924290f",
+      "width": 1366,
+      "height": 6189,
+      "bytes": 902610,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261009235819",
+      "statuscode": "200",
+      "mimetype": "text/xml",
+      "url": "https://web.archive.org/web/20261009235819/https://www.govinfo.gov/bulkdata/BILLS/119/2/s/BILLS-119s5601is.xml"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261011085631/https://www.govinfo.gov/bulkdata/BILLS/119/2/s/BILLS-119s5601is.xml",
+      "timestamp": "20261011085631",
+      "verifiedHttp": 200
+    }
+  }
+}
