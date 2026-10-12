@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000303",
+  "url": "https://arxiv.org/abs/2610.13340",
+  "capturedAt": "2026-10-12T12:47:09Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 43200,
+    "sha256": "d490e0e25927cbffcd5a066bda0a1f2120c6d70a44b4a3860eea3e34d45c0e50",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FC39BD55D1D4109BC5AD944F0D924505",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2610.13340",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1167,
+      "afterScrollHeight": 1167,
+      "wantedHeight": 1167
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "23c416c874b3a4d58108463c79251b1683d83335cbc09c31c1654bbc11cce9c8",
+    "width": 1366,
+    "height": 1167,
+    "bytes": 141525,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1167,
+    "afterScrollHeight": 1167
+  },
+  "record": {
+    "capturedAt": "2026-10-12T12:47:09Z",
+    "url": "https://arxiv.org/abs/2610.13340",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 43200,
+      "sha256": "d490e0e25927cbffcd5a066bda0a1f2120c6d70a44b4a3860eea3e34d45c0e50"
+    },
+    "finalUrl": "https://arxiv.org/abs/2610.13340",
+    "httpStatus": 200,
+    "title": "[2610.13340] Who Can Say No? Control, Accountability and the Pace of Frontier AI",
+    "rendered": {
+      "textChars": 3402,
+      "textSha256": "590df54c0b7bde90935485eba8944e7eb42268aabbe9ea1d2800d581cd150664",
+      "htmlSha256": "d9f9a2553135ff75a5295709bb34634226d46e142b2725086a063f9eeb85b81d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "23c416c874b3a4d58108463c79251b1683d83335cbc09c31c1654bbc11cce9c8",
+      "width": 1366,
+      "height": 1167,
+      "bytes": 141525,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261012124801/https://arxiv.org/abs/2610.13340",
+      "timestamp": "20261012124801",
+      "verifiedHttp": 200
+    }
+  }
+}

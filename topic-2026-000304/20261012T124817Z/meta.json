@@ -1,0 +1,56 @@
+{
+  "id": "topic-2026-000304",
+  "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+  "capturedAt": "2026-10-12T12:48:17Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 4569677,
+    "sha256": "d76815f8c0bd284a33c7017d642d0734ba903ae63f7c1e6ca7778b35b2c40fa4",
+    "file": "raw.pdf"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "647ED2D78701AFDA6B3DB80455BFAE4F",
+      "status": 200,
+      "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+      "mime": "application/pdf"
+    },
+    "skipped": "pdf: no rendered view captured (raw bytes stored instead)",
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "record": {
+    "capturedAt": "2026-10-12T12:48:17Z",
+    "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+    "raw": {
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 4569677,
+      "sha256": "d76815f8c0bd284a33c7017d642d0734ba903ae63f7c1e6ca7778b35b2c40fa4"
+    },
+    "finalUrl": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+    "httpStatus": 200,
+    "note": "pdf: no rendered view captured (raw bytes stored instead)",
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260814203017",
+      "statuscode": "200",
+      "mimetype": "application/pdf",
+      "url": "https://web.archive.org/web/20260814203017/https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261009054455/https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+      "timestamp": "20261009054455",
+      "verifiedHttp": 200
+    }
+  }
+}

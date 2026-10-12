@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000302",
+  "url": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3861",
+  "capturedAt": "2026-10-12T12:45:25Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 34118,
+    "sha256": "1ef735539d2fdcc4931de434ada3378e9fb937bda6ba03e42193659c77d08f02",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "54966D8EE08741A4079E4087B5F54554",
+      "status": 200,
+      "url": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3861",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2567,
+      "afterScrollHeight": 2567,
+      "wantedHeight": 2567
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d9c5ebac943c990aebbf58133129cfb9a380f3d6b236eab29f24b534d93580ce",
+    "width": 1366,
+    "height": 2567,
+    "bytes": 2480618,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2567,
+    "afterScrollHeight": 2567
+  },
+  "record": {
+    "capturedAt": "2026-10-12T12:45:25Z",
+    "url": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3861",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 34118,
+      "sha256": "1ef735539d2fdcc4931de434ada3378e9fb937bda6ba03e42193659c77d08f02"
+    },
+    "finalUrl": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3861",
+    "httpStatus": 200,
+    "title": "Trahan Unveils CLAIM Act Discussion Draft to Hold AI Developers Accountable for Harms Caused by Their Agents | U.S. Representative Lori Trahan",
+    "rendered": {
+      "textChars": 4027,
+      "textSha256": "559019155374c6dcb05c80a5d485dcf4a03f185c94814514bf22f9a6c6f80acc",
+      "htmlSha256": "aab2beb50b407a0b3cf9203c49dcde8f35f363d0416ea2c997432153b73dbef0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d9c5ebac943c990aebbf58133129cfb9a380f3d6b236eab29f24b534d93580ce",
+      "width": 1366,
+      "height": 2567,
+      "bytes": 2480618,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261007143954",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261007143954/https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3861"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261011083125/https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3861",
+      "timestamp": "20261011083125",
+      "verifiedHttp": 200
+    }
+  }
+}
