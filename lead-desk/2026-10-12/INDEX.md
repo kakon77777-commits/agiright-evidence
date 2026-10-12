@@ -1,0 +1,4 @@
+Links are Drive download links (https://drive.google.com/uc?export=download&id=<fileId>). The files are private to the Drive owner unless shared, so others will get an access prompt.
+2026-10-12 | 12 fresh items (+18 corrections, +3 older docs) | A:1 B:4 C:7 (fresh only; whole file A:5 B:16 C:12) | https://drive.google.com/uc?export=download&id=1RYw6qIAOp_Aw8MhJF8yJ6YhaK8gnmYpf | https://drive.google.com/uc?export=download&id=1X52J67Un62HUtXBy-h-i7QQCy2J_i9Vp
+2026-10-11 | 24 | v1 schema, no priority | https://drive.google.com/uc?export=download&id=1gVdGPnzQD6hjCR_kcmEsAPiKMX6qFD_d | https://drive.google.com/uc?export=download&id=1gGtpcffL_fiheR7bWrHpN41S9rarya4I
+2026-10-10 | 25 | v1 schema, no priority | https://drive.google.com/uc?export=download&id=12SlpDZ5SYqwZo3FxAdYIsiP9U-7kjepF | https://drive.google.com/uc?export=download&id=17EtxACyjHFraUHwvj4iLB8noxijodDFj
