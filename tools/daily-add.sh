@@ -7,7 +7,8 @@
 # - <source-texts-dir>  (the day's saved primaries, e.g. the session's src_YYYYMMDD) is copied to sources/<date>/ .
 # - <lead-desk-dir>     (the Grok Bot's downloaded files)                          is copied to lead-desk/<date>/ .
 # Files are write-once: existing files are never overwritten (cp -n); nothing is deleted. Bytes are kept exact
-# (.gitattributes "* -text"). Needs `gh auth` for kakon77777-commits. The repository is PRIVATE; keep it so.
+# (.gitattributes "* -text"). Needs `gh auth` for kakon77777-commits. The repository is PUBLIC (owner's decision 2026-10-12);
+# if it grows too large, start a further repository named by period and point the README to it.
 set -e
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
