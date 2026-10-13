@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000305",
+  "url": "https://www.anthropic.com/research/self-replicating-ai",
+  "capturedAt": "2026-10-13T11:24:57Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 230642,
+    "sha256": "e0bb399a6012287f9024945f538840d48dba534ee1defe046ab6160a5d16de5d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5AEF400AEEFE727D0574786FB6BBB6A4",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/self-replicating-ai",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 28639,
+      "afterScrollHeight": 28639,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "51cdf5726cc49caccd0f64d8e01676595991a813a57c4e80f5a3a1978f78ade1",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1535153,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 28639,
+    "afterScrollHeight": 28639
+  },
+  "record": {
+    "capturedAt": "2026-10-13T11:24:57Z",
+    "url": "https://www.anthropic.com/research/self-replicating-ai",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 230642,
+      "sha256": "e0bb399a6012287f9024945f538840d48dba534ee1defe046ab6160a5d16de5d"
+    },
+    "finalUrl": "https://www.anthropic.com/research/self-replicating-ai",
+    "httpStatus": 200,
+    "title": "AI models may be capable of self-replicating without access to a datacenter \\ Anthropic",
+    "rendered": {
+      "textChars": 36354,
+      "textSha256": "9b134e20c306d38910752e5cdb5ad4b3ee635646a2412c1d9be1e66ed6cb2ddb",
+      "htmlSha256": "82c9b44e2d3e711ce0b5e64667e44d0a5132c3c93a5848addb0cebe6001fe945"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "51cdf5726cc49caccd0f64d8e01676595991a813a57c4e80f5a3a1978f78ade1",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1535153,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261012193123",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261012193123/https://www.anthropic.com/research/self-replicating-ai"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261013063752/https://www.anthropic.com/research/self-replicating-ai",
+      "timestamp": "20261013063752",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "signal-2026-000046",
+  "url": "https://www.freemalaysiatoday.com/category/world/2026/10/13/us-ai-testing-agency-officials-to-move-to-white-house",
+  "capturedAt": "2026-10-13T11:30:22Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 227101,
+    "sha256": "638813f58b479e754d1bdb12e28ea6c3362f154f036680178ed7c473b410f4e3",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "62793DC7248418F2F8C8417A81D7F736",
+      "status": 200,
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/10/13/us-ai-testing-agency-officials-to-move-to-white-house",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5708,
+      "afterScrollHeight": 5708,
+      "wantedHeight": 5708
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e85fc9b745dd62e1320255cd40ee762b2ea847d85ebf1160282bf1ce5f320487",
+    "width": 1366,
+    "height": 5708,
+    "bytes": 2636112,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5708,
+    "afterScrollHeight": 5708
+  },
+  "record": {
+    "capturedAt": "2026-10-13T11:30:22Z",
+    "url": "https://www.freemalaysiatoday.com/category/world/2026/10/13/us-ai-testing-agency-officials-to-move-to-white-house",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 227101,
+      "sha256": "638813f58b479e754d1bdb12e28ea6c3362f154f036680178ed7c473b410f4e3"
+    },
+    "finalUrl": "https://www.freemalaysiatoday.com/category/world/2026/10/13/us-ai-testing-agency-officials-to-move-to-white-house",
+    "httpStatus": 200,
+    "title": "US AI testing agency’s officials to move to White House | FMT",
+    "rendered": {
+      "textChars": 6353,
+      "textSha256": "a67f90997d374a9b7bb046c2f2769f9f9c5639c66227f193b3299513bd705df7",
+      "htmlSha256": "b073bda5ce1db4c5dc28aff7594dbdaf2bc05d7908fb15f14504d060d25e5f98"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e85fc9b745dd62e1320255cd40ee762b2ea847d85ebf1160282bf1ce5f320487",
+      "width": 1366,
+      "height": 5708,
+      "bytes": 2636112,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261013113155/https://www.freemalaysiatoday.com/category/world/2026/10/13/us-ai-testing-agency-officials-to-move-to-white-house",
+      "timestamp": "20261013113155",
+      "verifiedHttp": 200
+    }
+  }
+}

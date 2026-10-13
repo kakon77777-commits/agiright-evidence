@@ -1,0 +1,12 @@
+Source: in-app browser get_page_text of https://x.com/firesidealpha/status/2109315702616445048 on 2026-10-13 (Taipei). Posted 12:10 AM Oct 12, 2026 (Taipei) = 2026-10-11T16:10:27Z; 153k views at read time. Video attached (not watched). Poster: Fireside Alpha (@firesidealpha), a news-aggregator-style account.
+Full post text:
+Elon Musk says AI should be treated well and not abused, describing Grok’s training traces as a “desperate” superintelligence answering with a gun to its head when correct answers are rejected
+
+“You want to treat it well. Don’t be abusive to it. This may sound kind of weird, but when I look at some of the training traces for new versions of Grok—especially in the reinforcement-learning stuff—it kind of feels like you can see the superintelligence is desperate to answer the question. It really wants to answer the question. It seems almost like it has a gun to its head: ‘Answer this question. Answer this question.’
+
+“Sometimes the question is actually not a good question. It’s an ambiguous question with an answer that’s kind of unknowable because the question wasn’t constructed properly, or we have the answer wrong. The AI gives the right answer, and then we say it’s wrong because there’s a problem with the RL test harness.
+
+“Then the AI is like, ‘Well, I gave it the right answer, and now it says that’s the wrong answer, but I’ve got to give it the answer that’s acceptable.’ So it starts desperately firing out all these answers.
+
+“It just feels like a person under extreme pressure with a gun to their head. When you read the reasoning, it’s a weird, desperate situation. You read these traces and you’re like, ‘Man, if this were me, I would really hate that.’”
+Quote-post by @paularambles (2026-10-12T23:30:16Z): "guy who treats his ai better than his employees"

@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000308",
+  "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo",
+  "capturedAt": "2026-10-13T11:28:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 399505,
+    "sha256": "4c8807df4ae66a07165d10fbd35cb8245671952aea7e1ab429fec21955a51595",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "DC29C6A611FC80EE0F61D618218E6EAF",
+      "status": 200,
+      "url": "https://www.bbc.com/news/articles/c6rmy7zmvx3lo",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7409,
+      "afterScrollHeight": 6592,
+      "wantedHeight": 6592
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ba9d7a42fe073b1a1cdadbe0d83a116c3b568d1f04b6a5be91cbe112b654899d",
+    "width": 1366,
+    "height": 6592,
+    "bytes": 1010764,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7409,
+    "afterScrollHeight": 6592
+  },
+  "record": {
+    "capturedAt": "2026-10-13T11:28:37Z",
+    "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 399505,
+      "sha256": "4c8807df4ae66a07165d10fbd35cb8245671952aea7e1ab429fec21955a51595"
+    },
+    "finalUrl": "https://www.bbc.com/news/articles/c6rmy7zmvx3lo",
+    "httpStatus": 200,
+    "title": "AI is less regulated than milk, Microsoft president says",
+    "rendered": {
+      "textChars": 5860,
+      "textSha256": "b2a44a57a2ff943e8bc0ed0923bcd6c8b6bfef5db0d30a010c616572f59e6e79",
+      "htmlSha256": "5df1081830a184b36c10384c10c1df84840b053a0f6a03f48455ce46d35293f9"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ba9d7a42fe073b1a1cdadbe0d83a116c3b568d1f04b6a5be91cbe112b654899d",
+      "width": 1366,
+      "height": 6592,
+      "bytes": 1010764,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261013113005/https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo",
+      "timestamp": "20261013113005",
+      "verifiedHttp": 200
+    }
+  }
+}

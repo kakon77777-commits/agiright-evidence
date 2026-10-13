@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000306",
+  "url": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+  "capturedAt": "2026-10-13T11:26:23Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 33940,
+    "sha256": "4a0ae3c3aa4f0df0d13f2013661a3238b51e800fe23f918a6bf71cf877083613",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D1FDF0E3AC516C7BA30FE46761C2D186",
+      "status": 200,
+      "url": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4445,
+      "afterScrollHeight": 4445,
+      "wantedHeight": 4445
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "05ba67621f60273b62f9503e312db3491537ee0062de109a516cfebd76c9bce8",
+    "width": 1366,
+    "height": 4445,
+    "bytes": 958175,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4445,
+    "afterScrollHeight": 4445
+  },
+  "record": {
+    "capturedAt": "2026-10-13T11:26:23Z",
+    "url": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 33940,
+      "sha256": "4a0ae3c3aa4f0df0d13f2013661a3238b51e800fe23f918a6bf71cf877083613"
+    },
+    "finalUrl": "https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+    "httpStatus": 200,
+    "title": "Towards technical best practice for frontier AI development | AISI Work",
+    "rendered": {
+      "textChars": 9986,
+      "textSha256": "0190f437bf81522b373de4e1aa8db91cba4435280c1c5da9cac6e43b9b0cbd6c",
+      "htmlSha256": "86ee1156f8eeef4703100d1ca0badb423cf984766eca905ebc0ed2b22115bee9"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "05ba67621f60273b62f9503e312db3491537ee0062de109a516cfebd76c9bce8",
+      "width": 1366,
+      "height": 4445,
+      "bytes": 958175,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261012175846",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261012175846/https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261013073604/https://www.aisi.gov.uk/blog/towards-technical-best-practice-for-frontier-ai-development",
+      "timestamp": "20261013073604",
+      "verifiedHttp": 200
+    }
+  }
+}
