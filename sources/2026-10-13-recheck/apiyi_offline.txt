@@ -1,0 +1,111 @@
+ Alibaba Cloud Bailian Retires Models, 36 Qwen and Related Models Removed - API易文档中心
+Documentation Index
+Fetch the complete documentation index at: /llms.txt
+Use this file to discover all available pages before exploring further.
+Skip to main content
+🚀 GPT-6-Astra 和 gpt-image-2.5-sunburst 均已上线 | Now Live ： 详情 Details
+API易文档中心 home page 简体中文
+Search...
+⌘ K
+首页
+AI出图
+控制台
+控制台
+搜索...
+Navigation
+Alibaba Cloud Bailian Retires Models, 36 Qwen and Related Models Removed
+首页
+使用场景
+常见问题
+动态
+公告
+充值活动
+模型价格
+产品基础
+基本介绍
+快速开始
+AI 开发者套件
+API 手册
+价格说明
+基础 API
+当下热门模型（保持更新）
+图像与视频生成模型
+OpenAI API 调用
+Claude 原生调用
+Gemini 原生调用
+Grok API 调用
+文本 API 最佳实践
+余额查询 API
+日志查询 API
+令牌管理 API
+废弃模型列表
+图片 API（官转）
+图片API调用须知
+GPT-Image-2.5 / 2 生图
+GPT-image-2.5 / 2 官转 vs 官逆
+GPT-Image-2.5-All 生图
+GPT-Image-2.5-VIP 生图
+Nano Banana 系列价格总览
+NanoBanana最佳实践
+Nano Banana 2.1 生图
+Nano Banana Pro 生图
+Nano Banana 2 生图
+Nano Banana Lite 生图
+FLUX 生图/编辑
+Seedream 5.0 等系列
+Grok Imagine 2 生图/编辑
+MAI-Image 2.6 生图/编辑
+自实现异步队列
+视频 API（官转）
+Seedance 2.0 / 2.5 视频生成（火山引擎）
+Wan3.0 视频生成（阿里云）
+Wan2.7 视频生成（阿里云）
+HappyHorse 视频生成（阿里云）
+VEO 3.1（谷歌）
+MiniMax H3 视频生成（开源自部署）
+Oxygen 视频生成（AZ8）
+多模态理解 API
+图像理解（识图）API
+视频理解 API
+文本生成
+文本生成（对话补全）
+GPT-6 Astra
+DeepSeek V4 Flash Vision
+DeepSeek V4 Flash
+Seed 2.1 Turbo
+Gemini Flash Series
+Gemini 3.5 Flash-Lite
+Qwen3 系列
+Kimi K2.5
+音频 API（官转）
+Realtime 语音概览
+检索与安全
+文本向量化（Embedding）
+向量检索调优
+重排序模型
+文本审核（Moderation）
+Alibaba Cloud Bailian Retires Models, 36 Qwen and Related Models Removed
+复制页面 复制页面
+Alibaba Cloud Bailian has retired a batch of models. APIYI’s Qwen series is a direct pass-through of the official Alibaba Cloud API, so 36 models are removed in sync: early Qwen3 / Qwen-VL / Qwen3-Coder versions plus the DeepSeek and GLM models hosted on Bailian. Switch to a model that is still listed.
+复制页面 复制页面
+2026/10/11 00:46 (UTC+8) · Service Notice · Alibaba / DeepSeek / Zhipu
+⏸ Alibaba Cloud Bailian has retired a batch of models; APIYI removes the following 36 in sync
+APIYI’s Qwen series is a direct pass-through of the official Alibaba Cloud Bailian API, so models go live and retire together with the official site. Requests to these model names will no longer work. Please switch the model name in your code to one that is still listed; see Model Pricing .
+Qwen text (14): qwen-turbo , qwen-mt-turbo , qwen3-max , qwen3-max-preview , qwen3-max-2025-09-23 , qwen3.6-max-preview , qwen3-32b , qwen3-30b-a3b , qwen3-30b-a3b-instruct-2507 , qwen3-30b-a3b-thinking-2507 , qwen3-235b-a22b , qwen3-235b-a22b-instruct-2507 , qwen3-235b-a22b-thinking-2507 , qwen3-next-80b-a3b-instruct
+Qwen coding (3): qwen3-coder-plus , qwen3-coder-plus-2025-07-22 , qwen3-coder-480b-a35b-instruct
+Qwen vision / omni (12): qwen-vl-plus , qwen-vl-max , qwen-vl-ocr-latest , qvq-plus , qwen3-vl-flash , qwen3-vl-flash-2025-10-15 , qwen3-vl-plus-2025-09-23 , qwen3-vl-235b-a22b-instruct , qwen3-vl-235b-a22b-thinking , qwen3-vl-30b-a3b-thinking , qwen3-vl-32b-thinking , qwen3-omni-flash-2025-09-15
+DeepSeek hosted on Bailian (5): deepseek-r1 , deepseek-v3 , deepseek-v3.1 , deepseek-v3.2-exp , deepseek-v3.2
+GLM hosted on Bailian (2): glm-4.5 , glm-4.7
+Models not on this list remain available as usual.
+← Back to Live Updates · 📚 Monthly archive
+此页面对您有帮助吗？
+是
+否
+API易文档中心 home page website
+AI 集成
+skill.md llms.txt llms-full.txt model-registry.json AI 开发者套件（中文） AI Developer Kit (EN)
+用户口碑 / Wall of Love
+用户口碑（中文） Wall of Love (EN)
+website
+技术支持
+This documentation is built and hosted on Mintlify, a developer documentation platform
