@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000312",
+  "url": "https://financialnewsletter.com/exclusive-banking-watchdogs-ramp-up/",
+  "capturedAt": "2026-10-14T11:26:03Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html",
+    "bytes": 75560,
+    "sha256": "59d5140f13231b9b4a89bac5039c77107f7d66fd67be73b85ab03228e7dad0ef",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "72845D2A7EC4C668AA21405C52F4396B",
+      "status": 200,
+      "url": "https://financialnewsletter.com/exclusive-banking-watchdogs-ramp-up/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6469,
+      "afterScrollHeight": 6469,
+      "wantedHeight": 6469
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "42bcbaba54a3cfc99b2cd0a6324a991f92cbd4a2b1db3010bd0feef77a1d8ea8",
+    "width": 1366,
+    "height": 6469,
+    "bytes": 1748712,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6469,
+    "afterScrollHeight": 6469
+  },
+  "record": {
+    "capturedAt": "2026-10-14T11:26:03Z",
+    "url": "https://financialnewsletter.com/exclusive-banking-watchdogs-ramp-up/",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html",
+      "bytes": 75560,
+      "sha256": "59d5140f13231b9b4a89bac5039c77107f7d66fd67be73b85ab03228e7dad0ef"
+    },
+    "finalUrl": "https://financialnewsletter.com/exclusive-banking-watchdogs-ramp-up/",
+    "httpStatus": 200,
+    "title": "Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say | Financial Newsletter",
+    "rendered": {
+      "textChars": 8579,
+      "textSha256": "32baa5f9a2e6edad7ecbb6783ccad297ab5f86454b8c6e769d18e8aa9f530f61",
+      "htmlSha256": "b0ed4a244841ab5e2a3bb212db30dfd331bfa6a5cb08023317de248575254109"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "42bcbaba54a3cfc99b2cd0a6324a991f92cbd4a2b1db3010bd0feef77a1d8ea8",
+      "width": 1366,
+      "height": 6469,
+      "bytes": 1748712,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

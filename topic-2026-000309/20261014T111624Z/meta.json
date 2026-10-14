@@ -1,0 +1,56 @@
+{
+  "id": "topic-2026-000309",
+  "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+  "capturedAt": "2026-10-14T11:16:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 17293501,
+    "sha256": "446c83a9289c695be32400637f1ec7bcb94f0cb67ac6eba97a356e858f9cf318",
+    "file": "raw.pdf"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7F95520F286CAB023FC6BD6BE8D50221",
+      "status": 200,
+      "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+      "mime": "application/pdf"
+    },
+    "skipped": "pdf: no rendered view captured (raw bytes stored instead)",
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "record": {
+    "capturedAt": "2026-10-14T11:16:24Z",
+    "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+    "raw": {
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 17293501,
+      "sha256": "446c83a9289c695be32400637f1ec7bcb94f0cb67ac6eba97a356e858f9cf318"
+    },
+    "finalUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+    "httpStatus": 200,
+    "note": "pdf: no rendered view captured (raw bytes stored instead)",
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261013180951",
+      "statuscode": "200",
+      "mimetype": "application/pdf",
+      "url": "https://web.archive.org/web/20261013180951/https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261014111728/https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+      "timestamp": "20261014111728",
+      "verifiedHttp": 200
+    }
+  }
+}

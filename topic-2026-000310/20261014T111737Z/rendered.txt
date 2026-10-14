@@ -1,0 +1,458 @@
+An Open Letter on AI and Cybersecurity
+from the Scientific Community
+
+October 2026
+
+Are you a journalist? Click here for a list of media contacts.
+
+Multiple organizations have disclosed high-profile security failures: their AI models bypassed insufficiently sandboxed environments to compromise the systems of external organizations. On the one hand, one can view these incidents as evidence for the importance of AI alignment to ensure models operate predictably. On the other hand, they can also be seen as an irresponsible lapse in standard cybersecurity practices, preventable with stronger sandboxes and procedures. We believe that both improved AI alignment, leading to more predictable model behavior, and stronger sandbox technology are required. Further, without immediate changes in AI development and deployment practices, such incidents will continue to occur, and future incidents will be far more damaging to our exposed critical infrastructure.
+
+We, the undersigned scientists, contend that both more AI safety research and more emphasis on containment technologies and procedures are needed. In the short term, strong sandboxing mechanisms including airgapping (disconnecting from the internet) should be used to provide high-assurance containment of cyber-capable AI models. For all internet-connected AI models, the range of model actions permitted by a containment system needs to be balanced with our currently limited ability to predict that the model’s actions will not result in a security failure (e.g., due to misaligned goals). To learn from future mistakes—in which appropriate balance is not achieved and incidents occur—we need greater sharing of information and transparency about containment failures moving forward. Understanding how to achieve this balance is a significant challenge and will require collaboration between the AI and security communities.
+
+Specifically, we make the following recommendations:
+
+Organizations developing, deploying, and testing cyber-capable AI models should immediately adopt high-assurance containment systems. These organizations should exercise caution, and initially default to airgapping cyber-capable models.
+In consultation with governments and a wide range of both AI and cybersecurity experts, establish an international body that standardizes, for the public good, best practices for alignment and containment approaches that, unlike airgapping, allow for greater access outside the sandbox, such as internet connectivity. This body should also be mandated to record and track containment failures.
+To ensure that AI safety and containment research can learn from mistakes, security incidents involving containment failure must be reported to the body and eventually made public. This transparency is required for both learning and accountability purposes.
+415 Signatories:
+Prof. Nael Abu-Ghazaleh, University of California, Riverside, USA
+Dr. Gunes Acar, Radboud University, The Netherlands
+Dr. Nirav Ajmeri, University of Bristol, United Kingdom
+Prof. S. Akshay, Indian Institute of Technology Bombay, India
+Dr. Laura Alonso Alemany, Universidad Nacional de Córdoba, Argentina
+Prof. Ehab Al-Shaer, Carnegie Mellon University, USA
+Prof. Plamen Angelov FIEEE, DSc, Lancaster University, United Kingdom
+Dr. Giovanni Apruzzese, Reykjavik University, Iceland
+Prof. Diego F. Aranha, Aarhus University, Denmark
+Prof. Dr.-Ing. Daniel Christopher Arp, TU Wien, Austria
+Prof. Mikael Asplund, Linköping University, Sweden
+Prof. Alán Aspuru-Guzik, University of Toronto, Canada
+Prof. Buse Atli, Linköping University, Sweden
+Prof. Hossein Azizpour, KTH Royal Institute of Technology, Sweden
+Prof. Eugene Bagdasarian, University of Massachusetts Amherst, USA
+Prof. Musard Balliu, KTH Royal Institute of Technology, Sweden
+Prof. Dr. Nelson Baloian, Department of Computer Sciences, Universidad de Chile, Chile
+Prof. Teodora Baluta, Georgia Institute of Technology, USA
+Prof. Davide Balzarotti, Eurecom, France
+Prof. Gilles Barthe, Max Planck Institute for Security and Privacy, Germany
+Prof. Dr. David Basin, ETH Zurich, Switzerland
+Prof. Adam Bates, University of Illinois Urbana-Champaign, USA
+Prof. Lujo Bauer, Carnegie Mellon University, USA
+Prof. Mikhail Belkin, University of California, San Diego, USA
+Dr. Aurélien Bellet, Inria, France
+Prof. Rosanna Bellini, New York University, USA
+Prof. Yoshua Bengio OC OQ OBE FRS FRSC, Université de Montréal, Canada
+Prof. Alastair Beresford, University of Cambridge, United Kingdom
+Prof. Varinia Bernales, University of Toronto, Canada
+Prof. Ivan Beschastnikh, University of British Columbia, Canada
+Prof. Konstantin Beznosov PEng, University of British Columbia, Canada
+Prof. Umang Bhatt, University of Cambridge, United Kingdom
+Dr. Gergely Biczók, Budapest University of Technology and Economics, Hungary
+Prof. Battista Biggio, University of Cagliari, Italy
+Prof. Matthew Blaschko, KU Leuven, Belgium
+Dr. Dan Bogdanov, Estonian Academy of Sciences, Cybernetica, Estonia
+Prof. Enric Boix-Adsera, University of Pennsylvania, USA
+Prof. Dan Boneh, Stanford University, USA
+Prof. Joseph Bonneau, New York University, USA
+Prof. Dr. Kevin Borgolte, Ruhr University Bochum, Germany
+Prof. Dr. ir. Herbert Bos, Vrije Universiteit Amsterdam, The Netherlands
+Dr. Simon Bouget, RISE Research Institutes of Sweden, Sweden
+Prof. Michael Bowling, University of Alberta, Canada
+Prof. Carla Brodley, Northeastern University, USA
+Dr. Rebekka Burkholz, CISPA Helmholtz Center for Information Security, Germany
+Prof. Kevin Butler, University of Florida, USA
+Prof. Juan Caballero, IMDEA Software Institute, Spain
+Prof. Aylin Caliskan, University of Washington, USA
+Dr. Clément Canonne, University of Sydney, Australia
+Dr. Olivier Cappé, CNRS, France
+Prof. Ignacio Cascudo, IMDEA Software Institute, Spain
+Dr. Claude Castelluccia, Inria, France
+Prof. Lorenzo Cavallaro, University College London, United Kingdom
+Prof. Varun Chandrasekaran, University of Illinois Urbana-Champaign, USA
+Prof. Margaret Chapman, University of Toronto, Canada
+Prof. Laurent Charlin, Mila, HEC Montréal, Canada
+Prof. Marsha Chechik FACM, University of Toronto, Canada
+Prof. Eddy Keming Chen, University of California, San Diego, USA
+Prof. Jackie Chi Kit Cheung, Mila / McGill University, Canada
+Prof. Yejin Choi, Stanford University, USA
+Prof. Nicolas Christin, Carnegie Mellon University, USA
+Prof. Dr. sc. Jürgen Cito, TU Wien, Austria
+Prof. Jeff Clune, University of British Columbia, Canada
+Prof. Shaanan Cohney, Tufts University, USA
+Prof. Dr. Gert de Cooman, Ghent University, Belgium
+Dr. Véronique Cortier, CNRS, France
+Prof. Lorrie Cranor, Carnegie Mellon University, USA
+Prof. Emiliano De Cristofaro, University of California, Riverside, USA
+Prof. Krzysztof Czarnecki P.Eng., University of Waterloo, Canada
+Prof. David Danks, University of Virginia, USA
+Prof. Dr. Tijl De Bie, Ghent University, Belgium
+Prof. Rina Dechter, UCI, USA
+Prof. Dr. Paul De Hert, Vrije Universiteit Brussels, Belgium
+Prof. Ron Deibert O.C., The Citizen Lab at the University of Toronto, Canada
+Prof. Daniele Cono D’Elia, Sapienza University of Rome, Italy
+Dr. Luca Demetrio, Università degli Studi di Genova, Italy
+Prof. Ambra Demontis, University of Cagliari, Italy
+Prof. Dr. Robert Deng, Singapore Management University, Singapore
+Prof. Srini Devadas, Massachusetts Institute of Technology, USA
+Prof. Claudia Diaz, KU Leuven, Belgium
+Prof. Fernando Diaz, Carnegie Mellon University, USA
+Prof. Luca Didaci, University of Cagliari, Italy
+Prof. Thomas Dietterich, Oregon State University, USA
+Prof. Xuhua Ding, Singapore Management University, Singapore
+Prof. Gillian Dobbie FRSNZ, University of Auckland, New Zealand
+Prof. Priya Donti, Massachusetts Institute of Technology, USA
+Dr. Dorottya Dorottya, CrySyS Lab, Budapest University of Technology and Economics, Hungary
+Dr. Yali Du, King's College London, United Kingdom
+Prof. Haixin Duan, Tsinghua University, China
+Prof. John Duchi, Stanford University, USA
+Prof. Tudor Dumitras, University of Maryland, USA
+Prof. Greg Durrett, New York University, USA
+Prof. Stefan Dziembowski, University of Warsaw, Poland
+Dr. Thorsten Eisenhofer, CISPA Helmholtz Center for Information Security, Germany
+Prof. William Enck, North Carolina State University, USA
+Prof. David Evans, University of Virginia, USA
+Prof. Alireza Fallah, Rice University, USA
+Prof. Giulia Fanti, Carnegie Mellon University, USA
+Dr. Mohamed Farag, Carnegie Mellon University, USA
+Prof. Habiba Farrukh, University of California, Irvine, USA
+Prof. Earlence Fernandes, University of California, San Diego, USA
+Dr. Sebastián Ferrada, Universidad de Chile, Chile
+Prof. Dr. Asja Fischer, Ruhr University Bochum, Germany
+Prof. Michael Fisher, University of Manchester, United Kingdom
+Prof. Jakob Foerster, University of Oxford, United Kingdom
+Prof. Aurélien Francillon, EURECOM, France
+Prof. Dr. Michael Franz, University of California, Irvine, USA
+Prof. Arnoldo Frigessi, TRUST, University of Oslo, Norway
+Prof. Anne Marie Frøseth, University of Bergen, Norway
+Prof. Jose Maria de Fuentes, Universidad Carlos III de Madrid, Spain
+Dr. Teddy Furon, Inria, France
+Prof. Alona Fyshe, University of Alberta, Canada
+Prof. Yarin Gal, University of Oxford, United Kingdom
+Prof. Vijay Ganesh, Georgia Tech University, USA
+Prof. Surya Ganguli, Stanford University, USA
+Prof. Debin Gao, Singapore Management University, Singapore
+Prof. Joshua Garcia, University of California, Irvine, USA
+Prof. Sanjam Garg, University of California, Berkeley, USA
+Prof. Arthur Gervais, University College London, United Kingdom
+Prof. Giorgio Giacinto, University of Cagliari, Italy
+Prof. Gauthier Gidel, Université de Montréal, Mila, Canada
+Dr. Pierre-François Gimenez, Inria, France
+Prof. Cristiano Giuffrida, VU Amsterdam, The Netherlands
+Prof. Vasileios Gkioulos, Norwegian University of Science and Technology, Norway
+Prof. Virgil Gligor, Carnegie Mellon University, USA
+Prof. Lorena González Manzano, University Carlos III of Madrid, Spain
+Dr. Rahul Gopinath, University of Sydney, Australia
+Dr. Cedric Gouy-Pailler, CEA, France
+Prof. Stefanos Gritzalis, University of Piraeus, Greece
+Prof. Roger Grosse, University of Toronto, Canada
+Prof. Tanaya Guha FDIRDI, FHEAUK, University of Glasgow, United Kingdom
+Dr. Matthew Guzdial, University of Alberta, Canada
+Prof. Gillian Hadfield, Johns Hopkins University, USA
+Prof. Dr. Wajih Ul Hassan, University of Virginia, USA
+Prof. Nidhi Hegde, University of Alberta, Canada
+Prof. Hoda Heidari, Carnegie Mellon University, USA
+Prof. Fredrik Heintz, Linköping University, Sweden
+Prof. Gernot Heiser, University of New South Wales, Australia
+Prof. Alejandro Hevia, University of Chile, Chile
+Dr. Emad Heydari Beni, KU Leuven, Belgium
+Prof. Geoffrey Hinton CC FRS FRSC, University of Toronto, Canada
+Prof. Anwar Hithnawi, University of Toronto, Canada
+Dr. Erik Hjelmås, Norwegian University of Science and Technology (NTNU), Norway
+Prof. Grant Ho, University of Chicago, USA
+Prof. Nguyen Phong Hoang, University of British Columbia, Canada
+Prof. Dr. Jörg Hoffmann, Saarland University, Germany
+Prof. Aidan Hogan, DCC, Universidad de Chile, Chile
+Dr. Filip Holik, NTNU, Norway
+Prof. Robert Holte, University of Alberta, Canada
+Prof. Thorsten Holz, Max Planck Institute for Security and Privacy, Germany
+Prof. Jason Hong, Carnegie Mellon University, USA
+Prof. Sanghyun Hong, Oregon State University, USA
+Prof. Samuel Hopkins, Massachusetts Institute of Technology, USA
+Prof. Mark Horowitz, Stanford University, USA
+Prof. Amir Houmansadr, University of Massachusetts Amherst, USA
+Prof. Daniel Hsu, Columbia University, USA
+Prof. Zhen Huang, DePaul University, USA
+Prof. Jean-Pierre Hubaux, EPFL, Switzerland
+Prof. Alec Jacobson, University of Toronto, Canada
+Prof. Trent Jaeger, University of California, Riverside, USA
+Prof. Mateja Jamnik, University of Cambridge, United Kingdom
+Prof. Natasha Jaques, University of Washington, USA
+Prof. Somesh Jha, University of Wisconsin-Madison, USA
+Prof. Zhijing Jin, University of Toronto, Canada
+Prof. Evan Johnson, New York University, USA
+Prof. Ari Juels, Cornell Tech, USA
+Prof. Bailey Kacsmar, University of Alberta, Canada
+Prof. Edwin Kairu, Carnegie Mellon University Africa, Rwanda
+Prof. Christos Kalloniatis, University of the Aegean, Greece
+Dr. Nektaria Kaloudi, University of Oslo, Norway
+Prof. Gautam Kamath, New York University, USA
+Prof. Jian Kang, MBZUAI, United Arab Emirates
+Prof. Salil Kanhere, University of New South Wales Sydney, Australia
+Prof. Dr. Ghassan Karame, Ruhr University Bochum, Germany
+Prof. Maria Karyda, University of the Aegean, Greece
+Prof. Sokratis Katsikas, Norwegian University of Science and Technology - NTNU, Norway
+Prof. Florian Kerschbaum, University of Waterloo, Canada
+Prof. Arslan Khan, Pennsylvania State University, USA
+Prof. Ewa Kijak, University of Rennes, France
+Prof. Beom Heyn Kim, Hanyang University ERICA, South Korea
+Prof. Yongdae Kim, KAIST, South Korea
+Prof. Pang Wei Koh, University of Washington, USA
+Prof. Tadayoshi Kohno, Georgetown University, USA
+Prof. Nick Koudas, University of Toronto, Canada
+Prof. Sanmi Koyejo, Stanford University, USA
+Prof. Rahul G. Krishnan, University of Toronto, Canada
+Dr. Bogdan Kulynych, Lausanne University Hospital, Switzerland
+Prof. Marta Kwiatkowska FRS MAE, University of Oxford, United Kingdom
+Prof. Simon Lacoste-Julien, Université de Montréal, Mila, Canada
+Prof. Costas Lambrinoudakis, University of Piraeus, Greece
+Dr. Carl Landwehr, University of Michigan, USA
+Prof. Nicholas Lane, University of Cambridge, United Kingdom
+Prof. Malcolm Langford, University of Oslo, Norway
+Dr. Pierre Laperdrix, CNRS, France
+Prof. Hugo Larochelle, Université de Montréal, Canada
+Prof. Neil Lawrence, University of Cambridge, United Kingdom
+Prof. Dr. Gregor Leander, Ruhr University Bochum, Germany
+Prof. Mathias Lécuyer, University of British Columbia, Canada
+Dr. Erwan Le Merrer, Inria, France
+Prof. Kevin Leyton-Brown, University of British Columbia, Canada
+Dr. Percy Liang, Stanford University, USA
+Prof. Zhenkai Liang, National University of Singapore, Singapore
+Prof. Xiaojing Liao, University of Illinois Urbana-Champaign, USA
+Prof. David Lie, The Schwartz Reisman Institute for Technology and Society at the University of Toronto, Canada
+Prof. Angelica Lim, Simon Fraser University, Canada
+Prof. Dipl.-Ing.in Dr.in techn. Martina Lindorfer, TU Wien, Austria
+Prof. Chenxi Liu, University of Victoria, Canada
+Prof. Alessio Lomuscio, Imperial College London, United Kingdom
+Prof. Claudia Lopez, Universidad de Chile, Chile
+Prof. Dr. Jean-Michel Loubes, INRIA, France
+Prof. Marlos C. Machado, University of Alberta, Canada
+Prof. Benoit Macq IEEE Fellow, UCLouvain, Belgium
+Prof. Chris Maddison, University of Toronto, Canada
+Associate Prof. Kamil Malinka, Brno University of Technology, Czechia
+Prof. Tal Malkin, Columbia University, USA
+Prof. Mohammad Mannan, Concordia University, Canada
+Prof. Evangelos Markatos, University of Crete, Greece
+Prof. Vashek Matyas, Masaryk University, Czechia
+Prof. Emer. Sjouke Mauw, University of Luxembourg, Luxembourg
+Prof. Alexander May, Ruhr-University Bochum, Germany
+Prof. Michelle Mazurek, University of Maryland, USA
+Prof. Damon McCoy, New York University, USA
+Prof. Patrick McDaniel, University of Wisconsin-Madison, USA
+Prof. Sheila McIlraith, University of Toronto, Canada
+Prof. Aastha Mehta, University of British Columbia, Canada
+Prof. Niloofar Mireshghallah, Carnegie Mellon University, USA
+Prof. Lilian MITROU, University of the Aegean, Greece
+Associate Prof. Gelareh Mohammadi, UNSW Sydney, Australia
+Prof. Yves-Alexandre de Montjoye, Imperial College London, United Kingdom
+Prof. Yves Moreau, University of Leuven, Belgium
+Dr. Pedro Moreno-Sanchez, IMDEA Software Institute, Spain
+Prof. Greg Morrisett, Cornell Tech, USA
+Prof. Jan Tobias Muehlberg, Universite Libre de Bruxelles, Belgium
+Prof. Fabricio Murai, Worcester Polytechnic Institute, USA
+Prof. Toby Murray, University of Melbourne, Australia
+Prof. Simin Nadjm-Tehrani, Linköping University, Sweden
+Dr. Adwait Nadkarni, College of William & Mary, USA
+Prof. David Nicol, University of Illinois Urbana-Champaign, USA
+Prof. Helen Nissenbaum, Cornell Tech, USA
+Prof. Cristina Nita-Rotaru, Northeastern University, USA
+Prof. Timothy Norman, University of Southampton, United Kingdom
+Prof. Thomas Nowotny, University of Sussex, United Kingdom
+Prof. Olya Ohrimenko, University of Melbourne, Australia
+Prof. Alina Oprea, Northeastern University, USA
+Prof. Claudio Orlandi, Aarhus University, Denmark
+Prof. Dr. Rebekah Overdorf, Ruhr University Bochum, Germany
+Dr. Simon Oya, The University of British Columbia, Canada
+Prof. Muslum Ozgur Ozmen, Arizona State University, USA
+Prof. Rasmus Pagh, University of Copenhagen, Denmark
+Prof. Nicolas Papernot, University of Toronto, Canada
+Prof. Jeongeun Park, Norwegian University of Science and Technology, Norway
+Prof. Sunoo Park, New York University, USA
+Prof. Thomas Pasquier, University of Oxford, United Kingdom
+Prof. Karthik Pattabiraman, Univ. of British Columbia (UBC), Canada
+Prof. Dr. sc. Mathias Payer, EPFL, Switzerland
+Prof. Paul Pearce, University of California, Irvine, USA
+Dr. Balazs Pejo, Budapest University of Technology and Economics, Hungary
+Dr. Giancarlo Pellegrino, CISPA, Germany
+Prof. Olivier Pereira, UCLouvain, Belgium
+Prof. Dr. Adrian Perrig, ETH Zurich, Switzerland
+Prof. Stjepan Picek, University of Zagreb & Radboud University, Croatia, The Netherlands
+Dr. Fabio Pierazzi, University College London, United Kingdom
+Dr. Maura Pintor, University of Cagliari, Italy
+Dr. Nikolaos Pitropakis, Deree, The American University of Greece, Greece
+Dr.ir. Erik Poll, Radboud University, The Netherlands
+Prof. Christina Pöpper, New York University Abu Dhabi, United Arab Emirates
+Prof. Georgios Portokalidis, IMDEA Software Institute, Spain
+Prof. Atul Prakash, University of Michigan, USA
+Prof. Sanjiva Prasad, Indian Institute of Technology Delhi and Ashoka University, India
+Prof. Dr. ir. Bart Preneel, University of Leuven, Belgium
+Dr. Apostolos Pyrgelis, RISE Research Institutes of Sweden, Sweden
+Prof. Zhiyun Qian, University of California, Riverside, USA
+Prof. Aaron Quigley, Australian National University, Australia
+Prof. Jean-Jacques Quisquater, UCLouvain, Belgium
+Prof. Reihaneh Rabbany, McGill University, Canada
+Prof. Colin Raffel, University of Toronto, Canada
+Prof. Aditi Raghunathan, Carnegie Mellon University, USA
+Dr. Deborah Raji, University of California, Berkeley, USA
+Prof. Gopal Ramchurn FIET, University of Southampton, United Kingdom
+Prof. Carl Edward Rasmussen, Cambridge University, United Kingdom
+Prof. Shahid Raza, University of Glasgow, United Kingdom
+Prof. Catherine Régis, Université de Montréal, Canada
+Prof. Mike Reiter, Duke University, USA
+Prof. Blake Richards, McGill University, Canada
+Prof. Dr. Konrad Rieck, TU Berlin, Germany
+Mr. Sam van Rijn, PXL University of Applied Sciences and Arts, Belgium
+Prof. Thomas Ristenpart, University of Toronto, Canada
+Prof. Ron Rivest, Massachusetts Institute of Technology, USA
+Prof. Dr. Etienne Rivière, UCLouvain, Belgium
+Prof. Florentin Rochet, UNamur, Belgium
+Prof. Geoffrey Rockwell, University of Alberta, Canada
+Prof. Franziska Roesner, University of Washington, USA
+Prof. Dr. Fabio Roli, University of Genova, Italy
+Prof. Eyal Ronen, Tel Aviv University, Israel
+Prof. Benjamin Rosman, University of the Witwatersrand, South Africa
+Prof. Dr. Christian Rossow, CISPA Helmholtz Center for Information Security, Germany
+Prof. Aaron Roth, University of Pennsylvania, USA
+Prof. Michael Rovatsos, University of Edinburgh, United Kingdom
+Prof. Daniel Roy, University of Toronto, Canada
+Prof. Dr. Sofiei Royer Bouchet, VUB/KU Leuven, Belgium
+Professor, Canada Research Chair Julia Rubin, The University of British Columbia, Canada
+Prof. Ben Rubinstein, University of Melbourne, Australia
+Prof. Cynthia Rudin, Duke University, USA
+Prof. Tim G. J. Rudner, University of Toronto, Canada
+Prof. Stuart J. Russell, University of California, Berkeley, USA
+Prof. Andrei Sabelfeld, Chalmers University of Technology, Sweden
+Prof. Norman Sadeh, Carnegie Mellon University, USA
+Prof. Gururaj Saileshwar, University of Toronto, Canada
+Prof. Claude Sammut, The University of New South Wales, Australia
+Prof. Nuno Santos, INESC-ID, Instituto Superior Técnico, University of Lisbon, Portugal
+Prof. Amartya Sanyal, University of Copenhagen, Denmark
+Prof. Rahul Savani, University of Liverpool, United Kingdom
+Prof. Nitesh Saxena, Texas A&M University, USA
+Prof. Prateek Saxena, National University of Singapore, Singapore
+Dr. Christian Scano, University of Cagliari, Italy
+Prof. Jonathan Schaeffer FRSC, University of Alberta, Canada
+Prof. Sarah Scheffler, Carnegie Mellon University, USA
+Prof. Fred Schneider, Cornell University, USA
+Prof. Bernhard Schölkopf, Max Planck Institute for Intelligent Systems, Germany
+Dr. Lea Schönherr, CISPA Helmholtz Center for Information Security, Germany
+Prof. Christian Schroeder, University College London, United Kingdom
+Univ.-Prof. Dr. Dominique Schroeder, TU Wien, Austria
+Dr. Edward Schwartz, Carnegie Mellon University, USA
+Prof. Margo Seltzer, The University of British Columbia, Canada
+Prof. Mahmood Sharif, Tel Aviv University, Israel
+Prof. Xinyue Shen, University of Waterloo, Canada
+Prof. Micah Sherr, Georgetown University, USA
+Prof. Justine Sherry, Carnegie Mellon University, USA
+Prof. Ardeshir Shojaeinassab, University of Victoria, Canada
+Prof. Vered Shwartz, University of British Columbia, Canada
+Prof. Tjerand Silde, Norwegian University of Science and Technology, Norway
+Prof. Sandeep Silwal, University of Wisconsin-Madison, USA
+Prof. Jocelyn Simmonds, University of Chile, Chile
+Prof. Amber Simpson, University of Alberta, Canada
+Prof. Adam Smith, Boston University, USA
+Prof. Carol Smith, Carnegie Mellon University, USA
+Prof. Stephen Smith, Carnegie Mellon University, USA
+Prof. Virginia Smith, Carnegie Mellon University, USA
+Prof. Dr. Nathalie A. Smuha, University of Toronto, Canada
+Prof. Sooel Son, KAIST, South Korea
+Prof. Chengyu Song, University of California, Riverside, USA
+Prof. Jessica Sorrell, Johns Hopkins University, USA
+Dr. Angelo Sotgiu, University of Cagliari, Italy
+Prof. Arcot Sowmya, University of New South Wales, Sydney, Australia
+Prof. François-Xavier Standaert, UClouvain, Belgium
+Prof. Sebastian Stein, University of Southampton, United Kingdom
+Prof. Dr. Ben Stock, CISPA, Germany
+Prof. Gianluca Stringhini, Boston University, USA
+Dr. Inga Strumke, Norwegian University of Science and Technology, Norway
+Prof. Nathan Sturtevant, University of Alberta, Canada
+Dr. Iraklis Symeonidis, RISE Research Institutes of Sweden, Sweden
+Prof. Patrick Tague, Carnegie Mellon University, USA
+Dr. Pingbo Tang, Carnegie Mellon University, USA
+Prof. Qiang Tang, The University of Sydney, Australia
+Prof. Éric Tanter, University of Chile, Chile
+Prof. Vanessa Teague, Thinking Cybersecurity and University of New South Wales, Australia
+Dr. Ayush Tewari, University of Cambridge, United Kingdom
+Prof. Denis Thérien, McGill University, Canada
+Dr. Sri AravindaKrishnan Thyagarajan, University of Sydney, Australia
+Prof. Yuan Tian, University of California Los Angeles, USA
+Prof. Dr. Flavio Toffalini, Ruhr University Bochum, Germany
+Prof. Marc Tommasi, Université de Lille, Inria, France
+Prof. Philip Torr FREng FRS, University of Oxford, United Kingdom
+Prof. Robert Trager, University of Oxford, United Kingdom
+Prof. Dr. Florian Tramer, ETH Zurich, Switzerland
+Prof. Patrick Traynor, University of Florida, USA
+Prof. Carmela Troncoso, Max Planck Institute for Security and Privacy, Germany
+Prof. Gene Tsudik, University of California, Irvine, USA
+Prof. Jalaj Upadhyay, Rutgers University, USA
+Prof. Vinod Vaikuntanathan, Massachusetts Institute of Technology, USA
+Dr. Niki Vazou, IMDEA Software Institute, Spain
+Prof. Dr. Martin Vechev, ETH Zurich, Switzerland
+Prof. Valérie Viet Triem Tong, CentraleSupelec, Inria, France
+Prof. Giovanni Vigna, University of California, Santa Barbara, USA
+Prof. Staal Vinterbo, Norwegian University of Science and Technology, Norway
+Prof. Karina Vold, University of Toronto, Canada
+Prof. Dr. Jilles Vreeken, CISPA Helmholtz Center for Information Security, Germany
+Prof. Michael Walfish, New York University, USA
+Prof. Toby Walsh FAA, UNSW Sydney, Australia
+Prof. XiaoFeng Wang, Nanyang Technological University, Singapore
+Dr. Stacey Watson, University of Waterloo, Canada
+Prof. Julie Weeds, University of Sussex, United Kingdom
+Prof. Adrian Weller MBE, University of Cambridge, United Kingdom
+Prof. Michael Wellman, University of Michigan, USA
+Prof. Adam White, University of Alberta, Canada
+Prof. Martha White, University of Alberta, Canada
+Prof. Holly Wiberg, Carnegie Mellon University, USA
+Prof. Eric Wong, University of Pennsylvania, USA
+Prof. Michael Wooldridge FRS FREng, University of Oxford, United Kingdom
+Prof. Dr. Christian Wressnegger, Karlsruhe Institute of Technology (KIT), Germany
+Prof. Steven Wu, Carnegie Mellon University, USA
+Prof. Chaowei Xiao, Johns Hopkins University, USA
+Prof. Luyi Xing, University of Illinois Urbana-Champaign, USA
+Assistant Prof. Haiyang Xue, Singapore Management University, Singapore
+Prof. Fanny Yang, ETH Zürich, Switzerland
+Prof. Guomin Yang, Singapore Management University, Singapore
+Dr. Daphne Yao, North Carolina State University, USA
+Prof. Lina Yao, The University of New South Wales, Australia
+Dr. Vahid Yazdanpanah, University of Southampton, United Kingdom
+Prof. Heng Yin, University of California, Riverside, USA
+Prof. Amr Youssef, Concordia University, Canada
+Dr. Kaja F. Ystgaard, NTNU, Norway
+Prof. Xiaohui Yu, York University, Canada
+Prof. Osmar Zaïane, University of Alberta, Canada
+Prof. Stefano Zanero, Politecnico di Milano, Italy
+Prof. Nickolai Zeldovich, Massachusetts Institute of Technology, USA
+Prof. Dr. Andreas Zeller, CISPA Helmholtz Center for Information Security, Germany
+Prof. Yinqian Zhang, Southern University of Science and Technology, China
+Prof. Ben Zhao, University of Chicago, USA
+Prof. Lianying Zhao, Carleton University, Canada
+Prof. Wenting Zheng, Carnegie Mellon University, USA
+Prof. Weidong Zhu, Florida International University, USA
+Prof. Thomas Zinner, NTNU, Norway
+Dr. Yixin Zou, Max Planck Institute for Security and Privacy, Germany
+Prof. Frederik Zuiderveen Borgesius, iHub, Radboud University, The Netherlands
+Media Contacts:
+Canada
+Prof. Kevin Leyton-Brown, University of British Columbia, kevinlb@cs.ubc.ca
+Prof. David Lie, The Schwartz Reisman Institute for Technology and Society at the University of Toronto, david.lie@utoronto.ca
+Prof. Nicolas Papernot, University of Toronto, nicolas.papernot@utoronto.ca
+Prof. Thomas Ristenpart, University of Toronto, ristenpart@cs.toronto.edu
+Prof. Tim G. J. Rudner, University of Toronto, tim.rudner@gmail.com
+Germany
+Prof. Thorsten Holz, Max Planck Institute for Security and Privacy, thorsten.holz@mpi-sp.org
+Prof. Carmela Troncoso, Max Planck Institute for Security and Privacy, carmela.troncoso@mpi-sp.org
+Italy
+Prof. Battista Biggio, University of Cagliari, battista.biggio@unica.it
+Spain
+Prof. Carmela Troncoso, Max Planck Institute for Security and Privacy, carmela.troncoso@mpi-sp.org
+Switzerland
+Prof. Dr. Florian Tramer, ETH Zurich, florian.tramer@inf.ethz.ch
+The Netherlands
+Prof. Dr. ir. Herbert Bos, Vrije Universiteit Amsterdam, h.j.bos@vu.nl
+United Kingdom
+Prof. Michael Wooldridge FRS FREng, University of Oxford, michael.wooldridge@cs.ox.ac.uk
+USA
+Prof. Lujo Bauer, Carnegie Mellon University, lbauer@andrew.cmu.edu
+Prof. David Evans, University of Virginia, dave@davidevans.net
+Prof. Somesh Jha, University of Wisconsin-Madison, jha@cs.wisc.edu
+Prof. Gautam Kamath, New York University, g@csail.mit.edu
+Prof. Ben Zhao, University of Chicago, ravenben@cs.uchicago.edu

@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000311",
+  "url": "https://www.channelnewsasia.com/business/exclusive-behind-ai-industrys-call-independent-reviews-fight-over-what-gets-made-public-6455551",
+  "capturedAt": "2026-10-14T11:20:02Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 506197,
+    "sha256": "407578eb6aa610a739afcae9f01e0e0b7125e89edb59787e996803e3dc3074b5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B0C1D4C3B50E5F1C7655A2BEA47357E0",
+      "status": 200,
+      "url": "https://www.channelnewsasia.com/business/exclusive-behind-ai-industrys-call-independent-reviews-fight-over-what-gets-made-public-6455551",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5033,
+      "afterScrollHeight": 5327,
+      "wantedHeight": 5327
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "0bc680e5a5bc488de04dbf5deb3d8ea23152a0d54ac3362d7769b69dd226b01a",
+    "width": 1366,
+    "height": 5327,
+    "bytes": 1139875,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5033,
+    "afterScrollHeight": 5327
+  },
+  "record": {
+    "capturedAt": "2026-10-14T11:20:02Z",
+    "url": "https://www.channelnewsasia.com/business/exclusive-behind-ai-industrys-call-independent-reviews-fight-over-what-gets-made-public-6455551",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 506197,
+      "sha256": "407578eb6aa610a739afcae9f01e0e0b7125e89edb59787e996803e3dc3074b5"
+    },
+    "finalUrl": "https://www.channelnewsasia.com/business/exclusive-behind-ai-industrys-call-independent-reviews-fight-over-what-gets-made-public-6455551",
+    "httpStatus": 200,
+    "title": "Exclusive-Behind AI industry's call for independent reviews, a fight over what gets made public - CNA",
+    "rendered": {
+      "textChars": 9084,
+      "textSha256": "72a196bb5045df24885ba89512f524ca23555d244d5a460cf29b65e81275e8c2",
+      "htmlSha256": "60c0e8ced251326a8d1e8fffc137987fb48b16e4db8a98360a3fb3e93d2ec427"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "0bc680e5a5bc488de04dbf5deb3d8ea23152a0d54ac3362d7769b69dd226b01a",
+      "width": 1366,
+      "height": 5327,
+      "bytes": 1139875,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261014112134/https://www.channelnewsasia.com/business/exclusive-behind-ai-industrys-call-independent-reviews-fight-over-what-gets-made-public-6455551",
+      "timestamp": "20261014112134",
+      "verifiedHttp": 200
+    }
+  }
+}

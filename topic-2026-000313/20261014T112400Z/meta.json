@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000313",
+  "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/13/cantwell-rounds-letter-to-national-security-ai-threats",
+  "capturedAt": "2026-10-14T11:24:00Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 83343,
+    "sha256": "194f4865e25e2785d6087d7bf2c33907883f082b9cd99c89a6254c19382783fd",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A4F84A3387AC61B35310732B166E5C4E",
+      "status": 200,
+      "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/13/cantwell-rounds-letter-to-national-security-ai-threats",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2697,
+      "afterScrollHeight": 2697,
+      "wantedHeight": 2697
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "04c01464a755f543752825115a8de63f77276400705dc4b1eaa55106c03ff853",
+    "width": 1366,
+    "height": 2697,
+    "bytes": 1001176,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2697,
+    "afterScrollHeight": 2697
+  },
+  "record": {
+    "capturedAt": "2026-10-14T11:24:00Z",
+    "url": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/13/cantwell-rounds-letter-to-national-security-ai-threats",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 83343,
+      "sha256": "194f4865e25e2785d6087d7bf2c33907883f082b9cd99c89a6254c19382783fd"
+    },
+    "finalUrl": "https://spectrumlocalnews.com/us/snplus/politics/2026/10/13/cantwell-rounds-letter-to-national-security-ai-threats",
+    "httpStatus": 200,
+    "title": "Bipartisan senators ask national security head to address AI",
+    "rendered": {
+      "textChars": 4307,
+      "textSha256": "6b5c1a12275dd2a269c24c8ac54257805e0a1e2c5f14b4398541a30a04bbb5b3",
+      "htmlSha256": "90dfe81864935f8d624d0e5102bf4b28cca3b8b8c9969822de719ef399dbcbf3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "04c01464a755f543752825115a8de63f77276400705dc4b1eaa55106c03ff853",
+      "width": 1366,
+      "height": 2697,
+      "bytes": 1001176,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261014112454/https://spectrumlocalnews.com/us/snplus/politics/2026/10/13/cantwell-rounds-letter-to-national-security-ai-threats",
+      "timestamp": "20261014112454",
+      "verifiedHttp": 200
+    }
+  }
+}

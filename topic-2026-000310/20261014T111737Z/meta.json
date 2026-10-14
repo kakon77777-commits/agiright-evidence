@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000310",
+  "url": "https://ai-security-letter.org",
+  "capturedAt": "2026-10-14T11:17:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 42536,
+    "sha256": "cc591b8f2f49e21615ad2b9907f5c5be0fa1a8a72e8b8b4db683a28138fd7b63",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5663990E152D9F4623528B47156F9E15",
+      "status": 200,
+      "url": "https://ai-security-letter.org/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 15278,
+      "afterScrollHeight": 15278,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "c65c2bf8e51c586793a20b9f3c9f2b8ff3fc04b0b13c923a0e2898a9957e9ec6",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1589438,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 15278,
+    "afterScrollHeight": 15278
+  },
+  "record": {
+    "capturedAt": "2026-10-14T11:17:37Z",
+    "url": "https://ai-security-letter.org",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 42536,
+      "sha256": "cc591b8f2f49e21615ad2b9907f5c5be0fa1a8a72e8b8b4db683a28138fd7b63"
+    },
+    "finalUrl": "https://ai-security-letter.org/",
+    "httpStatus": 200,
+    "title": "October 2026 Open Letter from the Scientific Community on AI and Cybersecurity",
+    "rendered": {
+      "textChars": 27753,
+      "textSha256": "3fb37cf6a6d535a287733b2d13f0f5325c353a16b59828da64375696910f580a",
+      "htmlSha256": "1532af8116a11d269417e9cecd471d33189715600640f9f3259d55672ee02d46"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c65c2bf8e51c586793a20b9f3c9f2b8ff3fc04b0b13c923a0e2898a9957e9ec6",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1589438,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261004155446",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261004155446/https://ai-security-letter.org"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261014111946/https://ai-security-letter.org",
+      "timestamp": "20261014111946",
+      "verifiedHttp": 200
+    }
+  }
+}

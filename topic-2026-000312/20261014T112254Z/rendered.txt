@@ -1,0 +1,242 @@
+News
+Analysis
+Trending
+Press Releases
+Subscribe
+×
+News
+Analysis
+Trending
+Press Releases
+Subscribe to Newsletter
+NVDA
+$227.92
++0.67%
+AAPL
+$341.31
++0.06%
+GOOG
+$350.44
++0.58%
+MSFT
+$544.17
++0.82%
+AMZN
+$259.19
++0.01%
+TSM
+$444.55
++0.04%
+SPCX
+$156.56
+-3.88%
+META
+$764.41
++3.07%
+AVGO
+$357.62
++1.03%
+TSLA
+$376.87
+-0.66%
+MU
+$948.13
+-4.87%
+LLY
+$1,166.73
+-1.10%
+AMD
+$602.80
++1.02%
+WMT
+$112.44
+-0.26%
+JPM
+$332.84
++0.06%
+V
+$394.47
++1.03%
+XOM
+$174.39
++1.27%
+ASML
+$1,706.57
+-2.68%
+NVDA
+$227.92
++0.67%
+AAPL
+$341.31
++0.06%
+GOOG
+$350.44
++0.58%
+MSFT
+$544.17
++0.82%
+AMZN
+$259.19
++0.01%
+TSM
+$444.55
++0.04%
+SPCX
+$156.56
+-3.88%
+META
+$764.41
++3.07%
+AVGO
+$357.62
++1.03%
+TSLA
+$376.87
+-0.66%
+MU
+$948.13
+-4.87%
+LLY
+$1,166.73
+-1.10%
+AMD
+$602.80
++1.02%
+WMT
+$112.44
+-0.26%
+JPM
+$332.84
++0.06%
+V
+$394.47
++1.03%
+XOM
+$174.39
++1.27%
+ASML
+$1,706.57
+-2.68%
+BUSINESS
+Exclusive-Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say
+REUTERS
+OCTOBER 13, 2026
+12:41 PM
+
+By Nupur Anand, Phoebe Seers and Tommy Reggiori Wilkes
+
+NEW YORK/LONDON, Oct 13 (Reuters) – Banking regulators are stepping up efforts to contain growing AI ‌risks, six people familiar with the matter said, with some pointing to the potential for cyberattacks on banks or rogue agents undermining global financial stability. 
+
+The regulatory scrutiny, fresh details of which are reported here for the first time, reflects growing recognition that advances in frontier AI may require costly investments in cyber recovery, greater attention to dependencies on external technology providers and ‌in some ⁠jurisdictions more formal regulatory ⁠guidance, sources said.
+
+Three top regulators in ​the ⁠United States, including the Federal Reserve, are quizzing banks about their use of advanced artificial intelligence models, two of the people told Reuters, which adds to prior scrutiny. 
+
+Questions include whether they deploy Chinese-developed technology, use AI agents in cyber defence and can control increasingly autonomous systems, three of the people said.
+
+In Europe, supervisors including the Bank of England and the European Central Bank are pressing banks to improve recovery plans, concerned that rapid advances in AI could cause serious harm and disruption in financial markets sooner than previously feared, three people with knowledge of their thinking said.
+
+A senior executive at a large European bank said they too are worried about potentially major damage to banking and financial markets within six months.
+
+The debate over AI oversight has intensified amid warnings from the industry after recent incidents, with JPMorgan CEO Jamie Dimon urging corporate leaders to join a US-focused industry group to address AI risks, Reuters reported.
+
+US cybersecurity company CrowdStrike said this month a person in China likely used a Chinese-developed AI agent and Anthropic’s Claude Code in a hack on South Korean banks. Rogue AI agents developed by OpenAI were meanwhile involved in a breach of AI platform Hugging Face, Reuters reported.
+
+Anthropic researchers have warned that increasingly powerful AI systems could eventually escape human control and even pose an existential threat, prompting calls for stricter regulation.
+
+The International Monetary Fund warned on Tuesday against “complacency” in global financial markets, citing various risks including the potential for a cyberattack. The IMF said a major attack affecting a critical service or financial institution could undermine confidence, and it called on policymakers to boost cybersecurity capacity.
+
+Banks are competing to adopt agentic AI, which can accomplish tasks with minimal human supervision, while also grappling with the challenges of new models including IT weaknesses ​flagged by Anthropic’s Mythos tool. 
+
+“The adoption of AI is often outpacing the ability to put the controls in place,” said Michael Woodbridge, London-based cybersecurity partner at ‌Grant Thornton. 
+
+US ⁠CONCERNS AIM AT AGENTIC AI  
+
+The US regulatory inquiries centre on how banks use agentic AI in areas such as cybersecurity, focusing on whether AI agents are being used to identify, prioritize and respond to threats.
+
+Questions from the Office ‌of the Comptroller of the Currency (OCC) and the Federal Deposit Insurance Corporation and the Fed focus on what limits are placed on systems, how their actions are monitored and approved and whether banks can clearly track and audit AI agent decisions, two of the people said. 
+
+They are also asking what safeguards exist to prevent agents from exceeding their authority, whether humans remain involved in key decisions and how banks can shut down autonomous ⁠systems.
+
+The OCC, the Fed and the FDIC declined to comment.
+
+Through their questions, regulators are probing more specific ‌issues tied to advanced AI models, including the use of autonomous AI agents, foreign-developed models and new cyber risks, the three people with knowledge of their thinking said.
+
+The written and verbal inquiries to large, mid-size and smaller banks show regulators are focusing on vulnerabilities from banks’ use of ​AI and their preparedness to act, they added.
+
+Regulators are still gathering information and are not yet being prescriptive about what lenders should be doing, they said.
+
+EUROPEANS WORRY ABOUT RECOVERY
+
+Supervisors in Britain are separately encouraging the largest banks to examine so-called bare metal recovery plans, two of the people familiar with their thinking said. These systems are entirely independent from a bank’s main tech set-up and can kick in if primary operating ​systems are compromised.
+
+Building and maintaining such state-of-the-art recovery is expensive, however, the people said.
+
+Rather than introduce new requirements, UK ​authorities intend to work collaboratively with industry, they added.
+
+The BoE declined ‌to comment.
+
+The ECB in July gave lenders an end-October deadline to produce plans to counter AI-enabled cyber threats, including improved back-up and recovery.
+
+Asked about its strategy for regulating AI, the ECB referred to its July letter as well as a June speech by board member Frank Elderson who stressed the need to create a sense of urgency, not alarm, about the threats.
+
+The need for supervisory action has taken on added urgency after European banks and regulators expressed frustration at getting limited access to Mythos this ​year, amid concerns US banks will be given first sight to test frontier models.
+
+Like their US counterparts, UK supervisors are also asking banks to use frontier AI to identify vulnerabilities and accelerate patching, two people said, with one adding that lenders were so far doing a good job.
+
+The third person said euro zone banks were also being asked to map how AI ‌is being used across their businesses and third-party providers, to understand key dependencies and ensure they can switch off and restart systems in a controlled manner.
+
+Significant gaps remained at some firms, they added.
+
+“To protect against attacks, rapid recovery matters as much as prevention,” said Sukand Ramachandran, managing director and senior partner at BCG.
+
+Without separately held clean, secure copies of critical data, “a serious attack ‌could lock customers out of their accounts and disrupt payments across the wider economy”, Ramachandran told Reuters.  
+
+(Reporting by ⁠Nupur Anand in NEW YORK and ​Phoebe Seers and Tommy Reggiori Wilkes in LONDON; additional reporting by Pete Schroeder in WASHINGTON; Editing by Megan Davies, Elisa Martinuzzi and Alexander Smith)
+
+Share:
+Tags:
+Updated
+Get Daily Market Insights
+
+Join 50,000+ investors receiving expert analysis before the opening bell.
+
+Email address
+SUBSCRIBE FREE
+
+100% Free. Unsubscribe anytime.
+
+Related Stories
+BUSINESS
+Oil prices surge as Iran deploys new tactics to target tankers
+October 14, 2026
+BUSINESS
+Bank of America profit hurt by $1.2 billion fine over anti-money laundering shortcomings
+October 14, 2026
+BUSINESS
+UK media regulator says concerns persist over X’s handling of illegal content
+October 14, 2026
+✕
+FREE NEWSLETTER
+Don't Miss Tomorrow's Market Movers
+Join 50,000+ investors getting daily insights before the bell
+SUBSCRIBE FREE
+
+Your trusted source for market news, investment analysis, and financial insights. Powered by Reuters data and expert editorial content.
+
+CONTENT
+Market News
+Original Articles
+Trending Stocks
+Press Releases
+COMPANY
+About Us
+Advertise
+Contact
+Careers
+LEGAL
+Privacy Policy
+Terms of Service
+Disclaimer
+Cookie Policy
+© 2026 Financial Newsletter. All rights reserved. A Meza Media Property.
+Market data provided by Reuters. Not financial advice.
