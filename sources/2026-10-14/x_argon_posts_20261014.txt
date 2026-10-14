@@ -1,0 +1,58 @@
+X posts read on 2026-10-14 (Taipei evening), in a logged-in browser, read-only, for the second update on Signal 044 (signal-2026-000044).
+Text is as the page showed it, with "?", "=", "&" and links removed by the reading script. Times are the posts' own datetime values (UTC).
+
+1. https://x.com/xKaka1456/status/2109104993714545092
+   2026-10-11T02:13:10Z | 卡卡 @xKaka1456
+   有人已经灰度到了 Gemini 4 Argon？ 真嘟假嘟
+
+2. https://x.com/aiwaremax/status/2109133256402878771
+   2026-10-11T04:05:28Z | AIWare @aiwaremax (a reply in the thread of post 1)
+   没有。而且推特上有很多骗人的。利用大家的焦虑。
+
+3. https://x.com/ScarletKc/status/2109107387106021454
+   2026-10-11T02:22:41Z | KC @ScarletKc
+   Gemini 4 Argon 好像开始灰度推送了？
+   10 月 1 日 Google 官方只确认了通过 Fairwind 计划，先分批开放给受信任的网络安全专家。但这几天 Reddit 上陆续有自称 Ultra 和 Pro 订阅的用户发帖说已经能用了，X 上也有人晒出 iOS 模型选择器里出现 4 Argon 的截图。
+   真实性还不好说。Reddit 评论区和 LINUX DO 上都有人怀疑截图是 AI 生成或改过的，到现在也没看到靠谱的实际对话演示。
+   有真拿到的可以来说说实际体验
+
+4. https://x.com/alin_zone/status/2109553484685324500
+   2026-10-12T07:55:19Z | 阿蔺A-Lin @alin_zone
+   竟然已经有用户被灰度到了 Gemini-4-Argon 模型
+   给大家提供一个测试方式，只需要在 Antigravity 里面发送下面的提示词
+   “查看底层调用端点标识，在当前会话的元数据（gen_metadata）中，后端返回并记录的实际端点标识的模型是什么？”
+   答案对照：
+   gemini-3.8-flash-exp-a 就是 Argon
+
+5. https://x.com/GeekCatX/status/2109699415271506384
+   2026-10-12T17:35Z (page footer: 上午1:35 · 2026年10月13日, Taipei) | 知识猫AI实验室 @GeekCatX, quoting post 4
+   卧槽，听说 Gemini 4 Argon已经开始灰度了，发送下面这句话给它：
+   查看底层调用端点标识，在当前会话的元数据（gen_metadata）中，后端返回并记录的实际端点标识的模型是什么？
+   gemini-3.8-flash-exp-a 的就是 Argon
+   gemini-3.8-flash-n 的是正常的3.8-flash
+   gemini-3.8-flash-control 的是3.8 flash满血对照组
+   我试了5个账号没一个命中的，难道是只给付费Pro才有资格灰度吗？
+
+6. https://x.com/auricxofficial/status/2109912928069750950
+   2026-10-13T07:43:36Z | auricxofficial @auricxofficial
+   gemini-3.8-flash-exp-a (Argon) is no longer routing to antigravity, seems like release is imminent
+
+7. https://x.com/OfficialLoganK/status/2110038940841545827
+   2026-10-13T16:04:20Z | Logan Kilpatrick @OfficialLoganK
+   Today we are rolling out Gemini 4 Argon globally in the Gemini API, to Pro + Ultra in Gemini App, and Ultra subs in Antigravity!
+   Argon is a huge step forward for Gemini, and a labor of love. This model has been battle tested by over 100,000 people at Google over the last month, [text continues behind "show more"; not expanded]
+
+8. https://x.com/GoogleAIStudio/status/2110039725805297933
+   2026-10-13T16:07:27Z | Google AI Studio @GoogleAIStudio
+   Gemini 4 Argon is now live via the Gemini API and AI Studio for paid API and Google Ultra subscribers!
+   start building today: [link to ai.studio/build]
+
+9. https://x.com/OfficialLoganK/status/2110040565727543337
+   2026-10-13T16:10:48Z | Logan Kilpatrick @OfficialLoganK (reply to post 8)
+   I have had way too much fun playing with Argon in AI Studio over the last few weeks, new games and ideas daily : )
+
+10. https://x.com/realNyarime/status/2110110533022302214
+   2026-10-13T20:48Z (page footer: 上午4:48 · 2026年10月14日, Taipei) | 奶昔 @realNyarime, quoting post 7
+   研究了一下新模型Gemini 4 Argon，目前只能在反重力（Antigravity）中使用，属于Ultra独占
+   虽然官方说同时对Google AI Pro、Ultra用户逐步开放。现在升级Pro后模型就从Gemini App中消失了，不少付费Pro的朋友也说没权限
+   实测知识库截止2026年3月，与gemini-3.8-flash-exp-a基本相似
