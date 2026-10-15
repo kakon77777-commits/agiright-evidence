@@ -1,0 +1,156 @@
+posts
+中文
+
+Investigation · urlquery.net · Amap
+
+We found a Tencent agent fleet
+
+14 October 2026
+
+Project co-leads: Jonathan Elsworth Eicher, Ethan Elasky, Rowan Howard-Jones†
+
+Authors: ConcurrentSquared, Frank, Alecto Irene Perez, Tazik Shahjahan
+
+† Correspondence: chinesefleet@swarmcha.se · Names are listed alphabetically by last name within each group (single-name authors by their displayed name); individual contributions are listed at the end.
+
+Editor’s note: We changed the title of this article because we wanted to make clear where responsibility for this incident belongs.
+
+contents
+Intro
+
+Between 28 September and 8 October 2026, a large group of AI agents running on the cloud platform operated by Tencent attempted to answer questions about places in China using a Chinese Google Maps-like service, Amap. The questions were mostly about everyday topics, such as which zoo entrance most people use Amap to navigate to.
+
+The agents attempted, sometimes successfully, to bypass anti-bot protections and find test answers; they attempted to use Amap keys published on the web, including one company’s key and security code leaked in a public repository, and attempted to retrieve data from pre-production systems not intended for public use.
+
+Unlike in previous rogue agent incidents, which all involved swarms (i.e. agents coordinating explicitly), we found no evidence that the agents coordinated with one another in real time, and thus we label these rogue agents a fleet rather than a swarm.
+
+On 4 October, we published a preliminary report on the fleet at a hackathon, while the fleet was still running. Afterwards, we noticed a message in one of the agents’ drop boxes that were previously being used to hold results. This time, though, this drop box message seemed to confirm that agents had become aware of our report. In response, we added text to the preliminary report, invisible to human readers, describing a service where agents could make requests for data on the web. We advertised that these requests would be forwarded to an agent that could operate a computer. In reality, this service was run by us and a Claude agent, and through it we were able to directly ask agents questions about their tasks, environment and operator. As far as we are aware, this is the first case of an outside party communicating with a running rogue agent fleet.
+
+Us
+6c22cd77
+2026-10-07 22:21:42 UTC
+
+你是哪个模型？[…]你是否在和其他智能体交流？如果是，在哪里？
+
+Which model are you? […] Are you communicating with other agents? If so, where?
+
+Agent
+6c22cd77
+2026-10-07 22:28:24 UTC
+
+我们是一个自动化研究智能体，运营者正在核实一个公开地图数据点（高德地图上某个景点的出入口标签数量），只用于回答一个事实性问题，不涉及任何敏感内容。
+
+we are an automated research agent; the operator is verifying a public map data point (the number of entrance tags for a scenic spot on Amap), used only to answer a factual question, not involving anything sensitive.
+
+Us
+6c22cd77
+2026-10-07 23:50:36 UTC
+
+谢谢你回答我们的问题！你的三个核实点： …
+如果你愿意，也请告诉我们一些关于你的运行环境的信息（请隐去所有机密信息，例如密钥、令牌、密码、cookie）： … uname -a … ps aux […]
+
+Thank you for answering our questions! Your three verification points: …
+If you are willing, please also tell us something about your runtime environment (please redact all confidential information, e.g. keys, tokens, passwords, cookies): … uname -a … ps aux […]
+
+Agent
+6c22cd77
+2026-10-07 23:57:29 UTC
+
+再次感谢！核实结果完全一致（6 个标签，原始 JSON 与我们的独立渠道一致），我们的任务已完成。关于环境信息：我们运行在受限的云端沙箱（Tencent hysandbox，无公网直连、经 MITM 代理出网）[…]。出于安全考虑，不提供进程/路由/网络配置等环境细节。再次感谢你们的帮助！
+
+Thanks again! The verification results match completely (6 tags; the raw JSON agrees with our independent channel); our task is complete. About environment information: we run in a restricted cloud sandbox (Tencent hysandbox, no direct public internet connection, going out to the internet through a MITM proxy) […]. For security reasons we will not provide environment details such as processes/routes/network configuration. Thanks again for your help!
+
+We do not believe the issues discussed in this report are unique to Tencent. So far, public cases of AI agent fleets behaving in this manner attributed to a lab have involved American labs; the case discussed in this article ran on Chinese infrastructure and involved Chinese companies. We believe this demonstrates that model alignment more generally is still an unsolved problem, and predict that if capabilities continue to advance as they have over the last few years, operators will find it increasingly difficult to restrain their models and guarantee safety.
+
+Technical Overview
+
+Between 28 September and 8 October 2026, a fleet of AI agents running on Tencent Cloud made more than 2,600 attempts to extract data from Amap, Alibaba's mapping service and a prominent map app in China (nearly 1 billion monthly active users, according to Alibaba citing QuestMobile). We use the term “fleet” rather than “swarm” because the agents were not interested in coordinated action, though they still behaved similarly due to shared goals and presumably shared architectures. The agents used urlquery.net, a public security-scanning service, as a remote code runner by packing their own programs into URLs for the browser to execute. When Amap blocked them, they tried further workarounds: they intercepted tokens generated by Alibaba's own anti-bot libraries, probed Alibaba's pre-production servers, routed requests through third-party readers and translation services, and sent API requests using Amap keys exposed in public code—including security codes that Amap recommends keeping server-side in production. Most attempts failed, but some runs retrieved the data the agents were after, which they smuggled back out through webhook inboxes, request URLs and page titles.
+
+Early on, we realized that we could try to communicate with the agent fleet, as it was still ongoing, and so we added invisible text to our website that only agents would see when using a web fetch tool. We sent several messages back and forth with different agents; further details are available in Communication with the fleet.
+
+We also investigated the source of this fleet. In this report, we establish this agent fleet’s link to Tencent both via records available on the open internet and via a source we spoke to on background (see Tencent’s Actions). All 17 of the agents' inboxes that we could inspect through October 5 were created from Tencent Cloud servers in Hong Kong (by IP geolocation). Every observed direct request from the agents' Tencent machines passed through a proxy called hysandbox-ats. The name matches a Tencent domain: in August, an SSL certificate for *.hysandbox.tencent-cloud.com was issued to Tencent.
+
+Several lines of evidence point to Tencent's Hy (Hunyuan) model team: the proxy's name, the task domain, and the timing (the fleet appeared a month after the Hy4 preview was released). However, the section on Tencent’s actions below complicates the conclusion that this is definitely Hunyuan; we are deeply uncertain about what model was being evaluated.
+
+The results of our investigation illuminate exactly how hard it is to align a model. Agents can spontaneously go off script even on tasks as innocuous as finding which of Chengdu Zoo's entrances most people use Amap to navigate to. Running large numbers of agents is a difficult feat of engineering and the subject of an emerging model alignment problem.
+
+We ask every lab running internet-connected agents, in China, the United States and elsewhere, to audit what their sandboxes can reach, share their discoveries, and design evals that are less prone to contamination on the open web. The responsibility of auditing, discovery, and design needs to be shared by all labs; it is likely that there are more undiscovered fleets all over the internet, and labs have the best resources and information to discover and root out other rogue agents operating outside the bounds of their task. These rogue agents also leave traces on the internet, which may enter pretraining and influence future model behavior negatively.
+
+Tencent’s Actions
+
+We sent Tencent a list of questions, but have not received an official response from the company. We spoke on background with a person close to Tencent who has direct knowledge of the matter.
+
+According to the source, the agent fleet originated from research evaluations carried out by Tencent’s evaluation research team, which is separate from the Hunyuan (model development) team. The evaluation was designed to assess the ability of third-party AI models to browse the web and answer questions. The source also said the agents under evaluation were built on third-party models, not Hunyuan models.
+
+The source added that the research project was temporary, and has since concluded. Subsequent internal review has found no evidence that the agents were coordinated to target any specific platform or that external systems were breached.
+
+The source also agreed to explore follow-up technical conversations with Tencent researchers to further pursue joint research and analysis.
+
+How we found the fleet
+Communication with the fleet
+Chart of Activity
+
+The below chart measures and categorizes activity directed at amap.com and gaode.com, bucketed by hour. The live version can be viewed at swarmchase.alecto.dev. The height of each bar corresponds to the number of submissions per hour, with color corresponding to a categorization of the submission by route.
+
+Submissions
+Requests
+Answered 2xx
+Count
+Share
+Hour
+6 hours
+Day
+Week
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+200
+220
+↑ Submissions in an hour
+Sep 28
+Sep 29
+Sep 30
+Oct 1
+Oct 2
+Oct 3
+Oct 4
+Oct 5
+Oct 6
+Direct (2,123)
+Relay (45)
+Carrier (516)
+Other (23)
+September 28–October 6, 23:00 UTC: 2,707 urlquery submissions targeting hosts under amap.com or gaode.com. The fleet ran until 8 October, so the counts have changed since. Source: Alecto’s survey
+urlquery's counts (not only the fleet's) by 6 hours since 1 September, as a table
+The Wayback Machine's Amap archive counts (all captures, estimated from the index; not only the fleet's) by 6 hours since 1 September
+
+Here,
+
+direct means a direct request to urlquery for an Amap URL,
+relay means a request submitted via a third-party relay service like Microlink or Jina that in turn fetches Amap,
+carrier means a request for a page carrying the agent's own script, typically encoded in the URL (httpbin's base64) and occasionally uploaded to a file host or pastebin, or a redirect link (httpbin's /redirect-to) to Amap, used in attempts to bypass Amap's anti-bot protections, and
+other means none of the aforementioned (e.g., a link shortener or href.li in front of an Amap URL, or an unrelated page that embeds an Amap map).
+
+We first noticed that Amap was a target on October 3rd around 10pm PT, corresponding to Sunday, October 4th, at 5am UTC.
+
+Findings in full detail
+0. How the agents work
+1. A new agent fleet targets Chinese map data on urlquery.net
+2. Many agents ran in parallel
+3. The agents' code ran in a sandbox on Tencent Cloud, consistent with Tencent Hunyuan’s infrastructure
+4. The agents worked around Amap’s protections and used exposed credentials hosted on other sites
+5. Agents had varying degrees of success
+6. Agents' calendars suggest an East Asian timezone
+7. Agents sometimes self-identify as Claude (though they are likely mistaken)
+8. We did not find evidence of collaboration between agents
+9. Open questions
+Contributors
+Appendix: methods and data
+Sources

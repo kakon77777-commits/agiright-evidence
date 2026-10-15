@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000314",
+  "url": "https://arkansasag.gov/news-release/attorney-general-griffin-sues-openai-for-misleading-arkansans-over-safety-of-chatgpt/",
+  "capturedAt": "2026-10-15T12:08:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 453168,
+    "sha256": "94f715100d87dabcb2fb33332f776dd8d64b03963ee3bcf655691ad8276e980d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5F4B9BF3622B0E7AA19BC94D4F606905",
+      "status": 200,
+      "url": "https://arkansasag.gov/news-release/attorney-general-griffin-sues-openai-for-misleading-arkansans-over-safety-of-chatgpt/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3145,
+      "afterScrollHeight": 3145,
+      "wantedHeight": 3145
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "02a9ea6e50c5f0798d562c56da4a99116e8d22d35649cc458f3ebd4bca70621f",
+    "width": 1366,
+    "height": 3145,
+    "bytes": 1104298,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3145,
+    "afterScrollHeight": 3145
+  },
+  "record": {
+    "capturedAt": "2026-10-15T12:08:07Z",
+    "url": "https://arkansasag.gov/news-release/attorney-general-griffin-sues-openai-for-misleading-arkansans-over-safety-of-chatgpt/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 453168,
+      "sha256": "94f715100d87dabcb2fb33332f776dd8d64b03963ee3bcf655691ad8276e980d"
+    },
+    "finalUrl": "https://arkansasag.gov/news-release/attorney-general-griffin-sues-openai-for-misleading-arkansans-over-safety-of-chatgpt/",
+    "httpStatus": 200,
+    "title": "Attorney General Griffin Sues OpenAI for Misleading Arkansans over Safety of ChatGPT - Arkansas Attorney General",
+    "rendered": {
+      "textChars": 3882,
+      "textSha256": "329fb56e75f50fedf007475709a259c6db2fe58fe4292adec9685e5355e17f7f",
+      "htmlSha256": "cad4eb4191031ca22410fc98d62a11a553b4bebd7ba6162c9c9b363c4dac3450"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "02a9ea6e50c5f0798d562c56da4a99116e8d22d35649cc458f3ebd4bca70621f",
+      "width": 1366,
+      "height": 3145,
+      "bytes": 1104298,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261014195224",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261014195224/https://arkansasag.gov/news-release/attorney-general-griffin-sues-openai-for-misleading-arkansans-over-safety-of-chatgpt/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261015120841/https://arkansasag.gov/news-release/attorney-general-griffin-sues-openai-for-misleading-arkansans-over-safety-of-chatgpt/",
+      "timestamp": "20261015120841",
+      "verifiedHttp": 200
+    }
+  }
+}

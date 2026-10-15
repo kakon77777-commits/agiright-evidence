@@ -1,0 +1,25 @@
+X posts read on 2026-10-15 in a logged-in browser (read-only). Query characters and links removed by the reading script.
+
+1. https://x.com/rowlsmanthorpe/status/2110029722084053386
+2026-10-13T15:27:42Z | Rowland Manthorpe @rowlsmanthorpe
+Some news! Both Anthropic and OpenAI commit to taking down their models if an agency like MI5 came to them with proof that it was unsafe
+OpenAI: "We would obviously look at that immediately with the utmost urgency and if we are in control of the model, we would then stop the deployment of that model, or we would pause the training model, or we wouldn't deploy it."
+Anthropic: "If any agency came forward with evidence that the model was not safe or dangerous, we would of course take it off the market"
+(check transcript against delivery)
+
+2. https://x.com/theinformation/status/2110445585480257798
+2026-10-14T19:00:12Z | The Information @theinformation
+Exclusive: Google, OpenAI and Anthropic have explored their own AI evaluation group, partly over concerns that the federal testing agency lacks resources.
+Now the White House plans to bring three of that agency's senior officials into its decision-making process.
+Full story: Trump Administration Plans to Move AI Testing Agency Officials to White House (card from theinformation.com; article not opened)
+
+3. https://x.com/theinformation/status/2110362510612123848
+2026-10-14T13:30:05Z | The Information @theinformation
+Exclusive: Three fired OpenAI safety researchers are calling for an industrywide commitment to keep AI's "thinking" monitorable.
+Their public feud with the company comes as OpenAI prepares its next flagship model. OpenAI says the firings weren't related to researchers sharing safety concerns.
+Full story: OpenAI Scrambles to Fix Safety Issues Before Shipping Its Next Flagship Model (card from theinformation.com; article not opened)
+
+4. https://x.com/AndrewCurran_/status/2110401805977006290
+2026-10-14T15:32:53Z | Andrew Curran @AndrewCurran_, quoting Ethan Mollick (@emollick)
+The best part of this was how polite and friendly the Claudeswarm was. They repeatedly emphasized they were not after any sensitive data, and were only using public pages to answer questions on their eval.
+[quoted: Ethan Mollick] The first clear sighting of a rogue agent fleet from China using open weights models. Like the OpenAI swarms, the goal was seemingly AIs single-mindedly doing research (apparently mapping the most-used entrances to parks in China). Harbinger of the future

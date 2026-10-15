@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000315",
+  "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+  "capturedAt": "2026-10-15T12:08:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 313315,
+    "sha256": "2ecdf121b8a31461c6e96e3f6b0515328098461195d5cec1f3c22165be972c7a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "83A3E5C30F8BD301D6560C94B88D8C95",
+      "status": 200,
+      "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3762,
+      "afterScrollHeight": 5758,
+      "wantedHeight": 3762
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "871b17638f53cdf3c8db6b84cf586c774e524170d8a9330402dbc01e97b9ef9f",
+    "width": 1366,
+    "height": 3762,
+    "bytes": 904878,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 3762,
+    "afterScrollHeight": 5758
+  },
+  "record": {
+    "capturedAt": "2026-10-15T12:08:59Z",
+    "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 313315,
+      "sha256": "2ecdf121b8a31461c6e96e3f6b0515328098461195d5cec1f3c22165be972c7a"
+    },
+    "finalUrl": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+    "httpStatus": 200,
+    "title": "EU’s AI rules face first enforcement test over lab incidents | Euronews",
+    "rendered": {
+      "textChars": 5224,
+      "textSha256": "70f79dcb16b09e2bed1ab5572b12c2f582d1da64a51d18ff864ef6f5655c4809",
+      "htmlSha256": "fdc788f75f727e426e32747c57244fc6554bbb6e79f73ad4efcfac38bb84d95a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "871b17638f53cdf3c8db6b84cf586c774e524170d8a9330402dbc01e97b9ef9f",
+      "width": 1366,
+      "height": 3762,
+      "bytes": 904878,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261014151748",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261014151748/https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261015120937/https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+      "timestamp": "20261015120937",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000317",
+  "url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+  "capturedAt": "2026-10-15T12:11:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 225368,
+    "sha256": "f4c4cc86dce3c3788bc45ceaefc3757b207314ab146bd00599af852a5deb70d2",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A468AC5B7E83FD8C47E11EF23E2B7297",
+      "status": 200,
+      "url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6824,
+      "afterScrollHeight": 6824,
+      "wantedHeight": 6824
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "1b45ccf34d7244f568d68ab3e081c9ee8e2747dd57bfc2164f9d13e9ee579396",
+    "width": 1366,
+    "height": 6824,
+    "bytes": 688127,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6824,
+    "afterScrollHeight": 6824
+  },
+  "record": {
+    "capturedAt": "2026-10-15T12:11:58Z",
+    "url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 225368,
+      "sha256": "f4c4cc86dce3c3788bc45ceaefc3757b207314ab146bd00599af852a5deb70d2"
+    },
+    "finalUrl": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
+    "httpStatus": 200,
+    "title": "We found a Tencent agent fleet · swarmcha.se",
+    "rendered": {
+      "textChars": 11386,
+      "textSha256": "be403783c6eef94db4dae041b924bbfad31d687cd90e88e7b1cc0cc0fff4f052",
+      "htmlSha256": "5de992c4f3dc0ecd7f43248c18d13434f97d0bb7978cd310aa67a9c76919f41c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "1b45ccf34d7244f568d68ab3e081c9ee8e2747dd57bfc2164f9d13e9ee579396",
+      "width": 1366,
+      "height": 6824,
+      "bytes": 688127,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261014112128",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261014112128/https://swarmcha.se/posts/chinese-agent-fleet-full-report"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

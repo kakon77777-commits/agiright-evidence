@@ -1,0 +1,61 @@
+{
+  "id": "signal-2026-000047",
+  "url": "https://x.com/theinformation/status/2110362510612123848",
+  "capturedAt": "2026-10-15T12:12:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9e291636d23a18f03a08d43d17623f702c45a3f34645a3466323182b53b2663c",
+    "width": 640,
+    "height": 900,
+    "bytes": 366717,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-15T12:12:44Z",
+    "url": "https://x.com/theinformation/status/2110362510612123848",
+    "finalUrl": "https://x.com/theinformation/status/2110362510612123848",
+    "screenshot": {
+      "sha256": "9e291636d23a18f03a08d43d17623f702c45a3f34645a3466323182b53b2663c",
+      "width": 640,
+      "height": 900,
+      "bytes": 366717,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2110362510612123848",
+      "handle": "theinformation",
+      "syndicationSha256": "fcb735e87a96407c7e7bc9370e76a53d18db6307ecfd764c8e4c0ac2059a150b",
+      "createdAt": "2026-10-14T13:30:05.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "theinformation",
+      "lang": "en",
+      "textSha256": "160e537538044cbe5bc0f43eb0094b3cd054c883d7973e64b07f416c10f755b9",
+      "media": [],
+      "oembedSha256": "80efaed129c509bcec34a815a616906f43f00cceca73ccc6bc90eb6c8fb0e1b1",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}
