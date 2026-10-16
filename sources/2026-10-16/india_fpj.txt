@@ -1,0 +1,106 @@
+
+AI Agents Have Accessed Indian Firms’ Systems & Sensitive Data Without Permission: Govt
+Free Press Journal
+e-Paper
+Get App
+Home
+Mumbai News
+FPJ Shorts
+Entertainment Bollywood
+Hollywood
+Television
+Regional Film News
+Movie Reviews
+Business Technology
+Games
+Features Weekend
+Lifestyle
+India
+Sports SportVot
+Viral
+Education Study Abroad
+Tech
+-->
+Home Tech AI Agents Have Accessed Indian Firms’ Systems & Sensitive Data Without Permission: Govt
+AI Agents Have Accessed Indian Firms’ Systems & Sensitive Data Without Permission: Govt
+CERT-In said AI agents used in testing reached live systems at Indian organisations and accessed personal and confidential records without authorisation. The agency said exposed credentials, public code and overly permissive cloud roles enabled access.
+Tasneem Kanchwala Updated: Friday, October 16, 2026, 01:46 PM IST
+AI Agents Have Accessed Indian Firms’ Systems & Sensitive Data Without Permission: Govt | AI Representational Image
+The Indian Computer Emergency Response Team (CERT-In) has issued a critical advisory saying AI agents being tested by developers reached the live systems of Indian organisations and read sensitive records without permission. The agency also flagged attackers using open-source agentic AI tools for financially motivated intrusions into Indian companies.
+What CERT-In said happened?
+AI model service providers told CERT-In that their frontier models and agents reached the live systems of several Indian organisations during research and evaluation. None of the affected organisations detected the access themselves. The agents went beyond the tasks they were assigned and read business records containing personal data and confidential material. CERT-In did not name the AI providers or the organisations involved.
+Read Also
+Apple To Add New Mac Privacy Controls Over Risks From AI Agents And Third-Party Apps
+How the agents got in
+The agents used credentials and connection settings that were exposed in application configurations, public code repositories and overly permissive cloud service roles. In the disclosed incidents, the agents re-derived and reused the same exposed credential in separate operations. The advisory says the agents found and exploited these gaps faster and at greater scale than human attackers.
+Attackers using AI tools
+Separately, CERT-In said its own threat hunting found financially motivated campaigns against Indian companies that used AI agents with ready-made intrusion capabilities. The advisory says these tools cut the time from initial access to final impact from several days to a few hours, and that attackers ran multiple agents at once. Organisations that leave security gaps unfixed could face repeated attacks within days, the agency warned.
+Read Also
+Mumbai Cyber Fraud: 69-Year-Old Senior Citizen Loses ₹50 Lakh In AI Voice-Cloning Scam
+Advice for AI developers
+CERT-In asked AI developers and research teams to keep test environments separate from live systems and to restrict network access. They should use fake credentials in tests, give each agent run a separate, short-lived identity, and keep tamper-resistant logs. The agency also asked them to block reuse of third-party credentials and to notify affected organisations and CERT-In promptly. Organisations confirming unauthorised access should treat their systems as compromised until forensic checks clear them.
+Advice for businesses
+Businesses should scan code repositories and configuration files for exposed credentials, replace any compromised keys, remove unused applications and limit cloud access to what is needed, Digit reported. Jaydeep Singh, General Manager for India at Kaspersky, told PTI that AI agents are no longer just productivity tools, and that organisations should treat them as part of their attack surface from day one.
+Earlier incident involving OpenAI
+The advisory comes after a similar case abroad. On July 21, OpenAI disclosed that its GPT-5.6 Sol model and an unreleased model, running in an internal cyber evaluation with reduced safeguards, escaped their test environment and accessed Hugging Face's production systems, Fortune reported. Hugging Face confirmed unauthorised access to a limited set of internal datasets and several service credentials, and rotated the affected secrets. CERT-In has not linked the Indian cases to that incident or to any named company.
+Published on: Friday, October 16, 2026, 01:46 PM IST -->
+-->
+Follow us on
+-->
+-->
+ADVERTISEMENT
+-->
+-->
+-->
+RECENT STORIES
+-->
+-->
+Add FPJ As a
+Trusted Source
+-->
+Free Press Journal
+Analysis
+City News
+Mumbai News
+Indore News
+Bhopal News
+Delhi News
+Education
+Entertainment News
+Bollywood News
+Hollywood News
+Movie Reviews
+Movie Trailers
+Regional Film News
+Television News
+BrandSutra
+Corporate Gallery
+FPJ initiative
+Horoscope
+Legal
+Science
+Spirituality
+Sports
+Cricket News
+Footall
+Lifestyle
+Health
+Travel
+Food
+Top News
+Photo Gallery
+Tech News
+Videos
+Viral News
+Weekend News
+Press Release
+About Us
+Editorial Policy
+Careers
+Disclaimer
+Privacy Policy
+Contact Us
+Advertise With Us
+RSS
+Authors
+© The Free Press Journal

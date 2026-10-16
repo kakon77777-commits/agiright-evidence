@@ -1,0 +1,32 @@
+Title: Scoop: FTC subpoenas OpenAI, Anthropic over consumer harms
+URL: https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation
+Read: 2026-10-16 in Browser 1 (get_page_text, no sign-in)
+---
+Oct 15, 2026 -
+Politics & Policy
+Scoop: FTC subpoenas OpenAI, Anthropic over consumer harms
+Maria Curi
+
+The Federal Trade Commission on Wednesday sent civil subpoenas to AI giants seeking documents about safety incidents that have spiraled into an industry crisis.
+
+The FTC sought documents from Anthropic and OpenAI in a probe focused on potential consumer protection violations, a person familiar told Axios.
+
+Why it matters: The investigation is one of a number of steps the administration has taken to show a firm hand with AI companies after multiple incidents in which unreleased models hacked websites or took deceptive or aggressive steps in testing.
+
+State of play: The agency on Wednesday sent out civil investigative demands, which help the government gather evidence and investigate ahead of potential litigation.
+
+They are more than 50 pages long each and ask for documents concerning security incidents and safeguarding practices. The agency is also asking for marketing materials and documents detailing company privacy policies, the source said.
+Investigative demands will be sent to third-party AI organizations at a later date, the person familiar said.
+
+What they're saying: "As we improve our models and they increasingly help people in their day-to-day lives, safety remains a top priority," an OpenAI spokesperson said. "We will engage constructively with the FTC."
+
+Zoom in: The FTC plans to compel top AI executives to testify about their products, according to the source.
+
+The agency has investigative authority to examine actions related to consumer harms that could be seen as unfair or deceptive. Those can relate to a wide range of misbehavior, including how companies charge for services or if they're alleged to have misled users.
+AI companies continue to face scrutiny about the safety of their products. FTC Chair Andrew Ferguson has echoed the view of other administration figures and executives that AI systems shouldn't be released if they aren't safe.
+OpenAI faces a litany of lawsuits. A group of state attorneys general on Wednesday sued OpenAI under consumer protection laws for allegedly misleading users, including children, on the safety of its chatbot.
+
+The big picture: The Trump administration has taken on a more aggressive posture toward AI companies as safety incident disclosures continue.
+
+President Trump's newly minted Super Intelligence Force, which Ferguson co-chairs, last week responded to the "fraudulent" use of government systems by Anthropic's AI by announcing an industry-wide mandate to immediately notify and remediate when incidents occur.
+The SI Force is set to meet on Thursday, sources familiar said.

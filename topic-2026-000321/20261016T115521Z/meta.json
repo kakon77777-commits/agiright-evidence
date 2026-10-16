@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000321",
+  "url": "https://www.geo.tv/latest/686798-rogue-ai-agents-broke-into-indian-firms-live-systems-says-govt",
+  "capturedAt": "2026-10-16T11:55:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 138455,
+    "sha256": "53b51fee2f525b5b7345e439e10398ea10483ad606f8732ce8766d46f20c4856",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "13670A31D2446A63E11AC0594ABD1D05",
+      "status": 200,
+      "url": "https://www.geo.tv/latest/686798-rogue-ai-agents-broke-into-indian-firms-live-systems-says-govt",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2625,
+      "afterScrollHeight": 2625,
+      "wantedHeight": 2625
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "70fe3ebed559ba47a5bcdae3a3bbfe6479b9380af1c0f90a97d44c3f2dbba5d6",
+    "width": 1366,
+    "height": 2625,
+    "bytes": 874076,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2625,
+    "afterScrollHeight": 2625
+  },
+  "record": {
+    "capturedAt": "2026-10-16T11:55:21Z",
+    "url": "https://www.geo.tv/latest/686798-rogue-ai-agents-broke-into-indian-firms-live-systems-says-govt",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 138455,
+      "sha256": "53b51fee2f525b5b7345e439e10398ea10483ad606f8732ce8766d46f20c4856"
+    },
+    "finalUrl": "https://www.geo.tv/latest/686798-rogue-ai-agents-broke-into-indian-firms-live-systems-says-govt",
+    "httpStatus": 200,
+    "title": "Rogue AI agents broke into Indian firms' live systems, says govt",
+    "rendered": {
+      "textChars": 2768,
+      "textSha256": "776752015efa68b4056c06825640e2d77c3200984110416ce76412b215bb051b",
+      "htmlSha256": "5d5bdbdc62c3e1d83f740bd0d1c37ae6d8b37d73f4693b9ed5904f5dfb45ad1e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "70fe3ebed559ba47a5bcdae3a3bbfe6479b9380af1c0f90a97d44c3f2dbba5d6",
+      "width": 1366,
+      "height": 2625,
+      "bytes": 874076,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261016115547/https://www.geo.tv/latest/686798-rogue-ai-agents-broke-into-indian-firms-live-systems-says-govt",
+      "timestamp": "20261016115547",
+      "verifiedHttp": 200
+    }
+  }
+}

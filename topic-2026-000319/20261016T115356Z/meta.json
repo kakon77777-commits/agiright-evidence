@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000319",
+  "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+  "capturedAt": "2026-10-16T11:53:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5899,
+    "sha256": "90633cb7da0932936aa16b005adb8f856bae401d60dff5ce5ebcd2ed61a3b4de",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B8CFE767F757B503F43FF355D1C683E0",
+      "status": 403,
+      "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "eab648dcae3054801aee1f9c73d54b5f31e33b9c84962777ca81c94ce6025ae0",
+    "width": 1366,
+    "height": 900,
+    "bytes": 31273,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-16T11:53:56Z",
+    "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5899,
+      "sha256": "90633cb7da0932936aa16b005adb8f856bae401d60dff5ce5ebcd2ed61a3b4de"
+    },
+    "finalUrl": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 261,
+      "textSha256": "807afe68b0b201ad91e107970e29aa167df7da544b64a22315ffb9bcf5bb1077",
+      "htmlSha256": "44082a22db1e1799254bb018ee50747c9e60db7faaa945c9cc65d45e5b04d208"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "eab648dcae3054801aee1f9c73d54b5f31e33b9c84962777ca81c94ce6025ae0",
+      "width": 1366,
+      "height": 900,
+      "bytes": 31273,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

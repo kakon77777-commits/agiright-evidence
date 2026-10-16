@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000318",
+  "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+  "capturedAt": "2026-10-16T11:53:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 130334,
+    "sha256": "252f4b534d73eefe6c5ae09614aab162cafde9dde6c76db0e22cebab83ae3d55",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "91EB97076B5E6207E0F42316EB6405F0",
+      "status": 200,
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5763,
+      "afterScrollHeight": 5763,
+      "wantedHeight": 5763
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e3fa9e7ac43dd633bce799297bffe35e11a71916d3998690a7dae8a65b06f40e",
+    "width": 1366,
+    "height": 5763,
+    "bytes": 1532303,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5763,
+    "afterScrollHeight": 5763
+  },
+  "record": {
+    "capturedAt": "2026-10-16T11:53:31Z",
+    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 130334,
+      "sha256": "252f4b534d73eefe6c5ae09614aab162cafde9dde6c76db0e22cebab83ae3d55"
+    },
+    "finalUrl": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+    "httpStatus": 200,
+    "title": "Anthropic update on independent evaluators \\ Anthropic",
+    "rendered": {
+      "textChars": 8600,
+      "textSha256": "228f86d6d44a25b2a2cc96762b74cc069f43531d6a8fe6d42b262fa9527e4672",
+      "htmlSha256": "eea478436d913f5c6b7bc0184b77781a6784d570208a91502a128b61a1a79973"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e3fa9e7ac43dd633bce799297bffe35e11a71916d3998690a7dae8a65b06f40e",
+      "width": 1366,
+      "height": 5763,
+      "bytes": 1532303,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261015172119",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261015172119/https://www.anthropic.com/news/an-update-on-independent-evaluators"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261016095726/https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "timestamp": "20261016095726",
+      "verifiedHttp": 200
+    }
+  }
+}

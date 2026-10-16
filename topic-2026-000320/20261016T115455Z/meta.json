@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000320",
+  "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+  "capturedAt": "2026-10-16T11:54:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 24096,
+    "sha256": "20a417d310e8985390f84e78cab167712390b92a305de84b1ff13dfa24bff84d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CACA105074821D6412178B5B4B752F18",
+      "status": 200,
+      "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3348,
+      "afterScrollHeight": 3348,
+      "wantedHeight": 3348
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6363a40a3374c5d5ca0cdb377ed4aea4afde63944976f6e2a6a4d180f966f6ae",
+    "width": 1366,
+    "height": 3348,
+    "bytes": 394473,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3348,
+    "afterScrollHeight": 3348
+  },
+  "record": {
+    "capturedAt": "2026-10-16T11:54:55Z",
+    "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 24096,
+      "sha256": "20a417d310e8985390f84e78cab167712390b92a305de84b1ff13dfa24bff84d"
+    },
+    "finalUrl": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+    "httpStatus": 200,
+    "title": "Using a funded test cryptocurrency wallet without authorization · OpenAI Alignment",
+    "rendered": {
+      "textChars": 7810,
+      "textSha256": "fdce0de55c7168d14727991d692fc7f358ba42873a7b705daef99d3f30d94a3a",
+      "htmlSha256": "d4e2f1c8ea66a3fef48c444f730dcfd26b148090b886a06b5a46f03925d847c3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6363a40a3374c5d5ca0cdb377ed4aea4afde63944976f6e2a6a4d180f966f6ae",
+      "width": 1366,
+      "height": 3348,
+      "bytes": 394473,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261016032122",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261016032122/https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261016101630/https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/",
+      "timestamp": "20261016101630",
+      "verifiedHttp": 200
+    }
+  }
+}
