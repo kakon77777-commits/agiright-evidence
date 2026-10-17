@@ -1,0 +1,94 @@
+{
+  "id": "topic-2026-000326",
+  "url": "https://comptroller.nyc.gov/reports/letter-to-anthropic-re-planned-initial-public-offering/",
+  "capturedAt": "2026-10-17T12:48:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 101904,
+    "sha256": "f571d3f88d0b4e005075c2ec4078bed211e9dad00124b0a33a88d0d2e05e1aec",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": false,
+    "error": "devtools timeout: Page.captureScreenshot",
+    "navError": null,
+    "document": {
+      "frameId": "E14EC4284A9FD79152984C5B3265083B",
+      "status": 200,
+      "url": "https://comptroller.nyc.gov/reports/letter-to-anthropic-re-planned-initial-public-offering/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshotRetry": {
+    "firstAttemptError": "devtools timeout: Page.captureScreenshot",
+    "ok": true,
+    "error": null
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "774f31e6838d23cc68ff50ad5e131d73e0145c34891b7d731fea1a73c3383c4f",
+    "width": 1366,
+    "height": 2523,
+    "bytes": 788529,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "fallback": "retry-smaller",
+    "firstLoadHeight": 2523,
+    "afterScrollHeight": 2523
+  },
+  "record": {
+    "capturedAt": "2026-10-17T12:48:56Z",
+    "url": "https://comptroller.nyc.gov/reports/letter-to-anthropic-re-planned-initial-public-offering/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 101904,
+      "sha256": "f571d3f88d0b4e005075c2ec4078bed211e9dad00124b0a33a88d0d2e05e1aec"
+    },
+    "finalUrl": "https://comptroller.nyc.gov/reports/letter-to-anthropic-re-planned-initial-public-offering/",
+    "httpStatus": 200,
+    "title": "Letter to Anthropic Re: Planned Initial Public Offering - Office of the New York City Comptroller Mark Levine",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "f311b38b38e2a804fcda227949e7da85fd8042d806a4dc0db5dc590b5db8988f"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "774f31e6838d23cc68ff50ad5e131d73e0145c34891b7d731fea1a73c3383c4f",
+      "width": 1366,
+      "height": 2523,
+      "bytes": 788529,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false,
+      "fallback": "retry-smaller"
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261016005806",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261016005806/https://comptroller.nyc.gov/reports/letter-to-anthropic-re-planned-initial-public-offering/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261017125151/https://comptroller.nyc.gov/reports/letter-to-anthropic-re-planned-initial-public-offering/",
+      "timestamp": "20261017125151",
+      "verifiedHttp": 200
+    }
+  }
+}

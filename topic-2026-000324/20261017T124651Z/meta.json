@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000324",
+  "url": "https://www.apolloresearch.ai/science/update-aware-reasoning-glm-5-3",
+  "capturedAt": "2026-10-17T12:46:51Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 204318,
+    "sha256": "de049dcfccd5f60a5c67d44ce08300531284cf860c6868610a586ac37e1973ac",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "75A25FB895F33A3250EF26649D27371F",
+      "status": 200,
+      "url": "https://www.apolloresearch.ai/science/update-aware-reasoning-glm-5-3",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 13861,
+      "afterScrollHeight": 13861,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "fe85a99d4f0da638a559b20fa3504424d4e290a45e9ff3e10b1d89b7645ab8cd",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 2165323,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 13861,
+    "afterScrollHeight": 13861
+  },
+  "record": {
+    "capturedAt": "2026-10-17T12:46:51Z",
+    "url": "https://www.apolloresearch.ai/science/update-aware-reasoning-glm-5-3",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 204318,
+      "sha256": "de049dcfccd5f60a5c67d44ce08300531284cf860c6868610a586ac37e1973ac"
+    },
+    "finalUrl": "https://www.apolloresearch.ai/science/update-aware-reasoning-glm-5-3",
+    "httpStatus": 200,
+    "title": "Update-Aware Reasoning in GLM-5.3: Training & Alignment Faking",
+    "rendered": {
+      "textChars": 28003,
+      "textSha256": "35c5ac2e524ed2b64f020e8aa1aacfd0f25affa40275c7c3eed50f8c09be7ecf",
+      "htmlSha256": "ec3cac99f56ddd524f468fb222197a7cfe07ac8ce66c0262e142ab94764214c9"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "fe85a99d4f0da638a559b20fa3504424d4e290a45e9ff3e10b1d89b7645ab8cd",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 2165323,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261015212021",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261015212021/https://www.apolloresearch.ai/science/update-aware-reasoning-glm-5-3"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261017124755/https://www.apolloresearch.ai/science/update-aware-reasoning-glm-5-3",
+      "timestamp": "20261017124755",
+      "verifiedHttp": 200
+    }
+  }
+}

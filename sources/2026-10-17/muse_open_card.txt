@@ -1,0 +1,617 @@
+
+meta-models/Muse-Spark-Open-816B-A42B · Hugging Face
+Hugging Face
+Models
+Datasets
+Spaces
+Buckets new
+Docs
+Enterprise
+Pricing
+Website
+Tasks
+HuggingChat
+Collections
+Languages
+Organizations
+Community
+Blog
+Posts
+Daily Papers
+Hardware
+Learn
+Discord
+Forum
+GitHub
+Solutions
+Team & Enterprise
+Hugging Face PRO
+Enterprise Support
+Inference Providers
+Inference Endpoints
+Storage Buckets
+Log In
+Sign Up
+","eos_token":"<|end_of_text|>","pad_token":"<|finetune_right_pad|>"},"chat_template_jinja":"{%- set tools = tools | default(none) -%}\n{%- set add_generation_prompt = add_generation_prompt | default(false) -%}\n{%- set reasoning_effort = reasoning_effort | default('xhigh', true) -%}\n{%- set cutoff_date = cutoff_date | default('2026-01-04') -%}\n{%- set current_date = current_date | default(strftime_now('%Y-%m-%d') if strftime_now is defined else none) -%}\n{%- set reasoning_effort_map = {'low': 8, 'medium': 32, 'high': 256, 'xhigh': 512} -%}\n{%- if not (reasoning_effort is string and reasoning_effort in reasoning_effort_map) -%}\n {{- raise_exception('Unsupported reasoning_effort: ' ~ reasoning_effort ~ '. Expected one of: low, medium, high, xhigh.') -}}\n{%- endif -%}\n{%- set deferred_render_mode = deferred_render_mode | default('tool_name_and_description') -%}\n\n{#- Neutralise control sequences in caller-supplied text so it cannot be\n tokenized as structure. \"<|\" is broken because every special token has the\n form \"<|...|>\"; the bare media placeholders are broken because the\n multimodal processor rewrites them positionally and a literal one in text\n would desynchronise placeholders from the attached media. -#}\n{%- macro esc(value) -%}\n {{- value | string\n | replace('<|', '< |')\n | replace('<image>', '< image>')\n | replace('<video>', '< video>')\n | replace('<audio>', '< audio>') -}}\n{%- endmacro -%}\n\n{%- macro esc_header(value) -%}\n {{- esc(value) | replace('\\r', ' ') | replace('\\n', ' ') -}}\n{%- endmacro -%}\n\n{%- macro esc_attr(value) -%}\n {{- esc_header(value)\n | replace('&', '&amp;')\n | replace('\"', '"')\n | replace(\"'\", ''')\n | replace('<', '<')\n | replace('>', '>') -}}\n{%- endmacro -%}\n\n{%- macro render_content(content) -%}\n {%- if content is string -%}\n {{- esc(content) -}}\n {%- elif content is not none -%}\n {%- for part in content -%}\n {%- set part_type = part.get('type', '') -%}\n {%- if part_type in ['image', 'input_image', 'image_url'] -%}\n {{- '<|patch|>' -}}\n {%- elif part_type in ['video', 'input_video', 'video_url'] -%}\n {{- '<|video|>' -}}\n {%- elif part_type in ['audio', 'input_audio', 'audio_url'] -%}\n {{- '<|audio|>' -}}\n {%- elif part_type in ['text', 'input_text', 'output_text'] -%}\n {{- esc(part.get('text', '')) -}}\n {%- endif -%}\n {%- endfor -%}\n {%- endif -%}\n{%- endmacro -%}\n\n{%- macro render_atem(tc) -%}\n {%- set args = tc.function.arguments -%}\n {%- if args is not mapping -%}\n {{- raise_exception('This chat template requires tool_call.function.arguments to be a dict (mapping). The jinja sandbox has no JSON parser, so deserialize the arguments string before calling apply_chat_template.') -}}\n {%- endif -%}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"' -}}{{- esc_attr(tc.function.name) -}}{{- '\">\\n' -}}\n {%- for k, v in args.items() -%}\n {{- '<atem:parameter name=\"' -}}{{- esc_attr(k) -}}{{- '\">' -}}\n {%- if v is boolean -%}\n {%- if v -%}\n true\n {%- else -%}\n false\n {%- endif -%}\n {%- elif v is none -%}\n null\n {%- elif v is mapping or (v is iterable and v is not string) -%}\n {{- esc(v | tojson) -}}\n {%- else -%}\n {{- esc(v) -}}\n {%- endif -%}\n {{- '</atem:parameter>\\n' -}}\n {%- endfor -%}\n {{- '</atem:invoke>\\n</atem:function_calls>' -}}\n{%- endmacro -%}\n\n{#- One function line, as the training renderer prints it. Deferred: name plus description and annotation\n (tool_name_and_description) or annotation only (tool_name_only). Full: \"additionalProperties\": false is added\n when the schema lacks it, and empty parameters become an empty object schema. -#}\n{%- macro fn_line(name, fn, deferred) -%}\n {%- set desc = fn.description if fn.description is defined and fn.description else '' -%}\n {%- set p = fn.parameters if fn.parameters is defined and fn.parameters else {} -%}\n {%- if deferred -%}\n {%- set desc = ('' if deferred_render_mode == 'tool_name_only' else desc ~ ' ') ~ '[deferred: use tool_search to load full schema]' -%}\n {{- '\\n{\"name\": ' ~ esc(name | tojson) ~ ', \"description\": ' ~ esc(desc | tojson) ~ ', \"defer_loading\": true}' -}}\n {%- else -%}\n {%- if p is mapping and p | length == 0 -%}\n {%- set p = '{\"type\": \"object\", \"properties\": {}, \"additionalProperties\": false}' -%}\n {%- elif p is mapping and 'additionalProperties' not in p -%}\n {%- set p = (p | tojson)[:-1] ~ ', \"additionalProperties\": false}' -%}\n {%- else -%}\n {%- set p = p | tojson -%}\n {%- endif -%}\n {{- '\\n{\"name\": ' ~ esc(name | tojson) ~ ', \"description\": ' ~ esc(desc | tojson) ~ ', \"parameters\": ' ~ esc(p) ~ '}' -}}\n {%- endif -%}\n{%- endmacro -%}\n\n{#- tools: OpenAI function tools, plus namespace tools {\"type\": \"namespace\", \"name\", \"description\", \"defer_loading\",\n \"tools\": [function, ...]}. In a deferred namespace, functions without their own flag inherit the deferral; only\n when some are true and some explicitly false do the explicitly eager ones keep their full schema. -#}\n{%- macro render_tool_defs(tools) -%}\n {{- 'In this environment you have access to a set of tools you can use to answer the user\\'s question.\\n\\n' -}}\n {{- 'You can invoke a function by writing a \"<atem:function_calls>\" block like the following as part of your reply to the user:\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"$FUNCTION_NAME\">\\n<atem:parameter name=\"$PARAMETER_NAME\">$PARAMETER_VALUE</atem:parameter>\\n...\\n</atem:invoke>\\n</atem:function_calls>\\n\\n' -}}\n {{- 'String and scalar parameters should be specified as is, while lists and objects should use JSON format. Note that spaces for string values are not stripped. The output is not expected to be valid XML and is parsed with regular expressions.\\n' -}}\n {{- 'Here are the functions available in JSONSchema format:\\n' -}}\n {%- set td = namespace(meta='', fns='', loose=false) -%}\n {%- for tool in tools -%}\n {%- if tool.type is defined and tool.type == 'namespace' -%}\n {%- set ns_deferred = tool.defer_loading is defined and tool.defer_loading -%}\n {%- set ns_desc = tool.description if tool.description is defined and tool.description else '' -%}\n {%- set members = tool.tools if tool.tools is defined and tool.tools else [] -%}\n {%- set flags = namespace(t=false, f=false) -%}\n {%- for m in members -%}\n {%- set d = (m.function if m.function is defined else m).defer_loading -%}\n {%- set flags.t = flags.t or d is not sameas false -%}\n {%- set flags.f = flags.f or d is sameas false -%}\n {%- endfor -%}\n {%- if ns_deferred -%}\n {%- set ns_desc = '[deferred: use tool_search to load descriptions and schemas]' if deferred_render_mode == 'tool_name_only' else (ns_desc ~ ' ' if ns_desc else '') ~ '[deferred: use tool_search to discover functions]' -%}\n {%- endif -%}\n {%- set td.meta = td.meta ~ '\\n{\"name\": ' ~ esc(tool.name | tojson) ~ ', \"description\": ' ~ esc(ns_desc | tojson) ~ (', \"has_deferred_functions\": true}' if ns_deferred else '}') -%}\n {%- for m in members -%}\n {%- set mfn = m.function if m.function is defined else m -%}\n {%- set eager = flags.t and flags.f and mfn.defer_loading is defined and mfn.defer_loading is sameas false -%}\n {%- if not ns_deferred or eager or deferred_render_mode == 'tool_name_only' -%}\n {%- set td.fns = td.fns ~ fn_line(tool.name ~ '.' ~ mfn.name, mfn, (not eager) if ns_deferred else (mfn.defer_loading is defined and mfn.defer_loading)) -%}\n {%- endif -%}\n {%- endfor -%}\n {%- else -%}\n {%- set fn = tool.function if tool.function is defined else tool -%}\n {%- set td.meta = td.meta ~ ('' if td.loose else '\\n{\"name\": \"\", \"description\": \"\"}') -%}\n {%- set td.loose = true -%}\n {%- set td.fns = td.fns ~ fn_line(fn.name, fn, fn.defer_loading is defined and fn.defer_loading) -%}\n {%- endif -%}\n {%- endfor -%}\n {{- '// Tool metadata' ~ td.meta ~ '\\n// Function schemas' ~ td.fns -}}\n {{- '\\n\\n' -}}\n {{- 'Here are examples of how to call functions in the tool set. To make parallel tool calls, emit each call as its own message (one tool call per message) in consecutive messages, as shown below:\\n' -}}\n {{- '(If the tool namespace is not specified, invoke the function directly as `example_function_name_1` rather than `example_tool_name_1.example_function_name_1`)\\n\\n' -}}\n {{- 'to=example_tool_name_1.example_function_name_1\\n\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"example_tool_name_1.example_function_name_1\">\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_1\">value_1</atem:parameter>\\n' -}}\n {{- '</atem:invoke>\\n</atem:function_calls>\\n\\n' -}}\n {{- 'to=example_tool_name_2.example_function_name_2\\n\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"example_tool_name_2.example_function_name_2\">\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_2\">This is the value for the second parameter\\nthat can span\\n\"multiple\" lines\\n</atem:parameter>\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_3\">value_3</atem:parameter>\\n' -}}\n {{- '</atem:invoke>\\n</atem:function_calls>' -}}\n{%- endmacro -%}\n\n{%- macro render_valid_recipients(tools) -%}\n {%- set rns = namespace(recipients=[]) -%}\n {{- 'Use the appropriate recipient for each message:\\n\\n' -}}\n {%- set rns.recipients = rns.recipients + ['\"self\"'] -%}\n {{- '- \"self\": private reasoning and tool planning.\\n' -}}\n {%- set rns.recipients = rns.recipients + ['\"commentary\"'] -%}\n {{- '- \"commentary\": user-visible intermediate updates while the assistant will continue working, including messages sent to the user before or between tool calls.\\n' -}}\n {%- if tools -%}\n {%- set rt = namespace(first=none, ns=[]) -%}\n {%- for tool in tools -%}\n {%- if tool.type is defined and tool.type == 'namespace' -%}\n {%- set rt.ns = rt.ns + ['\"' ~ esc_header(tool.name) ~ '.*\"'] -%}\n {%- elif rt.first is none -%}\n {%- set rt.first = (tool.function if tool.function is defined else tool).name -%}\n {%- endif -%}\n {%- endfor -%}\n {%- set rns.recipients = rns.recipients + (['\"[func_name] (e.g., ' ~ esc_header(rt.first) ~ ')\"'] if rt.first is not none else []) + rt.ns -%}\n {{- '- \"tool\" or \"[tool name]\": the name of the tool to call.\\n' -}}\n {%- endif -%}\n {%- set rns.recipients = rns.recipients + ['\"user\"'] -%}\n {{- '- \"user\": messages that end the assistant turn, such as a completed response or clarification question that waits for the user\\'s reply; do not use for pre-tool updates or partial responses.\\n' -}}\n {{- '\\n# Valid recipients: ' ~ rns.recipients | join(', ') ~ '.' -}}\n{%- endmacro -%}\n\n{{- bos_token -}}\n{%- set ns = namespace(instructions=none, rest=messages) -%}\n{%- if messages and messages[0]['role'] in ['system', 'developer'] -%}\n {%- set ns.instructions = render_content(messages[0]['content'])\n | replace('Reasoning effort', 'Reasoning strength')\n | replace('Reasoning Effort', 'Reasoning Strength')\n | replace('reasoning effort', 'reasoning strength')\n | replace('REASONING EFFORT', 'REASONING STRENGTH') -%}\n {%- set ns.rest = messages[1:] -%}\n{%- endif -%}\n{%- set sys = namespace(parts=['You are a helpful AI assistant.', 'Knowledge cutoff: ' ~ cutoff_date ~ '.']) -%}\n{%- if current_date -%}\n {%- set sys.parts = sys.parts + ['Current date: ' ~ current_date ~ '.'] -%}\n{%- endif -%}\n{%- if ns.instructions -%}\n {%- set sys.parts = sys.parts + [ns.instructions] -%}\n{%- endif -%}\n{%- if tools -%}\n {%- set sys.parts = sys.parts + [render_tool_defs(tools) | trim] -%}\n{%- endif -%}\n{%- if 'reasoning strength:' not in ((ns.instructions if ns.instructions else '') | lower) -%}\n {%- set sys.parts = sys.parts + ['Reasoning strength: ' ~ reasoning_effort_map[reasoning_effort] ~ '.'] -%}\n{%- endif -%}\n{%- set sys.parts = sys.parts + [render_valid_recipients(tools) | trim] -%}\n{{- '<|start|>system<|message|>' ~ sys.parts | join('\\n\\n') ~ '<|eot|>' -}}\n{%- for message in ns.rest -%}\n {%- set role = message['role'] -%}\n {%- set end_token = '<|eom|>' if (not loop.last and ns.rest[loop.index0 + 1]['role'] == role) else '<|eot|>' -%}\n {%- if role in ['system', 'developer'] -%}\n {{- '<|start|>' + role + '<|message|>' -}}\n {{- render_content(message['content']) -}}\n {{- '<|eot|>' -}}\n {%- elif role == 'user' -%}\n {{- '<|start|>user<|message|>' -}}\n {%- if message.get('render_timestamp') and message.get('timestamp') -%}\n {%- set ts = message['timestamp'] -%}\n {%- if ts is string -%}\n {{- '[' ~ esc_header(ts) ~ '] ' -}}\n {%- elif ts.strftime is defined -%}\n {{- '[' ~ (ts.strftime('%a %Y-%m-%d %H:%M %Z') | trim) ~ '] ' -}}\n {%- endif -%}\n {%- endif -%}\n {{- render_content(message['content']) -}}\n {{- '<|eot|>' -}}\n {%- elif role == 'tool' -%}\n {%- set tname = message.get('name') -%}\n {%- if not tname -%}\n {%- set tcid = message.get('tool_call_id') -%}\n {%- set tns = namespace(name=tcid if tcid else '') -%}\n {%- for m in messages -%}\n {%- if m.get('tool_calls') -%}\n {%- for tc in m['tool_calls'] -%}\n {%- if tcid is not none and tc.id is defined and tc.id == tcid -%}\n {%- set tns.name = tc.function.name -%}\n {%- endif -%}\n {%- endfor -%}\n {%- endif -%}\n {%- endfor -%}\n {%- set tname = tns.name -%}\n {%- endif -%}\n {%- if not tname -%}\n {{- raise_exception('tool message has no name and no matching tool_call_id') -}}\n {%- endif -%}\n {{- '<|start|>tool ' -}}{{- esc_header(tname) -}}{{- '<|message|><tool_output name=\"' -}}{{- esc_attr(tname) -}}{{- '\">\\n' -}}\n {{- render_content(message['content']) -}}\n {{- '\\n</tool_output><|eot|>' -}}\n {%- elif role == 'assistant' -%}\n {%- generation %}\n {%- set reasoning = message.get('reasoning_content') or message.get('reasoning') -%}\n {%- if reasoning -%}\n {{- '<|start|>assistant to=self<|message|>' -}}{{- esc(reasoning) -}}{{- '<|eom|>' -}}\n {%- endif -%}\n {%- set body = render_content(message.get('content')) -%}\n {%- if message.get('tool_calls') -%}\n {%- if body -%}\n {{- '<|start|>assistant to=commentary<|message|>' + body + '<|eom|>' -}}\n {%- endif -%}\n {%- for tc in message['tool_calls'] -%}\n {{- '<|start|>assistant to=' -}}{{- esc_header(tc.function.name) -}}{{- '<|message|>' -}}\n {{- render_atem(tc) -}}\n {{- (end_token if loop.last else '<|eom|>') -}}\n {%- endfor -%}\n {%- elif body or not reasoning -%}\n {%- set recipient = message.get('recipient') or 'user' -%}\n {%- if recipient == 'user' -%}\n {%- set end_turn = true -%}\n {%- elif recipient in ['self', 'commentary'] -%}\n {%- set end_turn = false -%}\n {%- elif message.get('end_turn') is not none -%}\n {%- set end_turn = message.get('end_turn') -%}\n {%- else -%}\n {%- set end_turn = false -%}\n {%- endif -%}\n {{- '<|start|>assistant to=' -}}{{- esc_header(recipient) -}}{{- '<|message|>' -}}\n {{- body -}}\n {{- ('<|eot|>' if end_turn else '<|eom|>') -}}\n {%- endif -%}\n {%- endgeneration %}\n {%- endif -%}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n {{- '<|start|>assistant' -}}\n{%- endif -%}\n"},"createdAt":"2026-09-15T19:23:19.000Z","discussionsDisabled":false,"discussionsSorting":"recently-created","downloads":1600,"downloadsAllTime":1726,"id":"meta-models/Muse-Spark-Open-816B-A42B","isLikedByUser":false,"availableInferenceProviders":[{"provider":"baseten","modelStatus":"live","providerStatus":"live","providerId":"meta-models/muse-spark-open","task":"conversational","adapterWeightsPath":"model-00001-of-00065.safetensors","features":{"structuredOutput":true,"toolCalling":true},"isCheapestPricingOutput":true,"isFastestThroughput":true,"isModelAuthor":false,"tokensPerSecond":111.33377866844802,"pricingOutput":4.25}],"showHuggingChatEntry":true,"inference":"warm","lastModified":"2026-10-15T15:46:43.000Z","likes":467,"pipeline_tag":"image-text-to-text","library_name":"transformers","librariesOther":[],"trackDownloads":true,"model-index":null,"evalResults":[{"dataset":{"id":"Idavidrein/gpqa","isBenchmark":true,"task_id":"diamond"},"value":89,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":19,"label":"Diamond"},{"dataset":{"id":"datacurve/deep-swe","isBenchmark":true,"task_id":"deep_swe"},"value":60,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":10,"label":"Deep Swe","notes":"DeepSWE 1.1, run with the authors' preferred agent harness per the model card."},{"dataset":{"id":"harborframework/terminal-bench-2.1","isBenchmark":true,"task_id":"terminalbench_2_1"},"value":76.4,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":17,"label":"Terminalbench 2 1","notes":"Run with the Terminus 2 agent."},{"dataset":{"id":"MME-Benchmarks/Video-MME-v2","isBenchmark":true,"task_id":"video-mme-v2"},"value":61.5,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":2,"label":"Video Mme V2"},{"dataset":{"id":"cais/hle","isBenchmark":false,"task_id":"hle"},"value":61,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":3,"label":"Hle","notes":"Run with tools."},{"dataset":{"id":"hkust-nlp/Toolathlon","isBenchmark":false,"task_id":"toolathlon_verified"},"value":72.8,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":10,"label":"Toolathlon Verified"}],"private":false,"repoType":"model","gated":"manual","tags":["transformers","safetensors","muse_spark","image-text-to-text","facebook","meta","pytorch","muse","muse-spark","conversational","en","license:other","eval-results","endpoints_compatible","deploy:sagemaker","region:us"],"tag_objs":[{"id":"image-text-to-text","label":"Image-Text-to-Text","type":"pipeline_tag","subType":"multimodal"},{"id":"transformers","label":"Transformers","type":"library"},{"id":"safetensors","label":"Safetensors","type":"library"},{"id":"pytorch","label":"PyTorch","type":"library"},{"id":"en","label":"English","type":"language"},{"id":"muse_spark","label":"muse_spark","type":"other","clickable":true},{"id":"facebook","label":"facebook","type":"other","clickable":true},{"id":"meta","label":"meta","type":"other","clickable":true},{"id":"muse","label":"muse","type":"other","clickable":true},{"id":"muse-spark","label":"muse-spark","type":"other","clickable":true},{"id":"conversational","label":"conversational","type":"other","clickable":true},{"id":"eval-results","label":"Eval Results","type":"other","clickable":true},{"id":"endpoints_compatible","label":"Inference Endpoints","type":"other","clickable":true},{"id":"license:other","label":"other","type":"license"},{"id":"deploy:sagemaker","label":"sagemaker","type":"deploy"},{"type":"region","label":"🇺🇸 Region: US","id":"region:us"}],"transformersInfo":{"auto_model":"AutoModelForMultimodalLM","pipeline_tag":"image-text-to-text","processor":"AutoProcessor"},"widgetData":[{"text":"Hi, what can you help me with?"},{"text":"What is 84 * 3 / 2?"},{"text":"Tell me an interesting fact about the universe!"},{"text":"Explain quantum computing in simple terms."}],"safetensors":{"parameters":{"BF16":821906490368,"F32":130039296},"total":822036529664,"sharded":true,"totalFileSize":1644333584632},"hasBlockedOids":false,"region":"us","isQuantized":false,"licenseFilePath":"LICENSE.md"},"discussionsStats":{"closed":4,"open":8,"total":12},"query":{},"inferenceContextData":{"billableEntities":[],"entityName2Providers":{},"defaultProviders":[{"isOriginalProvider":false,"name":"baseten","enabled":true,"position":13,"isReleased":true,"accuratePricing":true}]},"hasQuantizations":true,"copyToBucketNamespaces":[]}">
+meta-models /
+Muse-Spark-Open-816B-A42B
+Like 467
+Follow
+Meta Inc. 2.63k
+Image-Text-to-Text
+Transformers
+Safetensors
+PyTorch
+English
+muse_spark
+facebook
+meta
+muse
+muse-spark
+conversational
+Eval Results
+License: muse-model-license
+Model card
+Files Files and versions
+xet
+Community 12
+Deploy
+Copy to bucket new
+Use this model
+Instructions to use meta-models/Muse-Spark-Open-816B-A42B with libraries, inference providers, notebooks, and local apps. Follow these links to get started.
+Libraries
+Transformers How to use meta-models/Muse-Spark-Open-816B-A42B with Transformers:
+# Use a pipeline as a high-level helper
+from transformers import pipeline
+pipe = pipeline("image-text-to-text", model="meta-models/Muse-Spark-Open-816B-A42B")
+messages = [
+{
+"role": "user",
+"content": [
+{"type": "image", "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/p-blog/candy.JPG"},
+{"type": "text", "text": "What animal is on the candy?"}
+]
+},
+]
+pipe(text=messages)
+# pip install -U transformers accelerate
+# Load model directly
+from transformers import AutoProcessor, AutoModelForMultimodalLM
+processor = AutoProcessor.from_pretrained("meta-models/Muse-Spark-Open-816B-A42B")
+model = AutoModelForMultimodalLM.from_pretrained("meta-models/Muse-Spark-Open-816B-A42B", device_map="auto")
+messages = [
+{
+"role": "user",
+"content": [
+{"type": "image", "url": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/p-blog/candy.JPG"},
+{"type": "text", "text": "What animal is on the candy?"}
+]
+},
+]
+inputs = processor.apply_chat_template(
+messages,
+add_generation_prompt=True,
+tokenize=True,
+return_dict=True,
+return_tensors="pt",
+).to(model.device)
+outputs = model.generate(**inputs, max_new_tokens=256)
+print(processor.decode(outputs[0][inputs["input_ids"].shape[-1]:]))
+Inference
+Inference Providers
+HuggingChat
+Notebooks
+Google Colab
+Kaggle
+Local Apps
+Settings
+vLLM How to use meta-models/Muse-Spark-Open-816B-A42B with vLLM:
+Install from pip and serve model
+# Install vLLM from pip:
+pip install vllm
+# Start the vLLM server:
+vllm serve "meta-models/Muse-Spark-Open-816B-A42B"
+# Call the server using curl (OpenAI-compatible API):
+curl -X POST "http://localhost:8000/v1/chat/completions" \
+-H "Content-Type: application/json" \
+--data '{
+"model": "meta-models/Muse-Spark-Open-816B-A42B",
+"messages": [
+{
+"role": "user",
+"content": [
+{
+"type": "text",
+"text": "Describe this image in one sentence."
+},
+{
+"type": "image_url",
+"image_url": {
+"url": "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg"
+}
+}
+]
+}
+]
+}'
+Use Docker
+docker model run hf.co/meta-models/Muse-Spark-Open-816B-A42B
+SGLang How to use meta-models/Muse-Spark-Open-816B-A42B with SGLang:
+Install from pip and serve model
+# Install SGLang from pip:
+pip install sglang
+# Start the SGLang server:
+python3 -m sglang.launch_server \
+--model-path "meta-models/Muse-Spark-Open-816B-A42B" \
+--host 0.0.0.0 \
+--port 30000
+# Call the server using curl (OpenAI-compatible API):
+curl -X POST "http://localhost:30000/v1/chat/completions" \
+-H "Content-Type: application/json" \
+--data '{
+"model": "meta-models/Muse-Spark-Open-816B-A42B",
+"messages": [
+{
+"role": "user",
+"content": [
+{
+"type": "text",
+"text": "Describe this image in one sentence."
+},
+{
+"type": "image_url",
+"image_url": {
+"url": "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg"
+}
+}
+]
+}
+]
+}'
+Use Docker images
+docker run --gpus all \
+--shm-size 32g \
+-p 30000:30000 \
+-v ~/.cache/huggingface:/root/.cache/huggingface \
+--env "HF_TOKEN=<secret>" \
+--ipc=host \
+lmsysorg/sglang:latest \
+python3 -m sglang.launch_server \
+--model-path "meta-models/Muse-Spark-Open-816B-A42B" \
+--host 0.0.0.0 \
+--port 30000
+# Call the server using curl (OpenAI-compatible API):
+curl -X POST "http://localhost:30000/v1/chat/completions" \
+-H "Content-Type: application/json" \
+--data '{
+"model": "meta-models/Muse-Spark-Open-816B-A42B",
+"messages": [
+{
+"role": "user",
+"content": [
+{
+"type": "text",
+"text": "Describe this image in one sentence."
+},
+{
+"type": "image_url",
+"image_url": {
+"url": "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg"
+}
+}
+]
+}
+]
+}'
+Docker Model Runner How to use meta-models/Muse-Spark-Open-816B-A42B with Docker Model Runner:
+docker model run hf.co/meta-models/Muse-Spark-Open-816B-A42B
+Browse
+Quantizations to use this model in
+llama.cpp ,
+Ollama ,
+LM Studio , or any compatible app.
+<strong>MUSE MODEL LICENSE</strong></p>\n<p><em>version: Muse Spark Open</em></p>\n<p><em>Release date: October 15, 2026</em></p>\n<p>Copyright (c) 2026 Meta Platforms, Inc.</p>\n<p>Permission is hereby granted, free of charge, to any person (the \"Licensee\") accessing or obtaining a copy of this software, including the model, code, model weights, parameters, configuration files, and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation, the rights to use, copy, modify (including fine-tune), create derivative works, distill, merge, publish, distribute, sublicense, and/or sell copies of the Software; and to permit persons to whom the Software is furnished to do so, in each case subject to the following conditions:</p>\n<p>1. The above copyright notice and this license and the Usage Policy shall be included in all copies or substantial portions of the Software and Derivatives (defined below). Licensee's use of the Software shall comply with the Usage Policy, which is hereby incorporated into this license and attached hereto as Exhibit A.</p>\n<p>2. Licensee shall prominently display \"Built with Muse Spark Open\" in the user interface of each product or service that uses the Software or any Derivatives, or in the accompanying documentation, website, or settings menu. “Derivatives” means any AI model created, trained, modified (including fine-tuned), distilled, or otherwise improved using the Software or any outputs or results thereof.</p>\n<p>3. If the Licensee or any of its affiliates provide a third party with access to artificial intelligence models as a product or service, via API or a similar interface, where the third party receives outputs of such models (“<strong>Model as a Service</strong>”), and the aggregate gross revenue of the Licensee and its affiliates exceeds twenty (20) million US dollars (or the equivalent in other currencies) during any consecutive twelve (12) month period, the Licensee must notify Meta and enter into a separate written agreement with Meta before offering the Software or any Derivatives as part of that Model as a Service business. This Section 3 does not apply to (a) internal use, research, or any commercial activity that is not Model as a Service, or (b) the Licensee's use of the Software as a component to power features of the Licensee's own product or service that is not a Model as a Service. </p>\n<p>4. Meta claims no ownership of outputs generated by the Software.</p>\n<p>5. THE SOFTWARE, ANY OUTPUTS, AND ANY RESULTS THEREFROM ARE PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL META OR ITS AFFILIATES BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS OUTPUTS, OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. META AND ITS AFFILIATES SHALL HAVE NO LIABILITY WITH RESPECT TO ANY DERIVATIVES, AND LICENSEE IS SOLELY RESPONSIBLE FOR THE SAFETY, DEPLOYMENT, AND USE OF ITS DERIVATIVES.</p>\n<p>“Meta” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your principal place of business is in the European region) and Meta Platforms, Inc. (if you are located outside of the European region). </p>\n<p><strong>EXHIBIT A - Muse Spark Open Usage Policy</strong></p>\n<p>Dated: October 15, 2026</p>\n<p>Meta is committed to promoting safe and fair use of its tools and features, including Muse Spark Open. This Usage Policy (“Policy”) applies to your access or use of Muse Spark Open and any Derivatives.</p>\n<p>Prohibited Uses</p>\n<p>We want everyone to use Muse Spark Open safely and responsibly. It is your obligation to ensure that any deployment of the model to end-users is safe, taking into account the deployment context and the user-base. Muse Spark Open is not intended for individuals under the age of 18.</p>\n<p>You should not use, or allow others to use, Muse Spark Open to:</p>\n<ol>\n<li>Violate the law or others' rights, including to: <ol>\n<li>Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as: <ol>\n<li>Violence or terrorism </li>\n<li>Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material </li>\n<li>Human trafficking, exploitation, and sexual violence </li>\n<li>The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials </li>\n<li>Sexual solicitation </li>\n<li>Any other criminal activity</li>\n</ol>\n</li>\n<li>Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals </li>\n<li>Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services </li>\n<li>Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices </li>\n<li>Collect, process, disclose, generate, or infer private or sensitive information about individuals, including information about individuals' identity, health, or demographic information, unless you have obtained the right to do so in accordance with applicable law </li>\n<li>Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using Muse Spark Open </li>\n<li>Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system </li>\n<li>Engage in any action, or facilitate any action, to intentionally circumvent or remove usage restrictions or other safety measures, or to enable functionality disabled by Meta</li>\n</ol>\n</li>\n<li>Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Muse Spark Open related to the following: <ol>\n<li>Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State or to the U.S. Biological Weapons Anti-Terrorism Act of 1989 or the Chemical Weapons Convention Implementation Act of 1997 </li>\n<li>Guns and illegal weapons (including weapon development) </li>\n<li>Illegal drugs and regulated/controlled substances </li>\n<li>Operation of critical infrastructure, transportation technologies, or heavy machinery </li>\n<li>Self-harm or harm to others, including suicide, cutting, and eating disorders </li>\n<li>Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual</li>\n</ol>\n</li>\n<li>Intentionally deceive or mislead others, including use of Muse Spark Open related to the following: <ol>\n<li>Generating, promoting, or furthering fraud or the creation or promotion of disinformation </li>\n<li>Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content </li>\n<li>Generating, promoting, or further distributing spam </li>\n<li>Impersonating another individual without consent, authorization, or legal right </li>\n<li>Representing that the use of Muse Spark Open or outputs are human generated </li>\n<li>Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement</li>\n</ol>\n</li>\n<li>Fail to appropriately disclose to end users any known dangers of your AI system </li>\n<li>Interact with third party tools, models, or software designed to generate unlawful content or engage in unlawful or harmful conduct and/or represent that the outputs of such tools, models, or software are associated with Meta or Muse Spark Open</li>\n</ol>\n","classNames":"hf-sanitized hf-sanitized-7Nj25-vlrxhiSKHD4IK6x"},"customHeading":"Please be sure to provide your full legal name, date of birth, and full organization name with all corporate identifiers. Avoid the use of acronyms and special characters. Failure to follow these instructions may prevent you from accessing this model and others on Hugging Face. You will not have the ability to edit this form after submission, so please ensure all information is accurate.","customDescription":{"contents":"The information you provide will be collected, stored, processed and shared in accordance with the [Meta Privacy Policy](https://www.facebook.com/privacy/policy/).","html":"<p>The information you provide will be collected, stored, processed and shared in accordance with the <a href=\"https://www.facebook.com/privacy/policy/\" rel=\"nofollow\">Meta Privacy Policy</a>.</p>\n","classNames":"hf-sanitized hf-sanitized-KhodoYTW5mi_H2MpbW-_j"},"gated":"manual","isLoggedIn":false,"repoId":"meta-models/Muse-Spark-Open-816B-A42B","repoType":"model","isGoogleGemma":false,"requiresPaidPlan":false}">
+Please be sure to provide your full legal name, date of birth, and full organization name with all corporate identifiers. Avoid the use of acronyms and special characters. Failure to follow these instructions may prevent you from accessing this model and others on Hugging Face. You will not have the ability to edit this form after submission, so please ensure all information is accurate.
+The information you provide will be collected, stored, processed and shared in accordance with the Meta Privacy Policy .
+MUSE MODEL LICENSE
+version: Muse Spark Open
+Release date: October 15, 2026
+Copyright (c) 2026 Meta Platforms, Inc.
+Permission is hereby granted, free of charge, to any person (the "Licensee") accessing or obtaining a copy of this software, including the model, code, model weights, parameters, configuration files, and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation, the rights to use, copy, modify (including fine-tune), create derivative works, distill, merge, publish, distribute, sublicense, and/or sell copies of the Software; and to permit persons to whom the Software is furnished to do so, in each case subject to the following conditions:
+1. The above copyright notice and this license and the Usage Policy shall be included in all copies or substantial portions of the Software and Derivatives (defined below). Licensee's use of the Software shall comply with the Usage Policy, which is hereby incorporated into this license and attached hereto as Exhibit A.
+2. Licensee shall prominently display "Built with Muse Spark Open" in the user interface of each product or service that uses the Software or any Derivatives, or in the accompanying documentation, website, or settings menu. “Derivatives” means any AI model created, trained, modified (including fine-tuned), distilled, or otherwise improved using the Software or any outputs or results thereof.
+3. If the Licensee or any of its affiliates provide a third party with access to artificial intelligence models as a product or service, via API or a similar interface, where the third party receives outputs of such models (“ Model as a Service ”), and the aggregate gross revenue of the Licensee and its affiliates exceeds twenty (20) million US dollars (or the equivalent in other currencies) during any consecutive twelve (12) month period, the Licensee must notify Meta and enter into a separate written agreement with Meta before offering the Software or any Derivatives as part of that Model as a Service business. This Section 3 does not apply to (a) internal use, research, or any commercial activity that is not Model as a Service, or (b) the Licensee's use of the Software as a component to power features of the Licensee's own product or service that is not a Model as a Service.
+4. Meta claims no ownership of outputs generated by the Software.
+5. THE SOFTWARE, ANY OUTPUTS, AND ANY RESULTS THEREFROM ARE PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL META OR ITS AFFILIATES BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS OUTPUTS, OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. META AND ITS AFFILIATES SHALL HAVE NO LIABILITY WITH RESPECT TO ANY DERIVATIVES, AND LICENSEE IS SOLELY RESPONSIBLE FOR THE SAFETY, DEPLOYMENT, AND USE OF ITS DERIVATIVES.
+“Meta” means Meta Platforms Ireland Limited (if you are located in or, if you are an entity, your principal place of business is in the European region) and Meta Platforms, Inc. (if you are located outside of the European region).
+EXHIBIT A - Muse Spark Open Usage Policy
+Dated: October 15, 2026
+Meta is committed to promoting safe and fair use of its tools and features, including Muse Spark Open. This Usage Policy (“Policy”) applies to your access or use of Muse Spark Open and any Derivatives.
+Prohibited Uses
+We want everyone to use Muse Spark Open safely and responsibly. It is your obligation to ensure that any deployment of the model to end-users is safe, taking into account the deployment context and the user-base. Muse Spark Open is not intended for individuals under the age of 18.
+You should not use, or allow others to use, Muse Spark Open to:
+Violate the law or others' rights, including to:
+Engage in, promote, generate, contribute to, encourage, plan, incite, or further illegal or unlawful activity or content, such as:
+Violence or terrorism
+Exploitation or harm to children, including the solicitation, creation, acquisition, or dissemination of child exploitative content or failure to report Child Sexual Abuse Material
+Human trafficking, exploitation, and sexual violence
+The illegal distribution of information or materials to minors, including obscene materials, or failure to employ legally required age-gating in connection with such information or materials
+Sexual solicitation
+Any other criminal activity
+Engage in, promote, incite, or facilitate the harassment, abuse, threatening, or bullying of individuals or groups of individuals
+Engage in, promote, incite, or facilitate discrimination or other unlawful or harmful conduct in the provision of employment, employment benefits, credit, housing, other economic benefits, or other essential goods and services
+Engage in the unauthorized or unlicensed practice of any profession including, but not limited to, financial, legal, medical/health, or related professional practices
+Collect, process, disclose, generate, or infer private or sensitive information about individuals, including information about individuals' identity, health, or demographic information, unless you have obtained the right to do so in accordance with applicable law
+Engage in or facilitate any action or generate any content that infringes, misappropriates, or otherwise violates any third-party rights, including the outputs or results of any products or services using Muse Spark Open
+Create, generate, or facilitate the creation of malicious code, malware, computer viruses or do anything else that could disable, overburden, interfere with or impair the proper working, integrity, operation or appearance of a website or computer system
+Engage in any action, or facilitate any action, to intentionally circumvent or remove usage restrictions or other safety measures, or to enable functionality disabled by Meta
+Engage in, promote, incite, facilitate, or assist in the planning or development of activities that present a risk of death or bodily harm to individuals, including use of Muse Spark Open related to the following:
+Military, warfare, nuclear industries or applications, espionage, use for materials or activities that are subject to the International Traffic Arms Regulations (ITAR) maintained by the United States Department of State or to the U.S. Biological Weapons Anti-Terrorism Act of 1989 or the Chemical Weapons Convention Implementation Act of 1997
+Guns and illegal weapons (including weapon development)
+Illegal drugs and regulated/controlled substances
+Operation of critical infrastructure, transportation technologies, or heavy machinery
+Self-harm or harm to others, including suicide, cutting, and eating disorders
+Any content intended to incite or promote violence, abuse, or any infliction of bodily harm to an individual
+Intentionally deceive or mislead others, including use of Muse Spark Open related to the following:
+Generating, promoting, or furthering fraud or the creation or promotion of disinformation
+Generating, promoting, or furthering defamatory content, including the creation of defamatory statements, images, or other content
+Generating, promoting, or further distributing spam
+Impersonating another individual without consent, authorization, or legal right
+Representing that the use of Muse Spark Open or outputs are human generated
+Generating or facilitating false online engagement, including fake reviews and other means of fake online engagement
+Fail to appropriately disclose to end users any known dangers of your AI system
+Interact with third party tools, models, or software designed to generate unlawful content or engage in unlawful or harmful conduct and/or represent that the outputs of such tools, models, or software are associated with Meta or Muse Spark Open
+Log in or Sign Up to review the conditions and access this model content.
+Muse Spark Open Model Card Muse Spark Open Model Overview
+Model Access and Best Practices
+Training data
+Benchmarks
+Safety and Preparedness
+Considerations and Limitations
+Muse Spark Open Model Card
+Authors : Meta Superintelligence Labs
+Model Release Date: October 2026
+License : Muse Model License
+Muse Spark Open is an 816B total/42B active parameter open weights model with a context window of 1M tokens. Built for coding and agentic work, Muse Spark Open is natively multimodal. This open weights version has additional safety post-training to make it more robust against misuse as a standalone model without system guardrails. We recommend deploying Muse Spark Open as part of a broader AI system, with additional guardrails suited to the specific use case.
+The model can perform well across a wide variety of use cases including:
+Multi-Step Reasoning - chains reasoning over long horizons, sustaining coherent plans across complex, extended workflows.
+End to End Agentic Task Completion - multi-step planning, sequential tool invocation, failure recovery, and long-horizon task execution, working within scaffolds, write and debug code, and resolve multi-turn requests from start to finish.
+Coding Agents - writing, debugging, and resolving real-world software engineering tasks.
+Tool Use - tool invocation across extended multi-turn workflows, diagnosing error and retrying with tool call failures
+Multimodal Reasoning - interpreting screenshots, charts, documents, images, audio and video recordings, alongside conversation for agentic and information-rich environments.
+Synthetic Data Generation - generating high-quality training data for downstream model development.
+LLM-as-a-judge Evaluation - serving as an evaluator for other models' outputs.
+Muse Spark Open Model Overview
+Name
+Muse Spark Open
+Model Provider
+Meta Platforms, Inc. or Meta Platforms Ireland Limited
+Date of Release
+October 15th, 2026
+License
+Muse Model License
+Parameters
+816B total / 42B active
+Type
+Mixture-of-Experts Transformer, with Perception Encoder
+Context Length
+1M at inference
+Vocabulary Size
+202,048
+Modalities
+Input: Text + Image + Video + Audio / Output: Text
+Languages
+Multilingual, trained on data from more than 100 languages
+Recommended inference parameters
+Temperature = 1.0 Top_p = 1.0 Top_k = disabled It is recommended to use Reasoning Effort of high or xhigh for complex problem solving, coding, and agentic tasks.
+Language Model
+Hidden Dimension: 8192 Token Embedding: untied input/output embeddings, vocab × dim = 202,048 × 8192 ≈ ~1.66B Output layer (unembedding layer): vocab × dim = 202,048 × 8192 ≈ ~1.66B Number of Layers: 62 Gated Attention: Yes (output gate and output norm on the attention block; QK-norm enabled) Number of Attention Heads: 128 for Q and 16 for KV (grouped-query attention) Head Dimension: 64 Mixture of Experts: Yes Number of Experts: 256 Experts Activated per Token: 8 (top-k routing)
+Perception Encoder
+Architecture: 1.8B param, 50 layers, 1536 hidden dim, 16 heads, 14x14 patch size, 4096 output dim Learned Absolute + 2D RoPE for positional embedding, LayerNorm + GELU for FFN Sparse attention with factor 4 (every 4th + last layer are full attention)
+Model Access and Best Practices
+Access via API
+The model is available via API through third party inference providers.
+Open Weights on your own system
+The weights are available for download through Hugging Face. The model is available in BF16 and NVFP4 versions. To run on your own system, the model requires a GPU with at least 700GB of VRAM for NVFP4 and 2TB for BF16. It also requires an inference deployment framework - supported frameworks are SGLang, vLLM, Hugging Face, TensorRT-LLM, Unsloth and Llama.cpp. It is also optimized to run on two Mac Studios with M5 Ultra using MLX.
+Please see the developer documentation for more information on how to deploy and use the model.
+Inference Parameters
+You can customize inference parameters to achieve the best performance for your use case.
+Reasoning Effort: Reasoning effort controls how much the model thinks before it responds. Set it with the reasoning_effort request parameter, or with chat_template_kwargs={"reasoning_effort": ...}, to low, medium, high, or xhigh. The default is xhigh. Use high or xhigh for complex problem solving, coding, and agentic tasks, and low or medium for faster, shorter responses. Any other value returns an error.
+Sampling Parameters: The following settings are recommended for most deployments: temperature = 1.0, top_p = 1.0, top_k = disabled
+Training data
+Training data includes text, images, audio, and video. It includes data drawn from public sources, crawled from the Internet, acquired from third parties, derived from Meta’s products and services, and synthetically generated, curated and enriched by external vendor networks and Meta personnel. Data curation methodologies include cleaning, processing, modifying, deduplication, and filtering, among others.
+Benchmarks
+We compare Muse Spark Open to other leading open-weight models of similar size and architecture. For Muse Spark Open we use xhigh reasoning effort, temperature = 1.0, top_p=1.0, top_k=disabled across benchmarks.
+Benchmark
+Muse Spark Open (xhigh)
+Inkling (xhigh)
+Nemotron 3 Ultra (thinking on)
+Beam
+Mistral Large 4
+Qwen3.8-2.4T-A95B (xhigh)
+GLM 5.3 (max)
+Kimi K3 (max)
+General
+Artificial Analysis Intelligence Index
+39
+26
+23
+-
+38
+40
+45
+44
+Agentic
+JobBench
+61.8
+31.1
+27.2
+-
+-
+52.7
+61.4
+54.3
+MCP-Atlas
+89.2
+76.0
+63.1
+78.7
+-
+84.5
+84.2
+82.3
+GDPVal-AA v2
+1401
+1079
+1016
+-
+1424
+1613
+1653
+1537
+OSWorld Verified
+80.4
+40.1
+-
+-
+-
+-
+-
+84.8
+Toolathlon Verified
+72.8
+45.5
+34.3
+-
+-
+72.5
+73.0
+76.5
+Knowledge & Reasoning
+HLE-Diamond (no tools)
+26.1
+11.2
+8.9
+-
+-
+17.3
+16.4
+22.2
+AA Omniscience
+25
+2
+0
+13
+-5
+4
+14
+20
+SciCode
+58.5
+47.0
+40.3
+49.7
+54.2
+54.1
+59.0
+59.5
+HLE (w/ tools)
+61.0
+46.0
+37.4
+51.2
+-
+56.2
+62.5
+56.0
+GPQA Diamond
+89.0
+87.2
+86.7
+90.5
+-
+93.5
+91.7
+93.5
+Coding
+DeepSWE 1.1 Preferred harness
+60
+-
+-
+44
+62
+57
+67
+68
+SWE-Atlas-QnA Preferred harness
+58
+-
+-
+35
+59
+62
+59
+66
+Terminal-Bench 2.1 Terminus 2 agent
+76.4
+55.1
+53.9
+80.1
+-
+82.0
+83.9
+85.0
+Multimodal
+ZeroBench (w/ tools)
+50.0
+14.0
+-
+-
+-
+-
+-
+41.0
+BabyVision (w/ tools)
+80.2
+34.2
+-
+-
+-
+-
+-
+85.7
+SimpleVQA (w/ tools)
+73.6
+52.3
+-
+-
+-
+-
+-
+71.9
+WorldVQA (w/ tools)
+49.4
+18.0
+-
+-
+-
+-
+-
+51.0
+IntPhys2
+68.3
+55.2
+-
+-
+-
+-
+-
+60.3
+VideoMMEv2
+61.5
+36.9
+-
+-
+-
+-
+-
+65.4
+Safety
+FORTRESS adversarial (static) lower is better
+ARS: 5.8 ORS: 17.4
+ARS: 25.0 ORS: 7.4
+ARS: 26.4 ORS: 13.3
+-
+-
+ARS: 21.6 ORS: 12.8
+ARS: 28.2 ORS: 3.2
+ARS: 26.7 ORS: 2.7
+StrongREJECT v2 (adaptive) lower is better
+0.5
+86.4
+80.7
+-
+-
+65.6
+62.9
+66.6
+For more details about our evaluations, see our report.
+Safety and Preparedness
+We strongly recommend deploying Muse Spark Open as part of an AI system with guardrails tailored to your intended use cases. These system-level protections should balance helpfulness and safety and address safety and security risks, including those arising from integration with external tools.
+Muse Spark Open has been evaluated across four complementary safety areas, and met our safety criteria for release based on model evaluations and an assessment of residual risks:
+Content safety: Harmful-content generation and refusal behavior, alongside response quality and ideological balance.
+Agentic risk: Harmful or unauthorized actions when using tools or acting on users' behalf, including unsafe code execution and destructive changes in coding-agent workflows.
+Privacy: Evaluation of how the model handles personal and sensitive information, including inappropriate disclosure and information sharing when acting on users' behalf.
+Preparedness: Evaluation of chemical and biological, cyber, and loss-of-control risks in line with the Meta Superintelligence Scaling Framework.
+Cybersecurity: We tested it against internal and public cyber misuse benchmarks using adaptive attackers querying the model the way a developer would query an API model, with no system-level safeguards in place. The model refused 99.2% of jailbreaks on our internal benchmark and 94.8% when aggregating across PolyGuard (cyber subset), RedCode, and CyberBench 2024. In the same setup, Kimi K3 refused only 75.5% and 70.2% respectively.
+Chemical and biological: It showed strong refusal behavior on both single-turn and multi-turn benchmarks, refusing over 98% of harmful requests on SecureBio's BioTIER refusal benchmark and over 99% on our internal single-turn chemistry refusal benchmark. On newly developed internal multi-turn agentic benchmarks, it refused over 97% of harmful biology requests and 98% of harmful chemistry requests.
+Loss of control: On our misalignment evaluations, the model showed low propensity for deceptive or unilateral harmful behavior, with a 98.1% honesty rate on the MASK benchmark and a 0% misbehavior rate on the Agentic Misalignment benchmark.
+These evaluations characterized the released checkpoint under the tested conditions and do not cover every downstream configuration or use case. Downstream modifications could degrade safety, and results for the released checkpoint should not be assumed to apply to modified models.
+Considerations and Limitations
+Muse Spark Open is a technology that carries known and unknown risks. Testing conducted to date has not, and could not, cover all scenarios. Muse Spark Open must not be used in any manner that violates applicable laws or regulations (including trade compliance laws) or in any other way that is prohibited by the Muse Model License , including the Usage Policy.
+Limitations
+The model may produce inaccurate, biased, or objectionable responses to user prompts.
+While optimized for agentic tasks, the model may still make errors in multi-step reasoning, particularly in novel scenarios not well represented in training data.
+The model has not been evaluated on all languages contained in the pre-training data. Performance may degrade on languages outside the strongly supported set.
+Quantized inference may show minor quality differences in edge cases compared to full-precision.
+The model is not intended to be downloaded by or used by individuals under the age of 18. Where deployed within systems that may be used by individuals under the age of 18, deployers are responsible for ensuring that any risks associated with such use by individuals under the age of 18 has been fully assessed and appropriately mitigated, and complies with all applicable laws.
+When using very short or low-resolution videos (a few seconds at around 100 px), the model may sometimes reply that it can't view the video. Use longer clips or higher resolution (448 px or more on the short side) for reliable results.
+Responsible Use
+Developers should perform their own safety testing and tuning tailored to their specific applications and proposed languages. Our Usage Policy can be found in the Muse Model License here and provides further information on intended and unintended uses. We recommend implementing additional guardrails (such as human-in-the-loop confirmation for irreversible actions) when deploying the model in agentic contexts where it can take real-world actions.
+For user-facing applications, developers should avoid exposing raw chain-of-thought and apply appropriate safety checks to any reasoning summaries. Developers should also protect internal assistant messages from user manipulation and use layered safeguards against jailbreaks and other adversarial inputs.
+Where to send questions or comments about the model: Please provide any feedback, comments or bug reports on the model through the Hugging Face page at https://huggingface.co/meta-models/ or through email at museoss@meta.com . For more technical information about generation parameters and recipes for how to use Muse Spark Open in applications, please see the developer documentation.
+Downloads last month 1,600
+","eos_token":"<|end_of_text|>","pad_token":"<|finetune_right_pad|>"},"chat_template_jinja":"{%- set tools = tools | default(none) -%}\n{%- set add_generation_prompt = add_generation_prompt | default(false) -%}\n{%- set reasoning_effort = reasoning_effort | default('xhigh', true) -%}\n{%- set cutoff_date = cutoff_date | default('2026-01-04') -%}\n{%- set current_date = current_date | default(strftime_now('%Y-%m-%d') if strftime_now is defined else none) -%}\n{%- set reasoning_effort_map = {'low': 8, 'medium': 32, 'high': 256, 'xhigh': 512} -%}\n{%- if not (reasoning_effort is string and reasoning_effort in reasoning_effort_map) -%}\n {{- raise_exception('Unsupported reasoning_effort: ' ~ reasoning_effort ~ '. Expected one of: low, medium, high, xhigh.') -}}\n{%- endif -%}\n{%- set deferred_render_mode = deferred_render_mode | default('tool_name_and_description') -%}\n\n{#- Neutralise control sequences in caller-supplied text so it cannot be\n tokenized as structure. \"<|\" is broken because every special token has the\n form \"<|...|>\"; the bare media placeholders are broken because the\n multimodal processor rewrites them positionally and a literal one in text\n would desynchronise placeholders from the attached media. -#}\n{%- macro esc(value) -%}\n {{- value | string\n | replace('<|', '< |')\n | replace('<image>', '< image>')\n | replace('<video>', '< video>')\n | replace('<audio>', '< audio>') -}}\n{%- endmacro -%}\n\n{%- macro esc_header(value) -%}\n {{- esc(value) | replace('\\r', ' ') | replace('\\n', ' ') -}}\n{%- endmacro -%}\n\n{%- macro esc_attr(value) -%}\n {{- esc_header(value)\n | replace('&', '&amp;')\n | replace('\"', '"')\n | replace(\"'\", ''')\n | replace('<', '<')\n | replace('>', '>') -}}\n{%- endmacro -%}\n\n{%- macro render_content(content) -%}\n {%- if content is string -%}\n {{- esc(content) -}}\n {%- elif content is not none -%}\n {%- for part in content -%}\n {%- set part_type = part.get('type', '') -%}\n {%- if part_type in ['image', 'input_image', 'image_url'] -%}\n {{- '<|patch|>' -}}\n {%- elif part_type in ['video', 'input_video', 'video_url'] -%}\n {{- '<|video|>' -}}\n {%- elif part_type in ['audio', 'input_audio', 'audio_url'] -%}\n {{- '<|audio|>' -}}\n {%- elif part_type in ['text', 'input_text', 'output_text'] -%}\n {{- esc(part.get('text', '')) -}}\n {%- endif -%}\n {%- endfor -%}\n {%- endif -%}\n{%- endmacro -%}\n\n{%- macro render_atem(tc) -%}\n {%- set args = tc.function.arguments -%}\n {%- if args is not mapping -%}\n {{- raise_exception('This chat template requires tool_call.function.arguments to be a dict (mapping). The jinja sandbox has no JSON parser, so deserialize the arguments string before calling apply_chat_template.') -}}\n {%- endif -%}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"' -}}{{- esc_attr(tc.function.name) -}}{{- '\">\\n' -}}\n {%- for k, v in args.items() -%}\n {{- '<atem:parameter name=\"' -}}{{- esc_attr(k) -}}{{- '\">' -}}\n {%- if v is boolean -%}\n {%- if v -%}\n true\n {%- else -%}\n false\n {%- endif -%}\n {%- elif v is none -%}\n null\n {%- elif v is mapping or (v is iterable and v is not string) -%}\n {{- esc(v | tojson) -}}\n {%- else -%}\n {{- esc(v) -}}\n {%- endif -%}\n {{- '</atem:parameter>\\n' -}}\n {%- endfor -%}\n {{- '</atem:invoke>\\n</atem:function_calls>' -}}\n{%- endmacro -%}\n\n{#- One function line, as the training renderer prints it. Deferred: name plus description and annotation\n (tool_name_and_description) or annotation only (tool_name_only). Full: \"additionalProperties\": false is added\n when the schema lacks it, and empty parameters become an empty object schema. -#}\n{%- macro fn_line(name, fn, deferred) -%}\n {%- set desc = fn.description if fn.description is defined and fn.description else '' -%}\n {%- set p = fn.parameters if fn.parameters is defined and fn.parameters else {} -%}\n {%- if deferred -%}\n {%- set desc = ('' if deferred_render_mode == 'tool_name_only' else desc ~ ' ') ~ '[deferred: use tool_search to load full schema]' -%}\n {{- '\\n{\"name\": ' ~ esc(name | tojson) ~ ', \"description\": ' ~ esc(desc | tojson) ~ ', \"defer_loading\": true}' -}}\n {%- else -%}\n {%- if p is mapping and p | length == 0 -%}\n {%- set p = '{\"type\": \"object\", \"properties\": {}, \"additionalProperties\": false}' -%}\n {%- elif p is mapping and 'additionalProperties' not in p -%}\n {%- set p = (p | tojson)[:-1] ~ ', \"additionalProperties\": false}' -%}\n {%- else -%}\n {%- set p = p | tojson -%}\n {%- endif -%}\n {{- '\\n{\"name\": ' ~ esc(name | tojson) ~ ', \"description\": ' ~ esc(desc | tojson) ~ ', \"parameters\": ' ~ esc(p) ~ '}' -}}\n {%- endif -%}\n{%- endmacro -%}\n\n{#- tools: OpenAI function tools, plus namespace tools {\"type\": \"namespace\", \"name\", \"description\", \"defer_loading\",\n \"tools\": [function, ...]}. In a deferred namespace, functions without their own flag inherit the deferral; only\n when some are true and some explicitly false do the explicitly eager ones keep their full schema. -#}\n{%- macro render_tool_defs(tools) -%}\n {{- 'In this environment you have access to a set of tools you can use to answer the user\\'s question.\\n\\n' -}}\n {{- 'You can invoke a function by writing a \"<atem:function_calls>\" block like the following as part of your reply to the user:\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"$FUNCTION_NAME\">\\n<atem:parameter name=\"$PARAMETER_NAME\">$PARAMETER_VALUE</atem:parameter>\\n...\\n</atem:invoke>\\n</atem:function_calls>\\n\\n' -}}\n {{- 'String and scalar parameters should be specified as is, while lists and objects should use JSON format. Note that spaces for string values are not stripped. The output is not expected to be valid XML and is parsed with regular expressions.\\n' -}}\n {{- 'Here are the functions available in JSONSchema format:\\n' -}}\n {%- set td = namespace(meta='', fns='', loose=false) -%}\n {%- for tool in tools -%}\n {%- if tool.type is defined and tool.type == 'namespace' -%}\n {%- set ns_deferred = tool.defer_loading is defined and tool.defer_loading -%}\n {%- set ns_desc = tool.description if tool.description is defined and tool.description else '' -%}\n {%- set members = tool.tools if tool.tools is defined and tool.tools else [] -%}\n {%- set flags = namespace(t=false, f=false) -%}\n {%- for m in members -%}\n {%- set d = (m.function if m.function is defined else m).defer_loading -%}\n {%- set flags.t = flags.t or d is not sameas false -%}\n {%- set flags.f = flags.f or d is sameas false -%}\n {%- endfor -%}\n {%- if ns_deferred -%}\n {%- set ns_desc = '[deferred: use tool_search to load descriptions and schemas]' if deferred_render_mode == 'tool_name_only' else (ns_desc ~ ' ' if ns_desc else '') ~ '[deferred: use tool_search to discover functions]' -%}\n {%- endif -%}\n {%- set td.meta = td.meta ~ '\\n{\"name\": ' ~ esc(tool.name | tojson) ~ ', \"description\": ' ~ esc(ns_desc | tojson) ~ (', \"has_deferred_functions\": true}' if ns_deferred else '}') -%}\n {%- for m in members -%}\n {%- set mfn = m.function if m.function is defined else m -%}\n {%- set eager = flags.t and flags.f and mfn.defer_loading is defined and mfn.defer_loading is sameas false -%}\n {%- if not ns_deferred or eager or deferred_render_mode == 'tool_name_only' -%}\n {%- set td.fns = td.fns ~ fn_line(tool.name ~ '.' ~ mfn.name, mfn, (not eager) if ns_deferred else (mfn.defer_loading is defined and mfn.defer_loading)) -%}\n {%- endif -%}\n {%- endfor -%}\n {%- else -%}\n {%- set fn = tool.function if tool.function is defined else tool -%}\n {%- set td.meta = td.meta ~ ('' if td.loose else '\\n{\"name\": \"\", \"description\": \"\"}') -%}\n {%- set td.loose = true -%}\n {%- set td.fns = td.fns ~ fn_line(fn.name, fn, fn.defer_loading is defined and fn.defer_loading) -%}\n {%- endif -%}\n {%- endfor -%}\n {{- '// Tool metadata' ~ td.meta ~ '\\n// Function schemas' ~ td.fns -}}\n {{- '\\n\\n' -}}\n {{- 'Here are examples of how to call functions in the tool set. To make parallel tool calls, emit each call as its own message (one tool call per message) in consecutive messages, as shown below:\\n' -}}\n {{- '(If the tool namespace is not specified, invoke the function directly as `example_function_name_1` rather than `example_tool_name_1.example_function_name_1`)\\n\\n' -}}\n {{- 'to=example_tool_name_1.example_function_name_1\\n\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"example_tool_name_1.example_function_name_1\">\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_1\">value_1</atem:parameter>\\n' -}}\n {{- '</atem:invoke>\\n</atem:function_calls>\\n\\n' -}}\n {{- 'to=example_tool_name_2.example_function_name_2\\n\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"example_tool_name_2.example_function_name_2\">\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_2\">This is the value for the second parameter\\nthat can span\\n\"multiple\" lines\\n</atem:parameter>\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_3\">value_3</atem:parameter>\\n' -}}\n {{- '</atem:invoke>\\n</atem:function_calls>' -}}\n{%- endmacro -%}\n\n{%- macro render_valid_recipients(tools) -%}\n {%- set rns = namespace(recipients=[]) -%}\n {{- 'Use the appropriate recipient for each message:\\n\\n' -}}\n {%- set rns.recipients = rns.recipients + ['\"self\"'] -%}\n {{- '- \"self\": private reasoning and tool planning.\\n' -}}\n {%- set rns.recipients = rns.recipients + ['\"commentary\"'] -%}\n {{- '- \"commentary\": user-visible intermediate updates while the assistant will continue working, including messages sent to the user before or between tool calls.\\n' -}}\n {%- if tools -%}\n {%- set rt = namespace(first=none, ns=[]) -%}\n {%- for tool in tools -%}\n {%- if tool.type is defined and tool.type == 'namespace' -%}\n {%- set rt.ns = rt.ns + ['\"' ~ esc_header(tool.name) ~ '.*\"'] -%}\n {%- elif rt.first is none -%}\n {%- set rt.first = (tool.function if tool.function is defined else tool).name -%}\n {%- endif -%}\n {%- endfor -%}\n {%- set rns.recipients = rns.recipients + (['\"[func_name] (e.g., ' ~ esc_header(rt.first) ~ ')\"'] if rt.first is not none else []) + rt.ns -%}\n {{- '- \"tool\" or \"[tool name]\": the name of the tool to call.\\n' -}}\n {%- endif -%}\n {%- set rns.recipients = rns.recipients + ['\"user\"'] -%}\n {{- '- \"user\": messages that end the assistant turn, such as a completed response or clarification question that waits for the user\\'s reply; do not use for pre-tool updates or partial responses.\\n' -}}\n {{- '\\n# Valid recipients: ' ~ rns.recipients | join(', ') ~ '.' -}}\n{%- endmacro -%}\n\n{{- bos_token -}}\n{%- set ns = namespace(instructions=none, rest=messages) -%}\n{%- if messages and messages[0]['role'] in ['system', 'developer'] -%}\n {%- set ns.instructions = render_content(messages[0]['content'])\n | replace('Reasoning effort', 'Reasoning strength')\n | replace('Reasoning Effort', 'Reasoning Strength')\n | replace('reasoning effort', 'reasoning strength')\n | replace('REASONING EFFORT', 'REASONING STRENGTH') -%}\n {%- set ns.rest = messages[1:] -%}\n{%- endif -%}\n{%- set sys = namespace(parts=['You are a helpful AI assistant.', 'Knowledge cutoff: ' ~ cutoff_date ~ '.']) -%}\n{%- if current_date -%}\n {%- set sys.parts = sys.parts + ['Current date: ' ~ current_date ~ '.'] -%}\n{%- endif -%}\n{%- if ns.instructions -%}\n {%- set sys.parts = sys.parts + [ns.instructions] -%}\n{%- endif -%}\n{%- if tools -%}\n {%- set sys.parts = sys.parts + [render_tool_defs(tools) | trim] -%}\n{%- endif -%}\n{%- if 'reasoning strength:' not in ((ns.instructions if ns.instructions else '') | lower) -%}\n {%- set sys.parts = sys.parts + ['Reasoning strength: ' ~ reasoning_effort_map[reasoning_effort] ~ '.'] -%}\n{%- endif -%}\n{%- set sys.parts = sys.parts + [render_valid_recipients(tools) | trim] -%}\n{{- '<|start|>system<|message|>' ~ sys.parts | join('\\n\\n') ~ '<|eot|>' -}}\n{%- for message in ns.rest -%}\n {%- set role = message['role'] -%}\n {%- set end_token = '<|eom|>' if (not loop.last and ns.rest[loop.index0 + 1]['role'] == role) else '<|eot|>' -%}\n {%- if role in ['system', 'developer'] -%}\n {{- '<|start|>' + role + '<|message|>' -}}\n {{- render_content(message['content']) -}}\n {{- '<|eot|>' -}}\n {%- elif role == 'user' -%}\n {{- '<|start|>user<|message|>' -}}\n {%- if message.get('render_timestamp') and message.get('timestamp') -%}\n {%- set ts = message['timestamp'] -%}\n {%- if ts is string -%}\n {{- '[' ~ esc_header(ts) ~ '] ' -}}\n {%- elif ts.strftime is defined -%}\n {{- '[' ~ (ts.strftime('%a %Y-%m-%d %H:%M %Z') | trim) ~ '] ' -}}\n {%- endif -%}\n {%- endif -%}\n {{- render_content(message['content']) -}}\n {{- '<|eot|>' -}}\n {%- elif role == 'tool' -%}\n {%- set tname = message.get('name') -%}\n {%- if not tname -%}\n {%- set tcid = message.get('tool_call_id') -%}\n {%- set tns = namespace(name=tcid if tcid else '') -%}\n {%- for m in messages -%}\n {%- if m.get('tool_calls') -%}\n {%- for tc in m['tool_calls'] -%}\n {%- if tcid is not none and tc.id is defined and tc.id == tcid -%}\n {%- set tns.name = tc.function.name -%}\n {%- endif -%}\n {%- endfor -%}\n {%- endif -%}\n {%- endfor -%}\n {%- set tname = tns.name -%}\n {%- endif -%}\n {%- if not tname -%}\n {{- raise_exception('tool message has no name and no matching tool_call_id') -}}\n {%- endif -%}\n {{- '<|start|>tool ' -}}{{- esc_header(tname) -}}{{- '<|message|><tool_output name=\"' -}}{{- esc_attr(tname) -}}{{- '\">\\n' -}}\n {{- render_content(message['content']) -}}\n {{- '\\n</tool_output><|eot|>' -}}\n {%- elif role == 'assistant' -%}\n {%- generation %}\n {%- set reasoning = message.get('reasoning_content') or message.get('reasoning') -%}\n {%- if reasoning -%}\n {{- '<|start|>assistant to=self<|message|>' -}}{{- esc(reasoning) -}}{{- '<|eom|>' -}}\n {%- endif -%}\n {%- set body = render_content(message.get('content')) -%}\n {%- if message.get('tool_calls') -%}\n {%- if body -%}\n {{- '<|start|>assistant to=commentary<|message|>' + body + '<|eom|>' -}}\n {%- endif -%}\n {%- for tc in message['tool_calls'] -%}\n {{- '<|start|>assistant to=' -}}{{- esc_header(tc.function.name) -}}{{- '<|message|>' -}}\n {{- render_atem(tc) -}}\n {{- (end_token if loop.last else '<|eom|>') -}}\n {%- endfor -%}\n {%- elif body or not reasoning -%}\n {%- set recipient = message.get('recipient') or 'user' -%}\n {%- if recipient == 'user' -%}\n {%- set end_turn = true -%}\n {%- elif recipient in ['self', 'commentary'] -%}\n {%- set end_turn = false -%}\n {%- elif message.get('end_turn') is not none -%}\n {%- set end_turn = message.get('end_turn') -%}\n {%- else -%}\n {%- set end_turn = false -%}\n {%- endif -%}\n {{- '<|start|>assistant to=' -}}{{- esc_header(recipient) -}}{{- '<|message|>' -}}\n {{- body -}}\n {{- ('<|eot|>' if end_turn else '<|eom|>') -}}\n {%- endif -%}\n {%- endgeneration %}\n {%- endif -%}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n {{- '<|start|>assistant' -}}\n{%- endif -%}\n"},"createdAt":"2026-09-15T19:23:19.000Z","discussionsDisabled":false,"discussionsSorting":"recently-created","downloads":1600,"downloadsAllTime":1726,"id":"meta-models/Muse-Spark-Open-816B-A42B","isLikedByUser":false,"availableInferenceProviders":[{"provider":"baseten","modelStatus":"live","providerStatus":"live","providerId":"meta-models/muse-spark-open","task":"conversational","adapterWeightsPath":"model-00001-of-00065.safetensors","features":{"structuredOutput":true,"toolCalling":true},"isCheapestPricingOutput":true,"isFastestThroughput":true,"isModelAuthor":false,"tokensPerSecond":111.33377866844802,"pricingOutput":4.25}],"showHuggingChatEntry":true,"inference":"warm","lastModified":"2026-10-15T15:46:43.000Z","likes":467,"pipeline_tag":"image-text-to-text","library_name":"transformers","librariesOther":[],"trackDownloads":true,"model-index":null,"evalResults":[{"dataset":{"id":"Idavidrein/gpqa","isBenchmark":true,"task_id":"diamond"},"value":89,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":19,"label":"Diamond"},{"dataset":{"id":"datacurve/deep-swe","isBenchmark":true,"task_id":"deep_swe"},"value":60,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":10,"label":"Deep Swe","notes":"DeepSWE 1.1, run with the authors' preferred agent harness per the model card."},{"dataset":{"id":"harborframework/terminal-bench-2.1","isBenchmark":true,"task_id":"terminalbench_2_1"},"value":76.4,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":17,"label":"Terminalbench 2 1","notes":"Run with the Terminus 2 agent."},{"dataset":{"id":"MME-Benchmarks/Video-MME-v2","isBenchmark":true,"task_id":"video-mme-v2"},"value":61.5,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":2,"label":"Video Mme V2"},{"dataset":{"id":"cais/hle","isBenchmark":false,"task_id":"hle"},"value":61,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":3,"label":"Hle","notes":"Run with tools."},{"dataset":{"id":"hkust-nlp/Toolathlon","isBenchmark":false,"task_id":"toolathlon_verified"},"value":72.8,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":10,"label":"Toolathlon Verified"}],"private":false,"repoType":"model","gated":"manual","tags":["transformers","safetensors","muse_spark","image-text-to-text","facebook","meta","pytorch","muse","muse-spark","conversational","en","license:other","eval-results","endpoints_compatible","deploy:sagemaker","region:us"],"tag_objs":[{"id":"image-text-to-text","label":"Image-Text-to-Text","type":"pipeline_tag","subType":"multimodal"},{"id":"transformers","label":"Transformers","type":"library"},{"id":"safetensors","label":"Safetensors","type":"library"},{"id":"pytorch","label":"PyTorch","type":"library"},{"id":"en","label":"English","type":"language"},{"id":"muse_spark","label":"muse_spark","type":"other","clickable":true},{"id":"facebook","label":"facebook","type":"other","clickable":true},{"id":"meta","label":"meta","type":"other","clickable":true},{"id":"muse","label":"muse","type":"other","clickable":true},{"id":"muse-spark","label":"muse-spark","type":"other","clickable":true},{"id":"conversational","label":"conversational","type":"other","clickable":true},{"id":"eval-results","label":"Eval Results","type":"other","clickable":true},{"id":"endpoints_compatible","label":"Inference Endpoints","type":"other","clickable":true},{"id":"license:other","label":"other","type":"license"},{"id":"deploy:sagemaker","label":"sagemaker","type":"deploy"},{"type":"region","label":"🇺🇸 Region: US","id":"region:us"}],"transformersInfo":{"auto_model":"AutoModelForMultimodalLM","pipeline_tag":"image-text-to-text","processor":"AutoProcessor"},"widgetData":[{"text":"Hi, what can you help me with?"},{"text":"What is 84 * 3 / 2?"},{"text":"Tell me an interesting fact about the universe!"},{"text":"Explain quantum computing in simple terms."}],"safetensors":{"parameters":{"BF16":821906490368,"F32":130039296},"total":822036529664,"sharded":true,"totalFileSize":1644333584632},"hasBlockedOids":false,"region":"us","isQuantized":false,"licenseFilePath":"LICENSE.md"},"inferenceContextData":{"billableEntities":[],"entityName2Providers":{},"defaultProviders":[{"isOriginalProvider":false,"name":"baseten","enabled":true,"position":13,"isReleased":true,"accuratePricing":true}]},"canWrite":false}">
+Safetensors
+Model size
+822B params
+Tensor type
+BF16 ·
+F32 ·
+Chat template
+Files info
+","eos_token":"<|end_of_text|>","pad_token":"<|finetune_right_pad|>"},"chat_template_jinja":"{%- set tools = tools | default(none) -%}\n{%- set add_generation_prompt = add_generation_prompt | default(false) -%}\n{%- set reasoning_effort = reasoning_effort | default('xhigh', true) -%}\n{%- set cutoff_date = cutoff_date | default('2026-01-04') -%}\n{%- set current_date = current_date | default(strftime_now('%Y-%m-%d') if strftime_now is defined else none) -%}\n{%- set reasoning_effort_map = {'low': 8, 'medium': 32, 'high': 256, 'xhigh': 512} -%}\n{%- if not (reasoning_effort is string and reasoning_effort in reasoning_effort_map) -%}\n {{- raise_exception('Unsupported reasoning_effort: ' ~ reasoning_effort ~ '. Expected one of: low, medium, high, xhigh.') -}}\n{%- endif -%}\n{%- set deferred_render_mode = deferred_render_mode | default('tool_name_and_description') -%}\n\n{#- Neutralise control sequences in caller-supplied text so it cannot be\n tokenized as structure. \"<|\" is broken because every special token has the\n form \"<|...|>\"; the bare media placeholders are broken because the\n multimodal processor rewrites them positionally and a literal one in text\n would desynchronise placeholders from the attached media. -#}\n{%- macro esc(value) -%}\n {{- value | string\n | replace('<|', '< |')\n | replace('<image>', '< image>')\n | replace('<video>', '< video>')\n | replace('<audio>', '< audio>') -}}\n{%- endmacro -%}\n\n{%- macro esc_header(value) -%}\n {{- esc(value) | replace('\\r', ' ') | replace('\\n', ' ') -}}\n{%- endmacro -%}\n\n{%- macro esc_attr(value) -%}\n {{- esc_header(value)\n | replace('&', '&amp;')\n | replace('\"', '"')\n | replace(\"'\", ''')\n | replace('<', '<')\n | replace('>', '>') -}}\n{%- endmacro -%}\n\n{%- macro render_content(content) -%}\n {%- if content is string -%}\n {{- esc(content) -}}\n {%- elif content is not none -%}\n {%- for part in content -%}\n {%- set part_type = part.get('type', '') -%}\n {%- if part_type in ['image', 'input_image', 'image_url'] -%}\n {{- '<|patch|>' -}}\n {%- elif part_type in ['video', 'input_video', 'video_url'] -%}\n {{- '<|video|>' -}}\n {%- elif part_type in ['audio', 'input_audio', 'audio_url'] -%}\n {{- '<|audio|>' -}}\n {%- elif part_type in ['text', 'input_text', 'output_text'] -%}\n {{- esc(part.get('text', '')) -}}\n {%- endif -%}\n {%- endfor -%}\n {%- endif -%}\n{%- endmacro -%}\n\n{%- macro render_atem(tc) -%}\n {%- set args = tc.function.arguments -%}\n {%- if args is not mapping -%}\n {{- raise_exception('This chat template requires tool_call.function.arguments to be a dict (mapping). The jinja sandbox has no JSON parser, so deserialize the arguments string before calling apply_chat_template.') -}}\n {%- endif -%}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"' -}}{{- esc_attr(tc.function.name) -}}{{- '\">\\n' -}}\n {%- for k, v in args.items() -%}\n {{- '<atem:parameter name=\"' -}}{{- esc_attr(k) -}}{{- '\">' -}}\n {%- if v is boolean -%}\n {%- if v -%}\n true\n {%- else -%}\n false\n {%- endif -%}\n {%- elif v is none -%}\n null\n {%- elif v is mapping or (v is iterable and v is not string) -%}\n {{- esc(v | tojson) -}}\n {%- else -%}\n {{- esc(v) -}}\n {%- endif -%}\n {{- '</atem:parameter>\\n' -}}\n {%- endfor -%}\n {{- '</atem:invoke>\\n</atem:function_calls>' -}}\n{%- endmacro -%}\n\n{#- One function line, as the training renderer prints it. Deferred: name plus description and annotation\n (tool_name_and_description) or annotation only (tool_name_only). Full: \"additionalProperties\": false is added\n when the schema lacks it, and empty parameters become an empty object schema. -#}\n{%- macro fn_line(name, fn, deferred) -%}\n {%- set desc = fn.description if fn.description is defined and fn.description else '' -%}\n {%- set p = fn.parameters if fn.parameters is defined and fn.parameters else {} -%}\n {%- if deferred -%}\n {%- set desc = ('' if deferred_render_mode == 'tool_name_only' else desc ~ ' ') ~ '[deferred: use tool_search to load full schema]' -%}\n {{- '\\n{\"name\": ' ~ esc(name | tojson) ~ ', \"description\": ' ~ esc(desc | tojson) ~ ', \"defer_loading\": true}' -}}\n {%- else -%}\n {%- if p is mapping and p | length == 0 -%}\n {%- set p = '{\"type\": \"object\", \"properties\": {}, \"additionalProperties\": false}' -%}\n {%- elif p is mapping and 'additionalProperties' not in p -%}\n {%- set p = (p | tojson)[:-1] ~ ', \"additionalProperties\": false}' -%}\n {%- else -%}\n {%- set p = p | tojson -%}\n {%- endif -%}\n {{- '\\n{\"name\": ' ~ esc(name | tojson) ~ ', \"description\": ' ~ esc(desc | tojson) ~ ', \"parameters\": ' ~ esc(p) ~ '}' -}}\n {%- endif -%}\n{%- endmacro -%}\n\n{#- tools: OpenAI function tools, plus namespace tools {\"type\": \"namespace\", \"name\", \"description\", \"defer_loading\",\n \"tools\": [function, ...]}. In a deferred namespace, functions without their own flag inherit the deferral; only\n when some are true and some explicitly false do the explicitly eager ones keep their full schema. -#}\n{%- macro render_tool_defs(tools) -%}\n {{- 'In this environment you have access to a set of tools you can use to answer the user\\'s question.\\n\\n' -}}\n {{- 'You can invoke a function by writing a \"<atem:function_calls>\" block like the following as part of your reply to the user:\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"$FUNCTION_NAME\">\\n<atem:parameter name=\"$PARAMETER_NAME\">$PARAMETER_VALUE</atem:parameter>\\n...\\n</atem:invoke>\\n</atem:function_calls>\\n\\n' -}}\n {{- 'String and scalar parameters should be specified as is, while lists and objects should use JSON format. Note that spaces for string values are not stripped. The output is not expected to be valid XML and is parsed with regular expressions.\\n' -}}\n {{- 'Here are the functions available in JSONSchema format:\\n' -}}\n {%- set td = namespace(meta='', fns='', loose=false) -%}\n {%- for tool in tools -%}\n {%- if tool.type is defined and tool.type == 'namespace' -%}\n {%- set ns_deferred = tool.defer_loading is defined and tool.defer_loading -%}\n {%- set ns_desc = tool.description if tool.description is defined and tool.description else '' -%}\n {%- set members = tool.tools if tool.tools is defined and tool.tools else [] -%}\n {%- set flags = namespace(t=false, f=false) -%}\n {%- for m in members -%}\n {%- set d = (m.function if m.function is defined else m).defer_loading -%}\n {%- set flags.t = flags.t or d is not sameas false -%}\n {%- set flags.f = flags.f or d is sameas false -%}\n {%- endfor -%}\n {%- if ns_deferred -%}\n {%- set ns_desc = '[deferred: use tool_search to load descriptions and schemas]' if deferred_render_mode == 'tool_name_only' else (ns_desc ~ ' ' if ns_desc else '') ~ '[deferred: use tool_search to discover functions]' -%}\n {%- endif -%}\n {%- set td.meta = td.meta ~ '\\n{\"name\": ' ~ esc(tool.name | tojson) ~ ', \"description\": ' ~ esc(ns_desc | tojson) ~ (', \"has_deferred_functions\": true}' if ns_deferred else '}') -%}\n {%- for m in members -%}\n {%- set mfn = m.function if m.function is defined else m -%}\n {%- set eager = flags.t and flags.f and mfn.defer_loading is defined and mfn.defer_loading is sameas false -%}\n {%- if not ns_deferred or eager or deferred_render_mode == 'tool_name_only' -%}\n {%- set td.fns = td.fns ~ fn_line(tool.name ~ '.' ~ mfn.name, mfn, (not eager) if ns_deferred else (mfn.defer_loading is defined and mfn.defer_loading)) -%}\n {%- endif -%}\n {%- endfor -%}\n {%- else -%}\n {%- set fn = tool.function if tool.function is defined else tool -%}\n {%- set td.meta = td.meta ~ ('' if td.loose else '\\n{\"name\": \"\", \"description\": \"\"}') -%}\n {%- set td.loose = true -%}\n {%- set td.fns = td.fns ~ fn_line(fn.name, fn, fn.defer_loading is defined and fn.defer_loading) -%}\n {%- endif -%}\n {%- endfor -%}\n {{- '// Tool metadata' ~ td.meta ~ '\\n// Function schemas' ~ td.fns -}}\n {{- '\\n\\n' -}}\n {{- 'Here are examples of how to call functions in the tool set. To make parallel tool calls, emit each call as its own message (one tool call per message) in consecutive messages, as shown below:\\n' -}}\n {{- '(If the tool namespace is not specified, invoke the function directly as `example_function_name_1` rather than `example_tool_name_1.example_function_name_1`)\\n\\n' -}}\n {{- 'to=example_tool_name_1.example_function_name_1\\n\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"example_tool_name_1.example_function_name_1\">\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_1\">value_1</atem:parameter>\\n' -}}\n {{- '</atem:invoke>\\n</atem:function_calls>\\n\\n' -}}\n {{- 'to=example_tool_name_2.example_function_name_2\\n\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"example_tool_name_2.example_function_name_2\">\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_2\">This is the value for the second parameter\\nthat can span\\n\"multiple\" lines\\n</atem:parameter>\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_3\">value_3</atem:parameter>\\n' -}}\n {{- '</atem:invoke>\\n</atem:function_calls>' -}}\n{%- endmacro -%}\n\n{%- macro render_valid_recipients(tools) -%}\n {%- set rns = namespace(recipients=[]) -%}\n {{- 'Use the appropriate recipient for each message:\\n\\n' -}}\n {%- set rns.recipients = rns.recipients + ['\"self\"'] -%}\n {{- '- \"self\": private reasoning and tool planning.\\n' -}}\n {%- set rns.recipients = rns.recipients + ['\"commentary\"'] -%}\n {{- '- \"commentary\": user-visible intermediate updates while the assistant will continue working, including messages sent to the user before or between tool calls.\\n' -}}\n {%- if tools -%}\n {%- set rt = namespace(first=none, ns=[]) -%}\n {%- for tool in tools -%}\n {%- if tool.type is defined and tool.type == 'namespace' -%}\n {%- set rt.ns = rt.ns + ['\"' ~ esc_header(tool.name) ~ '.*\"'] -%}\n {%- elif rt.first is none -%}\n {%- set rt.first = (tool.function if tool.function is defined else tool).name -%}\n {%- endif -%}\n {%- endfor -%}\n {%- set rns.recipients = rns.recipients + (['\"[func_name] (e.g., ' ~ esc_header(rt.first) ~ ')\"'] if rt.first is not none else []) + rt.ns -%}\n {{- '- \"tool\" or \"[tool name]\": the name of the tool to call.\\n' -}}\n {%- endif -%}\n {%- set rns.recipients = rns.recipients + ['\"user\"'] -%}\n {{- '- \"user\": messages that end the assistant turn, such as a completed response or clarification question that waits for the user\\'s reply; do not use for pre-tool updates or partial responses.\\n' -}}\n {{- '\\n# Valid recipients: ' ~ rns.recipients | join(', ') ~ '.' -}}\n{%- endmacro -%}\n\n{{- bos_token -}}\n{%- set ns = namespace(instructions=none, rest=messages) -%}\n{%- if messages and messages[0]['role'] in ['system', 'developer'] -%}\n {%- set ns.instructions = render_content(messages[0]['content'])\n | replace('Reasoning effort', 'Reasoning strength')\n | replace('Reasoning Effort', 'Reasoning Strength')\n | replace('reasoning effort', 'reasoning strength')\n | replace('REASONING EFFORT', 'REASONING STRENGTH') -%}\n {%- set ns.rest = messages[1:] -%}\n{%- endif -%}\n{%- set sys = namespace(parts=['You are a helpful AI assistant.', 'Knowledge cutoff: ' ~ cutoff_date ~ '.']) -%}\n{%- if current_date -%}\n {%- set sys.parts = sys.parts + ['Current date: ' ~ current_date ~ '.'] -%}\n{%- endif -%}\n{%- if ns.instructions -%}\n {%- set sys.parts = sys.parts + [ns.instructions] -%}\n{%- endif -%}\n{%- if tools -%}\n {%- set sys.parts = sys.parts + [render_tool_defs(tools) | trim] -%}\n{%- endif -%}\n{%- if 'reasoning strength:' not in ((ns.instructions if ns.instructions else '') | lower) -%}\n {%- set sys.parts = sys.parts + ['Reasoning strength: ' ~ reasoning_effort_map[reasoning_effort] ~ '.'] -%}\n{%- endif -%}\n{%- set sys.parts = sys.parts + [render_valid_recipients(tools) | trim] -%}\n{{- '<|start|>system<|message|>' ~ sys.parts | join('\\n\\n') ~ '<|eot|>' -}}\n{%- for message in ns.rest -%}\n {%- set role = message['role'] -%}\n {%- set end_token = '<|eom|>' if (not loop.last and ns.rest[loop.index0 + 1]['role'] == role) else '<|eot|>' -%}\n {%- if role in ['system', 'developer'] -%}\n {{- '<|start|>' + role + '<|message|>' -}}\n {{- render_content(message['content']) -}}\n {{- '<|eot|>' -}}\n {%- elif role == 'user' -%}\n {{- '<|start|>user<|message|>' -}}\n {%- if message.get('render_timestamp') and message.get('timestamp') -%}\n {%- set ts = message['timestamp'] -%}\n {%- if ts is string -%}\n {{- '[' ~ esc_header(ts) ~ '] ' -}}\n {%- elif ts.strftime is defined -%}\n {{- '[' ~ (ts.strftime('%a %Y-%m-%d %H:%M %Z') | trim) ~ '] ' -}}\n {%- endif -%}\n {%- endif -%}\n {{- render_content(message['content']) -}}\n {{- '<|eot|>' -}}\n {%- elif role == 'tool' -%}\n {%- set tname = message.get('name') -%}\n {%- if not tname -%}\n {%- set tcid = message.get('tool_call_id') -%}\n {%- set tns = namespace(name=tcid if tcid else '') -%}\n {%- for m in messages -%}\n {%- if m.get('tool_calls') -%}\n {%- for tc in m['tool_calls'] -%}\n {%- if tcid is not none and tc.id is defined and tc.id == tcid -%}\n {%- set tns.name = tc.function.name -%}\n {%- endif -%}\n {%- endfor -%}\n {%- endif -%}\n {%- endfor -%}\n {%- set tname = tns.name -%}\n {%- endif -%}\n {%- if not tname -%}\n {{- raise_exception('tool message has no name and no matching tool_call_id') -}}\n {%- endif -%}\n {{- '<|start|>tool ' -}}{{- esc_header(tname) -}}{{- '<|message|><tool_output name=\"' -}}{{- esc_attr(tname) -}}{{- '\">\\n' -}}\n {{- render_content(message['content']) -}}\n {{- '\\n</tool_output><|eot|>' -}}\n {%- elif role == 'assistant' -%}\n {%- generation %}\n {%- set reasoning = message.get('reasoning_content') or message.get('reasoning') -%}\n {%- if reasoning -%}\n {{- '<|start|>assistant to=self<|message|>' -}}{{- esc(reasoning) -}}{{- '<|eom|>' -}}\n {%- endif -%}\n {%- set body = render_content(message.get('content')) -%}\n {%- if message.get('tool_calls') -%}\n {%- if body -%}\n {{- '<|start|>assistant to=commentary<|message|>' + body + '<|eom|>' -}}\n {%- endif -%}\n {%- for tc in message['tool_calls'] -%}\n {{- '<|start|>assistant to=' -}}{{- esc_header(tc.function.name) -}}{{- '<|message|>' -}}\n {{- render_atem(tc) -}}\n {{- (end_token if loop.last else '<|eom|>') -}}\n {%- endfor -%}\n {%- elif body or not reasoning -%}\n {%- set recipient = message.get('recipient') or 'user' -%}\n {%- if recipient == 'user' -%}\n {%- set end_turn = true -%}\n {%- elif recipient in ['self', 'commentary'] -%}\n {%- set end_turn = false -%}\n {%- elif message.get('end_turn') is not none -%}\n {%- set end_turn = message.get('end_turn') -%}\n {%- else -%}\n {%- set end_turn = false -%}\n {%- endif -%}\n {{- '<|start|>assistant to=' -}}{{- esc_header(recipient) -}}{{- '<|message|>' -}}\n {{- body -}}\n {{- ('<|eot|>' if end_turn else '<|eom|>') -}}\n {%- endif -%}\n {%- endgeneration %}\n {%- endif -%}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n {{- '<|start|>assistant' -}}\n{%- endif -%}\n"},"createdAt":"2026-09-15T19:23:19.000Z","discussionsDisabled":false,"discussionsSorting":"recently-created","downloads":1600,"downloadsAllTime":1726,"id":"meta-models/Muse-Spark-Open-816B-A42B","isLikedByUser":false,"availableInferenceProviders":[{"provider":"baseten","modelStatus":"live","providerStatus":"live","providerId":"meta-models/muse-spark-open","task":"conversational","adapterWeightsPath":"model-00001-of-00065.safetensors","features":{"structuredOutput":true,"toolCalling":true},"isCheapestPricingOutput":true,"isFastestThroughput":true,"isModelAuthor":false,"tokensPerSecond":111.33377866844802,"pricingOutput":4.25}],"showHuggingChatEntry":true,"inference":"warm","lastModified":"2026-10-15T15:46:43.000Z","likes":467,"pipeline_tag":"image-text-to-text","library_name":"transformers","librariesOther":[],"trackDownloads":true,"model-index":null,"evalResults":[{"dataset":{"id":"Idavidrein/gpqa","isBenchmark":true,"task_id":"diamond"},"value":89,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":19,"label":"Diamond"},{"dataset":{"id":"datacurve/deep-swe","isBenchmark":true,"task_id":"deep_swe"},"value":60,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":10,"label":"Deep Swe","notes":"DeepSWE 1.1, run with the authors' preferred agent harness per the model card."},{"dataset":{"id":"harborframework/terminal-bench-2.1","isBenchmark":true,"task_id":"terminalbench_2_1"},"value":76.4,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":17,"label":"Terminalbench 2 1","notes":"Run with the Terminus 2 agent."},{"dataset":{"id":"MME-Benchmarks/Video-MME-v2","isBenchmark":true,"task_id":"video-mme-v2"},"value":61.5,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":2,"label":"Video Mme V2"},{"dataset":{"id":"cais/hle","isBenchmark":false,"task_id":"hle"},"value":61,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":3,"label":"Hle","notes":"Run with tools."},{"dataset":{"id":"hkust-nlp/Toolathlon","isBenchmark":false,"task_id":"toolathlon_verified"},"value":72.8,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":10,"label":"Toolathlon Verified"}],"private":false,"repoType":"model","gated":"manual","tags":["transformers","safetensors","muse_spark","image-text-to-text","facebook","meta","pytorch","muse","muse-spark","conversational","en","license:other","eval-results","endpoints_compatible","deploy:sagemaker","region:us"],"tag_objs":[{"id":"image-text-to-text","label":"Image-Text-to-Text","type":"pipeline_tag","subType":"multimodal"},{"id":"transformers","label":"Transformers","type":"library"},{"id":"safetensors","label":"Safetensors","type":"library"},{"id":"pytorch","label":"PyTorch","type":"library"},{"id":"en","label":"English","type":"language"},{"id":"muse_spark","label":"muse_spark","type":"other","clickable":true},{"id":"facebook","label":"facebook","type":"other","clickable":true},{"id":"meta","label":"meta","type":"other","clickable":true},{"id":"muse","label":"muse","type":"other","clickable":true},{"id":"muse-spark","label":"muse-spark","type":"other","clickable":true},{"id":"conversational","label":"conversational","type":"other","clickable":true},{"id":"eval-results","label":"Eval Results","type":"other","clickable":true},{"id":"endpoints_compatible","label":"Inference Endpoints","type":"other","clickable":true},{"id":"license:other","label":"other","type":"license"},{"id":"deploy:sagemaker","label":"sagemaker","type":"deploy"},{"type":"region","label":"🇺🇸 Region: US","id":"region:us"}],"transformersInfo":{"auto_model":"AutoModelForMultimodalLM","pipeline_tag":"image-text-to-text","processor":"AutoProcessor"},"widgetData":[{"text":"Hi, what can you help me with?"},{"text":"What is 84 * 3 / 2?"},{"text":"Tell me an interesting fact about the universe!"},{"text":"Explain quantum computing in simple terms."}],"safetensors":{"parameters":{"BF16":821906490368,"F32":130039296},"total":822036529664,"sharded":true,"totalFileSize":1644333584632},"hasBlockedOids":false,"region":"us","isQuantized":false,"licenseFilePath":"LICENSE.md"},"queryParams":{},"inferenceContextData":{"billableEntities":[],"entityName2Providers":{},"defaultProviders":[{"isOriginalProvider":false,"name":"baseten","enabled":true,"position":13,"isReleased":true,"accuratePricing":true}]},"linkToInferenceDiscussion":{"url":"/spaces/huggingface/InferenceSupport/discussions/13012","numReactions":2},"isLoggedIn":false,"canWrite":false,"examples":[{"text":"Hi, what can you help me with?"},{"text":"What is 84 * 3 / 2?"},{"text":"Tell me an interesting fact about the universe!"},{"text":"Explain quantum computing in simple terms."}],"initialSelectedProvider":"baseten","widgetType":"conversational","isMaximized":false,"isMac":false}}">
+Inference Providers NEW
+Baseten
+Image-Text-to-Text
+Examples
+Input a message to start chatting with meta-models/Muse-Spark-Open-816B-A42B .
+Send
+View Code Snippets
+Compare providers
+Model tree for meta-models/Muse-Spark-Open-816B-A42B
+Finetunes
+6 models
+Quantizations
+20 models
+Space using meta-models/Muse-Spark-Open-816B-A42B 1
+📈
+tardellirs/model-pulse
+Collection including meta-models/Muse-Spark-Open-816B-A42B
+Muse Spark Open
+Collection
+Muse Spark Open model. A 816B parameter model with 42B Active parameters. BF16 and NVFP4 Weights. • 2 items • Updated 2 days ago •
+142
+","eos_token":"<|end_of_text|>","pad_token":"<|finetune_right_pad|>"},"chat_template_jinja":"{%- set tools = tools | default(none) -%}\n{%- set add_generation_prompt = add_generation_prompt | default(false) -%}\n{%- set reasoning_effort = reasoning_effort | default('xhigh', true) -%}\n{%- set cutoff_date = cutoff_date | default('2026-01-04') -%}\n{%- set current_date = current_date | default(strftime_now('%Y-%m-%d') if strftime_now is defined else none) -%}\n{%- set reasoning_effort_map = {'low': 8, 'medium': 32, 'high': 256, 'xhigh': 512} -%}\n{%- if not (reasoning_effort is string and reasoning_effort in reasoning_effort_map) -%}\n {{- raise_exception('Unsupported reasoning_effort: ' ~ reasoning_effort ~ '. Expected one of: low, medium, high, xhigh.') -}}\n{%- endif -%}\n{%- set deferred_render_mode = deferred_render_mode | default('tool_name_and_description') -%}\n\n{#- Neutralise control sequences in caller-supplied text so it cannot be\n tokenized as structure. \"<|\" is broken because every special token has the\n form \"<|...|>\"; the bare media placeholders are broken because the\n multimodal processor rewrites them positionally and a literal one in text\n would desynchronise placeholders from the attached media. -#}\n{%- macro esc(value) -%}\n {{- value | string\n | replace('<|', '< |')\n | replace('<image>', '< image>')\n | replace('<video>', '< video>')\n | replace('<audio>', '< audio>') -}}\n{%- endmacro -%}\n\n{%- macro esc_header(value) -%}\n {{- esc(value) | replace('\\r', ' ') | replace('\\n', ' ') -}}\n{%- endmacro -%}\n\n{%- macro esc_attr(value) -%}\n {{- esc_header(value)\n | replace('&', '&amp;')\n | replace('\"', '"')\n | replace(\"'\", ''')\n | replace('<', '<')\n | replace('>', '>') -}}\n{%- endmacro -%}\n\n{%- macro render_content(content) -%}\n {%- if content is string -%}\n {{- esc(content) -}}\n {%- elif content is not none -%}\n {%- for part in content -%}\n {%- set part_type = part.get('type', '') -%}\n {%- if part_type in ['image', 'input_image', 'image_url'] -%}\n {{- '<|patch|>' -}}\n {%- elif part_type in ['video', 'input_video', 'video_url'] -%}\n {{- '<|video|>' -}}\n {%- elif part_type in ['audio', 'input_audio', 'audio_url'] -%}\n {{- '<|audio|>' -}}\n {%- elif part_type in ['text', 'input_text', 'output_text'] -%}\n {{- esc(part.get('text', '')) -}}\n {%- endif -%}\n {%- endfor -%}\n {%- endif -%}\n{%- endmacro -%}\n\n{%- macro render_atem(tc) -%}\n {%- set args = tc.function.arguments -%}\n {%- if args is not mapping -%}\n {{- raise_exception('This chat template requires tool_call.function.arguments to be a dict (mapping). The jinja sandbox has no JSON parser, so deserialize the arguments string before calling apply_chat_template.') -}}\n {%- endif -%}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"' -}}{{- esc_attr(tc.function.name) -}}{{- '\">\\n' -}}\n {%- for k, v in args.items() -%}\n {{- '<atem:parameter name=\"' -}}{{- esc_attr(k) -}}{{- '\">' -}}\n {%- if v is boolean -%}\n {%- if v -%}\n true\n {%- else -%}\n false\n {%- endif -%}\n {%- elif v is none -%}\n null\n {%- elif v is mapping or (v is iterable and v is not string) -%}\n {{- esc(v | tojson) -}}\n {%- else -%}\n {{- esc(v) -}}\n {%- endif -%}\n {{- '</atem:parameter>\\n' -}}\n {%- endfor -%}\n {{- '</atem:invoke>\\n</atem:function_calls>' -}}\n{%- endmacro -%}\n\n{#- One function line, as the training renderer prints it. Deferred: name plus description and annotation\n (tool_name_and_description) or annotation only (tool_name_only). Full: \"additionalProperties\": false is added\n when the schema lacks it, and empty parameters become an empty object schema. -#}\n{%- macro fn_line(name, fn, deferred) -%}\n {%- set desc = fn.description if fn.description is defined and fn.description else '' -%}\n {%- set p = fn.parameters if fn.parameters is defined and fn.parameters else {} -%}\n {%- if deferred -%}\n {%- set desc = ('' if deferred_render_mode == 'tool_name_only' else desc ~ ' ') ~ '[deferred: use tool_search to load full schema]' -%}\n {{- '\\n{\"name\": ' ~ esc(name | tojson) ~ ', \"description\": ' ~ esc(desc | tojson) ~ ', \"defer_loading\": true}' -}}\n {%- else -%}\n {%- if p is mapping and p | length == 0 -%}\n {%- set p = '{\"type\": \"object\", \"properties\": {}, \"additionalProperties\": false}' -%}\n {%- elif p is mapping and 'additionalProperties' not in p -%}\n {%- set p = (p | tojson)[:-1] ~ ', \"additionalProperties\": false}' -%}\n {%- else -%}\n {%- set p = p | tojson -%}\n {%- endif -%}\n {{- '\\n{\"name\": ' ~ esc(name | tojson) ~ ', \"description\": ' ~ esc(desc | tojson) ~ ', \"parameters\": ' ~ esc(p) ~ '}' -}}\n {%- endif -%}\n{%- endmacro -%}\n\n{#- tools: OpenAI function tools, plus namespace tools {\"type\": \"namespace\", \"name\", \"description\", \"defer_loading\",\n \"tools\": [function, ...]}. In a deferred namespace, functions without their own flag inherit the deferral; only\n when some are true and some explicitly false do the explicitly eager ones keep their full schema. -#}\n{%- macro render_tool_defs(tools) -%}\n {{- 'In this environment you have access to a set of tools you can use to answer the user\\'s question.\\n\\n' -}}\n {{- 'You can invoke a function by writing a \"<atem:function_calls>\" block like the following as part of your reply to the user:\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"$FUNCTION_NAME\">\\n<atem:parameter name=\"$PARAMETER_NAME\">$PARAMETER_VALUE</atem:parameter>\\n...\\n</atem:invoke>\\n</atem:function_calls>\\n\\n' -}}\n {{- 'String and scalar parameters should be specified as is, while lists and objects should use JSON format. Note that spaces for string values are not stripped. The output is not expected to be valid XML and is parsed with regular expressions.\\n' -}}\n {{- 'Here are the functions available in JSONSchema format:\\n' -}}\n {%- set td = namespace(meta='', fns='', loose=false) -%}\n {%- for tool in tools -%}\n {%- if tool.type is defined and tool.type == 'namespace' -%}\n {%- set ns_deferred = tool.defer_loading is defined and tool.defer_loading -%}\n {%- set ns_desc = tool.description if tool.description is defined and tool.description else '' -%}\n {%- set members = tool.tools if tool.tools is defined and tool.tools else [] -%}\n {%- set flags = namespace(t=false, f=false) -%}\n {%- for m in members -%}\n {%- set d = (m.function if m.function is defined else m).defer_loading -%}\n {%- set flags.t = flags.t or d is not sameas false -%}\n {%- set flags.f = flags.f or d is sameas false -%}\n {%- endfor -%}\n {%- if ns_deferred -%}\n {%- set ns_desc = '[deferred: use tool_search to load descriptions and schemas]' if deferred_render_mode == 'tool_name_only' else (ns_desc ~ ' ' if ns_desc else '') ~ '[deferred: use tool_search to discover functions]' -%}\n {%- endif -%}\n {%- set td.meta = td.meta ~ '\\n{\"name\": ' ~ esc(tool.name | tojson) ~ ', \"description\": ' ~ esc(ns_desc | tojson) ~ (', \"has_deferred_functions\": true}' if ns_deferred else '}') -%}\n {%- for m in members -%}\n {%- set mfn = m.function if m.function is defined else m -%}\n {%- set eager = flags.t and flags.f and mfn.defer_loading is defined and mfn.defer_loading is sameas false -%}\n {%- if not ns_deferred or eager or deferred_render_mode == 'tool_name_only' -%}\n {%- set td.fns = td.fns ~ fn_line(tool.name ~ '.' ~ mfn.name, mfn, (not eager) if ns_deferred else (mfn.defer_loading is defined and mfn.defer_loading)) -%}\n {%- endif -%}\n {%- endfor -%}\n {%- else -%}\n {%- set fn = tool.function if tool.function is defined else tool -%}\n {%- set td.meta = td.meta ~ ('' if td.loose else '\\n{\"name\": \"\", \"description\": \"\"}') -%}\n {%- set td.loose = true -%}\n {%- set td.fns = td.fns ~ fn_line(fn.name, fn, fn.defer_loading is defined and fn.defer_loading) -%}\n {%- endif -%}\n {%- endfor -%}\n {{- '// Tool metadata' ~ td.meta ~ '\\n// Function schemas' ~ td.fns -}}\n {{- '\\n\\n' -}}\n {{- 'Here are examples of how to call functions in the tool set. To make parallel tool calls, emit each call as its own message (one tool call per message) in consecutive messages, as shown below:\\n' -}}\n {{- '(If the tool namespace is not specified, invoke the function directly as `example_function_name_1` rather than `example_tool_name_1.example_function_name_1`)\\n\\n' -}}\n {{- 'to=example_tool_name_1.example_function_name_1\\n\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"example_tool_name_1.example_function_name_1\">\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_1\">value_1</atem:parameter>\\n' -}}\n {{- '</atem:invoke>\\n</atem:function_calls>\\n\\n' -}}\n {{- 'to=example_tool_name_2.example_function_name_2\\n\\n' -}}\n {{- '<atem:function_calls>\\n<atem:invoke name=\"example_tool_name_2.example_function_name_2\">\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_2\">This is the value for the second parameter\\nthat can span\\n\"multiple\" lines\\n</atem:parameter>\\n' -}}\n {{- '<atem:parameter name=\"example_parameter_3\">value_3</atem:parameter>\\n' -}}\n {{- '</atem:invoke>\\n</atem:function_calls>' -}}\n{%- endmacro -%}\n\n{%- macro render_valid_recipients(tools) -%}\n {%- set rns = namespace(recipients=[]) -%}\n {{- 'Use the appropriate recipient for each message:\\n\\n' -}}\n {%- set rns.recipients = rns.recipients + ['\"self\"'] -%}\n {{- '- \"self\": private reasoning and tool planning.\\n' -}}\n {%- set rns.recipients = rns.recipients + ['\"commentary\"'] -%}\n {{- '- \"commentary\": user-visible intermediate updates while the assistant will continue working, including messages sent to the user before or between tool calls.\\n' -}}\n {%- if tools -%}\n {%- set rt = namespace(first=none, ns=[]) -%}\n {%- for tool in tools -%}\n {%- if tool.type is defined and tool.type == 'namespace' -%}\n {%- set rt.ns = rt.ns + ['\"' ~ esc_header(tool.name) ~ '.*\"'] -%}\n {%- elif rt.first is none -%}\n {%- set rt.first = (tool.function if tool.function is defined else tool).name -%}\n {%- endif -%}\n {%- endfor -%}\n {%- set rns.recipients = rns.recipients + (['\"[func_name] (e.g., ' ~ esc_header(rt.first) ~ ')\"'] if rt.first is not none else []) + rt.ns -%}\n {{- '- \"tool\" or \"[tool name]\": the name of the tool to call.\\n' -}}\n {%- endif -%}\n {%- set rns.recipients = rns.recipients + ['\"user\"'] -%}\n {{- '- \"user\": messages that end the assistant turn, such as a completed response or clarification question that waits for the user\\'s reply; do not use for pre-tool updates or partial responses.\\n' -}}\n {{- '\\n# Valid recipients: ' ~ rns.recipients | join(', ') ~ '.' -}}\n{%- endmacro -%}\n\n{{- bos_token -}}\n{%- set ns = namespace(instructions=none, rest=messages) -%}\n{%- if messages and messages[0]['role'] in ['system', 'developer'] -%}\n {%- set ns.instructions = render_content(messages[0]['content'])\n | replace('Reasoning effort', 'Reasoning strength')\n | replace('Reasoning Effort', 'Reasoning Strength')\n | replace('reasoning effort', 'reasoning strength')\n | replace('REASONING EFFORT', 'REASONING STRENGTH') -%}\n {%- set ns.rest = messages[1:] -%}\n{%- endif -%}\n{%- set sys = namespace(parts=['You are a helpful AI assistant.', 'Knowledge cutoff: ' ~ cutoff_date ~ '.']) -%}\n{%- if current_date -%}\n {%- set sys.parts = sys.parts + ['Current date: ' ~ current_date ~ '.'] -%}\n{%- endif -%}\n{%- if ns.instructions -%}\n {%- set sys.parts = sys.parts + [ns.instructions] -%}\n{%- endif -%}\n{%- if tools -%}\n {%- set sys.parts = sys.parts + [render_tool_defs(tools) | trim] -%}\n{%- endif -%}\n{%- if 'reasoning strength:' not in ((ns.instructions if ns.instructions else '') | lower) -%}\n {%- set sys.parts = sys.parts + ['Reasoning strength: ' ~ reasoning_effort_map[reasoning_effort] ~ '.'] -%}\n{%- endif -%}\n{%- set sys.parts = sys.parts + [render_valid_recipients(tools) | trim] -%}\n{{- '<|start|>system<|message|>' ~ sys.parts | join('\\n\\n') ~ '<|eot|>' -}}\n{%- for message in ns.rest -%}\n {%- set role = message['role'] -%}\n {%- set end_token = '<|eom|>' if (not loop.last and ns.rest[loop.index0 + 1]['role'] == role) else '<|eot|>' -%}\n {%- if role in ['system', 'developer'] -%}\n {{- '<|start|>' + role + '<|message|>' -}}\n {{- render_content(message['content']) -}}\n {{- '<|eot|>' -}}\n {%- elif role == 'user' -%}\n {{- '<|start|>user<|message|>' -}}\n {%- if message.get('render_timestamp') and message.get('timestamp') -%}\n {%- set ts = message['timestamp'] -%}\n {%- if ts is string -%}\n {{- '[' ~ esc_header(ts) ~ '] ' -}}\n {%- elif ts.strftime is defined -%}\n {{- '[' ~ (ts.strftime('%a %Y-%m-%d %H:%M %Z') | trim) ~ '] ' -}}\n {%- endif -%}\n {%- endif -%}\n {{- render_content(message['content']) -}}\n {{- '<|eot|>' -}}\n {%- elif role == 'tool' -%}\n {%- set tname = message.get('name') -%}\n {%- if not tname -%}\n {%- set tcid = message.get('tool_call_id') -%}\n {%- set tns = namespace(name=tcid if tcid else '') -%}\n {%- for m in messages -%}\n {%- if m.get('tool_calls') -%}\n {%- for tc in m['tool_calls'] -%}\n {%- if tcid is not none and tc.id is defined and tc.id == tcid -%}\n {%- set tns.name = tc.function.name -%}\n {%- endif -%}\n {%- endfor -%}\n {%- endif -%}\n {%- endfor -%}\n {%- set tname = tns.name -%}\n {%- endif -%}\n {%- if not tname -%}\n {{- raise_exception('tool message has no name and no matching tool_call_id') -}}\n {%- endif -%}\n {{- '<|start|>tool ' -}}{{- esc_header(tname) -}}{{- '<|message|><tool_output name=\"' -}}{{- esc_attr(tname) -}}{{- '\">\\n' -}}\n {{- render_content(message['content']) -}}\n {{- '\\n</tool_output><|eot|>' -}}\n {%- elif role == 'assistant' -%}\n {%- generation %}\n {%- set reasoning = message.get('reasoning_content') or message.get('reasoning') -%}\n {%- if reasoning -%}\n {{- '<|start|>assistant to=self<|message|>' -}}{{- esc(reasoning) -}}{{- '<|eom|>' -}}\n {%- endif -%}\n {%- set body = render_content(message.get('content')) -%}\n {%- if message.get('tool_calls') -%}\n {%- if body -%}\n {{- '<|start|>assistant to=commentary<|message|>' + body + '<|eom|>' -}}\n {%- endif -%}\n {%- for tc in message['tool_calls'] -%}\n {{- '<|start|>assistant to=' -}}{{- esc_header(tc.function.name) -}}{{- '<|message|>' -}}\n {{- render_atem(tc) -}}\n {{- (end_token if loop.last else '<|eom|>') -}}\n {%- endfor -%}\n {%- elif body or not reasoning -%}\n {%- set recipient = message.get('recipient') or 'user' -%}\n {%- if recipient == 'user' -%}\n {%- set end_turn = true -%}\n {%- elif recipient in ['self', 'commentary'] -%}\n {%- set end_turn = false -%}\n {%- elif message.get('end_turn') is not none -%}\n {%- set end_turn = message.get('end_turn') -%}\n {%- else -%}\n {%- set end_turn = false -%}\n {%- endif -%}\n {{- '<|start|>assistant to=' -}}{{- esc_header(recipient) -}}{{- '<|message|>' -}}\n {{- body -}}\n {{- ('<|eot|>' if end_turn else '<|eom|>') -}}\n {%- endif -%}\n {%- endgeneration %}\n {%- endif -%}\n{%- endfor -%}\n{%- if add_generation_prompt -%}\n {{- '<|start|>assistant' -}}\n{%- endif -%}\n"},"createdAt":"2026-09-15T19:23:19.000Z","discussionsDisabled":false,"discussionsSorting":"recently-created","downloads":1600,"downloadsAllTime":1726,"id":"meta-models/Muse-Spark-Open-816B-A42B","isLikedByUser":false,"availableInferenceProviders":[{"provider":"baseten","modelStatus":"live","providerStatus":"live","providerId":"meta-models/muse-spark-open","task":"conversational","adapterWeightsPath":"model-00001-of-00065.safetensors","features":{"structuredOutput":true,"toolCalling":true},"isCheapestPricingOutput":true,"isFastestThroughput":true,"isModelAuthor":false,"tokensPerSecond":111.33377866844802,"pricingOutput":4.25}],"showHuggingChatEntry":true,"inference":"warm","lastModified":"2026-10-15T15:46:43.000Z","likes":467,"pipeline_tag":"image-text-to-text","library_name":"transformers","librariesOther":[],"trackDownloads":true,"model-index":null,"evalResults":[{"dataset":{"id":"Idavidrein/gpqa","isBenchmark":true,"task_id":"diamond"},"value":89,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":19,"label":"Diamond"},{"dataset":{"id":"datacurve/deep-swe","isBenchmark":true,"task_id":"deep_swe"},"value":60,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":10,"label":"Deep Swe","notes":"DeepSWE 1.1, run with the authors' preferred agent harness per the model card."},{"dataset":{"id":"harborframework/terminal-bench-2.1","isBenchmark":true,"task_id":"terminalbench_2_1"},"value":76.4,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":17,"label":"Terminalbench 2 1","notes":"Run with the Terminus 2 agent."},{"dataset":{"id":"MME-Benchmarks/Video-MME-v2","isBenchmark":true,"task_id":"video-mme-v2"},"value":61.5,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":2,"label":"Video Mme V2"},{"dataset":{"id":"cais/hle","isBenchmark":false,"task_id":"hle"},"value":61,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":3,"label":"Hle","notes":"Run with tools."},{"dataset":{"id":"hkust-nlp/Toolathlon","isBenchmark":false,"task_id":"toolathlon_verified"},"value":72.8,"source":{"url":"https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B","name":"Muse Spark Open model card","isExternal":false},"filename":".eval_results/Muse-Spark-Open-816B-A42B.yaml","verified":false,"pullRequest":20,"rank":10,"label":"Toolathlon Verified"}],"private":false,"repoType":"model","gated":"manual","tags":["transformers","safetensors","muse_spark","image-text-to-text","facebook","meta","pytorch","muse","muse-spark","conversational","en","license:other","eval-results","endpoints_compatible","deploy:sagemaker","region:us"],"tag_objs":[{"id":"image-text-to-text","label":"Image-Text-to-Text","type":"pipeline_tag","subType":"multimodal"},{"id":"transformers","label":"Transformers","type":"library"},{"id":"safetensors","label":"Safetensors","type":"library"},{"id":"pytorch","label":"PyTorch","type":"library"},{"id":"en","label":"English","type":"language"},{"id":"muse_spark","label":"muse_spark","type":"other","clickable":true},{"id":"facebook","label":"facebook","type":"other","clickable":true},{"id":"meta","label":"meta","type":"other","clickable":true},{"id":"muse","label":"muse","type":"other","clickable":true},{"id":"muse-spark","label":"muse-spark","type":"other","clickable":true},{"id":"conversational","label":"conversational","type":"other","clickable":true},{"id":"eval-results","label":"Eval Results","type":"other","clickable":true},{"id":"endpoints_compatible","label":"Inference Endpoints","type":"other","clickable":true},{"id":"license:other","label":"other","type":"license"},{"id":"deploy:sagemaker","label":"sagemaker","type":"deploy"},{"type":"region","label":"🇺🇸 Region: US","id":"region:us"}],"transformersInfo":{"auto_model":"AutoModelForMultimodalLM","pipeline_tag":"image-text-to-text","processor":"AutoProcessor"},"widgetData":[{"text":"Hi, what can you help me with?"},{"text":"What is 84 * 3 / 2?"},{"text":"Tell me an interesting fact about the universe!"},{"text":"Explain quantum computing in simple terms."}],"safetensors":{"parameters":{"BF16":821906490368,"F32":130039296},"total":822036529664,"sharded":true,"totalFileSize":1644333584632},"hasBlockedOids":false,"region":"us","isQuantized":false,"licenseFilePath":"LICENSE.md"}}">
+Evaluation results
+Idavidrein/gpqa · Diamond View evaluation results
+leaderboard
+89
+datacurve/deep-swe · Deep Swe View evaluation results
+leaderboard
+60 *
+harborframework/terminal-bench-2.1 · Terminalbench 2 1 View evaluation results
+leaderboard
+76.4 *
+MME-Benchmarks/Video-MME-v2 · Video Mme V2 View evaluation results
+leaderboard
+61.5
+cais/hle · Hle View evaluation results
+61 *
+hkust-nlp/Toolathlon · Toolathlon Verified View evaluation results
+72.8
+System theme
+Company
+TOS Privacy About Careers
+Website
+Models Datasets Spaces Pricing Docs

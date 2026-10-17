@@ -1,0 +1,44 @@
+ Developing Capable Models Responsibly | Meta AI Research
+Skip to main content
+AI Research
+AI Developers
+Try Muse
+Developing Capable Models Responsibly
+October 2, 2026 ·
+4 minute read
+Today we published updates to our Meta Superintelligence Scaling Framework , which sets standards we hold ourselves to as we train, evaluate, and release our most capable AI models.
+Our vision is to bring personal superintelligence to everyone, putting power in people’s hands to pursue their own aspirations, with real access for developers, researchers, and institutions to build and improve on it. Every company has the responsibility to move at the pace required to train its models safely, and the ability to take action to ensure that happens. Our Framework outlines how we meet that responsibility by outlining the capabilities we test for, the thresholds a model must clear, and the requirements we place on our safety and security systems, before a training run begins and before a model is deployed.
+The Framework is designed to change, and we revise it as the state of the art advances and as our own engineering matures. Today’s Framework update reflects the commitments made at the White House this week, addressing safety during training and evaluation, open-weight releases, and our evolving approach to risk assessment and governance.
+Extending Safety Requirements to Training and Evaluation
+Recent events show that major AI risks can emerge before deployment. Without adequate safeguards, models with strong cybersecurity capabilities can exploit environmental vulnerabilities to compromise surrounding infrastructure and take unauthorized actions during evaluation or training. We’re extending the Framework’s loss of control requirements to cover AI containment during training and evaluation. Before any reinforcement learning training run, we will determine whether the capabilities of the model being trained could potentially compromise its environment. If so, we will require specific mitigations to be in place prior to beginning the run:
+Environments in high-risk runs sit in sandboxes approved through a standardized internal process that vets them for vulnerabilities. Sandboxes with high-severity vulnerabilities are mitigated or excluded before the run begins. Environments are also checked for features that invite reward gaming, such as exploitable grading or impossible tasks.
+Model outputs, including full trajectories and chain of thought, are written in real time to secure logging systems that prevent them from being modified or deleted after the fact.
+In addition to our on-call teams tracking models during training, automated systems will monitor all rollouts of high-risk models and can halt a run when they detect high-severity misbehavior or attempts to escape containment. These monitors will also be stress-tested to help establish that they would succeed in detecting unauthorized actions by our models.
+Open Weight Releases
+Releasing open-weight models is part of how we bring the benefits of AI to everyone. Open-weight models are a scarce and valuable resource for research, letting anyone publish replicable experiments and validate findings. Academics and medical researchers can fine-tune them for work such as interpreting medical imaging, including X-ray analysis and disease detection.
+Open releases are also part of how safety work advances across the field. An open approach gives a greater degree of transparency into how a model works. Advanced open-weight models serve as a resource for alignment and interpretability research, and they improve the state of the art in evaluation practices since developers can build on previous advances.
+We’ve updated the Framework to reflect our thinking around the full range of considerations specific to open-weight releases:
+We expanded and clarified the Framework’s discussion of the ways an open-weight model can be modified or used after release. Someone holding the weights can resample to get around a refusal, prefill outputs, or fine-tune refusal behavior away. The Framework requires us to consider the ways in which a model will be used in its specific deployment context.
+We clarified the full range of factors we consider in our risk assessments. We run threat modeling with outside experts where appropriate, and engage with government entities and other stakeholders whose input informs our evaluations and requirements. For biological and chemical weapons risk, we assess both the capabilities that a model enables and the extent to which a deployment would contribute to proliferation.
+We’re proud of our continued work to evolve our standards by making specific, verifiable commitments to monitor the capabilities and alignment of our AI systems during development and release. Over the coming months, we are making additional changes to our Framework and our overall approach to AI governance. We will establish a new AI committee of our Board of Directors, which will review future changes to the Framework and independently ensure that our operations conform to the standards we’ve set. These planned changes as well as the ones that we’re making in our Framework align with the commitments made this week, which call for strong internal controls to monitor what companies’ models can do in key areas and whether they stay aligned, checked by an independent team inside the company and an independent auditor or evaluator outside it.
+Meta AI
+Assistant
+Media Generation
+Developers
+Meta Model API
+Muse Code
+Models
+Muse Spark
+Muse Spark 1.1
+Muse Spark 1.2
+Muse Image
+Facebook
+Threads
+X
+YouTube
+GitHub
+Legal
+Privacy Policy
+Terms
+Cookies
+Meta © 2026

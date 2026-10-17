@@ -1,0 +1,6 @@
+Tencent Hy @TencentHunyuan (X post, 8:06 AM, October 16, 2026, as displayed in the browser's local time)
+We want to address recent reports regarding agent activity.
+
+The activity originated from evaluations of third-party models, not Tencent Hy. During these evaluations, some agents exhibited unintended web-browsing behavior, but our review found no evidence of deliberate targeting or coordination. We take these findings seriously. We are strengthening network access controls and agent monitoring.
+
+We are committed to building safe and responsible AI. Thanks to the community for their feedback.

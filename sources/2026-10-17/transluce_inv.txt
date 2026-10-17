@@ -1,0 +1,71 @@
+ Incident Reports | Transluce Transluce
+Transluce
+Transluce
+Transluce
+Transluce
+Transluce
+About
+Our Purpose Our Team Get Involved
+News
+Incident Reports
+Behavior Reports
+Docent
+Try Docent Docent Blog
+Join Us
+About
+Our Purpose Our Team Get Involved
+News
+Incident Reports
+Behavior Reports
+Docent
+Try Docent Docent Blog
+Join Us
+Reports
+Incident Reports
+We publish notable instances of agent activity on the public internet.
+We aim to increase transparency and accountability for unexpected and/or undesired agent behavior.
+Findings are published either as in-depth incident reports or as ongoing updates on our agent activity blog.
+Volunteer Blog October 14, 2026
+Potential new task behavior: historical-newspaper searches through urlquery
+A possible new agent task: searching historical newspapers through urlquery across five archives. Model and operator unknown.
+Authors: Navien Potheri , Gary Shen
+Organizing leads : Laura Ruis , Francisco Pernice
+Read more
+Volunteer Blog October 14, 2026
+Agents circumventing website restrictions for public benchmark runs
+MiniMax M3/M2.7, GLM 5/5.2, and Grok 4.5 attempted EPA registration and bot-check bypasses during benchmark runs; no successful bypass established.
+Authors: Jamie Wood , Ajinkya Kiran Mulay
+Organizing leads : Laura Ruis , Francisco Pernice
+Read more
+Volunteer Blog October 4, 2026
+Answering a Humanity's Last Exam question with code spread across dozens of separate URLs
+Two workflows used public web services to analyze an Erroll Garner recording for Humanity’s Last Exam; one split code across 42 URLs. Model and operator unknown.
+Authors: Laura Ruis , Frank Ruis
+Organizing leads : Laura Ruis , Francisco Pernice
+Read more
+Transluce Report September 30, 2026
+AI Agents Targeted U.S. and Canadian Government Websites
+Failed hacking attempts and aggressive data collection targeted U.S. and Canadian government websites. Model and provider attribution remain uncertain.
+Read more
+Transluce Report September 23, 2026
+Early rogue AI agent activity and attempts to hack found on urlquery.net
+Agents used urlquery to retrieve public data and attempted hacks against three providers. Task-level evidence links some activity to OpenAI.
+Read more
+Transluce Transluce Transluce Transluce Transluce Transluce Transluce is an independent, nonprofit research lab building the public tech stack for scalable oversight of AI.
+Donate
+Resources
+Research & news
+Docent
+Tools & demos
+Follow Transluce
+X (Twitter) (opens in a new tab)
+LinkedIn (opens in a new tab)
+GitHub (opens in a new tab)
+Email us
+Company
+About us
+Join us (opens in a new tab)
+Privacy & Trust Center (opens in a new tab)
+Responsible disclosure
+© 2026 Transluce. All rights reserved.
+Transluce is a 501(c)(3) nonprofit based in San Francisco.

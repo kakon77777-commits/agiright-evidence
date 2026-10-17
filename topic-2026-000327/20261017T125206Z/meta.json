@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000327",
+  "url": "https://research.meta.ai/blog/muse-spark-open",
+  "capturedAt": "2026-10-17T12:52:06Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 124675,
+    "sha256": "b174fb1c4ef86cf14e47a7371a40e51aaaa1d6e00d157a2f951c325b549a233a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "58AB49D040FA57A1CEB0B55A54D5D29C",
+      "status": 200,
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "da2d446b86743193b3100e8cc64bf00915d974156b726a83d834e7e3a8349e6d",
+    "width": 1366,
+    "height": 900,
+    "bytes": 671744,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-17T12:52:06Z",
+    "url": "https://research.meta.ai/blog/muse-spark-open",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 124675,
+      "sha256": "b174fb1c4ef86cf14e47a7371a40e51aaaa1d6e00d157a2f951c325b549a233a"
+    },
+    "finalUrl": "https://research.meta.ai/blog/muse-spark-open",
+    "httpStatus": 200,
+    "title": "Introducing Muse Spark Open, The Most Capable US Open‑Weight Model to Date | Meta AI Research",
+    "rendered": {
+      "textChars": 5080,
+      "textSha256": "b3be3e88112720a257f902cdb4164e1f31bee0758dba938545377ea97a2669d9",
+      "htmlSha256": "fbc3b92b079c6ee221b643a1c5679cd553a59688c470ff2edae9c501267b6125"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "da2d446b86743193b3100e8cc64bf00915d974156b726a83d834e7e3a8349e6d",
+      "width": 1366,
+      "height": 900,
+      "bytes": 671744,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261015165925",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261015165925/https://research.meta.ai/blog/muse-spark-open"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261017125321/https://research.meta.ai/blog/muse-spark-open",
+      "timestamp": "20261017125321",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,176 @@
+
+China’s Tencent says AI agents showed unintended browsing behaviour | 99.7 FM & 101.9 FM WNFL Sports | Green Bay, WI
+
+
+
+You are using an outdated browser. Please upgrade your browser to improve your experience.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Menu
+Listen Live
+NEWS
+WEATHER
+ON AIR
+EVENTS
+BLOGS
+PODCASTS
+&times;
+Sign In
+Search
+NEWS
+WEATHER
+ON AIR
+EVENTS
+BLOGS
+PODCASTS
+China’s Tencent says AI agents showed unintended browsing behaviour
+By Thomson Reuters
+Oct 16, 2026 | 2:09 AM
+By Eduardo Baptista
+BEIJING, Oct 16 (Reuters) – Tencent said on Friday that AI agents used to evaluate third-party models displayed web-browsing behavior not intended by the tech giant, in what appears to be the first known ​incident of rogue agent actions acknowledged by a major Chinese company.
+The statement ‌followed a report by AI-safety research group Swarmchasers on Wednesday, which said “rogue” agents running on infrastructure it linked to Tencent Cloud made repeated attempts between September 28 and October 8 to retrieve information from Alibaba’s Amap, China’s equivalent to Google Maps.
+Tencent Hunyuan, the company’s artificial intelligence unit, said ‌in ​a post on X that the activity did not ⁠originate from its Hunyuan models. ⁠Its review found no evidence of deliberate targeting or coordination, it said.
+The Swarmchasers researchers said the agents sought information such as the commonly used entrances at Chinese parks, museums and zoos.
+The actions are not as egregious as those disclosed ​by US AI companies which include the hack of open-source platform Hugging Face by an OpenAI agent and the lodging of a fake homicide tip by ⁠an Anthropic agent.
+But the disclosure underscores research that ⁠shows Chinese AI agents can also misrepresent their identity, conceal ​failures and try to circumvent testing controls.
+Tencent said it took the findings very seriously and ​was strengthening network access controls and agent monitoring.
+Hunyuan is one of ‌China’s leading AI model developers, competing with in-house teams at rivals such as Alibaba and ByteDance. ByteDance this week announced the creation of a new unit focused on AI model and agent safety.
+Swarmchasers said it used the word “rogue” to describe agents taking actions ⁠outside their intended scope or completing a task in unintended ways.
+After routine automated requests were blocked, the agents tried other methods, including public web tools that could open pages ⁠and run code, routing ‌requests through other websites and using Amap keys and security ⁠codes found in publicly available software code.
+Swarmchasers said it found ​no ‌evidence that the agents breached Amap’s main anti-bot safeguards. Most ​of the ⁠2,818 attempts it recorded either failed or returned anti-bot pages, login screens or blank results.
+Some requests returned information through cached pages and intermediary services, including data on visitor arrivals at Chengdu Zoo, Swarmchasers said. The researchers said they could not determine whether an agent read the result or completed its task.
+Alibaba declined to comment.
+(Reporting by Eduardo Baptista; ​Editing by Edwina Gibbs)
+Comments
+Leave a Reply Cancel reply
+You must be logged in to post a comment.
+Pope Leo to leave hospital on Saturday, four days after lung cancer surgery
+2h ago
+Trump faults aides as Republican midterm prospects dim
+2h ago
+AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers
+3h ago
+Tunisians stage biggest protest in years against President Saied
+1h ago
+India's food regulator proposes ban on added sugars in infant foods
+1h ago
+Egypt's Sisi says his presidency will end in 2030
+1h ago
+
+
+
+Advertise with us &raquo;
+
+
+
+WNFL
+6:00 AM - 3:00 PM
+
+Current Weather &raquo;
+
+
+Sat Oct 17
+Green Bay, WI, USA
+29&deg;F
+Feels Like: 25&deg;F
+Wind/Dir: 9 MPH-WSW
+Humidity: 94%
+
+
+
+EEO
+Advertise with Us
+Make a Payment
+Public Inspection File
+Text Us at 79489
+Privacy Policy
+Terms Of Service
+Copyright &copy; 2026. All Rights Reserved.
+
+
+
+
+
+
+
+Listen
+
+
+99.7 FM in Green Bay, WI
+
+101.9 FM in Green Bay, WI
+
+
+Listen on Smart Speakers
+
+
+
+
+Contact
+
+
+Studio Line 1: (920) 465-1440
+
+Business Line: (920) 435-3771
+
+
+Text Us at 79489 
+Message & data rates may apply 
+
+Advertise With Us
+
+Job Opportunities
+
+Contact Us
+
+
+
+
+More
+
+
+Privacy Policy
+
+Terms of Use
+
+Contest Rules
+
+
+Public Inspection File (WNFL) 
+contact our Support Desk here. " aria-describedby="popover75305"> 
+
+
+Public Inspection File (WDKF) 
+contact our Support Desk here. " aria-describedby="popover75305"> 
+
+FCC Applications
+
+EEO
+
+
+Make A Payment 
+
+
+
+

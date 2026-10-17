@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000328",
+  "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+  "capturedAt": "2026-10-17T12:53:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5869,
+    "sha256": "3cc7098339fb69f25ea84c5aa491a3ea02a664c0f4663a0768764c13f7b90a17",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "3F6A86F69189E832763348254F14C913",
+      "status": 403,
+      "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "23c3cbdd2d029112fbfc0e1b853fdb357df4e91f26da9bc7e01dd4155fa6fb84",
+    "width": 1366,
+    "height": 900,
+    "bytes": 30005,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-17T12:53:37Z",
+    "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5869,
+      "sha256": "3cc7098339fb69f25ea84c5aa491a3ea02a664c0f4663a0768764c13f7b90a17"
+    },
+    "finalUrl": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 264,
+      "textSha256": "8e46c8430dbf6aaac1d91e33c1e560edd9f7d985ef366573ebd33fa08c1e4284",
+      "htmlSha256": "20af1764eb0c5266c78dc2a7fc660126afb79c83541897cc17de978b75927d14"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "23c3cbdd2d029112fbfc0e1b853fdb357df4e91f26da9bc7e01dd4155fa6fb84",
+      "width": 1366,
+      "height": 900,
+      "bytes": 30005,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

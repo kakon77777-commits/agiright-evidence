@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000325",
+  "url": "https://www.semafor.com/article/10/15/2026/white-houses-ai-task-force-gets-to-work",
+  "capturedAt": "2026-10-17T12:48:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 127019,
+    "sha256": "f313729e32a5be90c87615409d87e5a79f281eff63b9234cd0a23a8aa62c1ade",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9868FAC96C54C9394A99E3EF305A2CC9",
+      "status": 200,
+      "url": "https://www.semafor.com/article/10/15/2026/white-houses-ai-task-force-gets-to-work",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 40397,
+      "afterScrollHeight": 40398,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "f3167499352527c6acc68b4063c3473b5cb2e804dc4109c41ef8512b08b00ae9",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1233954,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 40397,
+    "afterScrollHeight": 40398
+  },
+  "record": {
+    "capturedAt": "2026-10-17T12:48:14Z",
+    "url": "https://www.semafor.com/article/10/15/2026/white-houses-ai-task-force-gets-to-work",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 127019,
+      "sha256": "f313729e32a5be90c87615409d87e5a79f281eff63b9234cd0a23a8aa62c1ade"
+    },
+    "finalUrl": "https://www.semafor.com/article/10/15/2026/white-houses-ai-task-force-gets-to-work",
+    "httpStatus": 200,
+    "title": "White House’s AI task force gets to work | Semafor",
+    "rendered": {
+      "textChars": 33996,
+      "textSha256": "5bec184eab409f42cedb8bd8d90ebac53b15576e77d500a91d9b2a47f3781bf3",
+      "htmlSha256": "2943a22824ecacbcc587144e4dd87aa2ed1d576dde2fe1969db4e77ec585ab64"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f3167499352527c6acc68b4063c3473b5cb2e804dc4109c41ef8512b08b00ae9",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1233954,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.45)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261017070142",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261017070142/https://www.semafor.com/article/10/15/2026/white-houses-ai-task-force-gets-to-work"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261017124840/https://www.semafor.com/article/10/15/2026/white-houses-ai-task-force-gets-to-work",
+      "timestamp": "20261017124840",
+      "verifiedHttp": 200
+    }
+  }
+}
