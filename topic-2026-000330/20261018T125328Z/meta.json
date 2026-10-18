@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000330",
+  "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
+  "capturedAt": "2026-10-18T12:53:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 25585,
+    "sha256": "f7ebae4b76ddc4c508272fa3602a1ff7ac981c87a746b6d5e7b513842b53a958",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "757213E6EE23C82B4F6505C9DBDD35B6",
+      "status": 200,
+      "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3173,
+      "afterScrollHeight": 3173,
+      "wantedHeight": 3173
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "028e496f415cbc9ca01b88afbf8057d394a07d93c99f04729e76f3788d14981a",
+    "width": 1366,
+    "height": 3173,
+    "bytes": 492473,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3173,
+    "afterScrollHeight": 3173
+  },
+  "record": {
+    "capturedAt": "2026-10-18T12:53:28Z",
+    "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 25585,
+      "sha256": "f7ebae4b76ddc4c508272fa3602a1ff7ac981c87a746b6d5e7b513842b53a958"
+    },
+    "finalUrl": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
+    "httpStatus": 200,
+    "title": "Training Alignment Auditors via Reinforcement Learning",
+    "rendered": {
+      "textChars": 4156,
+      "textSha256": "a875b371335eaf16abee0058e5065e55b8d946e4c162501882f6228a9778caa6",
+      "htmlSha256": "1ba8ede24e408445bda15e07786fa1888e8f28b907f8b0fa4a5bbc870afdb069"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "028e496f415cbc9ca01b88afbf8057d394a07d93c99f04729e76f3788d14981a",
+      "width": 1366,
+      "height": 3173,
+      "bytes": 492473,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261018125545/https://alignment.anthropic.com/2026/training-alignment-auditors/",
+      "timestamp": "20261018125545",
+      "verifiedHttp": 200
+    }
+  }
+}

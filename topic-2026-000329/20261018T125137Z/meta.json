@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000329",
+  "url": "https://www.anthropic.com/policy-on-the-ai-exponential/aaif",
+  "capturedAt": "2026-10-18T12:51:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 139707,
+    "sha256": "fbc34940954dffb8889f8318a2fc5cbe5161d5e12b6ddfe61e21c3100112be8b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0F7976768270E3596B171B7C65647785",
+      "status": 200,
+      "url": "https://www.anthropic.com/policy-on-the-ai-exponential/aaif",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5494,
+      "afterScrollHeight": 5494,
+      "wantedHeight": 5494
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f4e8493323bf8678fc28296123254ce58fd3527544b4888067fb510a0fe032d6",
+    "width": 1366,
+    "height": 5494,
+    "bytes": 1115355,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5494,
+    "afterScrollHeight": 5494
+  },
+  "record": {
+    "capturedAt": "2026-10-18T12:51:37Z",
+    "url": "https://www.anthropic.com/policy-on-the-ai-exponential/aaif",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 139707,
+      "sha256": "fbc34940954dffb8889f8318a2fc5cbe5161d5e12b6ddfe61e21c3100112be8b"
+    },
+    "finalUrl": "https://www.anthropic.com/policy-on-the-ai-exponential/aaif",
+    "httpStatus": 200,
+    "title": "Policy on the AI Exponential \\ Anthropic",
+    "rendered": {
+      "textChars": 9130,
+      "textSha256": "318dd8c4d3a946b7ead0a0ccd5f52edd9257d124dda2e619750b93ba76b48f54",
+      "htmlSha256": "df749779d9fb7bb44444a7de066698c5f84fc7c9ba65f743a8024269462eb831"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f4e8493323bf8678fc28296123254ce58fd3527544b4888067fb510a0fe032d6",
+      "width": 1366,
+      "height": 5494,
+      "bytes": 1115355,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260611031248",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260611031248/https://www.anthropic.com/policy-on-the-ai-exponential/aaif"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261018125311/https://www.anthropic.com/policy-on-the-ai-exponential/aaif",
+      "timestamp": "20261018125311",
+      "verifiedHttp": 200
+    }
+  }
+}

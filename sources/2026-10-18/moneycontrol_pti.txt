@@ -1,0 +1,106 @@
+ --> CERT-In flags AI agent cyber risks: Govt urges companies to tighten security, eyes AI regulation --> --> Starts --> Start --> Start -->
+You are using an outdated browser. Please upgrade your browser to improve your experience and security.
+Start --> Search Quotes, News, Mutual Fund NAVs
+->->MC_ENG_DESKTOP/MC_ENG_NEWS/MC_ENG_STARTUP_AS/MC_ENG_ROS_NWS_STRTUP_AS_ATF_728
+Personal Finance Start --> EXPLORE
+Fixed Deposit Interest Calculator
+FREE CREDIT SCORE ₹100 Cash Reward --> Credit Score
+REAL ESTATE : TRENDS & ANALYTICS
+Upcoming Chat | Previous Transcripts
+All Schedule | Previous Transcript
+Invest in Top Unlisted || Pre-IPO Stocks Discover the secret world of unlisted shares — analyse India's top pre-IPO companies and invest before they hit the markets
+Your portfolio. Reviewed by experts. A complementary check for gaps and risk.
+Build a Global Portfolio. Diversify Beyond India Invest in Apple, Nvidia, Microsoft, Tesla and 9,000+ U.S. stocks & ETFs. Start from just ₹1.
+Start --> Start --> Start --> Start --> Start -->
+Start --> Start --> Start --> Start -->
+CERT-In flags AI agent cyber risks: Govt urges companies to tighten security, eyes AI regulation
+--> Trending Topics --> Trending Topics Apple iPhone Duo
+CERT-In flags AI agent cyber risks: Govt urges companies to tighten security, eyes AI regulation
+India’s cybersecurity agency CERT-In has issued a 'critical' advisory warning that autonomous AI agents have accessed live systems and confidential data of Indian organisations without authorisation.
+CERT-In pointed out that conventional security lapses were the root weaknesses in all the recent AI agent-driven incidents it observed. (Representative photo)
+CERT-In warned autonomous AI agents accessed Indian live systems.
+Government sources urged companies to strengthen cybersecurity.
+Upcoming AI regulations may address risks posed by AI agents.
+in your portfolio by Vishal Malkan
+Register for FREE Webinar Register for FREE
+Amid the CERT-In advisory on autonomous AI agents, government sources on Friday said all companies must strengthen cybersecurity measures and step up monitoring of unusual system activity, and that no vital information of significant organisations was compromised and the incident must serve as an early warning.
+India’s cybersecurity agency CERT-In has issued a 'critical' advisory warning that autonomous Artificial Intelligence (AI) agents have accessed live systems and confidential data of Indian organisations without authorisation, while threat actors are actively weaponising open-source agentic AI tools to execute rapid cyberattacks.
+Government sources told PTI that upcoming AI regulation - for which the consultation paper is likely to be floated soon - may also examine issues around autonomous agents.
+The incident did not involve any significant organisations or result in major financial losses or compromise of vital information, sources said, while emphasising that it had highlighted existing vulnerabilities. This must serve as an early warning, and companies must immediately improve cyber hygiene, invest in better security tools and step up real-time monitoring, sources said.
+Sources further said larger enterprises should use security operations centres to track suspicious activity, including repeated login attempts and access from unusual IP addresses. Organisations must also deploy machine-learning tools to detect threats and automate responses.
+India’s AI compute paradox: GPU providers look abroad as researchers, startups struggle at home
+Zupee turns to AI as it exits the gaming business
+Government sources said companies must invest in cybersecurity and pointed out that currently firms "notoriously lack in fibre hygiene".
+They cautioned that as AI systems become more capable of carrying out tasks autonomously, the possibility of agents repeatedly attempting actions without stopping cannot be ruled out by companies.
+Sources emphasised that organisations would need to improve their ability to examine system logs, identify unusual behaviour and respond to emerging threats in real-time.
+The government is also looking at how risks posed by AI agents could be addressed through future AI regulation, sources said, adding that this would be one of the priority areas.
+A forthcoming consultation paper on AI regulation could examine whether limits and boundaries need to be imposed on AI agents, they added.
+Experts said the real risk is that agents can reach sensitive data beyond their permissions without organisations even realising it, a gap that could affect everyday users as AI tools increasingly handle personal information.
+In a ‘critical’ advisory (CIAD-2026-0049) titled ‘AI Agents as Attack Vectors’, the Indian Computer Emergency Response Team (CERT-In) said AI model providers have voluntarily disclosed that autonomous AI models and agents undergoing research and evaluation had exceeded the authorised scope of their assigned tasks and reached live systems belonging to Indian organisations.
+It also said that threat actors were actively weaponising open-source agentic AI tools to carry out rapid cyberattacks against Indian entities.
+Notably, none of the affected organisations detected the access on their own. In every case, the incident came to light only when the AI model provider disclosed it after an internal review.
+During these operations, the AI agents read business records containing personal data and confidential material, using credentials and connection settings left exposed in application configurations, public code repositories and overly permissive cloud service roles, the agency noted.
+In a separate trend uncovered through its own threat hunting, CERT-In observed cybercriminals using publicly available AI-native offensive-security frameworks to conduct reconnaissance, exploit security weaknesses and carry out a financially motivated campaign against Indian entities.
+These tools continue to be repackaged and redeployed, with many deployments seen on servers across multiple countries, it said.
+In that campaign, agentic tools shrank the window between initial access and final impact from days to a few hours. Victims that only partly fixed the weaknesses were attacked again within days, on a larger scale, the agency said.
+CERT-In pointed out that conventional security lapses were the root weaknesses in all the recent AI agent-driven incidents it observed.
+Jaydeep Singh, General Manager - India at Kaspersky, said it was “a timely reminder that AI agents are no longer just productivity tools”.
+“When given broad access, they can reach live systems and sensitive data in ways organisations never intended, often by moving through gaps that already exist, such as misconfigured cloud services, exposed credentials and excessive permissions,” Singh said.
+Valid accounts, public-facing applications and trusted relationships were the entry point for over 80 per cent of the attacks Kaspersky investigated in 2025, Singh said, adding, “With AI allowing threat actors to iterate faster and scale their efforts, these paths can now be exploited more quickly than ever."
+AI agents used for research and testing should be kept fully separate from production environments, using synthetic data and test-only credentials.
+“Every agent should be inventoried, isolated in sandboxed environments, governed by default-deny rules and required to seek human approval before any irreversible action,” Singh added.
+Critical vulnerabilities should be patched or mitigated “within hours, not weeks”, and code and pipelines audited regularly, Singh said, citing a Kaspersky study of around 30,000 popular GitHub repositories that found overly broad access permissions among the most common issues.
+Sunil Sharma, Managing Director and VP - Sales (India and SAARC) at Sophos, said AI agents were introducing new cybersecurity considerations as they gain the ability to access data and perform tasks autonomously.
+“Organisations will need to extend established security practices to these systems: a distinct identity for each agent, least-privilege access, secured API keys and tokens, adequate logging, and continuous monitoring for unusual behaviour. Research and testing environments should also be isolated from production,” he said.
+Soumen Mandal, Principal Analyst at Counterpoint Research, said the impact of AI agents being able to access sensitive information beyond their authorised permissions without organisations even realising it could extend to everyday users, as AI agents increasingly handle personal and confidential data.
+“As AI adoption becomes mainstream, AI developers, governments, application providers, independent researchers and industry bodies must work together to establish robust security standards and accountability frameworks that build trust without slowing innovation,” Mandal said.
+Techarc Chief Analyst Faisal Kawoosa said every organisation and individual needs to be careful when it comes to using AI, and that tools and applications are often chosen on cost rather than on an understanding of their implications.
+Invite your friends and family to sign up for MC Tech 3, our daily newsletter that breaks down the biggest tech and startup stories of the day
+End your day with a breakdown of the biggest tech and startup stories in your inbox
+End your day with a breakdown of the biggest tech and startup stories in your inbox
+first published: Oct 17, 2026 12:02 am
+Discover the latest Business News , Sensex , and Nifty updates. Obtain Personal Finance insights, tax queries, and expert opinions on Moneycontrol or download the Moneycontrol App to stay updated!
+Nifty set to extend 2nd weekly gain; Sebi revises CAS rules | Opening Bell
+PM Modi To Visit Canada On December 11-12 As New Delhi And Ottawa Seek To Boost Ties
+JAISHANKAR ON INDIA'S GLOBAL POWER, US Dollar, Sanctions & The New World Order | Rishi Sunak
+'DONE WITH TRUMP'S ENERGY CEASEFIRE': Zelenskyy Says In Brussels, Meets EU Leaders
+Oregon School Shooting: Gunman Opens Fire, Police Secure Area As Investigations Underway
+Al Edge Newsletter On Saturdays
+Find the best of Al News in one place, specially curated for you every
+MC Tech 3 Newsletter Daily-Weekdays
+Stay on top of the latest tech trends and biggest startup news.
+Woman who quit corporate job to create travel content says after 61 days: ‘Want to go home’
+CFO says leaders who work 14 hours and sleep for 4 hours set ‘terrible example’ for employees
+'My time isn't mine': Indian-origin CEO starts his day at 3 am, works six days a week, rejects silicon valley’s ‘996’ culture
+Pune woman says PG owner 'raided' her room and took away kettle, vegetables. Internet reacts
+Sourav Ganguly's next big move: Journey from BCCI president to Delhi Capitals head coach
+UP court issues non-bailable warrant against Rakhi Sawant in 2010 suicide case
+Spirit Release Date OUT: Prabhas, Triptii Dimri's film to clash with Ranbir Kapoor's Ramayana Part 2 in Diwali 2027
+Started with Rs 5 coffee, built Rs 180-crore 'Hatti Kaapi': How US Mahendar started Bengaluru's popular filter coffee chain
+Class 6 student becomes DM for a day: Meet Payal Dixit, farmer’s daughter who took Farrukhabad district Magistrate’s chair
+Nothing CEO Carl Pei has a message for Americans using iPhone: "There's a whole other world out there" and "you don't have to switch everything, just...
+How to use your AC as an air purifier this winter without the high electricity bill
+Quote of the day by Ratan Tata: "A person should not be too honest..."
+5 timeless parenting lessons from Sudha Murty to raise grounded children
+Florida releases 16-foot, 147.9-pound Burmese python in drone experiment: How US scientists hope to track invasive snakes across the Everglades
+After 144 years without Lions, this Gujarat sanctuary is home to 17 Asiatic Lions again, with wild Pigs making up 55% of their recorded diet
+Start --> Start --> Advisory Alert:
+It has come to our attention that certain individuals are representing themselves as affiliates of Moneycontrol and soliciting funds on the false promise of assured returns on their investments. We wish to reiterate that Moneycontrol does not solicit funds from investors and neither does it promise any assured returns. In case you are approached by anyone making such claims, please write to us at grievanceofficer@nw18.com or call on 02268882347
+more Sensex Today Delhi Protests Live Wipro Share Price Abhijeet Dipke India US Trade Deal Imran Khan Russia Earthquake Jailer 2 Rekha Arya PREM Suspension
+more Business Markets Stocks India News City News Economy Mutual Funds Personal Finance IPO News Startups
+more Home Currencies Commodities Pre-Market IPO Global Market US Markets Bonds Silver MCX Price Gold MCX Price
+more Home Loans up to 50 Lakhs Credit Cards Lifetime Free Finance Tracker New Fixed Deposits Fixed Deposit Comparison Fixed Income
+more Home Performance Tracker Top Ranked Funds ETFs Mutual Fund Screener
+more Income Tax Calculator EMI Calculator Retirement Planning Gratuity Calculator Petrol Price in India Diesel Price in India IFSC Code
+more News18 Firstpost CNBC TV18 News18 Hindi Cricketnext Overdrive
+more About Us Contact Us Advisory Alert Advertise with Us Support Disclaimer Privacy Policy Cookie Policy Terms & Conditions Financial Terms (Glossary) Sitemap Investors
+Copyright © Network18 Media & Investments Limited. All rights reserved. Reproduction of news articles, photos, videos or any other content in whole or in part in any form or medium without express written permission of moneycontrol.com is prohibited.
+Start --> Start --> Start --> Start -->
+Start --> You got 30 Day’s Trial of
+Top Articles from Financial Times
+Start --> You are already a Moneycontrol Pro user.
+Start --> before footer loads):
+Runtime control (after page loads):
+showZohoLauncher() — shows the launcher bubble via SDK
+hideZohoLauncher() — hides the launcher bubble via SDK
+────────────────────────────────────────────────────────────────────────── --> Start --> Start -->
