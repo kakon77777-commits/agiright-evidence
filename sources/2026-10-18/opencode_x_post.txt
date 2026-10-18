@@ -1,0 +1,13 @@
+Source: https://x.com/opencode/status/2111519637049319818
+Read: 2026-10-18 (Taipei) in the 幻想人 Chrome (Claude in Chrome), page text of the <article>; no login action taken.
+Title: X 上的 OpenCode：「We had a security breach last night related to a large scale distillation attack that impacted 1.4% of OpenCode Console users We have notified them all this morning via email. If you did not get an email you were not impacted, it was a subset of users who had external providers」 / X
+---
+OpenCode
+@opencode
+We had a security breach last night related to a large scale distillation attack that impacted 1.4% of OpenCode Console users
+
+We have notified them all this morning via email. If you did not get an email you were not impacted, it was a subset of users who had external providers linked
+
+The incident is ongoing so we cannot share more details at this point but we are working with Anthropic, OpenAI, and Google to remediate
+Last edited: 2:08 AM · October 18, 2026 (Taipei display time; = 18:08 UTC October 17)
+2.116M views (displayed 2,116,000-ish: "211.6萬")

@@ -1,0 +1,27 @@
+Sources (page text of each <article>, read 2026-10-18 Taipei in the 幻想人 Chrome, no login action):
+ (a) https://x.com/lydiahallie/status/2111563956666110287   shown as 5:04 AM · October 18, 2026 (Taipei display time; = 21:04 UTC October 17)
+ (b) https://x.com/thdxr/status/2111572618340188393
+ (c) https://x.com/thdxr/status/2111528031072461114
+ (d) https://x.com/mattjay/status/2111480005435719885   shown as 11:30 PM · October 17, 2026 (Taipei display time)
+ (e) https://x.com/mattjay/status/2111476982580211851   shown as 11:18 PM · October 17, 2026 (Taipei display time)
+
+(a) Lydia Hallie @lydiahallie:
+We’ve been working with OpenCode on yesterday’s breach and have revoked Claude API keys we believe were affected.
+
+If you saved a key in OpenCode and want to be extra careful, please create a new one!
+[quotes @opencode's post above]
+
+(b) dax @thdxr (title of the post): "@lydiahallie note this is the OpenCode Console, not OpenCode itself, those keys never come to us"
+
+(c) dax @thdxr (title of the post): "my personal accounts are being attacked now too whole new world with ai powered hacking"
+
+(d) Matt Johansen @mattjay:
+Confirmed. OpenCode hacked. Keys stolen.
+
+Telling customers to revoke.
+[quotes (e)]
+
+(e) Matt Johansen @mattjay:
+Seems OpenCode customers getting notices of a breach. Got some DMs that people’s API keys are running up charges.
+
+Not seeing it on the news yet. Anyone else?

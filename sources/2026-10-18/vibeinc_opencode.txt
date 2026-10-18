@@ -1,0 +1,70 @@
+
+OpenCode confirms a breach and tells affected Console users that AI provider keys saved in their workspaces may have been exposed | VibeIncidents
+Skip to content Vibe Incidents Incident log News Tracker Platforms Methodology RSS ↗ Weekly digest ↗
+LIVE LOG &middot; entries last verified against sources October 14, 2026 &middot; site updated Oct 17, 2026, 8:03 PM ET
+&larr; All incidents
+OpenCode confirms a breach and tells affected Console users that AI provider keys saved in their workspaces may have been exposed
+Incident &middot; OpenCode Console / cloud workspaces (saved third-party AI provider keys) &middot; HIGH
+Incident date Night of Oct 16–17, 2026, per OpenCode ("last night" in its Oct 17 post).
+Disclosed Oct 17, 2026 (email to affected users that morning; public statement on X at 1:56 p.m. ET).
+Added here Oct 17, 3:05 PM ET
+Last verified Oct 17, 2026
+Summary
+OpenCode, the open-source AI coding agent made by Anomaly, said on X on Oct 17, 2026 that it "had a security breach last night related to a large scale distillation attack that impacted 1.4% of OpenCode Console users", and that it had notified all of them by email that morning. It added that users who did not get an email were not affected, and that those affected were a subset of users with external providers. The email, which recipients shared publicly under the subject "Action Required: Potential provider key breach", says OpenCode identified unauthorized access to a legacy system it was in the process of decommissioning, and that third-party provider keys saved in a user's workspace (it names OpenAI and Anthropic as examples) may have been exposed. It asks users to revoke and replace those keys at each provider, update any apps that use them and review recent usage. Some users reported unexpected spend on provider keys they say were stored only in their OpenCode account. Those reports are self-reported and we have not verified them. OpenCode said in its first post that the incident is ongoing. Later on Oct 17, OpenCode's Dax Raad said the breach involves the hosted OpenCode Console, not the OpenCode app itself, and Anthropic said it had revoked Claude API keys it believes were affected. OpenCode has not said how the attacker got in, how many keys were involved, or how the breach relates to what it calls a distillation attack.
+Severity
+HIGH High (VibeIncidents editorial rating). OpenCode confirms a breach, and its email tells affected users that third-party AI provider keys saved in their workspaces may have been exposed. A leaked provider key can be used to run up charges on its owner's account, and some users report that happened. OpenCode puts the affected group at 1.4% of Console users and says it emailed all of them. It has not said how many keys were involved, and the incident is still being investigated, so this rating may change.
+Timeline
+Oct 16–17, 2026 (overnight)
+OpenCode says the breach happened "last night", per its Oct 17 post on X.
+Oct 17, 2026, early morning ET
+Users on r/opencode and X begin reporting unexpected usage on AI provider keys. Some say the keys were saved only in their OpenCode account (self-reported).
+Oct 17, 2026, morning
+OpenCode emails affected users under the subject "Action Required: Potential provider key breach" (per recipients' screenshots). A screenshot of the email is posted to r/opencode at 10:14 a.m. ET and reshared on X.
+Oct 17, 2026, 1:56 p.m. ET
+OpenCode posts on X that it had a security breach affecting 1.4% of OpenCode Console users, related to what it calls a large scale distillation attack, and that the incident is ongoing.
+Oct 17, 2026, 2:08 p.m. ET
+An edited version of the post adds that users who did not get an email were not affected.
+Oct 17, 2026, about 3 p.m. ET
+OpenCode's status page lists no security incident, and Anomaly has not published a GitHub security advisory or blog post about the breach.
+Oct 17, 2026, 5:04 p.m. ET
+Lydia Hallie of Anthropic's Claude Code team says on X that Anthropic has been working with OpenCode on the breach and has revoked Claude API keys it believes were affected.
+Oct 17, 2026, 5:38 p.m. ET
+OpenCode's Dax Raad (@thdxr) replies that the breach involves "the OpenCode Console, not OpenCode itself", and that keys used in the OpenCode app "never come to us".
+How it happened
+Most of what is known comes from OpenCode's email, as recipients shared it, and its post on X. The email says OpenCode identified unauthorized access to a legacy system that it was in the process of decommissioning, and that third-party provider keys saved in a user's workspace may have been exposed. OpenCode itself runs on your machine and keeps provider keys there. OpenCode's Dax Raad said on Oct 17 that the breach involves the OpenCode Console, its hosted service, "not OpenCode itself", and that keys used in the app "never come to us". The exposed keys are the ones users chose to save in their Console workspace. On X, OpenCode linked the breach to "a large scale distillation attack" but has not explained how that connects to the access to the legacy system. It also has not said how the access happened, when it was detected, how many keys were involved, whether the keys were encrypted at rest, or whether anything besides provider keys was in that system. We won't guess at those details, and we will update this entry if OpenCode publishes them.
+How to check your app
+If you ever saved an OpenAI, Anthropic, Google, OpenRouter or other provider key in an OpenCode workspace, revoke it in that provider's dashboard and create a new one, even if you see no unusual activity and got no email.
+Anthropic says it has revoked Claude API keys it believes were affected, so an Anthropic key you saved in OpenCode Console may already have stopped working. Create a new one and update anything that used the old key.
+OpenCode says users who did not get its email were not affected. Check the inbox tied to your OpenCode account, including spam, for "Action Required: Potential provider key breach".
+Review usage per key at each provider (OpenAI, Anthropic Console, Google Cloud or AI Studio, OpenRouter and others) for the past several days, especially overnight Oct 16–17, 2026, and note anything you didn't run. Most providers show usage by key or project.
+If you see charges you didn't make, contact the provider's billing support with the key ID, the dates and the fact that OpenCode notified you of a possible exposure.
+Set monthly spend limits or budget alerts at each provider, turn off auto-reload where you don't need it, and use a separate key per tool so one leak can be revoked without breaking everything else.
+Update any apps, CI jobs or scripts that used the old key so they don't fail silently after you revoke it.
+Sources
+OpenCode on X: breach statement (Oct 17, 2026, edited version)
+OpenCode on X: first version of the statement (Oct 17, 2026)
+r/opencode post sharing a screenshot of OpenCode's email (Oct 17, 2026)
+X post resharing the email screenshot, with reports of unexpected charges (Oct 17, 2026)
+X post by a recipient saying they got OpenCode's email (Oct 17, 2026)
+X post by another recipient describing the email and checking their provider dashboards (Oct 17, 2026)
+OpenCode status page
+Anthropic's Lydia Hallie on X: Claude API keys revoked (Oct 17, 2026)
+OpenCode's Dax Raad on X: the breach involves the Console, not the OpenCode app (Oct 17, 2026)
+Corrections and updates
+Oct 17, 2026
+Added OpenCode's clarification (Dax Raad, 5:38 p.m. ET) that the breach involves the OpenCode Console, not the OpenCode app, and Anthropic's statement that it revoked Claude API keys it believes were affected.
+Weekly digest of new incidents. Unsubscribe anytime. Subscribe
+One email a week. Your address goes to Kit, our email provider, only to send the digest. This site sets no cookies. See our privacy policy .
+Cite this entry Title OpenCode confirms a breach and tells affected Console users that AI provider keys saved in their workspaces may have been exposed Added Oct 17, 2026 URL https://vibeincidents.com/incidents/opencode-provider-key-exposure-2026-10/ Suggested citation VibeIncidents. "OpenCode confirms a breach and tells affected Console users that AI provider keys saved in their workspaces may have been exposed." Oct 17, 2026. https://vibeincidents.com/incidents/opencode-provider-key-exposure-2026-10/ Copy citation If you ever pasted a provider key into a hosted dashboard, rotating it takes a few minutes. LockedVibe has a free guide to rotating exposed API keys . LockedVibe is our sister company (same owner) and has no say over this entry. Disclosure .
+Sponsor Your sponsor here: see /sponsor/ Weekly digest. New incidents and plan changes, once a week. Subscribe
+By subscribing you agree to receive the weekly VibeIncidents digest by email. Every email has an unsubscribe link, and you can unsubscribe at any time. We use Kit to send it. See our privacy policy .
+Vibe Incidents An independent, sourced log of security
+and reliability incidents in AI-built software.
+EXPLORE
+Incident log Platforms Exposed keys research News Tracker ABOUT
+Methodology Sources Corrections Disclosure WORK WITH US
+Sponsor API access Newsletter Digest archive THE SMALL PRINT
+Privacy Terms Cookies
+&copy; 2026 VibeIncidents Independent editorial. Every claim links to a source; severity ratings are our editorial call. See the disclosure for our relationship with LockedVibe.
+RSS ↗ @VibeIncidents ↗ u/VibeIncidents ↗
+Ⅱ Pause effects 

@@ -1,0 +1,77 @@
+ OpenCode says breach tied to distillation attack exposed users' AI provider keys | The Latent
+The Latent
+EN ▾ English Español 中文 Português Français العربية 日本語 한국어
+Free newsletter
+NEWS BENCHMARKS DATA LEARN NEWSLETTER PARTNER WITH US →
+Models
+OpenCode says breach tied to distillation attack exposed users' AI provider keys
+Zack Abrams October 17, 2026 at 9:07 PM UTC
+100% human written Human Written Human 100% AI written 0% AI-assisted 0% We believe that this entire text is human-written. Independently verified by Pangram
+Written by human journalists under our human-written standard . Last checked Oct 17, 9:07 PM.
+A breach at OpenCode late Friday exposed OpenAI, Anthropic and other provider keys saved by some users of its paid Console product, the company said Saturday. It put the share of Console users affected at 1.4%.
+OpenCode, an open-source coding agent that developers run in a terminal, code editor or desktop app, works with models from more than 75 providers, including Anthropic, OpenAI and Google. In order to work with those models, users can provide private API keys from those firms to give OpenCode access to their models; it is these keys that were apparently exposed for some users of its Console product.
+Built by Anomaly, the project's GitHub repository has about 215,000 stars, more than OpenAI's Codex CLI or Google's Gemini CLI. The company says 16 million developers use the agent every month.
+"We had a security breach last night related to a large scale distillation attack that impacted 1.4% of OpenCode Console users," the project's X account posted Saturday afternoon, adding that it notified all affected users by email. "The incident is ongoing so we cannot share more details at this point but we are working with Anthropic, OpenAI, and Google to remediate."
+Affected users got an email Saturday morning with the subject line "Action Required: Potential provider key breach." The message, which security writer Matt Johansen shared on X , said someone had gained "unauthorized access to a legacy system that we were in the process of decommissioning." Keys "saved in your workspace may have been exposed," it said. Users were asked to revoke the keys through each provider's dashboard and advised to monitor their accounts for unexpected usage.
+Surprise charges drew attention
+Before OpenCode said anything publicly, some users noticed unexplained charges related to usage of their API keys. Johansen, who runs the newsletter Vulnerable U, noted in an X post on Saturday that customers were DMing him about API keys "running up charges."
+Some users posted their own numbers. Colin Parsons wrote on X at 9:36 a.m. ET, before OpenCode had said anything publicly, that his OpenAI key had been "pounded" for $281 of usage starting at 2 a.m. ET, and his Anthropic key for $168. He said he only used both keys in OpenCode.
+Others replied to Parsons with similar stories. Preston Zeller put his losses at $1,700, and Francisco Giancarelli said he saw "over 700 in openai usage before I pulled the plug." Alejandro García Iglesias said in addition to API credits from OpenAI and Anthropic being stolen, his OpenAI account got suspended. The Latent could not independently verify the reports.
+OpenCode hasn't disclosed the exact number of affected users, the scale of losses, or whether it plans to reimburse victims.
+OpenCode's Console feature sells pay-as-you-go access to models that OpenCode has tested with its coding harness . Workspace admins can also connect their own provider accounts, and Console stores those keys on its servers, per the docs . OpenCode hasn't publicly disclosed how many users Console has.
+OpenCode did not explain how it linked the leaked keys to the "large scale distillation attack." Distillation training typically sees an AI firm try to train a new model, or improve that model's training, using the outputs from another model.
+Dax Raad, who builds OpenCode at Anomaly, wrote on X Saturday afternoon that his personal accounts were "being attacked now too." Raad did not immediately respond to a request for comment from The Latent.
+Distillation crackdown widens
+AI labs and U.S. officials have been going after distillation attacks for months, with mixed success. U.S. agencies in September accused six Chinese firms , including DeepSeek and Kimi-maker Moonshot AI, of extracting billions of tokens out of American models and using them to train their own AIs. Both labs have AI models that rank in the top 20 by Latent Score : DeepSeek's V4.1-Flash currently ranks at #14 , while Moonshot's Kimi K3 ranks at #18.
+OpenAI also said a Moonshot-linked group tried to extract reasoning traces from its models, outputs that can also be used for distillation training, before it shut the campaign down in July.
+OpenCode promised to update users as it learns more about the attack.
+Human written
+This article was reported and written by Zack Abrams, a human journalist at The Latent. Independent AI detection by Pangram classified the text as 100% human written.
+Our human-written standard · Verification report
+Entities in this story
+OpenAI
+Anthropic
+Google
+Related stories
+Meta teams up with Apple to bring massive Muse Spark Open AI model to desktop computers
+Tether launches AI speech recognition model that preserves privacy through offline transcription
+Google launches Gemini 4 Argon, opening latest frontier model to developers and enterprises
+Who we are
+The Latent
+The Latent is a news provider that strives to be the first and final word on AI news, research, and data.
+Subscribe to our newsletter Partner with us
+Connect with The Latent on
+server-island-start
+The Latent Independent reporting on the AI industry: the models, the money, the machines and the rules. A sister publication to The Block.
+Follow us
+NEWS
+Live News
+Models
+Compute
+Business
+Policy
+Safety
+Adoption
+Press Releases
+Newsletters
+DATA
+Data
+Benchmarks
+Score
+Methodology
+LEARN
+Learn
+Glossary
+Company
+About
+Team
+Partner with us
+Brand kit
+Contact
+Editorial
+Standards
+Corrections
+Commercial policy
+The Block
+© 2026 The Latent. All rights reserved.
+Privacy Policy • Terms of Service • Security

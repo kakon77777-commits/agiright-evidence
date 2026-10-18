@@ -1,0 +1,67 @@
+{
+  "id": "topic-2026-000331",
+  "url": "https://x.com/opencode/status/2111519637049319818",
+  "capturedAt": "2026-10-18T13:27:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "220765303e46d4e09b96673dcbeaa80fc10dab726a6d62d7388739e7e237f06e",
+    "width": 640,
+    "height": 900,
+    "bytes": 47896,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-18T13:27:07Z",
+    "url": "https://x.com/opencode/status/2111519637049319818",
+    "finalUrl": "https://x.com/opencode/status/2111519637049319818",
+    "screenshot": {
+      "sha256": "220765303e46d4e09b96673dcbeaa80fc10dab726a6d62d7388739e7e237f06e",
+      "width": 640,
+      "height": 900,
+      "bytes": 47896,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2111519637049319818",
+      "handle": "opencode",
+      "syndicationSha256": "c6ed2c6927932fba7cf63e805b0631e726ba99532acf3c3d40dbc9953e615329",
+      "createdAt": "2026-10-17T18:08:06.000Z",
+      "isEdited": true,
+      "editVersions": 2,
+      "authorHandle": "opencode",
+      "lang": "en",
+      "textSha256": "f467747489ee346894d7e384be9eee76e02a20cb6cb99ab64f4f0a2257f8e249",
+      "media": [],
+      "oembedSha256": "3da71e85d8aff4ddc60b1da32bae4c1d026103c0a50d8eb289bcb200b4d1cf67",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261017181318",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261017181318/https://x.com/opencode/status/2111519637049319818"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "existing",
+      "url": "https://web.archive.org/web/20261017181318/https://x.com/opencode/status/2111519637049319818",
+      "timestamp": "20261017181318",
+      "verifiedHttp": 200,
+      "note": "existing public capture made by others; our own save requests to x.com fail, so none was requested"
+    }
+  }
+}

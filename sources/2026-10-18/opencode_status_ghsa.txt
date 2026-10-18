@@ -1,0 +1,18 @@
+Observed 2026-10-18 (Taipei, evening) in the 幻想人 Chrome, page text.
+
+https://status.opencode.ai/  (title: "Degraded performance · OpenCode Status")
+Degraded · Ongoing
+Upstream provider issues
+Started 00:03 UTC · 13 hr 18 min
+An upstream model provider is having problems, so some requests are failing.
+Free inference: glm-5.3-flash-free and nemotron-3.5-lightning-free are seeing increased error rates.
+Free inference
+Detected automatically. This page updates as soon as services recover.
+
+https://github.com/anomalyco/opencode/security/advisories  (title: "Security Advisories · anomalyco/opencode · GitHub")
+Advisories 3
+Cross-site OpenCode server upgrade request can install arbitrary packages for npm-based installations -- GHSA-632h-h47v-g4x4 published by rekram1-node -- High
+Malicious website can execute commands on the local system through XSS in the OpenCode web UI -- GHSA-c83v-7274-4vgp published by thdxr -- Critical
+Unauthenticated HTTP Server Allows Arbitrary Command Execution -- GHSA-vxw4-wv6m-9hhh published by thdxr -- High
+
+https://x.com/opencode  (profile page text): the most recent post shown was the breach statement above.
