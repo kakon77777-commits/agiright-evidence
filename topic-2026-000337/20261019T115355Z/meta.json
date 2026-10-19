@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000337",
+  "url": "https://www.csa.gov.sg/news-events/speeches/transcript-of-media-doorstop-by-mr-k-shanmugam--senior-minister--coordinating-minister-for-national-security-and-minister-for-home-affairs--at-the-singapore-international-cyber-week--on-13-october-2026/",
+  "capturedAt": "2026-10-19T11:53:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 454688,
+    "sha256": "a42be137c912bb53c82986607a8884b5d0dc37d70e38902796f66cc8829341d1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "EFF429A9149154FEAF9320BBD84DB311",
+      "status": 403,
+      "url": "https://www.csa.gov.sg/news-events/speeches/transcript-of-media-doorstop-by-mr-k-shanmugam--senior-minister--coordinating-minister-for-national-security-and-minister-for-home-affairs--at-the-singapore-international-cyber-week--on-13-october-2026/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a9d96a6cd7572f74c6614c23856472a4d1964ad27422148c2ba2102817781368",
+    "width": 1366,
+    "height": 900,
+    "bytes": 23688,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-19T11:53:55Z",
+    "url": "https://www.csa.gov.sg/news-events/speeches/transcript-of-media-doorstop-by-mr-k-shanmugam--senior-minister--coordinating-minister-for-national-security-and-minister-for-home-affairs--at-the-singapore-international-cyber-week--on-13-october-2026/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 454688,
+      "sha256": "a42be137c912bb53c82986607a8884b5d0dc37d70e38902796f66cc8829341d1"
+    },
+    "finalUrl": "https://www.csa.gov.sg/news-events/speeches/transcript-of-media-doorstop-by-mr-k-shanmugam--senior-minister--coordinating-minister-for-national-security-and-minister-for-home-affairs--at-the-singapore-international-cyber-week--on-13-october-2026/",
+    "httpStatus": 403,
+    "title": "ERROR: The request could not be satisfied",
+    "rendered": {
+      "textChars": 512,
+      "textSha256": "1e96f03d992088dddebb235bc25cbe024811aa2da671b3728775d453ec596850",
+      "htmlSha256": "c37223bc62c73362a3f6c60264764143dea4f0c4b82c066bbde6390bff6d68b2"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "a9d96a6cd7572f74c6614c23856472a4d1964ad27422148c2ba2102817781368",
+      "width": 1366,
+      "height": 900,
+      "bytes": 23688,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261019115406/https://www.csa.gov.sg/news-events/speeches/transcript-of-media-doorstop-by-mr-k-shanmugam--senior-minister--coordinating-minister-for-national-security-and-minister-for-home-affairs--at-the-singapore-international-cyber-week--on-13-october-2026/",
+      "timestamp": "20261019115406",
+      "verifiedHttp": 200
+    }
+  }
+}

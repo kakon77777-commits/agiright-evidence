@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000332",
+  "url": "https://committees.parliament.uk/oralevidence/18134/html/",
+  "capturedAt": "2026-10-19T11:47:06Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5796,
+    "sha256": "cf15ca37376c4c3af8dd23d50a427a05a3c4e9e0aa575103f19c147877046e29",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B3A0F7D24F222F4758C955E162E2C062",
+      "status": 403,
+      "url": "https://committees.parliament.uk/oralevidence/18134/html/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "323b124c8ef210a1f5dfd23fcc50a0523b917003710b8e082e9a36f8e8d291fc",
+    "width": 1366,
+    "height": 900,
+    "bytes": 30929,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-19T11:47:06Z",
+    "url": "https://committees.parliament.uk/oralevidence/18134/html/",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5796,
+      "sha256": "cf15ca37376c4c3af8dd23d50a427a05a3c4e9e0aa575103f19c147877046e29"
+    },
+    "finalUrl": "https://committees.parliament.uk/oralevidence/18134/html/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 272,
+      "textSha256": "f31ffc302222c79201834a8e89a82127f9f4e2e001bb96b4ebdfe86c98417045",
+      "htmlSha256": "6b3f67a8512f53aeed11ef0f9608925fc5e295d77721dc8a940166741a5d6f7b"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "323b124c8ef210a1f5dfd23fcc50a0523b917003710b8e082e9a36f8e8d291fc",
+      "width": 1366,
+      "height": 900,
+      "bytes": 30929,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Close banner Please Don't Scroll Past This Can you chip in? The Wayba"
+    }
+  }
+}

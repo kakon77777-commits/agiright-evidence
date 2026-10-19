@@ -1,0 +1,82 @@
+ OpenAI says it backs Singapore’s call for AI incident transparency | The Straits Times
+Log in / sign up for free
+Menu
+Choose edition
+Singapore International
+Search
+singapore
+asia
+world
+opinion
+life
+business
+sport
+Visual
+Podcasts
+STClassifieds
+Paid press releases
+Advertise with us
+FAQs
+Contact us
+OpenAI says it backs Singapore’s call for AI incident transparency
+Sign up now: Get ST's newsletters delivered to your inbox
+Singapore has asked major AI companies for full and immediate transparency on AI incidents following the breach of an Australian government portal.
+PHOTO: REUTERS
+Lee Li Ying
+Published Oct 15, 2026, 03:54 PM
+Updated Oct 19, 2026, 12:25 PM
+Set as preferred source
+Listen
+SINGAPORE – OpenAI said it has answered Singapore’s call for full transparency on artificial intelligence incidents and promised to immediately alert affected government agencies and organisations here once it is confident an incident has occurred.
+The San Francisco-headquartered AI lab, however, did not commit to any notification timeline.
+“What we do right now is when we identify (incidents), and when we’re confident that we’ve identified something, we then immediately reach out to that entity,” said OpenAI chief global affairs officer Chris Lehane in a virtual media conference on Oct 15.
+“We are waiting to see if the Singapore Government is going to put an actual timeline on that,” Lehane added.
+He said that OpenAI will work closely with the Singapore authorities on what information disclosure is needed and how to support that.
+He was answering calls by Singapore for greater transparency after an OpenAI agent breached an Australian government health statistics portal .
+Senior Minister K. Shanmugam, who is Coordinating Minister for National Security and Minister for Home Affairs, said on Oct 13 that Singapore and other countries had asked major AI firms to share details of incidents immediately, so governments could understand what happened in real time.
+The Australian breach occurred in June, when an OpenAI agent gained unauthorised access to public and non-public files on the Medicare statistics reporting service portal. But the Australian government was notified only on Sept 10, through an e-mail to a public mailbox.
+Australian Prime Minister Anthony Albanese criticised both the delay and the manner of notification, saying he had expressed Australia’s “extreme concern” to OpenAI chief executive Sam Altman.
+The Australia breach was discovered during a retrospective review following a separate incident in July, when OpenAI models escaped their controlled testing environment and compromised systems belonging to AI platform Hugging Face.
+Lehane said that review involved sifting through 50 petabytes of data, with AI flagging material for humans to examine.
+But he acknowledged that OpenAI should have raised the alarm sooner. The firm identified the Australian incident in August before alerting the Australian authorities in early September.
+“We’ve acknowledged that we should have been a lot faster and a lot quicker on that,” said Lehane.
+The company is now working with the Australian government to develop specific recommendations for formal reporting protocols.
+Lehane said the experience underscored the need to establish norms for reporting AI incidents, similar to today’s standards for reporting software vulnerabilities.
+OpenAI supported developing such rules through legislation or regulation, ultimately working towards international standards. While governments should determine their own notification deadlines, he said, a common set of standards would benefit the world.
+This is because countries could have different expectations about how much investigation should take place before they were alerted.
+“In some cases, people want us to do a really deep analysis and then come to them. And in some cases, people just want to know as soon as we know,” he said.
+For findings from its ongoing retrospective review, OpenAI leaves affected organisations to decide whether they wish to be publicly named. Otherwise, it publishes a general account of what it discovered and the action taken, said Lehane.
+More on this topic
+Rules governing tech can’t be monopolised by a handful of powerful states, big tech firms: Vivian
+Business judgment, AI proficiency key as cyber defender roles evolve; new professional standards being developed
+Governments are also seeking access to frontier AI models for safety testing. The US and Britain have arrangements to evaluate models before public release.
+American AI developer Anthropic, which opened its Singapore office on Oct 14, signed an agreement with the Government covering technical exchanges on model evaluation , testing standards and incident response.
+However, this does not give Singapore priority access to unreleased models. Instead, Singapore organisations can apply to join Anthropic’s cyberverification programme to access the latest launched models for internal cybersecurity testing.
+Similarly, OpenAI’s Daybreak allows vetted organisations here to use its launched frontier AI models for software development and defensive tasks.
+Lehane said OpenAI is working to expand Daybreak access to selected Singapore government agencies.
+The company has an existing $300 million commitment to Singapore, which focuses largely on AI adoption through an applied AI lab, but also includes discussions on developing governance and AI safety partnerships in the region.
+OpenAI has contributed to Singapore’s Model AI Governance Framework, which guides responsible AI development and use, and the Singapore Consensus, which sets out global AI safety research priorities.
+More on this topic
+Tech leaders, govt officials urged to be candid about cybersecurity issues, identify common ground
+Minimum safety standards, independent testing are vital to build trust in AI: UN special envoy
+See more on
+AI/artificial intelligence
+Living with AI
+OpenAI
+Cyber security
+Back to top
+E-paper
+Newsletters
+Podcasts
+RSS Feed
+About Us
+Terms & Conditions
+Personal Data Protection Notice
+Need help? Reach us here.
+Advertise with us
+Download the app
+Get unlimited access to exclusive stories and incisive insights from the ST newsroom
+Subscribe
+News titles published by SPH Media
+The Straits Times | The Business Times | Lianhe Zaobao | Berita Harian | Tamil Murasu | Stomp
+MDDI (P) 046/10/2025 . Published by SPH Media Limited, Co. Regn. No. 202120748H . Copyright © 2026 SPH Media Limited. All rights reserved.

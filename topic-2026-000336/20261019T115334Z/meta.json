@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000336",
+  "url": "https://x.com/ajcimino/status/2111932795714977941",
+  "capturedAt": "2026-10-19T11:53:34Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a59e8701fba7cb1d82d20b20e9f1203878e7f786650dcf5269aef61c545bc201",
+    "width": 640,
+    "height": 1527,
+    "bytes": 334453,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-19T11:53:34Z",
+    "url": "https://x.com/ajcimino/status/2111932795714977941",
+    "finalUrl": "https://x.com/ajcimino/status/2111932795714977941",
+    "screenshot": {
+      "sha256": "a59e8701fba7cb1d82d20b20e9f1203878e7f786650dcf5269aef61c545bc201",
+      "width": 640,
+      "height": 1527,
+      "bytes": 334453,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2111932795714977941",
+      "handle": "ajcimino",
+      "syndicationSha256": "8e9f00059343dc88ec7e7040e56a006ece358d20644d29711b7484e207587410",
+      "createdAt": "2026-10-18T21:29:50.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "ajcimino",
+      "lang": "en",
+      "textSha256": "bc42007961c34d3afcd4853f5aff6db4e8dc924bd8d4a39a92138dd4282b8046",
+      "media": [],
+      "oembedSha256": "ad58a9626c2b5ee3acd53416930c1bd32f2a8abcb78d7e38d5908f76a7f9746d",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

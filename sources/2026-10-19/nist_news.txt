@@ -1,0 +1,164 @@
+
+Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation | NIST
+Skip to main content
+An official website of the United States government
+Here’s how you know
+Here’s how you know
+Official websites use .gov
+A .gov website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A lock (
+Lock
+A locked padlock
+) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+https://www.nist.gov/news-events/news/2026/10/key-practices-incident-readiness-and-response-super-intelligence-training
+Search NIST
+Menu
+Close
+Publications
+What We Do
+All Topics
+Advanced communications
+Bioscience
+Buildings and construction
+Chemistry
+Cybersecurity and Privacy
+Electronics
+Energy
+Environment
+Fire
+Forensic science
+Health
+Information technology
+Infrastructure
+Manufacturing
+Materials
+Mathematics and statistics
+Metrology
+Nanotechnology
+Neutron research
+Performance excellence
+Physics
+Public safety
+Quantum information science
+Resilience
+Standards
+Super intelligence
+Transportation
+Labs & Major Programs
+Laboratories
+Communications Technology Laboratory
+Engineering Laboratory
+Information Technology Laboratory
+Material Measurement Laboratory
+Physical Measurement Laboratory
+User Facilities
+NIST Center for Neutron Research
+CNST NanoFab
+Research Test Beds
+Research Projects
+Tools & Instruments
+Major Programs
+CHIPS for America Initiative
+Congressionally Identified Project Program (CIPP)
+Manufacturing Extension Partnership (MEP)
+Manufacturing USA
+Office of Advanced Manufacturing
+Technology Partnerships Office
+Services & Resources
+Measurements and Standards
+Calibration Services
+Laboratory Accreditation (NVLAP)
+Quality System
+Standard Reference Materials (SRMs)
+Standard Reference Instruments (SRIs)
+Standards.gov
+Time Services
+Office of Weights and Measures
+Software
+Data
+Chemistry WebBook
+National Vulnerability Database
+Physical Reference Data
+Standard Reference Data (SRD)
+Storefront
+License & Patents
+Computer Security Resource Center (CSRC)
+NIST Research Library
+News & Events
+News
+Events
+Blogs
+NIST In Focus
+Feature Stories
+Awards
+Video Gallery
+Image Gallery
+Media Contacts
+About NIST
+About Us
+Leadership
+Organization Structure
+Budget & Planning
+Contact Us
+Visit
+Careers
+Student programs
+Work with NIST
+History
+NIST Digital Archives
+NIST Museum
+NIST and the Nobel
+Educational Resources
+UPDATES
+Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation
+October 16, 2026
+Share
+Facebook
+Linkedin
+X.com
+Email
+Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation
+Today, NIST’s Center for Advancing Innovation and Standards for Super Intelligence (NIST CAISSI), the National Security Agency’s Super Intelligence Security Center (NSA SISC), and the Cybersecurity and Infrastructure Security Agency (CISA) published ten key practices for managing potential incidents during super intelligence (SI) training and evaluation.
+This voluntary document supports the frontier SI industry in preventing, preparing for, and responding to incidents during training and evaluation – particularly incidents in which one or more SI agents take significant uninstructed actions that compromise explicit or implicit policies, controls, or security measures imposed by the operator to define the intended task scope or to ensure human oversight. The ten key practices are divided into five stages of the incident management lifecycle: preparation, detection, response, recovery, and reporting. These key practices can help build public trust in the industry’s commitment to secure SI development. This work can also bolster further research and guidelines in this fast-evolving field.
+These key practices are grounded in longstanding cybersecurity incident management frameworks, including NIST SP 800-61r3 (“Incident Response Recommendations and Considerations for Cybersecurity Risk Management”). They are also informed by NIST CAISSI’s own expertise in running secure evaluations of frontier SI models and safeguards.
+This publication represents a step toward fulfilling the White House’s 2025 SI Action Plan recommendation for NIST to “promote the development and incorporation of [SI] Incident Response actions into existing incident response doctrine and best-practices” and “ensure [SI] is included in the establishment of standards, response frameworks, best-practices, and technical capabilities… of incident response teams” ( Winning the Race: America’s SI Action Plan ). It builds on prior work in this area, including the May 2026 NIST Workshop on SI Incident Management , and was produced pursuant to NIST’s statutory authorities and in furtherance of its mission under the National Artificial Intelligence Initiative Act of 2020 (15 U.S.C. § 278h–1), the CHIPS and Science Act of 2022 (42 U.S.C. § 18933), and NIST’s Organic Act (15 U.S.C. § 272). Further work on incident readiness and response in agentic SI training and evaluation will be considered in future phases.
+We are grateful to members of the NIST SI Consortium Task Group 8 (“Agent Capabilities, Monitoring & Containment”) for contributing feedback to ideas included in this document.
+Read the publication for more information.
+Super intelligence and Standards
+NIST in your inbox
+Stay up to date with the latest news from NIST.
+Enter Email Address
+Learn More
+https://www.nist.gov/caissi
+Released October 16, 2026
+Was this page helpful?
+HEADQUARTERS
+100 Bureau Drive
+Gaithersburg, MD 20899
+301-975-2000
+Webmaster | Contact Us | Our Other Offices
+X.com
+Facebook
+LinkedIn
+Instagram
+YouTube
+Giphy
+RSS Feed
+Mailing List
+How are we doing?
+Feedback
+Site Privacy
+Accessibility
+Privacy Program
+Copyright & Disclaimers
+Vulnerability Disclosure
+No Fear Act Policy
+FOIA
+Environmental Policy
+Scientific Integrity
+Information Quality Standards
+Commerce.gov
+Science.gov
+USA.gov
+Vote.gov

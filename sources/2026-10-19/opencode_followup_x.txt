@@ -1,0 +1,23 @@
+Sources (page text / article innerText read 2026-10-19 Taipei in the 幻想人 Chrome, no login action):
+
+(a) Tibo @thsottiaux https://x.com/thsottiaux/status/2112034063934742720 -- displayed 下午12:12 · 2026年10月19日 (Taipei) = 04:12 UTC; views 51.7萬:
+Our team worked with OpenCode to have their users who are also OpenAI API customers back in business and any credits refunded which would have been drawn in the attack.
+
+Also, you can request Daybreak Blue access to use our cyber permissive setup for defense. Do not wait until you have to deal with an incident. We’re here to help.
+
+(b) Andrew Curran @AndrewCurran_ https://x.com/AndrewCurran_/status/2111837963214794940 -- displayed 下午11:13 · 2026年10月18日 (Taipei) = 15:13 UTC; views 46.9萬:
+OpenCode is currently under a sustained cyberattack, and mid-incident they ran into the same problem Hugging Face did: the frontier models they were using for defense began refusing to help fight attacking agents because analyzing the attacks started triggering safety guardrails.
+[quote card] dax @thdxr (reply to @RhysSullivan): yes that was a bit frustrating mid incident when trying to investigate. they did quite a bit and then started refusing
+
+we got access to daybreak blue now so it's better
+
+(c) Andrew Curran @AndrewCurran_ https://x.com/AndrewCurran_/status/2111858075884040477 -- displayed 上午12:32 · 2026年10月19日 (Taipei) = 16:32 UTC Oct 18:
+They applied for Daybreak a few days ago.
+[quote card] dax @thdxr (reply to @diakou and @RhysSullivan): we coincidentally applied for it a few days ago and it got approved yesterday
+
+i don't think anyone is refusing to help us
+
+(d) Andrew Curran @AndrewCurran_ https://x.com/AndrewCurran_/status/2111871899550826630 -- text: Special guest star, David Sacks:
+[quote card, truncated in the page] David Sacks @DavidSacks, displayed 上午1:27 · 2026年10月19日 (Taipei) = 17:27 UTC Oct 18: This illustrates the point I’ve been making about the limits of centralized approaches to SI safety in cyber.
+
+OpenCode (and earlier Hugging Face) hit the same wall mid-attack: frontier models refused to analyze the very exploits needed for defense because the payloads tripped [truncated at "x.com/andrewcurran_/..."]
