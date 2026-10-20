@@ -1,0 +1,42 @@
+YouTube video hqVzXhkBWp4 (The Information, "Pentagon CTO on Anthropic, AI Safety and 'Super Intelligence'"): YouTube's auto-generated English transcript panel, remaining segments read on 2026-10-20 (later the same day): 4:37 to 7:36 and 16:41 to 45:12. Disfluencies and recognition errors are the captions' own. Passages copied below are those quoted in the entries.
+
+[17:00] Are you expecting are you expecting the the supply chain risk legal battle with
+[17:05] Enthropic to go to the Supreme Court? You have we've had two cases now with with very different decisions.
+[17:12] Yeah. The I mean the the the case in California was at a district court level. Um the one in DC that we won was
+[17:19] at a circuit court level. So that would be the controlling um you know precedent in our view. I'm sure that they appealed
+[17:26] that already. Um I think we'll win and you know but you know the legal
+[17:31] processes are legal processes and and I think you know I think everyone was they
+[17:37] were surprised that we were one. It was clear to me that we were going to win but um but we'll see.
+
+[16:47] the same terms of use um that which were for all lawful use cases. We could use his software. Google signed the same
+[16:53] thing. So really the outlier are the ones that say they want to impose their views on the Department of War, not the
+[17:00] standard.
+
+[19:04] an incident framework. Do you think that will be something set in stone that the the companies will agree to?
+[19:21] Yeah. Well, the the three things out of the SIF are this incident response framework, this um you know, how are we
+[19:30] going to make sure critical infrastructure is hardened, and then what laws and regulations we already have that apply uh to these kinds of
+[19:38] companies in this new technology area. Separately, the David Saxsled uh
+[19:43] advisory board called PCAST, I forget what it stands for at the moment. They're going to do a study on any
+[19:49] recommendations that might exist um that are necessary for legislation.
+
+[25:57] and where do you stand on that currently? Well, I think you know it's a it's uh you know in general from a
+[26:03] business model standpoint I'm very in favor of open source particularly American open source because I think um
+[26:10] you know it it's a democratization of intelligence if you will um and I think
+[26:16] there's some real goodness in that and I think there's also a level of auditability in it because you're
+[26:21] showing your weights which are sort of the brains of of SI and in theory people
+[26:27] can audit that over time maybe the people will have you know and probably industries will have to develop around that to to do that effectively um and so
+[26:50] from an auditability standpoint there's a lot of good things in it um I think you know the concerns you have it
+[26:55] frankly were Chinese open source u becoming dominant in the US. I worry about that a little bit because um you
+[27:04] know those companies are subject to the rule of the Chinese government, right? So what do those models look like now?
+[27:11] But can you solve that with audit auditability? U well I prefer to solve it with American open source like
+[27:16] Neatron, like reflection AI, like thinking machines. Um but I think you
+[27:22] know none of these companies yet is at the frontier. um right American companies.
+
+[43:37] tougher one, but I think it's it's it's worth asking because I get a lot of questions about it. Um, so, uh, I don't
+[43:42] know if you're directly involved in this, but but some of the Pentagon investigations on the Minab school
+[43:48] strike in in Iran have reportedly, you know, shown that yes, there was human error um involved in that. Um, but also
+[43:56] that maybe some of the AI or SI systems may have accelerated the the kill chain to the point where like, you know, there
+[44:03] was like a a rubber stamp on outdated uh uh human intelligence.
+[44:36] You know, I haven't read the report. So, it would be or I haven't heard I haven't, you know, I live like I'll tell
+[44:42] you, Amir, I live in a uh I live in a skiff all day, so I don't have my phone.
+[44:53] read any report. So, I I will I want to be careful about commenting on on that.
