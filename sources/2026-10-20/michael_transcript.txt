@@ -1,0 +1,94 @@
+YouTube video hqVzXhkBWp4, "Pentagon CTO on Anthropic, AI Safety and 'Super Intelligence'", The Information, uploaded 2026-10-19T06:00:26-07:00, 2715 seconds. Description: "Under Secretary of War Emil Michael sits down with The Information's Co-Executive Editor Amir Efrati and Tech and Politics Reporter Leo Schwartz to explain AI and the military, the government's clash with Anthropic, and more. He also breaks down the dangers of AI models overriding human military commanders, how the government could enforce AI safety rules, and what's at stake in the AI race with China."
+Text below = YouTube's auto-generated English transcript panel, read on 2026-10-20 (segments 0:00-4:31 and 7:36-16:41 copied; the rest not read). Disfluencies and recognition errors are the captions' own.
+
+第 1 章節：Super intelligence task force
+[0:00] Emil, welcome.
+[0:02] Good to good to be here. Good to see you both.
+[0:06] All right. Well, um you've just had the first full meeting of the SI task force yesterday. This was just set up to
+[0:13] coordinate a lot of uh super intelligence policy activity uh with the executive branch and and the private
+[0:20] sector. So tell us what was discussed, what are your goals for that group, uh and and anything else that's really um a headline from that.
+[0:31] Well, the the um the this group was formed on the backside of what was
+[0:37] really a historic summit that brought um the leaders of the super intelligence industry and you know the cloud
+[0:46] industry, the cyber security industry. I mean the number of people who were there from Lisa Sue to Jensen Wong to um Elon
+[0:54] Musk and and Dorio, you name it. Um it had really the quite the the roster of leaders from the tech industry at large.
+[1:03] And then specifically the subject was super intelligence and what is the government going to do to ensure that Americans get the benefits of uh of
+[1:12] super intelligence but um are protected against the risks. you know, the there's acknowledged risks with cyber and and
+[1:19] other categories. So, um Jay Clayton, who's the director of national intelligence, is leading it alongside of
+[1:26] me, Scott Koopour, um and uh and uh the head of the FTC, Andrew Ferguson. And so
+[1:33] what we're trying to do and what we did uh as the first meeting yesterday is start to task out how we start to um
+[1:42] define the relationship between the government and these super intelligence companies and I'm part in particular
+[1:49] responsible for the relationship with the super intelligence companies. I know a lot of these these folks uh and for the incident response like how are we
+[1:57] going to make it so that when something happens um the government knows about it and has visibility into it and then potentially can can point resources
+[2:06] toward that issue. Right. Um and then Andrew Ferguson from the FTC is going to focus on uh all the laws and regulations
+[2:15] that already exist today that apply to these companies. Uh so that the you know American people understand that there's like a robust set of protections they
+[2:24] already have. So um and Scott Kapoor is going to focus on critical infrastructure not just government critical infrastructure but hospitals, wastewater treatment plants, electricity
+[2:33] grid, banks, you name it. Um and so the meeting yesterday brought brought all of us together alongside of Susie Wilds and
+[2:41] uh Secretary of Treasury and Secretary of War uh among others to figure out how we're going to split up the tasks, how often are we going to meet, what is the
+[2:49] output of this 120day effort.
+
+第 3 章節：Balancing risks and regulation
+[7:36] I'm familiar with uh how big that bubble could be. And I'm not talking about a financial bubble, just the information bubble, um, if you will. And so, you
+[7:45] know, the the the the researcher who'd hopped between open AI and anthropic and then and a few weeks later sort of came
+[7:52] out and was talking about humanity ending in three years. You know, I I do think, you know, in this kind of
+[7:59] information environment that kind of gets a lot of play. like never before have you been able to get 200 million
+[8:06] views on something in a short period of time. Um unless it was so dramatic like that. Uh so I I think people may be
+[8:14] living in that bubble a little bit and you could believe that and also believe that there's some risks with the technology that we have to protect against like those two things are not
+[8:22] inconsistent. Um, and what I think is inconsistent is if these SI mega corpse
+[8:30] say, "Hey, you have to stop me because I can be doing something dangerous. I'm, you know, I'm the drunk driver in the
+[8:39] car. You've got to pull me over. I I don't I can pull over myself, but you have to pull me over so the other guys
+[8:46] don't don't get there first." That kind of thing doesn't make a logical a lot of logical sense to me. So um I try to take
+[8:54] a balanced approach to this and uh that balance is with with all great technologies.
+[10:06] What about the mechanisms that the executive branch currently has against AI companies that aren't adhering to these frameworks? Because one of the
+[10:13] biggest questions I know our readers have is a lot of these are voluntary.
+[10:17] You had the joint commitment that the Frontier Labs agreed to. Obviously, there's the voluntary framework that came out of the executive order this summer. Uh we saw in reporting yesterday
+[10:26] after the first meeting of the task force that a White House official said that export controls like were imposed on anthropic earlier this year were one
+[10:35] potential stick that could be used against AI companies. Do you think that's an an appropriate mechanism for keeping companies in line?
+[10:44] Yeah, of course. I mean, there's been something called um ITAR for years. If you ask any security cyber security
+第 4 章節：Relationship with Anthropic
+[10:51] researcher where there was certain amount of encryption for a while, you couldn't export that encryption because we thought it was too dangerous for for other countries to have that sort of
+[10:59] encryption. So we have lots of tools whether it's a a restriction on that a type of technology being export because
+[11:06] of the advantage we think it might give an adversary to just straight up export controls and limitation on foreign nationals ability to use uh that
+[11:15] software. That's just a few among uh many things that the executive branch can do. Then you're talking then you go
+[11:22] to law enforcement whether it's a bad trade practice um something that violates the deal you know a law that the DOJ can enforce on um there's
+[11:30] there's just a lot of them and I guess I'm not the the world's expert on this I think the FTC chairman is so I think you try to get an interview with him but
+[11:38] we've already proven that when Enthropic refused to pull back their model and this is the company that said you should
+[11:46] have the right to pull back any model at any time for any reason. That's what they said. We and they said they wouldn't when we found out it was jailbroken. They were export control
+[11:55] within two hours. So I think you can count on this administration, this president to act with urgency should there ever be a real issue.
+[12:03] So speaking of Anthropic, what's your relationship like with them today?
+[12:06] When's the last time you spoke to Daario or Tom or any of the other co-founders?
+[12:12] And then I have a a followup on kind of what's going on with Anthropic.
+[12:16] Yeah. Well, Anthropic is out of the Department of War. Um, as as we said six months ago, they would be. Um, I I was,
+[12:25] you know, I was with Daario at the White House event a few weeks ago. Um, I talked to all these companies and really
+[12:32] have for a long time constantly because my first duty is to or for, you know, to the department and for the American
+[12:39] people uh, from a national security standpoint. And if that means I'm talking to someone who's suing me, well, then I'm talking to them. That's okay.
+[12:47] [laughter] Um, so I I talk to them um as as much as I need to and it'll probably be more in the coming weeks and months.
+[12:54] So just do you feel Yeah. Go ahead, please. I say quickly, what do you expect to be working with Enthropic on? And do you think that relationship, that tense
+[13:01] relationship you have with them will impair at all this new responsibility you have as the vice chair of the SI task force and and being responsible for interfacing with these companies?
+[13:12] No, they're they're I'm an adult.
+[13:14] They're adults. Um, you know, I've seen Tom Brown many, many times and spoken to him many, many times and expect to be dealing with them just as much as I'm
+[13:23] dealing with the other SI companies in a fair, even-handed manner. We're trying to get to common frameworks, right? The
+[13:31] White House accord was four common elements that they each agreed to to implement and I think the things that we
+[13:38] will be doing in the future whether it's incident response will be a common framework that they all agree to hopefully about how to report incidences
+[13:46] and how to rate the severity of incidences. So I expect to work with them uh fruitfully through this period.
+[13:53] And when it comes to to the department of war, obviously you have the contract cancellation with Anthropic, labeling them a supply chain risk. Um, you know,
+[14:01] there's been a lot of chatter here in Silicon Valley about anthropic uh kind of imbuing its uh AI with the ability to
+[14:10] be like a conscientious objector and telling customers that they cannot scold or use abusive language with the model.
+[14:19] uh Mustafa at at Microsoft is warning about this kind of anthropomorphizing um of the technology because maybe that
+[14:26] in and of itself could could lead to AI taking unintended con actions. And so do you agree with with that? What do you
+[14:34] think about that? And and do you think you'll ever change your mind on working with anthropic at the Department of War?
+[14:40] I I mean here here's my very very succinct view on this which is if you
+第 5 章節：Legislation and oversight
+[14:47] don't want humans to lose control you can't give models the control over humans and that that whole notion that a
+[14:56] model has feelings and it can overrule the founders of a company is by definition loss of control. They are
+[15:03] saying we want to lose control to something that may be smarter than us or have a conscious or maybe more moral than us and have a conscious than us
+[15:11] that I don't agree with as a moral principle. Um and as long as that moral principle is embedded in their software
+[15:18] because they attach their constitution um which has that concept against how the model behaves. I cannot have them at
+[15:27] the department of war because the department of war we have a command and control. We have a constitutional structure that says the commander-in-chief and then he delegates
+[15:36] that power down forward. If a model gets in between one commander and their superior and says, "Well, I don't like
+[15:43] what you say despite that your commander saying it." That doesn't work in the military. I don't think the American people want that to work in the
+[15:50] military. So, um, you know, if that would happen in the real world, you would have to quit your job and you just leave. You're like, I don't want I don't want to do what my boss is telling me to
+[15:59] do. uh in this case when you have a foundational technology um that that in a time of need you may not know how it's going to behave that just doesn't work.
+[16:08] So until unless they change that there's no there's no discussion. H how do you know that that models being developed by other companies don't have
+[16:16] hidden safeguards that prevent you from targeting whoever you want to target um or or or analyze data um at the
+[16:25] Department of War. Well, I mean, that's why you have terms of use in a contract and you have a con, you have either have a constitution or you don't. You have,
+[16:33] you know, the c, you know, you hear what Sam Alman says fairly regularly. It's like we, you know, we are governed by a democratic uh process. We live in a democratic society. They're an entity in that demo

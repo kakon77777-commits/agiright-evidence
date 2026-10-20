@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000341",
+  "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive",
+  "capturedAt": "2026-10-20T12:46:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 61433,
+    "sha256": "95cde04088c41d8c5645ba2a25e4009187c1ec2d1c4235ade136499274f52a1b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "111CDAFD9145887F7381B66856E106E0",
+      "status": 200,
+      "url": "https://unblock.federalregister.gov/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b4314ff095f2b1c5f0058945f944a1ecca434cdf007134b49a93daad4f7598d2",
+    "width": 1366,
+    "height": 900,
+    "bytes": 102270,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-20T12:46:28Z",
+    "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 61433,
+      "sha256": "95cde04088c41d8c5645ba2a25e4009187c1ec2d1c4235ade136499274f52a1b"
+    },
+    "finalUrl": "https://unblock.federalregister.gov/",
+    "httpStatus": 200,
+    "title": "Federal Register :: Request Access",
+    "rendered": {
+      "textChars": 864,
+      "textSha256": "a232cdaefc993a671b4d06b6415cb67084e944afc49ab143e76a72d058ed8652",
+      "htmlSha256": "84be6a55ee530741be7884093b2b017c8193c4f790a131e16b90d2f84a256934"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "b4314ff095f2b1c5f0058945f944a1ecca434cdf007134b49a93daad4f7598d2",
+      "width": 1366,
+      "height": 900,
+      "bytes": 102270,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261020075832",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261020075832/https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261020124651/https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive",
+      "timestamp": "20261020124651",
+      "verifiedHttp": 200
+    }
+  }
+}

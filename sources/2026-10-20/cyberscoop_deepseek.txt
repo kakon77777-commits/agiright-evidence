@@ -1,0 +1,180 @@
+
+DHS to ban DeepSeek from federal civilian agencies | CyberScoop
+Skip to main content
+Advertisement
+CyberScoop
+FedScoop
+DefenseScoop
+AIScoop
+StateScoop
+EdScoop
+Advertise
+Search
+Close
+Search for:
+Search
+Open navigation
+Topics
+Back
+AI
+Cybercrime
+Commentary
+Financial
+Government
+Policy
+Privacy
+Technology
+Threats
+Research
+Workforce
+Special Reports
+Events
+Podcasts
+Videos
+Insights
+FedScoop 50
+Switch Site
+CyberScoop
+FedScoop
+DefenseScoop
+AIScoop
+StateScoop
+EdScoop
+Subscribe
+Advertisement
+Get our latest cybersecurity news first on Google.
+Click here!
+Close
+AI
+DHS to ban DeepSeek from federal civilian agencies
+The order cites national security concerns, including sending data to servers in China, the potential for malware and the overall risk to federal IT systems.
+By
+Derek B. Johnson
+October 19, 2026
+Listen to this article
+0:00
+Learn more.
+This feature uses an automated voice, which may result in occasional errors in pronunciation, tone, or sentiment.
+The DeepSeek logo is seen on a display at a shopping mall in Hangzhou, in China's eastern Zhejiang province on April 23, 2026. Chinese startup DeepSeek released a new artificial intelligence model with "drastically reduced" costs on April 24, more than a year after it stunned the world with a low-cost reasoning model that matched the capabilities of US rivals. (Photo by CN-STR / AFP via Getty Images) / China OUT
+The Department of Homeland Security is banning the use of Chinese AI model DeepSeek and its affiliates by civilian federal agencies.
+The notice , set to publish Tuesday in the Federal Register, cites the Federal Acquisition Supply Chain Act and a review by the Federal Acquisition Security Council to bar federal agencies from buying all information technology products and services from parent company Hangzhou DeepSeek Artificial Intelligence.
+The notice includes a copy of a letter from Secretary of Homeland Security Markwayne Mullin ordering the exclusion of DeepSeek products on June 26, indicating the ban has been in place for months.
+Mullin claimed that DeepSeek’s models present “multiple threat vectors” to civilian federal agency IT systems. Some are unique to the company’s country of origin, while others identify potential privacy and mass data collection concerns that could also apply to other Chinese and U.S. AI models.
+Advertisement
+He said DeepSeek models store data in servers based in China, where national security laws give the Chinese government wide latitude to request and obtain data from domestic companies. Models hosted directly by DeepSeek collect personally identifiable information from users and trace their “digital fingerprints” online. And like every other major AI model on the market, DeepSeek relies on a “prompt and response” process, something Mullin said “may result in the transfer of sensitive data” to the Chinese government.
+“The transfer of the aforementioned information to the [People’s Republic of China], either independently or in combination with publicly available data, could produce actionable intelligence on U.S. persons and/or government programs,” Mullin wrote.
+CyberScoop had reached out to CISA and DHS for further details.
+The decision will exclude federal agencies from using one of the most popular and powerful Chinese open-weight AI models more than a year after U.S. frontier AI companies and the federal government accused DeepSeek’s makers of “systematically” distilling their models.
+The order requires civilian agencies to exclude DeepSeek products from future procurements while removing any versions that might have been put in place prior to the ban. In the past, federal agencies have used their own discretion to block the use of models like DeepSeek, as the Department of Commerce confirmed to FedScoop last year.
+Agencies can request exceptions, but must submit their request 60 days in advance and must provide a “compelling justification” for the action, like an inability to fulfill a mission-critical function, or other national security considerations.
+Advertisement
+Mullin also said agencies that remove DeepSeek from their IT are “encouraged” to enhance their security controls to protect against the possibility that their networks were compromised through the Chinese AI tool.
+“During the period between the issuance of this order and full removal of covered articles from agency systems, federal agencies are encouraged to take steps to address risk to their systems, such as monitoring the flow of traffic in and out of the agency, implementing enhanced logging and controls on data exfiltration for the relevant systems, and detecting and flagging anomalous activity,” he wrote.”
+DeepSeek is the only Chinese AI model named in the order, but it’s just one of several Chinese open weight AI models that have worried national security officials or have been accused of illegally distilling U.S. models, along with Moonshot AI , the makers of Kimi and Alibaba , makers of Qwen.
+Written by Derek B. Johnson
+Derek B. Johnson is a reporter at CyberScoop, where his beat includes cybersecurity, elections and the federal government. Prior to that, he has provided award-winning coverage of cybersecurity news across the public and private sectors for various publications since 2017. Derek has a bachelor’s degree in print journalism from Hofstra University in New York and a master’s degree in public policy from George Mason University in Virginia.
+In This Story
+AI
+China
+Chinese AI
+Cybersecurity and Infrastructure Security Agency (CISA)
+DeepSeek
+Department of Homeland Security (DHS)
+Federal Acquisition Security Council
+national security
+procurement
+Share
+Facebook
+LinkedIn
+Twitter
+Copy Link
+Add to Preferred Sources
+Advertisement
+Advertisement
+More Like This
+Federal agencies recommend cyber controls, independent testing for frontier AI systems
+By
+Derek B. Johnson
+The next election influence campaign will target your AI chatbot
+By
+Derek B. Johnson
+Wyden seeks adoption of encryption tech at hundreds of federal agencies to protect visitors’ sensitive traffic
+By
+Tim Starks
+Advertisement
+Top Stories
+Spyware found on devices belonging to prominent Serbian critics as elections loom
+By
+Greg Otto
+Advertisement
+More Scoops
+Congressman James Walkinshaw, D-Va., speaks at a press conference with other Democratic members of House Homeland Security Committee (including Sri Thanedar, D-Mich., left, and Bennie Thompson, D-Miss., right) on the killing of Renee Good, outside the U.S. Capitol on January 14, 2026. (Photo by Nathan Posner/Anadolu via Getty Images)
+Dems seek top-to-bottom assessment of CISA workforce
+After the exit of around 1,000 CISA workers, legislation from three top House Democrats orders a force structure assessment like that more common to military branches.
+By
+Tim Starks
+(Getty Images)
+AI lets small actors run state-level hacking campaigns, Anthropic report finds
+By
+Greg Otto
+(Getty Images)
+Feds accuse China of ‘systematic’ distillation of U.S. AI models
+By
+Derek B. Johnson
+DHS to unveil replacement council for critical infrastructure cybersecurity
+By
+Derek B. Johnson
+Sen. Schumer seeks DHS plan on AI cyber coordination with state, local governments
+By
+Tim Starks
+U.S. robotics companies want federal help to keep Chinese robots out of America’s networks
+By
+Derek B. Johnson
+Chinese group’s ChatGPT use reveals worldwide harassment campaign against critics
+By
+Derek B. Johnson
+Latest Podcasts
+The messy middle of AI-powered bug disclosure
+Which nation-sate should worry us most
+What AI alignment means for cybersecurity
+Jailbreaks, sandboxes, and the limits of AI safeguards
+Government
+Cybersecurity incident at BAE Systems disrupts US bankruptcy court system
+Senators press Trump admin to rally federal government around AI safety, security
+FTC says ‘sextortion’ protection companies deceived customers about services
+Anthropic rolls out program for ‘long-term commitment’ to secure critical infrastructure, open source software
+Technology
+DOJ, FBI seize Flax Typhoon-linked hacking tools Microscan, FishHub
+OpenAI says Iran, Russia used AI journalists, think tanks to influence Western media
+FBI, French authorities seize deepfake CSAM-for-sale websites
+The legal questions raised by agentic AI hacks
+Threats
+Prolific Chinese espionage group exploits BeyondTrust zero-day
+AdFection: How mercenary spyware invades victims’ devices through targeted advertising
+Authorities charge alleged OLVX cybercrime marketplace operator in North Macedonia
+Microsoft drops an actively exploited zero-day among record high of 1,413 vulnerabilities
+Policy
+Major rules for federal contractors handling sensitive data are nearing the finish line
+Wiretapping change sparks big privacy fight in the Golden State
+Here’s how experts think CISA should tell agencies to protect OT
+National cyber director: Government-industry collaboration vital to managing AI risks, competition with nations
+Advertisement
+About Us
+CyberScoop
+FedScoop
+DefenseScoop
+AIScoop
+StateScoop
+EdScoop
+Newsletters
+Advertise with us
+Ad specs
+(202) 887-8001
+hello@cyberscoop.com
+FB
+TW
+LinkedIn
+IG
+YT
+Close Ad
+Continue to CyberScoop

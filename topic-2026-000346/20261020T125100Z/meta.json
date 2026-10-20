@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000346",
+  "url": "https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach",
+  "capturedAt": "2026-10-20T12:51:00Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 166225,
+    "sha256": "67a1889919b375c0268289afc31e244d4f1d3e8aa416f8cc918348560d6c5f01",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4D46F1CC8AFB6DA35C69D85CA101155A",
+      "status": 200,
+      "url": "https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5301,
+      "afterScrollHeight": 5301,
+      "wantedHeight": 5301
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "cbd78afd6d4949d2d00385095fb850594ee9d0ad8f639d17381ce280d238bac0",
+    "width": 1366,
+    "height": 5301,
+    "bytes": 1299409,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5301,
+    "afterScrollHeight": 5301
+  },
+  "record": {
+    "capturedAt": "2026-10-20T12:51:00Z",
+    "url": "https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 166225,
+      "sha256": "67a1889919b375c0268289afc31e244d4f1d3e8aa416f8cc918348560d6c5f01"
+    },
+    "finalUrl": "https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach",
+    "httpStatus": 200,
+    "title": "Anthropic’s weak AI bill undermines its ‘safety first’ approach",
+    "rendered": {
+      "textChars": 6957,
+      "textSha256": "f893bb1821034f705594609038a53870b094556ff634d1339a5bc35cc216fad2",
+      "htmlSha256": "4188c5096798401fa5181b2c27a2a861ff5d3c5d0eeb103db831dcee037c048e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "cbd78afd6d4949d2d00385095fb850594ee9d0ad8f639d17381ce280d238bac0",
+      "width": 1366,
+      "height": 5301,
+      "bytes": 1299409,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261020110901",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261020110901/https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261020110901/https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach",
+      "timestamp": "20261020110901",
+      "verifiedHttp": 200
+    }
+  }
+}

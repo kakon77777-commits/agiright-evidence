@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000344",
+  "url": "https://www.youtube.com/watch?v=hqVzXhkBWp4",
+  "capturedAt": "2026-10-20T12:48:36Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 1410286,
+    "sha256": "287a670e24b95cd8f37cf76c8a59a6acdd261c70fd2eee42091ba6114c180fca",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C49A63132E9BB3E6E6163887C2E31304",
+      "status": 200,
+      "url": "https://www.youtube.com/watch?v=hqVzXhkBWp4",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3361,
+      "afterScrollHeight": 6594,
+      "wantedHeight": 3361
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ef5d8f018c16e607274ddf1a753e69b32235545dab4d4e65d8ff2fef38bb842e",
+    "width": 1366,
+    "height": 3361,
+    "bytes": 2240071,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 3361,
+    "afterScrollHeight": 6594
+  },
+  "record": {
+    "capturedAt": "2026-10-20T12:48:36Z",
+    "url": "https://www.youtube.com/watch?v=hqVzXhkBWp4",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1410286,
+      "sha256": "287a670e24b95cd8f37cf76c8a59a6acdd261c70fd2eee42091ba6114c180fca"
+    },
+    "finalUrl": "https://www.youtube.com/watch?v=hqVzXhkBWp4",
+    "httpStatus": 200,
+    "title": "Pentagon CTO on Anthropic, AI Safety and 'Super Intelligence' - YouTube",
+    "rendered": {
+      "textChars": 3310,
+      "textSha256": "c4bf3a4b3845544365e019b9095ceb587e1f4a1e5bafacebe44c2f9c4362829c",
+      "htmlSha256": "1d55535efa37efc401bbe7b364ad032a240a14ce625901c7c2cd613aed3c9dde"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "ef5d8f018c16e607274ddf1a753e69b32235545dab4d4e65d8ff2fef38bb842e",
+      "width": 1366,
+      "height": 3361,
+      "bytes": 2240071,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261020125006/https://www.youtube.com/watch?v=hqVzXhkBWp4",
+      "timestamp": "20261020125006",
+      "verifiedHttp": 200
+    }
+  }
+}

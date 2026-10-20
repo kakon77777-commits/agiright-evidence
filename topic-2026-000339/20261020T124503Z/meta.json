@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000339",
+  "url": "https://www.linkedin.com/pulse/raising-bar-frontier-ai-governance-chris-lehane-raaac/",
+  "capturedAt": "2026-10-20T12:45:03Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 167295,
+    "sha256": "6add0e7028f9069cdffc711b2c2f39cb62b3119f60df3bab0abb44cd41f4cedd",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F08F6FE6F1D42D42044256773E03A4D5",
+      "status": 200,
+      "url": "https://www.linkedin.com/pulse/raising-bar-frontier-ai-governance-chris-lehane-raaac/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4820,
+      "afterScrollHeight": 4840,
+      "wantedHeight": 4840
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "74066316df96971a0b97c59ae35e4fd1e71c553d14ebf0d16f12a620fdd8ceec",
+    "width": 1366,
+    "height": 4840,
+    "bytes": 534618,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4820,
+    "afterScrollHeight": 4840
+  },
+  "record": {
+    "capturedAt": "2026-10-20T12:45:03Z",
+    "url": "https://www.linkedin.com/pulse/raising-bar-frontier-ai-governance-chris-lehane-raaac/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 167295,
+      "sha256": "6add0e7028f9069cdffc711b2c2f39cb62b3119f60df3bab0abb44cd41f4cedd"
+    },
+    "finalUrl": "https://www.linkedin.com/pulse/raising-bar-frontier-ai-governance-chris-lehane-raaac/",
+    "httpStatus": 200,
+    "title": "Raising the bar on frontier AI governance",
+    "rendered": {
+      "textChars": 8670,
+      "textSha256": "939eb69add79451ad8029fe19feb935b6a26bcaa42ecc4b9620cb4877eb3224c",
+      "htmlSha256": "d8c7ca904797cda7230b5b0b12bf22944a7a082eefbbdd3b7dc859c8a3a9b080"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "74066316df96971a0b97c59ae35e4fd1e71c553d14ebf0d16f12a620fdd8ceec",
+      "width": 1366,
+      "height": 4840,
+      "bytes": 534618,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Close banner Please Don't Scroll Past This Can you chip in? The Wayba"
+    }
+  }
+}

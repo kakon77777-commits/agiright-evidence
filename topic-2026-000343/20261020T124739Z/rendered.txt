@@ -1,0 +1,399 @@
+Your privacy, your choice
+
+We use essential cookies to make sure the site can function. We also use optional cookies for advertising, personalisation of content, usage analysis, and social media, as well as to allow video information to be shared for both marketing, analytics and editorial purposes.
+
+By accepting optional cookies, you consent to the processing of your personal data - including transfers to third parties. Some third parties are outside of the European Economic Area, with varying standards of data protection.
+
+See our privacy policy for more information on the use of your personal data.
+
+Manage preferences for further information and to change your choices.
+
+Accept all cookies
+Reject optional cookies
+Skip to main content
+
+Advertisement
+
+View all journals
+Saved research
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Subscribe
+Sign up for alerts
+RSS feed
+nature  comments  article
+COMMENT
+19 October 2026
+Three reasons why AI is not conscious and perhaps never will be
+Large language models can mimic thought and feeling with uncanny skill. But evidence from neuroscience suggests that intelligence alone is not enough for subjective experience.
+By Anil K. Seth, Ned Block & Giulio Tononi
+Email
+
+Bluesky
+
+Facebook
+
+LinkedIn
+
+Reddit
+
+Whatsapp
+
+X
+Save article
+
+Illustration: Gaetan Sahsah
+
+Artificial-intelligence systems such as large language models (LLMs) can exhibit behaviour that seems strikingly intelligent. This has led many people, including some experts, to wonder whether these systems could have some form of consciousness — the capacity for subjective experience. However, we think that existing AI systems are not conscious, and that, along current trajectories of development, they are not likely to become conscious. Greater clarity about whether AI could become consciousness will be crucial as society grapples with the challenges posed by this increasingly powerful technology.
+
+Can AI ever be conscious? The question stems from a misconception
+
+Several prominent scientists, including biologist Richard Dawkins and AI pioneer Geoffrey Hinton, have argued that AI systems might already be conscious. And earlier this year, AI company Anthropic in San Francisco, California, published research claiming to have identified computational signatures of a form of consciousness in its Claude model1.
+
+Whether AI models can ever be conscious is not merely a philosophical question. It has practical implications. For instance, if AI systems were conscious, they might experience distress and pain, similar to how people do. Then should countless new conscious entities that might experience suffering be allowed to proliferate? Perhaps not surprisingly, some people are already calling for ‘AI welfare’ and ‘AI rights’ to be taken seriously2.
+
+Conversely, if AI systems only seem to be conscious and lack actual inner experience, then granting them rights or protections could hinder efforts to govern and control them at precisely the time when oversight is urgently needed. Following this path would draw attention and resources away from beings whose consciousness is not in any doubt.
+
+Looking beyond humans and our closest relatives in the animal kingdom, it is still hard to be certain about what does, and does not, have the capacity for consciousness — be it insects, AI or the creations of synthetic biology, such as laboratory-grown brain organoids3,4.
+
+Why we need mandatory safeguards for emotionally responsive AI
+
+This uncertainty has prompted some researchers to advocate a precautionary approach: if there is a reasonable chance that AI systems could be conscious, then society must take anticipatory action and give those systems some form of protection against potential suffering. This, the argument goes, would avoid reprising moral errors of the past — for example, the mistreatment of non-human animals, or surgery on preterm human babies without anaesthesia. An extreme version of this idea is that society should reallocate resources from addressing the welfare concerns of present-day humans to lessen the potential suffering of trillions of future AI descendants.
+
+In our view, uncertainty is not the same as knowing nothing, and it does not mean that all possibilities are equally likely to occur. Decisions about what is moral must weigh both the consequences of false negatives — failing to recognize consciousness where it exists — and the costs of false positives — attributing consciousness where none exists. In the case of AI, we think that false positives are much more likely to occur than false negatives are. If so, a precautionary approach would be misguided.
+
+Between us, we’ve spent decades studying consciousness from diverse scientific perspectives: experimental neuroscience, theoretical neurobiology and philosophy of mind. On the basis of this work, we feel that consciousness in AI is extraordinarily unlikely, at least in the digital, silicon-based systems that underpin today’s technologies. Here, we set out three reasons for our scepticism.
+
+Intelligence is not consciousness
+
+What we mean by consciousness is simple enough: it is what goes away with dreamless sleep or under general anaesthesia, and what returns after waking up or while dreaming. Conscious experiences feel like something, whether it is tasting ice cream on a hot day or seeing the vibrant colours of a sunset. Philosopher Thomas Nagel, whose influential 1974 essay ‘What is it like to be a bat?’ helped to shape modern debates about consciousness, arguing that a conscious organism is one for which there is “something that it is like to be that organism”5.
+
+This definition of consciousness introduces the first reason for scepticism about conscious AI. Consciousness is not the same thing as intelligence. Consciousness is about being and feeling; intelligence — very broadly — is all about doing, or performing functions. Just because something is intelligent does not mean that it is conscious.
+
+Humans know that we are conscious, and we tend to associate consciousness with using our intellectual capacities. Yet, conscious experience and intelligent behaviour can come apart in striking ways. We know firsthand that our brain and body can carry out highly intelligent processes wholly outside awareness. For example, the cerebellum adjusts and plans motor performance in a way that is precise, fast and adaptable through ongoing learning. Yet none of what it does involves consciousness directly — we are wholly unaware of all its ‘computations’. Moreover, absence or removal of the cerebellum, which contains nearly four-fifths of the neurons in the human brain, does not affect consciousness directly6.
+
+AI is programmed to hijack human empathy — we must resist that
+
+The temptation to conflate intelligence and consciousness probably reflects baked-in psychological biases — anthropocentrism, viewing the world through a human lens, and anthropomorphism, attributing human characteristics to things that merely resemble people. Consider, for example, the seductive power of language, a capacity that humans have long felt makes us special. When LLMs talk to us, it’s natural to project onto them properties that accompany our linguistic fluency, such as intelligence and consciousness.
+
+But LLMs are trained on vast quantities of human-written text, much of it explicitly or implicitly concerned with thoughts, feelings and conscious experiences. LLMs are mirrors that reflect an image of our collective digitized past7. We gaze into them and all too readily confuse the reflections with our own conscious minds8.
+
+The beguiling nature of LLMs is highlighted by considering the response to AlphaFold9, made by Google DeepMind in London. Similar to an LLM, AlphaFold is a powerful neural network running on silicon hardware. Yet almost nobody worries that it might be conscious. That’s because AlphaFold predicts protein structures, whereas LLMs ‘talk’ to us. The compelling illusion of consciousness created by linguistic fluency just isn’t there for AlphaFold.
+
+Silicon brains
+
+Second, the idea of conscious AI is motivated by the assumption that algorithms running on silicon are, in principle, sufficient for consciousness10. In other words, that computation of the right kind is all that it takes, and that it doesn’t matter whether these computations are implemented inside carbon-based brains or in silicon-based computers. Philosophers call this assumption computational functionalism. Although computations are clearly sufficient to produce forms of intelligence — as modern AI systems demonstrate — it is much less clear that they could also be sufficient for consciousness.
+
+Computational functionalism is widely assumed among members of the tech community and is popular among some scientists and philosophers, too, but we think it is fatally flawed because brains are not — or at least not just — computers that are made of meat.
+
+Enjoying our latest content?
+Log in or create an account to continue
+Access the most recent journalism from Nature's award-winning team
+Explore the latest features & opinion covering groundbreaking research
+Access through your institution
+
+or
+
+Sign in or create an account
+Continue with Google
+Continue with ORCiD
+
+Nature 658, 866-868 (2026)
+
+doi: https://doi.org/10.1038/d41586-026-03313-7
+
+References
+
+Gurnee, W. et al. Preprint at arXiv https://doi.org/10.48550/arXiv.2607.15495 (2026).
+
+Long, R. et al. Preprint at arXiv https://doi.org/10.48550/arXiv.2411.00986 (2024).
+
+Bayne, T. et al. Trends Cogn. Sci. 28, 454–466 (2024).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Bayne, T., Seth, A. K. & Massimini, M. Trends Neurosci. 43, 6–16 (2020).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Nagel, T. Phil. Rev. 83, 435–450 (1974).
+
+Article
+ 
+Google Scholar
+ 
+
+Yu, F., Jiang, Q., Sun, X. & Zhang, R. Brain 138, e353 (2015).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Vallor, S. The AI Mirror: How to Reclaim Our Humanity in an Age of Machine Thinking (Oxford Univ. Press, 2024).
+
+Google Scholar
+ 
+
+Suleyman, M. Nature 651, 559 (2026).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Jumper, J. et al. Nature 596, 583–589 (2021).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Butlin, P. et al. Trends Cogn. Sci. 30, 488–501 (2025).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Turing, A. M. Proc. London Math. Soc. 42, 230–265 (1936).
+
+Article
+ 
+Google Scholar
+ 
+
+McCulloch, W. S. & Pitts, W. Bull. Math. Biol. 5, 115–133 (1943).
+
+Article
+ 
+Google Scholar
+ 
+
+Kleene, S. C. in Automata Studies (eds Shannon, C. & McCarthy, J.) 3–42 (Princeton Univ. Press, 1956).
+
+Google Scholar
+ 
+
+Cobb, M. The Idea of the Brain: A History (Profile, 2020).
+
+Google Scholar
+ 
+
+Seth, A. K. Behav. Brain Sci. 49, e315 (2025).
+
+Article
+ 
+Google Scholar
+ 
+
+Seth, A. K. Behav. Brain Sci. 49, e366 (2026).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Tononi, G., Boly, M., Massimini, M. & Koch, C. Nature Rev. Neurosci. 17, 450–461 (2016).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Albantakis, L. et al. PLoS Comput. Biol. 19, e1011465 (2023).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Findlay, G. et al. Preprint at arXiv https://doi.org/10.48550/arXiv.2412.04571 (2024).
+
+Block, N. Trends Cogn. Sci. 30, 298–308 (2026).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Miller, E. K., Brincat, S. L. & Roy, J. E. J. Neurosci. 46, e0711262026 (2026).
+
+Article
+ 
+PubMed
+ 
+Google Scholar
+ 
+
+Searle, J. in The Blackwell Companion to Consciousness (eds Schneider, S. & Velmans, M.) 327–336 (John Wiley and Sons, 2017).
+
+Google Scholar
+ 
+
+Download references
+
+Reprints and permissions
+
+COMPETING INTERESTS
+
+A.K.S. is supported by the European Research Council (grant 101019254); is an adviser to Conscium Ltd and AllJoined Inc; is a co-founder, shareholder and paid adviser in a stealth-mode AI company; and is contracted to write lectures on consciousness for Wondrium Inc. N.B. is supported by the Templeton World Charity Foundation (TWCF) and the Longview Foundation. G.T. is supported by TWCF and Tiny Blue Dot, and is a board member and has a financial interest in Intrinsic Powers Inc.
+
+Latest on:
+Neuroscience
+Philosophy
+Machine learning
+
+Nobel-prizewinning breakthroughs can emerge from neglected organisms
+
+CORRESPONDENCE 20 OCT 26
+
+Memory stays strong in old age when this brain enzyme is active
+
+NEWS 16 OCT 26
+
+Targeted stimulation of motor cortex ensembles drives learned movements
+
+ARTICLE 14 OCT 26
+
+Jobs
+Multiple Tenure-Track Faculty Positions (Assistant, Associate, and Full Professor)
+
+Multiple Tenure-Track Faculty Positions (Assistant, Associate, and Full Professor)
+
+West Miami, Florida (US)
+
+University of Miami Miller School of Medicine
+
+Talent Recruitment Announcement at the College of Artificial Intelligence
+
+Join HZAU's global faculty team to advance research with competitive benefits.
+
+Wuhan, Hubei (CN)
+
+Huazhong Agricultural University (HZAU)
+
+Deputy Editor, Nature Progress Tissue Engineering
+
+Job Title: Deputy Editor, Nature Progress Tissue Engineering Location: Shanghai, Beijing, Pune, New Delhi - hybrid working model Closing date: 30th...
+
+Shanghai, Beijing, Pune, New Delhi - hybrid working model
+
+Springer Nature Ltd
+
+Postdoctoral Fellow Position – Cancer Immunotherapies
+
+Postdoctoral Fellow Position to study Cancer Immunology & design novel Cancer Immunotherapies @ University of Maryland School of Medicine, Baltimore.
+
+21201, Baltimore
+
+University of Maryland School of Medicine, Baltimore
+
+Publishing Assistant, OA Journals Medicine and Biomedicine
+
+The role of Publishing Assistant is wide-ranging and essential to the smooth running of the journal portfolios.
+
+Beijing or London - hybrid working model
+
+Springer Nature Ltd
+
+Related Articles
+
+If AI becomes conscious: here’s how researchers will know
+
+What should we do if AI becomes conscious? These scientists say it’s time for a plan
+
+Do AI models produce more original ideas than researchers?
+
+Consciousness research is having an AI moment. Will the hype help the field?
+
+Subjects
+Neuroscience Philosophy Machine learning
+Sign up to Nature Briefing
+
+An essential round-up of science news, opinion and analysis, delivered to your inbox every weekday.
+
+Email address
+Yes! Sign me up to receive the daily Nature Briefing email. I agree my information will be processed in accordance with the Nature and Springer Nature Limited Privacy Policy.
+Sign up
+
+Nature (Nature)
+
+ISSN 1476-4687 (online)
+
+ISSN 0028-0836 (print)
+
+nature.com footer links
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded content
+Professional development
+Nature Awards
+Nature Careers
+Nature
+ Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Japan
+Nature Middle East
+Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights
+
+© 2026 Springer Nature Limited

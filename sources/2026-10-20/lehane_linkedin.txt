@@ -1,0 +1,216 @@
+
+Raising the bar on frontier AI governance
+Agree & Join LinkedIn
+By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+Sign in to view more content
+Create your free account or sign in to continue your search
+Email or phone
+Password
+Show
+Forgot password?
+Sign in
+Sign in with Email
+or
+New to LinkedIn? Join now
+By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement , Privacy Policy , and Cookie Policy .
+LinkedIn
+LinkedIn is better on the app
+Don’t have the app? Get it in the Microsoft Store.
+Open the app
+Skip to main content
+LinkedIn
+Top Content
+People
+Learning
+Jobs
+Games
+Get the app
+Join now
+Sign in
+Raising the bar on frontier AI governance
+Report this article
+Chris Lehane
+Chris Lehane
+Published Oct 19, 2026
++ Follow
+The AI policy window is open and the case for action is growing stronger by the week.
+We have entered a new chapter in AI capabilities. That demands a new chapter in AI policy.
+At the epicenter of this new chapter must be policy outcomes that enable people to remain in control of AI – and for human judgment over the technology to remain paramount.
+And for that to happen, given the importance to society, these policy decisions must ultimately be made through our democratic processes with our elected officials leading.
+I'm encouraged by the conversations we have been having with policymakers from both parties and both chambers. Serious ideas are taking shape for mandatory national frontier AI safety standards that would apply to the largest models and labs (and protect against regulatory capture).
+Legislation like the bipartisan FRONTIER Act, led by Reps. Obernolte and Trahan, offer a strong starting point in the House. Their approach includes foundational ideas we think make a lot of sense, specifically including requirements for independent assessments to test frontier AI models for catastrophic risks, which we support.
+Others, like Sens. Thune and Klobuchar, are working to advance legislation that addresses different parts of the AI safety ecosystem, such as government testing for national security. And many other powerful ideas and bills are being discussed.
+No bill will get everything right, especially if we want to get enough support to actually pass legislation (including clearing 60 votes in the Senate) that will result in meaningful safety progress, but that is how the democratic process is designed to work. With the stakes this high, we can't let the perfect be the enemy of the good.
+A lot has changed in recent months, and more will change as increasingly autonomous systems begin accelerating AI development itself. And as we move forward, we’ll want to have the flexibility and mindset to know we will continue to move at the pace of the technology (a reason why we have made clear that smart state frontier safety laws enacted in 2025 and earlier this year will need to be strengthened this year and next).
+One thing is especially clear: as the capabilities continue to advance, we need to keep raising the safety bar.
+As Congress looks to lead, there are some particular safety measures we believe need to be on the table when it comes to meeting the moment and getting ahead of the capabilities:
+Safety cases demonstrating why scaling up model training to push the capability frontier can proceed safely. Safety cases are an approach used in other high-consequence industries, ranging from nuclear energy and aviation to rail transportation and defense. The idea here would be to require frontier AI labs to demonstrate that the risks associated with such training have been identified, evaluated, and adequately controlled before proceeding.
+Independent technical assessments during training, evaluation, and internal deployment, including alignment, containment, and monitoring. Similar to other sectors that have established a process for licensing auditors, these independent technical assessments will benefit from the building out of an intellectually diverse ecosystem of validated experts who are independent.
+Clear mechanisms to pause or shut down systems when they can’t be sufficiently controlled.
+Clear requirements for reporting serious incidents, with consistent protocols for notifying government and providing public transparency while protecting sensitive information.
+Mandatory government pre-deployment testing through the Center for Advancing Innovations and Standards for Super Intelligence (CAISSI).
+And, significant investment in CAISSI so the government has the technical expertise and capacity to oversee the most advanced systems.
+Companies should advance these safeguards now, even as we advocate for legislation that addresses them.
+There is no shortage of thoughtful proposals coming from across the AI ecosystem, including from other leading AI labs. We welcome that engagement and like the direction of a number of the ideas being put forward.
+But one principle is fundamental: Congress and the White House must lead.
+Decision-making of this significance cannot be concentrated in the hands of the few. No one company (including OpenAI) should write the rules alone for a technology with such profound implications for our economy, society, and national security. Labs and third-party assessment bodies should contribute evidence and expertise, while accountable leaders make decisions. This is how we build trust for durable legislation. This is how democracy works.
+At the same time, while the democratic process moves forward, frontier labs can, and must do their part by strengthening security, expanding monitoring, embracing transparency and independent scrutiny, preserving meaningful human control, and at times pausing to ensure systems are in place that are keeping pace with the capabilities.
+At OpenAI, we intend to be as ambitious in safety as in capabilities – including being willing and able to slow down or pause quickly when safety requires it.
+The stakes are enormous. AI can drive scientific breakthroughs, strengthen our economy, and protect national security. Realizing those benefits depends on getting safety right.
+Washington can establish a durable American framework. Industry must help make it work. We need to use this window while it’s still open.
+Like
+Like
+Celebrate
+Support
+Love
+Insightful
+Funny
+Comment
+Copy
+LinkedIn
+Facebook
+X
+Share
+50
+8 Comments
+io.net
+28m
+Report this comment
+“No single company should write the rules.” Agreed.
+The same logic should apply one layer down, no single company should hold the compute. Safety standards decide who is allowed to build. Compute decides who is able to. If frontier capacity sits with three or four providers, the rulebook gets written around their infrastructure whether they mean it to or not. So the bar should rise for everyone, and the door should stay open for everyone. That's what we are working on io.net .
+Like
+Reply
+1 Reaction
+Mohamed Elareef
+1h
+Report this comment
+No single company writing the rules is fair. A launch demo isn't the same as an independent check on the live workflow, and it isn't what a board can sit down and read.
+Like
+Reply
+1 Reaction
+CyberTide
+5h
+Report this comment
+Frontier standards matter, yet most incidents organisations face today don't stem from model capability. They stem from deployment: confidential data pasted into assistants, agents granted broad access to mailboxes and file shares, outputs nobody can trace back to a source. Europe's AI Act places obligations on deployers, not only providers, for that reason. A framework that stops at the model layer leaves the largest risk surface ungoverned.
+Like
+Reply
+1 Reaction
+Gaurav Singh
+7h
+Report this comment
+Strong piece, Chris Lehane. No single company should write the rules for a technology this consequential. The policy window is open, and the moment to set real standards is exactly now.
+Like
+Reply
+1 Reaction
+Steve Wimmer
+14h
+Report this comment
+I would love to see how independent oversight squares with the Administration's advocacy for self-policing of frontier models. I think the only way to create meaningful progress and trust in this area is to have states push for strong test regimes that incentivize the large companies to regulate strongly from within, and in concert with independent verification orgs.
+Like
+Reply
+1 Reaction
+See more comments
+To view or add a comment, sign in
+More articles by Chris Lehane
+AI Is a Tool. Humanity Is the Point.
+Oct 5, 2026
+AI Is a Tool. Humanity Is the Point.
+History and Hollywood tell us that when transformative technologies emerge, people tend to imbue them with human…
+116
+34 Comments
+Democratic AI Starts At Home
+Feb 17, 2026
+Democratic AI Starts At Home
+The AI debate is often framed as a race between the United States and China. It is that but also more: a competition of…
+178
+13 Comments
+Explore content categories
+Career
+Productivity
+Finance
+Soft Skills & Emotional Intelligence
+Project Management
+Education
+Technology
+Leadership
+Ecommerce
+User Experience
+Recruitment & HR
+Customer Experience
+Real Estate
+Marketing
+Sales
+Retail & Merchandising
+Science
+Supply Chain Management
+Future Of Work
+Consulting
+Writing
+Economics
+Artificial Intelligence
+Employee Experience
+Workplace Trends
+Fundraising
+Networking
+Corporate Social Responsibility
+Negotiation
+Communication
+Engineering
+Hospitality & Tourism
+Business Strategy
+Change Management
+Organizational Culture
+Design
+Innovation
+Event Planning
+Training & Development
+Show more
+Show less
+LinkedIn
+&copy; 2026
+About
+Accessibility
+User Agreement
+Privacy Policy
+Cookie Policy
+Copyright Policy
+Brand Policy
+Guest Controls
+Community Guidelines
+العربية (Arabic)
+বাংলা (Bangla)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+Ελληνικά (Greek)
+English (English)
+Español (Spanish)
+فارسی (Persian)
+Suomi (Finnish)
+Français (French)
+हिंदी (Hindi)
+Magyar (Hungarian)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+עברית (Hebrew)
+日本語 (Japanese)
+한국어 (Korean)
+मराठी (Marathi)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+ਪੰਜਾਬੀ (Punjabi)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+తెలుగు (Telugu)
+ภาษาไทย (Thai)
+Tagalog (Tagalog)
+Türkçe (Turkish)
+Українська (Ukrainian)
+Tiếng Việt (Vietnamese)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))
+Language

@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000345",
+  "url": "https://fortune.com/2026/10/19/meta-muse-ai-agent-facebook-marketplace-home-address-privacy/",
+  "capturedAt": "2026-10-20T12:50:10Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 452352,
+    "sha256": "c7668ef66cd760ea257f807cea0416bc301a6dc83f9eb3794dbc3670b33f7341",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "65BCBF813B39CDE6BA175A5A5C018FEA",
+      "status": 200,
+      "url": "https://fortune.com/2026/10/19/meta-muse-ai-agent-facebook-marketplace-home-address-privacy/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10197,
+      "afterScrollHeight": 10197,
+      "wantedHeight": 10197
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "4d95784f380b42d1d8f78ac3efd906849660f9229110f4c2c5ae60b12da5b61e",
+    "width": 1366,
+    "height": 10197,
+    "bytes": 1240450,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10197,
+    "afterScrollHeight": 10197
+  },
+  "record": {
+    "capturedAt": "2026-10-20T12:50:10Z",
+    "url": "https://fortune.com/2026/10/19/meta-muse-ai-agent-facebook-marketplace-home-address-privacy/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 452352,
+      "sha256": "c7668ef66cd760ea257f807cea0416bc301a6dc83f9eb3794dbc3670b33f7341"
+    },
+    "finalUrl": "https://fortune.com/2026/10/19/meta-muse-ai-agent-facebook-marketplace-home-address-privacy/",
+    "httpStatus": 200,
+    "title": "Meta Muse AI agent shares man's home address with Facebook Marketplace buyer | Fortune",
+    "rendered": {
+      "textChars": 12297,
+      "textSha256": "65d36209ad079cdfae28118f2615f2dcf389569089a441d098853faf44471774",
+      "htmlSha256": "e3aaea07b6449ae116b10649bf08241e00bcdd13bdd1ac93d36d152d1b88f24a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "4d95784f380b42d1d8f78ac3efd906849660f9229110f4c2c5ae60b12da5b61e",
+      "width": 1366,
+      "height": 10197,
+      "bytes": 1240450,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261020125037/https://fortune.com/2026/10/19/meta-muse-ai-agent-facebook-marketplace-home-address-privacy/",
+      "timestamp": "20261020125037",
+      "verifiedHttp": 200
+    }
+  }
+}

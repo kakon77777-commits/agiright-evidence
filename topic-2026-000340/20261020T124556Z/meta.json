@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000340",
+  "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+  "capturedAt": "2026-10-20T12:45:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 296781,
+    "sha256": "61f8b8ec2df71d6b454e69f887f7a54d2dfea83d02cbc070bb7f60e3edc37615",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "004C6FC3565536956CF1E91183608F9D",
+      "status": 200,
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 12692,
+      "afterScrollHeight": 12692,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "6761328a7edb26fb8b4c0ad94c196a1daa6ebd2eb55fb50149cd9f090c4e8a8e",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1647207,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 12692,
+    "afterScrollHeight": 12692
+  },
+  "record": {
+    "capturedAt": "2026-10-20T12:45:56Z",
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 296781,
+      "sha256": "61f8b8ec2df71d6b454e69f887f7a54d2dfea83d02cbc070bb7f60e3edc37615"
+    },
+    "finalUrl": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+    "httpStatus": 200,
+    "title": "Agents are your newest insiders. Security must move at their speed.  | Microsoft Security Blog",
+    "rendered": {
+      "textChars": 17029,
+      "textSha256": "8d2f1f084856935b02f4e4cf2013dfe791f058fa97eac7ffbe5138b7a011cb48",
+      "htmlSha256": "1d0333b120391cf2e6616cb8c97dcfe7eacb3cec1c66cc3a51619478a564638e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6761328a7edb26fb8b4c0ad94c196a1daa6ebd2eb55fb50149cd9f090c4e8a8e",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1647207,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261019133427",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261019133427/https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261020105539/https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+      "timestamp": "20261020105539",
+      "verifiedHttp": 200
+    }
+  }
+}

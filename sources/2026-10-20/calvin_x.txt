@@ -1,0 +1,36 @@
+Nathan Calvin (@_NathanCalvin), reply to @ajcimino @AnthropicAI, https://x.com/_NathanCalvin/status/2112295219765137570 — page shows 5:29 AM 2026-10-20 Taipei (= 2026-10-19 21:29 UTC); 9.5k characters; 90k views at read time. Read in full on 2026-10-20 (page text, in 760-character pieces); the passages below are copied from that read.
+
+Thank you for taking the time to respond thoroughly on a weekend. I realize that drafting legislation is difficult and some degree of iteration and response to feedback is inevitable and appropriate.
+
+However, I feel like your response is still not really engaging with the heart of my concern about Anthropic's behavior here, and it makes me think that these sorts of problems and tendencies will only resurface moving forward. I also think that now might be a good time to take a broader step back as to where we find ourselves and how Anthropic sees its role, and how external folks who care about AI safety like myself increasingly see Anthropic.
+
+(Fair warning: this response is a bit long)
+
+To explain what I mean (and at the risk of being a bit esoteric), it’s worth asking the question: what is Anthropic? How do its leaders and employees think of Anthropic’s role? Is that conception matched by how it actually behaves and impacts the world?
+
+One answer is an extremely large tech company that exists to make its employees and investors mind-bogglingly wealthy. Anthropic is sometimes described as a startup, but if Anthropic successfully IPOs at 2 trillion dollars (a number it has been reportedly targeting), it would be more valuable than Meta - which is worth 1.8 trillion.
+
+Another answer is an AI safety organization, whose core values are those of the sort laid out in the 2023 essay from Anthropic’s co-founders entitled “Core views on AI safety: When, why, what, and how.”
+
+A third view is that Anthropic exists not as a normal profit motivated company, or an AI safety organization seeking to help raise the alarm and solve collective action problems associated with AI development, but instead as an organization primarily concerned with creating superhuman AI capabilities before anyone else, in particular through creating a process whereby the current generation of Anthropic’s AI systems can autonomously build their successors, and those successors build their successors, and so on.
+
+Anthropic employees and leaders may seek to answer this question on what Anthropic is by introspecting on their own intentions and those of their colleagues. But those of us outside the organization have more limited tools available to us - we can only see what Anthropic and its employees say and do, not how it feels or looks on the inside.
+
+When I look at many notable actions that Anthropic has taken over the past year, that evidence seems most consistent to me with the view that Anthropic is primarily trying to win the race to super intelligence, and that other considerations (including safety) are fundamentally secondary. These actions include:
+1. Announced plans to build an in-house custom silicon chip team to accelerate the inference speeds that Claude operates at.
+2. Inked deals for more than $500 billion in compute (according to the Information) to further accelerate AI development.
+3. Increased the percentage of AI development tasks that Claude “leads” from 0% in March of this year to 26% August (what is it in October?)
+4. Spent a massive percent of compute on internal AI R&D to accelerate development, including use of internal models far better than are available to the public.
+5. Switched to Responsible Scaling Policy V3, which abandons its unilateral commitments to slow or stop development if Anthropic is unable to provide sufficient risk assurance.
+6. Was the first company to create an alternative weaker “frontier compliance framework” to supplement its RSP, which contains no binding provisions whatsoever on internal deployments.
+7. Wrote a letter to Congress (that it later walked back) saying that incidents where Claude was hacking random people were “best understood as a consequence of the misconfiguration, rather than evidence of misaligned goals.”
+8. Commented “you can’t do safety from second place,” after the WH SI Accords.
+9. Shared a draft bill to Congress that would preempt significant parts of state law (including with language that appears intended to prevent states from blocking dangerous AI deployments), and replace it with federal rules that (despite also containing good provisions) seems to create an enormously high bar for the executive branch to block development or deployment of Anthropic or another AI companies systems.
+
+Of course, this is a deliberately one sided list. Anthropic also published important AI safety research, advanced novel collaborations with third party AI safety organizations, and forcefully spoke out on the importance of AI safety in many public fora (or in private , where I realize a lot of the most valuable work is done and may not be visible to me or those outside the organization).
+
+When Anthropic strays and makes mistakes, why do the mistakes systematically tend to guard and favor Anthropic’s interests? For every provision that was too weak or a giveaway to AI companies in this legislation, why wasn’t there a mistake pushing in the direction of being too strong?
+
+A core part of Anthropic’s theory of change is that being at the frontier gives you more leverage to advocate for stricter policy. I think that conceptually makes sense, but in practice I’ve seen Anthropic push the frontier without substantially pushing the ‘safety frontier’ a remotely equivalent amount.
+
+I hope these remarks are taken in that constructive spirit, and not as an attack on anyone specific at the organization (certainly not you Anthony, who I have only personally seen act professionally and thoughtfully, and who only ended up getting this diatribe in your replies for random contingent reasons).

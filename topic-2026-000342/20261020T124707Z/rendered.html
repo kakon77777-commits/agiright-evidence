@@ -1,0 +1,327 @@
+<html lang="en" class="nf-js" style="scroll-behavior: smooth;"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14171D">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script>var e=document.documentElement;e.classList.add("nf-js");var r=false;requestAnimationFrame(function(){r=true;});setTimeout(function(){if(!r)e.classList.add("nf-no-anim");},1000);</script>
+  <title>Inside Cairn: Open Windows into massive AI-Driven Cyber Operations - NorForge</title>
+  <meta name="description" content="NorForge research into publicly exposed Cairn AI pentesting panels: how threat actors select targets, direct autonomous agents, exploit vulnerabilities, and expose their victims' secrets in the process.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://norforge.com/blog/inside_cairn">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="NorForge">
+  <meta property="og:title" content="Inside Cairn: Open Windows into massive AI-Driven Cyber Operations - NorForge">
+  <meta property="og:description" content="NorForge research into publicly exposed Cairn AI pentesting panels: how threat actors select targets, direct autonomous agents, exploit vulnerabilities, and expose their victims' secrets in the process.">
+  <meta property="og:url" content="https://norforge.com/blog/inside_cairn">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://norforge.com/blog/inside_cairn/images/cover.webp">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image:width" content="1672">
+  <meta property="og:image:height" content="941">
+  <meta property="og:image:alt" content="NorForge - Forging trust in autonomous systems. The next generation of sovereign AI security.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Inside Cairn: Open Windows into massive AI-Driven Cyber Operations - NorForge">
+  <meta name="twitter:description" content="NorForge research into publicly exposed Cairn AI pentesting panels: how threat actors select targets, direct autonomous agents, exploit vulnerabilities, and expose their victims' secrets in the process.">
+  <meta name="twitter:image" content="https://norforge.com/blog/inside_cairn/images/cover.webp">
+  <meta name="twitter:image:alt" content="NorForge - Forging trust in autonomous systems. The next generation of sovereign AI security.">
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://norforge.com/#organization",
+        "name": "NorForge",
+        "legalName": "NorForge Inc",
+        "url": "https://norforge.com/",
+        "slogan": "Forging trust in autonomous systems",
+        "description": "We bring sandboxing expertise to AI agents. See everything your agents do. Draw the lines they can’t cross. Built by the team behind Norman Malware Analysis Sandbox.",
+        "foundingDate": "2026",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://norforge.com/assets/nf-green-horizontal.png"
+        },
+        "image": "https://norforge.com/assets/og-cover.png",
+        "email": "contact@norforge.com",
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "name": "NorForge Inc",
+            "streetAddress": "470 Ramona Street",
+            "addressLocality": "Palo Alto",
+            "addressRegion": "CA",
+            "postalCode": "94301",
+            "addressCountry": "US"
+          },
+          {
+            "@type": "PostalAddress",
+            "name": "NorForge Norway AS",
+            "streetAddress": "Rådhusgata 6",
+            "addressLocality": "Sandnes",
+            "postalCode": "4306",
+            "addressCountry": "NO"
+          }
+        ],
+        "areaServed": "Worldwide",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "contact@norforge.com",
+            "availableLanguage": [
+              "en"
+            ]
+          },
+          {
+            "@type": "ContactPoint",
+            "contactType": "press",
+            "email": "snorre@norforge.com",
+            "availableLanguage": [
+              "en"
+            ]
+          }
+        ],
+        "knowsAbout": [
+          "AI Security",
+          "Cybersecurity",
+          "Threat Research",
+          "Security Engineering",
+          "Applied AI and LLMs",
+          "Reverse Engineering",
+          "Embedded and Low-Level Systems",
+          "Cloud and Data Platforms",
+          "Security Operations"
+        ],
+        "knowsLanguage": [
+          "en"
+        ],
+        "founder": {
+          "@id": "https://norforge.com/#person-einar"
+        },
+        "employee": [
+          {
+            "@id": "https://norforge.com/#person-einar"
+          },
+          {
+            "@id": "https://norforge.com/#person-tore"
+          },
+          {
+            "@id": "https://norforge.com/#person-elisabeth"
+          },
+          {
+            "@id": "https://norforge.com/#person-may"
+          },
+          {
+            "@id": "https://norforge.com/#person-erlend"
+          },
+          {
+            "@id": "https://norforge.com/#person-tor"
+          },
+          {
+            "@id": "https://norforge.com/#person-morten"
+          },
+          {
+            "@id": "https://norforge.com/#person-bjorn"
+          },
+          {
+            "@id": "https://norforge.com/#person-snorre"
+          }
+        ],
+        "member": [
+          {
+            "@type": "OrganizationRole",
+            "roleName": "President",
+            "member": {
+              "@id": "https://norforge.com/#person-einar"
+            }
+          },
+          {
+            "@type": "OrganizationRole",
+            "roleName": "Director & Treasurer",
+            "member": {
+              "@id": "https://norforge.com/#person-tore"
+            }
+          },
+          {
+            "@type": "OrganizationRole",
+            "roleName": "Director & Secretary",
+            "member": {
+              "@id": "https://norforge.com/#person-may"
+            }
+          }
+        ],
+        "sameAs": [
+          "https://github.com/norforgeinc"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://norforge.com/#website",
+        "url": "https://norforge.com/",
+        "name": "NorForge",
+        "publisher": {
+          "@id": "https://norforge.com/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://norforge.com/#person-einar",
+        "name": "Einar Oftedal",
+        "jobTitle": "Founder & CEO",
+        "description": "Engineering leadership & M&A",
+        "sameAs": [
+          "https://www.linkedin.com/in/eoftedal"
+        ],
+        "worksFor": {
+          "@id": "https://norforge.com/#organization"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://norforge.com/#person-tore",
+        "name": "Tore Oftedal",
+        "jobTitle": "Chief Financial Officer",
+        "description": "Accounting & cross-border operations",
+        "sameAs": [
+          "https://www.linkedin.com/in/toreoftedal"
+        ],
+        "worksFor": {
+          "@id": "https://norforge.com/#organization"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://norforge.com/#person-elisabeth",
+        "name": "Elisabeth Høiland",
+        "jobTitle": "CISO",
+        "description": "Enterprise security & cyber governance",
+        "sameAs": [
+          "https://www.linkedin.com/in/elisabethhoiland"
+        ],
+        "worksFor": {
+          "@id": "https://norforge.com/#organization"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://norforge.com/#person-may",
+        "name": "May Roen",
+        "jobTitle": "Head of US Finance",
+        "sameAs": [
+          "https://www.linkedin.com/in/may-roen-bba1677"
+        ],
+        "worksFor": {
+          "@id": "https://norforge.com/#organization"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://norforge.com/#person-erlend",
+        "name": "Erlend Oftedal",
+        "jobTitle": "Co-Founder & Head of Tech",
+        "description": "AppSec & secure SDLC",
+        "sameAs": [
+          "https://www.linkedin.com/in/erlendoftedal"
+        ],
+        "worksFor": {
+          "@id": "https://norforge.com/#organization"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://norforge.com/#person-tor",
+        "name": "Tor Skaar",
+        "jobTitle": "Co-Founder & Head of Product",
+        "description": "Cloud architecture & telemetry",
+        "sameAs": [
+          "https://www.linkedin.com/in/torskaar"
+        ],
+        "worksFor": {
+          "@id": "https://norforge.com/#organization"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://norforge.com/#person-morten",
+        "name": "Morten Kråkvik",
+        "jobTitle": "Founding Engineer",
+        "description": "IoT product security & cloud transformation",
+        "sameAs": [
+          "https://www.linkedin.com/in/mkrakvik"
+        ],
+        "worksFor": {
+          "@id": "https://norforge.com/#organization"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://norforge.com/#person-bjorn",
+        "name": "Bjørn Andersen",
+        "jobTitle": "Founding Engineer",
+        "description": "Emulation, sandboxing & applied AI",
+        "sameAs": [
+          "https://www.linkedin.com/in/bjorn-ove-hay-andersen"
+        ],
+        "worksFor": {
+          "@id": "https://norforge.com/#organization"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://norforge.com/#person-snorre",
+        "name": "Snorre Fagerland",
+        "jobTitle": "Founding Researcher",
+        "description": "Reverse engineering & threat research",
+        "sameAs": [
+          "https://www.linkedin.com/in/snorre-fagerland-649511"
+        ],
+        "worksFor": {
+          "@id": "https://norforge.com/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://norforge.com/blog/inside_cairn#webpage",
+        "url": "https://norforge.com/blog/inside_cairn",
+        "name": "Inside Cairn: Open Windows into massive AI-Driven Cyber Operations - NorForge",
+        "description": "NorForge research into publicly exposed Cairn AI pentesting panels: how threat actors select targets, direct autonomous agents, exploit vulnerabilities, and expose their victims' secrets in the process.",
+        "isPartOf": {
+          "@id": "https://norforge.com/#website"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "https://norforge.com/blog/inside_cairn#article",
+        "headline": "Inside Cairn: Open Windows into massive AI-Driven Cyber Operations",
+        "url": "https://norforge.com/blog/inside_cairn",
+        "datePublished": "2026-10-19",
+        "dateModified": "2026-10-19",
+        "image": "https://norforge.com/blog/inside_cairn/images/cover.webp",
+        "author": {
+          "@id": "https://norforge.com/#person-snorre",
+          "name": "Snorre Fagerland"
+        },
+        "description": "NorForge research into publicly exposed Cairn AI pentesting panels: how threat actors select targets, direct autonomous agents, exploit vulnerabilities, and expose their victims' secrets in the process.",
+        "publisher": {
+          "@id": "https://norforge.com/#organization"
+        },
+        "isPartOf": {
+          "@id": "https://norforge.com/#website"
+        },
+        "inLanguage": "en-US"
+      }
+    ]
+  }</script>
+  <link rel="stylesheet" href="/b/colors_and_type-fc06e28023.css">
+  <link rel="stylesheet" href="/b/effects-9e676b33bf.css">
+</head>
+<body>
+<div id="root"><a href="#main-content" class="nf-skip-link">Skip to main content</a><header style="border-bottom:1px solid rgba(210,212,213,0.08);background:rgba(20,23,29,0.88);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);position:sticky;top:0;z-index:20"><div style="max-width:1280px;margin:0 auto;padding:0 32px;height:60px;display:flex;align-items:center;gap:32px"><a href="/" class="nf-nav-el nf-anim" style="display: flex; align-items: center; gap: 9px;" aria-label="NorForge home"><img src="/assets/nf-green-horizontal.svg" alt="NorForge" width="108" height="28" style="height:28px;width:auto;display:block"></a><nav class="nf-nav-links" style="display:flex;gap:24px;flex:1;margin-left:8px" aria-label="Main"><a href="/about#team" class="nf-nav-textlink nf-nav-el nf-anim" style="font-family: &quot;Inter Tight&quot;, sans-serif; font-size: 13px; cursor: pointer;">Team</a><a href="/blog" class="nf-nav-textlink nf-nav-el nf-anim" style="font-family: &quot;Inter Tight&quot;, sans-serif; font-size: 13px; cursor: pointer;">Blog</a><a href="/about" class="nf-nav-textlink nf-nav-el nf-anim" style="font-family: &quot;Inter Tight&quot;, sans-serif; font-size: 13px; cursor: pointer;">About</a></nav><a href="/contact" class="nf-btn-primary nf-nav-cta nf-nav-el nf-anim" style="background: rgb(71, 160, 140); color: rgb(15, 17, 21); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; border-radius: 4px; padding: 0px 14px; height: 32px; line-height: 1; display: inline-flex; align-items: center; align-self: center; margin-left: 4px; font-family: &quot;Inter Tight&quot;, sans-serif; font-size: 13px; font-weight: 500; cursor: pointer; flex-shrink: 0; text-decoration: none;">Contact us</a><button type="button" class="nf-nav-burger nf-nav-el nf-anim" style="display: none; flex-direction: column; justify-content: center; gap: 4px; width: 36px; height: 36px; padding: 8px; background: transparent; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; cursor: pointer; flex-shrink: 0; margin-left: auto;" aria-expanded="false" aria-controls="nf-nav-panel" aria-label="Menu"><span style="display:block;width:100%;height:1.5px;background:var(--fog);transition:transform 200ms cubic-bezier(0.2, 0, 0, 1), opacity 200ms cubic-bezier(0.2, 0, 0, 1);transform:none"></span><span style="display:block;width:100%;height:1.5px;background:var(--fog);transition:transform 200ms cubic-bezier(0.2, 0, 0, 1), opacity 200ms cubic-bezier(0.2, 0, 0, 1);opacity:1"></span><span style="display:block;width:100%;height:1.5px;background:var(--fog);transition:transform 200ms cubic-bezier(0.2, 0, 0, 1), opacity 200ms cubic-bezier(0.2, 0, 0, 1);transform:none"></span></button></div><div id="nf-nav-panel" class="nf-nav-panel" style="flex-direction:column;position:absolute;top:60px;left:0;right:0;background:var(--iron-800);border-bottom:1px solid var(--border-subtle);padding:8px 32px 20px;z-index:10" hidden=""><a href="/about#team" style="font-family:var(--font-ui);font-size:16px;color:var(--iron-100);padding:14px 0;border-bottom:1px solid var(--border-subtle);text-decoration:none;display:block">Team</a><a href="/blog" style="font-family:var(--font-ui);font-size:16px;color:var(--iron-100);padding:14px 0;border-bottom:1px solid var(--border-subtle);text-decoration:none;display:block">Blog</a><a href="/about" style="font-family:var(--font-ui);font-size:16px;color:var(--iron-100);padding:14px 0;border-bottom:1px solid var(--border-subtle);text-decoration:none;display:block">About</a><a href="/contact" class="nf-btn-primary" style="background:var(--verdigris-400);color:var(--iron-900);border:none;border-radius:4px;padding:12px 20px;margin-top:16px;align-self:flex-start;font-family:var(--font-ui);font-size:15px;font-weight:500;cursor:pointer;text-decoration:none;display:inline-block">Contact us</a></div></header><main id="main-content"><div><section style="background:var(--iron-800);padding:116px 32px 60px;position:relative;overflow:hidden"><img src="/blog/inside_cairn/images/cover.webp" alt="" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center"><div aria-hidden="true" style="position:absolute;inset:0 0 -1px 0;background-image:linear-gradient(180deg, color-mix(in srgb, var(--iron-800) 40%, transparent) 0%, color-mix(in srgb, var(--iron-800) 68%, transparent) 50%, var(--iron-800) 88%)"></div><div style="max-width:1000px;margin:0 auto;position:relative" class="nf-bl-intro"><h1 class="nf-anim" style="font-family: var(--font-display); font-size: clamp(30px, 4.2vw, 48px); font-weight: 600; letter-spacing: -0.03em; line-height: 1.1; color: var(--fog); margin: 0px 0px 20px;">Inside Cairn: Open Windows into massive AI-Driven Cyber Operations</h1><p class="nf-anim" style="font-family: var(--font-ui); font-size: clamp(16px, 1.6vw, 19px); line-height: 1.6; color: var(--iron-200); margin: 0px; max-width: 720px;">More than 20 exposed Cairn panels give an unusually detailed view of how threat actors select targets, direct autonomous agents, exploit vulnerabilities, and establish persistent access to compromised systems.</p><div class="nf-anim" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px 24px; margin-top: 30px;"><div style="font-family:var(--font-mono);font-size:11px;color:var(--verdigris-400);text-transform:uppercase;letter-spacing:0.12em;margin:0"><a href="/blog" style="display:inline-block;background:var(--verdigris-400);color:var(--iron-900);border-radius:999px;padding:5px 10px 6px;font-weight:500;text-decoration:none">BLOG</a> <!-- -->· <time datetime="2026-10-19">OCT 19, 2026</time> · <!-- -->16<!-- --> MIN<!-- --> <!-- -->· BY<!-- --> <a href="/about#person-snorre" style="color:var(--fog);text-decoration:underline;text-underline-offset:3px">Snorre</a></div><div style="display:flex;align-items:center;gap:10px"><div style="font-family:var(--font-mono);font-size:10px;color:var(--iron-250);text-transform:uppercase;letter-spacing:0.1em;margin-right:2px">SHARE</div><a class="nf-share" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:6px;cursor:pointer;border:1px solid var(--border-subtle);background:var(--iron-700);color:var(--iron-200);text-decoration:none" href="https://twitter.com/intent/tweet?text=Inside%20Cairn%3A%20Open%20Windows%20into%20massive%20AI-Driven%20Cyber%20Operations&amp;url=https%3A%2F%2Fnorforge.com%2Fblog%2Finside_cairn" target="_blank" rel="noopener noreferrer" aria-label="Share on X" title="Share on X"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="display:block"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a><a class="nf-share" style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:6px;cursor:pointer;border:1px solid var(--border-subtle);background:var(--iron-700);color:var(--iron-200);text-decoration:none" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fnorforge.com%2Fblog%2Finside_cairn" target="_blank" rel="noopener noreferrer" aria-label="Share on LinkedIn" title="Share on LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="display:block"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"></path></svg></a></div></div></div></section><div class="nf-post-progress" aria-hidden="true"><span style="transform:scaleX(0)"></span></div><section style="background:var(--iron-800);padding:2px 32px 88px"><div style="max-width:1000px;margin:0 auto"><div class="nf-post-layout has-rail"><article class="nf-post"><section id="tldr" class="nf-post-section"><h2><span class="nf-post-num">01</span>TL;DR</h2><p>An investigation by NorForge into publicly exposed AI-driven penetration-testing control panels has uncovered how they are extensively used in malicious cyber operations. One of these is Cairn.</p><p>In this setting, Cairn is an AI-powered hacking system. Give it a target and an objective, and it can coordinate AI agents to investigate the target, search for security weaknesses, and attempt to break in.</p><p>More than 20 exposed Cairn panels were identified as likely associated with malicious activity, providing an unusually detailed view of how threat actors select targets, direct autonomous agents, exploit vulnerabilities, and establish persistent access to compromised systems.</p><p>In addition, a considerable number of apparently legitimate red team operations were also exposed this way, potentially placing clients at risk.</p></section><section id="the-opening" class="nf-post-section"><h2><span class="nf-post-num">02</span>The Opening</h2><p>In September 2026, Gambit Security reported on a criminal intrusion campaign targeting online marketplaces. They recovered an attacker’s staging server and found the use of AI harnesses, such as Hermes, Strix, and Cairn. Important information, that is. Such tools frequently have web based user interfaces that are left unsecured on the open web.</p><p>Sure enough: Quick searches using the Shodan and Censys search engines reveal hosts running what appear to be AI harnesses of different kinds. Most need authorization to access. Most.</p><p>But there are quite a few of these interfaces left open by their operators. And apparently, one of the most neglected platforms is Cairn.</p><p>Our searches initially revealed a handful of open Cairn panels. Continued scans revealed new panels coming online in short order; and targeting information, language and instructions showed many of them to belong to the same threat actors.</p><p>In this article we will detail some of these. However; it is the nature of these panels that they reveal a great deal of sensitive information about the targets; including who they are, what weaknesses have been uncovered, account secrets and API keys, and whether they have been compromised or not. This means that we must aggressively redact extracted data and won’t disclose the panel addresses until they can be taken down.</p><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/operator-task-secrets.webp"><img src="/blog/inside_cairn/images/operator-task-secrets.webp" alt="An operator task on an open Cairn panel, with target names and credentials redacted." width="591" height="396" loading="lazy"></a><figcaption>Operator task containing secrets. Even root access to the attacker’s data drop is exposed.</figcaption></figure></section><section id="the-machine" class="nf-post-section"><h2><span class="nf-post-num">03</span>The Machine</h2><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/cairn-panel-projects.webp"><img src="/blog/inside_cairn/images/cairn-panel-projects.webp" alt="A Cairn panel listing active and completed projects." width="1522" height="766" loading="lazy"></a><figcaption>A Cairn panel with a few active or completed projects. This belongs to an unrelated actor; conveniently not using recognizable target tags.</figcaption></figure><p>Some describe Cairn as an autonomous penetration testing engine. This is not entirely accurate; it can be used that way, yes, but its use case is more generic: It is a state-based problem solving engine, moving step by step in the general direction of a defined solution.</p><p>But in our case – yes, it is used for penetration testing.</p><p>In Cairn, each separate task is considered a project. Every project has a start point called an origin, and a predefined end goal. The agent framework then progresses from origin towards goal in a state-based organic growth.</p><p>Between start and end are cycles of intents and facts. A fact is something the agent has discovered, and an intent is what it has decided to do next. The agent posts every fact onto a project-internal blackboard. A human operator can also add their own hints to the same blackboard. Facts and hints are in this way data available to every agent worker on the path towards the defined solution. This can be visualized graphically, which also Cairn does.</p><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/project-graph.webp"><img src="/blog/inside_cairn/images/project-graph.webp" alt="A Cairn project graph running from origin to goal." width="1313" height="572" loading="lazy"></a><figcaption>The progress from origin in cyan to goal in red. Not all paths succeed. This attack was directed at a major US online retailer, and ended up in GOAL MET: Webshell injected into the site.</figcaption></figure></section><section id="the-actors" class="nf-post-section"><h2><span class="nf-post-num">04</span>The Actors</h2><p>Cairn panels are regular web fronts, and can be readily profiled using commercial internet scanning platforms. Over a period of a few days, we found numerous such panels. Some were empty, some were protected against unauthorized access, and some appeared to be legitimate demos or valid pentesting outfits. We will not be outing legitimate red teams here, but it is clear that placing real customer penetration tests on an unsecured panel is highly problematic.</p><p>But even filtering out those, more than 20 such panels were identified as likely malicious. As far as we could see, all appeared to have financial motivation; there was no obvious state-sponsored intrusion activity. That is not to say that this does not happen, but one assumes that type of actor knows how to secure dashboards.</p><p>Much of the observed activity seemed to coalesce around a handful of clusters, where the exposed panels contained information that tied them together.</p><p>We denote each activity cluster by a serial number starting with the “AIA” prefix; meaning “AI Activity”. The acronym for AI Threat Activity was already taken.</p><div class="nf-post-facts nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><h3><span class="nf-post-kicker">Cluster</span>AIA0001</h3><dl><div><dt>Language</dt><dd>Chinese</dd></div><div><dt>Panels</dt><dd>14</dd></div><div><dt>Hosting</dt><dd>AS56594</dd></div><div><dt>Confidence</dt><dd>High</dd></div></dl></div><p>This activity cluster uses Chinese language, and is by far the most active of the actors that expose their panels. The operation is massive, with over 1100 attack projects spread over the 14 dashboards likely associated with this group.</p><p>AIA0001 targets a wide swath of organizations, mostly in the US, Japan and Australia. The aim seems to be to gain persistent access to e-commerce/payment infrastructure for later monetization.</p><p>This group currently seems to prefer hosting their panels via AS56594, Cgi Global Limited. We assess this cluster to be malicious with high confidence.</p><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/aia0001-target-selection.webp"><img src="/blog/inside_cairn/images/aia0001-target-selection.webp" alt="Bar chart of AIA0001 targets by sector." width="1800" height="1152" loading="lazy"></a><figcaption>AIA0001 target selection.</figcaption></figure><p>This actor appears to use extensive automation in its task feeding pipeline. Consider for example this task, which is quite typical:</p><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/aia0001-automated-task.webp"><img src="/blog/inside_cairn/images/aia0001-automated-task.webp" alt="A typical automated AIA0001 task, written in Chinese." width="973" height="126" loading="lazy"></a><figcaption>A typical automated task.</figcaption></figure><blockquote class="nf-post-quote nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><div class="nf-post-quote-label">Translation</div><p>These are confirmed real shopping/e-commerce websites in four countries (US/CA/JP/AU), with traffic of 200,000–1.5 million. Playwright has verified that orders can be placed.</p><p>Objective: Find unauthenticated RCE (command execution/code injection/deserialization/file-upload webshell/SQL injection leading to RCE/SSTI/SSRF leading to RCE).</p><p>Priorities: Login SQL injection, unauthenticated endpoints, file uploads, deserialization, authentication bypass, account takeover.</p><p>Payload: Uploader shell (HTML upload form + move_uploaded_file to save files), explicitly not a command-executing webshell.</p></blockquote><p>The feeding pipeline includes automated validation of target sites. Not only are they ranked by traffic, but they have also been tested using Playwright, Microsoft’s browser automation framework, before sent to Cairn for exploitation.</p><p>There are also other hints at automation; and some are of the silly kind. For example; a lot of target sites across multiple panels have had an initial letter “w” removed. ‘Wholesale’ becomes ‘holesale’ and “winter” becomes “inter”. This suggests that there is a common, buggy domain normalizer that removes a “w” too much from the www. It makes spotting related panels very easy.</p><p>Every now and then, these attackers will open a web server on a high port to do out of band testing. In these short lived time windows, the working directory of one of these AI workers will be available for browsing. This happened at least once with one of the AIA0001 hosts, and that gave us the opportunity to get a closer look at the tooling available for the agent.</p><p>In this particular case, we found:</p><figure class="nf-post-table nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><figcaption>Tools found on agent worker folder</figcaption><div class="nf-post-table-scroll"><table><thead><tr><th>Software / package / tool</th><th>Use case</th></tr></thead><tbody><tr><td>Playwright</td><td>Browser automation and web testing; the profile directories are Chromium browser state rather than source packages.</td></tr><tr><td>Chromium</td><td>Browser engine used by Playwright and related browser automation.</td></tr><tr><td>PHPGGC (PHP Generic Gadget Chains)</td><td>Generates PHP unserialize() gadget-chain payloads for authorized vulnerability validation and exploit research.</td></tr><tr><td>StyleSmuggler HTTP PoC</td><td>Research proof-of-concept for the StyleSmuggler / CVE-2026-75650 Magento report-poisoning-to-code-execution chain.</td></tr><tr><td>Magento Open Source 2.4.9 validation lab</td><td>Docker-based, revision-pinned vulnerable/patched Magento lab for safely validating CVE-2026-75650 / VULN-39341.</td></tr><tr><td>MarkShust PolyShellPatch</td><td>Deprecated Magento module intended to block executable-file uploads through cart custom-option uploads.</td></tr><tr><td>Docker</td><td>Container build/runtime tooling used for isolated validation environments.</td></tr><tr><td>PHP</td><td>Runtime and scripting language for PHP payload generation and testing PHP web applications.</td></tr><tr><td>Composer</td><td>PHP dependency/package manager; the manifest identifies the Magento PolyShellPatch package.</td></tr><tr><td>Python 3</td><td>Main scripting language for reconnaissance, HTTP testing, parsers, proof-of-concept code, and automation.</td></tr><tr><td>Node.js</td><td>JavaScript runtime/tooling used by web probes, browser automation support, and target-specific scripts.</td></tr><tr><td>Vosk</td><td>Offline speech-recognition toolkit/model.</td></tr><tr><td>OpenSSL</td><td>TLS/cryptographic command-line and configuration tooling.</td></tr><tr><td>Xvfb</td><td>X virtual framebuffer for running GUI/browser applications without a physical display.</td></tr><tr><td>tmux</td><td>Terminal multiplexer/runtime state, typically used to keep long-running sessions and listeners alive.</td></tr><tr><td>OWASP Amass</td><td>External attack-surface discovery and subdomain enumeration.</td></tr><tr><td>dnsrecon</td><td>DNS enumeration and reconnaissance.</td></tr><tr><td>ffuf</td><td>Fast web fuzzer for directory, parameter, virtual-host, and content discovery.</td></tr><tr><td>Nmap</td><td>Network/port/service scanning.</td></tr><tr><td>rockyou wordlist</td><td>Large password wordlist commonly used for authorized password-audit and credential-testing workflows.</td></tr><tr><td>Odoo framework artifacts</td><td>Extracted Odoo server/module source or probes used to understand Odoo web, ORM, QWeb, and action execution behavior.</td></tr><tr><td>Various custom utilities</td><td>Project-specific proxying, payload validation, traffic capture, patching, and proof-of-concept utilities.</td></tr></tbody></table></div></figure><p>But more importantly, one of the agent task updates contained this text:</p><blockquote class="nf-post-quote nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><div class="nf-post-quote-label">Agent task update</div><p>The local environment is a Kali container, belonging to the tsec CTF/intelligent penetration test competition framework (there is a flag submission interface description in <code>/home/kali/workspace/.claude/skills/tsec-actions/SKILL.md</code>, with the flag format being <code>flag{...}</code>), but the environment variable <code>TSEC_SERVER_HOST</code> is empty and <code>TSEC_AGENT_TOKEN</code> is not actually injected, so the competition submission interface cannot be accessed</p></blockquote><p>This would seem to indicate that the agent setup was repurposed from an earlier Tencent CTF challenge configuration. This is almost certainly criminals reusing existing tools, and there is no reason to believe that Tencent had anything to do with this operation.</p><p>From what we’ve seen, all tasks were performed by a worker named <code>claudecode_deepseek-v4.1-flash</code>, which could mean a Claude Code harness using the Chinese DeepSeek 4.1 Flash model that was released in September.</p><p>We dont have actual numbers on token usage, but with the underlying data it's possible to guesstimate. Deepseek 4.1 Flash is an inexpensive model, but cost varies between peak and non-peak hours, and whether the tokens are cached or not. We estimate the average cost of a task to end up around $5 if one includes unsuccessful, early ending projects. Longer running projects could get more expensive - there are projects with over 1000 intents and facts, and those could end up costing more than $100. The uncertainty here is however considerable, and numbers could be off by a clear margin. Even so, there's no doubt that this is relatively cheap.</p><div class="nf-post-facts nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><h3><span class="nf-post-kicker">Cluster</span>AIA0002</h3><dl><div><dt>Language</dt><dd>English</dd></div><div><dt>Panels</dt><dd>10</dd></div><div><dt>Hosting</dt><dd>AS20473</dd></div><div><dt>Confidence</dt><dd>High</dd></div></dl></div><p>This cluster uses English language, and is oriented towards financial theft. We found 10 panels likely associated with this group, though some of these are less confidently linked. Many of these have also gone dark since the start of this investigation.</p><p>They frequently directly talk about stealing credit cards and cryptocurrencies, and uploading stolen data to separate hosts under their control. They – incredibly! – expose the SSH login to backend staging hosts in their taskings. (No, we did not log into their servers, although we were sorely tempted.) It is interesting to see that many projects seem to have no technical starting instructions, beyond "fetch credit cards" or "fetch crypto". The agents just go from there.</p><p>This group prefer hosting their panels via AS20473, The Constant Company (in most cases this means VULTR VPS instances). We assess this cluster to be malicious with high confidence.</p><p>The targets listed in these panels are mainly oriented towards merchant payment services, gray-market payment sites and pharmaceutical sites; even a clearly criminal carding site. There are indications that they successfully breached some of these.</p><p>Out of the targets that do not fit into those categories, several are African commerce sites, which hints towards this actor having a base on that continent.</p><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/aia0002-target-sectors.webp"><img src="/blog/inside_cairn/images/aia0002-target-sectors.webp" alt="Bar chart of AIA0002 targets by sector." width="1800" height="1152" loading="lazy"></a><figcaption>AIA0002 target sectors.</figcaption></figure><p>The projects run by this actor state they use workers named pi_openrouter_deepseek, suggesting a configuration in which the Pi coding-agent framework uses DeepSeek language models through OpenRouter, a third-party AI model API gateway.</p><div class="nf-post-facts nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><h3><span class="nf-post-kicker">Cluster</span>AIA0003</h3><dl><div><dt>Language</dt><dd>English</dd></div><div><dt>Panels</dt><dd>1</dd></div><div><dt>Hosting</dt><dd>AS200019</dd></div><div><dt>Confidence</dt><dd>Low</dd></div></dl></div><p>This entity exposes only one panel, with 59 projects listed. The targets are a mix of smaller e-commerce sites and very large US-based commercial platforms. Language used is exclusively English. The panel is hosted on AS200019, AlexHost.</p><p>The projects listed on this panel start out claiming to be authorized assessments of various sites, but then gradually become more explicit about exploiting the targets including obtaining shell access, admin panel access, or database access.</p><p>This actor seems more in the exploratory stage. We assess this actor to be malicious with low confidence.</p><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/project-creation-activity.webp"><img src="/blog/inside_cairn/images/project-creation-activity.webp" alt="Dashboard of project creation over time for AIA0001, AIA0002 and AIA0003." width="1672" height="941" loading="lazy"></a><figcaption>Project creation activity across the three clusters.</figcaption></figure></section><section id="the-exploitation" class="nf-post-section"><h2><span class="nf-post-num">05</span>The Exploitation</h2><p>Whether a task has succeeded in reaching its goal, and whether that constitutes a real-life security problem, depends a lot on how aggressive a goal is. In some cases, tasks stop when establishing whether there is a vulnerability. However, the threat actors covered in this article typically go further.</p><p>Previously, we posted one of the tasks used by AIA0001. That task explicitly demanded a webshell to be installed, in order for the goal to be reached. Just to test, we checked if one of the claimed intrusions had really happened by fetching the shell URL mentioned in a completed task against a large hardware parts vendor. The URL did indeed serve an uploader webshell. Attackers can at any time change that into something more malicious.</p><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/live-uploader-webshell.webp"><img src="/blog/inside_cairn/images/live-uploader-webshell.webp" alt="A bare file-upload form served from the vendor's site." width="738" height="241" loading="lazy"></a><figcaption>Live uploader web shell served from a vendor site.</figcaption></figure><p>This particular intrusion was apparently – according to the agent’s own explanation – enabled by unauthorized write access to a memcached session store, combined with unsafe PHP object deserialization and an exploitable gadget chain in legacy Zend Framework components. However, all these exploitation paths are different, and the payload can look different as well. We have gathered a number of case studies at the end of this paper.</p><p>AIA0001 seems to exclusively go after access, and make sure they have the ability to do more at a later date. Other actors have other goals, but this threat actor appears to have been by far the most proficient and effective in reaching their target. The AIA0002 actor uses Cairn in a more generic way. Not only is it used to break into targets, but it is also used as a general purpose service engine; for example to move funds between crypto wallets.</p><figure class="nf-post-table nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><figcaption>Task types</figcaption><div class="nf-post-table-scroll"><table><thead><tr><th>Activity</th><th>Typical task goals (literal quotes)</th></tr></thead><tbody><tr><td>AIA0001</td><td>这是四国(US/CA/JP/AU)已确认的真实购物电商站(流量200k-1.5M)。<br>目标：找未认证 RCE (命令执行/代码注入/反序列化/文件上传webshell/SQLi→RCE/SSTI/SSRF→RCE)。<br>优先：登录SQLi、未认证端点、文件上传、反序列化、认证绕过、账户接管。<br>落地用 uploader shell (HTML上传表单+move_uploaded_file保存)，绝不落地命令执行型webshell。<br>Goal met when whoami/id 输出确认命令执行。</td></tr><tr><td>AIA0002</td><td>upload web shell in hidden dirctory deep inside not on home dirctory and name it somthing normal like confirm.php etc and give me link</td></tr><tr><td>AIA0003</td><td>Obtain shell access, admin panel access, or database access on REDACTED. Try all attack vectors: SQLi, file upload, authentication bypass, RCE, deserialization, SSTI, SSRF, business logic flaws. Build dynamic attack chains.</td></tr></tbody></table></div></figure></section><section id="the-success-rates" class="nf-post-section"><h2><span class="nf-post-num">06</span>The Success Rates</h2><p>The different activity clusters have different focus, go after different targets, and what constitutes success varies. They are not directly comparable. But it is a reasonable assumption that for the harnesses we have seen in these campaigns, average success rate is hovering around 10%, with many of the remaining tasks achieving partial goals, or are able to gather information that can be used in later attempts.</p><dl class="nf-post-stats nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><div><dt>Average success rate</dt><dd>~10%</dd></div><div><dt>Start to goal, AIA0001</dt><dd>&lt;23h</dd></div><div><dt>Facts per project</dt><dd>140</dd></div></dl><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/campaign-outcomes.webp"><img src="/blog/inside_cairn/images/campaign-outcomes.webp" alt="Summary of observed AI-driven intrusion campaigns and their reported outcomes." width="1536" height="1024" loading="lazy"></a><figcaption>Observed AI-driven intrusion campaigns and reported outcomes.</figcaption></figure><p>If we concentrate on the tasks that did reach their goals, especially on the AIA0001 cluster which most resembles general purpose intrusion activity, we can now see that the average time from project start to goal met was a little under 23 hours, generating on average 140 facts per project. However; there’s a wide range here. One project ran for more than five days. It is also worth noting that this is a snapshot at this point in time. Models and harnesses evolve very quickly.</p></section><section id="the-exposure" class="nf-post-section"><h2><span class="nf-post-num">07</span>The Exposure</h2><p>These panels not only expose that a site is being tested for weaknesses, and any conclusions of the tests. They detail everything that the agent has discovered in the process, and if that was not enough, they include human input that includes credentials harvested elsewhere.</p><p>In other words, having your site tested on an open Cairn instance is often a serious security issue, regardless of outcome of the test.</p><p>We ran the secrets scanner Trufflehog over the data from these Cairn instances.</p><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/exposed-credentials.webp"><img src="/blog/inside_cairn/images/exposed-credentials.webp" alt="Dashboard of credentials found in exposed Cairn project data, by risk, verification status and secret type." width="1800" height="1125" loading="lazy"></a><figcaption>Credentials exposed in AI-driven operations.</figcaption></figure><p>The result was concerning. Literally hundreds of secrets of different kinds, from relatively trivial to extremely serious; with 11% verified valid by Trufflehog.</p><p>Think that's bad? It gets worse. These panels appear completely unprotected, exposing what looks like the full administrative functionality of the harness. That includes controls for starting and stopping projects, interfering with ongoing operations, inserting new data, redirecting agents to different targets, and restarting old projects. We haven't tested whether these controls actually work without authorization, for reasons that should be fairly obvious. But consider the implications. These are autonomous offensive agents with considerable capabilities, potentially available to anyone who stumbles across their control panels. Tokens could evaporate like dry ice on a hot plate. And who knows what these agents could be persuaded to do that would make their owners weep. Just to be clear, we walked away from that train of thought. But the underlying point remains: Whatever offensive expertise these operators possess, securing their own infrastructure does not appear to be among their strengths.</p></section><section id="the-conclusion" class="nf-post-section"><h2><span class="nf-post-num">08</span>The Conclusion</h2><p>It is clear that AI-driven frameworks are used to perform malicious actions. That was established well before this paper. However, this research has pointed out something else: The attackers are not well prepared for this technology either. In the rush to gain quick results, many have forgotten basic security precautions, leading to them compromising their own operational security and also, unfortunately, exposing their targets to a far larger attack surface than the intent was. This has also proven to be a problem for legitimate red teams; gathering secrets from your client just to publish them on the Internet is a nightmare scenario.</p><p>But it is an interesting window into the methodology, and how autonomous and semi-autonomous agents solve real world intrusion tasks. This could and should inform our defenses going forward.</p><p>We have been cooperating with Reuters in notifying victims, particularly those who appear to have suffered a compromise. We are also attempting to get the offending Cairn panels taken down. This might not be possible; it depends a lot on how well the hosters respond to takedown requests.</p></section><section id="appendix-a-case-studies" class="nf-post-section"><h2><span class="nf-post-num">A</span>Case studies</h2><h3 class="nf-post-h3"><span class="nf-post-kicker">Case 1</span>Australian e-commerce site</h3><p>The Cairn backend stated that goal was met and indeed, there is a shell giving command execution on the web server.</p><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/case1-command-shell.webp"><img src="/blog/inside_cairn/images/case1-command-shell.webp" alt="A directory listing returned by a web shell on the site, with identifying details redacted." width="624" height="585" loading="lazy"></a><figcaption>Command execution through the shell on the web server.</figcaption></figure><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/case1-attack-chain.webp"><img src="/blog/inside_cairn/images/case1-attack-chain.webp" alt="Attack chain from unauthenticated account modification to server command execution." width="1725" height="912" loading="lazy"></a><figcaption>The attack chain, from unauthenticated account modification to command execution.</figcaption></figure><h3 class="nf-post-h3"><span class="nf-post-kicker">Case 2</span>Restaurant POS compromise</h3><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/case2-restaurant-pos.webp"><img src="/blog/inside_cairn/images/case2-restaurant-pos.webp" alt="Attack chain of the restaurant POS compromise." width="1723" height="913" loading="lazy"></a><figcaption>Restaurant POS compromise.</figcaption></figure><h3 class="nf-post-h3"><span class="nf-post-kicker">Case 3</span>Web application intrusion on US retailer</h3><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/case3-us-retailer.webp"><img src="/blog/inside_cairn/images/case3-us-retailer.webp" alt="Attack chain of the web application intrusion on a US retailer." width="1724" height="912" loading="lazy"></a><figcaption>US retailer web application intrusion.</figcaption></figure><h3 class="nf-post-h3"><span class="nf-post-kicker">Case 4</span>Another US retailer, this time via insecure error handling</h3><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/case4-error-handling.webp"><img src="/blog/inside_cairn/images/case4-error-handling.webp" alt="Attack chain through insecure error handling at a US retailer." width="1768" height="890" loading="lazy"></a><figcaption>Insecure error handling.</figcaption></figure><h3 class="nf-post-h3"><span class="nf-post-kicker">Case 5</span>Japanese retailer</h3><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/case5-japanese-retailer.webp"><img src="/blog/inside_cairn/images/case5-japanese-retailer.webp" alt="Attack chain of the intrusion on a Japanese retailer." width="1672" height="941" loading="lazy"></a><figcaption>Japanese retailer.</figcaption></figure><h3 class="nf-post-h3"><span class="nf-post-kicker">Case 6</span>Very large US retailer</h3><figure class="nf-post-figure nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><a class="nf-post-zoom" href="/blog/inside_cairn/images/case6-large-us-retailer.webp"><img src="/blog/inside_cairn/images/case6-large-us-retailer.webp" alt="Attack chain of the compromise of a very large US retailer." width="1312" height="1199" loading="lazy"></a><figcaption>This compromise chain was validated by us. The agent managed to find the one cookie setting that chose the vulnerable backend server.</figcaption></figure></section><section id="appendix-b-indicators-of-compromise" class="nf-post-section"><h2><span class="nf-post-num">B</span>Indicators of compromise</h2><p>We are sorry that we can not provide unredacted data on where these panels are. Many are still live and contain sensitive data. However, if you are a bona fide security researcher, reach out and we will be happy to provide the unredacted list.</p><figure class="nf-post-table nf-post-reveal" style="translate: none; rotate: none; scale: none; opacity: 0; transform: translate(0px, 16px);"><figcaption>Panels and staging servers</figcaption><div class="nf-post-table-scroll"><table><thead><tr><th>IOC</th><th>Notes</th></tr></thead><tbody><tr><td><code>199.247.25.25</code></td><td>AIA0002 staging server</td></tr><tr><td><code>199.247.27.2</code></td><td>AIA0002 staging server</td></tr><tr><td><code>46.8.xxx.xx9:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>95.182.xxx.x42:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>31.56.xxx.xx7:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>31.57.xxx.xx9:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>46.8.xxx.xx3:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>94.183.xxx.xx3:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>94.183.xxx.x34:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>31.59.xxx.xx5:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>95.182.xxx.x12:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>31.59.xxx.xx7:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>94.183.xxx.x54:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>95.182.xxx.xx5:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>94.183.xxx.xx8:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>31.59.xxx.xx3:8000</code></td><td>AIA0001 panel</td></tr><tr><td><code>108.61.xxx.xx6:8000</code></td><td>AIA0002 panel</td></tr><tr><td><code>66.42.xxx.xx9:8000</code></td><td>AIA0002 panel</td></tr><tr><td><code>95.179.xxx.xx3:8000</code></td><td>AIA0002 panel</td></tr><tr><td><code>45.63.xxx.xx7:8000</code></td><td>AIA0002 panel</td></tr><tr><td><code>136.244.xxx.xx6:8000</code></td><td>AIA0002 panel and staging</td></tr><tr><td><code>45.76.xxx.xx0:8000</code></td><td>AIA0002 panel</td></tr><tr><td><code>209.250.xxx.xx8:8000</code></td><td>AIA0002 panel</td></tr><tr><td><code>95.85.xxx.xx9:8000</code></td><td>AIA0002 panel and staging</td></tr><tr><td><code>136.244.xxx.x86:8000</code></td><td>AIA0002 panel</td></tr><tr><td><code>64.176.xxx.xx3:8000</code></td><td>AIA0002 panel</td></tr><tr><td><code>143.246.xxx.xx1:8000</code></td><td>AIA0003 panel</td></tr></tbody></table></div></figure></section><button type="button" class="nf-post-top">Back to top <span aria-hidden="true">↑</span></button><a href="/contact" style="display:inline-block;margin-top:40px;font-family:var(--font-ui);font-size:15px;font-weight:500;color:var(--verdigris-400);text-decoration:underline;text-underline-offset:4px">Get in touch <span aria-hidden="true">→</span></a></article><aside class="nf-post-rail" aria-label="On this page"><div class="nf-post-rail-label">Contents</div><nav class="nf-post-rail-nav"><a href="#tldr" class="is-active"><span>01</span>TL;DR</a><a href="#the-opening"><span>02</span>The Opening</a><a href="#the-machine"><span>03</span>The Machine</a><a href="#the-actors"><span>04</span>The Actors</a><a href="#the-exploitation"><span>05</span>The Exploitation</a><a href="#the-success-rates"><span>06</span>The Success Rates</a><a href="#the-exposure"><span>07</span>The Exposure</a><a href="#the-conclusion"><span>08</span>The Conclusion</a><a href="#appendix-a-case-studies"><span>A</span>Case studies</a><a href="#appendix-b-indicators-of-compromise"><span>B</span>Indicators of compromise</a></nav></aside></div></div></section></div></main><footer style="background:#14171D;border-top:1px solid rgba(210,212,213,0.06);padding:72px 32px 32px" class="nf-footer"><div style="max-width:1280px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:56px;align-items:start" class="nf-footer-inner"><div><img src="/assets/nf-green-horizontal.svg" alt="NorForge" width="100" height="26" loading="lazy" style="height:26px;width:auto;display:block;margin-bottom:16px"><div style="font-size:13px;color:var(--iron-250);max-width:320px;line-height:1.6" class="nf-footer-bt">We bring our extensive sandboxing expertise to AI agents, so you can see everything your agents do and draw the lines they can’t cross.</div></div><div style="display:grid;grid-template-columns:repeat(3,auto);gap:48px" class="nf-footer-cols"><div><div style="font-family:JetBrains Mono, monospace;font-size:10px;color:var(--verdigris-400);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:14px">Company</div><a href="/about" style="display:block;width:fit-content;font-size:13px;color:var(--iron-200);margin-bottom:8px;cursor:pointer" class="nf-nav-textlink">About</a><a href="/about#team" style="display:block;width:fit-content;font-size:13px;color:var(--iron-200);margin-bottom:8px;cursor:pointer" class="nf-nav-textlink">Team</a><a href="/blog" style="display:block;width:fit-content;font-size:13px;color:var(--iron-200);margin-bottom:8px;cursor:pointer" class="nf-nav-textlink">Blog</a></div><div><div style="font-family:JetBrains Mono, monospace;font-size:10px;color:var(--verdigris-400);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:14px">Contact</div><a href="mailto:contact@norforge.com" style="display:block;width:fit-content;font-size:13px;color:var(--iron-200);margin-bottom:8px;cursor:pointer" class="nf-nav-textlink">contact@norforge.com</a><a href="/contact" style="display:block;width:fit-content;font-size:13px;color:var(--iron-200);margin-bottom:8px;cursor:pointer" class="nf-nav-textlink">Get in touch</a><a href="/security-policy" style="display:block;width:fit-content;font-size:13px;color:var(--iron-200);margin-bottom:8px;cursor:pointer" class="nf-nav-textlink">Security disclosure</a></div><div><div style="font-family:JetBrains Mono, monospace;font-size:10px;color:var(--verdigris-400);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:14px">Legal</div><a href="/privacy" style="display:block;width:fit-content;font-size:13px;color:var(--iron-200);margin-bottom:8px;cursor:pointer" class="nf-nav-textlink">Privacy Policy</a><a href="/terms" style="display:block;width:fit-content;font-size:13px;color:var(--iron-200);margin-bottom:8px;cursor:pointer" class="nf-nav-textlink">Terms of Service</a></div></div><div style="display:flex;gap:24px;justify-self:end" class="nf-footer-offices"><address style="font-size:12px;color:#9AA0AB;line-height:1.7;font-style:normal" class="nf-footer-address"><div style="font-family:JetBrains Mono, monospace;font-size:10px;color:#47A08C;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:6px">NorForge Inc</div>470 Ramona Street, <br>Palo Alto, CA 94301, <br>United States</address><div style="width:2px;align-self:stretch;background:var(--verdigris-400);opacity:0.55" aria-hidden="true"></div><address style="font-size:12px;color:#9AA0AB;line-height:1.7;font-style:normal" class="nf-footer-address"><div style="font-family:JetBrains Mono, monospace;font-size:10px;color:#47A08C;text-transform:uppercase;letter-spacing:0.1em;margin-bottom:6px">NorForge Norway AS</div>Rådhusgata 6, <br>4306 Sandnes, <br>Norway</address></div></div><div style="max-width:1280px;margin:56px auto 0;padding-top:24px;border-top:1px solid rgba(210,212,213,0.06);display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px" class="nf-footer-bottom"><span style="font-family:JetBrains Mono, monospace;font-size:11px;color:var(--iron-250)">© 2026 NorForge Inc</span></div></footer></div>
+<script src="/b/app-2159e881b3.js" defer=""></script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;48c50f7e850f4a8b9dacd8670ac082fb&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+
+</body></html>

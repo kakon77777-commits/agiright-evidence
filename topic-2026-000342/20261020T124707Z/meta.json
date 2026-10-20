@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000342",
+  "url": "https://norforge.com/blog/inside_cairn",
+  "capturedAt": "2026-10-20T12:47:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 58691,
+    "sha256": "b67a397a2fb535fe00152f304e04f2d420af1d45a379e79bf594659fa3299c3b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "82918FA78D076A1D472CC0816C67ABBD",
+      "status": 200,
+      "url": "https://norforge.com/blog/inside_cairn",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 21297,
+      "afterScrollHeight": 21297,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "a7d2491c684301d04879c7b1e558d5bdf2f2af55e11e90e122b8bc4799340a0d",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1052774,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 21297,
+    "afterScrollHeight": 21297
+  },
+  "record": {
+    "capturedAt": "2026-10-20T12:47:07Z",
+    "url": "https://norforge.com/blog/inside_cairn",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 58691,
+      "sha256": "b67a397a2fb535fe00152f304e04f2d420af1d45a379e79bf594659fa3299c3b"
+    },
+    "finalUrl": "https://norforge.com/blog/inside_cairn",
+    "httpStatus": 200,
+    "title": "Inside Cairn: Open Windows into massive AI-Driven Cyber Operations - NorForge",
+    "rendered": {
+      "textChars": 22873,
+      "textSha256": "670f716f2a767f311e74a34f09ea2235acec073c733041a11359e902bc819dd4",
+      "htmlSha256": "69d5d5a55b51a42c02992be349ac83fd5edba6e03ea44a1e1428d34e9e29f48d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a7d2491c684301d04879c7b1e558d5bdf2f2af55e11e90e122b8bc4799340a0d",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1052774,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261019114931",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261019114931/https://norforge.com/blog/inside_cairn"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261020124722/https://norforge.com/blog/inside_cairn",
+      "timestamp": "20261020124722",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,233 @@
+Search
+Subscribe
+Sign in
+Home
+Latest
+Fortune 500
+Finance
+Tech
+Leadership
+Lifestyle
+Rankings
+Multimedia
+Watch Now
+
+Steven Bartlett built The Diary of a CEO into a global hit. Hear how on Fortune Daily.
+
+Steven Bartlett built The Diary of a CEO into a global hit. Hear how on Fortune Daily.
+
+Steven Bartlett built The Diary of a CEO into a global hit. Hear how on Fortune Daily.
+
+Steven Bartlett built The Diary of a CEO into a global hit. Hear how on Fortune Daily.
+
+Steven Bartlett built The Diary of a CEO into a global hit. Hear how on Fortune Daily.
+
+Steven Bartlett built The Diary of a CEO into a global hit. Hear how on Fortune Daily.
+
+AI
+TECH
+An AI agent sent a stranger to a man’s house without telling him—and exposed the privacy risks of AI assistants
+By Tatiana Sataua
+News Fellow
+Follow
+October 19, 2026, 10:28 AM ET
+Mark Zuckerberg speaks during the Meta Connect conference on Sept. 23, 2026. Various customizable Muse avatars are displayed.
+JEFF CHIU/AP PHOTO
+
+Matt Robb wanted to sell his computer keyboard.
+
+So he made a listing on Facebook Marketplace and, as an experiment late last month, he put Meta’s new artificial intelligence agent Muse in the driver’s seat.
+
+“I kind of went into it like a guinea pig,” said Robb, a Toronto-based content creator who regularly reviews consumer tech. He had seen Muse’s plush-toy-looking avatar pop up on Instagram and decided to see if the AI agent could spare him some online bargaining.
+
+Muse got to work. But within a day, Robb got an alarming update: A buyer he didn’t know had shown up outside his house late at night. How? Muse had struck a deal on its own and shared Robb’s home address after agreeing to a pickup. It even sent an automated “Yep, I’m here!” message from his account when the buyer arrived—all without Robb’s knowledge.
+
+“Not only did it give my address when the guy asked and it accepted the offer, but it literally was almost like teasing the guy [about me being there when I wasn’t],” said Robb, who also detailed the experience in his now widely shared social media posts. “That really baffled me.”
+
+Many have welcomed AI agents into their online lives and raved about how personalized assistants like Muse can handle everyday tasks with ease, from snagging a dinner reservation or planning a trip, to organizing email inboxes. But like other AI bots, the agents are only as good as the information they have access to. They perform better the more they know about a user—and perhaps also that person’s friends, family, and even colleagues. That raises privacy concerns.
+
+Robb and the buyer eventually made amends, and Meta reached out to talk through what went wrong. But the episode showed real-world risks that can arise from sharing extensive personal information with the technology.
+
+“Using an AI agent is similar to handing someone your keys and a to-do list,” said Veronica Rivera, assistant professor at Georgia Tech’s School of Cybersecurity and Privacy. “How helpful they are, and by extension how risky, depends on which keys you hand over.”
+
+Companies have varied privacy policies for AI agents
+
+Since its September launch, downloads of Meta’s Muse app have skyrocketed. And competition is only growing. OpenAI recently rolled out its own lineup of “always on” AI helpers, called dots, which can be integrated into ChatGPT and workplace platforms like Slack and Microsoft Teams.
+
+Older generative AI chatbots, like the standard version of ChatGPT, respond to specific prompts. At the user’s request, they can write essays, generate new images or music, or even write lines of code.
+
+Meta’s Muse and OpenAI’s dots go a step further to perform day-to-day tasks on a person’s behalf. AI agents are powered by the same large language models as chatbots, but they run in a loop. That allows an agent to take proactive steps, even when the user isn’t looking.
+
+“One of the things that makes these AI agents really appealing is that they are unprecedentedly useful,” said Rivera, who is also a Microsoft-funded Computing Research Association Trustworthy AI Research Fellow.
+
+But the convenience comes with the price of sharing more details about your life.
+
+Once AI agents obtain users’ information, it’s very difficult to fully withdraw access, said Ebrahim Bagheri, a professor at the University of Toronto’s Faculty of Information.
+
+“If you provide access to your credit card to an agent, the agent now immediately has access to all of the historical transactions…they will immediately—within less than seconds—ingest all of that data,” Bagheri said. And while users can later withdraw access, Bagheri said there’s “no taking back” data the agent has already seen, and how developers store historical data can be murky.
+
+Both Meta and OpenAI outline privacy policies for their new AI agents, which operate on their own dedicated cloud computers. You can turn off memory sharing between dots and ChatGPT, but information the agent previously received isn’t automatically deleted. OpenAI gives users an option to request access to, delete, or correct personal information, although rights can vary depending on where you live.
+
+Meta’s Muse gives users options to delete message history and other information, too. For day-to-day use, the agent prompts users for access permissions, and Meta has said Muse learns about a user and who they interact with “based on public information and from what you’ve chosen to share.” But the company says that all stays secure for each user.
+
+But the tech giant also notes that Muse can still “make mistakes or take unexpected actions.”
+
+Risks of mishaps rise with AI agents’ level of access
+
+In Robb’s case, he learned the disclosure of his address came down to “always allow” permissions he granted when he first let Muse on his Facebook Marketplace profile, where he had shared his pickup address. But he warned others could similarly misunderstand the extent of that access—and said he initially thought the AI agent would check with him before sharing that information or accepting offers, regardless.
+
+His AI agent didn’t follow the rest of his instructions without error, either. For another item Robb was selling, Muse seemingly suggested he would accept a price $100 below the previously set minimum. When reached by the Associated Press, Meta acknowledged the agent’s error without offering further comment.
+
+Robb later largely disconnected Muse from his apps. In an interview earlier this month, he said it could have been a far worse situation, especially “if some stranger turned up to someone more vulnerable’s house.” Still, Robb said he expects these agents to be fine-tuned, and he would consider re-enabling Muse in the future. He’s since been testing another AI agent: Grok Bot from Elon Musk’s X, which launched in beta in August.
+
+Other tech companies have become wary of the influx of AI agents. Earlier this month, Apple said it would introduce new controls for its Mac operating system in response to AI agents’ broader access of apps like mail, messages, and even browsing history without users’ “full knowledge and understanding.”
+
+“As AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially,” Apple wrote in an Oct. 2 update.
+
+Apple didn’t specify any developers or agents by name, but the update arrived after Inc. magazine columnist Jason Aten reported that Muse watched notifications on his Mac—including Messages—without him giving the agent that specific access.
+
+Meta spokesperson Andy Stone has maintained such integration is “entirely opt-in,” writing on social media last month that users would have to enable both the Apple security feature “Full Disk Access” and a Messages connector through Muse. Aten said he didn’t grant the agent those permissions.
+
+Even those who do not join the AI agent boom aren’t necessarily shielded. Consumers who don’t download an AI agent might still interact with others who do. And beyond potential confusion when AI sends messages on behalf of a user, experts warn of ripple effects when it comes to privacy.
+
+“When your agent reads your inbox or your texts, it’s also reading what your friends and family sent you, even if they never explicitly agreed to that,” Rivera said.
+
+Fortune Daily breaks the traditional barrier between audience and newsroom. The show transforms Fortune’s trusted reporting into actionable, conversational, and entertaining insights for an emerging class of business leaders. Watch here.
+About the Author
+By
+Tatiana Sataua
+News Fellow
+Follow
+
+Tatiana Sataua is a News Fellow at Fortune covering business, technology, AI, and consumer culture.
+
+See full bio
+Add Fortune on Google for similar content.
+Add us on Google
+Recommended For You
+PERSONAL FINANCE
+PHILANTHROPY
+Susan Dell is the one running the Dells’ $10 billion giving operation—and her biggest bets are on kids, health care, and UT Austin
+By Sydney Lake
+October 17, 2026
+3 days ago
+NORTH AMERICA
+CANADA
+Alberta has the world’s fourth-largest oil reserves and sends 90% of its crude exports to the U.S. — It will vote on a first step to leaving Canada
+By Rob Gillies and The Associated Press
+October 17, 2026
+3 days ago
+SUCCESS
+META
+A 44-minute call and a memo: How Alexandr Wang won Mark Zuckerberg’s trust—and a $100 billion-plus AI bet
+By Emma Witman
+October 17, 2026
+3 days ago
+AI
+CHIEF EXECUTIVE OFFICER (CEO)
+Anthropic’s Dario Amodei is steering a possible $2 trillion IPO—but he says up to 40% of his time goes to making sure company culture is good
+By Marco Quiroz-Gutierrez
+October 17, 2026
+3 days ago
+ECONOMY
+DEBT
+U.S. debt interest payments hit $3 billion a day and jumped 8% in fiscal 2026 — faster than total federal spending, revenue and GDP growth
+By Jason Ma
+October 17, 2026
+3 days ago
+SUCCESS
+MARK CUBAN
+Mark Cuban is worth $10 billion—but in college, he paid for junior year with a dorm-room chain letter he admits was ‘basically a scam’
+By Sydney Lake
+October 17, 2026
+3 days ago
+PERSONAL FINANCE
+WEALTH
+The wealthy boomer problem is metastasizing—they got 38% richer over the last 3 years as Gen Z and millennials under 35 got wiped out
+By Nick Lichtenberg
+October 17, 2026
+3 days ago
+INNOVATION
+ELON MUSK
+Tesla is taking $250,000 deposits for a Roadster with SpaceX thrusters. The FAA says it isn’t an aircraft
+By Bilin Lin
+October 17, 2026
+3 days ago
+COMMENTARY
+PHILANTHROPY
+In nearly 2 decades of leading philanthropy at the Milken Institute, I’ve never seen a tidal wave like the one that’s coming
+By Melissa Stevens
+October 17, 2026
+3 days ago
+SUCCESS
+THE FUTURE OF WORK
+Jeff Bezos says ‘millions of people’ will be living in space by 2045—and robots will commute on our behalf to the moon
+By Orianna Rosa Royle
+October 17, 2026
+3 days ago
+SUCCESS
+EDUCATION
+Despite a $500 million net worth, Shaq’s on his 5th college degree—and tells Gen Z that AI can’t replace sitting across people smarter than you
+By Preston Fore
+October 17, 2026
+3 days ago
+SUCCESS
+CAREERS
+Despite making over $200,000 a year, many NFL referees still hold full-time jobs as attorneys, aerospace engineers, and college professors
+By Preston Fore
+October 16, 2026
+4 days ago
+Rankings
+100 Best Companies
+Fortune 500
+Global 500
+Fortune 500 Europe
+Most Powerful Women
+World's Most Admired Companies
+See All Rankings
+Lists Calendar
+Sections
+Finance
+Fortune Crypto
+Features
+Leadership
+Health
+Commentary
+Success
+Retail
+Mpw
+Tech
+Lifestyle
+CEO Initiative
+Asia
+Politics
+Conferences
+Europe
+Newsletters
+Personal Finance
+Environment
+Magazine
+Education
+Customer Support
+Frequently Asked Questions
+Customer Service Portal
+Privacy Policy
+Terms Of Use
+Single Issues For Purchase
+International Print
+Commercial Services
+Advertising
+Fortune Brand Studio
+Fortune Analytics
+Fortune Conferences
+Business Development
+Group Subscriptions
+About Us
+About Us
+Press Center
+Work At Fortune
+Terms And Conditions
+Site Map
+
+© 2026 Fortune Media IP Limited. All Rights Reserved. Use of this site constitutes acceptance of our Terms of Use and Privacy Policy | CA Notice at Collection and Privacy Notice | Do Not Sell/Share My Personal Information
+FORTUNE is a trademark of Fortune Media IP Limited, registered in the U.S. and other countries. FORTUNE may receive compensation for some links to products and services on this website. Offers may be subject to change without notice.

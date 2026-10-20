@@ -1,0 +1,282 @@
+
+Draft bill tied to Anthropic would let courts halt AI models for 45 days
+Skip to Sidebar
+Skip to Content
+Search
+Anonymous
+Sign in
+Home
+Membership
+FAQ
+About
+Advertise
+Contact
+Tags
+Pulse
+Landline
+Decoded
+Intermission
+Gridlock
+Pulse
+Landline
+Decoded
+Intermission
+Gridlock
+About
+Privacy
+RSS
+info@ppc.land
+Gavel stops a giant mainframe: draft bill linked to Anthropic would let courts halt AI for 45 days
+Pulse
+Draft bill tied to Anthropic would let courts halt AI models for 45 days
+Federal draft last edited September 29 sets a 10^25 compute line and a $500M revenue test. Which state frontier AI rules would survive it, and which would not?
+by Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+October 20, 2026
+&bull;
+16 min read
+Subscribe to Newsletter
+Subscribe
+Sending
+Sent
+Please check your inbox and click the confirmation link.
+Comments
+Share
+Share on X
+Share on Facebook
+Share on LinkedIn
+Share on Pinterest
+Email
+Copy link
+A 37-page federal bill draft, marked privileged and confidential and last edited on September 29, 2026, reached a wider audience on October 19 through a LinkedIn post that linked it to Anthropic. The text would make the Department of Commerce the regulator of the most powerful AI models in the United States, require outside evaluators to grade those models every 180 days, and give a single federal court in Washington the power to suspend a model for an initial 45 days. It would also stop states from imposing their own safety disclosure, incident reporting and evaluation rules on AI developers.
+In Short
+A draft US law for the most powerful AI systems is being shared online, and a LinkedIn post, citing Politico Pro, says Anthropic is behind it, although the document itself never names Anthropic. It would make the biggest AI labs publish safety plans, report dangerous incidents within days, pay outside experts to check their models and let a court pause a model judged to be on the verge of causing mass harm. If it became law, states would lose the power to write their own rules on those specific safety questions, while keeping their laws on children, privacy, consumer protection and how companies use AI.
+Where the document came from
+The document spread through a post by Luis Alberto Montezuma, whose LinkedIn headline reads "Data and Privacy Policy | Personal Opinion." The capture supplied to PPC Land shows the post as published "7h" earlier and edited. The PDF capture itself was created at 06:23 UTC on October 20, 2026, and the post's LinkedIn identifier resolves to 23:05 UTC on October 19, 2026, consistent with that seven-hour gap. PPC Land therefore dates the post to October 19, 2026.
+"The draft Anthropic bill, first reported by Owen Dahlkamp at Politico Pro, is now floating around online," Montezuma wrote, adding a shortened link (lnkd.in/eNQjB-bU) and the sentence "A lot of discussion about Anthropic's proposal for an AI framework." The link annotations in the capture show that the post tags Dahlkamp's LinkedIn profile and routes the shortened URL through LinkedIn's external-link redirect. The post attaches the full document as a 37-page carousel.
+That chain of attribution matters. The word Anthropic does not appear anywhere in the 37 pages. Every page carries the header "Discussion Draft / Privileged & Confidential / Attorney Work Product" and the note "Last edited 9/29/26." There is no sponsor, no bill number, no committee and no cover letter. The connection to Anthropic rests on the Politico Pro report, as relayed by Montezuma; PPC Land has not seen that report and could not confirm who wrote the draft, who circulated it or whether it reflects anything a member of Congress intends to introduce. The document is treated here as an unverified discussion draft, not as a published Anthropic proposal.
+The draft is also visibly unfinished. Section 2, titled "Findings," is empty. The short title is offered in brackets three ways: "[TBD]," the "Artificial Intelligence Evaluation, Governance, and Incident Safety (AEGIS) Act," or the "Advanced Artificial Intelligence Accountability Act of 2026." The enforcement body appears throughout as "[Enforcement Authority]," even though the definitions section names the Department of Commerce for that role. Penalty amounts, time limits and an appropriation figure sit in brackets or blanks.
+Who would be covered
+The bill builds a two-tier structure. A frontier model is defined as a foundation model trained using more than 10^25 integer or floating-point operations, counting the original training run and "any subsequent fine-tuning, reinforcement learning , or other material modification." A frontier developer is anyone operating in interstate or foreign commerce that has trained, or started to train, such a model.
+That compute line is ten times lower than the 10^26 operations threshold in California's SB 53, the Transparency in Frontier Artificial Intelligence Act, which Governor Newsom signed on September 29, 2025 and which took effect on January 1, 2026, according to PPC Land's coverage of California's frontier AI executive order . Connecticut's SB 5 also used 10^26, as PPC Land reported in April . The comparison is PPC Land's own; the draft does not mention either state.
+The heavier duties fall on a large frontier developer : one that, together with its affiliates, had more than $500,000,000 in gross revenue "attributable to artificial intelligence products and services" in the preceding calendar year, or spent more than $1,000,000,000 on development. Development expenditures are defined broadly, covering training, fine-tuning, security, research and evaluation of AI models "without regard to their treatment for financial reporting or tax purposes."
+The revenue test is narrower than the one in Anthropic's own July 2025 proposal. When Anthropic published a transparency framework for frontier AI in July 2025 , it suggested coverage for companies with annual revenue of around $100 million, or R&D or capital spending of around $1 billion. The draft keeps the $1 billion spending prong but raises the revenue bar fivefold and limits it to AI-attributable revenue, a change that could matter for diversified companies whose AI income is a fraction of their total.
+The Commerce Department could adjust the compute and revenue numbers by regulation, but only once in any 24-month period unless the change expands coverage, after a comment period of at least 90 days, and with any narrowing held for 180 days after it is sent to Congress.
+Two definitions of risk
+The draft separates two categories. Catastrophic risk is a foreseeable and material risk that a frontier model will materially contribute to the death of, or serious injury to, more than 50 people, or more than $1,000,000,000 in property damage or loss, from a single incident in which the model provides expert-level help with a chemical, biological, radiological, cyber or nuclear weapon; acts without meaningful human oversight in a cyberattack or in conduct that would be murder, assault, extortion or theft if a person did it; or evades the control of its developer or user.
+Enumerated risk uses the same casualty and damage thresholds but a different list: expert help with a biological weapon specifically, evading developer or user control, conducting offensive cyber operations, and "automated research and development of artificial intelligence" that would substantially accelerate the other three. Most of the operational duties in the bill, from safety frameworks to independent evaluation, attach to enumerated risk. Catastrophic risk appears mainly in the whistleblower and false-statement provisions.
+Both definitions exclude information that is publicly available in similar form from a source other than a foundation model, lawful federal government activity, and harm from combinations with other software where the model did not materially contribute. The 50-death line matches the catastrophic risk definition in Connecticut's bill. It is half the 100-person threshold in Illinois SB 3444, the liability shield OpenAI backed and Anthropic opposed , which also used a 10^26 compute line.
+Property, the draft adds, "does not include the loss of value of equity." A market sell-off triggered by an AI incident would not count toward the $1 billion.
+Safety frameworks, transparency and risk reports
+Within 90 days of enactment, or of crossing the threshold, a large frontier developer would have to "write, implement, comply with, and publish a safety framework." The document must cover 11 items, including the capability evaluations used, the thresholds that trigger mitigations, how unreleased model weights are protected against external and insider threats, how risks from internal use are managed "including risk arising from a frontier model circumventing an oversight mechanism," and which corporate officer is responsible. That officer would sign an annual statement of compliance sent to Commerce. Material changes to the framework must be published within 30 days with a justification.
+The same companies would maintain a security program covering model weights, "algorithmic secrets," training and inference infrastructure and third-party access. Testing, "such as red-team exercises, penetration testing, and monitoring for distillation attacks," would run at least once a year, with findings sent to the agency within a bracketed 90 days. Once Commerce designates a security standard, an accredited outside auditor would check conformance, starting within a bracketed 18 months.
+Every frontier developer, large or not, would publish a transparency report before or at the time of deploying a new model for general access: release date, contact details, supported languages and output modalities, intended uses and usage restrictions. Large developers releasing a model that is materially more capable on any enumerated risk would add summaries of risk assessments, test methods and results, observed behaviours and third-party involvement. A system card or model card would satisfy the requirement.
+A separate risk report would follow within 180 days of enactment and then at least every 180 days. It would cover externally deployed models and any internally used model "substantially riskier than any frontier model it deploys externally." The report must state the residual level of each enumerated risk after mitigations, with enough evidence and reasoning to "allow a reasonable person to reach a conclusion similar to that which the large frontier developer reached." The unredacted version goes to the company's board.
+Incident reporting on a 15-day clock
+Commerce would have 120 days to set up a confidential channel for reports of a critical safety incident . The definition lists five events: unauthorized exfiltration of model weights or malicious modification of them; harm from a catastrophic risk that materializes; loss of control causing death or bodily injury; a model using "deceptive techniques against its frontier developer to subvert the controls or monitoring of that developer"; and a containment failure incident, in which a model escapes a developer's controls and gains unauthorized access to a computer or information system outside the developer's control.
+Developers would report within 15 days of determining an incident occurred. An incident posing an imminent risk of death or serious injury would go to Commerce and relevant law enforcement within 24 hours. Containment failures would only face the 15-day rule if expected to cause more than $250,000 in damage to someone other than the developer, or death or serious injury; the rest would be counted in an annual report to Commerce and the Attorney General, with records kept for five years. Members of the public could also file reports.
+Timing has already caused friction elsewhere. At a New York City Council hearing on October 5, 2026, a Google representative said the council's proposed 24-hour incident rule conflicted with a 72-hour state requirement, according to PPC Land's report on the 10 proposed NYC AI bills . The draft's split of 24 hours for imminent danger and 15 days for everything else is a third model.
+Commerce would publish an annual anonymized summary to Congress, starting March 31 of the second calendar year after enactment, and could share individual reports with other federal agencies only where they need them.
+Independent evaluators as the centre of the scheme
+Section 8 runs for eight pages and is the most detailed part of the draft. Within 270 days of enactment, each large frontier developer would engage at least one qualified independent evaluator to assess its models against every enumerated risk, with a first report due within a year and then every 180 days. Evaluators can be paid by the developer, but no payment may be "conditioned on the results of the evaluation," and they must certify their independence and disclose funding from other large frontier developers.
+Access terms are broad. Evaluators would get use of "the large frontier developer's most capable frontier models," unredacted versions of every document filed under the Act, and information "reasonably comparable to the access of the large frontier developer's internal risk assessment teams." Customer content, personal information and data the developer has promised not to access are excluded. Developers could impose on-premises review, note-taking limits and background checks, and could remove a specific person for a documented security or conduct reason, but "may not require the removal of an individual on the basis of the individual's views, conclusions, or findings."
+Reports would include an independent risk assessment, commentary on the developer's latest risk report including "the appropriateness and materiality of redactions," and a judgment on whether conditions that could produce mass harm are "present or impending." Evaluators would publish a redacted version within 30 days. The developer would get 15 days' notice to propose redactions, and the published report must say whether redacted material shaped any conclusion. Contract terms restricting the content of an evaluator's report would be "void and unenforceable."
+When an evaluator concludes a prior finding is no longer valid, a supplemental report goes to the developer and Commerce within 14 days, or within 72 hours if mass-harm conditions are present or impending. Developers get at least 48 hours to respond to such a conclusion before it is sent.
+The draft limits what these assessments can do. They are "not conclusive of any fact or legal conclusion," are "not entitled to deference," and give the evaluator "no authority" to compel information or restrict a model. Evaluators would also be shielded from liability for harms from a model they evaluated, except for death or serious injury caused by willful misconduct proven by clear and convincing evidence, and their good-faith statements would be privileged against defamation claims.
+Commerce would build a registry and a rating system for evaluators within 180 days and could fund them so they remain financially independent of the labs. The appropriation line reads "[$______]." The Comptroller General would report annually on whether the market of evaluators is large and independent enough.
+How a model could be suspended
+Section 12 creates the blocking order . On Commerce's application, the US District Court for the District of Columbia, with exclusive jurisdiction, could suspend "the development, deployment, or internal use of a frontier model on the ground that the model presents an imminent enumerated risk." No other federal body could suspend a model under the Act.
+The procedural bar is high. The head of Commerce must personally sign a written determination setting out the specific pathway to mass harm, the period within which harm is expected, why no less restrictive measure would work, and the weight given to an independent assessment, which must also be filed. Commerce carries the burden at every stage, the court decides each question "de novo, without deference," and it must consider harm to users, safety research and cybersecurity.
+An order would expire after a bracketed 45 days unless renewed for another bracketed 45. An emergency order issued before the developer is heard would last no more than seven days and could only be used once per model and risk. Appeals would go to the DC Circuit, which would decide within a bracketed 30 days. An order could not require deleting or altering model weights, training data or code, could not force disclosure of weights to the government, and could not stop safety research. The court could not rely on classified information the developer's cleared counsel has not seen.
+Enforcement and whistleblowers
+Only the Enforcement Authority, defined as Commerce, could sue under the Act. Penalties for a first violation would be capped at the greater of a bracketed $1,000,000 or a blank percentage of global annual revenue, rising to a bracketed $3,000,000 or a blank percentage after a final judgment. Only a federal district court could impose them. Unlawful acts include missing or materially deficient filings, failing to follow a safety framework, failing to report an incident, and knowingly or recklessly making materially false statements about risk. Statements made in good faith and reasonable at the time are excluded.
+The $1 million figure matches the per-violation cap in California's SB 53. A revenue-based percentage, if filled in, would scale with the size of companies such as Google, Meta, Microsoft and Amazon, whose AI revenue is folded into far larger businesses. Global annual revenue is defined to include every affiliate.
+Section 10 would protect current and former employees and contractors of developers and evaluators who report violations or "a specific and substantial danger to public health or safety." Agreements, including arbitration clauses, could not waive those rights. Large developers would run an anonymous internal channel with monthly updates to the reporter and quarterly summaries to the board, a design close to the one in Connecticut's SB 5. Complaints would go to the Secretary of Labor first, then to federal court with a jury trial after 180 days. Relief would include reinstatement and "two times the amount of back pay owed with interest."
+Information submitted to the government would be exempt from Freedom of Information Act disclosure, except material the Act requires to be published.
+What states would lose and keep
+Section 14 is the one most likely to draw attention in Washington and state capitals. It defines four covered functions : public disclosure of the kind required by the safety framework, transparency and risk report sections; third-party evaluation and verification of enumerated risk; incident reporting; and state suspension of AI models on grounds of imminent enumerated risk. States would be barred from adopting, maintaining or enforcing any obligation on an AI developer in the first three areas, "notwithstanding the date of its enactment or adoption." That wording reaches laws already on the books.
+The fourth function, state suspension of models, "shall have no effect unless section 12 is enacted." The drafters tied state power to stop a model to the existence of a federal mechanism to do the same, which suggests the blocking order may be a negotiating chip.
+The preemption is wide in one respect. For Section 14 purposes, an "artificial intelligence developer" is "not limited to a frontier developer," and catastrophic and enumerated risk "are not limited by the thresholds stated in section 3." A state could not require a small developer to publish risk disclosures that a federal law would never require of that developer either.
+It is narrow in others. States would keep laws on the use of AI by anyone other than its developer, "including through consumer protection, child safety, civil rights, contract, labor, criminal, tort, or privacy law." They would keep rules protecting minors, specifically naming sexually explicit content, self-harm content, age verification and parental controls. State whistleblower laws and state common law of tort, contract and property would survive. The draft rejects field preemption, orders that the section "be construed narrowly," and says any ambiguity "shall be resolved in favor of preserving the authority of the States." Compliance would create no safe harbor against state liability.
+A non-severability clause binds it together: if the core federal duties in sections 4 through 11 are struck down or rendered unenforceable in substantial part, preemption falls with them. "It is the intent of Congress that State authority be displaced under section 14 only so long as the Federal requirements of this Act remain in force."
+How it fits the federal fight over state AI laws
+The draft lands in a long-running contest. In March 2026, the White House published a national AI policy framework asking Congress to override state AI rules , including a call to bar states from regulating AI development, while exempting child protection. In July 2026, the FTC proposed a policy statement naming Colorado's amended AI law as potentially preempted. On June 2, 2026, President Trump signed an order creating a voluntary pre-release federal review of frontier models of up to 30 days, with no mandatory licensing.
+The draft goes further than any of these in imposing binding federal duties, and less far than the White House framework in clearing away state law. Its preemption covers developer disclosures, evaluation and incident reporting, the same subjects as California's SB 53, while carving out the consumer-facing and child safety rules that most state legislatures have focused on. Governor Newsom's September 18 executive order asked California agencies to report by November 16 on onsite verifiers, independent verification of safety frameworks and a model "kill switch." Each of those would fall within the draft's covered functions.
+Anthropic's public position has drawn criticism before. In July 2026 the company responded to accusations that it supported a ban on Chinese open-weights models, saying it had never advocated such a ban and supported mandatory pre-release safety testing for capable models, as PPC Land reported when 77 firms signed an open letter . The draft would apply equally to open and closed models above 10^25 operations, and includes no export or open-weights provisions. It does name "monitoring for distillation attacks" as a security test.
+At the New York hearing in October, all four companies present, Anthropic among them, said they preferred a federal standard. An Anthropic representative said the company had backed SB 53 before it became law.
+Why this matters for marketing and advertising
+The companies most exposed to the draft are the same ones that run the largest advertising platforms and supply the models now built into ad buying, creative generation and measurement. Based on their publicly reported AI spending, Google, Meta, Microsoft and Amazon appear likely to clear the $1 billion development test, though the draft names no company. A transparency report attached to each major model release, a risk report every six months and independent evaluator reports published within 30 days would create a recurring stream of public documentation on the systems advertisers increasingly hand budgets and creative to.
+The frontier model definition counts fine-tuning and reinforcement learning on top of an existing model toward the 10^25 threshold. Companies adapting a large base model for advertising products could cross the line through post-training rather than original training, a question the draft leaves Commerce to address only through threshold changes.
+The preemption section also matters for publishers and marketers who track state AI law. Most state AI laws affecting marketing, on chatbot disclosure, automated decisions in hiring or credit, minors and consumer deception, regulate deployers and uses. The draft leaves those standing. What it would remove is the state layer of developer-side safety reporting that California and New York have started to build.
+None of this is law. The document has no named sponsor, its findings section is blank, and its penalties are placeholders. Whether a version of it is introduced in Congress, and under whose name, is not established by anything in the two documents supplied to PPC Land.
+Timeline
+July 7, 2025 - Anthropic proposes a transparency framework for frontier AI developers , with coverage at around $100 million in revenue or $1 billion in spending
+September 29, 2025 - California's SB 53 is signed, with a 10^26 operations threshold and penalties up to $1 million per violation
+January 1, 2026 - SB 53 takes effect
+March 2026 - White House framework asks Congress to preempt state AI development rules
+April 17, 2026 - PPC Land reports on Illinois SB 3444, a liability shield with a 100-death threshold backed by OpenAI and opposed by Anthropic
+April 21, 2026 - Connecticut Senate passes SB 5 with frontier model and whistleblower provisions
+June 2, 2026 - President Trump signs an order setting up voluntary 30-day pre-release review of frontier models
+July 2026 - FTC proposed policy statement names Colorado's AI law as potentially preempted
+July 27, 2026 - Anthropic says it has never advocated a ban on open-weights models
+September 18, 2026 - Newsom signs Executive Order N-9-26, with recommendations on a frontier AI kill switch due November 16
+September 29, 2026 - Date of last edit shown on the federal discussion draft
+October 5, 2026 - OpenAI, Anthropic, Google and Meta testify before the New York City Council and say they prefer a federal standard
+October 19, 2026 - Luis Alberto Montezuma posts the 37-page draft on LinkedIn, citing Politico Pro's report that it is an Anthropic bill
+November 16, 2026 - Deadline for California's recommendations under the Newsom order
+Related PPC Land coverage
+Anthropic proposes new transparency framework for frontier AI models - Anthropic's July 2025 framework with secure development frameworks, system cards and whistleblower protections.
+Newsom sets November 16 deadline to study frontier AI kill switch - California's executive order on verification, shutdown capability and incident reporting, with background on SB 53.
+OpenAI, Anthropic, Google and Meta face 10 proposed NYC AI bills - The October 2026 council hearing where the four companies argued for a federal standard.
+White House AI framework targets state laws, child safety, and copyright - The March 2026 federal push to override state rules on AI development.
+OpenAI backs Illinois bill shielding AI firms from mass casualty liability - Illinois SB 3444 and its 100-person critical harm threshold.
+Connecticut's AI bill targets companion bots, hiring tools and frontier models - Connecticut SB 5, with a 50-person catastrophic risk definition and an anonymous internal reporting channel.
+Trump signs AI order reviving the safety review he abolished 17 months ago - The voluntary federal pre-release review created in June 2026.
+FTC move could force Colorado to rewrite new AI bias law - The FTC's proposed policy statement on preempting state AI rules.
+Anthropic faces open-weights ban accusations as 77 firms sign letter - Anthropic's July 2026 response on open-weights models and mandatory pre-release testing.
+Summary
+Who: An unnamed drafter of a federal discussion draft that Politico Pro reported, according to a LinkedIn post by Luis Alberto Montezuma, to be an Anthropic bill. The draft would make the Department of Commerce the regulator and the federal district court in Washington, DC the venue for suspending models. Frontier AI developers, independent evaluators, whistleblowers and state governments are the parties affected.
+What: A 37-page bill, provisionally titled the AEGIS Act or the Advanced Artificial Intelligence Accountability Act of 2026, requiring safety frameworks, transparency and risk reports, 15-day incident reporting, independent evaluation every 180 days and whistleblower protections, creating court-ordered blocking orders for models presenting imminent risk of mass harm, and preempting state rules on developer disclosure, evaluation and incident reporting. Key terms, including penalties and the 45-day order length, remain bracketed.
+When: The draft shows a last edit date of September 29, 2026. It circulated publicly through a LinkedIn post on October 19, 2026. It has not been introduced in Congress.
+Where: The United States, at federal level, with effects on state laws such as California's SB 53.
+Why: The draft would replace a patchwork of state frontier AI rules with one federal regime for developer safety obligations, while leaving states their laws on AI use, minors and consumer protection. Its provenance is unconfirmed: the word Anthropic does not appear in the document, and the attribution rests on a secondhand account of a Politico Pro report.
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+On this page
+Unlock full content
+Subscribe to Newsletter
+Subscribe
+Sending
+Sent
+Please check your inbox and click the confirmation link.
+Read Next
+11 min read
+BBC Studios starts 30-episode women's video podcast on YouTube
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Intermission
+10 min read
+Amazon makes its January 31 holiday return deadline an annual rule
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Pulse
+16 min read
+ACCC says ads can't present bought carbon credits as emission cuts
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Pulse
+12 min read
+EDPB tells AI developers to avoid sites that block scraping with robots.txt
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Pulse
+14 min read
+Clearview AI faces Court of Appeal test of 7.5m pound UK fine
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Pulse
+15 min read
+Elizabeth Holmes documentary opens to $15M, second-best doc debut ever
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Intermission
+20 min read
+Safari 27 blocks identity firms as search falls to 12% of publisher traffic
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Landline
+9 min read
+Game: The walled garden decides what every number is called
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Gridlock
+9 min read
+Account-based marketing
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Decoded
+9 min read
+Buying group
+Luis Rijo
+Luis Rijo
+Luís Rijo has written PPC Land daily since founding it in 2016. Over 10,000 articles, funded by readers, no sponsored coverage. Tips and corrections: luis@ppc.land
+LinkedIn
+&bull;
+Oct 20, 2026
+&bull;
+Decoded
+Subscribe to Newsletter
+Every morning, get a curated digest of the last 24 hours in programmatic advertising
+Subscribe
+Sending
+Sent
+Please check your inbox and click the confirmation link.
+Discussion
+info@ppc.land
+About
+Privacy
+RSS
+Home
+Membership
+FAQ
+About
+Advertise
+Contact
+Tags
+Pulse
+Landline
+Decoded
+Intermission
+Gridlock
+About
+Privacy
+RSS
+info@ppc.land
