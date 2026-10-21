@@ -1,0 +1,110 @@
+SKIP TO MAIN CONTENT
+The homepage
+SUBSCRIBE
+SIGN IN
+Tech
+Reviews
+Science
+Entertainment
+AI
+Policy
+Meta pauses Muse sharing after researchers find AI chats on the web
+10
+TECH
+AI
+NEWS
+Meta pauses Muse sharing after researchers find AI chats on the web
+
+A security firm discovered Muse chats containing a marketing company’s revenue, a workplace’s calendar, a loan application, and more.
+
+by
+Emma Roth
+Oct 21, 2026, 2:07 AM GMT+8
+10
+10
+Comments (All New)
+Image: The Verge, Getty Images, Meta
+Emma Roth is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and editor at MUO.
+
+Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica. In a report published this week, researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records.
+
+“People have the ability to share specific Muse artifacts, which creates a page that can be accessed by those with the link,” Muse spokesperson Tracy Clayton says in an emailed statement to The Verge. “However, we’ve paused this functionality while we review this report and consider changes to how these links can be discovered.”
+
+The feature in question allows you to share your Muse conversation with someone else through a link. But, as pointed out by Claroc, the way Meta designed these links made them easy to find. “Muse builds each share’s web address from the share’s title, a short phrase describing the conversation, then a random ID,” Claroc says. “The hostname usually gave away what a page held before we opened it, and since the link carries that same title and ID, a hostname pulled from DNS rebuilds the link.”
+
+RelatedFriends don’t let friends feed their data to AI agents
+
+By searching public DNS records, which serve as a directory for web traffic, Claroc was able to view hundreds of Muse conversations, including some containing a marketing company’s revenue review, a small business owner’s loan application, a workplace’s full-year staff calendar, and notes for a job candidate’s call with an AI lab. This isn’t the first time AI sharing features made chats more public than intended, as conversations with OpenAI’s ChatGPT, Anthropic’s Claude, and xAI’s Grok have wound up on Google Search.
+
+10
+ COMMENTS
+Follow topics and authors from this story to see more like this in your personalized homepage feed and to receive email updates.
+EMMA ROTH
+AI
+META
+NEWS
+SECURITY
+TECH
+MOST POPULAR
+Most Popular
+The Gospel according to Peter (Thiel)
+Can you see everything?
+Wii Sports is back on the Switch 2, and it rules
+The iPhone Duo is a messy, expensive, good time
+SpaceX will try catching Starship and its booster for first time, Musk says
+The Verge Daily
+
+A free daily digest of the news that matters most.
+
+Email (required)
+SIGN UP
+More in Tech
+A critical PHP vulnerability may take websites down today
+Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program
+Google’s more personalized Gemini AI is heading to your car
+Tesla and SpaceX are discussing a possible merger, Musk says
+SpaceX will try catching Starship and its booster for first time, Musk says
+Snap is paying Robert Downey Jr. to do the Iron Man thing
+ADVERTISER CONTENT FROM
+
+This is the title for the native ad
+
+Top Stories
+AN HOUR AGO
+The iPhone Duo is a messy, expensive, good time
+AN HOUR AGO
+I can’t get enough of the iPhone Duo’s matte inner display
+AN HOUR AGO
+A critical PHP vulnerability may take websites down today
+OCT 20
+The Gospel according to Peter (Thiel)
+2:30 AM GMT+8
+Can you see everything?
+Contact
+Tip Us
+Community Guidelines
+Archives
+About
+Ethics Statement
+How We Rate and Review Products
+Manage Privacy Settings
+Terms of Use
+Privacy Policy
+Your California Privacy Rights
+Your Privacy Choices
+Cookie Notice
+AdChoices
+Licensing FAQ
+Accessibility
+Platform Status
+Penske Media Corporation
+
+The Verge is a part of PMX Global, LLC, a subsidiary of Penske Media Corporation.
+
+© 2026 VM Publishing, LLC. All rights reserved.
+
+OUR SITES
+
+Terms of Use/Your Privacy Rights
+
+This website is now part of PMX Global, LLC, a subsidiary of Penske Media Corporation. By continuing to use our services, you agree to the PMC Terms of Use, including waiver and arbitration. PMC, its service providers, and third-party partners process information about you and how you use our services, including clicks and screen recordings, using first and third-party cookies, pixels, and similar technologies. Where applicable, you can opt out of certain uses of cookies via the Your Privacy Choices link in our footer. Learn more about our data practices in our Privacy Policy.

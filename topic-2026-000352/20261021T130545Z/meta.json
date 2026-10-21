@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000352",
+  "url": "https://x.com/aleks_madry/status/2112231448103239998",
+  "capturedAt": "2026-10-21T13:05:45Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "147c481b311153e1c1d9f0d6a898b2d137da52e40e4b011544cabbd57b5b01e9",
+    "width": 640,
+    "height": 900,
+    "bytes": 50382,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-21T13:05:45Z",
+    "url": "https://x.com/aleks_madry/status/2112231448103239998",
+    "finalUrl": "https://x.com/aleks_madry/status/2112231448103239998",
+    "screenshot": {
+      "sha256": "147c481b311153e1c1d9f0d6a898b2d137da52e40e4b011544cabbd57b5b01e9",
+      "width": 640,
+      "height": 900,
+      "bytes": 50382,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2112231448103239998",
+      "handle": "aleks_madry",
+      "syndicationSha256": "9eaff0af898785df6c506d30bda847c4e19bf7f3a18c886a9230b1da13c5d867",
+      "createdAt": "2026-10-19T17:16:35.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "aleks_madry",
+      "lang": "en",
+      "textSha256": "675617c83b4dd479024d124d6ea10a3c79ec313439e4420e6e07df2619c2a58a",
+      "media": [],
+      "oembedSha256": "8c7079e2832e3181b1c93b4206436b7cc2a26ab7f216622af646bf4b5530e6f4",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

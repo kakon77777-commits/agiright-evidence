@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000347",
+  "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+  "capturedAt": "2026-10-21T13:01:26Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 61051,
+    "sha256": "52ab4e8b9fb162a452f7cf155f4a760a7ddb80ed4964ea0a593651f1b7f2e79f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "938088766738B8AC8184A68D6B1F862C",
+      "status": 200,
+      "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6863,
+      "afterScrollHeight": 6863,
+      "wantedHeight": 6863
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b31133407cd850279a5a6f546e449426bda4b7f167cb8a562324b614aed904ea",
+    "width": 1366,
+    "height": 6863,
+    "bytes": 804495,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6863,
+    "afterScrollHeight": 6863
+  },
+  "record": {
+    "capturedAt": "2026-10-21T13:01:26Z",
+    "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 61051,
+      "sha256": "52ab4e8b9fb162a452f7cf155f4a760a7ddb80ed4964ea0a593651f1b7f2e79f"
+    },
+    "finalUrl": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+    "httpStatus": 200,
+    "title": "Suppressing misalignment monitoring alerts and disabling misalignment monitoring · OpenAI Alignment",
+    "rendered": {
+      "textChars": 16675,
+      "textSha256": "84a8cf54463df5e3df5dd2a0bfe07d83237f4e9ef1fb7c7d7cc3235da0018703",
+      "htmlSha256": "d6378f3f2de279d37ac31bc13c4a93a6f8ddf78713367d5d3ab441c1ac180331"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b31133407cd850279a5a6f546e449426bda4b7f167cb8a562324b614aed904ea",
+      "width": 1366,
+      "height": 6863,
+      "bytes": 804495,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261021011149",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261021011149/https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261021125611/https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+      "timestamp": "20261021125611",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,305 @@
+ Meta pauses Muse sharing after researchers find AI chats on the web | The Verge Skip to main content The homepage The Verge The Verge logo.
+The Verge The Verge logo.
+Tech
+Reviews
+Science
+Entertainment
+AI
+Policy
+Notifications
+Notifications
+Hamburger Navigation Button
+The homepage The Verge The Verge logo.
+Notifications
+Notifications
+Hamburger Navigation Button
+Navigation Drawer
+The Verge The Verge logo.
+Login /
+Sign Up
+close Close
+Search
+Light
+System
+Dark
+Tech Expand
+Amazon
+Apple
+Facebook
+Google
+Microsoft
+Samsung
+Business
+See all tech
+Reviews Expand
+Smart Home Reviews
+Phone Reviews
+Tablet Reviews
+Headphone Reviews
+See all reviews
+Science Expand
+Space
+Energy
+Environment
+Health
+See all science
+Entertainment Expand
+TV Shows
+Movies
+Audio
+See all entertainment
+AI Expand
+OpenAI
+Anthropic
+See all AI
+Policy Expand
+Antitrust
+Politics
+Law
+Security
+See all policy
+Gadgets Expand
+Laptops
+Phones
+TVs
+Headphones
+Speakers
+Wearables
+See all gadgets
+Verge Shopping Expand
+Buying Guides
+Deals
+Gift Guides
+See all shopping
+Gaming Expand
+Xbox
+PlayStation
+Nintendo
+See all gaming
+Streaming Expand
+Disney
+HBO
+Netflix
+YouTube
+Creators
+See all streaming
+Transportation Expand
+Electric Cars
+Autonomous Cars
+Ride-sharing
+Scooters
+See all transportation
+Features
+Verge Video Expand
+TikTok
+YouTube
+Instagram
+Podcasts Expand
+Decoder
+The Vergecast
+Version History
+Newsletters
+Archives
+Store
+Verge Product Updates
+Subscribe
+Facebook
+Threads
+Instagram
+Youtube
+RSS
+The Verge The Verge logo.
+Meta pauses Muse sharing after researchers find AI chats on the web
+Notifications
+Notifications
+Comments Drawer
+Notifications
+Comments
+Loading comments
+Getting the conversation ready...
+Tech Close
+Tech
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All Tech
+AI Close
+AI
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All AI
+News Close
+News
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All News
+Meta pauses Muse sharing after researchers find AI chats on the web
+A security firm discovered Muse chats containing a marketing company’s revenue, a workplace’s calendar, a loan application, and more.
+A security firm discovered Muse chats containing a marketing company’s revenue, a workplace’s calendar, a loan application, and more.
+by
+Emma Roth Close
+Emma Roth
+News Writer
+Posts from this author will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All by Emma Roth
+Oct 20, 2026, 6:07 PM UTC
+Link
+Share
+Gift
+Image: The Verge, Getty Images, Meta
+Emma Roth Close
+Emma Roth
+Posts from this author will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All by Emma Roth
+is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and editor at MUO.
+Meta says it paused a Muse feature that lets you share conversations with the AI assistant after researchers found the URLs publicly available on the web, as reported by Ars Technica . In a report published this week , researchers at the security firm Claroc say they found more than 6,800 Muse links through public DNS records.
+“People have the ability to share specific Muse artifacts, which creates a page that can be accessed by those with the link,” Muse spokesperson Tracy Clayton says in an emailed statement to The Verge . “However, we’ve paused this functionality while we review this report and consider changes to how these links can be discovered.”
+The feature in question allows you to share your Muse conversation with someone else through a link. But, as pointed out by Claroc, the way Meta designed these links made them easy to find. “Muse builds each share’s web address from the share’s title, a short phrase describing the conversation, then a random ID,” Claroc says. “The hostname usually gave away what a page held before we opened it, and since the link carries that same title and ID, a hostname pulled from DNS rebuilds the link.”
+Related
+Friends don’t let friends feed their data to AI agents
+By searching public DNS records, which serve as a directory for web traffic, Claroc was able to view hundreds of Muse conversations, including some containing a marketing company’s revenue review, a small business owner’s loan application, a workplace’s full-year staff calendar, and notes for a job candidate’s call with an AI lab. This isn’t the first time AI sharing features made chats more public than intended, as conversations with OpenAI’s ChatGPT , Anthropic’s Claude , and xAI’s Grok have wound up on Google Search.
+Follow topics and authors from this story to see more like this in your personalized homepage feed and to receive email updates.
+Emma Roth Close
+Emma Roth
+News Writer
+Posts from this author will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All by Emma Roth
+AI Close
+AI
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All AI
+Meta Close
+Meta
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All Meta
+News Close
+News
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All News
+Security Close
+Security
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All Security
+Tech Close
+Tech
+Posts from this topic will be added to your daily email digest and your homepage feed.
+Follow
+Follow See All Tech
+Most Popular
+Most Popular
+The Gospel according to Peter (Thiel)
+Can you see everything?
+Wii Sports is back on the Switch 2, and it rules
+SpaceX will try catching Starship and its booster for first time, Musk says
+Meta pauses Muse sharing after researchers find AI chats on the web
+The Verge Daily
+A free daily digest of the news that matters most.
+Email (required)
+Sign Up
+By providing your information, you agree to our Terms of Use and our Privacy Policy . We use vendors that may also process your information to help provide our services. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+Advertiser Content From
+This is the title for the native ad
+More in Tech
+Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program
+Google’s more personalized Gemini AI is heading to your car
+Tesla and SpaceX are discussing a possible merger, Musk says
+SpaceX will try catching Starship and its booster for first time, Musk says
+Snap is paying Robert Downey Jr. to do the Iron Man thing
+Oura adds two new cardiovascular health tracking features to its smart rings
+Trump is giving Nick Shirley $10,000 and launching a $25 million fraud bounty program
+Mia Sato Oct 20
+Google’s more personalized Gemini AI is heading to your car
+Emma Roth Oct 20
+Tesla and SpaceX are discussing a possible merger, Musk says
+Andrew J. Hawkins Oct 20
+SpaceX will try catching Starship and its booster for first time, Musk says
+Andrew J. Hawkins Oct 20
+Snap is paying Robert Downey Jr. to do the Iron Man thing
+Jay Peters Oct 20
+Oura adds two new cardiovascular health tracking features to its smart rings
+Andrew Liszewski Oct 20
+Advertiser Content From
+This is the title for the native ad
+Top Stories
+45 minutes ago
+The iPhone Duo is a messy, expensive, good time
+45 minutes ago
+I can’t get enough of the iPhone Duo’s matte inner display
+55 minutes ago
+A critical PHP vulnerability may take websites down today
+Oct 20
+The Gospel according to Peter (Thiel)
+Oct 20
+Can you see everything?
+The Verge The Verge logo.
+Facebook
+Threads
+Instagram
+Youtube
+RSS
+Contact
+Tip Us
+Community Guidelines
+Archives
+About
+Ethics Statement
+How We Rate and Review Products
+Cookie Settings
+Terms of Use
+Privacy Policy
+Your California Privacy Rights
+Your Privacy Choices
+Cookie Notice
+AdChoices
+Licensing FAQ
+Accessibility
+Platform Status
+Penske Media Corporation The Verge is a part of PMX Global, LLC, a subsidiary of Penske Media Corporation.
+© 2026 VM Publishing, LLC. All rights reserved.
+Our Sites
+The American Pavilion
+ARTnews
+Art in America
+Artforum
+Art Week NYC
+Beauty Inc
+Billboard
+Deadline
+Dick Clark Productions
+The Dodo
+Eater
+Flow Space
+FN
+Gold Derby
+Golden Globes
+The Hollywood Reporter
+IndieWire
+Life is Beautiful
+Popsugar
+Punch
+SJ Denim
+Robb Report
+Rolling Stone
+SB Nation
+SHE Media
+She Knows
+Sourcing Journal
+Soaps
+Sportico
+StyleCaster
+SXSW
+Thrillist
+Variety
+The Verge
+Vibe
+WWD
+Notifications Drawer
+The Verge The Verge logo.
+Sign in to see your notifications or create an account to join the conversation.
+Sign in

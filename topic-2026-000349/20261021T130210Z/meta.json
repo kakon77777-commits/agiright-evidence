@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000349",
+  "url": "https://www.anthropic.com/responsible-scaling-policy/roadmap",
+  "capturedAt": "2026-10-21T13:02:10Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 255731,
+    "sha256": "ad031432eb21c9c1e7d3b4470eb509bbc20fdc3192bb292c8cc512b0feca9e9c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "62FDCAFB89E39723A985898358F4E2FA",
+      "status": 200,
+      "url": "https://www.anthropic.com/responsible-scaling-policy/roadmap",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 9353,
+      "afterScrollHeight": 9353,
+      "wantedHeight": 9353
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "05625e6e8d18b510b9869b245503453f954fc01e998200825e15a8ec4605402b",
+    "width": 1366,
+    "height": 9353,
+    "bytes": 1498309,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 9353,
+    "afterScrollHeight": 9353
+  },
+  "record": {
+    "capturedAt": "2026-10-21T13:02:10Z",
+    "url": "https://www.anthropic.com/responsible-scaling-policy/roadmap",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 255731,
+      "sha256": "ad031432eb21c9c1e7d3b4470eb509bbc20fdc3192bb292c8cc512b0feca9e9c"
+    },
+    "finalUrl": "https://www.anthropic.com/responsible-scaling-policy/roadmap",
+    "httpStatus": 200,
+    "title": "Frontier Safety Roadmap \\ Anthropic",
+    "rendered": {
+      "textChars": 30004,
+      "textSha256": "866ea4846c9c1ddbfac2a03a5314070f1b6e857a1803d345c6c1af2118448421",
+      "htmlSha256": "ffcfb6041a924248f7bd39700cd1915197ddfb9d788f138a2ce84b9bdfbc828b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "05625e6e8d18b510b9869b245503453f954fc01e998200825e15a8ec4605402b",
+      "width": 1366,
+      "height": 9353,
+      "bytes": 1498309,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260224203213",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260224203213/https://www.anthropic.com/responsible-scaling-policy/roadmap"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261021130232/https://www.anthropic.com/responsible-scaling-policy/roadmap",
+      "timestamp": "20261021130232",
+      "verifiedHttp": 200
+    }
+  }
+}

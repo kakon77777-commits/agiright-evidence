@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000351",
+  "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+  "capturedAt": "2026-10-21T13:03:34Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 395664,
+    "sha256": "32cd403d88e963095894080b100f4d9a1fb19c836e636fdd7052386ec3aa0610",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "10D52FD1F331EBC91EE920EA096E892F",
+      "status": 200,
+      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4910,
+      "afterScrollHeight": 4910,
+      "wantedHeight": 4910
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2478860599ecc2b268962cc9f876e1c2a1ce5b75952613160685aa6f34a47896",
+    "width": 1366,
+    "height": 4910,
+    "bytes": 780032,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4910,
+    "afterScrollHeight": 4910
+  },
+  "record": {
+    "capturedAt": "2026-10-21T13:03:34Z",
+    "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 395664,
+      "sha256": "32cd403d88e963095894080b100f4d9a1fb19c836e636fdd7052386ec3aa0610"
+    },
+    "finalUrl": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+    "httpStatus": 200,
+    "title": "Meta pauses Muse sharing after researchers find AI chats on the web | The Verge",
+    "rendered": {
+      "textChars": 4754,
+      "textSha256": "d0e255dc34ae150386c0807aa23bf0bf1a8c0c35f4a2009c206a8c03a76e93f1",
+      "htmlSha256": "7176251ad5284018f5220016096a823ad63ad1573ba5bc9bb81d41185c1f06be"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2478860599ecc2b268962cc9f876e1c2a1ce5b75952613160685aa6f34a47896",
+      "width": 1366,
+      "height": 4910,
+      "bytes": 780032,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261020185741",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261020185741/https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261021130515/https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+      "timestamp": "20261021130515",
+      "verifiedHttp": 200
+    }
+  }
+}

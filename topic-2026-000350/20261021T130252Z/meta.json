@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000350",
+  "url": "https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/",
+  "capturedAt": "2026-10-21T13:02:52Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 179206,
+    "sha256": "066095fa1d664729524d29e42885945e0b7a319e3b75fec3ebe1eaa8913b0ff3",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "EB358911414CB1880B87F2FC7063FEC1",
+      "status": 200,
+      "url": "https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2100,
+      "afterScrollHeight": 2100,
+      "wantedHeight": 2100
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8d87de41af9782936c968b9391bbfd13212ca842691f7b9a1eb2ba5c6b3d4ad4",
+    "width": 1366,
+    "height": 2100,
+    "bytes": 439018,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2100,
+    "afterScrollHeight": 2100
+  },
+  "record": {
+    "capturedAt": "2026-10-21T13:02:52Z",
+    "url": "https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 179206,
+      "sha256": "066095fa1d664729524d29e42885945e0b7a319e3b75fec3ebe1eaa8913b0ff3"
+    },
+    "finalUrl": "https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/",
+    "httpStatus": 200,
+    "title": "The Army Wants to Sic AI Agents on Its Enemies. What Could Go Wrong?",
+    "rendered": {
+      "textChars": 12309,
+      "textSha256": "9cfa98c415bc7509b828c50d73ae53ed94e72c6c6eb7be4e2ad3999ab7f5bff6",
+      "htmlSha256": "b8762d0880ec72b189656ce84740c191e820515deea82c97b0361d2fc96d5640"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8d87de41af9782936c968b9391bbfd13212ca842691f7b9a1eb2ba5c6b3d4ad4",
+      "width": 1366,
+      "height": 2100,
+      "bytes": 439018,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261019153832",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261019153832/https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261021130312/https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/",
+      "timestamp": "20261021130312",
+      "verifiedHttp": 200
+    }
+  }
+}
