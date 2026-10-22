@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000358",
+  "url": "https://www.transformernews.ai/p/claude-jailbreak-election-manipulation",
+  "capturedAt": "2026-10-22T12:39:49Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 214747,
+    "sha256": "4fce9a39ede9d4f26aa9091a78d85683932ef53a59af0f816ea6e6696b3097a0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8BD4BBAC57D280844CF90B67179CDAD1",
+      "status": 200,
+      "url": "https://www.transformernews.ai/p/claude-jailbreak-election-manipulation",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8185,
+      "afterScrollHeight": 8185,
+      "wantedHeight": 8185
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "3a95fe08a1df3beb08c788477b4071b4f8c47ded9224d8b3a0eaf409ffb3ac0d",
+    "width": 1366,
+    "height": 8185,
+    "bytes": 1039404,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8185,
+    "afterScrollHeight": 8185
+  },
+  "record": {
+    "capturedAt": "2026-10-22T12:39:49Z",
+    "url": "https://www.transformernews.ai/p/claude-jailbreak-election-manipulation",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 214747,
+      "sha256": "4fce9a39ede9d4f26aa9091a78d85683932ef53a59af0f816ea6e6696b3097a0"
+    },
+    "finalUrl": "https://www.transformernews.ai/p/claude-jailbreak-election-manipulation",
+    "httpStatus": 200,
+    "title": "Claude will tell you how to manipulate an election",
+    "rendered": {
+      "textChars": 11872,
+      "textSha256": "b8008cf19033eb75e069e5c6aa1f8a1c9ae37c9b3ea949436e239478538ab597",
+      "htmlSha256": "f2c2bf4b2501edda3f9ed16d6c63de1850559df9d7ae12c55d31817e8c74ea9f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "3a95fe08a1df3beb08c788477b4071b4f8c47ded9224d8b3a0eaf409ffb3ac0d",
+      "width": 1366,
+      "height": 8185,
+      "bytes": 1039404,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261022124012/https://www.transformernews.ai/p/claude-jailbreak-election-manipulation",
+      "timestamp": "20261022124012",
+      "verifiedHttp": 200
+    }
+  }
+}

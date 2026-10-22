@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000355",
+  "url": "https://www.anthropic.com/public-benefit-report",
+  "capturedAt": "2026-10-22T12:38:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 476401,
+    "sha256": "1a27f63732c03127384d48ac0422070b7e1b961a8e32c97b9b827df6de48e50b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7ECDD4005A9FBAC2E2F32AE44CFD87A8",
+      "status": 200,
+      "url": "https://www.anthropic.com/public-benefit-report",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8838,
+      "afterScrollHeight": 4018,
+      "wantedHeight": 4018
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3b3a2e28b644bc5f9cf489e874a6cf757f1a833ac28a80e5a1479a4e50ca9129",
+    "width": 1366,
+    "height": 4018,
+    "bytes": 549936,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8838,
+    "afterScrollHeight": 4018
+  },
+  "record": {
+    "capturedAt": "2026-10-22T12:38:29Z",
+    "url": "https://www.anthropic.com/public-benefit-report",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 476401,
+      "sha256": "1a27f63732c03127384d48ac0422070b7e1b961a8e32c97b9b827df6de48e50b"
+    },
+    "finalUrl": "https://www.anthropic.com/public-benefit-report",
+    "httpStatus": 200,
+    "title": "Public Benefit Report \\ Anthropic",
+    "rendered": {
+      "textChars": 3858,
+      "textSha256": "03872ec5a17e28cba53976cca2e08608b7c49bd677d38e8ec794454450293e9d",
+      "htmlSha256": "30168efb71064b4bd2cbdce3cbac689c08fa13c9d801850501ea39bfbaae02c4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "3b3a2e28b644bc5f9cf489e874a6cf757f1a833ac28a80e5a1479a4e50ca9129",
+      "width": 1366,
+      "height": 4018,
+      "bytes": 549936,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261022020049",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261022020049/https://www.anthropic.com/public-benefit-report"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261022020049/https://www.anthropic.com/public-benefit-report",
+      "timestamp": "20261022020049",
+      "verifiedHttp": 200
+    }
+  }
+}

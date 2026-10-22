@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000354",
+  "url": "https://digital-strategy.ec.europa.eu/en/library/requirements-qualified-independent-external-evaluators-general-purpose-ai-models",
+  "capturedAt": "2026-10-22T12:37:23Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 52503,
+    "sha256": "905925ed6fb3d58fa762aacf5865d3a4c559daeeb61e1fb52de18cdc8b3b854c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7685C0DF249271BC9F35A23690734A68",
+      "status": 200,
+      "url": "https://digital-strategy.ec.europa.eu/en/library/requirements-qualified-independent-external-evaluators-general-purpose-ai-models",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2899,
+      "afterScrollHeight": 2899,
+      "wantedHeight": 2899
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "abe61e26e556f1d59ff6592bde9d7e714012f709b974fc4e2c87364878f06635",
+    "width": 1366,
+    "height": 2899,
+    "bytes": 477733,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2899,
+    "afterScrollHeight": 2899
+  },
+  "record": {
+    "capturedAt": "2026-10-22T12:37:23Z",
+    "url": "https://digital-strategy.ec.europa.eu/en/library/requirements-qualified-independent-external-evaluators-general-purpose-ai-models",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 52503,
+      "sha256": "905925ed6fb3d58fa762aacf5865d3a4c559daeeb61e1fb52de18cdc8b3b854c"
+    },
+    "finalUrl": "https://digital-strategy.ec.europa.eu/en/library/requirements-qualified-independent-external-evaluators-general-purpose-ai-models",
+    "httpStatus": 200,
+    "title": "Requirements for qualified independent external evaluators of General-Purpose AI models | Shaping Europe’s digital future",
+    "rendered": {
+      "textChars": 3947,
+      "textSha256": "e03d183fdf9f5b2265f7e2f3230883e6fe7c550beaa22e1558d5d0355e99bd60",
+      "htmlSha256": "e04253342bb955ae00d5193d4de42f071dbb86a62910f651c17a606302a012b5"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "abe61e26e556f1d59ff6592bde9d7e714012f709b974fc4e2c87364878f06635",
+      "width": 1366,
+      "height": 2899,
+      "bytes": 477733,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 404 -- 404 Not Found Not Found The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."
+    }
+  }
+}

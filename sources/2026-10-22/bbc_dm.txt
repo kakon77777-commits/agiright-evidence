@@ -1,0 +1,198 @@
+Google staff resign in backlash over its AI contracts with military - BBC News BBC Homepage
+Skip to content
+Accessibility Help
+Your account
+Home
+News
+Sport
+Earth
+Reel
+Worklife
+Travel
+Culture
+Future
+Music
+TV
+Weather
+Sounds
+More menu
+More menu
+Search BBC
+Home
+News
+Sport
+Earth
+Reel
+Worklife
+Travel
+Culture
+Future
+Music
+TV
+Weather
+Sounds
+Close menu
+BBC News
+Menu
+Home
+Climate
+World
+Asia
+UK
+Business
+Tech
+Science
+Entertainment & Arts
+Health
+More
+In Pictures
+BBC Verify
+Newsbeat
+Tech
+Google staff resign in backlash over its AI contracts with military
+Image source, Reuters
+Image caption, DeepMind is Google's AI company
+By Christopher Giles BBC Eye investigations
+Published
+21 October 2026
+Google is facing a backlash from some staff members over the company's deployment of its AI technology for military use.
+The BBC has spoken to several tech workers who have either recently resigned from Google's AI company, Google DeepMind, or are in the process of leaving, over concerns with the tech firm's military contracts.
+Sofia Liguori, a London-based research engineer, is one of them. She resigned from Google DeepMind this week and spoke about her concerns exclusively with the BBC, despite her contract restricting her from doing so.
+"Realising my company is pushing more and more for AI systems in military operations makes me feel ashamed to work at Google," Liguori said, speaking in a personal capacity.
+Image source, Supplied
+Image caption, Sofia Liguori resigned from Google, saying the company's push for more AI technology in the military made her feel "ashamed" to work there
+In response, a Google spokesperson told the BBC: "We work with public sector organisations worldwide and follow a consistent process for reviewing and entering these contracts, including compliance with our acceptable use policies and AI principles."
+"We also have dedicated channels for employees to safely raise any concerns - ranging from business ethics to misconduct - and have strict workplace policies in place to prevent retaliation of any kind."
+Google is one of several tech companies that signed contracts with the US military earlier this year to deploy AI across classified military environments. The US Defence Secretary Pete Hegseth has made integrating AI into the armed forces a key priority , saying the Trump administration will become an "AI-first warfighting force".
+But AI technology is evolving rapidly, and critics question whether it is reliable enough to be used in warfare without more testing, stronger guardrails and human oversight.
+After working for the company for three years, Liguori said she decided to resign over Google's increasing work with the US and Israeli militaries. "I don't agree with this direction and this has led me to lose faith in my company being true to its stated ethical values," she said.
+Those values, according to Google's AI Principles , external , include implementing AI with "human oversight" and aligning the technology with "international law and human rights". But former and current staff at the company, and experts the BBC spoke to, said they were concerned about the level of human oversight at critical moments.
+Image source, Getty Images
+Image caption, US Defence Secretary Pete Hegseth said in January that the US "will become an 'AI-first' warfighting force"
+The tech workers said they are particularly worried about the AI military deals signed this year, because they greatly increase the scope of what the Pentagon can use the technology for.
+Andreas Kirsch, an AI researcher, also resigned from Google DeepMind earlier this month over his concerns.
+Kirsch told the BBC that he believes "Google's governance and oversight are not sufficient or meaningful enough to deploy AI safely and responsibly in military and classified settings" or "to develop artificial superintelligence safely in the future."
+"Google seems to have no right to control or veto how the Pentagon uses its AI and also seems to have limited visibility into how it's being deployed," he added.
+Image source, Supplied
+Image caption, Former Google employee Andreas Kirsch does not think current AI models are "robust enough" for military use
+In the past few years, the US military has deployed multiple AI-enabled technologies to help advance its warfighting abilities.
+The most prominent example of this is Maven Smart Systems, the Pentagon's main software platform for organising intelligence and data.
+Developed by US defence company Palantir, it uses AI to help personnel select and identify targets to strike. Palantir has integrated the technology from several leading AI companies into Maven, and it has enabled some processes to be significantly speeded up.
+Retired Lieutenant General Jack Shanahan, who is the former director of Project Maven, said the "philosophy" seems to be: "Go as fast as possible to deploy [AI technology] as widely as possible, potentially at the expense of the rigour and discipline of test and evaluation."
+However, the Pentagon has maintained that adopting AI technologies is essential for winning wars. "Speed defines victory in the AI era," said Emil Michael, an under secretary in the US Department of Defense, in a statement earlier this year.
+Google's contract with the Pentagon, which was signed earlier this year , allows its AI technology to be used for classified military work. The agreement says Google's AI models can be used for "any lawful government purpose" and "should not be used for domestic mass surveillance or autonomous weapons (including target selection) without appropriate human oversight and control".
+Image source, Justin Sullivan/Getty Images
+Image caption, Google's AI Principles include implementing AI with "human oversight" and aligning with "international law and human rights"
+Similar contracts were signed by OpenAI, Amazon, Microsoft, SpaceX, Oracle, Nvidia, and the start-up Reflection, to allow AI technology to be deployed across a range of military settings such as transport, planning and battlefield operations.
+As the tech quickly evolves, concerns are growing about the use of AI in theatres of war.
+"AI compresses the time an operator has to make a decision because it works much faster than a person, and that's especially risky in a high-stress environment," said Sarah Shoker, formerly head of OpenAI's Geopolitics team.
+"When you have hundreds of targets that are selected by AI and a short amount of time, it is almost impossible for a human operator to meaningfully review the AI's outputs for errors."
+Employees at Google have told the BBC that staff are scared to speak out about AI safety and its uses in warfare because their employment contracts prohibit them from publicly criticising the company.
+"In principle I'm not allowed to criticise Google for the duration of my life," Sofia Liguori told the BBC. But she decided to do so "because I believe it's important for these things to be known and I also think that talking about facts is not criticising".
+Liguori added that at Google "people are scared of retaliation and putting their career at risk. You feel you are being watched, you can't speak."
+A current employee at Google DeepMind, who declined to be named for fear of retaliation, told the BBC that "a lot of motivated employees who signed up for [the company's] original mission could leave – but there's also a pipeline of people at the start of the careers who could fill those positions. It could be a changing of the guard."
+Another Google DeepMind staff member, who also wished to remain anonymous, told the BBC: "A lot of people have left the company that feel strongly about this [how Google DeepMind has changed its ethics position]."
+"Some people are putting up a fight, others are thinking: 'it's a big company. What do you expect to change?'", the employee said.
+Google's agreements with Israel have also caused controversy. In 2024, the company was criticised by staff for a joint contract with Amazon worth $1.2bn (£960m) called Project Nimbus which provides Israel's government and military with AI technology and cloud computing infrastructure. At the time, Google said Project Nimbus "is not directed at highly sensitive, classified, or military workloads relevant to weapons or intelligence services".
+Moreover, Israel's AI capabilities in warfare have been the focus of debate after they were featured in a recent documentary, Naza, which examines the role of AI-powered targeting systems to bombard the Gaza Strip, resulting in high civilian casualties. An Israeli government minister has said the claims presented in the film were false and distorted.
+Former Google employee Andreas Kirsch believes AI technology in warfare is not ready for the battlefield. "Current AI models are not robust enough, and I don't think they have been trained for such tasks either," he said.
+Additional reporting by Rosa Rahimi
+Related topics
+Artificial intelligence
+Google
+United States
+More on this story
+AI model from Google's DeepMind reads recipe for life in DNA
+Published
+28 January
+Google DeepMind boss wins Nobel for proteins breakthrough
+Published
+9 October 2024
+AI is less regulated than milk, says Microsoft president
+Published
+12 October
+The video playlist
+Watch our pick of standout clips from across the BBC
+Previous Next
+1:06 Image of elderly couple almost naked during France riots is AI fake. 00:01:06, play video Image of elderly couple almost naked during France riots is AI fake
+1:23 Warning to anyone with credit card debt. 00:01:23, play video Warning to anyone with credit card debt
+1:04 Why have websites around the world been taken down? 00:01:04, play video Why have websites around the world been taken down?
+1:28 Dame Judi Dench: 'I can't do a play, a film or read' 00:01:28, play video Dame Judi Dench: 'I can't do a play, a film or read'
+0:26 Water appears to pour from clouds above hidden cave. 00:00:26, play video Water appears to pour from clouds above hidden cave
+1:01 Like 'weeing lava': living with chronic UTIs. 00:01:01, play video Like 'weeing lava': living with chronic UTIs
+1:11 Don't Stop Believin'- Glee set for a reboot. 00:01:11, play video Don't Stop Believin'- Glee set for a reboot
+1:09 'I started ketamine at 14 and needed nappies at 22' 00:01:09, play video 'I started ketamine at 14 and needed nappies at 22'
+0:54 Wanted man arrested over $126m US postal fraud case. 00:00:54, play video Wanted man arrested over $126m US postal fraud case
+1:04 Midweek meal: Tandoori salmon traybake. 00:01:04, play video Midweek meal: Tandoori salmon traybake
+1:35 Can a giant tunnel save Windermere? 00:01:35, play video Can a giant tunnel save Windermere?
+0:32 Aberfan falls silent to mark anniversary. 00:00:32, play video Aberfan falls silent to mark anniversary
+0:53 Man found guilty of animal cruelty after stealing flamingo. 00:00:53, play video Man found guilty of animal cruelty after stealing flamingo
+0:52 Rescue operation to save shark trapped in South Korean canal. 00:00:52, play video Rescue operation to save shark trapped in South Korean canal
+1:13 Aberfan survivor recalls moment of the disaster. 00:01:13, play video Aberfan survivor recalls moment of the disaster
+0:49 Christina Applegate says she was wrongly diagnosed with MS. 00:00:49, play video Christina Applegate says she was wrongly diagnosed with MS
+1:21 Australian MP loses both legs after alleged car attack, husband says. 00:01:21, play video Australian MP loses both legs after alleged car attack, husband says
+1:12 What to know about the Jackdaw deal. 00:01:12, play video What to know about the Jackdaw deal
+Top stories
+Live . Minister says 32 UK government services unavailable due to global cyber-security issue
+26622 viewing 27k viewing
+What is PHP and why did it spark a global cyber-security scramble?
+Published
+1 hour ago
+Barclays cutting 5,000 jobs as it increases reliance on AI
+Published
+2 hours ago
+More to explore
+Diabetes and ADHD drugs to be tested on Alzheimer's patients in new study
+Only one female scientist named in GCSEs, research finds
+Airbnb hosts can no longer make guests strip beds and wash dishes under new rules
+Better weather, pay, more opportunities: Why graduates are ditching the UK to move abroad
+Pumpkin patch family rejects 'worst in UK' claim
+Daughter of woman killed by partner 'refuses to be another victim'
+Chronic UTIs affect millions in the UK - these women are out to end the stigma
+Two European women held captive for more than a year in Niger freed in Libya
+US Politics Unspun: Cut through the noise with Anthony Zurcher's newsletter
+Elsewhere on the BBC
+Trending now: The Reluctant Vampire
+Premium Bonds, pensions and credit applications
+New surreal sketches from icons Ellie White and Natasia Demetriou
+Are UK girl groups the best in the world?
+Most read
+1 Retired decorator's Pokémon cards sell for £1.5m
+2 Russell Brand accuser said alleged rape 'really hurt', court hears
+3 Dame Judi Dench: 'I can't do a play, a film or read any more'
+4 Barclays cutting 5,000 jobs as it increases reliance on AI
+5 What is PHP and why did it spark a global cyber-security scramble?
+6 Two storms in two days as Austen and Boelo target UK
+7 Airbnb hosts can no longer make guests strip beds and wash dishes under new rules
+8 Police investigate Married at First Sight Australia after 'inappropriate' allegations
+9 Tougher punishments for criminals who refuse to attend sentencing backed by victim's family
+10 Katie Price's ex not guilty of raping girl, 13
+BBC News Services
+On your mobile
+On smart speakers
+Get news alerts
+Contact BBC News
+Home
+News
+Sport
+Earth
+Reel
+Worklife
+Travel
+Culture
+Future
+Music
+TV
+Weather
+Sounds
+Terms of Use
+About the BBC
+Privacy Policy
+Cookies
+Accessibility Help
+Parental Guidance
+Contact the BBC
+Careers
+BBC emails for you
+Advertise with us
+Copyright © 2026 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.

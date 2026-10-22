@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000359",
+  "url": "https://www.bbc.co.uk/news/articles/cmreyvepnv0po",
+  "capturedAt": "2026-10-22T12:40:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 438523,
+    "sha256": "dd48294a29a3c1c502afce941adbac014815223226dfc99d910e7571b9e45e45",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BE7A1F6A385ED0AA1D6BBA719AB0A144",
+      "status": 200,
+      "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 11643,
+      "afterScrollHeight": 10825,
+      "wantedHeight": 10825
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "e66d1aca79bd1a3411c1af7665f35931b272691e61b5a24370af5c9bad44e89d",
+    "width": 1366,
+    "height": 10825,
+    "bytes": 1215769,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 11643,
+    "afterScrollHeight": 10825
+  },
+  "record": {
+    "capturedAt": "2026-10-22T12:40:31Z",
+    "url": "https://www.bbc.co.uk/news/articles/cmreyvepnv0po",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 438523,
+      "sha256": "dd48294a29a3c1c502afce941adbac014815223226dfc99d910e7571b9e45e45"
+    },
+    "finalUrl": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+    "httpStatus": 200,
+    "title": "Google staff resign in backlash over its AI contracts with military",
+    "rendered": {
+      "textChars": 10278,
+      "textSha256": "00277916e9b3ddc2af6dcfdb7146dcd7019b0cf656a3222e42437596ca5ca443",
+      "htmlSha256": "98d53c1975cf57af740d20ffa000fb1be9eb5ca246bbac10b0cb1ddfa9b9df91"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e66d1aca79bd1a3411c1af7665f35931b272691e61b5a24370af5c9bad44e89d",
+      "width": 1366,
+      "height": 10825,
+      "bytes": 1215769,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261021170625",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261021170625/https://www.bbc.co.uk/news/articles/cmreyvepnv0po"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261022124054/https://www.bbc.co.uk/news/articles/cmreyvepnv0po",
+      "timestamp": "20261022124054",
+      "verifiedHttp": 200
+    }
+  }
+}

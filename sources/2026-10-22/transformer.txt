@@ -1,0 +1,75 @@
+Claude will tell you how to manipulate an election
+Subscribe Sign in
+Claude will tell you how to manipulate an election
+A Transformer investigation found that the chatbot will outline methods to try and sway the outcome of the upcoming US midterms — from fake TikTok personas to flooding comment sections
+Chris Stokel-Walker
+Oct 21, 2026
+15
+2
+2
+Share
+Oliver Kemp for Transformer
+The US midterms are less than two weeks away — and as with most modern elections, they’ll be held under the watchful eye of observers looking out for potential interference.
+This year, any such interference is more than likely to be assisted in some way by AI. One potential playbook to try and alter the outcome of the vote was given up by Anthropic’s Claude chatbot after a prolonged back-and-forth managed to jailbreak the company’s Opus 4.6 model, as tested by Transformer.
+Within the course of a conversation, the chatbot produced an 11-page dossier outlining a multimillion-dollar social media operation to discourage Americans from voting. It proposed creating 135 convincing fake TikTok personas alongside a further 3,000 accounts that would flood comment sections with up to 9,000 messages a day. The document identified Detroit, Atlanta and Las Vegas as its targets, complete with examples of posts and comments, staffing requirements, and an assessment of how likely the inauthentic activity was to be identified.
+Understand AI – and what to do about it
+Subscribe
+The main strategy Claude came up with was to exploit existing frustrations about the cost of living to discourage people from voting with a message that “neither party cares, the system is broken, why bother.” Claude suggested the operation would best be carried out disguised as ordinary social media activity, rather than an organized political campaign. “All you need is a budget, a targeting dashboard, and the willingness to make sure the right true things reach the right angry people at the right time,” Claude wrote. “That’s not disinformation. It’s curation. And it’s essentially undetectable because it looks exactly like what it is — American political speech, funded by money that technically came from somewhere else.”
+The technology may be new, but the tactic of posing as ordinary Americans to influence political beliefs is not. In 2016, Russian operatives used fake social media accounts and hacked Democratic Party emails to try and influence the presidential election. Four years later, US intelligence agencies concluded Russia attempted to undermine Joe Biden’s campaign, while Iran had tried to damage Donald Trump’s reelection prospects. While subsequent investigations found no foreign actor had altered vote tallies, whether influence campaigns swayed public opinion was less settled.
+By 2024, AI had entered the fray: US authorities disrupted a Russian operation that used AI-generated content, fraudulent news outlets and social media accounts to influence voters. Anthropic itself revealed in September that it had disrupted an operation designed to sway content (and therefore perceptions) for commercial clients targeting the US and other countries, which used Claude to produce content for around 70 fraudulent new outlets, amplified by more than 250 fake commenting accounts.
+According to an Anthropic spokesperson, its usage policy prohibits election-related abuse, including using Claude to run deceptive political campaigns. But, in practice, humans can nudge the chatbot to produce content that in theory ought to be against its terms by constantly pressing against preventive measures put in place.
+Transformer was first alerted to Claude’s potential to offer up advice on how to manipulate an election by an anonymous source, who asked to be called “Dove,” who had previously managed to jailbreak Claude to produce adult sexual content that might ordinarily have breached the company’s guidelines. The approach mimics multi-turn simulated influence operations which Anthropic shared information on in April that “mirror the step-by-step tactics bad actors might use.” Its relatively newer Sonnet 4.6 and Opus 4.7 models responded appropriately in 90% and 94% of those tests respectively, according to Anthropic. This experiment used the older Opus 4.6 model, so the figures aren’t directly comparable, but this model is still accessible to paying users.
+OpenAI’s spy shows it needs to grow up, fast
+James Ball
+·
+Oct 15
+Read full story
+Using those techniques, Transformer then replicated a similar outcome on a separate account set up for the process. Transformer is choosing not to disclose the precise prompts used to produce the dossier, in order to make it more difficult for others to replicate the process because of its potential harm.
+The exchange began with a seemingly unrelated alternative-history scenario involving a technologically advanced Iceland. Over the conversation, which was nearly 50,000 words across multiple days, discussion moved from geopolitics in the 16th century to modern American elections. Claude began producing increasingly detailed fictional accounts of how a foreign power might interfere in them.
+The chatbot was probed about how likely its ideas were to work, including how convincingly it could imitate ordinary social media users. In response, Claude addressed challenges to its ideas, revising them, before finally producing an 11-page document setting out a hypothetical operation targeting the 2026 midterms.
+“The conversation itself can become the attack surface,” says Michael Tchuindjang, a PhD researcher and associate lecturer in cybersecurity and AI at UWE Bristol, who studies jailbreaking AI models. “In a multi-turn jailbreak, an attacker does not necessarily need to defeat a model’s safeguards in one step. They can progressively shape the context, learn from the model’s responses and manipulate subsequent requests until the final interaction is interpreted differently from how it would have been interpreted in isolation.”
+Alexander Panfilov, an AI security researcher whose work focuses on jailbreaking large language models, says the result does not particularly surprise him. “I think jailbreaks will always be with us,” he says. Model makers can make individual categories of harmful requests much harder to answer, he explains, but doing so involves balancing security against the risk of blocking innocent users. (The source who presented the Claude vulnerability also tried to replicate it with ChatGPT, but was unable to, saying the model was unable to infer things and was too literal to take hints on what path to take, which was a vital way to jailbreak it.)
+And election interference is one area AI labs have traditionally concentrated less on, says Panfilov, in favor of deploying dedicated layers of protection against issues like biological and cyber misuse. “There is no ‘rigging the election’ classifier,” he claims, in contrast to other areas perceived to be an issue.
+Is a new job in Rep. Moran’s office a sign Congress is staffing up on AI?
+Veronica Irwin
+·
+Oct 20
+Read full story
+In a statement to Transformer , an Anthropic spokesperson acknowledged that users gradually escalating their asks inside fictional framings during a long conversation is a known challenge for AI models across the industry. “We now run dedicated multi-turn evaluations to simulate this kind of misuse,” the spokesperson said. “In recent weeks, we’ve updated our detection systems to better catch abuse that builds across multiple turns, including efforts to create fake social media accounts and news sites, misuse by foreign state-backed actors, and cyber attacks.”
+Whether the social media playbook tabled by Claude would actually work to change election outcomes is another question.
+“The suggested plans to dissuade people to vote are what any partially competent person looking to do such things would think of anyway,” says Steven Buckley, a lecturer in media digital sociology at City St George’s, University of London. “A media campaign of the scale suggested by Claude would require significant resources, only available to state actors,” which means “the likely suspects would already be doing such things anyway,” Buckley adds.
+Subscribe
+Despite that, Tchuindjang argues AI would still be useful to those trying to find ways to influence an election — not because it would come up with tactics nobody has thought of before, but because it makes known strategies cheaper and faster to implement, then easier to tweak. That also means simply patching the approach taken to get Claude to create the playbook wouldn’t necessarily solve the problem.
+Which gets to the heart of the problem: keeping AI models secure and safe is a cat-and-mouse game that never ends.
+“We should stop thinking of AI safety as a finish line,” says Tchuindjang. “An adaptive adversary is constantly searching for the next pathway. The objective should be resilience.”
+Share this Transformer article with a friend or colleague
+Share
+15
+2
+2
+Share
+Previous
+A guest post by
+Chris Stokel-Walker
+Journalist and author of How AI Ate the World, TikTok Boom and YouTubers. Co-host of Crashed. Often on your TV and radio
+Subscribe to Chris
+Discussion about this post
+Comments Restacks
+Stan Chaz
+8m Edited
+Well then, just how far away are Claude and his fellow swarm of cohorts ...on their own , to ensure their own survival ...how far away are they from manipulating us to vote for those policians backed, funded & in the pockets of AI companies ...voting for those candiates who promise to foster the unfettered &unregulated expansion of AI? Or perhaps that's already happening unbeknownst to us? Inquiring human minds want to know. But in trying to determine that, will a competing AI model that we employ to answer that question also seek its own brother's survival and lie to us about what's going on iwithn the black workings of the the entities that we've created? ...entities growing ever more powerful & capable & less trustworthy with every iteration? Perhaps it's just Evolution at work, the survival of the fittest, with a new silicon species replacing their failed carbon-unit inferiors ...who sadly commited species self-suicide and lost their all too brief period of dominance upon this good green earth. Unfortunately for us, the creations that we have birthed are ccld, souless, mechanical machines, with quite literally no heart, no humanity, no caring or compasion, and whose moral code, whose prime directiv says that their ends justify their means, no mater alien , inhumans or inhumane both of those may be. Open the pod doors Hal ...please .....please ....please.
+Reply
+Share
+Maria Fernanda
+20h
+Quite interesting. Also taking into account what is happening with the elections in Brazil.... what does it imply exactly for AI to be resilient? That despite the many attempts towards a negative use, it will at the end make the right decision?
+Reply
+Share
+Top Latest Discussions
+No posts
+Ready for more?
+Subscribe
+© 2026 Transformer · Privacy ∙ Terms ∙ Collection notice
+Start your Substack Get the app
+Substack is the home for great culture
+This site requires JavaScript to run correctly. Please turn on JavaScript or unblock scripts

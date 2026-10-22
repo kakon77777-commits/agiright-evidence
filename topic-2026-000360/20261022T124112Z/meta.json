@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000360",
+  "url": "https://x.com/theinformation/status/2113004915865842055",
+  "capturedAt": "2026-10-22T12:41:12Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "48cc2a32cafb61ea9ef242fa6df459e7e647cd99709ee5ac33a240d405aee310",
+    "width": 640,
+    "height": 900,
+    "bytes": 178793,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-10-22T12:41:12Z",
+    "url": "https://x.com/theinformation/status/2113004915865842055",
+    "finalUrl": "https://x.com/theinformation/status/2113004915865842055",
+    "screenshot": {
+      "sha256": "48cc2a32cafb61ea9ef242fa6df459e7e647cd99709ee5ac33a240d405aee310",
+      "width": 640,
+      "height": 900,
+      "bytes": 178793,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2113004915865842055",
+      "handle": "theinformation",
+      "syndicationSha256": "20cc3bef8061033eef2036707510f3c6839ced520cd7cebf99794d48004dddbb",
+      "createdAt": "2026-10-21T20:30:04.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "theinformation",
+      "lang": "en",
+      "textSha256": "a28cb5e4824c7714309599f070f9c62f6d36a3799f2cc40fd6c57c5b6d62cbc1",
+      "media": [],
+      "oembedSha256": "c3acb658823c3cf25cdb93472ab17b3dbb5c0659648c5acf8d3789f574f10109",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}
