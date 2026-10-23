@@ -1,4 +1,4 @@
-X posts read on x.com status pages through the connected Chrome (Imaginary Person account, read only), 2026-10-23. Time = the status page's datetime attribute (UTC). Grok's lead file records items 012, 014, 015 and 016 as seen through the browser Following feed and/or the X read API ("api_backfill"); the texts below are our own page reads.
+X posts read on x.com status pages through a connected browser (read only), 2026-10-23. Time = the status page's datetime attribute (UTC). Grok's lead file records items 012, 014, 015 and 016 as seen through the browser Following feed and/or the X read API ("api_backfill"); the texts below are our own page reads.
 
 1) @kevinroose, 2026-10-22T23:04:19Z, https://x.com/kevinroose/status/2113406122120097832
 Tomorrow on @MachineGodsPod: the first interview with @balesni and @tomekkorbak, two of the three OpenAI safety researchers who were fired earlier this month.
