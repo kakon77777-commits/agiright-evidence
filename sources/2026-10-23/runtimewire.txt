@@ -1,0 +1,31 @@
+
+so there's no flash
+of the wrong palette before React hydrates. Mirrors the useTheme hook
+(storage key "rw-theme"; classes rw-theme-dark|light|ascii). -->
+Aleksander Madry returns to OpenAI to work on AI safety and security
+ai
+Aleksander Madry returns to OpenAI to work on AI safety and security
+Madry says he will join Chief Scientist Jakub Pachocki after concluding that increasingly capable AI demands a stronger focus on safety.
+By Ryan Merket
+· Published Oct 19th, 2026, 1:19pm CT
+· Updated Oct 22nd, 2026, 6:46pm CT
+Primary source: X
+Why it matters
+Madry returns with prior experience leading OpenAI's Preparedness team just as the company is describing safety and security risks that extend from model evaluations into training environments and tool use.
+Aleksander Madry is returning to OpenAI, a few months after leaving, to work with Chief Scientist Jakub Pachocki on the safety and security risks of increasingly capable AI. In a post on X on October 19th, Madry described his departure as having become a sabbatical and said he had changed his view of what the field most urgently needed.…
+When you purchase through links in our articles, we may earn a small commission . This doesn’t affect our editorial independence.
+Sources
+Aleksander Madry says he is returning to OpenAI X
+Reader comments
+Conversation for this story loads after sign-in.
+More from AI
+Berget AI opens its emissions method after correcting its Texas estimate
+Supermicro adds a 256-CPU rack for the work AI GPUs leave behind
+Meta says Muse is launching in Japan
+Microsoft trains Qwen3.8-27B on 187 tasks to improve agent repeatability
+Canva launches an image model that plans the design before generation
+X Chat adds access to xAI's task-running Grok Bot
+See all AI
+Models in this story
+OpenAI: GPT-4
+Browse all AI models
