@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000361",
+  "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+  "capturedAt": "2026-10-23T11:27:43Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 64328,
+    "sha256": "ae1fe5236368d48f41ba71dd2a4fa1e75bcb23e94f65cb91819f1ec130f02052",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "25E9AB1309CEEB9493083DFBE03386B0",
+      "status": 200,
+      "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4964,
+      "afterScrollHeight": 4964,
+      "wantedHeight": 4964
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c1007ac66514c8dcef3e1aeaea19a430bc8511f4c83b93cb9fe0bb41b9122e0f",
+    "width": 1366,
+    "height": 4964,
+    "bytes": 945786,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4964,
+    "afterScrollHeight": 4964
+  },
+  "record": {
+    "capturedAt": "2026-10-23T11:27:43Z",
+    "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 64328,
+      "sha256": "ae1fe5236368d48f41ba71dd2a4fa1e75bcb23e94f65cb91819f1ec130f02052"
+    },
+    "finalUrl": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+    "httpStatus": 200,
+    "title": "Red-Teaming OpenAI's Internal Agent Monitoring Systems - METR",
+    "rendered": {
+      "textChars": 9810,
+      "textSha256": "f36227710973985a37f5a48061f8eec57c9e315467c367b518580213b3d0a666",
+      "htmlSha256": "c1bce3852a9c9116d1e15c115de98a176c4d1617ff4e2a3d2ac7490009b0ef79"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c1007ac66514c8dcef3e1aeaea19a430bc8511f4c83b93cb9fe0bb41b9122e0f",
+      "width": 1366,
+      "height": 4964,
+      "bytes": 945786,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261022194529",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261022194529/https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261023112755/https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+      "timestamp": "20261023112755",
+      "verifiedHttp": 200
+    }
+  }
+}

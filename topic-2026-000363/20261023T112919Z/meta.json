@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000363",
+  "url": "https://claude.com/resources/articles/auto-mode-default-in-claude-code",
+  "capturedAt": "2026-10-23T11:29:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 572095,
+    "sha256": "b9eb0f0d51cea334c47a2e26e0974a3d66257371c7fdb2fba4766afe2180990c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "EF8C7E93B5C17F9D72720372EE524C0F",
+      "status": 200,
+      "url": "https://claude.com/resources/articles/auto-mode-default-in-claude-code",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 18167,
+      "afterScrollHeight": 18167,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "3b62ff64b031fcc10ebaec36168fa0f89e64902b8052629356e5787f343fcdd1",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1634156,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 18167,
+    "afterScrollHeight": 18167
+  },
+  "record": {
+    "capturedAt": "2026-10-23T11:29:19Z",
+    "url": "https://claude.com/resources/articles/auto-mode-default-in-claude-code",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 572095,
+      "sha256": "b9eb0f0d51cea334c47a2e26e0974a3d66257371c7fdb2fba4766afe2180990c"
+    },
+    "finalUrl": "https://claude.com/resources/articles/auto-mode-default-in-claude-code",
+    "httpStatus": 200,
+    "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans | Claude by Anthropic",
+    "rendered": {
+      "textChars": 24352,
+      "textSha256": "5e8c3ee29bf61043f3c079b90a872b6b58e5175b541c848950859f7e607b08b6",
+      "htmlSha256": "c91cf9e3fb7341e83f09881a11c385a0b6ac9a6a5cda46c0dfcc6b1b4b7cb7e0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "3b62ff64b031fcc10ebaec36168fa0f89e64902b8052629356e5787f343fcdd1",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1634156,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261007084614",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261007084614/https://claude.com/resources/articles/auto-mode-default-in-claude-code"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261023112942/https://claude.com/resources/articles/auto-mode-default-in-claude-code",
+      "timestamp": "20261023112942",
+      "verifiedHttp": 200
+    }
+  }
+}

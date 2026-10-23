@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000365",
+  "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+  "capturedAt": "2026-10-23T11:30:49Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 156921,
+    "sha256": "6a93495e511d27885f3d92fce8e281407e6412a52253a25542b98ddaf8797126",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8685D727CEB45A0BA9EC889A2C9A588E",
+      "status": 200,
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2446,
+      "afterScrollHeight": 2446,
+      "wantedHeight": 2446
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "18e322d66e1f6273c43cd3fed69e7684714f65704359f51b9029e39b2f0c3b21",
+    "width": 1366,
+    "height": 2446,
+    "bytes": 285186,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2446,
+    "afterScrollHeight": 2446
+  },
+  "record": {
+    "capturedAt": "2026-10-23T11:30:49Z",
+    "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 156921,
+      "sha256": "6a93495e511d27885f3d92fce8e281407e6412a52253a25542b98ddaf8797126"
+    },
+    "finalUrl": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+    "httpStatus": 200,
+    "title": "Donating Agent Skills to the Agentic AI Foundation \\ Anthropic",
+    "rendered": {
+      "textChars": 2941,
+      "textSha256": "5af1ee524f814b72419d8aef1a6c73edacacf504138c19fd7ae5384ef52db163",
+      "htmlSha256": "2c7a49edad95f0a2ee8d4434fd6c3d086d6ff106eb3df33c96ee79dae4aedb74"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "18e322d66e1f6273c43cd3fed69e7684714f65704359f51b9029e39b2f0c3b21",
+      "width": 1366,
+      "height": 2446,
+      "bytes": 285186,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261022175517",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261022175517/https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261023113102/https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "timestamp": "20261023113102",
+      "verifiedHttp": 200
+    }
+  }
+}

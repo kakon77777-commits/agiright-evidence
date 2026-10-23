@@ -1,0 +1,22 @@
+X posts read on x.com status pages through the connected Chrome (Imaginary Person account, read only), 2026-10-23. Time = the status page's datetime attribute (UTC). Grok's lead file records items 012, 014, 015 and 016 as seen through the browser Following feed and/or the X read API ("api_backfill"); the texts below are our own page reads.
+
+1) @kevinroose, 2026-10-22T23:04:19Z, https://x.com/kevinroose/status/2113406122120097832
+Tomorrow on @MachineGodsPod: the first interview with @balesni and @tomekkorbak, two of the three OpenAI safety researchers who were fired earlier this month.
+(replies seen: "New episode ALREADY???" / Kevin Roose: "twice a week now!")
+
+2) @Techmeme, 2026-10-23T02:51:59Z, https://x.com/Techmeme/status/2113463418405749091
+OpenAI suspected the three fired researchers of leaking internal model designs to AI safety researcher Ryan Greenblatt, including via disappearing Signal chats (Wall Street Journal)
+(Visit Techmeme dot com for the link and full context!)
+
+3) @Techmeme, 2026-10-23T04:52:02Z, https://x.com/Techmeme/status/2113493626831741102
+Chinese state media: DeepSeek and MiniMax completed registration and won approval to open-source and deploy AI models overseas under proposed export controls (Bloomberg)
+(Visit Techmeme dot com for the link and full context!)
+
+4) @theinformation, 2026-10-22T21:12:46Z, https://x.com/theinformation/status/2113378049387336185
+Hackers automated attacks on 400+ banks using Claude and Grok. Who should be held accountable?
+The hackers, full stop / The model makers / Cloud and API providers / Regulators who moved too slowly / No one – this was inevitable
+Cast your vote in The Information Polls app, and see what the rest of the tech industry thinks.
+
+5) @Miles_Brundage, 2026-10-22T22:40:46Z (page shows 6:40 AM, 23 Oct 2026, UTC+8), https://x.com/Miles_Brundage/status/2113400196805882148
+OpenAI's public benefit report should be due soon, too, right?
+(quoting @AnthropicAI: "Anthropic is a Public Benefit Corporation. Today, we're publishing our annual Public Benefit Report. This report shares our five pillars and takes stock of the actions we're taking to advance them. Read the full report at this page: https://anthropic.com/public-benefit-charter")

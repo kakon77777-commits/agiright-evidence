@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000362",
+  "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+  "capturedAt": "2026-10-23T11:28:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5899,
+    "sha256": "0974e5bffe602cab2ffe53552e80d106872feaee74e51d253ae19236ff027e3d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/155.0.4283.62",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "DF24E784CDFD251629BB997BB756D6EC",
+      "status": 403,
+      "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7c09a48240e82ea60b3d6b0d32b7ffadbd903282c733603baa832c8f2ab98287",
+    "width": 1366,
+    "height": 900,
+    "bytes": 31269,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-23T11:28:15Z",
+    "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5899,
+      "sha256": "0974e5bffe602cab2ffe53552e80d106872feaee74e51d253ae19236ff027e3d"
+    },
+    "finalUrl": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 261,
+      "textSha256": "594f96f7d8ebe7a4dcbe664fbf3f7aae80fcceca6837a67d27dfe910e00d8730",
+      "htmlSha256": "3a7c3848348bf50a681042570d24a452f559c63dc5169470403c3e6877b13d6a"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "7c09a48240e82ea60b3d6b0d32b7ffadbd903282c733603baa832c8f2ab98287",
+      "width": 1366,
+      "height": 900,
+      "bytes": 31269,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/155.0.4283.62)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261022140903",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261022140903/https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Close banner Please Don't Scroll Past This Can you chip in? The Wayba"
+    }
+  }
+}
