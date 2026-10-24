@@ -1,9 +1,9 @@
-# FOLLOWING — X account @Imaginary77777
+# FOLLOWING — X account @[lead-desk account]
 
-Current follow list as read from https://x.com/Imaginary77777/following. Updated only when it changes; each change is dated. Newest section first; older sections are kept as written.
+Current follow list as read from https://x.com/[lead-desk account]/following. Updated only when it changes; each change is dated. Newest section first; older sections are kept as written.
 
 ## 2026-10-12 10:20Z — 45 following (count only; list not re-read)
-Snapshot for run 4. Following count read-only via the X API (get_users_by_username @Imaginary77777, public_metrics): following_count 45, same as the 2026-10-11 15:34Z list. The list page x.com/Imaginary77777/following was NOT re-read this run (no browser/computerUse available to the run-4 desk), so names are assumed unchanged from the section below; not checked one by one. No follows, unfollows or likes made.
+Snapshot for run 4. Following count read-only via the X API (get_users_by_username @[lead-desk account], public_metrics): following_count 45, same as the 2026-10-11 15:34Z list. The list page x.com/[lead-desk account]/following was NOT re-read this run (no browser/computerUse available to the run-4 desk), so names are assumed unchanged from the section below; not checked one by one. No follows, unfollows or likes made.
 
 ## 2026-10-11 15:34Z — 45 following
 Change (made by the desk at the owner's explicit request): +@kevinroose (Kevin Roose), -@kevinrose (Kevin Rose; followed by mistake, one letter off). Count still 45 (profile checked).
@@ -57,7 +57,7 @@ Full list:
 - @kevinroose — Kevin Roose
 
 ## 2026-10-11 13:58Z — 45 following
-Read from https://x.com/Imaginary77777/following at about 13:58 UTC on 2026-10-11 (saved as following_2026-10-11.txt). Compared with the 2026-10-10 ~14:28Z snapshot (30). I did not follow or unfollow anyone.
+Read from https://x.com/[lead-desk account]/following at about 13:58 UTC on 2026-10-11 (saved as following_2026-10-11.txt). Compared with the 2026-10-10 ~14:28Z snapshot (30). I did not follow or unfollow anyone.
 Change: +16 / -1 handles.
 Added (16): @Techmeme, @theinformation, @ShakeelHashim, @sharongoldman, @willknight, @CaseyNewton, @kevinrose, @alexeheath, @steph_palazzolo, @kyliebytes, @rowancheung, @AndrewCurran_, @apples_jimmy, @testingcatalog, @ylecun, @SpaceXSI
 Removed (1): @SpaceXAI

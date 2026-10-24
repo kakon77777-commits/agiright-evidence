@@ -1,9 +1,9 @@
-# FOLLOWING — X account @Imaginary77777
+# FOLLOWING — X account @[lead-desk account]
 
-Current follow list as read from https://x.com/Imaginary77777/following. Updated only when it changes; each change is dated. Newest section first; older sections are kept as written.
+Current follow list as read from https://x.com/[lead-desk account]/following. Updated only when it changes; each change is dated. Newest section first; older sections are kept as written.
 
 ## 2026-10-11 13:58Z — 45 following
-Read from https://x.com/Imaginary77777/following at about 13:58 UTC on 2026-10-11 (saved as following_2026-10-11.txt). Compared with the 2026-10-10 ~14:28Z snapshot (30). I did not follow or unfollow anyone.
+Read from https://x.com/[lead-desk account]/following at about 13:58 UTC on 2026-10-11 (saved as following_2026-10-11.txt). Compared with the 2026-10-10 ~14:28Z snapshot (30). I did not follow or unfollow anyone.
 Change: +16 / -1 handles.
 Added (16): @Techmeme, @theinformation, @ShakeelHashim, @sharongoldman, @willknight, @CaseyNewton, @kevinrose, @alexeheath, @steph_palazzolo, @kyliebytes, @rowancheung, @AndrewCurran_, @apples_jimmy, @testingcatalog, @ylecun, @SpaceXSI
 Removed (1): @SpaceXAI

@@ -1,6 +1,6 @@
-# FOLLOWING — X account @Imaginary77777
+# FOLLOWING — X account @[lead-desk account]
 
-Current follow list as read from https://x.com/Imaginary77777/following. Updated only when it changes; each change is dated. Newest section first; older sections are kept as written.
+Current follow list as read from https://x.com/[lead-desk account]/following. Updated only when it changes; each change is dated. Newest section first; older sections are kept as written.
 
 ## 2026-10-10 ~14:28 UTC — current (30 following)
 Change: +15 accounts, followed manually by the account owner.

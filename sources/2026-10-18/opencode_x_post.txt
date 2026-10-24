@@ -1,5 +1,5 @@
 Source: https://x.com/opencode/status/2111519637049319818
-Read: 2026-10-18 (Taipei) in the 幻想人 Chrome (Claude in Chrome), page text of the <article>; no login action taken.
+Read: 2026-10-18 (Taipei) in the connected Chrome (Claude in Chrome), page text of the <article>; no login action taken.
 Title: X 上的 OpenCode：「We had a security breach last night related to a large scale distillation attack that impacted 1.4% of OpenCode Console users We have notified them all this morning via email. If you did not get an email you were not impacted, it was a subset of users who had external providers」 / X
 ---
 OpenCode
