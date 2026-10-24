@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000367",
+  "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+  "capturedAt": "2026-10-24T11:57:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 354362,
+    "sha256": "92e26b35bd08f26aae44b39f3a27a04bfc2b0cd1e67ce063f3548854da1285fc",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7148A63393A278DD535307082842F339",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 37565,
+      "afterScrollHeight": 37565,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "445c90de14553ec7929dc988f3e4b1df7ce0ccb3b2e2d443415c509521b426e8",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 2156022,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 37565,
+    "afterScrollHeight": 37565
+  },
+  "record": {
+    "capturedAt": "2026-10-24T11:57:37Z",
+    "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 354362,
+      "sha256": "92e26b35bd08f26aae44b39f3a27a04bfc2b0cd1e67ce063f3548854da1285fc"
+    },
+    "finalUrl": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+    "httpStatus": 200,
+    "title": "An alignment assessment of the UK AISI cybertesting incident \\ Anthropic",
+    "rendered": {
+      "textChars": 55635,
+      "textSha256": "83cf9ad90e25f297ada078007d1f048eb7dbee9068d3a309a78d126af18f5012",
+      "htmlSha256": "9c93b6484d03c66f108ca1bedf516096fde43bfc52fef6aec2edbce7aa9249fd"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "445c90de14553ec7929dc988f3e4b1df7ce0ccb3b2e2d443415c509521b426e8",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 2156022,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261023132850",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261023132850/https://www.anthropic.com/research/alignment-assessment-ukaisi"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261024115759/https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "timestamp": "20261024115759",
+      "verifiedHttp": 200
+    }
+  }
+}

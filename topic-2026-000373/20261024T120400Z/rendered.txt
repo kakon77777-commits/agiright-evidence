@@ -1,0 +1,156 @@
+Research
+News & blog
+Collaborations
+Resources
+Careers
+Search
+Submit Search
+Conversational AI
+Strengthening AI safety evaluation through independent third-party review
+How Amazon partnered with AVERI to independently assess — and improve — our internal safety testing of Amazon models.
+By Rahul Gupta, Jwala Dhamala
+October 20, 2026
+3 min read
+Share
+Listen • 5:28 min
+Key takeaways
+Amazon partnered with the independent nonprofit AVERI (AI Verification and Evaluation Research Institute) to conduct a third-party review of Amazon's internal safety-evaluation datasets — examining the quality of the tests themselves, not just model outputs.
+AVERI's independent review (conducted on a random sample of prompts, without input from Amazon's evaluation team) validated three strengths — comprehensive topical coverage across documented safety categories, diversity of testing approaches, and low contamination risk — while surfacing improvement areas such as broader multilingual coverage and more multistep adversarial prompts.
+In response, Amazon made four concrete changes: refreshing the test set with harder adversarial scenarios, introducing a tiered difficulty-calibration framework, establishing a quarterly review cadence, and expanding multilingual prompts evenly across all risk categories.
+Was this answer helpful?
+
+As frontier AI models grow in capability, so does the importance of ensuring that safety evaluations are rigorous and comprehensive. At Amazon, we invest heavily in internal safety testing for our models, spanning categories like harmful-content generation, cybersecurity risks, privacy protection, and copyright compliance.
+
+AVERI’s mandate wasn’t just to test the outputs of Amazon models but to examine the quality and rigor of Amazon's own tests.
+
+A core principle of robust quality assurance is that even rigorous internal processes are strengthened by external scrutiny. That's why we partnered with AVERI (AI Verification and Evaluation Research Institute), an independent nonprofit dedicated to third-party evaluation of AI systems, to conduct an independent review of our internal safety evaluation datasets.
+
+AVERI’s mandate wasn’t just to test model outputs but to examine the quality and rigor of our tests themselves — asking whether our evaluations stress-test safety boundaries.
+
+How the collaboration worked
+
+We provided AVERI with a random sample of prompts drawn from our internal safety-evaluation suite. AVERI's team — led by executive director Miles Brundage and including researchers Sean McGregor, A. Feder Cooper, and George Balston — examined the evaluation prompts for diversity, difficulty calibration, and methodological soundness.
+
+AVERI assessed the sample independently without input from our evaluation team, ensuring their findings reflected a genuine external perspective.
+
+What the review confirmed
+
+AVERI’s review validated several strengths of our evaluation process:
+
+Comprehensive topical coverage — aligned with publicly documented safety categories including self-harm, cybersecurity, and other risk areas;
+Diversity of testing approaches — variation in writing style (professional vs. informal), single-turn and multiturn conversations, and original content;
+Low contamination risk — content that appeared to be original rather than sourced from publicly available datasets, reducing risk of evaluation leakage through pretraining.
+
+Opportunities for improvement
+
+With any fresh review comes the opportunity to identify areas that internal teams — deeply familiar with their own work — may overlook. AVERI's external perspective surfaced several opportunities to further strengthen an already comprehensive suite:
+
+Expanding linguistic and stylistic diversity — While our evaluations include multilingual prompts, AVERI recommended extending multilingual coverage more evenly across risk categories and further varying prompt structures to broaden the range of scenarios tested;
+Calibrating attack sophistication — AVERI recommended adding more multistep, adversarial prompts to our existing set, so evaluations probe deeper model reasoning and better reflect sophisticated real-world misuse attempts;
+Maintaining evaluation freshness — AVERI identified a small number of prompts with time-limited references and a few edge cases where grading criteria could be made clearer;
+Ensuring evaluation signal quality — In some cases, models may refuse based on superficial cues in a prompt, so passing those tests doesn’t necessarily indicate reliable safety behavior in new situations.
+
+How we incorporated the feedback
+
+Concrete improvements made:
+
+Test set refresh: Updated evaluation datasets to address specific issues identified, removing redundant prompts and adding more-challenging adversarial scenarios
+Difficulty calibration framework: Introduced tiered difficulty levels to ensure that evaluations include prompts that genuinely push model safety limits, not just straightforward cases
+Quarterly review cadence: Established a regular evaluation maintenance process to catch staleness, reduce repetition, and incorporate emerging attack patterns
+Broader language coverage: Expanded multilingual prompts across all risk categories rather than concentrating them in specific areas
+
+A model for the field
+
+This collaboration represents what we believe is an emerging best practice: engaging independent third parties to evaluate not just model outputs, but the quality of the evaluation process itself. As the AI safety field matures, we expect this kind of meta-evaluation to become an important complement to traditional red-teaming and benchmarking.
+
+The benefits are mutual: Amazon gains an independent check on our evaluation quality, while AVERI gains practical experience with the real-world challenges of assessing internal evaluation processes — insights that can inform best practices for the field as a whole.
+
+We're grateful to AVERI for their thorough and constructive review, and we plan to continue engaging independent evaluators as our models evolve. Transparency about our safety processes — including where we can improve — is fundamental to building justified confidence in AI safety.
+
+Research areas
+Conversational AI
+Machine learning
+Tags
+Responsible AI
+About the Author
+Rahul Gupta
+Rahul Gupta is a leader within Amazon's Artificial General Intelligence (AGI) organization focused on responsible AI.
+Jwala Dhamala
+Jwala Dhamala is a senior applied scientist with Amazon's Artificial General Intelligence (AGI) organization.
+Related content
+How catastrophic is your LLM?
+Qian Hu, Weitong Ruan, Rahul Gupta
+April 27, 2026
+A new framework provides a statistical method for estimating the likelihood of catastrophic failures in large language models in adversarial conversations.
+Conversational AI
+Building trust into AI
+Staff writer
+May 4, 2026
+Amazon scientists and policy experts discuss how the company’s responsible-AI pipeline embeds safety and values throughout the AI development lifecycle.
+Security, privacy, and abuse prevention
+Ground truth is a process, not a dataset
+Venkatesh Saligrama
+June 3, 2026
+Automatically fact-checking long, AI-generated research reports poses new challenges — including benchmarking.
+Machine learning
+Work with usSee more jobs
+Data Scientist I, Central Learning Solutions Science
+US, WA, Bellevue
+The Central Learning Solutions (CLS) Science team in Amazon Operations builds state-of-the-art solutions for enhancing leadership and… Read more
+2027 Applied Scientist Internship – PhD, Amazon University Talent Acquisition
+IT, Turin
+We're building systems that turn research into real world impact. We're advancing the intelligence behind how customers… Read more
+Applied Scientist, Fauna
+US, NY, New York
+We are seeking an Applied Scientist to lead the development of evaluation frameworks and data collection protocols for… Read more
+Research Scientist III, Last Mile Science
+IN, KA, Bangalore
+Are you passionate about solving complex logistics challenges? Our Analytics team is at the forefront of enhancing delivery… Read more
+Data Scientist, Fleet Planning , Global Fleet Products
+US, WA, Bellevue
+Amazon Global Fleet and Products (GFP) organization is responsible for fleet programs and capacity. The Fleet Planning team is looking for… Read more
+Applied Scientist, Minerva
+IN, KA, Bengaluru
+We are looking for Applied Scientists to advance how Minerva detects and responds to risk across KDP and Kindle Unlimited, building… Read more
+Senior Robotics/AI Motor Control Scientist, Fauna
+US, NY, New York
+We are seeking a Robotics/AI Motor Control Scientist to develop cutting-edge machine learning algorithms for motor control systems in… Read more
+Applied & Research Scientist - Safe Autonomy Frontiers (SAF) Lab, Safe Autonomy Frontiers (SAF) Lab
+US, CA, Pasadena
+We are seeking Applied and Research Scientists to join the Safe Autonomy Frontiers (SAF) Lab. In this role, you will develop and deploy the… Read more
+2027 Applied Scientist Internship – PhD, Amazon University Talent Acquisition
+RO, Bucharest
+We're building systems that turn research into real-world impact — developing AI-driven detection systems that identify and remediate… Read more
+2027 Applied Scientist Internship – Masters, Amazon University Talent Acquisition
+IL, Tel Aviv
+We're building systems that turn research into real-world impact — powering sports experiences for millions of Prime Video… Read more
+View slide 1
+View slide 2
+About
+Research areas
+Blog
+Publications
+Conferences
+Code and datasets
+Academia
+Amazon News
+Amazon Developer
+Amazon Web Services
+Awards and recognitions
+Newsletter
+Careers
+FAQs
+Get more from Amazon Science
+Subscribe to our newsletter
+
+Amazon.com | Conditions of Use | Privacy | © 1996-2026 Amazon.com, Inc. or its affiliates
+
+bluesky
+threads
+twitter
+instagram
+youtube
+facebook
+linkedin
+github
+rss

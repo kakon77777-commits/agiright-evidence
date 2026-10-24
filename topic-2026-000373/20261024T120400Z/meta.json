@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000373",
+  "url": "https://www.amazon.science/blog/strengthening-ai-safety-evaluation-through-independent-third-party-review",
+  "capturedAt": "2026-10-24T12:04:00Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 294773,
+    "sha256": "e8e1967e4fee305c3a0fd3b81971a7127df91f7b9508152f09dc41266627c19a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B1FC907AA41234956D09CF21C1B4F619",
+      "status": 200,
+      "url": "https://www.amazon.science/blog/strengthening-ai-safety-evaluation-through-independent-third-party-review",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5791,
+      "afterScrollHeight": 5791,
+      "wantedHeight": 5791
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "89a950675a583c30c94bed62937b654970033f83ed05b8df5550e654a76c66ac",
+    "width": 1366,
+    "height": 5791,
+    "bytes": 1177980,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5791,
+    "afterScrollHeight": 5791
+  },
+  "record": {
+    "capturedAt": "2026-10-24T12:04:00Z",
+    "url": "https://www.amazon.science/blog/strengthening-ai-safety-evaluation-through-independent-third-party-review",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 294773,
+      "sha256": "e8e1967e4fee305c3a0fd3b81971a7127df91f7b9508152f09dc41266627c19a"
+    },
+    "finalUrl": "https://www.amazon.science/blog/strengthening-ai-safety-evaluation-through-independent-third-party-review",
+    "httpStatus": 200,
+    "title": "Strengthening AI safety evaluation through independent third-party review - Amazon Science",
+    "rendered": {
+      "textChars": 9830,
+      "textSha256": "c7ab8dcf9994ed3431a0a20a5a7639b99c093c66c38a11c86520e65c81a9cb6f",
+      "htmlSha256": "ac3689ab7521e6af38f0ffaf25b0f4290b6888d7e88758d891b8251471272313"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "89a950675a583c30c94bed62937b654970033f83ed05b8df5550e654a76c66ac",
+      "width": 1366,
+      "height": 5791,
+      "bytes": 1177980,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261024120414/https://www.amazon.science/blog/strengthening-ai-safety-evaluation-through-independent-third-party-review",
+      "timestamp": "20261024120414",
+      "verifiedHttp": 200
+    }
+  }
+}

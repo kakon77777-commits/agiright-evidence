@@ -1,0 +1,22 @@
+
+#2113766354386084338 @OpenAI (OpenAI, blue-verified) created 2026-10-23T22:55:45.000Z edited=false likes=4946 replies=359
+  FULL TEXT: During this red-teaming exercise, we also found a vulnerability that allows for unauthenticated remote code execution in Brotli, a widely-deployed compression library included in many pieces of software such as Node.js, Bun, and Envoy.
+
+The flaw could let an attacker run their
+  NOTE_TWEET: {"id":"Tm90ZVR3ZWV0UmVzdWx0czoyMTEzNzY2MzU0MTkzMTgyNzIw"}
+  QUOTES #2113718797505036665 @OpenAI (2026-10-23T19:46:46.000Z): Over the past several months, we have substantially hardened the security of our research training environment. We’ve removed live internet access for all frontier models during training and built an offline world for them to use instead—a cached version of the web where they can
+
+#2113718797505036665 @OpenAI (OpenAI, blue-verified) created 2026-10-23T19:46:46.000Z edited=false likes=10317 replies=866
+  FULL TEXT: Over the past several months, we have substantially hardened the security of our research training environment. We’ve removed live internet access for all frontier models during training and built an offline world for them to use instead—a cached version of the web where they can
+  NOTE_TWEET: {"id":"Tm90ZVR3ZWV0UmVzdWx0czoyMTEzNzE4Nzk3MjgyODE2MDAw"}
+
+#2113649836100931761 @RyanGreenblatt (Ryan Greenblatt, blue-verified) created 2026-10-23T15:12:45.000Z edited=false likes=1449 replies=38
+  FULL TEXT: Based on this article, OpenAI has made false accusations about me. The three researchers fired from OpenAI were told I facilitated architecture leaks to The Information. This is false.
+
+A journalist from The Information did reach out to me shortly before that article came out. I
+  NOTE_TWEET: {"id":"Tm90ZVR3ZWV0UmVzdWx0czoyMTEzNjQ5ODM1OTg3NjczMDg4"}
+  QUOTES #2113438537798525372 @ZeffMax (2026-10-23T01:13:07.000Z): New: The three researchers OpenAI fired last month spent the summer fighting to keep AI's chain-of-thought process visible. Then, OpenAI asked to see their Signal chats. A week later, they were let go. More below from @keachhagey, @berber_jin1, and me. https://t.co/7klEDa8R0M https://t.co/l01Q668KT1
+
+#2113738709799665905 @mntruell (Michael Truell, blue-verified) created 2026-10-23T21:05:54.000Z edited=false likes=1275 replies=77
+  FULL TEXT: Instant login and checkout with @Bot
+  QUOTES #2113717946019397910 @bot (2026-10-23T19:43:23.000Z): Grok Bot can now save your logins, cards, and contact information. Add them once, and Bot securely remembers them for the future. https://t.co/oCeZtS04V4

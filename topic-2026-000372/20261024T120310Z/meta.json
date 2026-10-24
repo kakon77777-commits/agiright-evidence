@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000372",
+  "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+  "capturedAt": "2026-10-24T12:03:10Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 390347,
+    "sha256": "7dfd0faee2defb8172f0c10731e8d07c833c1aeff0c7f8a559fe1667d0dc548a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "614AB382DB778745545102CB2D03C373",
+      "status": 200,
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 19897,
+      "afterScrollHeight": 22473,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "029908934fe6d618ebee555327c314d86e08c5eb8da0a8f79a7510e0c5e493f6",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 182300,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 19897,
+    "afterScrollHeight": 22473
+  },
+  "record": {
+    "capturedAt": "2026-10-24T12:03:10Z",
+    "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 390347,
+      "sha256": "7dfd0faee2defb8172f0c10731e8d07c833c1aeff0c7f8a559fe1667d0dc548a"
+    },
+    "finalUrl": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "httpStatus": 200,
+    "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+    "rendered": {
+      "textChars": 21840,
+      "textSha256": "4977b874d30c9da2a79a0926705f8d399108781c6f1259c319c6df7a99d25bbf",
+      "htmlSha256": "5b457aa22db0a525310e343b076c0323498caacbf8e87b6f96670f6b837c17d7"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "029908934fe6d618ebee555327c314d86e08c5eb8da0a8f79a7510e0c5e493f6",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 182300,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261023171150",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261023171150/https://www.kimi.ai/blog/kimi-k3-1-pro"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

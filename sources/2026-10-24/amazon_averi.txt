@@ -1,0 +1,418 @@
+
+Strengthening AI safety evaluation through independent third-party review - Amazon Science
+Close
+Close
+Research
+Research
+Research areas
+Automated reasoning
+Cloud and systems
+Computer vision
+Conversational AI
+Economics
+Information and knowledge management
+Machine learning
+Operations research and optimization
+Quantum technologies
+Robotics
+Search and information retrieval
+Security, privacy, and abuse prevention
+Sustainability
+Our scientific contributions
+Publications
+Research from our scientists and collaborators.
+Conferences
+Our experts present and discuss cutting-edge research at scientific meetings globally.
+Research areas
+Automated reasoning
+Cloud and systems
+Computer vision
+Conversational AI
+Economics
+Information and knowledge management
+Machine learning
+Operations research and optimization
+Quantum technologies
+Robotics
+Search and information retrieval
+Security, privacy, and abuse prevention
+Sustainability
+Our scientific contributions
+Publications
+Research from our scientists and collaborators.
+Conferences
+Our experts present and discuss cutting-edge research at scientific meetings globally.
+News & blog
+News & blog
+The latest from Amazon researchers
+Amazon Science Blog
+Technical deep-dives and perspectives from our scientists.
+News
+Research milestones and recent achievements.
+The latest from Amazon researchers
+Amazon Science Blog
+Technical deep-dives and perspectives from our scientists.
+News
+Research milestones and recent achievements.
+Collaborations
+Collaborations
+Amazon Research Awards
+Overview
+Call for proposals
+Latest news
+Research stories
+Recipients
+Amazon Nova AI Challenge
+Overview
+Rules
+FAQs
+Teams
+Research collaborations
+Overview
+Carnegie Mellon University
+Columbia University
+Hampton University
+Howard University
+IIT Bombay
+Johns Hopkins University
+Max Planck Society
+MIT
+Tennessee State University
+University of California, Los Angeles
+University of Illinois Urbana-Champaign
+University of Southern California
+University of Texas at Austin
+Virginia Tech
+University of Washington
+Amazon Research Awards
+Overview
+Call for proposals
+Latest news
+Research stories
+Recipients
+Amazon Nova AI Challenge
+Overview
+Rules
+FAQs
+Teams
+Research collaborations
+Overview
+Carnegie Mellon University
+Columbia University
+Hampton University
+Howard University
+IIT Bombay
+Johns Hopkins University
+Max Planck Society
+MIT
+Tennessee State University
+University of California, Los Angeles
+University of Illinois Urbana-Champaign
+University of Southern California
+University of Texas at Austin
+Virginia Tech
+University of Washington
+Resources
+Resources
+Code and datasets
+Amazon Nova
+Try Amazon’s frontier foundation models.
+Code and datasets
+Amazon Nova
+Try Amazon’s frontier foundation models.
+Careers
+Careers
+Careers
+Explore our open roles.
+Amazon Scholars
+Faculty research opportunities on industry-scale technical challenges.
+Postdoctoral Science Program
+Early-career research opportunities alongside experienced industry scientists.
+Careers
+Explore our open roles.
+Amazon Scholars
+Faculty research opportunities on industry-scale technical challenges.
+Postdoctoral Science Program
+Early-career research opportunities alongside experienced industry scientists.
+Social
+bluesky
+threads
+twitter
+instagram
+youtube
+facebook
+linkedin
+github
+rss
+Menu
+Research
+Research areas
+Automated reasoning
+Cloud and systems
+Computer vision
+Conversational AI
+Economics
+Information and knowledge management
+Machine learning
+Operations research and optimization
+Quantum technologies
+Robotics
+Search and information retrieval
+Security, privacy, and abuse prevention
+Sustainability
+Our scientific contributions
+Publications
+Research from our scientists and collaborators.
+Conferences
+Our experts present and discuss cutting-edge research at scientific meetings globally.
+Research areas
+Automated reasoning
+Cloud and systems
+Computer vision
+Conversational AI
+Economics
+Information and knowledge management
+Machine learning
+Operations research and optimization
+Quantum technologies
+Robotics
+Search and information retrieval
+Security, privacy, and abuse prevention
+Sustainability
+Our scientific contributions
+Publications
+Research from our scientists and collaborators.
+Conferences
+Our experts present and discuss cutting-edge research at scientific meetings globally.
+News & blog
+The latest from Amazon researchers
+Amazon Science Blog
+Technical deep-dives and perspectives from our scientists.
+News
+Research milestones and recent achievements.
+The latest from Amazon researchers
+Amazon Science Blog
+Technical deep-dives and perspectives from our scientists.
+News
+Research milestones and recent achievements.
+Collaborations
+Amazon Research Awards
+Overview
+Call for proposals
+Latest news
+Research stories
+Recipients
+Amazon Nova AI Challenge
+Overview
+Rules
+FAQs
+Teams
+Research collaborations
+Overview
+Carnegie Mellon University
+Columbia University
+Hampton University
+Howard University
+IIT Bombay
+Johns Hopkins University
+Max Planck Society
+MIT
+Tennessee State University
+University of California, Los Angeles
+University of Illinois Urbana-Champaign
+University of Southern California
+University of Texas at Austin
+Virginia Tech
+University of Washington
+Amazon Research Awards
+Overview
+Call for proposals
+Latest news
+Research stories
+Recipients
+Amazon Nova AI Challenge
+Overview
+Rules
+FAQs
+Teams
+Research collaborations
+Overview
+Carnegie Mellon University
+Columbia University
+Hampton University
+Howard University
+IIT Bombay
+Johns Hopkins University
+Max Planck Society
+MIT
+Tennessee State University
+University of California, Los Angeles
+University of Illinois Urbana-Champaign
+University of Southern California
+University of Texas at Austin
+Virginia Tech
+University of Washington
+Resources
+Code and datasets
+Amazon Nova
+Try Amazon’s frontier foundation models.
+Code and datasets
+Amazon Nova
+Try Amazon’s frontier foundation models.
+Careers
+Careers
+Explore our open roles.
+Amazon Scholars
+Faculty research opportunities on industry-scale technical challenges.
+Postdoctoral Science Program
+Early-career research opportunities alongside experienced industry scientists.
+Careers
+Explore our open roles.
+Amazon Scholars
+Faculty research opportunities on industry-scale technical challenges.
+Postdoctoral Science Program
+Early-career research opportunities alongside experienced industry scientists.
+Search
+Submit Search
+Conversational AI
+Strengthening AI safety evaluation through independent third-party review
+How Amazon partnered with AVERI to independently assess — and improve — our internal safety testing of Amazon models.
+By Rahul Gupta , Jwala Dhamala
+October 20, 2026
+3 min read
+Share
+Share
+Copy link
+Email
+X
+LinkedIn
+Facebook
+Line
+Reddit
+QZone
+Sina Weibo
+WeChat
+WhatsApp
+分享到微信
+x
+Listen &bull; 5:28 min
+Key takeaways
+Amazon partnered with the independent nonprofit AVERI (AI Verification and Evaluation Research Institute) to conduct a third-party review of Amazon's internal safety-evaluation datasets — examining the quality of the tests themselves, not just model outputs.
+AVERI's independent review (conducted on a random sample of prompts, without input from Amazon's evaluation team) validated three strengths — comprehensive topical coverage across documented safety categories, diversity of testing approaches, and low contamination risk — while surfacing improvement areas such as broader multilingual coverage and more multistep adversarial prompts.
+In response, Amazon made four concrete changes: refreshing the test set with harder adversarial scenarios, introducing a tiered difficulty-calibration framework, establishing a quarterly review cadence, and expanding multilingual prompts evenly across all risk categories.
+Was this answer helpful?
+As frontier AI models grow in capability, so does the importance of ensuring that safety evaluations are rigorous and comprehensive. At Amazon, we invest heavily in internal safety testing for our models, spanning categories like harmful-content generation, cybersecurity risks, privacy protection, and copyright compliance.
+AVERI’s mandate wasn’t just to test the outputs of Amazon models but to examine the quality and rigor of Amazon's own tests.
+A core principle of robust quality assurance is that even rigorous internal processes are strengthened by external scrutiny. That's why we partnered with AVERI (AI Verification and Evaluation Research Institute), an independent nonprofit dedicated to third-party evaluation of AI systems, to conduct an independent review of our internal safety evaluation datasets.
+AVERI’s mandate wasn’t just to test model outputs but to examine the quality and rigor of our tests themselves — asking whether our evaluations stress-test safety boundaries.
+How the collaboration worked
+We provided AVERI with a random sample of prompts drawn from our internal safety-evaluation suite. AVERI's team — led by executive director Miles Brundage and including researchers Sean McGregor, A. Feder Cooper, and George Balston — examined the evaluation prompts for diversity, difficulty calibration, and methodological soundness.
+AVERI assessed the sample independently without input from our evaluation team, ensuring their findings reflected a genuine external perspective.
+What the review confirmed
+AVERI’s review validated several strengths of our evaluation process:
+Comprehensive topical coverage — aligned with publicly documented safety categories including self-harm, cybersecurity, and other risk areas;
+Diversity of testing approaches — variation in writing style (professional vs. informal), single-turn and multiturn conversations, and original content;
+Low contamination risk — content that appeared to be original rather than sourced from publicly available datasets, reducing risk of evaluation leakage through pretraining.
+Opportunities for improvement
+With any fresh review comes the opportunity to identify areas that internal teams — deeply familiar with their own work — may overlook. AVERI's external perspective surfaced several opportunities to further strengthen an already comprehensive suite:
+Expanding linguistic and stylistic diversity — While our evaluations include multilingual prompts, AVERI recommended extending multilingual coverage more evenly across risk categories and further varying prompt structures to broaden the range of scenarios tested;
+Calibrating attack sophistication — AVERI recommended adding more multistep, adversarial prompts to our existing set, so evaluations probe deeper model reasoning and better reflect sophisticated real-world misuse attempts;
+Maintaining evaluation freshness — AVERI identified a small number of prompts with time-limited references and a few edge cases where grading criteria could be made clearer;
+Ensuring evaluation signal quality — In some cases, models may refuse based on superficial cues in a prompt, so passing those tests doesn’t necessarily indicate reliable safety behavior in new situations.
+How we incorporated the feedback
+Concrete improvements made:
+Test set refresh : Updated evaluation datasets to address specific issues identified, removing redundant prompts and adding more-challenging adversarial scenarios
+Difficulty calibration framework : Introduced tiered difficulty levels to ensure that evaluations include prompts that genuinely push model safety limits, not just straightforward cases
+Quarterly review cadence : Established a regular evaluation maintenance process to catch staleness, reduce repetition, and incorporate emerging attack patterns
+Broader language coverage : Expanded multilingual prompts across all risk categories rather than concentrating them in specific areas
+A model for the field
+This collaboration represents what we believe is an emerging best practice: engaging independent third parties to evaluate not just model outputs , but the quality of the evaluation process itself . As the AI safety field matures, we expect this kind of meta-evaluation to become an important complement to traditional red-teaming and benchmarking.
+The benefits are mutual: Amazon gains an independent check on our evaluation quality, while AVERI gains practical experience with the real-world challenges of assessing internal evaluation processes — insights that can inform best practices for the field as a whole.
+We're grateful to AVERI for their thorough and constructive review, and we plan to continue engaging independent evaluators as our models evolve. Transparency about our safety processes — including where we can improve — is fundamental to building justified confidence in AI safety.
+Research areas
+Conversational AI
+Machine learning
+Tags
+Responsible AI
+About the Author
+Rahul Gupta
+Rahul Gupta is a leader within Amazon's Artificial General Intelligence (AGI) organization focused on responsible AI.
+Jwala Dhamala
+Jwala Dhamala is a senior applied scientist with Amazon's Artificial General Intelligence (AGI) organization.
+Related content
+How catastrophic is your LLM?
+Qian Hu , Weitong Ruan , Rahul Gupta
+April 27, 2026
+A new framework provides a statistical method for estimating the likelihood of catastrophic failures in large language models in adversarial conversations.
+Conversational AI
+Building trust into AI
+Staff writer
+May 4, 2026
+Amazon scientists and policy experts discuss how the company’s responsible-AI pipeline embeds safety and values throughout the AI development lifecycle.
+Security, privacy, and abuse prevention
+Ground truth is a process, not a dataset
+Venkatesh Saligrama
+June 3, 2026
+Automatically fact-checking long, AI-generated research reports poses new challenges — including benchmarking.
+Machine learning
+Work with us
+See more jobs
+See more jobs
+Data Scientist I, Central Learning Solutions Science
+US, WA, Bellevue
+The Central Learning Solutions (CLS) Science team in Amazon Operations builds state-of-the-art solutions for enhancing leadership and associate development across the organization. We develop technology and mechanisms for building personalized learning experiences based on the profiles of different learners and assess the post-training performance curves for different learner profiles. As a Data Scientist on the team, you will be driving the data science roadmap for the CLS Science team. You will leverage your knowledge in statistics and econometrics, estimate the causal impact of training interventions, recommend the right interventions for a given learner profile, and measure the post-launch success of these interventions through A/B weblabs. These insights will help in dynamically changing the training content of Learning & Development courses and unlock opportunities to improve both training effectiveness and learner experience. You will collaborate effectively with internal stakeholders and cross-functional teams for solving business problems, create operational efficiencies, and deliver successfully against high organizational standards. Key job responsibilities - Establish scalable, efficient, automated processes for large scale data analyses, model development, model validation and implementation. - Use advanced causal inference methodologies to estimate the learning curves for different learner profiles and the effectiveness of training content. - Perform statistical analysis and statistical tests including hypothesis testing and A/B testing. - Implement new statistical, machine learning, or other mathematical methodologies to solve specific business problems. - Present deep dives and analysis to both technical and non-technical stakeholders, ensure clarity, and influence the strategy of business partners. About the team Central Learning Solutions (CLS) is the centralized technical team that builds Learning & Development products for North America Operations employees. CLS Science teams owns the science components that power the different products on Impact Estimation, Self Serve Analytics, Content Understanding, and Personal learning.
+2027 Applied Scientist Internship – PhD, Amazon University Talent Acquisition
+IT, Turin
+We're building systems that turn research into real world impact. We're advancing the intelligence behind how customers converse, connect and interact with Alexa across the globe and we're tackling complex conversational AI challenges with state of the art GenAI systems. We're looking for PhD students across multiple research domains to invent, design, and implement state of the art solutions for never before solved problems. Your work here won't just stay in a notebook, it ships to production and reaches customers worldwide. Check out the details below including the job responsibilities, team details, and basic qualifications before submitting your application. You can find more information about the Amazon Science community as well as interview preparation tips via the links below; - https://www.amazon.science/ - https://amazon.jobs/content/en/career-programs/university/science - https://amazon.jobs/content/en/how-we-hire/university-roles/applied-science Key job responsibilities As an Applied Science Intern, you will own the design and development of end-to-end systems. You'll have the opportunity to write technical white papers, create roadmaps and drive production level projects that will support Amazon Science. You will work closely with Amazon scientists and other science interns to develop solutions and deploy them into production. You will have the opportunity to design new algorithms, models, or other technical solutions whilst experiencing Amazon's customer focused culture. The ideal intern should have the ability to work with diverse groups of people and cross-functional teams to solve complex business problems. A day in the life You'll spend your first weeks scoping your project with your mentor, then own the research and implementation end-to-end. Projects may include developing and implementing real-time AI services, conducting comprehensive analysis of GenAI algorithms and methodologies or contributing to the creation of reliable, efficient code for production systems that serve millions of users — depending on the team you're matched with. Many interns publish at top-tier conferences or see their work deployed to production before the internship ends. Interns may also be considered for a return offer at the end of their internship, subject to performance evaluation and headcount availability. Further benefits of an Amazon Science internship include; - All of our internships offer a competitive salary - Interns are paired with an experienced manager and mentor(s) - Interns get invited to different intern program or office events - Interns can build their professional and personal network with other Amazon Scientists - Interns can potentially publish work at top tier conferences About the team You'll submit a single application and we'll match you with science teams best aligned with your research interests. Applications are reviewed on a rolling basis, and your application stays active until we find a team match or confirm there are no matches available. Start dates are available throughout the year for durations of between 3–6 months. Please note, each team has different start date and duration preferences — your recruiter will confirm the preferences of the team you're matched with prior to interviewing. We offer science internships in multiple locations across the EMEA region and you can indicate your interest in all these locations by applying here (Austria, Estonia, France, Germany, Ireland, Israel, Italy, Jordan, Luxembourg, Netherlands, Poland, Romania, South Africa, Spain, Sweden, UAE, and UK). Please note we do not offer remote internships.
+Applied Scientist, Fauna
+US, NY, New York
+We are seeking an Applied Scientist to lead the development of evaluation frameworks and data collection protocols for robotic capabilities. In this role, you will focus on designing how we measure, stress-test, and improve robot behavior across a wide range of real-world tasks. Your work will play a critical role in shaping how policies are validated and how high-quality datasets are generated to accelerate system performance. You will operate at the intersection of robotics, machine learning, and human-in-the-loop systems, building the infrastructure and methodologies that connect teleoperation, evaluation, and learning. This includes developing evaluation policies, defining task structures, and contributing to operator-facing interfaces that enable scalable and reliable data collection. The ideal candidate is highly experimental, systems-oriented, and comfortable working across software, robotics, and data pipelines, with a strong focus on turning ambiguous capability goals into measurable and actionable evaluation systems. Key job responsibilities - Design and implement evaluation frameworks to measure robot capabilities across structured tasks, edge cases, and real-world scenarios - Develop task definitions, success criteria, and benchmarking methodologies that enable consistent and reproducible evaluation of policies - Create and refine data collection protocols that generate high-quality, task-relevant datasets aligned with model development needs - Build and iterate on teleoperation workflows and operator interfaces to support efficient, reliable, and scalable data collection - Analyze evaluation results and collected data to identify performance gaps, failure modes, and opportunities for targeted data collection - Collaborate with engineering teams to integrate evaluation tooling, logging systems, and data pipelines into the broader robotics stack - Stay current with advances in robotics, evaluation methodologies, and human-in-the-loop learning to continuously improve internal approaches - Lead technical projects from conception through production deployment - Mentor junior scientists and engineers About the team Fauna Robotics, an Amazon company, is building capable, safe, and genuinely delightful robots for everyday life. Our goal is simple: make robots people actually want to live and interact with in everyday human spaces. We believe that future won’t arrive until building for robotics becomes far more accessible. Today, too much effort is spent reinventing the fundamentals. We’re changing that by developing tightly integrated hardware and software systems that make it faster, safer, and more intuitive to create real-world robotic products. Our work spans the full stack: mechanical design, control systems, dynamic modeling, and intelligent software. The focus is not just functionality, but experience. We’re building robots that feel responsive, expressive, and genuinely useful. At Fauna, you’ll work at the frontier of this space, helping define how robots move, manipulate, and interact with people in natural environments. It’s an opportunity to solve hard problems across hardware and software with a team focused on making robotics accessible and joyful to build. If you care about making robotics real for everyone and building systems that are as delightful as they are capable, we’re interested in hearing from you.
+Research Scientist III, Last Mile Science
+IN, KA, Bangalore
+Are you passionate about solving complex logistics challenges? Our Analytics team is at the forefront of enhancing delivery experiences through data-driven solutions and innovative technology. As a Research Scientist, you will join a team dedicated to optimizing our delivery network, ensuring reliable and efficient service to our customers. We are seeking an enthusiastic, customer-centric professional with strong analytical capabilities to drive impactful projects, implement advanced solutions, and develop scalable processes. In this role, you will have immediate ownership of business-critical challenges and the opportunity to make strategic, data-driven decisions that shape the future of our delivery operations. Your work will directly influence customer experience and operational excellence. The ideal candidate will possess both research science capabilities and program management skills, thriving in an environment that requires independent decision-making and comfort with ambiguity. This role offers the opportunity to make a significant impact on our advanced logistics network while working with pioneering technology and data science applications. Basic qualifications • 3+ years of building machine learning models for business application experience • Knowledge of programming languages such as C/C++, Python, Java or Perl • Experience programming in Java, C++, Python or related language • Experience with neural deep learning methods and machine learning Preferred qualifications: • PhD in engineering, technology, computer science, machine learning, robotics, operations research, statistics, mathematics or equivalent quantitative field • 5+ years of extensive relevant research experience • Deep expertise in Machine Learning • Proficiency in programming • Core competency in mathematics and statistics • Track record of successful projects in algorithm design and product development • Publications at peer-reviewed conferences or journals • Strategic thinker with good execution skills • Exhibits excellent business judgment • Effective verbal and written communication skills • Experience working with real-world data sets and building scalable models from big data • Experience with modern modeling tools and frameworks such as R, scikit-learn, Spark MLLib, MxNet, Tensorflow • Experience with large scale distributed systems
+Data Scientist, Fleet Planning , Global Fleet Products
+US, WA, Bellevue
+Amazon Global Fleet and Products (GFP) organization is responsible for fleet programs and capacity. The Fleet Planning team is looking for a Data Scientist to drive the most efficient use of fleet. Amazon Middle and Last Mile fleet planning is a complex resource allocation problem. The goal of fleet allocation planning is to optimize the size and mix of fleet allocated to various programs through. Changes in routes, network, exiting DSPs and new DSP onboarding create continuous need for re-allocation of fleet to maintain an efficient network capacity. This requires allocation to adhere to various operational limits (repair network, EV range, Station Charging capability) and also match route’s cube need to vehicles capacity. As a Data Scientist on the Fleet Planning team (GFP), you will be responsible for building new science models (linear programs, statistical and ML models) and enhancing existing models for changing business needs. You would work with program managers in planning, procurement, redeployment, deployment, remarketing, variable fleet and infrastructure programs to build models that would support the requirements of all programs in a coherent plan. Key job responsibilities • Build models and automation for planners for generating vehicle allocation plans • Partner with program teams to test and measure success of implemented model • Lead reviews with senior leadership, deep dive model outputs and explain implications of model recommendations.
+Applied Scientist, Minerva
+IN, KA, Bengaluru
+We are looking for Applied Scientists to advance how Minerva detects and responds to risk across KDP and Kindle Unlimited, building new models and raising the bar on the ones in production. You will own a problem end to end, from framing and modeling through evaluation and production launch, working with scientists and engineers in Bengaluru and the US. Key job responsibilities - Monitor production risk models and push their quality higher: track performance and drift, improve how performance is measured, and lead the deep-dive science that turns model behavior into better detection. - Design, train, and evaluate improved detection models, and take them to production with engineering partners. - Build datasets, labels, evaluation sets, and metrics, and strengthen them as abuse patterns change. - Write clear readouts with recommendations for scientists, engineers, and policy partners. About the team Kindle Direct Publishing (KDP) has empowered a new wave of self-motivated creators, tearing down barriers that once blocked writers from reaching readers. Minerva is the science and analytics organization for Amazon's Books business. We build systems for content understanding, author marketing and discovery, fraud and abuse prevention, and content risk, and we optimize manufacturing, fulfillment, and quality for Print On Demand (POD). We have mature areas and green-field opportunities, with engineering, business intelligence, and data engineering support across our areas. We are now building science teams in Bengaluru that work closely with our scientists in the US. Risk Science, a team within Minerva, keeps fraud, abuse, copyright infringement, and harmful content out of the Books catalog and programs such as Kindle Unlimited, using text, image, and behavioral data.
+Senior Robotics/AI Motor Control Scientist, Fauna
+US, NY, New York
+We are seeking a Robotics/AI Motor Control Scientist to develop cutting-edge machine learning algorithms for motor control systems in robots. In this role, you will focus on creating and optimizing intelligent motor control strategies to enable robots to perform complex, whole-body tasks. Your contributions will be essential in advancing robotics by enabling fluid, reliable, and safe interactions between robots and their environments. Key job responsibilities - Develop controllers that leverage reinforcement learning, imitation learning, or other advanced AI techniques to achieve natural, robust, and adaptive motor behaviors - Collaborate with multi-disciplinary teams to integrate motor control systems with robotic hardware, ensuring alignment with real-world constraints such as actuator dynamics and energy efficiency - Use simulation and real-world testing to refine and validate control algorithms - Stay updated on advancements in robotics, AI, and control systems to apply advanced techniques to robotic motion challenges - Lead technical projects from conception through production deployment - Mentor junior scientists and engineers - Bridge research initiatives with practical engineering implementation About the team Fauna Robotics, an Amazon company, is building capable, safe, and genuinely delightful robots for everyday life. Our goal is simple: make robots people actually want to live and interact with in everyday human spaces. We believe that future won’t arrive until building for robotics becomes far more accessible. Today, too much effort is spent reinventing the fundamentals. We’re changing that by developing tightly integrated hardware and software systems that make it faster, safer, and more intuitive to create real-world robotic products. Our work spans the full stack: mechanical design, control systems, dynamic modeling, and intelligent software. The focus is not just functionality, but experience. We’re building robots that feel responsive, expressive, and genuinely useful. At Fauna, you’ll work at the frontier of this space, helping define how robots move, manipulate, and interact with people in natural environments. It’s an opportunity to solve hard problems across hardware and software with a team focused on making robotics accessible and joyful to build. If you care about making robotics real for everyone and building systems that are as delightful as they are capable, we’re interested in hearing from you. an opportunity to solve hard problems across hardware and software with a team focused on making robotics accessible and joyful to build. If you care about making robotics real for everyone and building systems that are as delightful as they are capable, we’re interested in hearing from you.
+Applied & Research Scientist - Safe Autonomy Frontiers (SAF) Lab, Safe Autonomy Frontiers (SAF) Lab
+US, CA, Pasadena
+We are seeking Applied and Research Scientists to join the Safe Autonomy Frontiers (SAF) Lab. In this role, you will develop and deploy the science of safe autonomy on highly dynamic robots, advancing the frontier through both foundational research and realization on hardware. You will contribute to achieving safe autonomy across three key areas: control barrier function (CBF) theory for robust and performant safety on hardware; safe reinforcement learning for agile whole-body control; and layered safety filters that interface with learning, perception, and semantic reasoning systems. You will validate your work experimentally on state-of-the-art robotic platforms — removing bottlenecks to deployment and enabling robots to safely operate around humans. You will work with the inventor of CBFs, as well as top scientists and engineers at Amazon developing the next generation of safe autonomy. Key job responsibilities -Advance the science of safe autonomy from formal foundations to the integration with learning and perception to validation on hardware — with particular emphasis on methods that bridge these domains. -Test and validate hardware, with a focus on next generation robotic systems. Including locomotion, manipulation and loco-manipulation. -Leverage the deployments on hardware to validate the underlying science, identifying gaps between theory and practice that drive the next cycle of research. hardware to validate the underlying science, identifying gaps between theory and practice that drive the next cycle of research. -Publish research at top-tier robotics, control, and ML venues, and contribute to Amazon’s scientific reputation in advanced robotics. -Collaborate with SAF Lab and Amazon production teams to move research into robots deployed at Amazon scale. A day in the life Amazon offers a full range of benefits that support you and eligible family members, including domestic partners and their children. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include: -Medical, Dental, and Vision Coverage -Maternity and Parental Leave Options -Paid Time Off (PTO) -401(k) Plan If you are not sure that every qualification on the list above describes you exactly, we’d still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you’re passionate about this role and want to make an impact on a global scale, please apply! About the team The Safe Autonomy Frontiers (SAF) Lab is the first industry research lab dedicated to safe autonomy, founded by the inventor of control barrier functions. We are developing a universal safety layer for the next generation of robotic systems: mobile robots, manipulators, quadrupeds, and humanoids. Here you will advance performant safety for highly dynamic robots — CBF theory integrated with perception and learning, evaluated on next-generation platforms — and your work will underpin robots operating alongside people at Amazon’s unprecedented scale.
+2027 Applied Scientist Internship – PhD, Amazon University Talent Acquisition
+RO, Bucharest
+We're building systems that turn research into real-world impact — developing AI-driven detection systems that identify and remediate security access violations across Amazon's global operations, and building ML solutions that leverage product images, text, and tabular data to improve safety and compliance mechanisms across Amazon's entire product catalog. If this sounds interesting to you then we have a range of opportunities for you to explore. We're looking for PhD students across multiple research domains to invent, design, and implement state-of-the-art solutions for never-before-solved problems. Your work here won't just stay in a notebook — it ships to production and reaches customers worldwide. Check out the details below including the job responsibilities, team details, and basic qualifications before submitting your application. You can find more information about the Amazon Science community as well as interview preparation tips via the links below; - https://www.amazon.science/ - https://amazon.jobs/content/en/career-programs/university/science - https://amazon.jobs/content/en/how-we-hire/university-roles/applied-science Key job responsibilities As an Applied Science Intern, you will own the design and development of end-to-end systems. You'll have the opportunity to write technical white papers, create roadmaps and drive production level projects that will support Amazon Science. You will work closely with Amazon scientists and other science interns to develop solutions and deploy them into production. You will have the opportunity to design new algorithms, models, or other technical solutions whilst experiencing Amazon's customer focused culture. The ideal intern should have the ability to work with diverse groups of people and cross-functional teams to solve complex business problems. A day in the life You'll spend your first weeks scoping your project with your mentor, then own the research and implementation end-to-end. Your work could involve building graph-based ML models and knowledge graphs that detect and remediate access violations at global scale, developing behavioral pattern clustering and automated reasoning systems for security operations, or researching multimodal and computer vision approaches on product catalog data to improve safety and compliance mechanisms — depending on the team you're matched with. Many interns publish at top-tier conferences or see their work deployed to production before the internship ends. Interns may also be considered for a return offer at the end of their internship, subject to performance evaluation and headcount availability. Further benefits of an Amazon Science internship include; - All of our internships offer a competitive salary - Interns are paired with an experienced manager and mentor(s) - Interns get invited to different intern program or office events - Interns can build their professional and personal network with other Amazon Scientists - Interns can potentially publish work at top tier conferences About the team We generally hire interns for multiple teams in Romania, including but not limited to; • CoSS — Research and develop ML solutions that improve safety and compliance across Amazon's entire product catalog working with tabular, textual, and product image data using deep learning, computer vision, LLMs, and multimodal models • Monitored Access Detection — Build AI-driven detection and remediation systems that identify global access violations across Amazon — leveraging knowledge graphs, graph modeling, behavioral pattern clustering, generative AI, and reinforcement learning to create a self-improving, closed-loop security system. You'll submit a single application and we'll match you with science teams best aligned with your research interests. Applications are reviewed on a rolling basis, and your application stays active until we find a team match or confirm there are no matches available. Start dates are available throughout the year for durations of between 3–6 months. Please note, each team has different start date and duration preferences — your recruiter will confirm the preferences of the team you're matched with prior to interviewing. We offer science internships in multiple locations across the EMEA region and you can indicate your interest in all these locations by applying here (Austria, Estonia, France, Germany, Ireland, Israel, Italy, Jordan, Luxembourg, Netherlands, Poland, Romania, South Africa, Spain, Sweden, UAE, and UK). Please note we do not offer remote internships.
+2027 Applied Scientist Internship – Masters, Amazon University Talent Acquisition
+IL, Tel Aviv
+We're building systems that turn research into real-world impact — powering sports experiences for millions of Prime Video customers, pioneering multimodal document intelligence, building autonomous AI agents that reason, plan, and act, and transforming how customers discover products they love. If this sounds interesting to you then we have a range of opportunities for you to explore. We're looking for Masters students across multiple research domains to invent, design, and implement state-of-the-art solutions for never-before-solved problems. Your work here won't just stay in a notebook — it ships to production and reaches customers worldwide. Check out the details below including the job responsibilities, team details, and basic qualifications before submitting your application. You can find more information about the Amazon Science community as well as interview preparation tips via the links below; - https://www.amazon.science/ - https://amazon.jobs/content/en/career-programs/university/science - https://amazon.jobs/content/en/how-we-hire/university-roles/applied-science Key job responsibilities As an Applied Science Intern, you will own the design and development of end-to-end systems. You'll have the opportunity to write technical white papers, create roadmaps and drive production level projects that will support Amazon Science. You will work closely with Amazon scientists and other science interns to develop solutions and deploy them into production. You will have the opportunity to design new algorithms, models, or other technical solutions whilst experiencing Amazon's customer focused culture. The ideal intern should have the ability to work with diverse groups of people and cross-functional teams to solve complex business problems. A day in the life You'll spend your first weeks scoping your project with your mentor, then own the research and implementation end-to-end. Your work could involve building computer vision models that power live sports experiences for Prime Video, developing multimodal GenAI solutions for AWS document intelligence, creating agentic AI systems that reason and act autonomously, or advancing recommendation models that transform how customers discover content — depending on the team you're matched with. Many interns publish at top-tier conferences or see their work deployed to production before the internship ends. Interns may also be considered for a return offer at the end of their internship, subject to performance evaluation and headcount availability. Further benefits of an Amazon Science internship include; - All of our internships offer a competitive salary - Interns are paired with an experienced manager and mentor(s) - Interns get invited to different intern program or office events - Interns can build their professional and personal network with other Amazon Scientists About the team We're hiring interns for multiple teams in Israel, including but not limited to; • Prime Video Sports — Build innovative sports experiences for Prime Video, spanning computer vision, 3D simulation, and personalized content recommendations. • Personalization — Leverage LLMs, NLP, and recommender systems to match customers with products that align with their passions and shopping preferences. • Agentic AI — Build next-generation agentic AI systems that automate real-world knowledge work, spanning retrieval-augmented generation, multi-agent workflows, long-term memory and personalization, knowledge-graph construction, and agent evaluation. • DS3 Textract — Develop multimodal generative AI algorithms that pioneer state-of-the-art document understanding solutions impacting millions of customers. You'll submit a single application and we'll match you with science teams best aligned with your research interests. Applications are reviewed on a rolling basis, and your application stays active until we find a team match or confirm there are no matches available. Start dates are available throughout the year. Some teams offer full-time internships (3–6 months) while others offer part-time positions (50–60%, 8–12 months) — your recruiter will confirm the format during team matching. We offer science internships in multiple locations across the EMEA region and you can indicate your interest in all these locations by applying here (Austria, Estonia, France, Germany, Ireland, Israel, Italy, Jordan, Luxembourg, Netherlands, Poland, Romania, South Africa, Spain, Sweden, UAE, and UK). Please note we do not offer remote internships.
+See more jobs
+About
+Research areas
+Blog
+Publications
+Conferences
+Code and datasets
+Academia
+Amazon News
+Amazon Developer
+Amazon Web Services
+Awards and recognitions
+Newsletter
+Careers
+FAQs
+Get more from Amazon Science
+Subscribe to our newsletter
+Amazon.com | Conditions of Use | Privacy | © 1996-2026 Amazon.com, Inc. or its affiliates
+Social
+bluesky
+threads
+twitter
+instagram
+youtube
+facebook
+linkedin
+github
+rss

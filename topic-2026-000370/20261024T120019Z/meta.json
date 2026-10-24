@@ -1,0 +1,77 @@
+{
+  "id": "topic-2026-000370",
+  "url": "https://www.npr.org/2026/10/23/nx-s1-6012235/fired-openai-researchers-say-independent-safety-audits-arent-going-well",
+  "capturedAt": "2026-10-24T12:00:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "The operation was aborted due to timeout"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FD967A81C57BF0D500639974A143267E",
+      "status": 200,
+      "url": "https://www.npr.org/2026/10/23/nx-s1-6012235/fired-openai-researchers-say-independent-safety-audits-arent-going-well",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8133,
+      "afterScrollHeight": 9528,
+      "wantedHeight": 8133
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "32ee435d5fb54700a480dc5e14b2917f9edc43fecd01bae230e91c81f6e84ea4",
+    "width": 1366,
+    "height": 8133,
+    "bytes": 987034,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 8133,
+    "afterScrollHeight": 9528
+  },
+  "record": {
+    "capturedAt": "2026-10-24T12:00:19Z",
+    "url": "https://www.npr.org/2026/10/23/nx-s1-6012235/fired-openai-researchers-say-independent-safety-audits-arent-going-well",
+    "raw": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "title": "Fired OpenAI researchers say independent safety audits aren't going well : NPR",
+    "finalUrl": "https://www.npr.org/2026/10/23/nx-s1-6012235/fired-openai-researchers-say-independent-safety-audits-arent-going-well",
+    "httpStatus": 200,
+    "rendered": {
+      "textChars": 9636,
+      "textSha256": "9e7e32ef9c58b53df2bd5d5a3bba41781ffa039fad08de410eaa37270eea7489",
+      "htmlSha256": "c945c2ce9f412775115e969ad4e06e3e4cd30030a72781df3ddd932d55e97ae0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "32ee435d5fb54700a480dc5e14b2917f9edc43fecd01bae230e91c81f6e84ea4",
+      "width": 1366,
+      "height": 8133,
+      "bytes": 987034,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261024120229/https://www.npr.org/2026/10/23/nx-s1-6012235/fired-openai-researchers-say-independent-safety-audits-arent-going-well",
+      "timestamp": "20261024120229",
+      "verifiedHttp": 200
+    }
+  }
+}
