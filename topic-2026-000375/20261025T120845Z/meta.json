@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000375",
+  "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+  "capturedAt": "2026-10-25T12:08:45Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 94838,
+    "sha256": "113f239a2e18e8c56f860d606bf36cbd848356ad0605537b1477538852cd537d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9EE245404052CBDB4295641F72995EC8",
+      "status": 200,
+      "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4883,
+      "afterScrollHeight": 4883,
+      "wantedHeight": 4883
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "14518b391ec6419afa51536f8abbde15dfb9e72f2ed631bdf8afe2b6abd20d0b",
+    "width": 1366,
+    "height": 4883,
+    "bytes": 863607,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4883,
+    "afterScrollHeight": 4883
+  },
+  "record": {
+    "capturedAt": "2026-10-25T12:08:45Z",
+    "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 94838,
+      "sha256": "113f239a2e18e8c56f860d606bf36cbd848356ad0605537b1477538852cd537d"
+    },
+    "finalUrl": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+    "httpStatus": 200,
+    "title": "Office of Public Affairs | Saudi National Arrested for Installing Surreptitious Audio Recording Device at OpenAI | United States Department of Justice",
+    "rendered": {
+      "textChars": 7851,
+      "textSha256": "771a2ff6da4f8ba4a871f98bf7f0077e1b68f31d85ed54a537634a1ba8c129a4",
+      "htmlSha256": "cb8b81bd3a9c9db947238b80b4d6bc824c86ed920f2859935be8e5035615c1b3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "14518b391ec6419afa51536f8abbde15dfb9e72f2ed631bdf8afe2b6abd20d0b",
+      "width": 1366,
+      "height": 4883,
+      "bytes": 863607,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261013212825",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261013212825/https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261025083226/https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+      "timestamp": "20261025083226",
+      "verifiedHttp": 200
+    }
+  }
+}

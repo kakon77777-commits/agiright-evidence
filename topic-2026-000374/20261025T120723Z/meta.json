@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000374",
+  "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+  "capturedAt": "2026-10-25T12:07:23Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 40300,
+    "sha256": "03c22f760a3da8749d98ddd40dbb79d50464e5be7e10c1433da16f589e656158",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7733AE71D6A95CD16C7F85AB55E85D8B",
+      "status": 200,
+      "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 18619,
+      "afterScrollHeight": 18619,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "05a3ec6e80d1b3bc32084bf8e47aa804c5b7004c046950b063a2d186426d8493",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1864846,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 18619,
+    "afterScrollHeight": 18619
+  },
+  "record": {
+    "capturedAt": "2026-10-25T12:07:23Z",
+    "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 40300,
+      "sha256": "03c22f760a3da8749d98ddd40dbb79d50464e5be7e10c1433da16f589e656158"
+    },
+    "finalUrl": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+    "httpStatus": 200,
+    "title": "Today's PHP Security Release, and How We're Strengthening PHP Security — The PHP Foundation — Supporting, Advancing, and Developing the PHP Language",
+    "rendered": {
+      "textChars": 37299,
+      "textSha256": "6663329f812032b3ae823943e446a62e32fc3e782137052fce2e8715bf7a5ab4",
+      "htmlSha256": "937043d7a0b3934d542dfa4502455714a47bbf3ed144da839ba899e985971742"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "05a3ec6e80d1b3bc32084bf8e47aa804c5b7004c046950b063a2d186426d8493",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1864846,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261021154758",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261021154758/https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261025120827/https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
+      "timestamp": "20261025120827",
+      "verifiedHttp": 200
+    }
+  }
+}

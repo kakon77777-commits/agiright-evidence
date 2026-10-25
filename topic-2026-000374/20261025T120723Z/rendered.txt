@@ -1,0 +1,912 @@
+The PHP Foundation
+Who we are
+What we do
+News
+Talks
+Contact
+php.net
+Sponsor
+Today's PHP Security Release, and How We're Strengthening PHP Security
+Published on
+Oct 21, 2026
+The PHP Foundation
+News
+Security
+
+Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix two critical vulnerabilities that, under the right conditions, allow an unauthenticated attacker to execute code on servers running PHP. If you run PHP, it is imperative that you update now. The announcement on php.net contains and references technical details on the vulnerabilities, attack vectors, and instructions on how to update on which systems.
+
+This post isn't about how to update. It's about how these vulnerabilities were found and fixed, what has changed in how PHP security is handled over the past two years, and what we need from the organizations that depend on PHP to keep PHP's security work going.
+
+Two related critical remote code execution vulnerabilities
+CVE-2026-109618 / GHSA-w8hw-w9fx-j79w: RCE via OOM corruption (out-of-memory): If a request reached PHP's memory_limit at exactly the wrong moment, PHP could leave partially initialized internal data behind and later treat it as valid, corrupting memory. On Apache with mod_php, an unauthenticated request can trigger this before any application code runs, and full remote code execution was demonstrated with default settings. Remote code execution was also confirmed on PHP-FPM through application-level code paths.
+CVE-2026-109619 / GHSA-6wmf-4rv5-p3rp: RCE via stale global state: A fatal error at the wrong point could leave internal state pointing to memory that belonged to a previous request. A later request handled by the same worker could then use that freed memory. A use-after-free and worker crash were confirmed, and the reporter demonstrated remote code execution against a real-world application running on Apache with mod_php.
+
+Both issues sit in parts of PHP that nearly every request touches: memory management and error handling. Their central place in PHP is what made both vulnerabilities serious, and also so hard to fix without breaking compatibility, hurting performance, or forcing changes on the large ecosystem of third-party extensions.
+
+A first external audit and increased security focus
+
+In 2024, PHP underwent its first external security audit in years. The PHP Foundation secured funding from the Sovereign Tech Agency to organize this audit through OSTIF, and it was carried out by Quarkslab. While fixing one of the issues Quarkslab reported, a PHP core developer contracted by the PHP Foundation found the first signs of the OOM problem behind CVE-2026-109618. In 2024, a potential exploit for the OOM problem was theorized, but no concrete vectors were found and other concrete issues with clear impact overshadowed these concerns.
+
+To fix the OOM problem, the PHP security team developed several competing approaches, but each came with its own trade-offs: backward compatibility breaks, new denial-of-service potential, or requiring changes to many third-party extensions which seemed impossible to coordinate. The PHP security team, operating on consensus, struggled to choose between these and feared the repercussions of shipping the wrong choice. Combined with the lack of a known path to remote code execution and the small team of core developers with the necessary deep knowledge of the engine occupied with many responsibilities, this decision process caused work on a fix to stall and restart repeatedly over months. We won't pretend otherwise: the delay was a structural failure, caused by both the security team's decision process and its lack of resources. The security team has since started changing its processes, and that work continues, so that decisions can be made by majority and compromises are encouraged.
+
+Building a sustainable professional security organization
+
+Over the last months the way PHP security work is organized has changed considerably. In May 2026, the PHP Foundation created the Ecosystem Security Team, which works alongside the PHP security team on triage, coordination, and hardening. Volker Dusch's work as AI Security Engineer in Residence at the PHP Foundation has significantly improved communication and collaboration between the PHP security team and the Foundation. Alexandre Daubois joined the PHP Foundation in July to help the PHP security team triage, handle, and fix security reports and Daniel Scherzer joined in September to take on hardening work.
+
+Earlier this year, we worked with Alpha-Omega to scan PHP with Anthropic's Claude Mythos. But since the Mythos scan, we have added other tools, including OpenAI's Daybreak Red for validating reports and exploits, alongside sanitizer builds and reproduction environments that match our CI on every platform PHP supports.
+
+The PHP Foundation got the PHP project into the Patch the Planet program, as part of which security firm Calif began an audit of PHP on July 30th, 2026. On August 11th, researcher Ryan A at Calif reported an unconditional remote code execution with the same root cause as the OOM problem we had found in 2024. OpenAI independently reported the same root cause, followed by further attack vectors from OpenAI on September 18th and from Wiz on August 24th. More recently, Trail of Bits has also been auditing PHP. The reports from Calif, OpenAI, and Wiz made the full impact of the OOM problem clear, and from August 11th onward, fixing it became the top priority for all of the PHP Foundation's team working on security. Without the Foundation’s funding it would have been impossible to have multiple people work on this issue full time, eventually through weekends and around the clock to coordinate and communicate with other involved parties.
+
+The growth of AI-assisted research also means the PHP security team receives far more reports than before. As Alexandre Daubois described last week in How the PHP Security Team Handles Your Reports, the team has published 15 CVEs since July 1st and worked through more than 100 reports that turned out to be invalid, duplicates, or not reproducible. AI helps the team validate reports and group reports sharing the same root cause, but a person makes every call and works on every patch.
+
+Leak and disrupted disclosure
+
+The coordinated disclosure of these vulnerabilities worked well until 2 days ahead of the targeted release date.
+
+On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC. It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC. Distributors were still packaging the fix, so releasing immediately would have left many users without an easy way to update. Moving the release forward by one day was the best compromise between acting quickly, giving people time to prepare, and making sure everyone had a simple update path when the vulnerabilities were disclosed.
+
+As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues, mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st.
+
+Mitigation advice we started providing to a few critical infrastructure providers around Oct 20th 23:00 UTC, may have leaked as well. The PHP security team closely monitored and inspected appearing PoCs after the leak but did not identify any functional exploits at the time of release/public disclosure.
+
+On October 21st at 07:41 UTC, more than six hours before the coordinated release, Chainguard unilaterally broke the embargo and published built images containing the fix. Like other distributors, Chainguard had received the patch in advance so its users could update the moment the vulnerabilities were disclosed. Any attacker could now study the fix in binary form while every other PHP user was still waiting for the release. This disregarded weeks of work by many parties toward a coordinated disclosure.
+
+A cautiously optimistic outlook
+
+Today's release shows the progress we’re making in how PHP security is handled. Once the full impact of the OOM problem was understood in August, the security team, the foundation, and the release managers delivered a fix for this deeply rooted problem across all supported branches, and distributions and LTS vendors received the patch ahead of time so their users can update quickly.
+
+We are confident that a serious vulnerability with a fix stuck on hard trade-offs would now reach the PHP Foundation leadership much sooner, as we’re changing processes so leadership can help steer the situation to a timely resolution. We are now prioritizing measures to make sure vulnerabilities that need similarly complex fixes get resolved faster when they are reported in the future. The PHP Foundation and the PHP security team learned a lot in the last weeks and will work to turn their experiences into lasting repeatable processes.
+
+What we need from you
+
+PHP runs a large share of the web, including government services, online stores, banks, media sites, and much of the software that businesses rely on every day. Yet security work on PHP itself still depends on a small group of foundation-funded developers and a little volunteer help.
+
+Tools now find bugs faster than ever, for defenders and attackers alike, and the number of reports will keep growing. What tools cannot do is decide on the right fix for a long-standing design decision in the engine, weigh the compatibility trade-offs, and review the patch. Making those decisions takes experienced engineers who know the entire PHP codebase, and today there are too few of them.
+
+A core part of the PHP Foundation's mission is to grow the number of engineers with deep knowledge of the PHP codebase and give the security team the resources it needs. We can only achieve this goal with funding from those who depend on PHP:
+
+Companies that build products and services on PHP: please sponsor the PHP Foundation at a level that reflects how much you rely on it.
+Hosting providers, cloud platforms, and distributions that deliver PHP to millions of users.
+Governments and public institutions whose services run on PHP. The German Sovereign Tech Agency's funding of the 2024 audit shows what public investment can achieve, and we need more of it, on a sustained basis.
+
+Sponsoring the PHP Foundation is the most direct way to ensure structural issues like the OOM vulnerability are addressed sustainably, before they turn into emergencies. Become a sponsor at thephp.foundation/sponsor, and if your organization would like to talk about a larger commitment, get in touch.
+
+Thank you
+
+Thank you to the PHP security team, volunteers and PHP Foundation contractors alike, the release managers, and the package maintainers at distributions and LTS vendors who made these releases possible. Thank you to Calif, especially Ryan A, Wiz, OpenAI Codex Security, especially Amy Burnett, OSTIF, and Quarkslab for their research and responsible disclosure; to Alpha-Omega, OpenAI, and Anthropic for giving the team access to their tools and funding some of the security work; to the Sovereign Tech Agency for funding the 2024 audit; and to all of our sponsors, whose support made this work possible.
+
+The PHP Foundation
+LinkedIn
+Mastodon
+X
+GitHub
+r/PHP
+Today's PHP Security Release, and How We're Strengthening PHP Security
+Posted by u/elizabethn
+4 days ago
+445 points
+88 comments
+[−]
+E3K
+153 points
+4 days ago
+
+On October 21st at 07:41 UTC, more than six hours before the coordinated release, Chainguard unilaterally broke the embargo and published built images containing the fix.
+
+Wow, fuck those guys.
+
+Permalink
+[−]
+Arbaal
+71 points
+4 days ago
+
+We took our website down this morning when the "PoC"s were released, only serving a static website. Our customers were not pleased. Then we got contacted by Chainguard affiliates using our public support form if we would like to schedule a meeting with them, so that they could sell us their security services.
+
+Reading that they broke the embargo now and thus endangered half the internet makes me mad. I will make sure our company will never work with them.
+
+Permalink
+[−]
+Ok_Evidence_9745
+19 points
+4 days ago
+
+Chainguard publishes at 07:41 UTC, first actual in the wild exploit at 08:36 UTC, 55 minutes later
+
+https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/
+
+See below
+
+Permalink
+[−]
+naderman
+4 points
+3 days ago
+
+From that article it sounds like just someone probing / attempting to send malicious requests to corrupt memory, but not having a working second stage / path to RCE at 8:36, so that wasn't a wild exploit best I can tell from that article. That only happened later after disclosure.
+
+Permalink
+[−]
+Ok_Evidence_9745
+1 points
+3 days ago
+
+Updated my comment, thanks
+
+Permalink
+[−]
+vanamerongen
+1 points
+3 days ago
+
+that's fucking crazy
+
+Permalink
+[−]
+cosmic-parsley
+46 points
+4 days ago
+
+This is a warning to everyone involved in OSS security to delete Chainguard emails from your coordination list. They're going to do it again if this went peachy.
+
+Eat a bag of dicks, what a way to be uncooperative.
+
+Permalink
+[−]
+xroni
+21 points
+4 days ago
+
+They should NOT get any more images in the future ahead of release.
+
+Permalink
+[−]
+Ok_Evidence_9745
+20 points
+4 days ago
+
+Context: https://news.ycombinator.com/item?id=50176735
+
+Permalink
+[−]
+BoredPudding
+27 points
+4 days ago
+
+but I made the call to get these out early when exploits hit in the wild.
+
+Meanwhile the PHP Foundation came to another conclusion
+
+The PHP security team closely monitored and inspected appearing PoCs after the leak but did not identify any functional exploits at the time of release/public disclosure.
+
+I also saw a lot of "PoCs", so I understand the fear, but releasing the patch early and thus risking 70% of the web just to make sure you get less risk is absolutely wild and irresponsible.
+
+Permalink
+[−]
+Ok_Evidence_9745
+20 points
+4 days ago
+
+https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/
+
+Looks like chainguard released their binaries 55 minutes before actual in the wild exploits happened. I'm gonna need some real convincing that chainguard isn't responsible for this.
+
+Permalink
+[−]
+Ok_Evidence_9745
+13 points
+4 days ago
+
+I sure would like to see some evidence from chainguard that they had seen active exploits in the wild. 
+
+Permalink
+[−]
+baroxie
+1 points
+2 days ago
+
+Good news is 23% of PHP sites were patched in the first 24 hours
+
+Permalink
+[−]
+E3K
+9 points
+4 days ago
+
+Oof, that makes it worse than I thought. Terrible decision on his part.
+
+Permalink
+[−]
+gerry_mandy
+1 points
+3 days ago
+
+Devil's advocate: Chainguard claims to have done this only AFTER “exploits [had already] hit in the wild”.
+
+Isn't that the same criteria the PHP Foundation itself was also using? (“We reserve the right to release earlier if…we see evidence of active exploitation in the wild.”)
+
+I won't defend why Chainguard didn't loop PHP Foundation in for an early coordinated release, but I think the situation is "less awful" than a first-reading makes it seem.
+
+Permalink
+[−]
+AltrntivInDoomWorld
+2 points
+3 days ago
+
+"less awful" than a first-reading makes it seem.
+
+I would say it's even worse. He was part of the chat, could have coordinated release earlier if he had an evidence of an actual exploit in the wild.
+
+But he did not. He just wanted to advertise his company.
+
+Permalink
+[−]
+vanamerongen
+1 points
+3 days ago
+
+There was no actual exploitation. There were only probes and and exploitation *attempts*.
+
+Permalink
+[−]
+mopollo
+-8 points
+4 days ago
+
+thanks php,
+
+Permalink
+[−]
+SwordfishBoth7341
+130 points
+4 days ago
+
+If every company profiting off PHP gave even an ounce of support, the team would have the funds to deal with these things in a timely manner. I feel bad for the team after reading this. They are mostly volunteers and now they have all these corporate fuckers baying for blood because of production outages for software they've never even considered funding.
+
+This should be a wake up call. We can't expect the infrastructure of the internet to survive in a post AI world without support. If you use it, and profit from it, fucking support it.
+
+Permalink
+[−]
+Hithaeglir
+23 points
+4 days ago
+
+This should be a wake up call.
+
+This was not the first time, and probably not the last time. The wake up call happens, unfortunately, when the patch is not coming anymore and companies suffer the damage. Doing nothing has worked well so far.
+
+Permalink
+[−]
+djmj1000
+5 points
+4 days ago
+
+There is no need to pay if someone fixes stuff for free. If they are volunteere they have no obligation to fix anything. Dont make things your responsibility you are not responsible for. I would go on holiday and let my phone ring all time and only come to office if the pain and price increased for something that is world wide used. Else why bother. 
+
+Responsibility comes when someone gives you a maintenance contract. But then the real cost of software would show up since so much is free and open source developed. 
+
+Last time a big bang asked for support on my updated fork of an archived library i needed to keep my system and company running. The moment i told them we can make a small contract for my work i did not hear again. Like they are a billion dollar company but think to get things for free. Hard to understand. 
+
+Permalink
+[−]
+LLKMuffin
+3 points
+3 days ago
+
+Exactly, the PHP Foundation members should've just turned off their devices and went on vacation once news of the CVEs broke.
+
+Not their problem LLMs that are powerful enough to find holes in any and every piece of software have now proliferated beyond control. Almost like they (or the rest of us) never asked for such a thing to exist, but nonetheless are forced to compete with, in an endless game of whack-a-mole that human-built software will likely be on the losing side of.
+
+Anyways, since it's all about AI now, I'm sure these frontier labs that have been leeching off of the PHP Foundation's unpaid work can let their slopbots make a fork of PHP that's perfectly secured (at least until a more capable model finds holes in that too), and use that instead from now on :)
+
+Permalink
+[−]
+djmj1000
+2 points
+3 days ago
+
+True words. Security and developers now are in a race to fix issues the ai finds for no immediate reason. The AI is actually helping hackers.
+
+We had more time to fix things when hacking needed many resources and a few specialists.
+
+How else could a 20 year old security problem now be found. Most things would never be found by humans. 
+
+Permalink
+[−]
+LLKMuffin
+2 points
+2 days ago
+
+Precisely. I would be fine with these frontier labs using their unlimited money and thousands of agents to find holes in FOSS... If they disclosed it privately to the maintainers of those repos so that a fix can be planned out and pushed in a timely manner.
+
+What they're doing instead (disclosing things publicly with zero warning) is extremely irresponsible, and only serves their own agendas (i.e. "prove" that their work is worth funding), at a time when they're running a massive deficit. How convenient.
+
+It's self-serving and rotten to the core, fuck em.
+
+Permalink
+[−]
+russellvt
+5 points
+4 days ago
+
+We didn't even learn from the old SSL fiasco. LOL
+
+Permalink
+[−]
+big_trike
+1 points
+3 days ago
+
+What are the corporations going to do? Switch to a paid platform? That idea will get nixed when they realize the cost. It would be far cheaper to donate a bit to fund PHP.
+
+Permalink
+[−]
+Hithaeglir
+1 points
+3 days ago
+
+But the disaster must happen first. Now they don’t have to pay anything.
+
+Permalink
+[−]
+derjanni
+2 points
+4 days ago
+
+100% agree. But considering how much of these "security firms" appeared recently makes me think about how much they "need" such incidents.
+
+Permalink
+[−]
+Hylaar
+2 points
+3 days ago
+
+I agree completely!
+
+My own attempts to get my employers over the years to contribute a little to the open source projects they used were always met with nice words and no action.
+
+Unfortunately, the greed of corporations is so great that they won’t even spend money when it is in the company’s best interest, but won’t reflect badly on a specific person when something bad happens due to money not being spent. See: wages.
+
+I honestly think that PHP should consider creating a 4-hour security response service plan and charge the hell out of it! That is something that many CSOs and CTOs would pay for because it counts as CYA. (See what I did there with my TLAs?)
+
+Permalink
+[−]
+na_me_ku_ji
+1 points
+3 days ago
+
+ハックのコストがめちゃくちゃ下がったから特にね
+今まで考慮してこなかったリスクももれなく考慮しないといけない
+
+Permalink
+[−]
+light_oxygen
+1 points
+3 days ago
+
+And they're allegedly spending trillions on useless AI. Whilst the very useful things is staring at them.
+
+Maybe China should start funding these things.
+
+Permalink
+[−]
+GeneralSEOD
+-12 points
+4 days ago
+
+I've been feeling this with a lot of things.
+
+YouTube entirely was/is a business that basically gives you unlimited free video, and people still complain that they gets ads. People then complain the people making the content do ads. And all of those ads are still far less than what we dealt with on cable TV.
+
+We as a species just complain 24/7 about everything.
+
+Permalink
+[−]
+deedoedee
+5 points
+4 days ago
+
+This isn't the place to shill for Google my guy. I promise you they're not having trouble paying their employees.
+
+Permalink
+[−]
+GeneralSEOD
+-2 points
+4 days ago
+
+Shilling for google? This problem exists everywhere. I used YouTube as an example because we all know it.
+
+Permalink
+[−]
+SteroidAccount
+2 points
+4 days ago
+
+And all of those ads are still far less than what we dealt with on cable TV.
+
+You must have not have used youtube in a while. One video has a 1.5 hour ad and most videos, in addition to ads, have "sponsored" ads built in.
+
+Permalink
+[−]
+GeneralSEOD
+1 points
+4 days ago
+
+I use it every day.
+
+Permalink
+[−]
+DrinkMoreGlorp
+1 points
+3 days ago
+
+Of course we complain. If we didn't complain we'd still be hunter-gathering in the plains. "Ugh, not this again" is the mother of invention.
+
+Permalink
+[−]
+archon810
+28 points
+4 days ago
+
+A very well-articulated post. Thank you, PHP Foundation and the PHP security team!
+
+Permalink
+[−]
+cosmic-parsley
+6 points
+4 days ago
+
+u/elizabethn maybe crosspost to r/programming to keep discussion in one place?
+
+Permalink
+[−]
+elizabethn
+2 points
+4 days ago
+
+good idea - will do!
+
+Permalink
+[−]
+DangKilla
+3 points
+4 days ago
+
+This ruined my whole day lol
+
+Permalink
+[−]
+backporch_wizard
+2 points
+3 days ago
+
+Took today through Friday off. Spent the day outside and am now just reading about it here.
+
+Permalink
+[−]
+Neuro_Skeptic
+28 points
+4 days ago
+
+TLDR: The OOM issue has been known since 2024 and they sat on it. "We won't pretend otherwise: the delay was a structural failure, caused by both the security team's decision process and its lack of resources"
+
+Permalink
+[−]
+MorrisonLevi
+159 points
+4 days ago
+
+I think you need to quote the context leading up to that, or else it sounds like they just ignored it:
+
+While fixing one of the issues Quarkslab reported, a PHP core developer contracted by the PHP Foundation found the first signs of the OOM problem behind CVE-2026-109618. In 2024, a potential exploit for the OOM problem was theorized, but no concrete vectors were found and other concrete issues with clear impact overshadowed these concerns.
+
+To fix the OOM problem, the PHP security team developed several competing approaches, but each came with its own trade-offs: backward compatibility breaks, new denial-of-service potential, or requiring changes to many third-party extensions which seemed impossible to coordinate. The PHP security team, operating on consensus, struggled to choose between these and feared the repercussions of shipping the wrong choice. Combined with the lack of a known path to remote code execution and the small team of core developers with the necessary deep knowledge of the engine occupied with many responsibilities, this decision process caused work on a fix to stall and restart repeatedly over months.
+
+Meaning, there was no known attack vector at the time, and there were other high priority items with clearer impact to address.
+
+Yes, it's a failing and something needs to improve. Funding more people will help. I just wanted to provide the additional context because your tldr was, in my opinion, oversimplified.
+
+Permalink
+[−]
+divinecomedian3
+-41 points
+4 days ago
+
+The PHP security team, operating on consensus, struggled to choose between these and feared the repercussions of shipping the wrong choice.
+
+i.e., they sat on it. Then it became a huge problem, and they were forced to make a decision.
+
+Permalink
+[−]
+Neuro_Skeptic
+-46 points
+4 days ago
+
+I may have oversimplified slightly, but it's clear from the statement that the process was inadequate. I don't think "sat on it" is inaccurate.
+
+Permalink
+[−]
+Aytewun
+37 points
+4 days ago
+
+If I read your initial message and didn't have additional context "Sat on it" would suggest that they knew about it, but didn't do anything which wasn't the case. I would maybe say "didn't find a viable solution".
+
+Permalink
+[−]
+gregor7777
+26 points
+4 days ago
+
+Nah bro you did them dirty
+
+Permalink
+[−]
+Tockdom
+56 points
+4 days ago
+
+The second interesting point is this one:
+
+"On August 11th researcher Ryan A at Calif reported an unconditional remote code execution with the same root cause as the OOM problem we had found in 2024. OpenAI independently reported the same root cause on the same day"
+
+There are so many news about OpenAI releasing stuff similar to researchers lately that it cant be a coincident anymore imo. Either researchers using AI do not enable private chats or OpenAI is scanning chats of "important" people like researchers or politicians.
+
+Permalink
+[−]
+krileon
+41 points
+4 days ago
+
+or OpenAI is scanning chats of "important" people like researchers or politicians.
+
+That's exactly what they're doing. Everyone is naive as hell to think their little "private chat" checkbox is doing a goddamned thing. Has no one learned anything from modern mega corporations? They get caught, pay a fine, and laugh about your misfortune. Stop using cloud models or lose all the data you feed into it.
+
+Permalink
+[−]
+Neradnap
+13 points
+4 days ago
+
+just like my survey is anonymous to HR 😹
+
+Permalink
+[−]
+afl_ext
+2 points
+4 days ago
+
+Local models are almost useless except if you have like 1 tb or vram
+Its very sad i wish it changed
+
+Permalink
+[−]
+krileon
+4 points
+4 days ago
+
+No they're not, lol. I've been using local for a long time now on my 7900XT. Qwen3.8 27B is ridiculously good at coding and tool calling. Obviously frontier models are better, but local is not far behind. It's even better if you've a bit more memory to be able to run Qwen3.8 Flash Next.
+
+Permalink
+[−]
+Nuitari8
+2 points
+4 days ago
+
+LOL, no.
+
+Last night when sansec.io leaked one of the attack vectors I downloaded the php-src and using claude code + ollama locally with qwen3.8 27b I've identified the section of vulnerable code and confirmed the info they leaked in their page's metadata. That was all on a single 5090
+
+Permalink
+[−]
+round-earth-theory
+3 points
+4 days ago
+
+A single 5090 is still a large investment. And NVidia isn't even planning to release anymore for the consumer market.
+
+Permalink
+[−]
+Nuitari8
+2 points
+4 days ago
+
+I really didn't notice the price going up 3x since I bought mine, crazy times.
+
+But you can use 2 5080s for the same amount of VRAM.
+
+Or multiple B580s (those are relatively cheap).
+
+Radeon also works.
+
+ollama will split the model across GPUs.
+
+Its really not that difficult to run a model locally.
+
+And that's on the strictest definition of local, lots of providers out there will run the model for you with no safety in the way.
+
+And if someone is a criminal, using a stolen credit card to get a cloud account isn't such a big leap.
+
+Permalink
+[−]
+Stunning-Brush4905
+2 points
+3 days ago
+
+Qwen3.8 27b works just as well on a RTX 3090. Not as pricey as 5090 and you can potentially find a better price if its second hand. You don't need a 5090 or any 5000 series
+
+Permalink
+[−]
+Infinite_Music2059
+6 points
+4 days ago
+
+They were working with OpenAI on this. Agents were doing the work in combination with the researchers' knowledge of this particular issue.
+
+https://calif.io/php2shell/
+
+Permalink
+[−]
+E3K
+8 points
+4 days ago
+
+Holy slop, Batman.
+
+Permalink
+[−]
+SpiritualName2684
+2 points
+4 days ago
+
+Literally no reason to think this. That company does pentensting for OpenAI.
+
+Permalink
+[−]
+s__n
+3 points
+3 days ago
+
+After reading the Datadog article I can see why the security team felt paralyzed. The root issue here is that PHP has been sloppy with memory allocation failures for decades. This patch to fix the issue is massive and adds complexity at hundreds? thousands? of call sites for allocation. Major parts of the allocation API has been reworked and has totally new semantics. Scrolling through the diffs you can see many sites where they had to add proper initialization and cleanup code they'd skipped before.
+
+There's been a culture of not handling failed memory allocation properly. Looking at the complexity of this patch I have to ask what got missed?
+
+Permalink
+[−]
+EGreg
+2 points
+3 days ago
+
+Many people are unable to patch PHP for reasons like: old versions, legacy environments, not able to recompile, etc.
+
+For them, there is a far easier solution. Share with friends who may not be sysadmins that can easily patch php:
+
+https://github.com/Qbix/proxy
+
+Permalink
+[−]
+cshaiku
+2 points
+3 days ago
+
+Uoon hearing the news, I wrote a Golang based upload daemon, effectively mitigating the need entirely for using PHP's built in upload feature.
+
+Mods, may I post the git repo link here? I welcome any and all contributions if it means someone can use it who may not have the ability to update their PHP system.
+
+Permalink
+[−]
+titpetric
+2 points
+4 days ago
+
+Supply chain risk should also consider the C runtime is an long-term unsolvable problem.
+
+C is not memory safe, however that can be relatively quickly solvable with a legitimized (zend/php foundation) rust or some other memory safe language port. A runtime replacement is a permanent solution to always-possible involuntary RCEs.
+
+To classify possible php RCEs into two categories:
+
+involuntary RCE: the php C runtime (zend engine)
+voluntary RCE: the php VM runtime (RCE as a service with eval, exec, passthru and whatnot)
+
+I wouldn't think a port would really solve the problem of not having engineers with familiarity with the php codebase, nurturing a strong core engineering team is a challenge a port wouldn't solve. While EOL is a nice thought, if you don't get to a forward compatible state, nobody upgrades.
+
+While I can emphatize with Ondrejs patches and the affected deployments, some people should review choices that lead to running after it's EOL.
+
+Permalink
+[−]
+big_trike
+2 points
+3 days ago
+
+The language itself would be a great start, but it relies on a lot of libraries written in C. It might be possible to spend enough AI money to convert those to rust, but it would be impossible to maintain long term without the support of those maintainers.
+
+Permalink
+[−]
+titpetric
+1 points
+3 days ago
+
+Any runtime would leverage its stdlib and package ecosystem, database clients have a lot of language native clients. Not fully sure what kind of memory accounting systems are available across various compilers
+
+Permalink
+[−]
+PenguinsStoleMyCat
+2 points
+3 days ago
+
+I think a Go or Rust port makes sense. We're already seeing this with a lot of projects. I get the feeling that we won't see this out of the PHP Foundation though.
+
+It's a similar deal with nginx, how many of the high severity vulnerabilities have been memory related? CVE-2026-97205 just a few days ago was another use after free vuln. Not saying Caddy is perfect, and I actually didn't switch for security reasons but from a management perspective it's a lot easier to bulk manage Caddy's json configs.
+
+Permalink
+[−]
+UnlistedByDefault
+1 points
+3 days ago
+
+One thing I'm curious about is how people verify that the fix is actually applied to the PHP runtime serving web requests. php -v only shows the CLI version, which may differ from PHP-FPM or the version assigned to a domain in a hosting control panel.
+
+For those using shared hosting or cPanel, are you relying on your provider to confirm the patch, or is there a reliable way to verify it yourself?
+
+Permalink
+[−]
+erythro
+3 points
+3 days ago
+
+create a temporary webpage that calls phpinfo(); to be sure
+
+Permalink
+[−]
+PsychologicalTea7878
+1 points
+3 days ago
+
+Does Automattic sponsor PHP, or does Mullinweg just go on rampages about companies not contributing to WordPress without paying it forward himself?
+
+Permalink
+[−]
+beberlei
+3 points
+3 days ago
+
+Automattic is the largest single sponsor of the PHP Foundation, yes.
+
+Permalink
+[−]
+TrvlMike
+2 points
+2 days ago
+
+Is it calculated by the revenue they made with PHP?
+
+Permalink
+[−]
+mkopinsky
+2 points
+3 days ago
+
+If only the PHP Foundation website listed their major corporate sponsors on the homepage...
+
+Permalink
+[−]
+mach3ad
+-1 points
+3 days ago
+
+F- this. Not using PHP fer anything ever. Migrate those piss a-s WP sites y’all
+
+Permalink
+[−]
+treasoro
+-23 points
+4 days ago
+
+How about you fix your damn software instead of blaming others?
+
+On October 21st at 07:41 UTC, more than six hours before the coordinated release, Chainguard unilaterally broke the embargo and published built images containing the fix. Like other distributors, Chainguard had received the patch in advance so its users could update the moment the vulnerabilities were disclosed. Any attacker could now study the fix in binary form while every other PHP user was still waiting for the release. This disregarded weeks of work by many parties toward a coordinated disclosure.
+
+What makes you believe that among the vendors you provided patch information before, there are no attackers? Where there are so many people involved among different organizations the information leak is like 99% certain. It does not mean it will leak to public, but it will leak to parties most interested in acquiring information such as pro APT groups
+
+There are numerous of cases of whitehat companies employees being charged with cooperating with blackhat operators. Your job is to deliver patch ASAP to everyone. Instead you allowed certain privileged actors such as intelligence agencies to keep exploiting the vulnerability
+
+Permalink
+[−]
+Viellet
+9 points
+4 days ago
+
+No, the PhP Foundation doesn't have the job to push patches ASAP. Your anger and entitlement are simply unjustified assumptions about the world.
+
+Permalink
+[−]
+thejoyofbeing1
+-40 points
+4 days ago
+
+This whole situation will leave a permanent mark within PHP already damaged reputation.
+
+Permalink
+[−]
+sam_dark
+25 points
+4 days ago
+
+I think PHP did it especially well overall.
+
+Permalink
+[−]
+BlueScreenJunky
+18 points
+4 days ago
+
+It might be used as an argument by people who already hate on PHP, but there's no reason for it to damage the reputation of the language, vulnerabilities are part of the life of any software, and they fixed it reasonably fast after an exploit was found and before it was actively used.
+
+Could they have done better by fixing the underlying issue sooner ? Sure. But considering their operaring budget it's hard to blame them, and much much bigger companies have had unmatched vulnerabilities without it affecting their long term reputation. 
+
+Permalink
+[−]
+big_trike
+3 points
+3 days ago
+
+What are the alternatives? Nodejs is far worse from a security and supply chain perspective. Java is slow and cumbersome and also has security issues. You could use C# but that either costs money or you’re stuck with similar issues from mono. Ruby isn’t well supported. Python isn’t immune from similar issues.
+
+Permalink
+[−]
+HappyMuscovy
+1 points
+3 days ago
+
+First day?
+
+This is not the first major php vuln and it won’t be the last. The issue is now as well as nation-state funded attackers, there are AI based analysis attacks, and the internet is, unsurprisingly, getting bigger, so attacks have more casualties
+
+Permalink
+[−]
+seeking-health
+-30 points
+4 days ago
+
+irresponsible to use php in 2026 when you have languages like rust
+
+Permalink
+[−]
+kexxty
+8 points
+4 days ago
+
+This has to be satire
+
+Permalink
+[−]
+E3K
+6 points
+4 days ago
+
+I know you're joking but there are people who actually think this.
+
+Permalink
+[−]
+UnexpectedAnanas
+2 points
+3 days ago
+
+🤣
+
+Permalink
+Rendered with redditify
+Previous
+How the PHP Security Team Handles Your Reports
+Edit this page on GitHub
+Sponsor
+Structure
+Board
+Developers
+News
+Talks
+Brand Guide
+Governance
+Code of Conduct
+Contact
+© The PHP Foundation

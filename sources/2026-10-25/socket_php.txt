@@ -1,0 +1,240 @@
+ PHP Foundation Says Chainguard Broke Security Embargo Ahead of Emergency Patches | Socket
+Dealing with a supply chain attack? Talk to our sales team now.
+Call (844) SOCKET-0 →
+Product
+Why Socket
+Company
+Blog
+Pricing
+Contact
+npm
+Get Started
+Socket for GitHub
+Socket Firewall
+Socket CLI
+Socket Certified Patches
+Socket Web Extension
+Socket SCA
+Socket Dependency Search
+Socket Reachability
+Security that keeps pace with AI development What is Socket?
+Integrations
+All Integrations
+Source Control
+Ticketing & Messaging
+Package Managers
+SIEM
+Languages
+Resources
+Docs
+Changelog
+Package Alerts
+FAQ
+Glossary
+Anthropic Reduced Sprawl, Improved Hygiene, and Faster Decision-Making AI / Research
+Vercel Protecting the frontend deployment supply chain Infrastructure
+MetaMask Blocking malicious packages in Web3 tooling Web3
+Drata Continuous compliance with open source controls Compliance
+Replit Securing millions of developer environments Dev Tools
+View all stories
+Competitors
+Socket vs Snyk
+Socket vs Dependabot
+Socket vs Semgrep
+Socket for OSS
+Socket for SCA
+Socket for Supply Chain Attack Prevention
+Commits Secured Every Month 11.6M+
+Code Repositories Protected 1.5M
+Latest News Socket is part of @OpenAI's new Trusted Access for Cyber program, joining Semgrep, Calif, and Trail of Bits in the initial cohort.
+News
+Security
+Company
+Engineering
+Application Security
+View All
+Company
+About
+Careers
+Socket Labs
+Investors
+Security
+Love
+Achievements
+SOC 2 Type 2
+Raised $125M
+Fortune Cyber 60
+Top Customers
+Company News
+Book a Demo Get Started
+Security that keeps pace with AI development
+What is Socket?
+Product
+Socket for GitHub
+Socket Firewall
+Socket CLI
+Socket Certified Patches
+Socket Web Extension
+Socket SCA
+Socket Dependency Search
+Socket Reachability
+All Integrations
+Source Control
+Ticketing & Messaging
+Package Managers
+SIEM
+Languages
+Docs
+Changelog
+Package Alerts
+FAQ
+Glossary
+Why Socket
+Anthropic
+Vercel
+MetaMask
+Drata
+Replit
+View all stories
+Socket vs Snyk
+Socket vs Dependabot
+Socket vs Semgrep
+Socket for OSS
+Socket for SCA
+Socket for Supply Chain Attack Prevention
+Company
+Security
+Company
+Engineering
+Application Security
+View All
+About
+Careers
+Socket Labs
+Investors
+Security
+Love
+SOC 2 Type 2
+Raised $125M
+Fortune Cyber 60
+Top Customers
+Blog Pricing Contact
+npm
+Try "react" or "express"
+to navigate
+·
+to select
+· More tips
+Back
+Security News
+PHP Foundation Says Chainguard Broke Security Embargo Ahead of Emergency Patches
+The PHP Foundation says Chainguard broke a security embargo ahead of critical RCE patches, as leaks disrupted the coordinated release.
+Sarah Gooding
+Oct 21, 2026 | 6 min read
+Table of Contents
+Chainguard released early citing exploits in the wild
+Chainguard allows early disclosure but commits to continued coordination
+The release had already been moved forward a day
+The underlying problem surfaced in 2024
+PHP is changing how security decisions get made
+The PHP Foundation says Chainguard broke a coordinated security embargo by releasing patched PHP container images hours ahead of schedule, making the fix available for attackers to study while other distributors were still preparing updates.
+In a postmortem published October 21 , the Foundation described a disclosure process disrupted by leaked CVE identifiers, an accidentally published exploit demonstration, and Chainguard’s decision to release early. It also acknowledged that work on the underlying memory management problem had stalled repeatedly after developers first noticed signs of it in 2024.
+The account follows PHP’s emergency patches for two critical remote code execution vulnerabilities , CVE-2026-109618 and CVE-2026-109619. Researchers demonstrated attacks that could execute code on web servers without logging in.
+Chainguard released early citing exploits in the wild #
+The PHP Foundation wrote :
+On October 21st at 07:41 UTC, more than six hours before the coordinated release, Chainguard unilaterally broke the embargo and published built images containing the fix. Like other distributors, Chainguard had received the patch in advance so its users could update the moment the vulnerabilities were disclosed. Any attacker could now study the fix in binary form while every other PHP user was still waiting for the release. This disregarded weeks of work by many parties toward a coordinated disclosure.
+Chainguard CEO Dan Lorenc described the decision in a Hacker News comment posted earlier that day.
+“I made the call to get these out early when exploits hit in the wild,” Lorenc wrote. He praised the maintainers’ work, said Chainguard had extensively tested the patch, and said the images were free and would remain so.
+In a subsequent LinkedIn post , Lorenc defended his decision and apologized for the additional stress on PHP’s maintainers.
+Lorenc said Chainguard independently discovered the vulnerability after receiving an initial warning on Friday, using its testing harness and a frontier AI model, and later helped test the fixes. By Tuesday night, he said, several other security vendors involved in the disclosure had reported exploits in the wild.
+“After talking to several of the other researchers on a video call, I made the call to ship the fixes and immediately notified the group,” Lorenc wrote.
+He cited those exploitation reports, the ease of independently discovering and exploiting the vulnerability, and information already circulating publicly as reasons for releasing early. He said the patched artifacts were publicly accessible to everyone, including organizations that were not Chainguard customers.
+The Foundation offered a narrower assessment of the exploit code circulating before disclosure. Its security team inspected public proof-of-concept exploits after the leak but had not identified any functional ones by release time.
+Lorenc did not name the vendors or publish supporting evidence of exploitation in his post. The Foundation’s assessment of the public PoCs it examined does not rule out exploitation elsewhere.
+Cloudflare’s Dane Knecht had also reported early attacks before the patches arrived and said the company had deployed temporary WAF protections. His warning did not establish that those attacks had successfully compromised servers.
+Chainguard allows early disclosure but commits to continued coordination #
+Lorenc has previously argued that embargoes are essential to protecting users before vulnerability details become public. In his July 5 post, Summer of Clearinghouses , he explained how a published fix can help attackers locate the underlying vulnerability.
+“Pre-disclosure protection extends exactly as far as the people you can vet and hold to an embargo,” he wrote.
+Chainguard’s vulnerability disclosure policy , last updated September 22, says the company may shorten disclosure timelines in response to active exploitation, publicly available details, or other exceptional circumstances. Those are the company’s own criteria for releasing early. They do not establish that PHP’s maintainers authorized publication of the patches shared under embargo.
+The policy also promises to “notify the reporter of any changes to the disclosure timeline” and continue coordinating to reduce harm. Lorenc said he immediately notified the coordination group after deciding to release early. The Foundation characterized the release as unilateral.
+The Foundation’s account drew criticism of Chainguard in Reddit’s r/PHP and r/cybersecurity communities, where commenters questioned whether other projects would trust the company with embargoed patches again. Others urged businesses that depend on PHP to fund its maintainers, while pushing back on suggestions that the team had knowingly left a demonstrated RCE unfixed since 2024.
+The release had already been moved forward a day #
+The disclosure schedule began breaking down on October 20. At around 15:00 UTC, the two CVE identifiers appeared on forums and social media alongside an incorrect release time and an incorrect CVSS score of 10.0. The Foundation says that initial leak contained no technical details.
+PHP brought its public warning forward to 19:30 UTC and moved the scheduled patch release from October 22 to October 21, keeping the planned 14:00 UTC release time.
+Distributors were still packaging the fixes. According to the Foundation, an immediate release would have left many users without a straightforward way to update.
+Around 20:00 UTC on October 20, Calif accidentally published a video showing its exploits working against several targets, the Foundation said. Although the video was deleted, copies spread on social media. The Foundation said the demonstration exposed limited additional details and accelerated development of public PoCs.
+The Foundation also said mitigation guidance shared with some critical infrastructure providers around 23:00 UTC may have leaked. It did not identify who leaked the initial CVE information.
+The underlying problem surfaced in 2024 #
+The Foundation’s account also explains why the out-of-memory problem behind CVE-2026-109618 took so long to resolve.
+A PHP core developer found the first signs while addressing an issue from a 2024 Quarkslab audit organized through OSTIF and funded by the Sovereign Tech Agency. At that point, exploitation was theoretical. Developers had not identified concrete attack vectors, and other vulnerabilities with clearer impact took priority.
+Several proposed fixes came with serious costs: breaking compatibility, creating new denial-of-service risks, or requiring changes across third-party extensions. The security team’s consensus process struggled to settle on an approach, and the small number of developers with deep engine expertise had other responsibilities. Work stalled and restarted over months.
+“We won't pretend otherwise: the delay was a structural failure, caused by both the security team's decision process and its lack of resources,” the Foundation wrote.
+The situation changed in August. The Foundation says Calif reported an unconditional RCE with the same root cause on August 11, and OpenAI independently reported that root cause the same day. Wiz and OpenAI subsequently supplied additional attack vectors.
+Calif’s own timeline adds that it shared an RCE proof of concept with PHP on August 14 and received confirmation that it worked on August 15. The Foundation says fixing the issue became its security team’s top priority from August 11.
+PHP is changing how security decisions get made #
+The security team has begun moving toward majority decisions so difficult fixes do not remain stuck waiting for consensus. The Foundation also says serious vulnerabilities involving hard trade-offs should reach its leadership sooner.
+The pressure on that team is growing. According to the Foundation, PHP has published 15 CVEs since July 1 while also working through more than 100 reports that were invalid, duplicates, or not reproducible. AI tools help validate findings, but engineers still have to choose, implement, and review the fixes.
+The Foundation is asking companies, hosting providers, cloud platforms, and governments that depend on PHP to fund more engineers with deep knowledge of the engine. AI tools can help validate findings, but engineers still have to choose, implement, and review the fixes.
+Socket Firewall
+Blocks risky dependencies before they reach your environment
+Get Started Free
+Keep Reading Related posts
+View all posts
+New Evidence Shows LiteLLM Secret-Stealing Workflows Ran 11 Days Before Supply Chain Attack
+Threat Research Security News Oct 23, 2026
+Cloudflare Introduces a Faster TypeScript Compiler Written in Rust
+Security News Oct 23, 2026
+PHP Patches Critical RCE Vulnerabilities, Organizations Urged to Take Unpatched Sites Offline
+Security News Oct 21, 2026
+Stay ahead of threats Subscribe to our newsletter
+Get notified when we publish new security blog posts!
+Enter your email
+Socket for GitHub
+Socket Firewall
+Socket CLI
+Socket Certified Patches
+Socket Web Extension
+Socket SCA
+Socket Dependency Search
+Socket Reachability
+Languages
+JavaScript / TypeScript
+Python
+Go
+Ruby
+All Languages
+Integrations All Integrations
+Slack
+Source Control
+Ticketing & Messaging
+Package Managers
+SIEM
+Resources Docs
+Changelog
+Package Alerts
+FAQ
+Glossary
+Company About
+Careers
+Socket Labs
+Investors
+Security
+Love
+News Security
+Company
+Engineering
+Application Security
+View All
+Achievements SOC 2 Type 2
+Raised $125M
+Fortune Cyber 60
+Top Customers
+Company News
+Stay in touch Get open source security insights delivered straight into your inbox.
+Enter email
+Book a Demo
+Call us at (844) SOCKET-0
+Terms
+Privacy
+Security
+Made with ⚡️ by Socket Inc U.S. Patent No. 12,346,443 & 12,314,394. Other pending.

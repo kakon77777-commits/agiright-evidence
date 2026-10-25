@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000379",
+  "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
+  "capturedAt": "2026-10-25T12:14:54Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 429,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 34218,
+    "sha256": "cee1af52f7bcc36995033b30dad68c06d2459d3670a99926d0df7aac35da957f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5B5ADA3F7E3E673DF4455A58A96B496A",
+      "status": 200,
+      "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 15310,
+      "afterScrollHeight": 15310,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "cc70f1716cf72e16ada066cb16b387489718d7c013682a9eda1afdb094cdb36c",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 2331460,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 15310,
+    "afterScrollHeight": 15310
+  },
+  "record": {
+    "capturedAt": "2026-10-25T12:14:54Z",
+    "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
+    "raw": {
+      "status": 429,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 34218,
+      "sha256": "cee1af52f7bcc36995033b30dad68c06d2459d3670a99926d0df7aac35da957f"
+    },
+    "finalUrl": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
+    "httpStatus": 200,
+    "title": "Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations | VentureBeat",
+    "rendered": {
+      "textChars": 26719,
+      "textSha256": "9fd733a156e3bb0a37c513a464aebe3ddb3edf2d0a58d8a443346efad318f934",
+      "htmlSha256": "51112bd996ccf318af5de443ba75cf396e5ed12558155f55bb0e1232cbb8cd8a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "cc70f1716cf72e16ada066cb16b387489718d7c013682a9eda1afdb094cdb36c",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 2331460,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

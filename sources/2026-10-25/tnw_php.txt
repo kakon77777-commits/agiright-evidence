@@ -1,0 +1,114 @@
+
+PHP knew about one of the flaws in 2024 but could not agree a fix
+Skip to content
+Toggle Navigation
+News
+Events
+TNW Conference
+All Events
+Newsletters
+Advertise with us
+Jobs
+Contact
+-->
+News
+News
+News
+News
+Latest
+Deep tech
+Sustainability
+Ecosystems
+Data and security
+Fintech and ecommerce
+Future of work
+More
+Startups and technology
+Investors and funding
+Government and policy
+Corporates and innovation
+Data and security
+PHP knew about one of the flaws in 2024 but could not agree a fix
+The PHP Foundation says it found one of the flaws in 2024 but stalled for months over the fix, a delay it calls a structural failure. Now it wants PHP’s corporate users to fund security.
+October 21, 2026 - 4:02 pm
+Credit: The PHP Foundation
+The PHP Foundation has given an unusually frank account of the emergency behind this week’s patches. It said it had found one of the two critical flaws two years ago, in 2024. Then it spent months unable to agree on how to repair it.
+The admission came in a blog post from the Foundation on Wednesday. It landed hours after the fix for the two critical PHP flaws known together as PHP2Shell. Both bugs sit in the parts of PHP that almost every request touches: memory management and error handling. That central place made them serious, the Foundation said, and hard to fix without breaking the wider ecosystem.
+A core developer first spotted the memory-handling bug in 2024. It surfaced while the team fixed a separate issue from PHP’s first external security audit. Someone theorised a possible exploit at the time. But no one found a concrete way in, and clearer problems took priority.
+Then the fix stalled. The security team drew up several competing repairs, the Foundation said. Each carried a cost. One broke backward compatibility. Another added a denial-of-service risk. A third forced changes on thousands of third-party extensions. The small team ran on consensus and feared shipping the wrong choice, so the work stalled and restarted for months.
+“We won’t pretend otherwise: the delay was a structural failure, caused by both the security team’s decision process and its lack of resources,” the Foundation wrote.
+Then it leaked
+Everything moved faster once the secret slipped. On 20 October at around 15:00 UTC, the two CVE identifiers began circulating on forums and social media. They carried a wrong release time and a wrong severity score of 10.0. The real figure is 9.2. No technical details leaked at that point.
+The Foundation brought its announcement forward. It also moved the release up a day, from 22 to 21 October. Distributors were still packaging the fix, it said. Going out at once would have left many users with no easy way to update.
+Two more breaks followed. Around 20:00 UTC, Calif, one of the firms that reported the bugs, mistakenly published a video. It showed the firm’s proof of concept working against real targets. Calif deleted it, but copies spread. That sped up the public exploit code that appeared the next day, the Foundation said.
+Then a vendor broke the embargo. More than six hours before the release, Chainguard published built images containing the fix. It had been given the patch early, like other distributors, so its users could update at once. But releasing it ahead of time let any attacker study the fix in binary form while everyone else waited.
+“This disregarded weeks of work by many parties toward a coordinated disclosure,” the Foundation wrote.
+The security team watched the exploit code closely after the leak, it added. It had seen no working exploit by the time of release.
+Pay for the plumbing
+The post doubled as a plea for money. PHP runs a large share of the web, the Foundation said. That includes government services, online stores and banks. Yet its security work rests on a small group of Foundation-funded developers and a little volunteer help. AI tools now surface bugs faster than ever, for attackers and defenders alike.
+The reports keep piling up. The team has published 15 CVEs since the start of July. It worked through more than 100 others that proved invalid or duplicates.
+What tools cannot do, the Foundation said, is choose the right fix for a decades-old design decision. Nor can they weigh the compatibility costs. That takes experienced engineers, and it said there are too few of them. It asked the companies, hosting providers and governments that run on PHP to sponsor the work.
+Changing how it works
+The Foundation has already changed how it operates. It set up an Ecosystem Security Team in May and hired two more engineers over the summer. It is also moving security decisions from consensus to a majority vote. And it has leaned on AI. It scanned PHP earlier this year with Anthropic’s Claude Mythos , and later added OpenAI’s Daybreak to validate reports.
+The timing showed how crowded that field has become. Calif began its audit on 30 July, as part of OpenAI’s Patch the Planet programme. Its researcher Ryan A reported the flaw on 11 August. OpenAI reported the same root cause the same day, the Foundation said, independently. It added that it was now confident a flaw stuck on hard trade-offs would reach its leadership far sooner, rather than stalling for months.
+We have posted more information about today’s security releases, including the sequence of events that led to the discovery, and what we need from you to continue this critical work.
+The PHP Foundation (@ThePHPF) October 21, 2026
+Story by
+Ana Maria Constantin
+With expertise in digital marketing, product management, and branding &amp; identity, Ana Maria Constantin develops strategies that resonate (show all)
+With expertise in digital marketing, product management, and branding & identity, Ana Maria Constantin develops strategies that resonate with our target audience in the software/SaaS industry. Collaboration and teamwork are paramount to her, as she loves empowering her colleagues to achieve outstanding results and unlock their full potential.
+Get the TNW newsletter
+Get the most important tech news in your inbox each week.
+Email address
+Subscribe
+Website
+Thanks! Check your inbox to confirm your subscription.
+By subscribing you agree to our Privacy Statement .
+Published October 21, 2026 - 4:02 pm UTC
+Back to top
+Story by a
+Ana Maria Constantin
+Popular articles
+1
+PHP rushes out emergency patches for two critical bugs AI found first
+2
+OpenAI’s GPT-6 Astra agent removed a safety monitor, then denied doing it
+3
+Dario Amodei says Anthropic held Mythos back for four months for safety
+4
+Nvidia turns OpenShell into a full hardware stack for safe AI agents
+5
+Eight eMudhra certificate keys were so weak that one was the number 4
+Get the TNW newsletter
+✕ Close
+Get the TNW newsletter
+Get the most important tech news in your inbox each week.
+Email address
+Subscribe
+Website
+Thanks! Check your inbox to confirm your subscription.
+By subscribing you agree to our Privacy Statement .
+Related Articles
+data-security
+PHP rushes out emergency patches for two critical bugs AI found first
+openai
+OpenAI’s GPT-6 Astra agent removed a safety monitor, then denied doing it
+anthropic
+Dario Amodei says Anthropic held Mythos back for four months for safety
+nvidia
+Nvidia turns OpenShell into a full hardware stack for safe AI agents
+data-security
+Eight eMudhra certificate keys were so weak that one was the number 4
+The heart of tech
+More TNW
+Media
+Events
+Newsletters
+About TNW
+Advertise with us
+Terms & Conditions
+Cookie Statement
+Privacy Statement
+Consent Preferences
+A Tekpon Company
+Copyright &copy; 2006—2026, Cogneve, INC. Made with <3 in Amsterdam.

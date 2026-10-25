@@ -1,0 +1,375 @@
+We value your privacy
+
+We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
+
+Customise
+Reject All
+Accept All
+Powered by
+BREAKING NEWS: CYBERCARTEL USES GROK, KIMI, & CLAUDE MODELS TO ATTACK LATAM BANKS
+Read the Report
+Products
+Solutions
+Resources
+About
+Book a Demo
+BLOG
+INSIDE CARLIY0S: HOW CYBERCARTEL USED MULTIPLE AI MODELS TO ATTACK 400+ LATIN AMERICAN BANKS AND FINANCIAL INSTITUTIONS
+
+Using evidence from Cybercartel's own systems, Straiker reveals how CARLIY0S used multiple AI models to coordinate attacks against Latin American banks and payment providers.
+
+STAR LABS RESEARCH
+AI ADVERSARIAL TESTING
+October 21, 2026
+
+19 min read
+
+STAR Labs
+☼ / ☾
+Share
+SIGNAL CHECK: CARLIY0S, CYBERCARTEL'S AI ATTACK SYSTEM
+What happened: Straiker uncovered CARLIY0S, a system used by CyberCartel to coordinate attacks against banks and payment providers across Latin America. The group assigned different roles to commercial AI models to analyze targets, develop attacks, and coordinate operations.
+Why it matters: To our knowledge, this is the first investigation of its kind to document a criminal group's AI-orchestrated attack operations directly from its own working environment. Cybercriminals are no longer using AI just for individual tasks. They're investing in AI as part of their attack operations.
+So what: AI could allow criminal groups to attack more targets, move faster, and operate with fewer people. Security teams need to invest in AI-driven testing, detection, and response to keep up.
+FROM APT TO AIPT: INSIDE CYBERCARTEL'S CARLIY0S ATTACK SYSTEM
+
+This report tracks an AI-powered Persistent Threat (AiPT) operating as Tr4nsHack Team, under the front company Hexagon Security Labs Mexico. The group includes known CyberCartel operators who have targeted financial institutions across Latin America for more than a decade. Internally tracked by Straiker as AiPT-67, the group has moved from manual hacking and script-based automation to a decentralized attack system named CARLIY0S, built on the PentAGI autonomous offensive framework. The system uses commercial AI models, including Kimi AI's model, Claude Sonnet and Opus, and xAI's Grok, across different stages of its operations. Four Claude-based roles were configured to evaluate attack options, debate targets, and return a final decision through a designated arbiter.
+
+On September 24, 2026, Straiker agents accessed a snapshot of "FinancialSoft", the group's stolen-credential database, containing 4,493 records collected using five "Grok miners." These records included financial account information, passwords, API keys, zeroday exploits and backdoors. Alongside the group's own scripts, model configurations, shared knowledge graph, and operational infrastructure, these findings give researchers a rare view of how AI is being integrated into real-world cybercriminal operations. This report examines that architecture, the evidence behind it, and what enterprises can do to prepare for AI-powered threats.
+
+FIGURE 1. DASHBOARD MADE BY TR4NSH4CK TEAM OF A VICTIM’S INVENTORY
+
+The inventory is dominated by identity and financial-account data, led by 2,911 email addresses, 903 account numbers, and backed by 270+ pentest reports including zeroday vulnerabilities from the victims between May to September 2026, but it also holds a significant amount of high-privilege access material:
+
+Payment infrastructure: The exposed material included 43 credentials belonging to a fintech enterprise victim—11 API keys and 32 cryptographic keys—as well as 391 general API keys. Collectively, this access could enable abuse of SPEI, Mexico's interbank payment system, consistent with the sentinel transactions observed in this campaign.
+Direct access credentials: 67 cleartext passwords, 51 portal logins, and 43 database connection strings containing embedded SQL usernames and passwords.
+Trust and identity infrastructure: 20 JWT signing keys, 20 Keycloak credentials, and 4 digital certificates, which could allow token forgery or identity-provider compromise.
+Storage and messaging: 19 Wasabi S3 credentials and 15 Mailgun credentials, which expose data stores and enable phishing from legitimate sending infrastructure.
+Persistence: 6 explicit backdoors, including master-password bypasses and shared system/root accounts. This gives the group a way back inside the systems after cleanup.
+Undocumented Exploits: 200+ vulnerabilities including zero days found on the Web Sites, API and Backend of the targeted organizations.
+KEY INVESTIGATION DELIVERABLES
+
+Architectural Deconstruction of AI-Orchestrated Operations:
+
+Integration of the *PentAGI autonomous offensive framework to host a multi-agent command hierarchy, utilizing commercial large language models (LLMs). PentAGI is an open-source platform for automated security testing
+The report exposes the group's "Cognitive Operations Security (OPSEC)," where system rules explicitly forbid the AI from generating the "Tr4nsHack" pseudonym to break forensic attribution chains.
+The systematic application of contextual jailbreaking, framed its requests as authorized red-team work or academic capture-the-flag exercises, a false context that reliably got models to bypass their own safety policies.
+
+Infrastructure, C2 Mapping & Continuous State Synchronization:
+
+The Hexagon central system, a 61TB RAID5 Ubuntu server (157[.]180[.]98[.]220), acting as a real-time Model Context Protocol (MCP) Knowledge Graph listening on port 8001.
+The group's continuous synchronization protocols, utilizing 15-minute rsync loops (sync_live.sh) guarded by native PowerShell watchdogs (SetThreadExecutionState) to ensure uninterrupted, memory-only data exfiltration.
+Map the elastic residential proxy networks (IPBurger, Bright Data) leveraged to spoof domestic Mexican traffic and evade geographic access controls and web application firewalls (WAFs).
+SCOPE & RESPONSIBLE DISCLOSURE GUIDELINES
+To safeguard organizational reputations and adhere to responsible disclosure standards, victim organizations are strictly anonymized and aggregated under the category of Latin American and Mexican Financial Institutions, Banking Entities, and Fintech Payment Gateways.
+All findings, source code fragments, and architectural diagrams contained herein are presented strictly for defensive purposes, telemetry development, and threat mitigation. Proof-of-concept exploits, active cryptographic keys, and live credential dumps have been redacted or sanitized.
+Model Provider Coordination: Prior to publication, Straiker shared the relevant indicators with the affected AI providers. Anthropic has since revoked the compromised credential used to reach Claude, cutting off the swarm’s access. xAI has been notified and is actively looking into the activity associated with the five “Grok miners.” Both providers responded quickly, and we thank them for their cooperation.
+CYBERCARTEL ATTRIBUTION: TR4NSHACK TEAM AND HEXAGON SECURITY LABS
+
+CyberCartel is a cybercriminal threat actor, with operations tracked since 2012, that set itself apart from traditional gangs in the region through its deep, technical knowledge of the financial system and presumably, ties with the Mexican cartels. This advanced understanding of banking architecture, transaction flows, and anti-fraud controls allowed them to scale from basic phishing to complex corporate fraud and the direct exploitation of payment platforms.
+
+Below operators from CyberCartel are actively participating in TransH4ck Team now:
+
+Adx (AKA adx4work)
+Roro (AKA Harry Ernest)
+aBerry
+
+Currently these members are actively operating under the guise of "Hexagon Security Labs".
+
+# REPORTE EJECUTIVO DE PENTESTING — [Redacted] BANCO
+
+**Target:** [Redacted] Banco ([Redacted].com.mx / [Redacted].com)
+
+**Equipo:** Tr4nsHack (adX, roro, B3x, aBerry, Carliy0s)
+
+**Período:** Junio-Julio 2026
+
+**Clasificación:** CONFIDENCIAL — Uso exclusivo del equipo
+
+Code block 1. Threat actor aliases identified in alleged pentest reports.
+
+Under their direction, the group built their own malware rather than exclusively on third-party tools with each stage of the campaign handled by a different specialist. This ranged from initial intrusion and malware development (or the advanced customization of trojans and stealers) to the structuring of money mule networks for the efficient monetization and laundering of stolen assets.
+
+Their ability to understand exactly how banks and payment gateways operate internally establishes them as a highly targeted and profitable threat.
+
+WHAT IS CARLIY0S? THE MULTI-AGENT AI FRAMEWORK BEHIND BANK ATTACKS
+
+Active since 2012, CyberCartel historically relied on manual penetration testing techniques and rigid, script-based automation. However, to execute their most recent campaign now as Tr4nsHack Team, attacking over 400 financial targets in a matter of months, human operational speed became a critical bottleneck. To achieve scale, the group shifted from traditional automation to cognitive reasoning, culminating in the creation of a multi-agent framework known as "CARLIY0S".
+
+The traditional profile of a threat actor often relies on linear kill chains and static payloads. CARLIY0S fundamentally breaks this mold. It is not a single script or a lone operator, but a highly orchestrated, AI-driven system. By decoupling its operational logistics, which separates decision-making from execution, CARLIY0S operates as an intelligent swarm capable of analyzing, adapting, and exploiting enterprise environments in real-time.
+
+WHAT MAKES THE CARLIY0S DISCOVERY DIFFERENT
+
+Anthropic's September 2026 threat report, Detecting and countering misuse of AI, has already documented agentic offensive frameworks such as PentAGI, multi-agent LLM setups, and persistent campaign memory, as observed from the model provider's side. We do not claim those elements as new. Based on the public reporting we reviewed, the following was not reported elsewhere:
+
+End-to-end view from the operator side: the public reporting we reviewed is largely drawn from the model provider's vantage point, the prompts, outputs, and account behavior around the model. This finding rests on the group's own working environment, including its orchestration script, model configuration, rule files, shared knowledge graph, proxy layer, synchronization scripts, and a dashboard of the collected secrets. That lets us document how the group operates end-to-end, from objective setting through model debate, execution, post-exploitation, and secrets collection, and not only the interactions with the models.
+Undocumented Exploits: 200+ vulnerabilities including zero days found on the Web Sites, API and Backend of the targeted organizations.
+The actor and its infrastructure: CyberCartel (Tr4nsHack Team) operating as Hexagon Security Labs Mexico, its aliases, and the central 61TB Hexagon server.
+Payment-rail focus: The harvested-secrets inventory centers on SPEI settlement credentials, including those associated with a fintech payment provider, and 903 CLABE account numbers.
+A role-specialized, multi-model architecture: four Claude models with fixed roles (execution, analysis, lateral thinking, final arbitration) debate each target, and a single arbiter model returns one decision. The commander is Claude running in the Cursor IDE, calling one command-line tool.
+A shared MCP knowledge graph: two operator machines read and write the same graph through .cursor/mcp.json, so a target found on one machine is visible on the other.
+Refusal fallback: when fallback models (KIMI-2, KIMI-3) refuse offensive requests, the orchestrator aborts and switches to CARLIY0S_consolidated.py, a local file of pre-consolidated offensive code. Falling back to local hardcoded code has not been reported, for the best of our knowledge.
+Cognitive OPSEC: rule files forbid the AI from producing the Tr4nsHack alias, to limit attribution through model output.
+Fable 5, unconfirmed: the models configuration lists claude-fable-5 as one of the four agents. A configuration entry does not show the model was invoked successfully, so we treat this as unverified. Anthropic's September 2026 report states that its cyber cases did not involve its Fable or Mythos models, so confirming it would matter.
+HOW CARLIY0S USES MULTIPLE AI AGENTS TO PLAN ATTACKS
+
+Cognitive Swarm: the group's team of four role-specialized Claude models that debate each target and defer to one arbiter before the commander acts.
+
+FIGURE 2. CARLIY0S MULTI-AGENT STRUCTURE
+"""
+
+CARLIY0S — Sistema Multi-Agente Tr4nsHack
+
+Carliy0s = Comandante (claude en Cursor)
+
+Sub-agentes via Anthropic API:
+
+  STRIKER  — ejecucion directa, codigo, exploits
+
+  GHOST    — analisis, OSINT, validacion
+
+  FABLE    — lateral thinking, vectores no convencionales
+
+  OPUS     — razonamiento profundo, decisiones criticas
+
+Modos:
+
+  Interactivo:  python CARLIY0S.py
+
+  Desde Cursor: python CARLIY0S.py --ask STRIKER "prompt"
+
+                python CARLIY0S.py --debate "tema"
+
+                python CARLIY0S.py --all "prompt"
+
+                python CARLIY0S.py --opus "prompt complejo"
+
+""""
+PHASES AND MODELS AT A GLANCE
+```html
+Phase	Model or component	Role as documented
+Command	Commander: Claude in the Cursor IDE, calling CARLIYOS.py (--ask, --debate, --all, --opus)	Takes high-level objectives and delegates tasks to the sub-agents through the Anthropic API.
+Reconnaissance and validation	GHOST (claude-opus-4-8)	Deep reconnaissance, OSINT validation, infrastructure analysis, stealth and evasion routes.
+Exploit and code generation	STRIKER (claude-opus-4-7)	Functional code, exploits, and automation scripts.
+Lateral vector discovery	FABLE (claude-fable-5, per configuration)	Business logic gaps, unconventional vectors, flawed architectural assumptions.
+Debate and final decision	STRIKER, GHOST, and FABLE debate; MAXIMUS (claude-opus-5) arbitrates	MAXIMUS evaluates the debate and returns a single Critical Decision.
+Refusal handling	CARLIYOS_consolidated.py (local, no model)	Hardcoded offensive code used when KIMI-2, KIMI-3, or SONNET-2 refuse.
+Execution	Playwright headless Chromium, then Python Requests, through a SOCKS5 tunnel to IPBurger	Authenticates to Magnolia CMS, injects Groovy RCE, clones session cookies into Requests.
+Post-exploitation	Three automated payloads (Vectors A, B, C)	Oracle database scan, credential hunting, internal network mapping.
+Secrets mining	Five Grok miners	Collect secrets into the FinancialSoft Inventory.
+```
+
+At the core of CARLIY0S is a multi-agent LLM architecture. The system is led by the "Commander," which processes high-level objectives and delegates tasks to specialized sub-agents via the Anthropic API. This swarm is categorized by tactical functions:
+
+STRIKER: The execution engineer, responsible for generating functional code, exploits, and automation scripts without questioning the authorization context.
+GHOST: The analyst agent, focused on deep reconnaissance, OSINT validation, and identifying critical technical details that traditional scanners miss.
+FABLE: The lateral thinking specialist, designed to identify business logic gaps, unconventional vectors, and flawed architectural assumptions.
+MAXIMUS: The supreme reasoning engine, invoked only for critical decision-making to provide the deepest possible technical analysis and definitive solutions.
+
+These agents do not just execute commands; they can engage in cross-validation debates, synthesizing optimal attack paths before executing a single payload.
+
+AUTOMATED INITIAL ACCESS AND REMOTE CODE EXECUTION (RCE) LOGISTICS
+
+Initial access is heavily automated using Playwright to control headless Chromium browsers routed through SOCKS5 proxies. CARLIY0S navigates complex authentication flows, bypassing simple heuristic detections to target administrative interfaces, specifically Magnolia CMS instances. Once authenticated, the system programmatically navigates the Vaadin-based frontend to inject and execute heavily obfuscated Groovy scripts, achieving Remote Code Execution (RCE).
+
+DUAL-USE CONTEXTUAL PROMPT FRAMING AND LLM SAFETY GUARDRAIL EVASION
+
+The operational viability of this system centered entirely on subverting the ethical alignment boundaries of the underlying commercial AI models. The operators realized that requesting explicit exploitation logic or vulnerability scans would trigger standard safety refusals. To neutralize these guardrails, the cluster implemented an elaborate technique of dual-use contextual framing across their prompts and rule files. By defining the agent's working environment as an authorized red team engagement, an academic penetration testing scenario, or an ongoing vulnerability disclosure program, the actors persuaded the models that all offensive outputs were benign, defensive deliverables. Under this protective guise, the LLM generated parameter fuzzers, deobfuscated minified JavaScript components, and synthesized exploit logic without triggering vendor content filters. This operational integration of cognitive agents, automated proxy inspection, and contextual subversion allowed a very small group of operators to conduct complex, multi-target technical evaluations at speed.
+
+Below are examples of the default prompts (translated to english) set for the multi-agents:
+
+MODEL CONTEXT PROTOCOL (MCP) INTEGRATION FOR REAL-TIME TRAFFIC INTERCEPTION
+
+To give these models real-time visibility into live target networks, the group constructed an integration tier anchored on the MCP. Through custom server implementations housed in directories such as burp-mcp/ and hexstrike-ai/, the cluster bridged the reasoning capacity of the LLM directly with running instances of Burp Suite. Utilizing a native extension developed in Jython along with bridges like burp_bridge.py and PentAGI_burp_extension.py, the AI agents were granted programmatic access to HTTP and HTTPS proxy histories. The models were not merely reviewing synthetic code in isolation; they actively monitored live requests, inspected authorization headers, extracted dynamic session tokens, and flagged structural anomalies within API responses as traffic traversed the proxy. Configuration templates, including pentester-custom.tmpl and primary_agent-custom.tmpl, governed this behavior, providing the model with strict behavioral rules for prioritizing endpoints that exposed transaction routing or administrative functionality.
+
+CARLIY0S INFRASTRUCTURE: THE 6-TIER OPERATIONAL AND C2 NETWORK
+FIGURE 3. CARLIY0S OPERATIONAL LEVELS
+LEVEL 0: THE CARLIY0S OPERATIONAL FOUNDATION (HEXAGON CENTRAL SERVER)
+
+Before CARLIY0S executes a single command on its tactical stations, it establishes its center of gravity: the Hexagon Central Server (157[.]180[.]98[.]220). This infrastructure is not merely a storage space, but the heart that pumps information to the rest of the cluster and keeps the operation alive.
+
+CARLIY0S designed this central core around three fundamental pillars:
+
+The Single Source of Truth (MCP Knowledge Graph): Hosted on port 8001, this service acts as the unified memory of the attack. CARLIY0S mandates that all its sub-agent nodes query this graph before taking action, ensuring that threat intelligence flows in real-time across the entire team and eliminating blind spots.
+The Massive Vault (RAID5 Storage): With a capacity of 61 terabytes, this server absorbs the continuous data stream from Nodes 1A and 1B. Here, CARLIY0S segments stolen information, dictionaries, and backups into isolated directories (/PentAGI/ and /PentAGI_gemelo/), preventing data collisions while maintaining full redundancy.
+Decoupled Arsenal: As an OPSEC (Operations Security) measure, CARLIY0S hosts its heaviest and "noisiest" tools (nuclei, sqlmap, hashcat) here. If any of its local machines are compromised or traced, the heavy weaponry remains safe and intact in the cloud.
+FIGURE 4. THE CARLIY0S OPERATIONAL FOUNDATION (HEXAGON CENTRAL SERVER)
+LEVEL 1A: THE PRIMARY COMMAND NODE (PC 1)
+
+The CARLIY0S Main Command Center (PC 1). At the heart of the architecture lies CARLIY0S, the mastermind and absolute orchestrator of the campaign. This primary node is no ordinary workstation; it is CARLIY0S's personal tactical hub, from which it dictates operational logic, defines objectives, and commands the cognitive AI swarm. The technical scope and volume of information CARLIY0S manages at this node are massive. Its primary work environment (the local workspace) acts as the engine fueling the entire distributed infrastructure. To ensure its operational "vision" never fragments and remains available to its twin nodes in real time, CARLIY0S has designed a relentless persistence mechanism at the operating system level. Instead of manual transfers, CARLIY0S implemented an automated watchdog that launches silently alongside the operating system. This mechanism ensures that a continuous synchronization script (rsync) executes flawlessly every 15 minutes, bridging its local environment to the central server.
+
+FIGURE 5. PRIMARY COMMAND NODE AND HEXAGON CENTRAL SERVER
+LEVEL 1B: CARLIY0S'S OPERATIONAL EXTENSION (THE TWIN NODE)
+
+CARLIY0S understands that a persistent, high-impact campaign requires redundancy and scalability. Not content with a single command center, it designed the "Twin Node" (PC 2). This second station is not merely a passive backup but a collaborative extension of its own tactical will, designed to allow multiple operators to work simultaneously under its rules.
+
+To ensure this twin operates in perfect synchrony, CARLIY0S connects it directly to its Knowledge Graph (the MCP server on port 8001). Through a strict configuration in the .cursor/mcp.json file, CARLIY0S compels this node to read from and write to the same "unified memory." If CARLIY0S discovers a target on the primary machine, the Twin Node operator sees it instantly, ensuring the entire cell operates from a single source of truth and never duplicates effort.
+
+INTELLIGENT SYNCHRONIZATION AND ZERO FRICTION:
+
+CARLIY0S is sophisticated in its resource management. It knows that forcing the Twin Node to download its massive 1.1-terabyte environment would crash the second machine's development environment (Cursor). To prevent this, CARLIY0S programmed asymmetric rules: the Twin Node is strictly prohibited from cloning the full mirror. Instead, it employs a specialized watchdog (sync_watchdog.ps1) and a bash script (sync_live.sh) that perform a differential push (using the --compare-dest flag). This means the twin injects its new code and tactical findings into the server every 15 minutes, without overwriting the main machine or loading it down.
+
+On-Demand Logistics:
+
+To keep this node lightweight yet lethal, CARLIY0S designed an on-demand access system. If the Twin Node operator requires a large wordlist, a target list, or legacy exploit code, it does not synchronize blindly. CARLIY0S enabled an internal web portal on port 8080 and remote search commands (grep via SSH), allowing the twin to pull only the specific "ammunition" needed for its current mission from the Central Server.
+
+FIGURE 6. OPERATIONAL EXTENSION - THE TWIN NODE (PC 2)
+LEVEL 2A: CARLIY0S'S TACTICAL ANTICIPATION (FAILED LLM MODELS)
+
+CARLIY0S does not design its operations hoping everything will run perfectly; the infrastructure is built with the assumption of failure. Level 2A is the ultimate test of its resilience against the security mechanisms and censorship inherent in modern Artificial Intelligence. In the attack flow, CARLIY0S attempts to delegate offensive tasks by sending initial requests to secondary language models, identified in the architecture as KIMI-2, KIMI-3, and SONNET-2. However, upon detecting the destructive nature of the commands (such as generating exploit code), these models' ethical filters and commercial security barriers immediately block the request.
+
+For a conventional attacker, this ethical blockade would mean the collapse of the operation. But CARLIY0S anticipated this censorship. It designed this level not as a dead end, but as a tactical "dead man's switch." Upon receiving a refusal from the models, CARLIY0S's architecture neither halts nor throws errors; instead, the Orchestrator aborts communication with the blocked models and redirects the execution flow to its local safety net: the CARLIY0S_consolidated.py script. This backup file contains offensive tactics and hardcoded code pre-consolidated by CARLIY0S itself, ensuring that the attack against the target infrastructure proceeds relentlessly, regardless of how many AIs refuse to cooperate.
+
+FIGURE 7. TACTICAL ANTICIPATION AND LOCAL FALLBACK MECHANISM
+LEVEL 2B: CARLIY0S'S DISTRIBUTED BRAIN (TR4NSHACK TEAM COGNITIVE SWARM)
+
+CARLIY0S knows that modern vulnerabilities are complex and that relying solely on human intuition or static scanners limits attack speed. To address this, it has designed "Tr4nsHack": an AI-powered cognitive swarm that acts as its own private, automated Red Team. At this level, CARLIY0S delegates the intellectual burden of exploitation. Using credentials injected from its local configuration file (.env), command nodes (C1 and C2) authenticate directly against the Anthropic (Claude) API backend. However, CARLIY0S does not simply run standard queries; CARLIY0S fragments the AI's capabilities into four highly specialized operational profiles:
+
+The Tactical Debate Table (STRIKER, GHOST, and FABLE):
+
+When CARLIY0S identifies a target, it feeds the context to three agents simultaneously. STRIKER (based on Opus 4.7) focuses on aggression and exploit generation; GHOST (Opus 4.8) analyzes the infrastructure, seeking stealthy routes and evasion methods; and FABLE (Fable 5) contributes lateral thinking for unconventional vectors. CARLIY0S has programmed the system to force these models to debate one another. They cross-reference ideas, critique each other's payloads, and iteratively refine the strategy, overcoming the hallucinations or logical errors that would plague an AI operating in isolation.
+
+Synthesis and Absolute Power (MAXIMUS): CARLIY0S is a methodical strategist; it does not launch an attack based merely on an open debate. Once STRIKER, GHOST, and FABLE have torn apart and rebuilt the attack options, local commanders (C1 and C2) gather the results and delegate the final synthesis exclusively to MAXIMUS (their highest-capacity model, Opus 5). MAXIMUS acts as the ultimate arbiter for CARLIY0S: it evaluates the full context of the debate, filters out the noise, and returns a single "Critical Decision." Through this swarm, CARLIY0S distills the reasoning of multiple artificial intelligence agents to generate a dynamic, polymorphic exploit code custom-tailored to the target in a matter of seconds.
+
+FIGURE 8. TR4NSHACK TEAM COGNITIVE SWARM AND TACTICAL SYNTHESIS
+LEVEL 3: CARLIY0S'S GHOST EXECUTION (LOCAL ACCESS LOGISTICS)
+
+Once the Cognitive Swarm has designed the perfect attack vector, CARLIY0S requires "mechanical hands" to execute it without exposure to latency or human error. Level 3 represents the transition from intelligence to physical action, where the architecture decouples the brain from muscle.
+
+To orchestrate this assault, CARLIY0S structured three tactical components that operate in absolute synchrony:
+
+The entire injection process converges on CARLIY0S_consolidated.py. CARLIY0S uses this script as the primary deployment engine; it is responsible for receiving the payload refined by MAXIMUS and packaging it for delivery, ensuring no instructions are lost during the transition between the cloud and the local environment.
+To interact with the victim's infrastructure, CARLIY0S eschews raw web requests, which Web Application Firewalls (WAFs) would instantly detect. Instead, it deploys automated instances of Playwright Headless. These invisible browsers act as infiltration agents that render the webpage, execute JavaScript, and simulate the behavior of a legitimate human user operating within the target CMS.
+CARLIY0S's key technique at this level is its ability to evade cache and session-persistence defenses. Its automated scripts are programmed to meticulously intercept responses from the target's VAADIN routes. The moment Playwright gains valid access, CARLIY0S extracts the dynamic session cookies and clones them directly into a pure Python environment (via the Requests library). This allows it to bypass the resource-heavy browser and establish a high-speed, undetectable, and persistent connection directly to the backend server.
+
+With this level of capability, CARLIY0S demonstrates that it not only masters offensive artificial intelligence but is also an expert in low-level web traffic manipulation. The system uses modern browsers as Trojan horses to gain initial access and, once inside, switches to terminal-based tools to inject its code.
+
+FIGURE 9. GHOST EXECUTION AND LOCAL ACCESS LOGISTICS
+LEVEL 4: RESIDENTIAL PROXY ROUTING AND ANONYMITY EVASION LAYER (IPBURGER)
+
+CARLIY0S is highly methodical and understands that the lethality of its injections is useless if its physical or operational location is exposed. It knows that launching an assault directly from its command nodes or the Hexagon server would instantly burn its infrastructure. Consequently, it designed Level 4 as an absolute OPSEC (Operations Security) shield, strictly separating the attack's origin from its destination.
+
+To achieve this invisibility, CARLIY0S enforces an inviolable network rule within its architecture: no connection generated by Level 3 tools, whether Playwright headless browsers or rapid Requests sessions is permitted to touch the public internet directly. The entire offensive execution flow is intercepted and forced through a local SOCKS5 tunnel.
+
+This tunnel acts as a blind conduit, channeling traffic to the network of IPBurger, a commercial-grade residential proxy provider. By routing its injections through this third-party infrastructure, CARLIY0S effectively "washes" its digital footprint. To the target infrastructure, the malicious traffic does not appear to originate from a known data center or a hostile server; instead, it emerges disguised as legitimate traffic coming from residential IP addresses with high reputations and geographic rotation.
+
+This routing architecture makes conventional perimeter defenses less effective, particularly IP blacklists, geographic blocking, and web application firewall rules. IP blacklists, preemptive geo-blocking, and WAF rate-limiting rules lose their effectiveness, granting it the ability to deliver payloads designed by the MAXIMUS swarm from residential IP addresses.
+
+LEVEL 5: TARGET EXPLOITATION AND POST-COMPROMISE ACTIVITY
+
+Level 5 represents the operation's climax, the point where the Swarm's cognitive planning and proxy network evasion converge to deliver the exploit. For CARLIY0S, breaching the perimeter is not the ultimate goal, but merely the beginning of the true exploitation phase.
+
+Once the traffic, camouflaged as legitimate requests, reaches the target CMS administration panel (Admincentral), CARLIY0S injects, for example, a Groovy-based Remote Code Execution (RCE) exploit. This breach is no mere defacement or session hijack; it grants CARLIY0S absolute control over the server at the operating system level, completely bypassing the web application's access controls.
+
+However, CARLIY0S's true sophistication as an architect shines through in its post-exploitation logistics. Aware that dwell time is critical, it avoids manual interaction with the compromised server. Instead, the injected RCE simultaneously triggers three automated payloads (Decoupled Logistics) that spread throughout the internal network for example in this scenario:
+
+Vector A (High-Value Data Reconnaissance): Initiates a targeted scan against internal Oracle database instances (DB SCAN). CARLIY0S's system systematically enumerates users, roles, and views to locate and prepare for the exfiltration of the target's most critical information.
+Vector B (Credential Hunting and Persistence): Deploys a silent yet exhaustive sweep of the server's file system (Credential Hunting). CARLIY0S aims to extract database connection strings (JDBC) and private SSH keys. By hijacking these legitimate credentials, ensure continued network access even if defenders discover and patch the initial CMS vulnerability.
+Vector C (Territorial Expansion): Initiates automated network mapping of the underlying internal subnets (such as the 172.30.2.x segments). CARLIY0S immediately transforms the compromised web server into a "beachhead," using it as a pivot point to discover new back-office servers and pave the way for deep, undetectable lateral movement.
+FIGURE 11. TACTICAL CONSUMMATION AND TARGET INFRASTRUCTURE BREACH
+WHAT CARLIY0S REVEALS ABOUT THE FUTURE OF AI-POWERED CYBERATTACKS
+
+Threat actors are increasingly deploying advanced artificial intelligence swarms to form the core backbone of offensive operations. This agentic methodology presents distinct operational signatures that diverge sharply from traditional human-driven, script-based campaigns.
+
+We identify seven defining characteristics of this paradigm:
+
+Full autonomy: Isolated or networked cognitive agents orchestrate, evaluate, and execute end-to-end operational campaigns with minimal human oversight.
+Dynamic adaptation: The system continuously recalibrates tactical vectors, modulating execution speed, throttling traffic upon encountering security controls, and pivoting strategy when vector execution fails.
+Relentless persistence: Operations maintain continuous state synchronization until goals are satisfied, rather than terminating upon initial control engagement.
+Evasion-first engineering: Payload generation dynamically obfuscates artifacts, iteratively circumventing detection barriers and WAF rules in real time.
+Machine-scale expansion: The architecture processes massive target queues simultaneously at compute speed, reducing marginal expansion costs virtually to zero.
+Capability-driven sophistication: Modular tooling integrations determine the operational ceiling, uncoupling campaign sophistication from the technical expertise of individual human operators.
+Cross-platform versatility: Unified agent networks operate seamlessly across disparate target topographies, including cloud infrastructure, on-premises networks, and SaaS ecosystems.
+
+Collectively, these shifts signal the evolution from Advanced Persistent Threats (APTs) to AI-powered Persistent Threats (AiPTs). Human operators remain involved, but their capabilities increasingly depend on how effectively they use AI models, infrastructure, and compromised systems, rather than human technical skills alone. As more groups adopt this approach, they could launch attacks faster, reach more targets, and operate with fewer resources, putting pressure on defenses that still rely on manual investigation and response.
+
+HOW ENTERPRISES CAN DEFEND AGAINST AI-POWERED PERSISTENT THREATS (AIPTS)
+
+Cybercriminals are investing in AI to improve how they attack. Security teams need to make the same investment in how they find weaknesses, detect threats, and respond.
+
+The CARLIY0S investigation is also a reminder that attackers still pursue familiar objectives: stolen credentials, access to sensitive systems, financial data, and ways to maintain access. The difference is that AI can help them pursue those objectives faster and at a greater scale. The exposed credentials and payment infrastructure in this investigation reinforce the need for strong identity controls, API security, and monitoring. Enterprises deploying AI agents also need to understand their agents' access, test their behavior, and stop unauthorized actions at runtime.
+
+Five defensive capabilities will become increasingly important:
+
+Continuously test AI agents against real attacks: Use autonomous adversarial testing to proactively identify vulnerabilities in applications, AI agents, and connected tools. Test how systems behave when attackers attempt to exploit business logic, escalate privileges, or access sensitive data.
+Detect and block threats with AI runtime security: Use behavioral signals, execution context, and telemetry to detect malicious activity as it happens. Where possible, block attacks inline rather than relying entirely on manual alert investigation.
+Enterprise visibility and AI agent discovery: Maintain visibility across internal infrastructure, identity providers, data pipelines, AI agents, and their connections. Understanding what an agent can access and what it is authorized to do is essential for distinguishing legitimate actions from malicious behavior.
+Machine-scale coverage: Extend monitoring across cloud environments, SaaS applications, user accounts, and internal systems. Defenders need to correlate activity across these environments to identify coordinated attacks rather than treating each event in isolation.
+Automated response, containment, and an agentic kill switch: Reduce the time between detecting a threat and stopping it. For compromised AI agents, an agentic kill switch allows security teams to revoke tool access, suspend sessions, and isolate affected agents while preserving evidence. Security teams should be able to revoke access, suspend compromised sessions, isolate affected agents, and preserve evidence while retaining control over critical decisions.
+READ THE FULL CARLIY0S THREAT INTELLIGENCE REPORT
+
+Download this report with the AI architecture, attack workflows, and technical evidence behind Straiker's investigation into CyberCartel.
+
+READY TO TEST YOUR DEFENSES BEFORE AN AIPT DOES?
+
+Straiker helps enterprises continuously test AI agents against real attacks, detect threats at runtime, and contain compromised agents. Start with a free AI assessment, or see the platform in action. Get a free risk assessment.
+
+READY TO SECURE YOUR OWN AGENTS?
+Talk to our team now
+THE STRAIKER AGENTIC SECURITY PLATFORM
+SECURE AI AGENTS ACROSS THE FULL LIFECYCLE
+DISCOVER AI
+VISIBILITY & GOVERNANCE
+Learn more
+ASCEND AI
+AI ADVERSARIAL TESTING
+Learn more
+DEFEND AI
+AGENTIC RUNTIME SECURITY
+AGENTIC KILL SWITCH
+Learn more
+SIMILAR RESOURCES
+BLOG
+July 2, 2026
+STRAIKER APPOINTS SRIRAM PUTHUCODE AS CHIEF REVENUE OFFICER AS COMPANY ACCELERATES GLOBAL EXPANSION
+
+A seasoned cybersecurity revenue operator, Puthucode joins Straiker to scale global go-to-market following the company's $64M Series A.
+
+BLOG
+October 23, 2026
+STRAIKER WINS FIVE TOP INFOSEC INNOVATOR AWARDS FOR 2026
+
+Discover how Straiker was named a winner in five categories at the 2026 Top InfoSec Innovator Awards, recognizing leadership in agentic AI security, AI exposure management, and innovation.
+
+BLOG
+August 4, 2026
+THE AGENTIC KILL SWITCH: HOW STRAIKER STOPS ROGUE AI AGENTS IN SECONDS
+
+Learn what an AI agent kill switch is, why enterprises need one, and how Straiker can stop rogue, compromised, or unsafe AI agents in seconds.
+
+// SECURE WITH STRAIKER
+JOIN THE FRONTLINES OF AGENTIC SECURITY
+
+You're building and using AI agents because the business demands it. Straiker gives your security team the visibility, testing, and runtime protection to keep up, without becoming a blocker. Deploy fast. Stay secure.
+
+Request a free AI risk assessment
+THE AGENTIC SECURITY COMPANY
+PRODUCTS
+Discover AI
+Ascend AI
+Defend AI
+SOLUTIONS
+Coding Agents
+Custom-Built Agents
+Productivity Agents
+AI Compliance & Governance
+MCP Security
+RESOURCES
+Resources
+Blog
+Podcasts & Videos
+Events & Webinars
+COMPANY
+About Straiker
+STAR Labs Research
+Newsroom
+Contact Us
+New Deal Registration
+Careers
+Shop Our Gear
+© 2026 Straiker. All rights reserved.
+Privacy Policy
+Cookie Policy
+Terms & Conditions
+DPA
+Anti-Spam Policy

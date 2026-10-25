@@ -1,0 +1,3340 @@
+<html lang="en"><head>
+    <title>Today's PHP Security Release, and How We're Strengthening PHP Security — The PHP Foundation — Supporting, Advancing, and Developing the PHP Language</title>
+    <meta name="description" content="Describing the story behind how critical security vulnerabilities were found and fixed.">
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <link href="https://phpc.social/@thephpf" rel="me">
+    <style class="anchorjs"></style><link rel="stylesheet" href="https://thephp.foundation/assets/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    <script async="" src="https://analytics.thephp.foundation/matomo.js"></script><script src="//unpkg.com/alpinejs" defer=""></script>
+    <link rel="stylesheet" href="//unpkg.com/@highlightjs/cdn-assets@11.6.0/styles/base16/danqing.min.css">
+    <script src="//unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js"></script>
+
+    <meta name="yandex-verification" content="6990192232fdf071">
+    <meta name="msvalidate.01" content="5D1EB82347E6BF271A01DCDBF7E59BED">
+
+    <meta property="og:url" content="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Today's PHP Security Release, and How We're Strengthening PHP Security">
+    <meta property="og:description" content="Describing the story behind how critical security vulnerabilities were found and fixed.">
+    <meta property="og:image" content="https://thephp.foundation/assets/share/2026-10-21-todays-php-security-release-and-how-were-strengthening-php-security.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="https://thephp.foundation">
+    <meta property="twitter:url" content="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">
+    <meta name="twitter:title" content="Today's PHP Security Release, and How We're Strengthening PHP Security">
+    <meta name="twitter:description" content="Describing the story behind how critical security vulnerabilities were found and fixed.">
+    <meta name="twitter:image" content="https://thephp.foundation/assets/share/2026-10-21-todays-php-security-release-and-how-were-strengthening-php-security.png">
+
+    <link rel="apple-touch-startup-image" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" sizes="76x76" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="shortcut icon" sizes="120x120" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="shortcut icon" sizes="128x128" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="shortcut icon" sizes="152x152" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="shortcut icon" sizes="196x196" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="shortcut icon" sizes="512x512" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="shortcut icon" sizes="1024x1024" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="shortcut icon" sizes="2048x2048" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="apple-touch-icon" sizes="128x128" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="apple-touch-icon" sizes="196x196" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="apple-touch-icon" sizes="512x512" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+    <link rel="apple-touch-icon" sizes="2048x2048" href="https://thephp.foundation/assets/icons/php_foundation.svg">
+
+    <link rel="alternate" type="application/atom+xml" href="https://thephp.foundation/atom.xml" title="The PHP Foundation activity feed">
+                <script src="//cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+    <style id="redditify-styles">
+    /* Base Reddit embed styles */
+    .reddit-thread {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      border-radius: 0.375rem;
+      overflow: hidden;
+      border: 1px solid #e5e7eb;
+      background-color: white;
+      color: #1a1a1b;
+    }
+    
+    .reddit-thread-error {
+      padding: 1rem;
+      color: #ef4444;
+      background-color: #fee2e2;
+      border: 1px solid #fecaca;
+      border-radius: 0.375rem;
+    }
+    
+    /* Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      .reddit-thread {
+        background-color: #1a1a1b;
+        color: #d7dadc;
+        border-color: #343536;
+      }
+      
+      .reddit-thread-error {
+        background-color: rgba(239, 68, 68, 0.1);
+        color: #f87171;
+        border-color: rgba(239, 68, 68, 0.2);
+      }
+    }
+    
+    /* Comment styling */
+    .comment-body a {
+      color: #0079d3;
+      text-decoration: underline;
+    }
+    
+    .comment-body pre,
+    .comment-body code {
+      background-color: #f6f7f8;
+      border-radius: 0.25rem;
+      padding: 0 0.25rem;
+    }
+    
+    .comment-body pre {
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      overflow-x: auto;
+    }
+    
+    /* Dark mode for comment styling */
+    @media (prefers-color-scheme: dark) {
+      .comment-body a {
+        color: #4da3ff;
+      }
+      
+      .comment-body pre,
+      .comment-body code {
+        background-color: #272729;
+      }
+    }
+
+    /* Loading animation */
+    .loading-pulse {
+      padding: 1rem;
+    }
+    
+    .loading-line, .loading-block {
+      background-color: #e5e7eb;
+      border-radius: 0.25rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .loading-line {
+      height: 1rem;
+    }
+    
+    .loading-line:nth-child(1) {
+      width: 75%;
+    }
+    
+    .loading-line:nth-child(2) {
+      width: 50%;
+    }
+    
+    .loading-block {
+      height: 8rem;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      .loading-line, .loading-block {
+        background-color: #343536;
+      }
+    }
+    
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+    
+    .loading-pulse > * {
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    /* Search prompt styles */
+    .reddit-search-prompt {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      border-radius: 0.375rem;
+      overflow: hidden;
+      border: 1px solid #e5e7eb;
+      background-color: white;
+      color: #1a1a1b;
+    }
+
+    .reddit-search-prompt-content {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+    }
+
+    .reddit-search-prompt-icon {
+      flex-shrink: 0;
+      color: #787c7e;
+    }
+
+    .reddit-search-prompt-text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .reddit-search-prompt-heading {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #1a1a1b;
+    }
+
+    .reddit-search-prompt-subtext {
+      font-size: 0.75rem;
+      color: #787c7e;
+    }
+
+    .reddit-search-prompt-button {
+      flex-shrink: 0;
+      display: inline-block;
+      background-color: #ff4500;
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.375rem 0.875rem;
+      border-radius: 9999px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .reddit-search-prompt-button:hover {
+      background-color: #e03d00;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .reddit-search-prompt {
+        background-color: #1a1a1b;
+        border-color: #343536;
+        color: #d7dadc;
+      }
+
+      .reddit-search-prompt-icon {
+        color: #818384;
+      }
+
+      .reddit-search-prompt-heading {
+        color: #d7dadc;
+      }
+
+      .reddit-search-prompt-subtext {
+        color: #818384;
+      }
+    }
+  </style></head>
+<body class="bg-white">
+
+<div role="region" aria-label="PHPverse 2025 announcement" class="w-full bg-green-500 text-white text-center py-1 text-sm font-medium z-50 hover:text-white hidden">
+    <a href="banner link stub" target="_blank" rel="noopener noreferrer" class="text-white no-underline hover:underline hover:text-white visited:hover:text-white">banner text stub</a>
+</div>
+
+<header x-data="{ isOpen: false }" @keydown.escape="isOpen = false" @click.away="isOpen = false" itemscope="" itemtype="https://schema.org/WPHeader">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between relative">
+        <div class="absolute inset-x-0 bottom-0 h-px bg-slate-900/5"></div>
+        <div class="flex lg:flex-1 items-center gap-4">
+            <a href="https://thephp.foundation/" class="-m-1.5 p-1.5">
+                <img class="h-16 w-auto" src="https://thephp.foundation/assets/icons/php_foundation.svg" alt="PHP Foundation">
+            </a>
+            <span class="text-[#27282c] font-semibold text-sm md:text-xl" itemprop="headline">The PHP Foundation</span>
+        </div>
+        <div class="flex lg:hidden">
+            <button type="button" @click="isOpen = true" class="m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                </svg>
+            </button>
+        </div>
+        <div class="hidden lg:flex lg:gap-x-12" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
+            <a href="https://thephp.foundation/structure" class="text-gray-700 hover:underline" itemprop="url">Who we are</a>
+
+            <a href="https://thephp.foundation/foundation" class="text-gray-700 hover:underline" itemprop="url">What we do</a>
+
+            <a href="https://thephp.foundation/blog" class="text-gray-700 hover:underline" itemprop="url">News</a>
+
+            <a href="https://thephp.foundation/presentations" class="text-gray-700 hover:underline" itemprop="url">Talks</a>
+
+            <a href="https://thephp.foundation/contact" class="text-gray-700 hover:underline" itemprop="url">Contact</a>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-8">
+            <a href="https://php.net" target="_blank" rel="noopener noreferrer" class="text-sm font-semibold leading-6 text-gray-700 nav-org hover:border-none hover:underline">
+                php.net</a>
+
+            <a href="/sponsor" class="button-link">Sponsor</a>
+        </div>
+    </nav>
+    <div x-show="isOpen" style="display: none;">
+        <div class="fixed inset-0 z-50"></div>
+        <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div class="mx-auto flex max-w-7xl items-center justify-between relative">
+                <div class="flex lg:flex-1 items-center gap-4">
+                    <a href="https://thephp.foundation/" class="-m-1.5 p-1.5">
+                        <img class="h-16 w-auto" src="https://thephp.foundation/assets/icons/php_foundation.svg" alt="PHP Foundation">
+                    </a>
+                    <span class="text-[#27282c] font-semibold text-sm md:text-xl">The PHP Foundation</span>
+                </div>
+                <div class="flex">
+                    <button type="button" @click="isOpen = false" class="m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <nav class="mt-6 flow-root px-6 py-6">
+                <div class="-my-6 divide-y divide-gray-500/10">
+                    <div class="space-y-2 py-6" itemscope="" itemtype="https://schema.org/SiteNavigationElement">
+                        <a href="https://thephp.foundation/structure" itemprop="url" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline">Who
+                            we are</a>
+
+                        <a href="https://thephp.foundation/foundation" itemprop="url" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline">What
+                            we do</a>
+
+                        <a href="https://thephp.foundation/blog" itemprop="url" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline">News</a>
+
+                        <a href="https://thephp.foundation/presentations" itemprop="url" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline">Talks</a>
+
+                        <a href="https://thephp.foundation/contact" itemprop="url" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 no-underline">Contact</a>
+                    </div>
+                    <div class="py-6">
+                        <a href="/sponsor" rel="noopener noreferrer" class="block py-2 text-center no-underline px-6 !text-white bg-[#7f52ff] rounded-3xl hover:bg-[rgba(127,82,255,.8)]">Sponsor</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="bg-white px-6 lg:px-8 my-16" itemscope="" itemtype="https://schema.org/Article">
+    <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
+        <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl" itemprop="name">Today's PHP Security Release, and How We're Strengthening PHP Security</h1>
+
+        <div class="flex flex-col md:flex-row md:items-center gap-x-4 text-xs mt-2">
+            Published on <span itemprop="datePublished">Oct 21, 2026</span>
+            <div>
+                                
+                                <span itemprop="publisher" itemscope="" itemtype="https://schema.org/Person"><a href="https://thephp.foundation" itemprop="url" class="no-underline" target="_blank" rel="noopener noreferrer"><span itemprop="name">The PHP Foundation</span></a></span>                                            </div>
+        
+                <div class="flex gap-x-2 mt-2 md:mt-0">
+                        <a href="https://thephp.foundation/blog/tag/news" class="rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100 no-underline">
+                News
+            </a>
+                        <a href="https://thephp.foundation/blog/tag/security" class="rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100 no-underline">
+                Security
+            </a>
+                    </div>
+                </div>
+
+        <div class="mt-6 text-xl leading-8" itemprop="text">
+            <p>Earlier today, the PHP project released PHP 8.5.12, 8.4.27, 8.3.36, and 8.2.35. These releases fix two critical vulnerabilities that, under the right conditions, allow an unauthenticated attacker to execute code on servers running PHP. If you run PHP, it is imperative that you update now. The <a href="https://www.php.net/archive/2026.php#2026-10-21-5">announcement on php.net</a> contains and references technical details on the vulnerabilities, attack vectors, and instructions on how to update on which systems.</p>
+
+<p>This post isn't about how to update. It's about how these vulnerabilities were found and fixed, what has changed in how PHP security is handled over the past two years, and what we need from the organizations that depend on PHP to keep PHP's security work going.</p>
+
+<h2 id="two-related-critical-remote-code-execution-vulnerabilities">Two related critical remote code execution vulnerabilities<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#two-related-critical-remote-code-execution-vulnerabilities" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+
+<ul>
+<li>CVE-2026-109618 / <a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w">GHSA-w8hw-w9fx-j79w</a>: <strong>RCE via OOM corruption</strong> (out-of-memory): If a request reached PHP's memory_limit at exactly the wrong moment, PHP could leave partially initialized internal data behind and later treat it as valid, corrupting memory. On Apache with mod_php, an unauthenticated request can trigger this before any application code runs, and full remote code execution was demonstrated with default settings. Remote code execution was also confirmed on PHP-FPM through application-level code paths.</li>
+<li>CVE-2026-109619 / <a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp">GHSA-6wmf-4rv5-p3rp</a>: <strong>RCE via stale global state</strong>: A fatal error at the wrong point could leave internal state pointing to memory that belonged to a previous request. A later request handled by the same worker could then use that freed memory. A use-after-free and worker crash were confirmed, and the reporter demonstrated remote code execution against a real-world application running on Apache with mod_php.</li>
+</ul>
+
+<p>Both issues sit in parts of PHP that nearly every request touches: memory management and error handling. Their central place in PHP is what made both vulnerabilities serious, and also so hard to fix without breaking compatibility, hurting performance, or forcing changes on the large ecosystem of third-party extensions.</p>
+
+<h2 id="a-first-external-audit-and-increased-security-focus">A first external audit and increased security focus<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#a-first-external-audit-and-increased-security-focus" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+
+<p>In 2024, PHP underwent its first <a href="https://thephp.foundation/blog/2025/04/10/php-core-security-audit-results/">external security audit</a> in years. The PHP Foundation secured funding from the Sovereign Tech Agency to organize this audit through <a href="https://ostif.org/">OSTIF</a>, and it was carried out by <a href="https://www.quarkslab.com/">Quarkslab</a>. While fixing one of the issues Quarkslab reported, a PHP core developer contracted by the PHP Foundation found the first signs of the OOM problem behind CVE-2026-109618. In 2024, a potential exploit for the OOM problem was theorized, but no concrete vectors were found and other concrete issues with clear impact overshadowed these concerns.</p>
+
+<p>To fix the OOM problem, the PHP security team developed several competing approaches, but each came with its own trade-offs: backward compatibility breaks, new denial-of-service potential, or requiring changes to many third-party extensions which seemed impossible to coordinate. The PHP security team, operating on consensus, struggled to choose between these and feared the repercussions of shipping the wrong choice. Combined with the lack of a known path to remote code execution and the small team of core developers with the necessary deep knowledge of the engine occupied with many responsibilities, this decision process caused work on a fix to stall and restart repeatedly over months. We won't pretend otherwise: the delay was a structural failure, caused by both the security team's decision process and its lack of resources. The security team has since started changing its processes, and that work continues, so that decisions can be made by majority and compromises are encouraged.</p>
+
+<h2 id="building-a-sustainable-professional-security-organization">Building a sustainable professional security organization<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#building-a-sustainable-professional-security-organization" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+
+<p>Over the last months the way PHP security work is organized has changed considerably. In May 2026, the PHP Foundation created the <a href="https://thephp.foundation/blog/2026/05/18/announcing-ecosystem-security-team/">Ecosystem Security Team</a>, which works alongside the PHP security team on triage, coordination, and hardening. Volker Dusch's work as AI Security Engineer in Residence at the PHP Foundation has significantly improved communication and collaboration between the PHP security team and the Foundation. <a href="https://thephp.foundation/blog/2026/07/14/welcoming-alexandre-daubois/">Alexandre Daubois joined</a> the PHP Foundation in July to help the PHP security team triage, handle, and fix security reports and <a href="https://thephp.foundation/blog/2026/09/09/welcome-daniel-scherzer/">Daniel Scherzer joined</a> in September to take on hardening work.</p>
+
+<p>Earlier this year, we worked with <a href="https://alpha-omega.dev/">Alpha-Omega</a> to scan PHP with Anthropic's Claude Mythos. But since the Mythos scan, we have added other tools, including OpenAI's Daybreak Red for validating reports and exploits, alongside sanitizer builds and reproduction environments that match our CI on every platform PHP supports.</p>
+
+<p>The PHP Foundation got the PHP project into the <a href="https://openai.com/index/patch-the-planet/">Patch the Planet</a> program, as part of which security firm <a href="https://calif.io/">Calif</a> began an audit of PHP on July 30th, 2026. On August 11th, researcher Ryan A at Calif reported an unconditional remote code execution with the same root cause as the OOM problem we had found in 2024. <a href="https://openai.com/">OpenAI</a> independently reported the same root cause, followed by further attack vectors from OpenAI on September 18th and from <a href="https://www.wiz.io/">Wiz</a> on August 24th. More recently, <a href="https://trailofbits.com/">Trail of Bits</a> has also been auditing PHP. The reports from Calif, OpenAI, and Wiz made the full impact of the OOM problem clear, and from August 11th onward, fixing it became the top priority for all of the PHP Foundation's team working on security. Without the Foundation’s funding it would have been impossible to have multiple people work on this issue full time, eventually through weekends and around the clock to coordinate and communicate with other involved parties.</p>
+
+<p>The growth of AI-assisted research also means the PHP security team receives far more reports than before. As Alexandre Daubois described last week in <a href="https://thephp.foundation/blog/2026/10/14/how-the-php-security-team-handles-your-reports/">How the PHP Security Team Handles Your Reports</a>, the team has published 15 CVEs since July 1st and worked through more than 100 reports that turned out to be invalid, duplicates, or not reproducible. AI helps the team validate reports and group reports sharing the same root cause, but a person makes every call and works on every patch.</p>
+
+<h2 id="leak-and-disrupted-disclosure">Leak and disrupted disclosure<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#leak-and-disrupted-disclosure" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+
+<p>The coordinated disclosure of these vulnerabilities worked well until 2 days ahead of the targeted release date.</p>
+
+<p>On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and <a href="https://www.php.net/archive/2026.php#2026-10-20-1">published it at 19:30 UTC</a>. It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC. Distributors were still packaging the fix, so releasing immediately would have left many users without an easy way to update. Moving the release forward by one day was the best compromise between acting quickly, giving people time to prepare, and making sure everyone had a simple update path when the vulnerabilities were disclosed.</p>
+
+<p>As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues, mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st.</p>
+
+<p>Mitigation advice we started providing to a few critical infrastructure providers around Oct 20th 23:00 UTC, may have leaked as well. The PHP security team closely monitored and inspected appearing PoCs after the leak but did not identify any functional exploits at the time of release/public disclosure.</p>
+
+<p>On October 21st at 07:41 UTC, more than six hours before the coordinated release, Chainguard unilaterally broke the embargo and published built images containing the fix. Like other distributors, Chainguard had received the patch in advance so its users could update the moment the vulnerabilities were disclosed. Any attacker could now study the fix in binary form while every other PHP user was still waiting for the release. This disregarded weeks of work by many parties toward a coordinated disclosure.</p>
+
+<h2 id="a-cautiously-optimistic-outlook">A cautiously optimistic outlook<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#a-cautiously-optimistic-outlook" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+
+<p>Today's release shows the progress we’re making in how PHP security is handled. Once the full impact of the OOM problem was understood in August, the security team, the foundation, and the release managers delivered a fix for this deeply rooted problem across all supported branches, and distributions and LTS vendors received the patch ahead of time so their users can update quickly.</p>
+
+<p>We are confident that a serious vulnerability with a fix stuck on hard trade-offs would now reach the PHP Foundation leadership much sooner, as we’re changing processes so leadership can help steer the situation to a timely resolution. We are now prioritizing measures to make sure vulnerabilities that need similarly complex fixes get resolved faster when they are reported in the future. The PHP Foundation and the PHP security team learned a lot in the last weeks and will work to turn their experiences into lasting repeatable processes.</p>
+
+<h2 id="what-we-need-from-you">What we need from you<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#what-we-need-from-you" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+
+<p>PHP runs a large share of the web, including government services, online stores, banks, media sites, and much of the software that businesses rely on every day. Yet security work on PHP itself still depends on a small group of foundation-funded developers and a little volunteer help.</p>
+
+<p>Tools now find bugs faster than ever, for defenders and attackers alike, and the number of reports will keep growing. What tools cannot do is decide on the right fix for a long-standing design decision in the engine, weigh the compatibility trade-offs, and review the patch. Making those decisions takes experienced engineers who know the entire PHP codebase, and today there are too few of them.</p>
+
+<p>A core part of the PHP Foundation's mission is to grow the number of engineers with deep knowledge of the PHP codebase and give the security team the resources it needs. We can only achieve this goal with funding from those who depend on PHP:</p>
+
+<ul>
+<li>Companies that build products and services on PHP: please sponsor the PHP Foundation at a level that reflects how much you rely on it.</li>
+<li>Hosting providers, cloud platforms, and distributions that deliver PHP to millions of users.</li>
+<li>Governments and public institutions whose services run on PHP. The German Sovereign Tech Agency's funding of the 2024 audit shows what public investment can achieve, and we need more of it, on a sustained basis.</li>
+</ul>
+
+<p>Sponsoring the PHP Foundation is the most direct way to ensure structural issues like the OOM vulnerability are addressed sustainably, before they turn into emergencies. Become a sponsor at <a href="https://thephp.foundation/sponsor/">thephp.foundation/sponsor</a>, and if your organization would like to talk about a larger commitment, <a href="https://thephp.foundation/contact">get in touch</a>.</p>
+
+<h2 id="thank-you">Thank you<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#thank-you" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+
+<p>Thank you to the PHP security team, volunteers and PHP Foundation contractors alike, the release managers, and the package maintainers at distributions and LTS vendors who made these releases possible. Thank you to Calif, especially Ryan A, Wiz, OpenAI Codex Security, especially Amy Burnett, OSTIF, and Quarkslab for their research and responsible disclosure; to Alpha-Omega, OpenAI, and Anthropic for giving the team access to their tools and funding some of the security work; to the Sovereign Tech Agency for funding the 2024 audit; and to all of our sponsors, whose support made this work possible.</p>
+
+        </div>
+
+        <ul role="list" class="border-t pt-5 my-5 divide-y divide-gray-200 xl:col-span-3">
+                                                <li class="flex flex-col gap-10 py-12 first:pt-0 last:pb-0 sm:flex-row">
+                <img src="/assets/icons/php_foundation.svg" alt="The PHP Foundation" class="w-16 h-16 rounded-full lg:w-20 lg:h-20">
+                <div class="max-w-xl flex-auto leading-6 space-y-1">
+                    <div class="text-lg/8 font-semibold tracking-tight text-gray-900">The PHP Foundation</div>
+                                        <ul class="flex space-x-4 list-none p-0 m-0">
+                                                <li>
+                            <a href="https://www.linkedin.com/company/phpfoundation/" class="text-gray-400 hover:text-gray-500" rel="noreferrer noopener" target="_blank" itemprop="url">
+                                <span class="sr-only">LinkedIn</span>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        
+                                                <li>
+                            <a href="https://phpc.social/@thephpf" class="text-gray-400 hover:text-gray-500" rel="noreferrer noopener" target="_blank" itemprop="url">
+                                <span class="sr-only">Mastodon</span>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        
+                                                <li>
+                            <a href="https://twitter.com/thephpf" class="text-gray-400 hover:text-gray-500" rel="noreferrer noopener" target="_blank" itemprop="url">
+                                <span class="sr-only">X</span>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        
+                                                <li>
+                            <a href="https://github.com/ThePHPF/" class="text-gray-400 hover:text-gray-500" rel="noreferrer noopener" target="_blank" itemprop="url">
+                                <span class="sr-only">GitHub</span>
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"></path>
+                                </svg>
+                            </a>
+                        </li>
+                                            </ul>
+                </div>
+            </li>
+                                </ul>
+
+        <div class="border-t pt-5 my-5">
+            <div class="redditify reddit-thread" data-reddit-thread="" data-reddit-search="PHP" data-reddit-suggest-title="Today's PHP Security Release, and How We're Strengthening PHP Security" data-reddit-max-depth="10" data-reddit-show-content="false" data-reddit-show-controls="true">
+    
+    <div class="reddit-post-header">
+      <div class="reddit-post-subreddit">
+        <a href="https://www.reddit.com/r/PHP" target="_blank" rel="noopener noreferrer">
+          r/PHP
+        </a>
+      </div>
+      <h2 class="reddit-post-title">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/" target="_blank" rel="noopener noreferrer">
+          Today's PHP Security Release, and How We're Strengthening PHP Security
+        </a>
+      </h2>
+      <div class="reddit-post-meta">
+        <span class="reddit-post-author">
+          Posted by 
+          <a href="https://www.reddit.com/user/elizabethn" target="_blank" rel="noopener noreferrer">
+            u/elizabethn
+          </a>
+        </span>
+        <span class="reddit-post-date">4 days ago</span>
+        <span class="reddit-post-score">445 points</span>
+        <span class="reddit-post-comments">88 comments</span>
+      </div>
+    </div>
+  
+    
+    
+      <div class="reddit-comments">
+        
+    <ul class="reddit-comment-list depth-1">
+      
+    <li class="reddit-comment" id="comment-pi0l5c4">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/E3K" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            E3K
+          </a>
+          <span class="reddit-comment-score">153 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><blockquote>
+<p>On October 21st at 07:41 UTC, more than six hours before the coordinated release, Chainguard unilaterally broke the embargo and published built images containing the fix.</p>
+
+</blockquote>
+
+<p>Wow, fuck those guys.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0l5c4/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-19rg36xdmfw02">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Arbaal" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Arbaal
+          </a>
+          <span class="reddit-comment-score">71 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>We took our website down this morning when the "PoC"s were released, only serving a static website. Our customers were not pleased. Then we got contacted by Chainguard affiliates using our public support form if we would like to schedule a meeting with them, so that they could sell us their security services.</p>
+
+
+<p>Reading that they broke the embargo now and thus endangered half the internet makes me mad. I will make sure our company will never work with them.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg36xdmfw02/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-3">
+      
+    <li class="reddit-comment" id="comment-19rgde5zxny6d">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Ok_Evidence_9745" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Ok_Evidence_9745
+          </a>
+          <span class="reddit-comment-score">19 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p><del>Chainguard publishes at 07:41 UTC, first actual in the wild exploit at 08:36 UTC, 55 minutes later</del></p>
+
+
+<p><a href="https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/" target="_blank" rel="noopener noreferrer">https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/</a></p>
+
+
+<p>See below</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgde5zxny6d/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-4">
+      
+    <li class="reddit-comment" id="comment-19rhx1scrvf7m">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/naderman" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            naderman
+          </a>
+          <span class="reddit-comment-score">4 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>From that article it sounds like just someone probing / attempting to send malicious requests to corrupt memory, but not having a working second stage / path to RCE at 8:36, so that wasn't a wild exploit best I can tell from that article. That only happened later after disclosure.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhx1scrvf7m/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-5">
+      
+    <li class="reddit-comment" id="comment-19rhy1083hy2q">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Ok_Evidence_9745" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Ok_Evidence_9745
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Updated my comment, thanks</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhy1083hy2q/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rhxmy8rfvsy">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/vanamerongen" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            vanamerongen
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>that's fucking crazy</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhxmy8rfvsy/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rg64cvgfyrn">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/cosmic-parsley" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            cosmic-parsley
+          </a>
+          <span class="reddit-comment-score">46 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>This is a warning to everyone involved in OSS security to delete Chainguard emails from your coordination list. They're going to do it again if this went peachy.</p>
+
+
+<p>Eat a bag of dicks, what a way to be uncooperative.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg64cvgfyrn/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rg8pu06zb9e">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/xroni" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            xroni
+          </a>
+          <span class="reddit-comment-score">21 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>They should NOT get any more images in the future ahead of release.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg8pu06zb9e/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0ugm4">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Ok_Evidence_9745" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Ok_Evidence_9745
+          </a>
+          <span class="reddit-comment-score">20 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Context: <a href="https://news.ycombinator.com/item?id=50176735" target="_blank" rel="noopener noreferrer">https://news.ycombinator.com/item?id=50176735</a></p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0ugm4/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-3">
+      
+    <li class="reddit-comment" id="comment-pi0vptf">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/BoredPudding" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            BoredPudding
+          </a>
+          <span class="reddit-comment-score">27 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><blockquote>
+<p>but I made the call to get these out early when exploits hit in the wild.</p>
+
+</blockquote>
+
+<p>Meanwhile the PHP Foundation came to another conclusion</p>
+
+
+<blockquote>
+<p>The PHP security team closely monitored and inspected appearing PoCs after the leak but did not identify any functional exploits at the time of release/public disclosure.</p>
+
+</blockquote>
+
+<p>I also saw a lot of "PoCs", so I understand the fear, but releasing the patch early and thus risking 70% of the web just to make sure you get less risk is absolutely wild and irresponsible.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0vptf/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-4">
+      
+    <li class="reddit-comment" id="comment-19rgd8c6v6y81">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Ok_Evidence_9745" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Ok_Evidence_9745
+          </a>
+          <span class="reddit-comment-score">20 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p><a href="https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/" target="_blank" rel="noopener noreferrer">https://ellio.tech/en/blog/php2shell-what-we-observed-and-what-to-do/</a></p>
+
+
+<p>Looks like chainguard released their binaries 55 minutes before actual in the wild exploits happened. I'm gonna need some real convincing that chainguard isn't responsible for this.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgd8c6v6y81/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rg2z5bo9lms">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Ok_Evidence_9745" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Ok_Evidence_9745
+          </a>
+          <span class="reddit-comment-score">13 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I sure would like to see some evidence from chainguard that they had seen active exploits in the wild.&nbsp;</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg2z5bo9lms/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rij3rxj0ptu">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/baroxie" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            baroxie
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">2 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Good news is <a href="https://www.melurna.com/blog/php2shell-patch-status/" target="_blank" rel="noopener noreferrer">23% of PHP sites were patched</a> in the first 24 hours</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rij3rxj0ptu/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rg1vsnsmqwx">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/E3K" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            E3K
+          </a>
+          <span class="reddit-comment-score">9 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Oof, that makes it worse than I thought. Terrible decision on his part. </p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg1vsnsmqwx/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rhvnm2nea4l">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/gerry_mandy" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            gerry_mandy
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Devil's advocate: Chainguard claims to have done this only AFTER “exploits [had already] hit in the wild”.</p>
+
+
+<p>Isn't that the same criteria the <em>PHP Foundation itself</em> was also using? (“We reserve the right to release earlier if…we see evidence of active exploitation in the wild.”)</p>
+
+
+<p>I won't defend why Chainguard didn't loop PHP Foundation in for an <em>early</em> coordinated release, but I think the situation is "less awful" than a first-reading makes it seem.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhvnm2nea4l/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-3">
+      
+    <li class="reddit-comment" id="comment-19rhzkwz1l1vk">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/AltrntivInDoomWorld" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            AltrntivInDoomWorld
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><blockquote>
+<p>"less awful" than a first-reading makes it seem.</p>
+
+</blockquote>
+
+<p>I would say it's even worse. He was part of the chat, could have coordinated release earlier if he had an evidence of an actual exploit in the wild.</p>
+
+
+<p>But he did not. He just wanted to advertise his company.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhzkwz1l1vk/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rhxx6npb6bl">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/vanamerongen" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            vanamerongen
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>There was no actual exploitation. There were only probes and and exploitation *attempts*.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhxx6npb6bl/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rg4v78id7lv">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/mopollo" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            mopollo
+          </a>
+          <span class="reddit-comment-score">-8 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>thanks php, </p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg4v78id7lv/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0mni0">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/SwordfishBoth7341" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            SwordfishBoth7341
+          </a>
+          <span class="reddit-comment-score">130 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>If every company profiting off PHP gave even an ounce of support, the team would have the funds to deal with these things in a timely manner. I feel bad for the team after reading this. They are mostly volunteers and now they have all these corporate fuckers baying for blood because of production outages for software they've never even considered funding.</p>
+
+
+<p>This should be a wake up call. We can't expect the infrastructure of the internet to survive in a post AI world without support. If you use it, and profit from it, fucking support it.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0mni0/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-pi0plif">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Hithaeglir" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Hithaeglir
+          </a>
+          <span class="reddit-comment-score">23 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><blockquote>
+<p>This should be a wake up call.</p>
+
+</blockquote>
+
+<p>This was not the first time, and probably not the last time. The wake up call happens, unfortunately, when the patch is not coming anymore and companies suffer the damage. Doing nothing has worked well so far.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0plif/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-3">
+      
+    <li class="reddit-comment" id="comment-19rgekd74r075">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/djmj1000" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            djmj1000
+          </a>
+          <span class="reddit-comment-score">5 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>There is no need to pay if someone fixes stuff for free. If they are volunteere they have no obligation to fix anything. Dont make things your responsibility you are not responsible for. I would go on holiday and let my phone ring all time and only come to office if the pain and price increased for something that is world wide used. Else why bother.&nbsp;</p>
+
+
+<p>Responsibility comes when someone gives you a maintenance contract. But then the real cost of software would show up since so much is free and open source developed.&nbsp;</p>
+
+
+<p>Last time a big bang asked for support on my updated fork of an archived library i needed to keep my system and company running. The moment i told them we can make a small contract for my work i did not hear again. Like they are a billion dollar company but think to get things for free. Hard to understand.&nbsp;</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgekd74r075/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-4">
+      
+    <li class="reddit-comment" id="comment-19rhyt7qko1j8">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/LLKMuffin" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            LLKMuffin
+          </a>
+          <span class="reddit-comment-score">3 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Exactly, the PHP Foundation members should've just turned off their devices and went on vacation once news of the CVEs broke.</p>
+
+
+<p>Not their problem LLMs that are powerful enough to find holes in any and every piece of software have now proliferated beyond control. Almost like they (or the rest of us) never asked for such a thing to exist, but nonetheless are forced to compete with, in an endless game of whack-a-mole that human-built software will likely be on the losing side of.</p>
+
+
+<p>Anyways, since it's all about AI now, I'm sure these frontier labs that have been leeching off of the PHP Foundation's unpaid work can let their slopbots make a fork of PHP that's perfectly secured (at least until a more capable model finds holes in that too), and use that instead from now on :)</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhyt7qko1j8/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-5">
+      
+    <li class="reddit-comment" id="comment-19ri6cdw4fqv8">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/djmj1000" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            djmj1000
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>True words. Security and developers now are in a race to fix issues the ai finds for no immediate reason. The AI is actually helping hackers.</p>
+
+
+<p>We had more time to fix things when hacking needed many resources and a few specialists.</p>
+
+
+<p>How else could a 20 year old security problem now be found. Most things would never be found by humans.&nbsp;</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19ri6cdw4fqv8/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-6">
+      
+    <li class="reddit-comment" id="comment-19rier80ji18k">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/LLKMuffin" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            LLKMuffin
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">2 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Precisely. I would be fine with these frontier labs using their unlimited money and thousands of agents to find holes in FOSS... If they disclosed it privately to the maintainers of those repos so that a fix can be planned out and pushed in a timely manner.</p>
+
+
+<p>What they're doing instead (disclosing things publicly with zero warning) is extremely irresponsible, and only serves their own agendas (i.e. "prove" that their work is worth funding), at a time when they're running a massive deficit. How convenient.</p>
+
+
+<p>It's self-serving and rotten to the core, fuck em.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rier80ji18k/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgc551oqbph">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/russellvt" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            russellvt
+          </a>
+          <span class="reddit-comment-score">5 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>We didn't even learn from the old SSL fiasco. LOL</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgc551oqbph/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgi3fpb0l38">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/big_trike" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            big_trike
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>What are the corporations going to do?  Switch to a paid platform? That idea will get nixed when they realize the cost.  It would be far cheaper to donate a bit to fund PHP. </p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgi3fpb0l38/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-4">
+      
+    <li class="reddit-comment" id="comment-19rh3tj5gocld">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Hithaeglir" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Hithaeglir
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>But the disaster must happen first. Now they don’t have to pay anything.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rh3tj5gocld/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rggbd230fk1">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/derjanni" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            derjanni
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>100% agree. But considering how much of these "security firms" appeared recently makes me think about how much they "need" such incidents.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rggbd230fk1/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rhyj09exbcz">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Hylaar" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Hylaar
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I agree completely!</p>
+
+
+<p>My own attempts to get my employers over the years to contribute a little to the open source projects they used were always met with nice words and no action.</p>
+
+
+<p>Unfortunately, the greed of corporations is so great that they won’t even spend money when it is in the company’s best interest, but won’t reflect badly on a specific person when something bad happens due to money not being spent. See: wages.</p>
+
+
+<p>I honestly think that PHP should consider creating a 4-hour security response service plan and charge the hell out of it! That is something that many CSOs and CTOs would pay for because it counts as CYA. (See what I did there with my TLAs?)</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhyj09exbcz/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgoyuhs0891">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/na_me_ku_ji" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            na_me_ku_ji
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>ハックのコストがめちゃくちゃ下がったから特にね<br>
+今まで考慮してこなかったリスクももれなく考慮しないといけない</p>
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgoyuhs0891/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rhwejhfs4oy">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/light_oxygen" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            light_oxygen
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>And they're allegedly spending trillions on useless AI. Whilst the very useful things is staring at them.</p>
+
+
+<p>Maybe China should start funding these things. </p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhwejhfs4oy/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0nrqd">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/GeneralSEOD" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            GeneralSEOD
+          </a>
+          <span class="reddit-comment-score">-12 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I've been feeling this with a lot of things.</p>
+
+
+<p>YouTube entirely was/is a business that basically gives you unlimited free video, and people still complain that they gets ads. People then complain the people making the content do ads. And all of those ads are still far less than what we dealt with on cable TV.</p>
+
+
+<p>We as a species just complain 24/7 about everything.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0nrqd/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-3">
+      
+    <li class="reddit-comment" id="comment-pi0prbn">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/deedoedee" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            deedoedee
+          </a>
+          <span class="reddit-comment-score">5 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>This isn't the place to shill for Google my guy. I promise you they're not having trouble paying their employees.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0prbn/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-4">
+      
+    <li class="reddit-comment" id="comment-19rg1kv3xsoub">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/GeneralSEOD" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            GeneralSEOD
+          </a>
+          <span class="reddit-comment-score">-2 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Shilling for google? This problem exists everywhere. I used YouTube as an example because we all know it.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg1kv3xsoub/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0o3jl">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/SteroidAccount" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            SteroidAccount
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><blockquote>
+<p>And all of those ads are still far less than what we dealt with on cable TV.</p>
+
+</blockquote>
+
+<p>You must have not have used youtube in a while.  One video has a 1.5 hour ad and most videos, in addition to ads, have "sponsored" ads built in.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0o3jl/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-4">
+      
+    <li class="reddit-comment" id="comment-19rg1lt4rrao4">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/GeneralSEOD" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            GeneralSEOD
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I use it every day.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg1lt4rrao4/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rhc7sjec0xx">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/DrinkMoreGlorp" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            DrinkMoreGlorp
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Of course we complain. If we didn't complain we'd still be hunter-gathering in the plains. "Ugh, not this again" is the mother of invention.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhc7sjec0xx/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgfxlj8efgk">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/archon810" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            archon810
+          </a>
+          <span class="reddit-comment-score">28 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>A very well-articulated post. Thank you, PHP Foundation and the PHP security team!</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgfxlj8efgk/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rg656012i80">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/cosmic-parsley" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            cosmic-parsley
+          </a>
+          <span class="reddit-comment-score">6 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p><a href="/u/elizabethn" target="_blank" rel="noopener noreferrer">u/elizabethn</a> maybe crosspost to <a href="/r/programming" target="_blank" rel="noopener noreferrer">r/programming</a> to keep discussion in one place?</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg656012i80/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-19rg735a473k1">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/elizabethn" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            elizabethn
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>good idea - will do!</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg735a473k1/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgfhinx08u8">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/DangKilla" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            DangKilla
+          </a>
+          <span class="reddit-comment-score">3 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>This ruined my whole day lol</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgfhinx08u8/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-19rgrmhvfsclh">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/backporch_wizard" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            backporch_wizard
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Took today through Friday off. Spent the day outside and am now just reading about it here.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgrmhvfsclh/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0kosu">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Neuro_Skeptic" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Neuro_Skeptic
+          </a>
+          <span class="reddit-comment-score">28 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>TLDR: The OOM issue has been known since 2024 and they sat on it. "We won't pretend otherwise: the delay was a structural failure, caused by both the security team's decision process and its lack of resources"</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0kosu/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-pi0ldyq">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/MorrisonLevi" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            MorrisonLevi
+          </a>
+          <span class="reddit-comment-score">159 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I think you need to quote the context leading up to that, or else it sounds like they just ignored it:</p>
+
+
+<blockquote>
+<p>While fixing one of the issues Quarkslab reported, a PHP core developer contracted by the PHP Foundation found the first signs of the OOM problem behind CVE-2026-109618. In 2024, a potential exploit for the OOM problem was theorized, but no concrete vectors were found and other concrete issues with clear impact overshadowed these concerns.</p>
+
+
+<p>To fix the OOM problem, the PHP security team developed several competing approaches, but each came with its own trade-offs: backward compatibility breaks, new denial-of-service potential, or requiring changes to many third-party extensions which seemed impossible to coordinate. The PHP security team, operating on consensus, struggled to choose between these and feared the repercussions of shipping the wrong choice. Combined with the lack of a known path to remote code execution and the small team of core developers with the necessary deep knowledge of the engine occupied with many responsibilities, this decision process caused work on a fix to stall and restart repeatedly over months.</p>
+
+</blockquote>
+
+<p>Meaning, there was no known attack vector at the time, and there were other high priority items with clearer impact to address.</p>
+
+
+<p>Yes, it's a failing and something needs to improve. Funding more people will help. I just wanted to provide the additional context because your tldr was, in my opinion, oversimplified.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0ldyq/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-3">
+      
+    <li class="reddit-comment" id="comment-pi0of83">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/divinecomedian3" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            divinecomedian3
+          </a>
+          <span class="reddit-comment-score">-41 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><blockquote>
+<p>The PHP security team, operating on consensus, struggled to choose between these and feared the repercussions of shipping the wrong choice.</p>
+
+</blockquote>
+
+<p>i.e., they sat on it. Then it became a huge problem, and they were forced to make a decision.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0of83/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0n6mn">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Neuro_Skeptic" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Neuro_Skeptic
+          </a>
+          <span class="reddit-comment-score">-46 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I may have oversimplified slightly, but it's clear from the statement that the process was inadequate. I don't think "sat on it" is inaccurate.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0n6mn/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-4">
+      
+    <li class="reddit-comment" id="comment-pi0nsq9">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Aytewun" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Aytewun
+          </a>
+          <span class="reddit-comment-score">37 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>If I read your initial message and didn't have additional context "Sat on it" would suggest that they knew about it, but didn't do anything which wasn't the case. I would maybe say "didn't find a viable solution".</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0nsq9/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0qobh">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/gregor7777" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            gregor7777
+          </a>
+          <span class="reddit-comment-score">26 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Nah bro you did them dirty</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0qobh/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0kyve">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Tockdom" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Tockdom
+          </a>
+          <span class="reddit-comment-score">56 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>The second interesting point is this one:</p>
+
+
+<p>"On August 11th researcher Ryan A at Calif reported an unconditional remote code execution with the same root cause as the OOM problem we had found in 2024. OpenAI independently reported the same root cause on the same day"</p>
+
+
+<p>There are so many news about OpenAI releasing stuff similar to researchers lately that it cant be a coincident anymore imo. Either researchers using AI do not enable private chats or OpenAI is scanning chats of "important" people like researchers or politicians.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0kyve/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-3">
+      
+    <li class="reddit-comment" id="comment-pi0mmmi">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/krileon" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            krileon
+          </a>
+          <span class="reddit-comment-score">41 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><blockquote>
+<p>or OpenAI is scanning chats of "important" people like researchers or politicians.</p>
+
+</blockquote>
+
+<p>That's exactly what they're doing. Everyone is naive as hell to think their little "private chat" checkbox is doing a goddamned thing. Has no one learned anything from modern mega corporations? They get caught, pay a fine, and laugh about your misfortune. Stop using cloud models or lose all the data you feed into it.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0mmmi/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-4">
+      
+    <li class="reddit-comment" id="comment-19rg5g3rtvcg4">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Neradnap" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Neradnap
+          </a>
+          <span class="reddit-comment-score">13 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>just like my survey is anonymous to HR 😹 </p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg5g3rtvcg4/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0p6sb">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/afl_ext" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            afl_ext
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Local models are almost useless except if you have like 1 tb or vram<br>
+Its very sad i wish it changed</p>
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0p6sb/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-5">
+      
+    <li class="reddit-comment" id="comment-pi0plra">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/krileon" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            krileon
+          </a>
+          <span class="reddit-comment-score">4 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>No they're not, lol. I've been using local for a long time now on my 7900XT. Qwen3.8 27B is ridiculously good at coding and tool calling. Obviously frontier models are better, but local is not far behind. It's even better if you've a bit more memory to be able to run Qwen3.8 Flash Next.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0plra/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0rof6">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Nuitari8" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Nuitari8
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>LOL, no.</p>
+
+
+<p>Last night when <a href="http://sansec.io" target="_blank" rel="noopener noreferrer">sansec.io</a> leaked one of the attack vectors I downloaded the php-src and using claude code + ollama locally with qwen3.8 27b I've identified the section of vulnerable code and confirmed the info they leaked in their page's metadata. That was all on a single 5090</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0rof6/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-6">
+      
+    <li class="reddit-comment" id="comment-19rg4oqiyeqwx">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/round-earth-theory" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            round-earth-theory
+          </a>
+          <span class="reddit-comment-score">3 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>A single 5090 is still a large investment. And NVidia isn't even planning to release anymore for the consumer market.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg4oqiyeqwx/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-7">
+      
+    <li class="reddit-comment" id="comment-19rghy04eh3gg">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Nuitari8" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Nuitari8
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I really didn't notice the price going up 3x since I bought mine, crazy times. </p>
+
+
+<p>But you can use 2 5080s for the same amount of VRAM. </p>
+
+
+<p>Or multiple B580s (those are relatively cheap).</p>
+
+
+<p>Radeon also works. </p>
+
+
+<p>ollama will split the model across GPUs. </p>
+
+
+<p>Its really not that difficult to run a model locally. </p>
+
+
+<p>And that's on the strictest definition of local, lots of providers out there will run the model for you with no safety in the way. </p>
+
+
+<p>And if someone is a criminal, using a stolen credit card to get a cloud account isn't such a big leap.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rghy04eh3gg/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgxuqcrfsn7">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Stunning-Brush4905" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Stunning-Brush4905
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Qwen3.8 27b works just as well on a RTX 3090. Not as pricey as 5090 and you can potentially find a better price if its second hand. You don't need a 5090 or any 5000 series</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgxuqcrfsn7/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0pnmz">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Infinite_Music2059" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Infinite_Music2059
+          </a>
+          <span class="reddit-comment-score">6 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>They were working with OpenAI on this. Agents were doing the work in combination with the researchers' knowledge of this particular issue.</p>
+
+
+<p><a href="https://calif.io/php2shell/" target="_blank" rel="noopener noreferrer">https://calif.io/php2shell/</a></p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0pnmz/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-4">
+      
+    <li class="reddit-comment" id="comment-19rg256il7yyr">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/E3K" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            E3K
+          </a>
+          <span class="reddit-comment-score">8 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Holy slop, Batman. </p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg256il7yyr/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0oex8">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/SpiritualName2684" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            SpiritualName2684
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Literally no reason to think this. That company does pentensting for OpenAI.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0oex8/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgyk21q1akg">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/s__n" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            s__n
+          </a>
+          <span class="reddit-comment-score">3 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>After reading the <a href="https://securitylabs.datadoghq.com/articles/php2shell-critical-vulnerabilities-in-php/" target="_blank" rel="noopener noreferrer">Datadog article</a> I can see why the security team felt paralyzed. The root issue here is that PHP has been sloppy with memory allocation failures for decades. This patch to fix the issue is massive and adds complexity at hundreds? thousands? of call sites for allocation. Major parts of the allocation API has been reworked and has totally new semantics. Scrolling through the diffs you can see many sites where they had to add proper initialization and cleanup code they'd skipped before.</p>
+
+
+<p>There's been a culture of not handling failed memory allocation properly. Looking at the complexity of this patch I have to ask what got missed?</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgyk21q1akg/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rhfdcc03av4">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/EGreg" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            EGreg
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Many people are unable to patch PHP for reasons like: old versions, legacy environments, not able to recompile, etc.</p>
+
+
+<p>For them, there is a far easier solution. Share with friends who may not be sysadmins that can easily patch php:</p>
+
+
+<p><a href="https://github.com/Qbix/proxy" target="_blank" rel="noopener noreferrer">https://github.com/Qbix/proxy</a></p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhfdcc03av4/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19ri378bc4hj7">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/cshaiku" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            cshaiku
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Uoon hearing the news, I wrote a Golang based upload daemon, effectively mitigating the need entirely for using PHP's built in upload feature.</p>
+
+
+<p>Mods, may I post the git repo link here? I welcome any and all contributions if it means someone can use it who may not have the ability to update their PHP system.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19ri378bc4hj7/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgd6eiq5b5w">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/titpetric" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            titpetric
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Supply chain risk should also consider the C runtime is an long-term unsolvable problem.</p>
+
+
+<p>C is not memory safe, however that can be relatively quickly solvable with a legitimized (zend/php foundation) rust or some other memory safe language port. A runtime replacement is a permanent solution to always-possible involuntary RCEs.</p>
+
+
+<p>To classify possible php RCEs into two categories:</p>
+
+
+<ul>
+<li>involuntary RCE: the php C runtime (zend engine)</li>
+<li>voluntary RCE: the php VM runtime (RCE as a service with eval, exec, passthru and whatnot)</li>
+</ul>
+
+<p>I wouldn't think a port would really solve the problem of not having engineers with familiarity with the php codebase, nurturing a strong core engineering team is a challenge a port wouldn't solve. While EOL is a nice thought, if you don't get to a forward compatible state, nobody upgrades. </p>
+
+
+<p>While I can emphatize with Ondrejs patches and the affected deployments, some people should review choices that lead to running after it's EOL.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgd6eiq5b5w/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-19rgilh3z6qbp">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/big_trike" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            big_trike
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>The language itself would be a great start, but it relies on a lot of libraries written in C.  It might be possible to spend enough AI money to convert those to rust, but it would be impossible to maintain long term without the support of those maintainers. </p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgilh3z6qbp/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-3">
+      
+    <li class="reddit-comment" id="comment-19rhet21esedh">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/titpetric" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            titpetric
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Any runtime would leverage its stdlib and package ecosystem, database clients have a lot of language native clients. Not fully sure what kind of memory accounting systems are available across various compilers</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhet21esedh/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rh1zdiyn9hf">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/PenguinsStoleMyCat" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            PenguinsStoleMyCat
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I think a Go or Rust port makes sense. We're already seeing this with a lot of projects. I get the feeling that we won't see this out of the PHP Foundation though. </p>
+
+
+<p>It's a similar deal with nginx, how many of the high severity vulnerabilities have been memory related? CVE-2026-97205 just a few days ago was another use after free vuln. Not saying Caddy is perfect, and I actually didn't switch for security reasons but from a management perspective it's a lot easier to bulk manage Caddy's json configs.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rh1zdiyn9hf/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgo23051ozk">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/UnlistedByDefault" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            UnlistedByDefault
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>One thing I'm curious about is how people verify that the fix is actually applied to the PHP runtime serving web requests. <code>php -v</code> only shows the CLI version, which may differ from PHP-FPM or the version assigned to a domain in a hosting control panel.</p>
+
+
+<p>For those using shared hosting or cPanel, are you relying on your provider to confirm the patch, or is there a reliable way to verify it yourself?</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgo23051ozk/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-19rgsywix4kht">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/erythro" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            erythro
+          </a>
+          <span class="reddit-comment-score">3 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>create a temporary webpage that calls <code>phpinfo();</code> to be sure</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgsywix4kht/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rhf629ilj28">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/PsychologicalTea7878" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            PsychologicalTea7878
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Does Automattic sponsor PHP, or does Mullinweg just go on rampages about companies not contributing to WordPress without paying it forward himself?</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhf629ilj28/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-19rhxehdotkn9">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/beberlei" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            beberlei
+          </a>
+          <span class="reddit-comment-score">3 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Automattic is the largest single sponsor of the PHP Foundation, yes.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rhxehdotkn9/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-3">
+      
+    <li class="reddit-comment" id="comment-19riapi5dfum8">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/TrvlMike" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            TrvlMike
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">2 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>Is it calculated by the revenue they made with PHP?</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19riapi5dfum8/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19ri2us3ka8jn">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/mkopinsky" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            mkopinsky
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>If only the PHP Foundation website listed their major corporate sponsors on the homepage...</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19ri2us3ka8jn/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-19ri9pl3yeabp">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/mach3ad" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            mach3ad
+          </a>
+          <span class="reddit-comment-score">-1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>F- this. Not using PHP fer anything ever. Migrate those piss a-s WP sites y’all</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19ri9pl3yeabp/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rg3xvxh5n7o">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/treasoro" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            treasoro
+          </a>
+          <span class="reddit-comment-score">-23 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>How about you fix your damn software instead of blaming others?</p>
+
+
+<blockquote>
+<p>On October 21st at 07:41 UTC, more than six hours before the coordinated release, Chainguard unilaterally broke the embargo and published built images containing the fix. Like other distributors, Chainguard had received the patch in advance so its users could update the moment the vulnerabilities were disclosed. Any attacker could now study the fix in binary form while every other PHP user was still waiting for the release. This disregarded weeks of work by many parties toward a coordinated disclosure.</p>
+
+</blockquote>
+
+<p>What makes you believe that among the vendors you provided patch information before, there are no attackers? Where there are so many people involved among different organizations the information leak is like 99% certain. It does not mean it will leak to public, but it will leak to parties most interested in acquiring information such as pro APT groups</p>
+
+
+<p>There are numerous of cases of whitehat companies employees being charged with cooperating with blackhat operators. Your job is to deliver patch ASAP to everyone. Instead you allowed certain privileged actors such as intelligence agencies to keep exploiting the vulnerability</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg3xvxh5n7o/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-19rg5dqiovnph">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/Viellet" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            Viellet
+          </a>
+          <span class="reddit-comment-score">9 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>No, the PhP Foundation doesn't have the job to push patches ASAP.
+Your anger and entitlement are simply unjustified assumptions about the world. </p>
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg5dqiovnph/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0nw6w">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/thejoyofbeing1" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            thejoyofbeing1
+          </a>
+          <span class="reddit-comment-score">-40 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>This whole situation will leave a permanent mark within PHP already damaged reputation.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0nw6w/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-pi0qbc4">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/sam_dark" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            sam_dark
+          </a>
+          <span class="reddit-comment-score">25 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I think PHP did it especially well overall.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0qbc4/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0tndc">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/BlueScreenJunky" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            BlueScreenJunky
+          </a>
+          <span class="reddit-comment-score">18 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>It might be used as an argument by people who already hate on PHP, but there's no reason for it to damage the reputation of the language, vulnerabilities are part of the life of any software, and they fixed it reasonably fast after an exploit was found and before it was actively used.</p>
+
+
+<p>Could they have done better by fixing the underlying issue sooner ? Sure. But considering their operaring budget it's hard to blame them, and much much bigger companies have had unmatched vulnerabilities without it affecting their long term reputation.&nbsp;</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0tndc/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgivksdqkzk">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/big_trike" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            big_trike
+          </a>
+          <span class="reddit-comment-score">3 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>What are the alternatives?  Nodejs is far worse from a security and supply chain perspective.  Java is slow and cumbersome and also has security issues.  You could use C# but that either costs money or you’re stuck with similar issues from mono.  Ruby isn’t well supported.  Python isn’t immune from similar issues. </p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgivksdqkzk/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rgowsr4wz43">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/HappyMuscovy" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            HappyMuscovy
+          </a>
+          <span class="reddit-comment-score">1 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>First day?</p>
+
+
+<p>This is not the first major php vuln and it won’t be the last. The issue is now as well as nation-state funded attackers, there are AI based analysis attacks, and the internet is, unsurprisingly, getting bigger, so attacks have more casualties</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rgowsr4wz43/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    <li class="reddit-comment" id="comment-pi0vdb4">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/seeking-health" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            seeking-health
+          </a>
+          <span class="reddit-comment-score">-30 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>irresponsible to use php in 2026 when you have languages like rust</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/pi0vdb4/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    <ul class="reddit-comment-list depth-2">
+      
+    <li class="reddit-comment" id="comment-19rg59xmi7glc">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/kexxty" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            kexxty
+          </a>
+          <span class="reddit-comment-score">8 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>This has to be satire</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg59xmi7glc/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rg5vt31usp1">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/E3K" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            E3K
+          </a>
+          <span class="reddit-comment-score">6 points</span>
+          <span class="reddit-comment-date">4 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>I know you're joking but there are people who actually think this.</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rg5vt31usp1/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    <li class="reddit-comment" id="comment-19rguc9l7lxvp">
+      <div class="reddit-comment-content">
+        <div class="reddit-comment-header">
+          
+    <span class="reddit-comment-collapse-button" data-action="collapse">[−]</span>
+  
+          <a href="https://www.reddit.com/user/UnexpectedAnanas" target="_blank" rel="noopener noreferrer" class="reddit-comment-author">
+            UnexpectedAnanas
+          </a>
+          <span class="reddit-comment-score">2 points</span>
+          <span class="reddit-comment-date">3 days ago</span>
+        </div>
+        <div class="reddit-comment-body comment-body">
+          <div class="md"><p>🤣</p>
+
+</div>
+        </div>
+        
+      <div class="reddit-comment-controls">
+        <a href="https://www.reddit.com/r/PHP/comments/1xbpbiu/todays_php_security_release_and_how_were/19rguc9l7lxvp/" target="_blank" rel="noopener noreferrer">
+          Permalink
+        </a>
+      </div>
+    
+      </div>
+      
+    </li>
+  
+    </ul>
+  
+    </li>
+  
+    </ul>
+  
+      </div>
+    
+    
+      <div class="reddit-attribution">
+        Rendered with <a href="https://github.com/pronskiy/redditify" target="_blank" rel="noopener noreferrer">redditify</a>
+      </div>
+    
+  </div>
+<script>window.REDDITIFY_PROXY_URL = 'https://redditify-proxy.root-8f3.workers.dev';</script>
+<link rel="stylesheet" href="https://unpkg.com/redditify/dist/redditify.css">
+<script src="https://unpkg.com/redditify/dist/redditify.min.js"></script>
+
+        </div>
+
+        <div class="border-t pt-5 my-5">
+                        <nav class="flex flex-row justify-between article -mx-2 mb-5">
+                                <a href="https://thephp.foundation/blog/2026/10/14/how-the-php-security-team-handles-your-reports/" class="flex flex-col w-1/2 border p-2 mx-2 rounded hover:border-[#7f52ff] transition-all no-underline">
+                    <div class="mb-1 text-sm text-gray-600 font-medium">Previous</div>
+                    <div class="font-bold text-blue-500">How the PHP Security Team Handles Your Reports</div>
+                </a>
+                
+                            </nav>
+            
+            <div>
+                <a href="https://github.com/ThePHPF/thephp.foundation/edit/main/source/_posts/2026-10-21-todays-php-security-release-and-how-were-strengthening-php-security.md" class="nav-org" rel="noopener noreferrer" target="_blank">Edit this page on GitHub</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-gray-900">
+    <div class="mx-auto max-w-7xl overflow-hidden px-6 py-12 lg:px-8">
+        <ul class="list-none grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-1 max-w-xl mx-auto text-sm leading-6 text-gray-400">
+            <li><a href="/sponsor" class="text-gray-400 hover:text-gray-100 no-underline">Sponsor</a></li>
+            <li><a href="/structure" class="text-gray-400 hover:text-gray-100 no-underline">Structure</a></li>
+            <li><a href="/structure#admins" class="text-gray-400 hover:text-gray-100 no-underline">Board</a></li>
+            <li><a href="/structure#core_developers" class="text-gray-400 hover:text-gray-100 no-underline">Developers</a></li>
+            <li><a href="/blog" class="text-gray-400 hover:text-gray-100 no-underline">News</a></li>
+            <li><a href="/presentations" class="text-gray-400 hover:text-gray-100 no-underline">Talks</a></li>
+            <li><a href="/branding" class="text-gray-400 hover:text-gray-100 no-underline">Brand Guide</a></li>
+            <li><a href="/governance" class="text-gray-400 hover:text-gray-100 no-underline">Governance</a></li>
+            <li><a href="/code-of-conduct" class="text-gray-400 hover:text-gray-100 no-underline">Code of Conduct</a></li>
+            <li><a href="/contact" class="text-gray-400 hover:text-gray-100 no-underline">Contact</a></li>
+        </ul>
+
+        <div class="mt-10 flex justify-center space-x-10 items-center">
+            <a href="https://twitter.com/thephpf" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-gray-500">
+                <svg class="h-6 w-6" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                    <g>
+                        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                    </g>
+                </svg>
+            </a>
+
+            <a href="https://github.com/ThePHPF/thephp.foundation" class="text-gray-400 hover:text-gray-500" target="_blank" rel="noopener noreferrer">
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+                </svg>
+            </a>
+
+            <a href="https://phpc.social/@thephpf" class="text-gray-400 hover:text-gray-500" target="_blank" rel="noopener noreferrer">
+                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"></path>
+                </svg>
+            </a>
+
+            <a href="https://www.linkedin.com/company/phpfoundation/" class="text-gray-400 hover:text-gray-500" target="_blank" rel="noopener noreferrer">
+                <svg class="h-6 w-6" viewBox="0 0 56.693 56.693" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"></path>
+                        <path d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"></path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+        <div class="mt-10 text-center text-xs leading-5 text-gray-500" itemprop="copyrightHolder">© The PHP Foundation</div>
+    </div>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const anchors = new AnchorJS()
+        anchors.add()
+
+        for (const element of document.getElementsByClassName('anchorjs-link')) {
+            element.addEventListener('click', function () {
+                navigator.clipboard.writeText(window.location.origin + window.location.pathname + element.getAttribute('href'))
+            })
+        }
+    })
+</script>
+
+
+<script>hljs.highlightAll();</script>
+
+<script src="https://cdn.usefathom.com/script.js" data-site="PJKRZUTE" defer=""></script>
+<!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="https://analytics.thephp.foundation/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="https://analytics.thephp.foundation/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+
+
+
+</body></html>

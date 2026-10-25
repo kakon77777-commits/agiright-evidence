@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000376",
+  "url": "https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks",
+  "capturedAt": "2026-10-25T12:09:05Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 319718,
+    "sha256": "9f5fa3459d8f0ebd420ff61ef074c225e7311114df2e7bdb46c611bf13624ec7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7494DBC70FB5739206C57E0E088A6C10",
+      "status": 200,
+      "url": "https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 20518,
+      "afterScrollHeight": 24378,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "997e9c2478046c767204595478d82a3be9663b427d81e0da98783aa2bfa503c6",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1684313,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": true,
+    "firstLoadHeight": 20518,
+    "afterScrollHeight": 24378
+  },
+  "record": {
+    "capturedAt": "2026-10-25T12:09:05Z",
+    "url": "https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 319718,
+      "sha256": "9f5fa3459d8f0ebd420ff61ef074c225e7311114df2e7bdb46c611bf13624ec7"
+    },
+    "finalUrl": "https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks",
+    "httpStatus": 200,
+    "title": "CARLIY0S: CyberCartel's AI Attacks on Latin American Banks",
+    "rendered": {
+      "textChars": 39757,
+      "textSha256": "d986db49272bd2ad1f33e7b57004808d90febd59862a60acdad59748aa099b9d",
+      "htmlSha256": "9d2aa67e688e70da201c0008531d4aa5ee91cdf2677e9b2a65400a2dbd68a9a4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "997e9c2478046c767204595478d82a3be9663b427d81e0da98783aa2bfa503c6",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1684313,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261021181251",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261021181251/https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261025120954/https://www.straiker.ai/blog/inside-carliy0s-how-cybercartel-used-multiple-ai-models-to-attack-latin-american-banks",
+      "timestamp": "20261025120954",
+      "verifiedHttp": 200
+    }
+  }
+}

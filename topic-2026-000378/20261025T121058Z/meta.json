@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000378",
+  "url": "https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/",
+  "capturedAt": "2026-10-25T12:10:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 1031748,
+    "sha256": "9e90c6f42a652f1a9324c822cbb16de92913bacc224f812035507d1b106b1012",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A37659FAA3F3720CDA1B1E7E36AA7385",
+      "status": 200,
+      "url": "https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8244,
+      "afterScrollHeight": 8244,
+      "wantedHeight": 8244
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "7284c3f3591614d7ea1689cb5f816ab2c52aa9b26542285bed69f94a432c417f",
+    "width": 1366,
+    "height": 8244,
+    "bytes": 908815,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8244,
+    "afterScrollHeight": 8244
+  },
+  "record": {
+    "capturedAt": "2026-10-25T12:10:58Z",
+    "url": "https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 1031748,
+      "sha256": "9e90c6f42a652f1a9324c822cbb16de92913bacc224f812035507d1b106b1012"
+    },
+    "finalUrl": "https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/",
+    "httpStatus": 200,
+    "title": "Elvis Presley AI Lawsuit: Anthropic Sued For Stealing His Music",
+    "rendered": {
+      "textChars": 6907,
+      "textSha256": "ca82f13511e1aa4d418a875af2e660a6059c13538f2b10513e0d6dae2d640a3b",
+      "htmlSha256": "bc7c5fb94c63019958bee6952044c1529a7ef038a537465929fa689e7ef52127"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7284c3f3591614d7ea1689cb5f816ab2c52aa9b26542285bed69f94a432c417f",
+      "width": 1366,
+      "height": 8244,
+      "bytes": 908815,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261025121215/https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/",
+      "timestamp": "20261025121215",
+      "verifiedHttp": 200
+    }
+  }
+}

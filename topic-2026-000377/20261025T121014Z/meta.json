@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000377",
+  "url": "https://www.nask.pl/aktualnosci/jedyna-taka-umowa-w-ue-partnerstwo-nask-i-openai-w-obszarze-bezpieczenstwa-sztucznej-inteligencji",
+  "capturedAt": "2026-10-25T12:10:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 528404,
+    "sha256": "acacb612b9d6bfa741d9fa292e917a2aba34c4b85cc8596338c63be3a1da683f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D78279255E9875111308993CEDDA2055",
+      "status": 200,
+      "url": "https://www.nask.pl/aktualnosci/jedyna-taka-umowa-w-ue-partnerstwo-nask-i-openai-w-obszarze-bezpieczenstwa-sztucznej-inteligencji",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5734,
+      "afterScrollHeight": 5783,
+      "wantedHeight": 5783
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f444393c852724ece5a254758d89e8db8e2e67f1ab0fca8bd96a644d23211a7f",
+    "width": 1366,
+    "height": 5783,
+    "bytes": 1681287,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5734,
+    "afterScrollHeight": 5783
+  },
+  "record": {
+    "capturedAt": "2026-10-25T12:10:14Z",
+    "url": "https://www.nask.pl/aktualnosci/jedyna-taka-umowa-w-ue-partnerstwo-nask-i-openai-w-obszarze-bezpieczenstwa-sztucznej-inteligencji",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 528404,
+      "sha256": "acacb612b9d6bfa741d9fa292e917a2aba34c4b85cc8596338c63be3a1da683f"
+    },
+    "finalUrl": "https://www.nask.pl/aktualnosci/jedyna-taka-umowa-w-ue-partnerstwo-nask-i-openai-w-obszarze-bezpieczenstwa-sztucznej-inteligencji",
+    "httpStatus": 200,
+    "title": "Jedyna taka umowa w UE. Partnerstwo NASK i OpenAI w obszarze bezpieczeństwa sztu",
+    "rendered": {
+      "textChars": 8479,
+      "textSha256": "f0ec0540502479172f5ad4cb9ac88ace914c83a86e22fef528483e1a6c594f2a",
+      "htmlSha256": "a30dd50b37549efbfa11d4aaa786d0f3f149105bd7c0b5ece349430265c50e26"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f444393c852724ece5a254758d89e8db8e2e67f1ab0fca8bd96a644d23211a7f",
+      "width": 1366,
+      "height": 5783,
+      "bytes": 1681287,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261024113429",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261024113429/https://www.nask.pl/aktualnosci/jedyna-taka-umowa-w-ue-partnerstwo-nask-i-openai-w-obszarze-bezpieczenstwa-sztucznej-inteligencji"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261025121039/https://www.nask.pl/aktualnosci/jedyna-taka-umowa-w-ue-partnerstwo-nask-i-openai-w-obszarze-bezpieczenstwa-sztucznej-inteligencji",
+      "timestamp": "20261025121039",
+      "verifiedHttp": 200
+    }
+  }
+}
