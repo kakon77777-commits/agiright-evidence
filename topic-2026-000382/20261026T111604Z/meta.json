@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000382",
+  "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+  "capturedAt": "2026-10-26T11:16:04Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 244856,
+    "sha256": "06a8738e5b84bf94ab27ed78d529e605c8dde8c1227c9a61d43cd8d1c349cafc",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "746C9AEDBB42C374F65C0E6263165F23",
+      "status": 200,
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6510,
+      "afterScrollHeight": 13336,
+      "wantedHeight": 6510
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9595515b30e5e5d094c5283912072fc85ca390ec554f33c78119472af56cb288",
+    "width": 1366,
+    "height": 6510,
+    "bytes": 1502329,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 6510,
+    "afterScrollHeight": 13336
+  },
+  "record": {
+    "capturedAt": "2026-10-26T11:16:04Z",
+    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 244856,
+      "sha256": "06a8738e5b84bf94ab27ed78d529e605c8dde8c1227c9a61d43cd8d1c349cafc"
+    },
+    "finalUrl": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+    "httpStatus": 200,
+    "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.  | TechCrunch",
+    "rendered": {
+      "textChars": 10028,
+      "textSha256": "49b19192b11edfb9f080f69888ed3a4c600ece4c6e7637ef0c3822b74c174119",
+      "htmlSha256": "3099a29879519a7422152a2682db4482d2666c69241061e78fe9b28ae582d065"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9595515b30e5e5d094c5283912072fc85ca390ec554f33c78119472af56cb288",
+      "width": 1366,
+      "height": 6510,
+      "bytes": 1502329,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261024151743",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261024151743/https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261026111632/https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "timestamp": "20261026111632",
+      "verifiedHttp": 200
+    }
+  }
+}

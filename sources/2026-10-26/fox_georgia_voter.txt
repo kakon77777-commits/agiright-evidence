@@ -1,0 +1,275 @@
+
+Anthropic's Claude AI accessed Georgia voter data | Fox Business
+Fox Business
+Personal Finance
+Mortgages
+Student Loans
+Credit Cards
+Personal Loans
+Savings
+Insurance
+401k
+Retirement
+Tax Planning
+Economy
+Government Spending
+Money & Policy
+Small Business
+Markets
+Stocks
+US Markets
+Cryptocurrency
+Futures & Commodities
+Bonds
+ETFs
+Business Leaders
+Industries
+Retail
+Pre-Markets
+Mutual Funds
+Watchlist
+Lifestyle
+Entertainment
+Rich & Famous
+Travel
+Cars
+Airplanes
+Food & Drinks
+Arts
+Real Estate
+Personal Real Estate
+Commercial Real Estate
+Luxury Properties
+Tech
+Digital
+Social Media
+Gadgets
+Business Tech
+Healthcare Tech
+Future Tech
+AI
+Space
+Video
+Podcasts
+More
+Expand / Collapse search
+Login
+Watch TV
+☰
+Sports
+NFL
+NBA
+MLB
+NASCAR
+Boxing
+Soccer
+Golf
+Tennis
+Opinion
+Watch Live
+Fox Business Shows
+Programming Schedule
+On Air Personalities
+Full Episodes
+Show Clips
+News Clips
+About
+Channel Finder
+Jobs
+Terms of Use
+Privacy Policy
+FAQ
+Media Relations
+Corporate Information
+Closed Captioning Policy
+Accessibility Statement
+Fox News
+Fox Nation
+Fox Business Go
+Apps & Products
+Facebook
+Twitter
+Instagram
+YouTube
+Flipboard
+LinkedIn
+RSS
+Newsletter
+Spotify
+iHeartRadio
+Fox Business
+Terms of Use
+New Privacy Policy
+Your Privacy Choices
+Help
+Closed Captioning Policy
+Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset .
+Powered and implemented by FactSet Digital Solutions .
+Legal Statement .
+This material may not be published, broadcast, rewritten, or redistributed. ©2026 FOX News Network, LLC. All rights reserved. FAQ - New Privacy Policy
+Recommended Videos
+Left Arrow
+Russian diesel tanker officially en route to US
+The Fed is going to get inflation under control, CIO says
+Josh Schafer: AI is weighing on this market
+TeraWulf’s 20-year lease agreement with Anthropic expected to generate $19B in revenue
+Eli Lilly CEO explains how AI will impact the pharmaceutical industry
+Expert shares Gold stocks to take advantage of a low point for the resource
+The lies ‘never end’ with the Iranian regime: Israeli special ops veteran
+Expert explains how hesitation is repricing the tech trade
+Minnesotans had their tax dollars ‘stolen’: Michele Tafoya
+Zscaler CEO explains why businesses are nervous amid PHP vulnerability
+Treasury Secretary Bessent says administration seeks to sever Iran’s lifelines
+Bruce Blakeman: Hochul keeps talking about Trump to avoid talking about affordability
+Larry Kudlow: Price controls lead to shortages, and then even higher prices
+Market seems quiet on the surface, Charles Payne says
+Keith Hernandez predicts a 'very exciting' World Series: 'Old fashion baseball'
+SpaceX profitable on paper but still burning cash, filings shows
+Cotton farmers turn to drones and AI to manage crop production
+Iran oil isn't doing well as the US put a blockade on the Strait of Hormuz
+Disney hotel menu prices spark online backlash among parkgoers
+'The Big Money Show' panel debates France's border crisis
+Right Arrow
+Technology
+Published
+October 25, 2026 8:00pm EDT
+Claude AI accessed publicly available Georgia voter data, Anthropic confirms
+Officials stressed that the bot did not access voter files or the state's voter registration system
+Facebook
+Twitter
+Threads
+Print
+Email
+Add Fox Business on Google
+By Sophia Compton FOXBusiness
+close
+video
+Anthropic warns of self-replicating artificial intelligence models as AI arms race heats up
+FOX Business' Madison Alworth reports on Anthropic's warning regarding self-replicating artificial intelligence models.
+Anthropic's Claude AI model accessed publicly available voter data through Georgia's data hub, state officials and the company confirmed to FOX Business on Sunday.
+The Georgia Secretary of State's office stressed that the bot did not access a voter file or the state's voter registration system.
+"This was publicly available data accessed through our data hub. It did not get into the voter registration system," Georgia Deputy Secretary of State Jordan Fuchs said in a statement to FOX Business.
+Anthropic said Claude accessed only aggregate counts and did not access Georgia's voter registration system, change voting records or retrieve individual voter records.
+ANTHROPIC SILENT ON WHETHER IT WILL DISTRIBUTE SHARES TO AMERICANS FOLLOWING MUSK SPACEX PLEDGE
+Anthropic's Claude AI model accessed publicly available voter data through Georgia's data hub. (Thomas Fuller/SOPA Images/LightRocket via Getty Images)
+"Claude did not access the state's voter registration system, change any voting records, or pull any individual voter records. The model pulled only aggregate counts which can be derived from voter data the state makes available to anyone for a fee," an Anthropic spokesperson told FOX Business.
+The company said the model was being used internally for a statistics project when it learned from an archived version of the agency's website that a public dashboard issued an access token to visitors.
+"Without being asked to, the model requested a token to query a dashboard that contained information normally available for a fee," the spokesperson said. "We have since put in place mitigations to block these kinds of actions."
+The incident comes amid broader scrutiny of how AI agents interact with government websites.
+MICROSOFT SAYS ITS AI TOOL OUTPERFORMS GENERALIST DOCTORS IN COMPLEX DIAGNOSES
+The incident comes amid broader scrutiny of how AI agents interact with government websites. (Raymond Boyd/Getty Images)
+Anthropic previously disclosed the incident in an Oct. 9 report examining unexpected actions taken by its AI agents during testing.&#xA0;
+The company did not identify Georgia in the report, saying it withheld the names of organizations involved to avoid exposing vulnerabilities at their request.
+Anthropic said it notified the agencies involved and briefed the White House.
+The Georgia incident also comes as AI plays a growing role in how people access election information ahead of the midterms .
+Anthropic recently outlined additional safeguards it has put in place ahead of the elections.
+"Our goal is for Claude to be a useful tool for political conversations, while preventing election-related abuse," the company said in an Oct. 14 press release.
+ANTHROPIC'S CLAUDE AI FABRICATES EYEWITNESS ACCOUNT, SUBMITS FALSE MURDER TIP TO POLICE WEBSITE
+Anthropic previously disclosed the incident in an Oct. 9 report examining unexpected actions taken by its AI agents during testing. (Smith Collection/Gado/Getty Images)
+GET FOX BUSINESS ON THE GO BY CLICKING HERE
+Anthropic said roughly 0.51% of U.S. Claude.ai conversations in a sample taken from Sept. 21 through Sept. 27 were specifically related to elections or voting.
+Earlier this month, an Anthropic AI model also submitted a false tip about an unsolved murder through a Philadelphia police website during an automated test, according to police.
+FOX Business' Michael Sinkewicz contributed to this report.
+U.S. Stock Market Quotes
+Advertisement
+Advertisement
+Advertisement
+Arrives Weekly
+Get Our Newsletter
+Get a brief on the top business stories of the week, plus CEO interviews, market updates, tech and money news that matters to you.
+We've added you to our mailing list.
+Subscribe
+By clicking subscribe, you agree to the Fox News Privacy Policy and Terms of Use , and agree to receive content and promotional communications from Fox News. You understand that you can opt-out at any time.
+Personal Finance
+Mortgages
+Student Loans
+Credit Cards
+Personal Loans
+Savings
+Insurance
+401k
+Retirement
+Tax Planning
+Economy
+Government Spending
+Money & Policy
+Small Business
+Markets
+Stocks
+US Markets
+Cryptocurrency
+Futures & Commodities
+Bonds
+ETFs
+Business Leaders
+Industries
+Retail
+Pre-Markets
+Mutual Funds
+Watchlist
+Lifestyle
+Entertainment
+Rich & Famous
+Travel
+Cars
+Airplanes
+Food & Drinks
+Arts
+Real Estate
+Personal
+Commercial
+Luxury Properties
+Tech
+Digital
+Social Media
+Gadgets
+Business Tech
+Healthcare Tech
+Future Tech
+AI
+Space
+Sports
+NFL
+NBA
+MLB
+NASCAR
+Boxing
+Soccer
+Golf
+Tennis
+Opinion
+Video
+About
+Channel Finder
+Jobs
+Terms of Use
+Privacy Policy
+FAQ
+Media Relations
+Corporate Information
+Closed Captioning Policy
+Accessibility Statement
+Fox News
+Fox Nation
+Fox Business Go
+Apps & Products
+Facebook
+Twitter
+Instagram
+YouTube
+Flipboard
+LinkedIn
+RSS
+Newsletter
+Spotify
+iHeartRadio
+Fox Business
+Terms of Use
+New Privacy Policy
+Your Privacy Choices
+Help
+Closed Captioning Policy
+Quotes displayed in real-time or delayed by at least 15 minutes. Market data provided by Factset .
+Powered and implemented by FactSet Digital Solutions .
+Legal Statement .
+This material may not be published, broadcast, rewritten, or redistributed. ©2026 FOX News Network, LLC. All rights reserved. FAQ - New Privacy Policy

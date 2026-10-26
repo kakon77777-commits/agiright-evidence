@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000380",
+  "url": "https://www.foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms",
+  "capturedAt": "2026-10-26T11:14:43Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 192685,
+    "sha256": "657876b5b98198009fe5016870072f0ee8224a927573026761f8c44b2ea1609f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "481D7AF668C79A4898B254E3760AE983",
+      "status": 200,
+      "url": "https://www.foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 9391,
+      "afterScrollHeight": 9391,
+      "wantedHeight": 9391
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "b10d077d3673484242edc4f082586802a7092688c34c77871041190006355fc1",
+    "width": 1366,
+    "height": 9391,
+    "bytes": 1397820,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 9391,
+    "afterScrollHeight": 9391
+  },
+  "record": {
+    "capturedAt": "2026-10-26T11:14:43Z",
+    "url": "https://www.foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 192685,
+      "sha256": "657876b5b98198009fe5016870072f0ee8224a927573026761f8c44b2ea1609f"
+    },
+    "finalUrl": "https://www.foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms",
+    "httpStatus": 200,
+    "title": "Anthropic's Claude AI accessed Georgia voter data | Fox Business",
+    "rendered": {
+      "textChars": 11208,
+      "textSha256": "7a3ff198204931f0ebc4ccf694a7a1f521746bcb1401a963dc1d26c418059ac6",
+      "htmlSha256": "983ffefed5540353c158733e15a3149ae26bdfe5661d6bcb24e8f20d85f7f692"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b10d077d3673484242edc4f082586802a7092688c34c77871041190006355fc1",
+      "width": 1366,
+      "height": 9391,
+      "bytes": 1397820,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261026111517/https://www.foxbusiness.com/fox-news-tech/claude-ai-accessed-publicly-available-georgia-voter-data-anthropic-confirms",
+      "timestamp": "20261026111517",
+      "verifiedHttp": 200
+    }
+  }
+}

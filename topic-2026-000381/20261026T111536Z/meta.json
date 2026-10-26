@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000381",
+  "url": "https://www.kumagai.com/?eid=19600",
+  "capturedAt": "2026-10-26T11:15:36Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 83711,
+    "sha256": "f621eb1e630bcac28f4ea98da8ef0c99b98931924a0efcec9cd91930f48dec4b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7AAF32066C93870F00D3ABF85004EAD5",
+      "status": 200,
+      "url": "https://www.kumagai.com/?eid=19600",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8497,
+      "afterScrollHeight": 8497,
+      "wantedHeight": 8497
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "f8ae070b37ed5198f0698d404c10c5c614b61722daa8ca96efbba61f8b7c0b47",
+    "width": 1366,
+    "height": 8497,
+    "bytes": 993702,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8497,
+    "afterScrollHeight": 8497
+  },
+  "record": {
+    "capturedAt": "2026-10-26T11:15:36Z",
+    "url": "https://www.kumagai.com/?eid=19600",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 83711,
+      "sha256": "f621eb1e630bcac28f4ea98da8ef0c99b98931924a0efcec9cd91930f48dec4b"
+    },
+    "finalUrl": "https://www.kumagai.com/?eid=19600",
+    "httpStatus": 200,
+    "title": "今こそ官民連携で日本を守ろう ――「能動的サイバー防御」を具申した理由 熊谷正寿 - 公式サイト おかげさまで22周年",
+    "rendered": {
+      "textChars": 6221,
+      "textSha256": "f0a5cd8a6bc4b749e6da02c876f7a89c8b2da2238465a4c614147ba8be382e42",
+      "htmlSha256": "fe76625e06c5ec7e46b868e1fcb0b612b634c724791984e52702945027f63a75"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f8ae070b37ed5198f0698d404c10c5c614b61722daa8ca96efbba61f8b7c0b47",
+      "width": 1366,
+      "height": 8497,
+      "bytes": 993702,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261025112937",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261025112937/https://www.kumagai.com/?eid=19600"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261026102218/https://www.kumagai.com/?eid=19600",
+      "timestamp": "20261026102218",
+      "verifiedHttp": 200
+    }
+  }
+}

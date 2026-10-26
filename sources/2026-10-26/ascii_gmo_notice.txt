@@ -1,0 +1,76 @@
+
+GMO Halts All 'Onamae.com Desktop Cloud' Plans, Potentially Impacting Around 27,000 Servers | ASCII.jp English Edition
+Oct 26, 2026 · Tokyo
+EN ·
+AI-translated edition
+· Original ↗
+Technology,
+decoded
+⌕
+AI & Security
+PC & Components
+Gadgets & AV
+Gaming & Entertainment
+Business & Startups
+Science & Innovation
+Japanese Food
+Latest
+Oct 26 Seven-Eleven Introduces Two 108-Yen Donuts: 'Old Fashioned' and 'Ring Sugar'
+Oct 26 Nothing Launches New Mid-Range Nothing Phone (4b) with 8GB RAM and FeliCa for Under ¥60,000 – Featuring a Beautiful Blue!
+Oct 26 Lawson Unveils Gigantic 1023kcal 'Katsu Curry Pilaf & Neapolitan' Bento
+Oct 26 Starting Today: 20 Pieces of Sushi for 1058 Yen! Limited 5-Day Offer Kicks Off Anniversary Sale
+Oct 26 HP Japan Announces "HP ZGX Fury G1n AI Station" Featuring NVIDIA GB300: A High-Performance Workstation for AI Development
+Oct 26 [Starting Today] Steaks Up to 29% Off, Plus All-You-Can-Eat Rice and Curry! Steak Gusto's "Meat Day"
+Oct 26 What?! DeepSeek with 763 Billion Parameters on a 64GB RAM PC!? Strata Finally Achieves It
+Oct 26 ASUS Unveils Two 8000Hz Gaming Devices: A 56g Mouse and TMR-Equipped Controller
+Oct 26 YouTube's Popular Cat Channel 'Mochimaru Nikki,' with 1.99 Million Subscribers, to End; Outpouring of Regret Follows
+Oct 26 GIGABYTE Refreshes Sales Floor at Tsukumo PC Main Store! Laptops and Gaming Monitors Available at Special Commemorative Prices
+Oct 26 Free Uploader 'uploader.jp' to Cease Operations, Users Lament 'History Will Disappear'
+Oct 26 Pachislot App "777Real" Maintenance Prolonged Due to Vulnerability Fix; Apology Items to Be Distributed
+Oct 26 Mos Card: 1.13 Million Data Records Leaked Due to Unauthorized Access at Outsourced Vendor
+Oct 26 GMO CEO Kumagai Apologizes for Unauthorized Access, Failed to Prevent Despite Prior Vulnerability Warnings
+Oct 26 Unauthorized Access Hits and ST HD (Operator of "niko and ...", "GLOBAL WORK", etc.), Potentially Leaking 2.5 Million Customer Records
+Oct 26 Good Smile Company Reports Potential Customer Data Breach Due to Unauthorized Access
+Latest
+Business & Startups
+GMO Halts All 'Onamae.com Desktop Cloud' Plans, Potentially Impacting Around 27,000 Servers
+Oct 21, 2026
+文●G.Raymond　編集●ASCII
+AI-translated from Japanese. Please refer to the original ASCII.jp article for the authoritative version.
+GMO Internet announced on October 21st that its "Onamae.com Desktop Cloud" service experienced unauthorized access by a third party. Malicious programs were installed on some users' servers, with a potential impact on 26,739 servers. To prevent further damage, servers for all plans will be sequentially shut down.
+The service allows users to remotely operate virtual servers in the cloud and is commonly used for purposes such as running automated FX trading tools.
+The installation of the malicious programs was confirmed on the 20th. As of the announcement, the company stated that it has not confirmed any leakage of users' personal information entrusted to them, nor any misuse of viewed information. They also stated that they do not hold payment information, including credit card details.
+The company is urging users to promptly change authentication information such as IDs and passwords stored on the servers. Changes are also necessary if the same password is being reused for other services.
+Made with AI
+Original article on ASCII.jp
+Related coverage
+PC & Components
+Reports of Unauthorized Operations in FX Accounts; GMO Issues Urgent Alert Following "Onamae.com" Unauthorized Access
+Oct 23, 2026
+Business & Startups
+ChatGPT as an 'Outsourced Partner'? AI Capable of Full Task Delegation Rapidly Emerging
+Sep 30, 2026
+Business & Startups
+Yamaha WLX Series and Cybertrust Device ID Integration EAP-TLS Authentication Webinar to be Held on October 29
+Oct 2, 2026
+Business & Startups
+FIXER Integrates Jointly Developed "Blackout App" with Iga City as Standard Feature in Sovereign GaiXer
+Sep 28, 2026
+X
+Follow ASCII.jp on X
+Get the latest posts from ASCII.jp editors.
+@asciijpeditors
+The English edition of Japan's long-running technology daily. Technology, decoded.
+Sections
+AI & Security
+PC & Components
+Gadgets & AV
+Gaming & Entertainment
+Business & Startups
+Science & Innovation
+Japanese Food
+Company
+About
+Privacy
+X @asciijpeditors
+© 2026 ASCII / KADOKAWA ASCII Research Laboratories — English edition

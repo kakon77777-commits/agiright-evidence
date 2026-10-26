@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000383",
+  "url": "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet",
+  "capturedAt": "2026-10-26T11:17:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 137943,
+    "sha256": "8c8eb1d1f30b595762810c3b0a37cf8d478d72bdb8b6cff24349eb56a9a81263",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "214209033C26A44D48589AD03ED6E33C",
+      "status": 200,
+      "url": "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3725,
+      "afterScrollHeight": 3725,
+      "wantedHeight": 3725
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "23d8ab2103aff8b71578ca26f8193d53617612a132207a9b23efec654f2ebfb7",
+    "width": 1366,
+    "height": 3725,
+    "bytes": 1205189,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3725,
+    "afterScrollHeight": 3725
+  },
+  "record": {
+    "capturedAt": "2026-10-26T11:17:59Z",
+    "url": "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 137943,
+      "sha256": "8c8eb1d1f30b595762810c3b0a37cf8d478d72bdb8b6cff24349eb56a9a81263"
+    },
+    "finalUrl": "https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet",
+    "httpStatus": 200,
+    "title": "AI-tjänster spärras på Regeringskansliet | SVT Nyheter",
+    "rendered": {
+      "textChars": 3938,
+      "textSha256": "cbc05f7f0bf7d120cccc92a600f6849116c3a3489ffcdd6815aed247e77d44b9",
+      "htmlSha256": "c5f6850fd876908fc45c33bc6f4719b1803d5054237b0502798e2197e8eb888b"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "23d8ab2103aff8b71578ca26f8193d53617612a132207a9b23efec654f2ebfb7",
+      "width": 1366,
+      "height": 3725,
+      "bytes": 1205189,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261026111817/https://www.svt.se/nyheter/inrikes/ai-tjanster-sparras-pa-regeringskansliet",
+      "timestamp": "20261026111817",
+      "verifiedHttp": 200
+    }
+  }
+}
