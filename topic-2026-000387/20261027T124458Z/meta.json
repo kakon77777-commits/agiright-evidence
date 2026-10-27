@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000387",
+  "url": "https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper",
+  "capturedAt": "2026-10-27T12:44:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 34366,
+    "sha256": "fca2e0a8df221fa08da026c5d2c0485a2f17c07733ee8fd2593714062cc35962",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C3B5B0035D443B0AC06C77ABD47F5F86",
+      "status": 200,
+      "url": "https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5320,
+      "afterScrollHeight": 5838,
+      "wantedHeight": 5838
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "80f58c9cf04aa8cb9963b6ba99856b7f163cf4e60864a7aad3741713616f8d33",
+    "width": 1366,
+    "height": 5838,
+    "bytes": 1290536,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5320,
+    "afterScrollHeight": 5838
+  },
+  "record": {
+    "capturedAt": "2026-10-27T12:44:58Z",
+    "url": "https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 34366,
+      "sha256": "fca2e0a8df221fa08da026c5d2c0485a2f17c07733ee8fd2593714062cc35962"
+    },
+    "finalUrl": "https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper",
+    "httpStatus": 200,
+    "title": "Can AI coding agents rebuild biological AI tools from a paper? | AISI Work",
+    "rendered": {
+      "textChars": 10535,
+      "textSha256": "6569e343f02b7d07917b9eb3631a71a0a3f61010d28c5e52b423dc7d371b06f1",
+      "htmlSha256": "3c21696f6cbf8954e9b749dfdc59fa1ad21422d7f1755ed967b3fdf049323724"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "80f58c9cf04aa8cb9963b6ba99856b7f163cf4e60864a7aad3741713616f8d33",
+      "width": 1366,
+      "height": 5838,
+      "bytes": 1290536,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261026165423",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261026165423/https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261027124545/https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper",
+      "timestamp": "20261027124545",
+      "verifiedHttp": 200
+    }
+  }
+}

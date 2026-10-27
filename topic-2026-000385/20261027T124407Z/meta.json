@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000385",
+  "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+  "capturedAt": "2026-10-27T12:44:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 14169264,
+    "sha256": "b6836006abac03a7ab0244b79b968d9bcecde9f49ada9b79be78546d427f541e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8A55DB44F1CF2B655BCDE46445875068",
+      "status": 403,
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1286,
+      "afterScrollHeight": 1286,
+      "wantedHeight": 1286
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3ed9df204b2d3def15f1a89b6224e7ddd5897b070b7e17b71e09d251459c5bba",
+    "width": 1366,
+    "height": 1286,
+    "bytes": 96416,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1286,
+    "afterScrollHeight": 1286
+  },
+  "record": {
+    "capturedAt": "2026-10-27T12:44:07Z",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 14169264,
+      "sha256": "b6836006abac03a7ab0244b79b968d9bcecde9f49ada9b79be78546d427f541e"
+    },
+    "finalUrl": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+    "httpStatus": 403,
+    "title": "SEC.gov | Your Request Originates from an Undeclared Automated Tool",
+    "rendered": {
+      "textChars": 2932,
+      "textSha256": "53e361879deada5cf187e224691f1a5d8193a1cc0f7af7581137fa8a82a1905b",
+      "htmlSha256": "fa4c8b863c973da4c7e0372c47edff2473cf067479d7c603d5f0ef7cc3a2cc4e"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "3ed9df204b2d3def15f1a89b6224e7ddd5897b070b7e17b71e09d251459c5bba",
+      "width": 1366,
+      "height": 1286,
+      "bytes": 96416,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261026130626",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261026130626/https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261027114014/https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "timestamp": "20261027114014",
+      "verifiedHttp": 200
+    }
+  }
+}
