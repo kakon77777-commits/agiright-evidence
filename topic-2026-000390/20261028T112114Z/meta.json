@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000390",
+  "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+  "capturedAt": "2026-10-28T11:21:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 242285,
+    "sha256": "5569339ec58cfe2197955ac2716eceff4957e7759abff4189f3cb010c9c7efc3",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "48D12F1D8D32A172F4F425FDA0AA81A2",
+      "status": 200,
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5918,
+      "afterScrollHeight": 11235,
+      "wantedHeight": 5918
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7a6209612897c89e4f2a8f10cc721102ad557450e927778195d8c59c88a11cd4",
+    "width": 1366,
+    "height": 5918,
+    "bytes": 1781895,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 5918,
+    "afterScrollHeight": 11235
+  },
+  "record": {
+    "capturedAt": "2026-10-28T11:21:14Z",
+    "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 242285,
+      "sha256": "5569339ec58cfe2197955ac2716eceff4957e7759abff4189f3cb010c9c7efc3"
+    },
+    "finalUrl": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+    "httpStatus": 200,
+    "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication | TechCrunch",
+    "rendered": {
+      "textChars": 9022,
+      "textSha256": "2c57f5c836fed9653d3329e9720de17fe74ac7c75446a6b81fc009086f80089c",
+      "htmlSha256": "409afe9f4a51c55ddeeaa43be7ba2188458d4e1b8c1048a277c0cd6cac216c12"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7a6209612897c89e4f2a8f10cc721102ad557450e927778195d8c59c88a11cd4",
+      "width": 1366,
+      "height": 5918,
+      "bytes": 1781895,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261027234055",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261027234055/https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261028032049/https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "timestamp": "20261028032049",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000389",
+  "url": "https://www.anthropic.com/research/agents-judgment-calls",
+  "capturedAt": "2026-10-28T11:20:42Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 233230,
+    "sha256": "2815d3481c9e8097ab87d12301b208e78e372644cd63036f6b1e3cb81297031a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "EC03CDB5123C98921E78A87724758BC3",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 13025,
+      "afterScrollHeight": 13025,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "1a62bcc284274b776779f1981dfa63d948fcf1fd2b02aa1a9a73f1f9d8e073c5",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1981254,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 13025,
+    "afterScrollHeight": 13025
+  },
+  "record": {
+    "capturedAt": "2026-10-28T11:20:42Z",
+    "url": "https://www.anthropic.com/research/agents-judgment-calls",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 233230,
+      "sha256": "2815d3481c9e8097ab87d12301b208e78e372644cd63036f6b1e3cb81297031a"
+    },
+    "finalUrl": "https://www.anthropic.com/research/agents-judgment-calls",
+    "httpStatus": 200,
+    "title": "How AI agents shape experts’ judgment calls \\ Anthropic",
+    "rendered": {
+      "textChars": 21010,
+      "textSha256": "eef24915756ea383ae6422a89f6d8cedf371dc1a62dd9b9af1077a5388ddfb35",
+      "htmlSha256": "0a77a74f45eb8d97529f43bfa6488eeed692cd9ee742e6fb760f958dd0825b92"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "1a62bcc284274b776779f1981dfa63d948fcf1fd2b02aa1a9a73f1f9d8e073c5",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1981254,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261027185748",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261027185748/https://www.anthropic.com/research/agents-judgment-calls"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261028112056/https://www.anthropic.com/research/agents-judgment-calls",
+      "timestamp": "20261028112056",
+      "verifiedHttp": 200
+    }
+  }
+}

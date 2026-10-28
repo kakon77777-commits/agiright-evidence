@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000388",
+  "url": "https://arxiv.org/abs/2610.35671",
+  "capturedAt": "2026-10-28T11:20:11Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 44765,
+    "sha256": "e9dd0ccf1fed7dea4ef6912d9e2e4d1be5b62d209d53684f2074e4b8c4ba99e7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "96483B92D95B6DD0DE989ADB83502C1B",
+      "status": 200,
+      "url": "https://arxiv.org/abs/2610.35671",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1168,
+      "afterScrollHeight": 1168,
+      "wantedHeight": 1168
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "022c3d25549f021633bf0bfa50a02a53b5e787b3e38c6c7d9a14cae1b54cf180",
+    "width": 1366,
+    "height": 1168,
+    "bytes": 133057,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1168,
+    "afterScrollHeight": 1168
+  },
+  "record": {
+    "capturedAt": "2026-10-28T11:20:11Z",
+    "url": "https://arxiv.org/abs/2610.35671",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 44765,
+      "sha256": "e9dd0ccf1fed7dea4ef6912d9e2e4d1be5b62d209d53684f2074e4b8c4ba99e7"
+    },
+    "finalUrl": "https://arxiv.org/abs/2610.35671",
+    "httpStatus": 200,
+    "title": "[2610.35671] Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks",
+    "rendered": {
+      "textChars": 3596,
+      "textSha256": "9c15aaac9b7558e049ac375146497ffc3c50acccf08d50f62b31f7e728a2d579",
+      "htmlSha256": "d5c9795b87687c29ccd20d5bae0754a7b89265ce28f3ca587648d0cc561dfa7e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "022c3d25549f021633bf0bfa50a02a53b5e787b3e38c6c7d9a14cae1b54cf180",
+      "width": 1366,
+      "height": 1168,
+      "bytes": 133057,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261027235538",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261027235538/https://arxiv.org/abs/2610.35671"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261028112024/https://arxiv.org/abs/2610.35671",
+      "timestamp": "20261028112024",
+      "verifiedHttp": 200
+    }
+  }
+}

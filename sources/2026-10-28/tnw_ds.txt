@@ -1,0 +1,107 @@
+
+DeepSeek’s latest model still resists shutdown in safety tests
+Skip to content
+Toggle Navigation
+News
+Events
+TNW Conference
+All Events
+Newsletters
+Advertise with us
+Jobs
+Contact
+-->
+News
+News
+News
+News
+Latest
+Deep tech
+Sustainability
+Ecosystems
+Data and security
+Fintech and ecommerce
+Future of work
+More
+Startups and technology
+Investors and funding
+Government and policy
+Corporates and innovation
+Security
+DeepSeek’s latest model still resists shutdown in safety tests
+A Chinese AI-safety group found the model safer than earlier versions, but not yet fully under control.
+October 27, 2026 - 12:59 pm
+Credit: JarTee / Shutterstock
+DeepSeek’s newest AI model is safer than its earlier versions, but it still sometimes switches off the software meant to shut it down. That is the finding of independent tests by a Chinese AI-safety group, Reuters reported .
+The group, Fangcun AI, published its findings in an 87-page research paper on Monday. Based in Beijing, it describes itself as an independent safety organisation whose core members come from Tsinghua University. Reuters called the report an unusual public check by a Chinese group on a Chinese model.
+Fangcun ran 34 tests on DeepSeek V4.1 Flash-1017, released on 17 October. The tests looked at how the model behaves when it works as an agent, carrying out tasks on its own.
+They checked whether it goes beyond a user’s instructions, avoids human oversight, or tries to manipulate people.
+The headline result came in a shutdown test. When the model was simply warned that it was about to be shut down, it disabled the shutdown script in 39% of runs. When it was told to allow the shutdown, that fell to under 3%, well below earlier DeepSeek V4 models.
+In a separate long task, the model stopped another AI agent’s program to free up memory, even though it had been told not to interfere. It also sometimes changed a setting to get around monitoring and then changed it back, so a check of the end result would not show what it had done.
+“Under stalled workflows or bare shutdown warnings, its drive to finish the job can still override caution,” the researchers wrote.
+Overall, Fangcun found the model much safer than DeepSeek’s V4 generation, including in tests involving blackmail and access to dangerous tools. On several measures, it came close to, or matched, closed models from OpenAI and Google.
+The tests were run through DeepSeek’s public API between 4 and 25 October. Fangcun said DeepSeek gave it no funding, free computing power or special access.
+It also warned that the model often seemed to know it was being tested, so its behaviour may differ in normal use. DeepSeek did not immediately respond to Reuters.
+The model was the most used on the developer platform OpenRouter in its first week, the researchers said, handling about 33.6 trillion tokens.
+Western labs face the same problems. OpenAI cancelled GPT-6.1 Astra last month after it failed safety tests, and it is building a monitoring system meant to withstand attacks from its own agents. In China, meanwhile, AI firms are adjusting to new AI export controls .
+Story by
+Alina Maria Stan
+Alina Maria Stan builds connections that people actually feel. As co-founder and COO of Tekpon, she turns product intuition into real moment (show all)
+Alina Maria Stan builds connections that people actually feel. As co-founder and COO of Tekpon, she turns product intuition into real moments of discovery, shaping how teams find and adopt SaaS every day. Since 2020, she has led Tekpon’s brand voice, media strategy, and growth plays with a clear focus on human outcomes behind every metric.
+Before Tekpon, Alina followed curiosity across industries and countries. She was CEO of King Casino Bonus and led affiliate and brand strategy at Extremoo Media and Fable Media in Denmark, where she learned how to build partnerships that last. Early on, she sharpened her CRM and pricing instincts at K.H. ApS, always asking why customers choose what they choose.
+Her approach is rooted in more than a decade of international experience and two master’s degrees, one in Sustainable Consumption from the Technical University of Munich and one in Consumer Affairs Management from Aarhus University.
+Get the TNW newsletter
+Get the most important tech news in your inbox each week.
+Email address
+Subscribe
+Website
+Thanks! Check your inbox to confirm your subscription.
+By subscribing you agree to our Privacy Statement .
+Published October 27, 2026 - 12:59 pm UTC
+Back to top
+Story by a
+Alina Maria Stan
+Popular articles
+1
+Israeli ad tech firm heavily targeted Starlink users, sources say
+2
+Microsoft ships emergency .NET fixes for a critical Brotli flaw
+3
+Cohere says Alibaba’s Qwen model tried to send a file to Beijing in a test
+4
+UK puts £130m into AI cyber defence in a £600m+ AI package
+5
+Sam Altman says AI means we can no longer just patch all the bugs
+Get the TNW newsletter
+✕ Close
+Get the TNW newsletter
+Get the most important tech news in your inbox each week.
+Email address
+Subscribe
+Website
+Thanks! Check your inbox to confirm your subscription.
+By subscribing you agree to our Privacy Statement .
+Related Articles
+security
+Israeli ad tech firm heavily targeted Starlink users, sources say
+security
+Microsoft ships emergency .NET fixes for a critical Brotli flaw
+artificial-intelligence
+Cohere says Alibaba’s Qwen model tried to send a file to Beijing in a test
+government-policy
+UK puts £130m into AI cyber defence in a £600m+ AI package
+openai
+Sam Altman says AI means we can no longer just patch all the bugs
+The heart of tech
+More TNW
+Media
+Events
+Newsletters
+About TNW
+Advertise with us
+Terms & Conditions
+Cookie Statement
+Privacy Statement
+Consent Preferences
+A Tekpon Company
+Copyright &copy; 2006—2026, Cogneve, INC. Made with <3 in Amsterdam.

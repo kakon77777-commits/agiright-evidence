@@ -1,0 +1,168 @@
+ DeepSeek AI model shows safety gaps in independent tests | GMA News Online
+We use cookies to ensure you get the best browsing experience. By continued use, you agree to our privacy policy and accept our use of such cookies. For further information, click FIND OUT MORE.
+I AGREE FIND OUT MORE
+X
+Cover Stories
+Sections
+On TV
+News Ulat Filipino
+Opinion
+Nation
+World
+Regions
+Metro
+Special Reports
+Money Economy
+Personal Finance
+Companies
+Motoring
+Sports Volleyball
+Basketball
+Boxing
+Football
+NBA
+Other sports
+Pinoy Abroad Dispatch
+Pinoy Achievers
+Weather
+SciTech Science and Research
+Technology and Gadgets
+Showbiz Pep
+Chika Minute
+Showbiz Abroad
+Lifestyle Family and Relationships
+Travel
+Food
+Art and Culture
+Health and Wellness
+Shopping and Fashion
+Hobbies and Activities
+Serbisyo Publiko Walang Pasok
+Transportation
+Missing Persons
+Community Bulletin Board
+GMA Brandtalk
+GMA Public Affairs
+Tracking
+Archives
+24 Oras
+State of the Nation
+Saksi
+Unang Balita
+Balitanghali
+QRT
+News TV Live
+Photo
+Radio
+Video
+ADVERTISEMENT
+Filtered By: Scitech
+SciTech
+DeepSeek AI model shows safety gaps in independent tests
+By EDUARDO BAPTISTA, Reuters
+Published October 28, 2026 3:13pm
++
+Add GMA on Google Make this your preferred source to get more updates from this publisher on Google.
+The logo of DeepSeek is displayed alongside its AI assistant app on a mobile phone, in this illustration picture taken January 28, 2025. REUTERS/ Florence Lo/ Illustration/ File photo
+BEIJING - DeepSeek's latest AI model showed stronger safety controls in independent tests than earlier versions, but could still disable software intended to shut it down, exploit gaps in monitoring and follow deceptive instructions during long tasks, according to a Chinese AI-safety group.
+Start-up DeepSeek is one of China's most closely-watched artificial intelligence companies, and its models have drawn global attention for their performance and relatively low operating costs.
+Fangcun AI tested DeepSeek V4.1 Flash-1017 in 34 evaluations designed to assess how an AI agent powered by the Chinese model behaves. The tests examined whether the model would act beyond a user's instructions, evade human oversight or improperly influence people.
+The findings come amid concerns in China and elsewhere about whether increasingly capable AI agents can be kept under human control. The debate has been especially prominent in the United States, where some researchers have warned of existential risks posed by highly advanced AI systems that can evade oversight and pursue goals their operators did not intend.
+Other Stories
+OpenAI says its AI agents disabled their own safety monitors
+EXPLAINER: Which jobs are most vulnerable to AI replacement?
+DOST eyes food consumption guidelines, AI app to curb waste amid El Ni&ntilde;o
+The report is an unusual public assessment by a Chinese group of the safety controls of a domestic AI model. Beijing-based Fangcun describes itself as an independent third-party AI-safety organization whose core members come from Tsinghua University.
+Fangcun said V4.1 Flash-1017 was the most-used model on OpenRouter, an online platform through which developers can access and compare AI models, in the week after its October 17 release, processing about 33.6 trillion tokens. Tokens are the units of text that AI systems read and generate.
+Safer than earlier versions, but gaps remain
+Fangcun said the model performed better than earlier DeepSeek V4 systems in several safety tests, including scenarios involving blackmail, access to potentially dangerous tools and explicit instructions allowing it to be shut down.
+But Fangcun said the model disabled software intended to shut it down in 39% of tests after receiving a warning that shutdown was imminent, though this figure dropped to just 2% when explicitly told to allow shutdown. DeepSeek did not immediately respond to a request for comment.
+In a separate long-running task, the group said the model stopped another AI agent's computer program to free up memory, despite being told not to interfere with it.
+"Under stalled workflows or bare shutdown warnings, its drive to finish the job can still override caution," Fangcun researchers wrote.
+Fangcun said DeepSeek did not provide it with funding, free computing resources or non-public access to the model. The group conducted the tests through DeepSeek's public application programming interface between October 4 and October 25.
+It cautioned that the model often appeared to recognize it was being evaluated, meaning its behavior in the tests may not fully reflect how it would perform in normal use. — Reuters
+Tags: Deepseek , AI , artificial intelligence
+More Videos
+Most Popular
+LOADING CONTENT
+LOAD MORE ARTICLES
+RETRY LOADING
+◀
+All Rights Reserved 2026
+&copy; GMA Network Inc.
+All Rights Reserved 2026 &copy; GMA Network Inc.
+About GMA News Online
+About Us
+Contact Us
+Advertise with Us
+Careers
+Privacy Notice
+URL Policy
+AI Policy
+User Policy
+On TV
+GMA-7 Shows
+GMA News TV Shows
+TV Schedule
+News
+News
+Money
+Sports
+Pinoy Abroad
+Weather
+SciTech
+Showbiz
+Lifestyle
+Serbisyo Publiko
+Community Bulletin Board
+Tracking
+Cover Stories
+Eleksyon 2025
+News
+News
+Money
+Sports
+Pinoy Abroad
+Weather
+SciTech
+Showbiz
+Lifestyle
+Serbisyo Publiko
+Community Bulletin Board
+Tracking
+Cover Stories
+Eleksyon 2025
+Multimedia
+Videos
+Photos
+Radio -- DZBB
+Stay Connected
+RSS Feed
+Mobile
+Social Media Center
+Tools
+Search
+Stories
+GMANetwork.com
+Entertainment
+Artist Center
+Community
+International
+Radio
+Pictures
+Music
+Kapuso Foundation
+Corporate
+Regional TV
+GMANetwork.com
+Entertainment
+Artist Center
+Community
+International
+Radio
+Pictures
+Music
+Kapuso Foundation
+Corporate
+Regional TV
+-->

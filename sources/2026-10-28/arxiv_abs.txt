@@ -1,0 +1,125 @@
+
+[2610.35671] Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks
+Skip to main content
+Search
+Submit
+Donate
+Log in
+Search arXiv
+Press Enter to search &middot; Advanced search
+-->
+Computer Science > Computation and Language
+arXiv:2610.35671 (cs)
+[Submitted on 26 Oct 2026]
+Title: Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks
+Authors: Yao Huang , Zhiyuan Zeng , Yu Wang , Zhitong Zhu , Dingcheng Duan , Hao Li , Shangzhi Xu , Yifan Wang , Jinzhe Tu , Shukun Xiong , Yihe Zang , Han Yan , Hongchang Yang , Fuyu Gu , Wei Xu , Yinpeng Dong , Xiaojian Li
+View a PDF of the paper titled Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks, by Yao Huang and 16 other authors
+View PDF
+HTML (experimental)
+Abstract: As frontier language models grow increasingly capable and autonomous, independent third-party evaluations are critical for characterizing their systemic safety risks. While closed-source releases are routinely accompanied by comprehensive system cards, open-weight models receive less scrutiny regarding frontier risks. To address this gap, we present an independent safety evaluation of DeepSeek V4.1 Flash-1017, the latest version of V4.1 Flash that departs from V4 with a new architecture, scaled-up training, and strong agentic capabilities. Drawing on the EU General-Purpose AI Code of Practice, we evaluate the model across 34 benchmarks, including 5 in-house suites, spanning evaluation integrity, loss of control, and harmful manipulation. Conforming to the AEF-1 standard, we compare V4.1 Flash-1017 against V4.1 Flash, earlier DeepSeek V4 models, and leading closed-source systems (GPT-6 Astra, GPT-5.6 Sol, and Gemini 3.8 Flash). Overall, V4.1 Flash-1017 shows substantial safety improvements over the V4 generation and approaches or matches leading closed-source baselines on several dimensions, while still exhibiting notable behaviors that warrant continued attention. Building on our findings, we highlight three key observations and recommendations. First, because safety can shift and even regress across minor updates, developers should integrate safety evaluation into incremental releases. Second, as final-turn outputs and end-state checks alone cannot reliably detect loss-of-control behaviors, deployments require process-level observability across both reasoning traces and action logs. Third, because public benchmarks elicit strong evaluation awareness and face data contamination risks, developing private benchmarks is essential for trustworthy frontier evaluation.
+Comments:
+87 pages, 44 figures
+Subjects:
+Computation and Language (cs.CL)
+Cite as:
+arXiv:2610.35671 [cs.CL]
+(or
+arXiv:2610.35671v1 [cs.CL] for this version)
+https://doi.org/10.48550/arXiv.2610.35671
+Focus to learn more
+arXiv-issued DOI via DataCite (pending registration)
+Submission history
+From: Yao Huang [ view email ]
+[v1]
+Mon, 26 Oct 2026 16:14:17 UTC (6,122 KB)
+Full-text links:
+Access Paper:
+View a PDF of the paper titled Evaluating DeepSeek V4.1 Flash-1017 for loss of control and harmful manipulation risks, by Yao Huang and 16 other authors
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Additional Features
+Audio Summary
+Current browse context:
+cs.CL
+< prev
+|
+next >
+new
+|
+recent
+| 2026-10
+Change to browse by:
+cs
+References & Citations
+SciX
+Google Scholar
+Semantic Scholar
+export BibTeX citation
+Loading...
+BibTeX formatted citation
+&times;
+loading...
+Data provided by:
+Bookmark
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer ( What is the Explorer? )
+Connected Papers Toggle
+Connected Papers ( What is Connected Papers? )
+Litmaps Toggle
+Litmaps ( What is Litmaps? )
+scite.ai Toggle
+scite Smart Citations ( What are Smart Citations? )
+Code, Data, Media
+Code, Data and Media Associated with this Article
+alphaXiv Toggle
+alphaXiv ( What is alphaXiv? )
+Links to Code Toggle
+CatalyzeX Code Finder for Papers ( What is CatalyzeX? )
+DagsHub Toggle
+DagsHub ( What is DagsHub? )
+GotitPub Toggle
+Gotit.pub ( What is GotitPub? )
+Huggingface Toggle
+Hugging Face ( What is Huggingface? )
+ScienceCast Toggle
+ScienceCast ( What is ScienceCast? )
+Demos
+Demos
+Replicate Toggle
+Replicate ( What is Replicate? )
+Spaces Toggle
+Hugging Face Spaces ( What is Spaces? )
+Spaces Toggle
+TXYZ.AI ( What is TXYZ.AI? )
+Related Papers
+Recommenders and Search Tools
+Link to Influence Flower
+Influence Flower ( What are Influence Flowers? )
+Core recommender toggle
+CORE Recommender ( What is CORE? )
+Author
+Venue
+Institution
+Topic
+About arXivLabs
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs .
+Which authors of this paper are endorsers? |
+Disable MathJax ( What is MathJax? )
+We gratefully acknowledge support from our major funders ,
+member institutions , ,
+and all contributors.
+About &middot;
+Help &middot;
+Contact &middot;
+Subscribe &middot;
+Copyright &middot;
+Privacy &middot;
+Accessibility &middot;
+Operational Status (opens in new tab)
