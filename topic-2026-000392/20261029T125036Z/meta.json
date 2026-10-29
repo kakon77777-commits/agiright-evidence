@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000392",
+  "url": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+  "capturedAt": "2026-10-29T12:50:36Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 54738,
+    "sha256": "679a2cd8f3a9b9c0dedebc474afb83ebfb9db620f1c2efeaab259d1194e8bb23",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "59BB083CC8101B7DAE33B9FD3334A216",
+      "status": 200,
+      "url": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1958,
+      "afterScrollHeight": 1958,
+      "wantedHeight": 1958
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "1dda794f03b126a3fc9b24ed2a3a2ef0b76716ee39a90ae703b2578db799b93f",
+    "width": 1366,
+    "height": 1958,
+    "bytes": 329715,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1958,
+    "afterScrollHeight": 1958
+  },
+  "record": {
+    "capturedAt": "2026-10-29T12:50:36Z",
+    "url": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 54738,
+      "sha256": "679a2cd8f3a9b9c0dedebc474afb83ebfb9db620f1c2efeaab259d1194e8bb23"
+    },
+    "finalUrl": "https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+    "httpStatus": 200,
+    "title": "House Democratic Committee Leaders Request Frontier AI Companies Report Misalignment & Safety Incidents to Congress Within 48 Hours | House Committee on Science, Space and Technology",
+    "rendered": {
+      "textChars": 3126,
+      "textSha256": "03dfae9eae3fe0a8b0f35933a57af6cfd4eff7e18dcf659d879b6e6f01c30b03",
+      "htmlSha256": "176db9e7e922d09f4727fc7957ca9d815a919437cf938dec629fd70f335927c4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "1dda794f03b126a3fc9b24ed2a3a2ef0b76716ee39a90ae703b2578db799b93f",
+      "width": 1366,
+      "height": 1958,
+      "bytes": 329715,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261028171252",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261028171252/https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261029125100/https://democrats-science.house.gov/news/press-releases/house-democratic-committee-leaders-request-frontier-ai-companies-report-misalignment-and-safety-incidents-to-congress-within-48-hours",
+      "timestamp": "20261029125100",
+      "verifiedHttp": 200
+    }
+  }
+}

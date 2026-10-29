@@ -1,0 +1,72 @@
+{
+  "id": "topic-2026-000394",
+  "url": "https://www.sacbee.com/news/politics-government/capitol-alert/article317803269.html",
+  "capturedAt": "2026-10-29T12:51:49Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "The operation was aborted due to timeout"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": "net::ERR_HTTP2_PROTOCOL_ERROR",
+    "document": null,
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b75c6b5ea5ccf22df9e19715ca097e80447954a543f96fc2094ad07f96adaf72",
+    "width": 1366,
+    "height": 900,
+    "bytes": 33001,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-29T12:51:49Z",
+    "url": "https://www.sacbee.com/news/politics-government/capitol-alert/article317803269.html",
+    "raw": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "title": "www.sacbee.com",
+    "finalUrl": "chrome-error://chromewebdata/",
+    "rendered": {
+      "textChars": 261,
+      "textSha256": "26f5081e9a8b3a1c2c63f4f5bda3f849e7190df9c1c8ce79547acbe7ada7cc59",
+      "htmlSha256": "e01120fd1919cd8e1b49c1ac74a1e6e8c1dbcaf06347ffb8abee13d2fdd3f7b4"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b75c6b5ea5ccf22df9e19715ca097e80447954a543f96fc2094ad07f96adaf72",
+      "width": 1366,
+      "height": 900,
+      "bytes": 33001,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "navError": "net::ERR_HTTP2_PROTOCOL_ERROR",
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261029125256/https://www.sacbee.com/news/politics-government/capitol-alert/article317803269.html",
+      "timestamp": "20261029125256",
+      "verifiedHttp": 200
+    }
+  }
+}

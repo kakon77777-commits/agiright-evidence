@@ -1,0 +1,3 @@
+Redaction note (2026-10-29)
+
+The page captured here is a Cloudflare block page (title "Attention Required! | Cloudflare", HTTP 403) that the headless browser received instead of the governor's press release. Its HTML carried the IP address of the capturing machine in a hidden element (id "cf-footer-ip"); the screenshot and rendered.txt show only "Click to reveal". Before this folder was published, that one address was replaced in rendered.html by the placeholder "[IP address redacted]". This file therefore no longer matches record.rendered.htmlSha256 in meta.json (that hash is of the page as captured); every other file in this folder is exactly as captured. raw.html (HTTP 200, the real press release) contains no address and is unchanged.

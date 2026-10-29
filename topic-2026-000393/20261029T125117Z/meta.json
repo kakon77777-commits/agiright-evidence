@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000393",
+  "url": "https://www.cfodive.com/news/sen-warren-probes-ai-safety-market-risks-anthropic-ipo/873076/",
+  "capturedAt": "2026-10-29T12:51:17Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 207464,
+    "sha256": "11168e6efe51b2ba4ac148439287ce441153312b4572950e40731523a7b9f0c4",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F11154C90410F714E5D8AB4FB96AD1E7",
+      "status": 200,
+      "url": "https://www.cfodive.com/news/sen-warren-probes-ai-safety-market-risks-anthropic-ipo/873076/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5812,
+      "afterScrollHeight": 5836,
+      "wantedHeight": 5836
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a9f2f9b4c9d4a077c4ec4d00e8509215f2d991d15abc7a408926ef56e0dfd8b5",
+    "width": 1366,
+    "height": 5836,
+    "bytes": 1333390,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5812,
+    "afterScrollHeight": 5836
+  },
+  "record": {
+    "capturedAt": "2026-10-29T12:51:17Z",
+    "url": "https://www.cfodive.com/news/sen-warren-probes-ai-safety-market-risks-anthropic-ipo/873076/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 207464,
+      "sha256": "11168e6efe51b2ba4ac148439287ce441153312b4572950e40731523a7b9f0c4"
+    },
+    "finalUrl": "https://www.cfodive.com/news/sen-warren-probes-ai-safety-market-risks-anthropic-ipo/873076/",
+    "httpStatus": 200,
+    "title": "Sen. Warren probes AI safety, market risks in Anthropic IPO | CFO Dive",
+    "rendered": {
+      "textChars": 7693,
+      "textSha256": "65e385b065f5dd717653a5473d2f686050bfe6b78f9fd2441442eead7cd77a0d",
+      "htmlSha256": "4b3d9c063faf0a0c408801ba3455ceab361c97e7746e97f1f673591e802dad88"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a9f2f9b4c9d4a077c4ec4d00e8509215f2d991d15abc7a408926ef56e0dfd8b5",
+      "width": 1366,
+      "height": 5836,
+      "bytes": 1333390,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261029093248",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261029093248/https://www.cfodive.com/news/sen-warren-probes-ai-safety-market-risks-anthropic-ipo/873076/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261029125142/https://www.cfodive.com/news/sen-warren-probes-ai-safety-market-risks-anthropic-ipo/873076/",
+      "timestamp": "20261029125142",
+      "verifiedHttp": 200
+    }
+  }
+}

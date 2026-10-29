@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000396",
+  "url": "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby",
+  "capturedAt": "2026-10-29T12:54:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 53620,
+    "sha256": "4fb5ad4bc8ec3160446237e636d0688a02b7055d0d53d8aed4fc85b7a96be389",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "AA1493705201763EAA70F548183BE641",
+      "status": 403,
+      "url": "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1021,
+      "afterScrollHeight": 1021,
+      "wantedHeight": 1021
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "fff9066fedfaf276754738bb4d0af00e4ccb3e39beea30562a235e5fd3bafc5f",
+    "width": 1366,
+    "height": 1021,
+    "bytes": 57399,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1021,
+    "afterScrollHeight": 1021
+  },
+  "record": {
+    "capturedAt": "2026-10-29T12:54:55Z",
+    "url": "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 53620,
+      "sha256": "4fb5ad4bc8ec3160446237e636d0688a02b7055d0d53d8aed4fc85b7a96be389"
+    },
+    "finalUrl": "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby",
+    "httpStatus": 403,
+    "title": "Attention Required! | Cloudflare",
+    "rendered": {
+      "textChars": 683,
+      "textSha256": "a8c44e3c51799fd406c378c4f789d15187dc8b48c47a20cae10bd60c83dca61a",
+      "htmlSha256": "188c944b0cd7ccc9590b8fd4d7b7e140df619d20dfbefd313a9b0d9f0cc10e06"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "fff9066fedfaf276754738bb4d0af00e4ccb3e39beea30562a235e5fd3bafc5f",
+      "width": 1366,
+      "height": 1021,
+      "bytes": 57399,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261028143817",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261028143817/https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261029125508/https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-protect-kids-ai-chatbots-and-ensure-baby",
+      "timestamp": "20261029125508",
+      "verifiedHttp": 200
+    }
+  }
+}
