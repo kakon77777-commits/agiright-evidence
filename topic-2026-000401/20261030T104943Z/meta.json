@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000401",
+  "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+  "capturedAt": "2026-10-30T10:49:43Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 175853,
+    "sha256": "722ab3f1b9a907f3ba664bdeced6e0188d96eb5aec9685deddb163c96385e049",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "481351151FF0BDEE93CEC7B772A28E25",
+      "status": 200,
+      "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10594,
+      "afterScrollHeight": 10594,
+      "wantedHeight": 10594
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "b7dd69c3fe2204c88252eab3f050954491d1849538d562ef1ed37aa11569c2bc",
+    "width": 1366,
+    "height": 10594,
+    "bytes": 2218330,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10594,
+    "afterScrollHeight": 10594
+  },
+  "record": {
+    "capturedAt": "2026-10-30T10:49:43Z",
+    "url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 175853,
+      "sha256": "722ab3f1b9a907f3ba664bdeced6e0188d96eb5aec9685deddb163c96385e049"
+    },
+    "finalUrl": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+    "httpStatus": 200,
+    "title": "VAPOR PANDA Uses AI-Driven ARTEX to Grow Global Espionage Campaign",
+    "rendered": {
+      "textChars": 14765,
+      "textSha256": "8e978fc320e040af42e9897b6f43be68e725ce14c838aa6c9f0c00802c111147",
+      "htmlSha256": "1ba96ac1cef9c1335d3f2486db661cae3ac7372d4990271f418decd463d856d5"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b7dd69c3fe2204c88252eab3f050954491d1849538d562ef1ed37aa11569c2bc",
+      "width": 1366,
+      "height": 10594,
+      "bytes": 2218330,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261029231124",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261029231124/https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261030091028/https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+      "timestamp": "20261030091028",
+      "verifiedHttp": 200
+    }
+  }
+}

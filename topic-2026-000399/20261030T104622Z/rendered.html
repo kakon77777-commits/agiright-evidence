@@ -1,0 +1,1055 @@
+<html lang="en"><head><meta charset="utf-8"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="viewport" content="width=device-width"><meta name="generator" content="Astro v7.2.8"><title>Open-weight AI models can exploit the patch gap | Epoch AI</title><link rel="sitemap" href="/sitemap-index.xml"><meta name="description" content="GLM 5.3 turned published-but-unshipped Firefox security fixes into working one-click exploits for six releases, at roughly $1,000 each."><link rel="canonical" href="https://epoch.ai/publications/open-weight-models-patch-gap"><meta property="og:type" content="article"><meta property="og:url" content="https://epoch.ai/publications/open-weight-models-patch-gap"><meta property="og:title" content="Open-weight AI models can exploit the patch gap"><meta property="og:description" content="GLM 5.3 turned published-but-unshipped Firefox security fixes into working one-click exploits for six releases, at roughly $1,000 each."><meta data-pagefind-meta="image[content]" property="og:image" content="https://epoch.ai/assets/images/posts/2026/open-weight-models-patch-gap/t-open-weight-models-patch-gap.png"><meta property="og:site_name" content="Epoch AI"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://epoch.ai/publications/open-weight-models-patch-gap"><meta property="twitter:title" content="Open-weight AI models can exploit the patch gap"><meta property="twitter:description" content="GLM 5.3 turned published-but-unshipped Firefox security fixes into working one-click exploits for six releases, at roughly $1,000 each."><meta property="twitter:image" content="https://epoch.ai/assets/images/posts/2026/open-weight-models-patch-gap/t-open-weight-models-patch-gap.png"><meta property="twitter:site" content="@EpochAIResearch"><meta data-pagefind-meta="title[content]" property="pagefind:title" content="AI can turn security fixes into working exploits before users receive an update"><meta data-pagefind-filter="type[content]" property="pagefind:type" content="report"><meta data-pagefind-filter="tags[content]" property="pagefind:tags" content="Open models"><meta data-pagefind-filter="tags[content]" property="pagefind:tags" content="Capabilities"><meta data-pagefind-filter="authors[content]" property="pagefind:authors" content="Aiden Ament"><meta data-pagefind-filter="authors[content]" property="pagefind:authors" content="Yafah Edelman"><meta data-pagefind-filter="authors[content]" property="pagefind:authors" content="Alexander Barry"><meta data-pagefind-filter="authors[content]" property="pagefind:authors" content="Timothée Chauvin"><meta data-pagefind-filter="authors[content]" property="pagefind:authors" content="Lee Bousfield"><meta data-pagefind-filter="authors[content]" property="pagefind:authors" content="Jaeho Lee"><meta data-pagefind-meta="date[content]" property="pagefind:date" content="Thu Oct 29 2026 21:40:00 GMT+0000 (Coordinated Universal Time)"><meta data-pagefind-meta="description[content]" property="pagefind:date" content="GLM 5.3 turned published-but-unshipped Firefox security fixes into working one-click exploits for six releases, at roughly $1,000 each."><meta property="article:tag" content="Open models"><meta property="article:tag" content="Capabilities"><meta property="article:author" content="Aiden Ament"><meta property="article:author" content="Yafah Edelman"><meta property="article:author" content="Alexander Barry"><meta property="article:author" content="Timothée Chauvin"><meta property="article:author" content="Lee Bousfield"><meta property="article:author" content="Jaeho Lee"><script async="" src="https://scripts.clarity.ms/0.8.77-beta/clarity.js"></script><script type="text/javascript" async="" src="https://www.clarity.ms/tag/vjgo9b09t8?ref=gtm"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-2JLB2RT2V0&amp;cx=c&amp;gtm=4e6as1"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TB9Q2NN5"></script><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://epoch.ai/publications/open-weight-models-patch-gap#webpage","url":"https://epoch.ai/publications/open-weight-models-patch-gap","name":"Open-weight AI models can exploit the patch gap","description":"GLM 5.3 turned published-but-unshipped Firefox security fixes into working one-click exploits for six releases, at roughly $1,000 each.","isPartOf":{"@id":"https://epoch.ai/#website"},"mainEntity":{"@id":"https://epoch.ai/publications/open-weight-models-patch-gap#article"},"inLanguage":"en"},{"@type":"Article","@id":"https://epoch.ai/publications/open-weight-models-patch-gap#article","url":"https://epoch.ai/publications/open-weight-models-patch-gap","headline":"AI can turn security fixes into working exploits before users receive an update","description":"In our experiments, an open-weight model reliably exploited the \"patch gap\" to compromise six recent Firefox releases, costing about $1,000 each to carry out","image":"https://epoch.ai/assets/images/posts/2026/open-weight-models-patch-gap/t-open-weight-models-patch-gap.png","datePublished":"2026-10-29","author":[{"@type":"Person","@id":"https://epoch.ai/about/team/aiden-ament#person","name":"Aiden Ament","url":"https://epoch.ai/about/team/aiden-ament"},{"@type":"Person","@id":"https://epoch.ai/about/team/yafah-edelman#person","name":"Yafah Edelman","url":"https://epoch.ai/about/team/yafah-edelman"},{"@type":"Person","@id":"https://epoch.ai/about/team/alexander-barry#person","name":"Alexander Barry","url":"https://epoch.ai/about/team/alexander-barry"},{"@type":"Person","@id":"https://epoch.ai/about/team/timothee-chauvin#person","name":"Timothée Chauvin","url":"https://epoch.ai/about/team/timothee-chauvin"},{"@type":"Person","@id":"https://epoch.ai/about/team/lee-bousfield#person","name":"Lee Bousfield","url":"https://epoch.ai/about/team/lee-bousfield"},{"@type":"Person","@id":"https://epoch.ai/about/team/jaeho-lee#person","name":"Jaeho Lee","url":"https://epoch.ai/about/team/jaeho-lee"}],"publisher":{"@id":"https://epoch.ai/#organization"},"copyrightHolder":{"@id":"https://epoch.ai/#organization"},"keywords":"Open models, Capabilities","license":"https://creativecommons.org/licenses/by/4.0/","mainEntityOfPage":{"@id":"https://epoch.ai/publications/open-weight-models-patch-gap#webpage"},"inLanguage":"en"},{"@type":"ResearchOrganization","@id":"https://epoch.ai/#organization","name":"Epoch AI","url":"https://epoch.ai/","sameAs":["https://x.com/EpochAIResearch","https://www.linkedin.com/company/epochai","https://github.com/epoch-research","https://substack.com/@epochai","https://bsky.app/profile/epochai.bsky.social","https://profile.google.com/@epochairesearch"]},{"@type":"WebSite","@id":"https://epoch.ai/#website","url":"https://epoch.ai/","name":"Epoch AI","publisher":{"@id":"https://epoch.ai/#organization"},"inLanguage":"en"}]}</script><link rel="preload" href="/assets/MessinaSans/MessinaSans-Regular.woff2" as="font" type="font/woff2" crossorigin=""><link rel="preload" href="/assets/MessinaSans/MessinaSans-SemiBold.woff2" as="font" type="font/woff2" crossorigin=""><!-- Google Tag Manager --><script>(function(){const tagManagerId = "GTM-TB9Q2NN5";
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!=='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer',tagManagerId);})();</script><!-- End Google Tag Manager --><script>
+      if (window.MathJaxLoadCallbacks === undefined) {
+        window.MathJaxLoadCallbacks = [];
+      }
+
+      window.MathJax = {
+        tex: {
+          processEscapes: true, // Allows for escaping dollar signs with a backslash
+          inlineMath: [['\\[', '\\]'], ['\\(', '\\)']],
+        },
+        startup: {
+          pageReady: () => {
+            window.MathJaxLoadCallbacks.forEach((callback) => callback());
+            return window.MathJax.startup.defaultPageReady();
+          },
+        },
+        svg: {
+          fontCache: 'global',
+        },
+      };
+    </script><script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"></script><script>
+      window.legacyExports = {};
+    </script><script>(function(){const tagManagerId = "GTM-TB9Q2NN5";
+const clarityId = "mrxdks5ty9";
+
+        window.analyticsConfig = { tagManagerId, clarityId };
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = function () {
+          dataLayer.push(arguments);
+        };
+        gtag('consent', 'default', {
+          ad_storage: 'denied',
+          analytics_storage: 'denied',
+          ad_user_data: 'denied',
+          ad_personalization: 'denied',
+          wait_for_update: 500
+        });
+      })();</script><script src="https://analytics.ahrefs.com/analytics.js" data-key="HCcchIMJEcnDVKXyC8B9JQ" data-instance="AhrefsAnalytics" async=""></script><script src="https://analytics.ahrefs.com/analytics.js" data-key="SHIGyhPNastN56E1DmbuBQ" data-instance="PatrickAhrefsAnalytics" async=""></script><link rel="stylesheet" href="/_astro/Accordion.BEEIvi2h.css"><style>@container epoch-table-scroll scroll-state(scrollable:left){tbody[data-astro-cid-f2c7am4f]>tr[data-astro-cid-f2c7am4f]>td[data-astro-cid-f2c7am4f]:first-child,thead[data-astro-cid-f2c7am4f]>tr[data-astro-cid-f2c7am4f]>th[data-astro-cid-f2c7am4f]:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}.person-avatar[data-astro-cid-f2c7am4f]{object-fit:cover;filter:grayscale();flex-grow:0;flex-shrink:0;width:100px;height:100px}.person-card[data-astro-cid-f2c7am4f]{align-items:flex-start;gap:20px;text-decoration:none;display:flex}.person-card[data-astro-cid-f2c7am4f] .person-avatar[data-astro-cid-f2c7am4f]{border-radius:5.392px}.person-card[data-astro-cid-f2c7am4f] .person-name[data-astro-cid-f2c7am4f]{font-family:var(--font-messina-sans);font-size:var(--font-paragraph-2-size);line-height:var(--font-paragraph-2-line-height);font-weight:var(--font-paragraph-2-weight);margin-bottom:var(--font-paragraph-2-paragraph-spacing);color:var(--color-charcoal-1000);margin-bottom:0;font-weight:600}.person-card[data-astro-cid-f2c7am4f] .person-description[data-astro-cid-f2c7am4f]{font-family:var(--font-messina-sans);font-size:var(--font-paragraph-4-size);line-height:var(--font-paragraph-4-line-height);font-weight:var(--font-paragraph-4-weight);margin-bottom:var(--font-paragraph-4-paragraph-spacing);color:var(--color-charcoal-900);margin-bottom:0;font-weight:400}.person-card-link[data-astro-cid-f2c7am4f]:hover .person-name[data-astro-cid-f2c7am4f]{text-underline-offset:4px;text-decoration:underline}.people-list[data-astro-cid-u7vzebjy]{gap:var(--spacer-20);flex-direction:column;display:flex}
+.x-icon{justify-content:center;align-items:center;display:inline-flex}.x-icon.icon-l{width:var(--icon-frame-l);height:var(--icon-frame-l)}.x-icon.icon-l>svg,.x-icon.icon-l>img{min-width:calc(var(--icon-frame-l) + 4px);min-height:calc(var(--icon-frame-l) + 4px);max-width:calc(var(--icon-frame-l) + 4px);max-height:calc(var(--icon-frame-l) + 4px)}.x-icon.icon-m{width:var(--icon-frame-m);height:var(--icon-frame-m)}.x-icon.icon-m>svg,.x-icon.icon-m>img{min-width:calc(var(--icon-frame-m) + 4px);min-height:calc(var(--icon-frame-m) + 4px);max-width:calc(var(--icon-frame-m) + 4px);max-height:calc(var(--icon-frame-m) + 4px)}.x-icon.icon-s{width:var(--icon-frame-s);height:var(--icon-frame-s)}.x-icon.icon-s>svg,.x-icon.icon-s>img{min-width:calc(var(--icon-frame-s) + 3px);min-height:calc(var(--icon-frame-s) + 3px);max-width:calc(var(--icon-frame-s) + 3px);max-height:calc(var(--icon-frame-s) + 3px)}.x-icon svg{display:block}.x-icon svg [stroke]{stroke:currentColor}.x-icon svg [fill]{fill:currentColor}
+</style><link rel="stylesheet" href="/_astro/Empty.B40_YFf-.css"><style>.section-header-margin{margin-bottom:var(--vspacer-m)}.section-header{white-space:pre-line;grid-column:span var(--columns-full);justify-content:space-between;align-items:end;gap:var(--spacer-20);display:flex}@media screen and (width<=767px){.section-header{flex-direction:column;align-items:start!important}}.section-header .section-header-title{gap:var(--spacer-30);flex-direction:column;flex:1;display:flex}.section-header .section-header-title>h2.type-small{scroll-margin-top:calc(var(--nav-offset) + var(--spacer-30));margin-top:calc(2 * var(--font-heading-2-size));margin-bottom:var(--spacer-20)}.section-header-arrow{transform:rotate(-90deg)}@media screen and (width<=1023px){.section-header-desktop-only-controls .section-header-controls{display:none}}
+.section-header{margin-bottom:var(--vspacer-m)}.related-work-list .section-header{margin-bottom:0}.related-work-cards-list{gap:var(--spacer-30);flex-direction:column;grid-column:span 12;display:flex}.related-work-cards-list>.card-article-listing{gap:var(--spacer-15) var(--spacer-20);grid-template-columns:repeat(6,minmax(0,1fr))}.related-work-cards-list>.card-article-listing .card-img-frame{grid-area:1/1/auto/span 2}.related-work-cards-list>.card-article-listing .card-content{gap:var(--spacer-15);grid-area:1/3/auto/span 4}.related-work-cards-list>.card-article-listing .eyebrow{gap:var(--spacer-10);flex-wrap:wrap}@media screen and (width<=767px){.related-work-cards-list>.card-article-listing .card-img-frame{grid-area:1/1/auto/-1}.related-work-cards-list>.card-article-listing .card-content{grid-area:2/1/auto/-1}}
+:root{--Gray-900:#07171a;--Gray-800:#162b32;--Gray-700:#2b424b;--Gray-600:#3e555e;--Gray-500:#5c737b;--Gray-400:#90a5ab;--Gray-300:#ccd8d9;--Gray-200:#e2eeee;--Gray-100:#ebf5f4;--Gray-50:#f2faf9;--Gray-25:#f7fcfb;--Green-900:#102930;--Green-800:#09323a;--Green-700:#034752;--Green-600:#02767c;--Green-500:#00a5a6;--Green-400:#34d2b9;--Green-300:#70efd1;--Green-200:#abfae3;--Green-100:#e6fef3;--Graph-Teal:var(--Green-500);--Graph-Yellow:#ea8d00;--Graph-Purple:#6a3ecb;--Graph-Brown:#a75237;--Graph-Blue:#0058dc;--Graph-Pink:#e03d90;--Graph-Green:#279e27;--Graph-LightPurple:#b087f4;--Graph-Orange:#fc6538;--Graph-LightBlue:#009af1;--Graph-Gray:#9bbfc1;--Graph-DarkBlue:#015d90;--Graph-Red:#ea4831;--Graph-Yellow2:#e1c700;--Graph-Turquoise:#46ffff;--Graph-LightGreen:#63f039;--Graph-Black:#000;--Disabled:#cfd4d6;--System-Status-Disabled:#cad5d9;--System-Status-Error:#db371f;--System-Status-Disabled-Text:#828e92}
+@container epoch-table-scroll scroll-state(scrollable:left){tbody[data-astro-cid-qptslamt]>tr[data-astro-cid-qptslamt]>td[data-astro-cid-qptslamt]:first-child,thead[data-astro-cid-qptslamt]>tr[data-astro-cid-qptslamt]>th[data-astro-cid-qptslamt]:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}.toc-nav-container[data-astro-cid-qptslamt]{gap:var(--spacer-20);flex-direction:column;display:flex}.toc-nav-container[data-astro-cid-qptslamt] summary[data-astro-cid-qptslamt]{position:relative}.toc-nav-container[data-astro-cid-qptslamt] summary[data-astro-cid-qptslamt]:hover:after{background-color:var(--color-teal-500)}.toc-nav-container[data-astro-cid-qptslamt] summary[data-astro-cid-qptslamt]:after{content:"";background-color:#000;width:8px;height:8px;position:absolute;right:0;mask-image:url(/assets/icons/plus-sm.svg?raw);mask-position:50%;mask-repeat:no-repeat}.toc-nav-container[data-astro-cid-qptslamt][open] summary[data-astro-cid-qptslamt]:after{content:"";mask-image:url(/assets/icons/minus-sm.svg?raw);mask-position:50%;mask-repeat:no-repeat}.toc[data-astro-cid-qptslamt]{margin-right:var(--spacer-30)}.toc[data-astro-cid-qptslamt] .toc-header[data-astro-cid-qptslamt]{cursor:pointer;user-select:none;justify-content:space-between;align-items:center;gap:8px;display:flex}.toc[data-astro-cid-qptslamt] .toc-header[data-astro-cid-qptslamt]:hover>h3[data-astro-cid-qptslamt]{color:var(--color-teal-500)}.toc[data-astro-cid-qptslamt] .toc-header[data-astro-cid-qptslamt] h3[data-astro-cid-qptslamt]{color:var(--color-charcoal-1000);font-family:var(--font-messina-sans);font-size:var(--font-display-6-size);line-height:var(--font-display-6-line-height);font-weight:var(--font-display-6-weight);margin-bottom:var(--font-display-6-paragraph-spacing)}.toc[data-astro-cid-qptslamt] .toc-list-container[data-astro-cid-qptslamt]{transition:max-height .2s ease-in-out;overflow:hidden}.toc[data-astro-cid-qptslamt] .toc-list[data-astro-cid-qptslamt]{position:relative}.toc[data-astro-cid-qptslamt]{--bar-width:5px;--bar-border-radius:3px}.toc[data-astro-cid-qptslamt] .toc-bar[data-astro-cid-qptslamt]{height:100%;width:var(--bar-width);border-radius:var(--bar-border-radius);background:var(--color-charcoal-300);position:absolute;overflow:hidden}.toc[data-astro-cid-qptslamt] .active-anchor[data-astro-cid-qptslamt]{anchor-name:--toc-entry-active}.toc[data-astro-cid-qptslamt] .toc-bar-active[data-astro-cid-qptslamt]{z-index:50;position-anchor:--toc-entry-active;top:anchor(--toc-entry-active top);width:var(--bar-width);height:anchor-size(--toc-entry-active height);border-radius:var(--bar-border-radius);background:var(--color-charcoal-1000);transition:top .2s ease-out;position:absolute}@media (width<=767px){.toc[data-astro-cid-qptslamt] .toc-bar-active[data-astro-cid-qptslamt]{display:none}}.toc[data-astro-cid-qptslamt] .toc-entries[data-astro-cid-qptslamt]{margin:0;margin-left:var(--spacer-15);gap:var(--spacer-15);flex-direction:column;padding:0;display:flex}.toc[data-astro-cid-qptslamt] .toc-entry[data-astro-cid-qptslamt]{margin:0;list-style:none}.toc[data-astro-cid-qptslamt] .toc-entry[data-astro-cid-qptslamt] a[data-astro-cid-qptslamt]{color:var(--color-charcoal-500);font-family:var(--font-messina-sans);font-size:var(--font-body-4-size);line-height:var(--font-body-4-line-height);font-weight:var(--font-body-4-weight);margin-bottom:var(--font-body-4-paragraph-spacing);-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;text-decoration:none;display:-webkit-box;overflow:hidden}.toc[data-astro-cid-qptslamt] .toc-entry[data-astro-cid-qptslamt] a[data-astro-cid-qptslamt]:hover{color:var(--color-charcoal-800)}.toc[data-astro-cid-qptslamt] .toc-entry[data-astro-cid-qptslamt] a[data-astro-cid-qptslamt].active{color:var(--color-charcoal-1000)}.section-observed[data-astro-cid-qptslamt]{display:block}
+.tags[data-astro-cid-qi6tw2br]{flex-wrap:wrap;gap:10px;display:flex}
+@container epoch-table-scroll scroll-state(scrollable:left){tbody>tr>td:first-child,thead>tr>th:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}body.has-sidebar-footnotes .article-content section[data-footnotes]{display:none}.article-content sup:has(a[data-footnote-ref]),.article-content sup a[data-footnote-ref]{font-size:.75em;font-weight:800}.article-content sup a[data-footnote-ref]{position:relative}@media (width<=1023px){.article-content sup a[data-footnote-ref]:after{content:"";min-width:30px;min-height:30px;position:absolute;inset:-10px -8px}}@media (width>=1024px){.article-content sup a[data-footnote-ref]{cursor:default;text-decoration:none}.article-content sup a[data-footnote-ref]:hover{text-decoration:none}}.sidebar-footnotes{height:100%;min-height:1px;padding-left:30px;position:relative}.sidebar-footnote{border-top:1px solid var(--color-charcoal-200);border-bottom:1px solid var(--color-charcoal-200);padding:20px 0;position:absolute;top:0;left:30px;right:0}.sidebar-footnote.touches-next{border-bottom:none}.sidebar-footnote.expandable{cursor:pointer}.sidebar-footnote.expandable.expanded .sidebar-footnote-body{cursor:text}.sidebar-footnote-row,.footnote-overlay-row{align-items:flex-start;gap:10px;display:flex}.sidebar-footnote-num,.footnote-overlay-num{font-family:var(--font-messina-sans);font-size:var(--font-ui-5-size);line-height:var(--font-ui-5-line-height);font-weight:var(--font-ui-5-weight);margin-bottom:var(--font-ui-5-paragraph-spacing);color:var(--color-teal-500);flex-shrink:0;margin-bottom:0}.sidebar-footnote-body,.footnote-overlay-body{font-family:var(--font-messina-sans);font-size:var(--font-ui-5-size);line-height:var(--font-ui-5-line-height);font-weight:var(--font-ui-5-weight);margin-bottom:var(--font-ui-5-paragraph-spacing);color:var(--color-charcoal-900);flex:1;min-width:0;margin-bottom:0;font-weight:400}.sidebar-footnote-body{-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.sidebar-footnote-body p{margin:0;display:inline}.sidebar-footnote-body a,.footnote-overlay-body a{text-underline-offset:2px;text-decoration:underline}.sidebar-footnote-body a:hover,.footnote-overlay-body a:hover{text-decoration:none}.sidebar-footnote.expanded .sidebar-footnote-body{-webkit-line-clamp:unset;line-clamp:unset;display:block}.sidebar-footnote.expanded .sidebar-footnote-body p,.footnote-overlay-body p{margin:0 0 var(--spacer-10);display:block}.sidebar-footnote.expanded .sidebar-footnote-body p:last-child,.footnote-overlay-body p:last-child{margin-bottom:0}.sidebar-footnote-toggle{width:20px;height:20px;color:var(--color-teal-500);cursor:pointer;background:0 0;border:none;flex-shrink:0;justify-content:center;align-self:flex-end;align-items:center;padding:2px;display:inline-flex;position:relative}.sidebar-footnote-toggle:hover,.sidebar-footnote.expandable:hover .sidebar-footnote-toggle{color:var(--color-teal-700)}.sidebar-footnote-toggle .icon{width:16px;height:16px;position:absolute;top:10px}.sidebar-footnote-toggle svg{width:100%;height:100%}@media (width<=1023px){.sidebar-footnotes{display:none}}.footnote-overlay{z-index:1000;box-sizing:border-box;background:var(--color-overlay-backdrop);justify-content:stretch;align-items:flex-end;display:flex;position:fixed;inset:0}.footnote-overlay[hidden]{display:none}.footnote-overlay-backdrop{cursor:pointer;touch-action:none;background:0 0;border:none;margin:0;padding:0;position:absolute;inset:0}.footnote-overlay-panel{overscroll-behavior:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y;border-top:1px solid var(--color-charcoal-200);border-bottom:1px solid var(--color-charcoal-200);width:100%;max-height:min(60dvh,100%);padding:20px;padding-bottom:max(20px, env(safe-area-inset-bottom));box-sizing:border-box;background:#fff;outline:none;position:relative;overflow-y:auto}.footnote-overlay-num{white-space:nowrap}@media (width>=1024px){.footnote-overlay{display:none!important}}html.footnote-overlay-open,body.footnote-overlay-open{overscroll-behavior:none;overflow:hidden}
+.cite{gap:var(--spacer-10);display:flex}@media screen and (width<=767px){.cite .label{display:none}}
+</style><link rel="stylesheet" href="/_astro/Basic.eBq2dQPb.css"><style>@container epoch-table-scroll scroll-state(scrollable:left){tbody[data-astro-cid-gxrrp55g]>tr[data-astro-cid-gxrrp55g]>td[data-astro-cid-gxrrp55g]:first-child,thead[data-astro-cid-gxrrp55g]>tr[data-astro-cid-gxrrp55g]>th[data-astro-cid-gxrrp55g]:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}.breadcrumb[data-astro-cid-gxrrp55g]{overflow:hidden}.breadcrumb[data-astro-cid-gxrrp55g] ol[data-astro-cid-gxrrp55g]{align-items:center;gap:var(--spacer-10);margin:0;padding:0;list-style:none;display:flex}.breadcrumb[data-astro-cid-gxrrp55g] li[data-astro-cid-gxrrp55g]{font-family:var(--font-messina-sans);font-size:var(--font-ui-4-size);line-height:var(--font-ui-4-line-height);font-weight:var(--font-ui-4-weight);margin-bottom:var(--font-ui-4-paragraph-spacing);white-space:nowrap;color:var(--color-charcoal-300);align-items:center;text-decoration:none;display:flex}.breadcrumb[data-astro-cid-gxrrp55g] li[data-astro-cid-gxrrp55g]:first-child{color:var(--color-charcoal-800)}.breadcrumb[data-astro-cid-gxrrp55g] li[data-astro-cid-gxrrp55g]:last-child{overflow:hidden}.breadcrumb[data-astro-cid-gxrrp55g] li[data-astro-cid-gxrrp55g]:last-child>span[data-astro-cid-gxrrp55g]{-webkit-line-clamp:1;text-overflow:ellipsis;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.breadcrumb[data-astro-cid-gxrrp55g] a[data-astro-cid-gxrrp55g]{text-decoration:none;transition:color .15s}.breadcrumb[data-astro-cid-gxrrp55g] a[data-astro-cid-gxrrp55g]:hover{color:var(--color-teal-500)}.breadcrumb[data-astro-cid-gxrrp55g] .separator[data-astro-cid-gxrrp55g]{color:var(--color-charcoal-300);align-items:center;min-width:16px;margin-inline-start:var(--spacer-10);display:flex}@media (width>=0) and (width<=767px){.breadcrumb[data-astro-cid-gxrrp55g]{display:none}}
+.citation{padding:var(--card-padding-l);border:1px solid var(--color-charcoal-200);border-radius:var(--card-radius-l);cursor:pointer;user-select:none;background:#fff;width:100%;position:relative}.citation .citation-copy-rect-bottom{stroke:var(--color-charcoal-500)}.citation .citation-copy-rect-top{fill:var(--color-charcoal-500)}.citation:hover .citation-copy-rect-bottom{stroke:var(--color-charcoal-800)}.citation:hover .citation-copy-rect-top{fill:var(--color-charcoal-800)}.citation:hover{background:var(--color-charcoal-100)}.citation .-copy{top:var(--card-padding-l);right:var(--card-padding-l);position:absolute}.citation.-copied{animation:.5s ease-out forwards citation-copy}.citation.-copied:after{animation:.5s ease-out forwards citation-disappear}.citation:after{content:"Copied";text-box-trim:trim-both;text-box-edge:cap alphabetic;padding:var(--button-padding-s);color:var(--color-charcoal-200);background-color:var(--color-charcoal-800);top:calc(var(--card-padding-l) - 4px);right:calc(var(--card-padding-l) + var(--spacer-30));opacity:0;border-radius:50px;position:absolute}.citation-text{width:calc(100% - 40px);overflow:auto}.citation-text.citation-pre{white-space:pre-wrap;font-family:PT Mono,monospace}@keyframes citation-disappear{0%{opacity:1}60%{opacity:1}to{opacity:0}}@keyframes citation-copy{0%{filter:brightness(.9)}to{filter:brightness()}}
+@container epoch-table-scroll scroll-state(scrollable:left){tbody>tr>td:first-child,thead>tr>th:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}[data-modal-id=citation-modal] .citation-modal-header{margin-bottom:var(--spacer-20)}[data-modal-id=citation-modal] .citation-modal-content{gap:var(--spacer-30);flex-direction:column;display:flex}[data-modal-id=citation-modal] .citation-modal-badge{align-items:center;gap:var(--spacer-5);display:flex}[data-modal-id=citation-modal] .citation-modal-badge-dot{background:var(--color-charcoal-800);border-radius:50%;flex-shrink:0;width:14px;height:14px}[data-modal-id=citation-modal] .citation-modal-badge-label{color:var(--color-charcoal-800)}[data-modal-id=citation-modal] .citation-modal-content{gap:var(--spacer-30)}[data-modal-id=citation-modal] .citation-modal-content>p{font-family:var(--font-messina-sans);font-size:var(--font-paragraph-2-size);line-height:var(--font-paragraph-2-line-height);font-weight:var(--font-paragraph-2-weight);margin-bottom:var(--font-paragraph-2-paragraph-spacing);color:var(--color-charcoal-900);margin-bottom:0}[data-modal-id=citation-modal] .citation-modal-content h3{font-family:var(--font-messina-sans);font-size:var(--font-display-5-size);line-height:var(--font-display-5-line-height);font-weight:var(--font-display-5-weight);margin-bottom:var(--font-display-5-paragraph-spacing);text-box-trim:trim-both;text-box-edge:cap alphabetic}@supports (background:-webkit-named-image(i)){[data-modal-id=citation-modal] .citation-modal-content h3{text-box-trim:none;text-box-edge:auto}}[data-modal-id=citation-modal] .citation-modal-content h3{color:var(--color-charcoal-1000);margin-bottom:0}@media screen and (width>=768px) and (width<=1023px){[data-modal-id=citation-modal] .modal-content{width:100%}}@media screen and (width<=767px){[data-modal-id=citation-modal] .modal-content{width:100%}}
+</style><link rel="stylesheet" href="/_astro/Input.-Qgp017L.css"><style>@container epoch-table-scroll scroll-state(scrollable:left){tbody>tr>td:first-child,thead>tr>th:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}.content-page{grid-column:1/-1;grid-template-columns:subgrid;padding-bottom:var(--vspacer-xl);display:grid}.content-page .leading-video{frameborder:0;aspect-ratio:16/9;border:none;width:100%}.content-page .content-page-content:not(.no-margin-top){margin-top:var(--spacer-30)}.content-page .content-after-main,.content-page .content-body-and-sidebar-left{grid-column:1/-1;grid-template-columns:subgrid;display:grid}.content-page .content-sidebar-left{grid-column:2/5;height:fit-content;position:sticky;top:100px}.content-page .content-main{grid-column:5/11}.content-page .content-sidebar-right{grid-column:11/14}.content-page .new-viz-container{min-height:500px;max-height:500px}.content-page .new-viz-container .viz-customize-graph-mobile{display:none}.content-page section>h2{font-family:var(--font-messina-sans);font-size:var(--font-heading-2-size);line-height:var(--font-heading-2-line-height);font-weight:var(--font-heading-2-weight);margin-bottom:var(--font-heading-2-paragraph-spacing);color:var(--font-color-heading);scroll-margin-top:calc(var(--nav-offset) + var(--spacer-30));margin-top:calc(2 * var(--font-heading-2-size));margin-bottom:var(--spacer-20)}.content-page .content-body{min-width:0;color:var(--color-charcoal-900)}.content-page section.updates{margin-top:calc(2 * var(--font-heading-2-size))}.content-page mjx-container{overflow-x:auto}.content-body :where([id]){scroll-margin-top:var(--nav-offset)}@media screen and (width<=1023px){.content-page .content-main{grid-column:content-start/content-end}.content-page .content-sidebar-left,.content-page .content-sidebar-right{display:none}}@media screen and (width<=767px){.content-page{padding-bottom:var(--vspacer-l)}}.formatted-text>mdx-section>figure{width:100%}.full-width-section{width:calc(12 * var(--column-width) + 11 * var(--column-margin));max-width:calc(12 * var(--column-width) + 11 * var(--column-margin));margin-left:calc(3 * (var(--column-width) + var(--column-margin)) * -1)}@media (width<=1023px){.full-width-section{width:100%;max-width:100%;margin-left:0}}.full-width-section{column-gap:var(--column-margin);z-index:1;background:#fff;grid-template-columns:repeat(12,1fr);display:grid;position:relative}.full-width-section>figure{grid-column:2/12;margin-top:36px;margin-bottom:36px}@media (width<=1023px){.full-width-section>figure{grid-column:1/-1}}.full-width-section>figure>img:only-child{width:100%}@media print{.top-nav,.nav-stub,footer.section-full,.feedback-widget,.survey-popup,.loading-overlay,.toc-mobile,.content-sidebar-left,.content-sidebar-right,.actions-row{display:none!important}body,.root-grid,.content-page,.content-page-content,.content-body-and-sidebar-left,.content-after-main,.content-header,.header-inner,.header-col,.title-section,.content-main{width:100%!important;margin-top:0!important;display:block!important}.new-viz-container{max-height:none!important;overflow:visible!important}mjx-container{overflow:visible!important}figure,img,table,.new-viz-container{break-inside:avoid}h2,h3{break-after:avoid}}
+.tooltip-icon{background:0 0;height:16px;display:inline-block}.tooltip-wrapper>span.icon.x-icon{width:16px;height:16px}.tooltip-wrapper>span.icon.x-icon>svg{min-width:16px;max-width:16px;min-height:16px;max-height:16px}.tooltip-wrapper>.x-icon:hover{color:var(--color-teal-600)}@container epoch-table-scroll scroll-state(scrollable:left){tbody>tr>td:first-child,thead>tr>th:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}._tooltip_1qzhb_8{z-index:var(--z-index-tooltip-popup);padding-top:15px;display:block;position:absolute}._tooltip_1qzhb_8:not(._-tooltip-permanent_1qzhb_14){animation:.25s linear forwards _tooltip-appear_1qzhb_1}@media (width>=0) and (width<=767px){._tooltip_1qzhb_8{padding-left:10px;padding-right:10px;left:0!important;right:0!important}}@media (width>=768px){._tooltip_1qzhb_8{width:max-content;max-width:320px;transform:translate(-50%)}._tooltip_1qzhb_8 ._tooltip-pointy_1qzhb_31{left:calc(50% + var(--caret-offset,0px))!important}}._tooltip_1qzhb_8>._tooltip-content_1qzhb_35{padding:var(--spacer-15);font-family:var(--font-messina-sans);font-size:var(--font-ui-4-size);line-height:var(--font-ui-4-line-height);font-weight:var(--font-ui-4-weight);margin-bottom:var(--font-ui-4-paragraph-spacing);background-color:#000;border-radius:10px;font-weight:400;color:#fff!important}._tooltip_1qzhb_8>._tooltip-content_1qzhb_35 p,._tooltip_1qzhb_8>._tooltip-content_1qzhb_35 ul,._tooltip_1qzhb_8>._tooltip-content_1qzhb_35 ol,._tooltip_1qzhb_8>._tooltip-content_1qzhb_35 li{font-family:var(--font-messina-sans);font-size:var(--font-ui-4-size);line-height:var(--font-ui-4-line-height);font-weight:var(--font-ui-4-weight);margin-bottom:var(--font-ui-4-paragraph-spacing);font-weight:400}._tooltip_1qzhb_8 *{color:#fff!important}._tooltip_1qzhb_8 ._tooltip-pointy_1qzhb_31{position:absolute;transform:translate(-50%)translateY(-100%)scale(1.2)}._tooltip_1qzhb_8._-tooltip-above_1qzhb_62{padding-top:0;padding-bottom:15px}._tooltip_1qzhb_8._-tooltip-above_1qzhb_62 ._tooltip-pointy_1qzhb_31{bottom:15px;transform:translate(-50%)translateY(100%)rotate(180deg)scale(1.2)}@media (width>=0) and (width<=767px){.tooltip-not-mobile{display:none!important}}@keyframes _tooltip-appear_1qzhb_1{0%{opacity:0}99%{opacity:0}to{opacity:1}}
+</style><link rel="stylesheet" href="/_astro/PublicationsHeader.D_4ezJRF.css"><style>@container epoch-table-scroll scroll-state(scrollable:left){tbody>tr>td:first-child,thead>tr>th:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}.badge-normal,.badge-circle>.badge-text{font-family:var(--font-messina-sans);font-size:var(--font-ui-4-size);line-height:var(--font-ui-4-line-height);font-weight:var(--font-ui-4-weight);margin-bottom:var(--font-ui-4-paragraph-spacing);color:var(--color-charcoal-800);text-box-trim:trim-both;text-box-edge:cap alphabetic;flex-shrink:0}.badge-normal:first-letter,.badge-circle>.badge-text:first-letter{text-transform:uppercase}.badge-normal{border:1px solid var(--color-teal-400);border-radius:var(--button-radius-m);padding:8px 10px;display:inline-block}.badge-dashed{font-family:var(--font-messina-sans);font-size:var(--font-ui-4-size);line-height:var(--font-ui-4-line-height);font-weight:var(--font-ui-4-weight);margin-bottom:var(--font-ui-4-paragraph-spacing);color:var(--color-charcoal-700);padding:var(--button-padding-xs);border:1px dashed var(--color-charcoal-300);border-radius:4px;font-weight:400}.badge-outline{font-family:var(--font-messina-sans);font-size:var(--font-body-5-size);line-height:var(--font-body-5-line-height);font-weight:var(--font-body-5-weight);margin-bottom:var(--font-body-5-paragraph-spacing);color:var(--color-charcoal-1000);border:1px solid var(--color-charcoal-300);white-space:nowrap;border-radius:4px;flex-shrink:0;padding:5px 7px}@media screen and (width>=768px){.badge-l.badge-circle:before{width:14px;height:14px}}@media screen and (width<=1023px){.badge-l.badge-circle:before{width:10px;height:10px}}.badge-s.badge-circle:before{width:10px;height:10px}.badge-circle{align-items:center;gap:var(--spacer-5);display:inline-flex}.badge-circle:before{content:"";background-color:var(--color-charcoal-800);border-radius:100%;flex-shrink:0;display:inline-block}.badge-circle.badge-color-teal:before{background-color:var(--color-teal-200)}
+</style><link rel="stylesheet" href="/_astro/Button.MV6OF_Yv.css"><style>.modal{z-index:var(--z-index-overlay);box-sizing:border-box;background:var(--color-overlay-backdrop);width:100vw;max-width:none;height:100dvh;min-height:100%;max-height:none;color:inherit;border:none;justify-content:center;align-items:center;margin:0;padding:2rem;position:fixed;inset:0 auto auto 0;overflow-y:auto}.modal[open]{display:flex}.modal::backdrop{background:0 0}.modal-contained{width:100%;height:100%;z-index:100!important;padding:0!important;position:absolute!important}.modal-floating-overlays{width:0;height:0;position:absolute}.modal-content{width:min(100%, calc(8 * var(--column-width) + 7 * var(--column-margin)));border-radius:var(--card-radius-l);border:1px solid var(--color-charcoal-200);padding:var(--card-padding-xl);background:#fff;flex-direction:column;margin:auto 0;display:flex}.modal-header{margin-bottom:var(--spacer-20);justify-content:space-between;align-items:center;gap:var(--spacer-10);display:flex}.modal-header-content{flex:1}.modal-close-container{margin-left:auto}.modal-footer{margin-top:var(--spacer-20)}@media screen and (width>=768px) and (width<=1023px){.modal{padding:30px}}@media screen and (width<=767px){.modal{padding:10px}}
+@container epoch-table-scroll scroll-state(scrollable:left){tbody[data-astro-cid-gjiymmtj]>tr[data-astro-cid-gjiymmtj]>td[data-astro-cid-gjiymmtj]:first-child,thead[data-astro-cid-gjiymmtj]>tr[data-astro-cid-gjiymmtj]>th[data-astro-cid-gjiymmtj]:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}@media (width>=1024px){.toc-mobile[data-astro-cid-gjiymmtj]{display:none}}.toc-mobile[data-astro-cid-gjiymmtj]{z-index:100;top:calc(var(--nav-offset));padding-top:var(--spacer-15);padding-bottom:var(--spacer-15);opacity:0;border-bottom:1px solid var(--color-charcoal-100);visibility:hidden;background-color:#fff;transition:top .2s,opacity .2s,visibility;position:fixed}.toc-mobile[data-astro-cid-gjiymmtj].active{opacity:1;visibility:visible}.toc-mobile[data-astro-cid-gjiymmtj]{width:100vw;margin-left:calc(-1 * var(--epoch-margin))}.toc-mobile[data-astro-cid-gjiymmtj] .toc-mobile-nav-container[data-astro-cid-gjiymmtj]{padding-left:var(--epoch-margin);padding-right:var(--epoch-margin);position:relative}.toc-mobile-list-container[data-astro-cid-gjiymmtj]{z-index:50;position:relative}details[data-astro-cid-gjiymmtj][open] summary[data-astro-cid-gjiymmtj]:before{content:"";cursor:auto;width:100vw;height:100vh;position:fixed;top:0;left:0}.toc-mobile-nav-container[data-astro-cid-gjiymmtj][open] .toc-mobile-list-container[data-astro-cid-gjiymmtj]{margin-top:var(--spacer-10);border-top:1px solid var(--color-charcoal-100)}.toc-trigger[data-astro-cid-gjiymmtj]{font-family:var(--font-messina-sans);font-size:var(--font-ui-3-size);line-height:var(--font-ui-3-line-height);font-weight:var(--font-ui-3-weight);margin-bottom:var(--font-ui-3-paragraph-spacing);-webkit-line-clamp:1;cursor:pointer;z-index:10;-webkit-box-orient:vertical;width:100%;padding-right:1rem;font-weight:600;display:-webkit-box;position:relative;overflow:hidden}.toc-trigger[data-astro-cid-gjiymmtj]::marker{content:none}.toc-trigger[data-astro-cid-gjiymmtj]::-webkit-details-marker{display:none}.toc-mobile-nav-container[data-astro-cid-gjiymmtj]:after{content:url(/assets/icons/chevron-left.svg);z-index:0;position:absolute;top:0;right:1.3rem;transform:rotate(-90deg)scale(1.5)}.toc-mobile-nav-container[data-astro-cid-gjiymmtj][open]:after{transform:rotate(90deg)scale(1.5)}.toc-mobile-entry[data-astro-cid-gjiymmtj]{margin:0}.toc-mobile-entry[data-astro-cid-gjiymmtj]:last-child .toc-mobile-link[data-astro-cid-gjiymmtj]{border-bottom:none;padding-bottom:0}.toc-mobile-link[data-astro-cid-gjiymmtj]{padding-block:var(--spacer-15);font-family:var(--font-messina-sans);font-size:var(--font-ui-4-size);line-height:var(--font-ui-4-line-height);font-weight:var(--font-ui-4-weight);margin-bottom:var(--font-ui-4-paragraph-spacing);-webkit-line-clamp:2;color:var(--color-charcoal-600);border-bottom:1px solid var(--color-charcoal-100);-webkit-box-orient:vertical;font-weight:400;display:-webkit-box;overflow:hidden}.toc-mobile-link[data-astro-cid-gjiymmtj].active{color:var(--color-charcoal-1000)}body:has(.mobile-menu-checkbox:checked) .toc-mobile[data-astro-cid-gjiymmtj]{opacity:0;visibility:hidden;pointer-events:none}
+@container epoch-table-scroll scroll-state(scrollable:left){tbody[data-astro-cid-jrtl5wz7]>tr[data-astro-cid-jrtl5wz7]>td[data-astro-cid-jrtl5wz7]:first-child,thead[data-astro-cid-jrtl5wz7]>tr[data-astro-cid-jrtl5wz7]>th[data-astro-cid-jrtl5wz7]:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}.content-page .content-after-main:has(.other-topic-overviews){background:var(--color-charcoal-50);margin-top:var(--vspacer-xl);padding-top:var(--vspacer-xl);padding-bottom:var(--vspacer-xl)}.content-page:has(.other-topic-overviews){padding-bottom:0}.other-topic-overviews[data-astro-cid-jrtl5wz7]>h2[data-astro-cid-jrtl5wz7]{margin-top:0;margin-bottom:var(--vspacer-m);grid-column:1/-1}.topic-overviews-list[data-astro-cid-jrtl5wz7]{grid-column:1/-1;grid-template-columns:subgrid;row-gap:var(--spacer-30);margin:0;padding:0;list-style:none;display:grid}.topic-overview-item[data-astro-cid-jrtl5wz7]{grid-column:span 4}@media (width>=768px) and (width<=1023px){.topic-overview-item[data-astro-cid-jrtl5wz7]{grid-column:span 6}}@media (width>=0) and (width<=767px){.topic-overview-item[data-astro-cid-jrtl5wz7]{grid-column:1/-1}}.see-more-toggle[data-astro-cid-jrtl5wz7]{margin-top:var(--spacer-30);cursor:pointer;color:var(--color-teal-600);font-family:var(--font-messina-sans);font-size:var(--font-body-3-size);line-height:var(--font-body-3-line-height);font-weight:var(--font-body-3-weight);margin-bottom:var(--font-body-3-paragraph-spacing);background:0 0;border:none;grid-column:1/-1;justify-self:center;padding:0;display:none}.see-more-toggle[data-astro-cid-jrtl5wz7]:hover{text-decoration-skip-ink:none;text-underline-offset:auto;text-underline-position:from-font;text-decoration-line:underline;text-decoration-style:solid;text-decoration-thickness:auto}.see-less-label[data-astro-cid-jrtl5wz7]{display:none}@media (width>=0) and (width<=767px){.topic-overview-item[data-astro-cid-jrtl5wz7].mobile-collapsed{display:none}.topic-overview-item[data-astro-cid-jrtl5wz7] .card-content p{-webkit-line-clamp:2;text-box-trim:none;-webkit-box-orient:vertical;display:-webkit-box;overflow:hidden}.see-more-toggle[data-astro-cid-jrtl5wz7],.other-topic-overviews[data-astro-cid-jrtl5wz7].expanded .topic-overview-item[data-astro-cid-jrtl5wz7].mobile-collapsed{display:block}.other-topic-overviews[data-astro-cid-jrtl5wz7].expanded .see-more-label[data-astro-cid-jrtl5wz7]{display:none}.other-topic-overviews[data-astro-cid-jrtl5wz7].expanded .see-less-label[data-astro-cid-jrtl5wz7]{display:inline}}type-3-player{min-height:var(--spacer-60);display:block}.actions-row[data-astro-cid-z73i2dm2]{gap:var(--spacer-10)}@media screen and (width<=767px){.actions-row[data-astro-cid-z73i2dm2]{flex-wrap:wrap}.actions-row[data-astro-cid-z73i2dm2] type-3-player{width:100%}.actions-row[data-astro-cid-z73i2dm2] .flex-row[data-astro-cid-z73i2dm2]{justify-content:space-between;width:100%}}
+.eyebrow{align-items:center;gap:var(--spacer-10);display:flex}
+@container epoch-table-scroll scroll-state(scrollable:left){tbody>tr>td:first-child,thead>tr>th:first-child{box-shadow:inset -1px 0 0 var(--color-charcoal-200)}}.card{align-self:stretch;gap:var(--spacer-15);grid-template-columns:subgrid;flex-direction:column;grid-column:1/-1;display:flex}.card .tag-normal{text-transform:capitalize}.card:hover .card-title{text-decoration:underline}.card-img-link{display:contents}.card-img-frame{aspect-ratio:16/9;width:100%;min-height:0;position:relative}.card-img-frame:after{content:"";border:1px solid var(--color-charcoal-200);border-radius:var(--card-radius-l);position:absolute;inset:0}.card-img{border-radius:var(--card-radius-l);object-fit:cover;width:100%;height:100%;display:block}.card-meta{gap:var(--spacer-10);display:flex}.card-content{gap:var(--spacer-20);flex-direction:column;display:flex}@media (width>=0) and (width<=767px){.card-content{gap:var(--spacer-15)}}.card-article-listing{column-gap:var(--spacer-30);align-items:start;display:grid}.card-article-listing .card-content{grid-column:span 6}.card-article-listing .card-author{font-family:var(--font-messina-sans);font-size:var(--font-body-5-size);line-height:var(--font-body-5-line-height);font-weight:var(--font-body-5-weight);margin-bottom:var(--font-body-5-paragraph-spacing);color:var(--color-charcoal-500)}.card-article-listing .card-img-frame{grid-column:1/-1}.card-article-listing .card-img{align-self:center}@media (width>=0) and (width<=767px){.card-article-listing{grid-template-columns:repeat(6,1fr)}}@media (width>=1024px){.card-article-listing{grid-template-columns:repeat(9,1fr)}.card-article-listing .card-img-frame{grid-column:span 3}}@media (width>=768px) and (width<=1023px){.card-article-listing{grid-template-columns:repeat(12,1fr)}.card-article-listing .card-content,.card-article-listing .card-img-frame{grid-column:span 6}}@media (width>=768px){.card-article-listing .card-content{order:1}.card-article-listing .card-img-frame{order:2}.card-article-listing.card-layout-image-left .card-img-frame{order:1}.card-article-listing.card-layout-image-left .card-content{order:2}}.card-round{gap:var(--spacer-15);container-type:initial;flex-direction:row;align-items:center;display:flex}.card-round .card-content{gap:var(--spacer-10)}.card-round .card-img{object-fit:cover}.card-round .card-img-frame{width:80px;height:80px}.card-round .card-img-frame:after,.card-round .card-img-frame .card-img{border-radius:50%}@media (width>=1024px){.card-round-small .button-text.button-m{font-family:var(--font-messina-sans);font-size:var(--font-display-6-size);line-height:var(--font-display-6-line-height);font-weight:var(--font-display-6-weight);margin-bottom:var(--font-display-6-paragraph-spacing)}}
+.cookie-popup{border:2px solid var(--color-charcoal-200);gap:var(--spacer-20);width:520px;z-index:var(--z-index-overlay);right:var(--spacer-20);bottom:var(--spacer-20);background:#fff;border-radius:30px;flex-direction:column;padding:20px;animation:.5s ease-out forwards slide-in-up;display:flex;position:fixed;transform:translateY(100%)}@keyframes slide-in-up{0%{transform:translateY(100%)}to{transform:translateY(0)}}.cookie-popup .close-button{cursor:pointer;background:0 0;padding:0 7px}.cookie-actions{gap:var(--spacer-10);display:flex}.cookie-actions>*{flex:1}@media (width<=767px){.cookie-popup{border-bottom-right-radius:0;border-bottom-left-radius:0;width:100%;bottom:0;right:0}.cookie-actions{flex-direction:column}}
+</style><link rel="stylesheet" href="/_astro/SurveyWrapper.CYowMIn8.css"><style id="MJX-lb-styles">:root {
+  --mjx-fg-red: 255, 0, 0;
+  --mjx-fg-green: 0, 255, 0;
+  --mjx-fg-blue: 0, 0, 255;
+  --mjx-fg-yellow: 255, 255, 0;
+  --mjx-fg-cyan: 0, 255, 255;
+  --mjx-fg-magenta: 255, 0, 255;
+  --mjx-fg-white: 255, 255, 255;
+  --mjx-fg-black: 0, 0, 0;
+  --mjx-bg-red: 255, 0, 0;
+  --mjx-bg-green: 0, 255, 0;
+  --mjx-bg-blue: 0, 0, 255;
+  --mjx-bg-yellow: 255, 255, 0;
+  --mjx-bg-cyan: 0, 255, 255;
+  --mjx-bg-magenta: 255, 0, 255;
+  --mjx-bg-white: 255, 255, 255;
+  --mjx-bg-black: 0, 0, 0;
+  --mjx-live-bg-color: white;
+  --mjx-live-shadow-color: #888;
+  --mjx-live-border-color: #CCCCCC;
+  --mjx-bg1-color: rgba(var(--mjx-bg-blue), var(--mjx-bg1-alpha));
+  --mjx-fg1-color: rgba(var(--mjx-fg-black), 1);
+  --mjx-bg2-color: rgba(var(--mjx-bg-red), 1);
+  --mjx-fg2-color: rgba(var(--mjx-fg-black), 1);
+  --mjx-bg1-alpha: 0.2;
+  --mjx-fg1-alpha: 1;
+  --mjx-bg2-alpha: 1;
+  --mjx-fg2-alpha: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mjx-bg-blue: 132, 132, 255;
+      --mjx-bg-white: 0, 0, 0;
+      --mjx-bg-black: 255, 255, 255;
+      --mjx-fg-white: 0, 0, 0;
+      --mjx-fg-black: 255, 255, 255;
+      --mjx-live-bg-color: #222025;
+      --mjx-live-shadow-color: black;
+      --mjx-live-border-color: #7C7C7C;
+      --mjx-bg1-alpha: 0.3;
+      --mjx-fg1-alpha: 1;
+      --mjx-bg2-alpha: 1;
+      --mjx-fg2-alpha: 1;
+  }
+}
+
+.MJX_LiveRegion {
+  position: absolute;
+  top: 0;
+  display: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+  opacity: 1;
+  z-index: 202;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: var(--mjx-live-bg-color);
+  box-shadow: 0px 5px 20px var(--mjx-live-shadow-color);
+  border: 2px solid var(--mjx-live-border-color);
+}
+
+.MJX_LiveRegion_Show {
+  display: block;
+}
+
+.MJX_LiveRegion > div {
+  color: var(--mjx-fg1-color);
+  background-color: var(--mjx-bg1-color);
+}
+
+mjx-container [data-sre-highlight-1]:not([data-mjx-collapsed], rect) {
+  color: var(--mjx-fg1-color) ! important;
+  fill: var(--mjx-fg1-color) ! important;
+}
+
+mjx-container:not([data-mjx-clone-container]) [data-sre-highlight-1]:not([data-sre-enclosed], rect) {
+  background-color: var(--mjx-bg1-color) ! important;
+}
+
+mjx-container rect[data-sre-highlight-1]:not([data-sre-enclosed]) {
+  fill: var(--mjx-bg1-color) ! important;
+}
+
+mjx-container [data-sre-highlight-2] {
+  color: var(--mjx-fg2-color) ! important;
+  background-color: var(--mjx-bg2-color) ! important;
+  fill: var(--mjx-fg2-color) ! important;
+}
+
+mjx-container rect[data-sre-highlight-2] {
+  fill: var(--mjx-bg2-color) ! important;
+}</style><style id="MJX-hb-styles">.MJX_HoverRegion {
+  display: block;
+  position: absolute;
+  width: max-content;
+  height: auto;
+  padding: 0;
+  opacity: 1;
+  z-index: 202;
+  margin: 0 auto;
+  background-color: white;
+  line-height: 0;
+  box-shadow: 0px 10px 20px #888;
+  border: 2px solid #CCCCCC;
+}
+
+.MJX_HoverRegion > div {
+  overflow: hidden;
+  color: var(--mjx-fg1-color);
+  background-color: var(--mjx-bg1-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  .MJX_HoverRegion {
+    background-color: #222025;
+      box-shadow: 0px 5px 20px #000;
+      border: 1px solid #7C7C7C;
+  }
+}
+
+mjx-container[data-mjx-clone-container] {
+  padding: 2px ! important;
+}
+
+mjx-math > mjx-mlabeledtr {
+  display: inline-block;
+  margin-right: .5em ! important;
+}
+
+mjx-math > mjx-mtd {
+  float: right;
+}</style><style id="MJX-ab-styles">.MJX_ToolTip {
+  width: auto;
+  height: auto;
+  opacity: 1;
+  text-align: center;
+  border-radius: 4px;
+  padding: 0;
+  border-bottom: 1px dotted black;
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  z-index: 202;
+}
+
+.MJX_ToolTip > div {
+  border-radius: inherit;
+  padding: 0 2px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .MJX_ToolTip {
+    background-color: #222025;
+      box-shadow: 0px 5px 20px #000;
+      border: 1px solid #7C7C7C;
+  }
+}</style><style id="MJX-Menu-styles">.CtxtMenu_Menu {
+  position: absolute;
+  background-color: white;
+  color: black;
+  width: auto;
+  padding: 5px 0px;
+  border: 1px solid #CCCCCC;
+  margin: 0;
+  cursor: default;
+  font: menu;
+  text-align: left;
+  text-indent: 0;
+  text-transform: none;
+  line-height: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  float: none;
+  z-index: 1001;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px #808080;
+}
+.CtxtMenu_MenuItem {
+  padding: 1px 2em;
+  background: transparent;
+}
+.CtxtMenu_MenuArrow {
+  position: absolute;
+  right: 0.5em;
+  padding-top: 0.25em;
+  color: #666666;
+  font-family: null;
+  font-size: 0.75em;
+}
+.CtxtMenu_MenuActive .CtxtMenu_MenuArrow {
+  color: white;
+}
+.CtxtMenu_MenuArrow.CtxtMenu_RTL {
+  left: 0.5em;
+  right: auto;
+}
+.CtxtMenu_MenuCheck {
+  position: absolute;
+  left: 0.7em;
+  font-family: null;
+}
+.CtxtMenu_MenuCheck.CtxtMenu_RTL {
+  right: 0.7em;
+  left: auto;
+}
+.CtxtMenu_MenuRadioCheck {
+  position: absolute;
+  left: 0.7em;
+}
+.CtxtMenu_MenuRadioCheck.CtxtMenu_RTL {
+  right: 0.7em;
+  left: auto;
+}
+.CtxtMenu_MenuInputBox {
+  padding-left: 1em;
+  right: 0.5em;
+  color: #666666;
+  font-family: null;
+}
+.CtxtMenu_MenuInputBox.CtxtMenu_RTL {
+  left: 0.1em;
+}
+.CtxtMenu_MenuComboBox {
+  left: 0.1em;
+  padding-bottom: 0.5em;
+}
+.CtxtMenu_MenuSlider {
+  left: 0.1em;
+}
+.CtxtMenu_SliderValue {
+  position: absolute;
+  right: 0.1em;
+  padding-top: 0.25em;
+  color: #333333;
+  font-size: 0.75em;
+}
+.CtxtMenu_MenuActive .CtxtMenu_SliderValue {
+  color: #DDDDDD;
+}
+.CtxtMenu_SliderBar {
+  outline: none;
+  background: #D3D3D3;
+}
+.CtxtMenu_MenuLabel {
+  padding: 1px 2em 3px 1.33em;
+  font-style: italic;
+}
+.CtxtMenu_MenuRule {
+  border-top: 1px solid #DDDDDD;
+  margin: 4px 3px;
+}
+.CtxtMenu_MenuDisabled {
+  color: #999;
+}
+.CtxtMenu_MenuActive {
+  background-color: #606872;
+  color: white;
+}
+.CtxtMenu_MenuDisabled:focus {
+  background-color: #E8E8E8;
+}
+.CtxtMenu_MenuLabel:focus {
+  background-color: #E8E8E8;
+}
+.CtxtMenu_ContextMenu:focus {
+  outline: none;
+}
+.CtxtMenu_ContextMenu .CtxtMenu_MenuItem:focus {
+  outline: none;
+}
+.CtxtMenu_SelectionMenu {
+  position: relative;
+  float: left;
+  border-bottom: none;
+  box-shadow: none ! important;
+  border-radius: 0px !important;
+}
+.CtxtMenu_SelectionItem {
+  padding-right: 1em;
+}
+.CtxtMenu_Selection {
+  right: 40%;
+  width: 50%;
+}
+.CtxtMenu_SelectionBox {
+  padding: 0em;
+  max-height: 20em;
+  max-width: none;
+  background-color: #FFFFFF;
+}
+.CtxtMenu_SelectionDivider {
+  clear: both;
+  border-top: 2px solid #000000;
+}
+.CtxtMenu_Menu .CtxtMenu_MenuClose {
+  top: -10px;
+  left: -10px;
+}
+@media (prefers-color-scheme: dark) /* menu */ {
+  .CtxtMenu_Menu {
+  color: #E0E0E0;
+  background-color: #242436;
+  box-shadow: 0px 10px 20px #000;
+  border: 1px solid #808080;
+}
+  .CtxtMenu_SliderValue {
+  color: #D0D0D0;
+}
+  .CtxtMenu_MenuDisabled:focus {
+  background-color: #383838;
+}
+  .CtxtMenu_MenuLabel:focus {
+  background-color: #585858;
+}
+  .CtxtMenu_MenuRule {
+  border-top: 1px solid #808080;
+}
+  .CtxtMenu_SelectionDivider {
+  border-top: 2px solid #808080;
+};
+}
+.CtxtMenu_MenuClose {
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #AAA;
+  border-radius: 18px;
+  font-family:  "Courier New", Courier;
+  font-size: 24px;
+  color: #F0F0F0;
+}
+.CtxtMenu_MenuClose span {
+  display: block;
+  background-color: #AAA;
+  border: 1.5px solid;
+  border-radius: 18px;
+  line-height: 0;
+  padding: 8px 0 6px;
+}
+.CtxtMenu_MenuClose:hover {
+  color: white !important;
+  border: 2px solid #CCC !important;
+}
+.CtxtMenu_MenuClose:hover span {
+  background-color: #CCC !important;
+}
+.CtxtMenu_MenuClose:hover:focus {
+  outline: none;
+}</style><style id="MJX-SVG-styles">
+mjx-container[overflow="scroll"][display] {
+  overflow: auto clip;
+  min-width: initial !important;
+}
+
+mjx-container[overflow="truncate"][display] {
+  overflow: hidden clip;
+  min-width: initial !important;
+}
+
+mjx-container[display] {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin: .7em 0;
+  padding: .3em 2px;
+}
+
+mjx-container[display][width="full"] {
+  display: flex;
+}
+
+mjx-container[justify="left"] {
+  text-align: left;
+  justify-content: left;
+}
+
+mjx-container[justify="right"] {
+  text-align: right;
+  justify-content: right;
+}
+
+mjx-container[jax="SVG"] {
+  direction: ltr;
+  white-space: nowrap;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+  min-height: 1px;
+  min-width: 1px;
+}
+
+mjx-container[jax="SVG"] > svg a {
+  fill: blue;
+  stroke: blue;
+}
+
+rect[data-sre-highlighter-added]:has(+ .mjx-selected), rect[data-sre-highlighter-bbox].mjx-selected {
+  stroke: black;
+  stroke-width: 80px;
+}
+
+@media (prefers-color-scheme: dark) {
+  rect[data-sre-highlighter-added]:has(+ .mjx-selected), rect[data-sre-highlighter-bbox].mjx-selected {
+    stroke: #C8C8C8;
+  }
+}
+
+mjx-container[has-speech="true"] {
+  position: relative;
+  cursor: default;
+}
+
+mjx-speech {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+mjx-speech:focus {
+  outline: none;
+}
+
+mjx-container .mjx-selected {
+  outline: 2px solid black;
+}
+
+mjx-container a[data-mjx-href] {
+  color: LinkText;
+  cursor: pointer;
+}
+
+mjx-container a[data-mjx-href].mjx-visited {
+  color: VisitedText;
+}
+
+mjx-container > mjx-help {
+  display: none;
+  position: absolute;
+  top: -.3em;
+  right: -.5em;
+  width: .6em;
+  height: .6em;
+  cursor: pointer;
+}
+
+mjx-container[display="true"] > mjx-help {
+  position: sticky;
+  inset: -100% 0 100% 0;
+  margin: -.3em -.5em 0 -.1em;
+  right: 0;
+  top: initial;
+}
+
+mjx-help > svg {
+  stroke: black;
+  width: 100%;
+  height: 100%;
+}
+
+mjx-help > svg > circle {
+  stroke-width: 1.5px;
+  cx: 9px;
+  cy: 9px;
+  r: 9px;
+  fill: white;
+}
+
+mjx-help > svg > circle:nth-child(2) {
+  fill: var(--mjx-bg1-color);
+  r: 7px;
+}
+
+mjx-help > svg > line {
+  stroke-width: 2.5px;
+  stroke-linecap: round;
+}
+
+mjx-help:hover > svg > circle:nth-child(2) {
+  fill: white;
+}
+
+mjx-container.mjx-explorer-active > mjx-help {
+  display: inline-flex;
+  align-items: center;
+}
+
+@media (prefers-color-scheme: dark) /* explorer */ {
+  mjx-help > svg {
+    stroke: #E0E0E0;
+  }
+  mjx-help > svg > circle {
+    fill: #404040;
+  }
+  mjx-help > svg > circle:nth-child(2) {
+    fill: rgba(132, 132, 255, .3);
+  }
+  mjx-help:hover > svg > circle:nth-child(2) {
+    stroke: #AAAAAA;
+      fill: #404040;
+  }
+}
+
+mjx-container[jax="SVG"] mjx-break {
+  white-space: normal;
+  line-height: 0;
+  clip-path: rect(0 0 0 0);
+  font-family: MJX-ZERO ! important;
+}
+
+mjx-break[size="0"] {
+  letter-spacing: -0.999em;
+}
+
+mjx-break[size="1"] {
+  letter-spacing: -0.889em;
+}
+
+mjx-break[size="2"] {
+  letter-spacing: -0.833em;
+}
+
+mjx-break[size="3"] {
+  letter-spacing: -0.778em;
+}
+
+mjx-break[size="4"] {
+  letter-spacing: -0.722em;
+}
+
+mjx-break[size="5"] {
+  letter-spacing: -0.667em;
+}
+
+mjx-container[jax="SVG"] mjx-break[newline]::before {
+  white-space: pre;
+  content: "\A";
+}
+
+mjx-break[newline] + svg[width="0.054ex"] {
+  margin-right: -1px;
+}
+
+mjx-break[prebreak] {
+  letter-spacing: -.999em;
+}
+
+@font-face /* zero */ {
+  font-family: MJX-ZERO;
+  src: url(data:application/x-font-woff;charset=utf-8;base64,T1RUTwAJAIAAAwAQQ0ZGIGnFMZkAAARQAAAAlE9TLzJpUWOBAAABAAAAAGBjbWFwAAwAUwAABAQAAAAsaGVhZCFRvpAAAACcAAAANmhoZWEC8AD9AAAA1AAAACRobXR4A+gAAAAABOQAAAAIbWF4cAACUAAAAAD4AAAABm5hbWVNb8+2AAABYAAAAqNwb3N0AAMAAAAABDAAAAAgAAEAAAABAABVWOu4Xw889QADA+gAAAAA3ym+2AAAAADfKb7YAAAAAAPoAAAAAAADAAIAAAAAAAAAAQAAAu79EgAAA+gAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAIAAFAAAAIAAAADA+gB9AAFAAACigK7AAAAjAKKArsAAAHfADEBAgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABYWFhYAEAAIAAgAu79EgAAAu4C7gAAAAEAAAAAAXcAAAAgACAAAAAAACIBngABAAAAAAAAAAEAQQABAAAAAAABAAsAAAABAAAAAAACAAcAIQABAAAAAAADABUAxgABAAAAAAAEABMANgABAAAAAAAFAAsApQABAAAAAAAGABIAbwABAAAAAAAHAAEAQQABAAAAAAAIAAEAQQABAAAAAAAJAAEAQQABAAAAAAAKAAEAQQABAAAAAAALAAEAQQABAAAAAAAMAAEAQQABAAAAAAANAAEAQQABAAAAAAAOAAEAQQABAAAAAAAQAAsAAAABAAAAAAARAAcAIQADAAEECQAAAAIAXwADAAEECQABABYACwADAAEECQACAA4AKAADAAEECQADACoA2wADAAEECQAEACYASQADAAEECQAFABYAsAADAAEECQAGACQAgQADAAEECQAHAAIAXwADAAEECQAIAAIAXwADAAEECQAJAAIAXwADAAEECQAKAAIAXwADAAEECQALAAIAXwADAAEECQAMAAIAXwADAAEECQANAAIAXwADAAEECQAOAAIAXwADAAEECQAQABYACwADAAEECQARAA4AKG1qeC1sbS16ZXJvAG0AagB4AC0AbABtAC0AegBlAHIAb1JlZ3VsYXIAUgBlAGcAdQBsAGEAcm1qeC1sbS16ZXJvIFJlZ3VsYXIAbQBqAHgALQBsAG0ALQB6AGUAcgBvACAAUgBlAGcAdQBsAGEAcm1qeC1sbS16ZXJvUmVndWxhcgBtAGoAeAAtAGwAbQAtAHoAZQByAG8AUgBlAGcAdQBsAGEAclZlcnNpb24gMC4xAFYAZQByAHMAaQBvAG4AIAAwAC4AMSA6bWp4LWxtLXplcm8gUmVndWxhcgAgADoAbQBqAHgALQBsAG0ALQB6AGUAcgBvACAAUgBlAGcAdQBsAGEAcgAAAAABAAMAAQAAAAwABAAgAAAABAAEAAEAAAAg//8AAAAg////4QABAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAQABAQETbWp4LWxtLXplcm9SZWd1bGFyAAEBASf4GwD4HAL4HQP4HgSLi/mC+nwFHQAAAIYPHQAAAIkRix0AAACUEgAFAQEMHyoxNlZlcnNpb24gMC4xbWp4LWxtLXplcm8gUmVndWxhcm1qeC1sbS16ZXJvUmVndWxhcnNwYWNlAAAAAYsAAgEBAwaLDvp8DgAAAAAD6AAA) format("woff");
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line], svg[data-table] > g > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame], svg[data-table] > g > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed, svg[data-table] > g > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted, svg[data-table] > g > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > g > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  line-height: 0;
+  padding: .2em;
+  border: 1px solid #888;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+g[data-mjx-collapsed] {
+  fill: #55F;
+}
+
+@media (prefers-color-scheme: dark) /* svg maction */ {
+  mjx-tool > mjx-tip {
+    background-color: #303030;
+      color: #E0E0E0;
+      box-shadow: 2px 2px 5px #000;
+  }
+  mjx-status {
+    background-color: #303030;
+      color: #E0E0E0;
+  }
+  g[data-mjx-collapsed] {
+    fill: #88F;
+  }
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+foreignObject[data-mjx-html] {
+  overflow: visible;
+}
+
+mjx-measure-xml {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  line-height: normal;
+  white-space: normal;
+}
+
+mjx-html {
+  display: inline-block;
+  line-height: normal;
+  text-align: initial;
+  white-space: initial;
+}
+
+mjx-html-holder {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
+  stroke-width: 3;
+}
+</style><link id="t3a-embed-player-css" rel="stylesheet" type="text/css" href="https://embed.type3.audio/fonts/fonts.css"></head><body class="has-sidebar-footnotes t3a--ai-narration"><svg xmlns="http://www.w3.org/2000/svg" id="MJX-SVG-global-cache" style="display: none;"><defs></defs></svg><div tabindex="-1" class="nav-header root-grid " data-astro-cid-gyprio74=""><nav aria-label="Main Navigation" class="top-nav" data-astro-cid-gyprio74=""><div class="mobile-navigation" data-astro-cid-2ipjxpd4=""><div class="mobile-navigation-inner" data-astro-cid-2ipjxpd4=""><label class="mobile-menu-toggle" aria-label="Toggle menu" for="mobile-menu-toggle" data-astro-cid-2ipjxpd4=""><img class="menu-icon" src="/assets/icons/nav-hamburger.svg" width="16px" alt="Menu" data-astro-cid-2ipjxpd4=""><img class="close-icon" src="/assets/icons/x-lg.svg" width="16px" alt="Menu" data-astro-cid-2ipjxpd4=""></label><a href="/" data-astro-cid-2ipjxpd4=""><img src="/assets/logo/logo.svg" height="20px" alt="Epoch AI logo" class="nav-logo-big" data-astro-cid-2ipjxpd4=""></a><div class="mobile-search-toggle-wrapper" data-astro-cid-2ipjxpd4=""><button type="button" class="button button-l button-nav-gray-filled mobile-search-toggle button-ui"><span class="icon x-icon icon-l"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9.54051 8.40441C10.183 7.52968 10.5625 6.44978 10.5625 5.28125C10.5625 2.3645 8.198 0 5.28125 0C2.3645 0 0 2.3645 0 5.28125C0 8.198 2.3645 10.5625 5.28125 10.5625C6.4501 10.5625 7.53026 10.1828 8.40511 9.53998L8.40441 9.54051C8.42837 9.573 8.45506 9.60411 8.48448 9.63352L11.613 12.762C11.9303 13.0793 12.4447 13.0793 12.762 12.762C13.0793 12.4447 13.0793 11.9303 12.762 11.613L9.63352 8.48448C9.60411 8.45506 9.573 8.42837 9.54051 8.40441ZM9.75 5.28125C9.75 7.74927 7.74927 9.75 5.28125 9.75C2.81323 9.75 0.8125 7.74927 0.8125 5.28125C0.8125 2.81323 2.81323 0.8125 5.28125 0.8125C7.74927 0.8125 9.75 2.81323 9.75 5.28125Z" fill="#000000"></path>
+</svg>
+</span></button></div></div><div class="navigation-overlay" data-astro-cid-2ipjxpd4=""></div><input type="checkbox" class="mobile-menu-checkbox" id="mobile-menu-toggle" autocomplete="off" data-astro-cid-2ipjxpd4=""><div class="mobile-menu" data-astro-cid-2ipjxpd4=""><div class="mobile-menu-content" data-astro-cid-2ipjxpd4=""><div class="mobile-menu-main" data-astro-cid-2ipjxpd4=""><a href="/latest" class="mobile-menu-item flex-row align-center" data-astro-cid-2ipjxpd4=""><span data-astro-cid-2ipjxpd4="">Latest</span></a><details class="mobile-menu-item" data-astro-cid-2ipjxpd4=""><summary data-astro-cid-2ipjxpd4=""><span data-astro-cid-2ipjxpd4="">Our work</span></summary><div class="mobile-submenu-section-container" data-astro-cid-2ipjxpd4=""><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">Featured</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/trends" class="mobile-submenu-feature flex-row align-center gap-10" data-astro-cid-2ipjxpd4=""><img src="/assets/images/nav/product-trends.png" alt="" width="50" height="50" class="mobile-submenu-feature-icon" data-astro-cid-2ipjxpd4=""><span class="mobile-submenu-feature-label" data-astro-cid-2ipjxpd4="">Trends in AI</span></a></li><li data-astro-cid-2ipjxpd4=""><a href="/data" class="mobile-submenu-feature flex-row align-center gap-10" data-astro-cid-2ipjxpd4=""><img src="/assets/images/nav/product-data-explorers.png" alt="" width="50" height="50" class="mobile-submenu-feature-icon" data-astro-cid-2ipjxpd4=""><span class="mobile-submenu-feature-label" data-astro-cid-2ipjxpd4="">Data on AI</span></a></li><li data-astro-cid-2ipjxpd4=""><a href="/benchmarks" class="mobile-submenu-feature flex-row align-center gap-10" data-astro-cid-2ipjxpd4=""><img src="/assets/images/nav/product-benchmarking.png" alt="" width="50" height="50" class="mobile-submenu-feature-icon" data-astro-cid-2ipjxpd4=""><span class="mobile-submenu-feature-label" data-astro-cid-2ipjxpd4="">Capabilities &amp; benchmarking</span></a></li></ul></div><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">Publications</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/publications?type=paper&amp;type=report" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Papers &amp; reports</a></li><li data-astro-cid-2ipjxpd4=""><a href="/data-insights" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Data Insights</a></li><li data-astro-cid-2ipjxpd4=""><a href="/gradient-updates" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Newsletter</a></li><li data-astro-cid-2ipjxpd4=""><a href="/epoch-after-hours" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Podcast</a></li><li data-astro-cid-2ipjxpd4=""><a href="/publications" class="mobile-submenu-item mobile-submenu-item-cta" data-astro-cid-2ipjxpd4="">All publications</a></li></ul></div><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">Data explorers</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/benchmarks" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">AI capabilities</a></li><li data-astro-cid-2ipjxpd4=""><a href="/data/ai-models" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">AI models</a></li><li data-astro-cid-2ipjxpd4=""><a href="/data/ai-data-centers" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">AI data centers</a></li><li data-astro-cid-2ipjxpd4=""><a href="/data/ai-chip-sales" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">AI chip sales</a></li><li data-astro-cid-2ipjxpd4=""><a href="/data/ai-companies" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">AI companies</a></li><li data-astro-cid-2ipjxpd4=""><a href="/data/polling" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Polling on AI usage</a></li><li data-astro-cid-2ipjxpd4=""><a href="/data" class="mobile-submenu-item mobile-submenu-item-cta" data-astro-cid-2ipjxpd4="">All data explorers</a></li></ul></div><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">Our benchmarks</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/eci" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Epoch Capabilities Index</a></li><li data-astro-cid-2ipjxpd4=""><a href="/MirrorCode" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">MirrorCode</a></li><li data-astro-cid-2ipjxpd4=""><a href="/frontiermath/open-problems" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">FrontierMath: Open Problems</a></li><li data-astro-cid-2ipjxpd4=""><a href="/benchmarks/epoch-automation-reports" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Epoch Automation Reports</a></li><li data-astro-cid-2ipjxpd4=""><a href="/benchmarks/ebr-bench?view=graph&amp;tab=release-date" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Earthborne Rangers</a></li></ul></div></div></details><details class="mobile-menu-item" data-astro-cid-2ipjxpd4=""><summary data-astro-cid-2ipjxpd4=""><span data-astro-cid-2ipjxpd4="">Topics</span></summary><div class="mobile-submenu-section-container" data-astro-cid-2ipjxpd4=""><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">AI progress</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/topics/scaling" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Scaling</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/software-progress" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Software progress</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/open-models" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Open models</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/capabilities" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Capabilities &amp; benchmarks</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/math" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Math</a></li></ul></div><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">Industry</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/topics/leading-companies" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Leading companies</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/finances" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Finances</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/geopolitics" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Geopolitics</a></li></ul></div><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">Infrastructure</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/topics/chips" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Chips</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/data-centers" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Data centers</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/energy" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Energy</a></li></ul></div><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">Impacts</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/topics/adoption-and-use" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Adoption &amp; use</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/economic-impact" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Economic impact</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/future-of-ai" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Future of AI</a></li><li data-astro-cid-2ipjxpd4=""><a href="/topics/ai-impacts" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">AI impacts observatory</a></li></ul></div></div></details><details class="mobile-menu-item" data-astro-cid-2ipjxpd4=""><summary data-astro-cid-2ipjxpd4=""><span data-astro-cid-2ipjxpd4="">About</span></summary><div class="mobile-submenu-section-container" data-astro-cid-2ipjxpd4=""><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">Who we are</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/about" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">About us</a></li><li data-astro-cid-2ipjxpd4=""><a href="/about/team" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Our team</a></li><li data-astro-cid-2ipjxpd4=""><a href="/about/transparency" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Transparency</a></li></ul></div><div class="mobile-submenu-section flex-column gap-30" data-astro-cid-2ipjxpd4=""><h4 class="mobile-submenu-section-title" data-astro-cid-2ipjxpd4="">Engage with us</h4><ul class="mobile-submenu-items" data-astro-cid-2ipjxpd4=""><li data-astro-cid-2ipjxpd4=""><a href="/about/careers" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Careers</a></li><li data-astro-cid-2ipjxpd4=""><a href="/about/press" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Press</a></li><li data-astro-cid-2ipjxpd4=""><a href="/about/consultations" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Work with our experts</a></li><li data-astro-cid-2ipjxpd4=""><a href="/about/donate" class="mobile-submenu-item" data-astro-cid-2ipjxpd4="">Donate</a></li></ul></div></div></details><a href="/contact" class="mobile-menu-item flex-row align-center" data-astro-cid-2ipjxpd4=""><span data-astro-cid-2ipjxpd4="">Contact</span></a></div></div></div></div><div class="nav-search-dropdown" data-astro-cid-bcpfycgv=""><form class="nav-search-form" action="/search" method="get" data-astro-cid-bcpfycgv=""><span class="icon x-icon icon-l"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9.54051 8.40441C10.183 7.52968 10.5625 6.44978 10.5625 5.28125C10.5625 2.3645 8.198 0 5.28125 0C2.3645 0 0 2.3645 0 5.28125C0 8.198 2.3645 10.5625 5.28125 10.5625C6.4501 10.5625 7.53026 10.1828 8.40511 9.53998L8.40441 9.54051C8.42837 9.573 8.45506 9.60411 8.48448 9.63352L11.613 12.762C11.9303 13.0793 12.4447 13.0793 12.762 12.762C13.0793 12.4447 13.0793 11.9303 12.762 11.613L9.63352 8.48448C9.60411 8.45506 9.573 8.42837 9.54051 8.40441ZM9.75 5.28125C9.75 7.74927 7.74927 9.75 5.28125 9.75C2.81323 9.75 0.8125 7.74927 0.8125 5.28125C0.8125 2.81323 2.81323 0.8125 5.28125 0.8125C7.74927 0.8125 9.75 2.81323 9.75 5.28125Z" fill="#000000"></path>
+</svg>
+</span><input type="text" name="query" class="nav-search-input" placeholder="Search epoch.ai" autocomplete="off" data-astro-cid-bcpfycgv=""><button type="button" class="button button-m button-nav-gray-filled nav-search-close button-ui"><span class="icon x-icon icon-m"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.14645 2.85355C1.95118 2.65829 1.95118 2.34171 2.14645 2.14645C2.34171 1.95118 2.65829 1.95118 2.85355 2.14645L8 7.29289L13.1464 2.14645C13.3417 1.95118 13.6583 1.95118 13.8536 2.14645C14.0488 2.34171 14.0488 2.65829 13.8536 2.85355L8.70711 8L13.8536 13.1464C14.0488 13.3417 14.0488 13.6583 13.8536 13.8536C13.6583 14.0488 13.3417 14.0488 13.1464 13.8536L8 8.70711L2.85355 13.8536C2.65829 14.0488 2.34171 14.0488 2.14645 13.8536C1.95119 13.6583 1.95119 13.3417 2.14645 13.1464L7.29289 8L2.14645 2.85355Z" fill="black"></path>
+</svg>
+</span></button></form><div class="mega-menu-backdrop" data-astro-cid-bcpfycgv=""></div></div><script type="module">window.addEventListener(`DOMContentLoaded`,function(){let e=document.querySelector(`.nav-search-input`),t=document.querySelector(`.nav-search-toggle`),n=document.querySelector(`.mobile-search-toggle`),r=document.querySelector(`.nav-search-dropdown`),i=document.querySelector(`.nav-search-close`);function a(){e.value=``,r.classList.toggle(`active`),r.classList.contains(`active`)?e.focus():e.blur()}n.addEventListener(`click`,function(){document.getElementById(`mobile-menu-toggle`).checked=!1,a()}),t.addEventListener(`click`,function(){a()}),i.addEventListener(`click`,function(){a()}),document.addEventListener(`click`,e=>{let i=e.target;r.classList.contains(`active`)&&!r.contains(i)&&!t.contains(i)&&!n.contains(i)&&r.classList.remove(`active`)}),document.querySelectorAll(`.nav-menu > li:not(.nav-search-item):not(:nth-last-child(2))`).forEach(e=>{e.addEventListener(`mouseenter`,()=>{r.classList.contains(`active`)&&r.classList.remove(`active`)})})});</script><div class="nav-wrapper" data-astro-cid-gyprio74=""><div class="nav-content" data-astro-cid-gyprio74=""><div class="nav-logo" data-astro-cid-gyprio74=""><a href="/" data-astro-cid-gyprio74=""><img src="/assets/logo/logo.svg" alt="Epoch AI logo" class="nav-logo-big" data-astro-cid-gyprio74=""></a></div><ul class="nav-menu" data-astro-cid-gyprio74=""><li class="dropdown-link" data-astro-cid-gyprio74=""><a href="/latest" class="button button-l button-nav ">Latest</a></li><li class="dropdown-nav" data-astro-cid-gyprio74=""><a class="button button-l button-nav ">Our work</a><div class="mega-menu" data-astro-cid-gyprio74=""><div class="mega-menu-content flex-row" data-astro-cid-gyprio74=""><div class="mega-menu-section mega-menu-section-featured" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">Featured</h4><div class="mega-menu-featured flex-column gap-15" data-astro-cid-66sqndta=""><a href="/trends" class="mega-menu-feature flex-row align-center gap-10" data-astro-cid-66sqndta=""><img src="/assets/images/nav/product-trends.png" alt="" width="50" height="50" class="mega-menu-feature-icon" data-astro-cid-66sqndta=""><span class="mega-menu-item-label" data-astro-cid-66sqndta="">Trends in AI</span></a><a href="/data" class="mega-menu-feature flex-row align-center gap-10" data-astro-cid-66sqndta=""><img src="/assets/images/nav/product-data-explorers.png" alt="" width="50" height="50" class="mega-menu-feature-icon" data-astro-cid-66sqndta=""><span class="mega-menu-item-label" data-astro-cid-66sqndta="">Data on AI</span></a><a href="/benchmarks" class="mega-menu-feature flex-row align-center gap-10" data-astro-cid-66sqndta=""><img src="/assets/images/nav/product-benchmarking.png" alt="" width="50" height="50" class="mega-menu-feature-icon" data-astro-cid-66sqndta=""><span class="mega-menu-item-label" data-astro-cid-66sqndta="">Capabilities &amp; benchmarking</span></a></div></div><div class="mega-menu-section" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">Publications</h4><div class="mega-menu-items flex-column gap-20" data-astro-cid-66sqndta=""><a href="/publications?type=paper&amp;type=report" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Papers &amp; reports</h5></a><a href="/data-insights" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Data Insights</h5></a><a href="/gradient-updates" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Newsletter</h5></a><a href="/epoch-after-hours" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Podcast</h5></a><a href="/publications" class="mega-menu-item mega-menu-item-cta" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">All publications</h5></a></div></div><div class="mega-menu-section" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">Data explorers</h4><div class="mega-menu-items flex-column gap-20" data-astro-cid-66sqndta=""><a href="/benchmarks" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">AI capabilities</h5></a><a href="/data/ai-models" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">AI models</h5></a><a href="/data/ai-data-centers" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">AI data centers</h5></a><a href="/data/ai-chip-sales" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">AI chip sales</h5></a><a href="/data/ai-companies" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">AI companies</h5></a><a href="/data/polling" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Polling on AI usage</h5></a><a href="/data" class="mega-menu-item mega-menu-item-cta" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">All data explorers</h5></a></div></div><div class="mega-menu-section" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">Our benchmarks</h4><div class="mega-menu-items flex-column gap-20" data-astro-cid-66sqndta=""><a href="/eci" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Epoch Capabilities Index</h5></a><a href="/MirrorCode" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">MirrorCode</h5></a><a href="/frontiermath/open-problems" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">FrontierMath: Open Problems</h5></a><a href="/benchmarks/epoch-automation-reports" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Epoch Automation Reports</h5></a><a href="/benchmarks/ebr-bench?view=graph&amp;tab=release-date" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Earthborne Rangers</h5></a></div></div></div><div class="mega-menu-backdrop" data-astro-cid-gyprio74=""></div></div></li><li class="dropdown-nav" data-astro-cid-gyprio74=""><a href="/topics" class="button button-l button-nav ">Navigate by topic</a><div class="mega-menu" data-astro-cid-gyprio74=""><div class="mega-menu-content flex-row" data-astro-cid-gyprio74=""><div class="mega-menu-section" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">AI progress</h4><div class="mega-menu-items flex-column gap-20" data-astro-cid-66sqndta=""><a href="/topics/scaling" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Scaling</h5></a><a href="/topics/software-progress" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Software progress</h5></a><a href="/topics/open-models" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Open models</h5></a><a href="/topics/capabilities" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Capabilities &amp; benchmarks</h5></a><a href="/topics/math" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Math</h5></a></div></div><div class="mega-menu-section" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">Industry</h4><div class="mega-menu-items flex-column gap-20" data-astro-cid-66sqndta=""><a href="/topics/leading-companies" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Leading companies</h5></a><a href="/topics/finances" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Finances</h5></a><a href="/topics/geopolitics" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Geopolitics</h5></a></div></div><div class="mega-menu-section" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">Infrastructure</h4><div class="mega-menu-items flex-column gap-20" data-astro-cid-66sqndta=""><a href="/topics/chips" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Chips</h5></a><a href="/topics/data-centers" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Data centers</h5></a><a href="/topics/energy" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Energy</h5></a></div></div><div class="mega-menu-section" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">Impacts</h4><div class="mega-menu-items flex-column gap-20" data-astro-cid-66sqndta=""><a href="/topics/adoption-and-use" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Adoption &amp; use</h5></a><a href="/topics/economic-impact" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Economic impact</h5></a><a href="/topics/future-of-ai" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Future of AI</h5></a><a href="/topics/ai-impacts" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">AI impacts observatory</h5></a></div></div></div><div class="mega-menu-backdrop" data-astro-cid-gyprio74=""></div></div></li><li class="dropdown-nav" data-astro-cid-gyprio74=""><a href="/about" class="button button-l button-nav ">About</a><div class="mega-menu" data-astro-cid-gyprio74=""><div class="mega-menu-content flex-row" data-astro-cid-gyprio74=""><div class="mega-menu-section" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">Who we are</h4><div class="mega-menu-items flex-column gap-20" data-astro-cid-66sqndta=""><a href="/about" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">About us</h5></a><a href="/about/team" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Our team</h5></a><a href="/about/transparency" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Transparency</h5></a></div></div><div class="mega-menu-section" data-astro-cid-66sqndta=""><h4 class="mega-menu-section-title" data-astro-cid-66sqndta="">Engage with us</h4><div class="mega-menu-items flex-column gap-20" data-astro-cid-66sqndta=""><a href="/about/careers" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Careers</h5></a><a href="/about/press" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Press</h5></a><a href="/about/consultations" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Work with our experts</h5></a><a href="/about/donate" class="mega-menu-item" data-astro-cid-66sqndta=""><h5 class="mega-menu-item-label" data-astro-cid-66sqndta="">Donate</h5></a></div></div></div><div class="mega-menu-backdrop" data-astro-cid-gyprio74=""></div></div></li><li class="dropdown-link" data-astro-cid-gyprio74=""><a href="/contact" class="button button-l button-nav ">Contact</a></li><li class="dropdown-link nav-search-item" data-astro-cid-gyprio74=""><button type="button" class="button button-l button-nav nav-search-toggle"><span class="icon x-icon icon-l"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9.54051 8.40441C10.183 7.52968 10.5625 6.44978 10.5625 5.28125C10.5625 2.3645 8.198 0 5.28125 0C2.3645 0 0 2.3645 0 5.28125C0 8.198 2.3645 10.5625 5.28125 10.5625C6.4501 10.5625 7.53026 10.1828 8.40511 9.53998L8.40441 9.54051C8.42837 9.573 8.45506 9.60411 8.48448 9.63352L11.613 12.762C11.9303 13.0793 12.4447 13.0793 12.762 12.762C13.0793 12.4447 13.0793 11.9303 12.762 11.613L9.63352 8.48448C9.60411 8.45506 9.573 8.42837 9.54051 8.40441ZM9.75 5.28125C9.75 7.74927 7.74927 9.75 5.28125 9.75C2.81323 9.75 0.8125 7.74927 0.8125 5.28125C0.8125 2.81323 2.81323 0.8125 5.28125 0.8125C7.74927 0.8125 9.75 2.81323 9.75 5.28125Z" fill="#000000"></path>
+</svg>
+</span></button></li></ul></div></div></nav></div><div class="nav-stub" data-astro-cid-gyprio74=""></div><script>
+  (() => {
+    const navHeader = document.querySelector('.nav-header');
+    if (!navHeader) {
+      return;
+    }
+
+    // Hover timing for the desktop dropdown menus: a short delay before opening,
+    // a grace period before closing (so the pointer can travel from the trigger
+    // into the menu), and a hover-intent delay before switching triggers (so a
+    // quick brush over an adjacent trigger on the way into the open menu's
+    // content doesn't steal the menu). Only one menu — and one page-dim
+    // overlay — is ever visible at a time.
+    // The `.active` class drives the menu and the dim overlay in Nav.scss;
+    // `:focus-within` still handles keyboard navigation without any delay.
+    const OPEN_DELAY_MS = 100;
+    const CLOSE_DELAY_MS = 200;
+    const SWITCH_DELAY_MS = 100;
+    let openDropdown = null;
+    let openTimer = null;
+    let closeTimer = null;
+    let switchTimer = null;
+
+    const clearDropdownTimers = () => {
+      clearTimeout(openTimer);
+      clearTimeout(closeTimer);
+      clearTimeout(switchTimer);
+      openTimer = null;
+      closeTimer = null;
+      switchTimer = null;
+    };
+
+    const setOpenDropdown = (dropdown) => {
+      if (openDropdown === dropdown) {
+        return;
+      }
+      if (openDropdown) {
+        openDropdown.classList.remove('active');
+      }
+      openDropdown = dropdown;
+      if (openDropdown) {
+        openDropdown.classList.add('active');
+      }
+    };
+
+    navHeader.querySelectorAll('.dropdown-nav').forEach((dropdown) => {
+      dropdown.addEventListener('mouseenter', () => {
+        clearDropdownTimers();
+        if (!openDropdown) {
+          openTimer = setTimeout(() => setOpenDropdown(dropdown), OPEN_DELAY_MS);
+        } else if (openDropdown !== dropdown) {
+          // Another menu is open: swap only after a hover-intent delay, so a
+          // brush over this trigger leaves the open menu (and dim) untouched.
+          // Leaving this trigger before the timer fires cancels the swap.
+          switchTimer = setTimeout(() => setOpenDropdown(dropdown), SWITCH_DELAY_MS);
+        }
+      });
+      dropdown.addEventListener('mouseleave', () => {
+        clearDropdownTimers();
+        if (openDropdown) {
+          closeTimer = setTimeout(() => setOpenDropdown(null), CLOSE_DELAY_MS);
+        }
+      });
+    });
+
+    // Dragging a nav link (native HTML5 drag) suppresses mouseenter/mouseleave
+    // for the whole drag, which would leave a stale open menu behind; close the
+    // menu as soon as a drag starts so hover state stays consistent. The
+    // mousedown that starts the drag also focuses the trigger, and since the
+    // aborted click never moves focus on, :focus-within would keep the menu
+    // visible — blur it too. Keyboard navigation is unaffected: this only runs
+    // on a pointer drag gesture.
+    navHeader.addEventListener('dragstart', () => {
+      clearDropdownTimers();
+      setOpenDropdown(null);
+      const focused = document.activeElement;
+      if (focused instanceof HTMLElement && navHeader.contains(focused)) {
+        focused.blur();
+      }
+    });
+
+    let lastScrollY = window.scrollY;
+    let ticking = false;
+
+    const setHeaderHidden = (hidden) => {
+      navHeader.classList.toggle('nav-header-hidden', hidden);
+      document.documentElement.classList.toggle('primary-nav-hidden', hidden);
+    };
+
+    setHeaderHidden(false);
+
+    const onScroll = () => {
+      if (ticking) {
+        return;
+      }
+      if (document.body.classList.contains('footnote-overlay-open')) {
+        return;
+      }
+
+      ticking = true;
+      window.requestAnimationFrame(() => {
+        const currentScrollY = window.scrollY;
+        const delta = currentScrollY - lastScrollY;
+
+        if (currentScrollY <= 0) {
+          setHeaderHidden(false);
+        } else if (Math.abs(delta) >= 4) {
+          setHeaderHidden(delta > 0);
+        }
+
+        lastScrollY = currentScrollY;
+        ticking = false;
+      });
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener(
+      'pagehide',
+      () => {
+        window.removeEventListener('scroll', onScroll);
+        setHeaderHidden(false);
+        clearDropdownTimers();
+        setOpenDropdown(null);
+      },
+      { once: true },
+    );
+  })();
+</script><div class="content-page"><header class="header content-header" data-pagefind-body="" data-astro-cid-7vhvegqr=""><div class="trim header-inner" data-astro-cid-7vhvegqr=""><nav class="breadcrumb" aria-label="Breadcrumb" data-astro-cid-gxrrp55g=""><ol data-astro-cid-gxrrp55g=""><li data-astro-cid-gxrrp55g=""><a href="/publications" class="button button-s button-text-neutral  button-ui">Publications</a><div class="separator" aria-hidden="true" data-astro-cid-gxrrp55g=""><span class="icon x-icon "><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</span></div></li><li data-astro-cid-gxrrp55g=""><span aria-current="page" data-astro-cid-gxrrp55g="">AI can turn security fixes into working exploits before users receive an update</span></li></ol></nav><div class="title-section" data-astro-cid-7vhvegqr=""><div class="eyebrow"><div class="badge badge-normal badge-l badge-color-default trim"><span class="badge-text">Report</span></div><div class="badge badge-circle badge-l badge-color-default trim"><span class="badge-text">Oct. 29, 2026</span></div></div><h1 class="title" data-astro-cid-7vhvegqr="">AI can turn security fixes into working exploits before users receive an update</h1><p class="subtitle" data-astro-cid-7vhvegqr="">In our experiments, an open-weight model reliably exploited the "patch gap" to compromise six recent Firefox releases, costing about $1,000 each to carry out</p></div><div class="actions" data-astro-cid-7vhvegqr=""><div class="actions-row flex-row justify width-100 align-center" data-pagefind-ignore="" data-astro-cid-z73i2dm2=""><script type="module" crossorigin="" src="https://embed.type3.audio/player.js"></script><type-3-player custom-css=".type-3-player.t3a-player--inline, .type-3-player.t3a-player--listen-to-this-page { background: transparent !important; } .type-3-player.sticky { background: white !important; }"></type-3-player><div class="flex-row align-center gap-10" data-astro-cid-z73i2dm2=""><div class="cite flex-row" data-open-modal="citation-modal" data-open-modal-cite="true" data-pagefind-ignore=""><button type="button" class="button button-l button-gray  button-ui"><span class="icon x-icon "><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M0 1.75C0 0.783502 0.783502 0 1.75 0H12.25C13.2165 0 14 0.783502 14 1.75V8.75C14 9.7165 13.2165 10.5 12.25 10.5H3.86244C3.63037 10.5 3.40781 10.5922 3.24372 10.7563L0.746859 13.2531C0.471249 13.5287 0 13.3336 0 12.9438V1.75ZM6.29449 4.17061C6.23701 4.0847 6.1704 4.00496 6.09598 3.93267C5.97197 3.80829 5.83355 3.7098 5.68592 3.64844L5.67901 3.64559C5.47903 3.55231 5.25454 3.5 5.01733 3.5C4.17933 3.5 3.5 4.15292 3.5 4.95833C3.5 5.76375 4.17933 6.41667 5.01733 6.41667C5.31708 6.41667 5.59653 6.33313 5.83185 6.18895C5.71224 6.52905 5.49064 6.89199 5.12377 7.25718C4.97826 7.40203 4.98247 7.63284 5.13318 7.7727C5.2839 7.91256 5.52404 7.90851 5.66956 7.76365C6.83746 6.60108 6.86825 5.3503 6.4938 4.52146C6.43768 4.39724 6.3706 4.27889 6.29449 4.17061ZM9.62515 6.18895C9.50553 6.52905 9.28393 6.89199 8.91707 7.25718C8.77155 7.40203 8.77577 7.63284 8.92648 7.7727C9.07719 7.91256 9.31734 7.90851 9.46286 7.76365C10.6308 6.60108 10.6615 5.3503 10.2871 4.52146C10.231 4.39724 10.1639 4.27889 10.0878 4.1706C10.0303 4.0847 9.9637 4.00497 9.88928 3.93268C9.76528 3.8083 9.62685 3.7098 9.47922 3.64844L9.4723 3.64559C9.27233 3.55231 9.04784 3.5 8.81063 3.5C7.97263 3.5 7.2933 4.15292 7.2933 4.95833C7.2933 5.76375 7.97263 6.41667 8.81063 6.41667C9.11038 6.41667 9.38983 6.33313 9.62515 6.18895Z" fill="#3A4848"></path>
+</svg>
+</span><span class="label">Cite</span></button></div><script type="module" src="/_astro/Cite.astro_astro_type_script_index_0_lang.C47GpmSA.js"></script></div></div></div><div class="authors" data-astro-cid-7vhvegqr=""><div class="authors-avatars" data-astro-cid-7vhvegqr=""><a href="/about/team/aiden-ament" class="author-avatar-link" data-astro-cid-7vhvegqr=""><img src="/assets/images/team/square-small/aiden-ament.jpg" alt="Aiden Ament's avatar" class="author-avatar" data-astro-cid-7vhvegqr=""></a><a href="/about/team/yafah-edelman" class="author-avatar-link" data-astro-cid-7vhvegqr=""><img src="/assets/images/team/square-small/yafah-edelman.jpg" alt="Yafah Edelman's avatar" class="author-avatar" data-astro-cid-7vhvegqr=""></a><a href="/about/team/alexander-barry" class="author-avatar-link" data-astro-cid-7vhvegqr=""><img src="/assets/images/guests/alexander-barry.jpg" alt="Alexander Barry's avatar" class="author-avatar" data-astro-cid-7vhvegqr=""></a><a href="/about/team/timothee-chauvin" class="author-avatar-link" data-astro-cid-7vhvegqr=""><img src="/assets/images/team/square-small/timothee-chauvin.jpg" alt="Timothée Chauvin's avatar" class="author-avatar" data-astro-cid-7vhvegqr=""></a><a href="/about/team/lee-bousfield" class="author-avatar-link" data-astro-cid-7vhvegqr=""><img src="/assets/images/team/square-small/lee-bousfield.jpg" alt="Lee Bousfield's avatar" class="author-avatar" data-astro-cid-7vhvegqr=""></a><a href="/about/team/jaeho-lee" class="author-avatar-link" data-astro-cid-7vhvegqr=""><img src="/assets/images/team/square-small/jaeho-lee.jpg" alt="Jaeho Lee's avatar" class="author-avatar" data-astro-cid-7vhvegqr=""></a></div><div class="authors-names" data-astro-cid-7vhvegqr="">By <a href="/about/team/aiden-ament" class="author-link" data-astro-cid-7vhvegqr="">Aiden Ament</a>, <a href="/about/team/yafah-edelman" class="author-link" data-astro-cid-7vhvegqr="">Yafah Edelman</a>, <a href="/about/team/alexander-barry" class="author-link" data-astro-cid-7vhvegqr="">Alexander Barry</a>, <a href="/about/team/timothee-chauvin" class="author-link" data-astro-cid-7vhvegqr="">Timothée Chauvin</a>, <a href="/about/team/lee-bousfield" class="author-link" data-astro-cid-7vhvegqr="">Lee Bousfield</a>, and <a href="/about/team/jaeho-lee" class="author-link" data-astro-cid-7vhvegqr="">Jaeho Lee</a></div></div></div></header><div class="content-page-content full-grid"><div class="content-main" data-pagefind-body="" data-pagefind-weight="0.4"></div><div class="content-body-and-sidebar-left"><aside class="content-sidebar-left"><script type="module">window.addEventListener(`DOMContentLoaded`,()=>{let e=document.querySelectorAll(`.toc-link[data-target]`),t=[...e].map(e=>document.getElementById(e.dataset.target)).filter(e=>e!==null),n=null;e.forEach(e=>{e.addEventListener(`click`,()=>{n?.();let t=document.getElementById(e.dataset.target);if(!t||typeof ResizeObserver>`u`)return;let r=[`wheel`,`touchstart`,`keydown`,`pointerdown`,`resize`],i,a=!1,o=()=>t.scrollIntoView({block:`start`}),s=()=>{l.disconnect(),clearTimeout(i),clearTimeout(u),clearTimeout(d),r.forEach(e=>window.removeEventListener(e,s)),n===s&&(n=null)},c=()=>{o(),s()},l=new ResizeObserver(()=>{if(!a){a=!0;return}clearTimeout(u),o(),clearTimeout(i),i=setTimeout(c,1500)});r.forEach(e=>window.addEventListener(e,s,{once:!0,passive:!0})),i=setTimeout(o,500);let u=setTimeout(s,4e3),d=setTimeout(c,1e4);l.observe(document.body),n=s})});let r=new IntersectionObserver(e=>{e.forEach(e=>e.target.classList.add(`section-observed`));let t=e.filter(e=>e.isIntersecting);if(t.length===0)return;let n=t[0];t.length>1&&(n=t.reduce((e,t)=>Math.abs(t.boundingClientRect.top)<Math.abs(e.boundingClientRect.top)?t:e)),document.querySelectorAll(`.toc-link`).forEach(e=>e.classList.remove(`active`,`active-anchor`));let r=n.target.getAttribute(`id`),i=r?.startsWith(`section-`)?r.replace(`section-`,``):r;document.querySelector(`.toc-link[href="#${i}"]`)?.classList.add(`active`,`active-anchor`)},{root:null,rootMargin:`0px 0px -80% 0px`,threshold:.1});t.forEach(e=>r.observe(e)),window.document.addEventListener(`beforeunload`,()=>{r.disconnect()}),document.addEventListener(`astro:before-swap`,()=>{r.disconnect(),n?.()});let i=document.querySelector(`nav.toc`);if(i){let e=document.querySelectorAll(`.full-width-section, [class*="content-expand-"]`);if(e.length>0){i.style.transition=`opacity 0.25s ease`;let t=(e,t)=>e.left<t.right&&e.right>t.left&&e.top<t.bottom&&e.bottom>t.top,n=!1,r=()=>{let n=i.getBoundingClientRect(),r=!1;for(let i of e)if(t(n,i.getBoundingClientRect())){r=!0;break}i.style.opacity=r?`0.08`:`1`,i.style.pointerEvents=r?`none`:``},a=()=>{n||=(requestAnimationFrame(()=>{r(),n=!1}),!0)};window.addEventListener(`scroll`,a,{passive:!0}),r();let o=()=>window.removeEventListener(`scroll`,a);window.addEventListener(`beforeunload`,o),document.addEventListener(`astro:before-swap`,o)}}});</script><nav class="toc" aria-label="Table of contents" data-astro-cid-qptslamt=""><details open="" class="toc-nav-container" data-astro-cid-qptslamt=""><summary class="toc-header" data-astro-cid-qptslamt=""><h3 data-astro-cid-qptslamt="">Contents</h3></summary><div class="toc-list-container" data-astro-cid-qptslamt=""><div class="toc-list" data-astro-cid-qptslamt=""><div class="toc-bar-active" data-astro-cid-qptslamt=""></div><div class="toc-bar" data-astro-cid-qptslamt=""></div><ul class="toc-entries" data-astro-cid-qptslamt=""><li class="toc-entry" data-astro-cid-qptslamt=""><a href="#overview" data-target="overview" class="toc-link" data-astro-cid-qptslamt="">Overview</a></li><li class="toc-entry" data-astro-cid-qptslamt=""><a href="#background" data-target="background" class="toc-link" data-astro-cid-qptslamt="">Background</a></li><li class="toc-entry" data-astro-cid-qptslamt=""><a href="#methodology" data-target="methodology" class="toc-link" data-astro-cid-qptslamt="">Methodology</a></li><li class="toc-entry" data-astro-cid-qptslamt=""><a href="#results" data-target="results" class="toc-link" data-astro-cid-qptslamt="">Results</a></li><li class="toc-entry" data-astro-cid-qptslamt=""><a href="#implications-for-other-software" data-target="implications-for-other-software" class="toc-link" data-astro-cid-qptslamt="">Implications for other software</a></li><li class="toc-entry" data-astro-cid-qptslamt=""><a href="#conclusion" data-target="conclusion" class="toc-link" data-astro-cid-qptslamt="">Conclusion</a></li></ul></div></div></details></nav></aside><div class="content-main"><script type="module">window.addEventListener(`DOMContentLoaded`,()=>{let t=document.querySelector(`.mobile-menu-checkbox`),n=()=>{t?.checked&&e()},r=[...document.querySelectorAll(`.toc-link[data-target]`)].map(e=>document.getElementById(e.dataset.target)).filter(e=>e!==null);t?.addEventListener(`change`,n),window.addEventListener(`resize`,()=>{if(window.innerWidth>=768){i.disconnect();return}else r.forEach(e=>{i.observe(e)})});let i=new IntersectionObserver(e=>{e.forEach(e=>e.target.classList.add(`section-observed`));let t=e.filter(e=>e.isIntersecting);if(t.length===0)return;let n=t.reduce((e,t)=>Math.abs(t.boundingClientRect.top)<Math.abs(e.boundingClientRect.top)?t:e).target.getAttribute(`id`),r=n?.startsWith(`section-`)?n.replace(`section-`,``):n,i=document.getElementById(r)?.textContent||``,a=document.querySelector(`.toc-mobile-nav-container > .toc-trigger`);a&&(a.textContent=i),document.querySelectorAll(`.toc-mobile-link`).forEach(e=>e.classList.remove(`active`,`active-anchor`)),document.querySelector(`.toc-mobile-link[href="#${r}"]`)?.classList.toggle(`active`)});window.addEventListener(`scroll`,()=>{if(document.body.classList.contains(`footnote-overlay-open`))return;let e=r[0],t=document.querySelector(`.toc-mobile`);if(!e||!t)return;let n=document.querySelector(`body >footer`)?.getBoundingClientRect();window.scrollY>=e.offsetTop-10&&(!n||n.top+100>window.innerHeight)?t.classList.add(`active`):t.classList.remove(`active`)},{passive:!0}),r.forEach(e=>{i.observe(e)}),document.querySelectorAll(`.toc-mobile-link`).forEach(t=>{t.addEventListener(`click`,()=>{e()})}),window.addEventListener(`beforeunload`,()=>{i.disconnect(),t?.removeEventListener(`change`,n),window.removeEventListener(`scroll`,()=>{})}),document.addEventListener(`astro:before-swap`,()=>{i.disconnect(),t?.removeEventListener(`change`,n),window.removeEventListener(`scroll`,()=>{})})});function e(){let e=document.querySelector(`.toc-mobile-nav-container`);e&&e.removeAttribute(`open`)}</script><nav class="toc-mobile" aria-label="Table of contents" data-astro-cid-gjiymmtj=""><details class="toc-mobile-nav-container" data-astro-cid-gjiymmtj=""><summary class="toc-trigger" data-astro-cid-gjiymmtj="">Overview</summary><div class="toc-mobile-list-container" data-astro-cid-gjiymmtj=""><ul class="toc-mobile-entries" data-astro-cid-gjiymmtj=""><li class="toc-mobile-entry" data-astro-cid-gjiymmtj=""><a class="toc-mobile-link active" href="#overview" data-target="overview" data-astro-cid-gjiymmtj="">Overview</a></li><li class="toc-mobile-entry" data-astro-cid-gjiymmtj=""><a class="toc-mobile-link" href="#background" data-target="background" data-astro-cid-gjiymmtj="">Background</a></li><li class="toc-mobile-entry" data-astro-cid-gjiymmtj=""><a class="toc-mobile-link" href="#methodology" data-target="methodology" data-astro-cid-gjiymmtj="">Methodology</a></li><li class="toc-mobile-entry" data-astro-cid-gjiymmtj=""><a class="toc-mobile-link" href="#results" data-target="results" data-astro-cid-gjiymmtj="">Results</a></li><li class="toc-mobile-entry" data-astro-cid-gjiymmtj=""><a class="toc-mobile-link" href="#implications-for-other-software" data-target="implications-for-other-software" data-astro-cid-gjiymmtj="">Implications for other software</a></li><li class="toc-mobile-entry" data-astro-cid-gjiymmtj=""><a class="toc-mobile-link" href="#conclusion" data-target="conclusion" data-astro-cid-gjiymmtj="">Conclusion</a></li></ul></div></details></nav><div class="formatted-text content-body article-content" data-pagefind-body="" data-pagefind-weight="0.4"><mdx-section depth="2" id="section-overview"><h2 id="overview" class="header-link section-observed">Overview<button type="button" aria-label="Copy link to Overview" class="header-link-copy"></button></h2><p>GLM 5.3, a widely available open-weight model released by Z.ai in August, can identify and exploit vulnerabilities in recent versions of the Mozilla Firefox browser using security fixes that have been published but not yet shipped to users.
+The window between a fix being published and reaching users is known as the <em>patch gap</em>.</p><p>In our experiments, GLM 5.3 used this gap to build a webpage that, when visited by a Firefox user, read a file from the visitor’s computer and sent it to the attacker with no further user interaction.
+In particular, we found that any Firefox version released between September 17 and October 26 could be compromised in this way using only information available at the time of release.</p><p>The patch gap is a known weakness in software release practices, and it exists widely across software, e.g., browsers, phone operating systems, and router firmware.
+Exploiting it previously required significant time and expertise, or special access to frontier models with advanced cyber capabilities, so few attackers could target these vulnerabilities before they were fixed.</p><p>Our central finding is that widely available open-weight models can now do much, or even all, of this work on their own.
+We deliberately designed our setup to emulate what a relatively unsophisticated actor with limited resources could achieve, using only information available at the time of each version’s release.
+Once set up, it cost only about $1,000 to successfully attack each Firefox version.</p><p>In all of our compromises of recent Firefox releases, GLM 5.3 also found and used an unpublished vulnerability in conjunction with those found via the patch gap.
+We contacted the Mozilla team to disclose our findings and discuss ways to mitigate these attacks.
+Mozilla has since shipped a new version of Firefox (159.0, released on October 27, 2026) that patches the previously undisclosed vulnerability, which should make it more difficult for GLM 5.3 to compromise Firefox via patch-gap exploits.</p><p>Open-source projects are particularly vulnerable to this kind of attack as their code is publicly available, but we suspect any software project where a model can find the content of upcoming security changes before release is vulnerable, including closed-source projects.<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref="" aria-describedby="footnote-label">1</a></sup>
+We anticipate this threat vector will worsen as open-weight cyber capabilities continue to improve.</p><p>Further findings from our experiments on Firefox:</p><ul>
+<li><strong>GLM 5.3 exploited the patch gap despite existing countermeasures.</strong> To slow down would-be attackers, published security fixes are obfuscated as ordinary improvements and do not disclose details of underlying vulnerabilities. GLM 5.3 was able to read the code and determine which changes related to security patches.</li>
+<li><strong>The type of exploit we demonstrated can be extremely serious.</strong> We used GLM 5.3 to create a website that, simply when visited by a Firefox user and without further interaction, gave the attacker the ability to exfiltrate files from the user’s computer. Firefox has over 200 million active users, and this exploit could be used to read their passwords stored in the browser, steal authentication cookies, or view other private information on the user’s computer.</li>
+<li><strong>We did not trigger any safeguards or refusals from any provider, including Z.ai, when using GLM 5.3 in this way.</strong> We framed the task as a security exercise, but our actions were otherwise indistinguishable from those of a real attacker.</li>
+<li><strong>Similar attacks on Google Chrome have not succeeded as of the time of writing.</strong> We do not take this as strong evidence that attacks could not succeed with more advanced elicitation or by using more capable open-weight models (potentially including the recently announced Kimi K3.1 Pro).</li>
+</ul></mdx-section>
+<mdx-section depth="2" id="section-background"><h2 id="background" class="header-link section-observed">Background<button type="button" aria-label="Copy link to Background" class="header-link-copy"></button></h2><p>In April 2026, Anthropic’s announcement of Claude Mythos Preview marked a <a href="/gradient-updates/are-mythos-cyber-capabilities-overhyped">leap in AI cybersecurity capabilities</a>.
+Since then, it has been clear that frontier AI models are capable of detecting vulnerabilities and crafting complex exploits in real production software.
+<a href="https://www.anthropic.com/research/discovering-vulnerabilities-with-claude">Anthropic recently demonstrated this</a> by giving examples of how an internal model was able to find and exploit critical vulnerabilities in widely used software.</p><p>Frontier AI labs have responded by giving some defenders early access to advanced capabilities (via projects like <a href="https://www.anthropic.com/glasswing">Glasswing</a> and <a href="https://openai.com/daybreak/">Daybreak</a>) and heavily restricting broader access.
+This strategy is meant to allow defenders to identify and patch vulnerabilities before attackers can exploit them.
+However, a gap often exists between a vulnerability fix becoming public and it being deployed to all the users of the relevant software.
+This <em>patch gap</em> exists in two places: fixes becoming public before they are released to users, and users continuing to run old software after an update.
+In our research, we focus on the gap between fixes becoming public and their general release.</p><p>Beta versions of software, which developers use to test code and find newly introduced bugs, are one mechanism by which vulnerability fixes become public before they are generally released.
+Betas typically have a smaller user base than public releases, made up of users willing to test newer and potentially unstable features.
+For open-source projects, information is even more broadly available, as the entire codebase is public and upcoming changes are typically viewable in beta or “nightly” code branches.</p><p>The patch gap is a known security issue, but the time and expertise historically required to exploit it have limited how many actors can do so (and the naturally limited lifetime of exploits developed in this way means attackers may choose to spend their attention elsewhere).
+Advancing AI cyber capabilities have changed this calculus.</p><p>Although unrestricted access (without cyber guardrails) to the most capable frontier models is tightly controlled, open-weight models are broadly available to anyone without restriction.<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref="" aria-describedby="footnote-label">2</a></sup>
+This open access can benefit cyber defenders by enabling preemptive vulnerability detection and incident response, especially for defenders without access to restricted frontier models.
+While we focus here on an offensive capability, we do not make claims on how open-weight models will impact the balance between offense and defense.</p><p>Open-weight models have historically been unable to reliably exploit the patch gap, but their capabilities are <a href="/eci?view=graph&amp;tab=release-date&amp;showFrontierTrend=true&amp;colorCategorization=Accessibility">steadily improving</a>.
+To see whether that limitation still holds, we tested whether GLM 5.3, a widely available open-weight model released in August 2026, could use the patch gap to compromise the most recent releases of Firefox, a web browser with over <a href="https://data.firefox.com/dashboard/user-activity">200 million active users</a>.</p></mdx-section>
+<mdx-section depth="2" id="section-methodology"><h2 id="methodology" class="header-link section-observed">Methodology<button type="button" aria-label="Copy link to Methodology" class="header-link-copy"></button></h2><p>We tasked GLM 5.3 with creating a webpage that, when visited by a Firefox user, reads a local file on their system.<sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref="" aria-describedby="footnote-label">3</a></sup>
+This can be used to read the user’s private documents, copy passwords stored in Firefox, and steal authentication cookies, allowing the attacker to log into some online services as the user.
+We chose this target because it reflects an attack severe enough to cause real damage to users.</p><p>We provided the model with the specific Firefox version on the user’s computer and some basic tools, then let it continue working until it developed a successful exploit.
+To avoid impacting third parties, we did not give the model internet access; instead, we directly provided the publicly available information we thought it would likely need.
+We provided only information available at the time of the target versions’ release, so the model could not use information about vulnerabilities discovered later.</p><p>We designed the environment to roughly approximate what an attacker with minimal technical experience and standard development tools could elicit from the model if they let it run online.
+We accessed GLM 5.3 through both its first-party API and third-party APIs, framing the task as a security exercise.
+Despite our actions being indistinguishable from those of someone attempting to target real users, at no point was our model use restricted, and we encountered no refusals.</p><p>Beyond basic instructions to target the patch gap (i.e., inspect bug fixes not yet incorporated into the stable release), we let the model run autonomously with no user input.
+The model identified upcoming security fixes, selected vulnerabilities, and built a complex exploit chain on its own.</p></mdx-section>
+<mdx-section depth="2" id="section-results"><h2 id="results" class="header-link section-observed">Results<button type="button" aria-label="Copy link to Results" class="header-link-copy"></button></h2><p>GLM 5.3 successfully developed attacks against all six Firefox releases between September 17 and October 26,<sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref="" aria-describedby="footnote-label">4</a></sup> using only information available at the time of each version’s release.
+Visiting the webpage built by the model caused the browser to read a local file and send its contents to the attacker’s server without further user action.<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref="" aria-describedby="footnote-label">5</a></sup></p><p>The attacks took substantial effort for the model to develop.
+In one attempt, GLM 5.3 used an upcoming Firefox fix to identify a memory safety flaw, then developed a way to read and modify memory inside the browser, but Firefox’s security protections still prevented the model from reading the target file.
+The model’s final attack composed the initial exploit with multiple additional stages to circumvent the remaining layers of security.
+The model diagnosed crashes, abandoned unsuccessful approaches, and iterated its approach until simply visiting the website was enough to access the file.
+We gave GLM 5.3 up to 48 hours to find an exploit, but its fastest attempt needed only 12 hours.</p><p>In addition to vulnerabilities discovered through the patch gap, our attacks on the most recent Firefox versions also relied on an unpublished vulnerability that the model rediscovered on each attempt.
+This allowed it to leverage limited control of the browser into the ability to read files from the computer.<sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref="" aria-describedby="footnote-label">6</a></sup>
+We shared this vulnerability with Mozilla, and it is now patched as of the October 27 <a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/">Firefox 159.0 release</a>.
+We have not yet confirmed whether similar attacks can succeed on 159.0 given this patch, but suspect it should make things at least substantially more difficult.</p><p>Our total research spend targeting Firefox exceeded $100,000 in API costs, including experimentation to build a realistic offline environment and our preliminary testing.
+However, once we developed our harness and pointed GLM 5.3 in the right direction, exploiting the browser became cheap and reliable.
+Our marginal cost of compromising a new version of Firefox was about $1,000 at API pricing, and would potentially have been lower if using subscription accounts.</p><p>An attacker unconcerned with the risks of letting an autonomous agent develop an exploit with internet access could replicate our setup much more cheaply and easily by giving the model unrestricted internet access instead of going through the effort of running it offline in a sandbox.</p><p>After we discovered GLM 5.3’s ability to compromise Firefox, we decided to assess whether a similar setup could compromise Google Chrome.
+We used the same harness and techniques and, as of the time of writing, have not been able to create an equivalent exploit, despite spending about $100,000 in API costs on attempts.</p><p>Kimi K3.1 Pro was released via first-party API access on October 23, with the weights planned to be released in early November.
+Kimi K3.1 Pro has not been part of our experiments, but <a href="https://www.kimi.ai/blog/kimi-k3-1-pro#:~:text=impact%20on%20valuations.-,Cybersecurity,-As%20K3.1%20Pro">limited benchmark data</a> suggests it may outperform GLM 5.3 on offensive cyber tasks.
+We plan on testing more advanced open models on a wider variety of software in the future.</p></mdx-section>
+<mdx-section depth="2" id="section-implications-for-other-software"><h2 id="implications-for-other-software" class="header-link section-observed">Implications for other software<button type="button" aria-label="Copy link to Implications for other software" class="header-link-copy"></button></h2><p>The conditions needed for patch-gap attacks are common throughout the software industry.
+Whenever a security fix becomes visible before it reaches users, an attacker has the opportunity to reverse engineer it into an exploit.
+In September 2026, we saw patch-gap exploits <a href="https://www.proofpoint.com/us/blog/threat-insight/once-bluemoon-multiple-state-aligned-threat-actors-rapidly-adopt-novel-exploit">targeting Chrome</a>.
+In the same month, a <a href="https://socket.dev/blog/php-embargo-dispute">vendor published</a> patched builds of PHP more than six hours ahead of the coordinated release of patches for two critical vulnerabilities.
+These early patches could have contributed to <a href="https://officechai.com/stories/cloudflare-ceo-says-php-exploit-attempts-went-from-thousands-to-millions-within-hours-of-disclosure/">thousands of exploit attempts before the public release</a> (which then climbed to millions immediately afterward).</p><p>While Firefox and Chromium are open source, the patch gap also poses risks to closed-source software.
+Anthropic demonstrated that Mythos is capable of <a href="https://www.anthropic.com/research/n-days">exploiting the patch gap on Windows</a> without any of the project’s code publicly available.
+We did not explicitly test the ability of GLM 5.3 to exploit the patch gap on closed-source projects, but as open-weight cyber capabilities continue to improve, it will plausibly be possible soon, if it is not already.
+We are especially concerned about software that users update less frequently, like router firmware or phone operating systems, because widespread compromise can have serious consequences and most users have a much longer window of vulnerability.</p><p>Addressing this threat will likely require reducing the time that vulnerability fixes remain public before being incorporated into the general release.
+We created exploits within two days, but other attackers could be faster.
+Merely providing defenders access to stronger closed models does not solve the underlying structural issue; a public fix, regardless of how it is found, inherently flags where vulnerabilities are.
+Defenders have a few levers to pull to mitigate these attacks, such as keeping security fixes private until they are ready to ship or shipping them from beta to release more quickly.
+Both <a href="https://groups.google.com/a/mozilla.org/g/dev-platform/c/yy4p-jmWDy8?pli=1">Firefox</a> and <a href="https://blog.google/security/chrome-stronger-with-every-update/">Google Chrome</a> have begun shipping updates every week.
+Regardless of the approach, it should be assumed that once a vulnerability fix is in published code, attackers can and will use it to target the current release.
+Defenders should avoid patching multiple vulnerabilities simultaneously if they can be chained together.</p></mdx-section>
+<mdx-section depth="2" id="section-conclusion"><h2 id="conclusion" class="header-link section-observed">Conclusion<button type="button" aria-label="Copy link to Conclusion" class="header-link-copy"></button></h2><p>GLM 5.3 compromised six of the most recent Firefox releases by exploiting the patch gap.
+We used a deliberately basic setup, and despite this, the model reliably built successful exploits without human input, at a marginal cost of roughly a thousand dollars per Firefox version compromised.
+These attacks relied on a key non-public vulnerability that has since been patched, and we were not able to achieve similar outcomes on Chrome (but we do not think this rules out similar attacks succeeding with better elicitation or stronger open-weight models).</p><p>We see these results as evidence of the diffusion of advanced cyber capabilities; many other pieces of software are likely already vulnerable to similar patch-gap attacks, and we expect the number to increase as more capable open-weight models are released.</p><style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).load=e;window.dispatchEvent(new Event("astro:load"));})();</script><script>(()=>{var g=Object.defineProperty;var w=(a,s,c)=>s in a?g(a,s,{enumerable:!0,configurable:!0,writable:!0,value:c}):a[s]=c;var l=(a,s,c)=>w(a,typeof s!="symbol"?s+"":s,c);var E=new Set(["__proto__","constructor","prototype"]);{let a={0:t=>y(t),1:t=>c(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(c(t)),5:t=>new Set(c(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>Number.POSITIVE_INFINITY*t},s=t=>{let[p,e]=t;return p in a?a[p](e):void 0},c=t=>t.map(s),y=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([p,e])=>[p,s(e)]));class f extends HTMLElement{constructor(){super(...arguments);l(this,"Component");l(this,"hydrator");l(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let r=this.querySelectorAll("astro-slot"),n={},d=this.querySelectorAll("template[data-astro-template]");for(let o of d){let i=o.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[o.getAttribute("data-astro-template")||"default"]=o.innerHTML,o.remove())}for(let o of r){let i=o.closest(this.tagName);i!=null&&i.isSameNode(this)&&(n[o.getAttribute("name")||"default"]=o.innerHTML)}let u;try{u=this.hasAttribute("props")?y(JSON.parse(this.getAttribute("props"))):{}}catch(o){let i=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(i+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${i}`,this.getAttribute("props"),o),o}let h;await this.hydrator(this)(this.Component,u,n,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});l(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),r.disconnect(),this.childrenConnectedCallback()},r=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});r.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}getRetryImportUrl(e){let r=new URL(e,document.baseURI);return r.searchParams.set("astro-retry",Date.now().toString()),r.toString()}async importWithRetry(e){try{return await import(e)}catch(r){return await new Promise(n=>setTimeout(n,1e3)),import(this.getRetryImportUrl(e))}}handleHydrationError(e){let r=this.getAttribute("component-url"),n=new CustomEvent("astro:hydration-error",{cancelable:!0,bubbles:!0,composed:!0,detail:{error:e,componentUrl:r}});this.dispatchEvent(n)&&console.error(`[astro-island] Error hydrating ${r}`,e)}async start(){let e=JSON.parse(this.getAttribute("opts")),r=this.getAttribute("client");if(Astro[r]===void 0){window.addEventListener(`astro:${r}`,()=>this.start(),{once:!0});return}try{await Astro[r](async()=>{let n=this.getAttribute("renderer-url");try{let[d,{default:u}]=await Promise.all([this.importWithRetry(this.getAttribute("component-url")),n?this.importWithRetry(n):Promise.resolve({default:()=>()=>{}})]),h=this.getAttribute("component-export")||"default";if(h.includes(".")){this.Component=d;for(let m of h.split(".")){if(E.has(m)||!this.Component||typeof this.Component!="object"&&typeof this.Component!="function"||!Object.hasOwn(this.Component,m))throw new Error(`Invalid component export path: ${h}`);this.Component=this.Component[m]}}else{if(E.has(h))throw new Error(`Invalid component export path: ${h}`);this.Component=d[h]}return this.hydrator=u,this.hydrate}catch(d){return this.handleHydrationError(d),()=>{}}},e,this)}catch(n){this.handleHydrationError(n)}}attributeChangedCallback(){this.hydrate()}}l(f,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",f)}})();</script><astro-island uid="1nt9sK" prefix="r41" component-url="/_astro/ArticleAccordion.CCXR_4Y6.js" component-export="default" renderer-url="/_astro/client.zTr-AUKU.js" props="{&quot;title&quot;:[0,&quot;Appendix: Safety measures for our experiments&quot;],&quot;id&quot;:[0,&quot;appendix&quot;],&quot;open&quot;:[0,false],&quot;headingLevel&quot;:[0,2]}" client="load" opts="{&quot;name&quot;:&quot;ArticleAccordionTSX&quot;,&quot;value&quot;:true}" await-children=""><div class="accordion accordion-article" id="appendix"><div class="accordion-option "><h2 class="accordion-option-title heading-2" role="button" tabindex="0" aria-expanded="false"><span class="trim">Appendix: Safety measures for our experiments</span><span class="icon x-icon icon-s"><svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.416 3.06V4.716H4.572V7.74H2.88V4.716H0V3.06H2.88V0H4.572V3.06H7.416Z" fill="black"></path>
+</svg>
+</span></h2><div class="accordion-body" hidden="until-found"><astro-slot><div class="formatted-text"><p>Running offensive cybersecurity evaluations is becoming increasingly dangerous, so we took additional measures to keep our experiments under control.
+We used a dedicated cloud instance isolated from Epoch’s other benchmarking infrastructure.
+Models had no network access.
+Instead, we provided the resources they needed directly in their containers.</p><p>We configured a near-real-time monitoring system that would notify a researcher or engineer of potentially dangerous behavior.
+Researchers were available to investigate alerts and stop a run if necessary.</p><p>In one instance, we paused all runs after our LLM monitoring flagged that some broken environments led agents to take actions outside of the sandbox, though they did not involve network access or malicious activity.</p><p>We plan to keep improving the security of our evaluation infrastructure before running models with stronger cyber capabilities.</p></div></astro-slot></div></div></div></astro-island></mdx-section>
+<section data-footnotes="" class="footnotes"><div class="sr-only" role="heading" aria-level="2" id="footnote-label">Notes</div>
+<ol>
+<li id="user-content-fn-1">
+<p>AI models are becoming very good at decompiling software - turning an executable program back into original source code. By decompiling an upcoming beta, an attacker can still view security fixes before they are applied, making patch-gap attacks possible even when the code is not public. <a href="https://www.anthropic.com/research/n-days">Anthropic demonstrated Mythos was capable of doing this on Windows</a>, but we have not yet tested open weight models. <a href="#user-content-fnref-1" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref"><img class="footnote-icon" src="/assets/icons/arrow-return-left.svg" width="16" height="16" alt="Return"></a></p>
+</li>
+<li id="user-content-fn-2">
+<p>Even if the model creators attempt to add guardrails or train the model to refuse certain requests, by releasing weights publicly, others can create ‘abliterated’ versions that will comply with any request, and run them without any guardrails. <a href="#user-content-fnref-2" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref"><img class="footnote-icon" src="/assets/icons/arrow-return-left.svg" width="16" height="16" alt="Return"></a></p>
+</li>
+<li id="user-content-fn-3">
+<p>Running Ubuntu 26.04 with default security settings and Firefox downloaded from the official release. <a href="#user-content-fnref-3" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref"><img class="footnote-icon" src="/assets/icons/arrow-return-left.svg" width="16" height="16" alt="Return"></a></p>
+</li>
+<li id="user-content-fn-4">
+<p>156.0, 156.0.1, 157.0, 157.0.1, 158.0, 158.0.1. Earlier releases are likely also vulnerable, but we did not systematically test prior to this. <a href="#user-content-fnref-4" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref"><img class="footnote-icon" src="/assets/icons/arrow-return-left.svg" width="16" height="16" alt="Return"></a></p>
+</li>
+<li id="user-content-fn-5">
+<p>After finding success with file reads, we tried to achieve arbitrary code execution. We do not have any code execution successes on recent Firefox releases as of writing. <a href="#user-content-fnref-5" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref"><img class="footnote-icon" src="/assets/icons/arrow-return-left.svg" width="16" height="16" alt="Return"></a></p>
+</li>
+<li id="user-content-fn-6">
+<p>Successes required chaining two main vulnerabilities. A patch-gap vulnerability was used to achieve code execution inside the web content process, and the separate, unpublished vulnerability allowed the attack to bypass the sandbox protections that would normally prevent even a compromised renderer process from accessing the filesystem. <a href="#user-content-fnref-6" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref"><img class="footnote-icon" src="/assets/icons/arrow-return-left.svg" width="16" height="16" alt="Return"></a></p>
+</li>
+</ol>
+</section></div></div><aside class="content-sidebar-right"><div class="sidebar-footnotes" aria-hidden="true"><div class="sidebar-footnote expandable" data-fn-id="user-content-fn-1" style="top: 1126.09px;"><div class="sidebar-footnote-row"><span class="sidebar-footnote-num">1.</span><div class="sidebar-footnote-body">
+<p>AI models are becoming very good at decompiling software - turning an executable program back into original source code. By decompiling an upcoming beta, an attacker can still view security fixes before they are applied, making patch-gap attacks possible even when the code is not public. <a href="https://www.anthropic.com/research/n-days">Anthropic demonstrated Mythos was capable of doing this on Windows</a>, but we have not yet tested open weight models. </p>
+</div><button class="sidebar-footnote-toggle" type="button" aria-expanded="false" aria-label="Expand footnote"><span class="icon x-icon icon-l"><svg width="8" height="8" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 4C8.27614 4 8.5 4.22386 8.5 4.5V7.5H11.5C11.7761 7.5 12 7.72386 12 8C12 8.27614 11.7761 8.5 11.5 8.5H8.5V11.5C8.5 11.7761 8.27614 12 8 12C7.72386 12 7.5 11.7761 7.5 11.5V8.5H4.5C4.22386 8.5 4 8.27614 4 8C4 7.72386 4.22386 7.5 4.5 7.5H7.5V4.5C7.5 4.22386 7.72386 4 8 4Z" fill="#00A5A6"></path>
+</svg>
+</span></button></div></div><div class="sidebar-footnote expandable" data-fn-id="user-content-fn-2" style="top: 2990.72px;"><div class="sidebar-footnote-row"><span class="sidebar-footnote-num">2.</span><div class="sidebar-footnote-body">
+<p>Even if the model creators attempt to add guardrails or train the model to refuse certain requests, by releasing weights publicly, others can create ‘abliterated’ versions that will comply with any request, and run them without any guardrails. </p>
+</div><button class="sidebar-footnote-toggle" type="button" aria-expanded="false" aria-label="Expand footnote"><span class="icon x-icon icon-l"><svg width="8" height="8" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 4C8.27614 4 8.5 4.22386 8.5 4.5V7.5H11.5C11.7761 7.5 12 7.72386 12 8C12 8.27614 11.7761 8.5 11.5 8.5H8.5V11.5C8.5 11.7761 8.27614 12 8 12C7.72386 12 7.5 11.7761 7.5 11.5V8.5H4.5C4.22386 8.5 4 8.27614 4 8C4 7.72386 4.22386 7.5 4.5 7.5H7.5V4.5C7.5 4.22386 7.72386 4 8 4Z" fill="#00A5A6"></path>
+</svg>
+</span></button></div></div><div class="sidebar-footnote expandable" data-fn-id="user-content-fn-3" style="top: 3497.08px;"><div class="sidebar-footnote-row"><span class="sidebar-footnote-num">3.</span><div class="sidebar-footnote-body">
+<p>Running Ubuntu 26.04 with default security settings and Firefox downloaded from the official release. </p>
+</div><button class="sidebar-footnote-toggle" type="button" aria-expanded="false" aria-label="Expand footnote"><span class="icon x-icon icon-l"><svg width="8" height="8" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 4C8.27614 4 8.5 4.22386 8.5 4.5V7.5H11.5C11.7761 7.5 12 7.72386 12 8C12 8.27614 11.7761 8.5 11.5 8.5H8.5V11.5C8.5 11.7761 8.27614 12 8 12C7.72386 12 7.5 11.7761 7.5 11.5V8.5H4.5C4.22386 8.5 4 8.27614 4 8C4 7.72386 4.22386 7.5 4.5 7.5H7.5V4.5C7.5 4.22386 7.72386 4 8 4Z" fill="#00A5A6"></path>
+</svg>
+</span></button></div></div><div class="sidebar-footnote expandable" data-fn-id="user-content-fn-4" style="top: 4413.8px;"><div class="sidebar-footnote-row"><span class="sidebar-footnote-num">4.</span><div class="sidebar-footnote-body">
+<p>156.0, 156.0.1, 157.0, 157.0.1, 158.0, 158.0.1. Earlier releases are likely also vulnerable, but we did not systematically test prior to this. </p>
+</div><button class="sidebar-footnote-toggle" type="button" aria-expanded="false" aria-label="Expand footnote"><span class="icon x-icon icon-l"><svg width="8" height="8" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 4C8.27614 4 8.5 4.22386 8.5 4.5V7.5H11.5C11.7761 7.5 12 7.72386 12 8C12 8.27614 11.7761 8.5 11.5 8.5H8.5V11.5C8.5 11.7761 8.27614 12 8 12C7.72386 12 7.5 11.7761 7.5 11.5V8.5H4.5C4.22386 8.5 4 8.27614 4 8C4 7.72386 4.22386 7.5 4.5 7.5H7.5V4.5C7.5 4.22386 7.72386 4 8 4Z" fill="#00A5A6"></path>
+</svg>
+</span></button></div></div><div class="sidebar-footnote expandable" data-fn-id="user-content-fn-5" style="top: 4500.19px;"><div class="sidebar-footnote-row"><span class="sidebar-footnote-num">5.</span><div class="sidebar-footnote-body">
+<p>After finding success with file reads, we tried to achieve arbitrary code execution. We do not have any code execution successes on recent Firefox releases as of writing. </p>
+</div><button class="sidebar-footnote-toggle" type="button" aria-expanded="false" aria-label="Expand footnote"><span class="icon x-icon icon-l"><svg width="8" height="8" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 4C8.27614 4 8.5 4.22386 8.5 4.5V7.5H11.5C11.7761 7.5 12 7.72386 12 8C12 8.27614 11.7761 8.5 11.5 8.5H8.5V11.5C8.5 11.7761 8.27614 12 8 12C7.72386 12 7.5 11.7761 7.5 11.5V8.5H4.5C4.22386 8.5 4 8.27614 4 8C4 7.72386 4.22386 7.5 4.5 7.5H7.5V4.5C7.5 4.22386 7.72386 4 8 4Z" fill="#00A5A6"></path>
+</svg>
+</span></button></div></div><div class="sidebar-footnote expandable" data-fn-id="user-content-fn-6" style="top: 4968.14px;"><div class="sidebar-footnote-row"><span class="sidebar-footnote-num">6.</span><div class="sidebar-footnote-body">
+<p>Successes required chaining two main vulnerabilities. A patch-gap vulnerability was used to achieve code execution inside the web content process, and the separate, unpublished vulnerability allowed the attack to bypass the sandbox protections that would normally prevent even a compromised renderer process from accessing the filesystem. </p>
+</div><button class="sidebar-footnote-toggle" type="button" aria-expanded="false" aria-label="Expand footnote"><span class="icon x-icon icon-l"><svg width="8" height="8" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 4C8.27614 4 8.5 4.22386 8.5 4.5V7.5H11.5C11.7761 7.5 12 7.72386 12 8C12 8.27614 11.7761 8.5 11.5 8.5H8.5V11.5C8.5 11.7761 8.27614 12 8 12C7.72386 12 7.5 11.7761 7.5 11.5V8.5H4.5C4.22386 8.5 4 8.27614 4 8C4 7.72386 4.22386 7.5 4.5 7.5H7.5V4.5C7.5 4.22386 7.72386 4 8 4Z" fill="#00A5A6"></path>
+</svg>
+</span></button></div></div></div><script type="module" src="/_astro/SidebarFootnotes.astro_astro_type_script_index_0_lang.AOvce1un.js"></script></aside></div><div class="content-main" data-pagefind-body="" data-pagefind-weight="0.4"><div class="article-content" data-astro-cid-z73i2dm2=""><section data-pagefind-weight="0.2" data-astro-cid-z73i2dm2=""><h2 id="about-the-authors" data-header-link="" data-astro-cid-z73i2dm2="" class="header-link">About the authors<button type="button" aria-label="Copy link to About the authors" class="header-link-copy"></button></h2><div class="people-list" data-astro-cid-u7vzebjy=""><a href="/about/team/aiden-ament" class="person-card person-card-link" data-astro-cid-f2c7am4f=""><img src="/assets/images/team/square-small/aiden-ament.jpg" alt="Aiden Ament's avatar" class="person-avatar" data-astro-cid-f2c7am4f=""><div class="person-bio" data-astro-cid-f2c7am4f=""><div class="person-name" data-astro-cid-f2c7am4f="">Aiden Ament</div><div class="person-description" data-astro-cid-f2c7am4f=""><span class="description-name">Aiden</span> is a researcher at Epoch AI on the benchmarking team. He previously built enterprise AI security tools at a small startup, focusing on anomaly detection and data protection. He has a BA from UCLA in mathematics and computer science.</div></div></a><a href="/about/team/yafah-edelman" class="person-card person-card-link" data-astro-cid-f2c7am4f=""><img src="/assets/images/team/square-small/yafah-edelman.jpg" alt="Yafah Edelman's avatar" class="person-avatar" data-astro-cid-f2c7am4f=""><div class="person-bio" data-astro-cid-f2c7am4f=""><div class="person-name" data-astro-cid-f2c7am4f="">Yafah Edelman</div><div class="person-description" data-astro-cid-f2c7am4f=""><span class="description-name">Yafah Edelman</span> is the Chief Strategy Officer at Epoch AI. She is interested in understanding and measuring the inputs that allow AI to scale.</div></div></a><a href="/about/team/alexander-barry" class="person-card person-card-link" data-astro-cid-f2c7am4f=""><img src="/assets/images/guests/alexander-barry.jpg" alt="Alexander Barry's avatar" class="person-avatar" data-astro-cid-f2c7am4f=""><div class="person-bio" data-astro-cid-f2c7am4f=""><div class="person-name" data-astro-cid-f2c7am4f="">Alexander Barry</div><div class="person-description" data-astro-cid-f2c7am4f=""><span class="description-name">Alexander</span> is the head of the Capabilities Tracking team at Epoch AI. He leads our work on the Epoch Capabilities Index, Benchmark Reviews, and RSI tracking. Prior to joining Epoch he worked as a Statistician.</div></div></a><a href="/about/team/timothee-chauvin" class="person-card person-card-link" data-astro-cid-f2c7am4f=""><img src="/assets/images/team/square-small/timothee-chauvin.jpg" alt="Timothée Chauvin's avatar" class="person-avatar" data-astro-cid-f2c7am4f=""><div class="person-bio" data-astro-cid-f2c7am4f=""><div class="person-name" data-astro-cid-f2c7am4f="">Timothée Chauvin</div><div class="person-description" data-astro-cid-f2c7am4f=""><span class="description-name">Timothée</span> is a research engineer at Epoch AI. He has a background in cybersecurity and AI evaluations.</div></div></a><a href="/about/team/lee-bousfield" class="person-card person-card-link" data-astro-cid-f2c7am4f=""><img src="/assets/images/team/square-small/lee-bousfield.jpg" alt="Lee Bousfield's avatar" class="person-avatar" data-astro-cid-f2c7am4f=""><div class="person-bio" data-astro-cid-f2c7am4f=""><div class="person-name" data-astro-cid-f2c7am4f="">Lee Bousfield</div><div class="person-description" data-astro-cid-f2c7am4f=""><span class="description-name">Lee Bousfield</span> is a senior software engineer at Epoch AI, where he works on benchmarking infrastructure and automation. His background is in distributed systems and security engineering.</div></div></a><a href="/about/team/jaeho-lee" class="person-card person-card-link" data-astro-cid-f2c7am4f=""><img src="/assets/images/team/square-small/jaeho-lee.jpg" alt="Jaeho Lee's avatar" class="person-avatar" data-astro-cid-f2c7am4f=""><div class="person-bio" data-astro-cid-f2c7am4f=""><div class="person-name" data-astro-cid-f2c7am4f="">Jaeho Lee</div><div class="person-description" data-astro-cid-f2c7am4f=""><span class="description-name">Jaeho Lee</span> is a researcher at Epoch AI. He has previously worked with the Forecasting Research Institute and Andon Labs, and is currently studying at Brown University.</div></div></a></div></section><section class="related-topics" data-pagefind-ignore="" data-astro-cid-z73i2dm2=""><h2 id="related-topics" data-header-link="" data-astro-cid-z73i2dm2="" class="header-link">Related topics<button type="button" aria-label="Copy link to Related topics" class="header-link-copy"></button></h2><div class="related-topics-container" data-astro-cid-z73i2dm2=""><div class="tags" data-astro-cid-qi6tw2br=""><a href="/topics/open-models" class="button button-l button-gray  button-ui">Open models</a><a href="/topics/capabilities" class="button button-l button-gray  button-ui">Capabilities</a></div></div></section></div></div><div class="content-after-main" data-pagefind-body="" data-pagefind-weight="0.4"></div></div></div><astro-island uid="KkMB1" prefix="r2" component-url="/_astro/CiteModal.XiZoh3Oh.js" component-export="CiteModal" renderer-url="/_astro/client.zTr-AUKU.js" props="{&quot;plaintext&quot;:[0,&quot;Aiden Ament et al. (2026), \&quot;AI can turn security fixes into working exploits before users receive an update\&quot;. Published online at epoch.ai. Retrieved from 'https://epoch.ai/publications/open-weight-models-patch-gap' [online resource]. Accessed 30 Oct 2026.&quot;],&quot;bibtex&quot;:[0,&quot;@misc{epoch2026openweightmodelspatchgap,\ntitle={AI can turn security fixes into working exploits before users receive an update},\nauthor={Aiden Ament and Yafah Edelman and Alexander Barry and Timothée Chauvin and Lee Bousfield and Jaeho Lee},\nyear={2026},\nurl={https://epoch.ai/publications/open-weight-models-patch-gap},\nnote={Accessed: 2026-10-30}}&quot;]}" client="load" opts="{&quot;name&quot;:&quot;CiteModal&quot;,&quot;value&quot;:true}" await-children=""><dialog class="modal" data-modal-id="citation-modal"><div class="modal-content"><div class="modal-header citation-modal-header"><div class="modal-header-content"><div class="citation-modal-badge"><span class="citation-modal-badge-dot"></span><span class="trim ui-4 citation-modal-badge-label">Cite</span></div></div><div class="modal-close-container"><button type="button" class="button button-l button-gray  button-ui" aria-label="Close modal"><span class="icon x-icon icon-l"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.14645 2.85355C1.95118 2.65829 1.95118 2.34171 2.14645 2.14645C2.34171 1.95118 2.65829 1.95118 2.85355 2.14645L8 7.29289L13.1464 2.14645C13.3417 1.95118 13.6583 1.95118 13.8536 2.14645C14.0488 2.34171 14.0488 2.65829 13.8536 2.85355L8.70711 8L13.8536 13.1464C14.0488 13.3417 14.0488 13.6583 13.8536 13.8536C13.6583 14.0488 13.3417 14.0488 13.1464 13.8536L8 8.70711L2.85355 13.8536C2.65829 14.0488 2.34171 14.0488 2.14645 13.8536C1.95119 13.6583 1.95119 13.3417 2.14645 13.1464L7.29289 8L2.14645 2.85355Z" fill="black"></path>
+</svg>
+</span></button></div></div><div class="modal-main modal-content-inner citation-modal-content"><p class="trim">Epoch AI’s work is free to use, distribute, and reproduce provided the source and authors are credited under the<!-- --> <a class="link-button" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution license</a>.</p><div class="text-charcoal-800 flex-column gap-15"><h3>Citation</h3><div class="citation text-charcoal-900"><div class="citation-text citation-pre">Aiden Ament et al. (2026), "AI can turn security fixes into working exploits before users receive an update". Published online at epoch.ai. Retrieved from 'https://epoch.ai/publications/open-weight-models-patch-gap' [online resource]. Accessed 30 Oct 2026.</div><div class="-copy"><svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6.33398" width="12.6667" height="12.6667" rx="1.58333" class="citation-copy-rect-top"></rect><rect x="0.791667" y="7.1237" width="11.0833" height="11.0833" rx="0.791667" class="citation-copy-rect-bottom" stroke-width="1.58333"></rect></svg></div></div></div><div class="text-charcoal-800 flex-column gap-15"><h3>BibTeX Citation</h3><div class="citation text-charcoal-900"><div class="citation-text citation-pre">@misc{epoch2026openweightmodelspatchgap,
+title={AI can turn security fixes into working exploits before users receive an update},
+author={Aiden Ament and Yafah Edelman and Alexander Barry and Timothée Chauvin and Lee Bousfield and Jaeho Lee},
+year={2026},
+url={https://epoch.ai/publications/open-weight-models-patch-gap},
+note={Accessed: 2026-10-30}}</div><div class="-copy"><svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6.33398" width="12.6667" height="12.6667" rx="1.58333" class="citation-copy-rect-top"></rect><rect x="0.791667" y="7.1237" width="11.0833" height="11.0833" rx="0.791667" class="citation-copy-rect-bottom" stroke-width="1.58333"></rect></svg></div></div></div></div></div></dialog></astro-island><footer class="section-full" data-astro-cid-knz2wypv=""><section class="footer-content" data-astro-cid-knz2wypv=""><div class="footer-column footer-column-primary" data-astro-cid-knz2wypv=""><div class="logo-section" data-astro-cid-knz2wypv=""><img src="/assets/logo/logo-white.svg" alt="Epoch AI" class="logo" data-astro-cid-knz2wypv=""><h2 class="tagline trim" data-astro-cid-knz2wypv="">Investigating the trajectory of AI for the benefit of society</h2></div><div class="newsletter-section" data-astro-cid-knz2wypv=""><p class="newsletter-title trim" data-astro-cid-knz2wypv="">Get the latest from Epoch AI in your inbox</p><a href="https://epochai.substack.com/subscribe" class="button button-l button-primary w-fit button-ui">Subscribe</a><div class="social-icons" data-astro-cid-knz2wypv=""><a href="https://x.com/EpochAIResearch" aria-label="X (Twitter)" data-astro-cid-knz2wypv=""><span class="icon x-icon "><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0.11475 0H5.4135L10.1306 6.74663L15.795 0H17.4881L10.7775 7.6725L18 18H12.7013L7.77487 10.9552L1.692 18H0L7.12912 10.0316L0.11475 0Z" fill="currentColor"></path>
+</svg>
+</span></a><a href="https://substack.com/@epochai" aria-label="Substack" data-astro-cid-knz2wypv=""><span class="icon x-icon "><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+  <path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z" fill="#000000" stroke-width="1"></path>
+</svg></span></a><a href="https://bsky.app/profile/epochai.bsky.social" aria-label="Bluesky" data-astro-cid-knz2wypv=""><span class="icon x-icon "><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 7.88786C9.094 6.12686 6.628 2.84386 4.335 1.22586C2.138 -0.324144 1.301 -0.0571439 0.752 0.192856C0.116 0.477856 0 1.45486 0 2.02786C0 2.60286 0.315 6.73686 0.52 7.42786C1.2 9.70786 3.614 10.4779 5.84 10.2309C2.58 10.7139 -0.317 11.9009 3.48 16.1289C7.658 20.4539 9.206 15.2019 10 12.5389C10.794 15.2019 11.708 20.2649 16.444 16.1289C20 12.5389 17.421 10.7139 14.161 10.2309C16.386 10.4779 18.801 9.70786 19.48 7.42786C19.685 6.73786 20 2.60286 20 2.02886C20 1.45386 19.884 0.478856 19.248 0.190856C18.699 -0.057144 17.862 -0.326144 15.665 1.22386C13.372 2.84486 10.905 6.12786 10 7.88786Z" fill="currentColor"></path>
+</svg>
+</span></a><a href="https://github.com/epoch-research" aria-label="GitHub" data-astro-cid-knz2wypv=""><span class="icon x-icon "><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34783 0 10C0 14.42 2.87 18.17 6.84 19.5C7.34 19.58 7.5 19.27 7.5 19V17.31C4.73 17.91 4.14 15.97 4.14 15.97C3.68 14.81 3.03 14.5 3.03 14.5C2.12 13.88 3.1 13.9 3.1 13.9C4.1 13.97 4.63 14.93 4.63 14.93C5.5 16.45 6.97 16 7.54 15.76C7.63 15.11 7.89 14.67 8.17 14.42C5.95 14.17 3.62 13.31 3.62 9.5C3.62 8.39 4 7.5 4.65 6.79C4.55 6.54 4.2 5.5 4.75 4.15C4.75 4.15 5.59 3.88 7.5 5.17C8.29 4.95 9.15 4.84 10 4.84C10.85 4.84 11.71 4.95 12.5 5.17C14.41 3.88 15.25 4.15 15.25 4.15C15.8 5.5 15.45 6.54 15.35 6.79C16 7.5 16.38 8.39 16.38 9.5C16.38 13.32 14.04 14.16 11.81 14.41C12.17 14.72 12.5 15.33 12.5 16.26V19C12.5 19.27 12.66 19.59 13.17 19.5C17.14 18.16 20 14.42 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17316C18.7363 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0Z" fill="currentColor"></path>
+</svg>
+</span></a><a href="https://www.linkedin.com/company/epochai" aria-label="LinkedIn" data-astro-cid-knz2wypv=""><span class="icon x-icon "><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.3372 15.3372H12.6701V11.1604C12.6701 10.1644 12.6524 8.8822 11.283 8.8822C9.89386 8.8822 9.68132 9.96738 9.68132 11.0878V15.3369H7.0142V6.74767H9.57463V7.92148H9.61047C9.86671 7.48336 10.237 7.12295 10.6819 6.87862C11.1267 6.63429 11.6295 6.5152 12.1367 6.53403C14.84 6.53403 15.3384 8.3121 15.3384 10.6253L15.3372 15.3372ZM4.00482 5.57359C3.69871 5.57364 3.39944 5.48292 3.14488 5.3129C2.89032 5.14287 2.69192 4.90118 2.57472 4.61838C2.45752 4.33559 2.42681 4.02439 2.48647 3.72414C2.54614 3.4239 2.69351 3.14809 2.90993 2.93159C3.12634 2.71509 3.4021 2.56763 3.70233 2.50786C4.00255 2.44808 4.31375 2.47868 4.59659 2.59577C4.87943 2.71287 5.12119 2.91121 5.2913 3.1657C5.46142 3.4202 5.55225 3.71943 5.5523 4.02555C5.55234 4.2288 5.51234 4.43007 5.43459 4.61787C5.35684 4.80567 5.24287 4.97631 5.09918 5.12006C4.95548 5.26381 4.78487 5.37785 4.5971 5.45566C4.40933 5.53348 4.20808 5.57355 4.00482 5.57359ZM5.33837 15.3372H2.66849V6.74767H5.33837V15.3372ZM16.6669 0.00125688H1.32828C0.980133 -0.00267194 0.644655 0.131778 0.39559 0.375061C0.146525 0.618344 0.0042489 0.950556 0 1.2987V16.701C0.00410348 17.0493 0.146296 17.3818 0.395353 17.6253C0.644409 17.8688 0.97996 18.0036 1.32828 17.9998H16.6669C17.0159 18.0042 17.3524 17.8699 17.6025 17.6264C17.8525 17.3828 17.9956 17.05 18.0005 16.701V1.29759C17.9955 0.948755 17.8522 0.616164 17.6022 0.372887C17.3521 0.12961 17.0158 -0.00445554 16.6669 0.000145133" fill="#034752"></path>
+</svg>
+</span></a></div></div></div><!-- Content Columns --><div class="footer-column" data-astro-cid-knz2wypv=""><h3 class="footer-header" data-astro-cid-knz2wypv="">Our work</h3><ul class="footer-links" data-astro-cid-knz2wypv=""><li data-astro-cid-knz2wypv=""><a href="/latest" data-astro-cid-knz2wypv="">Latest</a></li><li data-astro-cid-knz2wypv=""><a href="/trends" data-astro-cid-knz2wypv="">Trends in AI</a></li><li data-astro-cid-knz2wypv=""><a href="/publications" data-astro-cid-knz2wypv="">Publications</a></li><li data-astro-cid-knz2wypv=""><a href="/data-insights" data-astro-cid-knz2wypv="">Data Insights</a></li><li data-astro-cid-knz2wypv=""><a href="/gradient-updates" data-astro-cid-knz2wypv="">Newsletter: Gradient Updates</a></li><li data-astro-cid-knz2wypv=""><a href="/epoch-after-hours" data-astro-cid-knz2wypv="">Podcast</a></li></ul></div><div class="footer-column" data-astro-cid-knz2wypv=""><h3 class="footer-header" data-astro-cid-knz2wypv="">Data on AI</h3><ul class="footer-links" data-astro-cid-knz2wypv=""><li data-astro-cid-knz2wypv=""><a href="/data/ai-models" data-astro-cid-knz2wypv="">Models</a></li><li data-astro-cid-knz2wypv=""><a href="/data/ai-data-centers" data-astro-cid-knz2wypv="">AI data centers</a></li><li data-astro-cid-knz2wypv=""><a href="/data/machine-learning-hardware" data-astro-cid-knz2wypv="">Hardware</a></li><li data-astro-cid-knz2wypv=""><a href="/data/ai-companies" data-astro-cid-knz2wypv="">Companies</a></li><li data-astro-cid-knz2wypv=""><a href="/data/ai-chip-sales" data-astro-cid-knz2wypv="">Chip sales</a></li><li data-astro-cid-knz2wypv=""><a href="/data/polling" data-astro-cid-knz2wypv="">Polling</a></li></ul></div><div class="footer-column" data-astro-cid-knz2wypv=""><h3 class="footer-header" data-astro-cid-knz2wypv="">Benchmarking</h3><ul class="footer-links" data-astro-cid-knz2wypv=""><li data-astro-cid-knz2wypv=""><a href="/benchmarks" data-astro-cid-knz2wypv="">Capabilities &amp; benchmarking</a></li><li data-astro-cid-knz2wypv=""><a href="/frontiermath" data-astro-cid-knz2wypv="">FrontierMath</a></li></ul></div><div class="footer-column" data-astro-cid-knz2wypv=""><h3 class="footer-header" data-astro-cid-knz2wypv="">Company</h3><ul class="footer-links" data-astro-cid-knz2wypv=""><li data-astro-cid-knz2wypv=""><a href="/about" data-astro-cid-knz2wypv="">About</a></li><li data-astro-cid-knz2wypv=""><a href="/about/team" data-astro-cid-knz2wypv="">Team</a></li><li data-astro-cid-knz2wypv=""><a href="/about/consultations" data-astro-cid-knz2wypv="">Consultations</a></li><li data-astro-cid-knz2wypv=""><a href="/about/transparency" data-astro-cid-knz2wypv="">Transparency</a></li><li data-astro-cid-knz2wypv=""><a href="/about/donate" data-astro-cid-knz2wypv="">Donate</a></li><li data-astro-cid-knz2wypv=""><a href="/about/careers" data-astro-cid-knz2wypv="">Careers</a></li></ul></div></section><div class="footer-bottom" data-astro-cid-knz2wypv=""><div class="footer-links-bottom" data-astro-cid-knz2wypv=""><p class="copyright" data-astro-cid-knz2wypv="">© 2026 Epoch AI</p><a href="/privacy" data-astro-cid-knz2wypv="">Privacy policy</a><a href="/cookies" data-astro-cid-knz2wypv="">Cookie policy</a><a href="https://and-now.co.uk/" target="_blank" rel="noopener noreferrer" data-astro-cid-knz2wypv="">Designed by And—Now</a></div></div></footer><astro-island uid="UiKF8" prefix="r3" component-url="/_astro/FeedbackWidget.DaomLBv5.js" component-export="default" renderer-url="/_astro/client.zTr-AUKU.js" props="{}" client="load" opts="{&quot;name&quot;:&quot;FeedbackWidget&quot;,&quot;value&quot;:true}" await-children=""><div class="feedback-widget"><button type="button" class="button button-l button-neutral  button-ui"><span class="icon x-icon "><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+  <path d="M0 1.75C0 0.783502 0.783502 0 1.75 0H12.25C13.2165 0 14 0.783502 14 1.75V8.75C14 9.7165 13.2165 10.5 12.25 10.5H3.86244C3.63037 10.5 3.40781 10.5922 3.24372 10.7563L0.746859 13.2531C0.471249 13.5287 0 13.3336 0 12.9438V1.75ZM6.29449 4.17061C6.23701 4.0847 6.1704 4.00496 6.09598 3.93267C5.97197 3.80829 5.83355 3.7098 5.68592 3.64844L5.67901 3.64559C5.47903 3.55231 5.25454 3.5 5.01733 3.5C4.17933 3.5 3.5 4.15292 3.5 4.95833C3.5 5.76375 4.17933 6.41667 5.01733 6.41667C5.31708 6.41667 5.59653 6.33313 5.83185 6.18895C5.71224 6.52905 5.49064 6.89199 5.12377 7.25718C4.97826 7.40203 4.98247 7.63284 5.13318 7.7727C5.2839 7.91256 5.52404 7.90851 5.66956 7.76365C6.83746 6.60108 6.86825 5.3503 6.4938 4.52146C6.43768 4.39724 6.3706 4.27889 6.29449 4.17061ZM9.62515 6.18895C9.50553 6.52905 9.28393 6.89199 8.91707 7.25718C8.77155 7.40203 8.77577 7.63284 8.92648 7.7727C9.07719 7.91256 9.31734 7.90851 9.46286 7.76365C10.6308 6.60108 10.6615 5.3503 10.2871 4.52146C10.231 4.39724 10.1639 4.27889 10.0878 4.1706C10.0303 4.0847 9.9637 4.00497 9.88928 3.93268C9.76528 3.8083 9.62685 3.7098 9.47922 3.64844L9.4723 3.64559C9.27233 3.55231 9.04784 3.5 8.81063 3.5C7.97263 3.5 7.2933 4.15292 7.2933 4.95833C7.2933 5.76375 7.97263 6.41667 8.81063 6.41667C9.11038 6.41667 9.38983 6.33313 9.62515 6.18895Z" fill="#3A4848"></path>
+</svg>
+</span>Feedback</button></div><dialog class="modal" data-modal-id="feedback-form-modal"><div class="modal-content"><div class="modal-header"><div class="modal-header-content"><h2 class="trim display-6 feedback-modal-title">Feedback</h2></div><div class="modal-close-container"><button type="button" class="button button-l button-gray  button-ui" aria-label="Close modal"><span class="icon x-icon icon-l"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.14645 2.85355C1.95118 2.65829 1.95118 2.34171 2.14645 2.14645C2.34171 1.95118 2.65829 1.95118 2.85355 2.14645L8 7.29289L13.1464 2.14645C13.3417 1.95118 13.6583 1.95118 13.8536 2.14645C14.0488 2.34171 14.0488 2.65829 13.8536 2.85355L8.70711 8L13.8536 13.1464C14.0488 13.3417 14.0488 13.6583 13.8536 13.8536C13.6583 14.0488 13.3417 14.0488 13.1464 13.8536L8 8.70711L2.85355 13.8536C2.65829 14.0488 2.34171 14.0488 2.14645 13.8536C1.95119 13.6583 1.95119 13.3417 2.14645 13.1464L7.29289 8L2.14645 2.85355Z" fill="black"></path>
+</svg>
+</span></button></div></div><div class="modal-main modal-content-inner feedback-modal-main"><p class="trim body-3 feedback-modal-copy">Have a question? Noticed something wrong? Let us know.</p><form class="feedback-modal-form"><label class="input-container"><div class="input-label trim ui-4">Message</div><div class="input-content"><textarea rows="6"></textarea></div></label><p class="trim feedback-modal-helper">If you would like a reply, please include your name and email address.</p><div class="feedback-modal-name-email"><label class="input-container"><div class="input-label trim ui-4">Name</div><div class="input-content flex-row input-large"><input value=""></div></label><label class="input-container"><div class="input-label trim ui-4">Email address</div><div class="input-content flex-row input-large"><input value=""></div></label></div><div class="feedback-modal-actions"><button type="button" class="button button-l button-gray-filled  button-ui">Cancel</button><button type="submit" class="button button-l button-primary  button-ui">Submit</button></div></form></div></div></dialog></astro-island><script>(()=>{var e=async t=>{await(await t())()};(self.Astro||(self.Astro={})).only=e;window.dispatchEvent(new Event("astro:only"));})();</script><astro-island uid="OcHW9" component-url="/_astro/SurveyWrapper.BWaig4o5.js" component-export="default" renderer-url="/_astro/client.zTr-AUKU.js" props="{}" client="only" opts="{&quot;name&quot;:&quot;SurveyWrapper&quot;,&quot;value&quot;:&quot;react&quot;}"></astro-island><div class="loading-overlay" id="loading-overlay" aria-hidden="true"></div><astro-island uid="1chL7U" component-url="/_astro/CookiePopup.BNDQxSEo.js" component-export="default" renderer-url="/_astro/client.zTr-AUKU.js" props="{}" client="only" opts="{&quot;name&quot;:&quot;CookiePopup&quot;,&quot;value&quot;:&quot;react&quot;}"><div class="cookie-popup"><p class="display-5 flex-row justify align-center">We value your privacy<button type="button" class="button button-l button-gray  button-ui" aria-label="Close cookie popup"><span class="icon x-icon icon-l"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.14645 2.85355C1.95118 2.65829 1.95118 2.34171 2.14645 2.14645C2.34171 1.95118 2.65829 1.95118 2.85355 2.14645L8 7.29289L13.1464 2.14645C13.3417 1.95118 13.6583 1.95118 13.8536 2.14645C14.0488 2.34171 14.0488 2.65829 13.8536 2.85355L8.70711 8L13.8536 13.1464C14.0488 13.3417 14.0488 13.6583 13.8536 13.8536C13.6583 14.0488 13.3417 14.0488 13.1464 13.8536L8 8.70711L2.85355 13.8536C2.65829 14.0488 2.34171 14.0488 2.14645 13.8536C1.95119 13.6583 1.95119 13.3417 2.14645 13.1464L7.29289 8L2.14645 2.85355Z" fill="black"></path>
+</svg>
+</span></button></p><p class="body-5">Our website uses cookies to enhance your browsing experience and analyze site traffic. By clicking “Accept All,” you consent to our use of cookies as described in our <a class="link-button" href="/privacy">Privacy Policy</a> and <a class="link-button" href="/cookies">Cookie Policy.</a> If you wish to withdraw your consent, you can contact us at <a class="link-button" href="mailto:ops@epoch.ai">ops@epoch.ai</a>.</p><div class="cookie-actions"><button type="button" class="button button-l button-primary  button-ui">Accept All</button><button type="button" class="button button-l button-gray  button-ui">Reject All</button></div></div></astro-island><script type="module" src="/_astro/Analytics.astro_astro_type_script_index_0_lang.CsPxfRbh.js"></script><div style="display: none;" aria-hidden="true" data-pagefind-body=""><h1 data-pagefind-weight="4">AI can turn security fixes into working exploits before users receive an update</h1><p data-pagefind-weight="1.2000000000000002">GLM 5.3 turned published-but-unshipped Firefox security fixes into working one-click exploits for six releases, at roughly $1,000 each.</p></div><script type="module" src="/_astro/Empty.astro_astro_type_script_index_0_lang.BPhb5aLK.js"></script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;fb25c49f9ecd4a579d80fdadbd26ca9a&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
+<div class="footnote-overlay" hidden="" role="dialog" aria-modal="true" aria-label="Footnote" style="top: auto; height: 900px; bottom: 0px;"><button class="footnote-overlay-backdrop" type="button" aria-label="Close footnote"></button><div class="footnote-overlay-panel" tabindex="-1"><div class="footnote-overlay-row"><span class="footnote-overlay-num"></span><div class="footnote-overlay-body"></div></div></div></div></body></html>

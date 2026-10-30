@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000400",
+  "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-jamie-raskin-demand-white-house-preserve-trumps-ai-chatbot-conversations-after-reports-he-consulted-elon-musks-grok-on-venezuela-military-operation",
+  "capturedAt": "2026-10-30T10:47:50Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 76607,
+    "sha256": "9a7fbfc85d50444384f8d4af473dc87c20b7b8b3be18d07ef28a47336777a03d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B307E2458216EFDF653CD591075EA9E0",
+      "status": 200,
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-jamie-raskin-demand-white-house-preserve-trumps-ai-chatbot-conversations-after-reports-he-consulted-elon-musks-grok-on-venezuela-military-operation",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2141,
+      "afterScrollHeight": 2141,
+      "wantedHeight": 2141
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9bb00e3400e88dee062c67e5d733bfe917150dd99da22d30970ce61d7a0e93ac",
+    "width": 1366,
+    "height": 2141,
+    "bytes": 1423776,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2141,
+    "afterScrollHeight": 2141
+  },
+  "record": {
+    "capturedAt": "2026-10-30T10:47:50Z",
+    "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-jamie-raskin-demand-white-house-preserve-trumps-ai-chatbot-conversations-after-reports-he-consulted-elon-musks-grok-on-venezuela-military-operation",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 76607,
+      "sha256": "9a7fbfc85d50444384f8d4af473dc87c20b7b8b3be18d07ef28a47336777a03d"
+    },
+    "finalUrl": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-jamie-raskin-demand-white-house-preserve-trumps-ai-chatbot-conversations-after-reports-he-consulted-elon-musks-grok-on-venezuela-military-operation",
+    "httpStatus": 200,
+    "title": "Ranking Members Robert Garcia and Jamie Raskin Demand White House Preserve Trump’s AI Chatbot Conversations After Reports He Consulted Elon Musk’s Grok on Venezuela Military Operation | The U.S. House Committee on Oversight",
+    "rendered": {
+      "textChars": 2460,
+      "textSha256": "a8ecd23d83d911d98f6c2b72c5737605505b00b91732b9c40d2a0480a77225cd",
+      "htmlSha256": "b0ba8758b09385d9f9274163f1736f90351049ded55b70ab3c7e037b295b5459"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9bb00e3400e88dee062c67e5d733bfe917150dd99da22d30970ce61d7a0e93ac",
+      "width": 1366,
+      "height": 2141,
+      "bytes": 1423776,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261030043605",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261030043605/https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-jamie-raskin-demand-white-house-preserve-trumps-ai-chatbot-conversations-after-reports-he-consulted-elon-musks-grok-on-venezuela-military-operation"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261030104927/https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-jamie-raskin-demand-white-house-preserve-trumps-ai-chatbot-conversations-after-reports-he-consulted-elon-musks-grok-on-venezuela-military-operation",
+      "timestamp": "20261030104927",
+      "verifiedHttp": 200
+    }
+  }
+}

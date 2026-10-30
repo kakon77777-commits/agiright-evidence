@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000398",
+  "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+  "capturedAt": "2026-10-30T10:45:50Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 1473061,
+    "sha256": "217c3c8feb6cea3ac3c2a48ec612945b0da10c9040b2400b5b4eb94000c8be10",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8B6A94D411B7E2FCF5C8829DE374774D",
+      "status": 200,
+      "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6100,
+      "afterScrollHeight": 6124,
+      "wantedHeight": 6124
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9c455dd2c9478c5fda37d09d67715f52f8d652f649b6660f0328aeac73574f6c",
+    "width": 1366,
+    "height": 6124,
+    "bytes": 1625392,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6100,
+    "afterScrollHeight": 6124
+  },
+  "record": {
+    "capturedAt": "2026-10-30T10:45:50Z",
+    "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1473061,
+      "sha256": "217c3c8feb6cea3ac3c2a48ec612945b0da10c9040b2400b5b4eb94000c8be10"
+    },
+    "finalUrl": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+    "httpStatus": 200,
+    "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System | WIRED",
+    "rendered": {
+      "textChars": 6798,
+      "textSha256": "36024290dde5d0bfd3d995d016813a9587b145f6efb1aeb07fcd3d28dd325c35",
+      "htmlSha256": "6c7a066bcfd20edeebfa61b575765058f51b09bce9b35f42463b99ca00cc1f3f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9c455dd2c9478c5fda37d09d67715f52f8d652f649b6660f0328aeac73574f6c",
+      "width": 1366,
+      "height": 6124,
+      "bytes": 1625392,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261029185011",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261029185011/https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261030091341/https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "timestamp": "20261030091341",
+      "verifiedHttp": 200
+    }
+  }
+}

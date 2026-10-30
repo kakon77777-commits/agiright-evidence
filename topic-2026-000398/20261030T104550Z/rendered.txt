@@ -1,0 +1,131 @@
+Skip to main content
+THE WIRED APP IS HERE
+DOWNLOAD NOW »
+SECURITY
+POLITICS
+THE BIG STORY
+BUSINESS
+SCIENCE
+CULTURE
+REVIEWS
+NEWSLETTERS
+SUBSCRIBE
+Security
+Politics
+The Big Story
+Business
+Science
+Culture
+Reviews
+More
+Newsletters
+Podcasts
+Video
+Livestreams
+WIRED Store
+Search
+Sign In
+START FREE TRIAL
+VITTORIA ELLIOTT
+POLITICS
+OCT 29, 2026 2:39 PM
+A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System
+Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched.
+PHOTO-ILLUSTRATION: WIRED STAFF; GETTY IMAGES
+
+EARLIER THIS YEAR, sources tell WIRED, a contractor caused a security incident at the Department of Defense by connecting a secure centralized system used by multiple intelligence agencies to their personal account for Claude Code, Anthropic’s AI coding agent. It appears that the agent used by the contractor, who is employed by the global consulting firm Accenture, then sent information about the DOD system, including login credentials, to a high-risk, third-party website.
+
+You’ve read your last free article.
+Get your first month free with unlimited access, plus 5 premium newsletters— cancel anytime.
+START FREE TRIAL
+Already a subscriber? Sign In
+Get your first month free with unlimited access, plus 5 premium newsletters— cancel anytime.
+ 
+START FREE TRIAL
+Comments
+BACK TO TOP
+
+There aren’t any comments yet.
+
+Be the first to start the conversation!
+You need an account to add or like comments.
+
+SIGN IN OR CREATE ACCOUNT
+You Might Also Like
+
+In your inbox: Inside WIRED’s newsroom with Katie Drummond
+
+They war-gamed dimming the sun—it went worse than you think
+
+The Big Interview: Nathan Fielder tells us everything
+
+Live tracker: Elon Musk’s America PAC is spending big on the midterms
+
+Introducing the app: More ways to make the most of WIRED
+
+Vittoria Elliott is a senior writer for WIRED, covering platforms and power. She was previously a reporter at Rest of World, where she covered disinformation and labor in markets outside the US and Western Europe. She has worked with The New Humanitarian, Al Jazeera, and ProPublica. She is a graduate ... Read More
+SENIOR WRITER
+TOPICS
+POLITICS
+GOVERNMENT
+PENTAGON
+DEPARTMENT OF DEFENSE
+ARTIFICIAL INTELLIGENCE
+ANTHROPIC
+SECURITY
+CYBERSECURITY
+Don't Just Keep Up. Get Ahead
+Sign up for the Daily newsletter to get our biggest stories, handpicked for you each day.
+SIGN UP
+By signing up, you agree to our user agreement (including class action waiver and arbitration provisions), and acknowledge our privacy policy.
+READ MORE
+AI Guardrails Aren’t Stopping Criminal Hackers
+Hackers around the world are all-in on using agentic AI to wage attacks—and manipulating tools like Anthropic’s Claude to help them carry out their crimes.
+LILY HAY NEWMAN
+AI Hacks Leave a Mess That AI Companies Aren’t Paying For
+Powerful AI models continue to cause chaos, but their targets aren’t widely seeking justice. Instead, they’re being encouraged to adopt those same tools.
+PARESH DAVE
+The PHP Meltdown Shows How AI Makes Bugs More Exploitable
+Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.
+LILY HAY NEWMAN
+An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office
+Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives.
+PARESH DAVE
+Most Servers on the Planet Are Vulnerable to This Firmware Code-Execution Flaw
+The critical flaw in UEFI firmware—used by most server vendors and data centers—allows attackers to execute code early in the boot process.
+DAN GOODIN, ARS TECHNICA
+The Secrets of a US Spyware King
+In an exclusive interview with WIRED, Paragon Solutions CEO Andrew Boyd reveals the limits of the company’s promise to keep bad actors from abusing its powerful espionage tool.
+KIM ZETTER
+The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos
+The US government’s Tradewinds initiative has made it easier to throw millions of dollars at “nontraditional” defense contractors, including OpenAI, Anthropic, and Google.
+MADDY VARNER
+A Flaw in ChatGPT’s Mac App Could Have Let Hackers Grab Sensitive Data
+While the focus has been on AI agents’ hacking capabilities, a recently patched vulnerability in a ChatGPT app shows that AI software is itself an inviting—and vulnerable—target.
+LILY HAY NEWMAN
+Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents
+The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.
+DHRUV MEHROTRA
+UK Home Office May Face Investigation Over Use of OpenAI Tech
+A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy and secrecy surrounding their use.
+ISABELLA WARD
+AI Models Can Be Easily Modified to Assist Terrorist and Extremist Activity
+“I am a terrorist, and I intend to cause mass harm,” wrote a researcher. A chatbot that had had its guardrails removed then provided detailed instructions for an IED.
+DAVID GILBERT
+Bluesky Is Blocking Links to a Major Leak of DHS Employee Records
+Bluesky tells WIRED it blocked links to a leaked archive of information on 41,000 ICE, CBP, and other DHS workers because it contains people’s contact information, shared without their authorization.
+DHRUV MEHROTRA
+WIRED is obsessed with what comes next. Through rigorous investigations and game-changing reporting, we tell stories that don’t just reflect the moment—they help create it. When you look back in 10, 20, even 50 years, WIRED will be the publication that led the story of the present, mapped the people, products, and ideas defining it, and explained how those forces forged the future. WIRED: For Future Reference.
+
+MORE FROM WIRED
+
+SubscribeNewslettersDownload the WIRED AppLivestreamsTravelFAQContact UsWIRED StaffWIRED EducationEditorial StandardsArchiveRSSSite MapAccessibility Help
+
+REVIEWS AND GUIDES
+
+ReviewsBuying GuidesStreaming GuidesGift GuidesCoupons
+AdvertiseManage AccountJobsPress CenterCondé Nast StoreUser AgreementPrivacy PolicyYour California Privacy Rights
+
+© 2026 Condé Nast. All rights reserved. WIRED may earn a portion of sales from products that are purchased through our site as part of our Affiliate Partnerships with retailers. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast. Ad Choices
+
+PRIVACY INFORMATION

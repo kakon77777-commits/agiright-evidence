@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000399",
+  "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+  "capturedAt": "2026-10-30T10:46:22Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 140754,
+    "sha256": "2f54c0df8abac20ba94ab2c8de9375c4614e2e36b15fe49710051f2624e69d6e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1B017B718BF9CFD229FB308B70821F1C",
+      "status": 200,
+      "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10067,
+      "afterScrollHeight": 10067,
+      "wantedHeight": 10067
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "8410297199521e91ce6e56221adb674ab3a15f2421b55f61b1e952ad20d2b1c5",
+    "width": 1366,
+    "height": 10067,
+    "bytes": 1583683,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10067,
+    "afterScrollHeight": 10067
+  },
+  "record": {
+    "capturedAt": "2026-10-30T10:46:22Z",
+    "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 140754,
+      "sha256": "2f54c0df8abac20ba94ab2c8de9375c4614e2e36b15fe49710051f2624e69d6e"
+    },
+    "finalUrl": "https://epoch.ai/publications/open-weight-models-patch-gap",
+    "httpStatus": 200,
+    "title": "Open-weight AI models can exploit the patch gap | Epoch AI",
+    "rendered": {
+      "textChars": 18540,
+      "textSha256": "67238f3b2ae00b2ba93734bf6a6e35327d0fd0da77abbf589123f5c4aa0f5ec3",
+      "htmlSha256": "b6aba86536a1925af1a872c03a79645001f596359e2c4c6a96fe2b0823c40962"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8410297199521e91ce6e56221adb674ab3a15f2421b55f61b1e952ad20d2b1c5",
+      "width": 1366,
+      "height": 10067,
+      "bytes": 1583683,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261029225417",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261029225417/https://epoch.ai/publications/open-weight-models-patch-gap"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261030104737/https://epoch.ai/publications/open-weight-models-patch-gap",
+      "timestamp": "20261030104737",
+      "verifiedHttp": 200
+    }
+  }
+}
