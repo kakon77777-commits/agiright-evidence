@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000406",
+  "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+  "capturedAt": "2026-10-31T12:03:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 10145,
+    "sha256": "26d01fb9bdfaf23c8d7c34f86398f89a2fe80e887073a7f4167e8b8afd79dc89",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0DADD2377BB0B40C2F81BC9471F387B0",
+      "status": 403,
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-10-31T12:03:07Z",
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 10145,
+      "sha256": "26d01fb9bdfaf23c8d7c34f86398f89a2fe80e887073a7f4167e8b8afd79dc89"
+    },
+    "finalUrl": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "7637cb7f7eb18dcc430b753a1d81a0fb9aecea8e24af93f2348ddc562874923f"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261031012929",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261031012929/https://openai.com/index/community-safety-report-and-new-protections-for-teens"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261031012929/https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "timestamp": "20261031012929",
+      "verifiedHttp": 200
+    }
+  }
+}

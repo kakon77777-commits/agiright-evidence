@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000402",
+  "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+  "capturedAt": "2026-10-31T11:58:36Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 1648766,
+    "sha256": "3206d6d43a8797efc7a062d547c2ba5107fbfe226322a6dbf11b1383bbe403e1",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B45BC4F6F5A9738A4D8FCA74E148A5DD",
+      "status": 200,
+      "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 25754,
+      "afterScrollHeight": 25754,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "05405583c263ab799444a6fc3db977362b70d7b3ffcaa362178e87d5aab66462",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1883864,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 25754,
+    "afterScrollHeight": 25754
+  },
+  "record": {
+    "capturedAt": "2026-10-31T11:58:36Z",
+    "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1648766,
+      "sha256": "3206d6d43a8797efc7a062d547c2ba5107fbfe226322a6dbf11b1383bbe403e1"
+    },
+    "finalUrl": "https://alignment.anthropic.com/2026/automated-em-search/",
+    "httpStatus": 200,
+    "title": "Automated Subtle Emergent Misalignment Research",
+    "rendered": {
+      "textChars": 64402,
+      "textSha256": "30fe095596346f7cf611014b7028b2c546da6f985c565f3cbdf4bd0d4d2fad17",
+      "htmlSha256": "8b31890fb5f47af1ded17f96555102db3985d7962351c6a31f7bcaaa836136eb"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "05405583c263ab799444a6fc3db977362b70d7b3ffcaa362178e87d5aab66462",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1883864,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261031014151",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261031014151/https://alignment.anthropic.com/2026/automated-em-search/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261031014151/https://alignment.anthropic.com/2026/automated-em-search/",
+      "timestamp": "20261031014151",
+      "verifiedHttp": 200
+    }
+  }
+}

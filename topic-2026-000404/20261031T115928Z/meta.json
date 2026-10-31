@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000404",
+  "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+  "capturedAt": "2026-10-31T11:59:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 439137,
+    "sha256": "b42f0608b705ec176b312db5459ebb782f89398481226ee911915e5dacb158a7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.50",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "43A7E064AD6D7031913DA50110F95081",
+      "status": 200,
+      "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10729,
+      "afterScrollHeight": 10729,
+      "wantedHeight": 10729
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "f4ded94b48b97fb65c1474e7e84dffacec99bb9102a750fa3d19933f3a1c0be2",
+    "width": 1366,
+    "height": 10729,
+    "bytes": 1336966,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10729,
+    "afterScrollHeight": 10729
+  },
+  "record": {
+    "capturedAt": "2026-10-31T11:59:28Z",
+    "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 439137,
+      "sha256": "b42f0608b705ec176b312db5459ebb782f89398481226ee911915e5dacb158a7"
+    },
+    "finalUrl": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+    "httpStatus": 200,
+    "title": "“Black October” for AI Developer Platforms | Wiz Blog",
+    "rendered": {
+      "textChars": 13701,
+      "textSha256": "205a6ac5f3b37f94eca210568e3fee6cff82e8186f92b315e7b16697b8ccd6ad",
+      "htmlSha256": "3381f373d39efccde4912fac9712969a521ab859c4ad9c037296a1c70f9e5a55"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f4ded94b48b97fb65c1474e7e84dffacec99bb9102a750fa3d19933f3a1c0be2",
+      "width": 1366,
+      "height": 10729,
+      "bytes": 1336966,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.50)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261030231919",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261030231919/https://www.wiz.io/blog/black-october-for-ai-developer-platforms"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261031120217/https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+      "timestamp": "20261031120217",
+      "verifiedHttp": 200
+    }
+  }
+}
