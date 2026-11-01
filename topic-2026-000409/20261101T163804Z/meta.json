@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000409",
+  "url": "https://github.com/anthropics/formal-math/tree/main/eth",
+  "capturedAt": "2026-11-01T16:38:04Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 224786,
+    "sha256": "ebaaee3ae6f7162917f14ee73d063be273392feea8ef4b99396bfbe0d6037c00",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "16BC0C8DF6D0BE3D440E28607C4B14A1",
+      "status": 200,
+      "url": "https://github.com/anthropics/formal-math/tree/main/eth",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2631,
+      "afterScrollHeight": 2631,
+      "wantedHeight": 2631
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b755d43b3638711a1eb557459d66be1d9a53a451a80eb960899d7fe691b6b558",
+    "width": 1366,
+    "height": 2631,
+    "bytes": 279542,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2631,
+    "afterScrollHeight": 2631
+  },
+  "record": {
+    "capturedAt": "2026-11-01T16:38:04Z",
+    "url": "https://github.com/anthropics/formal-math/tree/main/eth",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 224786,
+      "sha256": "ebaaee3ae6f7162917f14ee73d063be273392feea8ef4b99396bfbe0d6037c00"
+    },
+    "finalUrl": "https://github.com/anthropics/formal-math/tree/main/eth",
+    "httpStatus": 200,
+    "title": "formal-math/eth at main · anthropics/formal-math · GitHub",
+    "rendered": {
+      "textChars": 5241,
+      "textSha256": "13f87543c91b4ead81538021f7c287adebb4872ad83d7abe11c1767b6c5b716a",
+      "htmlSha256": "a820e803566188d0c1cf69401e312050568d94f7e1c4aa9537f4a16f922c6413"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b755d43b3638711a1eb557459d66be1d9a53a451a80eb960899d7fe691b6b558",
+      "width": 1366,
+      "height": 2631,
+      "bytes": 279542,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261101163922/https://github.com/anthropics/formal-math/tree/main/eth",
+      "timestamp": "20261101163922",
+      "verifiedHttp": 200
+    }
+  }
+}

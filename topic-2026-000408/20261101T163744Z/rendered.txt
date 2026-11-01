@@ -1,0 +1,191 @@
+Skip to content
+Navigation Menu
+Products
+Developers
+Businesses
+Resources
+Pricing
+Search
+/
+Sign in
+Sign up
+deepseek-ai
+dsh-superagent-prototype
+Repository navigation
+Code
+Security and quality
+Insights
+dsh-superagent-prototype
+Public
+Notifications
+Fork625
+ (625)
+Star6.4k
+ (6.4k)
+main
+1 Branch
+0 Tags
+Code
+Latest commit
+DeepSeek Harness Team
+feat: add the dsh-superagent research prototype
+6337fc8
+ · 
+History
+1 Commit
+Folders and files
+Name	Last commit message	Last commit date
+
+docs
+
+feat: add the dsh-superagent research prototype
+
+examples
+
+feat: add the dsh-superagent research prototype
+
+locale
+
+feat: add the dsh-superagent research prototype
+
+prompts
+
+feat: add the dsh-superagent research prototype
+
+scripts
+
+feat: add the dsh-superagent research prototype
+
+skills
+
+feat: add the dsh-superagent research prototype
+
+src
+
+feat: add the dsh-superagent research prototype
+
+tests
+
+feat: add the dsh-superagent research prototype
+
+.gitignore
+
+feat: add the dsh-superagent research prototype
+
+LICENSE
+
+feat: add the dsh-superagent research prototype
+
+README.md
+
+feat: add the dsh-superagent research prototype
+
+SETUP.md
+
+feat: add the dsh-superagent research prototype
+
+cordis.patch.yml
+
+feat: add the dsh-superagent research prototype
+
+package.json
+
+feat: add the dsh-superagent research prototype
+
+pnpm-lock.yaml
+
+feat: add the dsh-superagent research prototype
+
+tsconfig.json
+
+feat: add the dsh-superagent research prototype
+
+tsdown.config.ts
+
+feat: add the dsh-superagent research prototype
+
+vitest.config.ts
+
+feat: add the dsh-superagent research prototype
+
+Repository files navigation
+README
+MIT license
+dsh-superagent
+
+Research prototype for reference only, not an official DeepSeek product. This code grew out of our team's day-to-day development work, with much of the engineering done by coding agents. Treat it as research code, not production-ready software. It may still contain bugs, and its coding style and engineering practices may be inconsistent. Review and adapt it before using it in your own environment.
+
+We have adapted it for publication, so it is not identical to our internal version or the implementation described in Exploring Super-agent Design: Towards a More Autonomous Agent System. Some designs discussed in the article are directions for future development and are not implemented in this prototype.
+
+dsh-superagent is a proactive coding agent for one GitHub repository, packaged as a bundle for DeepSeek Harness. It listens to GitHub and, optionally, Feishu. When someone allowed asks the agent for work, it opens a work item, works on it in its own agent session and directory, and answers in the original conversation, for example with a pull request. A web panel shows what needs a person.
+
+It is also a way of working with an agent: take as little human attention as possible, and give as much value as possible. An agent that can act for a whole team can also waste a whole team's attention, so it acts only when asked or when a rule the team wrote allows it, and speaks only when someone must act or can use a result. docs/000-philosophy.md explains the principle and what it asks of the operator.
+
+Setup
+
+Setup has many steps, so an agent does it with you. Ask your coding agent:
+
+Read SETUP.md in this repository and set up dsh-superagent with me.
+
+It asks one short question at a time, shows the full plan once, and then installs and configures everything. SETUP.md is what it follows.
+
+Documentation
+
+Read the numbered documents in order; each builds only on the ones before it.
+
+000 Philosophy
+001 Domain model
+002 Authorization
+003 Execution
+004 Prompts
+005 Panel
+006 Deployment: manual setup, configuration, upgrades and troubleshooting
+007 Architecture
+008 Cookbook: adding a Source
+Development
+
+pnpm check runs the typecheck, the tests and the build.
+
+License
+
+MIT
+
+About
+
+Towards a More Autonomous Agent System
+
+Resources
+Readme
+MIT license
+Activity
+Custom properties
+Stars
+6.4k stars
+Watchers
+32 watching
+Forks
+625 forks
+Report repository
+Releases
+No releases published
+Contributors
+No contributors
+Languages
+TypeScript
+97.5%
+CSS
+1.9%
+Python
+0.6%
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information

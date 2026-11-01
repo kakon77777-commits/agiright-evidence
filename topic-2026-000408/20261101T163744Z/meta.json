@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000408",
+  "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+  "capturedAt": "2026-11-01T16:37:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 249289,
+    "sha256": "6eb241269d5788888ece5dbefde8d888a94366ab60b769a17d3ef73be4a612c0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A7246EC673B7B62C7CDB526EA5439AA8",
+      "status": 200,
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2675,
+      "afterScrollHeight": 2675,
+      "wantedHeight": 2675
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b9c012ed829b4f2844b3b6ee82ac85f0c3f79dde649cb2e23bd4feed1321535b",
+    "width": 1366,
+    "height": 2675,
+    "bytes": 249000,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2675,
+    "afterScrollHeight": 2675
+  },
+  "record": {
+    "capturedAt": "2026-11-01T16:37:44Z",
+    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 249289,
+      "sha256": "6eb241269d5788888ece5dbefde8d888a94366ab60b769a17d3ef73be4a612c0"
+    },
+    "finalUrl": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+    "httpStatus": 200,
+    "title": "GitHub - deepseek-ai/dsh-superagent-prototype: Towards a More Autonomous Agent System · GitHub",
+    "rendered": {
+      "textChars": 4249,
+      "textSha256": "d36157121406dc417fe48decdfc78c5fcaa36ef73ae17b2915d6c98771303953",
+      "htmlSha256": "7155ec8dee8d8c95fa4f65ae1c9f567c5e6facbfcf53824a044c7a344dfdfb15"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b9c012ed829b4f2844b3b6ee82ac85f0c3f79dde649cb2e23bd4feed1321535b",
+      "width": 1366,
+      "height": 2675,
+      "bytes": 249000,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261031134225",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261031134225/https://github.com/deepseek-ai/dsh-superagent-prototype"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261101093103/https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "timestamp": "20261101093103",
+      "verifiedHttp": 200
+    }
+  }
+}

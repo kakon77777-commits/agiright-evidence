@@ -1,0 +1,212 @@
+API
+Grok Build
+Grok Bot
+Grok
+X Subscription
+
+Search
+
+Ctrl+
+K
+API Console
+PRODUCTS
+Grok
+STATUS
+Available
+RESOURCES
+llms.txt
+Discord
+Email support
+Terms and Policies
+Get Started
+Overview
+Quickstart
+Grok 4.7
+Latest
+Models
+Pricing
+Release Notes
+Text
+Text Generation
+Streaming
+Reasoning
+Structured Outputs
+Image Understanding
+Multi Agent
+Best Practices Guide
+Imagine
+Overview
+Image Generation
+Image Editing
+Multi-Image Editing
+Image Prompting Guide
+Video Generation
+Video Overview
+New
+Image-to-Video
+Reference-to-Video
+Video Editing
+Video Extension
+Voice
+Overview
+Speech to Speech
+Text to Speech
+Speech to Text
+New
+Custom Voices
+Ephemeral Tokens
+Files & Collections
+Files Overview
+Managing Files
+Public URLs
+New
+Chat with Files
+Collections
+Collections via API
+Collection Metadata
+Generated Media
+Tools
+Overview
+Function Calling
+Web Search
+X Search
+Code Execution
+Image Generation
+Collections Search (RAG)
+Remote MCP Tools
+In Depth
+Advanced API Usage
+Rate Limits
+Prompt Caching
+Context Compaction
+Priority Processing
+Custom Moderation Controls
+New
+Batch API
+Deferred Completions
+Async Requests
+WebSocket Mode
+mTLS Authentication
+Regional Endpoints
+New
+Output Watermarking
+New
+Cost Tracking
+Debugging Errors
+Cookbook
+Platforms
+Community Integrations
+Google Cloud Vertex AI
+Microsoft Foundry
+Docs MCP
+Migration Guides
+Imagine Image Quality Retirement (Nov 2, 2026)
+New
+Model Retirement (May 15, 2026)
+Migrating to Responses API
+Chat Completions (Legacy)
+FAQ
+Data & Privacy
+General
+Advanced API Usage
+Output Watermarking
+Copy for LLM
+View as Markdown
+Create API key
+Meet grok-4.7
+
+Text responses from supported Grok models include an invisible watermark. The watermark lets SpaceXSI later recognize text as model-generated, and it requires no change to your requests: there is no parameter to send, and your integration works the same way with or without it.
+
+SpaceXSI watermarks text model output to comply with the EU AI Act. The watermark is enabled on every SpaceXSI API endpoint, including the global endpoint, https://api.x.ai, and any regional endpoint.
+
+Watermarking is controlled per model for your whole team. Team admins can opt out in the SpaceXSI Console; see Opting out.
+
+Which outputs are watermarked
+
+Watermarking applies to text output from text generation requests, for each model that has watermarking turned on for your team.
+
+Starting November 7, 2026, responses from these models include a watermark. It's on by default, and you can opt out per model.
+
+grok-4.7
+grok-4.6
+grok-4.5
+grok-4.3
+grok-4.20-reasoning
+grok-4.20-non-reasoning
+grok-4.20-multi-agent
+
+Watermarking applies to outputs from every text generation API, including the Responses API and the Chat Completions API. It covers the generated text you receive in the response: ordinary text responses, structured outputs, and tool call arguments.
+
+Checking whether a response was watermarked
+
+To check whether a response was watermarked, read the x-watermark header on the Responses API or Chat Completions API response. x-watermark: true means the output for that request was generated with the watermark. Any other value, or no header at all, means it was not.
+
+JavaScript
+Python (OpenAI)
+JavaScript (OpenAI)
+Bash
+import { xai } from '@ai-sdk/xai';
+import { generateText } from 'ai';
+const { text, response } = await generateText({
+  model: xai.responses('grok-4.7'),
+  prompt: 'Write a haiku about the ocean.',
+});
+console.log(response.headers?.['x-watermark']);
+console.log(text);
+How it works
+
+The watermark is not visible. It is applied while the model generates text: it slightly shapes which tokens the model picks, so it adds no characters, markup, or hidden text to the response.
+
+Detection is statistical. SpaceXSI scores a piece of text against the watermark and reports whether it is watermarked, not watermarked, or uncertain. Longer text gives a stronger signal.
+
+Access to watermark detection is granted by application. You can submit a request for the detection API through this form.
+
+Opting out
+
+Team admins can turn watermarking off for some or all models in the SpaceXSI Console. The setting applies to every API key on the team.
+
+Open the Team settings page and find the Model output watermarking row. It shows On (all models), Off (all models), or Custom. Only team admins see this row.
+Select the settings icon next to it, then clear the checkbox for each model you want to opt out. Select all turns every model on or off at once.
+Select Save. If you turned a model off, confirm with Opt Out.
+
+Changes apply to new requests within 5 minutes. After you opt a model out, its new requests stop including the watermark; after you opt back in, they start including it again.
+
+Opting out asks you to confirm that an exception under applicable law applies to your use, and that you are solely responsible for any marking, disclosure, or other legal requirement.
+
+Some models may be locked on for your team. Locked models are listed in the dialog but cannot be turned off from the Console. To ask about a locked model, see Why can't I turn watermarking off for a model?
+
+Every opt-in and opt-out is recorded in your team's audit log. Team admins can view it on the Audit Log page in the SpaceXSI Console. To find a change, search by event ID, description, or user, and use the time filter to narrow the results to a range of dates. For screenshots of these filters, see Do you have audit logs? in the security FAQ.
+
+FAQ
+Do I need to change my code?
+
+No. Watermarking has no request parameter, and the response format is unchanged apart from the x-watermark header.
+
+Does opting out apply to all of my API keys?
+
+Yes. The setting belongs to the team, so it applies to every API key on the team. You choose it separately for each model.
+
+Why can't I turn watermarking off for a model?
+
+The model is locked on for your team. Locked models show in the watermarking dialog without a checkbox.
+
+For questions about a locked model, contact your team admin. If you still have questions, email support@x.ai.
+
+Does watermarking affect quality or speed?
+
+No. Watermarking doesn't change response quality or speed.
+
+Last updated: October 31, 2026
+
+On this page
+Which outputs are watermarked
+Checking whether a response was watermarked
+How it works
+Opting out
+FAQ
+Do I need to change my code?
+Does opting out apply to all of my API keys?
+Why can't I turn watermarking off for a model?
+Does watermarking affect quality or speed?
+Copy for LLM
+Share feedback

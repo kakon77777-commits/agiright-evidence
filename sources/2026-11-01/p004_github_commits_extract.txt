@@ -1,0 +1,7 @@
+Extract of the public GitHub commit listing read on 2026-11-02 Asia/Taipei, which was the evening of 2026-11-01 UTC (site host, read-only, no login).
+Request: GET https://api.github.com/repos/deepseek-ai/dsh-superagent-prototype/commits?per_page=5
+Scope: commits on the default branch of deepseek-ai/dsh-superagent-prototype; at most five entries were requested; 1 returned.
+Kept: abbreviated hash, author date, committer date, first line of the message. Names and email addresses in the response were left out of this extract.
+
+6337fc8  author-date 2026-10-31T12:05:39Z  committer-date 2026-10-31T12:05:39Z
+  message (first line): feat: add the dsh-superagent research prototype
