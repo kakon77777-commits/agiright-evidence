@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000414",
+  "url": "https://elections.transformernews.ai/",
+  "capturedAt": "2026-11-02T11:33:03Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 65640,
+    "sha256": "d51472464541a4722e768b1d6ea7db1a848f41e4720d1071f7af3b4f81362261",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F10A902A68240C84045979AD14370E5D",
+      "status": 200,
+      "url": "https://elections.transformernews.ai/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6787,
+      "afterScrollHeight": 6787,
+      "wantedHeight": 6787
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "890a146ac1cafdf88368fab0873c6b36ac52bd7376b6c5eae8afbd92301741c0",
+    "width": 1366,
+    "height": 6787,
+    "bytes": 1523184,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6787,
+    "afterScrollHeight": 6787
+  },
+  "record": {
+    "capturedAt": "2026-11-02T11:33:03Z",
+    "url": "https://elections.transformernews.ai/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 65640,
+      "sha256": "d51472464541a4722e768b1d6ea7db1a848f41e4720d1071f7af3b4f81362261"
+    },
+    "finalUrl": "https://elections.transformernews.ai/",
+    "httpStatus": 200,
+    "title": "AI Campaign Finance Tracker | Transformer",
+    "rendered": {
+      "textChars": 7423,
+      "textSha256": "ad8a140e29cab5d91c112452ab9c8154d8274c3b27b4e6fd2fe0691a3ad0a23d",
+      "htmlSha256": "e62d84303160a6d371bc0bd981967359c2cbf02651f594db363ccbe580a6610c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "890a146ac1cafdf88368fab0873c6b36ac52bd7376b6c5eae8afbd92301741c0",
+      "width": 1366,
+      "height": 6787,
+      "bytes": 1523184,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260306165235",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260306165235/https://elections.transformernews.ai/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261102113331/https://elections.transformernews.ai/",
+      "timestamp": "20261102113331",
+      "verifiedHttp": 200
+    }
+  }
+}

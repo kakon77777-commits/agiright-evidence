@@ -1,0 +1,1588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Campaign Finance Tracker | Transformer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <meta property="og:title" content="AI Campaign Finance Tracker | Transformer">
+    <meta property="og:description" content="Track AI industry political spending: super PAC contributions, independent expenditures, and employee donations to federal candidates.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://elections.transformernews.ai/">
+    <meta property="og:site_name" content="Transformer">
+    <meta property="og:image" content="https://elections.transformernews.ai/api/social-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://elections.transformernews.ai/api/social-image.png">
+    <meta name="description" content="Track AI industry political spending: super PAC contributions, independent expenditures, and employee donations to federal candidates.">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y7Q6GEM2DG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Y7Q6GEM2DG');
+    </script>
+    <link rel="icon" type="image/png" href="/static/img/favicon.png">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+    <header class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex items-center gap-3">
+            <a href="https://transformernews.ai" target="_blank" rel="noopener noreferrer"><img src="/static/img/Transformer Wordmark Black.png" alt="Transformer" class="h-[23px]"></a>
+            <span class="text-gray-500">|</span>
+            <a href="/" class="text-sm font-medium hover:text-red-400">AI Campaign Finance Tracker</a>
+            
+            <button id="nav-toggle" class="md:hidden text-white text-xl ml-auto" aria-label="Open menu">
+                &#9776;
+            </button>
+            
+            <nav class="hidden md:flex ml-8 gap-6 text-sm relative">
+                <a href="/" class="hover:text-red-400">Home</a>
+                <div class="relative group">
+                    <span class="cursor-pointer hover:text-red-400">States &#x25BE;</span>
+                    <div class="hidden group-hover:block absolute top-full left-0 bg-gray-900 border border-gray-700 rounded shadow-lg py-1 z-50 min-w-[180px]">
+                        
+                        <a href="/states/al" class="block px-4 py-1 hover:bg-gray-800 text-sm">Alabama</a>
+                        
+                        <a href="/states/az" class="block px-4 py-1 hover:bg-gray-800 text-sm">Arizona</a>
+                        
+                        <a href="/states/ca" class="block px-4 py-1 hover:bg-gray-800 text-sm">California</a>
+                        
+                        <a href="/states/co" class="block px-4 py-1 hover:bg-gray-800 text-sm">Colorado</a>
+                        
+                        <a href="/states/fl" class="block px-4 py-1 hover:bg-gray-800 text-sm">Florida</a>
+                        
+                        <a href="/states/ga" class="block px-4 py-1 hover:bg-gray-800 text-sm">Georgia</a>
+                        
+                        <a href="/states/il" class="block px-4 py-1 hover:bg-gray-800 text-sm">Illinois</a>
+                        
+                        <a href="/states/ks" class="block px-4 py-1 hover:bg-gray-800 text-sm">Kansas</a>
+                        
+                        <a href="/states/ma" class="block px-4 py-1 hover:bg-gray-800 text-sm">Massachusetts</a>
+                        
+                        <a href="/states/mi" class="block px-4 py-1 hover:bg-gray-800 text-sm">Michigan</a>
+                        
+                        <a href="/states/mt" class="block px-4 py-1 hover:bg-gray-800 text-sm">Montana</a>
+                        
+                        <a href="/states/nc" class="block px-4 py-1 hover:bg-gray-800 text-sm">North Carolina</a>
+                        
+                        <a href="/states/ne" class="block px-4 py-1 hover:bg-gray-800 text-sm">Nebraska</a>
+                        
+                        <a href="/states/nj" class="block px-4 py-1 hover:bg-gray-800 text-sm">New Jersey</a>
+                        
+                        <a href="/states/nv" class="block px-4 py-1 hover:bg-gray-800 text-sm">Nevada</a>
+                        
+                        <a href="/states/ny" class="block px-4 py-1 hover:bg-gray-800 text-sm">New York</a>
+                        
+                        <a href="/states/oh" class="block px-4 py-1 hover:bg-gray-800 text-sm">Ohio</a>
+                        
+                        <a href="/states/ok" class="block px-4 py-1 hover:bg-gray-800 text-sm">Oklahoma</a>
+                        
+                        <a href="/states/or" class="block px-4 py-1 hover:bg-gray-800 text-sm">Oregon</a>
+                        
+                        <a href="/states/pa" class="block px-4 py-1 hover:bg-gray-800 text-sm">Pennsylvania</a>
+                        
+                        <a href="/states/sc" class="block px-4 py-1 hover:bg-gray-800 text-sm">South Carolina</a>
+                        
+                        <a href="/states/tn" class="block px-4 py-1 hover:bg-gray-800 text-sm">Tennessee</a>
+                        
+                        <a href="/states/tx" class="block px-4 py-1 hover:bg-gray-800 text-sm">Texas</a>
+                        
+                        <a href="/states/ut" class="block px-4 py-1 hover:bg-gray-800 text-sm">Utah</a>
+                        
+                        <a href="/states/wa" class="block px-4 py-1 hover:bg-gray-800 text-sm">Washington</a>
+                        
+                        <a href="/states/wi" class="block px-4 py-1 hover:bg-gray-800 text-sm">Wisconsin</a>
+                        
+                        <a href="/states/wy" class="block px-4 py-1 hover:bg-gray-800 text-sm">Wyoming</a>
+                        
+                    </div>
+                </div>
+                <div class="relative group">
+                    <span class="cursor-pointer hover:text-red-400">Super PACs &#x25BE;</span>
+                    <div class="hidden group-hover:block absolute top-full left-0 bg-gray-900 border border-gray-700 rounded shadow-lg py-1 z-50 min-w-[260px]">
+                        
+                        <a href="/pacs/C00916114" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                            
+                            <span>Leading the Future</span>
+                        </a>
+                        
+                        <a href="/pacs/C00923417" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                            
+                            <span>Think Big</span>
+                        </a>
+                        
+                        <a href="/pacs/C00916692" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                            
+                            <span>American Mission</span>
+                        </a>
+                        
+                        <a href="/pacs/C00922815" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                            
+                            <span>Innovation Council</span>
+                        </a>
+                        
+                        <a href="/pacs/C00930503" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                            
+                            <span>Public First</span>
+                        </a>
+                        
+                        <a href="/pacs/C00928390" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                            
+                            <span>Defending Our Values PAC</span>
+                        </a>
+                        
+                        <a href="/pacs/C00928374" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                            
+                            <span>Jobs and Democracy PAC</span>
+                        </a>
+                        
+                        <a href="/pacs/C00928069" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                            
+                            <span>Dream NYC</span>
+                        </a>
+                        
+                        <a href="/pacs/C00946111" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                            
+                            <span>AnthroPAC</span>
+                        </a>
+                        
+                        <a href="/pacs/C00960328" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                            
+                            <span>Building the Future</span>
+                        </a>
+                        
+                        <a href="/pacs/C00949487" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                            
+                            <span>Guardrails Alliance</span>
+                        </a>
+                        
+                        <a href="/pacs/C00960070" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                            
+                            <span>NVPAC</span>
+                        </a>
+                        
+                        <a href="/pacs/C00958603" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                            
+                            <span>Tomorrow Together</span>
+                        </a>
+                        
+                        <a href="/pacs/C00946830" class="flex items-center px-4 py-1 hover:bg-gray-800 text-sm">
+                            
+                            
+                            <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                            
+                            <span>You Can Push Back</span>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="relative group">
+                    <span class="cursor-pointer hover:text-red-400">Companies &#x25BE;</span>
+                    <div class="hidden group-hover:block absolute top-full left-0 bg-gray-900 border border-gray-700 rounded shadow-lg py-1 z-50 min-w-[200px]">
+                        
+                        <a href="/companies/andreessen-horowitz" class="block px-4 py-1 hover:bg-gray-800 text-sm">Andreessen Horowitz</a>
+                        
+                        <a href="/companies/anthropic" class="block px-4 py-1 hover:bg-gray-800 text-sm">Anthropic</a>
+                        
+                        <a href="/companies/google" class="block px-4 py-1 hover:bg-gray-800 text-sm">Google</a>
+                        
+                        <a href="/companies/meta" class="block px-4 py-1 hover:bg-gray-800 text-sm">Meta</a>
+                        
+                        <a href="/companies/microsoft" class="block px-4 py-1 hover:bg-gray-800 text-sm">Microsoft</a>
+                        
+                        <a href="/companies/openai" class="block px-4 py-1 hover:bg-gray-800 text-sm">OpenAI</a>
+                        
+                        <a href="/companies/perplexity" class="block px-4 py-1 hover:bg-gray-800 text-sm">Perplexity</a>
+                        
+                    </div>
+                </div>
+                <a href="/about" class="hover:text-red-400">About</a>
+            </nav>
+            
+            <span class="hidden md:inline ml-auto text-xs bg-red-600 px-2 py-1 rounded font-medium">
+                Data as of Nov 2, 2026 at 11:32 UTC
+            </span>
+            
+        </div>
+    </header>
+
+    
+    <div id="mobile-overlay" class="fixed inset-0 bg-black/50 z-40 hidden md:hidden" aria-hidden="true"></div>
+    <nav id="mobile-drawer" class="fixed top-0 left-0 h-full w-72 bg-gray-900 text-white z-50 transform -translate-x-full transition-transform duration-200 ease-in-out md:hidden overflow-y-auto">
+        <div class="flex items-center justify-between px-4 py-4 border-b border-gray-700">
+            <span class="text-sm font-semibold">Menu</span>
+            <button id="drawer-close" class="text-gray-400 hover:text-white text-2xl leading-none" aria-label="Close menu">&times;</button>
+        </div>
+        <div class="py-2">
+            <a href="/" class="block px-5 py-3 text-sm hover:bg-gray-800">Home</a>
+
+            
+            <button class="drawer-section w-full flex items-center justify-between px-5 py-3 text-sm hover:bg-gray-800" data-drawer-toggle="drawer-states">
+                <span>States</span>
+                <svg class="drawer-chevron w-4 h-4 transition-transform duration-150" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div id="drawer-states" class="hidden pl-4">
+                
+                <a href="/states/al" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Alabama</a>
+                
+                <a href="/states/az" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Arizona</a>
+                
+                <a href="/states/ca" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">California</a>
+                
+                <a href="/states/co" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Colorado</a>
+                
+                <a href="/states/fl" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Florida</a>
+                
+                <a href="/states/ga" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Georgia</a>
+                
+                <a href="/states/il" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Illinois</a>
+                
+                <a href="/states/ks" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Kansas</a>
+                
+                <a href="/states/ma" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Massachusetts</a>
+                
+                <a href="/states/mi" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Michigan</a>
+                
+                <a href="/states/mt" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Montana</a>
+                
+                <a href="/states/nc" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">North Carolina</a>
+                
+                <a href="/states/ne" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Nebraska</a>
+                
+                <a href="/states/nj" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">New Jersey</a>
+                
+                <a href="/states/nv" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Nevada</a>
+                
+                <a href="/states/ny" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">New York</a>
+                
+                <a href="/states/oh" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Ohio</a>
+                
+                <a href="/states/ok" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Oklahoma</a>
+                
+                <a href="/states/or" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Oregon</a>
+                
+                <a href="/states/pa" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Pennsylvania</a>
+                
+                <a href="/states/sc" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">South Carolina</a>
+                
+                <a href="/states/tn" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Tennessee</a>
+                
+                <a href="/states/tx" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Texas</a>
+                
+                <a href="/states/ut" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Utah</a>
+                
+                <a href="/states/wa" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Washington</a>
+                
+                <a href="/states/wi" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Wisconsin</a>
+                
+                <a href="/states/wy" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Wyoming</a>
+                
+            </div>
+
+            
+            <button class="drawer-section w-full flex items-center justify-between px-5 py-3 text-sm hover:bg-gray-800" data-drawer-toggle="drawer-pacs">
+                <span>Super PACs</span>
+                <svg class="drawer-chevron w-4 h-4 transition-transform duration-150" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div id="drawer-pacs" class="hidden pl-4">
+                
+                <a href="/pacs/C00916114" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                    
+                    <span>Leading the Future</span>
+                </a>
+                
+                <a href="/pacs/C00923417" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                    
+                    <span>Think Big</span>
+                </a>
+                
+                <a href="/pacs/C00916692" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                    
+                    <span>American Mission</span>
+                </a>
+                
+                <a href="/pacs/C00922815" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                    
+                    <span>Innovation Council</span>
+                </a>
+                
+                <a href="/pacs/C00930503" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                    
+                    <span>Public First</span>
+                </a>
+                
+                <a href="/pacs/C00928390" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                    
+                    <span>Defending Our Values PAC</span>
+                </a>
+                
+                <a href="/pacs/C00928374" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                    
+                    <span>Jobs and Democracy PAC</span>
+                </a>
+                
+                <a href="/pacs/C00928069" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                    
+                    <span>Dream NYC</span>
+                </a>
+                
+                <a href="/pacs/C00946111" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                    
+                    <span>AnthroPAC</span>
+                </a>
+                
+                <a href="/pacs/C00960328" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                    
+                    <span>Building the Future</span>
+                </a>
+                
+                <a href="/pacs/C00949487" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                    
+                    <span>Guardrails Alliance</span>
+                </a>
+                
+                <a href="/pacs/C00960070" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-innovation"></span>
+                    
+                    <span>NVPAC</span>
+                </a>
+                
+                <a href="/pacs/C00958603" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                    
+                    <span>Tomorrow Together</span>
+                </a>
+                
+                <a href="/pacs/C00946830" class="flex items-center px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">
+                    
+                    
+                    <span class="inline-block w-2 h-2 rounded-full mr-2 bg-pro-safety"></span>
+                    
+                    <span>You Can Push Back</span>
+                </a>
+                
+            </div>
+
+            
+            <button class="drawer-section w-full flex items-center justify-between px-5 py-3 text-sm hover:bg-gray-800" data-drawer-toggle="drawer-companies">
+                <span>Companies</span>
+                <svg class="drawer-chevron w-4 h-4 transition-transform duration-150" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+            </button>
+            <div id="drawer-companies" class="hidden pl-4">
+                
+                <a href="/companies/andreessen-horowitz" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Andreessen Horowitz</a>
+                
+                <a href="/companies/anthropic" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Anthropic</a>
+                
+                <a href="/companies/google" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Google</a>
+                
+                <a href="/companies/meta" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Meta</a>
+                
+                <a href="/companies/microsoft" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Microsoft</a>
+                
+                <a href="/companies/openai" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">OpenAI</a>
+                
+                <a href="/companies/perplexity" class="block px-5 py-1.5 text-sm text-gray-300 hover:bg-gray-800 hover:text-white">Perplexity</a>
+                
+            </div>
+
+            <a href="/about" class="block px-5 py-3 text-sm hover:bg-gray-800">About</a>
+        </div>
+        
+        <div class="px-5 py-3 border-t border-gray-700">
+            <span class="text-xs bg-red-600 px-2 py-1 rounded font-medium">Data as of Nov 2, 2026 at 11:32 UTC</span>
+        </div>
+        
+    </nav>
+
+    <script>
+    (function() {
+        const toggle = document.getElementById('nav-toggle');
+        const drawer = document.getElementById('mobile-drawer');
+        const overlay = document.getElementById('mobile-overlay');
+        const closeBtn = document.getElementById('drawer-close');
+
+        function openDrawer() {
+            drawer.classList.remove('-translate-x-full');
+            overlay.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeDrawer() {
+            drawer.classList.add('-translate-x-full');
+            overlay.classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+
+        toggle.addEventListener('click', openDrawer);
+        closeBtn.addEventListener('click', closeDrawer);
+        overlay.addEventListener('click', closeDrawer);
+
+        // Accordion toggles
+        document.querySelectorAll('[data-drawer-toggle]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const targetId = btn.getAttribute('data-drawer-toggle');
+                const target = document.getElementById(targetId);
+                const chevron = btn.querySelector('.drawer-chevron');
+                target.classList.toggle('hidden');
+                chevron.style.transform = target.classList.contains('hidden') ? '' : 'rotate(180deg)';
+            });
+        });
+    })();
+    </script>
+
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        
+
+<section class="text-center py-12">
+    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
+        AI-focused super PACs have spent<br>
+        <span class="text-tx-red font-mono">$72.29M</span>
+        on the 2026 elections
+    </h1>
+    <p class="text-lg text-gray-500">
+        <span class="inline-flex items-center gap-1"><span class="inline-block w-2 h-2 rounded-full bg-pro-innovation"></span><span class="font-mono">$27.90M</span> from <span class="text-pro-innovation">&lsquo;pro-innovation&rsquo;</span></span> &middot;
+        <span class="inline-flex items-center gap-1"><span class="inline-block w-2 h-2 rounded-full bg-pro-safety"></span><span class="font-mono">$44.39M</span> from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span></span>
+    </p>
+</section>
+
+
+<section class="mb-12">
+    <h2 class="text-xl font-semibold mb-4">Spending by State</h2>
+    <div id="us-map" class="bg-white border border-gray-200 rounded-lg p-4 shadow-sm"
+         style="min-height: 300px;">
+    </div>
+    <p class="text-xs text-gray-400 mt-2">Click a state to see race-level detail.</p>
+</section>
+
+
+<section class="mb-12">
+    <div class="bg-gray-900 rounded-lg shadow-sm p-8 md:p-10 text-center">
+        <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Sign up for more coverage of how AI is shaping elections</h2>
+        <div class="flex items-center justify-center gap-3 mt-6">
+            <a href="https://www.transformernews.ai/subscribe?utm_source=elections-tracker" target="_blank" rel="noopener noreferrer"
+               class="inline-block bg-tx-red hover:bg-red-700 text-white font-bold px-8 py-3 rounded-lg text-lg transition-colors">
+                Subscribe to Transformer
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="mb-12">
+    <h2 class="text-xl font-semibold mb-4">Top Races</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        
+            <a href="/races/ny-h-12"
+   class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md hover:border-tx-red transition-all">
+    <div class="flex justify-between items-start mb-2">
+        <div>
+            <h3 class="font-semibold text-gray-900">
+                NY House District 12
+            </h3>
+            
+                
+                    
+                    
+                    
+                    
+                    <span class="inline-block text-xs bg-red-100 text-red-800 px-2 py-0.5 rounded-full font-medium mt-1">Backed candidate lost</span>
+                    
+                
+            
+        </div>
+        <span class="text-lg font-bold font-mono text-gray-900">
+            $29.49M
+        </span>
+    </div>
+    
+
+<div class="space-y-1 text-xs">
+    
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-innovation">$8.17M</span>
+            from <span class="text-pro-innovation">&lsquo;pro-innovation&rsquo;</span>
+            PAC
+            <strong>opposing</strong>
+            Alex Bores
+        </div>
+        
+        
+    
+        
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-safety">$21.33M</span>
+            from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span>
+            PACs
+            <strong>supporting</strong>
+            Alex Bores
+        </div>
+        
+    
+</div>
+
+    
+</a>
+        
+            <a href="/races/sc-s"
+   class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md hover:border-tx-red transition-all">
+    <div class="flex justify-between items-start mb-2">
+        <div>
+            <h3 class="font-semibold text-gray-900">
+                SC Senate
+            </h3>
+            
+                
+                <span class="inline-block text-xs bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full font-medium mt-1">Backed candidate advanced</span>
+                
+            
+        </div>
+        <span class="text-lg font-bold font-mono text-gray-900">
+            $3.23M
+        </span>
+    </div>
+    
+
+<div class="space-y-1 text-xs">
+    
+        
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-innovation">$3.23M</span>
+            from <span class="text-pro-innovation">&lsquo;pro-innovation&rsquo;</span>
+            PACs
+            <strong>supporting</strong>
+            Darline Graham
+        </div>
+        
+    
+</div>
+
+    
+</a>
+        
+            <a href="/races/fl-h-25"
+   class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md hover:border-tx-red transition-all">
+    <div class="flex justify-between items-start mb-2">
+        <div>
+            <h3 class="font-semibold text-gray-900">
+                FL House District 25
+            </h3>
+            
+                
+                    
+                    
+                    
+                    
+                        
+                        <span class="inline-block text-xs px-2 py-0.5 rounded-full font-medium mt-1" style="background-color: rgba(111,170,156,0.15); color: #4a8a7a;">Backed candidate won</span>
+                        
+                    
+                
+            
+        </div>
+        <span class="text-lg font-bold font-mono text-gray-900">
+            $1.92M
+        </span>
+    </div>
+    
+
+<div class="space-y-1 text-xs">
+    
+        
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-innovation">$321,574</span>
+            from <span class="text-pro-innovation">&lsquo;pro-innovation&rsquo;</span>
+            PAC
+            <strong>supporting</strong>
+            Jared Moskowitz
+        </div>
+        
+    
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-safety">$740,265</span>
+            from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span>
+            PAC
+            <strong>opposing</strong>
+            Daniel John Franzese
+        </div>
+        
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-safety">$857,426</span>
+            from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span>
+            PAC
+            <strong>supporting</strong>
+            Scott M. Singer
+        </div>
+        
+    
+</div>
+
+    
+</a>
+        
+            <a href="/races/mt-h-01"
+   class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md hover:border-tx-red transition-all">
+    <div class="flex justify-between items-start mb-2">
+        <div>
+            <h3 class="font-semibold text-gray-900">
+                MT House District 01
+            </h3>
+            
+                
+                    
+                    
+                    
+                    
+                        
+                        <span class="inline-block text-xs px-2 py-0.5 rounded-full font-medium mt-1" style="background-color: rgba(111,170,156,0.15); color: #4a8a7a;">Backed candidate won</span>
+                        
+                    
+                
+            
+        </div>
+        <span class="text-lg font-bold font-mono text-gray-900">
+            $1.63M
+        </span>
+    </div>
+    
+
+<div class="space-y-1 text-xs">
+    
+        
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-innovation">$428,924</span>
+            from <span class="text-pro-innovation">&lsquo;pro-innovation&rsquo;</span>
+            PAC
+            <strong>supporting</strong>
+            Aaron Flint
+        </div>
+        
+    
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-safety">$1.21M</span>
+            from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span>
+            PAC
+            <strong>opposing</strong>
+            Aaron Flint
+        </div>
+        
+        
+    
+</div>
+
+    
+</a>
+        
+            <a href="/races/nc-h-04"
+   class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md hover:border-tx-red transition-all">
+    <div class="flex justify-between items-start mb-2">
+        <div>
+            <h3 class="font-semibold text-gray-900">
+                NC House District 04
+            </h3>
+            
+                
+                    
+                    
+                    
+                    
+                        
+                        <span class="inline-block text-xs px-2 py-0.5 rounded-full font-medium mt-1" style="background-color: rgba(216,115,88,0.15); color: #b85a3a;">Backed candidate won</span>
+                        
+                    
+                
+            
+        </div>
+        <span class="text-lg font-bold font-mono text-gray-900">
+            $1.62M
+        </span>
+    </div>
+    
+
+<div class="space-y-1 text-xs">
+    
+        
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-safety">$1.62M</span>
+            from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span>
+            PAC
+            <strong>supporting</strong>
+            Valerie Foushee
+        </div>
+        
+    
+</div>
+
+    
+</a>
+        
+            <a href="/races/oh-s-00"
+   class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md hover:border-tx-red transition-all">
+    <div class="flex justify-between items-start mb-2">
+        <div>
+            <h3 class="font-semibold text-gray-900">
+                OH Senate
+            </h3>
+            
+        </div>
+        <span class="text-lg font-bold font-mono text-gray-900">
+            $1.61M
+        </span>
+    </div>
+    
+
+<div class="space-y-1 text-xs">
+    
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-safety">$1.61M</span>
+            from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span>
+            PACs
+            <strong>opposing</strong>
+            Jon Husted
+        </div>
+        
+        
+    
+</div>
+
+    
+</a>
+        
+            <a href="/races/co-h-08"
+   class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md hover:border-tx-red transition-all">
+    <div class="flex justify-between items-start mb-2">
+        <div>
+            <h3 class="font-semibold text-gray-900">
+                CO House District 08
+            </h3>
+            
+                
+                    
+                    
+                    
+                    
+                        
+                        <span class="inline-block text-xs px-2 py-0.5 rounded-full font-medium mt-1" style="background-color: rgba(216,115,88,0.15); color: #b85a3a;">Backed candidate won</span>
+                        
+                    
+                
+            
+        </div>
+        <span class="text-lg font-bold font-mono text-gray-900">
+            $1.58M
+        </span>
+    </div>
+    
+
+<div class="space-y-1 text-xs">
+    
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-safety">$599,445</span>
+            from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span>
+            PAC
+            <strong>opposing</strong>
+            Timothy Gabriel Evans
+        </div>
+        
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-safety">$976,944</span>
+            from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span>
+            PAC
+            <strong>supporting</strong>
+            Manny Rutinel
+        </div>
+        
+    
+</div>
+
+    
+</a>
+        
+            <a href="/races/tx-h-35"
+   class="block bg-white border border-gray-200 rounded-lg p-4 shadow-sm hover:shadow-md hover:border-tx-red transition-all">
+    <div class="flex justify-between items-start mb-2">
+        <div>
+            <h3 class="font-semibold text-gray-900">
+                TX House District 35
+            </h3>
+            
+                
+                    
+                    
+                    
+                    
+                        
+                        <span class="inline-block text-xs px-2 py-0.5 rounded-full font-medium mt-1" style="background-color: rgba(216,115,88,0.15); color: #b85a3a;">Backed candidate won</span>
+                        
+                    
+                
+            
+        </div>
+        <span class="text-lg font-bold font-mono text-gray-900">
+            $1.49M
+        </span>
+    </div>
+    
+
+<div class="space-y-1 text-xs">
+    
+        
+        
+        <div>
+            <span class="font-mono font-semibold text-pro-safety">$1.49M</span>
+            from <span class="text-pro-safety">&lsquo;pro-safety&rsquo;</span>
+            PAC
+            <strong>supporting</strong>
+            Carlos De La Cruz
+        </div>
+        
+    
+</div>
+
+    
+</a>
+        
+    </div>
+</section>
+
+
+<div class="flex flex-wrap items-center gap-x-5 gap-y-1 text-xs text-gray-500 mb-6">
+    <span class="inline-flex items-center gap-1.5">
+        <span class="inline-block w-6 border-t-2 border-gray-300"></span> Contribution to a PAC
+    </span>
+    <span class="inline-flex items-center gap-1.5">
+        <span class="inline-block w-6 border-t-2 border-pro-safety"></span> Supporting spending <span class="text-gray-400">(shown in each section&rsquo;s colour)</span>
+    </span>
+    <span class="inline-flex items-center gap-1.5">
+        <span class="inline-block w-6 border-t-2" style="border-color:#F01B2C"></span> Opposing spending
+    </span>
+    <span class="inline-flex items-center gap-1.5">
+        <span class="inline-block w-6 border-t-2 border-gray-400 border-dotted"></span> Publicly reported, not yet in FEC filings
+    </span>
+    <span class="inline-flex items-center gap-1.5">
+        <span class="inline-block w-2.5 h-2.5 rounded-sm" style="background:#8B5CF6"></span> 501c4 / funding org
+    </span>
+    <span class="inline-flex items-center gap-1.5">
+        <span class="inline-block w-2.5 h-2.5 rounded-sm" style="background:#2E6BE6"></span> Democrat
+    </span>
+    <span class="inline-flex items-center gap-1.5">
+        <span class="inline-block w-2.5 h-2.5 rounded-sm" style="background:#F01B2C"></span> Republican
+    </span>
+</div>
+<section class="mb-12">
+    <h2 class="text-xl font-semibold mb-4"><span class="text-pro-innovation">&lsquo;Pro-innovation&rsquo;</span> Money Flow</h2>
+    <p class="text-xs text-gray-400 mb-2 md:hidden">Scroll sideways to explore the full diagram.</p>
+    <div id="sankey-pro-innovation" class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm"
+         style="min-height: 400px;">
+    </div>
+</section>
+
+<section class="mb-12">
+    <h2 class="text-xl font-semibold mb-4"><span class="text-pro-safety">&lsquo;Pro-safety&rsquo;</span> Money Flow</h2>
+    <p class="text-xs text-gray-400 mb-2 md:hidden">Scroll sideways to explore the full diagram.</p>
+    <div id="sankey-pro-safety" class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm"
+         style="min-height: 400px;">
+    </div>
+</section>
+
+
+<section class="mb-12">
+    <h2 class="text-xl font-semibold mb-4">From Transformer</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        
+        
+        <a href="https://www.transformernews.ai/p/the-left-is-missing-out-on-ai-sanders-doctorow-bender-bores" target="_blank" rel="noopener noreferrer"
+           class="block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md hover:border-tx-red transition-all overflow-hidden">
+            <img src="https://substack-post-media.s3.amazonaws.com/public/images/593220f8-7a9d-4b5d-8d1d-534d17b3e2fe_1200x1200.gif" alt="" class="w-full h-36 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-gray-900 text-sm leading-snug mb-2">The left is missing out on AI</h3>
+                <p class="text-xs text-gray-500">As a movement, it has largely refused to engage seriously with AI, ceding debate about a threat and opportunity to the right</p>
+                <span class="inline-block mt-3 text-xs text-tx-red font-medium">Read on Transformer &rarr;</span>
+            </div>
+        </a>
+        
+        <a href="https://www.transformernews.ai/p/the-guerilla-warrior-who-taught-openai-chris-lehane" target="_blank" rel="noopener noreferrer"
+           class="block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md hover:border-tx-red transition-all overflow-hidden">
+            <img src="https://substack-post-media.s3.amazonaws.com/public/images/0c73b0c1-f6cf-4aed-8d67-1f8dccc5f391_1456x1048.png" alt="" class="w-full h-36 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-gray-900 text-sm leading-snug mb-2">The “guerilla warrior” who taught OpenAI to fight</h3>
+                <p class="text-xs text-gray-500">Chris Lehane crushed crypto&#39;s enemies. Now the self-described &#39;master of disaster&#39; is deploying the same playbook to advance OpenAI&#39;s interests</p>
+                <span class="inline-block mt-3 text-xs text-tx-red font-medium">Read on Transformer &rarr;</span>
+            </div>
+        </a>
+        
+        <a href="https://www.transformernews.ai/p/alex-bores-wants-to-fix-democrats-ai-problem-leading-future-pac-raise-congress-legislation" target="_blank" rel="noopener noreferrer"
+           class="block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md hover:border-tx-red transition-all overflow-hidden">
+            <img src="https://substack-post-media.s3.amazonaws.com/public/images/1421d553-15d6-430a-8737-c72a4ffd4e63_1456x1048.png" alt="" class="w-full h-36 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-gray-900 text-sm leading-snug mb-2">Alex Bores wants to fix Democrats&#39; AI problem</h3>
+                <p class="text-xs text-gray-500">Transformer Weekly: Anthropic&#39;s political donations, energy bills policy, and an xAI exodus</p>
+                <span class="inline-block mt-3 text-xs text-tx-red font-medium">Read on Transformer &rarr;</span>
+            </div>
+        </a>
+        
+        <a href="https://www.transformernews.ai/p/how-maga-learned-to-love-ai-safety-taylor-green-hawley-bannon-moratorium" target="_blank" rel="noopener noreferrer"
+           class="block bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md hover:border-tx-red transition-all overflow-hidden">
+            <img src="https://substack-post-media.s3.amazonaws.com/public/images/4537f83c-5e53-4571-864f-0d5d1a5a37e8_1280x720.png" alt="" class="w-full h-36 object-cover">
+            <div class="p-4">
+                <h3 class="font-semibold text-gray-900 text-sm leading-snug mb-2">How MAGA learned to love AI safety</h3>
+                <p class="text-xs text-gray-500">The AI industry is engaging in one of &#39;the most blasphemous endeavors,&#39; a leading MAGA figure told us</p>
+                <span class="inline-block mt-3 text-xs text-tx-red font-medium">Read on Transformer &rarr;</span>
+            </div>
+        </a>
+        
+    </div>
+</section>
+
+
+<section class="mb-12">
+    <h2 class="text-xl font-semibold mb-4">Latest Activity</h2>
+    <div class="bg-white border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-100 px-4">
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Roger W Marshall
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$10,625</span>
+        
+            &middot;
+            <a href="/races/ks-s"
+               class="underline hover:text-tx-red">
+                KS Senate
+            </a>
+        
+        
+            &middot; Oct 29, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Juan Ciscomani
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$10,625</span>
+        
+            &middot;
+            <a href="/races/az-h-06"
+               class="underline hover:text-tx-red">
+                AZ House District 06
+            </a>
+        
+        
+            &middot; Oct 29, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Rob Bresnahan
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$10,625</span>
+        
+            &middot;
+            <a href="/races/pa-h-08"
+               class="underline hover:text-tx-red">
+                PA House District 08
+            </a>
+        
+        
+            &middot; Oct 29, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Jon Husted
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$21,250</span>
+        
+            &middot;
+            <a href="/races/oh-s"
+               class="underline hover:text-tx-red">
+                OH Senate
+            </a>
+        
+        
+            &middot; Oct 29, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Thomas More Barrett
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$10,625</span>
+        
+            &middot;
+            <a href="/races/mi-h-07"
+               class="underline hover:text-tx-red">
+                MI House District 07
+            </a>
+        
+        
+            &middot; Oct 29, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Building the Future spent <strong>supporting</strong> Darline Graham
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-green-50 text-pro-innovation
+    ">
+    Pro-innovation
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$40,000</span>
+        
+            &middot;
+            <a href="/races/sc-s"
+               class="underline hover:text-tx-red">
+                SC Senate
+            </a>
+        
+        
+            &middot; Oct 29, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00960328/2044383/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Derrick F. Mr. Van Orden
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$10,625</span>
+        
+            &middot;
+            <a href="/races/wi-h-03"
+               class="underline hover:text-tx-red">
+                WI House District 03
+            </a>
+        
+        
+            &middot; Oct 29, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Guardrails Alliance spent <strong>opposing</strong> Jon Husted
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$100,000</span>
+        
+            &middot;
+            <a href="/races/oh-s-00"
+               class="underline hover:text-tx-red">
+                OH Senate
+            </a>
+        
+        
+            &middot; Oct 28, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00949487/2043237/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Derrick F. Mr. Van Orden
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$138,835</span>
+        
+            &middot;
+            <a href="/races/wi-h-03"
+               class="underline hover:text-tx-red">
+                WI House District 03
+            </a>
+        
+        
+            &middot; Oct 28, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Juan Ciscomani
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$138,835</span>
+        
+            &middot;
+            <a href="/races/az-h-06"
+               class="underline hover:text-tx-red">
+                AZ House District 06
+            </a>
+        
+        
+            &middot; Oct 28, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Guardrails Alliance spent <strong>opposing</strong> Jon Husted
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$15,000</span>
+        
+            &middot;
+            <a href="/races/oh-s-00"
+               class="underline hover:text-tx-red">
+                OH Senate
+            </a>
+        
+        
+            &middot; Oct 28, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00949487/2043237/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Rob Bresnahan
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$138,835</span>
+        
+            &middot;
+            <a href="/races/pa-h-08"
+               class="underline hover:text-tx-red">
+                PA House District 08
+            </a>
+        
+        
+            &middot; Oct 28, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Tomorrow Together spent <strong>opposing</strong> Thomas More Barrett
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$186,212</span>
+        
+            &middot;
+            <a href="/races/mi-h-07"
+               class="underline hover:text-tx-red">
+                MI House District 07
+            </a>
+        
+        
+            &middot; Oct 28, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00958603/2043922/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Defending Our Values PAC spent <strong>supporting</strong> Alexandra Mealer
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$250,787</span>
+        
+            &middot;
+            <a href="/races/tx-h-09"
+               class="underline hover:text-tx-red">
+                TX House District 09
+            </a>
+        
+        
+            &middot; Oct 23, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00928390/2041365/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+            <div class="py-3 border-b border-gray-100 last:border-0">
+    <p class="text-sm text-gray-900">
+        Defending Our Values PAC spent <strong>supporting</strong> Alexandra Mealer
+        
+        
+            
+
+<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium
+    bg-orange-50 text-pro-safety
+    ">
+    Pro-safety
+</span>
+
+        
+    </p>
+    <p class="text-xs text-gray-500 mt-0.5">
+        <span class="font-mono">$7,500</span>
+        
+            &middot;
+            <a href="/races/tx-h-09"
+               class="underline hover:text-tx-red">
+                TX House District 09
+            </a>
+        
+        
+            &middot; Oct 23, 2026
+        
+        
+            &middot; <a href="https://docquery.fec.gov/cgi-bin/forms/C00928390/2041365/" target="_blank" rel="noopener noreferrer" class="underline hover:text-tx-red">FEC&nearr;</a>
+        
+    </p>
+</div>
+        
+        
+    </div>
+    <div class="mt-3 text-center">
+        <a href="/activity" class="text-sm text-gray-500 hover:text-tx-red font-medium">View all activity &rarr;</a>
+    </div>
+</section>
+
+
+<section class="mb-12">
+    <div class="bg-white border border-gray-200 rounded-lg shadow-sm p-6 flex items-center justify-center">
+        <iframe src="https://www.transformernews.ai/embed" width="100%" height="320" style="border: none; background: white; max-width: 480px;" frameborder="0" scrolling="no"></iframe>
+    </div>
+</section>
+
+    </main>
+
+    <footer class="border-t border-gray-200 mt-16 pb-16">
+        <div class="max-w-7xl mx-auto px-4 py-8 text-sm text-gray-500">
+            <p>Data sourced from the <a href="https://www.fec.gov/" class="underline">Federal Election Commission</a>. All updates are manually reviewed and approved.</p>
+            <p class="mt-1">Built by <a href="https://transformernews.ai" class="underline">Transformer</a>.</p>
+            <p class="mt-1 text-xs text-gray-400">This tracker is based on data gathered from the Federal Election Commission (FEC). It does not track spending which has been announced but not yet filed. Employer data is based on what is reported in FEC filings and may occasionally contain errors.</p>
+        </div>
+    </footer>
+
+    
+    <div id="sticky-subscribe" class="fixed bottom-0 left-0 right-0 bg-gray-900 text-white py-3 px-4 z-40 transform translate-y-full transition-transform duration-300">
+        <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+            <p class="text-sm">This tracker was built by <strong>Transformer</strong>, a publication covering the power &amp; politics of transformative AI.</p>
+            <div class="flex items-center gap-3">
+                <a href="https://www.transformernews.ai/subscribe?utm_source=elections-tracker" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-tx-red hover:bg-red-700 text-white font-semibold px-4 py-1.5 rounded text-sm whitespace-nowrap transition-colors">
+                    Subscribe
+                </a>
+                <button id="dismiss-subscribe" class="text-gray-400 hover:text-white text-lg leading-none" aria-label="Dismiss">&times;</button>
+            </div>
+        </div>
+    </div>
+    <script>
+    (function() {
+        var bar = document.getElementById('sticky-subscribe');
+        var dismissed = sessionStorage.getItem('subscribe-dismissed');
+        if (bar && !dismissed) {
+            setTimeout(function() { bar.classList.remove('translate-y-full'); }, 2000);
+            var btn = document.getElementById('dismiss-subscribe');
+            if (btn) btn.addEventListener('click', function() {
+                bar.classList.add('translate-y-full');
+                sessionStorage.setItem('subscribe-dismissed', '1');
+            });
+        }
+    })();
+    </script>
+
+    
+<script src="/static/js/d3.v7.min.js"></script>
+<script src="/static/js/topojson-client.min.js"></script>
+<script src="/static/js/d3-sankey.min.js"></script>
+<script src="/static/js/map.js"></script>
+<script src="/static/js/sankey.js"></script>
+
+</body>
+</html>

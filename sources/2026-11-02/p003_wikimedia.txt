@@ -1,0 +1,140 @@
+
+-->
+The Wikimedia Foundation files to protect open knowledge in New York Times v OpenAI case – Wikimedia Foundation
+Skip to content
+Who we are
+We are the non-profit organization behind Wikipedia.
+Get to know us
+People
+Board of Trustees
+Executive team
+Staff
+Reports
+Annual reports
+Financial reports
+Transparency reports
+Careers
+Frequently asked questions
+What we do
+Our technology supports the backbone of knowledge on the internet.
+Learn more about our work
+Wikimedia projects
+Technology
+Public policy
+Closing knowledge gaps
+What you can do
+The more people take part, the better the internet’s knowledge gets.
+Donate
+Donate to help keep Wikipedia free and accessible.
+Become a monthly donor
+Ways to give
+Reasons to donate
+Leave a gift in your will
+Manage a recurring donation
+Volunteer
+From editing to organizing, find out how you can get involved.
+Advocate
+Help us protect Wikipedia and the people who make it possible.
+News
+Stay up to date on our efforts to protect free knowledge.
+Find out more
+Public policy
+The Wikimedia Foundation files to protect open knowledge in New York Times v OpenAI case
+Technology
+OpenAI “rogue” agent activities found on Wikimedia projects
+Public policy
+Human knowledge at stake: Wikimedia Foundation makes its case at the United Nations General Assembly
+Search
+Search Search
+Donate now
+You are here:
+Home
+News
+The Wikimedia Foundation files to protect open knowledge in New York Times v OpenAI case
+The Wikimedia Foundation files to protect open knowledge in New York Times v OpenAI case
+By Wikimedia Foundation &bull; 30 October 2026
+Share
+Facebook
+Bluesky
+LinkedIn
+Email
+Copy Link
+Link copied
+October 30, 2026. The Wikimedia Foundation, the nonprofit that hosts Wikipedia and other open knowledge projects , today filed an amicus brief — or friend of the court opinion — with the Southern District Court of New York in In re: OpenAI, Inc. Copyright Infringement Litigation (12 combined lawsuits against OpenAI, the most well-known of them being The New York Times Co. v Microsoft and OpenAI ) urging the court to protect the open knowledge ecosystem in its decision. In the key case, the court will rule on whether the use of copyrighted content by artificial intelligence (AI) companies to develop large language models (LLMs) constitutes fair use .
+Because of the significance of the jurisdiction and the parties involved, and because only a few cases have addressed this issue already, the ruling here will be highly influential as more courts grapple with interpreting the law in light of new technological uses. “ We are taking a position in this case to defend the free and open human knowledge that Wikipedia depends on. Expanding access to knowledge through AI is a powerful goal, but it must respect the people, contributors, and communities that make reliable knowledge possible. Finding this balance is both a mutual benefit and a shared responsibility for the entire information ecosystem,” said CEO Bernadette Meehan.
+The lawsuit, originally filed by The New York Times in 2023, alleges that OpenAI and Microsoft’s use of The New York Times owned content for any purpose — including AI model training — is a direct violation of copyright law. On the other hand, OpenAI and Microsoft assert that training and deploying models based on publicly available data constitutes technological development, and falls within the definition of fair use. Wikimedia Foundation’s amicus brief argues that a ruling for a too restrictive version of fair use could inhibit technological innovation, which would limit the availability of tools that benefit open source projects like Wikipedia; while a ruling in favor of blanket fair use could lead to a more closed web where knowledge online is weakened due to a lack of available secondary source materials.
+The Wikimedia Foundation’s court filing offers an alternative position that applies fair use to two specific cases: model training, and retrieval-augmented generation (RAG) and newer techniques that serve a similar “grounding” purpose. For model training, the Wikimedia Foundation argues that using copyrighted content should be considered fair if it is being used for training LLMs that are something new and different from the original sources. In this case, there would not be a requirement to meet any copyright licensing terms.
+RAG is a process that finds and copies news content or other works of human knowledge from the web and then delivers that same content back to users through a chatbot interface. It’s one of several techniques to help ground the answers of a chatbot in reality using the most current sources from the internet. For RAG and newer techniques that serve a similar “grounding” purpose, the Wikimedia Foundation argues that the use of copyrighted works should not be considered fair, and companies offering this feature should respect each content platform or publisher’s licensing requirements to avoid copyright infringement. In Wikipedia’s case that license is Creative Commons CC BY-SA 4.0 , which requires credit to be given to the original creators of the work and that any remix or adaptations remain under the same CC license.
+Wikipedia is one of the most popular and trusted open knowledge websites in the world, with more than 67 million articles across 300 languages. Every month, nearly 250,000 volunteers contribute their time to create and improve information on Wikipedia, using reliable sources, such as well-researched news articles. It is one of the highest-quality datasets used to train LLMs and the backbone of information on the internet, powering AI chatbots, search engines, and voice assistants.
+“Any conversation around fair use and copyright in the age of AI cannot be limited to for-profit organizations: it must include stakeholders across the entire online information ecosystem,” the Wikimedia Foundation’s General Counsel Stephen LaPorte notes.
+“A ruling that does not apply fair use principles carefully could threaten the sustainability of free knowledge, and stifle the development of open source technologies, ultimately impacting access to information for everyone in both cases. The court needs to understand that Wikipedia is created through a collaborative process that requires a strong foundation of open and accessible human knowledge to thrive.”
+We will continue advocating for a copyright position that strikes a fair balance. One that takes into consideration the importance of protecting the fair use of copyrighted content to develop open source technologies in the public interest, along with the sustainability of the sources and humans who create that content.
+For the Wikimedia projects that means ensuring that uncredited use of the content we host is limited to model training, and that any use of the content for RAG and newer techniques that serve a similar “grounding” purpose must result in proper attribution under our Creative Commons CC BY-SA 4.0 license. As importantly, regardless of the use case, scraping of our projects must be done sustainably and in line with our public API rate limits or through our Enterprise API offerings.
+Learn more details about our amicus brief on our blog post here .
+About the Wikimedia Foundation
+The Wikimedia Foundation is the nonprofit that operates Wikipedia and other Wikimedia projects. We support the people, technology, and policies that enable reliable information to be shared with the world. The Wikimedia Foundation is a United States 501(c)(3) tax-exempt organization with offices in San Francisco, California, USA.
+Share
+Facebook
+Bluesky
+LinkedIn
+Email
+Copy Link
+Link copied
+Read more:
+Public policy
+Help us unlock the world’s knowledge.
+As a nonprofit, Wikipedia and our related free knowledge projects are powered primarily through donations.
+Donate now
+Contact us
+Questions about the Wikimedia Foundation or our projects? Get in touch with our team.
+Contact Follow
+Facebook
+Instagram
+Bluesky
+LinkedIn
+Photo credits
+Close-up of Lady Justice statue holding scales, symbolizing justice and fairness
+File provided by Wikimedia Commons
+DP Singh Bhullar
+CC BY-SA 4.0
+SwarmRobot_org
+File provided by Wikimedia Commons
+Serg
+GNU General Public License
+Wikimedia_UNGA_IMG_3281
+Lucia Liss
+Art+Feminism Wikipedia edit-a-thon
+File provided by Wikimedia Commons
+Jens Mohr
+CC BY-SA 3.0
+Follow the Wikimedia Foundation on social media to get news and updates on our projects, global community, and advocacy efforts.
+Instagram
+Bluesky
+Facebook
+LinkedIn
+Connect with Wikipedia on social media to learn new facts and know your world better
+TikTok
+LinkedIn
+Instagram
+Bluesky
+Facebook
+YouTube
+Download the Wikipedia app
+Who we are
+What we do
+What you can do
+News
+Frequently asked questions
+Donate
+Careers
+Contact
+Press
+Research
+Wikipedia Library
+Wikipedia Store
+Terms of use
+Privacy policy
+Disclaimers
+Accessibility statement
+Cookies statement
+Except where otherwise noted, the content of this site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International license . Powered by WordPress.com VIP.

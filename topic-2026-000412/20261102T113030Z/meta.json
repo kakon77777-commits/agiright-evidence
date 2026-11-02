@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000412",
+  "url": "https://safeguards.anthropic.com/2026/self-assessment/",
+  "capturedAt": "2026-11-02T11:30:30Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 48736,
+    "sha256": "60426eeaf8063e8e99bc0dd3b3a6bc10d975196af50fca2e0a25e44e22e49da3",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "74B09854BB3AFC1A00B1C6555D9FCC13",
+      "status": 200,
+      "url": "https://safeguards.anthropic.com/2026/self-assessment/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 19759,
+      "afterScrollHeight": 19759,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "73588340a46427e3c250ef8c878f6450b8b1b06cc098c5170a509005d2727c77",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1838325,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 19759,
+    "afterScrollHeight": 19759
+  },
+  "record": {
+    "capturedAt": "2026-11-02T11:30:30Z",
+    "url": "https://safeguards.anthropic.com/2026/self-assessment/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 48736,
+      "sha256": "60426eeaf8063e8e99bc0dd3b3a6bc10d975196af50fca2e0a25e44e22e49da3"
+    },
+    "finalUrl": "https://safeguards.anthropic.com/2026/self-assessment/",
+    "httpStatus": 200,
+    "title": "Scaling Misuse Detection with Self-Assessment",
+    "rendered": {
+      "textChars": 35164,
+      "textSha256": "311b3e5b648a1983c7801d8a70f7e97961a196220b8d3d2a7c0e99d34a323ae8",
+      "htmlSha256": "5783152b7b97a76b2e43b1909bb10929ede3f6cd16cb9444acb50758c54065bc"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "73588340a46427e3c250ef8c878f6450b8b1b06cc098c5170a509005d2727c77",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1838325,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261029191654",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261029191654/https://safeguards.anthropic.com/2026/self-assessment/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261101084941/https://safeguards.anthropic.com/2026/self-assessment/",
+      "timestamp": "20261101084941",
+      "verifiedHttp": 200
+    }
+  }
+}

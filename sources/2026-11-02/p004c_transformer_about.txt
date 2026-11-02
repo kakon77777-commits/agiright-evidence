@@ -1,0 +1,175 @@
+
+About | Transformer
+|
+AI Campaign Finance Tracker
+☰
+Home
+States &#x25BE;
+Alabama
+Arizona
+California
+Colorado
+Florida
+Georgia
+Illinois
+Kansas
+Massachusetts
+Michigan
+Montana
+North Carolina
+Nebraska
+New Jersey
+Nevada
+New York
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+South Carolina
+Tennessee
+Texas
+Utah
+Washington
+Wisconsin
+Wyoming
+Super PACs &#x25BE;
+Leading the Future
+Think Big
+American Mission
+Innovation Council
+Public First
+Defending Our Values PAC
+Jobs and Democracy PAC
+Dream NYC
+AnthroPAC
+Building the Future
+Guardrails Alliance
+NVPAC
+Tomorrow Together
+You Can Push Back
+Companies &#x25BE;
+Andreessen Horowitz
+Anthropic
+Google
+Meta
+Microsoft
+OpenAI
+Perplexity
+About
+Data as of Nov 2, 2026 at 11:12 UTC
+Menu
+&times;
+Home
+States
+Alabama
+Arizona
+California
+Colorado
+Florida
+Georgia
+Illinois
+Kansas
+Massachusetts
+Michigan
+Montana
+North Carolina
+Nebraska
+New Jersey
+Nevada
+New York
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+South Carolina
+Tennessee
+Texas
+Utah
+Washington
+Wisconsin
+Wyoming
+Super PACs
+Leading the Future
+Think Big
+American Mission
+Innovation Council
+Public First
+Defending Our Values PAC
+Jobs and Democracy PAC
+Dream NYC
+AnthroPAC
+Building the Future
+Guardrails Alliance
+NVPAC
+Tomorrow Together
+You Can Push Back
+Companies
+Andreessen Horowitz
+Anthropic
+Google
+Meta
+Microsoft
+OpenAI
+Perplexity
+About
+Data as of Nov 2, 2026 at 11:12 UTC
+About This Tracker
+What is this?
+The AI Campaign Finance Tracker is a tool from Transformer to monitor political spending from the AI industry and its employees in federal elections.
+It tracks major donor contributions to super PACs (political action committees), independent expenditures (spending by super PACs for or against candidates), committee-to-committee transfers, and individual employee donations from major AI companies.
+All data comes from the Federal Election Commission, an independent agency tasked with enforcing federal campaign finance law, including required disclosures. New filings are detected automatically and manually reviewed before being published.
+How do you decide what to track?
+We track all spending from a curated set of super PACs with known ties to the AI industry.
+We also track donations from individual employees at leading AI companies to candidates who we have learned are receiving significant support or opposition from the AI industry. We regularly monitor our list of tracked candidates and will update it periodically.
+In a future update, we will start tracking donations from individuals at other organizations in the AI space, such as AI safety non-profit organizations.
+How do you group the spending?
+We group super PACs into two categories. One group, funded by OpenAI President Greg Brockman, venture capital firm Andreessen Horowitz, and Palantir co-founder Joe Lonsdale, among others, characterizes itself as ‘pro-innovation.’ In practice, this group is generally against stringent, and especially state-level, AI regulation. As of early March, federal spending from this group comes mostly from the Leading the Future PAC network, which in turn funds affiliated super PACs. On this website, we’ve marked ‘pro-innovation’ super PACs in green .
+The other group presents itself broadly as ‘pro-safety.’ With roots in the AI safety community, this bloc pushes Congress to pass stricter AI regulation. The main actor in this space, the Public First Action network, has only disclosed one donor so far: Anthropic, the OpenAI competitor which portrays itself as more safety-focused. A separate super PAC, Dream NYC, has an Anthropic employee as its sole donor to date.
+What do all the terms on the site mean?
+Independent Expenditures (IE Spending)
+Money spent by a super PAC to explicitly advocate for or against a candidate, but not to a candidate’s campaign. This is the primary way super PACs influence elections—through ads, mailers, and other communications.
+Each independent expenditure is classified as either supporting or opposing a specific candidate. The headline spending figure on the homepage represents the sum of all independent expenditures across tracked super PACs.
+Independent expenditures must be reported within 48 hours, making this the most up-to-date data on the tracker.
+Total Raised (Total Receipts)
+The total amount of money a super PAC has taken in during the current election cycle, as reported in FEC filings. This includes individual donations, corporate contributions, and transfers from other super PACs. Shown on each super PAC’s page.
+This figure comes from the super PAC’s periodic FEC report (quarterly or monthly) and reflects the total as of the report’s coverage end date. This does not include contributions disclosed to news outlets that have not yet been reported to the FEC.
+Total Spent (Total Disbursements)
+The total amount a super PAC has spent during the current election cycle, as reported in its FEC filings. This includes all expenditures: operating costs, independent expenditures, contributions to candidates, transfers to other super PACs, and any other spending. It is the broadest measure of a super PAC’s outflows.
+Like Total Raised, this comes from periodic reports and reflects totals as of the report’s coverage end date. It does not include independent expenditures made after that date.
+Cash on Hand
+The amount of money a super PAC has available to spend, as reported in its most recent FEC filing. This is essentially: total raised &minus; total spent + any starting balance. A super PAC can occasionally report negative cash on hand if it has reported more expenses than receipts. Like Total Raised, this comes from periodic reports and reflects totals as of the report’s coverage end date.
+If a super PAC shows $0 for raised, spent, and cash on hand, it likely hasn’t filed a regular report yet.
+Committee-to-Committee Transfers (Disbursements to Super PACs)
+Money transferred from one super PAC to another. These appear on each super PAC’s page under “Disbursements to PACs.” Transfers are one way super PACs in the same ecosystem coordinate funding—for example, a super PAC focused on fundraising might transfer money to a super PAC that handles independent expenditures.
+Reported on FEC Schedule B (itemized disbursements).
+Employee Donations (Individual Contributions)
+Donations from individual people who work at AI companies. These are personal contributions—not made by the company itself. We identify them by matching the employer name that donors self-report on their FEC filings.
+Employer data may occasionally contain errors or be outdated. Individual donations do not represent the views or preferences of the employer. Reported on FEC Schedule A (itemized receipts).
+Corporate Donations
+Donations made by a company or organization directly (not by individual employees). On company pages, corporate donations are shown separately from individual employee donations.
+Earmarking & Conduit Committees
+Most individual donations to candidates are routed through what we call “conduit” committees like ActBlue (Democratic) and WinRed (Republican). Donors give to ActBlue or WinRed but designate (“earmark”) the money for a specific candidate. The conduit then passes the money along.
+We resolve these earmarked contributions to their actual intended recipients so that donation totals accurately reflect which candidates are receiving support.
+Supporting vs. Opposing
+Every independent expenditure must be classified by the super PAC as either supporting a candidate (advocating for their election) or opposing a candidate (advocating against their election). On race pages, you’ll see these broken out separately to show the full picture of how super PAC money is being deployed.
+How often does the data update?
+Different types of data are updated on different schedules:
+Independent expenditures — large independent expenditures are reported within 48 hours, and we aim to update this dashboard with them as soon as possible after that.
+Super PAC financial summaries (raised, spent, cash on hand) — updated when super PACs file periodic reports, which are typically quarterly or monthly depending on the committee.
+Individual contributions — reported periodically on Schedule A; there can be a lag of weeks or months.
+The “Data as of” timestamp in the header shows when our pipeline last processed new filings.
+Should I be worried about inaccuracies?
+FEC data can be messy, and filings often contain misspellings or other inaccuracies. We have tried our best to clean the data, but it is possible that some of the information on this website is incorrect. We have provided links to original FEC filings wherever possible.
+Please contact us with any errors found.
+Do you track state election data?
+Currently, this tool only tracks spending in federal elections. We hope to add state-level tracking for certain states in a future update.
+Who are you?
+This tracker is built and maintained by Transformer , a publication covering the power and politics of transformative AI. You can subscribe to receive our news and analysis here .
+How can I contact you?
+For questions, corrections, or tips, contact feedback(at)transformernews(dot)ai.
+Data sourced from the Federal Election Commission . All updates are manually reviewed and approved.
+Built by Transformer .
+This tracker is based on data gathered from the Federal Election Commission (FEC). It does not track spending which has been announced but not yet filed. Employer data is based on what is reported in FEC filings and may occasionally contain errors.
+This tracker was built by Transformer , a publication covering the power & politics of transformative AI.
+Subscribe
+&times;
