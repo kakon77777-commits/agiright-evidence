@@ -1,0 +1,14 @@
+Hugging Face repository mistralai/Mistral-Large-4-1T-A52B, read through https://huggingface.co/api/models/mistralai/Mistral-Large-4-1T-A52B/commits/main and /tree/main/assets on 2026-11-03.
+Commit bodies (which carry people's e-mail addresses) are not kept; dates are UTC.
+
+commits, newest first: date, id, title
+2026-11-02T18:30:59.000Z  af26e7869af601441d5cdf75a1272469ddc3d059  Update technical report (#14)
+2026-11-02T15:50:36.000Z  eb92e221eb3ca49a6e722f58aebcf10d346be70d  technical-report (#12)
+2026-10-29T14:51:07.000Z  f12dabdc0c1e99e7f7924461a6f308859b05af4d  Update README.md
+2026-10-29T14:28:47.000Z  395730aefd2f928daaf7b69fbd9fefab0ee69b64  Update README.md
+2026-10-29T14:11:16.000Z  9bc535781e2938f0cc827614ba863070ccf44591  Initial release
+
+assets tree: path, size, last commit date, last commit id, last commit title
+assets/technical_report.pdf  5519198  2026-11-02T18:30:59.000Z  af26e7869af601441d5cdf75a1272469ddc3d059  Update technical report (#14)
+
+first version of assets/technical_report.pdf: commit eb92e221eb3ca49a6e722f58aebcf10d346be70d (technical-report (#12)), 5511884 bytes; absent at the commit before it (HTTP 404); current version: 5519198 bytes (Update technical report (#14)).

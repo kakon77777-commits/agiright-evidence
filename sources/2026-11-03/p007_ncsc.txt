@@ -1,0 +1,215 @@
+ NCSC Annual Review 2026 | Understanding the threat | The impact of AI on cyber threat | National Cyber Security Centre icons/chevron/16px/black
+Skip to main content
+Home
+Utility navigation
+About NCSC
+Report an incident
+Contact us
+Open Search
+Menu
+Main navigation
+Advice & guidance
+Back Advice & guidance
+Our advice & guidance covers a broad range of topics
+Find information for...
+You & your family
+Small to medium sized organisations
+Large organisations
+Self employed & sole traders
+Public sector
+Cyber security professionals
+All advice and guidance articles
+Popular topics
+Artificial intelligence
+Cyber attack
+Frontier AI
+Passkeys
+Phishing
+All topics
+Other resources
+Glossary of terms
+Infographics
+Verify an NCSC contact
+Heightened cyber threat information
+Cyber Governance for Boards
+Respond to a cyber attack
+Back Respond to a cyber attack
+Resources for individuals and organisations in the UK who have experienced an online scam or cyber attack.
+Find advice for...
+Advice for medium to large organisations
+Advice for sole traders and small businesses
+Advice for individuals
+Respond to...
+Hacked account
+Infected device
+Ransomware attack
+Suspicious messages
+Find a product or service
+Back Find a product or service
+Find a range of products & services from NCSC and certified 3rd party suppliers
+In this section
+Products & services overview
+Browse cyber security services
+NCSC assured services
+Assuring technology
+Search assured providers
+Cyber Essentials
+Useful links
+Active Cyber Defence services
+MyNCSC
+Education & skills
+Back Education & skills
+Working with industry, government and academia to support the next generation of researchers, students and cyber security professionals
+Find information for...
+Schools
+Higher education
+Professional skills training
+Working with the NCSC
+Research & academia
+Education & academia resources
+Cyber Skills
+Training resources for school staff
+Resources for higher education institutions
+Cyber Security Body of Knowledge (CyBOK)
+Industry & skill resources
+CYBERUK 2027
+NCSC for StartUps
+Industry 100
+Cyber League
+News
+Back News
+All the latest information to help you keep track of what's happening
+In this section
+News
+Blogs
+Speeches
+Reports & advisories
+Malware analysis reports
+CYBERUK 2027
+Stay up to date
+The NCSC's Cyber Series podcast
+Subscribe
+About NCSC
+Report an incident
+Contact us
+Close Search
+Search
+Popular Searches
+Passkeys
+Training
+Cyber Essentials
+AI
+Phishing
+Cyber Assessment Framework
+Annual Review
+NCSC Annual Review 2026
+Looking back at the National Cyber Security Centre's tenth year and its key developments and highlights, between 1 September 2025 and 31 August 2026.
+Pages
+NCSC Annual Review 2026
+Introduction
+Open child page navigation menu
+Foreword, Richard Horne, CEO, NCSC
+Minister of State
+Message from Director, GCHQ
+A vision for the future
+Understanding the threat
+Open child page navigation menu
+Continuity and change: A decade of cyber threat
+The cyber threat to the UK
+The impact of AI on cyber threat
+The age of autonomous attack
+Incident management
+7 things we learned
+Technology and the future of cyber security
+Open child page navigation menu
+A decade of technological change
+Building strong foundations
+Open child page navigation menu
+Embedding cyber security into everything
+Why ‘building strong foundations’ has never mattered more
+Securing the UK's internet
+Passkeys: moving beyond passwords
+Securing the backbone of society
+Open child page navigation menu
+A moment of choice
+The future of cyber defence
+Open child page navigation menu
+The changing nature of operational cyber defence
+The National Detect Strategy: Building the future of cyber defence
+Cyber Shield: Building the UK's agentic cyber defence ecosystem
+Project DROMOS
+Shaping global cyber resilience
+Open child page navigation menu
+Shaping the future together
+Page 10 of 29
+The impact of AI on cyber threat
+Artificial intelligence is already beginning to reshape the cyber threat landscape. While AI is unlikely to fundamentally change the goals of hostile actors, it is highly likely to increase the speed, scale and efficiency with which they operate.
+The following assessment sets out the NCSC's key judgements on how AI is expected to affect cyber security.
+It is almost certain AI will act as a force multiplier across the cyber threat landscape, allowing skilled threat actors to carry out operational tasking at increasing scale, speed and efficiency.
+The latest advancements in AI models are transforming cyber operations by enhancing multiple stages of the attack lifecycle, including reconnaissance, social engineering, vulnerability discovery, and coding for exploit development. Despite this, the adoption of AI among threat actors remains uneven. It is almost certain that AI presents a challenge for the UK around how to best defend and remain resilient from AI-assisted operations emanating from state, state-aligned and non-state actors. The greatest impact of AI will be the acceleration and scaling of existing tactics, techniques and procedures (TTPs) as opposed to generating new attack vectors.
+It is highly likely AI will continue to be integrated into threat actors’ cyber operations, increasing the speed, scale and efficiency of existing attack methodologies rather than autonomously conducting end-to-end attacks.
+Human operators highly likely remain essential for directing, validating and adapting AI-generated outputs with human-machine teaming required for cyber operations. The uplift AI provides remains uneven across the attack lifecycle, with skilled operators seeing the greatest benefit, allowing them to streamline existing operational workflows and to focus on tasks where AI is less proficient. The higher the skill of the operator directing the model, the greater the efficiency gains and success rate. Loss of control whilst running an agentic AI will highly likely hinder threat actors from achieving their intended objectives, underscoring the need for effective human oversight during operations.
+It is highly likely the use of AI-assisted vulnerability discovery and exploit development will pose a significant threat, giving threat actors a greater opportunity to target systems before they are patched by system owners.
+AI models have become capable of detecting vulnerabilities in large codebases and misconfigurations in systems that have historically remained undetected. Not all vulnerabilities discovered by AI models will pose an immediate threat or be exploitable. However, it is highly likely defenders and maintainers of systems will face a race to shorten patch deployment timelines to mitigate against the influx of vulnerabilities before threat actors are able to develop any working exploits against them.
+It is almost certain a widening digital divide will emerge between organisations able to adopt AI for defence and those unable to adapt.
+The cyber security benefits of AI will not be distributed evenly. Organisations with mature cyber security programmes, sufficient resources and robust AI governance are likely to improve their ability to detect threats, prioritise vulnerabilities and automate defensive processes. Organisations with weaker security postures, legacy technology and limited resources may struggle to keep pace with the increasing speed of AI-assisted attacks. This divergence is likely to create a widening gap between resilient and vulnerable organisations, with the latter becoming increasingly attractive targets for both state and criminal actors.
+China highly likely has the intent and is best positioned to use AI for operations against critical national infrastructure and other strategic targets.
+While other states will also benefit from AI-assisted cyber capabilities, China’s investment in AI and its ambition to become a leading science and technology superpower means it is highly likely to benefit from AI enhanced operations. The development of its own frontier AI capability programmes will almost certainly allow China to improve the identification of vulnerabilities, increase targeting efficiency and enhance access operations against critical national infrastructure and other strategic targets.
+It is highly likely the use of ‘shadow AI’ will leave the cyber security of an organisation open to exploitation from advanced persistent threat groups and cyber criminals.
+Employees transferring sensitive company or proprietary data onto their personal devices to use shadow AI almost certainly means organisations will lose visibility of how the information is handled and who can access it. It is also likely organisations will lose sight of their workforce’s competency in cyber security if the tasks are frequently outsourced to shadow AI. This will likely increase an organisations vulnerability to attackers.
+It is highly likely AI malware will be used in a ransomware attack on UK CNI.
+Cyber criminal adoption of AI will highly likely increase the scale and efficiency of ransomware operations, social engineering and vulnerability exploitation. Open source AI tools originally intended to assist security researchers are likely to be repurposed by cyber criminals to orchestrate and automate their existing workflows. This is expected to further reduce operational costs for criminals while increasing attack volumes against less resilient targets.
+Previous page:
+The cyber threat to the UK Next page:
+The age of autonomous attack
+Published
+3 November 2026
+Version
+1.0
+Written for
+Cyber security professionals
+Public sector
+Share and print this article
+Share Share
+Close share options
+Share on Facebook
+Share on LinkedIn
+Share on X
+Copy Link
+Was this article helpful?
+Yes the article was helpful
+No the article was not helpful
+Close Feedback Form
+Back to top
+Share
+Close share options
+Share on Facebook
+Share on LinkedIn
+Share on X
+Copy Link
+Home
+Follow us
+X
+LinkedIn
+Instagram
+Threads
+RSS
+About this website
+Privacy notice
+Cookies
+Accessibility
+Terms & conditions
+Social media policy
+Contact the NCSC
+Report an incident
+Report suspicious messages or websites
+Verify an NCSC contact
+Report a vulnerability
+Contact the press office
+Can't find what you're looking for?
+Useful links
+GCHQ
+MI5
+SIS
+NPSA
+GOV.UK

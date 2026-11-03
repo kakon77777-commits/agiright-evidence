@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000419",
+  "url": "https://www.ncsc.gov.uk/collection/annual-review-2026/understanding-threat/ai-impact-cyber-threat",
+  "capturedAt": "2026-11-03T12:14:18Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 241665,
+    "sha256": "f70e890e7373db4c034b3c374f0d483dabeebdced609caf3f1375729817d3a78",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FCC0C34FC18D21ECFC0642D49EEC8C8E",
+      "status": 200,
+      "url": "https://www.ncsc.gov.uk/collection/annual-review-2026/understanding-threat/ai-impact-cyber-threat",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5373,
+      "afterScrollHeight": 5373,
+      "wantedHeight": 5373
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9ccc49b434e892a44846a2da465ad0a00898da8ffc38afca1f68b29119e27be3",
+    "width": 1366,
+    "height": 5373,
+    "bytes": 1065393,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5373,
+    "afterScrollHeight": 5373
+  },
+  "record": {
+    "capturedAt": "2026-11-03T12:14:18Z",
+    "url": "https://www.ncsc.gov.uk/collection/annual-review-2026/understanding-threat/ai-impact-cyber-threat",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 241665,
+      "sha256": "f70e890e7373db4c034b3c374f0d483dabeebdced609caf3f1375729817d3a78"
+    },
+    "finalUrl": "https://www.ncsc.gov.uk/collection/annual-review-2026/understanding-threat/ai-impact-cyber-threat",
+    "httpStatus": 200,
+    "title": "NCSC Annual Review 2026 | Understanding the threat | The impact of AI on cyber threat | National Cyber Security Centre",
+    "rendered": {
+      "textChars": 7718,
+      "textSha256": "537d90c04bc4fc10deeed5f56f628346f99e3bd5489c591f8e85f859e56cc43e",
+      "htmlSha256": "46a4318cbb0e1e19e324ca545448d408eec9536f6d56d7f8e5157da2de129d35"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9ccc49b434e892a44846a2da465ad0a00898da8ffc38afca1f68b29119e27be3",
+      "width": 1366,
+      "height": 5373,
+      "bytes": 1065393,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261103121438/https://www.ncsc.gov.uk/collection/annual-review-2026/understanding-threat/ai-impact-cyber-threat",
+      "timestamp": "20261103121438",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Redaction note (2026-11-03): in meta.json the query strings of the two Hugging Face CDN URLs (a time-limited signed download link and a requester parameter that belongs to the capturing machine) were removed before this folder was published. Nothing else in the folder was changed; raw.pdf is the byte-exact file and its sha256 in meta.json is unchanged.

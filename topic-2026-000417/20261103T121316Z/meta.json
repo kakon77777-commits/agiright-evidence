@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000417",
+  "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+  "capturedAt": "2026-11-03T12:13:16Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 166463,
+    "sha256": "10dcf43fa61f36e064b3d93bd3569d7a434db9849406c362974f36006931846f",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "85662F4FEFC69AFBF8E72C7A7246D85B",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7388,
+      "afterScrollHeight": 7388,
+      "wantedHeight": 7388
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "2c1c1a9113e036f9c20ed98ee64c5ba8747b5cf08add0433e6ecc928ee56fdce",
+    "width": 1366,
+    "height": 7388,
+    "bytes": 1145564,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7388,
+    "afterScrollHeight": 7388
+  },
+  "record": {
+    "capturedAt": "2026-11-03T12:13:16Z",
+    "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 166463,
+      "sha256": "10dcf43fa61f36e064b3d93bd3569d7a434db9849406c362974f36006931846f"
+    },
+    "finalUrl": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+    "httpStatus": 200,
+    "title": "Discovering and exploiting vulnerabilities in critical, real-world software with Claude \\ Anthropic",
+    "rendered": {
+      "textChars": 12608,
+      "textSha256": "10d49bc22c99ae1d6096bd425df4a3ba283ebde4bbaa74dbe63fd64ffc5327bb",
+      "htmlSha256": "05f3b2d380cc6c6350757bef62b48b04ce6647f69192210ad949fbc2340e5c3c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2c1c1a9113e036f9c20ed98ee64c5ba8747b5cf08add0433e6ecc928ee56fdce",
+      "width": 1366,
+      "height": 7388,
+      "bytes": 1145564,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261027181920",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261027181920/https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261103121328/https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "timestamp": "20261103121328",
+      "verifiedHttp": 200
+    }
+  }
+}

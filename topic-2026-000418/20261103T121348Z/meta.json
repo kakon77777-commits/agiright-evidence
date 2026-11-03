@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000418",
+  "url": "https://alignment.openai.com/training-activation-classifiers/",
+  "capturedAt": "2026-11-03T12:13:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 22150,
+    "sha256": "cc0018301177fe048bc5c2eaaac93b4063f71bbe645ce9907bb7d33ecc096595",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "714F843534220962A5C6264698B3D12E",
+      "status": 200,
+      "url": "https://alignment.openai.com/training-activation-classifiers/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7635,
+      "afterScrollHeight": 7635,
+      "wantedHeight": 7635
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "02cc8deb8dd8dc2b57c28b0fa016a7a353dd09922ba7929617c5751ed3e8e8af",
+    "width": 1366,
+    "height": 7635,
+    "bytes": 1139029,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7635,
+    "afterScrollHeight": 7635
+  },
+  "record": {
+    "capturedAt": "2026-11-03T12:13:48Z",
+    "url": "https://alignment.openai.com/training-activation-classifiers/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 22150,
+      "sha256": "cc0018301177fe048bc5c2eaaac93b4063f71bbe645ce9907bb7d33ecc096595"
+    },
+    "finalUrl": "https://alignment.openai.com/training-activation-classifiers/",
+    "httpStatus": 200,
+    "title": "Training activation classifiers for safety and alignment",
+    "rendered": {
+      "textChars": 13652,
+      "textSha256": "aa0a6eb54e62083bdea8be47b7c329534f7237d6329a670320650ce1640f57fe",
+      "htmlSha256": "bb62ff4e5a50f2717cd6a316d1ab25c0df8410aaa112ac7d656d5360de23aafd"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "02cc8deb8dd8dc2b57c28b0fa016a7a353dd09922ba7929617c5751ed3e8e8af",
+      "width": 1366,
+      "height": 7635,
+      "bytes": 1139029,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261103121359/https://alignment.openai.com/training-activation-classifiers/",
+      "timestamp": "20261103121359",
+      "verifiedHttp": 200
+    }
+  }
+}

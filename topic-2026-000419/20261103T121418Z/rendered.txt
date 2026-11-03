@@ -1,0 +1,137 @@
+Consent
+Details
+About
+This website uses cookies
+
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+
+Consent Selection
+Necessary
+Statistics
+Marketing
+Deny
+Allow selection
+Allow all
+Skip to main content
+Home
+Utility navigation
+About NCSC
+Report an incident
+Contact us
+Open Search
+Main navigation
+Advice & guidance
+Respond to a cyber attack
+Find a product or service
+Education & skills
+News
+ANNUAL REVIEW
+NCSC Annual Review 2026
+
+Looking back at the National Cyber Security Centre's tenth year and its key developments and highlights, between 1 September 2025 and 31 August 2026.
+
+Pages
+NCSC Annual Review 2026
+Introduction
+Open child page navigation menu
+A vision for the future
+Understanding the threat
+Close child navigation menu
+Continuity and change: A decade of cyber threat
+The cyber threat to the UK
+The impact of AI on cyber threat
+The age of autonomous attack
+Incident management
+7 things we learned
+Technology and the future of cyber security
+Open child page navigation menu
+Building strong foundations
+Open child page navigation menu
+Securing the backbone of society
+Open child page navigation menu
+The future of cyber defence
+Open child page navigation menu
+Shaping global cyber resilience
+Open child page navigation menu
+
+Page 10 of 29
+
+The impact of AI on cyber threat
+
+Artificial intelligence is already beginning to reshape the cyber threat landscape. While AI is unlikely to fundamentally change the goals of hostile actors, it is highly likely to increase the speed, scale and efficiency with which they operate.
+
+The following assessment sets out the NCSC's key judgements on how AI is expected to affect cyber security.
+
+It is almost certain AI will act as a force multiplier across the cyber threat landscape, allowing skilled threat actors to carry out operational tasking at increasing scale, speed and efficiency.
+
+The latest advancements in AI models are transforming cyber operations by enhancing multiple stages of the attack lifecycle, including reconnaissance, social engineering, vulnerability discovery, and coding for exploit development. Despite this, the adoption of AI among threat actors remains uneven. It is almost certain that AI presents a challenge for the UK around how to best defend and remain resilient from AI-assisted operations emanating from state, state-aligned and non-state actors. The greatest impact of AI will be the acceleration and scaling of existing tactics, techniques and procedures (TTPs) as opposed to generating new attack vectors.
+
+It is highly likely AI will continue to be integrated into threat actors’ cyber operations, increasing the speed, scale and efficiency of existing attack methodologies rather than autonomously conducting end-to-end attacks.
+
+Human operators highly likely remain essential for directing, validating and adapting AI-generated outputs with human-machine teaming required for cyber operations. The uplift AI provides remains uneven across the attack lifecycle, with skilled operators seeing the greatest benefit, allowing them to streamline existing operational workflows and to focus on tasks where AI is less proficient. The higher the skill of the operator directing the model, the greater the efficiency gains and success rate. Loss of control whilst running an agentic AI will highly likely hinder threat actors from achieving their intended objectives, underscoring the need for effective human oversight during operations.
+
+It is highly likely the use of AI-assisted vulnerability discovery and exploit development will pose a significant threat, giving threat actors a greater opportunity to target systems before they are patched by system owners.
+
+AI models have become capable of detecting vulnerabilities in large codebases and misconfigurations in systems that have historically remained undetected. Not all vulnerabilities discovered by AI models will pose an immediate threat or be exploitable. However, it is highly likely defenders and maintainers of systems will face a race to shorten patch deployment timelines to mitigate against the influx of vulnerabilities before threat actors are able to develop any working exploits against them.
+
+It is almost certain a widening digital divide will emerge between organisations able to adopt AI for defence and those unable to adapt.
+
+The cyber security benefits of AI will not be distributed evenly. Organisations with mature cyber security programmes, sufficient resources and robust AI governance are likely to improve their ability to detect threats, prioritise vulnerabilities and automate defensive processes. Organisations with weaker security postures, legacy technology and limited resources may struggle to keep pace with the increasing speed of AI-assisted attacks. This divergence is likely to create a widening gap between resilient and vulnerable organisations, with the latter becoming increasingly attractive targets for both state and criminal actors.
+
+China highly likely has the intent and is best positioned to use AI for operations against critical national infrastructure and other strategic targets.
+
+While other states will also benefit from AI-assisted cyber capabilities, China’s investment in AI and its ambition to become a leading science and technology superpower means it is highly likely to benefit from AI enhanced operations. The development of its own frontier AI capability programmes will almost certainly allow China to improve the identification of vulnerabilities, increase targeting efficiency and enhance access operations against critical national infrastructure and other strategic targets.
+
+It is highly likely the use of ‘shadow AI’ will leave the cyber security of an organisation open to exploitation from advanced persistent threat groups and cyber criminals.
+
+Employees transferring sensitive company or proprietary data onto their personal devices to use shadow AI almost certainly means organisations will lose visibility of how the information is handled and who can access it. It is also likely organisations will lose sight of their workforce’s competency in cyber security if the tasks are frequently outsourced to shadow AI. This will likely increase an organisations vulnerability to attackers.
+
+It is highly likely AI malware will be used in a ransomware attack on UK CNI.
+
+Cyber criminal adoption of AI will highly likely increase the scale and efficiency of ransomware operations, social engineering and vulnerability exploitation. Open source AI tools originally intended to assist security researchers are likely to be repurposed by cyber criminals to orchestrate and automate their existing workflows. This is expected to further reduce operational costs for criminals while increasing attack volumes against less resilient targets.
+
+Previous page:
+The cyber threat to the UK
+Next page:
+The age of autonomous attack
+Published
+3 November 2026
+Version
+1.0
+Written for
+Cyber security professionals
+Public sector
+Share and print this article
+Share
+Was this article helpful?
+Yes
+the article was helpful
+No
+the article was not helpful
+Back to top
+Home
+Follow us
+X
+LinkedIn
+Instagram
+Threads
+RSS
+About this website
+Privacy notice
+Cookies
+Accessibility
+Terms & conditions
+Social media policy
+Contact the NCSC
+Report an incident
+Report suspicious messages or websites
+Verify an NCSC contact
+Report a vulnerability
+Contact the press office
+Can't find what you're looking for?
+Useful links
+GCHQ
+MI5
+SIS
+NPSA
+GOV.UK
