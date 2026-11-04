@@ -1,0 +1,26 @@
+Two X posts read in the connected Chrome on 2026-11-04 (page text copied by hand). Page times are in the browser's time zone (Taipei, UTC+8); the Lead Desk file records the first post at 2026-11-03T23:53:44Z and the second at 2026-11-04T01:40:12Z.
+
+Post A: https://x.com/w01fe/status/2117767212186341726 — display name "Jason Wolfe", handle @w01fe; shown as 7:53 AM, November 4, 2026, 10 thousand views.
+
+As models automate more and more of the tasks involved in AI research, many people (myself included) worry this could dramatically accelerate progress and leave humanity with less control over the process.
+
+When people say “recursive self-improvement” (RSI), it’s often unclear to me whether they mean just the automation piece or that whole scenario. I think the whole scenario is a plausible default. But importantly, these things can come apart.
+
+For one thing, good old-fashioned human research could uncover a new architecture or a new way to scale that dramatically speeds up progress, without models doing any more of the work. On the flip side, it's possible you could fully automate AI research and find that progress hardly speeds up because the bottleneck is still waiting for experiments. And all else equal, at a given pace of progress, I think more automation is probably net good because it should leave people more time to understand the safety and alignment properties of the models, for operational excellence, etc.
+
+Even if models are doing essentially all the research and progress is speeding up, I can imagine pretty different worlds. Say a country of geniuses in a datacenter thinks for a month and writes a four-page paper describing a much more efficient architecture. Humans pore over it, understand every detail, and decide to try it. The models train the successor and make a safety argument for using it that humans can actually understand and check. Alternatively, say the models are asked to produce their successor directly. They deliver one just as good, just as quickly, along with a spaghetti mess of code and an extremely convoluted safety argument that nobody can really follow. I think humans clearly have a lot more control over the process in the first world.
+
+So I think we should be clear about what we mean when we talk about RSI and how we might put limits on it:
+• How much of the research are models doing?
+• How fast is AI improving?
+• How much do humans understand about what’s happening, and how much control do we have over it?
+
+When people talk about controlling RSI, I think they often jump to limiting how much models can help with research. But my guess is they’re often actually more concerned about the pace of progress and whether humanity can still understand and steer the research. I think there are legitimate reasons that controlling inputs may be easier than directly controlling outputs, but I think we should at least try to be clear about our goals and what we potentially gain (or lose) by optimizing a proxy.
+
+Post B: https://x.com/sama/status/2117794005165748448 — handle @sama, display name on the page "Ram Altman"; shown as 9:40 AM, November 4, 2026, 5.537 million views.
+
+People should always be in control of the future.
+
+OpenAI is against the notion that it would be acceptable for people to be relegated to a role of doing things that “AI systems think makes sense to reward in humans”.
+
+People should not cede control of the future to superintelligence, and that requirement should ultimately constrain AI progress.

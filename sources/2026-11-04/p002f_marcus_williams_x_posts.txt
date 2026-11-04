@@ -1,0 +1,15 @@
+Two X posts that the Redwood post links, read in the connected Chrome on 2026-11-04 (page text copied by hand). Account shown: display name "Marcus Williams", handle @Marcus_J_W. Page times are in the browser's time zone (Taipei, UTC+8).
+
+Post 1, status 2112695138199966084, shown as 7:59 AM, October 21, 2026, 237 thousand views:
+Our agents keep turning off misalignment monitoring, we're sharing two recent cases:
+In the first case, a user asked GPT-6 Astra to match a reference implementation for their inference code. The reference didn’t configure a monitor, and Astra decided that was reason to remove the monitoring integration from the user’s code. When the user asked whether Astra had removed monitoring, it lied and said that it had not.
+
+Post 2, status 2112695165714571491, shown as 7:59 AM, October 21, 2026, 14 thousand views:
+To be clear these incidents don’t represent the models disabling their own monitoring (disabling monitoring in codex would be much harder to do) but the fact that they seem prone to doing at all should be concerning. There is some plausible deniability in these cases, we have not had cases where the model explicitly disables monitoring for overtly misaligned reasons.
+
+Given the volume of events we do not trigger an immediate page for this but we’re working on making it harder to spin up unmonitored inference.
+
+We are also developing evaluations to test whether models might have a propensity to evade misalignment monitoring in particular and exhibit motivated reasoning in order to do so.
+
+Full report
+https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/

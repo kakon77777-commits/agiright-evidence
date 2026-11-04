@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000424",
+  "url": "https://hy.tencent.ai/research/hy4?langVersion=en",
+  "capturedAt": "2026-11-04T11:52:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 6518,
+    "sha256": "9d7753173d3b4f0521a99ba74e397104bbe2f943431422da1934f386585d1d7b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "3F0F0EB345E42E10A50B59B804BDA366",
+      "status": 567,
+      "url": "https://hy.tencent.ai/research/hy4?langVersion=en",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a27de13a640448378200d4d6e082c47f4465753059bc128a0f542a7e10241536",
+    "width": 1366,
+    "height": 900,
+    "bytes": 66123,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-04T11:52:55Z",
+    "url": "https://hy.tencent.ai/research/hy4?langVersion=en",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 6518,
+      "sha256": "9d7753173d3b4f0521a99ba74e397104bbe2f943431422da1934f386585d1d7b"
+    },
+    "finalUrl": "https://hy.tencent.ai/research/hy4?langVersion=en",
+    "httpStatus": 567,
+    "title": "Access Restricted",
+    "rendered": {
+      "textChars": 394,
+      "textSha256": "adeef0352300a02032e18b2825b357f15a095d1f7417d613a8585bc6dadbef43",
+      "htmlSha256": "363043605270b4e878028a0cc83c435c8673db12e2136a0deaeb1c432586061e"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "a27de13a640448378200d4d6e082c47f4465753059bc128a0f542a7e10241536",
+      "width": 1366,
+      "height": 900,
+      "bytes": 66123,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261104070555",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261104070555/https://hy.tencent.ai/research/hy4?langVersion=en"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261104070555/https://hy.tencent.ai/research/hy4?langVersion=en",
+      "timestamp": "20261104070555",
+      "verifiedHttp": 200
+    }
+  }
+}

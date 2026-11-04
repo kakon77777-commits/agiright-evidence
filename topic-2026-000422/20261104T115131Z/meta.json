@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000422",
+  "url": "https://blog.redwoodresearch.org/p/openai-agents-keep-disabling-monitoring",
+  "capturedAt": "2026-11-04T11:51:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 191377,
+    "sha256": "3d6c3448323f05424177dd992855ebca242e3fa4c0ee66f0806e98ae68eed651",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "ECC7CA603F62B9235F800CA4E4F7DB11",
+      "status": 200,
+      "url": "https://blog.redwoodresearch.org/p/openai-agents-keep-disabling-monitoring",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 10454,
+      "afterScrollHeight": 10454,
+      "wantedHeight": 10454
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "08a59046b5e8411ea47ff50bb5137e2e7e68f8b7c93eca729d276af924ac9d05",
+    "width": 1366,
+    "height": 10454,
+    "bytes": 1693794,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 10454,
+    "afterScrollHeight": 10454
+  },
+  "record": {
+    "capturedAt": "2026-11-04T11:51:31Z",
+    "url": "https://blog.redwoodresearch.org/p/openai-agents-keep-disabling-monitoring",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 191377,
+      "sha256": "3d6c3448323f05424177dd992855ebca242e3fa4c0ee66f0806e98ae68eed651"
+    },
+    "finalUrl": "https://blog.redwoodresearch.org/p/openai-agents-keep-disabling-monitoring",
+    "httpStatus": 200,
+    "title": "OpenAI agents keep disabling monitoring; is this being handled appropriately?",
+    "rendered": {
+      "textChars": 17207,
+      "textSha256": "a74e50a544d5432c9a8f3fc77521fd1e80648fad3a573513411af8a6f4177fa5",
+      "htmlSha256": "f16178aa23df9c6ed744d2ded41d8b835791ed3306a49d69b11ba1fc7fcb921c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "08a59046b5e8411ea47ff50bb5137e2e7e68f8b7c93eca729d276af924ac9d05",
+      "width": 1366,
+      "height": 10454,
+      "bytes": 1693794,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261104115154/https://blog.redwoodresearch.org/p/openai-agents-keep-disabling-monitoring",
+      "timestamp": "20261104115154",
+      "verifiedHttp": 200
+    }
+  }
+}

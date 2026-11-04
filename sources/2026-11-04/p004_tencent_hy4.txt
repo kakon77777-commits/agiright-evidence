@@ -1,0 +1,40 @@
+Tencent Hy, "Introducing Hy4", https://hy.tencent.ai/research/hy4?langVersion=en
+Page date shown: November 4, 2026. Read in the connected Chrome (page text copied from the rendered page; the curl response is an empty JavaScript shell). The parts below are the intro and the three sections the entry quotes, copied by hand from the rendered text; the rest of the page (product testimonials, prompts, benchmark appendix as images) is not copied here.
+
+Introducing Hy4
+Tencent Cloud
+OpenRouter
+Hy AI Studio
+
+Today, we’re releasing Hy4, another major leap forward that places Hy among the strongest open-source models for the first time.
+
+Compared with Hy4 preview, Hy4 substantially scales up both pre-training and post-training. It adds vision capabilities for the first time and delivers major gains in instruction following, long-context understanding, long-horizon tasks, deep research, and more.
+
+Scientific research and AI R&D
+
+With deep reasoning, scientific computing, and long-horizon execution, Hy4 pushes the frontier of end-to-end scientific research. On TenureTrail, our internal benchmark of 123 research tasks across seven disciplines, Hy4 ranks first among open-weight models. It shows strong capabilities in mathematical construction, physical modeling, earth sciences, systems engineering, and socioeconomic decision-making. We are also laying the groundwork for recursive self-improvement by advancing Hy4’s AI R&D capabilities. Paired with our Hyra 2.0 harness, Hy4 optimized our internal pre-training infrastructure for smaller models with the same architecture, and autonomously trained a variant that outperforms the official Jev baseline on multiple benchmarks. To make these AI-accelerated results reusable for the broader community, we are open-sourcing two foundation models co-developed by Hy4 and Hyra 2.0: HyCell for single-cell representation and HyPDE for physical field modeling.
+
+Responsible open-sourcing and release
+
+We recognize the potential safety risks posed by advanced cyber and biological capabilities, and we are committed to a more responsible approach to model training, open-sourcing, and release.
+
+During Hy4’s training, we limited cybersecurity data to defensive material related to proof-of-concept (PoC) generation and vulnerability patching. We filtered out offensive content such as exploit development, reverse engineering, and penetration testing to avoid amplifying potential offensive capabilities. We also worked with experts from Tencent Xuanwu Lab and Tencent Keen Security Lab to conduct red-team audits covering cryptanalysis, reverse engineering, and vulnerability exploitation. Their findings indicate that Hy4 does not pose elevated risks in offensive tasks such as reversing cryptographic algorithms, defeating binary obfuscation, or exploiting vulnerabilities.
+
+In biosecurity evaluations, Hy4’s open-ended experimental design capabilities remain well below our high-risk threshold, with a score of 30.4/100 on Hy-BioExperimentBench. Internal experts audited the model’s reasoning traces and found that although Hy4 has a solid grasp of foundational biology, its ability to turn that knowledge into actionable experimental protocols, a critical bottleneck, remains limited. We found no evidence that Hy4 meaningfully lowers the barrier to causing biological harm.
+
+Hy4 is now available on Tencent Cloud and OpenRouter, as well as in products including CodeBuddy, WorkBuddy, Yuanbao, and ima. It delivers major performance gains over Hy4 preview at the same API price.
+
+Hy4 API pricing (per million tokens)
+
+Cached input Input Output
+$0.042 $0.834 $2.501
+
+We plan to open-source Hy4’s model weights and have partnered with the vLLM (Inferact Inc.) and SGLang communities to provide ecosystem support. When we release the weights, we will also publish a comprehensive system card detailing our safety evaluations and additional technical details.
+
+Looking ahead
+
+Although Hy4 is one of the strongest open-weight models available today, a notable gap remains between it and top proprietary models, particularly on challenging internal benchmarks for research-level mathematics, long-horizon coding, model self-improvement, and advanced visual question answering. We will continue to steadily scale pre-training and post-training to narrow this gap.
+
+We also plan to release Hy4 flash in the near future, with significantly improved cost-efficiency, faster inference, and closer co-design with products to improve utility.
+
+Keep Reading (links at the foot of the page): "Hyra 2.0: The Next Step for Auto Research", Nov 2, 2026, Hyra Team; "When Do Larger Batches Help Scale LLM Reinforcement Learning?", Sep 22, 2026, RL Team; "Introducing Hy4 preview", Aug 28, 2026, Hy LLM.

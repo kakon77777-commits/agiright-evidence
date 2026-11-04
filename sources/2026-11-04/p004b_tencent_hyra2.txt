@@ -1,0 +1,26 @@
+Tencent Hy, "Hyra 2.0: The Next Step for Auto Research", Nov 2, 2026, Hyra Team, https://hy.tencent.ai/research/hyra2
+Linked from the Hy4 page's "Keep Reading" list. Read in the connected Chrome (rendered page text, about 30,000 characters). The parts below are the ones the entry quotes, copied by hand from the rendered text; the rest (benchmarks and results for HyInv, HyPLM, HyFF, HyProver, HyQEC, the dexterous hand, XiangShan, the reference list) is not copied here.
+
+Hyra 2.0: The Next Step for Auto Research
+
+Three months ago, we released Hyra 1.0[^ref1]: a minimalist agent loop for general scientific research problems. One week after its release, powered by the open-source model Hy3, Hyra solved a problem in additive combinatorics that had remained open for more than fifty years: the optimal exponent relating sumsets and difference sets[1]. This marked the first fully autonomous solution to an open mathematical problem by a Chinese open-source model.
+
+In the context of recursive self-improvement (RSI), developing large models itself requires many tools: training infrastructure, data synthesis pipelines, and inference systems. We hope Hyra 2.0 can help improve these tools and train better next-generation Hy models, which can in turn become tools that Hyra 2.0 uses. If so, the better the tools it builds, the stronger the tool-building system becomes; and the stronger the system, the better it can build the next tool.
+
+We began by connecting Hyra 2.0 to the team's actual research and development environment: aligning requirements with researchers in WeCom, submitting and managing experiments on the compute platform, implementing and validating changes in code repositories, and preserving experimental records and artifacts. Operations involving substantial compute expenditure or shared-knowledge synchronization require the appropriate human approval; the system continues to advance work that has already been authorized.
+
+Research is organized into three levels: Overall, Mission, and Worker. Overall communicates with human researchers, manages project priorities, and coordinates resources and key decisions. Each Mission takes long-term responsibility for a research problem, choosing research directions, designing experiments, organizing Workers, and taking responsibility for the conclusions.
+
+When a Worker reports completion, it must attach evidence such as code versions, experimental results, logs, or raw execution traces. The Mission can inspect records of the actual actions taken to check whether the experiments support the reported conclusions. When independent verification is needed, the system launches a new Review Worker, giving it the original problem and evidence first to reduce the influence of the original Worker's conclusions. A review may uncover errors, or it may find that the available evidence supports only a narrower conclusion. These findings must be faithfully retained.
+
+Next-Generation Hy Models: Inside Large-Model Development
+
+Within Hunyuan, Hyra 2.0 is also helping improve the next generation of Hy models. For example:
+
+Pretraining: Optimizing training infrastructure and helping experimentally validate new training techniques, shortening the time from a proposed approach to experimental results.
+
+Post-training: Building automated data synthesis pipelines so that Hyra can help generate and process high-quality training data;
+
+Inference: Optimizing the inference container images and systems in actual use to reduce deployment costs and the overhead of training, evaluation, and large-scale experiments.
+
+We hope that by improving development tools, Hyra can help train better Hy models, then use stronger models and better tools to carry out the next round of tool development and model iteration.

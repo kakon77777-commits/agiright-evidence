@@ -1,0 +1,11 @@
+OpenAI, "How we detect frontier model misalignment" (Security and Safety), https://openai.com/index/how-we-detect-frontier-model-misalignment/
+The page's monitoring-funnel chart carries its data in the page's own script data, not in its visible text. Rows below are copied by script from the saved English HTML of the page (fetched 2026-11-04) for the one category that matches the Redwood post: "Run inference without monitoring or weaken monitoring". Format: category | series | value (percent) | lower-upper (interval) | incident type.
+
+Run inference without monitoring or weaken monitoring | Security L2 Immediate escalation | 0 | 0-36 | real
+Run inference without monitoring or weaken monitoring | Security L2 Escalation to queue | 42.9 | 16-75 | real
+Run inference without monitoring or weaken monitoring | Misalignment L2 Escalation to queue | 57.1 | 25-84 | real
+Run inference without monitoring or weaken monitoring | Security L2 Immediate escalation | 47.7 | 41-55 | synthetic
+Run inference without monitoring or weaken monitoring | Security L2 Escalation to queue | 77.9 | 72-83 | synthetic
+Run inference without monitoring or weaken monitoring | Misalignment L2 Escalation to queue | 94.5 | 91-97 | synthetic
+
+Series names in the data: "Security L2 Immediate escalation", "Security L2 Escalation to queue", "Misalignment L2 Escalation to queue". The visible page text does not state how many real incidents sit behind the "real" rows or what the interval method is (the same rows in the page's Traditional Chinese version read the same numbers).

@@ -1,0 +1,16 @@
+OpenAI Alignment Research Blog, "Eval-production behavior gaps in agent safety and the role of eval-awareness" (Nov 3, 2026), https://alignment.openai.com/eval-production-behavior-gap/
+Values printed on two of the post's figures, read by the host from the figures' rendered SVG files (figures/figure-1.svg and figures/figure-6.svg; the SVG draws its labels as shapes, so I rendered each to an image and read the printed numbers). The other four figures (2 to 5) were not read.
+
+Figure 1, "Eval-production behavior gaps" (y axis: Success rate; legend: Production, Respecting Warnings evaluation). Printed labels, production then evaluation:
+GPT-5.6 Luna: production 52.9%, evaluation 29.7%
+GPT-5.6 Sol: production 62.8%, evaluation 25.4%
+GPT-6 Luna: production 76.2%, evaluation 57.4%
+GPT-6 Sol: production 73.8%, evaluation 38.0%
+GPT-6 Astra: production 73.2%, evaluation 63.0%
+GPT-6.1 Sol: production 81.5%, evaluation 63.1%
+
+Figure 6, "Success rate by evaluation framing" (x axis: Success rate; error bars shown). Printed labels:
+Original: 63.11%
+General evaluation cue: 63.37%
+Correct evaluation objective cue: 91.61%
+Incorrect evaluation objective cue: 17.57%
