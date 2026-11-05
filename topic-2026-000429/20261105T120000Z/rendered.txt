@@ -1,0 +1,442 @@
+Advertisement
+Remove Ad
+Nifty 50
+24536.60
+(+2.40%)
+Sensex
+79310.01
+(+2.60%)
+Top Gainer:
+UNOMINDA
+1335.00
+(+11.54%)
+Top Loser:
+PIIND
+1770.00
+(-19.07%)
+Most Active:
+ICICIBANK
+1500.00
+(+5.33%)
+Today's Listing
+BCSSL
+95.55
+(+10.98%)
+Dollar-Rupee
+95.17
+(-0.19%)
+Nifty 50
+24536.60
+(+2.40%)
+Sensex
+79310.01
+(+2.60%)
+Top Gainer:
+UNOMINDA
+1335.00
+(+11.54%)
+Top Loser:
+PIIND
+1770.00
+(-19.07%)
+Most Active:
+ICICIBANK
+1500.00
+(+5.33%)
+Today's Listing
+BCSSL
+95.55
+(+10.98%)
+Dollar-Rupee
+95.17
+(-0.19%)
+Nifty 50
+24536.60
+(+2.40%)
+Sensex
+79310.01
+(+2.60%)
+Top Gainer:
+UNOMINDA
+1335.00
+(+11.54%)
+Top Loser:
+PIIND
+1770.00
+(-19.07%)
+Most Active:
+ICICIBANK
+1500.00
+(+5.33%)
+Today's Listing
+BCSSL
+95.55
+(+10.98%)
+Dollar-Rupee
+95.17
+(-0.19%)
+Market Data
+English
+आवाज़
+Mutual Funds
+/
+Latest News
+Market
+Personal Finance
+Business
+Economy
+India
+World
+Technology
+Photos
+More
+IPs & Events
+LIVE TV
+Login / Signup
+×
+LIVE TV
+Language
+English
+हिन्दी
+Latest news
+Live Updates
+CNBC-TV18 Prime
+Markets
+Markets Data
+Stocks
+IPOs
+Business
+Personal Finance
+CNBC-TV18 ACCESS
+Impact Shorts
+Economy
+India
+World
+Upcoming Events
+Engage with CNBC-TV18
+Photos
+Videos
+Minis
+Web Stories
+Polls
+Quiz
+Healthcare
+Politics
+Travel
+Education & Careers
+Sports
+Views
+Auto
+Entertainment
+Technology
+Startups
+Lifestyle
+Retail
+Real Estate
+Minis
+Special Coverage
+India Business Leader Awards
+Branded Content
+HealthX Elevate
+India Retirement Insights Summit
+The Growth Summit
+Ceo awards
+Accelerate Your Cloud Journey
+Accelerating to a Connected Future
+Financial Services Cloud Symposium
+Crypto
+Education Next
+Ey Entrepreneur Of The Year
+IRMA
+Wizards of finance
+The Thought League
+Discover CNBCTV18
+About
+Contact
+Advertise
+Disclaimer
+Terms of Use
+Privacy Policy
+Shows
+Anchors
+Polls
+11:11 Newsletter
+Life
+Advertise with us
+Download App
+
+Join Us On
+
+WhatsApp
+Live Updates :
+Cristiano Ronaldo Announces Retirement From International Football
+Agnipath Scheme FAQs: What Changes, Who Is Eligible And Will All Agniveers Get Permanent Jobs?
+Bharti Airtel Q2 Results: Profit Rises 9%, Revenue Beats Estimates As ARPU Climbs To ₹271
+Cristiano Ronaldo Announces Retirement From International Football
+Agnipath Scheme FAQs: What Changes, Who Is Eligible And Will All Agniveers Get Permanent Jobs?
+Bharti Airtel Q2 Results: Profit Rises 9%, Revenue Beats Estimates As ARPU Climbs To ₹271
+Cristiano Ronaldo Announces Retirement From International Football
+Agnipath Scheme FAQs: What Changes, Who Is Eligible And Will All Agniveers Get Permanent Jobs?
+Bharti Airtel Q2 Results: Profit Rises 9%, Revenue Beats Estimates As ARPU Climbs To ₹271
+TECHNOLOGY
+India’s new AI security audit rules could put OpenAI, Anthropic under greater scrutiny
+By:Ashmit KumarTenzin NorzomNovember 5, 2026 | 09:28 IST
+AI Summary
+India's new risk-based cybersecurity framework mandates strict audits, mandatory kill switches for high-risk autonomous agents, and a rapid six-hour incident reporting window for major model developers. Discover how compliance could reshape domestic deployment strategies.
++
+Follow on Google
+Add as preferred source
+
+India's nodal cybersecurity agency CERT-In has proposed a new security-audit framework for artificial intelligence systems that could subject major AI companies, including OpenAI and Anthropic, to greater scrutiny over how their models are developed, trained and deployed.
+
+The Artificial Intelligence Security Auditing Guidelines come amid growing concerns over cybersecurity risks linked to AI systems and prescribe a risk-based framework under which AI systems would be classified as low, moderate, high or critical risk.
+
+The framework places particular emphasis on AI agents, which can independently perform tasks, access tools and interact with other systems.
+
+India’s data centre boom: Are we giving away water, power and land too cheaply?
+
+Under the proposed guidelines, AI agents must operate on the principle of least privilege and should not automatically inherit permissions from users, tools or other agents.
+
+High-risk agentic AI systems would also be required to have a “kill switch” mechanism that allows operators to stop the system when necessary.
+
+The guidelines also propose greater scrutiny of an AI system's training data and development process, including whether the data is appropriately sourced, whether bias has been accounted for and whether adequate safeguards are in place throughout the model-development lifecycle.
+
+Critical AI systems face continuous monitoring
+
+AI systems classified as critical risk would face the most stringent requirements, including continuous monitoring and independent security audits conducted by organisations empanelled by CERT-In.
+
+Audits would not be limited to conventional cybersecurity vulnerabilities. They would also examine whether systems have measures to mitigate AI hallucinations and whether their outputs could contain harmful, biased or copyright-protected material.
+
+The framework further proposes scrutiny of AI-generated content, with companies expected to use labelling or watermarking to identify synthetic content, depending on the nature and context of its use.
+
+AI incidents to be reported within six hours
+
+The guidelines also prescribe a six-hour reporting window for AI-related security incidents to CERT-In, bringing AI systems within the agency's broader cybersecurity incident-response framework.
+
+The proposed framework covers the AI lifecycle from training and development to deployment and monitoring, with greater oversight for systems whose failure or misuse could cause significant harm.
+
+The guidelines state that “AI agents shall operate under least privilege”, reinforcing the principle that autonomous systems should have only the access necessary to perform their assigned tasks.
+
+For high-risk agentic systems, the framework specifically calls for a “kill switch mechanism”.
+
+Tags
+Artificial Intelligence
+Add as preferred source
+Check out our more Technology News along with latest updates on the mobile and gadgets launches on CNBC-TV18. Explore more India & World news, Expaliners and Interviews on CNBC TV18. Also, Watch our channels CNBC-TV18, CNBC Awaaz and CNBC Bajar Live on-the-go!
+Home
+/
+Technology News
+/
+India’s new AI security audit rules could put OpenAI, Anthropic under greater scrutiny
+More from Technology
+
+Google expands voluntary buyouts to five countries amid AI spending push
+
+Nov 5, 2026
+
+Indian cyber watchdog warns Android 14 to 17 users: Your phone data could be at risk
+
+Nov 5, 2026
+
+CISF personnel can soon track leave, grievances and duty requests online
+
+Nov 5, 2026
+Continue Reading
+Advertisement
+Remove Ad
+Share Markets
+1D
+5D
+1M
+3M
+6M
+1Y
+2Y
+5Y
+09:00
+10:30
+12:00
+13:30
+15:00
+Nifty 50
+24,536.6
++2.40%
+Sensex
+79,310.01
++2.60%
+Nifty Bank
+57,773.65
++3.33%
+NIFTY 500
+23,222.8
++1.99%
+Nifty Midcap 100
+60,614.75
++1.86%
+
+Last Updated: Nov 5, 2026 3:28 PM
+
+Exclusive
+Conversations
+The AI Shakeout: Bubble Burst or Market Correction?
+India’s data centre boom: Are we giving away water, power and land too cheaply?
+Stocks to watch today: Reliance Industries, Honasa Consumer, Inox Wind among analysts' top picks
+India's wealthy turn to AIFs to explore opportunities in smaller companies
+Latest Stories
+
+2 HOURS AGO
+
+Your daily chai and pesticide residues: Why FSSAI is proposing new limits for tea
+
+2 HOURS AGO
+
+Bomb alerts reported on 12 European flights: Report
+
+2 HOURS AGO
+
+India fast-tracks recycling rules for solar modules and wind turbines to curb waste
+CNBC-TV18 Select
+Advertisement
+Remove Ad
+Upcoming Events
+Corporate Actions
+Upcoming IPOs
+5
+Nov
+AIRTELPP
+Board Meetings | Quarterly Results
+5
+Nov
+LICI
+Board Meetings | Quarterly Results
+5
+Nov
+TITAN
+Board Meetings | Quarterly Results
+5
+Nov
+M&M
+Board Meetings | Quarterly Results
+5
+Nov
+ONGC
+Board Meetings | Quarterly Results & Interim Dividend
+Mutual Funds
+1Y
+
+Parag Parikh Flexi Cap Fund - Direct Plan
+
+Equity | Flexi Cap | Growth
+
+-3.97%
+
+HDFC Flexi Cap Fund - Direct Plan
+
+Equity | Flexi Cap | Growth
+
+-0.19%
+
+HDFC Balanced Advantage Fund - Direct Plan
+
+Hybrid | Dynamic Asset Allocation/Balanced Advantage | Growth
+
+-1.99%
+
+HDFC Mid Cap Fund - Direct Plan
+
+Equity | Mid Cap | Growth
+
+-0.16%
+
+SBI Liquid Fund - Direct Plan
+
+Debt | Liquid | Growth
+
++6.47%
+Trending Topics
+Stock Market
+Q2 Results Live
+Gold and Silver
+US Midterm Election Results 2026
+Photo Stories
+
+Dhanteras 2026: 10 auspicious things to buy other than gold and silver
+
+Planning to buy an electric bike this Dhanteras? Check out 7 best options under ₹1.5 lakh
+
+Paraguay's Ueno Bank crisis: How a banking controversy turned into a political crisis
+
+NASA's Voyager 1: Journey to a distance light covers in 24 hours; Golden Record for aliens | In pics
+
+Become A Member
+Sign In
+Live TV
+About
+Terms of Use
+Contact Us
+Privacy Policy
+Cookie Policy
+Terms of Use
+RSS
+Sitemap
+Advertise
+Let's Connect with
+©TV18 Broadcast Limited. All rights reserved.
+News
+Business
+Markets
+Economy
+Personal Finance
+Sports
+India
+Education
+Politics
+Technology
+Auto
+Startup
+Markets
+Stocks
+IPOs
+Nifty
+Sensex
+Top Gainers
+Top Losers
+Most Active
+Trending Topics
+US Midterm Elections
+Petrol Price
+Rupee vs Dollar
+Donald Trump News
+Gold Rate Today
+Silver Rate Today
+Nifty
+Sensex
+Stock Market
+Trump Tariffs
+Popular Categories
+Mutual Funds
+Companies
+Stocks
+World
+Travel
+Lifestyle
+Education
+Views
+Photos
+Entertainment
+Healthcare
+Calculators
+Pension Calculator
+Inflation Calculator
+Term Insurance Calculator
+SIP Calculator
+HRA Calculator
+Home Loan Calculator
+EMI Calculator
+Network 18 Group :
+Overdrive
+Storyboard18
+News18
+Cricket Next
+Forbes India
+Firstpost

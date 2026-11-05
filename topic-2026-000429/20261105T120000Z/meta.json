@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000429",
+  "url": "https://www.cnbctv18.com/technology/indias-new-ai-security-audit-rules-could-put-openai-anthropic-under-greater-scrutiny-20027678.htm",
+  "capturedAt": "2026-11-05T12:00:00Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 424665,
+    "sha256": "e3f5e34252f55a48cc7b1eba07c7605c23f39200961a5d97d184091db2063757",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7D46BDEFFB5237DAB0C87085105FEABF",
+      "status": 200,
+      "url": "https://www.cnbctv18.com/technology/indias-new-ai-security-audit-rules-could-put-openai-anthropic-under-greater-scrutiny-20027678.htm",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 5075,
+      "afterScrollHeight": 5075,
+      "wantedHeight": 5075
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "e7870b56f7a652620370496185fddde41252f7eb16754d18431335b7e044a249",
+    "width": 1366,
+    "height": 5075,
+    "bytes": 1137599,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 5075,
+    "afterScrollHeight": 5075
+  },
+  "record": {
+    "capturedAt": "2026-11-05T12:00:00Z",
+    "url": "https://www.cnbctv18.com/technology/indias-new-ai-security-audit-rules-could-put-openai-anthropic-under-greater-scrutiny-20027678.htm",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 424665,
+      "sha256": "e3f5e34252f55a48cc7b1eba07c7605c23f39200961a5d97d184091db2063757"
+    },
+    "finalUrl": "https://www.cnbctv18.com/technology/indias-new-ai-security-audit-rules-could-put-openai-anthropic-under-greater-scrutiny-20027678.htm",
+    "httpStatus": 200,
+    "title": "India’s new AI security audit rules could put OpenAI, Anthropic under greater scrutiny - CNBC TV18",
+    "rendered": {
+      "textChars": 9515,
+      "textSha256": "fa86a685699bae04dcc9584d705bf57dced719231a603f761ef841101dc94483",
+      "htmlSha256": "ccb5e52acf120f80cbe3702a90c200771fc01332afcc1debb4f38ab7cc4aca03"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e7870b56f7a652620370496185fddde41252f7eb16754d18431335b7e044a249",
+      "width": 1366,
+      "height": 5075,
+      "bytes": 1137599,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261105120110/https://www.cnbctv18.com/technology/indias-new-ai-security-audit-rules-could-put-openai-anthropic-under-greater-scrutiny-20027678.htm",
+      "timestamp": "20261105120110",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000428",
+  "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+  "capturedAt": "2026-11-05T11:59:32Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 344313,
+    "sha256": "260e3313240a254e00572862b7b090ed725bcee0af20c53ed67b7650580b54b0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A74DD99B78B24A03515457EB00DB15A4",
+      "status": 200,
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6801,
+      "afterScrollHeight": 6801,
+      "wantedHeight": 6801
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "353ee972c4bd3859ae59c905a6278fd8138ca6daa11c5c16dd1d2c4972bcbea3",
+    "width": 1366,
+    "height": 6801,
+    "bytes": 783840,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6801,
+    "afterScrollHeight": 6801
+  },
+  "record": {
+    "capturedAt": "2026-11-05T11:59:32Z",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 344313,
+      "sha256": "260e3313240a254e00572862b7b090ed725bcee0af20c53ed67b7650580b54b0"
+    },
+    "finalUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "httpStatus": 200,
+    "title": "moonshotai/Kimi-K3.1-Pro · Hugging Face",
+    "rendered": {
+      "textChars": 12268,
+      "textSha256": "f6895137282b0494a9974583e4bd0b87c7f4d596e0a31ffb2082371efe7f8550",
+      "htmlSha256": "08cd214ca98f808450714b1e5ac8771daac11e1ac81b9714754dbb12f7b810fa"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "353ee972c4bd3859ae59c905a6278fd8138ca6daa11c5c16dd1d2c4972bcbea3",
+      "width": 1366,
+      "height": 6801,
+      "bytes": 783840,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261104153301",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261104153301/https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261105073153/https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "timestamp": "20261105073153",
+      "verifiedHttp": 200
+    }
+  }
+}

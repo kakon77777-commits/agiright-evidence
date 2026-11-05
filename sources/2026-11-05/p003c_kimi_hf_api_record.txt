@@ -1,0 +1,12 @@
+Hugging Face API record for moonshotai/Kimi-K3.1-Pro, fetched with curl on 2026-11-05 (Taipei) from https://huggingface.co/api/models/moonshotai/Kimi-K3.1-Pro and /commits/main (HTTP 200 both). Fields copied from the JSON; the download and like counters are left out because they change.
+id: moonshotai/Kimi-K3.1-Pro
+createdAt: 2026-11-02T04:13:51.000Z
+lastModified: 2026-11-05T07:11:43.000Z
+private: false | gated: false | disabled: false
+license tag: other | license_name: kimi-k3.1-pro
+usedStorage bytes: 1561355732732
+files listed: 112 | safetensors shards: 96
+commits on main (2):
+  2026-11-05T07:11:43.000Z  d9e99b07  Update encoding_k3.py
+  2026-11-02T04:13:51.000Z  6d0a0202  Initial commit
+author listing (https://huggingface.co/api/models?author=moonshotai, newest lastModified first): first entry moonshotai/Kimi-K3.1-Pro; the previous flagship repository is moonshotai/Kimi-K3 (createdAt 2026-06-13T06:42:57.000Z).

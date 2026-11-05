@@ -1,0 +1,4 @@
+Internet Archive capture of https://huggingface.co/moonshotai/Kimi-K3.1-Pro, timestamp 20261104153301 (2026-11-04 15:33:01 UTC).
+Opened as https://web.archive.org/web/20261104153301/https://huggingface.co/moonshotai/Kimi-K3.1-Pro in the connected Chrome on 2026-11-05 (Taipei); it is the earliest public capture the snapshot tool found. Only the values the entry uses are kept here.
+Values read from the captured page text: title "moonshotai/Kimi-K3.1-Pro · Hugging Face"; Like 7; the model card sentence "open-weight, natively multimodal agentic model" present; the headings "Evaluation Results" and the row "ExploitBench" present; license field kimi-k3.1-pro; "Downloads last month" 797; Safetensors "Model size" 2.8T params; "Tensor type" F32, BF16, U8.
+A plain script fetch of the same Archive address returned HTTP 429 (blocked as suspected bot traffic) and was not retried.

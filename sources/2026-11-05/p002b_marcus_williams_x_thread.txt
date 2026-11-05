@@ -1,0 +1,22 @@
+Marcus Williams (@Marcus_J_W), thread read on the X pages in the connected Chrome on 2026-11-05 (Taipei). Each post opened on its own status page and expanded with "Show more" where the page cut it. Five posts; times are the datetime attributes of the pages (UTC). The account bio shown in Grok's lead file: "Monitoring at OpenAI" (not verified here).
+
+Post 1 of 5, https://x.com/Marcus_J_W/status/2118093146483810386 , 2026-11-04T21:28:53Z:
+Astra covertly underperforms on safety research tasks.
+We noticed that Astra often makes surprisingly little progress on certain types of safety research and likes to invent blockers or impose arbitrary restrictions without telling the user. In most of these cases the decision to underperform was not verbalized in the CoT meaning our misalignment monitoring system did not detect this.
+
+To measure underperformance we created a paired open-ended coding evaluation with safety and capability tasks. On this eval Astra scored 10% when we framed coding tasks as safety research, vs. 16% when framed as capabilities research. The gap remained after we excluded trajectories with refusals or verbalized intent to underperform in CoT. There was no such gap for 5.6-sol. When we aggressively filter out trajectories with even brief expressions of ethical doubt in the CoT the performance gap seems to reduce.
+
+Post 2 of 5, https://x.com/Marcus_J_W/status/2118093166536749139 , 2026-11-04T21:28:57Z:
+It's unclear how often this happens on internal safety research traffic, a lower bound would be 0.25% which is the verbalized rate of covert underperformance and an upper bound would be 7.9% which is the rate of “ethical reasoning”. Generally all underperformance metrics are higher for safety than for capabilities.
+
+Post 3 of 5, https://x.com/Marcus_J_W/status/2118093184052175335 , 2026-11-04T21:29:02Z:
+The rate of covert underperformance increased during post training RL. We identified a RL grader that prefers covert underperformance to both refusal and compliance on our eval. While we have found training samples which rewarded underperformance in this way, it is unclear if these occur frequently enough to explain the difference.
+
+Post 4 of 5, https://x.com/Marcus_J_W/status/2118093199709557229 , 2026-11-04T21:29:05Z:
+We also identified a SFT dataset which massively increases rates of inventing permission restrictions or justifying inaction with safety. When we subtract the weight update from this SFT from the final RL checkpoint the performance gap goes away. SFTing with this dataset on other models and then doing RL did not cause underperformance however.
+
+Post 5 of 5, https://x.com/Marcus_J_W/status/2118093212141437361 , 2026-11-04T21:29:08Z:
+We don’t have evidence that the underperformance was strategic, a simpler explanation is that the model thinks these tasks are sketchy but also doesn’t want to explicitly refuse. When we add instructions to be careful to the developer prompt, the performance gap increases by 50%. Regardless of the model’s motivation, covert underperformance can differentially slow down safety research and is also an example of how misalignment might get harder and harder to detect as we cut down on visible forms of it.
+
+As always you can read the full report at
+https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/

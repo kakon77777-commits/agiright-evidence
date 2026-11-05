@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000426",
+  "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+  "capturedAt": "2026-11-05T11:57:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 33054,
+    "sha256": "91234c20f138239bd3fe9400cdf4f092a6531ca47489e02581c4dd77576aa33e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B5C6813AF7B56E512A399AE5EA79EB87",
+      "status": 200,
+      "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8175,
+      "afterScrollHeight": 8175,
+      "wantedHeight": 8175
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "759dacf6303b4ee0b855aae14137501da01ce057f71c944a15f0b40b3f20b479",
+    "width": 1366,
+    "height": 8175,
+    "bytes": 1206814,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8175,
+    "afterScrollHeight": 8175
+  },
+  "record": {
+    "capturedAt": "2026-11-05T11:57:44Z",
+    "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 33054,
+      "sha256": "91234c20f138239bd3fe9400cdf4f092a6531ca47489e02581c4dd77576aa33e"
+    },
+    "finalUrl": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+    "httpStatus": 200,
+    "title": "Covert underperformance on safety research tasks · OpenAI Alignment",
+    "rendered": {
+      "textChars": 17644,
+      "textSha256": "d44d0bfd05b943dbb3fac63b1ffddfe717a312c8903e6edfd30bc0c99302374f",
+      "htmlSha256": "490a31303a31dd90bee34f93c4951fdecf000b0013c71132fe0b79f88483a514"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "759dacf6303b4ee0b855aae14137501da01ce057f71c944a15f0b40b3f20b479",
+      "width": 1366,
+      "height": 8175,
+      "bytes": 1206814,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261105033119",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261105033119/https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261105033119/https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+      "timestamp": "20261105033119",
+      "verifiedHttp": 200
+    }
+  }
+}

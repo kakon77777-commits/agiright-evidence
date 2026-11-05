@@ -1,0 +1,10 @@
+CNBC TV18, "India’s new AI security audit rules could put OpenAI, Anthropic under greater scrutiny", by Ashmit Kumar and Tenzin Norzom, page dated "November 5, 2026 | 09:28 IST".
+https://www.cnbctv18.com/technology/indias-new-ai-security-audit-rules-could-put-openai-anthropic-under-greater-scrutiny-20027678.htm
+Read in full in the connected Chrome on 2026-11-05 (Taipei). Only the fragments the entry quotes, with their context, are kept here; the article is copyrighted.
+
+Fragments quoted by the entry:
+The Artificial Intelligence Security Auditing Guidelines come amid growing concerns over cybersecurity risks linked to AI systems and prescribe a risk-based framework under which AI systems would be classified as low, moderate, high or critical risk.
+The guidelines state that “AI agents shall operate under least privilege”
+the framework specifically calls for a “kill switch mechanism”.
+The guidelines also prescribe a six-hour reporting window for AI-related security incidents to CERT-In
+Facts the entry paraphrases (not quoted): AI agents should not automatically inherit permissions from users, tools or other agents; critical-risk systems would face continuous monitoring and independent audits by CERT-In-empanelled organisations; audits would also examine hallucination mitigation and harmful, biased or copyright-protected outputs; labelling or watermarking of synthetic content depending on use; the framework covers the AI lifecycle from training and development to deployment and monitoring. The article links no CERT-In document and gives no draft date or comment deadline.

@@ -1,0 +1,75 @@
+{
+  "id": "topic-2026-000430",
+  "url": "https://finance.yahoo.com/technology/ai/articles/pentagon-tech-chief-warns-535-045804154.html",
+  "capturedAt": "2026-11-05T12:01:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "fetch failed"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F50FA703C9C410087301CA1588FAFEE2",
+      "status": 200,
+      "url": "https://finance.yahoo.com/technology/ai/articles/pentagon-tech-chief-warns-535-045804154.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 7502,
+      "afterScrollHeight": 8375,
+      "wantedHeight": 8375
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "73b044dc6c9d829e2f0c4b876157d966c860e463cb636862b3f220152c569fe6",
+    "width": 1366,
+    "height": 8375,
+    "bytes": 606687,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 7502,
+    "afterScrollHeight": 8375
+  },
+  "record": {
+    "capturedAt": "2026-11-05T12:01:29Z",
+    "url": "https://finance.yahoo.com/technology/ai/articles/pentagon-tech-chief-warns-535-045804154.html",
+    "raw": {
+      "error": "fetch failed"
+    },
+    "title": "Pentagon Tech Chief Warns 535 Lawmakers Writing AI Rules ‘Could Kill the Industry’",
+    "finalUrl": "https://finance.yahoo.com/technology/ai/articles/pentagon-tech-chief-warns-535-045804154.html",
+    "httpStatus": 200,
+    "rendered": {
+      "textChars": 5437,
+      "textSha256": "29415e24180d71eff302fe4d259a2ec554de97230283039080d7e841b0e300a4",
+      "htmlSha256": "1de4f6164e2431119c451c8a0bf0662a36d23da6599c9287142616e40339d3e1"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "73b044dc6c9d829e2f0c4b876157d966c860e463cb636862b3f220152c569fe6",
+      "width": 1366,
+      "height": 8375,
+      "bytes": 606687,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "fetch failed"
+    }
+  }
+}
