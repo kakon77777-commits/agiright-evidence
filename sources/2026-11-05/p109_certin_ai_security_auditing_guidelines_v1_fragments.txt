@@ -1,0 +1,19 @@
+CERT-In, "Artificial Intelligence (AI) Security Auditing Guidelines", v1.0, cover date 04 November 2026, 107 pages. The address the seats cite is https://www.cert-in.org.in/PDF/AI_Security_Auditing_Guidelines.pdf (the guidelines page is https://www.cert-in.org.in/s2cMainServlet?pageid=GUIDLNVIEW02&refcode=CISG-2026-04); CERT-In's own server did not answer from the host's machine (curl, a browser and a fetch service all failed), so the document was read in the Internet Archive's copy: https://web.archive.org/web/20261105065305id_/https://www.cert-in.org.in/PDF/AI_Security_Auditing_Guidelines.pdf (capture stamp 2026-11-05 06:53:05 UTC; fetched 2026-11-05 night, Taipei, with curl, HTTP 200, 1387976 bytes, SHA-256 38eb1fa895f8b356acd8cc28f79c6e13259b35fd5bc9ac4f9237470fd637d0a5; 107 pages; text extracted from the PDF by script). Cited by the Realist, Moderate and Radical seats of Round 92 and by the dated note on topic 429. Only the sentences quoted by the note and by Episode 92 are kept here, because the document is a government publication whose terms of reuse the copy does not state; the page number is the PDF's own footer ("Page N of 107"). The sentences are copied as extracted, including the missing space in "gates,and".
+
+cover page (page 1 carries no footer; this is the text before the footer "Page 2 of 107") | Artificial Intelligence (AI) Security Auditing Guidelines
+cover page (page 1 carries no footer; this is the text before the footer "Page 2 of 107") | Document Identifier AI Security Auditing Guidelines v1.0
+cover page (page 1 carries no footer; this is the text before the footer "Page 2 of 107") | CERT-In Sub-group 03 – AI Security Auditing Guidelines Working Group
+cover page (page 1 carries no footer; this is the text before the footer "Page 2 of 107") | 04 November 2026
+p.4 | AI systems processing Indian data
+p.4 | to Indian users
+p.25 (Table 11, "Minimum Audit Requirement" column, the Tier 2 and Tier 4 rows; the same sentences recur in Table 14 on p.26) | Independent audit by CERT-In empanelled auditing organisations at least annually
+p.25 (Table 11, "Minimum Audit Requirement" column, the Tier 2 and Tier 4 rows; the same sentences recur in Table 14 on p.26) | Independent audit by CERT-In empanelled auditing organisation with continuous monitoring.
+p.65 | Agentic AI capabilities (if present) have least-privilege permissions, human approval gates,and kill switch capability.
+p.66 | Agents shall operate under least privilege and shall not automatically inherit permissions from users, tools or other agents.
+p.66 | High-risk agentic systems shall support emergency interruption, credential revocation, rollback and prevention of uncontrolled automatic restart.
+p.76 | AI incidents meeting CERT-In reportable criteria shall be reported within 6 hours.
+p.56 | AI-related security incidents reported within mandated timelines (6 hours)
+p.41 | The audit team shall be free from conflicts of interest that could impair objectivity, professional judgement or the reliability of audit conclusions.
+p.43 | Absence of access shall not automatically be treated as evidence of conformity.
+p.41 | 7.7 Auditor Independence Requirements
+p.43 | 7.9 Scope Limitations and Alternative Assurance Evidence
