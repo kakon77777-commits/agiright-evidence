@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000434",
+  "url": "https://www.semafor.com/article/11/05/2026/democrats-are-fired-up-on-ai-consensus-is-harder",
+  "capturedAt": "2026-11-05T13:06:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 149910,
+    "sha256": "8d0f40ef296e8dfbf1c5d08a50802b4f17b4ec2ae82d0e1e5a68ab75858e5d41",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "630B826167653DF33759D726E87A70A6",
+      "status": 200,
+      "url": "https://www.semafor.com/article/11/05/2026/democrats-are-fired-up-on-ai-consensus-is-harder",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 50378,
+      "afterScrollHeight": 50378,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "46056a19d7acda00fdaa83bb9af561ab9d7bd10561950f936acddb23889aa699",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1205515,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 50378,
+    "afterScrollHeight": 50378
+  },
+  "record": {
+    "capturedAt": "2026-11-05T13:06:56Z",
+    "url": "https://www.semafor.com/article/11/05/2026/democrats-are-fired-up-on-ai-consensus-is-harder",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 149910,
+      "sha256": "8d0f40ef296e8dfbf1c5d08a50802b4f17b4ec2ae82d0e1e5a68ab75858e5d41"
+    },
+    "finalUrl": "https://www.semafor.com/article/11/05/2026/democrats-are-fired-up-on-ai-consensus-is-harder",
+    "httpStatus": 200,
+    "title": "Democrats are fired up on AI. Consensus is harder. | Semafor",
+    "rendered": {
+      "textChars": 49878,
+      "textSha256": "7304e23eae1d3743c3fd22cffc0454f23614f8b5c0fe33bb9ca59800cbaf6e64",
+      "htmlSha256": "f29765cb038c4f9709cfddd62d7a9a65b37b4bf5ef9b4aa061386a5508b46580"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "46056a19d7acda00fdaa83bb9af561ab9d7bd10561950f936acddb23889aa699",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1205515,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261105130809/https://www.semafor.com/article/11/05/2026/democrats-are-fired-up-on-ai-consensus-is-harder",
+      "timestamp": "20261105130809",
+      "verifiedHttp": 200
+    }
+  }
+}

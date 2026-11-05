@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000433",
+  "url": "https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation",
+  "capturedAt": "2026-11-05T13:05:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 150773,
+    "sha256": "3dd9afb02981eb592eccdc091e2c123ea75d6074cd28db25c1ae467bf7ab9554",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7D1119CF909F61CB2982A106B90F04DF",
+      "status": 200,
+      "url": "https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4182,
+      "afterScrollHeight": 4182,
+      "wantedHeight": 4182
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5afd046f518b1599396c1d04b262cbcc2ec145dbae64395d59f05ddacdedd9b9",
+    "width": 1366,
+    "height": 4182,
+    "bytes": 1134855,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4182,
+    "afterScrollHeight": 4182
+  },
+  "record": {
+    "capturedAt": "2026-11-05T13:05:14Z",
+    "url": "https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 150773,
+      "sha256": "3dd9afb02981eb592eccdc091e2c123ea75d6074cd28db25c1ae467bf7ab9554"
+    },
+    "finalUrl": "https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation",
+    "httpStatus": 200,
+    "title": "What the blue tsunami means for AI policy",
+    "rendered": {
+      "textChars": 4774,
+      "textSha256": "2bba2d4f95dcc17f7ca98b90a0fecf18d8a020b117058b3da31e9b32826c5af6",
+      "htmlSha256": "3434d1eef503a53783e69da743454f098f3f5f07b3399fd0b51b9dfb7bbd156f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "5afd046f518b1599396c1d04b262cbcc2ec145dbae64395d59f05ddacdedd9b9",
+      "width": 1366,
+      "height": 4182,
+      "bytes": 1134855,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261104210623",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261104210623/https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261105130632/https://www.transformernews.ai/p/midterms-democrats-blue-tsunami-ai-policy-legislation",
+      "timestamp": "20261105130632",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "topic-2026-000436",
+  "url": "https://x.com/theinformation/status/2118131219791561202",
+  "capturedAt": "2026-11-05T13:10:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "98f709c77a1c2aa73b4284ebe82df0a80a469abf6df68935d3844983789da0a1",
+    "width": 640,
+    "height": 900,
+    "bytes": 239747,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-05T13:10:21Z",
+    "url": "https://x.com/theinformation/status/2118131219791561202",
+    "finalUrl": "https://x.com/theinformation/status/2118131219791561202",
+    "screenshot": {
+      "sha256": "98f709c77a1c2aa73b4284ebe82df0a80a469abf6df68935d3844983789da0a1",
+      "width": 640,
+      "height": 900,
+      "bytes": 239747,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2118131219791561202",
+      "handle": "theinformation",
+      "syndicationSha256": "6f3c673b11ba903a5e04558ac7f48622019d5f1d5a486032a532dc519df1c35a",
+      "createdAt": "2026-11-05T00:00:10.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "theinformation",
+      "lang": "en",
+      "textSha256": "656a6caaaf794f9128cfc43440f8158037dbba6cfc0b87709b764d5f0bc0fd23",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "18b19179d3c0113e115b819651fc8557259696c29d451b9579c7a3e1ce81a0fd",
+          "bytes": 122359,
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "oembedSha256": "c0b472a067bc561ad7e66ac84d8fdc063b46b0dee189ea089bc1d6cd93023a9a",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

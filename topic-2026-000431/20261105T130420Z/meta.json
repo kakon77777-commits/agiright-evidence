@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000431",
+  "url": "https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0",
+  "capturedAt": "2026-11-05T13:04:20Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 6050,
+    "sha256": "b603878490d180f90f1e16b2a78090a09c208bb7f02d12208c570f8bba1c3600",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "3563E6D672E5DAA0246B28937D1E986A",
+      "status": 403,
+      "url": "https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "ef5a49942c409f1192040bb01cc3ce410277d320c0cc830df571aadd88341152",
+    "width": 1366,
+    "height": 900,
+    "bytes": 31000,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-05T13:04:20Z",
+    "url": "https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 6050,
+      "sha256": "b603878490d180f90f1e16b2a78090a09c208bb7f02d12208c570f8bba1c3600"
+    },
+    "finalUrl": "https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 258,
+      "textSha256": "9f7754a24b45d21d96b74d858c51d63f2b249ad704db7ae5bf086e074d2c5c23",
+      "htmlSha256": "b1d2c90ccee16b1392d99ee0203fddba6df4152795b4aa4352c975718e1f7a86"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "ef5a49942c409f1192040bb01cc3ce410277d320c0cc830df571aadd88341152",
+      "width": 1366,
+      "height": 900,
+      "bytes": 31000,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261105121527",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261105121527/https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261105121527/https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0",
+      "timestamp": "20261105121527",
+      "verifiedHttp": 200
+    }
+  }
+}

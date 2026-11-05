@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000432",
+  "url": "https://apnews.com/article/economy-trump-midterms-inflation-ai-wealthy-healthcare-f8dbe8800549340c8a75d956302c126b",
+  "capturedAt": "2026-11-05T13:04:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 6059,
+    "sha256": "5cbc01cdda769a8430cea591f366d58e92bbe8c9990d6c9764901b5e0aab4dc4",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "576F73EBD6B12A8E304C0EB5D04CA675",
+      "status": 403,
+      "url": "https://apnews.com/article/economy-trump-midterms-inflation-ai-wealthy-healthcare-f8dbe8800549340c8a75d956302c126b",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f18f383b9bcce2898899de36b62289cf98440af3f3c43fb576ac4ffcb9f5d88f",
+    "width": 1366,
+    "height": 900,
+    "bytes": 31125,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-05T13:04:48Z",
+    "url": "https://apnews.com/article/economy-trump-midterms-inflation-ai-wealthy-healthcare-f8dbe8800549340c8a75d956302c126b",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 6059,
+      "sha256": "5cbc01cdda769a8430cea591f366d58e92bbe8c9990d6c9764901b5e0aab4dc4"
+    },
+    "finalUrl": "https://apnews.com/article/economy-trump-midterms-inflation-ai-wealthy-healthcare-f8dbe8800549340c8a75d956302c126b",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 258,
+      "textSha256": "db7746df395ec550e9100ab3fc9cab88e90dd8b92649d53355fa29b59637e328",
+      "htmlSha256": "3c2020d85e43ab98447e9a858f90d52907df5ed4bc1d779831ceaf9572050999"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "f18f383b9bcce2898899de36b62289cf98440af3f3c43fb576ac4ffcb9f5d88f",
+      "width": 1366,
+      "height": 900,
+      "bytes": 31125,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261105093802/https://apnews.com/article/economy-trump-midterms-inflation-ai-wealthy-healthcare-f8dbe8800549340c8a75d956302c126b",
+      "timestamp": "20261105093802",
+      "verifiedHttp": 200
+    }
+  }
+}

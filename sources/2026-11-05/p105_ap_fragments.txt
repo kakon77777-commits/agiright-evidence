@@ -1,0 +1,30 @@
+Associated Press pages read in full in the connected Chrome on 2026-11-05 (Taipei). A plain script fetch of AP article addresses returned a Cloudflare block page (HTTP 403) and was not retried. Only the fragments the entries quote, with their context, are kept here; the articles are copyrighted.
+
+[A] https://apnews.com/article/congress-democratic-blue-wave-midterms-house-senate-9c5c4c5283f58b1ae0786e2f410c21a0
+Page title: "Trump acknowledges Iran war after Democrats sweep Congress | AP News". By Lisa Mascaro. "Updated 4:49 AM GMT+8, November 5, 2026".
+The midterm election blowout delivered a new era in Washington, with Democrats in Congress eager to meet voter demands for change while Republicans watched their majorities evaporate after a revolt against President Donald Trump and his party in power.
+They are ready to launch a 100-day agenda to lower the costs of gas, groceries and healthcare and conduct vast oversight and investigations into Trump and his administration, with impeachment an option.
+They’re also ready to dive into a robust oversight agenda of the administration and aspects of corporate America to, as Jeffries says, “hold the crooks accountable.”
+With the Democratic majority in the 435-member House growing well past the 218 needed and the Senate Democrats holding at least 54 of 100 seats in that chamber, Jeffries and Schumer will have room to maneuver.
+In a head-spinning development, Mississippi Democrat Scott Colom said he will win against Republican Sen. Cindy Hyde-Smith. Their race remained too early to call.
+Trump struck a conciliatory tone, suggesting he could work with the Democrats, but he also warned of gridlock ahead as he threatened to use the power of the presidential veto to strike down their agenda.
+“I don’t want to be just sitting there for two years vetoing everything,” he told Politico.
+Vice President JD Vance, often eyed as Trump’s likely successor at the White House, pointedly blamed the president’s war in Iran for Republicans’ midterm wipeout. “The reason we lost is the war,” Vance wrote.
+Sen. Ron Wyden, the top Democrat on the Senate Finance Committee, issued his own one-word missive: “Subpoenas.”
+The swelling majorities, with some races still too early to call, underlined a deep sense of voter anger and concern over the economy and the state of democracy.
+
+[B] https://apnews.com/article/economy-trump-midterms-inflation-ai-wealthy-healthcare-f8dbe8800549340c8a75d956302c126b
+Page title: "The midterm verdict on Trump's economy | AP News"; the hub headline is "Inflation, tariffs and a voter revolt: The midterm verdict on Trump’s economy". By Josh Boak. "Updated 8:27 PM GMT+8, November 5, 2026".
+Most voters said that Trump’s own policies had smothered growth and driven costs even higher, according to The AP Voter Poll, a survey of roughly 100,000 midterm voters.
+About 9 in 10 voters said the cost of living was a “crucial” or “major” factor in their vote for Congress.
+Still, the major driver of growth has been the buildout of artificial intelligence — a boom that Trump has actively stoked by refusing to codify more aggressive federal oversight.
+Voters don’t share Trump’s optimism about AI, which he has renamed “super intelligence” in federal documents.
+Instead of buying the arguments that AI would increase productivity and accelerate growth, about 6 in 10 voters said AI will do more to hurt society.
+Despite the anxiety, only about one-quarter of voters said AI was a “crucial” factor.
+The AP Voter Poll is a survey of more than 100,000 voters conducted by SSRS for The Associated Press, ABC News, CBS News, CNN, FOX News Media, NBC News and Versant.
+The margin of sampling error is plus or minus 0.6 percentage points for the full sample.
+
+[C] https://apnews.com/article/trump-2026-midterms-voters-young-voters-hispanic-voters-democrats-congress-ba1689d8402415d26ad32f4fa80ab2f9
+Page title: "How Republicans lost the midterms: AP Voter Poll | AP News".
+Many voters expressed frustration with both parties: On the economy, foreign policy, healthcare, taxes and immigration, roughly 2 in 10 voters said “neither” party was better equipped to handle these issues. An even larger share of voters said neither party would be better at addressing government corruption or artificial intelligence.
+About 7 in 10 voters said Congress was not doing enough to provide checks and balances for the presidency, including about 4 in 10 Republicans.

@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000435",
+  "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+  "capturedAt": "2026-11-05T13:08:30Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 1249051,
+    "sha256": "d2dba53cb70fce22550b89c440c1046146483aaa2f74cbbf591b37aaafe43a5e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8AD2BAE531DDB64DA5C820823C3F9AE8",
+      "status": 200,
+      "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4586,
+      "afterScrollHeight": 4586,
+      "wantedHeight": 4586
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "60afb70a15d1290b5ddf1ad7e0aec7e17fa6072ec7819336d5c2cb537da189b5",
+    "width": 1366,
+    "height": 4586,
+    "bytes": 849768,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4586,
+    "afterScrollHeight": 4586
+  },
+  "record": {
+    "capturedAt": "2026-11-05T13:08:30Z",
+    "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1249051,
+      "sha256": "d2dba53cb70fce22550b89c440c1046146483aaa2f74cbbf591b37aaafe43a5e"
+    },
+    "finalUrl": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+    "httpStatus": 200,
+    "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms | WIRED",
+    "rendered": {
+      "textChars": 3421,
+      "textSha256": "70a6c53f1281d3d0158208fccf2aad7deefa7f64661d882d3f987d0c4ced5b51",
+      "htmlSha256": "2f1c809b13e0b65fd6762a06174e9ba02d5da715198686406252e53f58106795"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "60afb70a15d1290b5ddf1ad7e0aec7e17fa6072ec7819336d5c2cb537da189b5",
+      "width": 1366,
+      "height": 4586,
+      "bytes": 849768,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261105130954/https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+      "timestamp": "20261105130954",
+      "verifiedHttp": 200
+    }
+  }
+}
