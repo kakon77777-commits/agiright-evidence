@@ -1,0 +1,53 @@
+{
+  "id": "topic-2026-000443",
+  "url": "https://whitehouse.gov/wp-content/uploads/2026/11/NSTM-6-NASS-Policy.pdf",
+  "capturedAt": "2026-11-06T12:32:30Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 507252,
+    "sha256": "4b15ebec3200cc4113c0670665f138e7d9f691fb431a37636b0555a754502be6",
+    "file": "raw.pdf"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "2428D6DC0B31CBFC24FD3F28C5442A38",
+      "status": 200,
+      "url": "https://whitehouse.gov/wp-content/uploads/2026/11/NSTM-6-NASS-Policy.pdf",
+      "mime": "application/pdf"
+    },
+    "skipped": "pdf: no rendered view captured (raw bytes stored instead)",
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "record": {
+    "capturedAt": "2026-11-06T12:32:30Z",
+    "url": "https://whitehouse.gov/wp-content/uploads/2026/11/NSTM-6-NASS-Policy.pdf",
+    "raw": {
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 507252,
+      "sha256": "4b15ebec3200cc4113c0670665f138e7d9f691fb431a37636b0555a754502be6"
+    },
+    "finalUrl": "https://whitehouse.gov/wp-content/uploads/2026/11/NSTM-6-NASS-Policy.pdf",
+    "httpStatus": 200,
+    "note": "pdf: no rendered view captured (raw bytes stored instead)",
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261106123233/https://whitehouse.gov/wp-content/uploads/2026/11/NSTM-6-NASS-Policy.pdf",
+      "timestamp": "20261106123233",
+      "verifiedHttp": 200
+    }
+  }
+}

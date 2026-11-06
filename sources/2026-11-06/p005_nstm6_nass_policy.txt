@@ -1,0 +1,614 @@
+ National Policy for
+Nucleic Acid Synthesis
+      Screening
+
+
+
+
+        November 2026
+                          THE WHITE HOUSE
+                             WASHINGTON
+
+
+NSTM-6                                                November 5, 2026
+
+MEMORANDUM FOR THE SECRETARY OF STATE
+               THE SECRETARY OF WAR
+               THE SECRETARY OF AGRICULTURE
+               THE SECRETARY OF COMMERCE
+               THE SECRETARY OF HEALTH AND HUMAN SERVICES
+               THE SECRETARY OF ENERGY
+               THE SECRETARY OF HOMELAND SECURITY
+               DIRECTOR OF NATIONAL INTELLIGENCE
+               DIRECTOR OF THE NATIONAL SCIENCE FOUNDATION
+
+FROM:          MARCO RUBIO
+               NATIONAL SECURITY ADVISOR
+
+               MICHAEL J. KRATSIOS
+               ASSISTANT TO THE PRESIDENT FOR SCIENCE AND TECHNOLOGY
+               DIRECTOR, OFFICE OF SCIENCE AND TECHNOLOGY POLICY
+
+SUBJECT:       Implementing the National Policy for Nucleic Acid
+               Synthesis Screening in Accordance with Executive Order
+               14292
+
+Biotechnology is central to American medicine, research, and
+industrial competitiveness; nucleic acid synthesis is one of the core
+technologies underpinning modern biological innovation. The United
+States stands at the threshold of a profound transformation driven by
+the convergence of super intelligence (SI) and biology. In an SI­
+enabled future, biotechnology innovation and manufacturing
+increasingly rely on nucleic acid synthesis to translate discoveries
+into the physical world. If misused, however, synthetic nucleic acids
+can also supply the raw materials for biological threats.
+
+We must continue to promote biotechnology innovation without
+jeopardizing our Nation's security, strength, or prosperity. Existing
+Federal guidance has relied on self-attestation rather than
+independent verification, forcing responsible American companies to
+compete against firms that bypass biosecurity safeguards for economic
+gain. Executive Order 14292 (on Improving the Safety and Security of
+Biological Research) calls for a national policy to replace the 2024
+Framework for Nucleic Acid Synthesis Screening with a commonsense
+approach that closes the gaps malicious actors exploit.
+
+Attached is the 2026 National Policy for Nucleic Acid Synthesis
+Screening ("Policy"). It requires all recipients of Federal life
+sciences funding to procure synthetic nucleic acids and benchtop
+synthesis equipment exclusively from certified suppliers that verify
+the legitimacy of customers and sequences ordered. The Policy replaces
+the 2024 Framework for Nucleic Acid Synthesis Screening and, on full
+implementation, the 2023 HHS Screening Framework Guidance. It supports
+the 2026 U.S. Government Policy for Stopping High-Risk Life Sciences
+Research by limiting a source of material inputs for dangerous gain of
+function work, without stifling biological innovation.
+
+The Policy conditions Federal funding on compliance with verifiable
+standards and establishes a dynamic, tech-enabled screening layer that
+keeps pace with evolving risks, including those from SI uplift. Within
+90 days, the National Institute of Standards and Technology (NIST),
+working with other departments and agencies and the private sector,
+will issue standards and test and evaluation protocols for screening
+and benchtop equipment used in nucleic acid synthesis. NIST will
+subsequently begin verifying screeners and maintaining a list of those
+approved, and the Department of Health and Human Services (HHS) will
+publish the first list of adherent suppliers within 160 days. All
+customers that receive Federal funding must procure all synthetic
+nucleic acids from certified suppliers within 250 days, and all
+benchtop synthesis equipment within 340 days.
+
+Frontier SI capabilities will unlock new opportunities for scientific
+discovery and transform how our Nation defends against biological
+threats. Through this Policy, the Administration is building a dynamic
+biosecurity defense centered on strong controls over the materials
+that enable synthetic biology misuse. Powered by SI, screening will
+shift from list-based to risk-based, creating a flexible framework
+that keeps pace with rapid technological advancement. These controls,
+in turn, will ensure the United States can continue extending the most
+powerful SI capabilities to our biotechnology innovators with
+confidence.
+
+The Policy will position the United States to lead a new era of SI-
+enabled biotechnology innovation while setting the global standard for
+security. The future of biotechnology is being built in the United
+States, the home of the researchers, institutions, and companies that
+pioneered the modern tools of biology, from gene editing to high-
+throughput sequencing. Today, we are at the forefront of SI-enabled
+biological science, and American companies are the leading suppliers
+of synthetic nucleic acids and lab-scale DNA synthesis equipment to
+researchers around the world. By ensuring that providers of synthetic
+nucleic acid sequences implement comprehensive, scalable, and
+verifiable screening mechanisms, we will minimize the risk of misuse
+and share the benefits of secure biotechnology innovation with
+Americans and the world.
+
+
+
+
+                                  ii
+                     NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+
+Purpose
+Nucleic acid synthesis is a transformative technology for medicine, research, and the
+American bioeconomy. However, if used maliciously, it can threaten the Nation’s economic
+and national security. For too long, American biotechnology leaders and other responsible
+innovators have had to compete against firms that bypass biosecurity safeguards for
+economic gain. To reverse these incentives, the United States will advance verifiable
+standards that turn responsible biosecurity practices into a competitive advantage in the
+global market.
+Pursuant to Executive Order (EO) 14292, “Improving the Safety and Security of Biological
+Research,” the 2026 Nucleic Acid Synthesis Screening Policy (hereafter “Policy”) establishes
+comprehensive, scalable, and verifiable synthetic nucleic acid procurement screening
+mechanisms to minimize the risk of misuse. This Policy will be implemented in accordance
+with the schedule set forth in Table 1. On the date of full implementation outlined in Table 1,
+this Policy supersedes the 2024 Framework for Nucleic Acid Synthesis Screening, as well as
+any conflicting or inconsistent nucleic acid synthesis screening policy. Until that date, parties
+should continue to draw from the relevant portions of the 2023 Health and Human Services
+(HHS) Screening Framework Guidance for Providers and Users of Synthetic Nucleic Acids.
+
+
+
+Scope and Covered Entities
+To ensure that federally funded life sciences research benefits American citizens without
+jeopardizing the Nation’s security, strength, and prosperity, this Policy sets forth the U.S.
+Government-wide policy for screening orders of synthetic nucleic acids, with the objective of
+applying to any order of 50 or more nucleotides in length, consistent with the baseline
+recommended in the 2023 HHS Screening Framework Guidance for Providers and Users of
+Synthetic Nucleic Acids.
+This Policy applies to all recipients and subrecipients of Federal funds (i.e., Customers) that
+procure synthetic nucleic acids or Benchtop Nucleic Acid Synthesis Equipment, but should be
+implemented in a streamlined and scalable way that encourages its applicability to all synthetic
+nucleic acid orders. As a condition of receiving Federal research funding, such entities will
+procure synthetic nucleic acids and Benchtop Equipment only from Adherent Suppliers. This
+policy supplements and does not supersede applicable law, including export controls and the
+regulations governing Biological Select Agents and Toxins and the U.S. Government Policy for
+Stopping High-Risk Life Sciences Research (July 20, 2026), which continue to apply.
+A Provider, Manufacturer, or Third-Party Vendor that supplies synthetic nucleic acids or
+Benchtop Equipment to Customers are either individually or jointly adherent to this Policy
+when it (1) subjects every order to a Screener verified by the National Institute of Standards
+and Technology (NIST), (2) conducts know-your-customer (KYC) verification, (3) reports
+Flagged Orders to the Appropriate Federal Authorities (e.g., the Federal Bureau of
+Investigation), (4) retains screening records and Customer interactions for a period of no-
+less-than 8 years, and (5) on lawful request provides such records to NIST or Appropriate
+Federal Authorities.
+
+
+
+                                                1
+                     NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+A verified Screener is a tool or service, or multiple thereof, that (1) assesses an order for
+sequences of concern (SOC) and for customer legitimacy through order-level KYC
+verification for SOCs, (2) issues a Screening Determination to a Supplier, and (3) reports
+Flagged Orders to Appropriate Federal Authorities, as applicable. Screening tool verification
+ensures that a Screener meets the screening standards issued by NIST as defined in this Policy
+and is eligible to be used by a Supplier.
+
+
+
+Screening System Structure
+To adhere to this Policy, a Supplier submits every in-scope synthetic nucleic acid order
+consisting of sequences 50 or more nucleotides in length to (or through) a verified Screener
+before that order is fulfilled, and retains exclusive responsibility for the following:
+   1. assesses each order, exercising judgement over the commercial relationship and the
+      disposition of each;
+   2. conducts onboarding KYC verification when it establishes a commercial relationship
+      with a customer as well as periodic re-verification;
+   3. retains all screening records and Customer interactions for a period of no less than 8
+      years as outlined in this Policy; and
+   4. on lawful request, provides records to NIST and Appropriate Federal Authorities as
+      outlined in this Policy.
+As the single control point for sequence risk screening, a verified Screener assesses all orders
+of 50 nucleotides or more in length for SOCs and customer legitimacy (if the order contains a
+SOC). This independent, order-level KYC screening ensures that for orders containing a SOC,
+customer legitimacy is verified at two distinct points: by the Supplier at the establishment of
+the commercial relationship, and by the verified Screener at the individual order level.
+Reporting responsibility is shared by the verified Screener and the Supplier. The verified
+Screener assesses each order, provides the Supplier with the Screening Determination and
+reports any Flagged Orders to Appropriate Federal Authorities, as applicable. The Supplier
+documents the Screening Determination, exercises independent judgement over the
+disposition of the order, and reports to Appropriate Federal Authorities if screening concerns
+remain unresolved.
+Synthesis performed on Benchtop Equipment presents the same risk and this Policy therefore
+requires that the control point be enforced at the equipment-level. Therefore, an adherent
+Manufacturer or the Third-Party Vendor provides Benchtop Equipment which initiates
+synthesis only when a valid authorization is issued by a verified Screener or for bounded offline
+operation as verified in accordance with published NIST standards.
+
+
+
+
+                                               2
+                     NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+
+Screening of Orders Fulfilled by Suppliers
+The final disposition of every order rests with the Supplier. A Supplier can flag an order or may
+fulfill an order for which the screening determination records neither a SOC nor an unresolved
+question of customer legitimacy.1 For Flagged Orders, the Supplier determines whether to
+fulfill or deny, and that determination is not met by the use of a verified Screener. Records are
+retained, and Flagged Orders reported with final disposition (fulfilled or denied), consistent
+with the standard developed by NIST. The technical means by which orders are transmitted to
+and assessed by a verified Screener, and by which a Screening Determination is issued, are
+established by NIST as defined in this Policy.
+
+
+Screening of Synthesis Performed on Benchtop Equipment
+Benchtop Equipment operates outside the physical and procedural controls of a centralized
+synthesis facility. Screening is therefore enforced by the equipment itself, which initiates
+synthesis only on receipt of a valid, unexpired authorization from a verified Screener
+corresponding to the submitted synthesis request, or during bounded offline operation
+verified in accordance with published NIST standards. Absent such an authorization, the
+equipment does not initiate synthesis. Manufacturers of obsolete Benchtop Equipment are
+encouraged to buy back or offer trade-in opportunities towards machines that meet the
+technical standards called for in this policy. NIST will establish the technical standards giving
+effect to this section, including the form, issuance, cryptographic verification, physical
+security, and validity of the authorization by which a verified Screener permits synthesis. These
+standards shall include the two tiers of equipment behavior set forth below.
+Tier 1: Networked Authorization
+A unit of Benchtop Equipment in communication with a verified Screener initiates synthesis
+only when a valid authorization is issued by that Screener for the request presented, and
+declines any request that is unauthorized, expired, or inconsistent with the authorization
+presented. Tier 1 is the default condition of operation for all Benchtop Equipment.
+Tier 2: Bounded offline operation
+A unit of Benchtop Equipment that cannot communicate with a verified Screener does not
+initiate synthesis, except to the limited extent in which NIST verification can be used to
+assure bounded offline operation as adherent to published standards. Where NIST verifies
+such operation, it will specify the conditions and technical means by which synthesis may
+be processed offline, the bounded operating limits that apply, and the records the
+equipment shall retain and later reconcile with the Manufacturer or a verified Screener on
+restoration of connectivity. Absent regular and necessary screening software updates, a
+unit of Benchtop Equipment does not initiate synthesis while unable to communicate with
+a verified Screener or unable to utilize the most updated screening software.
+Obligations of Manufacturers
+
+
+
+1
+ NIST will continue to develop methods and technologies, including super intelligence-assisted
+approaches, that strengthen the detection of a SOC as outlined in this Policy.
+
+
+                                               3
+                    NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+A Manufacturer seeking to supply Customers will:
+   1. design and distribute Benchtop Equipment that initiates synthesis only when valid
+      authorization is issued by a verified Screener, or for bounded offline operation as
+      verified in accordance with published NIST standards for Tier 2 operation;
+   2. conduct onboarding KYC verification with periodic re-verification before
+      distribution of Benchtop Equipment;
+   3. only supply equipment capable of maintaining tamper-resistant records of
+      authorization issued, requests declined, and synthesis performed, and synchronize
+      those records and screening software on at least a quarterly basis, or more
+      frequently, as necessary; and
+   4. ensure that Equipment Customers are aware of the responsibilities of becoming a
+      Provider of nucleic acids.
+
+
+
+Roles and Responsibilities
+NIST
+Subject to the availability of funding, NIST, in collaboration with the HHS and the U.S.
+Department of Agriculture (USDA), in consultation with the heads of other executive branch
+departments and agencies (agencies) will:
+   a) develop and publish the application procedures and implementation plan for Screener
+      verification, to include an opportunity for relevant agencies, including Federal law
+      enforcement agencies, intelligence community components, Department of War, and
+      the Department of State to share information and leverage national security processes
+      related to requirements for Screener verification;
+   b) in consultation with Appropriate Federal Authorities and, as appropriate and in
+      accordance with statute, private sector partners issue the standards that a Screener
+      will meet to achieve and maintain verification, including documentary standards, test
+      methods, reference datasets, performance criteria, Screening standards for Customer
+      identity verification, and cybersecurity requirements sufficient to protect Customer
+      and order data and to secure SOC databases;
+   c) specify the data that a verified Screener may receive, and the limits on its retention and
+      use, including a requirement that a verified Screener not retain the sequence, order, or
+      Customer data submitted to it beyond what is necessary to perform the assessment as
+      determined by NIST, issue the Screening Determination, and report Flagged Orders as
+      directed in this Policy;
+   d) stablish, maintain, and continuously update the reference list of and algorithm(s) for
+      determining SOCs as new scientific and threat information emerges, and establish a
+      procedure for the expedited and provisional addition and removal of sequences to that
+      list, with the sufficient level of cyber security for and around the list and algorithm(s),
+      including while at rest and for any necessary transfer or distribution;
+
+
+
+                                               4
+                 NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+e) develop pathway and technical means for risk-based oversight under the select agent
+   program instead of list-based oversight for SOCs and for those categories of synthetic
+   nucleic acids that are most likely to generate new SOCs;
+f) test, evaluate, verify, and approve that Screeners are adherent to NIST-determined
+   standards, publish and maintain the criteria and procedures governing verification, and
+   afford a Screener found deficient a period of appropriate time to be adherent to the
+   defined standards before verification is withdrawn;
+g) maintain a list of verified Screeners; NIST will provide HHS and USDA a list of verified
+   Screeners for determination of Adherent Suppliers;
+h) establish, and update as appropriate, the standards and criteria by which the
+   Adherence of a Supplier is verified, including the audit and documentation
+   requirements that a Supplier must satisfy to demonstrate Adherence;
+i) in coordination with relevant agencies, conduct tests and evaluations, including red
+   teaming, of Screeners and Suppliers, to test the effectiveness of Screening methods,
+   and incorporate the results into verification determinations and subsequent revisions
+   of the standards;
+j) establish the technical standards governing Benchtop Equipment, specifically the
+   conditions and technical means by which synthesis may proceed offline and the
+   bounded operating limits applicable to Tier 2 operation, to include physical security
+   (e.g., tamper resistance) and cybersecurity;
+k) research, develop, test, and validate novel Screening methods and technologies,
+   including super intelligence-assisted approaches and considerations for addressing
+   split orders, and, to the greatest extent feasible, incorporate them into the initial
+   Screening standards and subsequent revisions; and
+l) in collaboration with the Department of State and other relevant agencies, engage
+   industry, academic, and standards development organizations to promote globally
+   harmonized standards and practices consistent with this Policy; and
+m) in coordination with the Appropriate Federal Authorities, establish standardized
+   reporting procedures specifying: (1) reporting timelines and designated recipients; (2)
+   expedited reporting procedures for reasonably suspected imminent or significant
+   security threats; (3) procedures to minimize unnecessary duplicate reporting by
+   Screeners and Suppliers; (4) minimum information requirements and secure
+   transmission methods; and (5) procedures applicable when a Screener, Supplier, or
+   Customer is located outside the United States or when disclosure may be restricted by
+   applicable foreign law.
+
+
+
+
+                                           5
+                    NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+
+HHS and USDA
+HHS, in coordination with USDA, will:
+   a)     on the basis of the standards issued by NIST, publish and maintain a list of Adherent
+          Suppliers and make the list publicly available;
+   b)     pursuant to subsection 4(b) and section 7 of EO 14292, coordinate with other life
+          sciences funding executive branch agencies to establish and pursue the uniform
+          enforcement terms for this Policy;
+   c)     vet and maintain a list of any foreign affiliations of Adherent Suppliers as well as
+          other criteria needed to ensure independent screening;
+   d)     pursuant to 42 U.S.C. 262a and 7 U.S.C. 8401, examine regulatory controls over
+          whole and partial-genomes encoding select agents; and
+   e)     incorporate this policy’s requirements into federal assistance terms and conditions
+          in a fashion aligned with implementation of the dangerous gain of function policy
+          work.
+
+
+Federal Funding Agencies
+Pursuant to subsection 4(b) and section 7 of EO 14292, and consistent with applicable law and
+regulation, executive branch agencies funding life science research will incorporate into the
+terms and conditions of its awards a term providing that funding for research involving the
+procurement of synthetic nucleic acids or Benchtop Equipment is contingent on procurement
+from Adherent Suppliers. Regardless of the nature of transaction, Federal funding agencies
+must require individuals to keep records regarding any procurement, receipt, or exchange of
+SOCs or Benchtop Equipment. Researchers must execute such procurement, receipt, or
+exchange through a contractual or transactional agreement (e.g., a material transfer
+agreement). At a minimum, such contractual or transactional agreements must include
+prohibitions on exchanging synthetic nucleic acids or Benchtop Equipment from or to a
+researcher within a Covered Nation or that is otherwise barred under section 851 of the
+National Defense Authorization Act (NDAA) for Fiscal Year 2026, under the lists maintained
+pursuant to sections 1260H of the William M. (Mac) Thornberry NDAA for Fiscal Year (FY)
+2021, and section 1286 of the John S. McCain NDAA for FY 2019or under the entities of concern
+list developed pursuant to EO 14292 and the U.S. Government Policy for Stopping High-Risk
+Life Sciences Research (July 20, 2026), to the extent that information is publicly available.
+Beginning on the date of full implementation outlined in Table 1 below, those terms shall
+incorporate this Policy and require compliance with the applicable implementation deadlines
+set forth in Table 1, including:
+   a) a term providing that compliance by the contractual counterparty or award recipient
+      with this Policy, and with the guidance and standards issued under it, is material to the
+      Government’s payment decisions for purposes of 31 U.S.C. 3729(b)(4);
+   b) establish common award terms and conditions permitting awards made before the
+      date of the release of this Policy that immediately apply on the date of full
+      implementation in Table 1;
+
+
+
+                                              6
+                     NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+   c) include a term regarding intra-institutional sharing of synthetic nucleic acids between
+      known individuals when the sequences do not include a SOC;
+   d) a term providing that a violation of this Policy, or of the guidance and standards issued
+      under it, by any recipient of Federal funding may be considered a violation of such term
+      by the recipient’s employer or institution; and
+   e) establish common award terms providing that a recipient of financial assistance,
+      employer, or institution found to be in violation of the terms and conditions required by
+      this Policy may be subject to immediate revocation of ongoing Federal funding, for a
+      period of ineligibility of up to 5 years for Federal funds offered by relevant funding
+      agencies, and to such additional penalties as are consistent with existing Federal law
+      and regulation.
+An agency head may issue a case-by-case exception to this Policy when necessary for a health
+or national security mission, in consultation with the Assistant to the President for Science and
+Technology and the Assistant to the President for National Security Affairs. A Supplier fulfilling
+an order for synthetic nucleic acids or benchtop equipment under such an exemption does not
+violate this Policy.
+
+
+Customers
+As directed by subsection 4(b) and section 7 of EO 14292 and consistent with the terms and
+conditions of Federal funding, a Customer will demonstrate that:
+   a) all procurement of synthetic nucleic acids is conducted through Adherent Suppliers;
+      and
+   b) all procurement of Benchtop Equipment is conducted through Adherent Suppliers.
+A Customer should provide, at the time an order is placed, information sufficient to permit the
+Supplier to verify the legitimacy of that order in conformity with the most current standards
+issued by NIST.
+
+
+Suppliers
+A Supplier seeking to receive and fulfill orders from Customers will demonstrate its Adherence
+in accordance with the standards and criteria established by NIST. A Supplier receiving orders
+from Customers will:
+   a) submit all orders for synthetic nucleic acids to a verified Screener, in conformity with
+      the most current standards and criteria issued by NIST, and refrain from relying on a
+      Screener that is not verified;
+   b) conduct onboarding KYC of each Customer, verifying the Customer’s identity,
+      institutional affiliation, foreign affiliation in compliance with 10 USC 4872(f) and the
+      1260H of the William M. (Mac) Thornberry NDAA for FY 2021, and section 1286 of the
+      John S. McCain NDAA for FY 2019 authorization, and the legitimacy of the stated use
+      before submitting that Customer’s order for Screening;
+
+
+
+
+                                                7
+                     NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+   c) report Flagged Orders to Appropriate Federal Authorities in conformity with this
+      Policy;
+   d) retain securely, for a period of not-less-than 8 years, all Screening and order records,
+      including Flagged Orders and associated biological data; records of Screening
+      interactions with Customers, including those in which an order was determined to be
+      acceptable, documentation of action taken in response to a Flagged Orders; and the
+      basis for determinations regarding the legitimacy of Customers associated with
+      Flagged Orders; and
+   e) make the records required under this section available to NIST, in support of Screener
+      verification, adversarial evaluation, and of the verification of Supplier Adherence, and
+      to Appropriate Federal Authorities on lawful request.
+
+
+
+Reporting to Appropriate Federal Authorities
+A verified Screener will report each Flagged Order, Screening Determination, and reason for
+Screening Determination to Appropriate Federal Authorities after issuing the Screening
+Determination. The Supplier will, to the maximum extent allowed by law, report the Flagged
+Orders to Appropriate Federal Authorities when Screening concerns remain unresolved
+following review of the Screening Determination.
+Appropriate Federal Authorities will act on reports of Flagged Orders and other suspicious
+activity in accordance with their respective statutory authorities and missions. Appropriate
+Federal Authorities, including the Federal Bureau of Investigation, will designate and maintain
+a point of contact to receive such reports, and will work with NIST to incorporate standardized
+reporting procedures and formats into the Screening standards issued under Rules and
+Responsibilities section of this Policy.
+
+
+
+Enforcement
+Compliance with this Policy and with the guidance and standards issued under it is material to
+the Government’s payment decisions for purposes of 31 U.S.C. 3729(b)(4). A recipient of
+financial assistance, employer, or institution found to be in violation may be subject to
+immediate revocation of ongoing Federal funding, to a period of ineligibility of up to 5 years for
+Federal funds, and to such additional penalties as are consistent with existing Federal law and
+regulation.
+
+
+
+
+                                                8
+                     NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+
+Implementation
+Implementation of this policy shall start immediately on its publication. However, the 2023
+HHS Screening Framework Guidance for Providers and Users of Synthetic Nucleic Acids shall
+remain in effect until full implementation of Table 1, or until the implementation step identified
+below supersedes it, whichever comes first. On the date of full implementation of this Policy,
+it shall supersede and rescind any conflicting or inconsistent nucleic acid synthesis screening
+policy.
+Table 1. Schedule for implementation of this Policy
+
+ Implementation Step                                                                   Day
+
+ Release of this Policy                                                                 0
+
+ NIST issues Screening standards, Benchtop Equipment standards, and                     90
+ Screening test and evaluation protocols
+ NIST begins testing and verifying Screeners; begins maintaining list of               100
+ verified Screeners
+ HHS publishes initial list of Adherent Suppliers                                      160
+ Customers procure all synthetic nucleic acids through Adherent Suppliers              250
+ Customers procure all Benchtop Equipment through Adherent Suppliers                   340
+
+
+
+Review and Revision
+Consistent with subsection 4(b) of EO 14292, this Policy shall be reviewed and revised at least
+every four years, or as appropriate, to account for evolving biological threats and for risks and
+opportunities presented by novel technologies, including advances in super intelligence. NIST
+will revise the standards issued under Rules and Responsibilities section of this Policy as the
+results of adversarial evaluation warrant, without regard to the schedule for review of this
+Policy.
+
+
+
+Definitions
+For the purpose of this Policy, the following terms have the meanings set forth below.
+a) “Adherent” means, with respect to a Supplier, that the Supplier:
+   1. submits every order to a verified Screener for Screening;
+   2. conducts onboarding KYC of the customer at the establishment of the commercial
+      relationship, as well as periodic re-investigation;
+
+
+
+                                                9
+                     NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+   3. reports Flagged Orders to Appropriate Federal Authorities as directed in this Policy;
+   4. retains records as required under Rules and Responsibilities of this Policy; and
+   5. on lawful request, provides records to NIST and Appropriate Federal Authorities as
+      required under Rules and Responsibilities of this Policy.
+The terms “Adhere” and “Adherence” have corresponding meanings.
+b) “Appropriate Federal Authorities” may include the Federal Bureau of Investigation (FBI),
+   the Department of Commerce (DOC), and the Bureau of Industry and Security (BIS), each
+   acting within its respective statutory authority to receive and act on reports of Flagged
+   Orders and other suspicious activity.
+c) “Benchtop Nucleic Acid Synthesis Equipment” means Benchtop Equipment sold by
+   Manufacturers that is intended to be used to synthesize nucleic acids for use within a
+   research laboratory or institution. Nucleic acid synthesis equipment not small enough to
+   be placed on a benchtop (e.g., sits on the laboratory floor) is considered Benchtop Nucleic
+   Acid Synthesis Equipment if it is sold for use by Customers.
+d) “Covered Nation” means a nation defined in 10 USC 4872(f)(2).
+e) “Customer” means a recipient or subrecipient of Federal funds that requests synthetic
+   nucleic acids, Benchtop Equipment, or related access from a Supplier.
+f) “Flagged Orders” means an order or synthesis request that a Screening Determination has
+   identified as containing a SOC and unresolved concerns regarding customer legitimacy
+   (KYC). All Flagged Orders must meet NIST reporting standards.
+g) “Know Your Customer (KYC)” means the verification of legitimate use by a customer,
+   comprising verification of the Customer’s identity, verification of the Customer’s
+   institutional affiliation and authorization, and verification that the Customer’s stated use is
+   consistent with the activities of the purchasing organization. KYC is performed at two
+   points: by the Supplier at the establishment of the commercial relationship (“onboarding
+   KYC”), and by the verified Screener at the level of the individual order (“order-level KYC”).
+h) “Manufacturer” means an entity that produces Benchtop Equipment and distributes or
+   sells it to Customers.
+i) “Provider” means an entity that synthesizes synthetic nucleic acids and sells or otherwise
+   furnishes them to Customers.
+j) “Screener” means a tool or service, or a series of tools or services, that assesses an order
+   for sequence risk and for customer legitimacy through KYC verification, issues a Screening
+   Determination to a Supplier, and reports Flagged Orders to Appropriate Federal
+   Authorities as described in Reporting to Appropriate Federal Authorities section of this
+   Policy, as applicable. A Screener is a verified Screener when NIST has verified it against the
+   standards issued under Rules and Responsibilities section of this Policy. Any Screener may
+   be verified, whether operated by a Supplier for its own orders or offered by a third party as
+   a service to any Supplier. Screeners should not develop tools, reside in, be under the
+   control of, or send data to or through a Covered Nation.
+k) “Screening” means the assessment of an order, by a verified Screener, for sequence risk
+   and the verification of customer legitimacy through KYC verification, in conformity with
+   the standards issued under Rules and Responsibilities section of this Policy.
+
+
+
+                                               10
+                     NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+l) “Screening Determination” means the signed result issued by a verified Screener on
+   assessment of an order, recording whether the order presents a SOC, unresolved concerns
+   regarding customer legitimacy (KYC), both, or neither, or whether the assessment is
+   indeterminate for lack of sufficient technical evidence. A Screening Determination does
+   not itself authorize or refuse fulfillment; the disposition of an order remains the
+   responsibility of a Supplier.
+m) “Sequence of Concern (SOC)” means a nucleotide sequence 50 pairs or more in length
+   that is a best match to a sequence derived from or encoding a Biological Select Agent or
+   Toxin or an item on the Commerce Control List, except where the sequence is also found
+   in organisms that are not regulated, or a sequence that otherwise contributes to
+   pathogenicity or toxicity, biological weapons agents, or drug resistance, whether derived
+   from or encoding a regulated or an unregulated biological agent. NIST will develop and
+   maintain the standards and reference criteria by which Sequences of Concern are
+   identified, and will advance methods that improve identification of Sequences of Concern,
+   including those designed to evade comparison to known sequences.
+n) “Supplier” means a Provider, a Manufacturer, or a Third-Party Vendor, including core
+   facilities. Suppliers are collectively subject to the obligations set forth in Rules and
+   Responsibilities section of this Policy. Suppliers should not reside in or be under control of
+   a Covered Nation.
+o) “Third-Party Vendor” means an entity that distributes, resells, or otherwise furnishes to
+   Customers synthetic nucleic acids or Benchtop Equipment produced by another entity,
+   including but not limited to regional distributors and resellers of both new and used
+   Benchtop Nucleic Acid Synthesis Equipment.
+
+
+
+
+                                               11
+NATIONAL POLICY FOR NUCLEIC ACID SYNTHESIS SCREENING
+
+
+
+
+                        12
+

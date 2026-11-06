@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000439",
+  "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+  "capturedAt": "2026-11-06T12:29:41Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 165785,
+    "sha256": "30ccfeb36b1a6d4c96e6953ca2f78539c151fa502c2944f8e6c9f8f842f73906",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "81AF58C5FB274235646C406FE034C99D",
+      "status": 200,
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 41630,
+      "afterScrollHeight": 43321,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "e096386400ea5d41a7e87defb39d196cf28df62355041b3afa24eab3ce0de75b",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1800555,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 41630,
+    "afterScrollHeight": 43321
+  },
+  "record": {
+    "capturedAt": "2026-11-06T12:29:41Z",
+    "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 165785,
+      "sha256": "30ccfeb36b1a6d4c96e6953ca2f78539c151fa502c2944f8e6c9f8f842f73906"
+    },
+    "finalUrl": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+    "httpStatus": 200,
+    "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026 - METR",
+    "rendered": {
+      "textChars": 76299,
+      "textSha256": "71b345b6b2cbfe9dbdb6eb3cdab6b01532a6a8cc28755d1c76326b8afdcc29d0",
+      "htmlSha256": "f4d8fee92488007dc71349e2cfe35e1557c1d5720323136b0f44204e4ce86526"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "e096386400ea5d41a7e87defb39d196cf28df62355041b3afa24eab3ce0de75b",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1800555,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261105193303",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261105193303/https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261106123034/https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "timestamp": "20261106123034",
+      "verifiedHttp": 200
+    }
+  }
+}

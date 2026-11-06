@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000441",
+  "url": "https://x.com/Sam_McCandlish/status/2118422266669371519",
+  "capturedAt": "2026-11-06T12:31:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "a76d04e14919a0846f9dd213eda153aa2d88f9cb112afb4c7e1d2d02cd9b233a",
+    "width": 640,
+    "height": 900,
+    "bytes": 63798,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-06T12:31:14Z",
+    "url": "https://x.com/Sam_McCandlish/status/2118422266669371519",
+    "finalUrl": "https://x.com/Sam_McCandlish/status/2118422266669371519",
+    "screenshot": {
+      "sha256": "a76d04e14919a0846f9dd213eda153aa2d88f9cb112afb4c7e1d2d02cd9b233a",
+      "width": 640,
+      "height": 900,
+      "bytes": 63798,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2118422266669371519",
+      "handle": "Sam_McCandlish",
+      "syndicationSha256": "f0bec8c470e4afd52ff0d0f1b0d1682c97bcda3bbd7ffd667af5e61258e8879d",
+      "createdAt": "2026-11-05T19:16:41.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "Sam_McCandlish",
+      "lang": "en",
+      "textSha256": "3fdb4b18c24070e32730170e39a67947abd36ed246c6625898586839b7444aa1",
+      "media": [],
+      "oembedSha256": "039f939dcea56306e168c2d29657f490bb6a611c3cdf0d03b2f8141a4684ef38",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}
