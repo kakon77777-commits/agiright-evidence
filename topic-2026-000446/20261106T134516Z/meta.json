@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000446",
+  "url": "https://ballotpedia.org/Data_center-related_ballot_measures,_2026",
+  "capturedAt": "2026-11-06T13:45:16Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 180775,
+    "sha256": "a4e459e266bd5188ad0858884a1636948155d0ebdb5f4cd47676216c6b89d56a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "EDCDF31D49F73C27E106AF429411F534",
+      "status": 403,
+      "url": "https://ballotpedia.org/Data_center-related_ballot_measures,_2026",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5ed0e56d3bdd62b9600e7e25249c7967fb32e930e0805796be63e53d61eaf957",
+    "width": 1366,
+    "height": 900,
+    "bytes": 23735,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-06T13:45:16Z",
+    "url": "https://ballotpedia.org/Data_center-related_ballot_measures,_2026",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 180775,
+      "sha256": "a4e459e266bd5188ad0858884a1636948155d0ebdb5f4cd47676216c6b89d56a"
+    },
+    "finalUrl": "https://ballotpedia.org/Data_center-related_ballot_measures,_2026",
+    "httpStatus": 403,
+    "title": "ERROR: The request could not be satisfied",
+    "rendered": {
+      "textChars": 512,
+      "textSha256": "b715d3c014e4cc1dfb28743d82d1448106265ac43267920bf18ff69867abe3ab",
+      "htmlSha256": "0a495dc0cb0d5984c8e95565ed4fef9331bf63bad7fe2716d82e2c6719cab39b"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "5ed0e56d3bdd62b9600e7e25249c7967fb32e930e0805796be63e53d61eaf957",
+      "width": 1366,
+      "height": 900,
+      "bytes": 23735,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260320025914",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260320025914/https://ballotpedia.org/Data_center-related_ballot_measures,_2026"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261106134623/https://ballotpedia.org/Data_center-related_ballot_measures,_2026",
+      "timestamp": "20261106134623",
+      "verifiedHttp": 200
+    }
+  }
+}

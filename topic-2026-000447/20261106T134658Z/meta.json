@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000447",
+  "url": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+  "capturedAt": "2026-11-06T13:46:58Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 153816,
+    "sha256": "ac081bb3ab2ac1b3d6ba8fae0d5075c9425112ed97ec90b9040ce47922319237",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A39FA1E89C4B6B76D7EA2667ED1075C7",
+      "status": 200,
+      "url": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6195,
+      "afterScrollHeight": 6195,
+      "wantedHeight": 6195
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "9837355ec3215d649f3c7f90fb3d37ba449a8bda3693667351decca062291f7b",
+    "width": 1366,
+    "height": 6195,
+    "bytes": 891471,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6195,
+    "afterScrollHeight": 6195
+  },
+  "record": {
+    "capturedAt": "2026-11-06T13:46:58Z",
+    "url": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 153816,
+      "sha256": "ac081bb3ab2ac1b3d6ba8fae0d5075c9425112ed97ec90b9040ce47922319237"
+    },
+    "finalUrl": "https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+    "httpStatus": 200,
+    "title": "Americans Oppose AI Data Centers in Their Area",
+    "rendered": {
+      "textChars": 10830,
+      "textSha256": "9b73f815c0b6ab304fd4086e4787084e75bbca92d56f34eabcb6d2a24eb1c1d1",
+      "htmlSha256": "4719640bb1077ead7b5d7e2c103eaeffb4092c3eb66096538860ae4eb9531309"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9837355ec3215d649f3c7f90fb3d37ba449a8bda3693667351decca062291f7b",
+      "width": 1366,
+      "height": 6195,
+      "bytes": 891471,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260513110422",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260513110422/https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261106134812/https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx",
+      "timestamp": "20261106134812",
+      "verifiedHttp": 200
+    }
+  }
+}

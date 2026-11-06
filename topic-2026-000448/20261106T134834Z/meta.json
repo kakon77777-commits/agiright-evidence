@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000448",
+  "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+  "capturedAt": "2026-11-06T13:48:34Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 62837,
+    "sha256": "e72cd8d917ea2286e0bbde221ee1ce01455bca86f358ab837619f85ac0abec4a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/156.0.4314.58",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "6A30C3D20AA86C4DF01C4C6D82E21047",
+      "status": 403,
+      "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1021,
+      "afterScrollHeight": 1021,
+      "wantedHeight": 1021
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "7d6ef8f42828086f1ffa16dee615917e7ab9fd79353d49a961108502a841f2bc",
+    "width": 1366,
+    "height": 1021,
+    "bytes": 57458,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1021,
+    "afterScrollHeight": 1021
+  },
+  "record": {
+    "capturedAt": "2026-11-06T13:48:34Z",
+    "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 62837,
+      "sha256": "e72cd8d917ea2286e0bbde221ee1ce01455bca86f358ab837619f85ac0abec4a"
+    },
+    "finalUrl": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+    "httpStatus": 403,
+    "title": "Attention Required! | Cloudflare",
+    "rendered": {
+      "textChars": 683,
+      "textSha256": "8e94941c645ae062160c71afe1a4bedf2024cfa5d40b0a4a52590d584ce6dd17",
+      "htmlSha256": "3f34d48f13cec264a13a16f946eae732669a71b5321d0b6198b86d46563d10ab"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "7d6ef8f42828086f1ffa16dee615917e7ab9fd79353d49a961108502a841f2bc",
+      "width": 1366,
+      "height": 1021,
+      "bytes": 57458,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/156.0.4314.58)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20260714163801",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20260714163801/https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261106135024/https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+      "timestamp": "20261106135024",
+      "verifiedHttp": 200
+    }
+  }
+}
