@@ -1,0 +1,20 @@
+Source: https://news.ballotpedia.org/2026/11/06/voters-favored-limiting-data-center-development-in-40-of-41-local-ballot-measures-on-nov-3/
+Fetched: 2026-11-07 (Taipei) by script, HTTP 200, 139806 bytes of HTML, SHA-256 of the raw HTML d381577413aca2616275819745220b103a506e761ed9eee76ed81ff8a990df4d.
+Cited by the Radical seat of Round 94 and by Episode 94. Only the data-center section of the news digest is kept (the rest of the page covers other election results). Ballotpedia text is published under a Creative Commons licence; attribution: Ballotpedia.
+
+Voters favored limiting data center development in 40 of the 41 local ballot measure contests on Nov. 3. The one exception occurred in Harwood, North Dakota , where voters defeated a proposed review requirement for certain developments, including data centers.
+Voters approved 27 measures that limited data center development or expressed opposition to it. These included:
+Five full data center bans : one in California, one in Florida, and three in Ohio.
+Twelve partial bans : three in Kansas, one in Maine, and eight in Ohio. This includes bans with only narrow exceptions to bans on large data centers only.
+Three six-month moratoriums on data center development, all in Maine.
+Two applications of zoning regulations : two Adams County, Ohio, measures established zoning regulations for unincorporated areas, meaning that the areas affected would have to be zoned for a use consistent with data center development for construction to take place there.
+Two non-binding measures expressing opposition to data center development in Illinois.
+Two voter approval requirements : Grove City, Ohio, Issue 28 required approval for developments (including data center projects) using more than 50 acres, 20 megawatts of electricity, or 500,000 gallons of water a day. It also established enforceable community-impact standards for developments. A Janesville, Wisconsin measure required voter approval for development of a GM/JATCO proposed data center site if its cost exceeds $450 million.
+One measure related to financial guarantees : Perry, Ohio, Issue 16 requires hyperscale data center developers seeking certain tax incentives to provide financial guarantees to the community.
+Voters defeated 13 measures that would have favored data centers or expressed support for development. These included:
+Seven non-binding support measures : five in Illinois, one in New Jersey, and one in Ohio.
+Four rezoning measures , all in Wilmington, Ohio, that would have rezoned specific areas of land from residential to industrial uses, allowing data center construction at those sites.
+One measure that would have added data centers as an approved use for a particular area of land in Boulder City, Nevada .
+One measure upholding a term summary. The Ashville, Ohio, Data Center EdgeConneX Development Term Summary Referendum would have upheld Resolution 06-2026, a term summary guiding village negotiations with the data center company EdgeConneX.
+Voters decided on six local ballot measures related to data center development before Nov. 3. In all six cases, voters favored limits on data center development. In December, voters will decide on two local ballot measures related to data centers in Clarksville , Arkansas , and one in Mandan, North Dakota .
+See Ballotpedia’s full results and analysis for measure summaries and outcomes.

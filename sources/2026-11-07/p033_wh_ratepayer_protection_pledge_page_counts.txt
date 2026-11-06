@@ -1,0 +1,63 @@
+Source: https://www.whitehouse.gov/ratepayer-protection-pledge/
+Fetched: 2026-11-07 (Taipei) by script, HTTP 200, 391564 bytes of HTML, SHA-256 of the raw HTML 8844af087eae3e219221e3af35d536f2a90e089bbddbe69b189bae9772f7ce67.
+Cited by the Realist seat of Round 94, by the dated note on topic 449 and by Episode 94. Only the counts and the "Coverage & Enforcement" section are kept; the page's list of 327 signatory utilities, cooperatives and developers is not copied. A U.S. government page.
+
+The pledge now spans every party that plays a role in building, powering, and regulating data centers: more than 300 organizations across four stakeholder groups — the state governors who set rules, the hyperscalers and AI companies driving demand, the utilities and cooperatives that generate and deliver electricity, and the data-center developers who build the facilities.
+Together they cover roughly 80% of the power delivered to American homes and businesses, protecting 263 million Americans — three-quarters of the country — when a data center is built nearby.
+Everyday Infrastructure
+Not just AI. Every part of American life runs through a data center.
+Every phone call routed, every plane sequenced through the skies, every Amazon order, hospital chart, credit-card swipe, and Netflix stream. Getting the economics right protects far more than the AI boom.
+911 call centers
+Air traffic control
+Cell phone calls
+Amazon deliveries
+Netflix & streaming
+Google Maps
+Credit-card transactions
+Payroll & banking
+Hospital operations
+NYSE & NASDAQ
+The Pledge
+Five commitments companies make when they sign.
+I
+Build, bring, or buy new power supply.
+Signatories procure the generation resources needed for their new energy demand — building or buying from new or otherwise additive power plants — and pay the full cost. Where possible, they add capacity that increases supply for the broader public.
+Why Advances self-sufficiency and protects Americans from higher prices.
+II
+Pay for new power delivery infrastructure.
+Companies cover all new delivery upgrades required to service their data centers, including network upgrade costs, ensuring those expenses are not passed on to ordinary households.
+Why Data centers should benefit all ratepayers and the grid — not extract from them.
+III
+Pay whether they use the power or not.
+Companies voluntarily negotiate new, separate rate structures with their utilities and state governments. They pay those rates for the power and infrastructure brought online for them — whether or not they actually use the electricity.
+Why Protects the American people from bill increases tied to data center development.
+IV
+Invest in local jobs and workforce development.
+Signatories invest in the local communities where they build — hiring locally and establishing programs to develop relevant skills.
+Why Every American worker should benefit from the technological build-out, from construction through operation.
+V
+Contribute to grid and community resilience.
+Companies coordinate with grid operators to strengthen reliability and, wherever possible, make their backup generation available during scarcity events to help prevent blackouts and shortages in their communities.
+Why Consumers benefit from enhanced grid resilience in emergencies.
+Coverage & Enforcement
+Every party at the table.
+Skeptics — including The Wall Street Journal — questioned whether the pledge could be enforced, given that power prices are set by state regulators, electricity buyers, and electricity sellers. The Ratepayer Protection Pledge now has commitments from every one of them — and from the developers who actually build the facilities.
+300+
+Organizations committed to the pledge across four stakeholder groups — enough to reach every stage of building, powering, and regulating data centers in America.
+State Regulators
+23
+Governors signed on, representing the states where data-center growth is heaviest.
+View the signed pledge (PDF) →
+Electricity Buyers
+7
+The largest U.S. hyperscalers and AI companies, committed since the March round of the pledge.
+Electricity Sellers
+250+
+Utilities and cooperatives — from generation-and-transmission co-ops to municipal utilities and state associations.
+Data Center Developers
+48
+Firms that build and operate the physical facilities driving new load.
+263M
+Americans now protected when a data center is built nearby — three-quarters of the U.S. population.
+80%
+of all power delivered to American homes and businesses is covered by the coalition.
