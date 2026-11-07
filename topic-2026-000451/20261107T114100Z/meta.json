@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000451",
+  "url": "https://deploymentsafety.openai.com/gpt-6-cyber/introduction",
+  "capturedAt": "2026-11-07T11:41:00Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 277521,
+    "sha256": "82b8d4d3235e561ddcb799ae176da4a073a0a1939be649e351ca081621440692",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "579969D6BD96337181A1D086911D0E2F",
+      "status": 200,
+      "url": "https://deploymentsafety.openai.com/gpt-6-cyber/introduction",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 17791,
+      "afterScrollHeight": 19582,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "a53c0245733b1571839038c4d557a33e64e5879fda1b3a50743a2d6c743207e4",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1744800,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 17791,
+    "afterScrollHeight": 19582
+  },
+  "record": {
+    "capturedAt": "2026-11-07T11:41:00Z",
+    "url": "https://deploymentsafety.openai.com/gpt-6-cyber/introduction",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 277521,
+      "sha256": "82b8d4d3235e561ddcb799ae176da4a073a0a1939be649e351ca081621440692"
+    },
+    "finalUrl": "https://deploymentsafety.openai.com/gpt-6-cyber/introduction",
+    "httpStatus": 200,
+    "title": "GPT-6 Cyber System Card - OpenAI Deployment Safety Hub",
+    "rendered": {
+      "textChars": 26998,
+      "textSha256": "0c18448ee26a539d1c4e449a98b28b7cc21fb2215cd61eab2b1ee1df90eb91be",
+      "htmlSha256": "c7e91c08d161092a05f5896ba3e80ed8ff5aa1337b9df426bf791e2dfe263ca3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "a53c0245733b1571839038c4d557a33e64e5879fda1b3a50743a2d6c743207e4",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1744800,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261106170705",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261106170705/https://deploymentsafety.openai.com/gpt-6-cyber/introduction"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261107114118/https://deploymentsafety.openai.com/gpt-6-cyber/introduction",
+      "timestamp": "20261107114118",
+      "verifiedHttp": 200
+    }
+  }
+}

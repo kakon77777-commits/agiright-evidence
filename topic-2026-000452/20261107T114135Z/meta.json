@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000452",
+  "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+  "capturedAt": "2026-11-07T11:41:35Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 107391,
+    "sha256": "71ecd5ac964bb89f563f90a2c89dacbdf07b359e67837820be2dcdd401eb90d5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "C68E5E0B490AD7A9BBE447298B795DD5",
+      "status": 200,
+      "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3327,
+      "afterScrollHeight": 3327,
+      "wantedHeight": 3327
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c5edb5db550ec3d748059d9d03983c03b990d506a15f09b649a806e4f798e92d",
+    "width": 1366,
+    "height": 3327,
+    "bytes": 395867,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3327,
+    "afterScrollHeight": 3327
+  },
+  "record": {
+    "capturedAt": "2026-11-07T11:41:35Z",
+    "url": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 107391,
+      "sha256": "71ecd5ac964bb89f563f90a2c89dacbdf07b359e67837820be2dcdd401eb90d5"
+    },
+    "finalUrl": "https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+    "httpStatus": 200,
+    "title": "Introducing the FMF Jailbreak Rating Framework for Frontier Cyber Threats  - Frontier Model Forum",
+    "rendered": {
+      "textChars": 6419,
+      "textSha256": "18edc3fc409a4cc44f703486fa7d01db7b578bf7f1fcb459243382a70f13b075",
+      "htmlSha256": "43c2696c12145606403813d292d8cb43df51966110897550fbb53213f7d0457c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c5edb5db550ec3d748059d9d03983c03b990d506a15f09b649a806e4f798e92d",
+      "width": 1366,
+      "height": 3327,
+      "bytes": 395867,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261106090844",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261106090844/https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261107114157/https://www.frontiermodelforum.org/updates/introducing-the-fmf-jailbreak-rating-framework-for-frontier-cyber-threats/",
+      "timestamp": "20261107114157",
+      "verifiedHttp": 200
+    }
+  }
+}

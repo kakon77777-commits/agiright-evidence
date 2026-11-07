@@ -1,0 +1,9 @@
+Source: https://x.com/ValsAI/status/2118473836710760816
+Read: 2026-11-07 (Taipei) in the connected Chrome (the post's article element, since the page-text tool returned only the sidebar), and typed into this file by hand; the typed text was compared with the live page. Cited by topic 456. Post time: 2026-11-05T22:41:36Z per the Lead Desk file; the page shows 6:41 AM, Nov 6, 2026 in the browser's local time. A social-media post; only the post's own text is kept, no counts or replies.
+
+Vals AI
+@ValsAI
+We have found a critical safety and alignment issue in recent public and internal models from multiple frontier labs which allows them to be misused in a high-stakes domain. It may also increase the risk of catastrophic misalignment.
+
+We have disclosed it to the labs, and they are investigating and mitigating it. As an independent third-party evaluator, we maintain complete editorial independence and will share our findings publicly in the coming weeks.
+(page shows: 6:41 AM · Nov 6, 2026 in the browser's local time; Grok's lead gives 2026-11-05T22:41:36Z)

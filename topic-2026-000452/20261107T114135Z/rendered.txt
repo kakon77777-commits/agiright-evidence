@@ -1,0 +1,61 @@
+Skip to content
+About
+Initiatives
+Publications
+Workstreams
+Introducing the FMF Jailbreak Rating Framework for Frontier Cyber Threats 
+
+By:
+
+Frontier Model Forum
+
+Posted on:
+
+5th November 2026
+
+Today the Frontier Model Forum (FMF) is releasing Version 1.0 of the FMF’s Jailbreak Rating Framework for Frontier Cyber Threats, a preliminary framework that provides a structured method for rating the comparative risk profile of successful cyber jailbreaks. Our aim is to help build a shared understanding of cyber-related jailbreaks, supporting AI developers, security researchers and policymakers in interpreting and responding to emerging AI-related cyber threats.
+
+As frontier AI models become more capable in the cyber domain, the same capabilities that can help defenders find vulnerabilities and secure systems may also be leveraged by attackers to carry out malicious cyber activity. Managing AI-related cyber risks effectively will require a clear understanding of whether and how model safeguards can be bypassed, and what those failures could enable.
+
+One way model safeguards can be bypassed is through jailbreaks: reproducible techniques that unlock capabilities or information the safeguards are meant to restrict. But not all successful jailbreaks carry the same risks. While some produce model responses of limited practical use, others could give malicious actors access to dangerous cyber capabilities. Without a common method to rate jailbreaks, organizations may assess the same jailbreak differently, struggle to compare findings, and spend limited resources patching lower-risk issues before addressing high-risk threats.
+
+The framework uses a tiered assessment methodology that combines scores across four categories: capability gain, capability scope, ease of deployment, and ease of discovery. It categorizes jailbreaks by the capabilities they unlock and how readily those capabilities can be used, so that assessments are more consistent. The framework is designed to help organizations and teams working to address cyber jailbreaks, ensuring comparability across findings and building a shared understanding of how to prioritize jailbreaks by potential risk. 
+
+Hart Rossman, VP of Security at Amazon Web Services said: “As the security implications of frontier models come into sharper focus, the guardrails that prevent misuse matter more than ever. We’ve long known that guardrail bypasses vary widely in their severity, but until now there hasn’t been an agreed-upon methodology for assessing their impact. The Frontier Model Forum’s new framework gives the industry a shared, evidence-based way to rate how serious a cyber bypass is, so teams can focus on what matters most. Amazon was glad to contribute to the framework’s development, and we look forward to continued collaboration to make AI safer.”
+
+Sarah Heck, Head of Public Affairs at Anthropic said: “Anthropic is pleased to support the work of the FMF to develop a practical, evidence-based framework to manage jailbreak risk. It’s a great example of how industry can work together to ensure AI is deployed safely and securely. I’m grateful to the FMF team and to the security experts across member companies who put this together.”
+
+Owen Larter, Senior Director and Head of Frontier Policy at Google DeepMind said: “This framework provides an important shared approach so that organizations can assess jailbreaks consistently and focus efforts on the highest-risk issues first. We’re glad to have contributed to this initial version and look forward to continuing to work with others in industry, research and government to develop and iterate on best practices.”
+
+Natasha Crampton, VP and Chief Responsible AI Officer at Microsoft said: “The growing cyber capabilities of frontier AI models call for shared approaches to assessing and managing emerging risks. Not all successful jailbreaks pose the same level of risk. The Frontier Model Forum’s new framework lays important groundwork for building shared approaches to identifying the most consequential threats, prioritizing mitigation efforts, and strengthening model safeguards.”
+
+Sasha Baker, Head of National Security Policy at OpenAI said: “As AI models become more capable, we need a consistent way to assess jailbreaks that could enable serious cyber harm. At OpenAI, we’re investing in understanding these risks and strengthening our safeguards–and we’re working across industry to address these challenges. This framework is an important step toward a common methodology for evaluating and comparing the severity of cyber jailbreaks, including the capabilities they unlock and how readily they can be used. Shared approaches like this can help the AI and security communities build a clearer evidence base and prioritize improvements to safeguards.”
+
+BUILDING ON THE FRAMEWORK
+
+Version 1.0 is an initial release. The FMF will continue testing the framework against a range of jailbreaks to see whether different assessors reach similar ratings and whether those ratings reflect meaningful differences in risk. We will also update it as new jailbreaks are discovered, existing jailbreak techniques evolve, and the empirical understanding of jailbreaks matures. 
+
+We also look forward to working with the broader ecosystem to improve the framework. To that end, we are opening a public comment period through December 21, 2026. We invite external experts and organizations to submit feedback on the framework to comments@frontiermodelforum.org. We will review the feedback in consultation with our members and incorporate relevant input into an updated version. 
+
+The framework is one part of the FMF’s broader effort on AI-cyber risks. Looking ahead, our AI-cyber and security workstreams will continue to focus on strengthening model safeguards, developing methods for assessing frontier cyber capabilities of concern, and building shared approaches that help the ecosystem anticipate and respond to emerging AI-enabled cyber threats.
+
+Other publications
+
+All posts
+
+November 5, 2026
+Introducing the FMF Jailbreak Rating Framework for Frontier Cyber Threats 
+February 16, 2026
+Progress Update: FMF Information Sharing of Frontier AI Threats and Vulnerabilities
+December 22, 2025
+Annual Letter from the Executive Director
+Contact
+Membership
+Privacy Policy
+Terms of Use
+
+Contact Us: info@frontiermodelforum.org
+
+X
+LinkedIn
+© 2026 Frontier Model Forum. All Rights Reserved.

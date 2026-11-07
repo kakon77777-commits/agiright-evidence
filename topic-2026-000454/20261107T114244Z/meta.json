@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000454",
+  "url": "https://www.westhawaiitoday.com/2026/11/07/nation-world-news/democrats-planning-flood-of-ai-bills-when-they-take-control-of-congress/",
+  "capturedAt": "2026-11-07T11:42:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 118670,
+    "sha256": "71232ba305e89ef7e580a2e6a85d9967315c2ff6018cddd95c9bbc8e23f9e8ae",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "330E7911FB212EF3FFD00509956CB561",
+      "status": 200,
+      "url": "https://www.westhawaiitoday.com/2026/11/07/nation-world-news/democrats-planning-flood-of-ai-bills-when-they-take-control-of-congress/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4779,
+      "afterScrollHeight": 4779,
+      "wantedHeight": 4779
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "deb750ca940817a2a142ef4efb4cab60f6ffbe33ad1c38eecc9162bef310b233",
+    "width": 1366,
+    "height": 4779,
+    "bytes": 1242532,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4779,
+    "afterScrollHeight": 4779
+  },
+  "record": {
+    "capturedAt": "2026-11-07T11:42:44Z",
+    "url": "https://www.westhawaiitoday.com/2026/11/07/nation-world-news/democrats-planning-flood-of-ai-bills-when-they-take-control-of-congress/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 118670,
+      "sha256": "71232ba305e89ef7e580a2e6a85d9967315c2ff6018cddd95c9bbc8e23f9e8ae"
+    },
+    "finalUrl": "https://www.westhawaiitoday.com/2026/11/07/nation-world-news/democrats-planning-flood-of-ai-bills-when-they-take-control-of-congress/",
+    "httpStatus": 200,
+    "title": "Democrats planning flood of AI bills when they take control of Congress | West Hawaii Today",
+    "rendered": {
+      "textChars": 8271,
+      "textSha256": "286208329cd7c3dfa14591e49dca17cebd17769866c54e7da7d2a04df7b873e9",
+      "htmlSha256": "c44a981e9030c76bf33fc9a395e5fee3d71e26129f904bd5dffa1f2a88b2c49c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "deb750ca940817a2a142ef4efb4cab60f6ffbe33ad1c38eecc9162bef310b233",
+      "width": 1366,
+      "height": 4779,
+      "bytes": 1242532,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

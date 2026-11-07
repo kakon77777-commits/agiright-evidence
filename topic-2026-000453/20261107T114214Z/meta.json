@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000453",
+  "url": "https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets/agentic-ai-resilience-measures",
+  "capturedAt": "2026-11-07T11:42:14Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 83033,
+    "sha256": "f09af31519643e9cfc0c064af8b25ca7b9d823eff159ff70b301661ae6301027",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8311CCBE6635A0DE58AA95B49F8F4A78",
+      "status": 200,
+      "url": "https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets/agentic-ai-resilience-measures",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4835,
+      "afterScrollHeight": 4835,
+      "wantedHeight": 4835
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c4afb8f392c709cc068b60aefb5b57536e6ef8614852374339f64590bc2918ee",
+    "width": 1366,
+    "height": 4835,
+    "bytes": 737734,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4835,
+    "afterScrollHeight": 4835
+  },
+  "record": {
+    "capturedAt": "2026-11-07T11:42:14Z",
+    "url": "https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets/agentic-ai-resilience-measures",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 83033,
+      "sha256": "f09af31519643e9cfc0c064af8b25ca7b9d823eff159ff70b301661ae6301027"
+    },
+    "finalUrl": "https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets/agentic-ai-resilience-measures",
+    "httpStatus": 200,
+    "title": "Agentic AI resilience measures - GOV.UK",
+    "rendered": {
+      "textChars": 8163,
+      "textSha256": "101c2317647da8e013746fd6441c620791e099c1fb61df0c802c822d97d6b99a",
+      "htmlSha256": "00dc4ac45c8759f9f458385786abdc2ad49742d2f074a916036a0ad6d4cdee2a"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c4afb8f392c709cc068b60aefb5b57536e6ef8614852374339f64590bc2918ee",
+      "width": 1366,
+      "height": 4835,
+      "bytes": 737734,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261106115506",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261106115506/https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets/agentic-ai-resilience-measures"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261107114227/https://www.gov.uk/government/publications/cyber-security-and-resilience-network-and-information-systems-bill-factsheets/agentic-ai-resilience-measures",
+      "timestamp": "20261107114227",
+      "verifiedHttp": 200
+    }
+  }
+}

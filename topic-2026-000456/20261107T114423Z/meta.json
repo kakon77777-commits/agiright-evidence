@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000456",
+  "url": "https://x.com/ValsAI/status/2118473836710760816",
+  "capturedAt": "2026-11-07T11:44:23Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c034f96d8539d05e70395fb1802dd6db23a6738fb6f7865b7de788cc5208f53a",
+    "width": 640,
+    "height": 900,
+    "bytes": 45797,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-07T11:44:23Z",
+    "url": "https://x.com/ValsAI/status/2118473836710760816",
+    "finalUrl": "https://x.com/ValsAI/status/2118473836710760816",
+    "screenshot": {
+      "sha256": "c034f96d8539d05e70395fb1802dd6db23a6738fb6f7865b7de788cc5208f53a",
+      "width": 640,
+      "height": 900,
+      "bytes": 45797,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2118473836710760816",
+      "handle": "ValsAI",
+      "syndicationSha256": "79b4286a3734d0ac8ef3d9ddf6347e82418ad5f7b4246cf10def34cb9dccb206",
+      "createdAt": "2026-11-05T22:41:36.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "ValsAI",
+      "lang": "en",
+      "textSha256": "782ae2bb4c684c3d1184c2faa65ebf269709595df498f0f92e73847262b9e377",
+      "media": [],
+      "oembedSha256": "bff864a4bd8cf222995da4e249ec42fc24ee71781fe3fa3aa50a476f4a92e262",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

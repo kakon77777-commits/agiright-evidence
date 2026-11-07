@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000450",
+  "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+  "capturedAt": "2026-11-07T11:40:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 227770,
+    "sha256": "6a6925af9705da46adc2293625b1635c22c060015e01fad52f4a7b8cf76d4946",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "805A61400405454052704470411489DF",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 16862,
+      "afterScrollHeight": 16862,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "7256e389e90af026a75f86d202483011ebe64b278fa96df2125f42b06914f23e",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1893239,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 16862,
+    "afterScrollHeight": 16862
+  },
+  "record": {
+    "capturedAt": "2026-11-07T11:40:24Z",
+    "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 227770,
+      "sha256": "6a6925af9705da46adc2293625b1635c22c060015e01fad52f4a7b8cf76d4946"
+    },
+    "finalUrl": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+    "httpStatus": 200,
+    "title": "Project EVE: Claude plays MMORPGs \\ Anthropic",
+    "rendered": {
+      "textChars": 27741,
+      "textSha256": "eb0529edaa290427220938baabe3a4aec32e33d88ee25b5de24f7f47ff4a64cd",
+      "htmlSha256": "f71a8c4f9350d2af0049bd8b37913d146a7877355c9389af73bb88e8c8e4e72e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7256e389e90af026a75f86d202483011ebe64b278fa96df2125f42b06914f23e",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1893239,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261106170919",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261106170919/https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261107114045/https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+      "timestamp": "20261107114045",
+      "verifiedHttp": 200
+    }
+  }
+}
