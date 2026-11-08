@@ -1,0 +1,46 @@
+Source: https://x.com/patopet/status/2119119940036800520
+Read on 2026-11-08 (Taipei) in the connected Chrome (the post, three replies by the same account and the profile page) and typed into this file by hand; the post and reply texts were checked against the live page text; the text of the attached diagram was read from a zoomed screenshot and typed by hand (not checkable by text extraction). Cited by topic 461.
+
+Pat Opet
+@patopet
+if you’re working for a company in cybersecurity, you should be evaluating your options to abstract your companies services from the internet
+
+what i mean is: why allow an unauthenticated anonymous agent of an attacker to interact with your systems?
+
+consider your architectural levers now, you’re going to need them
+Last edited: 1:28 AM · Nov 8, 2026 (shown in the browser's UTC+8 setting; 25.4萬 次查看)
+
+Profile text (read from the profile page):
+Pat Opet
+@patopet
+security @jpmorgan @chase
+
+Reply by Pat Opet (shown as 18 h):
+here’s an example
+[attached image, read from a zoomed screenshot, not by text extraction:]
+FORTIFY THE FRONT DOOR
+Sign in at the edge, before anyone reaches the system.
+An Auth Filter moves sign-in to an independent security layer in front of the system, so unverified traffic never reaches it.
+01 WITHOUT AN AUTH FILTER
+The system itself is the front door.
+Employees and customers / Attackers and AI-driven scanning (labels on the two people icons at the left of each panel)
+Anyone on the internet can reach the sign-in page. One unpatched flaw there can open a path into the enterprise before anyone has signed in.
+02 WITH AN AUTH FILTER
+Sign-in happens at the edge, and the system is hidden.
+Independent security layer at the edge. The only part reachable from the internet.
+01 Screen: Block known attacks, floods and bad bots
+02 Verify: Sign in with multi-factor authentication
+03 Authorize: Allow only people approved for this system
+Stopped at the edge: Exploit attempts, bot traffic and anyone who cannot sign in
+Protected system: Hidden from the internet. Accepts connections only from the security layer.
+Direct connections to the system are refused
+Less exposure: The system cannot be reached directly from the internet.
+An independent layer: A flaw in the system is not enough on its own to get in.
+No single point of failure: Build the layer with redundancy and a tested fallback.
+
+Reply by Pat Opet (shown as 16 h):
+this.
+
+and, if you segment at the identity layer an authenticated attacker is only authorized to see specific pages/functions/endpoints
+
+and, when you detect abuse, it’s an automated account suspension with a total failure blast radius of one and attacker is back on the outside

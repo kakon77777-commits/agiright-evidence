@@ -1,0 +1,83 @@
+{
+  "id": "topic-2026-000462",
+  "url": "https://x.com/emollick/status/2119140502746308674",
+  "capturedAt": "2026-11-08T14:49:57Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "85830f2c5f3eabb04d205d26746fc0e5ad42671ad3fba00693648aee466d717a",
+    "width": 640,
+    "height": 900,
+    "bytes": 223980,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-08T14:49:57Z",
+    "url": "https://x.com/emollick/status/2119140502746308674",
+    "finalUrl": "https://x.com/emollick/status/2119140502746308674",
+    "screenshot": {
+      "sha256": "85830f2c5f3eabb04d205d26746fc0e5ad42671ad3fba00693648aee466d717a",
+      "width": 640,
+      "height": 900,
+      "bytes": 223980,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2119140502746308674",
+      "handle": "emollick",
+      "syndicationSha256": "14c5316254eedfd4f7a1915334aaa4fa2359523d7d4c0cc4493c562937867dc7",
+      "createdAt": "2026-11-07T18:50:42.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "emollick",
+      "lang": "en",
+      "textSha256": "30ba2e6ebb4082822bf42bae5bd871eafd402ac268e1f9b837e6e9ae5d7eaf94",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "b5793e5cf7e1ca2b40bf980a2843b56030110014727ae59be9998bda4863e8bb",
+          "bytes": 169888,
+          "width": 2400,
+          "height": 1760
+        },
+        {
+          "type": "photo",
+          "sha256": "88e6c89ce7f238040727d701511a567f694f1553104da0e535485e0d6b40def2",
+          "bytes": 317054,
+          "width": 958,
+          "height": 1206
+        },
+        {
+          "type": "photo",
+          "sha256": "172a62fa02ce83bd4eb584c09899e4f2c967be4907b9c2045b6d34e434f6b047",
+          "bytes": 98818,
+          "width": 701,
+          "height": 979
+        }
+      ],
+      "oembedSha256": "d24c017ec9501badd2c3c72182a22aa7cf0355f2a75698f9c02b6cf3b905c64e",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+Source: Internet Archive captures of https://www.anthropic.com/research/provable-inference (id_ form, raw bytes, text extracted by script) and the page fetched on 2026-11-08 (Taipei).
+Cited by topic 459. The lines below are the ones that differ between the captures; the first capture, 2026-11-03 04:33 UTC, reads like the 16:35 capture on these lines. The Archive lists 15 captures between 2026-11-03 04:33 UTC and 2026-11-05 21:11 UTC; the edit lies between the captures of 2026-11-03 16:35 UTC and 2026-11-04 07:57 UTC.
+
+== Capture 20261103163506 UTC
+A technical report explaining the details of our system; A protocol description ; Executable code that includes: a prover and two verifiers, a fast verifier in C++, and a provably correct verifier in Lean; and Lean proofs for the 
+yielding a flexible and powerful tool with overhead over native computation of roughly 2 orders of magnitude (about 70 to 95 times in our measurements), much less than what previously expected. Limitations This release is a resear
+(no sentence about SASH in this capture)
+
+== Capture 20261104075740 UTC
+A technical report explaining the details of our system; A (Claude-written) protocol specification document; Executable code that includes: a prover and two verifiers, a fast verifier in C++, and a provably correct verifier in Lea
+yielding a flexible and powerful tool with overhead over native computation of roughly 2 orders of magnitude (about 70 to 95 times in our measurements), much less than previously expected. Limitations This release is a research pr
+SASH's prover (2026) reached ≈1.25 tok/s on Llama 3.1 8B on a single H100. Recently commercial efforts have reached impr
+
+== Page fetched 2026-11-08
+A technical report explaining the details of our system; A (Claude-written) protocol specification document; Executable code that includes: a prover and two verifiers, a fast verifier in C++, and a provably correct verifier in Lea
+yielding a flexible and powerful tool with overhead over native computation of roughly 2 orders of magnitude (about 70 to 95 times in our measurements), much less than previously expected. Limitations This release is a research pr
+SASH's prover (2026) reached ≈1.25 tok/s on Llama 3.1 8B on a single H100. Recently commercial efforts have reached impr

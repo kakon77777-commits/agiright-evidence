@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000458",
+  "url": "https://nousresearch.com/arete",
+  "capturedAt": "2026-11-08T14:48:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 1659090,
+    "sha256": "5d682b9301587bf5528a74425b0471b5427060a2f8d3d4f1a177769f6f1b1fa5",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "AC8C26805BBA8A6790E782EC964C0D5B",
+      "status": 200,
+      "url": "https://nousresearch.com/arete",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 12393,
+      "afterScrollHeight": 12393,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "12d0f9a2900b0c4846fbde1673eaeefed2978d8004f6db95fa0794faa74c5ab0",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1681652,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 12393,
+    "afterScrollHeight": 12393
+  },
+  "record": {
+    "capturedAt": "2026-11-08T14:48:19Z",
+    "url": "https://nousresearch.com/arete",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1659090,
+      "sha256": "5d682b9301587bf5528a74425b0471b5427060a2f8d3d4f1a177769f6f1b1fa5"
+    },
+    "finalUrl": "https://nousresearch.com/arete",
+    "httpStatus": 200,
+    "title": "Introducing Arete-27B: Qwen3.8-27B Post-Trained To Reinforce Western Values | Nous Research",
+    "rendered": {
+      "textChars": 13294,
+      "textSha256": "f8464cff94438d8c7bd8a37d5cead85b4bb9843811d8f5085981556258e7f00a",
+      "htmlSha256": "d08db5541221b7498974700db39c4b42b937f72b2a27327f72421a429898832f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "12d0f9a2900b0c4846fbde1673eaeefed2978d8004f6db95fa0794faa74c5ab0",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1681652,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261106223822",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261106223822/https://nousresearch.com/arete"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261108072102/https://nousresearch.com/arete",
+      "timestamp": "20261108072102",
+      "verifiedHttp": 200
+    }
+  }
+}

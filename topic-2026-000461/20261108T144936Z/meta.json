@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000461",
+  "url": "https://x.com/patopet/status/2119119940036800520",
+  "capturedAt": "2026-11-08T14:49:36Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "983dea3747b4f306db1dc528ed88a1d62e1a1236014fd4f478a9b89017381970",
+    "width": 640,
+    "height": 900,
+    "bytes": 51285,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-08T14:49:36Z",
+    "url": "https://x.com/patopet/status/2119119940036800520",
+    "finalUrl": "https://x.com/patopet/status/2119119940036800520",
+    "screenshot": {
+      "sha256": "983dea3747b4f306db1dc528ed88a1d62e1a1236014fd4f478a9b89017381970",
+      "width": 640,
+      "height": 900,
+      "bytes": 51285,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2119119940036800520",
+      "handle": "patopet",
+      "syndicationSha256": "c41acfda757b369e8fe0d4b8a95098677ed9952fc9289e2157fa9fad4c5166f4",
+      "createdAt": "2026-11-07T17:28:59.000Z",
+      "isEdited": true,
+      "editVersions": 2,
+      "authorHandle": "patopet",
+      "lang": "en",
+      "textSha256": "c6190e81bf5f3bb8ecfda128dbca4ca6f37202bf16691122ae5a011c4271c06d",
+      "media": [],
+      "oembedSha256": "4eef60eabf83b3fb246e5e3636e33764c7ca298473657eca6a16282301fb2fc2",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

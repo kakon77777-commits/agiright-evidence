@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000457",
+  "url": "https://freesystems.substack.com/p/were-using-ai-to-audit-ai",
+  "capturedAt": "2026-11-08T14:46:36Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 262276,
+    "sha256": "96193dca848f82dd76ec1805c0876810b5d59c802fcde979095fd21cf2e9cf8d",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "23FEDE33CFF56B9F1131D7DF3047F6E6",
+      "status": 200,
+      "url": "https://freesystems.substack.com/p/were-using-ai-to-audit-ai",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 14402,
+      "afterScrollHeight": 14402,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "9ba1f0c336d6895817a8d0594135fd593e43fe9f069e9e50339708d35bf0b0cc",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1585929,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 14402,
+    "afterScrollHeight": 14402
+  },
+  "record": {
+    "capturedAt": "2026-11-08T14:46:36Z",
+    "url": "https://freesystems.substack.com/p/were-using-ai-to-audit-ai",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 262276,
+      "sha256": "96193dca848f82dd76ec1805c0876810b5d59c802fcde979095fd21cf2e9cf8d"
+    },
+    "finalUrl": "https://freesystems.substack.com/p/were-using-ai-to-audit-ai",
+    "httpStatus": 200,
+    "title": "How reliably can AI audit AI?",
+    "rendered": {
+      "textChars": 18913,
+      "textSha256": "f245de44999e252791987b381580d799b6d04cb94379c745c5575137207c0fc4",
+      "htmlSha256": "363ad58de9cfec28bff2d93f7b18801cd5588ea0bfdc4464a234ede86f10a971"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "9ba1f0c336d6895817a8d0594135fd593e43fe9f069e9e50339708d35bf0b0cc",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1585929,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261015230842",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261015230842/https://freesystems.substack.com/p/were-using-ai-to-audit-ai"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261108144801/https://freesystems.substack.com/p/were-using-ai-to-audit-ai",
+      "timestamp": "20261108144801",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,64 @@
+Source: https://x.com/emollick/status/2119140502746308674
+Read on 2026-11-08 (Taipei) in the connected Chrome (the post, two replies by the same account and the profile page) and typed into this file by hand; the post and reply texts were checked against the live page text; the text of the three attached images was read in the page's image viewer and typed by hand (not checkable by text extraction). Cited by topic 462.
+
+Ethan Mollick
+@emollick
+I think there is way too much concern expressed about verification of AI output in everyday work due to a risk of factual errors.
+
+It used to be true, but data on more recent models suggest they beat human experts, including PhD specialists, in finding facts and checking claims.
+2:50 AM · Nov 8, 2026 (shown in the browser's UTC+8 setting; 8.9萬 次查看)
+[three attached images, opened in the page's image viewer; their text was read from screenshots, not by text extraction]
+
+Reply by Ethan Mollick (shown as 19 h):
+Now there might be things to verify beyond errors - points of view, opinions, approaches, etc. But the idea that the job of humans should be checking AI work for mistakes is likely not true today, and good riddance.
+
+Reply by Ethan Mollick (shown as 19 h):
+AIs may still underperform humans in error rates in some cases, of course, but we need to update our assumptions about how often that occurs.
+
+Profile text (read from the profile page):
+Ethan Mollick
+@emollick
+Professor @Wharton studying AI.
+New book, Co-Existence, is out now: https://co-existence.ai
+My Substack: https://oneusefulthing.org
+
+Attached image 1 (a chart):
+AI agents vs. humans on factual tasks
+Factual search and claim verification, with human comparison groups
+Finding facts on the web
+BrowseComp · 2026 agents / 2025 human baseline
+Matched reference answer (%)
+Human searchers 25.3%
+GPT-5.6 Sol (July 2026) 90.4%
+GPT-5.6 Sol Ultra (July 2026 · four agents) 92.2%
+GPT-6 Astra (September 2026) 91.5%
+Claude Opus 5 (September 2026) 90.8%
+Human score: 317 of 1,255 answers matched the reference, including unsolved questions. Researchers had ~2 hours per task.
+AI results: 1,266 questions, reported by labs in 2026.
+Budgets and agent setups differ; only final answers are scored.
+Checking research claims
+DeepFact · Huang et al., ACL 2026
+Correct claim verdict (%)
+Dashed line: always “unsupported” = 83.9%
+PhD specialists working alone 60.8%
+DeepFact agent GPT-4.1 83.2%
+DeepFact agent GPT-5 ≈89%
+Humans auditing agent evidence 90.9%
+Agents auditing other agents 93.0% (Best tested pairing)
+143 known-answer claims; 120 were deliberately made unsupported.
+Always answering “unsupported” therefore scores 83.9%.
+Audits add rounds of evidence review. Systems use GPT-4.1/GPT-5.
+These are raw scores on an error-heavy test, not everyday accuracy.
+Sources: OpenAI, BrowseComp (2025); GPT-5.6 (July 2026); GPT-6 Astra (September 2026, including the Claude comparison). Huang et al., DeepFact: Co-Evolving Benchmarks and Agents for Deep Research Factuality, ACL 2026, Figures 3–4. GPT-5 is rounded: the figures report 88.8% and 88.9%.
+Scores describe separate tasks and should not be pooled.
+Sources checked 7 November 2026
+(Yes, I did double-check the data)
+
+Attached image 2 (first page of a paper):
+DeepFact: Co-Evolving Benchmarks and Agents for Deep Research Factuality
+Yukun Huang, Leonardo F. R. Ribeiro, Momchil Hardalov, Bhuwan Dhingra, Markus Dreyer, Venkatesh Saligrama (Duke University, Amazon AGI, Boston University)
+arXiv:2603.05912v2 [cs.AI] 3 Apr 2026
+Abstract: ... in a controlled study with PhD-level specialists, unassisted experts achieve only 60.8% accuracy on a hidden micro-gold set of verifiable claims. ... Across four AtS rounds, expert micro-gold accuracy rises to 90.9%, indicating experts are substantially more reliable as auditors than as one-shot labelers.
+
+Attached image 3 (first page of a paper):
+BrowseComp: A Simple ... Benchmark for Brow... (title cut off in the viewer); authors listed with the affiliation OpenAI; Figure 1: BrowseComp performance ...
