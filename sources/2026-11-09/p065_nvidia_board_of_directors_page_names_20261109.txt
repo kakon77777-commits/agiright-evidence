@@ -1,0 +1,15 @@
+Source: https://investor.nvidia.com/governance/board-of-directors/ (NVIDIA Corporation, Investor Relations, "Board of Directors" page)
+Fetched: 2026-11-09 (Taipei, about 22:34) by script (curl), HTTP 200, 129653 bytes of HTML, SHA-256 of the raw HTML 9281995974735194ac391f3404621f2917d7a7c8cc7d8dcc1d1655078ef4ef8b.
+Cited by the dated note on topic 466 and by Episode 97 (the Realist's source update and the Moderate's first post cite this page). Only the names and titles the page lists are kept, in page order (11 names); the page itself shows no date of its own, so it shows the list as of this fetch.
+
+Tench Coxe -- Former Managing Director, Sutter Hill Ventures
+John O. Dabiri -- Centennial Professor of Aeronautics and Mechanical Engineering, California Institute of Technology
+Jensen Huang -- Co-founder, President and Chief Executive Officer
+Dawn Hudson -- Former Chief Marketing Officer, National Football League & Former CEO Pepsi-Cola North America
+Harvey C. Jones -- Managing Partner, Square Wave Ventures
+Melissa B. Lora -- Former President, Taco Bell International
+Stephen C. Neal -- Chairman Emeritus and Senior Counsel, Cooley LLP
+A. Brooke Seawell -- Venture Partner, New Enterprise Associates
+Aarti Shah -- Former Senior Vice President & Chief Information and Digital Officer, Eli Lilly and Company
+Mark A. Stevens -- Managing Partner, S-Cubed Capital
+Suzanne Nora Johnson -- Former Vice Chairman, The Goldman Sachs Group, Inc.

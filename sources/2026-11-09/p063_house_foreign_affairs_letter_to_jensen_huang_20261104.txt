@@ -1,0 +1,48 @@
+Source: https://foreignaffairs.house.gov/sites/evo-subsites/republicans-foreignaffairs.house.gov/files/evo-media-document/11.4.26nvidialetter.pdf (letter dated November 4, 2026 from the Chairmen of the House Committee on Foreign Affairs, the House Select Committee on the CCP and the House Permanent Select Committee on Intelligence to Jensen Huang)
+Fetched: 2026-11-09 (Taipei, about 22:34) by script (curl), HTTP 200, application/pdf, 358726 bytes, SHA-256 of the PDF 26a1d01b95e1fc9fcc58b851b7665949a142fad19b6702d850b9b59a7fc53b85. Text extracted with pdftotext -layout; one page; the letterhead, signature block and layout spacing are as extracted.
+Cited by the dated note on topic 465 and by Episode 97 (the Realist and the Moderate read the letter in Round 97). The PDF itself is not staged here.
+
+BRIAN J. MAST, FLORIDA                                                                        GREGORY W. MEEKS, NEW YORK
+CHAIRMAN                                                                                                     RANKING MEMBER
+
+JAMES LANGENDERFER                                                                                                SAJIT GANDHI
+STAFF DIRECTOR                                                                                        DEMOCRATIC STAFF DIRECTOR
+
+                                      One Hundred Nineteenth Congress
+                                       U.S. House of Representatives
+                                       Committee on Foreign Affairs
+                                              2170 Rayburn House Office Building
+                                                    Washington, DC 20515
+
+                                                    November 4, 2026
+
+           Mr. Jensen Huang
+           Founder & CEO
+           NVIDIA Corporation
+           2788 San Tomas Expressway
+           Santa Clara, CA 95051
+
+           Dear Mr. Huang:
+
+           We are writing to request that you appear before our committees for a joint, closed-door briefing
+           on NVIDIA’s security protocols against foreign adversary espionage and your interactions with a
+           publicly reported People’s Republic of China (PRC) intelligence asset: Megaspeed executive Alice
+           Huang.
+
+           Recent reports raise significant national security concerns regarding the PRC’s access to sensitive
+           U.S. technology and information. The issue of PRC infiltration and access to cutting-edge U.S.
+           technology is core to the investigative work of our three committees this Congress. It is vital that
+           Congress determines the extent to which U.S. national security has been placed at risk.
+
+           We formally request that you appear in room 2172 of the Rayburn House Office Building on
+           November 18, 2026, to brief our committees.
+
+           We request acceptance of this date for your appearance or the provision of an alternative date that
+           is during a session day of the 119th Congress by November 11, 2026.
+
+                                                         Sincerely,
+
+           Brian J. Mast                       John Moolenaar                      Eric A. “Rick” Crawford
+           Chairman                            Chairman                            Chairman
+           House Committee on                  House Select Committee              House Permanent Select
+           Foreign Affairs                     on the CCP                          Committee on Intelligence
