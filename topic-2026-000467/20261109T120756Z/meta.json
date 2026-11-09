@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000467",
+  "url": "https://www.cbsnews.com/news/read-the-full-transcript-of-ross-douthats-interview-with-president-trump/",
+  "capturedAt": "2026-11-09T12:07:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 790369,
+    "sha256": "6dda54cdace107e8a97c36f98a4b6d2fe7c5945922878c05d0a9c49d542217fb",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "079AB68604FE24C1CB7ADF0096DFA675",
+      "status": 200,
+      "url": "https://www.cbsnews.com/news/read-the-full-transcript-of-ross-douthats-interview-with-president-trump/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 90848,
+      "afterScrollHeight": 85346,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "760363df8688e29fdc1b697ec19d42f2391612f0d8f797f0bab190dcd540db64",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1499627,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 90848,
+    "afterScrollHeight": 85346
+  },
+  "record": {
+    "capturedAt": "2026-11-09T12:07:56Z",
+    "url": "https://www.cbsnews.com/news/read-the-full-transcript-of-ross-douthats-interview-with-president-trump/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 790369,
+      "sha256": "6dda54cdace107e8a97c36f98a4b6d2fe7c5945922878c05d0a9c49d542217fb"
+    },
+    "finalUrl": "https://www.cbsnews.com/news/read-the-full-transcript-of-ross-douthats-interview-with-president-trump/",
+    "httpStatus": 200,
+    "title": "Read the full transcript of Ross Douthat's interview with President Trump - CBS News",
+    "rendered": {
+      "textChars": 76670,
+      "textSha256": "4a7007d818a2b8c68c052a47c1791d1742379cd0d5da93f84309788897e1c1e6",
+      "htmlSha256": "6a280aecb07bc3d1ef6961dd511bb6523765fa8219d16b2bf065cd72ab9846f3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "760363df8688e29fdc1b697ec19d42f2391612f0d8f797f0bab190dcd540db64",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1499627,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261109092407",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261109092407/https://www.cbsnews.com/news/read-the-full-transcript-of-ross-douthats-interview-with-president-trump/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261109092407/https://www.cbsnews.com/news/read-the-full-transcript-of-ross-douthats-interview-with-president-trump/",
+      "timestamp": "20261109092407",
+      "verifiedHttp": 200
+    }
+  }
+}

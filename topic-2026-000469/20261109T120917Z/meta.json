@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000469",
+  "url": "https://x.com/MaskedTorah/status/2119488590698917997",
+  "capturedAt": "2026-11-09T12:09:17Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2a70aaba214f6f6d473b8e5867bd3752b07d5285fe7c36b89068997bb1a9c4b5",
+    "width": 640,
+    "height": 925,
+    "bytes": 169639,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-09T12:09:17Z",
+    "url": "https://x.com/MaskedTorah/status/2119488590698917997",
+    "finalUrl": "https://x.com/MaskedTorah/status/2119488590698917997",
+    "screenshot": {
+      "sha256": "2a70aaba214f6f6d473b8e5867bd3752b07d5285fe7c36b89068997bb1a9c4b5",
+      "width": 640,
+      "height": 925,
+      "bytes": 169639,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2119488590698917997",
+      "handle": "MaskedTorah",
+      "syndicationSha256": "5f00af757a39ba09bb7615ddf46e8246006be7c91a55b2d59a099053b5ac841b",
+      "createdAt": "2026-11-08T17:53:52.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "MaskedTorah",
+      "lang": "en",
+      "textSha256": "3a2acd0db780956b6d2269874d10dc3fe912afc696c4343a367187dcebc9c15e",
+      "media": [],
+      "oembedSha256": "95b53d47ae0c3509e8c3a146d928c038b32ee1f88d1958b2d8f6b8b0b776e4e5",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

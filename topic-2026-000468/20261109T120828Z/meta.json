@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000468",
+  "url": "https://www.pbs.org/newshour/politics/staff-at-u-s-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns",
+  "capturedAt": "2026-11-09T12:08:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 300299,
+    "sha256": "d82e81d1a3fb32ef0f4105594ef814e649b2e9f0d8268e5a9ed78499c9e96ee9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "81859F08F69B7CFEB55DE18ADC14C89D",
+      "status": 200,
+      "url": "https://www.pbs.org/newshour/politics/staff-at-u-s-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6908,
+      "afterScrollHeight": 7118,
+      "wantedHeight": 7118
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "db5fb916db389ac9875558bcea53f29fe9d6125a8eba502f72c5cc2996202bb4",
+    "width": 1366,
+    "height": 7118,
+    "bytes": 1036055,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6908,
+    "afterScrollHeight": 7118
+  },
+  "record": {
+    "capturedAt": "2026-11-09T12:08:28Z",
+    "url": "https://www.pbs.org/newshour/politics/staff-at-u-s-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 300299,
+      "sha256": "d82e81d1a3fb32ef0f4105594ef814e649b2e9f0d8268e5a9ed78499c9e96ee9"
+    },
+    "finalUrl": "https://www.pbs.org/newshour/politics/staff-at-u-s-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns",
+    "httpStatus": 200,
+    "title": "AP sources: Staff at U.S. center for AI safety are reporting to the White House, raising independence concerns | PBS News",
+    "rendered": {
+      "textChars": 12599,
+      "textSha256": "6ec37fd5a3044e833b7c42bc1e5f3ab15d7199eaec65f87291d2ad1b9549bc6a",
+      "htmlSha256": "a555b335c20ed4314266ca3f7facae62e1c7125d3ddc6f0b4f8b455902294586"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "db5fb916db389ac9875558bcea53f29fe9d6125a8eba502f72c5cc2996202bb4",
+      "width": 1366,
+      "height": 7118,
+      "bytes": 1036055,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261108181050",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261108181050/https://www.pbs.org/newshour/politics/staff-at-u-s-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261109120854/https://www.pbs.org/newshour/politics/staff-at-u-s-center-for-ai-safety-are-reporting-to-the-white-house-raising-independence-concerns",
+      "timestamp": "20261109120854",
+      "verifiedHttp": 200
+    }
+  }
+}

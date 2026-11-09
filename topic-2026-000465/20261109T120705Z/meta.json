@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000465",
+  "url": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-mast-and-crawford-seek-briefing-from-jensen-huang-on-ties-to-chinese-intelligence-asset",
+  "capturedAt": "2026-11-09T12:07:05Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 48650,
+    "sha256": "052f1abf62c83355fa7c39987a5fc3060834764cb5640475cd043a67c9f3108b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "E105916294469AF9A6B9C3F2CA3ECBD5",
+      "status": 200,
+      "url": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-mast-and-crawford-seek-briefing-from-jensen-huang-on-ties-to-chinese-intelligence-asset",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1487,
+      "afterScrollHeight": 1487,
+      "wantedHeight": 1487
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8622360fcae52a1a7893ed4d26b61eef0274d00282d6df5f4f400f0ed13e6ff8",
+    "width": 1366,
+    "height": 1487,
+    "bytes": 292524,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1487,
+    "afterScrollHeight": 1487
+  },
+  "record": {
+    "capturedAt": "2026-11-09T12:07:05Z",
+    "url": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-mast-and-crawford-seek-briefing-from-jensen-huang-on-ties-to-chinese-intelligence-asset",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 48650,
+      "sha256": "052f1abf62c83355fa7c39987a5fc3060834764cb5640475cd043a67c9f3108b"
+    },
+    "finalUrl": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-mast-and-crawford-seek-briefing-from-jensen-huang-on-ties-to-chinese-intelligence-asset",
+    "httpStatus": 200,
+    "title": "Moolenaar, Mast, and Crawford Seek Briefing from Jensen Huang on Ties to Chinese Intelligence Asset | Select Committee on the CCP",
+    "rendered": {
+      "textChars": 2074,
+      "textSha256": "d09057b37de6c77b5b2066a385f6465fea8f8e7551efd9c863e7c09b9f5aa8af",
+      "htmlSha256": "3c93344131c950651defde4a5cfa791ea6d540e79386a799ccf0b603caf72297"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8622360fcae52a1a7893ed4d26b61eef0274d00282d6df5f4f400f0ed13e6ff8",
+      "width": 1366,
+      "height": 1487,
+      "bytes": 292524,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261106000856",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261106000856/https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-mast-and-crawford-seek-briefing-from-jensen-huang-on-ties-to-chinese-intelligence-asset"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261109120722/https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-mast-and-crawford-seek-briefing-from-jensen-huang-on-ties-to-chinese-intelligence-asset",
+      "timestamp": "20261109120722",
+      "verifiedHttp": 200
+    }
+  }
+}
