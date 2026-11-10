@@ -1,0 +1,66 @@
+Source: https://web.archive.org/web/20261010131319id_/https://fireworks.ai/security/bulletins/october-2026-security-incident
+Fetched: 2026-11-10 (Taipei), at night, by script from the Internet Archive (raw capture form), HTTP 200, 175379 bytes of HTML, SHA-256 of the raw HTML 8ecf879d14630023ec39972787a990785ddce54de7503cc86f6bfe95562782b1. Capture time 2026-10-10 13:13:19 UTC.
+Cited by the dated note on topic 474. The capture's page text as extracted from the HTML, to compare with the page as it reads now (p074). This capture is from before the page's own "Last updated October 10, 2026, 11:16 PDT" time.
+
+Fireworks October 2026 security incident | Fireworks AI 
+ Join us for our inaugural conference, Forge 2026
+Product 
+Solutions 
+Models 
+ Pricing 
+Resources 
+Log In 
+Get Started 
+ ← All security bulletins Security bulletin
+ Fireworks October 2026 security incident
+ Last updated: October 9, 2026, 22:50 PDT 
+ Status: Active monitoring
+ On this page
+ Who is affected? 
+ What we know 
+ What we have done 
+ What affected customers should do 
+ Contact 
+ Fireworks identified a security incident involving unauthorized use of internal Fireworks credentials. An unauthorized third party accessed environment variables used in evaluation jobs in a limited number of customer accounts. At this time, we have not detected impact or access to customer data or inference traffic.
+ We began containment the same day and have directly notified every identified affected customer. We are actively monitoring for further activity. We recognize the concern and work this creates for affected customers, and we are providing account-specific information to help them respond.
+ We’re working with a cybersecurity expert firm to assist with the incident.
+ Who is affected?
+ The incident affected a limited number of customer accounts. Affected customers received a direct email identifying the credentials requiring action.
+ If you have not received a notice, we have not identified your account as affected based on our investigation to date. If that changes, we will contact you directly.
+ What we know
+ Our investigation has established the following timeline (PDT):
+ Incident findings and response timeline. All dates are in PDT. Date, PDT Finding or action 
+ Oct 6 9am, 2026 Fireworks identified the activity and began containment. 
+ Oct 7 7am, 2026 Started notifying affected customers 
+ Oct 9 4pm, 2026 Rotated all the Fireworks employee API keys 
+ Oct 9 6pm, 2026 Notified all affected customers 
+ Oct 9 10pm, 2026 Published bulletin 
+ We have confirmed that environment variables, including API keys and tokens stored as secrets, were captured in affected accounts. Our review of other potential access remains ongoing:
+ Models, datasets, and training data: We have not detected access. We are reviewing calls made with the exposed credentials to verify the scope.
+ Live inference traffic (including prompts and outputs): We have found no evidence that any inference traffic was accessed. Additionally, note that Fireworks does not store prompts or outputs by default, as our platform is ZDR.
+ Personal data: We have not identified personal data being accessed.
+ What we have done
+ We have revoked the internal credentials used in the incident, revoked exposed Fireworks API keys and keys created by the actor, and added access restrictions. We are continuing to monitor for further activity.
+ We are also reviewing how secrets are made available to evaluation jobs. We will share additional remediation measures as they are implemented and verified.
+ What affected customers should do
+ Rotate the credentials identified in your notice. Rotate or revoke third-party credentials with the providers that issued them, then update the applications and Fireworks secrets that use them. Removing a stored secret alone does not invalidate the underlying credential. Fireworks has revoked the affected Fireworks API keys; third-party credentials require action with their issuing providers.
+ Check for unrecognized resources or activity. Review API keys, users, evaluators, training jobs, and datasets. Send us the names or IDs of anything you do not recognize so we can determine whether it is related and help you address it.
+ We can provide secret names and credential fingerprints through a secure channel to help you identify the exact credentials requiring rotation.
+ If you have not received an affected-customer notice, no incident-specific action is currently required. Contact us if you observe suspicious activity or need help confirming your account’s status.
+ Contact
+ Reply to your incident notification email or contact security@fireworks.ai .
+ Platform
+ AI Native Enterprise Customers 
+ Use Cases
+ Code Assistance Conversational AI Agentic Systems Search Multimodal Enterprise RAG 
+ Developers
+ Model Library Docs CLI API Changelog 
+ Pricing
+ Serverless On-Demand Fine Tuning Enterprise 
+ Partners
+ Cloud and Infrastructure Consulting and Services Technology 
+ Resources
+ Blog Demos Cookbooks 
+ Company
+ Leadership Investors Careers Trust Center Privacy Choices 
+ © 2026 Fireworks AI, Inc. All rights reserved. Security bulletins
