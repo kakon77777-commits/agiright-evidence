@@ -1,0 +1,3 @@
+Redaction note (2026-11-10)
+
+The page captured here is the Incapsula bot-protection page that the headless browser received instead of the PM&C page. Its rendered HTML carried the IP address of the capturing machine in the cip= parameter of an iframe URL; the screenshot and rendered.txt show no address. Before this folder was published, that address (1 occurrence) was replaced in rendered.html by the placeholder "[IP address redacted]". This file therefore no longer matches record.rendered.htmlSha256 in meta.json (that hash is of the page as captured); every other file in this folder is exactly as captured.

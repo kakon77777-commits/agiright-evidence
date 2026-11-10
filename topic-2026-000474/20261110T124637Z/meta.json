@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000474",
+  "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+  "capturedAt": "2026-11-10T12:46:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 268615,
+    "sha256": "5d693164505dbcd1892437ce0abee4c5fcc3a4127bed676ec2196916e514fb50",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1FB39A8D4579922D5D4FEE6F9C923E14",
+      "status": 200,
+      "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2734,
+      "afterScrollHeight": 2734,
+      "wantedHeight": 2734
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6fc6cf6b610be6008641e6f73231cd49171eff403503f20a70d2df1d558f729d",
+    "width": 1366,
+    "height": 2734,
+    "bytes": 375040,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2734,
+    "afterScrollHeight": 2734
+  },
+  "record": {
+    "capturedAt": "2026-11-10T12:46:37Z",
+    "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 268615,
+      "sha256": "5d693164505dbcd1892437ce0abee4c5fcc3a4127bed676ec2196916e514fb50"
+    },
+    "finalUrl": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+    "httpStatus": 200,
+    "title": "Update on October 2026 security incident | Fireworks AI",
+    "rendered": {
+      "textChars": 5098,
+      "textSha256": "6fe22ec0994496136e68642f1d6236714bf0527a553efe30ba4cded4e2e5f9e1",
+      "htmlSha256": "5718a11824cf11f36abd5d8d854f63873b20b34672bf0a7127e9d345fcbdac23"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6fc6cf6b610be6008641e6f73231cd49171eff403503f20a70d2df1d558f729d",
+      "width": 1366,
+      "height": 2734,
+      "bytes": 375040,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261109194542",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261109194542/https://fireworks.ai/security/bulletins/october-2026-security-incident-update"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261110084740/https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+      "timestamp": "20261110084740",
+      "verifiedHttp": 200
+    }
+  }
+}

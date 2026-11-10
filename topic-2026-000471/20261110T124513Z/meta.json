@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000471",
+  "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+  "capturedAt": "2026-11-10T12:45:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 36566,
+    "sha256": "9a0a7011425f815df4b15ceba7d7b99a2ddad21b8fee1c1c55c4d126ec07a8c4",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F095B4AACA3DD6AE2F7073B8591211DC",
+      "status": 403,
+      "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c2333c49f141bf84644e5d05dc2371a29d29d59c113c76dbbd536ec455063f22",
+    "width": 1366,
+    "height": 900,
+    "bytes": 21504,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-10T12:45:13Z",
+    "url": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 36566,
+      "sha256": "9a0a7011425f815df4b15ceba7d7b99a2ddad21b8fee1c1c55c4d126ec07a8c4"
+    },
+    "finalUrl": "https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+    "httpStatus": 403,
+    "title": null,
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "7f95558f2abca813afa8483b310b46ff9780e44397d4eb54e51be6ac9c339e6c"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "c2333c49f141bf84644e5d05dc2371a29d29d59c113c76dbbd536ec455063f22",
+      "width": 1366,
+      "height": 900,
+      "bytes": 21504,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261110072027",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261110072027/https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261110072027/https://www.pm.gov.au/media/new-australian-ai-safety-and-security-protections",
+      "timestamp": "20261110072027",
+      "verifiedHttp": 200
+    }
+  }
+}

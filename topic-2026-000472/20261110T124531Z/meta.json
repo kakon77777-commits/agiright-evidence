@@ -1,0 +1,54 @@
+{
+  "id": "topic-2026-000472",
+  "url": "https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf",
+  "capturedAt": "2026-11-10T12:45:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 23887562,
+    "sha256": "bb548a5db76349a67a0e65b84f36ddd15c19c3d5819eb3028460955682bfc259",
+    "file": "raw.pdf"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "CC2853EB8133E1F40F2FFB596610608E",
+      "status": 200,
+      "url": "https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf",
+      "mime": "application/pdf"
+    },
+    "skipped": "pdf: no rendered view captured (raw bytes stored instead)",
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "record": {
+    "capturedAt": "2026-11-10T12:45:31Z",
+    "url": "https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf",
+    "raw": {
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 23887562,
+      "sha256": "bb548a5db76349a67a0e65b84f36ddd15c19c3d5819eb3028460955682bfc259"
+    },
+    "finalUrl": "https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf",
+    "httpStatus": 200,
+    "note": "pdf: no rendered view captured (raw bytes stored instead)",
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261109194021",
+      "statuscode": "200",
+      "mimetype": "application/pdf",
+      "url": "https://web.archive.org/web/20261109194021/https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

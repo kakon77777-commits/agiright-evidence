@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000473",
+  "url": "https://openai.com/index/control-room/",
+  "capturedAt": "2026-11-10T12:46:11Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 9982,
+    "sha256": "ce8e211785daab87f98134e4d8e9d9c58f666ef29f809621a301a567bb687623",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.42",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "8DF78A09DEF481BBD22061F806D8397F",
+      "status": 403,
+      "url": "https://openai.com/index/control-room/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-10T12:46:11Z",
+    "url": "https://openai.com/index/control-room/",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 9982,
+      "sha256": "ce8e211785daab87f98134e4d8e9d9c58f666ef29f809621a301a567bb687623"
+    },
+    "finalUrl": "https://openai.com/index/control-room/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "09fcec2ff06cc6641ce491d7f4be08bbf50f0bb8960b05a5779ae7d3549871f4"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.42)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261109220205",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261109220205/https://openai.com/index/control-room/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261109220205/https://openai.com/index/control-room/",
+      "timestamp": "20261109220205",
+      "verifiedHttp": 200
+    }
+  }
+}
