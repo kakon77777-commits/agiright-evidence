@@ -1,0 +1,19 @@
+Source: https://www.nysenate.gov/legislation/bills/2025/S8828
+Read 2026-11-11 in the connected Chrome (page text of the bill, section by section), typed by hand into this file. Scripted fetches get HTTP 403 from this host. Legislative text (public law). The Senate page prints new matter in capital letters and carries over existing text in lower case.
+Cited by the dated note on topic 476. Excerpts only, typed by hand while reading the page in the connected Chrome (not a copy of the file); each fragment the note quotes was then checked against the page text in the browser and found there. The page text of the whole bill (28,635 characters after whitespace runs are collapsed) contains no occurrence of the word "center" in any case.
+Page header: "NY State Senate Bill 2025-S8828"; "Relates to transparency and safety requirements for developers of artificial intelligence models"; "CURRENT BILL STATUS -" "Signed By Governor".
+
+
+Section 1421 (TRANSPARENCY REQUIREMENTS), subdivision 1 (frontier AI framework), items (E) and (F):
+(E) USING THIRD PARTIES TO ASSESS THE POTENTIAL FOR CATASTROPHIC RISKS AND THE EFFECTIVENESS OF MITIGATIONS OF CATASTROPHIC RISKS;
+(F) REVISITING AND UPDATING THE FRONTIER AI FRAMEWORK, INCLUDING ANY CRITERIA THAT TRIGGER UPDATES AND HOW THE LARGE FRONTIER DEVELOPER DETERMINES WHEN ITS FRONTIER MODELS ARE SUBSTANTIALLY MODIFIED ENOUGH TO REQUIRE DISCLOSURES PURSUANT TO SUBDIVISION THREE OF THIS SECTION;
+---
+Section 1421, subdivision 3 (transparency report):
+3. (A) BEFORE, OR CONCURRENTLY WITH, DEPLOYING A NEW FRONTIER MODEL OR A SUBSTANTIALLY MODIFIED VERSION OF AN EXISTING FRONTIER MODEL, A FRONTIER DEVELOPER SHALL CLEARLY AND CONSPICUOUSLY PUBLISH ON ITS INTERNET WEBSITE A TRANSPARENCY REPORT CONTAINING ALL OF THE FOLLOWING: ...
+(B) BEFORE, OR CONCURRENTLY WITH, DEPLOYING A NEW FRONTIER MODEL OR A SUBSTANTIALLY MODIFIED VERSION OF AN EXISTING FRONTIER MODEL, A LARGE FRONTIER DEVELOPER SHALL INCLUDE IN THE TRANSPARENCY REPORT REQUIRED BY PARAGRAPH (A) OF THIS SUBDIVISION, SUMMARIES OF ALL OF THE FOLLOWING: (I) ASSESSMENTS OF CATASTROPHIC RISKS FROM THE FRONTIER MODEL CONDUCTED PURSUANT TO THE LARGE FRONTIER DEVELOPER'S FRONTIER AI FRAMEWORK; (II) THE RESULTS OF THE ASSESSMENTS UNDER SUBPARAGRAPH (I) OF THIS PARAGRAPH; (III) THE EXTENT TO WHICH THIRD-PARTY EVALUATORS WERE INVOLVED; AND (IV) OTHER STEPS TAKEN TO FULFILL THE REQUIREMENTS OF THE FRONTIER AI FRAMEWORK WITH RESPECT TO THE FRONTIER MODEL.
+---
+Section 1422 (REPORTING), subdivision 3:
+3. (A) SUBJECT TO PARAGRAPH (B) OF THIS SUBDIVISION, A FRONTIER DEVELOPER SHALL REPORT ANY CRITICAL SAFETY INCIDENT PERTAINING TO ONE OR MORE OF ITS FRONTIER MODELS TO THE OFFICE WITHIN SEVENTY-TWO HOURS FROM A DETERMINATION THAT A CRITICAL SAFETY INCIDENT HAS OCCURRED OR WITHIN SEVENTY-TWO HOURS OF THE FRONTIER DEVELOPER LEARNING FACTS SUFFICIENT TO ESTABLISH A REASONABLE BELIEF THAT A CRITICAL SAFETY INCIDENT HAS OCCURRED. (B) IF A FRONTIER DEVELOPER DISCOVERS THAT A CRITICAL SAFETY INCIDENT POSES AN IMMINENT RISK OF DEATH OR SERIOUS PHYSICAL INJURY, THE FRONTIER DEVELOPER SHALL DISCLOSE THAT INCIDENT WITHIN TWENTY-FOUR HOURS TO AN AUTHORITY, INCLUDING ANY LAW ENFORCEMENT AGENCY OR PUBLIC SAFETY AGENCY WITH JURISDICTION, THAT IS APPROPRIATE BASED ON THE NAT[URE ...]
+---
+Effective dates. The amended chapter's own text (section 3 of that chapter, as the bill rewrites it): § 3. This act shall take effect [on the ninetieth day after it shall have become a law] JANUARY 1, 2027.
+Section 5 of the bill: § 5. This act shall take effect immediately; provided, however that the provisions of sections one, two and four of this act shall take effect on the same date and in the same manner as a chapter of the laws of 2025 amending the general business law relating to the training and use of artificial intelligence frontier models, as proposed in legislative bills numbers S. 6953-B and A. 6453-B, takes effect.

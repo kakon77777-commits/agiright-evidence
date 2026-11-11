@@ -1,0 +1,13 @@
+Source: https://www.suny.edu/suny-news/press-releases/11-26/11-10-26-2/ (page title "11-10-26 Gov Launches New AI Research Institute - SUNY")
+Read: 2026-11-11 (Taipei) in the connected Chrome (a scripted fetch gets HTTP 403). The page text was 11,702 characters. Nine sentences of the copy of the Governor's release that is stored as p079 were searched in the page text (curly quotes and apostrophes normalised, whitespace collapsed); all nine were found. The rest of the page was not compared.
+Cited by the dated note on topic 476. The nine sentences (straight apostrophes here):
+
+1. independently test advanced AI systems for safety and security
+2. At the State's request, NYCAIRR will be able to provide expertise, assessments and evidence that can assist in informing state policy making and oversight of frontier AI Developers.
+3. For example, NYCAIRR will coordinate with DIGIT to begin reviewing AI Developers' published safety frameworks and providing recommendations on ways to strengthen requirements.
+4. Large frontier developers are required to register through the newly released RAISE Portal by January 1, 2027.
+5. more than 80 leading scientists
+6. strongest-in-the-nation requirement to report any critical safety incident within 72 hours
+7. oversee its independent evaluation work
+8. The stakes are too high to simply take AI companies at their word.
+9. In the coming months, the Governor will continue exploring ways to build on the RAISE Act
