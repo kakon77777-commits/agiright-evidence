@@ -1,0 +1,16 @@
+Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ (the October 28 announcement post, topic 395)
+Fetched: 2026-11-11 (Taipei) by script, HTTP 200, 368274 bytes of HTML, SHA-256 of the raw HTML 839347252b7841a76864ee0d6397031ef526adca56f7b9274c784e2b48aea54f.
+Cited by the dated note on topic 395. A link check, not the page: the links to storage.googleapis.com/deepmind-media/ found in the raw HTML, and the HTML around the safety report link.
+
+Links to storage.googleapis.com/deepmind-media/ in the page:
+https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf
+
+HTML around the link (up to 2 matches):
+s in model alignment with Argon, and reported its propensities to behave in an aligned way in our <a href="https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf">Safety and Security report for Argon</a>. With Carbon, we challenged ourselves to go a step further on alignment, and trained the model to respond to complex 
+
+Internet Archive comparison of the link text (read page-side in the connected Chrome on 2026-11-11, because scripted requests to the Archive got HTTP 429; the capture addresses are web.archive.org/web/<timestamp>id_/<page address>):
+- capture 20261028170245 (the earliest, October 28 at 17:02 UTC): the link to gemini_4_safety_report.pdf has the text "Safety and Security report".
+- capture 20261028193328 (October 28 at 19:33 UTC): the same text.
+- capture 20261110164457 (November 10 at 16:44 UTC, the latest of the 36 captures the Archive lists from October 29 on): the same text, "Safety and Security report".
+- the page as fetched by script on 2026-11-11 (the HTML above): the link text is "Safety and Security report for Argon"; the address is unchanged.
+The two October 28 captures contain no address gemini_4_carbon_safety_report (the November 10 capture was checked for the link text only). The label was therefore changed after November 10 at 16:44 UTC; the Archive lists no later capture, so the date of the change is not known.

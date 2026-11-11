@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000478",
+  "url": "https://biz.heraldcorp.com/article/10934041",
+  "capturedAt": "2026-11-11T09:25:46Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 78915,
+    "sha256": "7048c4b8d754c26cab89c53034bb15130c42668dc15c04823c815377ad44ead3",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9AB217FADAD4C522B5D2A6B5313AB511",
+      "status": 200,
+      "url": "https://biz.heraldcorp.com/article/10934041",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4378,
+      "afterScrollHeight": 4378,
+      "wantedHeight": 4378
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "aab28c84062806850dc45571af9c4b1d5221bb115519d6f9c72bc252ab16f5cb",
+    "width": 1366,
+    "height": 4378,
+    "bytes": 723370,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4378,
+    "afterScrollHeight": 4378
+  },
+  "record": {
+    "capturedAt": "2026-11-11T09:25:46Z",
+    "url": "https://biz.heraldcorp.com/article/10934041",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 78915,
+      "sha256": "7048c4b8d754c26cab89c53034bb15130c42668dc15c04823c815377ad44ead3"
+    },
+    "finalUrl": "https://biz.heraldcorp.com/article/10934041",
+    "httpStatus": 200,
+    "title": "Ministry of Science and ICT opens probe into Anthropic data breach - The Herald Business",
+    "rendered": {
+      "textChars": 4579,
+      "textSha256": "af72353e617cef0913f35b88f8551c8c3035e5f812da22dea6d003284fd7c568",
+      "htmlSha256": "db9073130baeb6f92e6539a2ad5c3f85669c86ff892e9b0b1dcfbfd4c706f530"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "aab28c84062806850dc45571af9c4b1d5221bb115519d6f9c72bc252ab16f5cb",
+      "width": 1366,
+      "height": 4378,
+      "bytes": 723370,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261111092610/https://biz.heraldcorp.com/article/10934041",
+      "timestamp": "20261111092610",
+      "verifiedHttp": 200
+    }
+  }
+}

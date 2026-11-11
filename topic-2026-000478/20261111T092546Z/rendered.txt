@@ -1,0 +1,130 @@
+Sign In
+ECONOMY
+
+FINANCE
+
+STOCK
+
+REAL ESTATE
+
+INDUSTRY
+
+POLITICS
+
+SOCIETY
+
+WORLD
+
+SMB·BIO
+
+IT·SCIENCE
+
+CONSUMER
+
+LIFE·CULTURE
+
+OPINION
+IT·SCIENCE
+Ministry of Science and ICT opens probe into Anthropic data breach
+
+by Ko Jae-woo
+
+Published : Nov. 11, 2026 - 16:23:11
+
+View Korean Original
+
+The Anthropic logo. [Reuters]
+
+South Korea's Ministry of Science and ICT has launched an investigation into US AI company Anthropic after the firm filed a cyber-incident report with the ministry.
+
+Anthropic has maintained that the leak of domestic corporate customer data was not caused by hacking, but the ministry plans to conduct a broad investigation that includes the possibility of a cyberattack.
+
+The ministry recently received a cyber-incident report from Anthropic and is moving quickly to determine follow-up measures. Under the current Act on Promotion of Information and Communications Network Utilization and Information Protection, companies must report cyber incidents to either the Minister of Science and ICT or the Korea Internet & Security Agency.
+
+The ministry will decide whether to conduct its investigation of Anthropic on-site or through written inquiry, and may refer the case to its cyber-incident review committee depending on the severity of the breach.
+
+If the committee determines that an investigation is warranted, the ministry can order Anthropic to take measures covering three areas: whether a cyber incident occurred and its cause, incident response to prevent the spread of damage, and recovery and recurrence prevention.
+
+Anthropic had previously told the Personal Information Protection Commission that the exposure of roughly 100 domestic corporate accounts was not the result of an AWS server hack, but rather stemmed from a vulnerability in internal business software at its US headquarters. The leaked data reportedly included the names, email addresses, account IDs, plan ratings and service usage records of domestic corporate customers.
+
+Anthropic attributes the breach to misconduct by Cathedral, a US cybersecurity startup. The company said Cathedral, while participating in Anthropic's external security research program, violated program rules by failing to disclose all activities it had carried out within Anthropic's internal systems.
+
+[Getty Images]
+
+The ministry's investigation will examine not only the possibility of an insider leak but also potential hacking. The probe is also expected to cover whether the cyber-incident report was filed in compliance with the law and the full extent of the damage.
+
+"We recognize that further improvements are needed," Anthropic said, adding that it would "continue to strengthen the security and monitoring of third-party software."
+
+Meanwhile, the incident comes at a difficult moment for Anthropic, which set a record in October with about 5 million domestic users of its Claude service — a nearly 1,000 percent surge from roughly 460,000 users in the same month the previous year. The company now finds itself listed among firms that have suffered a cyber incident.
+
+ko@heraldcorp.com
+
+This content was produced with the assistance of AI translation services.
+
+by Ko Jae-woo
+
+Ministry of Science and ICT opens probe into Anthropic data breach
+NHN posts record quarterly sales, operating profit in Q3
+KT Corp posts W505.3b operating profit in Q3 as recovery gains pace
+MOST READ
+1
+
+Man beat live-in girlfriend 514 times over 3 hours, killing her; forensic expert says footage was too disturbing to watch
+
+Oct. 26, 2026
+
+2
+
+Nvidia CEO Jensen Huang publicly apologizes for extramarital affair
+
+Nov. 9, 2026
+
+3
+
+Popeyes Korea eyes 200 stores by 2029 as franchise push begins
+
+Nov. 10, 2026
+
+4
+
+Vacant stores vanish in Myeong-dong, Seongsu as tourists return
+
+Nov. 10, 2026
+
+5
+
+Prediction markets put odds on Jensen Huang's exit, divorce after affair admission
+
+Nov. 10, 2026
+
+NEWS
+ECONOMY
+FINANCE
+STOCK
+REAL ESTATE
+INDUSTRY
+
+POLITICS
+SOCIETY
+WORLD
+SMB·BIO
+IT·SCIENCE
+
+CONSUMER
+OPINION
+ENTERTAINMENT
+SPORTS
+
+About Herald
+Introduction
+History
+Greeting
+Vision
+Businesses
+Contact Us
+
+※ This article was translated using AI technology for reader convenience.
+
+The herald Business provides these translations "as they are" and makes no warranties of any kind, either explicitly or implicitly, regarding accuracy, reliability and marketability, suitability for a particular purpose, etc. of translation. Please be informed that the content provided may not be translated accurately due to limitations in machine translation before using this service
+
+Copyright Herald Corporation. All Rights Reserved.

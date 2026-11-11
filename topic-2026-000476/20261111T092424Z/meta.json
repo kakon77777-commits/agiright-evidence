@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000476",
+  "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+  "capturedAt": "2026-11-11T09:24:24Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 50271,
+    "sha256": "dc6986f2bc22a15b17577c9a0ebcf5c64858eaef4a3c0d20cfed3a9f53243793",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5B98348F8D8E766D272903BF2DCCB960",
+      "status": 403,
+      "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1021,
+      "afterScrollHeight": 1021,
+      "wantedHeight": 1021
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "88c2fbb5041af8b145ad1c5bb36017ca2270eb07cf96b7f7e531fa92c4bac763",
+    "width": 1366,
+    "height": 1021,
+    "bytes": 57470,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1021,
+    "afterScrollHeight": 1021
+  },
+  "record": {
+    "capturedAt": "2026-11-11T09:24:24Z",
+    "url": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 50271,
+      "sha256": "dc6986f2bc22a15b17577c9a0ebcf5c64858eaef4a3c0d20cfed3a9f53243793"
+    },
+    "finalUrl": "https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+    "httpStatus": 403,
+    "title": "Attention Required! | Cloudflare",
+    "rendered": {
+      "textChars": 683,
+      "textSha256": "ac66b948419b78829ccb5f0fe9a162a9aa9777f2fdf50bcdb88a96387de94d40",
+      "htmlSha256": "448b5c4121556b531f6c28a7fcca1dfac59ab5b062da3b2caaa3f2072c13e3a9"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "88c2fbb5041af8b145ad1c5bb36017ca2270eb07cf96b7f7e531fa92c4bac763",
+      "width": 1366,
+      "height": 1021,
+      "bytes": 57470,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261111092437/https://www.governor.ny.gov/news/governor-hochul-declares-ny-will-lead-nation-ai-science-and-safety-launches-new-research",
+      "timestamp": "20261111092437",
+      "verifiedHttp": 200
+    }
+  }
+}
