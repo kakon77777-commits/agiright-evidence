@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000483",
+  "url": "https://guidelight.ai/blog/categories-of-misaligned-ai-behaviors",
+  "capturedAt": "2026-11-12T11:05:46Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 237302,
+    "sha256": "97d2782ba0b6162bb23ef6135e8ec7112a15036b6fe5132e1e0ed33b6fd37c62",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "728379C223B9CBE2014BEBA9596AF44D",
+      "status": 200,
+      "url": "https://guidelight.ai/blog/categories-of-misaligned-ai-behaviors",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 9685,
+      "afterScrollHeight": 9685,
+      "wantedHeight": 9685
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "f288bb0d434ef1638f9f3e9896f965aed0174f505ca062ab79760d51d00dad7c",
+    "width": 1366,
+    "height": 9685,
+    "bytes": 873712,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 9685,
+    "afterScrollHeight": 9685
+  },
+  "record": {
+    "capturedAt": "2026-11-12T11:05:46Z",
+    "url": "https://guidelight.ai/blog/categories-of-misaligned-ai-behaviors",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 237302,
+      "sha256": "97d2782ba0b6162bb23ef6135e8ec7112a15036b6fe5132e1e0ed33b6fd37c62"
+    },
+    "finalUrl": "https://guidelight.ai/blog/categories-of-misaligned-ai-behaviors",
+    "httpStatus": 200,
+    "title": "Misaligned AI behaviors that indicate loss-of-control risk | Guidelight AI Standards",
+    "rendered": {
+      "textChars": 10970,
+      "textSha256": "99c854ff655550a6263048e25ca658a7d653f9775555a933c77bc6f428b35091",
+      "htmlSha256": "cde94bf27e8f367424992449f05e3b8291756e169ff584b327dc83154796794c"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f288bb0d434ef1638f9f3e9896f965aed0174f505ca062ab79760d51d00dad7c",
+      "width": 1366,
+      "height": 9685,
+      "bytes": 873712,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261112110601/https://guidelight.ai/blog/categories-of-misaligned-ai-behaviors",
+      "timestamp": "20261112110601",
+      "verifiedHttp": 200
+    }
+  }
+}

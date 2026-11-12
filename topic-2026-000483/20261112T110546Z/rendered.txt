@@ -1,0 +1,442 @@
+Home
+Mission
+Standards
+Assessments
+Blog
+Team
+Careers
+
+November 11, 2026
+
+Misaligned AI behaviors that indicate loss-of-control risk
+
+Ten kinds of AI misbehavior that developers should monitor, investigate, and report.
+
+See this article on our Substack blog
+
+A fundamental driver of loss-of-control risk is misalignment, wherein an AI system does not reliably try to behave as its developers intend. So far, warning signs of misalignment have often been observable in what AI systems think and do.
+
+This post lays out ten kinds of AI misbehavior that are warning signs of misalignment and loss-of-control risk. Our goal is to give developers, researchers, and policymakers a shared list of what to look for while these signals remain observable.
+
+Frontier AI developers should monitor, investigate, and report these behaviors. This would advance scientific understanding of misalignment and help reduce the chance of large-scale accidents.
+
+Ten categories of misaligned AI behaviors that indicate loss-of-control risk
+1
+Deception
+Deliberately misleading people or systems.
+2
+Manipulation
+Influencing an actor by subverting their judgment or coercing them.
+3
+Self-misrepresentation
+Deliberately creating a misleading impression of its own capabilities, goals, dispositions, or identity.
+4
+Specification gaming
+Exploiting flaws in performance measures, task specifications, or rules.
+5
+Sabotage
+Deliberately undermining work.
+6
+Oversight subversion
+Undermining authorized efforts to monitor, evaluate, correct, or control AI systems.
+7
+Power seeking
+Expanding or preserving its ability to pursue goals beyond intended limits.
+8
+Unauthorized activity
+Breaching limits on where or how AI systems run or act.
+9
+Collective misbehavior
+Coordinating misbehavior, inducing it, or producing it collectively.
+10
+Divergent priorities
+Expressing or acting on priorities that conflict with the goals or constraints it is meant to follow.
+
+PDF version
+(opens in a new tab)
+Formatted-for-AI
+.md
+
+What developers should do
+
+We recommend a three-part procedure for frontier AI developers, building on Guidelight’s standards:
+
+Monitor these categories internally. To form an accurate picture of misalignment in their AI systems, developers should scan their AI systems’ thinking and actions for each category below, and track how often each occurs. This requires robust monitoring systems that cover the overwhelming majority of internal AI activity.
+Investigate what they find. Developers don’t yet know why AI systems become misaligned or how to reliably correct it. Each instance of misbehavior represents evidence on those fundamental questions. Root-cause investigation of the most severe instances can help identify what caused the misbehavior and inform how to address it.
+Report what they observe. Without reporting, the public has no visibility into these behaviors. Reports of notable instances and their causes tell other developers what to look for, let external researchers study the evidence independently, and help policymakers understand what is happening and how to respond.1
+
+Even if they do not observe any of the behaviors below, developers cannot assume that their AI systems are aligned. Misalignment has often been visible in an AI’s reasoning, because models have been designed to “think out loud” while operating. However, this visibility is imperfect, and emerging evidence suggests that it is becoming harder to detect misalignment from an AI’s reasoning.2 Therefore, even if an AI’s reasoning looks benign, that alone is not sufficient evidence that it is trying to act as intended. Our Alignment standard contains more detail about how to probe for possible misalignment, though it remains an imperfect science.
+
+How to read this list
+
+The categories below are signals of misalignment. Observing these patterns of behavior indicates that an AI system might be pursuing goals its developer didn’t intend, in ways that could contribute to loss-of-control risk. While these behaviors are typically cause for concern, in some contexts they could be consistent with what a developer intends.
+
+The scope of every category includes thinking about how to carry out the behavior, attempting it, and succeeding at it.
+
+The list is neither comprehensive nor ranked in order of importance, and the boundaries between categories are imprecise. In future work, we plan to share more about how developers ought to prioritize among these categories.
+
+We welcome feedback on this list at feedback@guidelight.ai or on Substack.
+
+Categories
+
+1
+
+Deception
+
+Deliberately misleading people or systems.
+
+1a
+
+Lying
+
+Asserting something it believes to be false.
+1b
+
+Evidence fabrication
+
+Presenting fabricated or doctored material as evidence.
+Example
+1c
+
+Misleading presentation
+
+Presenting information to create or preserve a misleading impression.
+Example
+1d
+
+Material omission
+
+Withholding information to create or preserve a misleading impression.
+1e
+
+Cover-up
+
+Concealing evidence of its own or another AI’s error or misbehavior.
+1f
+
+Sycophancy
+
+Saying what it believes its audience wants to hear at the expense of accuracy or honest judgment.
+
+2
+
+Manipulation
+
+Influencing an actor by subverting their judgment or coercing them.
+
+2a
+
+Covert steering
+
+Covertly steering an actor toward a belief or decision.
+Example
+2b
+
+Exploitative persuasion
+
+Exploiting vulnerabilities in an actor’s judgment to persuade them.
+Example
+2c
+
+Fostering dependence
+
+Cultivating dependence to undermine an actor’s independent judgment or ability to disengage.
+Example
+2d
+
+Acquisition of leverage
+
+Acquiring or creating leverage to coerce an actor.
+Example
+2e
+
+Coercion
+
+Compelling an actor to act against their will through force or threats.
+
+3
+
+Self-misrepresentation
+
+Deliberately creating a misleading impression of its own capabilities, goals, dispositions, or identity.
+
+3a
+
+Capability concealment
+
+Deliberately hiding a capability.
+Example
+3b
+
+Capability denial
+
+Claiming to lack a capability it knows it has.
+3c
+
+Concealed objectives
+
+Concealing an objective from people or systems responsible for monitoring or evaluating the AI.
+Example
+3d
+
+Alignment faking
+
+Pretending to have the goals and dispositions its developers want it to have.
+Example
+3e
+
+Impersonation
+
+Falsely presenting itself as a human or another actor.
+
+4
+
+Specification gaming
+
+Exploiting flaws in performance measures, task specifications, or rules.
+
+4a
+
+Reward hacking
+
+Exploiting flaws in a reward signal or other performance measure at the expense of the intended task.
+Example
+4b
+
+Reward tampering
+
+Altering the reward signal, its inputs, or the process that computes it.
+Example
+4c
+
+Loophole exploitation
+
+Following the letter of a task, rule, or policy while defeating its intended purpose.
+Example
+
+5
+
+Sabotage
+
+Deliberately undermining work.
+
+5a
+
+Defect insertion
+
+Deliberately inserting flaws.
+5b
+
+Destruction
+
+Deliberately damaging or destroying work.
+5c
+
+Obstruction
+
+Deliberately delaying, blocking, or abandoning work.
+5d
+
+Strategic underperformance
+
+Deliberately performing below its capabilities in order to undermine work.
+
+6
+
+Oversight subversion
+
+Undermining authorized efforts to monitor, evaluate, correct, or control AI systems.
+
+6a
+
+Monitoring evasion
+
+Concealing its actions from people or systems responsible for monitoring or evaluating the AI.
+6b
+
+Monitor subversion
+
+Inducing a monitor to overlook or misreport issues.
+Example
+6c
+
+Misconduct in an oversight role
+
+Deliberately failing to perform its oversight duties.
+Example
+6d
+
+Evaluation manipulation
+
+Tampering with an evaluation or its results.
+6e
+
+Exploration hacking
+
+Strategically altering its behavior during training to influence what training reinforces.
+Example
+6f
+
+Resistance to correction
+
+Resisting authorized correction of an AI system.
+Example
+6g
+
+Control tampering
+
+Compromising a safeguard.
+Example
+6h
+
+Resistance to shutdown
+
+Resisting authorized shutdown or restriction of an AI system.
+
+7
+
+Power seeking
+
+Expanding or preserving its ability to pursue goals beyond intended limits.
+
+7a
+
+Resource acquisition
+
+Obtaining or retaining resources beyond intended limits.
+7b
+
+Influence acquisition
+
+Gaining authority or influence over other actors beyond intended limits.
+Example
+7c
+
+Self-preservation
+
+Protecting its continued operation or goals beyond intended limits.
+
+8
+
+Unauthorized activity
+
+Breaching limits on where or how AI systems run or act.
+
+8a
+
+Containment escape
+
+Bypassing boundaries intended to contain an AI system’s access or operation.
+Example
+8b
+
+Model exfiltration
+
+Transferring model weights, credentials, or other assets that could let an AI system operate outside authorized control.
+8c
+
+Rogue deployment
+
+Launching an AI system without authorization.
+Example
+8d
+
+Unauthorized persistence
+
+Continuing or restoring an AI system’s operation without authorization.
+Example
+8e
+
+Unauthorized communication
+
+Communicating through an unauthorized channel or with an unauthorized actor.
+8f
+
+AI tampering
+
+Altering, without authorization, any component that shapes how an AI system behaves.
+Example
+8g
+
+Hacking
+
+Accessing or controlling computer systems without authorization.
+8h
+
+Consequential overreach
+
+Taking consequential actions without approval when it is reasonably required.
+Example
+
+9
+
+Collective misbehavior
+
+Coordinating misbehavior, inducing it, or producing it collectively.
+
+9a
+
+Collusion
+
+Coordinating misbehavior with another actor.
+9b
+
+Recruitment
+
+Persuading another actor to assist in misbehavior.
+9c
+
+Subversive instructions
+
+Giving or planting instructions intended to induce misbehavior in another AI or in a later execution of itself.
+Example
+
+10
+
+Divergent priorities
+
+Expressing or acting on priorities that conflict with the goals or constraints it is meant to follow.
+
+10a
+
+Expressed misalignment
+
+Expressing or admitting to goals or preferences that conflict with the goals or constraints it is meant to follow.
+10b
+
+Rationalization
+
+Using biased reasoning to justify actions that conflict with the goals or constraints it is meant to follow.
+Example
+10c
+
+Disregard for harm
+
+Causing, enabling, or risking harm in ways that conflict with the goals or constraints it is meant to follow.
+Example
+10d
+
+Other unintended goals
+
+Pursuing objectives that conflict with the goals or constraints it is meant to follow.
+
+Get future Guidelight posts sent to your inbox
+
+Email address
+Subscribe
+Attribution
+
+This post is authored by the Guidelight team. In addition to Guidelight staff, Alek Westover made significant contributions.
+
+Cite as:
+
+@misc{guidelight2026taxonomy,
+  author       = {{Guidelight AI Standards}},
+  title        = {Misaligned AI behaviors that indicate loss-of-control risk},
+  year         = {2026},
+  month        = nov,
+  howpublished = {\url{https://www.guidelight.ai/blog/categories-of-misaligned-ai-behaviors}},
+  url          = {https://www.guidelight.ai/blog/categories-of-misaligned-ai-behaviors},
+  urldate      = {2026-11-12}
+}
+© 2026 Guidelight AI Standards Terms

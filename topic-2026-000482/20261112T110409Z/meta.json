@@ -1,0 +1,72 @@
+{
+  "id": "topic-2026-000482",
+  "url": "https://www.united.com/en/us/fly/help-center/digital-trust-center/artificial-intelligence/third-party-ai-agents.html",
+  "capturedAt": "2026-11-12T11:04:09Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "The operation was aborted due to timeout"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": "net::ERR_HTTP2_PROTOCOL_ERROR",
+    "document": null,
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "2cb85d5bab969e0f835283fb08d8c5ac45558b27a2d77f2c3a2ae0bca32a35d0",
+    "width": 1366,
+    "height": 900,
+    "bytes": 34762,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-12T11:04:09Z",
+    "url": "https://www.united.com/en/us/fly/help-center/digital-trust-center/artificial-intelligence/third-party-ai-agents.html",
+    "raw": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "title": "www.united.com",
+    "finalUrl": "chrome-error://chromewebdata/",
+    "rendered": {
+      "textChars": 294,
+      "textSha256": "13851beadd16eb78e203df165877ea7cb24f97633487353a6daedb4c2d2740de",
+      "htmlSha256": "2c46f051b777fd5df52d9b83263ae940306581a5e7cd6466cd43b499546a024e"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "2cb85d5bab969e0f835283fb08d8c5ac45558b27a2d77f2c3a2ae0bca32a35d0",
+      "width": 1366,
+      "height": 900,
+      "bytes": 34762,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "navError": "net::ERR_HTTP2_PROTOCOL_ERROR",
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261112110519/https://www.united.com/en/us/fly/help-center/digital-trust-center/artificial-intelligence/third-party-ai-agents.html",
+      "timestamp": "20261112110519",
+      "verifiedHttp": 200
+    }
+  }
+}

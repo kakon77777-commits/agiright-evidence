@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000484",
+  "url": "https://x.com/tedlieu/status/2120502375886774586",
+  "capturedAt": "2026-11-12T11:06:20Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "320153984439436294bcd374e5fbb46d6ce08f60a4592f94d1f59640cc51fca1",
+    "width": 640,
+    "height": 900,
+    "bytes": 60391,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-12T11:06:20Z",
+    "url": "https://x.com/tedlieu/status/2120502375886774586",
+    "finalUrl": "https://x.com/tedlieu/status/2120502375886774586",
+    "screenshot": {
+      "sha256": "320153984439436294bcd374e5fbb46d6ce08f60a4592f94d1f59640cc51fca1",
+      "width": 640,
+      "height": 900,
+      "bytes": 60391,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2120502375886774586",
+      "handle": "tedlieu",
+      "syndicationSha256": "5d7b99ca57b702246c76c3a917849a1a805c75ac34a7cb891a1cdcfdcf243ddb",
+      "createdAt": "2026-11-11T13:02:18.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "tedlieu",
+      "lang": "en",
+      "textSha256": "a923d4b0981abb84bc467777b07d437e9791e8b77b483a44121243497511c0d6",
+      "media": [],
+      "oembedSha256": "e3116b938763dd69fdb0eb3dc78e98d106c0df32b17fc0b498118a23c5c63487",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}
