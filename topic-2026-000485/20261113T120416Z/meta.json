@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000485",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "capturedAt": "2026-11-13T12:04:16Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 62382,
+    "sha256": "1f0747f87b07a430b659d85d01672a5b83bcf336831ab0283d31ae5707a67226",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "DA88F1BBEAC360CE3DE255144009CB53",
+      "status": 200,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2800,
+      "afterScrollHeight": 2800,
+      "wantedHeight": 2800
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8a848bb515f0ecc5cbd6db50e767b75146da829ff1f69dc1b0e0cf4cf638fc52",
+    "width": 1366,
+    "height": 2800,
+    "bytes": 358652,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2800,
+    "afterScrollHeight": 2800
+  },
+  "record": {
+    "capturedAt": "2026-11-13T12:04:16Z",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 62382,
+      "sha256": "1f0747f87b07a430b659d85d01672a5b83bcf336831ab0283d31ae5707a67226"
+    },
+    "finalUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "httpStatus": 200,
+    "title": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "rendered": {
+      "textChars": 5380,
+      "textSha256": "44fdaeb2b896a7f050dddd0a00dc68dd3d5cfded606dc5504433c43c2a075230",
+      "htmlSha256": "4940d2a787af195a0f88776b347c62829f83109bbac2660438f40959c6c461de"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8a848bb515f0ecc5cbd6db50e767b75146da829ff1f69dc1b0e0cf4cf638fc52",
+      "width": 1366,
+      "height": 2800,
+      "bytes": 358652,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261112135432",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261112135432/https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Close banner Please Don't Scroll Past This The Wayback Machine is sup"
+    }
+  }
+}

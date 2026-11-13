@@ -1,0 +1,75 @@
+{
+  "id": "topic-2026-000489",
+  "url": "https://www.united.com/en/us/fly/contract-of-carriage.html",
+  "capturedAt": "2026-11-13T12:06:43Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "The operation was aborted due to timeout"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": "net::ERR_HTTP2_PROTOCOL_ERROR",
+    "document": null,
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "29823a0c290d945b330226d337d00753b77d8e111982b07bb96ecbd06dd71302",
+    "width": 1366,
+    "height": 900,
+    "bytes": 31312,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-13T12:06:43Z",
+    "url": "https://www.united.com/en/us/fly/contract-of-carriage.html",
+    "raw": {
+      "error": "The operation was aborted due to timeout"
+    },
+    "title": "www.united.com",
+    "finalUrl": "chrome-error://chromewebdata/",
+    "rendered": {
+      "textChars": 236,
+      "textSha256": "8e9bf657edc0275de4e8ffd178cffd9997aa33e4ec68cdb1c567b6ae7e879a9c",
+      "htmlSha256": "ce5f392f92021aa166f44e1bf4e098bef864fc22c4f366775e65f207021bf029"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "29823a0c290d945b330226d337d00753b77d8e111982b07bb96ecbd06dd71302",
+      "width": 1366,
+      "height": 900,
+      "bytes": 31312,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "navError": "net::ERR_HTTP2_PROTOCOL_ERROR",
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20210618003733",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20210618003733/https://www.united.com/en/us/fly/contract-of-carriage.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261113120827/https://www.united.com/en/us/fly/contract-of-carriage.html",
+      "timestamp": "20261113120827",
+      "verifiedHttp": 200
+    }
+  }
+}

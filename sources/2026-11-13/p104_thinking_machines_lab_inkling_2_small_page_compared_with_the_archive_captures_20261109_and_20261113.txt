@@ -1,0 +1,13 @@
+Sources: https://web.archive.org/web/20261109064644id_/https://thinkingmachines.ai/news/inkling-2-small/ and https://web.archive.org/web/20261113033021id_/https://thinkingmachines.ai/news/inkling-2-small/ (captures of 2026-11-09 06:46:44 UTC and 2026-11-13 03:30:21 UTC)
+Fetched: 2026-11-13 (Taipei) by script (curl --compressed), HTTP 200. Capture of 11-09: 742132 bytes of HTML, SHA-256 795b20613695a4b745df73c890f16c48efd1e932e687f0ab2b8cca6e159d9a17. Capture of 11-13: 815434 bytes of HTML, SHA-256 7b4519ff66f56659eba036b9a423bc691dbb91bf070116730dc890b04ea74c60.
+Cited by topic 488. This file records the comparison by lines of extracted text; only the non-table differences are listed (the benchmark tables differ in about 99 lines of the 11-09 capture and 138 lines of the 11-13 capture: rows added, cells filled in or changed, column order changed). The text of the 11-13 capture equals the page as fetched on 2026-11-13 (510 lines each, no line in only one of them).
+
+ONLY IN THE 11-13 CAPTURE (and the page as fetched): "Nov 12, 2026 Update: Inkling 2 Small’s weights are now available for download on HuggingFace . It is also integrated with Unsloth , SGLang , vLLM , and TokenSpeed , can be post-trained with Miles , SkyRL , and Snowflake Cortex Training , and is available via API at NVIDIA, Fireworks, Together , Baseten , Nebius , Modal , and Cloudflare ."
+
+11-09 capture, row of buttons: "Try on Tinker Model card"
+11-13 capture, row of buttons: "Try on Tinker HuggingFace Model card"
+
+11-09 capture: "...It matches the open-weight frontier on Vals CyberBench v1.1 and PatchEval..."
+11-13 capture: "...It matches the open-weight frontier on CyberBench v1.1 and PatchEval..."
+
+IN BOTH CAPTURES (unchanged): "We intend to make the full weights available under an Apache 2.0 license next week after the completion of external safety testing and red-teaming." and "The release of Inkling 2 Small’s weights is pending further safety evaluations by us and our partners."

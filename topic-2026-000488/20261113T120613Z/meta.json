@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000488",
+  "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+  "capturedAt": "2026-11-13T12:06:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 815434,
+    "sha256": "7b4519ff66f56659eba036b9a423bc691dbb91bf070116730dc890b04ea74c60",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5BDD3846A3BA7B5200F6A91BA7DD5893",
+      "status": 200,
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 23773,
+      "afterScrollHeight": 23727,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "190ea06b803b37b09c072ba6c547b4f660f699dabea7061cf55f49736604f33d",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1496785,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 23773,
+    "afterScrollHeight": 23727
+  },
+  "record": {
+    "capturedAt": "2026-11-13T12:06:13Z",
+    "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 815434,
+      "sha256": "7b4519ff66f56659eba036b9a423bc691dbb91bf070116730dc890b04ea74c60"
+    },
+    "finalUrl": "https://thinkingmachines.ai/news/inkling-2-small/",
+    "httpStatus": 200,
+    "title": "Introducing Inkling 2 Small - Thinking Machines Lab",
+    "rendered": {
+      "textChars": 46479,
+      "textSha256": "355ea40063fd5ced5389bb8d5ed32ca1420bf90e84cfaa369d75595702124e28",
+      "htmlSha256": "ee4359cc68a80495d98b6fe3e5795c064f065a9f6a9add219c97bdb520cd9328"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "190ea06b803b37b09c072ba6c547b4f660f699dabea7061cf55f49736604f33d",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1496785,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261106000515",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261106000515/https://thinkingmachines.ai/news/inkling-2-small/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261113033021/https://thinkingmachines.ai/news/inkling-2-small/",
+      "timestamp": "20261113033021",
+      "verifiedHttp": 200
+    }
+  }
+}

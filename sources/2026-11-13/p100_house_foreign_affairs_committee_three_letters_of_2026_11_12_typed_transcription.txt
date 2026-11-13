@@ -1,0 +1,41 @@
+Source: the three PDFs linked from the release of p099 (foreignaffairs.house.gov, /sites/evo-subsites/republicans-foreignaffairs.house.gov/files/evo-media-document/11.12.26-chairmen-letter-to-mr-jensen-huang.pdf, 11.12.26-chairmen-letter-to-nvidia-gc.pdf, 11.12.26-invitation-to-u-s-kessler.pdf)
+Fetched: 2026-11-13 (Taipei) by script (curl), HTTP 200. huang: 51546 bytes, SHA-256 621d0221f2d59adf9057c8b147729ecf5ede115c3fc198efc5da97e2e5834bce; teter: 52247 bytes, SHA-256 64f4e7fb0d6cbac0816815b51677feb10085040cd5494b6fbeed94ec1626d5a0; kessler: 35838 bytes, SHA-256 b7a4edb69ac8930caf2ae15ea0d9a93b4d65f3d2cfc8b54f1843fbecc7bebe27. The PDFs are image-only (no text layer); they are documents of the U.S. House of Representatives.
+Cited by topic 486. The text below was typed by hand from the images of the three one-page letters (straight apostrophes in the transcription; letterhead, addresses and signature blocks omitted), so it records our reading, not machine text.
+
+=== Letter 1: to Mr. Jensen Huang, "Founder, NVIDIA Corporation", addressed in care of his outside counsel; signed by Brian J. Mast (Chairman, House Committee on Foreign Affairs), John Moolenaar (Chairman, House Select Committee on the CCP) and Eric A. "Rick" Crawford (Chairman, House Permanent Select Committee on Intelligence)
+
+November 12, 2026
+
+Dear Mr. Huang:
+
+We appreciated the conversation with NVIDIA staff yesterday regarding our committees' request. As an accommodation to reflect recent events, we request that you appear for a closed-door, transcribed interview on December 1, 2026.
+
+Failure to cooperate with this request will result in the House Foreign Affairs Committee issuing a subpoena to compel your testimony in a format of the committee's choosing. Other committees also reserve the right to separately issue subpoenas to compel your testimony.
+
+We request written confirmation of your acceptance of this request by 8 p.m. EST on November 13, 2026, or a subpoena will be issued.
+
+Sincerely,
+
+=== Letter 2: to Mr. Tim Teter, General Counsel, NVIDIA Corporation; same three signatories
+
+November 12, 2026
+
+Dear Mr. Teter:
+
+We appreciated the conversation with your staff yesterday regarding our committees' request for Mr. Huang's appearance. This letter is to request your appearance for a closed-door transcribed interview on December 2, 2026, regarding AI chip smuggling, adversary military use of NVIDIA products, and recent public reports regarding NVIDIA's interference in U.S. export control policies and investigations, including those involving Megaspeed. We request written confirmation of your intention to appear on December 2, 2026, by no later than 8 p.m. EST on November 13, 2026.
+
+Failure to cooperate with this request will result in the House Foreign Affairs Committee issuing a subpoena to compel your testimony in a format of the committee's choosing. Other committees also reserve the right to separately issue subpoenas to compel your testimony, which could also be in an open hearing format.
+
+We request written confirmation of your acceptance of this request by 8 p.m. EST on November 13, 2026, or a subpoena will be issued.
+
+Sincerely,
+
+=== Letter 3: to The Honorable Jeff Kessler, Under Secretary of Commerce for Industry and Security, U.S. Department of Commerce; signed by Brian Mast alone
+
+November 12, 2026
+
+Dear Under Secretary Kessler,
+
+I request your appearance before the House Foreign Affairs Committee for a hearing on chip smuggling, adversary military use of advanced AI chips, reported interference by private companies into export control policy and enforcement investigations, and Megaspeed at 10 a.m. on December 3, 2026.
+
+Sincerely,

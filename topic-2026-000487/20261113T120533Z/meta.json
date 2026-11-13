@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000487",
+  "url": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/",
+  "capturedAt": "2026-11-13T12:05:33Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 158481,
+    "sha256": "9f9357d1da41138bc1b11c410a578e4473d1273149f26eac45ab27ecd3f59c7c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "42022043EB4BA218E6E46320F3B9D5A7",
+      "status": 200,
+      "url": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 12082,
+      "afterScrollHeight": 12082,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "f189c51ae8dc2e136e9a59cadf452b85ab0357cd987cdb795d4db1d621733c9f",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1189135,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 12082,
+    "afterScrollHeight": 12082
+  },
+  "record": {
+    "capturedAt": "2026-11-13T12:05:33Z",
+    "url": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 158481,
+      "sha256": "9f9357d1da41138bc1b11c410a578e4473d1273149f26eac45ab27ecd3f59c7c"
+    },
+    "finalUrl": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/",
+    "httpStatus": 200,
+    "title": "Gemini 4 Hydrogen - Model Card — Google DeepMind",
+    "rendered": {
+      "textChars": 13502,
+      "textSha256": "3a152f5531c1cd8e13b6641fd29127d7b7e62dc17ba2f4dd0b94c5b55730d399",
+      "htmlSha256": "50defd31b2ca6e1ce4961e42b977729578a7ebb03e67947be93b2bab6e1c80f0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f189c51ae8dc2e136e9a59cadf452b85ab0357cd987cdb795d4db1d621733c9f",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1189135,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261112180303",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261112180303/https://deepmind.google/models/model-cards/gemini-4-hydrogen/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261113120552/https://deepmind.google/models/model-cards/gemini-4-hydrogen/",
+      "timestamp": "20261113120552",
+      "verifiedHttp": 200
+    }
+  }
+}

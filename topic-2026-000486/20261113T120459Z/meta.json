@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000486",
+  "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress-on-the-chinese-intelligence-asset",
+  "capturedAt": "2026-11-13T12:04:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 51046,
+    "sha256": "b3178da70d5fedce026d57e02f2b40d061d2b10d0d455b3e352b4c0275694873",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5C540227DDF536FB77D74E14721E51EF",
+      "status": 200,
+      "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress-on-the-chinese-intelligence-asset",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1940,
+      "afterScrollHeight": 1940,
+      "wantedHeight": 1940
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c5b3070fff2c8c0f01ffd432a7108deb07a4725cd6c2c51942dfec80fdeb7c00",
+    "width": 1366,
+    "height": 1940,
+    "bytes": 836084,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1940,
+    "afterScrollHeight": 1940
+  },
+  "record": {
+    "capturedAt": "2026-11-13T12:04:59Z",
+    "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress-on-the-chinese-intelligence-asset",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 51046,
+      "sha256": "b3178da70d5fedce026d57e02f2b40d061d2b10d0d455b3e352b4c0275694873"
+    },
+    "finalUrl": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress-on-the-chinese-intelligence-asset",
+    "httpStatus": 200,
+    "title": "Chairmen Mast, Moolenaar, and Crawford Send Second Request to Jensen Huang and NVIDIA to Brief Congress on the Chinese Intelligence Asset | Republican Foreign Affairs Committee",
+    "rendered": {
+      "textChars": 2055,
+      "textSha256": "f3151921b8111667005aef6bf84519a24dcba91019ef0ce1c68d64cba2e5e21f",
+      "htmlSha256": "15753396bb5a805cf3b219a807f90fecad36a3fc11b9f5f2a569ba19b0a19526"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c5b3070fff2c8c0f01ffd432a7108deb07a4725cd6c2c51942dfec80fdeb7c00",
+      "width": 1366,
+      "height": 1940,
+      "bytes": 836084,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261113120513/https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress-on-the-chinese-intelligence-asset",
+      "timestamp": "20261113120513",
+      "verifiedHttp": 200
+    }
+  }
+}
