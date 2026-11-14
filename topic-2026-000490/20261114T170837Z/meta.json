@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000490",
+  "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+  "capturedAt": "2026-11-14T17:08:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 123639,
+    "sha256": "e3600d0df98779f9fbbb1cebc5c4d60aebdd837e086bdf7121466a4db894bfce",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "F1DA9ED7519778F6A0FD6A4B5D93CC2F",
+      "status": 200,
+      "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 6037,
+      "afterScrollHeight": 6037,
+      "wantedHeight": 6037
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "cb70cd0a790cdd6446d2abb7258d12719dd363bca1219021c6d2f2a5776fc8bc",
+    "width": 1366,
+    "height": 6037,
+    "bytes": 945570,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 6037,
+    "afterScrollHeight": 6037
+  },
+  "record": {
+    "capturedAt": "2026-11-14T17:08:37Z",
+    "url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 123639,
+      "sha256": "e3600d0df98779f9fbbb1cebc5c4d60aebdd837e086bdf7121466a4db894bfce"
+    },
+    "finalUrl": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+    "httpStatus": 200,
+    "title": "AI agents attempted exploits on our website | Epoch AI",
+    "rendered": {
+      "textChars": 9268,
+      "textSha256": "06f8d17a8be83f09775327a28e7761a837272c865a97adfe8b621837e7be4395",
+      "htmlSha256": "1c9db2293cba62659de080603766df201b06a8b0380d0df6689261328021c610"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "cb70cd0a790cdd6446d2abb7258d12719dd363bca1219021c6d2f2a5776fc8bc",
+      "width": 1366,
+      "height": 6037,
+      "bytes": 945570,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261114013409",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261114013409/https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261114013409/https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website",
+      "timestamp": "20261114013409",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "topic-2026-000491",
+  "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+  "capturedAt": "2026-11-14T17:09:19Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 10045,
+    "sha256": "a91bad8fa81cfef078d9009521e6f6fa58b4f2801f40d96185ef9847e6bc2e0a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "AA53107A4EBA9BADB98D14A924BFAA71",
+      "status": 403,
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-14T17:09:19Z",
+    "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 10045,
+      "sha256": "a91bad8fa81cfef078d9009521e6f6fa58b4f2801f40d96185ef9847e6bc2e0a"
+    },
+    "finalUrl": "https://openai.com/index/introducing-chatgpt-wallet/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "1da128b9ef7def735277e9ad3ce593693869f48ae8ab38524c6bc991aae2c474"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261113160407",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261113160407/https://openai.com/index/introducing-chatgpt-wallet/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

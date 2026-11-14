@@ -1,0 +1,23 @@
+Source: the two EDGAR main documents above (accession 0001628280-26-068676, filed 2026-11-02, and accession 0001628280-26-072484, filed 2026-11-10), compared on 2026-11-15 (Taipei) by script (sentence split at ". " and "; ", page-break text "Table of Contents" and page numbers removed).
+Cited by topic 493. This file is our own comparison of one paragraph; the rest of the two filings was not compared.
+
+Sentences in the paragraph that begins "In addition, our increasing use of AI systems to accelerate our own research and development": Amendment No. 1: 11; Amendment No. 2: 13; sentences identical in both: 9.
+
+Only in Amendment No. 1 (November 2, 2026):
+- For example, our internal estimates and our expectations regarding future models, rather than our current models, indicate that we may imminently meet our Responsible Scaling Policy’s definition of “dramatically accelerated progress attributable to AI.” We have not designated any of our current models as exceeding this threshold, and we continue to assess the underlying data.
+- We are also evaluating the implications of meeting the AI research and development capability threshold and will release further reports in the future as we set forth in our Responsible Scaling Policy.
+
+Only in Amendment No. 2 (November 10, 2026):
+- For example, our use of AI systems has already been accelerating our research and development, and our internal estimates indicate that we may experience a further increase in the rate of progress in AI capabilities.
+- Because the AI research and development capability threshold under our Responsible Scaling Policy applies where we “observe or expect” a specified degree of accelerated progress, we made a determination that we have met this threshold based on what we expect from future models and our overall rate of progress, rather than on what we have observed from current models.
+- We continue to assess the underlying data.
+- We are also evaluating the implications of meeting the AI research and development capability threshold and will release further reports in the future.
+
+Word searches (case-insensitive, text of each main document, counts of lines containing the string):
+- "imminently": Amendment No. 1 1, Amendment No. 2 0
+- "dramatically accelerated": Amendment No. 1 1, Amendment No. 2 0
+- "non-AI-assisted": Amendment No. 1 0, Amendment No. 2 0
+- "we made a determination that we have met": Amendment No. 1 0, Amendment No. 2 1
+- "observe or expect": Amendment No. 1 0, Amendment No. 2 1
+
+The sentence "we do not anticipate being able to safely use Claude to fully autonomously design and build successive generations of frontier models without meaningful human supervision or understanding, if and when that becomes technically possible. Accordingly, we are considering updates to our Responsible Scaling Policy to keep humans in control of frontier model development at Anthropic." is in both documents (whitespace-normalised search).

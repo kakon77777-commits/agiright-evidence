@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000492",
+  "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+  "capturedAt": "2026-11-14T17:10:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 231489,
+    "sha256": "49c4bb8e8b95141e71607ae57872209b28de8342cbad0d39758237425a870226",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.46",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "09184F3B99505DEDDCDCB6A67B9E8D8E",
+      "status": 200,
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 19173,
+      "afterScrollHeight": 19173,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "8e39508e9d7a125da9ce7d862aba4af8c3aa498775aacd11bf5cd94b9fe0e804",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1912350,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 19173,
+    "afterScrollHeight": 19173
+  },
+  "record": {
+    "capturedAt": "2026-11-14T17:10:13Z",
+    "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 231489,
+      "sha256": "49c4bb8e8b95141e71607ae57872209b28de8342cbad0d39758237425a870226"
+    },
+    "finalUrl": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+    "httpStatus": 200,
+    "title": "Building strong safety evaluations \\ Anthropic",
+    "rendered": {
+      "textChars": 30419,
+      "textSha256": "fb997773d53440af78132bfa99af6783a8066845328ae2001291e329db8e58cb",
+      "htmlSha256": "1f644ff2f9c46abb3a0a401567e7d375a8dab2d3e5c75cbf077c5e2c4f5e4d82"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8e39508e9d7a125da9ce7d862aba4af8c3aa498775aacd11bf5cd94b9fe0e804",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1912350,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.46)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261113180420",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261113180420/https://www.anthropic.com/research/building-strong-safety-evaluations"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261114171028/https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "timestamp": "20261114171028",
+      "verifiedHttp": 200
+    }
+  }
+}
