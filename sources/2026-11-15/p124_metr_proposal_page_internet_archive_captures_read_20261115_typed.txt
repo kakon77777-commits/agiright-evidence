@@ -1,0 +1,10 @@
+Source: the Internet Archive's captures of the METR page (20261015001215, 20261015035239, 20261024172140, 20261103101559)
+Read in the connected Chrome on 2026-11-15 (Taipei) on a web.archive.org tab (the Archive answers scripts with HTTP 429) and typed from the text the page-side scripts returned. Cited by topic 495.
+
+Found in all four captures (twice each): the words "interviews with staff"; and, once each, the words "interview relevant staff privately".
+
+Full sentences as read in the capture of 20261103101559: "risk assessment exercises, in which METR would write public reports based on interviews with staff and access to internal datasets and systems on company devices." and "METR would write these reports based on interviews with staff and access to internal datasets and systems on company devices, covering a detailed scope agreed upon in advance." and "Giving METR the opportunity to interview relevant staff privately, without a company representative present and without screening answers, to ensure they feel free to raise potential concerns. METR would be happy to limit total interview time to reduce staff time requirements"
+
+Found in the captures of 20261015035239, 20261024172140 and 20261103101559: "Staff may speak privately to METR about in-scope topics, to ensure they feel free to share potentially concerning evidence on those topics."
+
+Found in none of the four captures: the words "approved staff"; an "Update log" section.

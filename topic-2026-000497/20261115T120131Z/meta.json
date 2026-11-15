@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000497",
+  "url": "https://aievaluatorforum.org/about/members",
+  "capturedAt": "2026-11-15T12:01:31Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 101365,
+    "sha256": "c964d1fa3197aef11cf4558acde4edb55d52afd810d77dbdee5bc6ddadc01348",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "FFF408A828B2A233F4B33764C7BCCF7A",
+      "status": 200,
+      "url": "https://aievaluatorforum.org/about/members",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3109,
+      "afterScrollHeight": 3109,
+      "wantedHeight": 3109
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8355bc3ffbdde94a49956e6b4df0d58073a0ab5b4a9b43eafb5ac1542cdcfdb1",
+    "width": 1366,
+    "height": 3109,
+    "bytes": 655980,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3109,
+    "afterScrollHeight": 3109
+  },
+  "record": {
+    "capturedAt": "2026-11-15T12:01:31Z",
+    "url": "https://aievaluatorforum.org/about/members",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 101365,
+      "sha256": "c964d1fa3197aef11cf4558acde4edb55d52afd810d77dbdee5bc6ddadc01348"
+    },
+    "finalUrl": "https://aievaluatorforum.org/about/members",
+    "httpStatus": 200,
+    "title": "AI Evaluator Forum",
+    "rendered": {
+      "textChars": 2531,
+      "textSha256": "56d330f7117bc97c42b62b687ac50e057ef367d9bee079984eef41489034b336",
+      "htmlSha256": "7a55245210bf67ea3acb7385c738616697ce625930b1706a32cf08ee2417b4a6"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8355bc3ffbdde94a49956e6b4df0d58073a0ab5b4a9b43eafb5ac1542cdcfdb1",
+      "width": 1366,
+      "height": 3109,
+      "bytes": 655980,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20251204204254",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20251204204254/https://aievaluatorforum.org/about/members"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261115120148/https://aievaluatorforum.org/about/members",
+      "timestamp": "20261115120148",
+      "verifiedHttp": 200
+    }
+  }
+}

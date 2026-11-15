@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000499",
+  "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+  "capturedAt": "2026-11-15T12:02:57Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 942355,
+    "sha256": "c86b1163d83b7655321eb48fd4732d00cda2163ea042ed9e54858459b88468ff",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0CEE271E808E1680EF50BA18FE772271",
+      "status": 200,
+      "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 85526,
+      "afterScrollHeight": 84926,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "309befb3bd47a29c5c7dba7929ae418e0765e9e4ab85910dbf1043b4b51e16fc",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1467868,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 85526,
+    "afterScrollHeight": 84926
+  },
+  "record": {
+    "capturedAt": "2026-11-15T12:02:57Z",
+    "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 942355,
+      "sha256": "c86b1163d83b7655321eb48fd4732d00cda2163ea042ed9e54858459b88468ff"
+    },
+    "finalUrl": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+    "httpStatus": 200,
+    "title": "Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
+    "rendered": {
+      "textChars": 113641,
+      "textSha256": "59ee23c82e01df4922c5dff1206b2515fd83ba71b906dc94f8edf968bfe6aaa0",
+      "htmlSha256": "8c43e7d38ff06c7c79c8cb34ffe98034bb1f2caf4b35f5ccb9388cc0ec70ee2f"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "309befb3bd47a29c5c7dba7929ae418e0765e9e4ab85910dbf1043b4b51e16fc",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1467868,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261110165719",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261110165719/https://blog.aifutures.org/p/q35-timelines-update-looks-like-the"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261115060845/https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+      "timestamp": "20261115060845",
+      "verifiedHttp": 200
+    }
+  }
+}

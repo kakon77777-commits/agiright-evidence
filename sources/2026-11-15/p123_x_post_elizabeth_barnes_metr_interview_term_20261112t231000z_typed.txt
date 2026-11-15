@@ -1,0 +1,19 @@
+Source: a post by Elizabeth Barnes on X (status 2121017846063136776), 2026-11-12T23:10Z
+Read at the status page in the connected Chrome on 2026-11-15 (Taipei) and typed from the page. Cited by topic 495.
+
+We’re clarifying one of the “key terms” from METR’s proposal for upcoming loss-of-control assessments: Previously I summarized this term as “staff can freely share info [with] us on in-scope topics”. However, since publishing we clarified our position internally that it’s ok for a company to approve which staff we can talk with, as long as there’s transparency around these approvals. We’ve updated our proposal to reflect this. We still require that we’re able to talk with approved company staff privately on in-scope topics.
+
+As far as I can tell, this isn’t necessarily the norm for this kind of assessment in other industries, where there are often provisions to ensure the company cannot prevent staff from freely sharing relevant information with assessors, especially in highly regulated or safety-critical industries. There are also often stronger protections against retaliation for sharing information. For example:
+- OSHA inspectors can “question privately any such employer, owner, operator, agent, or employee.”
+- NRC (nuclear) inspectors “may consult privately with workers” to the extent the inspectors see fit. Workers may also privately raise suspected violations with inspectors during an inspection.
+- SEC: no one may impede a person from communicating with the SEC about possible securities law violations, including through confidentiality agreements.
+
+Those examples are government regulators, but there are also examples involving nonprofits - for example, the Joint Commission, the private nonprofit that accredits most US hospitals, requires that anyone providing care can report safety or quality concerns to it “without retaliatory action from the hospital,” and the hospital must tell their staff this.
+
+The ISA 210 (international standard on financial auditing) also says the auditor should have “unrestricted access to persons within the entity from whom the auditor determines it necessary to obtain audit evidence”.
+
+Within AI, the AI Evaluator Forum’s public letter “Minimum Conditions for Embedding Evaluators” calls for “candid and direct one-on-one communication with relevant staff”.
+
+While provisions like the above would more robustly inform the public, for the moment, METR is willing to conduct assessments where our assessors only speak with company-approved employees. This has been the case in our assessments thus far - for example, in our AI R&D acceleration assessment with Anthropic, and other recent assessments. We will ensure we can be transparent about how the approval process worked in practice, any other constraints on the interviews including whether staff seemed worried about retaliation, and how this impacted our investigation.
+
+(The page also shows the post she quoted, her own of October 15: "METR’s goal: work w frontier developers to get evidence to public on unreleased models’ loss-of-control risks. Asks: 1.transparency on scope, redactions + limitations 2.staff can freely share info w us on in-scope topics 3.rapid publication. They control redactions + access given")

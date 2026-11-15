@@ -1,0 +1,8 @@
+Source: posts on X by Tech Dev Notes (status 2121370786208375136) and Elon Musk (quoting it)
+Read at the status page and its quotes page in the connected Chrome on 2026-11-15 (Taipei) and typed from the pages. Cited by topic 498.
+
+POST 1: Tech Dev Notes (@techdevnotes), id 2121370786208375136 (the id dates it 2026-11-13 22:33 UTC; the page shows November 14 Taipei time)
+Text watermarking is now off by default in the SpaceXSI API
+
+POST 2: Elon Musk (@elonmusk), quoting post 1; the page, read on 2026-11-15 about 11:45 UTC, shows it as 19 hours old (about 2026-11-14 16:39 UTC; the Lead Desk file run 36 gives 2026-11-14T16:39:22.899Z)
+Text watermarking with Grok is only on where required by law or requested by the user

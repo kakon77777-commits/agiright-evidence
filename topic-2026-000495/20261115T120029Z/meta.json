@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000495",
+  "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+  "capturedAt": "2026-11-15T12:00:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 94445,
+    "sha256": "b88240b877e290cc94a0baf857986ee29bc192813bb8d9c39ab3cfb81f27c622",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "45E79C7130270C40129AB9A0D671514D",
+      "status": 200,
+      "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 13863,
+      "afterScrollHeight": 13863,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "46f1a8cef9317914b0bbc3d5dc28d1723d08a3db7fe569663501dd8d09ed732a",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 2143482,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 13863,
+    "afterScrollHeight": 13863
+  },
+  "record": {
+    "capturedAt": "2026-11-15T12:00:29Z",
+    "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 94445,
+      "sha256": "b88240b877e290cc94a0baf857986ee29bc192813bb8d9c39ab3cfb81f27c622"
+    },
+    "finalUrl": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+    "httpStatus": 200,
+    "title": "A proposal for better informing the public about loss-of-control risks from frontier AI development - METR",
+    "rendered": {
+      "textChars": 25551,
+      "textSha256": "5e9a1a988e18db3d1cb8607fe1fb1dc6d467b300f15b158d689815d521b7eac3",
+      "htmlSha256": "b5ea137f1c4d03caec39a04da2625b027dec0e9952816adcca67b4e78525f7cf"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "46f1a8cef9317914b0bbc3d5dc28d1723d08a3db7fe569663501dd8d09ed732a",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 2143482,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261015001215",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261015001215/https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261115120054/https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+      "timestamp": "20261115120054",
+      "verifiedHttp": 200
+    }
+  }
+}

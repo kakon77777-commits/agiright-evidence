@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000498",
+  "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+  "capturedAt": "2026-11-15T12:02:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 446317,
+    "sha256": "27ea4abc17304fe06ac10d67409af729cad798dd7ff618fae3a0fe718a52ded0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "49346D9D4892EF3743BD141E8ED46348",
+      "status": 200,
+      "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f95fdff6a3ad3e49026b036f8c7cba71ea4302b281e8d6a1ae2bec1c1372a4d5",
+    "width": 1366,
+    "height": 900,
+    "bytes": 154801,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-15T12:02:07Z",
+    "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 446317,
+      "sha256": "27ea4abc17304fe06ac10d67409af729cad798dd7ff618fae3a0fe718a52ded0"
+    },
+    "finalUrl": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+    "httpStatus": 200,
+    "title": "Output Watermarking | SpaceXSI Docs",
+    "rendered": {
+      "textChars": 9295,
+      "textSha256": "06d1f4cf82962e3d6fcfaeefc51a07f4cb5deb39ca7031c5e51083ba4732a5eb",
+      "htmlSha256": "e8f01379afcb00fc6fe128596303ba2deba267adfd0225afbbbccf0f102d50fc"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f95fdff6a3ad3e49026b036f8c7cba71ea4302b281e8d6a1ae2bec1c1372a4d5",
+      "width": 1366,
+      "height": 900,
+      "bytes": 154801,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261101113141",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261101113141/https://docs.x.ai/developers/advanced-api-usage/watermarking"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261115120242/https://docs.x.ai/developers/advanced-api-usage/watermarking",
+      "timestamp": "20261115120242",
+      "verifiedHttp": 200
+    }
+  }
+}

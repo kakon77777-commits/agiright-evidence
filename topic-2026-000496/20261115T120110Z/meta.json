@@ -1,0 +1,90 @@
+{
+  "id": "topic-2026-000496",
+  "url": "https://x.com/SenatorTimScott/status/2121031195165172192",
+  "capturedAt": "2026-11-15T12:01:10Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "509e3eae12bccf99d12d1027f1413b8db0d0074a5b5f475442bee47aea4c670b",
+    "width": 640,
+    "height": 900,
+    "bytes": 120822,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-15T12:01:10Z",
+    "url": "https://x.com/SenatorTimScott/status/2121031195165172192",
+    "finalUrl": "https://x.com/SenatorTimScott/status/2121031195165172192",
+    "screenshot": {
+      "sha256": "509e3eae12bccf99d12d1027f1413b8db0d0074a5b5f475442bee47aea4c670b",
+      "width": 640,
+      "height": 900,
+      "bytes": 120822,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2121031195165172192",
+      "handle": "SenatorTimScott",
+      "syndicationSha256": "549d9f5bf6215e69c1a4acf027129725697816d5d9120320c9aae456fe79cedd",
+      "createdAt": "2026-11-13T00:03:38.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "SenatorTimScott",
+      "lang": "en",
+      "textSha256": "1139ec426817cdbb1069a7503bdee750194e87a7376f562b0e638fa79b355683",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "21151f88837d29b615884784dc26c330bbbfff7d1aaa114d7e579a106521522b",
+          "bytes": 202354,
+          "width": 1460,
+          "height": 1892
+        },
+        {
+          "type": "photo",
+          "sha256": "e97b967418d54eb716f2ab4fd35013184c1c70ad778c640f6670c97f0c9e2d10",
+          "bytes": 34764,
+          "width": 1457,
+          "height": 1885
+        },
+        {
+          "type": "photo",
+          "sha256": "e996d9547c3dd7271ec1c94096b798148d4cc42aadb7bf77b9b3b9ce173d3c07",
+          "bytes": 221606,
+          "width": 1460,
+          "height": 1890
+        },
+        {
+          "type": "photo",
+          "sha256": "7b0588aa85e611e61fe328ab0e210b4384e205674bb453b547a1ac61ccd057db",
+          "bytes": 56998,
+          "width": 1458,
+          "height": 1890
+        }
+      ],
+      "oembedSha256": "9cf9b365f284ccaf7f5e50fdd9641298635d0a6011cff3a9ce80709aac03263c",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}
