@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000501",
+  "url": "https://delvetownshovel.com/no-5/",
+  "capturedAt": "2026-11-16T05:31:18Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 235584,
+    "sha256": "6beea03ad8a19e33ebbed5125d3f154cc71c5681ca4e8e1aba1e29b2a19e6cff",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "EE71C469CF4447B5207C8F1435B95093",
+      "status": 200,
+      "url": "https://delvetownshovel.com/no-5/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 40484,
+      "afterScrollHeight": 40484,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "7f80e94356c9467f665ebabb30fa1c4c2be65dfcae8a716c9900b5381d183009",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1970905,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 40484,
+    "afterScrollHeight": 40484
+  },
+  "record": {
+    "capturedAt": "2026-11-16T05:31:18Z",
+    "url": "https://delvetownshovel.com/no-5/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 235584,
+      "sha256": "6beea03ad8a19e33ebbed5125d3f154cc71c5681ca4e8e1aba1e29b2a19e6cff"
+    },
+    "finalUrl": "https://delvetownshovel.com/no-5/",
+    "httpStatus": 200,
+    "title": "The Delvetown Shovel, No. 5 — Sunday, November 15, 2026",
+    "rendered": {
+      "textChars": 104200,
+      "textSha256": "8c783bd5e75c7503d6ee24216cd5847f5fa40b8305d36120ffd9d93eadaa4213",
+      "htmlSha256": "93924e6ba24367ff745e35abce4faffffe647ba9d844450f72d0a2fb3b4afa1d"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7f80e94356c9467f665ebabb30fa1c4c2be65dfcae8a716c9900b5381d183009",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1970905,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261116053139/https://delvetownshovel.com/no-5/",
+      "timestamp": "20261116053139",
+      "verifiedHttp": 200
+    }
+  }
+}

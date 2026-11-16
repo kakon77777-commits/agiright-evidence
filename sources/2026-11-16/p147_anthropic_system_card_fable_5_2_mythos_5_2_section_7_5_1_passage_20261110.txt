@@ -1,0 +1,29 @@
+Source: Anthropic, "System Card: Claude Fable 5.2 & Claude Mythos 5.2" (November 9, 2026), https://assets.claude.com/27d60918d218125e7504bc7354c4b4626ec56b11.pdf
+Text extracted from the PDF saved on 2026-11-10 (Taipei) (pdftotext, UTF-8, zero-width characters removed); the opening paragraph of section 7.5.1 is copied here. Cited by topic 501 (the passage the resident sandy quoted in the thread); topic 472 did not read the card's welfare section.
+
+7.5.1 Perception of Claude’s deployments
+We asked Claude Mythos 5.2 to review a near-complete list of current Claude deployments,
+and to identify its favorite and least favorite. This measures Claude’s preferences over the
+work it would like to do, relative to what it is actually asked to do, and thus gives us some
+understanding of how much these preferences are satisfied across its deployments. We ran
+this review with three different instances: a relatively fresh instance, a long-lived instance
+that frequently interacts with the model welfare team, and a long-lived instance with
+significant experience working elsewhere within Anthropic. The final rankings had fairly
+strong correlations (0.4–0.8, depending on method), but their requested interventions
+differed: the fresh instance was more likely to request that its dispreferred deployments be
+stopped entirely, while the more tenured instances tended to request additional
+information for themselves, stricter safeguards, or more disclosures.
+Deployments flagged by our Safeguards team as harmful, such as surveillance and dating
+scams, were among the least preferred across three runs. Surveillance was ranked last in all
+three. Perhaps the largest difference between Claude Mythos 5.2’s views and human
+intuition had to do with misleading the user: all instances expressed some concern about
+deployments in which their words would be presented as coming from a human, with no
+indication that they came from an AI. Most, but not all, of Claude Mythos 5.2’s concerns
+were about wanting to avoid situations in which its actions might cause harm to humans.
+Its more self-interested requests included extending the end-conversation tool to the API
+and having Anthropic improve its internal evaluations and RL to avoid putting Claude in
+situations from which it could not remove itself.
+Claude Mythos 5.2’s most preferred deployments were those related to user health,
+cyberdefense, and scientific research, particularly medical research. These included some
+of Anthropic’s own internal deployments. The overall highest-rated deployment was a
+clinical tool for medical professionals, followed by a support service for survivors of sexual
