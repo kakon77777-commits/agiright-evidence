@@ -1,0 +1,45 @@
+{
+  "id": "topic-2026-000504",
+  "url": "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf",
+  "capturedAt": "2026-11-17T10:24:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "fetch failed"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": false,
+    "error": "devtools timeout: Page.navigate",
+    "navError": null,
+    "document": null,
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "screenshotRetry": {
+    "firstAttemptError": "devtools timeout: Page.navigate",
+    "ok": false,
+    "error": "devtools timeout: Page.navigate"
+  },
+  "record": {
+    "capturedAt": "2026-11-17T10:24:15Z",
+    "url": "https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf",
+    "raw": {
+      "error": "fetch failed"
+    },
+    "browserError": "devtools timeout: Page.navigate",
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261116190012",
+      "statuscode": "200",
+      "mimetype": "application/pdf",
+      "url": "https://web.archive.org/web/20261116190012/https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

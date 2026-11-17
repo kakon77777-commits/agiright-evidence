@@ -1,0 +1,812 @@
+Source: https://public-inspection.federalregister.gov/2026-23529.pdf (Federal Register public-inspection copy, document 2026-23529, "Addressing Remote Access to Advanced Semiconductors", Bureau of Industry and Security)
+Public-inspection record (https://www.federalregister.gov/api/v1/public-inspection-documents/2026-23529.json, read 2026-11-17 Taipei): filing_type special, filed_at 2026-11-16T16:15:00.000-05:00, scheduled publication_date 2026-11-19, num_pages 117, type Rule.
+Fetched: 2026-11-17 (Taipei) by script, HTTP 200, 527,146 bytes, SHA-256 of the PDF 348ecda38fde4610caa348bda6a16688d95549f1dabac37d05f3c3ca91d29a14. Extracted with pdftotext -layout -enc UTF-8. Copied here: the first lines through the ADDRESSES paragraph, and the text of new section 744.24 (to the start of part 748). Backticks and doubled quotation marks are as printed.
+Cited by topic 503. The rest of the 117 pages is not copied.
+
+This document is scheduled to be published in the
+                                                            Federal Register on 2026-11-19 and available online at
+
+                                     https://www.federalregister.gov/d/2026-23529, andBoInLLING CODE 3510-33
+
+                                                            https://govinfo.gov
+
+DEPARTMENT OF COMMERCE
+Bureau of Industry and Security
+15 CFR Parts 732, 734, 740, 742, 743, 744, 748, 762, 772, and 774
+[Docket No. 261116-0005]
+RIN 0694-AK50
+Addressing Remote Access to Advanced Semiconductors
+AGENCY: Bureau of Industry and Security, Department of Commerce.
+ACTION: Interim final rule.
+SUMMARY: In this interim final rule (IFR), the Department of Commerce is establishing new
+rules to prevent certain foreign actors from leveraging advanced computing power based on U.S.
+technology to threaten U.S. national security and foreign policy interests. First, this rule
+establishes new restrictions which will apply for exports, reexports, or transfers (in-country) to
+overseas data centers that remotely supply significant volumes of compute to companies
+headquartered in Country Group D:5 or Macau. These restrictions will undermine the ability of
+companies headquartered in countries of concern from using U.S. advanced Super Intelligence
+(SI) semiconductors to train advanced SI models. Data centers, foreign foundries, and chip
+exporters are required to perform robust due diligence on their customers, including any direct or
+indirect ownership or control by persons in Country Group D:5 or Macau, as part of complying
+with this new control. The license requirement will not apply to commercial recommender
+systems, such as those used by online retailers or social media companies, as these functions do
+not pose the same national security threat. Second, in addition to the current license requirements
+for advanced semiconductors, a license will be required to export, reexport, or transfer (in-
+country) advanced semiconductors to Indonesia, Malaysia, Singapore, Thailand, or Brazil (and
+any additional country designated by the Secretary of Commerce, in consultation with the
+Secretary of State or the Assistant to the President for National Security Affairs) – countries
+which present a higher-than-normal risk of diversion. The license requirement for these five
+countries will not apply to semiconductors destined to companies headquartered in, or whose
+ultimate parent company is headquartered in, the United States, provided certain reporting
+requirements are met. Commerce will be actively monitoring for countries that tolerate evasion
+of this IFR and will consider a range of consequences for such countries, such as import
+restrictions, new license requirements on advanced semiconductor exports, downgrading the
+country’s status in the U.S. export control regime, and Entity List designations and temporary
+export prohibitions for foreign persons involved in such activities. Third, this IFR amends the
+presumptions which front-end chips fabricators and chip packagers face when exporting
+advanced-node logic chips. These amendments reduce the number of pathways to overcome the
+presumptions for chip designers located in destinations which face a license requirement for SI
+chips. This change gives the U.S. government critical oversight over companies headquartered in
+certain countries that seek to leverage advanced semiconductor production capabilities in third
+countries. Finally, the IFR formally rescinds the regulations implementing the Biden-era AI
+Diffusion Rule. The AI Diffusion Rule has never been enforced. The regulatory changes in this
+rule formalize the rescission of the AI Diffusion Rule, which the Department of Commerce
+Bureau of Industry and Security (BIS) announced in May 2025.
+DATES: Effective date: This rule is effective [INSERT DATE OF PUBLICATION IN THE
+FEDERAL REGISTER].
+Comment due date: Comments on the revisions and additions in this rule must be received by
+BIS no later than [INSERT DATE 60 DAYS AFTER DATE OF PUBLICATION IN THE
+FEDERAL REGISTER].
+ADDRESSES: Comments on this rule may be submitted to the Federal rulemaking portal
+(www.regulations.gov). The regulations.gov ID for this rule is: BIS-2026-0628. Please refer to
+RIN 0694-AK50 in all
+
+[...]
+
+§ 744.24 Restrictions on exports, reexports, and transfers (in-country)
+of certain advanced computing items for use in data centers for end-uses and destinations of
+concern. Section 744.24 provides, in addition to the license requirements set forth elsewhere in
+the EAR, a prohibition on exports, reexports, or transfers (in-county) of advanced SI items
+without a license if, at the time of export, reexport, or transfer (in-country), you have
+“knowledge” that the item will be or is intended to be used in a data center end-use that is
+prohibited under paragraphs (a)(1) of § 744.24.
+
+         You may not knowingly export, reexport, or transfer (in-county) items specified in
+paragraph (a) of § 744.24 for use in a data center to or within any destination worldwide that will
+provide access to more than 12,000,000 “aggregate TPP” (either at one data center or through
+‘linked data centers’ (including digitally-linked infrastructure, not just physically-linked
+infrastructure) to companies headquartered in, or whose ultimate parent company is
+headquartered in, Macau or a destination specified in Country Group D:5 in supplement no. 1 to
+part 740 of the EAR. ‘Linked data centers’ are data centers that use networking infrastructure
+that links two or more separate data centers together to allow physical and virtual facilities to
+share resources, balance workloads, and replicate data as a unified whole. This prohibition is
+described under § 744.24(a)(1) and the definition is provided in § 744.24(d). The term “for an
+entity” as used in this § 744.24(a)(1) applies to instances in which there is “knowledge” that a
+data center is providing remote access to a non-D:5 customer that is in turn training SI models
+for, or participating in the training of SI models for, or providing SI models to a D:5 company.
+This control will cut off additional potential diversion pathways and evasion efforts.
+
+         These controls are necessary because providing computer power access at this level or
+greater will allow for training or running of advanced SI models; the Secretary of Commerce has
+determined that it could pose a national security and foreign policy threat to the United States
+when such computing power access will be provided to or for companies headquartered, or
+whose ultimate parent company is headquartered in, Macau or a destination specified in Country
+Group D:5 – unless the computing power is exclusively used for commercial recommender
+systems. Access to advanced computing power presents significant national security and foreign
+policy concerns, primarily by enabling foreign countries or other entities of concern to accelerate
+the development of weapons of mass destruction (WMD), execute sophisticated zero-day
+cyberattacks on critical infrastructure, and disrupt global military balances of power – unless the
+computing power is exclusively used for commercial recommender systems.
+
+         Consistent with the national security and foreign policy concerns outlined in this IFR,
+BIS is imposing a notification and authorization requirement for subsequent changes in end-use.
+This requirement, provided in new paragraph (e) of § 744.24, and described in more detail
+further in this section, is triggered if there is a change in end-use of the items described in
+paragraph (a)(1) of § 744.24. In the event of such a change, a BIS authorization may be required.
+Relatedly, Note 1 to paragraph (a)(1) of § 744.24 provides that the prohibition applies regardless
+of whether the person in possession of the EAR item was a party to the transaction to the original
+export, reexport, or transfer (in-country), i.e., the original shipment of the items to the data
+center. Because this EAR end-use control under § 744.24(a)(1) applies to any subsequent
+reexport or transfer (in-country), including changing from a non-prohibited end-use to a
+prohibited end-use, it is important that parties in possession of these items are aware of the need
+to review § 744.24(a)(1) for any subsequent reexport or transfer (in-country).
+
+         The prohibition described in paragraph (a)(1) applies regardless of whether a U.S.-origin
+item specified under paragraph (a) of § 744.24 has been incorporated or commingled into or with
+a foreign-made item. Reexporters and transferors may not rely on the de minimis provisions for
+incorporating or commingling U.S.-origin items specified under paragraph (a) of § 744.24 into
+foreign-made items where there is “knowledge” at any point in the chain from the development,
+production, or use of the foreign-made item that the U.S.-origin item will be used in this
+prohibited end-use under paragraph (a)(1) of § 744.24. This prohibition under § 744.24 is
+described under Note 2 to paragraph (a)(1).
+
+         Note 3 to paragraph (a)(1) describes due diligence expectations imposed on “U.S.
+persons” and foreign data centers to ensure compliance with these controls. Foreign data centers
+will be expected to perform robust due diligence on their customers to identify direct or indirect
+ownership or control by Country Group D:5 or Macau persons. This diligence will ensure that
+companies cannot circumvent new controls through corporate restructurings or spinoffs.
+
+         This IFR adds an “is informed” process under paragraph (a)(2) of § 744.24 to impose an
+additional prohibition on persons informed by BIS that a license is required for the export,
+reexport, or transfer (in-country) of specified items to certain persons or destinations, because
+there is an unacceptable risk of use in, or diversion to, the activities specified in paragraph (a)(1)
+of § 744.24. Notifications made under paragraph (a)(2) that there is an unacceptable risk of use
+in, or diversion to an end use specified in § 744.24 may be made either individually by specific
+notice or through amendment to the EAR.
+
+         As described under § 744.24(b), no license exceptions may overcome the prohibition
+described in paragraph (a)(2) of § 744.24, except when noted by BIS. The prohibitions under §
+744.24 do not apply when the computing power access is being provided exclusively for a
+‘commercial recommender system’ under the (b)(2) exception provided the reporting
+requirements described therein are followed.
+
+         Applications for licenses required by § 744.24 will be reviewed on a case-by-case basis
+as described under § 744.24(c).
+
+         This IFR adds paragraph (d) to define for purposes of § 744.24 the terms: ‘linked data
+centers’; and ‘commercial recommender system’:
+
+         For purposes of § 744.24, ‘linked data center’ means a data center that uses networking
+infrastructure that links two or more separate data centers together that allows physical and
+virtual facilities to share resources, balance workloads, and replicate data as a unified whole.
+This includes digitally-linked infrastructure, not just physically-linked infrastructure.
+
+         For purposes of § 744.24, ‘commercial recommender system’ means a Super Intelligence
+(SI) tool exclusively designed and exclusively used to rank, filter, or suggest commercial
+products, services, or content to users based on user behavior, transaction history, or item
+attributes. This term does not include any SI system designed or used to generate novel text,
+image, audio, video, software, or other content in response to user inputs, or any system that
+incorporates such model, regardless of whether the system also performs recommendation
+functions.
+
+         This IFR adds paragraph (e) to impose a notification and authorization requirement for
+subsequent changes in end-use. New paragraph (e) specifies that for any export, reexport, or
+transfer made on or after [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER]
+without a license, i.e., because the exporter, reexporter, or transferor had no “knowledge” that the
+item is for a prohibited end-use under this section and no other EAR license requirement applies,
+the exporter, reexporter, or transferor must inform the recipient that BIS authorization is required
+if the item will be transferred in-country; and that the recipient must follow the know-your-
+customer guidance in supplement no. 3 Part 732 of the EAR. The notification also must specify
+that the transferor, e.g., the data center operator, must obtain authorization for this change in end-
+use. Changes in end-use from a non-prohibited end-use to a prohibited end-use under paragraphs
+(a)(1) are considered a “transfer (in-country)” for purposes of paragraphs (a)(1) or (2) and
+require an EAR authorization under § 744.24.
+B. Conforming change to 744.23 for removal of worldwide license requirement in this IFR
+
+         This IFR, as described under section II of this preamble, removes the worldwide license
+requirement from former § 742.6(a)(6)(iii)(A). As a conforming change, this IFR makes
+revisions to the advanced computing items end-use control under § 744.23(a)(3) to ensure that a
+license will continue to be required for exports, reexports, and transfers (in-country) of these
+advanced computing items when such items are destined for entities headquartered in, or whose
+ultimate parent company is headquartered in, Country Group D:5 or Macau.
+
+         Specifically, this IFR revises § 744.23 “Supercomputer,” “advanced-node integrated
+circuits,” and semiconductor manufacturing equipment end-use controls under paragraph
+(a)(3)(i)(A) to specify that this end-use control for advanced computing items includes all
+advanced computing items (e.g., those specified in ECCNs 3A090 (except for 3A090.c), 4A090,
+and related .z paragraph items). Prior to this IFR, there was an enforced license requirement
+under § 742.6(a)(6)(iii)(A) of the EAR that applied to all destinations outside of the United
+States for these advanced computing items when such items are destined to entities
+headquartered in, or whose ultimate parent company is headquartered in, Country Group D:5 or
+Macau. See the May 31, 2026, “Guidance Regarding Enforcement of License Requirements for
+Advanced Computing Items for Entities Headquartered in Country Group D:5 and Macau” on
+the BIS website at http://www.bis.gov. With the removal of the worldwide license requirement
+this IFR makes a required conforming change to return the license requirement for these
+advanced computing items to § 744.23(a)(3)(i)(A).
+
+         For § 744.23(a)(3)(i)(A), BIS has received inquiries regarding the meaning of the phrase
+“for an entity” that is headquartered in, or whose ultimate parent company is headquartered in,
+either Macau or a destination specified in Country Group D:5. As stated in BIS’s October 2023
+Advanced Computing/Supercomputing (“AC/S”) IFR (88 FR 73458) this control was intended to
+ensure that the national security and foreign policy objectives of the October 7, 2022 IFR and the
+AC/S IFR are not undermined by Macau, the People’s Republic of China (PRC), or other
+Country Group D:5 headquartered entities setting up cloud servers or data centers in other
+countries to allow these entities of concern to continue to train their SI models in ways that
+would be contrary to U.S. national security and foreign policy interests. This end-use control
+thus is not, and has never been limited only to exports, reexports, and transfers (in-country)
+destined to such entities of concern as ultimate consignees or end users, but extends to exports,
+reexports, or transfers (in-country) on behalf of these entities of concern, e.g., if an entity of
+concern was the purchaser in the transaction (directly or indirectly) or was the exclusive or
+primary (greater than 50 percent of total compute) remote end user of the data center computing
+capacity. Exporters, reexporters, and transferors are encouraged to examine both end-use
+controls in § 744.23(a)(3) and in new § 744.24 to the extent their transactions involve exports,
+reexports, or transfers to data centers outside of the United States where there is knowledge that
+a company headquartered in, or whose ultimate parent is headquartered in, Macau or D:5 will be
+an intended remote end user. Any entities in violation of this requirement should submit a
+voluntary self-disclosure (see Section 764.5 of the EAR). Bona fide operators of data centers
+who are otherwise engaged in activities consistent with the EAR and were providing remote
+access used for ‘commercial recommender systems’ (as defined in the new § 744.24(d)(1)) may
+continue providing these services for 90 days, but must obtain a license following expiration of
+this period to continue these services.Finally, § 744.23(a)(3)(i)(C) is added to create a license
+requirement for “applicable advanced node integrated circuits” that are subject to the EAR,
+specified in 3A090.a, designed by a company that is neither an approved IC designer (specified
+in supplement no. 6 to part 740) or an authorized IC designer (as described in Note 1 to
+3A090.a), and exported, exported from abroad, reexported, or transferred (in-country) by a “front
+end fabricator” or “OSAT” to or within any destination. This addition ensures that a license
+requirement continues to apply to “front end fabricators” and “OSATs” creating advanced ICs
+for non-approved, non-authorized IC designers wherever located. Additionally, the presumption
+created in Note 1 to 3A090.a continues to apply but can be overcome by the “front end
+fabricator” or “OSAT” if they follow the due diligence steps specified in that note. BIS notes that
+the inclusion of the phrase “exported from aboard” in this new paragraph is simply descriptive
+and not intended to indicate that the activity of exporting from destinations other than the United
+States is not captured in provisions of the EAR where that phrase is omitted.
+IV. Rescinded Provisions of the AI Diffusion Rule
+A. Revoking model weights controls
+
+         This IFR revokes the controls on model weights published in the AI Diffusion Rule. BIS
+has determined that a more effective approach to address national security and foreign policy
+concerns that arise from the transfer of model weights is through the use of specified destination-
+based or end-use license requirements. Accordingly, ECCN 4E091 is removed from the CCL in
+supplement no. 1 to part 774. This IFR also makes the necessary conforming changes to other
+parts of the EAR to remove references to ECCN 4E091 and model weights by: (1) removing Red
+Flag 28 in supplement no. 3 to part 732; (2) removing the AI Model weights Foreign Direct
+Product (FDP) rule in § 734.9; (3) removing reference to 4E091 from § 740.2; (4) removing the
+RS license requirement text that applies to AI model weights in § 742.6; (5) removing 748.3(f);
+and (6) removing the definition of “Model Weights” in § 772.1.
+B. Removing country tiers, Data Center VEUs, and related regulatory language
+
+         This IFR revokes the tiers of countries created in the AI Diffusion Rule and the final rule
+for “Expansion of Validated End User Authorization: Data Center Validated End User
+Authorization,” 89 FR 80080 (Oct. 2, 2024), which were implemented through License
+Exception Artificial Intelligence Authorization (AIA) in § 740.27, supplement no. 5 to part 740,
+the Data Center Validated End-Users (VEU) Authorization in § 748.15 and supplement no. 8 to
+part 748 (including reverting the reference to General VEU Authorization to use VEU
+Authorization wherever the term is used).
+
+         Specifically, this IFR removes License Exception AIA from the EAR by: (1) removing
+reference to this license exception in § 740.2; (2) reserving § 740.27 for future use; (3) removing
+supplement no. 5 to part 740; and (4) removing AIA from ECCNs in supplement no. 1 to part
+774 when listed in the list-based license exceptions section. This IFR removes the Data Center
+VEU Authorization from § 748.15, supplement no. 8 to part 748, and supplement no. 10 to part
+748. This IFR also makes conforming changes to the license review policy in § 742.6 to remove
+references to supplement no. 5 to part 740.
+C. Conforming changes due to the recission of the AI Diffusion Rule
+
+         1) Removing License Exceptions AIA from § 740.2 Restrictions on all License
+Exceptions;
+
+         2) Removing License Exceptions Artificial Intelligence Authorization (AIA) (§
+         740.27) and License Exception Low Processing Performance (LPP) (§ 740.29) from the
+         EAR;
+         3) Removing references to the revoked License Exceptions AIA and LPP (formerly in §
+740.27 and § 740.29) and adding the notification and authorization requirements in the new §
+744.24 in § 762.2 Records to be retained; and
+         4) Removing references to the revoked License Exceptions AIA, and LPP (formerly in §
+740.27 and § 740.29) from the CCL.
+D. Foreign-Direct Product Rules
+         BIS is retaining the worldwide destination scope of the advanced computing foreign
+direct product (FDP) rule in § 734.9(h)(2)(i) if there is “knowledge” that a foreign-produced item
+is destined worldwide or will be incorporated into any “part,” “component,” “computer,” or
+“equipment” not designated EAR99 to any location worldwide. Retention of this provision
+ensures the prohibitions of relevant controls are not otherwise limited.
+         Though BIS is not making any changes to § 734.9(h), BIS notes that the agency has
+received questions about the application of that paragraph. Consistent with the robust controls
+implemented in this IFR, BIS notes that provision’s expansive application. If a foreign-produced
+product is subject to the EAR pursuant to § 734.9(h), BIS retains jurisdiction of that item after its
+incorporation into another foreign-produced item, as provided by the text of § 734.9(h)(2)(i). For
+example, if an ECCN 3A090 IC is incorporated into a foreign-produced “part,” “component,”
+“computer,” or “equipment” (such as a GPU board or server), BIS continues to have jurisdiction
+over the IC and license requirements may apply to the export, reexport, or transfer (in-country)
+of the IC (and by extension, the server). Generally, BIS does not retain jurisdiction over items
+after incorporation into other items, absent the applicability of the EAR’s de minimis provisions.
+But in this context, specifically, in the relevant ECCN entries (ECCN 4A090 and those ECCNs
+with a .z paragraph), the CCL notes that such items only meet the specifications for those
+ECCNs if they contain an ECCN 3A090 IC. Thus, even third parties who only receive a 4A090
+item are on notice that such items contain an ECCN 3A090 IC. Furthermore, the retention of
+BIS’s jurisdiction under § 734.9(h) after incorporation is reflected by past BIS guidance to
+inform parties in the supply chain of the applicability of the FDP rule, including the Model
+Certification for Purposes of the FDP Rule of supplement no. 1 to part 734 of the EAR.
+
+         In addition, consistent with the removal of ECCN 4E091, this IFR removes the AI Model
+weights FDP rule in § 734.9(l).
+E. License Exception Advanced Compute Manufacturing ACM
+
+         BIS is retaining License Exception ACM under § 740.28 due to the benefits this license
+exception plays in supporting the supply chains of export, reexports, and transfers (in-country) of
+advanced SI items destined to ultimate end users outside of Macau or destinations in Country
+Group D:5.
+V. Amendments to the Presumptions Faced by Front-End Fabricators and OSAT
+companies
+
+         This IFR also changes the presumptions faced by front-end fabricators and OSAT
+companies defined in Note 1 to 3A090.a. Specifically, paragraphs b. and c. of Note 1 to 3A090.a
+are amended to remove eligibility to overcome the presumption in Note 1 to 3A090.a for an
+integrated circuit designer located in or having an ultimate parent headquartered in a destination
+specified in Country Groups D;1, D:4, or D:5 of supplement no. 1 to part 740 of the EAR or in
+paragraph (a)(6)(iii)(A)(1) of § 742.6. Such companies which are not Authorized or Approved IC
+designers and face a presumption that their IC is 3A090.a for all “applicable advanced logic
+integrated circuits”. This addresses potential diversion pathways of advanced ICs.
+
+VI. Conforming Changes
+         In addition to the changes described in Sections II and III, this IFR makes conforming
+
+changes to the EAR due to the changes described in this preamble.
+A. Revisions to part 743
+
+         For a transaction to be excluded from the license requirements of § 742.6(a)(6)(iii)(1), the
+exporter, reexporter, or transferor must comply with the reporting requirement introduced by this
+IFR in new § 743.10 Reporting Requirements to Qualify for Exclusion from Certain Regional
+Stability Requirements. The reporting requirement mitigates the risk that transactions excluded
+from this license requirement will be used or diverted contrary to the EAR by allowing the U.S.
+Government to monitor the items being exported, reexported, or transferred (in-country).
+
+         New § 743.10 describes in paragraph (b) the information to be included in the report; in
+paragraph (c), where to submit the report; in paragraph (d), the timeframe as to when reporting is
+required; and in paragraph (e), contacts for general information or questions about this report.
+B. Addition to part 772
+
+         In addition to removing the definition for “model weights” described in section IV.A. of
+this preamble, this IFR adds a definition to §772.1 for “Aggregate TPP” to describe the sum TPP
+of a group of ICs or commodities.
+C. Revisions to the CCL
+
+         Due to the revisions to the RS reason for control under § 742.6 made in this IFR,
+conforming revisions are made to ECCNs: 3A001, 3A090, 3D001, 3E001, 4A003, 4A004,
+4A005, 4A090, 4D001, 4D090, 4E001, 5A002, 5A992, 5A004, 5D002, 5E002, 5E992, and
+5D992. For these ECCNs, the reason for control table is revised by removing references to items
+paragraphs 3A090.a and .b, 4A090.a and .b, and the corresponding .z paragraphs. Additionally,
+the reference to the worldwide RS license requirement in the control tables is revised with a new
+reference that a license is required to or within any destination specified in §742.6(a)(6)(iii)(A)
+of the EAR.
+Savings Clause
+
+         For the changes being made in this IFR, shipments of items removed from eligibility for a
+License Exception or export, reexport, or transfer (in-country) without a license (NLR) as a
+result of this regulatory action that were en route aboard a carrier to a port of export, reexport, or
+transfer (in-country), on [INSERT DATE OF PUBLICATION IN THE FEDERAL REGISTER],
+pursuant to actual orders for export, reexport, or transfer (in-country) to or within a foreign
+destination, may proceed to that destination under the previous eligibility for a License
+Exception or export, reexport, or transfer (in-country) without a license (NLR), provided the
+export, reexport, or transfer (in-country) is completed no later than on [INSERT DATE 30
+DAYS AFTER PUBLICATION IN THE FEDERAL REGISTER].
+Export Control Reform Act of 2018
+
+         On August 13, 2018, the President signed into law the John S. McCain National Defense
+Authorization Act for Fiscal Year 2019, which included the Export Control Reform Act of 2018
+(ECRA), 50 U.S.C. sections 4801–4852. ECRA, as amended, provides the legal basis for BIS’s
+principal authorities and serves as the authority under which BIS issues this IFR. In particular,
+and as noted elsewhere, Section 1753 of ECRA (50 U.S.C. Section 4812) authorizes the
+regulation of exports, reexports, and transfers (in-country) of items subject to U.S. jurisdiction.
+Further, Section 1754(a)(1)-(16) of ECRA (50 U.S.C. Section 4813(a)(1)-(16)) authorizes, inter
+alia, the establishment of a list of controlled items; the prohibition of unauthorized exports,
+reexports, and transfers (in-country); the requirement of licenses or other authorizations for
+exports, reexports, and transfers (in-country) of controlled items; apprising the public of changes
+in policy, regulations, and procedures; and any other action necessary to carry out ECRA that is
+not otherwise prohibited by law. Pursuant to Section 1762(a) of ECRA (50 U.S.C. Section
+4821(a)), these changes can be imposed in an IFR without prior notice and comment.
+Rulemaking Requirements
+1. BIS has examined the impact of this rule as required by Executive Orders (E.O.) 12866 and
+13563, which direct agencies to assess all costs and benefits of available regulatory alternatives
+and, if regulation is necessary, to select regulatory approaches that maximize net benefits (e.g.,
+potential economic, environmental, public, health, and safety effects, distributive impacts, and
+equity). Pursuant to E.O. 12866, this rule has been determined to be not significant. This rule is
+exempt from the requirements of E.O. 14192 because it is being issued with respect to a national
+security function of the United States, per section 5(a) of E.O. 14192.
+2. Notwithstanding any other provision of law, no person is required to respond to, nor shall any
+person be subject to a penalty for failure to comply with, a collection of information subject to
+the requirements of the Paperwork Reduction Act of 1995 (44 U.S.C. 3501 et seq.) (PRA), unless
+that collection of information displays a currently valid Office of Management and Budget
+(OMB) Control Number. This rule involves the following OMB-approved collections under
+control numbers 0694-0088, “Multi-Purpose Application;” 0694-0096, “Five Year Records
+Retention Period;” 0694-0096, “Advance Computing Items License Requirement Exclusion
+Submissions and Forms;” and 0607-0152, “Automated Export System (AES) Program.”
+
+         For OMB control number 0694-0088, Simple Network Application Process and
+Multipurpose Application Form. BIS expects an annual increase of approximately 100 licenses
+for an increase in burden in 50 burden hours per year for this collection with an estimated cost
+increase of $1,900. BIS believes that this increase in burden falls within the already approved
+amounts for this existing collection.
+
+         Changes impacting OMB control numbers 0694-0096, and 0607-0152 Five Year Records
+Retention Period and Automated Export System (AES) Program, respectively, are not expected to
+result in a change in burden hours.
+
+         With this rule, BIS has requested emergency approval of revisions of an existing
+collection of information OMB Control Number 0694-0137, “License Exceptions and Other
+Authorizations. BIS expects a net annual increase of approximately 970 submissions for an
+increase in burden of 440 burden hours for this collection with an estimated cost increase of
+$16,720, which takes into account the increase of reporting required under new § 743.10 and the
+reduction of recordkeeping and reporting eliminated with the removal of License
+Exceptions Artificial Intelligence Authorization (AIA) (§ 740.27) and License Exception Low
+Processing Performance (LPP) (§ 740.29) from the EAR. BIS expects the burden hours for this
+collection to fall within the already approved amounts for this existing collection. Upon
+approval of these emergency revisions, BIS will publish a separate 60 day notice requesting
+comment.
+
+         BIS invites comments as part of this rulemaking on if these collections of information are
+necessary and whether they will have practical utility; whether our estimate of the public burden
+of this collection of information is accurate and based on valid assumptions and methodology;
+and ways to enhance the quality, utility, and clarity of the information to be collected. Current
+information regarding all of these collections of information – including all background materials
+-- can be found at https:/www.reginfo.gov/public/do/PRAMain by using the search function to
+enter either the title of the collection or the OMB Control Number.
+3. This rule does not contain policies with federalism implications as that term is defined in
+Executive Order 13132.
+4. Pursuant to section 1762 of the Export Control Reform Act of 2018, this action is exempt from
+the Administrative Procedure Act (5 U.S.C. 553) requirements for notice of proposed
+rulemaking, opportunity for public participation, and delay in effective date.
+5. Because a notice of proposed rulemaking and an opportunity for public comment are not
+required to be given for this rule by 5 U.S.C. 553, or by any other law, the analytical
+requirements of the Regulatory Flexibility Act, 5 U.S.C. 601, et seq., are not applicable.
+Accordingly, no regulatory flexibility analysis is required and none has been prepared.
+List of Subjects
+15 CFR Parts 732 and 740
+
+         Administrative practice and procedure, Exports, Reporting and recordkeeping
+requirements
+15 CFR Part 734
+
+         Administrative practice and procedure, Exports, Inventions and patents, Research,
+Science and technology.
+15 CFR Part 742
+
+         Exports, Terrorism.
+15 CFR Part 743
+
+         Administrative practice and procedure, Reporting and recordkeeping requirements.
+15 CFR Part 744
+
+         Exports, Reporting and recordkeeping requirements, Terrorism.
+15 CFR Part 748
+
+         Administrative practice and procedure, Exports, Reporting and recordkeeping
+requirements, Terrorism.
+15 CFR Part 762
+
+         Administrative practice and procedure, Business and industry, Confidential business
+information, Exports, Reporting and recordkeeping requirements.
+15 CFR Part 772
+
+         Exports.
+15 CFR Part 774
+
+         Exports, Reporting and recordkeeping requirements.
+         For the reasons stated in the preamble, BIS amends 15 CFR parts 732, 734, 740, 742,
+743, 744, 748, 762, 772, and 774 as follows:
+PART 732 — STEPS FOR USING THE EAR
+         1. The authority citation for part 732 is revised to read as follows:
+
+Authority: 50 U.S.C. 4801-4852; 50 U.S.C. 1701 et seq.; E.O. 13026, 61 FR 58767, 3 CFR,
+1996 Comp., p. 228.
+Supplement No. 3 to Part 732 [Amended]
+
+         2. Amend supplement no. 3 to part 732 by removing and reserving paragraph 28 under
+“Red Flags.”
+PART 734—SCOPE OF THE EXPORT ADMINISTRATION REGULATIONS
+
+         3a. The authority citation for part 734 continues to read as follows:
+Authority: 50 U.S.C. 4801-4852; 50 U.S.C. 4601 et seq.; 50 U.S.C. 1701 et seq.; E.O. 12938,
+59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O. 13020, 61 FR 54079, 3 CFR, 1996 Comp., p.
+219; E.O. 13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. E.O. 13637, 78 FR 16129, 3
+CFR, 2014 Comp., p. 223; Notice of November 7, 2024, 89 FR 88867 (November 8, 2024).
+§ 734.9 [Amended]
+
+         3b. Amend § 734.9 by removing paragraph (l).
+PART 740—LICENSE EXCEPTIONS
+
+         4. The authority citation for part 740 continues to read as follows:
+Authority: 50 U.S.C. 4801-4852; 50 U.S.C. 1701 et seq.; 22 U.S.C. 7201 et seq.; E.O. 13026, 61
+FR 58767, 3 CFR, 1996 Comp., p. 228.
+
+         5. Amend § 740.2 by revising paragraph (a)(9)(ii) to read as follows:
+§ 740.2 Restrictions on all License Exceptions.
+*****
+(a) * * *
+(9) * * *
+(ii) The item is identified in paragraph (a)(9)(ii)(A) or (B) of this section, is being exported,
+reexported, or transferred (in-country) to or within a destination specified in §
+742.6(a)(6)(iii)(A), excluding the United Arab Emirates, or to an entity headquartered in or
+whose ultimate parent company is headquartered in, Macau or a destination specified in Country
+Group D:5, wherever located, and the license exception is other than: TMP, restricted to
+eligibility under the provisions of § 740.9(a)(6); NAC/ACA, under the provisions of § 740.8;
+RPL, under the provisions of § 740.10; GOV, restricted to eligibility under the provisions of §
+740.11(b); TSU under the provisions of § 740.13(a) and (c); HBM under the provisions of §
+740.25; or ACM under the provisions of § 740.28. Items restricted to eligibility only for the
+foregoing license exceptions are:
+(A) Controlled under ECCNs 3A090, 4A090, or associated software and technology in 3D001,
+3E001, 4D090, and 4E001;
+(B) An integrated circuit, “electronic assembly” or “component” or related software or
+technology specified in ECCNs 3A001.z.4; 3D001 (for “software” for commodities controlled
+by 3A001.z.4, 3A090); 3E001 (for “technology” for commodities controlled by 3A001.z.4);
+4A003.z; 4A004.z; 4A005.z; 4D001 (for “software” for commodities controlled by 4A003.z,
+4A004.z, and 4A005.z); and 4E001 (for “technology” for commodities controlled by 4A003.z,
+4A004.z, 4A005.z); 5A002.z; 5A004.z; 5A992.z; 5D002.z; 5D992.z; 5E002 (for “technology”
+for commodities controlled by 5A002.z or 5A004.z); “software” specified by 5D002 (for
+5A002.z or 5A004.z commodities)); 5E992 (for “technology” for commodities controlled by
+5A992.z or “software” controlled by 5D992.z).
+
+         Note 1 to paragraph (a)(9)(ii): ECCN 3A090.c requires a license for exports, reexports,
+and transfers (in-country) to or within Macau or destinations specified in Country Group D:5,
+but is still included within the scope of this paragraph because it generally shares the same EAR
+license exception eligibility as other 3A090 commodities, except for NAC/ACA, under the
+provisions of § 740.8, for which ECCN 3A090.c is not eligible. An export, reexport, or transfer
+(in-country) of an ECCN 3A090.c commodity to a destination specified in Country Groups D:1
+or D:4 that is not specified in Country Group D:5, may be made under the No License Required
+(NLR) designation, provided no part 744 or 746 license requirements are applicable.
+*****
+§ 740.27 [Removed and Reserved]
+
+         6. Remove and reserve § 740.27.
+§ 740.29 [Removed and Reserved]
+
+         7. Remove and reserve § 740.29.
+Supplement No. 5 to Part 740 [Removed and Reserved]
+
+         8. Remove and reserve supplement no. 5 to part 740.
+PART 742—CONTROL POLICY—CCL BASED CONTROLS
+
+         9. The authority citation for part 742 continues to read as follows:
+Authority: 50 U.S.C. 4801-4852; 50 U.S.C. 4601 et seq.; 50 U.S.C. 1701 et seq.; 22 U.S.C.
+3201 et seq.; 42 U.S.C. 2139a; 22 U.S.C. 7201 et seq.; 22 U.S.C. 7210; Sec. 1503, Pub. L. 108–
+11, 117 Stat. 559; E.O. 12058, 43 FR 20947, 3 CFR, 1978 Comp., p. 179; E.O. 12851, 58 FR
+33181, 3 CFR, 1993 Comp., p. 608; E.O. 12938, 59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O.
+13026, 61 FR 58767, 3 CFR, 1996 Comp., p. 228; E.O. 13222, 66 FR 44025, 3 CFR, 2001
+Comp., p. 783; Presidential Determination 2003-23, 68 FR 26459, 3 CFR, 2004 Comp., p. 320.
+
+         10. Section 742.6 is amended by:
+         a. Revising paragraph (a)(6)(iii)(A);
+         b. Adding paragraphs (a)(6)(iii)(A)(1) and (2);
+         c. Removing and reserving paragraph (a)(6)(iii)(B);
+         d. Removing paragraph (a)(13);
+         e. Revising paragraphs (b)(10)(iii)(A)(1), and (b)(10)(iii)(A)(2);
+         f. Removing and reserving paragraph (b)(10)(iii)(B); and
+         g. Removing paragraphs (b)(10)(iii)(C) and (b)(14).
+         The revisions to read as follows:
+§ 742.6 Regional stability.
+(a) * * *
+(6) * * *
+(iii) * * *
+(A) A license is required for items specified in ECCNs 3A001.z; 3A090 (except for 3A090.c);
+3D001 (for “software” for commodities controlled by 3A001.z, 3A090 (except for 3A090.c));
+3E001 (for “technology” for commodities controlled by 3A001.z, 3A090 (except for 3A090.c));
+4A003.z; 4A004.z; 4A005.z; 4A090; 4D001 (for “software” for commodities controlled by
+4A003.z, 4A004.z, and 4A005.z); 4D090 (for “software” for commodities controlled by 4A090);
+4E001 (for “technology” for commodities controlled by 4A003.z, 4A004.z, 4A005.z, 4A090 or
+“software” specified by 4D001 (for 4A003.z, 4A004.z, and 4A005.z), 4D090 (for “software” for
+commodities controlled by 4A090)); 5A002.z; 5A004.z; 5A992.z; 5D002.z; 5D992.z; 5E002 (for
+“technology” for commodities controlled by 5A002.z or 5A004.z or “software” specified by
+5D002 (for 5A002.z or 5A004.z commodities)); or 5E992 (for “technology” for commodities
+controlled by 5A992.z or “software” controlled by 5D992.z) for exports, reexports, and transfers
+(in-country) to or within the destinations specified under paragraphs (a)(6)(iii)(A)(1)-(2).
+(1) Indonesia, Malaysia, Singapore, Brazil, and Thailand.
+
+         Note 1 to paragraph (a)(6)(iii)(A)(1): The license requirements in this paragraph
+(a)(6)(iii)(A)(1) do not apply to exports, reexports, and transfers (in-country) to an ultimate
+consignee or end user headquartered in, or whose ultimate parent company is headquartered in,
+the United States, provided the exporter, reexporter, or transferor follows the reporting
+requirements in § 743.10 Reporting Requirements to Qualify for Exclusion from Certain
+Regional Stability License Requirements.
+(2) A destination in Country Groups D:1, D:4, or D:5 (excluding destinations also specified in
+Country Groups A:5 or A:6) or the United Arab Emirates, except that a license is not required
+when the ultimate consignee and all end users are approved entities in the United Arab Emirates
+listed in supplement no. 8 to part 740 and specified as approved to receive the items covered by
+this paragraph.
+(B) [Reserved]
+*****
+(iii) * * *
+(A) * * *
+(1) License review policy for paragraph (a)(6)(iii)(A)(1). Applications for exports, reexports, and
+transfers (in-country) will be reviewed on a case-by-case basis to determine whether the
+transaction is contrary to the national security or foreign policy interests of the United States, to
+include the effectiveness of a destination’s export control regimes and coordination with
+BIS on the enforcement of export controls.
+(2) Policy for Country Groups D:1, D:4, D:5 and the United Arab Emirates. There is a case-by-
+case license review policy for license applications for exports of commodities with a TPP (as
+defined in Technical Note 2 to 3A090.a and 3A090.b) less than 21,000, and a 'total DRAM
+bandwidth' (as defined in the notes to paragraph (dd)(1) in supplement no. 2 to part 748) less
+than 6,500 GB/s, when destined to end-users located in China or Macau, provided the applicant
+provides the additional information described in supplement no. 2 to part 748 under paragraph
+(dd). All other applications for exports, reexports, or transfers (in-country) to or within Country
+Group D:5 and Macau or for an entity headquartered or with an ultimate parent headquartered in
+Country Group D:5 or Macau will be reviewed under a presumption of denial. All other
+applications to or within destinations specified in Country Groups D:1 and D:4 (excluding any
+destinations also specified in Country Groups A:5 or A:6) and the United Arab Emirates will be
+reviewed under a presumption of approval. If the license application meets the criteria of more
+than one licensing policy, then this licensing policy and its requirements will be applied.
+(B) [RESERVED]
+*****
+PART 743—SPECIAL REPORTING AND NOTIFICATION
+         11. The authority citation for part 743 is revised to read as follows:
+
+Authority: 50 U.S.C. 4801-4852; 50 U.S.C. 4601 et seq.; 50 U.S.C. 1701 et seq.; E.O. 13637, 78
+FR 16129, 3 CFR, 2014 Comp., p. 223; 78 FR 16129.
+
+         12. Add § 743.10 to read as follows:
+§ 743.10 Reporting requirements to qualify for exclusion from certain regional stability
+license requirements.
+(a) Scope. This section describes reporting which is required to qualify for an exclusion from the
+Regional Stability license requirement under § 742.6(a)(6)(iii)(A)(1). Pursuant to Note 1 to
+paragraph (a)(6)(iii)(A)(1), the license requirements in § 742.6(a)(6)(iii)(A)(1) do not apply to
+exports, reexports, and transfers (in-country) to an ultimate consignee or end user headquartered
+in, or whose ultimate parent company is headquartered in, the United States, provided the
+exporter, reexporter, or transferor follows the reporting requirements of this section.
+(b) Information to be included in the reports. The following information specified under
+paragraph (b)(1) through (4) of this section must be included in each report to BIS.
+(1) Information on each of the parties, as described in § 748.5, involved in the transaction as well
+as the ultimate parent(s) of the ultimate consignee and end user, including:
+(i) Name;
+(ii) Physical address;
+(iii) Mailing address (if different from physical address);
+(iv) Phone number;
+(v) Information in paragraphs (b)(1)(i) through (iv) for all parent company headquarters and
+specifying which company is the ultimate parent; and
+(vi) The role(s) each party is playing in the transaction (i.e., exporter, reexporter, transferor, end-
+user, ultimate consignee, or ultimate parent of the ultimate consignee or end-user).
+(2) The ultimate destination of the commodities being exported, reexported or transferred (in-
+country) and any “end-users” of the commodity which are not the ultimate consignee.
+(3) Information for each product being exported, exported from abroad, reexported, or
+transferred (in-country) including:
+(i) ECCN, including the item’s paragraph-level classification; e.g., 3A090.a;
+(ii) Product name and SKU;
+(iii) Total processing performance (TPP) of the product (see the Technical Notes to ECCN
+3A090); and
+(iv) Quantity of each product.
+(4) Date of export, reexport, or transfer (in-country) for each commodity described in paragraph
+(b)(3).
+(c) Where to submit reports required under this section. Notifications to BIS under this section
+must be submitted to BIS using the following URL:
+https://www.bis.gov/ai/exclusionnotesubmission.
+(d) Monthly reporting requirement. You must submit monthly reports regarding any
+transactions subject to the provisions of this section. The report shall cover any exports,
+reexports, or transfers (in-country) that qualify for an exclusion from the Regional Stability
+license requirement pursuant to Note 1 to § 742.6(a)(6)(iii)(A)(1) on or after [INSERT DATE
+OF PUBLICATION IN FEDERAL REGISTER]. Reports regarding any export, reexport, or
+transfer (in-country) subject to the provisions of this section are due no later than the first
+business day of the month following the transaction.
+(e) Contacts. General information or questions about these reports can be directed to the Office
+of National Security Controls, tel. (202) 482-0092, or email: EAR.Reports@bis.doc.gov.
+PART 744—CONTROL POLICY: END-USER AND END-USE BASED
+
+         13. The authority citation for part 744 continues to read as follows:
+Authority: 50 U.S.C. 4801-4852; 50 U.S.C. 4601 et seq.; 50 U.S.C. 1701 et seq.; 22 U.S.C.
+3201 et seq.; 42 U.S.C. 2139a; 22 U.S.C. 7201 et seq.; 22 U.S.C. 7210; E.O. 12058, 43
+FR 20947, 3 CFR, 1978 Comp., p. 179; E.O. 12851, 58 FR 33181, 3 CFR, 1993 Comp., p. 608;
+E.O. 12938, 59 FR 59099, 3 CFR, 1994 Comp., p. 950; E.O. 13026, 61 FR 58767, 3 CFR, 1996
+Comp., p. 228; E.O. 13099, 63 FR 45167, 3 CFR, 1998 Comp., p. 208; E.O. 13222, 66 FR
+44025, 3 CFR, 2001 Comp., p. 783; E.O. 13224, 66 FR 49079, 3 CFR, 2001 Comp., p. 786.
+
+         14. Amend § 744.1 by adding a sentence at the end of paragraph (a)(1) to read as follows:
+§ 744.1 General provisions.
+(a) * * *
+(1) * * * Section 744.24 sets forth restrictions on exports, reexports, and transfers (in-country)
+for an item that will be or is intended to be used in a data center for end users and destinations of
+concern.
+*****
+
+         15. Revise § 744.23(a)(3)(i) to read as follows:
+§ 744.23 “Supercomputer,” “advanced-node integrated circuits,” and semiconductor
+manufacturing equipment end use controls.
+(a) * * * * *
+(3) * * * (i) (A) Any item subject to the EAR and specified in ECCN 3A001.z; 3A090 (except
+for 3A090.c); 4A003.z; 4A004.z; 4A005.z; 4A090; 5A002.z; 5A004.z; 5A992.z, 5D002.z;
+5D992.z destined to any destination other than those specified in Country Groups D:1, D:4, or
+D:5 (excluding any destination also specified in Country Groups A:5 or A:6) for an entity that is
+headquartered in, or whose ultimate parent company is headquartered in, either Macau or a
+destination specified in Country Group D:5 (e.g., a PRC-headquartered cloud or data server
+provider located outside of Country Groups D:1, D:4, or D:5 (excluding any destination also
+specified in Country Groups A:5 or A:6)).
+
+         (B) Any item subject to the EAR and specified in ECCN 3A090.c destined to any
+destination other than Macau or those specified in Country Group D:5, for an entity that is
+headquartered in, or whose ultimate parent company is headquartered in, either Macau or a
+destination specified in Country Group D:5.
+
+         (C) An “applicable advanced logic integrated circuit” that is subject to the EAR, specified
+in 3A090.a, designed by a company that is neither an approved IC designer (specified in
+supplement no. 6 to part 740) nor an authorized IC designer (as described in Note 1 to 3A090.a),
+and exported, exported from abroad, reexported, or transferred (in-country) by a “front end
+fabricator” or “OSAT” to or within any destination.
+
+******
+         16. Add § 744.24 to read as follows:
+
+§ 744.24 Restrictions on exports, reexports, and transfers (in-country) of certain advanced
+computing items for use in data centers for end-uses and destinations of concern.
+(a) General prohibition—(1) Prohibition on exports, reexports, or transfers (in-country) for
+certain advanced computing items for use in data centers for end uses of concern. In addition
+to the license requirements set forth elsewhere in the EAR, you may not export, reexport, or
+transfer (in-county) items specified in ECCNs 3A001.z; 3A090 (except for 3A090.c); 3D001 (for
+“software” for commodities controlled by 3A001.z, 3A090 (except for 3A090.c)); 3E001 (for
+“technology” for commodities controlled by 3A001.z, 3A090 (except for 3A090.c)); 4A003.z;
+4A004.z; 4A005.z; 4A090; 4D001 (for “software” for commodities controlled by 4A003.z,
+4A004.z, and 4A005.z); 4D090 (for “software” for commodities controlled by 4A090); 4E001
+(for “technology” for commodities controlled by 4A003.z, 4A004.z, 4A005.z, 4A090 or
+“software” specified by 4D001 (for 4A003.z, 4A004.z, and 4A005.z), 4D090 (for “software” for
+commodities controlled by 4A090)); 5A002.z; 5A004.z; 5A992.z; 5D002.z; 5D992.z; 5E002 (for
+“technology” for commodities controlled by 5A002.z or 5A004.z or “software” specified by
+5D002 (for 5A002.z or 5A004.z commodities)); or 5E992 (for “technology” for commodities
+controlled by 5A992.z or “software” controlled by 5D992.z) without a license if you have
+“knowledge” at the time of the export, reexport, or transfer (in-country) that the item is destined
+to a data center to or within any destination worldwide that is providing or will provide access to
+more than 12,000,000 “aggregate TPP” either at one data center or through ‘linked data centers’
+to or for companies headquartered in, or whose ultimate parent company is headquartered in,
+Macau or a destination specified in Country Group D:5 in supplement no. 1 to part 740 of the
+EAR.
+
+         Note 1 to paragraph (a)(1): The prohibitions pursuant to paragraph (a)(1) apply
+regardless of whether the person in possession of the EAR item was a party to the transaction to
+the original export, reexport, or transfer (in-country) (see § 748.5).
+
+         Note 2 to paragraph (a)(1): The prohibitions pursuant to paragraph (a)(1) apply
+regardless of whether a U.S.-origin item specified under paragraph (a) of this section has been
+incorporated or commingled into or with a foreign-made item. Reexporters and transferors may
+not rely on the de minimis provisions for incorporating or commingling U.S.-origin items
+specified under paragraph (a) into foreign-made items where there is “knowledge” at any point
+in the chain from the “development", “production”, or “use” of the foreign-made item that
+incorporates or commingles a U.S.-origin item will be used in a prohibited end-use under
+paragraph (a)(1) of this section.
+
+         Note 3 to paragraph (a)(1): To satisfy the requirement that you do not have “knowledge”
+for purposes of this paragraph, you will be expected to obtain and be able to provide sufficient
+information from the foreign data center regarding that data center’s “know your customer” due
+diligence checks. Such diligence checks will include diligence on whether any data center
+customers are subject to direct or indirect ownership or control by persons located in,
+headquartered in, or whose ultimate parent is headquartered in, Macau or a destination
+specified in Country Group D:5. A foreign data center declining or being unable to provide
+information sufficient to verify compliance with this end use control shall be considered a red
+flag that presumptively provides you with “knowledge” unless you are able to resolve that red
+flag before proceeding with the transaction.
+(2) Additional prohibition on persons informed by BIS. BIS may inform persons, either
+individually by specific notice or through amendment to the EAR, that a license is required for
+the export, reexport, or transfer (in-country) of specified items to certain persons or destinations,
+because there is an unacceptable risk of use in, or diversion to, the activities specified in
+paragraph (a)(1) of this section. Specific notice is to be given only by, or at the direction of the
+Secretary of Commerce or the Under Secretary of Commerce for Industry and Security. When
+such notice is provided orally, it will be followed by a written notice within two working days
+signed by the Secretary of Commerce or the Under Secretary of Commerce for Industry and
+Security. However, the absence of any such notification does not excuse persons from
+compliance with the license requirements of paragraphs (a)(1) of this section. The Secretary of
+State or the Assistant to the President for National Security Affairs may notify the Secretary of
+Commerce that a certain destination is at high risk of use in, or diversion to, the activities
+specified in paragraph (a)(1) of this section. Within 10 days of receipt of such notice, the
+Secretary of Commerce shall, if he deems it appropriate, inform persons, either individually by
+specific notice or through amendment to the EAR, that a license is required for the export,
+reexport, or transfer (in-country) of specific items to that destination.
+(b) Exceptions. (1) No license exceptions may overcome the prohibition described in paragraph
+(a) of this section, except as noted by BIS when a destination is designated under paragraphs (3)
+of this section.
+(2) The prohibitions under this section do not apply when the computing power access is only
+being provided for a ‘commercial recommender system’ and you submit the following
+information to https://www.bis.gov/ai/exclusionnotesubmission, which will be shared with the
+End User Review Committee.
+(i) The name of the company headquartered in, or whose ultimate parent company is
+headquartered in, Macau or a destination specified in Country Group D:5 in supplement no. 1 to
+part 740 of the EAR
+(ii) The sum of the total processing performance (TPP, as defined in the Technical Notes to
+ECCN 3A090) of all of the ICs or commodities specified in paragraph (a)(1) provided to or for
+the company specified in (b)(2)(i)
+(iii) The due diligence performed to ensure the computing power access is exclusively being
+provided for a ‘commercial recommender system.’ (3) Any data center providing significant
+volume of compute power to companies headquartered, or with an ultimate parent headquartered,
+in Macau or Country Group D:5 prior to the publication date of this rule that wishes to continue
+providing these services must obtain a license with 90 days of the effective date of this IFR or
+face future export restrictions.
+(c) License review policy. Applications for licenses required by this section will be reviewed on
+a case-by-case basis.
+(d) Definitions. For purposes of this section, the following definitions are applicable:
+(1) Commercial recommender system. A commercial recommender system means a Super
+Intelligence (SI) tool exclusively designed and exclusively used to rank, filter, or suggest
+commercial products, services, or content to users based on user behavior, transaction history, or
+item attributes. This term does not include any SI system designed or used to generate novel text,
+image, audio, video, software, or other content in response to user inputs, or any system that
+incorporates such model, regardless of whether the system also performs recommendation
+functions.
+(2) Linked data center. For purposes of this section, a ‘linked data center’ means a data center
+that uses networking infrastructure that links two or more separate data centers together, through
+digitally-linked or physically-linked infrastructure, that allows physical and virtual facilities to
+share resources, balance workloads, and replicate data as a unified whole. ‘Linked data center’
+includes digitally-linked infrastructure, not just physically-linked infrastructure.
+(e) Notification and authorization requirement for subsequent changes in end-use. For any
+export, reexport, or transfer made on or after [INSERT DATE OF PUBLICATION IN THE
+FEDERAL REGISTER] without authorization, i.e., because the exporter, reexporter, or
+transferor had no “knowledge” that the item is for a prohibited end-use under this section and no
+other EAR license requirement applies, the exporter, reexporter, or transferor must inform the
+recipient that a BIS authorization is required if the item or items will be used at a data center to
+provide access to more than 12,000,000 “aggregate TPP” either at one data center or through
+‘linked data centers’ to or for companies headquartered in, or whose ultimate parent company is
+headquartered in, Macau or a destination specified in Country Group D:5 in supplement no. 1 to
+part 740 of the EAR. The notification from the exporter, reexporter, or transferor must also
+specify that the transferor, e.g., the data center operator, must obtain authorization for this
+change in end-use. The notification from the exporter, reexporter, and transferor must also
+specify that the transferor must follow the know-your-customer guidance in supplement no. 3
+Part 732 of the EAR.

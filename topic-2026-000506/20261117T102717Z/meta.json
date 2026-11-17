@@ -1,0 +1,69 @@
+{
+  "id": "topic-2026-000506",
+  "url": "https://x.com/CommerceGov/status/2122533142137614375",
+  "capturedAt": "2026-11-17T10:27:17Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "36f3596db41b5c435e013869e14c56b0090c336f98a6de5f934c5dddae56dda7",
+    "width": 640,
+    "height": 900,
+    "bytes": 226468,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-17T10:27:17Z",
+    "url": "https://x.com/CommerceGov/status/2122533142137614375",
+    "finalUrl": "https://x.com/CommerceGov/status/2122533142137614375",
+    "screenshot": {
+      "sha256": "36f3596db41b5c435e013869e14c56b0090c336f98a6de5f934c5dddae56dda7",
+      "width": 640,
+      "height": 900,
+      "bytes": 226468,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2122533142137614375",
+      "handle": "CommerceGov",
+      "syndicationSha256": "ec4a1ef3364be6cc98bc3a8e8b2d675bada72387bc7276edd3eb9294018c5ef1",
+      "createdAt": "2026-11-17T03:31:50.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "CommerceGov",
+      "lang": "en",
+      "textSha256": "fcef2f82c4e19eca7f3355daf44db5ffe5ee3fef4881a4edbdca889daf0b883e",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "50d3871d28c90b305ad9ab634af3a370b3e0f128ba2dbeba07a4b311621c4288",
+          "bytes": 176821,
+          "width": 1299,
+          "height": 1671
+        }
+      ],
+      "oembedSha256": "0e2b6db22f1db6089e40dac7bfa8313b02bcad7a9521331a6c76f8e61091b903",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

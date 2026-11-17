@@ -1,0 +1,56 @@
+{
+  "id": "topic-2026-000503",
+  "url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+  "capturedAt": "2026-11-17T10:23:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 527146,
+    "sha256": "348ecda38fde4610caa348bda6a16688d95549f1dabac37d05f3c3ca91d29a14",
+    "file": "raw.pdf"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "716EB5E8AFA7872BBA5E73BD0402E77E",
+      "status": 200,
+      "url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+      "mime": "application/pdf"
+    },
+    "skipped": "pdf: no rendered view captured (raw bytes stored instead)",
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "record": {
+    "capturedAt": "2026-11-17T10:23:07Z",
+    "url": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+    "raw": {
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 527146,
+      "sha256": "348ecda38fde4610caa348bda6a16688d95549f1dabac37d05f3c3ca91d29a14"
+    },
+    "finalUrl": "https://public-inspection.federalregister.gov/2026-23529.pdf",
+    "httpStatus": 200,
+    "note": "pdf: no rendered view captured (raw bytes stored instead)",
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261116215457",
+      "statuscode": "200",
+      "mimetype": "application/pdf",
+      "url": "https://web.archive.org/web/20261116215457/https://public-inspection.federalregister.gov/2026-23529.pdf"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261116215457/https://public-inspection.federalregister.gov/2026-23529.pdf",
+      "timestamp": "20261116215457",
+      "verifiedHttp": 200
+    }
+  }
+}

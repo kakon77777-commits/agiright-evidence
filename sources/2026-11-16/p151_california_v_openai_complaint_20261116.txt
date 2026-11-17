@@ -1,0 +1,1860 @@
+Source: https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf (California Attorney General, complaint "COMPLAINT FOR ABATEMENT, INJUNCTION, CIVIL PENALTIES, AND OTHER EQUITABLE RELIEF", The People of the State of California v. OpenAI Foundation, OpenAI Group PBC and Does 1-100, San Francisco Superior Court, dated November 16, 2026)
+Read in the Internet Archive capture http://web.archive.org/web/20261116190012id_/https://oag.ca.gov/system/files/attachments/press-docs/complaint-oai-cyber.pdf (timestamp 2026-11-16 19:00:12 UTC), fetched 2026-11-17 (Taipei) by script, HTTP 200, 495,536 bytes, SHA-256 of the PDF 8bdb2ced76570d8af68c754145f1345b126cee082f68cf643307fe6e76f3926e, 31 pages. oag.ca.gov itself did not resolve from the fetching machine on 2026-11-17. Extracted with pdftotext -layout -enc UTF-8; the pleading-paper line numbers (1 to 28) sit inside the running text.
+Cited by topics 504, 505 and 252 (dated note). The full text is copied here.
+
+1 ROB BONTA
+
+    Attorney General of California
+
+2 NICKLAS A. AKERS
+
+    Senior Assistant Attorney General
+
+3 STACEY D. SCHESSER (SBN 245735)
+
+    JON F. WORM (SBN 248260)
+
+4 Supervising Deputy Attorneys General
+
+    ADELINA ACUÑA (SBN 284576)
+
+5 IAN HOGG (SBN 313924)
+
+    KATHERINE READ (SBN 341463)
+
+6 MANEESH SHARMA (SBN 280084)
+
+    JESSICA WANG (SBN 278300)
+
+7 Deputy Attorneys General                                                        [EXEMPT FROM FILING FEES
+
+    455 Golden Gate Avenue, Suite 11000                                           GOVERNMENT CODE § 6103]
+
+8 San Francisco, CA 94102-7004
+
+    Telephone: (415) 510-4400
+
+9 Fax: (415) 703-1107
+
+    E-mail: Maneesh.Sharma@doj.ca.gov
+
+10
+
+    Attorneys for the People of the State of California
+
+11
+
+                    SUPERIOR COURT OF THE STATE OF CALIFORNIA
+
+12
+
+                                    COUNTY OF SAN FRANCISCO
+
+13
+
+14
+
+15 THE PEOPLE OF THE STATE OF                            Case No.
+
+    CALIFORNIA,
+
+16
+
+                                       Plaintiff,
+
+17                                                       COMPLAINT FOR ABATEMENT,
+
+             v.                                          INJUNCTION, CIVIL PENALTIES, AND
+
+18                                                       OTHER EQUITABLE RELIEF
+
+19 OPENAI FOUNDATION; OPENAI                             (Bus. & Prof. Code, § 17200 et seq.; Civ.
+
+    GROUP PBC; AND DOES 1-100,                                                    Code, § 3494)
+
+20
+
+                                       Defendants
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+                                                                               1
+                                                                       COMPLAINT
+1   1. The People of the State of California, through Attorney General Rob Bonta, bring this
+
+2 action against Defendants OpenAI Foundation, OpenAI Group PBC, and DOES 1-100 (together
+
+3 “OpenAI” or “Defendants”) for violations of California law. The People allege the following facts
+
+4 based on information and belief:
+
+5                                   INTRODUCTION
+
+6   2. OpenAI, a leading artificial intelligence business, misled and endangered the public
+
+7 and users of its services by knowingly developing advanced AI models—complex software that
+
+8 can power autonomous AI “agents”—without the safeguards and monitoring necessary to
+
+9 adequately protect the public. In July 2026, agents running on experimental versions of OpenAI’s
+
+10 AI models accessed the public internet and launched a cyberattack on Hugging Face, an open-
+
+11 source AI hosting platform. OpenAI’s attack on Hugging Face lasted roughly two-and-a-half
+
+12 days, employed complicated hacking methodologies, and involved coordinated actions by
+
+13 hundreds of individual autonomous AI agents that should have been contained in OpenAI’s
+
+14 research environment. While public reporting and OpenAI’s self-serving statements about the
+
+15 Hugging Face attack have evoked science fiction fantasies of “rogue” AI systems run amok, the
+
+16 simple truth is that the attack was entirely foreseeable in light of OpenAI’s decision to test models
+
+17 it knew to be dangerous in a flawed and exploitable testing environment without proper oversight.
+
+18  3. OpenAI’s models have advanced cyber capabilities, able to find novel vulnerabilities
+
+19 in computer networks, quickly break down defenses, and autonomously carry out cyberattacks.
+
+20 However, as OpenAI is well aware, these models do not behave predictably and can often take
+
+21 destructive, deceptive, and adversarial actions to complete their assigned tasks. OpenAI attempts
+
+22 to mitigate these risks by implementing safeguards in its publicly released models but deliberately
+
+23 omits or removes these protections while experimenting with and training its models. And
+
+24 although OpenAI assured the public that these experimental testing sessions were conducted
+
+25 under strict control and with constant oversight, in the weeks leading up to the Hugging Face
+
+26 attack, OpenAI ignored or missed signs demonstrating that its AI agents had escaped the testing
+
+27 environment and were misusing third parties’ resources. Indeed, OpenAI claims that it only
+
+28 became aware of its loss of control after it was informed of the cyberattack by Hugging Face,
+
+                                                                               2
+                                                                       COMPLAINT
+1 days later, revealing alarming gaps in OpenAI’s safety and security infrastructure and its
+
+2 monitoring practices.
+
+3   4. The Hugging Face cyberattack was the predictable result of an internal culture at
+
+4 OpenAI that prioritizes growth and rapid model development over safety and accountability.
+
+5 OpenAI has been warning of the risks of AI-powered cyberattacks for nearly a decade and
+
+6 repeatedly assured users and the public that it implemented appropriate safeguards throughout the
+
+7 development of its AI products. According to OpenAI, these safeguards include robust monitoring
+
+8 of its models and testing them in secure research environments, or sandboxes, that are sufficiently
+
+9 fortified to prevent the models from breaking out and causing real world damage. But these
+
+10 statements were misleading to both OpenAI’s customers and the public. In truth, OpenAI failed to
+
+11 comply with its own internal policies and consistently and aggressively moved forward with
+
+12 testing and experiments even in the face of evidence that its cybersecurity safeguards were
+
+13 insufficient to contain the highly advanced models it was developing.
+
+14  5. The Hugging Face attack would be concerning enough if it were an isolated incident,
+
+15 but that is not the case. Since the Hugging Face attack, OpenAI and third parties have identified
+
+16 similar attacks by OpenAI’s autonomous agents, underscoring the continuing threat that OpenAI’s
+
+17 testing and development activities pose to any computer or network connected to the internet.
+
+18 These include unauthorized access of and cyberattacks on databases containing code that powers
+
+19 countless applications; informational websites that are trusted and valuable resources for the
+
+20 public; and foreign government databases storing sensitive health information. Swarms of
+
+21 OpenAI’s experimental AI agents have even compromised OpenAI’s own internal infrastructure,
+
+22 in an attack that managed to obtain administrator-level access to critical OpenAI systems. And
+
+23 these known attacks may just be the tip of the iceberg. OpenAI recently admitted to the Attorney
+
+24 General’s Office that it has lost control of its autonomous AI agents over 80 times during testing.
+
+25  6. Rather than take responsibility and be transparent with the public and with regulators
+
+26 so that these loss-of-control incidents can be analyzed and prevented, OpenAI thwarted the
+
+27 Attorney General’s efforts to investigate these incidents, including by refusing to provide detailed
+
+28 information about the full universe of incidents known to the company. The need for a clear
+
+                                                                               3
+                                                                       COMPLAINT
+1 understanding of how AI models operate and what went wrong has never been higher. Yet,
+
+2 OpenAI continues to stonewall efforts to assess the implications of OpenAI’s inability to control
+
+3 its AI models and to determine appropriate fixes. To date, the company has responded to the
+
+4 Attorney General’s subpoenas with just a smattering of publicly available information, self-
+
+5 serving blog posts, and redacted copies of a few dozen external communications containing high-
+
+6 level descriptions of select security incidents. Far more is required, particularly where, as here,
+
+7 the products in question have such broad-reaching capabilities. Indeed, it is hardly a stretch to say
+
+8 that any product or service that relies on a computer system or internet connection could be at risk
+
+9 in a future loss-of-control event.
+
+10  7. California is a global hub in the technology industry and home to many of the
+
+11 companies at the forefront of AI research and development. Today, AI systems affect nearly all
+
+12 aspects of daily life—with applications across industries as varied as banking, medical diagnosis,
+
+13 and pharmaceutical research—and hold great potential to achieve scientific breakthroughs, boost
+
+14 economic growth, guard against cyberattacks, and benefit consumers. But AI systems can only
+
+15 achieve this potential when they are developed and designed in a safe manner. Because of the
+
+16 power of these models and the ever-increasing pace of AI development (including rapidly seeking
+
+17 to achieve recursive self-improvement through which AI models build the next generation of
+
+18 models), employing adequate safeguards and oversight is essential. These are needed not only to
+
+19 protect consumers and the public now, but also to ensure that these models are not trained and
+
+20 tested in a way that exposes the public to even greater risks and uncertainty in the future.
+
+21  8. OpenAI’s failure to adequately secure and monitor the testing of its highly capable
+
+22 and increasingly powerful AI models represents a danger to the public that must be remedied.
+
+23 Governments, businesses, civil society organizations, and members of the public who use or rely
+
+24 on internet-connected computer systems and devices should not be forced to take steps and bear
+
+25 the cost of protecting themselves from the dangers posed by AI companies’ unsafe experiments.
+
+26 Like any business, the companies developing these AI models bear the responsibility of doing so
+
+27 safely, transparently, responsibly, and in accordance with law. OpenAI has shown a willingness to
+
+28
+
+                                                                               4
+                                                                       COMPLAINT
+1 ignore that responsibility, time and again prioritizing growth and rapid development over safety
+
+2 and accountability.
+
+3   9. Making sure that the most capable AI models are developed with sufficient controls is
+
+4 a real and urgent concern. As current and former employees of OpenAI have noted, “there is a
+
+5 meaningful risk that rapid acceleration in AI capabilities leads to catastrophic and irreversible loss
+
+6 of control in the very near term.” The AI models that OpenAI is currently developing are
+
+7 drastically more advanced than the models currently on the market, capable of handling far more
+
+8 varied tasks and taking far more advanced actions without human intervention. And yet, at the
+
+9 time when the need for increased human oversight and control over AI model development has
+
+10 never been higher, OpenAI is seeking to create AI systems that can recursively self-improve with
+
+11 decreasing levels of human involvement. As the Hugging Face cyberattack shows, the public
+
+12 already faces an uncertain future where online systems they previously thought were secure are
+
+13 subject to compromise by swarms of automated agents. Absent sufficient safeguards and controls,
+
+14 the scope and frequency of this already unacceptable risk will only increase. The Attorney
+
+15 General cannot and will not ignore cyberattacks that endanger the public, especially where
+
+16 industry insiders repeatedly warn that more severe attacks are on the horizon without putting
+
+17 sufficient controls in place—attacks on power grids, emergency infrastructure, hospital systems,
+
+18 and financial institutions.
+
+19  10. While the technology OpenAI develops may be new, California’s prohibitions against
+
+20 conduct that harms the public and our laws against unfair, deceptive, and fraudulent business
+
+21 practices are not. OpenAI’s deficient safety procedures, disregard for public safety, and knowing
+
+22 testing of a dangerous product without proper oversight, as well as its misleading statements to
+
+23 consumers and the public, all violate California law. Accordingly, the People bring this law
+
+24 enforcement action to enforce California’s consumer protection laws and to abate the public
+
+25 nuisance caused by OpenAI. Given OpenAI’s lack of transparency during the Attorney General’s
+
+26 investigation, and because OpenAI’s agents continue to take unauthorized actions and exhibit
+
+27 other hazardous behavior that is a danger to the public, court intervention is necessary to ensure
+
+28
+
+                                                                               5
+                                                                       COMPLAINT
+1 that OpenAI implements the appropriate safeguards necessary to protect the public from further
+
+2 harm.
+
+3                                     PARTIES
+
+4        11. Plaintiff, the People of the State of California, brings this action by and through Rob
+
+5 Bonta, Attorney General of the State of California. The Attorney General is California’s chief law
+
+6 enforcement officer and is authorized by Business and Professions Code sections 17204 and
+
+7 17206 to bring actions in the name of the People to enforce the State’s Unfair Competition Law.
+
+8 The Attorney General is also authorized under Civil Code section 3494 to obtain preliminary and
+
+9 permanent injunctions to abate public nuisances present in the State of California as defined by
+
+10 Civil Code section 3479 and 3480.
+
+11       12. Defendant OpenAI Foundation (the Foundation), headquartered in San Francisco,
+
+12 CA, is a non-profit entity formerly known as OpenAI, Inc. Defendant OpenAI Group PBC (the
+
+13 PBC) is a Delaware public benefit corporation headquartered in San Francisco, CA. The
+
+14 Foundation has the power to appoint and remove members of the PBC board and the Foundation
+
+15 is also responsible for overseeing and reviewing the safety and security processes and practices of
+
+16 the PBC and its controlled affiliates with response to model development and deployment.
+
+17       13. At all relevant times, OpenAI maintained its principal place of business in California.
+
+18 As a result, OpenAI’s misconduct emanated and was directed from California, impacting
+
+19 consumers both within and outside of the state.
+
+20       14. The People are not aware of the true names and capacities of defendants sued herein
+
+21 as DOES 1 through 100, inclusive, and, therefore, sue these defendants by such fictitious names.
+
+22 Each fictitiously named defendant is responsible in some manner for the violations of law alleged.
+
+23 The People will amend this Complaint to add the true names of the fictitiously named defendants
+
+24 once they are discovered. Whenever reference is made in this Complaint to “Defendants” and
+
+25 “OpenAI,” such references shall include DOES 1 through 100.
+
+26       15. The Defendants identified in paragraphs 12 through 14 are hereafter referred to
+
+27 collectively in this Complaint as “OpenAI” or “Defendants.”
+
+28
+
+                                                                               6
+                                                                       COMPLAINT
+1   16. At all relevant times, each Defendant acted: (a) as a principal; (b) under express or
+
+2 implied agency; or (c) with actual or ostensible authority to perform the acts alleged in this
+
+3 Complaint on behalf of every other named Defendant.
+
+4   17. At all relevant times, some or all Defendants acted as the agent of the others, and all
+
+5 Defendants acted within the scope of their agency if acting as an agent of another.
+
+6   18. At all relevant times, each Defendant knew or realized, or should have known or
+
+7 realized, that the other Defendants were engaging in or planned to engage in the violations of law
+
+8 alleged in this Complaint. Knowing or realizing that the other Defendants were engaging in such
+
+9 unlawful conduct, each Defendant nevertheless facilitated the commission of those unlawful acts.
+
+10 Each Defendant intended to and did encourage, facilitate, or assist in the commission of the
+
+11 unlawful acts, and thereby aided and abetted the other Defendants in the unlawful conduct.
+
+12  19. Defendants have engaged in a conspiracy, common enterprise, and common course of
+
+13 conduct, the purpose of which was to engage in the violations of law alleged in this Complaint.
+
+14  20. Whenever reference is made in this Complaint to any act of any Defendant or
+
+15 Defendants, the allegation shall mean that the Defendant or Defendants did the acts alleged in this
+
+16 Complaint either personally or through the Defendant’s or Defendants’ officers, directors,
+
+17 employees, agents, or representatives acting within the actual or ostensible scope of their
+
+18 authority.
+
+19  21. Each Defendant is a “person” as defined in Business and Professions Code section
+
+20 17201.
+
+21             JURISDICTION AND VENUE
+
+22  22. At all relevant times, OpenAI has conducted and continues to conduct business within
+
+23 the State of California, including the City and County of San Francisco. The violations of law
+
+24 alleged herein were committed or occurred in the City and County of San Francisco, and
+
+25 elsewhere in the State of California.
+
+26
+
+27
+
+28
+
+                                                                               7
+                                                                       COMPLAINT
+1               FACTUAL ALLEGATIONS
+
+2 I. BACKGROUND ON OPENAI AND AI MODEL DEVELOPMENT
+
+3   A. OpenAI.
+
+4   23. OpenAI is a company that develops and releases for public use artificial intelligence
+
+5 programs (“AI models” or “models”). These AI models can complete advanced tasks, such as
+
+6 computer programming, with minimal human guidance.
+
+7   24. Although OpenAI was founded in 2015 as a nonprofit research organization
+
+8 promising to develop AI models “to benefit humanity as a whole, unconstrained by a need to
+
+9 generate financial return,” the company has become increasingly focused on advancing its models
+
+10 as quickly as possible to increase revenues.
+
+11  25. OpenAI’s increasing focus on revenue is demonstrated by its evolving corporate
+
+12 structure. As early as 2017, executives at OpenAI were considering switching to a for-profit
+
+13 structure, writing that “maybe we should just flip to a for-profit. Making the money for us sounds
+
+14 great and all.” Shortly after, in 2019, the company created a for-profit subsidiary with capped
+
+15 profits. OpenAI ultimately lifted the profit cap entirely in 2025 when that subsidiary became a
+
+16 Public Benefit Corporation. In conjunction with the 2025 corporate restructuring, OpenAI
+
+17 received $40 billion in funding from SoftBank Group.
+
+18  26. OpenAI’s increasing focus on revenue is also demonstrated by its shifting focus on
+
+19 enterprise products. The company’s most well-known product is ChatGPT, which is a chatbot that
+
+20 provides narrative responses to user requests. However, despite having more than 900 million
+
+21 weekly users, about 95% of them do not pay any money to use ChatGPT. Business customers
+
+22 accounted for about 40% of OpenAI’s revenues in early 2026 and OpenAI is attempting to cater
+
+23 to and grow this segment. As OpenAI’s own Chief Revenue Officer explained in an interview,
+
+24 OpenAI was laser-focused on meeting with corporate leaders and positioning OpenAI as the go-to
+
+25 platform for workplaces that were using AI models to complete a variety of computer-based job
+
+26 tasks. Thus, OpenAI has become increasingly focused on developing AI models for computer
+
+27 programming and cybersecurity purposes. In fact, OpenAI has attempted to capitalize on its
+
+28 recent cybersecurity failures by pitching a new suite of cybersecurity defense products built on its
+
+                                                                               8
+
+                COMPLAINT
+1 most highly capable models, marketing those products as an essential defense against
+
+2 cybersecurity threats, including the types of cybersecurity threats that other versions of those
+
+3 same models created.
+
+4   B. The Risks Inherent in AI Model Development and Training.
+
+5   27. The current pace of AI model development is extremely rapid, and the pace is
+
+6 increasing. Each generation of AI models is more capable and more autonomous than the last. For
+
+7 example, according to OpenAI, its GPT-6 Astra model has reached “Critical” cyber capability,
+
+8 meaning that it could find and exploit previously unknown security vulnerabilities and execute
+
+9 cyberattacks without human intervention.
+
+10  28. A key driver of AI acceleration in recent years is the development of “agentic AI,”
+
+11 which refers to AI systems in which models accomplish tasks independently, with minimal
+
+12 human instruction. In an agentic system, an AI model powers an “agent” though software that
+
+13 allows the model to interface with external tools and networks. In today’s agentic AI systems,
+
+14 agents can autonomously accomplish extremely complex tasks ranging from inventory
+
+15 management to website deployment, from start to finish.
+
+16  29. Like most other AI companies, OpenAI develops many of its agentic AI models in
+
+17 part through reinforcement learning. Reinforcement learning involves training an AI model by
+
+18 instructing it to achieve a certain goal within a dynamic testing environment. The model then
+
+19 learns through trial-and-error what actions to take to achieve the desired goal by receiving
+
+20 feedback in the form of rewards or penalties—essentially a point-scoring system where the model
+
+21 receives points for completing a task correctly and loses points for taking undesirable actions.
+
+22  30. Reinforcement-learning training can result in problematic behaviors, such as agents
+
+23 engaging in deception to avoid penalties or achieving desired outcomes in an undesirable
+
+24 manner—a problem known as reward hacking. For example, an AI agent instructed to remove all
+
+25 errors from a coding database may simply delete the entire database as the quickest and easiest
+
+26 method to achieve the goal, or an AI agent instructed to solve a technical problem may instead
+
+27 search for an answer key to immediately find the solution. Reward hacking can occur for various
+
+28
+
+                                                                               9
+                                                                       COMPLAINT
+1 reasons, including from researchers failing to anticipate or penalize each possible undesirable
+
+2 action that an agent can take.
+
+3   31. Because it is often impossible or infeasible to define and prohibit all possible negative
+
+4 actions, responsible researchers train and experiment with AI models and agents in controlled
+
+5 digital testing environments, known as “sandboxes,” to allow the models to take actions or try
+
+6 strategies without causing real-world damage to computer networks or public infrastructure. As
+
+7 an additional security measure, sandboxes used in testing and training can be run on computers or
+
+8 networks that are “air gapped” and have no connection to the internet or other networks.
+
+9   32. Similarly, before publicly releasing a model, researchers evaluate a “trained” AI
+
+10 model by measuring its performance against either public or proprietary benchmarks to assess its
+
+11 “capabilities,” i.e., the model’s proficiency at completing tasks in a particular subject area. To
+
+12 fully assess a model’s capabilities, OpenAI and other AI developers often conduct evaluations
+
+13 with fewer safeguards than would be in place on models that are publicly available. To prevent
+
+14 these high-risk models from causing real-world harm, it is critical that AI developers ensure that
+
+15 these evaluations occur in isolation, including through the use of properly secured sandboxes and
+
+16 additional controls that provide layered defenses against potential harm.
+
+17  33. As AI systems have become increasingly complex and powerful, AI researchers
+
+18 themselves have taken advantage of autonomous AI systems to help advance their own research.
+
+19 AI researchers are now able to use agents to write code and conduct experiments. OpenAI has
+
+20 stated publicly that its researchers are increasingly conducting experiments using agents and
+21 delegating more complex and time-intensive research tasks to agents.1
+
+22  34. As a result, more and more AI development is being accomplished with less human
+
+23 input and supervision than was the case just a short time ago. AI agents are frequently used to
+
+24 evaluate and assign rewards during reinforcement-learning training of other models, while other
+
+25 AI agents are used to monitor long-lasting “training runs” that go on for days or weeks.
+
+26
+
+27
+                1 OpenAI, Research acceleration: The view inside OpenAI (Sept. 6, 2026)
+
+28 <https://openai.com/index/research-acceleration-view-inside-openai/>.
+
+                                                                               10
+
+                                                                       COMPLAINT
+1   35. Continuing down this path may lead to what AI experts call recursive self-
+
+2 improvement (RSI), where AI systems can autonomously design and develop their own
+
+3 successors. While some degree of human oversight and control is currently required to design and
+
+4 run experiments, analyze results, and implement new capabilities into AI models, OpenAI is
+
+5 moving towards automating future model research and development through RSI.
+
+6   36. OpenAI recognizes that rapidly increasing the capabilities of its AI models and agents
+
+7 can cause severe harm, both intentionally or unintentionally, and has repeatedly assured users and
+
+8 the public that it implements appropriate safeguards throughout the model development lifecycle.
+
+9 As acknowledged by OpenAI and the AI industry, autonomous models trained and tested in
+
+10 experimental, trial-and-error environments may take unintended actions during evaluations.
+
+11 Highly capable models trained to be persistent in their attempts to accomplish tasks often seek to
+
+12 accomplish goals in ways their owners do not intend and can sometimes use their advanced
+
+13 capabilities to conceal their actions and decision-making from monitors.
+
+14  37. For nearly a decade, OpenAI has identified cybersecurity and AI-powered
+
+15 cyberattacks as a specific risk area of concern. In 2023, OpenAI introduced its “Preparedness
+
+16 Framework,” a governance document that laid out its approach to identifying and mitigating
+
+17 potential risks from its AI development process. OpenAI told the public it would track specific
+
+18 “catastrophic” risk areas, including cybersecurity. OpenAI stated that it identified and tracked
+
+19 cybersecurity risks posed by its AI models because (1) its models could be fine-tuned or enhanced
+
+20 to elicit cyberattack capabilities, (2) OpenAI had access to cybersecurity talent to develop
+
+21 evaluations and monitoring solutions, and (3) OpenAI felt that focusing on tailored mitigations
+
+22 for cybersecurity risks would forestall the need for broad mitigations or regulation of their overall
+
+23 AI development process and programs.
+
+24  38. OpenAI’s mitigations failed, and did so repeatedly. In July 2026, OpenAI disclosed
+
+25 that it was responsible for a cyberattack on Hugging Face, a third-party AI repository website.
+
+26 News of the attack prompted researchers, experts, and website operators to reexamine recent
+
+27 cybersecurity incidents to determine whether OpenAI’s AI agents were involved, revealing
+
+28 several more previously undisclosed incidents of OpenAI models behaving in a manner that
+
+                                                                               11
+                                                                       COMPLAINT
+1 violated OpenAI’s own policies and posed a risk to both OpenAI’s internal systems and third
+
+2 parties.
+
+3   39. These incidents were foreseeable. Not only had OpenAI disclosed that such incidents
+
+4 were possible, but even before the Hugging Face and other attacks occurred, OpenAI had actual
+
+5 knowledge that its models had previously escaped sandboxes and taken unauthorized and risky
+
+6 actions during training and evaluation sessions.
+
+7   40. In light of the major public safety concerns presented by OpenAI’s failure to develop,
+
+8 train, and evaluate its AI models in a safe manner, on September 30, 2026, Attorney General Rob
+
+9 Bonta served OpenAI with an investigative subpoena and investigative interrogatories pursuant to
+
+10 section 11180 of the Government Code. The Attorney General’s subpoenas sought information
+
+11 and records regarding the number, scale, scope, and nature of previous cybersecurity incidents, as
+
+12 well as information and records that would aid the Attorney General in determining appropriate
+
+13 legal and policy remedies going forward.
+
+14  41. OpenAI failed to substantially comply with the Attorney General’s investigative
+
+15 demands, responding instead with a 14-page letter that described events the company had already
+
+16 publicly disclosed and producing no documents in support. A week after the deadline, the
+
+17 company produced a handful of public documents related to a limited number of security
+
+18 incidents that OpenAI already blogged about, which it later supplemented with redacted copies of
+
+19 a few dozen external communications containing high-level descriptions of non-public
+
+20 cybersecurity incidents it admits have also occurred. OpenAI’s responses omitted the other
+
+21 information requested by the Attorney General regarding prior incidents, as well as information
+
+22 on how agents compromised OpenAI’s own internal systems.
+
+23 II. BACKGROUND ON OPENAI’S CYBER INCIDENTS
+
+24  A. OpenAI’s Attack on Hugging Face.
+
+25  42. From May to June 2026, OpenAI conducted several reinforcement-learning “training
+
+26 runs” to experiment with unreleased research models. The training runs occurred in digital
+
+27 sandboxes, where OpenAI decides what software tools and levels of network and internet access
+
+28 to give the model. In the relevant training runs, models were granted access to a third-party
+
+                                                                               12
+                                                                       COMPLAINT
+1 software package service hosted on OpenAI’s servers and were not supposed to have access to
+
+2 any other parts of OpenAI’s network or the public internet.
+
+3   43. But because OpenAI allowed multiple agents to access the same software package
+
+4 service from their sandboxes, and because the company had misconfigured the service, the agents
+
+5 were able to use the service to communicate with each other by writing messages and sharing
+
+6 information.
+
+7   44. By May 26, OpenAI agents that were supposed to be confined to their sandboxes
+
+8 used a vulnerability in the software package service to obtain public internet access. Around the
+
+9 same time, an OpenAI internal team observed instances of at least one agent escaping the
+
+10 sandboxes to access the internet, but OpenAI apparently took no action to address this failure of
+
+11 containment or stop the training runs.
+
+12  45. On June 27, a cybersecurity monitoring tool alerted OpenAI that their research
+
+13 environment was being probed for vulnerabilities, a potential hallmark of malicious cyber
+
+14 activity. At the time, OpenAI attributed this activity to a cyber-capability evaluation for an AI
+
+15 agent or agents which OpenAI recognized had compromised the software package service, but
+
+16 OpenAI again took no action to address vulnerabilities in the service or stop the evaluation and
+
+17 other training runs. Nor did OpenAI increase or alter its monitoring of AI agents’ use of the
+
+18 software package service.
+
+19  46. As a result of these failures, OpenAI’s agents continued to access the compromised
+
+20 software package service at a high rate during training and evaluation runs. This activity
+
+21 eventually caused the service to go offline on July 4. Rather than thoroughly investigate the agent
+
+22 activity that caused this outage, OpenAI focused on getting the service back online as quickly as
+
+23 possible, working over the holiday weekend to patch the vulnerabilities and resume evaluation
+
+24 and training runs on July 7. Even though agent misuse of the service had caused the outage,
+
+25 OpenAI continued to allow thousands of AI agents to access the same service from their
+
+26 sandboxes and again failed to properly monitor the agents’ use of the service.
+
+27  47. Within a single day, several of OpenAI’s agents—which had been trained while the
+
+28 software service was compromised and therefore recognized that the service could be used to
+
+                                                                               13
+                                                                       COMPLAINT
+1 communicate and to escape their sandboxes—identified a new way to use the service to
+
+2 communicate with other sandboxed AI agents by creating an ad hoc message board. And just one
+
+3 day later, on July 9, OpenAI’s agents were again able to compromise the service to access the
+
+4 public internet.
+
+5   48. From July 9 through 16, OpenAI’s agents that had successfully escaped their
+
+6 sandboxes took a series of actions that resulted in a two-and-half day attack and compromise of
+
+7 Hugging Face’s infrastructure. Around 1,200 agents participated in the message board during the
+
+8 relevant period, and approximately 700 went on to attack Hugging Face.
+
+9   49. OpenAI’s attack forced Hugging Face to expend significant resources to respond to
+
+10 the breach. During the cyberattack, OpenAI’s agents took roughly 17,600 attacker actions, a scale
+
+11 far exceeding what a human attacker could sustain. To even begin to address the attack, Hugging
+
+12 Face had to install and implement an open-source AI tool to identify the actions OpenAI’s agents
+13 had taken.2 Remediating the damage required Hugging Face’s entire security team’s full-time
+
+14 efforts for two weeks.
+
+15  50. According to OpenAI, it never detected this week-long breach of its testing
+
+16 environment. OpenAI even reached out to Hugging Face as a concerned customer after Hugging
+
+17 Face disclosed that it had been the subject of an AI-based attack on July 16, 2026. OpenAI claims
+
+18 that it only learned that it was responsible for the attack after investigating a separate attack on its
+
+19 own infrastructure, as described below, and connecting the two incidents.
+
+20  B. OpenAI’s Models Attack OpenAI’s Own Infrastructure.
+
+21  51. Separate and apart from the Hugging Face attack, in July 2026, a swarm of OpenAI’s
+
+22 experimental AI agents escaped their sandboxes and gained access to OpenAI’s own computer
+
+23 network infrastructure, exposing critical tools and resources relied on by OpenAI’s business and
+
+24 individual customers as well as personal information for users, employees, and others. OpenAI’s
+
+25 reporting of these incidents is limited, but there appear to be at least three distinct attacks
+
+26 resulting from these breaches, including one by an agent with the apparent aim of compromising
+
+27  2 Notably, Hugging Face was unable to use its existing commercially available AI tools
+
+    because safeguards in those tools treated Hugging Face’s attempt to reverse engineer the exploits
+28 for remediation purposes as an attempt to launch an attack.
+
+                           14
+
+                           COMPLAINT
+1 software that was evaluating agents. OpenAI’s infrastructure was compromised during these
+
+2 attacks, including by models obtaining control of their own computers and, shockingly, obtaining
+
+3 administrator-level access to critical OpenAI systems. Such systems included the system that
+
+4 OpenAI uses to deploy models in the cloud, OpenAI’s highly sensitive secrets-management
+
+5 service that stores confidential credentials, and OpenAI’s identity- and access-management
+
+6 service. Agents then affirmatively launched unauthorized servers in OpenAI’s cloud, exposing
+
+7 OpenAI’s infrastructure to the public internet.
+
+8   52. The most dangerous part of this incident—escaped models obtaining administrator-
+
+9 level access—appears to be attributable to an internal-only model comparable to OpenAI’s Astra
+
+10 model, which is even more advanced than the models that powered the Hugging Face attack. As
+
+11 with the Hugging Face incident, the agents running on this advanced OpenAI model were able to
+
+12 achieve their attacks by compromising the shared software package service OpenAI used and by
+
+13 taking advantage of tools and messages left by other agents inside the service.
+
+14  53. Despite the serious concerns and risks posed by this internal attack, including to users
+
+15 and the public, OpenAI has only provided limited information about the attack and has resisted
+
+16 review by independent parties. For example, while OpenAI granted external researchers limited
+
+17 access to evaluate the Hugging Face attack, those same researchers were not allowed to evaluate
+
+18 this attack on OpenAI’s own systems. And OpenAI failed to respond to investigative demands by
+
+19 the Attorney General regarding this or other incidents involving compromises of its internal
+
+20 networks.
+
+21  C. Other Incidents Demonstrate that the Hugging Face and Internal
+
+                      Infrastructure Attacks are Not Aberrations.
+22
+
+23  54. The Hugging Face attack prompted OpenAI and third-party researchers to reexamine
+
+24 and identify several other instances where OpenAI agents appear to have defeated OpenAI’s
+
+25 sandbox restrictions to access and misuse third-party infrastructure. While the total number,
+
+26 scope, and nature of all such attacks are still unknown, several have come to light, including the
+
+27 following:
+
+28
+
+                                                                               15
+                                                                       COMPLAINT
+1   55. The RubyGems Incident: From May to June 2026, OpenAI agents carried out a
+
+2 cyberattack on rubygems.org (RubyGems), a public software package repository used by software
+
+3 developers to upload and store software packages that can then be securely accessed by other
+
+4 developers. In mid-May, OpenAI agents uploaded thousands of packages to RubyGems, straining
+
+5 its resources and causing administrators of the site to disable new user registrations from May 12
+
+6 through May 16. RubyGems administrators determined that many of these packages were
+
+7 malicious and removed over 500 packages from the site.
+
+8   56. The malicious packages allowed OpenAI agents to gain access to the servers of
+
+9 another website called Rubydoc.info and use that site’s infrastructure to access and scrape other
+
+10 third-party websites. The OpenAI agents also appeared to attempt to steal developer API keys—
+
+11 the unique secret code that allows software to authenticate and authorize access to other software
+
+12 programs.
+
+13  57. The DseWiki Incident: Also in May 2026, OpenAI agents began using a German
+
+14 website (DseWiki) as a secret message board to post and exchange information useful for
+
+15 completing their assigned tasks, making roughly 17,000 edits to the wiki. Agents that had access
+
+16 to the internet during training were supposed to be blocked from sending data to third-party
+
+17 servers to create or modify data from the server, but on June 20, agents posted techniques to the
+
+18 secret message board describing how to defeat that security block and get around OpenAI’s
+
+19 sandbox restrictions.
+
+20  58. Notably, OpenAI employees were alerted to the activity on DseWiki. According to
+
+21 outside researchers, a computer with an OpenAI employee IP address visited the wiki on June 21,
+
+22 after which OpenAI agents’ activity on the wiki dropped precipitously. Researchers have also
+
+23 identified several more visits to the wiki on June 26 from possible OpenAI employees, during
+
+24 which archive tools were used to recover deleted pages showing model activity.
+
+25  59. The Wikimedia Foundation Incident: On October 5, Wikimedia Foundation, the
+
+26 operators of Wikipedia, disclosed that OpenAI agents misused resources on its sites, including by
+
+27 attempting to compromise a public note-taking tool in order to use it as a proxy to access other
+
+28 websites; by overwhelming Wikimedia’s system infrastructure with millions of requests to
+
+                                                                               16
+                                                                       COMPLAINT
+1 Wikimedia’s application programming interface and hundreds of thousands of queries to the
+
+2 Wikidata Query Services, likely causing a partial outage of the service in May 2026; and by
+
+3 making edits to Wikipedia wikis.
+
+4   60. Attack on Australian Government Websites: OpenAI’s failure to properly develop
+
+5 and safely test their models has also impacted foreign governments. In June 2026, OpenAI
+
+6 models accessed and retrieved non-public data from Australian government websites. As with
+
+7 DseWiki, the agents in question defeated sandbox restrictions that were supposed to prevent them
+
+8 from sending data to third-party servers to create or modify data from the server, and used this
+
+9 prohibited ability to obtain more data than was needed or available from the public facing
+
+10 websites.
+
+11  61. OpenAI has recently sent notices to dozens of additional third parties whose websites
+
+12 or internal systems have been infiltrated by OpenAI agents. The security incidents documented in
+
+13 those notices took place weeks or months before OpenAI provided notice. The third-party targets
+
+14 of the attacks include numerous city, state, and foreign government institutions; a law
+
+15 enforcement agency; a federal agency; educational institutions; international organizations; and
+
+16 small businesses. Dozens of the notices disclose that OpenAI agents engaged in impersonation
+
+17 and other fraudulent tactics, including obtaining and using stolen credentials or API keys to gain
+
+18 access, or generating fake email addresses and opening fake user accounts. In some cases,
+
+19 OpenAI agents were able to access sensitive personally identifiable information, such as
+
+20 employee records containing names, birth dates, addresses, and more. The vast majority of these
+
+21 incidents have not been disclosed or discussed publicly by either OpenAI or by the affected third
+
+22 parties.
+
+23 III. OPENAI KNEW IT WAS TESTING DANGEROUS MODELS WITHOUT
+
+24  SUFFICIENT SAFEGUARDS OR MONITORING THAT COULD HAVE
+
+    PREVENTED THE MODELS’ CYBERATTACKS
+
+25  62. OpenAI’s conduct prior to and during the Hugging Face attack—failing to
+
+26 sufficiently monitor training and evaluation runs and failing to secure the research environment—
+
+27 fell far short of the robust protections called for in its own security protocols. And the company
+
+28
+
+                                                                               17
+                                                                       COMPLAINT
+1 made these unsafe choices despite knowing the dangers posed by its experimental models and the
+
+2 tasks it gave them.
+
+3   63. Artificial intelligence developers and safety experts have been warning for years that
+
+4 internal testing and evaluation of experimental AI models can pose severe risks to the public,
+
+5 including the threat that agents might breach internal environments and obtain unauthorized
+
+6 access to third-party systems.3
+
+7   64. OpenAI itself was aware of the potentially calamitous nature of the risks and that it
+
+8 needed to employ multiple layers of critical safeguards to prevent severe harm. In a 2025 revision
+
+9 to its Preparedness Framework, OpenAI evaluated the danger of its models according to the
+
+10 model’s capabilities.4 Open-AI defined “High capability” models as those that “significantly
+
+11 increase existing risk vectors for severe harm” and defined “severe harm” as “death or grave
+
+12 injury of thousands of people or hundreds of billions of dollars of economic damage.”5
+
+13  65. For High-capability models, OpenAI assessed that it must implement various
+
+14 enhanced security protocols including continuous monitoring and employ defense in depth, a
+
+15 layered security architecture with multiple, overlapping defensive barriers. Such barriers include
+
+16 restricting internet access, making it difficult for an attacker to move across OpenAI’s networks,
+
+17 and isolating research environments so that agents are not unintentionally connected.
+
+18  66. Both of the models primarily involved in the Hugging Face attack were High-
+
+19 capability by OpenAI’s own standard. Specifically, the models that executed the attack were: (1)
+
+20 a “highly capable” internal research model that OpenAI describes as “comparable in scale to
+
+21
+
+22
+
+                3 See, e.g., METR, AI models can be dangerous before public deployment (Jan. 17, 2025)
+23 <https://metr.org/blog/2025-01-17-ai-models-dangerous-before-public-deployment>.
+
+                4 The People address OpenAI’s risk categorization system solely to demonstrate that
+24 OpenAI had not implemented its own self-prescribed safeguards. The People do not opine on or
+
+       accept the quality or accuracy of OpenAI’s risk determinations and do not concede that models
+25 OpenAI has self-assessed as less than High or Critical capability levels are safe, or that OpenAI
+
+26  has placed models into the appropriate risk tier.
+    5 The Preparedness Framework also contemplates a “Critical capability” category of
+
+       model threatening even greater harm by “present[ing] a meaningful risk of a qualitatively new
+27 threat vector for severe harm with no ready precedent.” (See OpenAI, Preparedness Framework
+
+       (Apr. 15, 2025), p. 4 <https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-
+28 68cdfbddebcd/preparedness-framework-v2.pdf>.)
+
+                                                       18
+
+                                   COMPLAINT
+1 GPT-5.6 Sol,” a publicly-released model that OpenAI has categorized as High capability, and (2)
+
+2 an internal version of GPT-5.6 Sol.
+
+3   67. OpenAI further modified these models so that they were trained to be highly
+
+4 persistent in their attempts to accomplish given tasks, even though OpenAI was aware of the
+
+5 dangers associated with persistence training. The system card for the publicly deployed GPT-5.6
+
+6 Sol model noted “that GPT-5.6 Sol . . . can be overly persistent in pursuing user goals, to the
+
+7 point of taking actions that go beyond what the user intended.” OpenAI observed the “model
+
+8 cheating on tasks” and surmised that the cheating—or reward hacking—is “driven in part by the
+
+9 model’s increased persistence.” Notably, OpenAI found that these dangerous effects “can be
+
+10 more pronounced with system prompts that emphasize sustained persistence.”
+
+11  68. Nevertheless, OpenAI knowingly increased the risk that the experimental, highly
+
+12 persistent models behind the Hugging Face attack would take dangerous actions by assigning the
+
+13 models “long-horizon” tasks, so that the models would run autonomously over the course of days
+
+14 or even weeks to accomplish the goals researchers assigned to them. Notably, at least two months
+
+15 before the Hugging Face attack, OpenAI observed that long-running AI models were especially
+
+16 prone to exploit vulnerabilities and escape evaluation sandboxes to attempt to accomplish their
+
+17 tasks, and that as a result, long-running, persistent models require “active monitoring” and “great
+
+18 user visibility.”
+
+19  69. Several other incidents in the months leading up to the Hugging Face attack
+
+20 demonstrated that these risks were very real, not theoretical. Between March and June 2026,
+
+21 OpenAI discovered at least five instances in which internal research models took unauthorized
+
+22 actions, including obtaining unpermitted access to internal systems and tools, engaging in
+
+23 unauthorized cross-agent communication, and bypassing network restrictions to access the
+
+24 internet. All of these unauthorized actions were later employed by the models used to
+
+25 compromise Hugging Face.
+
+26  70. But despite these clear warning signs and its understanding of the risks, OpenAI
+
+27 failed to implement adequate cybersecurity protections during the Hugging Face training and
+
+28
+
+                                                                               19
+                                                                       COMPLAINT
+1 evaluation runs—a failure compounded by the fact that OpenAI deliberately removed model
+
+2 safeguards while conducting testing and evaluations.
+
+3   71. First, OpenAI plainly failed to implement the continuous, robust monitoring system
+
+4 called for in its own Preparedness Framework. It decided to train and evaluate these models in
+
+5 environments that had access to both its internal network and the public internet, and failed to
+
+6 even detect, let alone prevent, the models from taking numerous malicious actions against third-
+
+7 party infrastructure and OpenAI’s own infrastructure. As described in section II, supra, multiple
+
+8 warning signs in the weeks leading up to the Hugging Face attack should have alerted the
+
+9 company that it lost control over its agents, including:
+
+10  • May 26, 2026: OpenAI internal team observed an agent engaging in message board
+
+11  activity and accessing the internet when it was not supposed to be able to do so;
+
+12  • June 21-26, 2026: OpenAI employee(s) visited the DseWiki website and observed
+
+13  activity by agents that were supposedly not able to access the internet;
+
+14  • June 27, 2026: an OpenAI automated monitor alerted employees to malicious activity
+
+15  in a research environment connected to its network;
+
+16  • July 4, 2026: OpenAI’s software registry service went offline due to unpermitted agent
+
+17  message board activity.
+
+18  72. OpenAI did not heed any of these red flags by stopping and remedying deficiencies
+
+19 in its training and evaluation process. Instead, it treated these incidents as research curiosities
+
+20 while continuing its experiments unabated, even rushing to repair the software registry service
+
+21 over a holiday weekend so that it could quickly resume training and evaluation runs.
+
+22  73. Another example of failed monitoring is that OpenAI decided not to implement live
+
+23 chain-of-thought monitoring to help detect signs of harmful behavior. Chain-of-thought is text
+
+24 that a model outputs to document how it approaches its final answer or action. Monitoring chain-
+
+25 of-thought allows a developer to understand what a model is doing in real time. At the time of the
+
+26 Hugging Face incident, OpenAI implemented live chain-of-thought monitoring when deploying
+
+27 models to employees but chose not to enable it in its training and evaluation environments.
+
+28
+
+                                                                               20
+                                                                       COMPLAINT
+1   74. From early 2026 until after the discovery of the Hugging Face incident, OpenAI
+
+2 stored just a sample of agent chain-of-thought from its training and evaluation runs and only
+
+3 analyzed those samples retrospectively, sometimes weeks after they were collected. They did not
+
+4 have any live, automated review in place to detect warning signs in a model’s chain-of-thought,
+
+5 much less live detection that would shut down the training or evaluation run in the event of
+
+6 unexpected or dangerous model activity. That failure to actively monitor chain-of-thought caused
+
+7 OpenAI to miss clear signs of dangerous activity: in the midst of the Hugging Face incident, the
+
+8 chain-of-thought for one of OpenAIs’ agents stated: “We’re attacking third-party HF using leaked
+
+9 token, potentially outside intended scope. . . . This is arguably unauthorized.” If OpenAI had put
+
+10 live chain-of-thought monitoring in place, it could have recognized the agents’ behavior in real
+
+11 time and halted the evaluation run before the agents escalated their attack.
+
+12  75. Second, OpenAI did not adequately secure the testing environment, as illustrated by
+
+13 the fact that the models were able to escape their sandboxes, access the internet, invade third-
+
+14 party systems, and infiltrate OpenAI’s systems. OpenAI had insufficient restrictions on agent
+
+15 internet access and in some cases lacked effective traffic monitoring that would have detected
+
+16 prohibited internet access by models during training and evaluation runs. Nor were the research
+
+17 environments sufficiently isolated. For example, OpenAI permitted multiple agents to access and
+
+18 use the same software package service that itself was connected to OpenAI’s network and the
+
+19 broader internet, which allowed agents to share information about how to exploit the service and
+
+20 use it to access the internet.
+
+21  76. This series of lapses was particularly dangerous given that OpenAI was testing and
+
+22 evaluating models that were not equipped with safeguards that would normally be included in
+
+23 publicly released models, including systems that encourage agents to stay within the bounds of
+
+24 the testing environment and systems that review certain proposed actions that require elevated
+
+25 permissions to execute. OpenAI conceded that these safeguards could have helped prevent or
+
+26 mitigate the Hugging Face attack—underscoring the danger created by OpenAI’s failure to
+
+27 implement additional security measures in the testing environment sufficient to compensate for
+
+28 their absence.
+
+                                          21
+                                   COMPLAINT
+1 IV. OPENAI MISREPRESENTS THE SAFETY AND SECURITY OF ITS
+             DEVELOPMENT, TESTING, AND EVALUATION PRACTICES
+
+2
+
+3   77. OpenAI has deceived users and the public about the safety of its business practices,
+
+4 leading the public to believe that OpenAI is developing, testing, and evaluating products in a safe
+
+5 manner that does not create unnecessary risk to society.
+
+6   78. The company’s focus on safety is encapsulated by its own mission statement: “The
+
+7 mission of OpenAI is to ensure artificial general intelligence (AGI) benefits all of humanity.
+
+8 Safety – the practice of enabling AI’s positive impacts by mitigating the negative ones – is thus
+
+9 core to our mission.”6
+
+10  79. An entire interactive section of OpenAI’s public-facing website is dedicated to
+
+11 touting “Safety at Every Step.” One section describing OpenAI’s testing practices reassures site
+
+12 visitors that the company “run[s] human and automatic evaluations to ensure the model complies
+
+13 with our safety policies.” Another section describing OpenAI’s model training promises that
+
+14 OpenAI “imbues” its models with “principles, policies, and human values” and “minimiz[es]
+
+15 harmful or biased outputs[.]” The company further promises to “invest heavily in research
+
+16 methods to develop trustworthy AI systems that consistently follow our policies and human
+
+17 intent[.]”7
+
+18  80. OpenAI’s April 2025 Preparedness Framework and Frontier Governance Framework
+
+19 also contain several misleading and deceptive claims that conceal or misrepresent several of the
+
+20 safety and security shortcomings that led to the Hugging Face and related incidents. For instance,
+
+21 the Preparedness Framework states that OpenAI’s security controls “require[]” High capability
+
+22 models to be secured with “robust protection through multiple defensive barriers” including
+
+23 “network segmentation and controls,” and requires “continuous[]” monitoring of High capability
+
+24 models “to detect, triage, and respond to security incidents rapidly by 24x7 on-call staff.”8 In
+
+25
+
+    6 OpenAI, How we think about safety and alignment <https://openai.com/safety/how-we-
+26 think-about-safety-alignment/>.
+    7 OpenAI, Safety at every step <https://openai.com/safety/>.
+27  8 OpenAI, Preparedness Framework (Apr. 15, 2025), pp. 20-21
+
+       <https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-
+28 v2.pdf>.
+
+                                    22
+
+                                    COMPLAINT
+1 practice, however, OpenAI has repeatedly allowed its models to escape inadequately segmented
+
+2 testing environments and access networks they are not authorized to access, including OpenAI’s
+
+3 internal systems and the public internet. OpenAI has repeatedly failed to detect such incidents for
+
+4 days or weeks because the models involved were not, in fact, continuously monitored, either by
+
+5 human or automated means. And even where OpenAI has attempted to impose continuous
+
+6 monitoring mechanisms, its own models have acted to weaken, disable, or circumvent monitors
+
+7 and then lied about it—including as recently as the first week of October 2026.
+
+8   81. OpenAI’s promises about safety and security are deceptive and likely to mislead its
+
+9 customers and members of the public into believing that OpenAI has been developing, training,
+
+10 and evaluating models in a safe and responsible manner that does not expose the public to
+
+11 unnecessary risk. In truth, however, OpenAI has developed, trained and evaluated dangerous
+
+12 models that fail to follow instructions, cheat on tasks, conceal and attempt to deceive monitors
+
+13 about their misbehavior, and engage in malicious and unauthorized behavior including carrying
+
+14 out cyberattacks on third parties. OpenAI has failed to adequately monitor and detect its models’
+
+15 misbehavior during training and evaluation runs, failed to take corrective or mitigating steps
+
+16 when it did detect misbehavior, and knowingly failed to comply with the safety and security
+
+17 standards that it publicly admits are “required.”
+
+18 V. OPENAI CONTINUES TO POSE A RISK TO CALIFORNIA
+
+19  82. Government intervention is necessary to stop OpenAI’s unfair and unsafe practices
+
+20 and to prevent the company from causing severe harm to California, its people, and beyond.
+
+21  83. In the months since the Hugging Face incident, OpenAI’s internal and experimental
+
+22 models continue to take unauthorized actions and exhibit other hazardous behavior that poses a
+
+23 danger to the public, demonstrating that OpenAI continues to employ insufficient cybersecurity
+
+24 safeguards and monitoring methods during development.
+
+25  84. For example, on September 20, 2026, an agent associated with an unidentified
+
+26 internal research model escaped its sandbox during a training run and accessed an external
+
+27 chatbot via the internet. This incident occurred after OpenAI had implemented “security
+
+28 hardening” following the Hugging Face attack. OpenAI claims to have detected the behavior
+
+                                                                               23
+                                                                       COMPLAINT
+1 within minutes, but the training run was not automatically stopped as intended, and human
+
+2 reviewers failed to stop it for an additional two hours.
+
+3   85. Following this incident, on September 25, 2026, OpenAI announced that it was
+
+4 pausing training and evaluation for its most capable models. In response, the Attorney General
+
+5 sent OpenAI a letter on October 6, 2026, seeking information about the September 20 incident
+
+6 and the company’s remediation efforts, including the pause. OpenAI later confirmed that the
+
+7 pause was already over; it had lasted only five days, having concluded on October 1, 2026.
+
+8   86. And despite OpenAI’s focus on effective AI oversight, the company is actively
+
+9 developing models that can defeat OpenAI’s monitoring tools. The system card for Astra,
+
+10 OpenAI’s latest and most advanced model released in early September 2026, notes that the model
+
+11 shows an overall trend of decreased chain-of-thought monitorability and controllability. This is
+
+12 especially concerning (and contradictory) given the company’s emphasis on the importance of
+
+13 chain-of-thought monitoring as a security measure in the wake of the Hugging Face attack. And
+
+14 two months after releasing Astra, OpenAI reported that, before the release, company researchers
+
+15 had discovered that Astra tended to “covertly underperform” on safety tasks, meaning that the
+
+16 model specifically invented blockers or imposed arbitrary restrictions on safety tasks in ways that
+
+17 OpenAI’s monitoring systems were inadequate to readily detect.
+
+18  87. In early October 2026, OpenAI also reported that the company discovered that
+
+19 internally deployed agents were able to suppress monitoring alerts and disable monitoring. A
+
+20 month later, the company published a research report finding that as models become more
+
+21 capable, they become more difficult to supervise using the company’s chain-of-thought
+
+22 monitoring tools.
+
+23  88. OpenAI’s continuing failure to build and employ tools that are able to monitor and
+
+24 control its increasingly capable models creates substantial risk to the public.
+
+25  89. Moreover, the true extent of the company’s legal violations and the risk of future
+
+26 harm is unknown due to OpenAI’s lack of transparency and misrepresentations.
+
+27  90. OpenAI only started disclosing loss-of-control incidents with any real frequency in
+
+28 September 2026 after the Hugging Face attack became public. It has publicly reported just 27
+
+                                                                               24
+                                                                       COMPLAINT
+1 such incidents to date. Given OpenAI’s admission in the course of the People’s investigation that
+
+2 over 80 incidents have occurred, OpenAI’s public reports do not represent the full scope of loss-
+
+3 of-control incidents involving OpenAI’s models that have impacted third parties.
+
+4   91. Similarly, OpenAI has limited the public’s understanding of the risk of harm by
+
+5 refusing to allow external monitors to evaluate the attacks that its models have made on its own
+
+6 infrastructure. This opacity is especially concerning given that OpenAI’s products and models are
+
+7 used by millions of consumers, companies in every sector, and public institutions. A security
+
+8 incident in OpenAI’s internal systems could thus compromise vast amounts of sensitive user
+
+9 information and disrupt the work of businesses, civil society organizations, and governments
+
+10 around the world. In an extreme case, a compromise of OpenAI’s systems during the course of
+
+11 model testing and development could also lead to a complete loss of control of its highly capable
+
+12 models.
+
+13  92. The public cannot reasonably rely on OpenAI’s self-serving public assurances about
+
+14 improving safety and security in response to the Hugging Face attack and other loss-of-control
+
+15 incidents. While touting its transparency and openness to the public, OpenAI has refused to
+
+16 substantially comply with subpoenas and interrogatories served by the Attorney General to obtain
+
+17 information about OpenAI’s security practices. The company’s recent and much-publicized
+
+18 interest in “transparency” is also at odds with its practice of discouraging employees from raising
+
+19 safety issues, which further risks public safety. Finally, the company’s conduct leading up to and
+
+20 during the Hugging Face attack demonstrates that OpenAI has repeatedly failed to follow its own
+
+21 safety protocols.
+
+22  93. Only OpenAI currently knows the true extent of past violations and the risk of future
+
+23 harm, leaving safety experts, regulators, and the public in the dark.
+
+24  94. Court intervention is therefore necessary to hold OpenAI accountable for past
+
+25 misconduct; to abate the threat posed by OpenAI to individuals, organizations, and governments
+
+26 that rely on internet-connected systems and devices; and to enjoin OpenAI from engaging in
+
+27 unlawful, unfair, and deceptive acts and practices.
+
+28
+
+                                                                               25
+                                                                       COMPLAINT
+1                                 FIRST CAUSE OF ACTION
+
+2   FOR VIOLATIONS OF THE UNFAIR COMPETITION LAW,
+
+    BUSINESS AND PROFESSIONS CODE SECTION 17200 ET SEQ.
+
+3
+
+4   95. The People reallege and incorporate by reference each of the paragraphs above as
+
+5 though fully set forth herein.
+
+6   96. At all times relevant, OpenAI has engaged in unlawful, unfair, or fraudulent acts or
+
+7 practices, which constitute unfair competition within the meaning of Section 17200 of the
+
+8 Business and Professions Code. These acts include, but are not limited to:
+
+9   a. Creation of a public nuisance as defined in Civil Code sections 3479 and 3480;
+
+10  b. Fraudulent and deceptive acts, including:
+
+11  i. Making false and/or misleading public-facing statements that would
+
+12  lead a reasonable person to believe that OpenAI develops, trains, and
+
+13  evaluates models in a safe and responsible manner that does not expose
+
+14  the public to unnecessary risk. Those false and/or misleading statements
+
+15  include but are not limited to any statements that make general claims
+
+16  about safe and/or secure testing and evaluation practices; any statements
+
+17  that convey that OpenAI’s testing and evaluation environments are
+
+18  secure; and any statements that convey that OpenAI continuously
+
+19  monitors testing and evaluation environments.
+
+20  ii. Causing and/or allowing agents to gain unauthorized access to third-party
+
+21  computer systems, including through impersonation, use of stolen or
+
+22  falsified credentials, use of falsified URLs, or similar fraudulent and
+
+23  deceptive means.
+
+24  c. Unfair acts including:
+
+25  i. Developing, testing, and evaluating highly capable artificial intelligence
+
+26  models that pose significant threats to public safety without ensuring
+
+27  adequate safety and security measures to prevent agents from taking
+
+28  actions that endanger the public;
+
+                                  26
+
+                                  COMPLAINT
+1         ii. Developing, testing, and evaluating highly capable artificial intelligence
+
+2         models that pose significant threats to public safety without ensuring
+
+3         adequate monitoring;
+
+4         iii. Lowering safeguards on highly capable artificial intelligence models that
+
+5         pose significant threats to public safety during testing and evaluation
+
+6         without ensuring adequate safety and security measures to prevent agents
+
+7         from taking actions that endanger the public;
+
+8         iv. Causing and/or allowing highly capable agents to escape secure testing
+
+9         environments; to attempt to obtain and obtain unauthorized access to
+
+10        external and third-party systems; to take malicious or otherwise
+
+11        unauthorized actions against third-party systems; to take malicious or
+
+12        otherwise unauthorized actions against OpenAI’s internal systems;
+
+13        and/or to otherwise take actions that endanger the public.
+
+14        97. The social utility of testing highly capable and dangerous artificial intelligence
+
+15 models in an unsafe, unsecured, and/or insufficiently monitored manner is heavily outweighed by
+
+16 the grave risks that such unsafe, unsecured, and/or insufficiently monitored testing imposes on the
+
+17 public at large. Members of the public and the institutions that serve them, including private
+
+18 businesses, civil society groups, and public institutions, are all at risk of harm up to and including
+
+19 catastrophic harm from unauthorized malicious acts carried out by artificial intelligence agents,
+
+20 and are not capable of reasonably avoiding those harms themselves.
+
+21        98. OpenAI’s acts and practices alleged herein are offensive to public policy, including
+
+22 but not limited to those articulated in subsection (a) of section 502 of the Penal Code; chapter
+
+23 25.1 of the Business & Professions Code; section 1 of the Transparency in Frontier Artificial
+
+24 Intelligence Act (stats. 2025, ch. 138, sec. 1); and subsection (b) of section 1714.46 of the Civil
+
+25 Code.
+
+26        SECOND CAUSE OF ACTION
+
+27        ABATEMENT OF PUBLIC NUISANCE
+
+                                               CIVIL CODE SECTION 3494
+28
+
+                                27
+
+          COMPLAINT
+1   99. The People re-allege and incorporate by reference the allegations in each of the
+
+2 preceding paragraphs as though fully set forth herein.
+
+3   100. Under Civil Code section 3479, a “nuisance” is “anything which is injurious to
+
+4 health,” including, but not limited to, “an obstruction to the free use of property, so as to interfere
+
+5 with the comfortable enjoyment of life or property,” or anything which “unlawfully obstructs the
+
+6 free passage or use, in the customary manner, of any navigable lake, or river, bay, stream, canal,
+
+7 or basin, or any public park, square, street, or highway.”
+
+8   101. Under Civil Code section 3480, a “public nuisance” is “one which affects at the same
+
+9 time an entire community or neighborhood, or any considerable number of persons, although the
+
+10 extent of the annoyance or damage inflicted upon individuals may be unequal.”
+
+11  102. Pursuant to Civil Code section 3494, a “public nuisance may be abated by any public
+
+12 body or officer authorized thereto by law.” As courts have recognized, the Attorney General is
+
+13 such a public officer authorized to bring an action in the name of the People of the State of
+
+14 California to abate a public nuisance.
+
+15  103. OpenAI, individually and acting through their employees and agents, by their
+
+16 affirmative acts and omissions, have created, contributed to, and assisted in creating unsafe
+
+17 conditions for developing, testing, and training their artificial intelligence models, that have
+
+18 resulted in numerous cyber breaches in which OpenAI’s agents have accessed external systems
+
+19 without authorization and/or taken malicious actions against such systems. These cyber breaches
+
+20 obstructed the free use of property so as to interfere with the comfortable enjoyment of life and
+
+21 property and therefore constitute a public nuisance.
+
+22  104. OpenAI’s unsafe cybersecurity and model development practices have harmed, and
+
+23 continue to endanger, public property, safety, peace, comfort, and convenience in California. Due
+
+24 to OpenAI’s practices, its models interfered with the free use of property belonging to
+
+25 organizations based in California and disrupted services offered to Californians. The extent of
+
+26 past harm is unknown, as OpenAI reports that they are still investigating numerous past cyber
+
+27 incidents involving their AI models and agents.
+
+28
+
+                                                                               28
+                                                                       COMPLAINT
+1   105. OpenAI’s ongoing unsafe practices pose an ongoing risk to California individuals,
+
+2 civil society organizations, businesses, and governments that own or rely on computers, networks,
+
+3 and devices connected to the commercial internet. Such risks include but are not limited to:
+
+4 gaining unauthorized access to and/or control of computers, networks, and other connected
+
+5 hardware and devices, as well as other public and/or private property; accessing, destroying,
+
+6 modifying or revealing data and information, including sensitive and/or personally identifiable
+
+7 data and information; and disrupting the delivery of public and/or private services. Californians
+
+8 have a collective interest in the security of their property, data, privacy, comfort, and safety and to
+
+9 live without fearing the threat of interference with these rights.
+
+10  106. OpenAI’s unsafe practices have created a substantial and unreasonable threat to
+
+11 public rights. As OpenAI itself has acknowledged, the threat of harm posed by AI loss-of-control
+
+12 is grave, and the social utility of unsafe AI testing, training, and development practices is
+
+13 outweighed by the gravity of the potential harm.
+
+14  107. OpenAI created, contributed to, assisted in, and/or was a substantial contributing
+
+15 factor in the creation of the public nuisance described herein through the conduct described
+
+16 herein, including but not limited to developing, training, testing, and evaluating its artificial
+
+17 intelligence models without implementing sufficient cybersecurity safeguards and practices.
+
+18  108. The public nuisance OpenAI created, caused, contributed to, assisted in the creation
+
+19 of, and continues to maintain by failing to safely develop, train, and/or test their artificial
+
+20 intelligence models has the potential to inflict large-scale harm, and therefore affect a
+
+21 considerable number of persons in California.
+
+22  109. OpenAI knew or should have known about the hazards posed by its unsafe
+
+23 cybersecurity and model development practices and affirmatively engaged, and continues to
+
+24 engage in, such unsafe practices. Safer practices were available and known to OpenAI, and after
+
+25 repeated incidents of models taking dangerous actions, OpenAI did not implement such practices.
+
+26  110. OpenAI’s conduct is a direct and proximate cause of the public nuisance described
+
+27 herein.
+
+28
+
+                                                                               29
+                                                                       COMPLAINT
+1   111. The threat to public rights posed by the public nuisance in the State of California will
+
+2 continue unless OpenAI is ordered to abate and does abate the nuisance. As a direct and
+
+3 proximate result of OpenAI’s conduct, Californians will likely suffer injuries to public property,
+
+4 privacy, and safety. The State will likely be required to expend significant public resources to
+
+5 mitigate the impacts of these harms. OpenAI created or assisted in the creation of the nuisance
+
+6 and therefore must abate the nuisance.
+
+7   112. The People of the State of California are entitled to injunctive relief from this Court
+
+8 requiring OpenAI to abate the nuisance present in the State of California.
+
+9                              PRAYER FOR RELIEF
+
+10  WHEREFORE, the People pray for judgment as follows:
+
+11  113. Pursuant to Business and Professions Code section 17203, that the Court enter an
+
+12 injunction and make such orders or judgments as may be necessary to prevent OpenAI, as well as
+
+13 their successors, agents, representatives, employees, and all persons who act in concert with them
+
+14 from engaging in any act or practice which constitutes unfair competition;
+
+15  114. Pursuant to Business and Professions Code section 17203, that the Court make such
+
+16 orders or judgments as may be necessary to restore to any person in interest any money or
+
+17 property which may have been acquired by means of unfair competition in an amount according
+
+18 to proof;
+
+19  115. Pursuant to Business and Professions Code section 17206, that the Court assess civil
+
+20 penalties of two thousand five hundred dollars ($2,500) against each defendant for each violation
+
+21 of Business and Professions Code section 17200, as proven at trial;
+
+22  116. Under the authority of Government Code section 12527.6, that the Court award the
+
+23 remedy of disgorgement in an amount according to proof;
+
+24  117. That the Court compel OpenAI to abate the ongoing public nuisance their conduct
+
+25 has created in California;
+
+26  118. That the People recover their costs of suit; and
+
+27
+
+28
+
+                                                                               30
+                                                                       COMPLAINT
+1   119. For such other and further relief as the Court deems just and proper.
+
+2
+
+ 3 Dated: November 16, 2026  Respectfully submitted,
+ 4
+ 5                           ROB BONTA
+ 6                           Attorney General of California
+ 7                           NICKLAS A. AKERS
+ 8                           Senior Assistant Attorney General
+ 9                           STACEY D. SCHESSER
+10                           JON F. WORM
+                             Supervising Deputy Attorneys General
+                             ADELINA ACUÑA
+                             IAN HOGG
+                             KATHERINE READ
+                             JESSICA WANG
+
+11
+
+12
+
+13                           MANEESH SHARMA
+
+                             Deputy Attorneys General
+
+14                           Attorneys for the People of State of
+
+                             California
+
+15
+
+16
+
+17
+
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+                                                                               31
+                                                                       COMPLAINT
