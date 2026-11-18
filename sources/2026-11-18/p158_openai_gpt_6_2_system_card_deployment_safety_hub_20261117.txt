@@ -1,6 +1,6 @@
 Source: https://deploymentsafety.openai.com/gpt-6-2-astra-sol (OpenAI Deployment Safety Hub, "GPT-6.2 System Card", November 17, 2026; the page carries the card with its change log and the three UK AI Security Institute sections)
 Fetched: 2026-11-18 (Taipei) by script with a browser user agent, HTTP 200, 1,157,321 bytes, SHA-256 of the HTML 16b06022c65cc12646614a32f570009ea36db86ff4cdedfe2b33c5549d9ff58f. Text extracted by removing tags; the whole page text is copied here, including the table of contents and navigation at the top.
-The section address https://deploymentsafety.openai.com/gpt-6-2-astra-sol/external-evaluation-for-monitorability-uk-aisi was fetched the same way (HTTP 200, 1,157,604 bytes, SHA-256 of the HTML be1bc34dace55512eebe08de5151d90fa3485f272ba5efefe8697808cf736433) and returned the same page text apart from the page title; it is not copied separately.
+The section address https://deploymentsafety.openai.com/gpt-6-2-astra-sol/external-evaluation-for-monitorability-uk-aisi was fetched the same way (HTTP 200, 1,157,604 bytes, SHA-256 of the HTML be1bc34dace55512eebe08de5151d90fa3485f272ba5efefe8697808cf736433) and returned the same text apart from four navigation lines (two Expand/Collapse labels, one menu label and the back link); it is not copied separately.
 Cited by topics 507 and 508.
 
 GPT-6.2 System Card - OpenAI Deployment Safety Hub

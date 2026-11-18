@@ -1,5 +1,6 @@
 Source: https://www.ic3.gov/CSA/2026/261113.pdf (Federal Bureau of Investigation, FLASH-20261113-001, "Threat Overview of ARTEX Autonomous Penetration Testing Framework", 13 November 2026, TLP:CLEAR, Internet Crime Complaint Center); the address was found in The Record's report of the FLASH
 Fetched: 2026-11-18 (Taipei) by script, HTTP 200, 540,485 bytes, SHA-256 of the PDF 9daa102a5996410d7bf39f828bf101c8434a20312338da3fa8346d9b2e9ef58f, 13 pages; the PDF's embedded creation date is 2026-11-18 (the FLASH is dated 13 November). Extracted with pdftotext -enc UTF-8; line breaks inside paragraphs were joined; footnote numbers sit inside the running text as printed.
+An earlier version of this PDF exists in the Internet Archive (its captures of the same address of 2026-11-14 11:40:39 UTC and 2026-11-17 04:49:04 UTC are identical to each other, SHA-256 3dd86a94d33b29c65f56b4307919b74358e63cfde33a600b61adce5794d169e2); it differs from this text in two places, and its text is in p163.
 Cited by topic 510. The full text is copied here.
 
 TLP:CLEAR
