@@ -1,0 +1,45 @@
+Source: https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027 (NVIDIA Newsroom, "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027", November 17, 2026)
+Fetched: 2026-11-18 (Taipei) by script, HTTP 200, 398,481 bytes, SHA-256 of the HTML 595d2f53a2624ca6907d66930240aa81c480c8071e0b9c68e365ba8336585d40. Text extracted by removing tags. Copied here: the headline block, the interim chief executive's statement, the outlook for the fourth quarter, and the commentary line. The rest of the release (the financial statements and tables) is not copied.
+Cited by topic 509.
+
+NVIDIA Announces Financial Results for Third Quarter Fiscal 2027
+November 17, 2026
+
+Revenue of $115.8 billion, up 103% from a year ago
+
+Data Center revenue of $107.6 billion, up 110% from a year ago
+
+Vera Rubin NVL72, the most versatile and advanced computing platform ever built, has shipped
+
+
+
+
+
+[...]
+
+“Our momentum is real. NVIDIA is an exceptional technology leader, powered by the relentless innovation of our people,” said Colette Kress, interim CEO and executive vice president and chief financial officer of NVIDIA. “Vera Rubin is off to an explosive start, our roadmap is on track and our ambition has never been greater.”
+
+[...]
+
+
+Outlook
+
+
+NVIDIA’s outlook for the fourth quarter of fiscal 2027, which includes an additional week, is as follows:
+
+
+
+Revenue is expected to be $130.0 billion, plus or minus 3%. NVIDIA is not assuming any Data Center compute revenue from China in its outlook.
+
+GAAP and non-GAAP gross margins are expected to be between 71.0% and 72.0%.
+
+GAAP and non-GAAP operating expenses are expected to be approximately $11.0 billion and $10.7 billion, respectively.
+
+For the full year fiscal 2027, NVIDIA expects GAAP and non-GAAP tax rates to be between 16.0% and 18.0%, excluding any discrete items and material changes to NVIDIA’s tax environment.
+
+[...]
+
+CFO Commentary
+
+
+Commentary on the quarter by Colette Kress, NVIDIA’s interim CEO and executive vice president and chief financial officer, is available at https://investor.nvidia.com.

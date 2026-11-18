@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000507",
+  "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+  "capturedAt": "2026-11-18T09:19:06Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 1157321,
+    "sha256": "cbdb0d7f4d1f62a5483fe6792cd1bf5634c2d35abe5bc927d606b586f818c715",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "67AC1CE468C59A48F5A619AF4E463BB3",
+      "status": 200,
+      "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 95160,
+      "afterScrollHeight": 97071,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "d99001ee04ad0638ee3526bfc3497035b6f00d59cbe3fed5c898ddf229eedecc",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 2255533,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 95160,
+    "afterScrollHeight": 97071
+  },
+  "record": {
+    "capturedAt": "2026-11-18T09:19:06Z",
+    "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 1157321,
+      "sha256": "cbdb0d7f4d1f62a5483fe6792cd1bf5634c2d35abe5bc927d606b586f818c715"
+    },
+    "finalUrl": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+    "httpStatus": 200,
+    "title": "GPT-6.2 System Card - OpenAI Deployment Safety Hub",
+    "rendered": {
+      "textChars": 228758,
+      "textSha256": "b83d122fbc5832a05fd92095f4548a384ec7c6abcb24867b093b343336eaf651",
+      "htmlSha256": "c4a3d775509f7b1f9905f990c715a1bbdc0f7f9dd37d4cb2ef74a756341dc853"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d99001ee04ad0638ee3526bfc3497035b6f00d59cbe3fed5c898ddf229eedecc",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 2255533,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261117191526",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261117191526/https://deploymentsafety.openai.com/gpt-6-2-astra-sol"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261118000425/https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+      "timestamp": "20261118000425",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000508",
+  "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol/external-evaluation-for-monitorability-uk-aisi",
+  "capturedAt": "2026-11-18T09:20:51Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 1157604,
+    "sha256": "486b20c8ae3c14b35f0eb4d61729d6eafc166a8c269480dc9dce3fd191bf7bad",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B36D82B4EA4C810E6917610DF65D939D",
+      "status": 200,
+      "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol/external-evaluation-for-monitorability-uk-aisi",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 97432,
+      "afterScrollHeight": 99343,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "d2b56332d4cb3e0128e60584e97ffc125d5eb311d26dee9b838bf89611759cce",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 2259439,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 97432,
+    "afterScrollHeight": 99343
+  },
+  "record": {
+    "capturedAt": "2026-11-18T09:20:51Z",
+    "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol/external-evaluation-for-monitorability-uk-aisi",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 1157604,
+      "sha256": "486b20c8ae3c14b35f0eb4d61729d6eafc166a8c269480dc9dce3fd191bf7bad"
+    },
+    "finalUrl": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol/external-evaluation-for-monitorability-uk-aisi",
+    "httpStatus": 200,
+    "title": "GPT-6.2 System Card - OpenAI Deployment Safety Hub",
+    "rendered": {
+      "textChars": 229106,
+      "textSha256": "77ff4c7f216bb8a0bb0da852905cdca7f516dcff2e654fe235ff1b5eb4cb5f0a",
+      "htmlSha256": "3668b678e9719e83a382836427c4843b3f09be7ecbb10cc8fedd16df637cebde"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d2b56332d4cb3e0128e60584e97ffc125d5eb311d26dee9b838bf89611759cce",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 2259439,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 404 -- Wayback Machine --> DONATE Latest Show All The Wayback Machine has not archived that URL. Click here to search for all archived pages under https://deploymentsa"
+    }
+  }
+}
