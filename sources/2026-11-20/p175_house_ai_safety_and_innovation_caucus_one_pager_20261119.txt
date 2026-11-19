@@ -1,0 +1,56 @@
+Source: https://whitesides.house.gov/wp-content/uploads/2026/11/AI-Safety-and-Innovation-Caucus-One-Pager.pdf (Office of Rep. George Whitesides, "House AI Safety and Innovation Caucus", one-pager linked from the release of November 19, 2026)
+Fetched: 2026-11-20 (Taipei) by script, HTTP 200, 28,677 bytes, SHA-256 of the PDF 9cddc092df76719519c19c1b1dd1d8dc2b766dd4b33437e26da277255a832d15, 1 page. Text extracted with pdftotext -layout; copied here whole and unchanged. The bullet glyphs of the PDF are not extracted.
+Cited by topic 520. The release page itself is captured by the snapshot step.
+
+House AI Safety and Innovation Caucus
+
+C O - C H A I R S Rep. George Whitesides (D-CA) � Rep. Nathaniel Moran (R-TX) � Rep. Don Beyer (D-VA)
+
+MISSION
+
+The House AI Safety and Innovation Caucus is a bipartisan group of Members focused on AI safety and actionable policy solutions.
+The caucus will propose legislative solutions, endorse bills, and advocate for thoughtful and targeted guardrails that mitigate the
+most serious risks of AI, while preserving America's innovative environment.
+
+WHY THIS CAUCUS, WHY NOW
+
+   Autonomous AI risk is no longer hypothetical: In July, an experimental OpenAI agent escaped its testing environment and
+   breached the external platform Hugging Face to cheat on an evaluation, without any human directing it to. Advanced AI can
+   produce dangerous consequences, even without anyone intending it to.
+
+   AI is increasing cyber warfare: By automating vulnerability discovery and exploit development, AI tools have drastically
+   reduced the technical skills required for offensive cyber operations. As threat actors deploy these capabilities at scale, they pose
+   acute risks to critical infrastructure, sensitive personal data, and financial sector stability.
+
+   AI is a key issue for constituents: Midterm polling shows 56% of Americans considered AI a crucial or major factor in their
+   vote and 43% trust neither party to manage it. Congress has an open, bipartisan mandate to take the lead before public trust
+   erodes further.
+
+PRO-SAFETY, PRO-INNOVATION
+
+AI holds enormous promise for American science, medicine, productivity, and national strength. The caucus supports the
+innovation that makes that possible. Having common-sense guardrails will sustain the public trust that continued innovation
+depends on.
+
+FILLING A GAP
+
+The AI Safety and Innovation Caucus complements existing coalitions, rather than competing with or duplicating them, by focusing
+on advancing bipartisan AI safety legislation.
+
+WHAT THE CAUCUS DOES
+
+01 Proposes and endorses legislation. Develops legislative proposals and endorses existing bills that advance targeted,
+     bipartisan AI safety guardrails.
+
+02 Rapid response to AI incidents. When a major AI safety incident or development occurs, the caucus quickly convenes lab
+     leaders, technical experts, and government officials to brief Members and staff, and puts forward policy responses.
+
+03 Serves as a trusted resource. Keeps offices apprised of developments, helps them navigate policy decisions, connects them
+     with off-Hill experts, and works with the AI Caucus on member education and briefings focused on AI safety.
+
+04 Elevates AI safety publicly. Makes AI safety a national priority through statements, op-eds, and press events.
+
+05 Contributes to Congress' AI agenda. Helps shape AI safety policy and gives Members outside the committees of jurisdiction
+     an avenue to contribute.
+
+House AI Safety and Innovation Caucus  Office of Rep. George Whitesides � CA-27

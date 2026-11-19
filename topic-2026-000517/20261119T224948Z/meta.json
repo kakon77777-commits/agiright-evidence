@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000517",
+  "url": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3871",
+  "capturedAt": "2026-11-19T22:49:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 33132,
+    "sha256": "779fd8263e50f34349c8f44254f74d252c0da28e992d24d496fd02d43180844e",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "425AA0A74DBC4F02D300B1E4EBBB48EA",
+      "status": 200,
+      "url": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3871",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2551,
+      "afterScrollHeight": 2551,
+      "wantedHeight": 2551
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "f65afc3f92f96ae6f54618d3eeb5ed78104690f2c0d4b497478ee0a30d68ac8d",
+    "width": 1366,
+    "height": 2551,
+    "bytes": 2431294,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2551,
+    "afterScrollHeight": 2551
+  },
+  "record": {
+    "capturedAt": "2026-11-19T22:49:48Z",
+    "url": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3871",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 33132,
+      "sha256": "779fd8263e50f34349c8f44254f74d252c0da28e992d24d496fd02d43180844e"
+    },
+    "finalUrl": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3871",
+    "httpStatus": 200,
+    "title": "Trahan Releases Updated FRONTIER Act Section-by-Section | U.S. Representative Lori Trahan",
+    "rendered": {
+      "textChars": 3633,
+      "textSha256": "936b5689c84b30bef412ecc417cc62e51a31e7000a7c86a28f5d89a3e1e772bd",
+      "htmlSha256": "8468b5b8b9037a96989055fd9fc27f524c86ad5baa5c36d341497fe62f9198cc"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "f65afc3f92f96ae6f54618d3eeb5ed78104690f2c0d4b497478ee0a30d68ac8d",
+      "width": 1366,
+      "height": 2551,
+      "bytes": 2431294,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261119225048/https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3871",
+      "timestamp": "20261119225048",
+      "verifiedHttp": 200
+    }
+  }
+}

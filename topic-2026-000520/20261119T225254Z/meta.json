@@ -1,0 +1,91 @@
+{
+  "id": "topic-2026-000520",
+  "url": "https://whitesides.house.gov/2026/11/19/reps-whitesides-moran-and-beyer-launch-first-congressional-caucus-focused-on-ai-safety-and-innovation/",
+  "capturedAt": "2026-11-19T22:52:54Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 148401,
+    "sha256": "2021e990819a62feaaf574230e773454bc08b119fee58674ea8acc8b94a17b93",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": false,
+    "error": "devtools timeout: Page.captureScreenshot",
+    "navError": null,
+    "document": {
+      "frameId": "9235C98FE6B054155DF525794E2CD288",
+      "status": 200,
+      "url": "https://whitesides.house.gov/2026/11/19/reps-whitesides-moran-and-beyer-launch-first-congressional-caucus-focused-on-ai-safety-and-innovation/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4357,
+      "afterScrollHeight": 4448,
+      "wantedHeight": 4448
+    }
+  },
+  "screenshotRetry": {
+    "firstAttemptError": "devtools timeout: Page.captureScreenshot",
+    "ok": true,
+    "error": null
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "882993b650e9490c64adf2a0affc734d466bccabb5193c5ce7cd5b53ff3b9554",
+    "width": 1366,
+    "height": 4448,
+    "bytes": 1638580,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "fallback": "retry-smaller",
+    "firstLoadHeight": 4357,
+    "afterScrollHeight": 4448
+  },
+  "record": {
+    "capturedAt": "2026-11-19T22:52:54Z",
+    "url": "https://whitesides.house.gov/2026/11/19/reps-whitesides-moran-and-beyer-launch-first-congressional-caucus-focused-on-ai-safety-and-innovation/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 148401,
+      "sha256": "2021e990819a62feaaf574230e773454bc08b119fee58674ea8acc8b94a17b93"
+    },
+    "finalUrl": "https://whitesides.house.gov/2026/11/19/reps-whitesides-moran-and-beyer-launch-first-congressional-caucus-focused-on-ai-safety-and-innovation/",
+    "httpStatus": 200,
+    "title": "Reps. Whitesides, Moran, and Beyer Launch First Congressional Caucus Focused on AI Safety and Innovation | Representative George Whitesides",
+    "rendered": {
+      "textChars": 10888,
+      "textSha256": "03b10aa7ddee34c1ebcfb3d8def784d1cad81afab96aaedeb54364a95f8bf9d4",
+      "htmlSha256": "b879b6950dbbd29939bb208cb7890d0f11658653f0556256ea68c334a1d473dc"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "882993b650e9490c64adf2a0affc734d466bccabb5193c5ce7cd5b53ff3b9554",
+      "width": 1366,
+      "height": 4448,
+      "bytes": 1638580,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false,
+      "fallback": "retry-smaller"
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261119225401/https://whitesides.house.gov/2026/11/19/reps-whitesides-moran-and-beyer-launch-first-congressional-caucus-focused-on-ai-safety-and-innovation/",
+      "timestamp": "20261119225401",
+      "verifiedHttp": 200
+    }
+  }
+}

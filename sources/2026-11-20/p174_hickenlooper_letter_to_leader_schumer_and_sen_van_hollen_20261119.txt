@@ -1,0 +1,51 @@
+Source: https://punchbowl.news/wp-content/uploads/Hickenlooper-AI-Leadership-Letter.pdf (the letter of Sen. John Hickenlooper dated November 19, 2026, as hosted by Punchbowl News; the same words are reproduced in full on the senator's release page, which the snapshot step captures)
+Fetched: 2026-11-20 (Taipei) by script, HTTP 200, 85,348 bytes, SHA-256 of the PDF 4ea6216907030e8e40888eac9d3d05b2f09362d5bf09dd3228236b0d625dde3e, 1 page. Text extracted with pdftotext -layout; copied here whole and unchanged.
+Cited by topic 519. Compared by script with the letter text on the release page: every sentence of the body is the same.
+
+November 19, 2026
+
+Leader Schumer and Senator Van Hollen,
+
+Artificial Intelligence (AI) is threatening to upend every part of American life. And the U.S. Senate is acting too
+slowly. That's why the race for Senate Majority Leader is so important.
+
+Thanks to the leadership of Leader Schumer, Democrats could hold as many as 56 seats. We just won in places like
+Kansas, Mississippi, and Texas, where Democrats haven't won Senate races in decades. With the presidential
+election two years away, we have a two-year audition to show Americans we can deliver on three priorities:
+affordability, accountability, and AI safety.
+
+Following two years of unchecked chaos, Americans are desperately looking to Washington for leadership --
+especially on AI. Young people are wondering how they'll ever get their footing when AI is removing the first rung
+of the traditional career ladder. Families are worried about their energy bills climbing. Farmers are concerned about
+data centers draining their already limited water resources. Meanwhile, AI experts are warning that as model
+capabilities grow, the risks that a catastrophic incident will occur in the short term become even greater.
+
+AI has the potential to help us solve our greatest challenges and unlock scientific breakthroughs in medicine,
+agriculture, and more. But we should also be deeply worried about what AI means for our future. The potential for
+even more massive concentrations of wealth and extreme inequality, the risks of war, blackouts, and acts of terror
+should concern us all. Every day the Senate fails to act moves us closer to these potential dangers.
+
+The next Senate Majority Leader will play an outsized role in championing the tools we need to protect against
+consequences that are both profound and irreversible.
+
+The next Majority Leader should have a day-one plan for responsible regulation. That should include policies that
+support a robust third-party evaluation ecosystem, mitigate national security challenges like cyber and biorisk, and
+establish clear rules of the road to hold AI companies accountable. We also need to examine how best to promote
+competition and open-source innovation and consider banning Recursive Self-Improvement to prevent AI systems
+from autonomously advancing beyond our ability to control them.
+
+Meeting this moment requires more than just legislation. We should consider a Select Committee on AI that has the
+power and resources to help the Senate keep pace with this rapidly evolving technology. This Committee could
+complement the work of our other relevant committees while shining an even brighter, constant spotlight on AI,
+positioning Democrats as the party Americans trust to act in their best interests.
+
+Ensuring this technology benefits all Americans, not just those building this technology will not be easy. It will take
+a leadership team with the right agenda and determination. That starts with an open discussion within our caucus.
+
+The next Majority Leader must be prepared to deliver on affordability, accountability, and AI safety. I look forward
+to hearing more about your plans and working with our next leadership team to make these issues a top priority.
+
+Sincerely,
+
+John Hickenlooper
+United States Senator

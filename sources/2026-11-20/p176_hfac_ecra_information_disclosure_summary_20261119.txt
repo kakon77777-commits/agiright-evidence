@@ -1,0 +1,36 @@
+Source: the document "11.19.26 ECRA Information Disclosure HFAC Summary.pdf" (House Foreign Affairs Committee, "House Foreign Affairs Committee ECRA Disclosure | 11.19.2026"), embedded in the release at https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china (Scribd document 1098651862)
+Fetched: 2026-11-20 (Taipei) by script, the embed page of the document, HTTP 200, 166,238 bytes, SHA-256 of that HTML 24344dd6e9c8aec35b05a10e15fec3b18453057a8e821a272c78ebede7ef78d9. The text below is the text carried by that page with tags removed (the original PDF and page images were not obtained); small spacing artifacts of the extraction remain inside some words and names.
+Cited by topic 521. The release page itself is captured by the snapshot step.
+
+Scribd 
+ House Foreign Affairs Committee ECRA Disclosure | 11.19.2026 
+ Pursuant to 50 U.S.C. 4820(h)(2)(b)(ii), the House Foreign Affairs Committee determines that the withholding of the following information is contrary to the national interest: 
+ • 
+ According to a BIS summary provided to the House Foreign Affairs Committee dated May 11, 2026, as of that date, BIS received applications to sell 3,444,160 covered integrated circuits 
+ i 
+   to PRC companies . 
+ ii 
+   These applications included requests for the export, re-export, or transfer (in-country) of covered integrated circuits to multiple companies identified as Chinese Military Companies in the Department of W ar’s latest 1260H list from June 2026: 948,950 covered integrated circuits for Alibaba and its subsidiaries, 150,000 for T encent and its subsidiaries, 43,000 for Baidu, and 4,000 for BYD. 
+ o 
+ The House Foreign Affairs Committee also has in its possession other license applications provided by BIS that were not fully reflected in the May 11, 2026, summary document. For example, NVIDIA applied on December 19, 2025, to export 445,000 H200s to Tencent . 
+ • 
+ BIS approved the export, re-export, or transfer (in-country) of 879,868 covered integrated circuits to PRC companies across 21 license applications, as of May 11, 2026. This includes 75,000 for Alibaba, 150,000 for Te ncent and its subsidiaries, 43,000 for Baidu, and 4,000 for BYD. 
+ • 
+ All but two NVIDIA license applications for the export, re-export, or transfer (in country) of covered integrated circuits to PRC companies provided to the House Foreign Affairs Committee list 
+ Maginfra Co., Ltd., Beijing New Matrix Information Te chnologies, ZTE Kangxun T elecom Co., Ltd., and Lenovo or its subsidiaries as entities that “may install the systems in the datacenter.” 
+ o 
+ Other entities listed for the same role on multiple NVIDIA applications include Aivres Systems Inc., XFusion Technologies International Co., Ltd., Cloudnine Information T echnologies Co. Ltd, and Chan gkuai Computing Information Industry (Beijing) Co. Ltd. (a.k.a. SmoothCompute). 
+ o 
+ There have been public rep orts raising questions about diversion risks posed by Maginfra Co., Ltd., Beijing New Matrix Information Technologies, and Aivres Systems Inc . 
+ iii 
+ o 
+ Some of the above-stated companies appeared as ultimate consignees on multiple AMD applications. 
+ o 
+ Every NVIDIA and AMD application stated that the proposed transfer posed a “low” risk of diversion. 
+ i 
+ Covered integrated circuits are the following produ cts: NVIDIA ’s H200 and AMD’ s MI325X. 
+ ii 
+  The term “PRC companies” includes entities that are located or headquartered in, or the ultimate parent company of which is headquartered in, the People’s Republic of China. 
+ iii 
+ https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html, https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html. 
+ View on Scribd

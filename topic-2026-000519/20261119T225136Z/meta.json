@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000519",
+  "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-presses-senate-leadership-candidates-to-outline-ai-safety-affordability-and-accountability-agenda/",
+  "capturedAt": "2026-11-19T22:51:36Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html",
+    "bytes": 607,
+    "sha256": "67be7fee9328bb321c38efaec278872dc6f5c9760569107a7d6cdf63c00404d7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B6BE6D1CF3FC0466815196CD3684D9F3",
+      "status": 403,
+      "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-presses-senate-leadership-candidates-to-outline-ai-safety-affordability-and-accountability-agenda/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "cef41f20d0b0b58fec2e4666874ed48963a5f98544ade8dbe2f8fc60ae14f0f9",
+    "width": 1366,
+    "height": 900,
+    "bytes": 19722,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-19T22:51:36Z",
+    "url": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-presses-senate-leadership-candidates-to-outline-ai-safety-affordability-and-accountability-agenda/",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html",
+      "bytes": 607,
+      "sha256": "67be7fee9328bb321c38efaec278872dc6f5c9760569107a7d6cdf63c00404d7"
+    },
+    "finalUrl": "https://www.hickenlooper.senate.gov/press_releases/hickenlooper-presses-senate-leadership-candidates-to-outline-ai-safety-affordability-and-accountability-agenda/",
+    "httpStatus": 403,
+    "title": "Access Denied",
+    "rendered": {
+      "textChars": 345,
+      "textSha256": "fee1238cb60dd632c48aa04ae985ca294941aec620d64fc24ff8b9623032710b",
+      "htmlSha256": "c3898a50da2872c7013377022487346fa13fd23fce70b4114415cdb5da78e543"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "cef41f20d0b0b58fec2e4666874ed48963a5f98544ade8dbe2f8fc60ae14f0f9",
+      "width": 1366,
+      "height": 900,
+      "bytes": 19722,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261119225234/https://www.hickenlooper.senate.gov/press_releases/hickenlooper-presses-senate-leadership-candidates-to-outline-ai-safety-affordability-and-accountability-agenda/",
+      "timestamp": "20261119225234",
+      "verifiedHttp": 200
+    }
+  }
+}

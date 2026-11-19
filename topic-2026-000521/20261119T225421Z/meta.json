@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000521",
+  "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+  "capturedAt": "2026-11-19T22:54:21Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 49562,
+    "sha256": "c7909cb999dafff788c3b3c725d0fa76ab99341b95980f211964b88f264e61db",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1F00BB4872601EBCAC06C0C9F47EF53D",
+      "status": 200,
+      "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2999,
+      "afterScrollHeight": 2999,
+      "wantedHeight": 2999
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "6a2f40939c7a428ea0812f8a33ce2f6c1e54255f0e1a588a4bb7c2964fe9c966",
+    "width": 1366,
+    "height": 2999,
+    "bytes": 815506,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2999,
+    "afterScrollHeight": 2999
+  },
+  "record": {
+    "capturedAt": "2026-11-19T22:54:21Z",
+    "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 49562,
+      "sha256": "c7909cb999dafff788c3b3c725d0fa76ab99341b95980f211964b88f264e61db"
+    },
+    "finalUrl": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+    "httpStatus": 200,
+    "title": "Chairman Brian Mast Exercises Legislative Authority to Publicly Release AI Chip License Information for China | Republican Foreign Affairs Committee",
+    "rendered": {
+      "textChars": 1786,
+      "textSha256": "2785dd7e6f572edb4c36cd09d298d17737e92ea2958a711cb1f54a51a26dc156",
+      "htmlSha256": "edff56229e2f4415f53a2f3c4d46fb5e24ddd0b7f4c0515b3f6cc9c3679881b5"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6a2f40939c7a428ea0812f8a33ce2f6c1e54255f0e1a588a4bb7c2964fe9c966",
+      "width": 1366,
+      "height": 2999,
+      "bytes": 815506,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261119225446/https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+      "timestamp": "20261119225446",
+      "verifiedHttp": 200
+    }
+  }
+}
