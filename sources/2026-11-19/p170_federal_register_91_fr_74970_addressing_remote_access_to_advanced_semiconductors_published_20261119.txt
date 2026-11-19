@@ -1,0 +1,24 @@
+Source: https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors (Federal Register, Volume 91, Number 222, November 19, 2026, "Addressing Remote Access to Advanced Semiconductors; Interim Final Rule", 91 FR 74970, document 2026-23529; the text copied is from https://www.federalregister.gov/documents/full_text/text/2026/11/19/2026-23529.txt and the record from https://www.federalregister.gov/api/v1/documents/2026-23529.json)
+Fetched: 2026-11-19 (Taipei) by script, HTTP 200 (text 220,254 bytes, SHA-256 50a3fbb6739a8c6b5c2d622e33bd3a82707fda2d24aa8e4abe792e13ee80ea6e; record 6,475 bytes, SHA-256 37f37818a48779ed5b703dca3e9edbad254a9e1a7ad4162348ce693463d543d8). Copied here, with the line wrapping of the source joined into single lines: the DATES and ADDRESSES paragraphs, the sentence on the Administrative Procedure Act, and the fields of the Federal Register record. The rest of the 30 pages is not copied (the public-inspection text is among the sources of 2026-11-17).
+Cited by the dated note added to topic 503.
+
+DATES: Effective date: This rule is effective November 19, 2026. Comment due date: Comments on the revisions and additions in this rule must be received by BIS no later than January 19, 2027. ADDRESSES: Comments on this rule may be submitted to the Federal rulemaking portal ( www.regulations.gov ). The regulations.gov ID for this rule is: BIS-2026-0628. Please refer to RIN 0694-AK50 in all comments. All filers using the portal should use the name of the person or entity submitting the comments as the name of their files, in accordance with the instructions below. Anyone submitting business confidential information should clearly identify the business confidential portion at the time of submission, file a statement justifying nondisclosure and referring to the specific legal authority claimed, and provide a non-confidential version of the submission. For comments submitted electronically containing business confidential information, the file name of the business confidential version should begin with the characters ``BC.'' Any page containing business confidential information must be clearly marked ``BUSINESS CONFIDENTIAL'' on the top of that page. The corresponding non- confidential version of those comments must be clearly marked ``PUBLIC.'' The file name of the non-confidential version should begin with the character ``P.'' Any submissions with file names that do not begin with either a ``BC'' or a ``P'' will be assumed to be public and will be made publicly available through https://www.regulations.gov . Commenters submitting business confidential information are encouraged to scan a hard copy of the non-confidential version to create an image of the file, rather than submitting a digital copy with redactions applied, to avoid inadvertent redaction errors which could enable the public to read business confidential information.
+
+[...]
+
+Pursuant to section 1762 of the Export Control Reform Act of 2018, this action is exempt from the Administrative Procedure Act (5 U.S.C. 553) requirements for notice of proposed rulemaking, opportunity for public participation, and delay in effective date.
+
+[the Federal Register record, fields copied from the JSON]
+title: "Addressing Remote Access to Advanced Semiconductors"
+type: "Rule"
+document_number: "2026-23529"
+citation: "91 FR 74970"
+publication_date: "2026-11-19"
+effective_on: "2026-11-19"
+dates: "Effective date: This rule is effective November 19, 2026."
+start_page: 74970
+end_page: 74999
+page_length: 30
+docket_ids: ["Docket No. 261116-0005"]
+regulation_id_numbers: ["0694-AK50"]
+action: "Interim final rule."

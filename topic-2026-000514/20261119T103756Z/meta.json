@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000514",
+  "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+  "capturedAt": "2026-11-19T10:37:56Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 392068,
+    "sha256": "a0ba2f387bbe985e55313f32c2477a803ee3e7ea48a188e9235e0a9a05854236",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "1C8CFD2BCFAB015A5782028F6D7CBEC1",
+      "status": 200,
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 20691,
+      "afterScrollHeight": 22378,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "8a6405ccbffead048fe7a7a9a53a0d2db44074a7bcc57de6754c6f27b8302ddb",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1890216,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 20691,
+    "afterScrollHeight": 22378
+  },
+  "record": {
+    "capturedAt": "2026-11-19T10:37:56Z",
+    "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 392068,
+      "sha256": "a0ba2f387bbe985e55313f32c2477a803ee3e7ea48a188e9235e0a9a05854236"
+    },
+    "finalUrl": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+    "httpStatus": 200,
+    "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold | Google Cloud Blog",
+    "rendered": {
+      "textChars": 43938,
+      "textSha256": "4c6562e7446993d755cb7f4be316ea73428543b531caf6bb91a6a5b6f6e55003",
+      "htmlSha256": "b0ba95e54bcb63ea36e12891816474b0bef350974e4631dee717e5162dd12065"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8a6405ccbffead048fe7a7a9a53a0d2db44074a7bcc57de6754c6f27b8302ddb",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1890216,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261116144950",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261116144950/https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261119002435/https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+      "timestamp": "20261119002435",
+      "verifiedHttp": 200
+    }
+  }
+}

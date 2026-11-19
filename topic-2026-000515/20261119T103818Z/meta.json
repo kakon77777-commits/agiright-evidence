@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000515",
+  "url": "https://www.channelnewsasia.com/business/arizona-says-it-investigating-openai-other-firms-over-possible-rogue-agents-6564291",
+  "capturedAt": "2026-11-19T10:38:18Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 514827,
+    "sha256": "980d49a4fa56e0e7013548eebca36263a46703da5992f84d304843c1e6a8c750",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/157.0.4341.60",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "68E8C84C7E24087CE616BCD1AC0C248C",
+      "status": 200,
+      "url": "https://www.channelnewsasia.com/business/arizona-says-it-investigating-openai-other-firms-over-possible-rogue-agents-6564291",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2834,
+      "afterScrollHeight": 2834,
+      "wantedHeight": 2834
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d8d47e5fa78a3f7a315d9c371c16be505226de7a0bede43c25dc900ad523d7a9",
+    "width": 1366,
+    "height": 2834,
+    "bytes": 698131,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2834,
+    "afterScrollHeight": 2834
+  },
+  "record": {
+    "capturedAt": "2026-11-19T10:38:18Z",
+    "url": "https://www.channelnewsasia.com/business/arizona-says-it-investigating-openai-other-firms-over-possible-rogue-agents-6564291",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 514827,
+      "sha256": "980d49a4fa56e0e7013548eebca36263a46703da5992f84d304843c1e6a8c750"
+    },
+    "finalUrl": "https://www.channelnewsasia.com/business/arizona-says-it-investigating-openai-other-firms-over-possible-rogue-agents-6564291",
+    "httpStatus": 200,
+    "title": "Arizona says it is investigating OpenAI, other firms over possible rogue agents - CNA",
+    "rendered": {
+      "textChars": 3669,
+      "textSha256": "970423cc933df9c61e655040fbda442d83cb75f15e079a64d766c7af3c31d8e4",
+      "htmlSha256": "34ba3209593309c01119366a75a19b65dcefbcbadcc6daa7e18c28db90b65f98"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d8d47e5fa78a3f7a315d9c371c16be505226de7a0bede43c25dc900ad523d7a9",
+      "width": 1366,
+      "height": 2834,
+      "bytes": 698131,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/157.0.4341.60)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261119103925/https://www.channelnewsasia.com/business/arizona-says-it-investigating-openai-other-firms-over-possible-rogue-agents-6564291",
+      "timestamp": "20261119103925",
+      "verifiedHttp": 200
+    }
+  }
+}

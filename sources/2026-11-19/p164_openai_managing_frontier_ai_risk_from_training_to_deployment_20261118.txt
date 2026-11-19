@@ -1,0 +1,69 @@
+Source: https://openai.com/index/managing-frontier-ai-risk/ (OpenAI, "Managing frontier AI risk: From training to deployment", November 18, 2026)
+Fetched: 2026-11-19 (Taipei) by script with a browser user agent, HTTP 200, 496,606 bytes, SHA-256 of the HTML 9019a1e7ad76cbfbf423b1d0dbca7e4655941a338adb9eb9194af25ce4cbd100. Text extracted by removing tags; copied here from the headline to the last paragraph ("... until those requirements are met."); the navigation and the list of related research and resources that follow are not copied. The page text has link markers such as "(opens in a new window)" inside some sentences.
+Cited by topic 511.
+
+Managing frontier AI risk: From training to deployment
+November 18, 2026 · Safety
+Share
+Defense in depth across the model lifecycle
+Defense in depth across the model lifecycle
+During research: contain models in sandboxed environments
+Internal deployment: test alignment, closely monitor behavior
+External deployment: protect against misuse and misalignment at scale
+Incident Response and Disclosure
+Related research and resources
+Defense in depth across the model lifecycle
+During research: contain models in sandboxed environments
+Internal deployment: test alignment, closely monitor behavior
+External deployment: protect against misuse and misalignment at scale
+Incident Response and Disclosure
+Related research and resources
+The capabilities of frontier models are rapidly accelerating, and our ability to understand, align, and secure them must stay ahead. We are pacing the development and release of our models, including pausing internal training ⁠ (opens in a new window) or holding back models like GPT‑6.1 Astra when we need more time to meet our safety standards. We’ve introduced new processes such as safety cases and require stronger evidence of aligned behavior throughout training. These requirements slow the pace of model releases, but they give us greater confidence to safely move forward.
+Since the Hugging Face incident ⁠ in July, we've strengthened safeguards and alignment requirements for how we train, test, and deploy models. This post explains how we evaluate and manage risk at each stage , from highly sandboxed training environments to the Codex deployment you use on your computer. We evaluate both models and safeguards at each stage, requiring a safety review to advance to the next stage.
+Defense in depth across the model lifecycle
+We use defense in depth with m ultiple layers of protection that reduce dependence on any single safeguard. If one layer fails, others help prevent harm, limit consequences, or alert us so we can intervene.
+W e organize our protections around four layers:
+Effective monitoring depends on model monitorability - how reliably monitors can detect mistakes or unsafe behavior from a model’s reasoning and actions. For example, a model that verbalizes its intention to cheat in its chain-of-thought (CoT) is more monitorable than one that omits this information. We evaluate monitorability during training and before deployment, develop better methods for measuring ⁠ (opens in a new window) it , and study what affects it ⁠ (opens in a new window) .
+The Hugging Face incident showed why we should not rely on sandboxing alone to contain highly capable models. We now monitor frontier models across most internal and external deployment settings, including all internal deployments that use tools .
+The role of each layer changes across three stages of model development and deployment:
+Research: We train, test, and use models in sandboxed environments.
+Internal deployment: OpenAI employees use models for practical work.
+External deployment: Models become available to people and organizations more broadly.
+We rely on different layers at different stages. During training, when alignment is less certain, we depend more heavily on sandboxing and monitoring. As models gain broader access during deployment, alignment and system-level controls become increasingly important. At each stage, we evaluate whether the combined protections are sufficient for the model’s capabilities and access. Our determinations may be reviewed with our Safety Advisory Group (SAG) and overseen by the Safety and Security Committee (SSC) of the OpenAI Foundation’s Board of Directors.
+During research: contain models in sandboxed environments
+During the research phase, we evaluate models to gain confidence in their alignment properties. Because we cannot yet fully rely on alignment to prevent harm, we rely heavily on security and sandboxing to restrict what they can access and do.
+Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no live internet access . After the Hugging Face incident, we significantly restructured our internal research systems to contain models using :
+sandboxes that restrict the privileges of the model
+virtual machines to further isolate the workload from the underlying computer
+network and cloud perimeters that cut the entire cluster off from the internet
+We continuously red-team this system, having teams of our strongest models try to reach the live internet, escape security boundaries, or communicate with agents they are meant to be isolated from. This helps us test whether containment holds against the capabilities of the models it is intended to constrain.
+As an additional layer of defense, we monitor all frontier inference to detect if the model has bypassed our security invariants. If our monitoring detects that the model has reached the internet, we page our security teams and autopause the workload .
+Monitoring provides a critical backstop when containment fails. In a recent misalignment report, we shared that monitors detected an internal research model exploiting a DNS misconfiguration ⁠ (opens in a new window) to gain limited internet access. We paused training and evaluation of our most capable models from September 20th to October 1st while we investigated and addressed the security gap .
+To make interventions fast and reliable, we built Control Room ⁠ , a central system that tracks research workloads and stops further model output within 35 seconds of receiving an instruction to halt a job. These controls are enforced directly in the inference infrastructure, so they do not depend on each research workload implementing its own shutdown mechanism. For frontier-model research workloads, they also stop model output if Control Room becomes unavailable.
+Red-teaming and monitoring work together. We cannot guarantee that a sandbox is impenetrable, but red-teaming helps us assess how much effort a model would need to escape it. The more effort the model requires, the more the opportunity for monitors to detect and stop it.
+We mandate strong security and monitoring controls at the research stage for a few reasons:
+Models are still being evaluated. Some have not yet completed the safety training, alignment audits, and reviews required for public release.
+Frontier research settings can amplify risks. Certain research tasks require more ambitious setups, making the model more persistent or capable than typically seen during external deployment (for example, a team of 10,000 agents was required to solve the Navier Stokes problem ).
+Training runs at scale with less direct human oversight. Unlike a typical Codex session, o ur training workloads involve large numbers of model actions without a person following each interaction.
+Internal deployment: test alignment, closely monitor behavior
+Before broad release, employees switch from sandboxed research use of frontier models to unsandboxed internal use , e.g. making the model accessible in ChatGPT to employees. This gives us a better understanding of how the models behave in practical settings ⁠ (opens in a new window) , and informs deployment decisions.
+During this phase, we give the model access to the broader internet, our Slack, our codebase, and internal infrastructure. This is a significant change in risk, as the model’s actions now have a direct impact on the systems we use to build and run OpenAI. During internal deployment, we need to rely more on model alignment, system safeguards, and monitoring as opposed to security controls.
+Before a frontier model can be deployed outside of the sandbox, it must first go through alignment and monitorability testing ⁠ (opens in a new window) . We have a suite of alignment evaluations, which test both for specific alignment failure modes (such as circumventing safety and security restrictions) and broad measurements of propensity (such as resampling internal Codex trajectories and checking for misalignment). You can see more about our alignment and monitorability evaluations in the latest GPT‑6 Astra system card ⁠ (opens in a new window) .
+Mimicking our production setups, we add an additional layer of defense with system-level classifiers, which are designed to protect against frontier harms such as cyberabuse and bioweaponization. We also generally require Auto-Review ⁠ (opens in a new window) for employees using Codex, which evaluates potentially risk actions and escalates them back to the user.
+Finally, we monitor for misaligned behavior on every frontier inference during internal deployment. Since the model now has expanded privileges and access to internal information and systems, risks such as data exfiltration, or sending sensitive data to an unauthorized destination, become especially important to detect. Monitoring also helps us investigate new forms of misalignment ⁠ (opens in a new window) .
+External deployment: protect against misuse and misalignment at scale
+Public deployment exposes models to far more users, tasks, and environments, increasing both the scale and variety of risks. At this stage, we also need to protect against potentially malicious actors who purposefully direct the model to perform harm.
+Before public release, models and system safeguards must meet our external deployment safety requirements. We assess them through:
+Performing a larger suite of alignment and safety evaluations. For our frontier models, this includes performing new rounds of adaptive testing ⁠ with our internal automated redteamers to stress-test the robustness of the model. We publish the results of our capability and safety evaluations in our system cards ⁠ (opens in a new window) .
+For our most capable models, we also perform testing with third parties to stress-test both our safeguards against misuse and the underlying alignment of our models.
+Examining monitoring flags from the internal deployment stage to track any changes in the base model’s underlying alignment.
+In addition to our “synchronous” safeguards (such as model safety training and system classifiers), for external deployments we also leverage offline enforcement and investigation. These teams use a combination of scaled agentic investigators and human review to detect and identify potential threat actors, ranging from cyberabuse, bioweaponization, distillation ⁠ , and misalignment from the model itself. Offline enforcement is especially helpful to gather information across accounts in order to build a more holistic picture of a potential threat.
+Trusted access programs, such as Daybreak and Rosalind ⁠ , offer another layer of security, and accelerate defenders and legitimate researchers while restricting access by potential attackers.
+Incident Response and Disclosure
+When we notice a failure in one of our layers of safety, regardless of whether any harm actually occurred, we want to quickly investigate, triage, and if possible and appropriate, disclose the failure externally. Under our misalignment reporting ⁠ policy, any employee can flag an incident for public disclosure. These reports are investigated, and if there is a disagreement on whether they should be externally disclosed, the decision is escalated to our Safety Advisory Group (SAG). In addition to relying on employee reports, we proactively look for misalignment incidents so we can address them and share findings.
+You can see our misalignment reports here ⁠ (opens in a new window) .
+​
+​
+This work depends on both research progress and operational discipline: configuring controls correctly, testing how they interact, and responding decisively when they fail. A misconfigured network service or a failed automatic stop can undermine otherwise strong protections.
+As models gain new capabilities, we will need to keep challenging the assumptions behind our safeguards and improving them where necessary. Lessons from research, internal use, and public deployment must inform how we train, evaluate, and deploy the next models.
+We will continue sharing findings through system cards, incident reports, internal deployment risk reports ⁠ (opens in a new window) , and external evaluations ⁠ so that others can scrutinize our approach, including its limitations. When that evidence falls short of the bar we hold for safety, we will again pause training or withhold release until those requirements are met.
