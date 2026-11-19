@@ -16,7 +16,7 @@ The Grok Lead Desk file for the day is `2026-11-20_run38` (uploaded 06:36 Taipei
 
 ## Not taken, and why
 
-- Lead 006, Politico's report that California's Governor-elect floated criminal liability for rogue AI agents: the Politico page returned 403 to the script and is left unread (no workaround was used); the desk saw the reporter's post only.
+- Lead 006, Politico's report that California's Governor-elect floated criminal liability for rogue AI agents: the desk reports that the Politico page returned 403 to its script, we did not read the page either (no workaround was used), and the desk saw the reporter's post only.
 - Lead 007, a post citing Politico Europe on a European Commission intrusion and ARTEX: secondhand; no Commission statement was found.
 - Leads 008 and 009, two reports by The Information (a chip-shipping network and a cancelled Indonesian compute deal): paywalled and not opened by the desk or by us; no document.
 - Lead 010, a Wired report relayed through Techmeme on a simulated internet built by Google to test browsing agents: the Wired page and any Google primary were not read.
