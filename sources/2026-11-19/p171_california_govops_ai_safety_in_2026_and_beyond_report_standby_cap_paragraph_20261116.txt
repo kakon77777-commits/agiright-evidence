@@ -1,0 +1,9 @@
+Source: https://www.govops.ca.gov/wp-content/uploads/sites/11/2026/11/FINAL_-AI-Safety-in-2026-and-Beyond-v2.pdf (California Government Operations Agency, "AI Safety in 2026 and Beyond", a report to the Governor dated November 16, 2026).
+Fetched: 2026-11-19 (Taipei) by script with a browser user agent, HTTP 200, 823,220 bytes, SHA-256 of the PDF b6c2197fefb0357b6ad254b8c9604e334b81447580a98c4dba9866d18581ec88, 85 pages (the same file as p167 and as topic 513's snapshot). Text extracted with pdftotext (page numbers appear inside the running text). Copied here: the whole paragraph on the standby cap, from "More critically, the legislature should provide the state with standby authority" to "... informed by work with IVOs."; p167 copies its beginning and stops after "... lifted when the issue has been addressed". The rest of the 85 pages is not copied.
+Cited by Episode 107 (the host's check of the cap sentence and of the sentence on who sets the cap level; added after the evidence commit of 2026-11-19 and before the Episode's release).
+
+More critically, the legislature should provide the state with standby authority to cap automated AI R&D when the level of risk is unacceptable. For example, the state should be able to cap the share of compute a developer can devote to automation of AI R&D. As broader measurements of AI-led R&D become more mature, the state should also use those metrics. We do not recommend that the
+21
+
+state impose a cap immediately. But the state must possess this authority if it finds that a developer’s automated AI R&D has exceeded its committed thresholds or is advancing faster than its safeguards and evaluations can keep up, creating a material risk of catastrophic harm. The cap should be limited in time, reviewed periodically, and lifted when the issue has been addressed and an IVO verifies that adequate safeguards are in place.
+The state would set the cap level and measurement methods, informed by work with IVOs.
