@@ -1,0 +1,54 @@
+Source: https://democrats-foreignaffairs.house.gov/wp-content/uploads/2026/11/11.19.26-ECRA-Information-Disclosure-HFAC-Summary.pdf (House Foreign Affairs Committee, "House Foreign Affairs Committee ECRA Disclosure | 11.19.2026"; the original PDF of the document that p176 copies from its embedded page)
+Fetched: 2026-11-20 (Taipei) by script, HTTP 200, 152,276 bytes, SHA-256 of the PDF 30561cce2526d35487249219193b94e6785bcec9b86e7e87f13b4bd70b602f27, 2 pages. Text extracted with pdftotext -layout (UTF-8); copied here whole and unchanged. Bullet glyphs of the PDF are not extracted (a replacement character stands in their place).
+Cited by Episode 108 and by the dated note of topic 521: the text is the same, letter for letter, as p176 (compared by script, apart from p176's own header and the Scribd page furniture).
+
+                 House Foreign Affairs Committee ECRA Disclosure | 11.19.2026
+
+Pursuant to 50 U.S.C. 4820(h)(2)(b)(ii), the House Foreign Affairs Committee determines that
+the withholding of the following information is contrary to the national interest:
+
+    • According to a BIS summary provided to the House Foreign Affairs Committee dated
+         May 11, 2026, as of that date, BIS received applications to sell 3,444,160 covered
+         integrated circuitsi to PRC companies.ii These applications included requests for the
+         export, re-export, or transfer (in-country) of covered integrated circuits to multiple
+         companies identified as Chinese Military Companies in the Department of War’s latest
+         1260H list from June 2026: 948,950 covered integrated circuits for Alibaba and its
+         subsidiaries, 150,000 for Tencent and its subsidiaries, 43,000 for Baidu, and 4,000 for
+         BYD.
+
+             o The House Foreign Affairs Committee also has in its possession other license
+                  applications provided by BIS that were not fully reflected in the May 11, 2026,
+                  summary document. For example, NVIDIA applied on December 19, 2025, to
+                  export 445,000 H200s to Tencent.
+
+    • BIS approved the export, re-export, or transfer (in-country) of 879,868 covered integrated
+         circuits to PRC companies across 21 license applications, as of May 11, 2026. This
+         includes 75,000 for Alibaba, 150,000 for Tencent and its subsidiaries, 43,000 for Baidu,
+         and 4,000 for BYD.
+
+    • All but two NVIDIA license applications for the export, re-export, or transfer (in country)
+         of covered integrated circuits to PRC companies provided to the House Foreign Affairs
+         Committee list Maginfra Co., Ltd., Beijing New Matrix Information Technologies, ZTE
+         Kangxun Telecom Co., Ltd., and Lenovo or its subsidiaries as entities that “may install
+         the systems in the datacenter.”
+
+             o Other entities listed for the same role on multiple NVIDIA applications include
+                  Aivres Systems Inc., XFusion Technologies International Co., Ltd., Cloudnine
+                  Information Technologies Co. Ltd, and Changkuai Computing Information
+                  Industry (Beijing) Co. Ltd. (a.k.a. SmoothCompute).
+
+             o There have been public reports raising questions about diversion risks posed by
+                  Maginfra Co., Ltd., Beijing New Matrix Information Technologies, and Aivres
+                  Systems Inc.iii
+
+             o Some of the above-stated companies appeared as ultimate consignees on multiple
+                  AMD applications.
+
+             o Every NVIDIA and AMD application stated that the proposed transfer posed a
+                  “low” risk of diversion.
+i Covered integrated circuits are the following products: NVIDIA’s H200 and AMD’s MI325X.
+ii The term “PRC companies” includes entities that are located or headquartered in, or the ultimate parent company
+of which is headquartered in, the People’s Republic of China.
+iii https://www.nytimes.com/2026/11/07/business/economy/nvidia-chips-chinese-firms.html,
+
+https://www.nytimes.com/2026/09/06/technology/ai-chips-china-blacklist.html.

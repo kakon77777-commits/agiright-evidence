@@ -1,0 +1,254 @@
+Source: https://democrats-foreignaffairs.house.gov/wp-content/uploads/2026/11/11.19.26-ECRA-Information-Disclosure-of-BIS-License-Decisions.pdf (marked "CUI//SP-EXPT"; table "H200 License and Equivalent Application Status as of May 11, 2026"; the original PDF of the document that p177 copies from its embedded page)
+Fetched: 2026-11-20 (Taipei) by script, HTTP 200, 89,354 bytes, SHA-256 of the PDF 5b23b3786b827183a0dbbf1dde347862d8bf682fc5cd73212464a4f04128ce4a, 4 pages. Text extracted with pdftotext -raw (UTF-8; reading order, one table cell or part of a cell per line, so a row's fields are spread over several lines); copied here whole and unchanged. The extraction renders one word with a ligature ("conﬁdential").
+By script (whitespace merged, rows read as: chip count, status, location): 54 rows, of which 21 "Approved, not shipped" (chip counts adding up to 879,868; all 21 with the location China), 9 RWA (four China, three Malaysia, one Indonesia, one Thailand), 1 "Rejected" and 23 "Submitted" (all China). The text that p177 copies from the embedded page holds the first 44 of these 54 rows, in the same order and with the same values; the ten rows it lacks are all "Submitted", location China.
+Cited by Episode 108 and by the dated note of topic 521.
+
+CUI//SP-EXPT This information contains statutorily protected business conﬁdential
+information and further disclosure is prohibited absent a national interest determination
+pursuant to 50 U.S.C. 4820(h)(2).
+H200 License and Equivalent Application Status as of May 11, 2026
+Date
+submitted Exporter
+Data Center Operator or
+Ultimate Consignee Value
+Chip
+Count Status
+Ultimate
+Chip
+Location
+12/16/2025 Nvidia Alibaba Group 75,000
+Approved,
+not shipped
+China
+12/9/2025 Nvidia
+Beijing Bytedance Technol
+ogy Co. Ltd. 75,000
+Approved,
+not shipped
+China
+12/22/2025 AMD
+Beijing Zitiao Network
+Technology Co., Ltd., a
+wholly owned subsidiary
+of ByteDance 75,000
+Approved,
+not shipped
+China
+12/23/2025 Nvidia
+Ubiquant Investment
+(Beijing) Co., Ltd. 8,660
+Approved,
+not shipped
+China
+12/19/2025 Nvidia
+Tencent Technology
+(Shenzhen) Co. Ltd. 75,000
+Approved,
+not shipped
+China
+12/19/2025 Nvidia Jingdong(JD) 41,300
+Approved,
+not shipped
+China
+12/21/2025 Nvidia
+Beijing Didi Inﬁnity
+Technology and
+Development Co. Ltd. 24,780
+Approved,
+not shipped
+China
+12/22/2025 AMD
+Oriental Power Holdings
+Limited, a wholly owned
+subsidiary of Tencent
+Holdings Limited 75,000
+Approved,
+not shipped
+China
+12/24/2025 Nvidia
+Shanghai Mihoyo Tianmin
+g Technology Co., Ltd. 57,810
+Approved,
+not shipped
+China
+12/27/2025 Nvidia
+Shanghai Yovole Cloud
+Computing Co., Ltd. 4,250
+Approved,
+not shipped
+China
+C
+hairm
+an
+M
+ast
+CUI//SP-EXPT This information contains statutorily protected business conﬁdential
+information and further disclosure is prohibited absent a national interest determination
+pursuant to 50 U.S.C. 4820(h)(2).
+12/28/2025 Nvidia VNET Group Limited 75,000
+Approved,
+not shipped
+China
+12/30/2025 Nvidia Li Auto Inc. 8,260
+Approved,
+not shipped
+China
+12/27/2025 Nvidia Linkwise Digital Tech 75,000
+Approved,
+not shipped
+China
+4/16/2026 Nvidia Nvidia 8
+Approved,
+not shipped
+China
+3/16/2026 Nvidia Tesla (Shanghai) 4,000
+Approved,
+not shipped
+China
+3/16/2026 Nvidia BYD 4,000
+Approved,
+not shipped
+China
+3/16/2026 Nvidia Shanghai Jiatang 4,000
+Approved,
+not shipped
+China
+3/16/2026 Nvidia Great Wall Motor 4,800
+Approved,
+not shipped
+China
+3/10/2026 Nvidia Baidu 43,000
+Approved,
+not shipped
+China
+3/9/2026 AMD Kuaishou 75,000
+Approved,
+not shipped
+China
+3/9/2026 AMD Beijing DiDi 75,000
+Approved,
+not shipped
+China
+12/23/2025 Nvidia Alibaba 10,450 RWA China
+3/9/2026 AMD JD.Com 75,000 RWA China
+3/9/2026 AMD Huaxia 75,000 RWA China
+2/6/2026 Nvidia Alibaba Group
+610,000 RWA China
+12/11/2025 Nvidia
+Bytedance System SDN
+BHD
+508,000 RWA Malaysia
+C
+hairm
+an
+M
+ast
+CUI//SP-EXPT This information contains statutorily protected business conﬁdential
+information and further disclosure is prohibited absent a national interest determination
+pursuant to 50 U.S.C. 4820(h)(2).
+12/13/2025 Nvidia
+PT Byteplus Technologies
+Indonesia
+203,000 RWA Indonesia
+12/15/2025 Nvidia Alibaba Cloud 50,500 RWA Malaysia
+12/15/2025 Nvidia Alibaba Cloud
+203,000 RWA Malaysia
+12/19/2025 Nvidia
+TikTok (System) Thailand
+Ltd.
+154,000 RWA Thailand
+3/9/2026 AMD UCloud 75,000 Rejected China
+3/9/2026 AMD Kingsoft 75,000 Submitted China
+3/16/2026 Nvidia
+High-Flyer Asset
+Management (Zhejiang)
+Co., Ltd. 75,000
+Submitted China
+3/16/2026 Nvidia
+Redbook Technology
+Limited 40,800
+Submitted China
+3/16/2026 Nvidia Nio 4,800 Submitted China
+3/17/2026 Nvidia Geely 2,280 Submitted China
+3/17/2026 Nvidia Mingshi 1,160 Submitted China
+3/17/2026 Nvidia Syscloud 2,280 Submitted China
+3/17/2026 Nvidia Funde Holding 75,000 Submitted China
+3/18/2026 Nvidia Kuaishou 40,800 Submitted China
+3/18/2026 Nvidia Meituan 75,000 Submitted China
+4/6/2026 Nvidia
+New Century Lettall Data
+Service Co., Ltd. 40,800
+Submitted China
+4/14/2026 Nvidia
+Chongqing Afari Intelligent
+Drive Co., Ltd. 8,160
+Submitted China
+4/14/2026 Nvidia
+Shanghai Yanfu Investmen
+ts, LLC 8,360
+Submitted China
+C
+hairm
+an
+M
+ast
+CUI//SP-EXPT This information contains statutorily protected business conﬁdential
+information and further disclosure is prohibited absent a national interest determination
+pursuant to 50 U.S.C. 4820(h)(2).
+4/14/2026 Nvidia
+Intelliture Technology
+(Beijing) Co., Ltd. 4,176
+Submitted China
+4/15/2026 Nvidia
+Beijing Huapin Borui
+Network Technology Co.,
+Ltd 10,200
+Submitted China
+4/6/2026 Nvidia
+The Hong Kong University
+of Science and
+Technology, Clear Water
+Bay, Kowloon 12,240
+Submitted China
+4/6/2026 Nvidia
+Guangzhou FCloud Techn
+ology Co. Ltd. 41,776
+Submitted China
+4/6/2026 Nvidia
+Chiyi (Beijing) Technology
+Co., Ltd. 8,360
+Submitted China
+12/23/2025 Nvidia Yi Tunnel Sandstar 41,300 Submitted China
+1/5/2026
+Semsotai
+USA
+Sharetronic Data
+Technology Co, Ltd. 150
+Submitted China
+1/23/2026
+Semsotai
+USA
+Sharetronic Data
+Technology Co, Ltd. 32,000
+Submitted China
+2/27/2026
+Semsotai
+USA
+Sharetronic Data
+Technology Co, Ltd. 200
+Submitted China
+3/23/2026
+Semsotai
+USA
+Sharetronic Data
+Technology Co, Ltd. 500
+Submitted China
+In addition, BIS has granted two licenses which authorize various chips, including the
+H200, to go to Lenovo, but which do not authorize the chips to go to China locations. These
+licenses enable Lenovo to manufacture servers and conduct research & development for
+new products (e.g. data center racks) outside China.
+C
+hairm
+an
+M
+ast
