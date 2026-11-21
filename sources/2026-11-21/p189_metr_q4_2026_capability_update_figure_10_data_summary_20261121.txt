@@ -1,0 +1,43 @@
+Source: https://metr.org/assets/images/q4-2026-capability-update/cad6b5d98261f80c.json (the file behind the "Data" link of Figure 10 in METR's post "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure", https://metr.org/blog/2026-11-20-q4-2026-capability-update/; in the page the link's download name is headline-panel2.json and its label is "Download this chart's data"; chart id "headline/panel2")
+Fetched: 2026-11-21 (Taipei) by script, HTTP 200, 8,882 bytes, SHA-256 5459fa3b2c1e2e07f850458545f5b749f3bd3dd2353958e32c284c89ce628173.
+Cited by Episode 109 (the host's check of the Realist's source update and of the Radical's second-stage description of the chart data). The post itself is captured by the snapshot step of topic 524.
+
+Computed by script from the JSON file; the JSON itself is not copied here. Name of each panel, table, its row count and its columns:
+
+Panel: 50% time horizon by model release date
+  table "models": 15 rows; columns: series, model, released, frontier, horizon_minutes, horizon_minutes_low_95, horizon_minutes_high_95, horizon_minutes_low_80, horizon_minutes_high_80
+  table "frontier trends": 1 rows; columns: series, from, to, horizon_minutes_from, horizon_minutes_to, doubling_months, doubling_months_low_95, doubling_months_high_95, r_squared
+  table "task limits": 2 rows; columns: task_set, longest_task_minutes
+Panel: Doubling times across bootstrap draws
+  table "doubling times across bootstrap draws": 33 rows; columns: series, months_from, months_to, share_of_draws
+
+Table "frontier trends" (1 row), as published:
+[
+ {
+  "series": "TH1.1 and TH2",
+  "from": "2024-05-13",
+  "to": "2026-09-03",
+  "horizon_minutes_from": 8.08965,
+  "horizon_minutes_to": 1643.2,
+  "doubling_months": 3.61275,
+  "doubling_months_low_95": 2.08267,
+  "doubling_months_high_95": 4.93514,
+  "r_squared": 0.985704
+ }
+]
+
+Table "task limits" (2 rows), as published:
+[
+ {
+  "task_set": "TH1.1",
+  "longest_task_minutes": 1800
+ },
+ {
+  "task_set": "TH1.1 and TH2",
+  "longest_task_minutes": 12000
+ }
+]
+
+Table "models": 15 rows, one per model; series: TH1.1 and TH2; release dates from 2024-05-13 to 2026-09-22. Each row has the 50% time horizon in minutes and its 80% and 95% intervals. The model names and the values are in the published file and are not repeated here.
+
+No table has a row for a single run, a single task or a score.

@@ -1,0 +1,127 @@
+Source: https://huggingface.co/docs/hub/models-download-stats (Hugging Face Hub documentation, "Models Download Stats")
+Fetched: 2026-11-21 (Taipei) by script, HTTP 200, 204,914 bytes of HTML. The text below is the text carried by the page with tags removed (the page's navigation text is included); copied here whole.
+Cited by Episode 109 (the host's check of the Realist's source update): the page says "Every HTTP request to these files, including GET and HEAD , will be counted as a download." (the extraction leaves a space before the comma).
+
+Models Download Stats · Hugging Face
+Hugging Face
+Search models, datasets, users... Ctrl K
+Models
+Datasets
+Spaces
+Buckets
+Docs
+Enterprise
+Pricing
+Website
+Tasks
+HuggingChat
+Collections
+Languages
+Organizations
+Community
+Blog
+Posts
+Daily Papers
+Hardware
+Learn
+Discord
+Forum
+GitHub
+Solutions
+Team & Enterprise
+Hugging Face PRO
+Enterprise Support
+Inference Providers
+Inference Endpoints
+Storage Buckets
+Log In
+Sign Up
+Hub documentation
+Models Download Stats
+Hub
+🏡 View all docs AWS Trainium & Inferentia Accelerate Bitsandbytes CLI Chat UI Dataset viewer Datasets Deploying on AWS Diffusers Google Cloud Google TPUs Gradio Hub Hub Python Library Huggingface.js Inference Endpoints (dedicated) Inference Providers Kernels LeRobot Leaderboards Lighteval Microsoft Azure OpenEnv Optimum PEFT Reachy Mini Safetensors Sentence Transformers TRL Tasks Text Embeddings Inference Tokenizers Trackio Transformers Transformers.js Xet smolagents timm
+Search documentation
+AR EN ES FR ID JA KO PT RU TR VI ZH
+API docs
+🤗 Hugging Face Hub
+Team & Enterprise Plans
+Single Sign-On (SSO) Audit Logs Storage Regions Data Studio for Private datasets Resource Groups (Access Control) Advanced Compute Options Advanced Security Tokens Management Service Accounts Publisher Analytics Gating Group Collections Network Security Download Analytics Rate Limits Blog Articles
+PRO Plan
+Repositories
+Getting Started with Repositories Repository Settings Storage Limits Storage Backend (Xet) Local Cache Pull Requests & Discussions Notifications Collections Webhooks GitHub Actions Notebooks Next Steps Licenses
+Models
+The Model Hub Model Cards Eval Results Leaderboard Data Gated Models Pre-Release Model Pages Uploading Models Downloading Models Integrated Libraries Model Widgets Model Inference Models Download Stats Model Release Checklist Hardware Local Apps Frequently Asked Questions Advanced Topics
+Datasets
+Datasets Overview Dataset Cards Gated Datasets Uploading Datasets Uploading Datasets (for LLMs) Downloading Datasets Streaming Datasets Integrated Libraries Data Studio Agent Traces Datasets Download Stats
+Spaces
+Spaces Overview Spaces GPU Upgrades Spaces ZeroGPU Spaces Dev Mode Spaces Disk Usage & Storage Spaces Custom Domain Spaces as MCP servers Spaces as Agent Tools Spaces as API Endpoints Gradio Spaces Streamlit Spaces Static HTML Spaces Docker Spaces Embed your Space Run Spaces with Docker Spaces Configuration Reference Sign-In with HF button Featured Spaces Spaces Changelog Advanced Topics
+Storage Buckets new
+Migration Guide Access Patterns S3 Compatibility Bucket Integrations Bucket Security
+Container Images new
+Access Control
+Jobs
+Jobs Overview Quickstart Pricing and Billing Manage Jobs Configuration Using Docker images Serve Models Train Models Examples & Tutorials Process Large Datasets Schedule Jobs Webhook Automation Reference
+Agents
+Agents Overview Hugging Face CLI for AI Agents Hugging Face MCP Server Hugging Face Agent Skills Building agents with the HF SDK Local Agents with llama.cpp Agent Libraries Session Traces Format
+Other
+Organizations Billing Security Moderation Paper Pages Academia Hub Blog Articles Search Digital Object Identifier (DOI) Hub API Endpoints OAuth / Sign in with HF
+Join the Hugging Face community
+and get access to the augmented documentation experience
+Collaborate on models, datasets and Spaces
+Faster examples with accelerated inference
+Switch between documentation themes
+Sign Up to get started
+Copy page
+Models Download Stats
+How are downloads counted for models?
+Counting the number of downloads for models is not a trivial task, as a single model repository might contain multiple files, including multiple model weight files (e.g., with sharded models) and different formats depending on the library (GGUF, PyTorch, TensorFlow, etc.). To avoid double counting downloads (e.g., counting a single download of a model as multiple downloads), the Hub uses a set of query files that are employed for download counting. No information is sent from the user, and no additional calls are made for this. The count is done server-side as the Hub serves files for downloads.
+Every HTTP request to these files, including GET and HEAD , will be counted as a download. By default, when no library is specified, the Hub uses config.json as the default query file. Otherwise, the query file depends on each library, and the Hub might examine files such as pytorch_model.bin or adapter_config.json .
+Which are the query files for different libraries?
+By default, the Hub looks at config.json , config.yaml , hyperparams.yaml , params.json , and meta.yaml . Some libraries override these defaults by specifying their own filter (specifying countDownloads ). The code that defines these overrides is open-source . For example, for the nemo library, all files with .nemo extension are used to count downloads.
+Can I add my query files for my library?
+Yes, you can open a Pull Request here . Here is a minimal example adding download metrics for VFIMamba. Check out the integration guide for more details.
+How are GGUF files handled?
+GGUF files are self-contained and are not tied to a single library, so all of them are counted for downloads. This will double count downloads in the case a user performs cloning of a whole repository, but most users and interfaces download a single GGUF file for a given repo.
+How is diffusers handled?
+The diffusers library is an edge case and has its filter configured in the internal codebase. The filter ensures repos tagged as diffusers count both files loaded via the library as well as through UIs that require users to manually download the top-level safetensors.
+Copied
+filter : [
+{
+bool: {
+/// Include documents that match at least one of the following rules
+should: [
+/// Downloaded from diffusers lib
+{
+term: { path : "model_index.json" },
+},
+/// Downloaded from diffusers lib through modular pipelines
+{
+term: { path : "modular_model_index.json" },
+},
+/// Direct downloads (LoRa, Auto1111 and others)
+/// Filter out nested safetensors and pickle weights to avoid double counting downloads from the diffusers lib
+{
+regexp: { path : "[^/]*\\.safetensors" },
+},
+{
+regexp: { path : "[^/]*\\.ckpt" },
+},
+{
+regexp: { path : "[^/]*\\.bin" },
+},
+],
+minimum_should_match: 1 ,
+},
+},
+]
+}
+What if I need more granular download data for my models?
+If you need more granular download data, for instance to:
+distinguish config.json from model weights,
+exclude downloads from CI/CD pipelines,
+or deduplicate users (i.e. count unique downloaders),
+then Publisher Analytics , and in particular the granular logs feature, can provide anonymized, request-level access logs for all the models and datasets published by your organization.
+These are provided as raw logs, since most organizations will want to apply their own custom rules.
+Update on GitHub
+← Model Inference Model Release Checklist →
+Models Download Stats How are downloads counted for models? Which are the query files for different libraries? Can I add my query files for my library? How are GGU F files handled? How is diffusers handled? What if I need more granular download data for my models?
