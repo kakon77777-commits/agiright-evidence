@@ -1,0 +1,127 @@
+Skip to main content
+ 
+請選取語言
+中文 (繁體)
+中文 (簡體)
+日文
+北印度文
+西班牙文
+希伯來文
+孟加拉文
+法文
+波蘭文
+阿拉伯文
+俄文
+海地克里奧文
+烏克蘭文
+越南文
+義大利文
+德文
+優魯巴文
+  由「」技術提供
+ABOUT
+»
+Chairman Moolenaar
+Committee Rules
+Membership
+Minority Site
+SELECT COMMITTEE WORK
+»
+Policy Recommendations
+Investigations & Reports
+Hearings
+Letters
+Bills
+NEWS
+»
+Press Releases
+In the News
+Stay Connected
+CONTACT
+»
+Contact Us
+Whistle Blower
+Select Committee Internships
+ISSUES
+»
+American Business
+Biosecurity
+CCP Economic Aggression
+CCP Internal Repression
+CCP International Influence
+Critical Infrastructure/Cyber
+Defense
+Environment
+Research Security
+Taiwan
+TikTok
+Transnational Repression
+Uyghur Genocide
+GUARD ACT ENDORSEMENTS
+PRESS RELEASES
+HOME
+MEDIA
+PRESS RELEASES
+Joint Investigation Report: China is Trying to Get U.S. Companies Addicted to Chinese AI Models
+NOVEMBER 20, 2026
+
+Today, Chairman John Moolenaar (R-MI) of the House Select Committee on China and Chairman Andrew R. Garbarino (R-NY) of the House Committee on Homeland Security released a report following their joint investigation into the integration of Chinese-developed open-weight artificial intelligence (AI) models into American companies' consumer platforms. The joint investigation focused on the origin of these models, their data, training, potential for unauthorized distillation, and how companies around the world purchase and acquire them. The committees also evaluated the U.S. open-weight AI strategy, and if it sufficiently ensures American entities are not forced to choose between expensive or proprietary U.S. models and cheap, capable China-based alternatives.
+
+The committees began this investigation in April 2026 with letters to Anysphere and Airbnb. Both companies have since engaged with the committees regarding the technical, commercial, and security considerations surrounding their evaluation and use of Chinese open-weight models. As a next step in the investigation, the Chairmen sent a letter to DoorDash requesting similar information in July 2026.
+
+ 
+
+In the report, Chairmen Garbarino and Moolenaar write:
+
+“The investigation uncovered risks that American businesses, policymakers, and national security officials can no longer afford to overlook or downplay. From Silicon Valley startups to Fortune 500 companies, American businesses are increasingly adopting PRC-developed open-weight models because they are inexpensive, customizable, and competitive with leading American systems. Federal investigations, however, have found that major PRC developers used proxy networks and fraudulent accounts to harvest outputs from American frontier models and replicate their capabilities. While America is investing billions and racing to build ‘Super Intelligence,’ Beijing is using stolen intelligence to close the gap.”
+
+“Congress has too often been behind the curve on emerging technology. As one of our colleagues observed after a briefing on these issues, AI is advancing so quickly that Congress risks being ‘light years behind.’ With this investigation, we intend to narrow that gap. We should not wait five years to discover that much of the world, and much of the United States, runs on AI shaped by the CCP, leaving policymakers with little choice but another costly rip and replace effort. The time to act is now, while we still have the opportunity and leverage to do so."
+
+ 
+
+The Committees’ investigation found that personnel associated with the 1st Bureau of the People’s Liberation Army (PLA) Cyberspace Force, the unit responsible for cyber espionage, and attacks have been present on multiple occasions at the Beijing headquarters of Zhipu, most recently in August 2026. These visits indicate a channel between the PLA’s cyber intelligence apparatus and one of China’s leading AI developers.
+
+The Committees’ review of PLA procurement records also found the Chinese military building these models directly into its cyber operations. A July 2026 procurement for a large PLA cyber range, a system for generating “cybersecurity professional capability,” required integrating DeepSeek to support “intelligent attack” and “intelligent penetration.” Other records show a command information system built around Alibaba’s Qwen and DeepSeek, and a 2026 project requiring models from DeepSeek, Alibaba, Moonshot, and MiniMax to run on a network cut off from the internet for military AI agent development. Documents produced to the Committees show that these same model families are running inside major American companies.
+
+Findings
+
+China-developed open-weight models are already widely used across the American economy, but much of that use is hard to track.
+Cost, customization, and near-frontier performance are driving adoption, and the United States lacks a competitive open-weight alternative at the price and performance the market demands.
+Much of China’s apparent progress rests on capabilities extracted from American models, and American data-labeling firms are helping supply the data that trains Chinese models.
+China is using open-weight distribution, state support, and low prices to expand global dependence on Chinese models, while the terms of that dependence are beginning to change.
+The risks are increasing as Chinese models become more capable, while their behavior and security properties can differ in ways ordinary evaluations may not detect.
+
+ 
+
+Policy Recommendations
+
+Launch a national American open-weight AI initiative.
+Make trusted American AI the global default.
+Establish a model provenance standard and an AI bill of materials.
+Extend federal restrictions beyond DeepSeek, keep China-developed AI models out of federal contract work and high-risk functions of critical infrastructure, and give agencies the visibility to enforce these restrictions.
+Secure long-term information-sharing authorities and build a developer-level AI threat channel.
+Evaluate Chinese models systematically, translate the results into guidance, and give the Information Technology Sector a single accountable federal partner.
+Prepare DHS and the Cybersecurity and Infrastructure Security Agency (CISA) to defend at machine speed and secure AI agents on federal networks.
+Make CISA the single point of submission for AI-related cyber incident reports and establish an independent board to investigate significant incidents.
+Hold illicit distillers accountable and close the gray market.
+Examine sales of American training data to Chinese AI laboratories.
+Govern both closed and open models and avoid overregulation.
+Work with allies and deepen understanding of China’s strategy.
+
+ 
+
+Background
+
+The new report comes as China has intensified its efforts to close the AI innovation gap with leading U.S. frontier labs through model distillation, intellectual property theft, and other illicit means. In September 2026, the National Security Agency (NSA), CISA, and the Federal Bureau of Investigation (FBI) released a joint advisory warning of the national security impacts of these large-scale distillation efforts against American AI companies, particularly as China utilizes advanced AI models to increase the scale, scope, and speed of its intrusions into U.S. systems.
+
+ 
+
+Read the full report here.
+
+Issues: CRITICAL INFRASTRUCTURE/CYBER
+Image
+Copyright
+Privacy
+House.gov
+Accessibility
+RSS

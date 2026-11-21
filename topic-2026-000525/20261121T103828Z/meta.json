@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000525",
+  "url": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+  "capturedAt": "2026-11-21T10:38:28Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 533944,
+    "sha256": "9c600ad917d09b9d8927f09e0e7c734b4534f22548e1f330efbab1a8773969e8",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "86EC02D163D7DF26DA4E4720306FBC86",
+      "status": 200,
+      "url": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 9208,
+      "afterScrollHeight": 9208,
+      "wantedHeight": 9208
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "98208b47389ff1540251e46457f11204af6d44616693d6b3fd443d966e71c4bb",
+    "width": 1366,
+    "height": 9208,
+    "bytes": 722446,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 9208,
+    "afterScrollHeight": 9208
+  },
+  "record": {
+    "capturedAt": "2026-11-21T10:38:28Z",
+    "url": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 533944,
+      "sha256": "9c600ad917d09b9d8927f09e0e7c734b4534f22548e1f330efbab1a8773969e8"
+    },
+    "finalUrl": "https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+    "httpStatus": 200,
+    "title": "EXCLUSIVE: Nvidia's accounting is a focus of US SEC investigation, sources say | Reuters",
+    "rendered": {
+      "textChars": 9794,
+      "textSha256": "43fdb6009b9a5a5b81a81d5bddc8190c7da60482a945ab78e5e93e2ee9301345",
+      "htmlSha256": "6d1b7b2094a14bbd6ab876cd88511f17e36efeb11f5d8cf4bebab01d2b93cbd3"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "98208b47389ff1540251e46457f11204af6d44616693d6b3fd443d966e71c4bb",
+      "width": 1366,
+      "height": 9208,
+      "bytes": 722446,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261121103857/https://www.reuters.com/5f374b32b07b/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/",
+      "timestamp": "20261121103857",
+      "verifiedHttp": 200
+    }
+  }
+}

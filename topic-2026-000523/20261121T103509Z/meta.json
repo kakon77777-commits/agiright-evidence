@@ -1,0 +1,47 @@
+{
+  "id": "topic-2026-000523",
+  "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia",
+  "capturedAt": "2026-11-21T10:35:09Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "error": "fetch failed"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": false,
+    "error": "devtools timeout: Page.navigate",
+    "navError": null,
+    "document": null,
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "screenshotRetry": {
+    "firstAttemptError": "devtools timeout: Page.navigate",
+    "ok": false,
+    "error": "devtools timeout: Runtime.evaluate"
+  },
+  "record": {
+    "capturedAt": "2026-11-21T10:35:09Z",
+    "url": "https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia",
+    "raw": {
+      "error": "fetch failed"
+    },
+    "browserError": "devtools timeout: Page.navigate",
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261120003307",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261120003307/https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261121103735/https://oag.ca.gov/news/press-releases/attorney-general-bonta-serves-investigative-subpoena-nvidia",
+      "timestamp": "20261121103735",
+      "verifiedHttp": 200
+    }
+  }
+}

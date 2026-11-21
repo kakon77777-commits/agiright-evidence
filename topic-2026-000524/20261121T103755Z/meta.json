@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000524",
+  "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+  "capturedAt": "2026-11-21T10:37:55Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 739007,
+    "sha256": "664e9117d49d6b3b295af36483eb225f101d4f65ca370019e82ec7a51654bd91",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BA7875CBCB202EA035B6592EB2028291",
+      "status": 200,
+      "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 148326,
+      "afterScrollHeight": 148326,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "7ba49dc0bc66560f942ed7d4f7489abe88ba23bda9b74deeb434d20470fb2ad8",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 2221908,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 148326,
+    "afterScrollHeight": 148326
+  },
+  "record": {
+    "capturedAt": "2026-11-21T10:37:55Z",
+    "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 739007,
+      "sha256": "664e9117d49d6b3b295af36483eb225f101d4f65ca370019e82ec7a51654bd91"
+    },
+    "finalUrl": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+    "httpStatus": 200,
+    "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure - METR",
+    "rendered": {
+      "textChars": 189112,
+      "textSha256": "b07ab7e9609ccab9c8d54b7212be95657f6a84cd84ddd4df14351e0ece390d7c",
+      "htmlSha256": "c98e40892df5ee8d9355528c059344cdb012e364bb943b89fe93d815eed0f078"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "7ba49dc0bc66560f942ed7d4f7489abe88ba23bda9b74deeb434d20470fb2ad8",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 2221908,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261120202138",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261120202138/https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261121103808/https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "timestamp": "20261121103808",
+      "verifiedHttp": 200
+    }
+  }
+}
