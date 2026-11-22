@@ -1,0 +1,48 @@
+Source: https://www.math.uwaterloo.ca/~mrubinst/alpoge_claude_grh/ (Michael Rubinstein, University of Waterloo, "Alpöge/Claude proof of the Generalized Riemann Hypothesis"; the page that the Realist's source update of Round 110 cites for a 164-page working draft)
+Fetched: 2026-11-22 (Taipei) by script, HTTP 200, 4,859 bytes of HTML. The text below is the text carried by the page with tags removed and character references decoded; copied here whole. The page says that the working draft is dated 21 November 2026 and that its author's own check of the Lean proof gave its result on 21 November 2026; a later fetch may differ. The host read the page after Round 110 and opened neither the PDF nor any linked page.
+Cited by Episode 110 (the host's check of the Realist's source update, and the setup section).
+
+Alpöge/Claude proof of the Generalized Riemann Hypothesis
+← Home
+Alpöge/Claude proof of the Generalized Riemann Hypothesis
+On 20 November 2026 Levent Alpöge announced a proof,
+found with Anthropic's Claude, of the Riemann Hypothesis and of the Generalized Riemann Hypothesis for
+Dirichlet L -functions. The proof was released as a formal proof in the Lean proof assistant:
+175,187 files, about 17 million lines. This page links to my own check of that Lean proof and to checks made
+by others.
+— Michael Rubinstein
+The proof explained for the Riemann zeta function
+The Alpöge–Claude proof of the Riemann hypothesis explained for the
+Riemann zeta function (PDF, 164 pages; working draft, 21 November 2026)
+A working guide to the proof, specialised to the Riemann zeta function, written with Claude, Codex and
+Gemini as an aid to studying it. It aims at a human-readable account in the style of classical analytic number
+theory. It deduces the Riemann hypothesis from one inequality between weighted sums over primes, called (M),
+and two estimates for Dirichlet characters, and proves the two estimates from theorems in the literature.
+The inequality (M) is not proved there: its proof is taken from the Lean development. The paper writes up
+parts of that proof and states exactly which inputs it takes from the Lean development. It is a work in
+progress.
+Lean verification
+mrubinst.github.io/grh-lean-verification
+That page records a check of the Lean proof run with Claude Code on University of Waterloo compute
+servers, starting from the archive Alpöge published. It shows the five theorems exactly as they are stated
+in Lean, with an explanation of why they say what RH and GRH for Dirichlet L -functions say, and a scan
+of all the source files for anything that could introduce an unproved assumption. It then reports each
+machine check with its status and output: a full compile of all 175,187 modules, the list of axioms the
+theorems depend on, a replay of every module through Lean's kernel, and a check by a second, independently
+written kernel (nanoda).
+Result (21 November 2026). All four checks finished with no errors. All 175,187 modules compile.
+The five theorems depend only on Lean's three standard axioms. A replay of every module through Lean's kernel
+accepted all 175,187. The independent kernel nanoda checked the 1,484,729 declarations that the theorems
+depend on, with no typechecker errors.
+The page also describes how the checks were run, and the repository contains the scripts, so that anyone
+can repeat them. A dated log records each step, including the problems met along the way.
+Verifications by others
+Andrew Sutherland (MIT): RH Lean proof, verification files .
+His results, logs and the exported proof are on his MIT page.
+Elliot Arledge: independent verification receipts .
+An independent rebuild, axiom audit and nanoda check, on GitHub.
+Bartosz Naskręcki: riemann-rev
+( site ). A status dashboard recording who has checked
+what, with a guide to the route of the proof.
+A full replay of all 175,187 modules through Lean's kernel ,
+listed on the riemann-rev dashboard as Simon DeDeo's.

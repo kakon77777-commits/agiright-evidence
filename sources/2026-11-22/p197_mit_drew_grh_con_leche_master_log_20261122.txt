@@ -1,0 +1,57 @@
+Source: https://math.mit.edu/~drew/grh/con-leche-master.log (Andrew Sutherland, MIT; one of "the two con-leche runs" that the verification page p191 lists, the other being con-leche-compare.log; the Moderate of Round 110 says it looked at the end of these logs)
+Fetched: 2026-11-22 (Taipei) by script, HTTP 200, 3,918 bytes. The text below is the file whole and unchanged. The other log, con-leche-compare.log (5,875 bytes), was fetched, its end read, and is not copied here (the Moderate cites con-leche-master.log).
+Cited by Episode 110 (the host's check of the Moderate's first stage): the log holds progress lines, timing, resource figures and "Exit status: 0", not a verdict sentence.
+
+con-leche: reading solution.ndjson
+con-leche: parse done: 1468418 fold records — the file's 1468418, 0 built-in prelude records synthesised t=33.9s (parse 33.9s)
+con-leche: checking: 1468418 declarations on 64 workers t=33.9s
+con-leche: check 73421 (5%) t=35.3s busy=63/64
+con-leche: check 146842 (10%) t=38.2s busy=63/64
+con-leche: check 220263 (15%) t=44.4s busy=63/64
+con-leche: check 293684 (20%) t=53.0s busy=63/64
+con-leche: check 367105 (25%) t=62.1s busy=63/64, oldest theorem Formalism.IrreducibleCountingLemmas.GaloisIrreducibility.PrimeCountingLemmas.factorial_ladder_one_forty_one._proof_1_1 (#226690) 17.217s
+con-leche: check 440526 (30%) t=69.6s busy=63/64, oldest theorem Formalism.IrreducibleCountingLemmas.GaloisIrreducibility.PrimeCountingLemmas.factorial_ladder_one_forty_one._proof_1_1 (#226690) 24.641s
+con-leche: check 513947 (35%) t=82.9s busy=63/64
+con-leche: check 587368 (40%) t=93.5s busy=63/64
+con-leche: check 660789 (45%) t=105.0s busy=63/64, oldest theorem GlobalTheory.PrimeRecip.table_ok._proof_1_1 (#570391) 13.683s
+con-leche: check 734209 (50%) t=112.2s busy=63/64, oldest theorem PI.PC.loop_run._proof_1_1 (#571290) 20.770s
+con-leche: check 807630 (55%) t=120.6s busy=63/64, oldest theorem PI.PC.loop_run._proof_1_1 (#571290) 29.232s
+con-leche: check 881051 (60%) t=132.1s busy=63/64
+con-leche: check 954472 (65%) t=139.8s busy=63/64, oldest theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554) 16.259s
+con-leche: check 1027893 (70%) t=146.2s busy=63/64, oldest theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554) 22.631s
+con-leche: check 1101314 (75%) t=153.1s busy=63/64, oldest theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554) 29.517s
+con-leche: check 1174735 (80%) t=160.8s busy=63/64, oldest theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554) 37.251s
+con-leche: check 1248156 (85%) t=172.1s busy=63/64, oldest theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554) 48.605s
+con-leche: check 1321577 (90%) t=178.9s busy=63/64
+con-leche: check 1394998 (95%) t=185.4s busy=63/64
+con-leche: check 1468418 (100%) t=193.5s busy=0/64
+con-leche: check done: 1468418 declarations t=194.3s (check 160.3s)
+con-leche: done: parse 33.9s, check 160.3s, 64 workers t=194.3s
+con-leche: stats: phases: parse 33.9s (index 2.4s), check 160.3s
+con-leche: stats: check pool: 160.188s wall, 64 workers, 1468418 records, busy 10192.903s (99.4%); tail 0.718s after the last start, 64 busy then, 1.582s worker-time in it (3.4%)
+con-leche: stats: slowest checks: 55.177s theorem GlobalTheory.HeightCounting.SideCopy.LamCopy.lam_copy (#829554); 40.285s theorem GlobalTheory.HeightCounting.SideCopy.sigSpan_copy (#829660); 35.148s theorem PI.PC.loop_run._proof_1_1 (#571290); 25.017s theorem Formalism.IrreducibleCountingLemmas.GaloisIrreducibility.PrimeCountingLemmas.factorial_ladder_one_forty_one._proof_1_1 (#226690); 17.217s theorem GlobalTheory.PrimeRecip.table_ok._proof_1_1 (#570391)
+con-leche: stats: peak RSS 45.62 GiB
+con-leche: accepted 1468418 declarations (--verified)
+	Command being timed: "/home/ubuntu/grh/ship/bin/con-leche-master --jobs=64 --progress=5% solution.ndjson"
+	User time (seconds): 10692.79
+	System time (seconds): 76.91
+	Percent of CPU this job got: 5530%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:14.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47838684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 23618342
+	Voluntary context switches: 228387
+	Involuntary context switches: 16521
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
