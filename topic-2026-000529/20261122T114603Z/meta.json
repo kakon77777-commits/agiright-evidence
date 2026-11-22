@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000529",
+  "url": "https://x.com/mustafasuleyman/status/2124289221808808335",
+  "capturedAt": "2026-11-22T11:46:03Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5563437716dac51432c474f2d8fd61490f5894ee9ec5212e46d107c1d0292258",
+    "width": 640,
+    "height": 900,
+    "bytes": 205406,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-22T11:46:03Z",
+    "url": "https://x.com/mustafasuleyman/status/2124289221808808335",
+    "finalUrl": "https://x.com/mustafasuleyman/status/2124289221808808335",
+    "screenshot": {
+      "sha256": "5563437716dac51432c474f2d8fd61490f5894ee9ec5212e46d107c1d0292258",
+      "width": 640,
+      "height": 900,
+      "bytes": 205406,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2124289221808808335",
+      "handle": "mustafasuleyman",
+      "syndicationSha256": "4b62e50b8993d9d4319417059e334a94b1bb6bc8be440ce523d03a9e345fbd73",
+      "createdAt": "2026-11-21T23:49:52.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "mustafasuleyman",
+      "lang": "en",
+      "textSha256": "13d3aaa754a1e40f8d4788bcc925e0e4b6bbe28ee017282faf75189875e19313",
+      "media": [],
+      "oembedSha256": "8131a20c6d98b6ffe2b402311f64e04bac247c1fceebc6b2fefdb954289dff2b",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

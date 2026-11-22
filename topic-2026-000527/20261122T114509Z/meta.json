@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000527",
+  "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+  "capturedAt": "2026-11-22T11:45:09Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 8501,
+    "sha256": "f1bc87e6bf7aa9285fc0507377b850cfa166c9035c8fbc6394a182655f0a9a35",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "160E147C1B583B3E8FB094134666F255",
+      "status": 200,
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1611,
+      "afterScrollHeight": 10502,
+      "wantedHeight": 1611
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "558529dc1657e2bfe71ff6c980fc2141c91c0c37fe2f640f4ac6fcd7bafc73e7",
+    "width": 1366,
+    "height": 1611,
+    "bytes": 205023,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": true,
+    "firstLoadHeight": 1611,
+    "afterScrollHeight": 10502
+  },
+  "record": {
+    "capturedAt": "2026-11-22T11:45:09Z",
+    "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 8501,
+      "sha256": "f1bc87e6bf7aa9285fc0507377b850cfa166c9035c8fbc6394a182655f0a9a35"
+    },
+    "finalUrl": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+    "httpStatus": 200,
+    "title": "Lean verification of the Riemann Hypothesis | Lean community blog",
+    "rendered": {
+      "textChars": 2761,
+      "textSha256": "c36feab744475abda89deb636a9dfa224585b5527fe7d5c676beaf013667ccd2",
+      "htmlSha256": "b3b93a03ac721fec27c332859dd93457cf634ca8976e38e599ab447b6886a8ab"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "558529dc1657e2bfe71ff6c980fc2141c91c0c37fe2f640f4ac6fcd7bafc73e7",
+      "width": 1366,
+      "height": 1611,
+      "bytes": 205023,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": true
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261121142742",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261121142742/https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261122073816/https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "timestamp": "20261122073816",
+      "verifiedHttp": 200
+    }
+  }
+}

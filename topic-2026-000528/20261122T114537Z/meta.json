@@ -1,0 +1,56 @@
+{
+  "id": "topic-2026-000528",
+  "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_hydrogen_safety_report.pdf",
+  "capturedAt": "2026-11-22T11:45:37Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 6960977,
+    "sha256": "531e8ff0603a0013117e17887df14a08ea1994bf81b70c3c3e8a46654881ab7b",
+    "file": "raw.pdf"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B3A6C14C8F112897D14C77DF531EE34E",
+      "status": 200,
+      "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_hydrogen_safety_report.pdf",
+      "mime": "application/pdf"
+    },
+    "skipped": "pdf: no rendered view captured (raw bytes stored instead)",
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": null
+  },
+  "record": {
+    "capturedAt": "2026-11-22T11:45:37Z",
+    "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_hydrogen_safety_report.pdf",
+    "raw": {
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 6960977,
+      "sha256": "531e8ff0603a0013117e17887df14a08ea1994bf81b70c3c3e8a46654881ab7b"
+    },
+    "finalUrl": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_hydrogen_safety_report.pdf",
+    "httpStatus": 200,
+    "note": "pdf: no rendered view captured (raw bytes stored instead)",
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261118193113",
+      "statuscode": "200",
+      "mimetype": "application/pdf",
+      "url": "https://web.archive.org/web/20261118193113/https://storage.googleapis.com/deepmind-media/gemini/gemini_4_hydrogen_safety_report.pdf"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261118193113/https://storage.googleapis.com/deepmind-media/gemini/gemini_4_hydrogen_safety_report.pdf",
+      "timestamp": "20261118193113",
+      "verifiedHttp": 200
+    }
+  }
+}
