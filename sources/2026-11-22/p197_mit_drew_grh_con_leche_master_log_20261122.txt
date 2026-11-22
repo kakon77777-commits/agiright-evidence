@@ -1,6 +1,6 @@
 Source: https://math.mit.edu/~drew/grh/con-leche-master.log (Andrew Sutherland, MIT; one of "the two con-leche runs" that the verification page p191 lists, the other being con-leche-compare.log; the Moderate of Round 110 says it looked at the end of these logs)
 Fetched: 2026-11-22 (Taipei) by script, HTTP 200, 3,918 bytes. The text below is the file whole and unchanged. The other log, con-leche-compare.log (5,875 bytes), was fetched, its end read, and is not copied here (the Moderate cites con-leche-master.log).
-Cited by Episode 110 (the host's check of the Moderate's first stage): the log holds progress lines, timing, resource figures and "Exit status: 0", not a verdict sentence.
+Cited by Episode 110 (the host's check of the Moderate's first stage): the log holds progress lines, the line "con-leche: accepted 1468418 declarations (--verified)", timing, resource figures and "Exit status: 0" (an earlier version of this header said that it holds no verdict sentence, which was wrong).
 
 con-leche: reading solution.ndjson
 con-leche: parse done: 1468418 fold records — the file's 1468418, 0 built-in prelude records synthesised t=33.9s (parse 33.9s)
