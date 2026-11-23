@@ -1,0 +1,69 @@
+{
+  "id": "topic-2026-000533",
+  "url": "https://x.com/mustafasuleyman/status/2124663594449318173",
+  "capturedAt": "2026-11-23T13:12:54Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "b150584010cfe2f1e9163073d22748aff0b3d0c1f33e235bfaea0c05dfb37f86",
+    "width": 640,
+    "height": 1242,
+    "bytes": 219514,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-23T13:12:54Z",
+    "url": "https://x.com/mustafasuleyman/status/2124663594449318173",
+    "finalUrl": "https://x.com/mustafasuleyman/status/2124663594449318173",
+    "screenshot": {
+      "sha256": "b150584010cfe2f1e9163073d22748aff0b3d0c1f33e235bfaea0c05dfb37f86",
+      "width": 640,
+      "height": 1242,
+      "bytes": 219514,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2124663594449318173",
+      "handle": "mustafasuleyman",
+      "syndicationSha256": "0fd452ee16717c51e4ce7cb1f6d584d0743bf894edbe5352f6e6d3a07a234f0e",
+      "createdAt": "2026-11-23T00:37:29.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "mustafasuleyman",
+      "lang": "en",
+      "textSha256": "97d217f8ed14c884c4342fb256ec39d2c4641e81e31213142335c8d6b380d52a",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "b941076f4b0cc5012efb696850132a56a44e5512287e8ac128a2f1dd599a6bda",
+          "bytes": 70935,
+          "width": 3116,
+          "height": 1964
+        }
+      ],
+      "oembedSha256": "76b73cbe142bdf8f2486335f4ce2abce14d572d3b29ee1dc6f45ad75e66c65bf",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

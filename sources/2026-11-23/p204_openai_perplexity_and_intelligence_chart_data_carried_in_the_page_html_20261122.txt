@@ -1,0 +1,213 @@
+Source: https://openai.com/index/perplexity-and-intelligence/ (the same page as p198; the data of the plot that opens the post, which the page draws in the browser)
+Extracted: 2026-11-23 (Taipei) from the HTML that our script fetched (p198), by a script that decodes the page's escaped chart specification and copies its description, title and datasets. The Internet Archive's earliest capture of the address, 2026-11-22 17:07:26 UTC, carries identical chart data.
+Cited by topic 530 (and by topic 533, which compares the chart that its post attaches with this one).
+
+Chart specification carried in the page HTML (the plot that opens the post, drawn in the browser from this data). Decoded from the page's escaped form and re-indented; the keys below are copied from the page: dotcomConfig, vegaLiteSpec.description, vegaLiteSpec.title and vegaLiteSpec.datasets (points, guides, window). The drawing instructions (encoding and layers) of the spec are not copied.
+
+{
+ "dotcomConfig": {
+  "linkId": "base-model-log-perplexity",
+  "theme": "blue",
+  "aspectRatio": 1.7,
+  "minHeight": 425,
+  "minWidth": 704
+ },
+ "description": "Base model log-perplexity on the internal OpenAI codebase. The line connects released models. A square shows a separate internal model. The shaded band spans 0.68 to 0.70.",
+ "title": {
+  "text": "Base model log-perplexity",
+  "subtitle": [
+   "Internal OpenAI codebase"
+  ]
+ },
+ "datasets": {
+  "points": [
+   {
+    "month": "2022-03",
+    "year": 2022.2083333333333,
+    "value": 0.986,
+    "model": "GPT-3.5",
+    "modelLabel": "GPT-3.5",
+    "series": "Released models",
+    "milestone": "Fluent conversation",
+    "labelYear": 2022.22,
+    "labelValue": 1.003,
+    "labelLinkValue": 0.9969999999999999,
+    "labelLinkYear": 2022.22
+   },
+   {
+    "month": "2023-03",
+    "year": 2023.2083333333333,
+    "value": 0.913,
+    "model": "GPT-4",
+    "modelLabel": "GPT-4",
+    "series": "Released models",
+    "milestone": "Benefits from thinking before answering",
+    "labelYear": 2023.26,
+    "labelValue": 0.939,
+    "labelLinkValue": 0.9329999999999999,
+    "labelLinkYear": 2023.26
+   },
+   {
+    "month": "2023-11",
+    "year": 2023.875,
+    "value": 0.909,
+    "model": "GPT-4 Turbo",
+    "modelLabel": "GPT-4 Turbo",
+    "series": "Released models",
+    "labelYear": 2023.89,
+    "labelValue": 0.891,
+    "labelLinkValue": 0.897,
+    "labelLinkYear": 2023.89
+   },
+   {
+    "month": "2024-05",
+    "year": 2024.375,
+    "value": 0.904,
+    "model": "GPT-4o / o1",
+    "modelLabel": "GPT-4o / o1",
+    "series": "Released models",
+    "labelYear": 2024.3,
+    "labelValue": 0.94,
+    "labelLinkValue": 0.9339999999999999,
+    "labelLinkYear": 2024.3
+   },
+   {
+    "month": "2025-02",
+    "year": 2025.125,
+    "value": 0.876,
+    "model": "GPT-4.5",
+    "modelLabel": "GPT-4.5",
+    "series": "Released models",
+    "labelYear": 2025.04,
+    "labelValue": 0.858,
+    "labelLinkValue": 0.864,
+    "labelLinkYear": 2025.04
+   },
+   {
+    "month": "2025-04",
+    "year": 2025.2916666666667,
+    "value": 0.902,
+    "model": "GPT-4.1 / o3",
+    "modelLabel": "GPT-4.1 / o3",
+    "series": "Released models",
+    "labelYear": 2025.25,
+    "labelValue": 0.955,
+    "labelLinkValue": 0.949,
+    "labelLinkYear": 2025.25
+   },
+   {
+    "month": "2025-08",
+    "year": 2025.625,
+    "value": 0.893,
+    "model": "GPT-5 / 5.1",
+    "modelLabel": "GPT-5 / 5.1",
+    "series": "Released models",
+    "labelValue": 0.954,
+    "rightCallout": true
+   },
+   {
+    "month": "2025-12",
+    "year": 2025.9583333333333,
+    "value": 0.888,
+    "model": "GPT-5.2",
+    "modelLabel": "GPT-5.2",
+    "series": "Released models",
+    "labelValue": 0.93,
+    "rightCallout": true
+   },
+   {
+    "month": "2026-02",
+    "year": 2026.125,
+    "value": 0.871,
+    "model": "GPT-5.3-Codex / 5.4",
+    "modelLabel": "GPT-5.3-Codex / 5.4",
+    "series": "Released models",
+    "milestone": "Useful coder",
+    "labelValue": 0.906,
+    "rightCallout": true
+   },
+   {
+    "month": "2026-04",
+    "year": 2026.2916666666667,
+    "value": 0.848,
+    "model": "GPT-5.5",
+    "modelLabel": "GPT-5.5",
+    "series": "Released models",
+    "labelValue": 0.877,
+    "rightCallout": true
+   },
+   {
+    "month": "2026-07",
+    "year": 2026.5416666666667,
+    "value": 0.828,
+    "model": "GPT-5.6 Sol",
+    "modelLabel": "GPT-5.6 Sol",
+    "series": "Released models",
+    "milestone": "Cybersecurity expert",
+    "labelValue": 0.844,
+    "rightCallout": true
+   },
+   {
+    "month": "2026-09",
+    "year": 2026.7083333333333,
+    "value": 0.783,
+    "model": "GPT-6 Astra",
+    "modelLabel": "GPT-6 Astra",
+    "series": "Released models",
+    "labelValue": 0.81,
+    "rightCallout": true
+   },
+   {
+    "month": "2026-11",
+    "year": 2026.875,
+    "value": 0.761,
+    "model": "GPT-6.2 Astra",
+    "modelLabel": "GPT-6.2 Astra",
+    "series": "Released models",
+    "milestone": "Solved a Millennium Prize math problem",
+    "labelValue": 0.776,
+    "rightCallout": true
+   },
+   {
+    "month": "2026-11",
+    "year": 2026.875,
+    "value": 0.732,
+    "modelLabel": "Internal model",
+    "series": "Internal model",
+    "model": "Internal model",
+    "labelValue": 0.74,
+    "rightCallout": true
+   }
+  ],
+  "guides": [
+   {
+    "value": 0.986,
+    "milestone": "Fluent conversation"
+   },
+   {
+    "value": 0.913,
+    "milestone": "Benefits from thinking before answering"
+   },
+   {
+    "value": 0.871,
+    "milestone": "Useful coder"
+   },
+   {
+    "value": 0.828,
+    "milestone": "Cybersecurity expert"
+   },
+   {
+    "value": 0.761,
+    "milestone": "Solved a Millennium Prize math problem"
+   }
+  ],
+  "window": [
+   {
+    "low": 0.68,
+    "high": 0.7,
+    "mid": 0.69,
+    "label": "?"
+   }
+  ]
+ }
+}

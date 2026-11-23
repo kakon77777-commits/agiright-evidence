@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000532",
+  "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+  "capturedAt": "2026-11-23T13:11:16Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 1571638,
+    "sha256": "88a56958523ec0cd64918e6f5bb40d4d9bc39b0be23eb4d2534853c3d07984d0",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "67E65D156E9157B7EA3E5F4C29813CB3",
+      "status": 200,
+      "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4497,
+      "afterScrollHeight": 4497,
+      "wantedHeight": 4497
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "78eff1454f5f666c2f5a4a4deace60420a5d2cc49c7ca6e85214dc4b05deb351",
+    "width": 1366,
+    "height": 4497,
+    "bytes": 688999,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4497,
+    "afterScrollHeight": 4497
+  },
+  "record": {
+    "capturedAt": "2026-11-23T13:11:16Z",
+    "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html;charset=UTF-8",
+      "bytes": 1571638,
+      "sha256": "88a56958523ec0cd64918e6f5bb40d4d9bc39b0be23eb4d2534853c3d07984d0"
+    },
+    "finalUrl": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+    "httpStatus": 200,
+    "title": "Chinese-nexus actor’s Cairn AI agents found a zero-day on their own | AWS Security Blog",
+    "rendered": {
+      "textChars": 10396,
+      "textSha256": "36c95427181f05bd0c9826653a06bc1bb4869ab97095daf4c3b1d42e78be5c0b",
+      "htmlSha256": "e503bed3f5eb7b724d5308b799d697870288e0b8295a2320aee2493234018d25"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "78eff1454f5f666c2f5a4a4deace60420a5d2cc49c7ca6e85214dc4b05deb351",
+      "width": 1366,
+      "height": 4497,
+      "bytes": 688999,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261120174246",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261120174246/https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261123131235/https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "timestamp": "20261123131235",
+      "verifiedHttp": 200
+    }
+  }
+}

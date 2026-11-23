@@ -1,0 +1,37 @@
+Source: https://x.com/mustafasuleyman/status/2124663594449318173 (a post on X from the account @mustafasuleyman, shown by X as 上午8:37 · 2026年11月23日 in the Taipei time zone; the page's time element reads 2026-11-23T00:37:29Z), quoting a post of Jakub Pachocki (@merettm)
+Read: 2026-11-23 (Taipei) in a browser connected to the host's machine (page text); the post is not fetched by script, and the replies were not read. Copied here are the whole post, the quote card as it appears (cut at "our ability to"), and the two time lines, followed by the labels of the chart image attached to the post (typed from the image; the snapshot step stores the image itself). The text below is typed from the page, not saved by a script.
+Cited by topic 533.
+
+Mustafa Suleyman
+@mustafasuleyman
+We fully support OpenAI's transparency initiative. Thanks to @merettm @markchen90 @gdb @sama for leading the way.
+
+We all got into this field to build safe AGI that is genuinely good for humanity. One of the hardest parts of AI safety is coordination, and this is a step in the right direction. Many more steps like this will be needed to deliver safe, contained, and aligned AGI in the next few years.
+
+We're committed to sharing our pre-training progress on a common held-out evaluation set. With OpenAI's permission, we report MAI-2 Base on their evaluation set. Its log-perplexity is 0.819, putting it in the same ballpark as the GPT-5.6 Sol base model. Our model uses the same tokenizer as OpenAI, so the numbers are directly comparable.
+
+In the future, to be able to compare across labs we might need to report bits-per-byte (BPB) rather than perplexity since different labs use different tokenizers. We will also need different evaluation datasets - the fact we have access to OpenAI's evaluation dataset is a special case.
+
+Safety and alignment is now the mission. It's the absolute number one most important focus for our industry. And it begins with small, practical steps like these towards better coordination on pacing.
+
+Quoted post:
+Jakub Pachocki
+@merettm
+We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to
+
+(The quote card on the page is cut at "our ability to".)
+Time shown on the page: 上午8:37 · 2026年11月23日 (the time element reads 2026-11-23T00:37:29Z); the quoted post's time element reads 2026-11-22T17:03:00Z.
+Read in the connected Chrome on 2026-11-23 (Taipei) by get_page_text and by the page's article text; the syndication data (cdn.syndication.twimg.com) holds only the first lines of the post.
+
+
+Image attached to the post (the snapshot step's x-media-1.jpg, a chart; the text below is typed from the image by hand, in the order a reader meets it, and is not machine-read):
+Title: Base model log-perplexity
+Logos at the top right: MAI and OpenAI
+Vertical axis, titled Log-perplexity: 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1, 1.05 (in red, at the left of the axis: 0.878 and 0.819)
+Horizontal axis, titled Release or evaluation date: 2022, 2023, 2024, 2025, 2026
+Dotted bands, each labelled at the left: Fluent conversation (near 1.0); Benefits from thinking before answering (near 0.91); Useful coder (near 0.87); Cybersecurity expert (near 0.83); Solved a Millennium Prize math problem (near 0.76)
+Blue line of labelled points (OpenAI models): GPT-3.5, GPT-4, GPT-4 Turbo, GPT-4o / o1, GPT-4.5, GPT-4.1 / o3, GPT-5 / 5.1, GPT-5.2, GPT-5.3-Codex / 5.4, GPT-5.5, GPT-5.6 Sol, GPT-6 Astra, GPT-6.2 Astra
+Square at the right end, below the last point: Internal model
+Shaded zone below 0.7, marked: ?
+Red line of two labelled points: MAI-1 Base (at the red 0.878 line) and MAI-2 Base (at the red 0.819 line)
+The values near the dotted bands are read by eye from the axis; the image prints only two numbers beside the points, 0.878 and 0.819.

@@ -1,0 +1,61 @@
+{
+  "id": "topic-2026-000534",
+  "url": "https://x.com/SenBooker/status/2124639261182103917",
+  "capturedAt": "2026-11-23T13:13:15Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "228aa8f47f2788ab692076c08c35b224f2ee61fd3eb2a3dcbd4763a033d82b2a",
+    "width": 640,
+    "height": 900,
+    "bytes": 36684,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-23T13:13:15Z",
+    "url": "https://x.com/SenBooker/status/2124639261182103917",
+    "finalUrl": "https://x.com/SenBooker/status/2124639261182103917",
+    "screenshot": {
+      "sha256": "228aa8f47f2788ab692076c08c35b224f2ee61fd3eb2a3dcbd4763a033d82b2a",
+      "width": 640,
+      "height": 900,
+      "bytes": 36684,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2124639261182103917",
+      "handle": "SenBooker",
+      "syndicationSha256": "a89733bef2482bc830768f8751fdeae86b5c3d60ec1f07052e80fd8befe825ec",
+      "createdAt": "2026-11-22T23:00:48.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "SenBooker",
+      "lang": "en",
+      "textSha256": "ede487db322067aa385ff8df83fbc7d6036494493dd82f33220af5535d9fd5ee",
+      "media": [],
+      "oembedSha256": "294871e2e051ae6d4dd847a6ecfd2aff18e27588184d7bbc18f9ea2bf96dfbde",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+Source: https://www.nga.org/wp-content/uploads/2026/11/NGA_AI_Princples_Nov2026.pdf (National Governors Association, "Federal and State Roles in AI Regulation", Statement of Principles of the Governors Council to Secure American AI Dominance Working Group; the PDF the press release p199 links)
+Fetched: 2026-11-23 (Taipei) by script, HTTP 200, 114,445 bytes, SHA-256 of the PDF e6137054f3b6cbf7b351bd123ba424b600604dbd08938d7cd4cf26585cc68481, 3 pages (the PDF's creation date is November 20, 2026 in its own metadata). The snapshot step does not store this PDF (it stores the press release's address, topic-2026-000531); the file name keeps the address's own spelling "Princples". Text extracted with pdftotext -layout (UTF-8); copied here whole and unchanged. The extraction keeps the page's two-column layout, so some quoted passages are broken across lines.
+Cited by topic 531.
+
+Federal and State Roles in AI Regulation
+NGA: Governors Council to Secure American AI Dominance Working Group
+
+Statement of Principles
+
+Governors share a commitment to advancing artificial intelligence (AI) innovation and
+protecting the public, recognizing that the appropriate governance approach to frontier
+models continues to evolve. The National Governors Association (NGA) recommends the
+following principles for regulation and governance of AI at both the state and federal levels:
+
+1. Advance innovation AND protect the public. AI policies should strengthen and ensure
+dominance of American technological leadership and economic opportunity and job creation while
+protecting public safety, civil rights, and individual privacy. The United States will not win the AI
+technological race if the public does not have faith in its safety or believe that it will benefit the
+people.
+2. Establish clear and complementary federal and state roles. The federal government should
+address national and international AI risks, while states retain the authority to protect people and
+govern AI use within their responsibilities under the federal system.
+3. Match safeguards to credible evidence-based risks. AI requirements should use clear,
+technically informed definitions and proportionate safeguards, with regular review as technological
+capabilities evolve.
+4. Promote consistency while preserving effective protections. Federal and state approaches
+should reduce unnecessary duplication and conflicting requirements wherever possible aimed at
+protecting the public.
+5. Encourage competition and development. Federal and state laws and regulations should
+encourage healthy competition and development and not favor larger companies or create
+unnecessary impediments to smaller companies entering the market.
+
+NGA encourages the federal government to enact AI governance frameworks informed by
+the following principles as AI is developed:
+
+1. Enact a risk-based framework governing and overseeing the safe and responsible
+development of frontier models. This framework should include standards for the most advanced,
+general-purpose AI models whose risks and reach are national in scale. These standards should be
+clear, consistently applicable, protective of the public and proportionate to risk. The models should
+be evaluated or audited by independent experts, and their developers should be required to report
+security breaches and significant safety incidents to federal authorities and affected states. Given
+the speed with which technology changes, the framework should provide a process for updating
+definitions and standards, maintain technical expertise, ensure meaningful accountability and act
+in the interest of public safety. The federal government should look at the laws, regulations and
+experiences of states to inform this work wherever possible as intended in the federal system.
+2. Protect national security and critical systems. The federal government should establish
+national standards to address AI-related threats to critical infrastructure, including financial
+systems, chem-, bio-, and nuclear security, and cybersecurity. These standards should include clear
+incident classifications and consistent and defined procedures for timely information sharing and
+coordinated responses among federal and state authorities.
+3. Lead international cooperation on AI. The federal government should lead U.S. engagement
+with other nations on AI standards, trade, security and global risks, while incorporating state
+perspectives where international commitments affect state responsibilities.
+4. Maintain American AI leadership in technology, research and economic development.
+Federal policy should strengthen American leadership in AI research, development, and
+deployment, support economic competitiveness, and advance innovation alongside effective
+safeguards.
+5. Approach preemption carefully. Any attempt to preempt state laws should be approached
+cautiously and include meaningful input from a representative cross-section of states. States are
+important partners in developing effective AI policy, and their experience, perspectives, and
+regulatory approaches should inform any consideration of federal preemption Governors will use
+the National Governor's Association permanent policy, "Principles of Federalism" to evaluate any
+federal attempt at preemption.
+
+NGA encourages state and territorial governments to enact AI governance and regulation
+frameworks informed by the following principles as AI is developed and deployed:
+
+1. Maintain accountability for consumer-facing harms. States should serve as a primary
+accountability mechanism for AI harms affecting people as AI is deployed. States should review
+and update existing laws as needed, preserve consumer and worker protection and anti-
+discrimination enforcement, address fraud and impersonation, and ensure appropriate transparency
+and access to legal remedies. These responsibilities should include coordination with the Federal
+Government, sector regulators and other states, while preserving appropriate roles for tort law and
+civil liability. States should set guidelines requiring regular monitoring of AI-designed algorithms
+so that their results align with their intended, documented purposes and any unintended
+consequences are identified and addressed.
+2. Protect children and promote digital safety. States should protect people, especially children,
+from AI-related online harms, including those arising from addictive design, chatbots and
+companion applications, through safeguards appropriate to the risks and populations involved.
+3. Protect vulnerable populations. States should address AI-enabled scams, fraud, exploitation,
+and abuse, with particular attention to older adults and people who may face heightened risks.
+4. Support workers. States should address the challenges that workers may face on the job during
+the rapid acceleration of AI. Job creation must be a core priority as AI is rolled out across the
+economy, as should protecting workers from potential harms and developing the program
+infrastructure needed to support workers who face transition.
+5. Ensure accountability in consequential automated decisions. States should establish
+appropriate safeguards for automated systems used in decisions affecting housing, employment,
+lending, insurance and access to essential services. Protections should include human oversight and
+address unlawful discrimination, meaningful transparency and appropriate opportunities to
+challenge adverse decisions.
+6. Guide AI use in the public sector and general workforce. States should determine how AI
+is used within state and local public employment, including its implications for workforce
+development, employee protections and applicable collective bargaining obligations.
+7. Strengthen state cybersecurity. States should protect public systems, sensitive data, and
+essential services from AI-enabled threats and vulnerabilities associated with AI deployment. State
+approaches should support prevention, incident reporting, response, and coordination with federal
+and local partners. States should recognize that AI will often be the strongest tool to counter novel
+cybersecurity threats and should make appropriate preparations to securely enable those tools for
+cyber defense while promoting resiliency against novel attacks.
+8. Use AI to improve government and people's lives. States should pursue responsible AI
+applications that improve public services, increase efficiency, and streamline access to government
+assistance, with appropriate human oversight and evaluation of outcomes.
+9. Prepare students and the next generation for AI. States should promote AI literacy and
+encourage teachers and students to understand, critically evaluate, and responsibly use AI,
+preparing them for a future in which this technology will shape education, work, and civic life.
+10. Leverage AI for advances in healthcare to benefit people. States should support responsible
+AI innovation that improves health outcomes, expands access to care, and advances affordability,
+while protecting patient safety, privacy, and appropriate clinical oversight.
+11. Protect people's privacy and personal information. States should safeguard people's privacy
+and information security amid increasing AI-related risks, protecting personal information from
+unauthorized access, misuse, and disclosure.
+12. Develop and foster a foundation of AI talent. For states to thrive in the AI economy, they
+must have a foundation of people with AI expertise. States should collaborate on creating this
+foundation of AI advisors and experts to share information and best practices.
+13. Deploy AI to solve big problems for the public good. American history is full of examples
+of solving complex problems and national challenges in bold ways. States should use the
+technological potential of AI to continue that tradition and be ambitious in deployment to benefit
+the public good. Since so many of the emerging capabilities of AI were never contemplated in
+current regulatory regimes, states should consider creating sandboxes and other public facing tools
+that allow for experimentation and innovation.
+14. Coordination among states. When states act, they are encouraged to coordinate to attempt to
+avoid the creation of a fragmented regulatory landscape. States should draw on best practices from
+academia, industry, labor, and peer states, look for ways to recognize and harmonize with one
+another's frameworks, and coordinate on common standards for oversight.
+
+Conclusion and Path Forward:
+
+The benefits and potential risks of artificial intelligence are too consequential to ignore or leave
+unaddressed. Both the federal government and the states have a responsibility to promote
+innovation and protect the public from harm. The most complex and fundamental questions of
+federalism are implicated in AI governance. Absent federal measures, coordination among states
+becomes even more important to avoid a harmful fragmented national regulatory landscape.
+
+Governors have an opportunity to use their convening power to advance a consistent approach that
+protects the public, supports innovation and preserves appropriate state authority. As laboratories
+of democracy, states can learn from each other, especially from the states that have already
+undertaken AI regulation.
+
+To that end, this working group will continue its efforts, and NGA will engage governors' offices
+from all states and territories to examine common AI definitions, standards, best practices, and
+durable mechanisms for multistate cooperation, including shared technical capacity and mutual
+recognition and cooperation of state frameworks.
+
+This effort will help states build a shared national approach, promote consistency across state
+frameworks, and inform the incoming Congress as it develops an AI framework consistent with the
+proposed federal principles. Governors will continue to lead in this essential area by bringing
+practical experience and substantive proposals to the task of shaping the nation's approach to AI.

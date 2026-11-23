@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000530",
+  "url": "https://openai.com/index/perplexity-and-intelligence/",
+  "capturedAt": "2026-11-23T13:09:48Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 396346,
+    "sha256": "b455aa59fe8abb7bc5d32b4446ca5d0c899c31addf83bf233aac21ea43ac29d7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "90E704E843F71F28CBB93B7A4DD6FCFB",
+      "status": 403,
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-23T13:09:48Z",
+    "url": "https://openai.com/index/perplexity-and-intelligence/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 396346,
+      "sha256": "b455aa59fe8abb7bc5d32b4446ca5d0c899c31addf83bf233aac21ea43ac29d7"
+    },
+    "finalUrl": "https://openai.com/index/perplexity-and-intelligence/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "c0672b89fffb49aaacc7f76546a84c4f8ed1e26d00c6d464cda88e2663a3bb10"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 429 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}
