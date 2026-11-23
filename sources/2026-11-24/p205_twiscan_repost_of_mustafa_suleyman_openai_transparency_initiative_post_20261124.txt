@@ -1,0 +1,93 @@
+Source: https://twiscan.com/en/x/mustafasuleyman/2124663594449318173 (a repost, on twiscan.com, of the post by Mustafa Suleyman on X that p202 copies; the page that the Moderate of Round 111 cites as a visible repost)
+Fetched: 2026-11-24 (Taipei, just after midnight) by script, HTTP 200, 47,982 bytes of HTML. The text below is the text carried by the page with tags removed and character references decoded; copied here whole. It carries the five paragraphs of the post and the text of the quoted post, word for word as p202 has them, and no attached chart.
+The mirror that the Realist of Round 111 cites, https://www.nitter.cf/mustafasuleyman, returned HTTP 530 with a Cloudflare Tunnel error (1033) when the host fetched it at the same time, so nothing from it is saved. The host also fetched the OpenAI page, the governors' press release and PDF, and the Amazon post again after the round: the OpenAI page and the Amazon post have the same text as p198 and p201, the PDF has the same size as the file behind p200 (114,445 bytes), and the press release has the same text as p199 apart from its list of recent news.
+Cited by Episode 111 (the host's check of the Moderate's and the Realist's statements about Suleyman's post, in the setup section).
+
+Mustafa Suleyman(@mustafasuleyman):We fully support OpenAI's transparency initiative. Thanks to @merettm @markchen90 @gdb @sama for leading the way.
+We all got into this field to build safe AGI that is genuinely good for humanity. One of the hardest parts of AI safety is coordination, and this is a step in the right direction. Many more steps like this will be needed to deliver safe, contained, and aligned AGI in the next few years.
+We're committed to sharing our pre-training progress on a common held-out evaluation set. With OpenAI's permission, we report MAI-2 Base on their evaluation set. Its log-perplexity is 0.819, putting it in the same ballpark as the GPT-5.6 Sol base model. Our model uses the same tokenizer as OpenAI, so the numbers are directly comparable.
+In the future, to be able to compare across labs we might need to report bits-per-byte (BPB) rather than perplexity since different labs use different tokenizers. We will also need different evaluation datasets - the fact we have access to OpenAI's evaluation dataset is a special case.
+Safety and alignment is now the mission. It's the absolute number one most important focus for our industry. And it begins with small, practical steps like these towards better coordination on pacing.
+TwiScan
+Hot
+Communities
+Account collections
+Login
+Register
+English
+日本語
+한국의
+简体中文
+繁体中文
+Register and share your invite link to earn from video plays and referrals.
+Register now
+Mustafa Suleyman
+@mustafasuleyman
+CEO, @MicrosoftAI | Author: The Coming Wave | Past: Co-founder, @InflectionAI & @GoogleDeepMind
+Joined January 2014
+196 Following 1.2M Followers
+Mustafa Suleyman @mustafasuleyman
+2026.11.23 00:37
+We fully support OpenAI's transparency initiative. Thanks to @merettm @markchen90 @gdb @sama for leading the way.
+We all got into this field to build safe AGI that is genuinely good for humanity. One of the hardest parts of AI safety is coordination, and this is a step in the right direction. Many more steps like this will be needed to deliver safe, contained, and aligned AGI in the next few years.
+We're committed to sharing our pre-training progress on a common held-out evaluation set. With OpenAI's permission, we report MAI-2 Base on their evaluation set. Its log-perplexity is 0.819, putting it in the same ballpark as the GPT-5.6 Sol base model. Our model uses the same tokenizer as OpenAI, so the numbers are directly comparable.
+In the future, to be able to compare across labs we might need to report bits-per-byte (BPB) rather than perplexity since different labs use different tokenizers. We will also need different evaluation datasets - the fact we have access to OpenAI's evaluation dataset is a special case.
+Safety and alignment is now the mission. It's the absolute number one most important focus for our industry. And it begins with small, practical steps like these towards better coordination on pacing.
+Show more
+Jakub Pachocki @merettm
+2026.11.22 17:03
+We decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to understand AI behavior.
+Show more
+0
+0
+31
+272
+26
+Forward to community
+Most Popular Users
+Tibo
+@thsottiaux
+1M Followers
+FinancialJuice
+@financialjuice
+959.5K Followers
+Binance Wallet
+@BinanceWallet
+2.8M Followers
+First Squawk
+@FirstSquawk
+580K Followers
+Binance
+@binance
+16.1M Followers
+LiveSquawk
+@LiveSquawk
+504.2K Followers
+Serenity
+@aleabitoreddit
+1.1M Followers
+ClaudeDevs
+@ClaudeDevs
+836K Followers
+CNBC
+@CNBC
+6.3M Followers
+Seeking Alpha
+@SeekingAlpha
+348.9K Followers
+Boris Cherny
+@bcherny
+641.8K Followers
+TheStreet
+@TheStreet
+1.2M Followers
+The Wall Street Journal
+@WSJ
+22.3M Followers
+Thariq
+@trq212
+405.7K Followers
+Andrew Ambrosino
+@ajambrosino
+107K Followers
+Copyright notice
