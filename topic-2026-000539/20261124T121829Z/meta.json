@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000539",
+  "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls",
+  "capturedAt": "2026-11-24T12:18:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html",
+    "bytes": 527,
+    "sha256": "dfe354058cdf586a643d60439aee94e3de78e2413866694ffd4459db00ca43a7",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "BA47BA90A48494382F8DF7CF31F100F5",
+      "status": 403,
+      "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "4977a82b25adc78b20a2e98582f031963c6a62faaae9f0d0b4af327b60be4f2b",
+    "width": 1366,
+    "height": 900,
+    "bytes": 18239,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-24T12:18:29Z",
+    "url": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html",
+      "bytes": 527,
+      "sha256": "dfe354058cdf586a643d60439aee94e3de78e2413866694ffd4459db00ca43a7"
+    },
+    "finalUrl": "https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls",
+    "httpStatus": 403,
+    "title": "Access Denied",
+    "rendered": {
+      "textChars": 291,
+      "textSha256": "5b691ce2c95d61589c4e4cf5d5d2847ed5f136851e9fd3d2da77e250712a2332",
+      "htmlSha256": "3d9808e608fdf62719a1806d1f1340c8004fe8ad00228fd9f1b9b7178fc3ab56"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "4977a82b25adc78b20a2e98582f031963c6a62faaae9f0d0b4af327b60be4f2b",
+      "width": 1366,
+      "height": 900,
+      "bytes": 18239,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261123192349",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261123192349/https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261124121839/https://www.banking.senate.gov/hearings/protecting-americas-ai-advantage-oversight-of-us-export-controls",
+      "timestamp": "20261124121839",
+      "verifiedHttp": 200
+    }
+  }
+}

@@ -1,0 +1,6 @@
+The snapshot tool's browser was shown the Federal Register's "Request Access" page (a bot test) instead of the public-inspection page of document 2026-23999. That page prints the address of the machine that made the request on its button ("Request Access for <address>"), in the rendered text, in the rendered HTML (also in a data-client-ip attribute) and in the screenshot.
+Before this folder was published, the address in rendered.html and rendered.txt was replaced by the placeholder "[IP address redacted]", and screenshot.png (which shows the address) was taken out of the folder and not published. The hashes that the site's snapshot record (src/data/snapshots.json) lists for this capture are those of the ORIGINAL files, so the copies here no longer match the rendered-text, rendered-HTML and screenshot hashes in that record; raw.html (what a script received for the same address, HTTP 200, 37,560 bytes) is unchanged and does not carry the address.
+
+rendered.html: original SHA-256 69d49d7734df85fad6cfac44d8c02fae5472a6c195b344713029199768f860d5, 2 replacement(s)
+rendered.txt: original SHA-256 8bb5c5776fe5de13a04ab1ca920158045bf0fca4a19c4509e42d66604b1f04a5, 1 replacement(s)
+screenshot.png: original SHA-256 faa647f7e232c2978554f6ec1399e617e0d30687717b0f6ae52ddab09c375fcf, 102370 bytes; not published

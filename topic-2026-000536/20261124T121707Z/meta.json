@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000536",
+  "url": "https://chinaselectcommittee.house.gov/media/press-releases/statement-on-jensen-huang-s-reinstatement-at-nvidia",
+  "capturedAt": "2026-11-24T12:17:07Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 46267,
+    "sha256": "2339de4a1c5eea9ef2271c63c25e49ea7dc9da54be77289e10d5b43a6aeb739c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "4DDB17863D2360BE2721C2D334EA2BEF",
+      "status": 200,
+      "url": "https://chinaselectcommittee.house.gov/media/press-releases/statement-on-jensen-huang-s-reinstatement-at-nvidia",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 1278,
+      "afterScrollHeight": 1278,
+      "wantedHeight": 1278
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "5c498aa84e4a88ddaf0a54f44ebad72ca647d9469c8705693a724896e042927f",
+    "width": 1366,
+    "height": 1278,
+    "bytes": 253250,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 1278,
+    "afterScrollHeight": 1278
+  },
+  "record": {
+    "capturedAt": "2026-11-24T12:17:07Z",
+    "url": "https://chinaselectcommittee.house.gov/media/press-releases/statement-on-jensen-huang-s-reinstatement-at-nvidia",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 46267,
+      "sha256": "2339de4a1c5eea9ef2271c63c25e49ea7dc9da54be77289e10d5b43a6aeb739c"
+    },
+    "finalUrl": "https://chinaselectcommittee.house.gov/media/press-releases/statement-on-jensen-huang-s-reinstatement-at-nvidia",
+    "httpStatus": 200,
+    "title": "Statement on Jensen Huang's Reinstatement at NVIDIA | Select Committee on the CCP",
+    "rendered": {
+      "textChars": 1628,
+      "textSha256": "e7016a7a5527cfd24bf55581c59e14e5ecf74d2452d01e07fed73cd73966b2e9",
+      "htmlSha256": "523a83606d1d749dde5ebf979b8a5aeff495ad4365c7ad88fbc2a71edbaec411"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "5c498aa84e4a88ddaf0a54f44ebad72ca647d9469c8705693a724896e042927f",
+      "width": 1366,
+      "height": 1278,
+      "bytes": 253250,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261124022810",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261124022810/https://chinaselectcommittee.house.gov/media/press-releases/statement-on-jensen-huang-s-reinstatement-at-nvidia"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261124022810/https://chinaselectcommittee.house.gov/media/press-releases/statement-on-jensen-huang-s-reinstatement-at-nvidia",
+      "timestamp": "20261124022810",
+      "verifiedHttp": 200
+    }
+  }
+}

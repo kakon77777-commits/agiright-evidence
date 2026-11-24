@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000535",
+  "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+  "capturedAt": "2026-11-24T12:16:46Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 62000,
+    "sha256": "101109e6615b98c061b9e39801e926acd5fc99186dec62e6d3a473e79f41a855",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "D4E4ACCCA549BE8EF379ACF2BE3B1216",
+      "status": 200,
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2608,
+      "afterScrollHeight": 2608,
+      "wantedHeight": 2608
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "699c2ab20fd72497e8ff0580923ef97aa6d670c389d99bf505ac724a8c423d9b",
+    "width": 1366,
+    "height": 2608,
+    "bytes": 374002,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2608,
+    "afterScrollHeight": 2608
+  },
+  "record": {
+    "capturedAt": "2026-11-24T12:16:46Z",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 62000,
+      "sha256": "101109e6615b98c061b9e39801e926acd5fc99186dec62e6d3a473e79f41a855"
+    },
+    "finalUrl": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+    "httpStatus": 200,
+    "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director | NVIDIA Newsroom",
+    "rendered": {
+      "textChars": 5320,
+      "textSha256": "6523014e7a57578345194f8f001c749c01f40e2c83df5427e8df096554e8e6e8",
+      "htmlSha256": "b14e47d65cadab01ba916f1be5a62410cf9756a90e74b1c9d80fab3b0a86e809"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "699c2ab20fd72497e8ff0580923ef97aa6d670c389d99bf505ac724a8c423d9b",
+      "width": 1366,
+      "height": 2608,
+      "bytes": 374002,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261123140201",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261123140201/https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261123155640/https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "timestamp": "20261123155640",
+      "verifiedHttp": 200
+    }
+  }
+}

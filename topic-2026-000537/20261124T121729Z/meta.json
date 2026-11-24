@@ -1,0 +1,69 @@
+{
+  "id": "topic-2026-000537",
+  "url": "https://x.com/WhiteHouse/status/2124872428723552741",
+  "capturedAt": "2026-11-24T12:17:29Z",
+  "tool": "agiright-snapshot/1.0",
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "embedIframeFound": true
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d5d74a1184197bf0d28a4aa370088c858bc0b645ce5f6f77b22f5eed9c8ce53a",
+    "width": 640,
+    "height": 917,
+    "bytes": 338704,
+    "format": "png",
+    "truncated": false,
+    "kind": "x-embed"
+  },
+  "record": {
+    "capturedAt": "2026-11-24T12:17:29Z",
+    "url": "https://x.com/WhiteHouse/status/2124872428723552741",
+    "finalUrl": "https://x.com/WhiteHouse/status/2124872428723552741",
+    "screenshot": {
+      "sha256": "d5d74a1184197bf0d28a4aa370088c858bc0b645ce5f6f77b22f5eed9c8ce53a",
+      "width": 640,
+      "height": 917,
+      "bytes": 338704,
+      "format": "png",
+      "truncated": false,
+      "kind": "x-embed"
+    },
+    "x": {
+      "statusId": "2124872428723552741",
+      "handle": "WhiteHouse",
+      "syndicationSha256": "5950d158bc2fa41e6af0529c5915d9443941e5acc7dd35f48ad8e35b6c95321a",
+      "createdAt": "2026-11-23T14:27:19.000Z",
+      "isEdited": false,
+      "editVersions": 1,
+      "authorHandle": "WhiteHouse",
+      "lang": "en",
+      "textSha256": "1775821f51c42bfcb136bf6a0935e5051a66a129b69eee564a1c7da650aa5cbd",
+      "media": [
+        {
+          "type": "photo",
+          "sha256": "9c33548c7a749ff717acf3a16913b45b066c517fe3288056be7e6bb48648870a",
+          "bytes": 222377,
+          "width": 1260,
+          "height": 1611
+        }
+      ],
+      "oembedSha256": "5d303cc80bb33194a383a2d3a1de6a0741e796875fe94d3da877f1496ac3f655",
+      "embedRendered": true
+    },
+    "suspectedBlock": false,
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "skipped",
+      "note": "our save requests to x.com fail (HTTP 523 observed 2026-10-03); no earlier public Wayback capture of this exact URL was found when checked"
+    }
+  }
+}

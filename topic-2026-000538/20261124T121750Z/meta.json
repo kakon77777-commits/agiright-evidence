@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000538",
+  "url": "https://www.federalregister.gov/public-inspection/2026-23999/additions-to-the-entity-list",
+  "capturedAt": "2026-11-24T12:17:50Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 37560,
+    "sha256": "262c12ab7b7084b97eb35fa34ac673bb5c5e2282628a52b1bc291c86f1df0f00",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5B159A693653E19FFA42A9D86A3410DD",
+      "status": 200,
+      "url": "https://unblock.federalregister.gov/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "faa647f7e232c2978554f6ec1399e617e0d30687717b0f6ae52ddab09c375fcf",
+    "width": 1366,
+    "height": 900,
+    "bytes": 102370,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-24T12:17:50Z",
+    "url": "https://www.federalregister.gov/public-inspection/2026-23999/additions-to-the-entity-list",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 37560,
+      "sha256": "262c12ab7b7084b97eb35fa34ac673bb5c5e2282628a52b1bc291c86f1df0f00"
+    },
+    "finalUrl": "https://unblock.federalregister.gov/",
+    "httpStatus": 200,
+    "title": "Federal Register :: Request Access",
+    "rendered": {
+      "textChars": 865,
+      "textSha256": "8bb5c5776fe5de13a04ab1ca920158045bf0fca4a19c4509e42d66604b1f04a5",
+      "htmlSha256": "69d49d7734df85fad6cfac44d8c02fae5472a6c195b344713029199768f860d5"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "faa647f7e232c2978554f6ec1399e617e0d30687717b0f6ae52ddab09c375fcf",
+      "width": 1366,
+      "height": 900,
+      "bytes": 102370,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261123213420",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261123213420/https://www.federalregister.gov/public-inspection/2026-23999/additions-to-the-entity-list"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261124121810/https://www.federalregister.gov/public-inspection/2026-23999/additions-to-the-entity-list",
+      "timestamp": "20261124121810",
+      "verifiedHttp": 200
+    }
+  }
+}
