@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000542",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+  "capturedAt": "2026-11-25T06:02:03Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 667918,
+    "sha256": "10409382b0524eba24ead6db3ad93769e234fb468fff9a2afd8ecd077f8440d9",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "0001F6D73F5F5129C0B4CE561ECE9028",
+      "status": 403,
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+    "width": 1366,
+    "height": 900,
+    "bytes": 13017,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-25T06:02:03Z",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 667918,
+      "sha256": "10409382b0524eba24ead6db3ad93769e234fb468fff9a2afd8ecd077f8440d9"
+    },
+    "finalUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 0,
+      "textSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "htmlSha256": "a94c94f588811c10677a2292f444faa286d4bf309dec44ecae2b3e43768b3735"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "d1d70518332660c0665f41466f116db67aaabadf2ffa7449aea8a8b1bc548e56",
+      "width": 1366,
+      "height": 900,
+      "bytes": 13017,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261124210408/https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "timestamp": "20261124210408",
+      "verifiedHttp": 200
+    }
+  }
+}

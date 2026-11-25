@@ -1,0 +1,17 @@
+Source: the OpenAI preprint "GPT-6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models" (cdn.openai.com PDF, November 24, 2026; 183 pages)
+These are the host's HAND NOTES on the preprint (the sentences quoted in topic 542 and the result of a word search), not the preprint's text. The preprint itself (89 MB) is not staged: it is OpenAI's public file at the address given in the notes.
+Cited by topic 542.
+
+GPT-6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models
+Masatoshi Uehara, Edward Zhou, Joshua Park, Morgan Griffiths, Austin Clyde, Suyash Shringarpure, Yuan Yuan, Kevin Rao (Life Science Team, OpenAI); Anton Bushuiev, Michael Yu (contractors, OpenAI); Kathryn M. Collins, Jesse Hendricks, Puwanat Sangkhapreecha, Lee-Shin Chu, Sharrol Bachas (Onava AI); Joy Jiao
+November 24, 2026
+
+Abstract (first sentences): Specialized models have transformed protein structure prediction and design, yet incorporating new molecular constraints often requires modifying the software or retraining the model. Here we show that general-purpose language models in the GPT-6 family can perform diverse protein modeling and design tasks using only reasoning and code, with natural language as a common means of specifying molecular constraints.
+
+Footnote on the first page: The OpenAI Life Science Team leads this project. Onava contributed by conducting a protein design campaign in the wet lab.
+
+Section 7, Conclusion: The GPT-6 model series demonstrates strong intrinsic capabilities in protein biology, with a notable exception in end-to-end structure prediction. Our protein design campaigns still rely on specialized structure prediction models, particularly for filtering candidates.
+
+Section 8.1, Models and Evaluation Settings: We evaluated GPT-5.6, GPT-6, GPT-6.2 and internal models. In the standard setting for Sections 2-4, GPT could write and run code but could not call pretrained protein models or browse the internet. The experimental campaigns used a pre-release version of GPT-6.2.
+
+Host's record of the file: https://cdn.openai.com/pdf/gpt-6-a-universal-foundation-model-for-protein-biology.pdf, fetched by script on 2026-11-25 (Taipei), HTTP 200, 89,066,180 bytes, 183 pages (PDF creation date 2026-11-25 04:49:58 Taipei time), SHA-256 beginning 09e40353271c7859. The text that pdftotext extracts is 154,897 characters. A search of that text for the words biosecurity, biosafety, misuse, safety, harm and Preparedness finds none of them (zero occurrences each); the word risk occurs once, in "immunogenicity risk" in the conclusion; the figures' own text is not searchable. The blog page at openai.com says of the risk: "The same capabilities that help scientists design proteins for new medicines could also be misused." and "Our Preparedness Framework guides how we assess these risks and test safeguards to reduce them."

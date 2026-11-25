@@ -1,0 +1,14 @@
+Source: the press-release list address that topic 543 tried on Representative Gottheimer's site, and the Congress.gov bill search page
+Fetched: 2026-11-25 (Taipei) by script; both texts are copied whole. The first is a "page can't be found" page; the second is the bot-check page that the search returned to the script (HTTP 403, 18 bytes of text), which was not tried further.
+Cited by topic 543 (negative result: no bill text and no bill number was found).
+
+[gott_press]
+ Skip to main content
+Whoops!
+This page can't be found.
+Try exploring the website to find what you're looking for.
+HOME
+
+
+[congress_rsi]
+ Just a moment...

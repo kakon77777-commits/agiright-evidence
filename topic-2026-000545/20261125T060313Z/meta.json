@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000545",
+  "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-fbi-doj-patel-blanche.html",
+  "capturedAt": "2026-11-25T06:03:13Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 788310,
+    "sha256": "5198ad9507b82f8414aebe14b0be15e6785cc97e3303f2306ae7b01774b2386a",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "359AD23201B88D1A9024DA7C1731E1B3",
+      "status": 200,
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-fbi-doj-patel-blanche.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 4541,
+      "afterScrollHeight": 4977,
+      "wantedHeight": 4977
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "02b653cd0573a72ca141729b41aa806615759dabb139ada47eb6e26429899b1e",
+    "width": 1366,
+    "height": 4977,
+    "bytes": 936581,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 4541,
+    "afterScrollHeight": 4977
+  },
+  "record": {
+    "capturedAt": "2026-11-25T06:03:13Z",
+    "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-fbi-doj-patel-blanche.html",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 788310,
+      "sha256": "5198ad9507b82f8414aebe14b0be15e6785cc97e3303f2306ae7b01774b2386a"
+    },
+    "finalUrl": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-fbi-doj-patel-blanche.html",
+    "httpStatus": 200,
+    "title": "AG Blanche, FBI’s Patel dodge questions about Jensen Huang investigation",
+    "rendered": {
+      "textChars": 6926,
+      "textSha256": "59bd5877cf237e4471b20fe21a05080f17c13d1334b109078ea488db83f76a92",
+      "htmlSha256": "c0865e0373ee301365b6dbff093a39d5ccb30c2b855d5bf7611010f4f64516a0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "02b653cd0573a72ca141729b41aa806615759dabb139ada47eb6e26429899b1e",
+      "width": 1366,
+      "height": 4977,
+      "bytes": 936581,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261125060334/https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-fbi-doj-patel-blanche.html",
+      "timestamp": "20261125060334",
+      "verifiedHttp": 200
+    }
+  }
+}

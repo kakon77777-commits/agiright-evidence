@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000546",
+  "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+  "capturedAt": "2026-11-25T06:03:59Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 814404,
+    "sha256": "11eeb0843e01ac8942d57640827fa9bf8a2d9dcae68b652c04ac3ff14181f687",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "5158BED65BEE4287D9F9C2BE8B7BA619",
+      "status": 200,
+      "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 3792,
+      "afterScrollHeight": 4228,
+      "wantedHeight": 4228
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "8ca7bcb6cfd1fd5068d033d25a1f48bcaefb05b03d0b2bf2ba33f1650373600f",
+    "width": 1366,
+    "height": 4228,
+    "bytes": 917544,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 3792,
+    "afterScrollHeight": 4228
+  },
+  "record": {
+    "capturedAt": "2026-11-25T06:03:59Z",
+    "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 814404,
+      "sha256": "11eeb0843e01ac8942d57640827fa9bf8a2d9dcae68b652c04ac3ff14181f687"
+    },
+    "finalUrl": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+    "httpStatus": 200,
+    "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+    "rendered": {
+      "textChars": 5711,
+      "textSha256": "9f6e2ceed80e799a3fe25b8d9deb1bf9fc65f8626ed2c2e29d7dce3341f04792",
+      "htmlSha256": "f5b4ec1913c5de641f8e1936727ec92391d3753ecdeb30bbbd582376e802dfb9"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "8ca7bcb6cfd1fd5068d033d25a1f48bcaefb05b03d0b2bf2ba33f1650373600f",
+      "width": 1366,
+      "height": 4228,
+      "bytes": 917544,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261124202135",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261124202135/https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261124202135/https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+      "timestamp": "20261124202135",
+      "verifiedHttp": 200
+    }
+  }
+}

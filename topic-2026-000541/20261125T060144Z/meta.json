@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000541",
+  "url": "https://safeguards.anthropic.com/2026/siren/",
+  "capturedAt": "2026-11-25T06:01:44Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 34932,
+    "sha256": "34d1a5ea6fec31735202a0176172bf684b5227aad20fda91dd3be91a6a8d9f28",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "B5450A0AB5E63412E09FAC7D8EB71AD9",
+      "status": 200,
+      "url": "https://safeguards.anthropic.com/2026/siren/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 16727,
+      "afterScrollHeight": 16727,
+      "wantedHeight": 12000
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "b28188511e2247f4f42cedd24f5ca1632a7065289b79f78f0a42bd82351cce88",
+    "width": 1366,
+    "height": 12000,
+    "bytes": 1667046,
+    "format": "jpeg",
+    "truncated": true,
+    "feedClipped": false,
+    "firstLoadHeight": 16727,
+    "afterScrollHeight": 16727
+  },
+  "record": {
+    "capturedAt": "2026-11-25T06:01:44Z",
+    "url": "https://safeguards.anthropic.com/2026/siren/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 34932,
+      "sha256": "34d1a5ea6fec31735202a0176172bf684b5227aad20fda91dd3be91a6a8d9f28"
+    },
+    "finalUrl": "https://safeguards.anthropic.com/2026/siren/",
+    "httpStatus": 200,
+    "title": "Measuring and mitigating agent sandbox escape with Siren",
+    "rendered": {
+      "textChars": 25262,
+      "textSha256": "1d26004e45d574d2bd6562df821b159b7f0d128d153718f1aeec6ab6068fd916",
+      "htmlSha256": "8d0c68617e176a69465a61b36c6277300af7be5540540b9c2c775b226903fb52"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "b28188511e2247f4f42cedd24f5ca1632a7065289b79f78f0a42bd82351cce88",
+      "width": 1366,
+      "height": 12000,
+      "bytes": 1667046,
+      "format": "jpeg",
+      "truncated": true,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261124213726",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261124213726/https://safeguards.anthropic.com/2026/siren/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261124213726/https://safeguards.anthropic.com/2026/siren/",
+      "timestamp": "20261124213726",
+      "verifiedHttp": 200
+    }
+  }
+}
