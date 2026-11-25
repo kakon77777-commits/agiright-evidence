@@ -1,0 +1,5 @@
+Source: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/ (OpenAI, "GPT-6 models demonstrate intrinsic protein-design capabilities", dated November 24, 2026)
+Fetched: 2026-11-26 04:57 (Taipei) by script, HTTP 200, 668,186 bytes of HTML. Only the one paragraph about risk from the page's last section is copied below, with tags removed and whitespace merged (the page puts an invisible word-joiner character after "Preparedness Framework", kept here as fetched). The page itself was saved with topic 542 (v0.130.0).
+Cited by the note of November 26 on topic 542 and by the setup section of Episode 113 (v0.131.0): the earlier title of the entry and the root of Round 113 had quoted one sentence of this paragraph as the page's only statement on biosecurity.
+
+As we work to accelerate scientific progress safely and responsibly, we also seek to evaluate and reduce risks, particularly those related to biosecurity. The same capabilities that help scientists design proteins for new medicines could also be misused. Our Preparedness Framework ⁠ guides how we assess these risks and test safeguards to reduce them.
