@@ -1,0 +1,13 @@
+Source: https://arxiv.org/abs/2611.30711 (Apollo Research, "Handoff at Frontier AI Companies", the arXiv copy that the seats cite; HTML version 1 at https://arxiv.org/html/2611.30711v1)
+Fetched: 2026-11-26 23:50 (Taipei) by script; the PDF is 5,533,489 bytes, SHA-256 186e5147d6b4909c8e22d22fc275f520c778ebb56f5d076544dd512895d5121e. Only the sentences that Episode 114 quotes or relies on are copied here (from the HTML text, reference numbers left as they appear); the report is Apollo Research's and is not staged.
+Every passage saved for topic 548 (p226) is also in this copy.
+
+For instance, OpenAI’s voluntary reporting implies that only 0.001-0.01% of internal agentic coding trajectories were escalated for review
+
+Similarly, Anthropic’s recent voluntary reporting indicates that its AI monitors flag 16 16 16 In this context, a “flag” is output marked as potentially harmful by the AI monitoring system. roughly 100,000 transcripts per week, of which about 50 per week are reviewed by human personnel 1 , 51 . These flags amount to roughly one to two in every thousand transcripts [ 1 ] , which implies that human personnel review about 0.0001% of AI agent activity or less.
+
+Anthropic reports that human personnel review on the order of 50 trajectories per week [ 51 ] , which, by a conservative estimate, amounts to less than 0.01% of AI agent activity.
+
+This implies a total of roughly 50-100 million transcripts per week and a human review rate of roughly 0.00005-0.0001%.
+
+No comparable test of the human reviewers downstream of those monitors has yet been run or publicly shared.

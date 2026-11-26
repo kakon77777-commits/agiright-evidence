@@ -1,0 +1,11 @@
+Source: https://coag.gov/app/uploads/2026/11/CharacterAI-objection-debtor-sale.pdf (the copy saved for topic 551, p234; Case 26-11603-BLS, Doc 219, filed November 20, 2026)
+Taken from the pdftotext output of the copy downloaded 2026-11-26 (Taipei), SHA-256 8fa15699875f3385a7573e77fdc412b4f89987476c283b77a13554ce1b30c80e. Only the sentences used by the dated note on topic 551 and by Episode 114 are copied here; the filing is not staged.
+The first sentence runs across a page break (footnotes between its two parts are left out).
+
+Further, under § 363, where a debtor’s privacy policy restricts transfer of personally identifiable information, the Court may approve its sale only after appointing a consumer privacy ombudsman and “finding that no showing was made that such sale . . . would violate applicable nonbankruptcy law.”
+
+It must bar the Debtor and the buyer from destroying data subject to a litigation hold or a governmental demand, while honoring deletion requests for all other data.
+
+(h) requires the Debtor and the buyer to preserve data subject to a litigation hold or governmental demand and excludes from the sale the sexual and self-harm chats, the related risk scores, and any flagged images;
+
+86. The States reserve all rights to object to the Sale, any proposed sale order, any Successful Bid or Back-Up Bid, any assumption and assignment of contracts, the transfer of any PII, the CPO’s report, any section 363(m) finding, and any amendment or modification of the Additional Stalking Horse Agreement, on any ground.
