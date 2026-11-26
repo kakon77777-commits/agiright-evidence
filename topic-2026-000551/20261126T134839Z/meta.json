@@ -1,0 +1,87 @@
+{
+  "id": "topic-2026-000551",
+  "url": "https://coag.gov/press-releases/weiser-challenges-auction-of-millions-of-private-character-ai-conversations/",
+  "capturedAt": "2026-11-26T13:48:39Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 71353,
+    "sha256": "4fc8c98c11981acd4b0c52dc04cbaee6b6105170fd5bafd18c10d29394b0220c",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "9CB3BACD320B6E5FC370242852B1E89A",
+      "status": 200,
+      "url": "https://coag.gov/press-releases/weiser-challenges-auction-of-millions-of-private-character-ai-conversations/",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 2837,
+      "afterScrollHeight": 2837,
+      "wantedHeight": 2837
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "c2788447cf54a9df5623540e6c4c3c5c11f3ee3665b35c0c29f4537920bd03d5",
+    "width": 1366,
+    "height": 2837,
+    "bytes": 2008113,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 2837,
+    "afterScrollHeight": 2837
+  },
+  "record": {
+    "capturedAt": "2026-11-26T13:48:39Z",
+    "url": "https://coag.gov/press-releases/weiser-challenges-auction-of-millions-of-private-character-ai-conversations/",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 71353,
+      "sha256": "4fc8c98c11981acd4b0c52dc04cbaee6b6105170fd5bafd18c10d29394b0220c"
+    },
+    "finalUrl": "https://coag.gov/press-releases/weiser-challenges-auction-of-millions-of-private-character-ai-conversations/",
+    "httpStatus": 200,
+    "title": "Attorney General Weiser challenges auction of millions of private Character.AI conversations - Colorado Attorney General | Colorado Attorney General",
+    "rendered": {
+      "textChars": 7886,
+      "textSha256": "b0c071a3a44f74719b157b311e4cfaaeefc2de886f65e2c3141459fecc08bdce",
+      "htmlSha256": "ef28090166edac70e8b3e05cdb8b281997a0bd7140a56fe3da9f9b0838f803c0"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "c2788447cf54a9df5623540e6c4c3c5c11f3ee3665b35c0c29f4537920bd03d5",
+      "width": 1366,
+      "height": 2837,
+      "bytes": 2008113,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "timestamp": "20261126013040",
+      "statuscode": "200",
+      "mimetype": "text/html",
+      "url": "https://web.archive.org/web/20261126013040/https://coag.gov/press-releases/weiser-challenges-auction-of-millions-of-private-character-ai-conversations/"
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261126135005/https://coag.gov/press-releases/weiser-challenges-auction-of-millions-of-private-character-ai-conversations/",
+      "timestamp": "20261126135005",
+      "verifiedHttp": 200
+    }
+  }
+}

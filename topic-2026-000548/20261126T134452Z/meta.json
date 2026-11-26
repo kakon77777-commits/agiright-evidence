@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000548",
+  "url": "https://apolloresearch.ai/governance/handoff-at-frontier-ai-companies",
+  "capturedAt": "2026-11-26T13:44:52Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 210635,
+    "sha256": "5e138710a3f1a65139d3a3ac4b3aa466165004fae92b543b328e8e6001537a89",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "7E28A71FBD40204E8FB1120812758009",
+      "status": 200,
+      "url": "https://www.apolloresearch.ai/governance/handoff-at-frontier-ai-companies",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 8854,
+      "afterScrollHeight": 8854,
+      "wantedHeight": 8854
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "d9b77456ad33df2335f80453b6e052a6b9a2175a8d3e504f8be31296b643adcd",
+    "width": 1366,
+    "height": 8854,
+    "bytes": 1417575,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 8854,
+    "afterScrollHeight": 8854
+  },
+  "record": {
+    "capturedAt": "2026-11-26T13:44:52Z",
+    "url": "https://apolloresearch.ai/governance/handoff-at-frontier-ai-companies",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 210635,
+      "sha256": "5e138710a3f1a65139d3a3ac4b3aa466165004fae92b543b328e8e6001537a89"
+    },
+    "finalUrl": "https://www.apolloresearch.ai/governance/handoff-at-frontier-ai-companies",
+    "httpStatus": 200,
+    "title": "Handoff at Frontier AI Companies: Policymakers Need Visibility Today",
+    "rendered": {
+      "textChars": 13333,
+      "textSha256": "283fe779f65f9c32a5b42b027ec5bac910a2a85994b30cfa5af7e976f69719e2",
+      "htmlSha256": "1604a4c31950730b19f08a9110101a2248cfa0f388e5f89b662678c1138bdb11"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "d9b77456ad33df2335f80453b6e052a6b9a2175a8d3e504f8be31296b643adcd",
+      "width": 1366,
+      "height": 8854,
+      "bytes": 1417575,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261126134627/https://apolloresearch.ai/governance/handoff-at-frontier-ai-companies",
+      "timestamp": "20261126134627",
+      "verifiedHttp": 200
+    }
+  }
+}

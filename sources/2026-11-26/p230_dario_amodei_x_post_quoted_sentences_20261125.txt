@@ -1,0 +1,22 @@
+Source: https://x.com/DarioAmodei/status/2125656399392690605 (November 25, 2026, 18:22 UTC)
+Read: 2026-11-26 (Taipei) in a browser connected to the host's machine; the sentences that topic 549 quotes or relies on; not the whole post; counts and replies are not staged.
+Cited by topic 549.
+
+Dario Amodei (@DarioAmodei), post on X, 2026-11-25T18:22:33Z, https://x.com/DarioAmodei/status/2125656399392690605
+Sentences quoted or relied on, copied from the post as read in the connected Chrome on November 26, 2026. Not the whole post.
+
+No, I do not believe that we should “surrender human free will” to AI systems, and it’s absurd to suggest that I do.
+
+This argument against autocracy applies word for word against governance by AI, and I feel equally strongly that turning over governance to AI is a bad idea.
+
+This is not AI “running the world,” but AI driving a car, designing a cancer drug, or writing software end-to-end. Here, my view is mixed.
+
+It is clearly desirable in many cases and will save a lot of lives. But it has downsides as well, and in some areas it may not be worth it.
+
+For example, using AI too autonomously to build the next generation of AI systems (known as recursive self-improvement, or RSI) may cause AI to improve faster than we can control or adjust to it, so we may want limits on this process. As we said publicly in early November, we don’t expect it to be safe for Claude to build successive frontier models fully autonomously, without meaningful human supervision or understanding.
+
+I don’t think there are any easy answers here, nor is there (nor should there be) any single decision-maker: some of these decisions will be made by society, some by government, some by AI companies, and some in a decentralized manner by individuals expressing their own preferences as consumers, which may differ from the preferences of others.
+
+What is happening is that there’s a sort of vibes-based commercial and political positioning that some AI CEOs are engaging in, where they repeat slogans like “human control and agency,” or “AI should be just a tool,” without actually doing anything different in their products or taking seriously the difficult questions that lie behind these slogans.
+
+For instance, it’s fairly absurd to cite my statement that fully autonomous weapons might “one day be needed for the defense of democracy” as differing from that of other AI companies, when I was willing to risk Anthropic’s future as a company to refuse to allow our existing AI models to be used for autonomous weapons even in the face of legal sanctions, and no other AI company did the same.

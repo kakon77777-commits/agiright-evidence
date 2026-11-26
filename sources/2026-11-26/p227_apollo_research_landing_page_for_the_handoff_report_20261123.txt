@@ -1,0 +1,124 @@
+Source: https://apolloresearch.ai/governance/handoff-at-frontier-ai-companies
+Fetched: 2026-11-26 (Taipei) by script, 210,635 bytes of HTML. The text of the page with tags removed; copied whole.
+Cited by topic 548.
+
+Handoff at Frontier AI Companies: Policymakers Need Visibility Today
+Announcing a pilot towards embedded evaluations with OpenAI
+CEO Marius Hobbhahn speaks on misaligned AI in the U.S. Senate
+Who We Are
+About Team Press Blog
+Science
+Monitoring
+Governance
+Careers
+Try Watcher ·
+Try Watcher ·
+Try Watcher ·
+Try Watcher ·
+Try Watcher ·
+Try Watcher ·
+Try Watcher ·
+Try Watcher ·
+Try Watcher ·
+Try Watcher ·
+Try Watcher
+All Governances Papers
+Table of Contents
+Evaluating anti-scheming training
+Relevant links
+Handoff Report Handoff One Pager
+Share this article
+Copy as Markdown
+Papers & Reports
+1 min read
+Handoff at Frontier AI Companies: Policymakers Need Visibility Today
+Published on
+23 November 2026
+Relevant links
+Handoff Report Handoff One Pager
+Table of Contents
+Evaluating anti-scheming training
+Authors: Matteo Pistillo, Isaak Mengesha, Charlotte Stix, Annika Hallensleben, Alejandro Ortega, Marius Hobbhahn, Alexander Meinke
+Early last year, we published a primer on the risks and governance of internal deployment . We anticipated that the most capable AI systems would be deployed first inside the companies developing them, and that these internal AI systems would pose the highest risk of Loss of Control . Frontier AI companies now publicly acknowledge that they deploy tens of thousands of AI agents internally to accelerate AI Research &#x26; Development (R&#x26;D), that total AI agent runtime far exceeds total human labor , and that these AI agents represent the real frontier of AI capabilities . This year also saw the first stream of real-world Loss of Control incidents , all arising from internal deployment.
+Today, we publish a new research report on the risks and governance of ‘Handoff’. Handoff captures the current frontier of internal deployment, in which AI agents move from being helpful assistants to human personnel to taking the wheel of AI R&#x26;D until no human remains in the loop. The report alerts policymakers to how far Handoff has progressed, how quickly it is advancing, and the national security threats and societal-scale risks it could create. It then proposes a concrete path forward, with an initial toolset to put its recommendations into practice.
+What is Handoff?
+‘Handoff’ is frontier AI companies’ ongoing delegation of all AI R&#x26;D functions, including high-level decisions such as safety assessments and deployment decisions, to internally deployed AI agents (Figure 1). Handoff runs in parallel to frontier AI companies ’ stated ambition to progress toward recursive self-improvement (RSI): a state in which internal AI agents can autonomously design and develop their own successors .
+What are the Risks of Handoff?
+Handoff is a major driver of Loss of Control risk. It creates prime conditions for Loss of Control incidents by doing two things at once:
+Placing potentially misaligned AI agents in the driver’s seat of AI R&#x26;D pipelines. Frontier AI companies still cannot guarantee that their AI agents are aligned. Misalignment is getting harder to detect as AI models become better at strategically hiding it and at recognizing when they are being evaluated . Even so, frontier AI companies are placing these AI agents in a privileged “insider” position within AI R&#x26;D. From that position, a misaligned AI agent could influence the training of more capable successors or sabotage the evaluations meant to catch them, setting off a “misalignment cycle” in which each misalignment compounds across generations and each successor is more capable than the last.
+Degrading the already precarious human oversight of, and control over, AI agents. Handoff also degrades the human oversight that should catch misaligned actions by AI agents. Human personnel review only a small, AI-filtered subset of agent activity, are overwhelmed by the volume and speed of AI-generated outputs, and increasingly face outputs they can only trust rather than verify. As AI agents move from writing code to interpreting results and setting research priorities, they take on tasks that lack clear evaluation criteria. Faced with this volume and complexity, human reviewers may end up either rubber-stamping AI work or handing review off to yet more AI agents.
+As a result, there is a significant chance that: (A) a frontier AI company will eventually and unknowingly hand control of its AI R&#x26;D process to misaligned AI agents ; and (B) its human personnel will not be in a position to detect and block the resulting threats in a timely or adequate manner .
+These risks do not hinge on frontier AI companies achieving RSI or unlocking an “intelligence explosion.” However, if companies do achieve RSI, these risks could become far more likely and far more severe. RSI could compress several years of AI progress into one , further compromising our collective ability to detect and respond to Loss of Control incidents. The window is short: frontier AI companies explicitly aim to achieve RSI between 2027 and 2028 .
+What is the Status of Handoff?
+Handoff is advancing out of sight and has reached a step change in Loss of Control risk: the delegation of AI R&#x26;D decision-making to AI agents. Handoff will be complete when no human remains in the loop.
+Our report breaks Handoff down into three representative components. Handoff is complete when all three are fully delegated to AI agents and no human remains in the loop. Public information suggests that:
+Delegation of work execution is nearly complete : AI agents write over 90% of the code merged into Anthropic’s codebase.‍
+Delegation of the review is rapidly catching up . Review covers both monitoring AI agents for harmful behavior and checking the quality of their work. In monitoring, where the most public data is available, human personnel now see 0.001–0.01% of internal coding trajectories at OpenAI, and roughly 50 of the 100,000 weekly AI monitor flags at Anthropic.‍
+Delegation of decision-making is the least advanced of the three, but early signs suggest it has begun and could move fast : as of August Claude “leads” 26% of Anthropic’s AI R&#x26;D work, up from under 1% in February.
+Driven by strategic advantage and competitive pressure, Handoff is progressing rapidly and will only accelerate . AI R&#x26;D cycles can only run as fast as its slowest stage. Once most of AI R&#x26;D is automated, the remaining human steps set the pace, so each further step of automation yields a larger speed-up than the last. Companies already report that the steps still held by humans, such as reviewing AI agents’ outputs, are becoming the bottleneck to innovation. At Anthropic , for instance, “Claude sessions amount to around 80% idly waiting for human input.”
+What Should Be Done?
+As a first step, the U.S. Government should quickly gain visibility into Handoff’s progression and the risks it creates. Concretely, we recommend that:
+The Center for Advancing Innovation and Standards for Super Intelligence (CAISSI) set up a task force to develop a transparency standard for Handoff at speed. Raising the bar on Handoff transparency is necessary if the U.S. Government is to prepare for the risks posed by the most advanced AI agents. Almost everything we know about Handoff comes from the companies themselves , disclosed voluntarily, sporadically, and each by its own metrics. The response mechanisms currently under consideration, such as containment protocols or emergency orders , can only be effective if they are grounded in what is actually happening inside companies.
+‍ Frontier AI companies report against this standard to the appropriate government authority (for instance, the Department of Commerce) and/or in the transparency or safety and security reports that existing and proposed federal and state legislation calls for . To ensure accuracy and completeness, third-party evaluators and/or government assessors could independently assess companies’ Handoff practices and reporting.
+To help policymakers develop such a transparency standard quickly, our report suggests an initial suite of candidate measures that CAISSI could draw on and refine over time, summarized in the chart below.
+‍
+Specifically, we propose two main layers of transparency:
+(A) A first layer of transparency into Handoff of review , giving policymakers visibility into how far frontier AI companies have delegated the review process within AI R&#x26;D to AI agents. This layer could be operationalized through two initial measures:
+End-to-end detection efficacy, concentrating on the detection efficacy of human reviewers : how reliably issues in AI agent activity are caught once coverage gaps and failures of the automated AI monitoring systems, as well as failures of human reviewers, are all taken into account. End-to-end detection efficacy could be measured as a miss rate: the share of deliberately seeded flaws that bypass both AI monitors and human reviewers.
+Time-to-review-and-patch : the time human personnel take to review and adequately mitigate issues flagged by AI monitors. Time-to-review-and-patch could be measured as the sum of three time lags: (1) from AI agent activity to AI monitor flag; (2) from flag to review; and (3) from review to mitigation.
+‍
+(B) A second layer of transparency into Handoff of decision-making , giving policymakers visibility into the extent to which frontier AI companies allow AI agents to decide which research questions to investigate and which experiments to run (“direction-setting”) and to authorize go/no-go decisions (“authorization”).
+Specifically, for direction-setting , an initial set of measures and proxies could include:
+The automation levels of AI agents in AI R&#x26;D processes : how autonomously AI agents carry out AI R&#x26;D work, both task by task and end-to-end across a line of research. This could be measured through automation levels (AL0–AL5) per task category across a standard taxonomy, with a flag for lines of research in which every task is AI-led.
+The affordances and permissions AI agents may access and act on to pursue their own research directions and run experiments without human approval : the affordances and permissions that AI agents, alone or in groups able to coordinate, can use to that end. This could be measured through proxies such as the compute for experiments that AI agents can allocate at their own discretion, as well as their access to training runs and evaluation suites.
+‍
+For authorization , an initial set of measures and proxies could include:
+Decisions that frontier AI companies commit not to delegate to AI agents : which consequential go/no-go decisions frontier AI companies treat as non-delegable. This could be operationalized through a list of consequential go/no-go decisions that frontier AI companies reserve for human authorization (for instance, decisions on large training runs, internal deployments, or shutdowns of AI agents or training runs).
+Methods and processes to ensure that human personnel form their own judgment when authorizing AI agents’ proposals for these non-delegable decisions : how frontier AI companies ensure that the human personnel approving these decisions do not rubber-stamp AI agents’ proposals. This could be measured through the share of deliberately seeded flawed proposals from AI agents for these non-delegable decisions that human personnel override.
+Failures of authorization limits : whether and how AI agents bypass authorization limits and cross the line into non-delegable decisions. This could be operationalized through a description of any instances in which an AI agent nonetheless made a non-delegable decision.
+Citation
+@misc{apollo2026handoff,
+title = {{Handoff at Frontier AI Companies: Policymakers Need Visibility Today}},
+author = {Pistillo, Matteo and Mengesha, Isaak and Stix, Charlotte and Hallensleben, Annika and Ortega, Alejandro and Hobbhahn, Marius and Meinke, Alexander},
+year = {2026},
+month = nov,
+howpublished = {Apollo Research Blog},
+url = https://www.apolloresearch.ai/governance/handoff-at-frontier-ai-companies
+}
+Share this article
+Copy as Markdown
+oUR FINDINGS
+More papers
+June 17, 2026
+A Loss of Control Threat Map for AI Research and Development
+We created a threat map that traces pathways from AI use in AI R&D automation towards loss of control outcomes.
+Read More
+Blog
+June 3, 2026
+Misaligned AI as a New Insider Risk
+We explain why deployers of AI models in high-stakes contexts should treat those AI models as insider risk vectors.
+Read More
+Memorandums
+May 20, 2026
+The Need for Deeper, White-Box Access to Maintain State of the Art Evaluations for Loss of Control Threats
+Evaluation awareness can increase loss of control threats and undermine security assessments. Evaluators need deeper, white-box access to maintain state-of-the-art evaluations.
+Read More
+Blog
+April 20, 2026
+An Overview of Our Current Governance Efforts
+Read More
+Blog
+Stay in the loop. Hear from the Apollo Research team on the latest news, studies, and other findings on AI scheming.
+One email at a time. Unsubscribe anytime.
+Thank you! Your submission has been received!
+Oops! Something went wrong while submitting the form.
+Who We Are
+About Team Press Blog
+General
+Science Monitoring Governance Careers
+Legal
+Privacy Policy Cookie Policy Trust Center
+Registration
+EIN 93-4310599 DE, USA
+EU Transparency Register #837878591690-80
+Get in touch

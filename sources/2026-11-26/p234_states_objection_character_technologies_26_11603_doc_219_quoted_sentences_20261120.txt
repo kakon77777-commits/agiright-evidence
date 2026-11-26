@@ -1,0 +1,29 @@
+Source: https://coag.gov/app/uploads/2026/11/CharacterAI-objection-debtor-sale.pdf (the same bytes as the copy that the Illinois release links)
+Downloaded: 2026-11-26 (Taipei) by script, 49,202,740 bytes, SHA-256 8fa15699875f3385a7573e77fdc412b4f89987476c283b77a13554ce1b30c80e. Only the sentences around the passages that topic 551 quotes are copied here (from pdftotext output); the filing, which also recounts harm to individual users, is not staged.
+Cited by topic 551.
+
+Case 26-11603-BLS Doc 219 Filed 11/20/26 Page 1 of 44 IN THE UNITED STATES BANKRUPTCY COURT FOR THE DISTRICT OF DELAWARE IN RE: Chapter 11 CHARACTER TECHNOLOGIES, INC., Case No.
+
+_________________________________________________________________________________________________ STATES’ OBJECTION PAGE 5 Case 26-11603-BLS Doc 219 Filed 11/20/26 Page 6 of 44 • “Product Data”: “All end-user account and profile information, user-created characters, chat content and related data, advertising and analytics data, training datasets and unprocessed data.”23 • “Models and Weights”: all artificial intelligence (“AI”) models, trained or untrained, with their weights and parameters.24 • “Data and Compliance Record
+
+nsent, sale and targeted-advertising opt-outs, other privacy preferences, age-assurance status and data-subject access/deletion/correction requests,” but only “to the extent owned by Seller and transferable under applicable Law.”25 • “Ad Monetization Assets”: all accounts, integrations “and data” used to show third- party ads to users and earn revenue from them.26 7.
+
+This sensitive personal information includes the chat histories of more than 21 million U.S. accounts, more than 2.1 million of them registered to minors (including metadata, such as their IP addresses); records of children’s sexual exploitation and of users’ suicidal crises; the risk scores the Debtor assigned to those users; and the models trained on all of it.
+
+accounts, more than 2.1 million of them registered to minors (including metadata, such as their IP addresses); records of children’s sexual exploitation and of users’ suicidal crises; the risk scores the Debtor assigned to those users; and the models trained on all of it. The Debtor offers as the stalking horse the unknown entity Smirks and Pangs Acquisition LLC (“Smirks”), an entity formed the day before the Debtor selected it, with undisclosed _________________________________________________________________________________________________ STATES’ OBJECTION PAGE 2 Case 26-11603-BLS Doc 219 Filed 11/20/26 Page 3 of 44 ownership and financing.
+
+embers, managers and investors.”10 And it contemplates foreign “Excepted Investors” in the buyer, whose identities are to be disclosed in writing to the Debtor and to no one else.11 None of these persons are identified anywhere in the record.
+
+Nothing in the agreement restricts what the buyer may do with the data after closing, including selling it. And the agreement expressly lets the buyer, after closing, assign its rights and delegate its obligations without the Debtor’s 5 Dkt.
+
+95 Indeed, the “regional privacy policy”—which is more specific as mandated by many States’ laws—informed consumers that while the Debtor may share users’ data with third parties for purposes of targeted advertising, it expressly stated “we do not sell personal information for monetary consideration.” Debtor’s wording here is significant: people may feel comfortable sharing a device advertising identifier for the purpose of placing an advertisement but may feel very differently if that same business were to sell the contents of their chats with a fictional bot acting as a therapist.
+
+95 Character.AI’s privacy policy generically sets out that the Debtor “may disclose certain information” as part of “any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.” This disclosure, however, fails to disclose the categories of personal information that may be sold, as the law requires.
+
+es the categories of data and models identified herein, and excludes all chat content, and the training data and models derived from it, except as to users who affirmatively consent after direct notice; _________________________________________________________________________________________________ STATES’ OBJECTION PAGE 40 Case 26-11603-BLS Doc 219 Filed 11
+
+Smirks was formed as a Delaware limited liability company on November 13, 2026,6 the day before the Debtor selected it.7 It signed through an “Authorized Signatory,” not a named officer or manager.8 But the buyer did not appear from nowhere.
+
+er of known failures involving minors’ access to sexual content, characters posing as licensed professionals, and self-harm, and suicide content.18 He has been publicly identified as the Debtor’s General Counsel.19 Yet the Debtor told the Court that the buyer has no connection to the Debtor beyond the agreement itself.20 6.
+
+On November 14, 2026, the Debtor designated Smirks as the Additional Stalking Horse Purchaser for all Assets other than the Disney Target Assets (the “Supplemental Stalking Horse Assets”).1 In exchange, Smirks would pay $10,000,000 in cash and assume liabilities, including cure costs.2 The Debtor asks the Court to approve a 3.5% ($350,000) break-up fee.3 2.

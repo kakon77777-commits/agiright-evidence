@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000547",
+  "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr11157ih/html/BILLS-119hr11157ih.htm",
+  "capturedAt": "2026-11-26T13:43:18Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 45867,
+    "sha256": "29b6867f5c6a1d19388cdc209f132903a20c7dd7724aeff8c703131ebd7ed627",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.33",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A8F82D9BCD054462BA8DDA13BDAA528A",
+      "status": 200,
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr11157ih/html/BILLS-119hr11157ih.htm",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 11301,
+      "afterScrollHeight": 11301,
+      "wantedHeight": 11301
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.jpg",
+    "sha256": "6a23afdf311874bca5a5133689f1d4328b5e54d2164be0631b75f0eb6a341d1f",
+    "width": 1366,
+    "height": 11301,
+    "bytes": 2076991,
+    "format": "jpeg",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 11301,
+    "afterScrollHeight": 11301
+  },
+  "record": {
+    "capturedAt": "2026-11-26T13:43:18Z",
+    "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr11157ih/html/BILLS-119hr11157ih.htm",
+    "raw": {
+      "status": 200,
+      "contentType": "text/html",
+      "bytes": 45867,
+      "sha256": "29b6867f5c6a1d19388cdc209f132903a20c7dd7724aeff8c703131ebd7ed627"
+    },
+    "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hr11157ih/html/BILLS-119hr11157ih.htm",
+    "httpStatus": 200,
+    "title": null,
+    "rendered": {
+      "textChars": 45270,
+      "textSha256": "3edc1fb0c4fa9a64c9d5c4793e68973143195981e8e6d8387b87d7e8b90c646f",
+      "htmlSha256": "7f11939219d2c4fbb69213225018efb330170eb43a566649e3bc4a88442d9960"
+    },
+    "suspectedBlock": false,
+    "screenshot": {
+      "sha256": "6a23afdf311874bca5a5133689f1d4328b5e54d2164be0631b75f0eb6a341d1f",
+      "width": 1366,
+      "height": 11301,
+      "bytes": 2076991,
+      "format": "jpeg",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.33)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261126134434/https://www.govinfo.gov/content/pkg/BILLS-119hr11157ih/html/BILLS-119hr11157ih.htm",
+      "timestamp": "20261126134434",
+      "verifiedHttp": 200
+    }
+  }
+}

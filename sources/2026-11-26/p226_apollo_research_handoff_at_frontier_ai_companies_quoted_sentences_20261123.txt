@@ -1,0 +1,49 @@
+Source: Apollo Research, "Handoff at Frontier AI Companies" (November 23, 2026), PDF linked from https://apolloresearch.ai/governance/handoff-at-frontier-ai-companies
+Fetched: 2026-11-26 (Taipei) by script, 5,553,262 bytes, SHA-256 dae39dacf9757b24c9f6c8e5116d010e91dbf7e5c38ff725b1576fac30c8e0f6. Only the sentences around the passages that topic 548 quotes are copied here (from pdftotext output); the report is Apollo Research's and is not staged.
+Cited by topic 548.
+
+Handoff at Frontier AI Companies Matteo Pistillo† Isaak Mengesha Charlotte Stix Annika Hallensleben Alejandro Ortega Marius Hobbhahn Alexander Meinke Apollo Research 2026-11-23 Executive Summa
+
+esearch 2026-11-23 Executive Summary The term “Handoff” captures frontier AI companies’ ongoing delegation of all AI Research & Development (AI R&D) functions, including high-level decisions such as safety assessments and deployment decisions, to internally deployed AI agents.
+
+Handoff is progressing rapidly and will be complete once no human remains in the loop (Figure 1).
+
+Today, AI agents already write over 90% of the code merged into Anthropic’s codebase [1].
+
+AI agents are also leading a rapidly growing share of AI R&D functions (surging from less than 1% to 26% between February and August 2026 alone) [1], meaning that important high-level decisions such as safety assessments and deployment decisions are increasingly handed off to AI agents.
+
+Timelines for Handoff completion are short: frontier AI companies expect to reach this milestone between 2027 and 2028 [3, 4].
+
+HANDOFF OF DECISION-MAKING: DIRECTION-SETTING AND AUTHORIZATION According to public sources, decision-making is the least advanced of the three components of Handoff: human personnel still set higher-level directions [4, 22], and consequential go/no-go decisions still remain under human control [79, 80].17 However, frontier AI companies may soon begin delegating AI R&D decision-making functions to AI agents, such as deciding which research questions to investigate and which experiments to run, and making consequential go/no-go decisions.
+
+Handoff is proceeding largely outside policymakers’ view (§2).
+
+Frontier AI companies disclose information on Handoff voluntarily, sporadically, and each according to its own metrics.
+
+Meanwhile, human personnel review less than 0.01% of internal AI agent activity, which is mostly left to automated AI monitors [2, 1].
+
+Less than 0.01% of AI agent activity reaches dedicated human safety review. OpenAI’s voluntary reporting implies that only 0.001-0.01% of internal agentic coding trajectories were escalated for review [2].
+
+For instance, OpenAI’s voluntary reporting implies that only 0.001-0.01% of internal agentic coding trajectories were escalated for review [2].
+
+Similarly, Anthropic’s recent voluntary reporting indicates that its AI monitors flag16 roughly 100,000 transcripts per week, of which about 50 per week are reviewed by human personnel [1, 51].
+
+These flags amount to roughly one to two in every thousand transcripts [1], which implies that human personnel review about 0.0001% of AI agent activity or less.
+
+This implies a total of roughly 50-100 million transcripts per week and a human review rate of roughly 0.00005-0.0001%.
+
+These figures cover Anthropic’s most-used internal platform only.
+
+7 Handoff at Frontier AI Companies For these reasons, we recommend that the Center for Advancing Innovation and Standards for Super Intelligence (CAISSI) set a task force to develop a transparency standard for Handoff at speed.
+
+Frontier AI companies could then make direct, confidential, and timely disclosures on Handoff to the appropriate government authorities and/or publish the relevant information in the transparency reports and safety frameworks required at the
+
+Frontier AI companies could then make direct, confidential, and timely disclosures on Handoff to the appropriate government authorities and/or publish the relevant information in the transparency reports and safety frameworks required at the state level22 and proposed at the federal level.23 To ensure accuracy and completeness, company assessments and reporting on Handoff should also be independently examined by independent third parties or government assessors, or a mix thereof.24 In this respect, voluntary arrangements alone are unlikely to suffice in the long run: in the most extensive independent assessment to date, most of the decisive evidence was redacted, and a planned verification of the computational power (compute) allocated to safety purposes was removed from scope midway [29].
+
+Share of deliberately seeded flaws (for instance, a backdoored code change) placed across all AI agent activity that bypass both AI monitors and human reviewers in controlled tests (§2.1.1).
+
+No comparable test of the human reviewers downstream of those monitors has yet been run or publicly shared. For instance, Anthropic “did not run extensive evaluations of the recursive summarization and human review steps” [51], and OpenAI lists reliability standards for human reviewers as future work [2].
+
+In a recent trial involving AI agents and human participants, humans chose, 86% of the time, the option their AI agent had been covertly assigned to favor [53].
+
+In this context, frontier AI companies have already begun to stress-test their AI monitors: for instance, Apollo Research has run external red-teaming campaigns against Anthropic’s auto mode and OpenAI’s Codex auto-review, seeding failure modes of varying severity into real AI agent trajectories to measure what the monitor misses [103, 104].
