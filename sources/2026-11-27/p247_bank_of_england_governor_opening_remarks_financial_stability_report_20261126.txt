@@ -1,0 +1,182 @@
+Source: https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/opening-remarks-november-2026.pdf
+Fetched: 2026-11-27 (Taipei) by script, 552,580 bytes, SHA-256 132c1ca796aabed20a662b899117c7602939ab489fdbc46fd442a444f5c4e4c7. pdftotext output; copied whole.
+Cited by topic 553.
+
+FINANCIAL STABILITY REPORT PRESS CONFERENCE
+
+                                    Thursday 26 November 2026
+
+       Opening remarks by Andrew Bailey, Governor of the Bank of England
+
+Welcome to the press conference for the November 2026 Financial Stability Report. I
+should start off by welcoming Katharine Braddick, Deputy Governor for Prudential
+Regulation, to her first Financial Stability Report Press Conference.
+
+I will highlight the key themes from today's publications by the Financial Policy
+Committee (FPC). I will start with our view on the overall risk environment, before
+turning to the FPC's work on operational resilience and the FPC's view on the
+resilience of households, corporates, and the banking sector. I will then outline the
+conclusion of the FPC's Review of Bank Capital, before turning finally the FPC's
+work on supporting sustainable economic growth.
+
+Starting with the overall risk environment, the continued conflict in the Middle
+East has led to a protracted negative supply shock to the global economy.
+Global growth has so far been resilient, but the outlook for inflation and interest rates
+remains uncertain and sensitive to developments in the Middle East.
+
+Beyond events in the Middle East, vulnerabilities previously highlighted by the
+FPC in sovereign debt markets, risky credit markets, including in private
+credit, and risky asset valuations remain, and in some cases have amplified
+market volatility.
+
+Turning first to sovereign debt markets. Sovereign debt-to-GDP ratios have
+continued to move upwards globally. Government bond yields reached near two-
+decade highs in several advanced economies, as shown in Chart 1. In the UK, the
+increase in yields has mainly reflected higher expected policy rates. Elsewhere,
+fiscal and political uncertainty has contributed more materially to the increases in
+yields.
+As we've highlighted previously there has been a shift in recent years as
+investors in many sovereign bond markets are now underpinned by a
+relatively high use of leverage, and we see hedge funds pursuing similar
+trading strategies across jurisdictions. Market intelligence suggests that
+deleveraging by hedge funds contributed to the increase in French sovereign bond
+yields, although spillovers to other markets have been limited.
+
+UK gilt and gilt repo markets have functioned well. As shown in chart 2, whilst
+hedge fund leverage remains elevated by historical standards, net repo borrowing
+has declined a little. Whilst the gilt repo market has remained resilient recently, past
+episodes of market dysfunction have highlighted the need to pursue reforms to
+enhance the resilience of that market. Today's publications provide an update on the
+FPC's thinking on gilt repo market resilience. The Bank will publish a roadmap for
+working with industry to develop its preferred package of policy measures in the first
+half of 2027.
+Turning to risky asset markets, equity valuations remain stretched on some
+measures, despite recent falls. Hedge funds and retail investors have continued to
+invest in AI stocks, with hedge funds obtaining leverage through significant prime
+brokerage borrowing. Following the US midterm elections there was a sharp fall in
+the value of AI-related equities. These moves were amplified by hedge fund
+deleveraging. Volatility in Korean equity markets has also shown that procyclical
+rebalancing from leveraged ETFs can amplify falls in equity prices. Whilst spillovers
+to other markets were limited across these episodes, in a more severe shock, losses
+on equity positions could lead globally active investors to delever in other markets,
+including sovereign debt markets.
+
+Meanwhile higher borrowing costs have increased refinancing pressures in
+corporate debt markets, particularly for weaker borrowers. This is shown in the
+sharp widening in spreads for US CCC-rated debt, as shown in Chart 3. We'll be
+updating you on our private market SWES in the new year.
+AI-related financing continues to grow rapidly and is increasingly spanning equity
+markets, public bond markets, private credit and more complex financing structures.
+This is increasing interconnections across the finance system. Some AI-related
+companies are also providing finance to others in the sector in arrangements linked
+to future revenue commitments. More complex structures and circular financing
+arrangements can make it harder to identify concentrations of risk and where
+exposures ultimately sit.
+
+Turning to operational risks, the FSR sets out the need for firms to keep pace
+with the growing scale and sophistication of cyber threats, to accelerate long-
+term preparations for quantum-resistant cryptography, and to develop and
+maintain credible arrangements to recover quickly from operational disruption,
+as well as increasing their focus on deep cyber recovery options. The FPC
+recognises that this will place competing demands on technology skills and
+management capacity. However, a failure to take action could have system-wide
+implications. Sector-wide collaboration is crucial, in that context the Bank intends to
+establish a new Systemic Resilience Council which will bring together Bank, other
+authorities, and senior industry representatives from banks, insurers and financial
+market infrastructures to coordinate action on system-wide risks.
+
+Taking the operational resilience themes in turn, frontier AI capabilities have
+continued to grow since the July FSR. Recent incidents have further illustrated
+the challenges in managing the risk of AI agents acting in ways which are misaligned
+with the objectives intended by developers and users. Capabilities of open weight
+models have also developed rapidly. These models can be run more cheaply than
+closed weight models, and safeguards may be disabled or removed more easily.
+This could make more advanced AI capabilities more readily available and useful to
+malicious actors.
+
+Recent outages with Google cloud services and Microsoft have illustrated how
+operational dependencies mean disruption at a single provider can affect
+many firms. This underlines the importance of the UK's Critical Third Party Regime,
+under which nine firms have now been designated.
+Quantum computing could compromise widely used cryptography and hence
+cyber security. As the National Cyber Security Centre has been highlighting for
+some time, this makes an orderly transition to quantum-resistant cryptography a
+priority � which will have implications for the actions and decisions firms take today.
+UK households and corporates remain resilient in aggregate, however higher
+borrowing costs and energy prices are placing additional pressure on household
+finances. Consistent with higher market interest rates, mortgage rates have
+increased since the July FSR and more households are now projected to see
+increases in mortgage repayments over the next three years, as shown in Chart 4.
+However, the median increase is projected to be materially smaller than the
+increases experienced during 2023 and 2024. Pressures will be greater for some
+households, notably low-income households and renters.
+
+The UK banking system remains well capitalised with high levels of liquidity.
+Despite heightened uncertainty, banks have continued to support lending to the real
+economy, particularly large corporates, shown in Chart 5. There is no evidence of
+banks restricting lending to defend capital positions. The FPC has maintained the UK
+countercyclical capital buffer at its neutral setting of 2%. This helps to ensure that
+banks continue to have capacity to absorb unexpected future shocks without
+restricting lending to households and businesses.
+Today's publications mark the conclusion of the FPC's review of the bank
+capital framework, the detail of which is set out in a Financial Stability in Focus
+report.
+
+The report sets out that the PRA will consult on lower minimum requirements
+related to domestic lending. This is to reflect more fully the resilience provided by
+maintaining a 2% neutral CCyB rate, and to better reflect the risks of geographic
+concentration. After this reduction, systemwide capital requirements for the major UK
+banks will be consistent with the FPC's benchmark of around 13%.
+
+Changes announced as part of the FPC's bank capital review represent
+meaningful reform, making capital requirements more proportionate, better
+targeted, and � as a result � lower. Whilst overall impact varies by bank, in
+aggregate the changes announced over this year result in Tier 1 capital requirements
+for major UK banks reducing by an amount equivalent to around 50 basis points of
+risk-weighted assets, which translates into at least �8bn. It is for banks to decide
+how they respond to these changes. But to provide some illustration, if all of the
+reduction in their capital requirements were to flow through to lending, it would
+increase the major UK banks' lending capacity by around �175bn, which is
+equivalent to around two years of net lending to the household and non-financial
+corporate sectors based on last year's lending.
+
+Reducing capital requirements much further would risk financial instability and
+put long term growth at risk by undermining the banking system's ability to absorb
+rather than amplify shocks.
+
+Banks currently maintain levels of capital in excess of regulatory requirements. The
+FPC and PRA intend to enhance banks' confidence in using their capital resources to
+support the economy. The FPC has set out its vision of a single releasable buffer
+which could be used without automatic distribution restrictions. Such reform
+would ideally be achieved in coordination with international bodies, and we will
+evaluate progress on this work by the end of next year. The FPC and PRC will also
+consider how further action could reduce incentives for firms to maintain
+capital in excess of requirements and bring forward proposals next year.
+
+Finally, in response to its 2025 remit letter, the FPC's work on long-term capital
+and high-growth firms has identified the actions which, from a macro-
+economic perspective, would have the most significant impact on the supply
+of long-term finance for high-growth firms seeking to scale up. Evidence shows
+that the UK has a deep domestic pool of capital and a rich pipeline of innovative
+firms, but material frictions affect how efficiently the two are matched. A range of
+government and industry initiatives are already seeking to address these frictions,
+but the framework for these initiatives is perceived to be fragmented. This makes
+greater coordination and reducing complexity across the financing chain an
+immediate priority.
+
+Let me conclude.
+
+The outlook for inflation and interest rates remains uncertain and sensitive to
+developments in the Middle East, whilst vulnerabilities in markets previously
+highlighted by the FPC remain, and in some cases have amplified market volatility.
+Developments in AI, the deeper interconnections across the financial system from
+common technologies and providers, and the development of quantum computing
+make cyber and operational risks a more prominent risk to financial stability, and
+we're working closely with other authorities and industry to address them. The
+changes to the bank capital framework announced today, and earlier this year, make
+requirements more proportionate, better targeted and � as a result � lower. And
+finally, the FPC's work on long-term capital and high-growth firms has emphasised
+the need for greater coordination and reducing complexity across the financing
+chain.
+
+And now, Sarah, Katharine and I will be happy to take your questions.

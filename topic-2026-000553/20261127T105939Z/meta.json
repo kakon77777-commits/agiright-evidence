@@ -1,0 +1,84 @@
+{
+  "id": "topic-2026-000553",
+  "url": "https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/fsr-press-conference-transcript-november-2026.pdf",
+  "capturedAt": "2026-11-27T10:59:39Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 109768,
+    "sha256": "322eccc22146b0af4c0b696811571453b699bd8fa819c61c4e46b9db0d1fb4f5",
+    "file": "raw.pdf"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "207DCEBD2018AD99C38001C3E3625482",
+      "status": 403,
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/fsr-press-conference-transcript-november-2026.pdf",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "95cc0322583a9c0f4b71ada923b9bdc4d150a326c5b392878e04e2b36a6710cb",
+    "width": 1366,
+    "height": 900,
+    "bytes": 17971,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-27T10:59:39Z",
+    "url": "https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/fsr-press-conference-transcript-november-2026.pdf",
+    "raw": {
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 109768,
+      "sha256": "322eccc22146b0af4c0b696811571453b699bd8fa819c61c4e46b9db0d1fb4f5"
+    },
+    "finalUrl": "https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/fsr-press-conference-transcript-november-2026.pdf",
+    "httpStatus": 403,
+    "title": "Access Denied",
+    "rendered": {
+      "textChars": 304,
+      "textSha256": "f5f3287388343797302498056a27c690ccfbfc96bc00cc16df0c0cfe9bff41cb",
+      "htmlSha256": "76c9ec9d91c51bdc534e49b41c621f6491985b0eced88850b42dbacd4ea7818d"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "95cc0322583a9c0f4b71ada923b9bdc4d150a326c5b392878e04e2b36a6710cb",
+      "width": 1366,
+      "height": 900,
+      "bytes": 17971,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "saved",
+      "url": "https://web.archive.org/web/20261127105951/https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/fsr-press-conference-transcript-november-2026.pdf",
+      "timestamp": "20261127105951",
+      "verifiedHttp": 200
+    }
+  }
+}
