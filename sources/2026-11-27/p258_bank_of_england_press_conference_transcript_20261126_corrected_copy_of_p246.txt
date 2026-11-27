@@ -1,0 +1,837 @@
+Source: https://www.bankofengland.co.uk/-/media/boe/files/financial-stability-report/2026/fsr-press-conference-transcript-november-2026.pdf
+Corrected copy of p246: the same PDF (109,768 bytes, SHA-256 322eccc22146b0af4c0b696811571453b699bd8fa819c61c4e46b9db0d1fb4f5) run through pdftotext again with UTF-8 output; copied whole.
+The earlier copy was extracted in another encoding: it shows the PDF's curly quotation marks and apostrophes as straight ones and holds 2 replacement characters where the PDF has 2 dashes. Line for line, apart from those characters, the two copies are the same.
+Read for topic 553 and for the Round 115 discussion.
+
+Andrew Bailey: Sarah, Katharine and I will be happy to take your questions.
+
+John-Paul Ford Rojas Daily Mail: A couple of things, if I may. You mentioned, you
+alluded to the leveraging by hedge funds as a result of recent market movements, both
+into AI and if it gets worse, could effects spread to debt markets?
+
+Is there an implication there that, should the AI bubble burst, gilt markets, or effectively
+government borrowing costs, will be affected?
+
+And a related question is: how concerned are you by the fact that so much of the global
+economy, global markets, are centred on the profit tendencies of one man, the boss of
+Nvidia, and the President of the United States? It's not really how global capitalism is
+supposed to work, is it?
+
+Andrew Bailey: So let's start with the first question. I'm going to be very careful not to
+use the term, or not to come down on one side as to whether it's a bubble. Bubble
+spotting is a hazardous business, to say the least.
+
+Not sure if you happened to catch the Treasury Select Committee hearing yesterday
+afternoon, but I was asked there essentially: what were the risks to AI valuations? I set
+out four of them. I won't give the whole answer again.
+
+Basically, look, the job of the market is to value future earnings potential. That is
+obviously uncertain.
+
+The second one of the market is to value the timing of those earnings, the sequence of
+them. History of general-purpose technology suggests that they can be delayed,
+because often it requires further complementary innovation.
+
+The third one is everybody's priced to be a winner. Historically, everybody often isn't a
+winner.
+
+And the fourth one is actually, I think, a bit new to AI, which is that I think AI depends on
+a high level of public trust.
+
+So all of those things could cause some change in AI valuations.
+
+Your question was a good question, which is: could you see a change in valuations
+which can spill over into other markets, including the gilt market?
+
+Well, in a sense, that's what we're here to do with financial stability. What are the risks of
+this for us? And we look at it very carefully.
+
+I don't think any of us can rule out that something sufficiently big could have that effect.
+And that is why we look very carefully, as I said earlier, at the structure of that market
+financing.
+But secondly, it's why, as I mentioned and covered in the material we published, we are
+going to come forward with our proposals on the resilience of that market. Not because
+we're saying there is an immediate problem, but it's precisely for the reason that your
+question gets to, which is that we do think actually that that structure of markets, with
+that degree of leverage, needs greater resilience attached to it.
+
+On the Nvidia question, I don't think I'm going to go into that question. These are very
+concentrated markets. But frankly, what has gone on in the US, and in relation to the
+particular company, I think is a matter for the US.
+
+Martin Arnold Financial Times: Andrew, can I ask two questions?
+
+Firstly, can you tell me why it is not a paradox or a contradiction to say, on the one hand,
+there are all these risks from AI and the risks are increasing, and on the other you're
+going to cut capital requirements for the banking system?
+
+And secondly, can I ask is this the first time that the Bank of England has said to the
+financial system that it needs to step up preparations for quantum computing and the
+risks that that would bring to cryptography.
+
+There are rumours that the AI developers have already developed sufficiently powerful
+frontier AI models that can crack the key cryptographic protections a lot of the financial
+system depends on. Have you heard about these developments?
+
+Andrew Bailey: Thank you, Martin.
+
+So on the first question, we do a lot of work, and we've done a lot of work, to size up the
+capital requirements to risks and under stress. And we have to keep doing that for the
+reason you're implying, which is that obviously the world changes, the risks move on.
+
+Now, we have reached a view that in that framework we can make some changes to the
+calculation.
+
+You're correct to say that we are, of course, highlighting in this report, and I shouldn't
+think this comes as any surprise, the scale of operational risk.
+
+Now, I don't want to suggest that capital is irrelevant to operational risk. But capital is
+not the primary answer to tackling risks from AI. It's not the primary answer to tackling
+quantum risks, to which the second question relates.
+
+The primary way to do that is what we are doing: working very closely with industry on
+operational resilience. It's the third party regime. It's a whole series of things that we
+have to do. It's ensuring that the critical national infrastructure is robust in this country,
+and that capital isn't the first line of defence.
+So I don't think it's a contradiction to say we can make some adjustments to the capital
+regime in the context of the overall risk to the system, but then to say that there are clear
+risks that we can tackle.
+
+On the question of quantum cryptography, the interesting thing is that the life of these AI
+models is a very, very small number of months. We talk about Mythos back in April.
+Mythos is history.
+
+And we are aware, and there has been reporting of this, I'm not giving away anything
+terribly unreported or shocking, but there is a latest version of models that are coming
+out of the production process on which I think the developers are expressing concerns
+that these models have even more powerful properties.
+
+I talk to the companies quite a lot. We are, as they put it now, on the exponential part of
+the development. The question, of course, is how long will that go on for?
+
+Now, I think that is bringing about quite a bit of caution about how these models get
+released into the world at large.
+
+But I can't comment on the precise: what can these models do and what can't they do?
+You're pointing to something. I think it's important that we are all focused on these
+things.
+
+But there is no question that there is another, perhaps generation is the right word, but
+the life of the generation is down to a month or two. Well, that's what we'll see.
+
+But the point is, once again, we seem to have a situation where the responses are going
+to have to be very carefully tailored to the threats that these models are posing.
+
+And let me leave this point. I would argue very strongly that the companies are right. And
+the thing that I think we need to see much more focus on now is robust model testing,
+both before and post-release.
+
+And that is the thing that I hope we can move forward domestically, but also
+internationally.
+
+The UK starts in a good position. Going back to the Bletchley Park conference that Rishi
+Sunak organised, this work has been done. It gives the UK a very strong position, but
+we've got to see other countries come on board with this.
+
+Whatever your view on multilateralism in different countries around the world and all
+that, these things are common risks. AI does not stop at the borders.
+
+So we need to tackle these questions together and we need to pool our abilities and our
+knowledge and our skills and our capacities to address these questions. And a very
+good place to start is more robust model-testing standards.
+Sarah Breeden: Can I add one thing on your first question, Martin, about the
+juxtaposition of us talking about increased risk while reducing capital requirements for
+the banking system?
+
+Andrew mentioned, in the context of operational resilience, that we need to be focused
+on what is the right tool, the right intervention, to address the risk that we're worried
+about.
+
+One of the things that we are most worried about is the gilt repo market. And you'll
+remember there was a debate in our July meeting about whether we should permit the
+decrease in leverage ratio requirements that was proposed because of the impact it
+might have on the gilt repo market.
+
+Our decision is to permit the capital requirements reduction to go ahead, but to push
+hard on improving the resilience of the gilt repo market, because that is the right tool to
+deal with the risk that we're worried about.
+
+Hannah Brenton Politico: A similar question. Do you have any doubts about lowering
+the capital today?
+
+And second of all, can you illuminate a little bit the discussion of the FPC? We get a
+readout from the MPC on different people's positions. Could you spell out what the
+discussion was like?
+
+Andrew Bailey: Sure. I'll start. I'm sure Sarah/Katharine may want to comment.
+
+So on the question about doubts, we have done a lot of work. We've obviously been
+working on this going back to last year. But obviously we have almost constant stress
+testing going on of one sort or another.
+
+And we also look very carefully at the way the capital framework works. I mean, the
+capital framework, to put it nicely, is complicated.
+
+If you started with a clean sheet of paper, I'd probably defy you to come up with
+something as complicated as we've got.
+
+We know it's developed. It's actually meeting a number of different public policy
+objectives.
+
+One of the things that lies particularly behind the decisions, the things that we've
+announced today, is: is there an element of what you might call double counting or
+overlapping going on in the capital framework, between the macro buffers and the more
+micro pillar 2a conditions?
+
+And the answer was we thought there was.
+
+By the way, this is something we actually debated some years ago, back in the late
+2010s, when I was doing this.
+And we came back to this question and thought, yes, there is some scope to adjust and,
+moreover, that would be sensible to do. Because the overall point about having a 13%
+number actually depended upon making that adjustment.
+
+So in that sense, I think it's a sensible adjustment to make, and I don't have a problem
+with it.
+
+In terms of what we place on the committee structure, let me make two points. This is
+consensus decision-making. It is different than the MPC.
+
+There's one big reason for this, which is that in the FPC and in the PRC, we are making
+many decisions. The MPC is ultimately one decision on interest rates. So it is easier to,
+in a sense, boil it down to a vote.
+
+There was a whole series of decisions you have to make in the world we're in today,
+many of which I set out in my remarks, and I think a consensus system is actually more
+naturally suited to that.
+
+Now, in the debate, and by the way it involves both committees because this involves
+both macroprudential and microprudential policy /PRC, there was quite an active
+debate.
+
+As I've just said, there's a balance here between the macro buffers and the micro
+provisions. And if there's an overlap, you are asking two committees together to reach a
+sensible conclusion and say: can we adjust and take account of that?
+
+And that's what the discussion was around.
+
+A lot of very good views were expressed, and we've laid out the thinking in the FSR and in
+the FSIF, which we published alongside it.
+
+So that's the way it works. I think it's a sensible way of doing it.
+
+There are a lot of dimensions over which we have to make these decisions. There are
+two committees involved in this one, and we have to eventually come to a consensus
+conclusion on what to do.
+
+Katharine Braddick: From my perspective, there are two really important ways for us to
+gauge whether what we're doing allows us to continue to be within the envelope of the
+necessary resilience of the UK.
+
+One is the 13% anchor and the other, as Andrew said, is the stress test.
+
+So those things tell us where we are in our risk appetite for UK resilience. And therefore
+in this case, where we were thinking really about effective regulation, that was very
+helpful.
+The changes that we're making today are the sort of changes, and Andrew said it's a very
+complex regime, it's not a regime that, having been created, must be defended at all
+costs.
+
+It's a regime we need to actively manage to make sure that it is still relevant, that it's
+proportionate.
+
+And so, when we find that the methodology has moved on, we're able to improve the
+risk modelling. And when we find that there are ways of delivering the risk management
+that are more proportionate, we can do that within this framework that's been
+established for us to gauge the impact we're having.
+
+And I think that's what effective regulation is in this context.
+
+Anna Wise, Press Association: On households, your projection of the average monthly
+mortgage increase that millions of households are facing has doubled since July.
+
+And this is coming on top of a very sharp rise in energy and fuel bills.
+
+So what is your assessment of how these households will have to adjust to cope with
+this squeeze that they're facing?
+
+Sarah Breeden: You're absolutely right that we have seen a doubling in the expected
+increase in payments that 6.5 million mortgage holders are likely to see by the end of
+2029.
+
+Of course, that reflects, as Andrew described in his opening remarks, the conflict in the
+Middle East and what that has meant for UK interest rates, including at the two- and
+five-year horizon, which is where most households borrow.
+
+And what we've seen in the past is some evidence of households lengthening the
+maturity of their mortgages as a way of trying to smooth through what would otherwise
+be a payment shock.
+
+But let's be clear: this is a consequence of interest rates being higher as a result of the
+inflationary pressure that we're seeing in the system.
+
+The two things that I would want to emphasise as context: first, households face this
+shock with strong balance sheets. The levels of indebtedness that the household sector
+is seeing are at levels that we last saw in the early 2000s. So they start from a position of
+some resilience.
+
+And secondly, while there's a distributional effect and some households will be hit more
+than others, in aggregate.
+
+Andrew Bailey: We've been through a lot of economic shocks and are still going through
+a lot of this, and we have not seen the scale of mortgage arrears that we saw if you go
+back to earlier periods, the early 90s, the early 80s crisis. And we are not seeing the
+scale of house repossessions.
+
+And that has to be a good thing.
+
+Sarah Breeden And even the increases that we're talking about now, the ones that we're
+facing, are half the size that households have already absorbed through 2023 and 2024.
+
+David Milliken Reuters: Just returning to some of the risks around launch of UK tech
+companies really wanted to get a sense of how comfortable you are about corporate
+governance there, and whether you see that as a particular broader risk to financial
+markets.
+
+And also, more specifically, whether the type of behaviour that we've seen from Jenson
+Huang of Nvidia, and if it would be acceptable for the chief executive of a UK bank.
+
+Andrew Bailey: It is not for us to comment on the situation.
+
+What I would say is two things.
+
+One, the UK has its own corporate governance standards. They are implemented, I
+think, effectively.
+
+In the banking world, as you know, we have an additional regime. Essentially, of course,
+we have that regime which determines the fitness and performance of people to take on
+these jobs.
+
+It's quite an intensive regime. People that go through the interviews to actually take
+these jobs up never cease to remind us that this is quite an intrusive regime.
+
+And we say that that's appropriate, given the nature of the responsibilities. And it is
+about responsibility and accountability.
+
+As you know, remembering back to some of the things we saw during the financial
+crisis, those are the UK's choices. I think the UK has made good choices in that respect.
+
+I'm not going to comment on Nvidia because we just really are not involved in that.
+
+Ben Martin Times: Governor, can I just get back to you on quantum computing?
+Because the Bank is asking firms to start preparing for the risk.
+
+Given quantum computing is still quite nascent and at the experimental stage, is it
+actually possible for firms to start?
+
+Andrew Bailey: Well, I think it is.
+
+One of the things I would say is this is a fact of life. Let's say we'd been having exactly
+this discussion at this press conference a year ago. We would have been very focused
+on quantum as the next big thing that we thought was coming down the track.
+Now, as you say, it seemed to be a bit further out down the track.
+
+What has happened, going back to what I said earlier, is that frontier AI has come on.
+
+Now, it's not because we hadn't thought AI was developing rapidly. But I think, back to
+what I was saying earlier, if you talk to the people who run the big AI companies, and I
+have done this, they were surprised by, in a sense, the power of these models, the
+recursive learning power.
+
+So they were taken by surprise by the power of the models that started coming out of
+the industry.
+
+That's relevant because, in a sense, it's slightly pushed quantum computing into the
+background, because we're having to deal with, and everybody else is having to deal
+with, today's clear and present danger.
+
+As you can see, we are very very intentionally saying: we can't forget about quantum
+computing because it's still coming down the track.
+
+And that's my point, actually. It could have powers that will go beyond what we're seeing
+in frontier AI and has substantial powers to undermine cryptography standards.
+
+Sarah Breeden: If I might add just two quick things.
+
+Firstly, our Systemic Resilience Council, which Katharine and I will co-chair, will do
+precisely as Andrew described and bring quantum and frontier AI and the broader cyber
+recovery options together to think about them in the round because of these potential
+interconnections and contentions.
+
+Second thing, we have actually been talking to banks and financial institutions more
+broadly about quantum for a while.
+
+The NCSC has had its national quantum readiness plan around for many years. I think
+the challenge is to make sure that firms are getting on with it in this contested
+environment.
+
+Kalyeena Markotoff Guardian: We've, of course, been discussing the need for
+significant investment in cybersecurity protections.
+
+But bank lobbyists at the same time are calling for some extra support. They're saying
+these investments should be reflected in their capital stack, and things are somewhat
+being done in the US and by the ECB as well.
+
+So I'm wondering what you make of that request. Have you ruled that out, or is that
+something that the Bank is willing to consider?
+
+Andrew Bailey: Here's the problem.
+Capital has to be freely available to meet losses. And that's the whole point about
+capital.
+
+Capital is effectively funding, but it's funding with a different risk profile, in the sense
+that capital is there and available to meet losses.
+
+Now, you can attach value to your software. But if you say, as you say the lobbyists are
+saying, “We want that value to be included in the capital calculation,” you are saying
+that that capital is freely available to meet losses. But it isn't. It's not.
+
+And that's the problem.
+
+Now, you're right to say that in other jurisdictions this line has been crossed. But I have
+to say, I think it is a very problematic thing to do because it is not free capital in that
+sense.
+
+Let's go back before the financial crisis. I think I'm right in saying, if you looked at the
+Royal Bank of Scotland balance sheet before the financial crisis, 50% of its capital, its
+accounting capital, was goodwill,
+
+Now, that's not software, but it's the same economic property.
+
+And that's the problem with the software. The argument is: you must let something in
+that will not absorb losses in a stress. And that doesn’t make sense.
+
+Eir Nolse Telegraph: We've seen stocks slide pretty significantly in recent weeks. How
+worried are you that this is a tipping point?
+
+And then secondly, you issued some pretty stark warnings about cyber threats today.
+Would you encourage British households to keep cash at home?
+
+Andrew Bailey: On stock prices, that's, I think, back to some of the discussions we've
+been having.
+
+We are in quite volatile markets at the moment for a variety of reasons.
+
+In a way, there are two big things going on in the world from an economic and financial
+point of view.
+
+The impact of the Gulf coming through in energy prices and inflation.
+
+But then you've got this other shock going on, which is, in a sense, the positive impact of
+AI.
+
+It's interesting. At the Treasury Select Committee yesterday, I said UK growth has been
+more resilient this year than we were expecting.
+And part of that, as we set out in the Monetary Policy Report, business investment has
+been more resilient than we expected it to be. And part of that, I think, can be attributed
+to AI.
+
+So there is a positive story there.
+
+But it is a developing story and therefore its effect on valuations.
+
+In response to Martin's question earlier, our job in respect of financial stability is to
+ensure that the system is robust to those kinds of changes.
+
+So that's the thing we do. That's why we do stress testing. That's why we do capital
+assessments. That's why we look at the resilience of the structure of markets.
+
+Because our job is not to say you can't have that system. It is: how do we manage that
+system?
+
+On cash, well, here's the paradox of central banks.
+
+I suspect all of us would say that we use cash less transactions more than we did 10
+years ago. If any of you don't, you're probably in the minority.
+
+But if you ask the question, “How much cash is in issue?” – and we know because it's on
+our balance sheet – the answer is it is still slightly rising.
+
+Now, there may be many reasons for that because it is an apparent paradox.
+
+This is true in other countries.
+
+But one reason, I suspect, is that probably more people actually do have some cash.
+There may be several reasons, but one of the reasons they may have it is because they
+feel it is something of a contingency tool.
+
+And I'm not for a moment going to say that's the wrong thing to do.
+
+So it is interesting. But I would observe there is a lot more cash out there than you might
+at first think, based on the amount it's used.
+
+Samuel Norman City AM : I just want to go again on cyber.
+
+Today you called forward to quantum and also strengthening controls against
+autonomous AI agents.
+
+Just following on from the FCA/PRA publication last week, it seems like you're still
+basically framing it as effective practice as opposed to strict rules.
+
+At what point are you willing to step in if firms are dragging their feet and bring in a
+stricter mandate or more enforcement for firms?
+Katharine Braddick: We are leading with basically the best state of knowledge that we
+have across the spectrum, across the economies.
+
+We work closely with the security authorities to make sure that that's what we have, and
+that's what last week's supervisory statement was based on.
+
+The task at the moment is to make sure that firms understand what they need to be
+doing, but we do then follow up with supervision to make sure that they are doing those
+things.
+
+So this is not a voluntary exercise.
+
+We've set out our expectations about what good looks like in this environment. And we
+do follow up with supervision.
+
+It remains the case that good cyber hygiene is, without question, the best defence for
+every firm from this increasing risk that we're seeing.
+
+It's not yet right for us to lead, certainly, with rule-making while the state of knowledge is
+moving on so swiftly.
+
+I don't think we need that right now. I think we have the right powers.
+
+And between us, we and the FCA and the other authorities, I think, are able to both
+make the expectations clear and therefore ensure that they're being executed.
+
+Harrison Moore MNI: You issue a warning here about the capabilities of open weight AI
+and the risks that their safeguards could be taken away.
+
+Is that an argument in favour of restricting cutting-edge, open AI models?
+
+And if so, is there a tension between that and the other warning you make of over-
+reliance on a small number of technologies and potential interconnectedness that that
+yields across markets?
+
+How do you balance these risks: the proliferation of open AI on the one hand, and
+reliance on a small number of models on the other?
+
+Andrew Bailey: I'll start off.
+
+I think it is a very important point to highlight.
+
+I would say, going back to what I was saying earlier, that it is an argument in favour of
+having better and more robust model-testing standards, pre-release and post-release
+as well.
+
+Now, having said that, open-weight models pose a particular challenge in that world, as
+opposed to closed-weight models, because of the fact that open-weight models are
+much more customisable and adjustable by users.
+In a sense, that's the nature of them. They're more flexible models.
+
+And therefore the sort of testing standards that you can use for closed models, which
+can't be played with so much by users, don't necessarily work for open models.
+
+And I know people who are much more expert than I am will say there's a lot more work
+to do on open models and how to understand how to run that system.
+
+That is a challenge we have to face up to.
+
+I don't think you can say this technology should never see the light of day. History
+doesn't give us a good guide to the success of that type of approach.
+
+So I would very strongly say: look, this is a challenge, again, we have to take on.
+
+And it reinforces the point I was making earlier that we need to work together.
+
+We need to obviously work in this country on that. I don't doubt the commitment. I think
+there is very strong commitment from the Government.
+
+In fact, I talk to the Prime Minister about this. We are in a good place, having made, I
+think, a very good start with the AI Security Institute.
+
+But we do need, frankly, strong international collaboration.
+
+And, honestly, we do have to talk to China about this because these models are not
+unique to China. But China has actually, if anything, put its focus on these models.
+
+Elliot Gulliver Politico: There have been mentions and warnings about stretched AI
+valuations in at least the last three Financial Stability Reports, but there's been relatively
+little action to prevent any massive fallout from a potential bubble bursting and
+affecting the wider financial system.
+
+At what point do you think you and other financial regulators will actually start taking
+action, trying to shore up defences against an AI bubble popping or an AI valuation
+correction?
+
+Andrew Bailey: When you say there's no action taken, I don't think, in a market
+economy, we would say, “You can't do that,” or, “You can't have that sort of stock,” and
+you can't have that sort of thing.
+
+I think the question is to look across the system and say: how resilient is the structure of
+the system to the sort of shocks that you rightly say could happen?
+
+And that we do.
+
+That's part of why we're doing the system-wide exploratory scenario in private markets,
+because obviously part of this is in private markets.
+It's why we spend a lot of time with bank supervisors looking at things like prime
+brokerage financing, because a lot of this is actually financed through channels like
+prime brokerage.
+
+We're very focused, as I mentioned in my opening remarks, on things like ETF patterns.
+We've seen an increase in that.
+
+So these are things that we're very focused on.
+
+Again, I can say this: we have to worry about the Bank of England hat, which we're here
+for today, and my FSB role, which is also obviously looking at this closely.
+
+Katharine Braddick: I can just say this: how we approach the supervision of those risks,
+and ensuring that any correction or adjustment in that trade doesn't wash back through
+the banking system.
+
+The banking system operates as a shock absorber and not an amplifier.
+
+And, in a sense, it's straightforward, very good supervision.
+
+We have set out our expectations of firms in terms of their portfolio management. Do
+they understand not only the exposures, but the overlapping risks between entities,
+funds, different sorts of financing vehicles, increasingly complex.
+
+There's a discussion in the FSR of some of these arrangements.
+
+Not only do they understand them, but have banks sufficiently severely stress-tested
+their own exposures? So do they understand the nature of the risk really deeply?
+
+And in terms of their management of that risk, it's important that they do that
+holistically, not through business verticals, which can blind you to the operation of
+some of these correlations and amplifications.
+
+And then finally, does the board see that consolidated risk picture?
+
+So we've been really clear with firms about that. We've followed up with them.
+
+We have seen improvements in the quality of portfolio management, and we are in close
+touch with them about how they're seeing these risks change in real time.
+
+So it's a very live part of what we're doing in our supervision of firms.
+
+Sarah Breeden: And if I might add, just at the more macro level, we think through: how
+might such an adjustment affect the things that we care about?
+
+If it affects the economy and there's a recession, are the banks resilient to that? That's
+what we do in our bank stress test every time.
+
+Might stress in those funding markets matter for the corporates that access them?
+That's what our private markets exercise is all about.
+And might there be spillovers from that bit of the financial system into the core markets
+that we care about a lot? And what do we need to do to improve gilt repo market
+resilience?
+
+So you can see action on the consequences of the shock rather than, as Andrew said,
+trying to stop that happening.
+
+Andrew Bailey: The one piece of advice, I think, about this when you look at it: it's very
+important to say, how well do the finance terms and conditions match the economic
+expectations of the industry?
+
+So if you're funding a centre, if you're funding GPUs, you've got economic lifetimes for
+these things which are uncertain, and particularly for GPUs because the thing is
+evolving so quickly.
+
+And so I think it's important to look at the whole financial structure and how well
+adapted it is to these things.
+
+John Paul Ford Rojas Daily Mail: Earlier in your remarks you referred to the deeper
+pools of capital in the UK, and I think the idea that removing the frictions that prevent
+them from being made available to UK firms.
+
+Can you say a bit more about that and whether one of the intentions might be that
+companies listed in the UK don't feel the need to up sticks and relist in New York, as
+we've seen this week?
+
+Andrew Bailey: Yes.
+
+So I think these are familiar stories.
+
+I think you can isolate a number of points here.
+
+There is obviously financing start-ups, and then there is financing scale-ups.
+
+I think the listing point is different because that's very established companies.
+
+There are issues, don't get me wrong, but I think they're not about raising capital.
+
+But over the longest part of the scale, this is important.
+
+So we've done some more work, which I covered at the end of my remarks, about what
+are the sorts of things we've done with the Treasury. And it's important: what are the
+conditions now for the UK in that respect?
+
+I think particularly scale-up financing has been an issue and I think still is an issue.
+
+One of the things I would say is that there's always an important role for bank credit
+here.
+But we're talking a lot about equity financing here. Banks are not natural equity
+financiers, though they have some of it.
+
+This is a very longstanding issue, particularly for small firms.
+
+And it's an important issue. You can take it right back 100 years to the Macmillan gap
+and bring it on with something like the Bank of England, which is not 100 years, but it's
+been around for most of my career, particularly for small firms.
+
+And I think one of the challenges there, and it's a natural thing for small firms, is that the
+boundary between debt and equity financing is actually not particularly well defined,
+almost by definition.
+
+Structuring financing is quite challenging, but something we have to meet.
+
+Now, we've done quite a bit of work on that, again with government. We've introduced
+some new instruments.
+
+But I think we have to keep coming back to this as to how successful it's actually been.
+
+Laura Noonan Bloomberg: I think my first question is about bank capital.
+
+The first one you mentioned was the consultation announced today. If there is no supply
+issue with the UK, what is the objective? And what's being done around domestic
+exposure as well?
+
+And the other question is in relation to the useable international buffer/framework.
+
+I noticed in the statement discussion of international coordination. If you can't get
+international coordination or agreement on that, would the UK go it alone?
+
+Andrew Bailey: Great question.
+
+So start with the supply question.
+
+The policy issue for us really is, from a macro and microprudential point of view, what is
+the appropriate level of capital?
+
+And that's why we come back to this. And we come back to it periodically because the
+world changes.
+
+But thank you for highlighting the point about supply because it is important.
+
+I had a chart earlier, I think, on lending, on credit provision, which doesn't point to there
+being an issue in credit supply at the aggregate level.
+
+I'm going to caveat that by the conversation we just had about small firms.
+
+And let me say this. I do recoil when I hear it said banks can’t afford to lend.
+Because frankly, we went through a long period after the financial crisis where the major
+brands were not on the whole earning their cost of capital.
+
+And if you're not only a cost of capital, that is a problem because you can't say to
+shareholders, the rational thing to do is to put capital in and leave capital in the
+business.
+
+But that is not the case.
+
+Now, it hasn't been the case for a few years.
+
+And you can see from the returns the banks are making that it's not the case.
+
+They are earning more than their cost of capital.
+
+And that's of course a good thing, by the way. It's a good thing.
+
+But it means that they have choices over the earnings they make. They have choices
+between investing, keeping them in the business to support lending. Or let's simplify it,
+taking it back to shareholders.
+
+Those are choices they should make.
+
+I think not only they should make those choices than they do, but I say this because it is
+not the case, therefore in the economics of that, that they can't do that.
+
+So I always want to sort of pick up that argument on the head, but it doesn't mean to say
+that we shouldn't really be a capitalist, because we're coming at it from a different angle
+and saying, is this right?
+
+Well, adapted to the risks that the institutions are facing, the risks, the system we're
+facing, and we've done that, and we think there is scope to make some reduction.
+
+And the consequence of that reduction is there is more headroom to lend.
+
+Now, again, the choice on what they do about that is for them because this is a market
+economy.
+
+Your second question on the releasable buffer.
+
+Well, we are very strongly committed to Basel, the Bank was one of the originators of
+the Federal Reserve agreements in the late 80s.
+
+So, we are committed to this. We will argue the case and to argue the case for several
+weeks, but the context is obviously have a lot to do in terms of the Basel III package. I
+understand that that took the priority.
+
+But I do think that this case and I don't think we're alone in arguing for this.
+
+It is based on a national level.
+So the answer to your question, would we go it alone?
+
+Look, I have a very, very high bar.
+
+I do not want to undermine Basel because it's not just because we have regulation.
+
+As I've said many times, it defines the playing field on which the banks can operate.
+
+So it's in everybody's interest that we have it.
+
+Katharine Braddick: I have one point on that.
+
+So when you think about buffers, there are two sorts, right?
+
+There's the regulatory buffers, as Andrews discussed, which are part of the international
+system that enables you to flow.
+
+There are then buffers, management buffers that firms themselves may have those for a
+number of reasons to do with certain business models, their risk appetites, their
+investors expectations, all kinds of reasons.
+
+They have those buffers.
+
+We are interested in understanding whether they are holding more in the management
+buffer.
+
+There might be efficient because of some misunderstanding of our own regime and
+regulation.
+
+That's something we need to that in the same way that improving the way we capture
+domestic concentration is part of good regulation, ensuring that we're not inadvertently
+sort of colluding in some driving up of management buffers unnecessarily.
+
+That's also contribute.
+
+So I am interested in that conversation with firms to see if there's anything in there that
+is quite distinct from the buffer conversation that Andrews just outlined.
+
+Last question for you. Thank you.
+
+Phoebe Seers Reuters: At the beginning of this year, the Treasury Committee criticized
+the Bank of England and others for what it called a wait and see approach to the
+financial services.
+
+Given where we are now, do you think that the committee was correct in that
+assessment and with the benefit of hindsight, do you wish to approach AI a bit
+differently?
+
+Well, the Committee on AI. Of course, an extensive one.
+Actually, I have to say, with all due respect to committee, I don't think they are worth
+seeing Frontier AI.
+Because I said earlier, if you talk to the people who run AI companies, they did not
+perceive, they did not see the power of these models.
+So I think our response to the point being here is that we are doing actually quite a lot of
+work on AI.
+Whether we given it enough highlighting. Good question.
+I think probably we haven't because we were focused on other things.
+But I can tell you a lot of work goes on in this place on AI.
+We have stepped up workups substantially correspond to AI.
+Which I think is the right thing to do.
+And I do honestly, I do read occasionally, not for anybody particularly, but the UK
+somehow behind all this, I don't think the UK this before in terms of.
+I think we've been quite active on that front.
+Sarah Breeden: If I might add one thing.
+I think what the developments in the spring highlighted to me was this point about tech
+surprise and the pace of development.
+The developers were surprised.
+We were surprised.
+Maybe we should expect to be surprised in future again.
+And so doing our very best to get ahead of these issues is a sensible strategy.
+Thanks very much, everyone. Thank you.

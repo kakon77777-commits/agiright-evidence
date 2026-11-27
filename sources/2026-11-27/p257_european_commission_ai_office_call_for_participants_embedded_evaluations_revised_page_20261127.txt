@@ -1,0 +1,120 @@
+Source: https://digital-strategy.ec.europa.eu/en/news/call-participants-workshop-embedded-evaluations-gpai-models-systemic-risk
+Fetched: 2026-11-27 22:20 (Taipei) by script, 55,205 bytes of HTML, SHA-256 784f2f7899eae2bb07b7b373c537cdf4742e5a638f852619bcb632e0eed1ee6a. The text of the page with tags removed; copied whole.
+The page as it read after the change made on November 27; the earlier wording is p249. Cited in the Round 115 discussion, by Episode 115 (v0.135.0) and by the dated note on topic 554.
+
+Call for participants: workshop on embedded evaluations of GPAI models with systemic risk | Shaping Europe’s digital future
+Skip to main content
+en Select your language
+Close
+bg български
+es español
+cs čeština
+da dansk
+de Deutsch
+et eesti
+el ελληνικά
+en English
+fr français
+ga Gaeilge
+hr hrvatski
+it italiano
+lv latviešu
+lt lietuvių
+hu magyar
+mt Malti
+nl Nederlands
+pl polski
+pt português
+ro română
+sk slovenčina
+sl slovenščina
+fi suomi
+sv svenska
+Search
+Search
+Shaping Europe’s digital future
+Menu Close Menu
+Back Previous items Next items Home
+Policies
+Activities
+News
+Library
+Funding
+Calendar
+Consultations
+AI Office
+Home
+News & Views
+Call for participants: workshop on embedded evaluations of GPAI models with systemic risk
+Call for participants: workshop on embedded evaluations of GPAI models with systemic risk
+NEWS ARTICLE
+Publication 27 November 2026
+The AI Office is seeking input from experts on embedded evaluations of general-purpose AI (GPAI) models with systemic risk.
+iStock Photo Getty Images +
+The AI Office is hosting an online workshop in January 2027 focusing on embedded evaluations as a means of assessing systemic risks stemming from general-purpose AI (GPAI) models .
+'Embedded evaluation' refers to an approach in which qualified independent evaluators – who are external to the GPAI model provider – are given employee-like access to the provider’s internal models, systems, staff and documentation to assess systemic risks over an extended period (examples: AI Evaluator Forum’s public letter and white paper by GovAI ).
+This workshop will bring together relevant AI safety experts and AI Office staff, possibly drawing on perspectives from GPAI model providers to exchange views on the current state of the art in conducting embedded evaluations.
+Worskhop's focus areas
+This workshop will focus on these aspects (this is a non-exaustive list and the questions are illustrative):
+Qualifications
+Which qualification criteria would be relevant for embedded evaluators, in addition to the baseline qualification criteria discussed in the AI Office’s workshop on the requirements for qualified independent external evaluators of GPAI models ?
+How could evaluators’ non-public work (e.g. work covered by confidentiality agreements) be taken into account when assessing their expertise and track record?
+What role – if any – could public, embedded-specific qualification tiers play? Who could grade the evaluators (e.g. a regulator such as the AI Office)?
+Access
+What access could be appropriate for embedded evaluators, depending on the scope of the assessment? For example: internal-only models, training data, internal deployment logs, monitoring systems, incident records and additional information such as pre-notice about new training methods used.
+What duration and frequency could be appropriate (e.g. continuous, fixed-term or periodic)?
+How could the scope of the assessment be defined/expanded during the evaluation, if necessary? How can related disputes be resolved?
+Transparency
+What could be reasonable publication rights for embedded evaluators, (e.g. regarding engagement terms, access granted and refused, methods, findings and evidence)?
+On what grounds might a provider redact or delay publication and for how long?
+How could reports handle redacted material (e.g. by indicating what was redacted and whether it affects the conclusions)?
+The workshop may also discuss other aspects of embedded evaluations. For instance:
+their scope (e.g. which systemic risks are best assessed through embedded evaluations? Which systems would be unlikely to be assessed adequately?)
+additional independence safeguards that the engagement of embedded evaluators may call for (e.g. cooling-off periods and rotation of individual evaluators).
+The workshop aims to solicit expert opinions on relevant aspects of state-of-the-art embedded evaluations.
+How to participate?
+The AI Office invites proposals on possible approaches to conduct embedded evaluations. The proposals will be the base for selecting participants. The AI Office will share a consolidated document based on the submissions, which will inform the workshop discussions. Selected participants will be able to comment on this document ahead of the workshop.
+We particularly welcome expressions of interest and submissions from those who have conducted embedded evaluations, plan to do so shortly, or have published proposals involving embedded evaluations. The proposals submitted do not need to cover all the points listed above and may go beyond them. Apollo Research’s Principles for Embedded Evaluations and the AI Evaluator Forum’s Minimum Conditions for Embedding Evaluators illustrate what a proposal could cover.
+You can express your interest and submit your proposal until 9 December 2026 . Participants selection and the start of the comment round is also foreseen for December 2026.
+Fill the form to express your interest
+Eligibility and selection
+Applicants will be selected on the basis of the quality and relevance of their submitted proposals and of the following criteria, particularly as they relate to embedded evaluations:
+Demonstrated experience in conducting high-quality evaluations of GPAI models and their systemic risks (e.g. in-depth evaluations of capabilities, propensities, risks, safety mitigation effectiveness, including red teaming, uplift studies, white-box evaluations) and/or
+A quality track record of AI governance thought leadership with a focus on evaluations of systemic risks (e.g. prominent white papers).
+Individuals and organisations that have engaged in embedded evaluations and wish to participate may submit an expression of interest without a proposal. In that case, they should indicate their prior experience with embedded evaluations. An expression of interest without a proposal is also permissible for individuals or organisations that belong to the AI Office’s Network of Evaluators and can demonstrate recent or ongoing relevant work on embedded evaluations. They should likewise indicate this. (The AI Office considers that an individual or organisation belongs to the Network of Evaluators if they consented to this when taking part in any of the workshops on 13 December 2024 , 28 April 2025 or 15 July 2026 .)
+Disclaimer
+This call is issued by the AI Office to gather input for a workshop on embedded evaluations. The content and questions set out here are intended to prompt discussion. They do not represent an official position of the AI Office or the European Commission, and they are not guidance on the application of AI Act. This call is without prejudice to that regulation and to any acts or guidelines adopted under it. Proposals and comments received reflect the views of their authors only.
+The workshop is not intended to cover the expertise, competence, independence or any other requirements of the AI Act's Scientific Panel (as established under Article 68(2) of the AI Act) or the independent experts that the Commission may appoint to conduct evaluations on the basis of Article 92(2) of the AI Act.
+Related topics
+Artificial intelligence
+Last update
+27 November 2026
+Print as PDF
+Shaping Europe’s digital future
+This site is managed by:
+Directorate-General for Communications Networks, Content and Technology
+Digital EU on Mastadon
+Digital EU on LinkedIn
+Digital EU on Facebook
+Digital EU on Youtube
+Digital EU on Instagram
+Digital EU on X
+About us
+Privacy statement
+Copyright notice
+About Directorate-General CONNECT
+Language Policy
+Follow the European Commission
+Mastodon
+LinkedIn
+Bluesky
+Facebook
+Youtube
+Other
+Contact us
+Report an IT vulnerability
+Languages on our websites
+Cookies
+Privacy policy
+Legal notice
+Accessibility

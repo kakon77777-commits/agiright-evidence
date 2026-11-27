@@ -1,0 +1,71 @@
+Source: https://transluce.org/embedded-assessment-pilot-with-openai
+Fetched: 2026-11-27 22:20 (Taipei) by script, 30,449 bytes of HTML, SHA-256 9d438f46d4f7f147de8d69a463d87a3b0dec0f670a42dcd8518991ebe6d7a7b7. The text of the page with tags removed; copied whole.
+Cited in the Round 115 discussion and by Episode 115 (v0.135.0).
+
+Announcing an Embedded Assessment Pilot with OpenAI | Transluce AI Transluce Transluce Transluce Transluce Transluce Transluce Transluce
+Research Incident Investigations
+Evaluations
+Training Models for Oversight
+All Reports →
+Products Docent Analyze and understand AI agent behavior
+Docs
+Changelog
+Blog
+Community
+Governance
+Press
+About About Us
+Team
+Independence
+Get Involved
+Search posts ⌘K Careers
+Menu
+Announcing an Embedded Assessment Pilot with OpenAI
+Transluce | Published: November 16, 2026
+Transluce has agreed to a six-week embedded assessment pilot with OpenAI, which will allow us to review and investigate OpenAI’s internal alignment evaluations to understand how well those evaluations capture model behaviors like deception, manipulation, and reward hacking.
+In this post, we describe what we plan to assess, what we expect to publish, and what conditions our embedded staff will be operating under.
+Pilot overview
+This initial exercise is a six-week pilot where members of our team will work onsite at OpenAI to conduct an independent assessment of its internal post-training alignment evaluations. We will review the scope and quality of those evaluations and provide independent insights to the company and to the public.
+We have negotiated privileged access to a handful of OpenAI models, including access to raw chains of thought. Our team will also review select, non-public internal evaluations that OpenAI uses to assess model alignment and detect issues like model deception, manipulation, and reward hacking.
+Embedding within OpenAI's environment will enable us to access internal information that has not generally been available to external evaluators. However, it is not comparable to “employee-level” or “employee-like” access.
+This pilot is a first step. We have agreed with OpenAI that we intend to follow up in early 2027 with a more complete assessment of OpenAI’s alignment evaluations, relying on broader and deeper embedded access. The details have not been finalized, but we look forward to learning from this pilot.
+The terms of the pilot
+We believe that it is important to be transparent about the conditions we’re operating under and clarify how they might impact our independent assessment.
+The terms of this agreement include the following:
+Access . Starting in early December, our staff will have six weeks of privileged access to a handful of OpenAI models, including at least one internal-only model and the ability to review raw chain-of-thought outputs. Our staff will also have permission to review select post-training alignment evaluations, a large number of transcripts from previous training and evaluation runs, and safety case documentation. We can request more access as we go, and OpenAI decides whether we get it. We will report publicly what we requested, what was approved or declined, and how this affected our conclusions. We also have the ability to use some of our own tooling and evaluations on the available models.
+Compensation . Transluce and its staff are not accepting payment from OpenAI for this pilot. OpenAI will cover the cost of compute, provide on-site devices and infrastructure, and make available temporary workspace for our embedded staff.
+Staff selection . OpenAI must review and approve the embedded Transluce staff members prior to the pilot. OpenAI can screen for issues related to security, confidentiality, and conflicts of interest.
+Escalation . Disagreements about access, redactions, or other conditions go first to our OpenAI point of contact and can then be escalated to OpenAI executives and the Safety and Security Committee, an independent oversight committee of the OpenAI Foundation's Board. If that is insufficient, we can also raise concerns with the Committee directly.
+Publication details
+We cannot predict exactly what will be included in our final report, but our intention is to provide as much transparency as possible about our methods and findings.
+Transluce has editorial control over our report, but there are two important restrictions:
+Redaction of non-public information . The agreement gives OpenAI the right to receive our report in advance of release and to request redactions of intellectual property and other non-public information. This could constrain our ability to share full evidence for our claims, though we can publicly share if OpenAI’s restrictions meaningfully impacted our conclusions.
+Restriction related to internal-only models . The agreement prevents us from publishing results related to internal-only models, so all the information we provide publicly will be related to assessments conducted on released models.
+The complete, unredacted version of our findings will be provided to the OpenAI Foundation Board’s Safety and Security Committee.
+To provide additional transparency, in the final report we will document the conditions we operated under, relying on the AEF-1 standard published by the AI Evaluator Forum . For more details on how we preserve our independence as evaluators, see also our Independence and Transparency Policy .
+Looking forward
+This initial exercise will help us advance what we anticipate will be a larger program of embedding Transluce’s independent evaluators within AI model developers.
+We will continue to build on this work as part of our overall mission to advance public understanding and oversight of AI model behavior. This assessment, and embedded assessments in general, cannot supplant other forms of public transparency, accountability, and oversight. We will continue investing in fully public research and incident investigations , as well as supporting efforts to expand access for other researchers.
+About Transluce
+Transluce is a nonprofit research lab dedicated to steering AI’s development in the public interest. We conduct research and evaluations to improve public understanding of AI model behaviors, including in areas like rogue agents, child safety, and manipulation. We also build open and accessible tools to facilitate this research and advance a mature ecosystem of independent AI oversight and accountability.
+If you are interested in exploring open roles at Transluce or otherwise supporting our work, visit www.transluce.org .
+Transluce Transluce Transluce Transluce Transluce Transluce Transluce Independent 501(c)(3) nonprofit · Independence policy
+Research
+Incident Investigations
+Evaluations
+Training Models for Oversight
+All Reports →
+Docent
+Try Docent
+Documentation
+Docent Blog
+Changelog
+Organization
+Governance
+Press
+About
+Careers
+Donate
+Responsible Disclosure
+Privacy and Trust Center
+© 2026 Transluce
