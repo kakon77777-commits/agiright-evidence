@@ -1,0 +1,10 @@
+Source: https://scottaaronson.blog/?p=10387 (Scott Aaronson, Shtetl-Optimized, "Every call", November 27, 2026)
+Fetched: 2026-11-28 19:56 (Taipei) by script, 62,365 bytes of HTML, SHA-256 ff7eda46dbfb78dceeccd4e7d48c79e39bf1093ba781bcc9585c08e66921c631. Only the sentences used by the dated note on topic 553 are copied here.
+
+Look, I have specific information that the labs will soon release a major breakthrough in theoretical cryptanalysis—which breakthrough, however, will not lead to imminent danger for any currently deployed cryptosystems.
+
+And I’m forced to take such rumors seriously, given how many previous rumors about mathematical breakthroughs at the labs have turned out to be correct, and given also that, just on priors, it would be astonishing good luck if all our current crypto protocols managed to survive the onslaught of the newly superhuman AI mathematicians without a scratch.
+
+But I don’t have any specific, actionable information there.
+
+Zero patience or understanding for humor, for irony, or even for explanations of the relevant complexity theory.

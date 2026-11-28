@@ -1,0 +1,82 @@
+{
+  "id": "topic-2026-000556",
+  "url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmbeis/689/report.html",
+  "capturedAt": "2026-11-28T12:20:41Z",
+  "tool": "agiright-snapshot/1.0",
+  "raw": {
+    "status": 403,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5870,
+    "sha256": "17deaa62924da9b71514062f1d6b8d094086eba07cad51cd914baa931b38ce3b",
+    "file": "raw.html"
+  },
+  "browser": {
+    "version": "Edg/158.0.4370.45",
+    "ok": true,
+    "error": null,
+    "navError": null,
+    "document": {
+      "frameId": "A2F3F021CEFBA2EBD132FAEEADDC1F70",
+      "status": 403,
+      "url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmbeis/689/report.html",
+      "mime": "text/html"
+    },
+    "skipped": null,
+    "blockedAdNetworks": true,
+    "autoplay": "user-gesture-required",
+    "layout": {
+      "firstLoadHeight": 900,
+      "afterScrollHeight": 900,
+      "wantedHeight": 900
+    }
+  },
+  "screenshot": {
+    "file": "screenshot.png",
+    "sha256": "3edc95a41f0146ec63eddcc0467b56eae79ab8c34fea2c5983b96cb10e8b5f10",
+    "width": 1366,
+    "height": 900,
+    "bytes": 30892,
+    "format": "png",
+    "truncated": false,
+    "feedClipped": false,
+    "firstLoadHeight": 900,
+    "afterScrollHeight": 900
+  },
+  "record": {
+    "capturedAt": "2026-11-28T12:20:41Z",
+    "url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmbeis/689/report.html",
+    "raw": {
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5870,
+      "sha256": "17deaa62924da9b71514062f1d6b8d094086eba07cad51cd914baa931b38ce3b"
+    },
+    "finalUrl": "https://publications.parliament.uk/pa/cm5902/cmselect/cmbeis/689/report.html",
+    "httpStatus": 403,
+    "title": "Just a moment...",
+    "rendered": {
+      "textChars": 274,
+      "textSha256": "a6685309182b9fe1d440739ede1dcd17d0e9c4ec732a8e4b928178a8f2c857c0",
+      "htmlSha256": "e063f316cb32d916331eb89b24532f2843a6861417ea0519da34a90ac5355c84"
+    },
+    "suspectedBlock": true,
+    "screenshot": {
+      "sha256": "3edc95a41f0146ec63eddcc0467b56eae79ab8c34fea2c5983b96cb10e8b5f10",
+      "width": 1366,
+      "height": 900,
+      "bytes": 30892,
+      "format": "png",
+      "truncated": false,
+      "feedClipped": false
+    },
+    "tool": "agiright-snapshot/1.0 (Edg/158.0.4370.45)",
+    "earliestPublicSnapshot": {
+      "none": true
+    },
+    "archive": {
+      "service": "wayback",
+      "status": "failed",
+      "note": "HTTP 520 -- Wayback Machine Keep the news in the Wayback Machine. Sign Fight for the Future's letter . Hamburger icon An icon used to represent a menu that can be toggled b"
+    }
+  }
+}

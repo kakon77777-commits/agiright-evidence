@@ -1,0 +1,14 @@
+Source: https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/ (Engadget, November 27, 2026, 2:45 pm EST, reporting Bloomberg)
+Fetched: 2026-11-28 19:56 (Taipei) by script, 62,133 bytes of HTML, SHA-256 a88b0c476e2acc79ce619ac8bdc2d1913b02c04344aff8297582c95bebd7b2b4. Only the sentences used by the dated note on topic 538 are copied here; the Bloomberg article was not read.
+
+Looking through documents two different firms submitted to Chinese regulators, the outlet found mention of GB300 NVL72 and GB200 server racks at the Yangtze River Delta Project in Shanghai. One of the companies, Shanghai Shuoyao, listed a GB300 NVL72 rack as collateral to secure an approximately $14 million loan from the Shanghai Innovation Bank.
+
+However, Bloomberg was able to partly track the lineage of the GB300 unit. By putting the serial of the rack into a public warranty database, the outlet was able to trace it back to Taiwan's Gigabyte Technology
+
+Gigabyte declined to answer Bloomberg's questions about what company or party originally bought the GB300 rack.
+
+A spokesperson told the outlet it "conducts all business in compliance with applicable laws and regulations," adding, "all transactions are subject to our internal compliance requirements and the relevant laws and regulations in effect at the time.
+
+Earlier this month, Shanghai Shuoyao said it was one of Megaspeed's service providers, but described its relationship with the company as "limited to ordinary commercial cooperation."
+
+Bloomberg notes it does not have evidence that Megaspeed directly diverted NVIDIA chips to the data center, and the company denies any wrongdoing . The Justice Department is investigating whether Megaspeed broke US export rules

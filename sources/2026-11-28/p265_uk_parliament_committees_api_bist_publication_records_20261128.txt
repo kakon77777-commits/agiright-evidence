@@ -1,0 +1,34 @@
+Source: https://committees-api.parliament.uk/api/Publications/56062 and https://committees-api.parliament.uk/api/Publications?CommitteeId=365&Take=25&SortOrder=PublicationDateDescending
+Fetched: 2026-11-28 19:58 (Taipei) by script; the list response is 81,478 bytes, SHA-256 d6533f8e677e92d44d28d3132e71b26e926430327585f41e801252713916b142. Chosen fields only.
+Cited by topic 555 (the record of the letter, and that the list showed no reply).
+
+Record 56062: type Correspondence; published 2026-11-27T12:15:00
+Description: Letter to Anthropic relating to the report from Model Evaluation & Threat Research (METR) on AI research and development at Anthropic, 27 November 2026
+File: Letter - 27.11.2026 - BTC Chair to Anthropic on METR's R&D report.pdf (79,307 bytes)
+
+The 25 newest publications of committee 365 (2,422 in all), newest first:
+2026-11-27T12:15:00  56062  Correspondence  Letter to Anthropic relating to the report from Model Evaluation & Threat Research (METR) on AI research and development at Anthropic, 27 November 2026
+2026-11-27T00:01:00  56046  Report  12th Report - Consumer protection: Black Friday
+2026-11-25T16:10:00  56038  Correspondence  Letter to Gordon Brothers relating to the administration of Poundland, 25 November 2026
+2026-11-24T17:00:00  55974  Correspondence  Letter from the John Lewis Partnership relating to the Committee's evidence session on 3 November regarding consumer protection, 9 November 2026
+2026-11-24T17:00:00  55975  Correspondence  Letter from Ming Yang relating to the Committee's Tenth Report of Session relating to China and the UK economy, 9 November 2026
+2026-11-24T17:00:00  55976  Correspondence  Letter from the Secretary of State relating to the Steel Trade Measure, 13 November 2026
+2026-11-24T17:00:00  55977  Correspondence  Letter to BAE Systems relating to exports and end-use monitoring, 16 November 2026
+2026-11-24T17:00:00  55979  Correspondence  Letter from the Minister of State for the Future of Work relating to the Department's current and forthcoming consultation on consumer protection and product safety, 16 November 2026
+2026-11-24T17:00:00  55981  Correspondence  Letter from the Minister of State for Trade relating to Melt and Pour Reporting Requirement for Steel, 16 November 2026
+2026-11-24T17:00:00  55983  Correspondence  Letter to the Secretary of State relating to further questions from the Committee following the evidence session on the 20 October on the work of the Department, 16 November 2026
+2026-11-24T17:00:00  55984  Correspondence  Letter from the Minister of State for the Future of Work relating to tipping code of practice, 17 November 2026
+2026-11-24T17:00:00  55985  Correspondence  Letter from UK Steel relating to the UK steel industry and trade measures, 17 November 2026
+2026-11-24T17:00:00  55986  Correspondence  Letter from the British Business Bank relating to further information requested by the Committee following its session on 27 October on entrepreneurship, 18 October 2026
+2026-11-19T00:01:00  55883  Special Report  6th Special Report - UK-EU relations a decade on: Government Response
+2026-11-18T00:01:00  55827  Report  11th Report - Guardrails for growth: AI safety and security
+2026-11-10T17:05:00  55766  Correspondence  Letter from the Secretary of State relating to the outcome of the Responsible Business Conduct review, 4 November 2026
+2026-11-10T17:05:00  55768  Correspondence  Letter from the Comptroller and Auditor General of the National Audit Office relating to the UK-US pharmaceuticals pricing arrangement, 5 November 2026
+2026-11-10T17:00:00  55760  Correspondence  Letter from the Minister of State for the Future of Work relating to National Living Wage and National Minimum Wage Rates, 2 November 2026
+2026-11-10T17:00:00  55763  Correspondence  Letter from the Secretary of State relating to further information following evidence given to the Committee on 20 October, 2 November 2026
+2026-11-10T17:00:00  55764  Correspondence  Letter to the British Business Bank relating to further information requested by the Committee following the evidence session on 27 October regarding entrepreneurship and business, 3 November 2026
+2026-11-10T17:00:00  55765  Correspondence  Letter from the Minister for Science, Innovation and Investment relating to the Government Response to the consultation on changes to the UK designs framework, 3 November 2026
+2026-11-09T09:00:00  55298  Correspondence  Letter to the Secretary of State and Home Secretary relating to the Immigration and Asylum Bill, 13 October 2026
+2026-11-09T00:01:00  55725  Special Report  4th Special Report - The UK-US economic relationship: 250 years on: Government Response
+2026-11-05T00:01:00  55679  Report  9th Report – Critical minerals
+2026-11-04T15:00:00  55708  Correspondence  Letter to Gordon Brothers relating to giving evidence in front of the Committee, 4 November 2026
